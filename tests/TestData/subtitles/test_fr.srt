@@ -1,0 +1,20 @@
+1
+00:00:01,000 --> 00:00:04,000
+Ceci est la première ligne de sous-titre.
+
+2
+00:00:05,000 --> 00:00:08,000
+Ceci est la deuxième ligne.
+Avec plusieurs lignes de texte.
+
+3
+00:00:09,000 --> 00:00:12,000
+Test des caractères spéciaux: éàùç œ æ
+
+4
+00:00:13,000 --> 00:00:16,000
+<i>Italique</i> et <b>Gras</b>.
+
+5
+00:00:17,000 --> 00:00:20,000
+Dernière entrée de sous-titre.

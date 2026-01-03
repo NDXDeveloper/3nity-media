@@ -1,0 +1,20 @@
+1
+00:00:01,000 --> 00:00:04,000
+This is the first subtitle line.
+
+2
+00:00:05,000 --> 00:00:08,000
+This is the second subtitle line.
+With multiple lines of text.
+
+3
+00:00:09,000 --> 00:00:12,000
+Testing special characters: éàü ñ © ® ™
+
+4
+00:00:13,000 --> 00:00:16,000
+<i>Italics</i> and <b>Bold</b> text.
+
+5
+00:00:17,000 --> 00:00:20,000
+Last subtitle entry for testing.

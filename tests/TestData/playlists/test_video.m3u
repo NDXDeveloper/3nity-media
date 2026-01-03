@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:10,Test Video 720p
+/home/vero/Documents/Github/5test/3nityMedia-Lazarus/tests/TestData/video/test_720p.mp4
+#EXTINF:10,Test Video 1080p
+/home/vero/Documents/Github/5test/3nityMedia-Lazarus/tests/TestData/video/test_1080p.mp4
+#EXTINF:10,Test Video VP9
+/home/vero/Documents/Github/5test/3nityMedia-Lazarus/tests/TestData/video/test_vp9.webm
