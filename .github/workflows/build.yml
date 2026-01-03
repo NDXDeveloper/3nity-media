@@ -274,21 +274,24 @@ jobs:
         # Install RPM build tools
         sudo apt-get install -y rpm rpmbuild 2>/dev/null || sudo apt-get install -y rpm
 
+        # Sanitize version for RPM (no hyphens allowed)
+        RPM_VERSION=$(echo "${VERSION}" | tr '-' '.')
+
         # Create RPM build structure
         mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
-        mkdir -p ~/rpmbuild/BUILDROOT/3nity-media-${VERSION}-1.x86_64
+        mkdir -p ~/rpmbuild/BUILDROOT/3nity-media-${RPM_VERSION}-1.x86_64
 
         # Create tarball for RPM source (including locale files)
-        mkdir -p 3nity-media-${VERSION}
-        mkdir -p 3nity-media-${VERSION}/locale
-        cp bin/x86_64-linux/${{ env.BINARY_NAME }} 3nity-media-${VERSION}/
-        cp README.md 3nity-media-${VERSION}/ 2>/dev/null || true
-        cp LICENSE* 3nity-media-${VERSION}/ 2>/dev/null || true
+        mkdir -p 3nity-media-${RPM_VERSION}
+        mkdir -p 3nity-media-${RPM_VERSION}/locale
+        cp bin/x86_64-linux/${{ env.BINARY_NAME }} 3nity-media-${RPM_VERSION}/
+        cp README.md 3nity-media-${RPM_VERSION}/ 2>/dev/null || true
+        cp LICENSE* 3nity-media-${RPM_VERSION}/ 2>/dev/null || true
         # Copy locale files
         if [ -d "resources/locale" ]; then
-          cp resources/locale/*.lang 3nity-media-${VERSION}/locale/ 2>/dev/null || true
+          cp resources/locale/*.lang 3nity-media-${RPM_VERSION}/locale/ 2>/dev/null || true
         fi
-        tar -czf ~/rpmbuild/SOURCES/3nity-media-${VERSION}.tar.gz 3nity-media-${VERSION}
+        tar -czf ~/rpmbuild/SOURCES/3nity-media-${RPM_VERSION}.tar.gz 3nity-media-${RPM_VERSION}
 
         # Copy icons to SOURCES (all sizes)
         for size in 16 24 32 48 64 128 256; do
@@ -316,7 +319,7 @@ jobs:
         # Create RPM spec file
         cat > ~/rpmbuild/SPECS/3nity-media.spec << EOF
         Name:           3nity-media
-        Version:        ${VERSION}
+        Version:        ${RPM_VERSION}
         Release:        1%{?dist}
         Summary:        Modern multimedia player powered by libmpv
         License:        GPL-2.0
@@ -405,8 +408,8 @@ jobs:
         %doc %{_datadir}/doc/%{name}/*
 
         %changelog
-        * $(date "+%a %b %d %Y") Nicolas DEOUX <NDXDev@gmail.com> - ${VERSION}-1
-        - Release ${VERSION}
+        * $(date "+%a %b %d %Y") Nicolas DEOUX <NDXDev@gmail.com> - ${RPM_VERSION}-1
+        - Release ${RPM_VERSION}
         EOF
 
         # Build RPM
@@ -421,9 +424,9 @@ jobs:
         # Rename to consistent format
         RPM_FILE=$(ls *.rpm 2>/dev/null | head -1)
         if [ -n "$RPM_FILE" ]; then
-          mv "$RPM_FILE" "3nity-media-${VERSION}-1.x86_64.rpm"
+          mv "$RPM_FILE" "3nity-media-${RPM_VERSION}-1.x86_64.rpm"
           echo "=== RPM package info ==="
-          rpm -qip "3nity-media-${VERSION}-1.x86_64.rpm" || true
+          rpm -qip "3nity-media-${RPM_VERSION}-1.x86_64.rpm" || true
         else
           echo "RPM build may have failed"
         fi
