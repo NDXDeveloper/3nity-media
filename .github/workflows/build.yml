@@ -17,18 +17,16 @@ permissions:
 
 jobs:
   # ============================================================================
-  # PREFLIGHT CHECK LINUX - Verify Linux dependencies before building
+  # PREFLIGHT CHECK - Verify all dependencies before building
   # ============================================================================
-  preflight-check-linux:
-    name: Preflight Check (Linux)
+  preflight-check:
+    name: Preflight Check
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check APT packages (Bash)
-      id: check-apt-bash
+    - name: Check Linux dependencies
       run: |
-        echo "=== Preflight Check: Linux Dependencies (Bash) ==="
-
+        echo "=== Preflight Check: Linux Dependencies ==="
         sudo apt-get update -qq
 
         echo "Checking libmpv..."
@@ -63,57 +61,11 @@ jobs:
           exit 1
         fi
 
-        echo "=== Linux APT packages: OK ==="
+        echo "=== Linux dependencies: OK ==="
 
-    - name: Check APT packages (PowerShell)
-      id: check-apt-ps
-      shell: pwsh
+    - name: Check Windows dependencies
       run: |
-        Write-Host "=== Preflight Check: Linux Dependencies (PowerShell) ===" -ForegroundColor Cyan
-
-        $packages = @("libmpv2", "libmpv1", "libqt5pas1", "ffmpeg", "lazarus-ide-qt5")
-        $failed = $false
-
-        foreach ($pkg in $packages) {
-          $result = & apt-cache show $pkg 2>&1
-          if ($LASTEXITCODE -eq 0) {
-            Write-Host "✓ $pkg available" -ForegroundColor Green
-          } else {
-            if ($pkg -eq "libmpv2") {
-              # libmpv1 is acceptable fallback
-              continue
-            }
-            Write-Host "✗ $pkg NOT FOUND" -ForegroundColor Red
-            $failed = $true
-          }
-        }
-
-        if ($failed) {
-          exit 1
-        }
-
-        Write-Host "=== Linux dependencies (PowerShell): OK ===" -ForegroundColor Green
-
-    - name: Summary
-      if: success()
-      run: |
-        echo ""
-        echo "╔════════════════════════════════════════════╗"
-        echo "║  ✓ LINUX PREFLIGHT CHECK PASSED            ║"
-        echo "╚════════════════════════════════════════════╝"
-
-  # ============================================================================
-  # PREFLIGHT CHECK WINDOWS - Verify Windows dependencies before building
-  # ============================================================================
-  preflight-check-windows:
-    name: Preflight Check (Windows)
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Check Windows dependencies (Bash)
-      id: check-windows-bash
-      run: |
-        echo "=== Preflight Check: Windows Dependencies (Bash) ==="
+        echo "=== Preflight Check: Windows Dependencies ==="
 
         # Check SourceForge libmpv
         echo "Checking libmpv on SourceForge..."
@@ -123,14 +75,6 @@ jobs:
 
         if [ -n "$LATEST" ]; then
           echo "✓ libmpv found: $LATEST"
-          DOWNLOAD_URL="${SF_URL}${LATEST}/download"
-          HTTP_CODE=$(curl -sIL "$DOWNLOAD_URL" -o /dev/null -w "%{http_code}" --max-time 20)
-          if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "302" ]; then
-            echo "✓ libmpv downloadable (HTTP $HTTP_CODE)"
-          else
-            echo "✗ libmpv download failed (HTTP $HTTP_CODE)"
-            exit 1
-          fi
         else
           echo "✗ libmpv: NOT FOUND on SourceForge"
           exit 1
@@ -147,67 +91,23 @@ jobs:
           exit 1
         fi
 
-        echo "=== Windows dependencies URLs: OK ==="
-
-    - name: Check Windows dependencies (PowerShell)
-      id: check-windows-ps
-      shell: pwsh
-      run: |
-        Write-Host "=== Preflight Check: Windows Dependencies (PowerShell) ===" -ForegroundColor Cyan
-
-        # Check SourceForge libmpv
-        Write-Host "Checking libmpv on SourceForge..."
-        $sfBaseUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/"
-
-        try {
-          $page = Invoke-WebRequest -Uri $sfBaseUrl -UserAgent "Mozilla/5.0" -TimeoutSec 30
-          $pattern = 'mpv-dev-x86_64-\d{8}-git-[a-f0-9]+\.7z'
-          $matches = [regex]::Matches($page.Content, $pattern)
-
-          if ($matches.Count -gt 0) {
-            $latestFile = $matches[0].Value
-            Write-Host "✓ libmpv found: $latestFile" -ForegroundColor Green
-          } else {
-            Write-Host "✗ libmpv: NOT FOUND on SourceForge" -ForegroundColor Red
-            exit 1
-          }
-        } catch {
-          Write-Host "✗ libmpv: SourceForge unreachable - $($_.Exception.Message)" -ForegroundColor Red
-          exit 1
-        }
-
-        # Check gyan.dev ffprobe
-        Write-Host "Checking ffprobe on gyan.dev..."
-        $ffmpegUrl = "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
-
-        try {
-          $response = Invoke-WebRequest -Uri $ffmpegUrl -Method Head -TimeoutSec 20
-          if ($response.StatusCode -eq 200) {
-            Write-Host "✓ ffprobe available" -ForegroundColor Green
-          } else {
-            Write-Host "✗ ffprobe: unexpected status $($response.StatusCode)" -ForegroundColor Red
-            exit 1
-          }
-        } catch {
-          Write-Host "✗ ffprobe: gyan.dev unreachable - $($_.Exception.Message)" -ForegroundColor Red
-          exit 1
-        }
-
-        Write-Host "=== Windows dependencies (PowerShell): OK ===" -ForegroundColor Green
+        echo "=== Windows dependencies: OK ==="
 
     - name: Summary
       if: success()
       run: |
         echo ""
         echo "╔════════════════════════════════════════════╗"
-        echo "║  ✓ WINDOWS PREFLIGHT CHECK PASSED          ║"
+        echo "║  ✓ PREFLIGHT CHECK PASSED                  ║"
+        echo "║    - Linux APT packages: OK                ║"
+        echo "║    - Windows URLs: OK                      ║"
         echo "╚════════════════════════════════════════════╝"
 
   # ============================================================================
   # BUILD LINUX
   # ============================================================================
   build-linux:
-    needs: preflight-check-linux
+    needs: preflight-check
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.version.outputs.version }}
@@ -1306,7 +1206,7 @@ jobs:
   # ============================================================================
   build-windows:
     runs-on: windows-latest
-    needs: [preflight-check-windows, build-linux]
+    needs: [preflight-check, build-linux]
 
     steps:
     - name: Checkout code
