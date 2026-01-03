@@ -27,10 +27,10 @@ interface
 
 uses
   Classes, SysUtils, LCLType, LCLIntf, Forms, ExtCtrls,
+  {$IFDEF WINDOWS}Windows,{$ENDIF}
   {$IFDEF UNIX}initc, ctypes, x, xlib, xutil,{$ENDIF}
   {$IFDEF LCLQT5}qt5, qtwidgets,{$ENDIF}
-  uLibMPV, uMPVConst, uLog,
-  SyncObjs{$IFDEF WINDOWS}, Windows{$ENDIF};
+  SyncObjs, uLibMPV, uMPVConst, uLog;
 
 {$IFDEF UNIX}
 const
