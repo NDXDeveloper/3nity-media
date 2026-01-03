@@ -27,6 +27,7 @@ interface
 
 uses
   Classes, SysUtils, LCLType, LCLIntf, Forms, ExtCtrls, SyncObjs,
+  {$IFDEF WINDOWS}Windows,{$ENDIF}
   {$IFDEF UNIX}initc, ctypes, x, xlib, xutil,{$ENDIF}
   {$IFDEF LCLQT5}qt5, qtwidgets,{$ENDIF}
   uLibMPV, uMPVConst, uLog;
