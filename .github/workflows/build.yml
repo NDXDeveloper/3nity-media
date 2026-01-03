@@ -293,7 +293,7 @@ jobs:
         # Copy icons to SOURCES (all sizes)
         for size in 16 24 32 48 64 128 256; do
           if [ -f "resources/icons/${size}x${size}.png" ]; then
-            cp "resources/icons/${size}x${size}.png" "~/rpmbuild/SOURCES/3nity-media-${size}.png"
+            cp "resources/icons/${size}x${size}.png" "$HOME/rpmbuild/SOURCES/3nity-media-${size}.png"
           fi
         done
 
