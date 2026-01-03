@@ -1,0 +1,123 @@
+object frmFavorites: TfrmFavorites
+  Left = 360
+  Height = 450
+  Top = 144
+  Width = 800
+  Caption = 'Favorites'
+  ClientHeight = 450
+  ClientWidth = 800
+  Constraints.MinHeight = 450
+  Constraints.MinWidth = 800
+  KeyPreview = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.0.0.3'
+  object lvFavorites: TListView
+    Left = 0
+    Height = 403
+    Top = 26
+    Width = 800
+    Align = alClient
+    Columns = <>
+    PopupMenu = FavoritesPopup
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 0
+    ViewStyle = vsReport
+    OnDblClick = lvFavoritesDblClick
+    OnSelectItem = lvFavoritesSelectItem
+  end
+  object ToolBar: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 800
+    Caption = 'ToolBar'
+    TabOrder = 1
+    object tbPlay: TToolButton
+      Left = 1
+      Top = 2
+      Caption = 'Play'
+      Enabled = False
+      OnClick = tbPlayClick
+    end
+    object tbSep1: TToolButton
+      Left = 24
+      Height = 22
+      Top = 2
+      Caption = 'tbSep1'
+      Style = tbsSeparator
+    end
+    object tbRemove: TToolButton
+      Left = 32
+      Top = 2
+      Caption = 'Remove'
+      Enabled = False
+      OnClick = tbRemoveClick
+    end
+    object tbClear: TToolButton
+      Left = 55
+      Top = 2
+      Caption = 'Clear All'
+      OnClick = tbClearClick
+    end
+    object tbSep2: TToolButton
+      Left = 78
+      Height = 22
+      Top = 2
+      Caption = 'tbSep2'
+      Style = tbsSeparator
+    end
+    object tbRefresh: TToolButton
+      Left = 86
+      Top = 2
+      Caption = 'Refresh'
+      OnClick = tbRefreshClick
+    end
+  end
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 21
+    Top = 429
+    Width = 800
+    Panels = <>
+    SimpleText = '0 favorites'
+  end
+  object FavoritesPopup: TPopupMenu
+    Left = 200
+    Top = 120
+    object mnuPlay: TMenuItem
+      Caption = '&Play'
+      Enabled = False
+      OnClick = mnuPlayClick
+    end
+    object mnuSep1: TMenuItem
+      Caption = '-'
+    end
+    object mnuRemove: TMenuItem
+      Caption = '&Remove from Favorites'
+      Enabled = False
+      OnClick = mnuRemoveClick
+    end
+    object mnuClear: TMenuItem
+      Caption = '&Clear All Favorites'
+      OnClick = mnuClearClick
+    end
+    object mnuSep2: TMenuItem
+      Caption = '-'
+    end
+    object mnuOpenFolder: TMenuItem
+      Caption = 'Open &Folder'
+      Enabled = False
+      OnClick = mnuOpenFolderClick
+    end
+    object mnuCopyPath: TMenuItem
+      Caption = '&Copy Path'
+      Enabled = False
+      OnClick = mnuCopyPathClick
+    end
+  end
+end

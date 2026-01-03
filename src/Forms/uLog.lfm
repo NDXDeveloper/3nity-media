@@ -1,0 +1,120 @@
+object frmLog: TfrmLog
+  Left = 300
+  Height = 406
+  Top = 200
+  Width = 750
+  Caption = 'MPV Log'
+  ClientHeight = 406
+  ClientWidth = 750
+  Constraints.MinHeight = 406
+  Constraints.MinWidth = 750
+  KeyPreview = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.0.0.3'
+  object memoLog: TMemo
+    Left = 0
+    Height = 356
+    Top = 0
+    Width = 750
+    Align = alClient
+    Font.Height = -12
+    Font.Name = 'Monospace'
+    ParentFont = False
+    PopupMenu = pmLog
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 50
+    Top = 356
+    Width = 750
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 50
+    ClientWidth = 750
+    TabOrder = 1
+    object lblCommand: TLabel
+      Left = 8
+      Height = 19
+      Top = 15
+      Width = 68
+      Caption = 'Command:'
+    end
+    object edtCommand: TEdit
+      Left = 104
+      Height = 31
+      Top = 11
+      Width = 296
+      TabOrder = 0
+      OnKeyDown = edtCommandKeyDown
+      OnKeyPress = edtCommandKeyPress
+    end
+    object btnClose: TButton
+      Left = 632
+      Height = 30
+      Top = 11
+      Width = 108
+      Caption = 'Close'
+      TabOrder = 3
+      OnClick = btnCloseClick
+    end
+    object btnClear: TButton
+      Left = 408
+      Height = 30
+      Top = 11
+      Width = 108
+      Caption = 'Clear'
+      TabOrder = 1
+      OnClick = btnClearClick
+    end
+    object btnSave: TButton
+      Left = 520
+      Height = 30
+      Top = 11
+      Width = 108
+      Caption = 'Save...'
+      TabOrder = 2
+      OnClick = btnSaveClick
+    end
+  end
+  object pmLog: TPopupMenu
+    Left = 300
+    Top = 170
+    object mnuCopy: TMenuItem
+      Caption = '&Copy'
+      ShortCut = 16451
+      OnClick = mnuCopyClick
+    end
+    object mnuSelectAll: TMenuItem
+      Caption = 'Select &All'
+      ShortCut = 16449
+      OnClick = mnuSelectAllClick
+    end
+    object mnuSeparator: TMenuItem
+      Caption = '-'
+    end
+    object mnuClear: TMenuItem
+      Caption = 'C&lear'
+      OnClick = mnuClearClick
+    end
+    object mnuSave: TMenuItem
+      Caption = '&Save...'
+      OnClick = mnuSaveClick
+    end
+  end
+  object SaveDialog: TSaveDialog
+    Title = 'Save Log'
+    DefaultExt = '.txt'
+    Filter = 'Text files (*.txt)|*.txt|All files (*.*)|*.*'
+    Left = 400
+    Top = 170
+  end
+end

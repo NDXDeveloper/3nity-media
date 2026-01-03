@@ -1,0 +1,352 @@
+object frmAbout: TfrmAbout
+  Left = 200
+  Height = 620
+  Top = 100
+  Width = 600
+  BorderStyle = bsDialog
+  Caption = 'About 3nity Media'
+  ClientHeight = 620
+  ClientWidth = 600
+  Color = 1776411
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.0.0.0'
+  object pnlHeader: TPanel
+    Left = 0
+    Height = 200
+    Top = 0
+    Width = 600
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 2500134
+    ParentColor = False
+    TabOrder = 0
+    object imgLogo: TImage
+      Left = 20
+      Height = 160
+      Top = 20
+      Width = 160
+      Center = True
+      Proportional = True
+      Stretch = True
+    end
+    object lblAppName: TLabel
+      Left = 200
+      Height = 36
+      Top = 40
+      Width = 380
+      Caption = '3nity Media'
+      Font.Color = clWhite
+      Font.Height = -28
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblVersion: TLabel
+      Left = 200
+      Height = 24
+      Top = 85
+      Width = 200
+      Caption = 'Version 0.1.0'
+      Font.Color = 42495
+      Font.Height = -18
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblCopyright: TLabel
+      Left = 200
+      Height = 20
+      Top = 115
+      Width = 380
+      Caption = 'Copyright (c) 2025 Nicolas DEOUX'
+      Font.Color = 10066329
+      Font.Height = -15
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object pnlTech: TPanel
+    Left = 0
+    Height = 100
+    Top = 200
+    Width = 600
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 2105376
+    ParentColor = False
+    TabOrder = 1
+    object lblTechTitle: TLabel
+      Left = 24
+      Height = 20
+      Top = 12
+      Width = 150
+      Caption = 'POWERED BY'
+      Font.Color = 42495
+      Font.Height = -15
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblFPC: TLabel
+      Left = 24
+      Height = 50
+      Top = 40
+      Width = 175
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Free Pascal'
+      Font.Color = clWhite
+      Font.Height = -18
+      Font.Style = [fsBold]
+      Layout = tlCenter
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblLazarus: TLabel
+      Left = 212
+      Height = 50
+      Top = 40
+      Width = 175
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'Lazarus IDE'
+      Font.Color = clWhite
+      Font.Height = -18
+      Font.Style = [fsBold]
+      Layout = tlCenter
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblMPV: TLabel
+      Left = 400
+      Height = 50
+      Top = 40
+      Width = 175
+      Alignment = taCenter
+      AutoSize = False
+      Caption = 'libmpv'
+      Font.Color = clWhite
+      Font.Height = -18
+      Font.Style = [fsBold]
+      Layout = tlCenter
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object pnlInfo: TPanel
+    Left = 0
+    Height = 130
+    Top = 230
+    Width = 600
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 1776411
+    ParentColor = False
+    TabOrder = 2
+    object pnlBuild: TPanel
+      Left = 0
+      Height = 130
+      Top = 0
+      Width = 300
+      Align = alLeft
+      BevelOuter = bvNone
+      Color = 1776411
+      ParentColor = False
+      TabOrder = 0
+      object lblBuildTitle: TLabel
+        Left = 24
+        Height = 20
+        Top = 12
+        Width = 200
+        Caption = 'BUILD'
+        Font.Color = 42495
+        Font.Height = -15
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblBuildDate: TLabel
+        Left = 24
+        Height = 20
+        Top = 40
+        Width = 260
+        Caption = 'Build Date:'
+        Font.Color = clSilver
+        Font.Height = -15
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblTarget: TLabel
+        Left = 24
+        Height = 20
+        Top = 65
+        Width = 260
+        Caption = 'Target:'
+        Font.Color = clSilver
+        Font.Height = -15
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblCompiler: TLabel
+        Left = 24
+        Height = 20
+        Top = 90
+        Width = 260
+        Caption = 'Compiler:'
+        Font.Color = clSilver
+        Font.Height = -15
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object pnlSystem: TPanel
+      Left = 300
+      Height = 130
+      Top = 0
+      Width = 300
+      Align = alClient
+      BevelOuter = bvNone
+      Color = 1776411
+      ParentColor = False
+      TabOrder = 1
+      object lblSystemTitle: TLabel
+        Left = 24
+        Height = 20
+        Top = 12
+        Width = 150
+        Caption = 'SYSTEM'
+        Font.Color = 42495
+        Font.Height = -15
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblPlatform: TLabel
+        Left = 24
+        Height = 20
+        Top = 40
+        Width = 260
+        Caption = 'Platform:'
+        Font.Color = clSilver
+        Font.Height = -15
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblKernel: TLabel
+        Left = 24
+        Height = 20
+        Top = 65
+        Width = 260
+        Caption = 'Kernel:'
+        Font.Color = clSilver
+        Font.Height = -15
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblMPVApi: TLabel
+        Left = 24
+        Height = 20
+        Top = 90
+        Width = 260
+        Caption = 'libmpv API:'
+        Font.Color = clSilver
+        Font.Height = -15
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+  end
+  object pnlCredits: TPanel
+    Left = 0
+    Height = 90
+    Top = 360
+    Width = 600
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 2105376
+    ParentColor = False
+    TabOrder = 3
+    object lblCreditsTitle: TLabel
+      Left = 24
+      Height = 20
+      Top = 12
+      Width = 150
+      Caption = 'CREDITS'
+      Font.Color = 42495
+      Font.Height = -15
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblDeveloper: TLabel
+      Left = 24
+      Height = 20
+      Top = 38
+      Width = 550
+      Caption = 'Developer: Nicolas DEOUX (NDXDev@gmail.com)'
+      Font.Color = clSilver
+      Font.Height = -15
+      ParentColor = False
+      ParentFont = False
+    end
+    object lblDescription: TLabel
+      Left = 24
+      Height = 20
+      Top = 62
+      Width = 550
+      Caption = 'A powerful cross-platform multimedia player'
+      Font.Color = 8421504
+      Font.Height = -15
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 100
+    Top = 450
+    Width = 600
+    Align = alBottom
+    BevelOuter = bvNone
+    Color = 2500134
+    ParentColor = False
+    TabOrder = 4
+    object btnGitHub: TSpeedButton
+      Left = 130
+      Height = 36
+      Top = 10
+      Width = 110
+      Caption = 'GitHub'
+      Flat = True
+      Font.Color = clWhite
+      Font.Height = -13
+      ParentFont = False
+      OnClick = btnGitHubClick
+    end
+    object btnLicense: TSpeedButton
+      Left = 360
+      Height = 36
+      Top = 10
+      Width = 110
+      Caption = 'License'
+      Flat = True
+      Font.Color = clWhite
+      Font.Height = -13
+      ParentFont = False
+      OnClick = btnLicenseClick
+    end
+    object btnClose: TButton
+      Left = 250
+      Height = 35
+      Top = 55
+      Width = 100
+      Caption = 'Close'
+      Default = True
+      Font.Height = -15
+      OnClick = btnCloseClick
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+end

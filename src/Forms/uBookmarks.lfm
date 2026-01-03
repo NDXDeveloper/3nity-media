@@ -1,0 +1,122 @@
+object frmBookmarks: TfrmBookmarks
+  Left = 100
+  Height = 400
+  Top = 100
+  Width = 700
+  Caption = 'Bookmarks'
+  ClientHeight = 400
+  ClientWidth = 700
+  KeyPreview = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.0.0.0'
+  object lvBookmarks: TListView
+    Left = 0
+    Height = 348
+    Top = 26
+    Width = 700
+    Align = alClient
+    Columns = <>
+    PopupMenu = BookmarksPopup
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 0
+    ViewStyle = vsReport
+    OnDblClick = lvBookmarksDblClick
+    OnSelectItem = lvBookmarksSelectItem
+  end
+  object ToolBar: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 700
+    Caption = 'ToolBar'
+    TabOrder = 1
+    object tbGoto: TToolButton
+      Left = 1
+      Top = 2
+      Caption = 'Go to'
+      Enabled = False
+      OnClick = tbGotoClick
+    end
+    object tbSep1: TToolButton
+      Left = 42
+      Height = 22
+      Top = 2
+      Caption = 'tbSep1'
+      Style = tbsSeparator
+    end
+    object tbRemove: TToolButton
+      Left = 50
+      Top = 2
+      Caption = 'Remove'
+      Enabled = False
+      OnClick = tbRemoveClick
+    end
+    object tbClear: TToolButton
+      Left = 104
+      Top = 2
+      Caption = 'Clear All'
+      OnClick = tbClearClick
+    end
+    object tbSep2: TToolButton
+      Left = 159
+      Height = 22
+      Top = 2
+      Caption = 'tbSep2'
+      Style = tbsSeparator
+    end
+    object tbRefresh: TToolButton
+      Left = 167
+      Top = 2
+      Caption = 'Refresh'
+      OnClick = tbRefreshClick
+    end
+  end
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 26
+    Top = 374
+    Width = 700
+    Panels = <>
+    SimplePanel = True
+    SimpleText = '0 bookmarks'
+  end
+  object BookmarksPopup: TPopupMenu
+    Left = 200
+    Top = 120
+    object mnuGoto: TMenuItem
+      Caption = '&Go to Bookmark'
+      Enabled = False
+      OnClick = mnuGotoClick
+    end
+    object mnuSep1: TMenuItem
+      Caption = '-'
+    end
+    object mnuRemove: TMenuItem
+      Caption = '&Remove Bookmark'
+      Enabled = False
+      OnClick = mnuRemoveClick
+    end
+    object mnuClear: TMenuItem
+      Caption = '&Clear All Bookmarks'
+      OnClick = mnuClearClick
+    end
+    object mnuSep2: TMenuItem
+      Caption = '-'
+    end
+    object mnuOpenFolder: TMenuItem
+      Caption = 'Open &Folder'
+      Enabled = False
+      OnClick = mnuOpenFolderClick
+    end
+    object mnuCopyPath: TMenuItem
+      Caption = '&Copy Path'
+      Enabled = False
+      OnClick = mnuCopyPathClick
+    end
+  end
+end

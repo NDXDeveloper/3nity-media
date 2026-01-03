@@ -1,0 +1,1127 @@
+object frmMain: TfrmMain
+  Left = 411
+  Height = 303
+  Top = 115
+  Width = 504
+  AllowDropFiles = True
+  Caption = '3nity Media'
+  ClientHeight = 303
+  ClientWidth = 504
+  Color = clBlack
+  Constraints.MinHeight = 303
+  Constraints.MinWidth = 504
+  DoubleBuffered = True
+  KeyPreview = True
+  Menu = MainMenu
+  OnActivate = FormActivate
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnDeactivate = FormDeactivate
+  OnDestroy = FormDestroy
+  OnDropFiles = FormDropFiles
+  OnKeyDown = FormKeyDown
+  OnResize = FormResize
+  OnShow = FormShow
+  ParentDoubleBuffered = False
+  Position = poScreenCenter
+  LCLVersion = '3.0.0.3'
+  object pnlVideo: TPanel
+    Left = 0
+    Height = 182
+    Top = 0
+    Width = 504
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 182
+    ClientWidth = 504
+    Color = clBlack
+    ParentBackground = False
+    ParentColor = False
+    PopupMenu = VideoPopupMenu
+    TabOrder = 0
+    OnClick = pnlVideoClick
+    OnDblClick = pnlVideoDblClick
+    OnMouseMove = pnlVideoMouseMove
+    object imgLogo: TImage
+      Left = 300
+      Height = 128
+      Top = 176
+      Width = 200
+      Center = True
+      Stretch = True
+      Visible = False
+    end
+  end
+  object pnlControls: TPanel
+    Left = 0
+    Height = 100
+    Top = 182
+    Width = 504
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 100
+    ClientWidth = 504
+    Color = 2960685
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 1
+    object pnlSeek: TPanel
+      Left = 0
+      Height = 40
+      Top = 0
+      Width = 504
+      Align = alTop
+      BevelOuter = bvNone
+      ClientHeight = 40
+      ClientWidth = 504
+      Color = 2960685
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 0
+      OnMouseWheel = pnlSeekMouseWheel
+      object lblTime: TLabel
+        Left = 8
+        Height = 20
+        Top = 10
+        Width = 60
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = '00:00:00'
+        Font.Color = clWhite
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblDuration: TLabel
+        Left = 436
+        Height = 20
+        Top = 10
+        Width = 60
+        Anchors = [akTop, akRight]
+        AutoSize = False
+        Caption = '00:00:00'
+        Font.Color = clWhite
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object pnlButtons: TPanel
+      Left = 0
+      Height = 60
+      Top = 40
+      Width = 504
+      Align = alClient
+      BevelOuter = bvNone
+      ClientHeight = 60
+      ClientWidth = 504
+      Color = 2960685
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 1
+      object btnPrevious: TSpeedButton
+        Left = 8
+        Height = 28
+        Top = 10
+        Width = 32
+        Caption = '|<'
+        Font.Height = -16
+        OnClick = btnPreviousClick
+        ParentFont = False
+      end
+      object btnPlay: TSpeedButton
+        Left = 48
+        Height = 28
+        Top = 10
+        Width = 40
+        Caption = '>'
+        Font.Height = -20
+        OnClick = btnPlayClick
+        ParentFont = False
+      end
+      object btnStop: TSpeedButton
+        Left = 96
+        Height = 28
+        Top = 10
+        Width = 40
+        Caption = '■'
+        Font.Height = -16
+        OnClick = btnStopClick
+        ParentFont = False
+      end
+      object btnNext: TSpeedButton
+        Left = 144
+        Height = 28
+        Top = 10
+        Width = 40
+        Caption = '>|'
+        Font.Height = -16
+        OnClick = btnNextClick
+        ParentFont = False
+      end
+      object btnMute: TSpeedButton
+        Left = 272
+        Height = 28
+        Top = 10
+        Width = 40
+        Anchors = [akTop, akRight]
+        Caption = '🔊'
+        OnClick = btnMuteClick
+      end
+      object tbVolume: TTrackBar
+        Left = 328
+        Height = 30
+        Top = 8
+        Width = 120
+        Max = 100
+        OnChange = tbVolumeChange
+        Position = 100
+        TickStyle = tsNone
+        Anchors = [akTop, akRight]
+        OnMouseWheel = tbVolumeMouseWheel
+        TabOrder = 0
+      end
+      object lblVolume: TLabel
+        Left = 456
+        Height = 20
+        Top = 12
+        Width = 50
+        Anchors = [akTop, akRight]
+        AutoSize = False
+        Caption = '100%'
+        Font.Color = clWhite
+        ParentColor = False
+        ParentFont = False
+      end
+      object btnFullscreen: TSpeedButton
+        Left = 192
+        Height = 28
+        Top = 10
+        Width = 40
+        Caption = '⛶'
+        Font.Height = -16
+        OnClick = btnFullscreenClick
+        ParentFont = False
+      end
+    end
+  end
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 21
+    Top = 282
+    Width = 504
+    Panels = <    
+      item
+        Width = 500
+      end    
+      item
+        Width = 150
+      end    
+      item
+        Width = 150
+      end>
+    SimpleText = 'Ready'
+  end
+  object MainMenu: TMainMenu
+    Left = 16
+    Top = 16
+    object mnuFile: TMenuItem
+      Caption = '&File'
+      object mnuFileOpen: TMenuItem
+        Caption = '&Open File...'
+        ShortCut = 16463
+        OnClick = mnuFileOpenClick
+      end
+      object mnuFileOpenURL: TMenuItem
+        Caption = 'Open &URL...'
+        ShortCut = 16469
+        OnClick = mnuFileOpenURLClick
+      end
+      object mnuFileOpenClipboard: TMenuItem
+        Caption = 'Open from &Clipboard'
+        ShortCut = 16470
+        OnClick = mnuFileOpenClipboardClick
+      end
+      object mnuFileOpenFolder: TMenuItem
+        Caption = 'Open F&older...'
+        ShortCut = 24646
+        OnClick = mnuFileOpenFolderClick
+      end
+      object mnuFileSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuFileOpenDVD: TMenuItem
+        Caption = 'Open &DVD...'
+        OnClick = mnuFileOpenDVDClick
+      end
+      object mnuFileOpenBluray: TMenuItem
+        Caption = 'Open &Blu-ray...'
+        OnClick = mnuFileOpenBlurayClick
+      end
+      object mnuFileSep3: TMenuItem
+        Caption = '-'
+      end
+      object mnuFileRecent: TMenuItem
+        Caption = '&Recent Files'
+      end
+      object mnuFileSep2: TMenuItem
+        Caption = '-'
+      end
+      object mnuFileExit: TMenuItem
+        Caption = 'E&xit'
+        ShortCut = 32883
+        OnClick = mnuFileExitClick
+      end
+    end
+    object mnuPlayback: TMenuItem
+      Caption = '&Playback'
+      object mnuPlaybackPlayPause: TMenuItem
+        Caption = '&Play/Pause'
+        ShortCut = 32
+        OnClick = mnuPlaybackPlayPauseClick
+      end
+      object mnuPlaybackStop: TMenuItem
+        Caption = '&Stop'
+        OnClick = mnuPlaybackStopClick
+      end
+      object mnuPlaybackSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuPlaybackPrevious: TMenuItem
+        Caption = 'P&revious'
+        OnClick = btnPreviousClick
+      end
+      object mnuPlaybackNext: TMenuItem
+        Caption = '&Next'
+        OnClick = btnNextClick
+      end
+      object mnuPlaybackSep2: TMenuItem
+        Caption = '-'
+      end
+      object mnuPlaybackSeekFwd: TMenuItem
+        Caption = 'Seek &Forward'
+        ShortCut = 39
+        OnClick = mnuPlaybackSeekFwdClick
+      end
+      object mnuPlaybackSeekBack: TMenuItem
+        Caption = 'Seek &Back'
+        ShortCut = 37
+        OnClick = mnuPlaybackSeekBackClick
+      end
+      object mnuPlaybackSep3: TMenuItem
+        Caption = '-'
+      end
+      object mnuPlaybackSpeed: TMenuItem
+        Caption = 'Playback &Speed'
+        object mnuPlaybackSpeed050: TMenuItem
+          Caption = '0.5x'
+          RadioItem = True
+          OnClick = mnuPlaybackSpeed050Click
+        end
+        object mnuPlaybackSpeed075: TMenuItem
+          Caption = '0.75x'
+          RadioItem = True
+          OnClick = mnuPlaybackSpeed075Click
+        end
+        object mnuPlaybackSpeed100: TMenuItem
+          Caption = '1.0x (Normal)'
+          Checked = True
+          RadioItem = True
+          OnClick = mnuPlaybackSpeed100Click
+        end
+        object mnuPlaybackSpeed125: TMenuItem
+          Caption = '1.25x'
+          RadioItem = True
+          OnClick = mnuPlaybackSpeed125Click
+        end
+        object mnuPlaybackSpeed150: TMenuItem
+          Caption = '1.5x'
+          RadioItem = True
+          OnClick = mnuPlaybackSpeed150Click
+        end
+        object mnuPlaybackSpeed200: TMenuItem
+          Caption = '2.0x'
+          RadioItem = True
+          OnClick = mnuPlaybackSpeed200Click
+        end
+      end
+      object mnuPlaybackSep4: TMenuItem
+        Caption = '-'
+      end
+      object mnuPlaybackABLoop: TMenuItem
+        Caption = '&A-B Loop'
+        object mnuPlaybackSetA: TMenuItem
+          Caption = 'Set &A'
+          OnClick = mnuPlaybackSetAClick
+        end
+        object mnuPlaybackSetB: TMenuItem
+          Caption = 'Set &B'
+          OnClick = mnuPlaybackSetBClick
+        end
+        object mnuPlaybackClearAB: TMenuItem
+          Caption = '&Clear Loop'
+          OnClick = mnuPlaybackClearABClick
+        end
+      end
+      object mnuPlaybackSep5: TMenuItem
+        Caption = '-'
+      end
+      object mnuPlaybackChapters: TMenuItem
+        Caption = '&Chapters'
+      end
+      object mnuPlaybackPrevChapter: TMenuItem
+        Caption = 'Previous Chapter'
+        ShortCut = 33
+        OnClick = mnuPlaybackPrevChapterClick
+      end
+      object mnuPlaybackNextChapter: TMenuItem
+        Caption = 'Next Chapter'
+        ShortCut = 34
+        OnClick = mnuPlaybackNextChapterClick
+      end
+      object mnuPlaybackSep6: TMenuItem
+        Caption = '-'
+      end
+      object mnuPlaybackFrameStep: TMenuItem
+        Caption = 'Frame Step &Forward'
+        OnClick = mnuPlaybackFrameStepClick
+      end
+      object mnuPlaybackFrameBack: TMenuItem
+        Caption = 'Frame Step &Backward'
+        OnClick = mnuPlaybackFrameBackClick
+      end
+      object mnuPlaybackSep7: TMenuItem
+        Caption = '-'
+      end
+      object mnuPlaybackDVD: TMenuItem
+        Caption = 'DVD &Navigation'
+        object mnuDVDMenu: TMenuItem
+          Caption = '&Menu'
+          OnClick = mnuDVDMenuClick
+        end
+        object mnuDVDSep1: TMenuItem
+          Caption = '-'
+        end
+        object mnuDVDUp: TMenuItem
+          Caption = '&Up'
+          OnClick = mnuDVDUpClick
+        end
+        object mnuDVDDown: TMenuItem
+          Caption = '&Down'
+          OnClick = mnuDVDDownClick
+        end
+        object mnuDVDLeft: TMenuItem
+          Caption = '&Left'
+          OnClick = mnuDVDLeftClick
+        end
+        object mnuDVDRight: TMenuItem
+          Caption = '&Right'
+          OnClick = mnuDVDRightClick
+        end
+        object mnuDVDSep2: TMenuItem
+          Caption = '-'
+        end
+        object mnuDVDSelect: TMenuItem
+          Caption = '&Select'
+          OnClick = mnuDVDSelectClick
+        end
+      end
+      object mnuPlaybackDVDTitles: TMenuItem
+        Caption = 'DVD &Titles'
+      end
+      object mnuPlaybackSep8: TMenuItem
+        Caption = '-'
+      end
+      object mnuPlaybackGotoTime: TMenuItem
+        Caption = '&Go to Time...'
+        ShortCut = 16455
+        OnClick = mnuPlaybackGotoTimeClick
+      end
+      object mnuPlaybackSep9: TMenuItem
+        Caption = '-'
+      end
+      object mnuPlaybackAddBookmark: TMenuItem
+        Caption = 'Add &Bookmark...'
+        ShortCut = 16450
+        OnClick = mnuPlaybackAddBookmarkClick
+      end
+      object mnuPlaybackBookmarks: TMenuItem
+        Caption = 'Book&marks'
+        OnClick = mnuPlaybackBookmarksClick
+      end
+    end
+    object mnuAudio: TMenuItem
+      Caption = '&Audio'
+      object mnuAudioTrack: TMenuItem
+        Caption = 'Audio &Track'
+      end
+      object mnuAudioVolUp: TMenuItem
+        Caption = 'Volume &Up'
+        ShortCut = 38
+        OnClick = mnuAudioVolUpClick
+      end
+      object mnuAudioVolDown: TMenuItem
+        Caption = 'Volume &Down'
+        ShortCut = 40
+        OnClick = mnuAudioVolDownClick
+      end
+      object mnuAudioMute: TMenuItem
+        Caption = '&Mute'
+        ShortCut = 16461
+        OnClick = mnuAudioMuteClick
+      end
+      object mnuAudioSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuAudioEqualizer: TMenuItem
+        Caption = '&Equalizer...'
+        ShortCut = 16453
+        OnClick = mnuAudioEqualizerClick
+      end
+      object mnuAudioSep2: TMenuItem
+        Caption = '-'
+      end
+      object mnuAudioDelay: TMenuItem
+        Caption = 'Audio &Delay'
+        object mnuAudioDelayPlus: TMenuItem
+          Caption = 'Delay +0.1s'
+          OnClick = mnuAudioDelayPlusClick
+        end
+        object mnuAudioDelayMinus: TMenuItem
+          Caption = 'Delay -0.1s'
+          OnClick = mnuAudioDelayMinusClick
+        end
+        object mnuAudioDelayReset: TMenuItem
+          Caption = 'Reset Delay'
+          OnClick = mnuAudioDelayResetClick
+        end
+      end
+      object mnuAudioSep3: TMenuItem
+        Caption = '-'
+      end
+      object mnuAudioNormalize: TMenuItem
+        Caption = '&Normalize Volume'
+        OnClick = mnuAudioNormalizeClick
+      end
+    end
+    object mnuVideo: TMenuItem
+      Caption = '&Video'
+      object mnuVideoFullscreen: TMenuItem
+        Caption = '&Fullscreen'
+        ShortCut = 122
+        OnClick = mnuVideoFullscreenClick
+      end
+      object mnuVideoSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuVideoAspect: TMenuItem
+        Caption = '&Aspect Ratio'
+        object mnuVideoAspectAuto: TMenuItem
+          Caption = '&Auto'
+          RadioItem = True
+          OnClick = mnuVideoAspectAutoClick
+        end
+        object mnuVideoAspect169: TMenuItem
+          Caption = '&16:9'
+          RadioItem = True
+          OnClick = mnuVideoAspect169Click
+        end
+        object mnuVideoAspect43: TMenuItem
+          Caption = '&4:3'
+          RadioItem = True
+          OnClick = mnuVideoAspect43Click
+        end
+        object mnuVideoAspect235: TMenuItem
+          Caption = '&2.35:1'
+          RadioItem = True
+          OnClick = mnuVideoAspect235Click
+        end
+      end
+      object mnuVideoSep2: TMenuItem
+        Caption = '-'
+      end
+      object mnuVideoScreenshot: TMenuItem
+        Caption = '&Screenshot'
+        ShortCut = 16467
+        OnClick = mnuVideoScreenshotClick
+      end
+      object mnuVideoScreenshotAs: TMenuItem
+        Caption = 'Screenshot &As...'
+        ShortCut = 24659
+        OnClick = mnuVideoScreenshotAsClick
+      end
+      object mnuVideoSep3: TMenuItem
+        Caption = '-'
+      end
+      object mnuVideoRotation: TMenuItem
+        Caption = '&Rotation'
+        object mnuVideoRotate0: TMenuItem
+          Caption = '&0° (Normal)'
+          Checked = True
+          RadioItem = True
+          OnClick = mnuVideoRotate0Click
+        end
+        object mnuVideoRotate90: TMenuItem
+          Caption = '&90°'
+          RadioItem = True
+          OnClick = mnuVideoRotate90Click
+        end
+        object mnuVideoRotate180: TMenuItem
+          Caption = '&180°'
+          RadioItem = True
+          OnClick = mnuVideoRotate180Click
+        end
+        object mnuVideoRotate270: TMenuItem
+          Caption = '&270°'
+          RadioItem = True
+          OnClick = mnuVideoRotate270Click
+        end
+      end
+      object mnuVideoFlip: TMenuItem
+        Caption = '&Flip'
+        object mnuVideoFlipH: TMenuItem
+          Caption = 'Flip &Horizontal'
+          OnClick = mnuVideoFlipHClick
+        end
+        object mnuVideoFlipV: TMenuItem
+          Caption = 'Flip &Vertical'
+          OnClick = mnuVideoFlipVClick
+        end
+      end
+      object mnuVideoSep4: TMenuItem
+        Caption = '-'
+      end
+      object mnuVideoDeinterlace: TMenuItem
+        Caption = '&Deinterlace'
+        OnClick = mnuVideoDeinterlaceClick
+      end
+      object mnuVideoSep5: TMenuItem
+        Caption = '-'
+      end
+      object mnuVideoZoom: TMenuItem
+        Caption = '&Zoom'
+        object mnuVideoZoomIn: TMenuItem
+          Caption = 'Zoom &In (+)'
+          OnClick = mnuVideoZoomInClick
+        end
+        object mnuVideoZoomOut: TMenuItem
+          Caption = 'Zoom &Out (-)'
+          OnClick = mnuVideoZoomOutClick
+        end
+        object mnuVideoZoomReset: TMenuItem
+          Caption = '&Reset Zoom'
+          OnClick = mnuVideoZoomResetClick
+        end
+      end
+      object mnuVideoPan: TMenuItem
+        Caption = '&Pan'
+        object mnuVideoPanLeft: TMenuItem
+          Caption = 'Pan &Left'
+          OnClick = mnuVideoPanLeftClick
+        end
+        object mnuVideoPanRight: TMenuItem
+          Caption = 'Pan &Right'
+          OnClick = mnuVideoPanRightClick
+        end
+        object mnuVideoPanUp: TMenuItem
+          Caption = 'Pan &Up'
+          OnClick = mnuVideoPanUpClick
+        end
+        object mnuVideoPanDown: TMenuItem
+          Caption = 'Pan &Down'
+          OnClick = mnuVideoPanDownClick
+        end
+        object mnuVideoPanReset: TMenuItem
+          Caption = 'R&eset Pan'
+          OnClick = mnuVideoPanResetClick
+        end
+      end
+      object mnuVideoSep6: TMenuItem
+        Caption = '-'
+      end
+      object mnuVideoTrack: TMenuItem
+        Caption = 'Video &Track'
+      end
+      object mnuVideoSep7: TMenuItem
+        Caption = '-'
+      end
+      object mnuVideoAdjustDialog: TMenuItem
+        Caption = 'Video &Adjustments...'
+        ShortCut = 16458
+        OnClick = mnuVideoAdjustDialogClick
+      end
+      object mnuVideoColors: TMenuItem
+        Caption = 'Color &Adjustments'
+        object mnuVideoBrightness: TMenuItem
+          Caption = '&Brightness'
+          object mnuVideoBrightnessUp: TMenuItem
+            Caption = 'Increase (+5)'
+            OnClick = mnuVideoBrightnessUpClick
+          end
+          object mnuVideoBrightnessDown: TMenuItem
+            Caption = 'Decrease (-5)'
+            OnClick = mnuVideoBrightnessDownClick
+          end
+          object mnuVideoBrightnessReset: TMenuItem
+            Caption = 'Reset'
+            OnClick = mnuVideoBrightnessResetClick
+          end
+        end
+        object mnuVideoContrast: TMenuItem
+          Caption = '&Contrast'
+          object mnuVideoContrastUp: TMenuItem
+            Caption = 'Increase (+5)'
+            OnClick = mnuVideoContrastUpClick
+          end
+          object mnuVideoContrastDown: TMenuItem
+            Caption = 'Decrease (-5)'
+            OnClick = mnuVideoContrastDownClick
+          end
+          object mnuVideoContrastReset: TMenuItem
+            Caption = 'Reset'
+            OnClick = mnuVideoContrastResetClick
+          end
+        end
+        object mnuVideoSaturation: TMenuItem
+          Caption = '&Saturation'
+          object mnuVideoSaturationUp: TMenuItem
+            Caption = 'Increase (+5)'
+            OnClick = mnuVideoSaturationUpClick
+          end
+          object mnuVideoSaturationDown: TMenuItem
+            Caption = 'Decrease (-5)'
+            OnClick = mnuVideoSaturationDownClick
+          end
+          object mnuVideoSaturationReset: TMenuItem
+            Caption = 'Reset'
+            OnClick = mnuVideoSaturationResetClick
+          end
+        end
+        object mnuVideoHue: TMenuItem
+          Caption = '&Hue'
+          object mnuVideoHueUp: TMenuItem
+            Caption = 'Increase (+5)'
+            OnClick = mnuVideoHueUpClick
+          end
+          object mnuVideoHueDown: TMenuItem
+            Caption = 'Decrease (-5)'
+            OnClick = mnuVideoHueDownClick
+          end
+          object mnuVideoHueReset: TMenuItem
+            Caption = 'Reset'
+            OnClick = mnuVideoHueResetClick
+          end
+        end
+        object mnuVideoGamma: TMenuItem
+          Caption = '&Gamma'
+          object mnuVideoGammaUp: TMenuItem
+            Caption = 'Increase (+5)'
+            OnClick = mnuVideoGammaUpClick
+          end
+          object mnuVideoGammaDown: TMenuItem
+            Caption = 'Decrease (-5)'
+            OnClick = mnuVideoGammaDownClick
+          end
+          object mnuVideoGammaReset: TMenuItem
+            Caption = 'Reset'
+            OnClick = mnuVideoGammaResetClick
+          end
+        end
+        object mnuVideoColorsReset: TMenuItem
+          Caption = 'Reset &All Colors'
+          OnClick = mnuVideoColorsResetClick
+        end
+      end
+    end
+    object mnuView: TMenuItem
+      Caption = 'Vi&ew'
+      object mnuViewAlwaysOnTop: TMenuItem
+        Caption = '&Always on Top'
+        ShortCut = 84
+        OnClick = mnuViewAlwaysOnTopClick
+      end
+      object mnuViewSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuViewFitToVideo: TMenuItem
+        Caption = '&Fit Window to Video'
+        ShortCut = 87
+        OnClick = mnuViewFitToVideoClick
+      end
+      object mnuViewScale: TMenuItem
+        Caption = 'Window &Scale'
+        object mnuViewScale50: TMenuItem
+          Caption = '&50%'
+          RadioItem = True
+          OnClick = mnuViewScale50Click
+        end
+        object mnuViewScale100: TMenuItem
+          Caption = '&100%'
+          Checked = True
+          RadioItem = True
+          OnClick = mnuViewScale100Click
+        end
+        object mnuViewScale150: TMenuItem
+          Caption = '1&50%'
+          RadioItem = True
+          OnClick = mnuViewScale150Click
+        end
+        object mnuViewScale200: TMenuItem
+          Caption = '&200%'
+          RadioItem = True
+          OnClick = mnuViewScale200Click
+        end
+      end
+      object mnuViewSep2: TMenuItem
+        Caption = '-'
+      end
+      object mnuViewVisualization: TMenuItem
+        Caption = '&Visualization'
+        object mnuVisNone: TMenuItem
+          Caption = '&None'
+          Checked = True
+          RadioItem = True
+          OnClick = mnuVisNoneClick
+        end
+        object mnuVisSpectrum: TMenuItem
+          Caption = '&Spectrum Analyzer'
+          RadioItem = True
+          OnClick = mnuVisSpectrumClick
+        end
+        object mnuVisWaveform: TMenuItem
+          Caption = '&Waveform'
+          RadioItem = True
+          OnClick = mnuVisWaveformClick
+        end
+        object mnuVisVector: TMenuItem
+          Caption = '&Vector Scope'
+          RadioItem = True
+          OnClick = mnuVisVectorClick
+        end
+        object mnuVisVolume: TMenuItem
+          Caption = 'V&U Meter'
+          RadioItem = True
+          OnClick = mnuVisVolumeClick
+        end
+        object mnuVisSep1: TMenuItem
+          Caption = '-'
+        end
+        object mnuVisNextMode: TMenuItem
+          Caption = 'Next &Mode'
+          ShortCut = 24662
+          OnClick = mnuVisNextModeClick
+        end
+        object mnuVisNextColor: TMenuItem
+          Caption = 'Next &Color Scheme'
+          ShortCut = 24653
+          OnClick = mnuVisNextColorClick
+        end
+      end
+    end
+    object mnuSubtitle: TMenuItem
+      Caption = '&Subtitles'
+      object mnuSubtitleTrack: TMenuItem
+        Caption = 'Subtitle &Track'
+      end
+      object mnuSubtitleLoad: TMenuItem
+        Caption = '&Load Subtitle...'
+        OnClick = mnuSubtitleLoadClick
+      end
+      object mnuSubtitleSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuSubtitleDelay: TMenuItem
+        Caption = 'Subtitle &Delay'
+        object mnuSubtitleDelayPlus: TMenuItem
+          Caption = 'Delay +0.1s (X)'
+          OnClick = mnuSubtitleDelayPlusClick
+        end
+        object mnuSubtitleDelayMinus: TMenuItem
+          Caption = 'Delay -0.1s (Z)'
+          OnClick = mnuSubtitleDelayMinusClick
+        end
+        object mnuSubtitleDelayReset: TMenuItem
+          Caption = 'Reset Delay'
+          OnClick = mnuSubtitleDelayResetClick
+        end
+      end
+    end
+    object mnuTools: TMenuItem
+      Caption = '&Tools'
+      object mnuToolsPlaylist: TMenuItem
+        Caption = '&Playlist'
+        ShortCut = 16460
+        OnClick = mnuToolsPlaylistClick
+      end
+      object mnuToolsRadios: TMenuItem
+        Caption = '&Online Radios'
+        ShortCut = 16466
+        OnClick = mnuToolsRadiosClick
+      end
+      object mnuToolsHistory: TMenuItem
+        Caption = '&History'
+        ShortCut = 16456
+        OnClick = mnuToolsHistoryClick
+      end
+      object mnuToolsFavorites: TMenuItem
+        Caption = '&Favorites'
+        ShortCut = 16454
+        OnClick = mnuToolsFavoritesClick
+      end
+      object mnuToolsAddFavorite: TMenuItem
+        Caption = 'Add to Favo&rites'
+        OnClick = mnuToolsAddFavoriteClick
+      end
+      object mnuToolsSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuToolsSleepTimer: TMenuItem
+        Caption = '&Sleep Timer...'
+        OnClick = mnuToolsSleepTimerClick
+      end
+      object mnuToolsCancelTimer: TMenuItem
+        Caption = 'Cancel &Timer'
+        Enabled = False
+        OnClick = mnuToolsCancelTimerClick
+      end
+      object mnuToolsSep4: TMenuItem
+        Caption = '-'
+      end
+      object mnuToolsRecord: TMenuItem
+        Caption = '&Record Stream...'
+        OnClick = mnuToolsRecordClick
+      end
+      object mnuToolsStopRecord: TMenuItem
+        Caption = 'S&top Recording'
+        Enabled = False
+        OnClick = mnuToolsStopRecordClick
+      end
+      object mnuToolsSep3: TMenuItem
+        Caption = '-'
+      end
+      object mnuToolsLanguage: TMenuItem
+        Caption = '&Language'
+      end
+      object mnuToolsSep2: TMenuItem
+        Caption = '-'
+      end
+      object mnuToolsShortcuts: TMenuItem
+        Caption = '&Keyboard Shortcuts...'
+        OnClick = mnuToolsShortcutsClick
+      end
+      object mnuToolsOptions: TMenuItem
+        Caption = '&Options...'
+        ShortCut = 16464
+        OnClick = mnuToolsOptionsClick
+      end
+    end
+    object mnuHelp: TMenuItem
+      Caption = '&Help'
+      object mnuHelpMediaInfo: TMenuItem
+        Caption = '&Media Information...'
+        ShortCut = 16457
+        OnClick = mnuHelpMediaInfoClick
+      end
+      object mnuHelpLog: TMenuItem
+        Caption = '&Log Window'
+        OnClick = mnuHelpLogClick
+      end
+      object mnuHelpSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuHelpAbout: TMenuItem
+        Caption = '&About...'
+        OnClick = mnuHelpAboutClick
+      end
+    end
+  end
+  object OpenDialog: TOpenDialog
+    Filter = 'All Files|*.*'
+    Left = 56
+    Top = 16
+  end
+  object SaveDialog: TSaveDialog
+    DefaultExt = '.png'
+    Filter = 'PNG Image|*.png|JPEG Image|*.jpg;*.jpeg|All Files|*.*'
+    Left = 176
+    Top = 16
+  end
+  object TimerPosition: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = TimerPositionTimer
+    Left = 96
+    Top = 16
+  end
+  object TimerHideControls: TTimer
+    Enabled = False
+    Interval = 3000
+    OnTimer = TimerHideControlsTimer
+    Left = 136
+    Top = 16
+  end
+  object SleepTimer: TTimer
+    Enabled = False
+    OnTimer = SleepTimerTimer
+    Left = 176
+    Top = 16
+  end
+  object TrayIcon: TTrayIcon
+    PopUpMenu = TrayPopupMenu
+    Hint = '3nity Media'
+    OnClick = TrayIconClick
+    OnDblClick = TrayIconDblClick
+    Left = 216
+    Top = 16
+  end
+  object TrayPopupMenu: TPopupMenu
+    Left = 256
+    Top = 16
+    object mnuTrayShow: TMenuItem
+      Caption = '&Show/Hide'
+      OnClick = mnuTrayShowClick
+    end
+    object mnuTraySep1: TMenuItem
+      Caption = '-'
+    end
+    object mnuTrayPlayPause: TMenuItem
+      Caption = '&Play/Pause'
+      OnClick = mnuTrayPlayPauseClick
+    end
+    object mnuTrayStop: TMenuItem
+      Caption = 'S&top'
+      OnClick = mnuTrayStopClick
+    end
+    object mnuTrayPrevious: TMenuItem
+      Caption = 'Pre&vious'
+      OnClick = mnuTrayPreviousClick
+    end
+    object mnuTrayNext: TMenuItem
+      Caption = '&Next'
+      OnClick = mnuTrayNextClick
+    end
+    object mnuTraySep2: TMenuItem
+      Caption = '-'
+    end
+    object mnuTrayMute: TMenuItem
+      Caption = '&Mute'
+      OnClick = mnuTrayMuteClick
+    end
+    object mnuTraySep3: TMenuItem
+      Caption = '-'
+    end
+    object mnuTrayExit: TMenuItem
+      Caption = 'E&xit'
+      OnClick = mnuTrayExitClick
+    end
+  end
+  object VideoPopupMenu: TPopupMenu
+    OnPopup = VideoPopupMenuPopup
+    Left = 296
+    Top = 16
+    object mnuCtxPlayPause: TMenuItem
+      Caption = '&Play/Pause'
+      OnClick = mnuPlaybackPlayPauseClick
+    end
+    object mnuCtxStop: TMenuItem
+      Caption = '&Stop'
+      OnClick = mnuPlaybackStopClick
+    end
+    object mnuCtxSep1: TMenuItem
+      Caption = '-'
+    end
+    object mnuCtxPrevious: TMenuItem
+      Caption = 'Pre&vious'
+      OnClick = btnPreviousClick
+    end
+    object mnuCtxNext: TMenuItem
+      Caption = '&Next'
+      OnClick = btnNextClick
+    end
+    object mnuCtxSep2: TMenuItem
+      Caption = '-'
+    end
+    object mnuCtxFullscreen: TMenuItem
+      Caption = '&Fullscreen'
+      OnClick = mnuVideoFullscreenClick
+    end
+    object mnuCtxAlwaysOnTop: TMenuItem
+      Caption = '&Always on Top'
+      OnClick = mnuViewAlwaysOnTopClick
+    end
+    object mnuCtxSep3: TMenuItem
+      Caption = '-'
+    end
+    object mnuCtxAspect: TMenuItem
+      Caption = 'Aspect &Ratio'
+      object mnuCtxAspectAuto: TMenuItem
+        Caption = '&Auto'
+        RadioItem = True
+        OnClick = mnuVideoAspectAutoClick
+      end
+      object mnuCtxAspect169: TMenuItem
+        Caption = '&16:9'
+        RadioItem = True
+        OnClick = mnuVideoAspect169Click
+      end
+      object mnuCtxAspect43: TMenuItem
+        Caption = '&4:3'
+        RadioItem = True
+        OnClick = mnuVideoAspect43Click
+      end
+      object mnuCtxAspect235: TMenuItem
+        Caption = '&2.35:1'
+        RadioItem = True
+        OnClick = mnuVideoAspect235Click
+      end
+    end
+    object mnuCtxRotation: TMenuItem
+      Caption = 'R&otation'
+      object mnuCtxRotate0: TMenuItem
+        Caption = '&0° (Normal)'
+        RadioItem = True
+        OnClick = mnuVideoRotate0Click
+      end
+      object mnuCtxRotate90: TMenuItem
+        Caption = '&90°'
+        RadioItem = True
+        OnClick = mnuVideoRotate90Click
+      end
+      object mnuCtxRotate180: TMenuItem
+        Caption = '&180°'
+        RadioItem = True
+        OnClick = mnuVideoRotate180Click
+      end
+      object mnuCtxRotate270: TMenuItem
+        Caption = '&270°'
+        RadioItem = True
+        OnClick = mnuVideoRotate270Click
+      end
+    end
+    object mnuCtxSep4: TMenuItem
+      Caption = '-'
+    end
+    object mnuCtxAudioTrack: TMenuItem
+      Caption = 'A&udio Track'
+    end
+    object mnuCtxSubtitleTrack: TMenuItem
+      Caption = 'S&ubtitle Track'
+    end
+    object mnuCtxSep5: TMenuItem
+      Caption = '-'
+    end
+    object mnuCtxMute: TMenuItem
+      Caption = '&Mute'
+      OnClick = mnuAudioMuteClick
+    end
+    object mnuCtxSep6: TMenuItem
+      Caption = '-'
+    end
+    object mnuCtxScreenshot: TMenuItem
+      Caption = 'Sc&reenshot'
+      OnClick = mnuVideoScreenshotClick
+    end
+    object mnuCtxMediaInfo: TMenuItem
+      Caption = 'Media &Info'
+      OnClick = mnuHelpMediaInfoClick
+    end
+  end
+end

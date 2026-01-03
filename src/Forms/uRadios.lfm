@@ -1,0 +1,230 @@
+object frmRadios: TfrmRadios
+  Left = 200
+  Height = 418
+  Top = 150
+  Width = 797
+  Caption = 'Online Radio Stations'
+  ClientHeight = 418
+  ClientWidth = 797
+  Constraints.MinHeight = 418
+  Constraints.MinWidth = 797
+  KeyPreview = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.0.0.3'
+  object ToolBar: TToolBar
+    Left = 0
+    Top = 0
+    Width = 797
+    ButtonHeight = 26
+    ButtonWidth = 32
+    Caption = 'ToolBar'
+    ShowCaptions = True
+    TabOrder = 0
+    object tbRefresh: TToolButton
+      Left = 1
+      Top = 2
+      Caption = 'Refresh'
+      OnClick = tbRefreshClick
+    end
+    object tbSep1: TToolButton
+      Left = 57
+      Height = 26
+      Top = 2
+      Caption = 'tbSep1'
+      Style = tbsSeparator
+    end
+    object tbAddCustom: TToolButton
+      Left = 65
+      Top = 2
+      Caption = 'Add'
+      OnClick = tbAddCustomClick
+    end
+    object tbEditCustom: TToolButton
+      Left = 98
+      Top = 2
+      Caption = 'Edit'
+      OnClick = tbEditCustomClick
+    end
+    object tbDeleteCustom: TToolButton
+      Left = 130
+      Top = 2
+      Caption = 'Delete'
+      OnClick = tbDeleteCustomClick
+    end
+    object tbSep2: TToolButton
+      Left = 180
+      Height = 26
+      Top = 2
+      Caption = 'tbSep2'
+      Style = tbsSeparator
+    end
+    object tbFavorite: TToolButton
+      Left = 188
+      Top = 2
+      Caption = 'Favorite'
+      OnClick = tbFavoriteClick
+    end
+    object tbShowFavorites: TToolButton
+      Left = 248
+      Top = 2
+      AllowAllUp = True
+      Caption = 'Favorites'
+      OnClick = tbShowFavoritesClick
+      Style = tbsCheck
+    end
+    object tbSep3: TToolButton
+      Left = 314
+      Height = 26
+      Top = 2
+      Caption = 'tbSep3'
+      Style = tbsSeparator
+    end
+    object tbShowAll: TToolButton
+      Left = 322
+      Top = 2
+      AllowAllUp = True
+      Caption = 'All'
+      Down = True
+      OnClick = tbShowAllClick
+      Style = tbsCheck
+    end
+  end
+  object pnlFilter: TPanel
+    Left = 0
+    Height = 40
+    Top = 32
+    Width = 797
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 40
+    ClientWidth = 797
+    TabOrder = 1
+    object lblGenre: TLabel
+      Left = 8
+      Height = 19
+      Top = 10
+      Width = 43
+      Caption = 'Genre:'
+    end
+    object cmbGenre: TComboBox
+      Left = 56
+      Height = 35
+      Top = 6
+      Width = 180
+      ItemHeight = 0
+      Style = csDropDownList
+      TabOrder = 0
+      OnChange = cmbGenreChange
+    end
+    object lblSearch: TLabel
+      Left = 260
+      Height = 19
+      Top = 10
+      Width = 46
+      Caption = 'Search:'
+    end
+    object edtSearch: TEdit
+      Left = 352
+      Height = 31
+      Top = 6
+      Width = 208
+      TabOrder = 1
+      OnKeyDown = edtSearchKeyDown
+    end
+    object btnSearch: TButton
+      Left = 568
+      Height = 28
+      Top = 6
+      Width = 142
+      Caption = 'Search'
+      TabOrder = 2
+      OnClick = btnSearchClick
+    end
+    object btnClearSearch: TButton
+      Left = 712
+      Height = 28
+      Top = 6
+      Width = 70
+      Caption = 'Clear'
+      TabOrder = 3
+      OnClick = btnClearSearchClick
+    end
+  end
+  object lvStations: TListView
+    Left = 0
+    Height = 325
+    Top = 72
+    Width = 797
+    Align = alClient
+    Columns = <>
+    PopupMenu = pmStations
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 2
+    ViewStyle = vsReport
+    OnDblClick = lvStationsDblClick
+    OnKeyDown = lvStationsKeyDown
+    OnSelectItem = lvStationsSelectItem
+  end
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 21
+    Top = 397
+    Width = 797
+    Panels = <>
+    SimpleText = '0 stations'
+  end
+  object pmStations: TPopupMenu
+    Left = 600
+    Top = 120
+    object mnuPlay: TMenuItem
+      Caption = '&Play'
+      ShortCut = 13
+      OnClick = mnuPlayClick
+    end
+    object mnuSep1: TMenuItem
+      Caption = '-'
+    end
+    object mnuAddFavorite: TMenuItem
+      Caption = 'Add to &Favorites'
+      OnClick = mnuAddFavoriteClick
+    end
+    object mnuRemoveFavorite: TMenuItem
+      Caption = '&Remove from Favorites'
+      OnClick = mnuRemoveFavoriteClick
+    end
+    object mnuSep2: TMenuItem
+      Caption = '-'
+    end
+    object mnuAddCustom: TMenuItem
+      Caption = '&Add Custom Station...'
+      ShortCut = 45
+      OnClick = mnuAddCustomClick
+    end
+    object mnuEditCustom: TMenuItem
+      Caption = '&Edit Station...'
+      OnClick = mnuEditCustomClick
+    end
+    object mnuDeleteCustom: TMenuItem
+      Caption = '&Delete Station'
+      ShortCut = 46
+      OnClick = mnuDeleteCustomClick
+    end
+    object mnuSep3: TMenuItem
+      Caption = '-'
+    end
+    object mnuCopyURL: TMenuItem
+      Caption = '&Copy URL'
+      ShortCut = 16451
+      OnClick = mnuCopyURLClick
+    end
+    object mnuOpenWebsite: TMenuItem
+      Caption = 'Open &Website'
+      OnClick = mnuOpenWebsiteClick
+    end
+  end
+end

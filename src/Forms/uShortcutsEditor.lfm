@@ -1,0 +1,168 @@
+object frmShortcutsEditor: TfrmShortcutsEditor
+  Left = 100
+  Height = 520
+  Top = 100
+  Width = 550
+  BorderStyle = bsDialog
+  Caption = 'Keyboard Shortcuts'
+  ClientHeight = 520
+  ClientWidth = 550
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.0.0.3'
+  object lblTitle: TLabel
+    Left = 16
+    Height = 20
+    Top = 12
+    Width = 518
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Customize Keyboard Shortcuts'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblSearch: TLabel
+    Left = 16
+    Height = 19
+    Top = 44
+    Width = 46
+    Caption = 'Search:'
+  end
+  object edtSearch: TEdit
+    Left = 112
+    Height = 31
+    Top = 40
+    Width = 200
+    TabOrder = 0
+    OnChange = edtSearchChange
+  end
+  object lvShortcuts: TListView
+    Left = 16
+    Height = 240
+    Top = 76
+    Width = 518
+    Columns = <>
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 1
+    ViewStyle = vsReport
+    OnSelectItem = lvShortcutsSelectItem
+  end
+  object pnlEdit: TPanel
+    Left = 16
+    Height = 120
+    Top = 324
+    Width = 518
+    BevelOuter = bvNone
+    ClientHeight = 120
+    ClientWidth = 518
+    TabOrder = 2
+    object lblAction: TLabel
+      Left = 0
+      Height = 20
+      Top = 0
+      Width = 518
+      AutoSize = False
+      Caption = '(Select an action to edit)'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblCurrentShortcut: TLabel
+      Left = 0
+      Height = 19
+      Top = 24
+      Width = 97
+      Caption = 'Current: (None)'
+    end
+    object edtShortcut: TEdit
+      Left = 0
+      Height = 31
+      Top = 48
+      Width = 200
+      ReadOnly = True
+      TabOrder = 0
+      TextHint = 'Press a key combination...'
+      OnKeyDown = edtShortcutKeyDown
+    end
+    object btnAssign: TButton
+      Left = 210
+      Height = 28
+      Top = 48
+      Width = 80
+      Caption = 'Assign'
+      TabOrder = 1
+      OnClick = btnAssignClick
+    end
+    object btnClear: TButton
+      Left = 298
+      Height = 28
+      Top = 48
+      Width = 80
+      Caption = 'Clear'
+      TabOrder = 2
+      OnClick = btnClearClick
+    end
+    object btnReset: TButton
+      Left = 386
+      Height = 28
+      Top = 48
+      Width = 100
+      Caption = 'Reset Default'
+      TabOrder = 3
+      OnClick = btnResetClick
+    end
+    object lblConflict: TLabel
+      Left = 0
+      Height = 15
+      Top = 86
+      Width = 518
+      AutoSize = False
+      Font.Color = clRed
+      ParentFont = False
+      Visible = False
+    end
+  end
+  object pnlButtons: TPanel
+    Left = 0
+    Height = 50
+    Top = 470
+    Width = 550
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 50
+    ClientWidth = 550
+    TabOrder = 3
+    object btnResetAll: TButton
+      Left = 16
+      Height = 30
+      Top = 10
+      Width = 120
+      Caption = 'Reset All Defaults'
+      TabOrder = 0
+      OnClick = btnResetAllClick
+    end
+    object btnOK: TButton
+      Left = 360
+      Height = 30
+      Top = 10
+      Width = 85
+      Caption = 'OK'
+      Default = True
+      TabOrder = 1
+      OnClick = btnOKClick
+    end
+    object btnCancel: TButton
+      Left = 455
+      Height = 30
+      Top = 10
+      Width = 85
+      Cancel = True
+      Caption = 'Cancel'
+      TabOrder = 2
+      OnClick = btnCancelClick
+    end
+  end
+end
