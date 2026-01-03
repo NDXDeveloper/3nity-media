@@ -1,0 +1,40 @@
+[Desktop Entry]
+Type=Application
+Name=3nity Media
+GenericName=Media Player
+Comment=Modern multimedia player based on libmpv
+Comment[fr]=Lecteur multimédia moderne basé sur libmpv
+Exec=3nity-media %F
+Icon=${SNAP}/share/icons/hicolor/256x256/apps/3nity-media.png
+Terminal=false
+Categories=AudioVideo;Audio;Video;Player;
+Keywords=media;player;video;audio;mpv;music;movie;
+MimeType=audio/mpeg;audio/x-mpeg;audio/mp3;audio/x-mp3;audio/mpeg3;audio/x-mpeg3;audio/mpg;audio/x-mpg;audio/x-mpegaudio;audio/flac;audio/x-flac;audio/ogg;audio/x-ogg;audio/vorbis;audio/x-vorbis;audio/opus;audio/x-opus;audio/m4a;audio/x-m4a;audio/aac;audio/x-aac;audio/wav;audio/x-wav;audio/x-pn-wav;audio/wave;audio/wma;audio/x-ms-wma;audio/ape;audio/x-ape;audio/musepack;audio/x-musepack;audio/mpc;audio/x-mpc;video/avi;video/x-avi;video/msvideo;video/x-msvideo;video/mkv;video/x-mkv;video/x-matroska;video/mp4;video/x-mp4;video/mpeg4;video/m4v;video/x-m4v;video/quicktime;video/x-quicktime;video/mov;video/wmv;video/x-ms-wmv;video/flv;video/x-flv;video/webm;video/x-webm;video/mpeg;video/x-mpeg;video/mpg;video/x-mpg;video/vob;video/x-vob;video/ts;video/x-ts;video/m2ts;video/x-m2ts;video/divx;video/x-divx;video/3gp;video/3gpp;video/ogv;video/ogg;video/x-ogv;application/x-cd-image;application/x-iso9660-image;x-content/video-dvd;x-content/video-bluray;audio/x-mpegurl;audio/mpegurl;application/vnd.apple.mpegurl;audio/x-scpls;
+StartupNotify=true
+StartupWMClass=3nity
+Actions=Play;Pause;Stop;Next;Previous;
+
+[Desktop Action Play]
+Name=Play
+Name[fr]=Lecture
+Exec=3nity-media --play
+
+[Desktop Action Pause]
+Name=Pause
+Name[fr]=Pause
+Exec=3nity-media --pause
+
+[Desktop Action Stop]
+Name=Stop
+Name[fr]=Arrêter
+Exec=3nity-media --stop
+
+[Desktop Action Next]
+Name=Next
+Name[fr]=Suivant
+Exec=3nity-media --next
+
+[Desktop Action Previous]
+Name=Previous
+Name[fr]=Précédent
+Exec=3nity-media --previous

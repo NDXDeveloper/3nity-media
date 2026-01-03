@@ -1,0 +1,386 @@
+# .github/workflows/check-linux-deps.yml
+# Checks availability of Linux dependencies (libmpv, libqt5pas, ffprobe)
+name: Check Linux Dependencies
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 6:00 UTC
+  workflow_dispatch:      # Manual trigger
+
+jobs:
+  # ==========================================================================
+  # CHECK WITH BASH (Linux runner)
+  # ==========================================================================
+  check-bash:
+    name: Check with Bash
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check APT packages availability
+      id: check-apt-bash
+      run: |
+        echo "=== Checking APT packages availability ==="
+
+        sudo apt-get update
+
+        # Check libmpv
+        echo "Checking libmpv..."
+        if apt-cache show libmpv2 2>/dev/null || apt-cache show libmpv1 2>/dev/null; then
+          echo "libmpv: OK"
+          echo "libmpv_status=ok" >> $GITHUB_OUTPUT
+        else
+          echo "libmpv: NOT FOUND"
+          echo "libmpv_status=failed" >> $GITHUB_OUTPUT
+        fi
+
+        # Check libqt5pas
+        echo "Checking libqt5pas..."
+        if apt-cache show libqt5pas1 2>/dev/null; then
+          echo "libqt5pas: OK"
+          echo "libqt5pas_status=ok" >> $GITHUB_OUTPUT
+        else
+          echo "libqt5pas: NOT FOUND"
+          echo "libqt5pas_status=failed" >> $GITHUB_OUTPUT
+        fi
+
+        # Check ffmpeg
+        echo "Checking ffmpeg..."
+        if apt-cache show ffmpeg 2>/dev/null; then
+          echo "ffmpeg: OK"
+          echo "ffmpeg_status=ok" >> $GITHUB_OUTPUT
+        else
+          echo "ffmpeg: NOT FOUND"
+          echo "ffmpeg_status=failed" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Test APT installation
+      id: test-apt-install
+      run: |
+        echo "=== Testing APT installation ==="
+
+        sudo apt-get install -y libmpv2 || sudo apt-get install -y libmpv1
+        sudo apt-get install -y libqt5pas1
+        sudo apt-get install -y ffmpeg
+
+        # Verify installations
+        echo "Checking installed files..."
+
+        # Check libmpv
+        LIBMPV=$(ldconfig -p | grep libmpv || true)
+        if [ -n "$LIBMPV" ]; then
+          echo "libmpv installed: OK"
+          echo "$LIBMPV"
+          echo "libmpv_installed=ok" >> $GITHUB_OUTPUT
+        else
+          echo "libmpv installed: FAILED"
+          echo "libmpv_installed=failed" >> $GITHUB_OUTPUT
+        fi
+
+        # Check libqt5pas
+        LIBQT5PAS=$(ldconfig -p | grep -i qt5pas || true)
+        if [ -n "$LIBQT5PAS" ]; then
+          echo "libqt5pas installed: OK"
+          echo "$LIBQT5PAS"
+          echo "libqt5pas_installed=ok" >> $GITHUB_OUTPUT
+        else
+          echo "libqt5pas installed: FAILED"
+          echo "libqt5pas_installed=failed" >> $GITHUB_OUTPUT
+        fi
+
+        # Check ffprobe
+        if which ffprobe; then
+          echo "ffprobe installed: OK"
+          ffprobe -version | head -1
+          echo "ffprobe_installed=ok" >> $GITHUB_OUTPUT
+        else
+          echo "ffprobe installed: FAILED"
+          echo "ffprobe_installed=failed" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Check Flatpak runtime availability
+      id: check-flatpak
+      run: |
+        echo "=== Checking Flatpak runtime availability ==="
+
+        sudo apt-get install -y flatpak
+        flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+        # Check KDE Platform availability
+        echo "Checking KDE Platform..."
+        if flatpak remote-info --user flathub org.kde.Platform//5.15-23.08 2>/dev/null; then
+          echo "KDE Platform 5.15-23.08: Available"
+          echo "kde_platform=ok" >> $GITHUB_OUTPUT
+        else
+          echo "KDE Platform 5.15-23.08: Not available, checking alternatives..."
+          flatpak remote-info --user flathub org.kde.Platform//6.6 2>/dev/null && echo "kde_platform=ok" >> $GITHUB_OUTPUT || echo "kde_platform=failed" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Check FFmpeg source URL
+      id: check-ffmpeg-source
+      run: |
+        echo "=== Checking FFmpeg source availability ==="
+
+        FFMPEG_URL="https://ffmpeg.org/releases/ffmpeg-6.1.tar.xz"
+        echo "Testing: $FFMPEG_URL"
+
+        HTTP_CODE=$(curl -sIL "$FFMPEG_URL" -o /dev/null -w "%{http_code}" --max-time 30)
+
+        if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "302" ]; then
+          echo "FFmpeg source: OK (HTTP $HTTP_CODE)"
+          echo "ffmpeg_source=ok" >> $GITHUB_OUTPUT
+        else
+          echo "FFmpeg source: FAILED (HTTP $HTTP_CODE)"
+          echo "ffmpeg_source=failed" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Check MPV source URL
+      id: check-mpv-source
+      run: |
+        echo "=== Checking MPV source availability ==="
+
+        MPV_URL="https://github.com/mpv-player/mpv/archive/refs/tags/v0.37.0.tar.gz"
+        echo "Testing: $MPV_URL"
+
+        HTTP_CODE=$(curl -sIL "$MPV_URL" -o /dev/null -w "%{http_code}" --max-time 30)
+
+        if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "302" ]; then
+          echo "MPV source: OK (HTTP $HTTP_CODE)"
+          echo "mpv_source=ok" >> $GITHUB_OUTPUT
+        else
+          echo "MPV source: FAILED (HTTP $HTTP_CODE)"
+          echo "mpv_source=failed" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Summary (Bash)
+      if: always()
+      run: |
+        echo "=== Bash Check Summary ==="
+        echo "APT libmpv: ${{ steps.check-apt-bash.outputs.libmpv_status }}"
+        echo "APT libqt5pas: ${{ steps.check-apt-bash.outputs.libqt5pas_status }}"
+        echo "APT ffmpeg: ${{ steps.check-apt-bash.outputs.ffmpeg_status }}"
+        echo "Installed libmpv: ${{ steps.test-apt-install.outputs.libmpv_installed }}"
+        echo "Installed libqt5pas: ${{ steps.test-apt-install.outputs.libqt5pas_installed }}"
+        echo "Installed ffprobe: ${{ steps.test-apt-install.outputs.ffprobe_installed }}"
+        echo "Flatpak KDE Platform: ${{ steps.check-flatpak.outputs.kde_platform }}"
+        echo "FFmpeg source: ${{ steps.check-ffmpeg-source.outputs.ffmpeg_source }}"
+        echo "MPV source: ${{ steps.check-mpv-source.outputs.mpv_source }}"
+
+  # ==========================================================================
+  # CHECK WITH POWERSHELL (Linux runner with pwsh)
+  # ==========================================================================
+  check-powershell:
+    name: Check with PowerShell
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Install PowerShell
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget apt-transport-https software-properties-common
+        wget -q "https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb"
+        sudo dpkg -i packages-microsoft-prod.deb
+        sudo apt-get update
+        sudo apt-get install -y powershell
+
+    - name: Check APT packages with PowerShell
+      id: check-apt-ps
+      shell: pwsh
+      run: |
+        Write-Host "=== Checking APT packages with PowerShell ===" -ForegroundColor Cyan
+
+        # Check libmpv
+        Write-Host "Checking libmpv..."
+        $libmpv = & apt-cache show libmpv2 2>&1
+        if ($LASTEXITCODE -eq 0) {
+          Write-Host "libmpv2: OK" -ForegroundColor Green
+          "libmpv_status=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        } else {
+          $libmpv1 = & apt-cache show libmpv1 2>&1
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "libmpv1: OK" -ForegroundColor Green
+            "libmpv_status=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          } else {
+            Write-Host "libmpv: NOT FOUND" -ForegroundColor Red
+            "libmpv_status=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          }
+        }
+
+        # Check libqt5pas
+        Write-Host "Checking libqt5pas..."
+        $libqt5pas = & apt-cache show libqt5pas1 2>&1
+        if ($LASTEXITCODE -eq 0) {
+          Write-Host "libqt5pas1: OK" -ForegroundColor Green
+          "libqt5pas_status=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        } else {
+          Write-Host "libqt5pas: NOT FOUND" -ForegroundColor Red
+          "libqt5pas_status=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        }
+
+        # Check ffmpeg
+        Write-Host "Checking ffmpeg..."
+        $ffmpeg = & apt-cache show ffmpeg 2>&1
+        if ($LASTEXITCODE -eq 0) {
+          Write-Host "ffmpeg: OK" -ForegroundColor Green
+          "ffmpeg_status=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        } else {
+          Write-Host "ffmpeg: NOT FOUND" -ForegroundColor Red
+          "ffmpeg_status=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        }
+
+    - name: Check source URLs with PowerShell
+      id: check-urls-ps
+      shell: pwsh
+      run: |
+        Write-Host "=== Checking source URLs with PowerShell ===" -ForegroundColor Cyan
+
+        # Check FFmpeg source
+        $ffmpegUrl = "https://ffmpeg.org/releases/ffmpeg-6.1.tar.xz"
+        Write-Host "Testing FFmpeg: $ffmpegUrl"
+        try {
+          $response = Invoke-WebRequest -Uri $ffmpegUrl -Method Head -TimeoutSec 30
+          if ($response.StatusCode -eq 200) {
+            Write-Host "FFmpeg source: OK" -ForegroundColor Green
+            "ffmpeg_source=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          }
+        } catch {
+          Write-Host "FFmpeg source: FAILED - $($_.Exception.Message)" -ForegroundColor Red
+          "ffmpeg_source=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        }
+
+        # Check MPV source
+        $mpvUrl = "https://github.com/mpv-player/mpv/archive/refs/tags/v0.37.0.tar.gz"
+        Write-Host "Testing MPV: $mpvUrl"
+        try {
+          $response = Invoke-WebRequest -Uri $mpvUrl -Method Head -TimeoutSec 30
+          if ($response.StatusCode -eq 200) {
+            Write-Host "MPV source: OK" -ForegroundColor Green
+            "mpv_source=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          }
+        } catch {
+          Write-Host "MPV source: FAILED - $($_.Exception.Message)" -ForegroundColor Red
+          "mpv_source=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        }
+
+    - name: Test AppImage dependencies
+      id: check-appimage
+      shell: pwsh
+      run: |
+        Write-Host "=== Checking AppImage tool availability ===" -ForegroundColor Cyan
+
+        # Check linuxdeploy
+        $linuxdeployUrl = "https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage"
+        Write-Host "Testing linuxdeploy: $linuxdeployUrl"
+        try {
+          $response = Invoke-WebRequest -Uri $linuxdeployUrl -Method Head -TimeoutSec 30
+          if ($response.StatusCode -eq 200) {
+            Write-Host "linuxdeploy: OK" -ForegroundColor Green
+            "linuxdeploy=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          }
+        } catch {
+          Write-Host "linuxdeploy: FAILED" -ForegroundColor Red
+          "linuxdeploy=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        }
+
+        # Check linuxdeploy-plugin-qt
+        $qtPluginUrl = "https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage"
+        Write-Host "Testing linuxdeploy-plugin-qt: $qtPluginUrl"
+        try {
+          $response = Invoke-WebRequest -Uri $qtPluginUrl -Method Head -TimeoutSec 30
+          if ($response.StatusCode -eq 200) {
+            Write-Host "linuxdeploy-plugin-qt: OK" -ForegroundColor Green
+            "linuxdeploy_qt=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          }
+        } catch {
+          Write-Host "linuxdeploy-plugin-qt: FAILED" -ForegroundColor Red
+          "linuxdeploy_qt=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        }
+
+        # Check appimagetool
+        $appimageToolUrl = "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage"
+        Write-Host "Testing appimagetool: $appimageToolUrl"
+        try {
+          $response = Invoke-WebRequest -Uri $appimageToolUrl -Method Head -TimeoutSec 30
+          if ($response.StatusCode -eq 200) {
+            Write-Host "appimagetool: OK" -ForegroundColor Green
+            "appimagetool=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          }
+        } catch {
+          Write-Host "appimagetool: FAILED" -ForegroundColor Red
+          "appimagetool=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        }
+
+    - name: Summary (PowerShell)
+      if: always()
+      shell: pwsh
+      run: |
+        Write-Host "=== PowerShell Check Summary ===" -ForegroundColor Cyan
+        Write-Host "APT libmpv: ${{ steps.check-apt-ps.outputs.libmpv_status }}"
+        Write-Host "APT libqt5pas: ${{ steps.check-apt-ps.outputs.libqt5pas_status }}"
+        Write-Host "APT ffmpeg: ${{ steps.check-apt-ps.outputs.ffmpeg_status }}"
+        Write-Host "FFmpeg source: ${{ steps.check-urls-ps.outputs.ffmpeg_source }}"
+        Write-Host "MPV source: ${{ steps.check-urls-ps.outputs.mpv_source }}"
+        Write-Host "linuxdeploy: ${{ steps.check-appimage.outputs.linuxdeploy }}"
+        Write-Host "linuxdeploy-plugin-qt: ${{ steps.check-appimage.outputs.linuxdeploy_qt }}"
+        Write-Host "appimagetool: ${{ steps.check-appimage.outputs.appimagetool }}"
+
+  # ==========================================================================
+  # CREATE ISSUE ON FAILURE
+  # ==========================================================================
+  notify-failure:
+    name: Notify on Failure
+    runs-on: ubuntu-latest
+    needs: [check-bash, check-powershell]
+    if: failure()
+
+    steps:
+    - name: Create GitHub Issue
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const title = '⚠️ Linux Dependencies Check Failed';
+          const body = `## Linux Dependencies Check Failed
+
+          One or more Linux dependencies are unavailable or have changed.
+
+          **Date:** ${new Date().toISOString()}
+          **Workflow:** ${context.workflow}
+          **Run:** ${context.runNumber}
+
+          ### Action Required
+          - Check APT package availability (libmpv, libqt5pas, ffmpeg)
+          - Check Flatpak runtime availability
+          - Check source URLs for Flatpak builds
+          - Check AppImage tool availability
+
+          [View workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})
+          `;
+
+          // Check if similar issue already exists
+          const issues = await github.rest.issues.listForRepo({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'open',
+            labels: 'dependencies,automated'
+          });
+
+          const existingIssue = issues.data.find(i => i.title === title);
+
+          if (!existingIssue) {
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: body,
+              labels: ['dependencies', 'automated', 'linux']
+            });
+            console.log('Issue created');
+          } else {
+            // Add comment to existing issue
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: existingIssue.number,
+              body: `### Check failed again\n\n**Date:** ${new Date().toISOString()}\n\n[View workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`
+            });
+            console.log('Comment added to existing issue');
+          }

@@ -1,0 +1,120 @@
+app-id: com.ndxdev.3nity-media
+runtime: org.kde.Platform
+runtime-version: '5.15-23.08'
+sdk: org.kde.Sdk
+command: 3nity-media
+finish-args:
+  # Display
+  - --share=ipc
+  - --socket=x11
+  - --socket=wayland
+  - --device=dri
+  # Audio
+  - --socket=pulseaudio
+  # Network (for streaming)
+  - --share=network
+  # File access
+  - --filesystem=home
+  - --filesystem=/media
+  - --filesystem=/run/media
+  # Desktop integration
+  - --talk-name=org.freedesktop.Notifications
+
+modules:
+  # FFmpeg with common codecs
+  - name: ffmpeg
+    buildsystem: autotools
+    config-opts:
+      - --enable-shared
+      - --disable-static
+      - --disable-doc
+      - --disable-programs
+      - --enable-ffprobe
+      - --enable-gpl
+      - --enable-version3
+      - --enable-libass
+      - --enable-libfreetype
+      - --enable-libmp3lame
+      - --enable-libopus
+      - --enable-libvorbis
+      - --enable-libvpx
+      - --enable-libx264
+      - --enable-libx265
+    sources:
+      - type: archive
+        url: https://ffmpeg.org/releases/ffmpeg-6.1.tar.xz
+        sha256: 488c76e57dd9b3bee901f71d5c95eaf1db4a5a31fe46a28654e837144207c270
+    cleanup:
+      - /include
+      - /lib/pkgconfig
+
+  # libmpv media engine
+  - name: libmpv
+    buildsystem: meson
+    config-opts:
+      - -Dlibmpv=true
+      - -Dcplayer=false
+      - -Dbuild-date=false
+      - -Dalsa=enabled
+      - -Dpulse=enabled
+      - -Dwayland=enabled
+      - -Dx11=enabled
+      - -Dgl=enabled
+      - -Dvulkan=enabled
+    sources:
+      - type: archive
+        url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.37.0.tar.gz
+        sha256: 1d2d4adbaf048a2fa6ee134575032c4b2dad9a7efafd5b3e69b88db935afaddf
+    cleanup:
+      - /include
+      - /lib/pkgconfig
+
+  # libQt5Pas - Pascal Qt5 bindings
+  # TODO: The SHA256 below is a PLACEHOLDER and must be computed manually:
+  #   1. Download: wget "https://sourceforge.net/projects/lazarus/files/Lazarus%20Releases/2.2.6/qt5pas-2.6-1.tar.gz/download" -O qt5pas-2.6-1.tar.gz
+  #   2. Compute: sha256sum qt5pas-2.6-1.tar.gz
+  #   3. Replace the placeholder hash below with the computed value
+  - name: libqt5pas
+    buildsystem: qmake
+    sources:
+      - type: archive
+        url: https://downloads.sourceforge.net/project/lazarus/Lazarus%20Releases/2.2.6/qt5pas-2.6-1.tar.gz
+        sha256: PLACEHOLDER_COMPUTE_MANUALLY_SEE_COMMENT_ABOVE
+    cleanup:
+      - /include
+
+  # Main application
+  - name: 3nity-media
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 3nity-media /app/bin/3nity-media
+      - ln -sf 3nity-media /app/bin/3nity
+      - install -Dm644 com.ndxdev.3nity-media.desktop /app/share/applications/com.ndxdev.3nity-media.desktop
+      - install -Dm644 com.ndxdev.3nity-media.metainfo.xml /app/share/metainfo/com.ndxdev.3nity-media.metainfo.xml
+      - |
+        for size in 16 24 32 48 64 128 256; do
+          if [ -f "icons/${size}x${size}.png" ]; then
+            install -Dm644 "icons/${size}x${size}.png" "/app/share/icons/hicolor/${size}x${size}/apps/com.ndxdev.3nity-media.png"
+          fi
+        done
+      - install -Dm644 LICENSE /app/share/doc/3nity-media/LICENSE
+      - install -Dm644 README.md /app/share/doc/3nity-media/README.md || true
+      - mkdir -p /app/share/3nity-media/locale
+      - cp locale/*.lang /app/share/3nity-media/locale/ 2>/dev/null || true
+    sources:
+      - type: file
+        path: ../bin/x86_64-linux/3nity-media
+      - type: file
+        path: com.ndxdev.3nity-media.desktop
+      - type: file
+        path: com.ndxdev.3nity-media.metainfo.xml
+      - type: file
+        path: ../LICENSE
+      - type: file
+        path: ../README.md
+      - type: dir
+        path: ../resources/icons
+        dest: icons
+      - type: dir
+        path: ../resources/locale
+        dest: locale

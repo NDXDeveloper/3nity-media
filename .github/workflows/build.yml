@@ -1,0 +1,1768 @@
+# .github/workflows/build.yml - 3nity Media CI/CD
+name: Build 3nity Media
+
+on:
+  push:
+    branches: [ main, develop ]
+    tags: [ 'v*' ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  APP_NAME: 3nity-media
+  BINARY_NAME: 3nity-media
+
+permissions:
+  contents: write
+
+jobs:
+  # ============================================================================
+  # PREFLIGHT CHECK LINUX - Verify Linux dependencies before building
+  # ============================================================================
+  preflight-check-linux:
+    name: Preflight Check (Linux)
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check APT packages (Bash)
+      id: check-apt-bash
+      run: |
+        echo "=== Preflight Check: Linux Dependencies (Bash) ==="
+
+        sudo apt-get update -qq
+
+        echo "Checking libmpv..."
+        if apt-cache show libmpv2 &>/dev/null || apt-cache show libmpv1 &>/dev/null; then
+          echo "✓ libmpv: available"
+        else
+          echo "✗ libmpv: NOT FOUND"
+          exit 1
+        fi
+
+        echo "Checking libqt5pas1..."
+        if apt-cache show libqt5pas1 &>/dev/null; then
+          echo "✓ libqt5pas1: available"
+        else
+          echo "✗ libqt5pas1: NOT FOUND"
+          exit 1
+        fi
+
+        echo "Checking ffmpeg..."
+        if apt-cache show ffmpeg &>/dev/null; then
+          echo "✓ ffmpeg: available"
+        else
+          echo "✗ ffmpeg: NOT FOUND"
+          exit 1
+        fi
+
+        echo "Checking lazarus..."
+        if apt-cache show lazarus-ide-qt5 &>/dev/null; then
+          echo "✓ lazarus-ide-qt5: available"
+        else
+          echo "✗ lazarus-ide-qt5: NOT FOUND"
+          exit 1
+        fi
+
+        echo "=== Linux APT packages: OK ==="
+
+    - name: Check APT packages (PowerShell)
+      id: check-apt-ps
+      shell: pwsh
+      run: |
+        Write-Host "=== Preflight Check: Linux Dependencies (PowerShell) ===" -ForegroundColor Cyan
+
+        $packages = @("libmpv2", "libmpv1", "libqt5pas1", "ffmpeg", "lazarus-ide-qt5")
+        $failed = $false
+
+        foreach ($pkg in $packages) {
+          $result = & apt-cache show $pkg 2>&1
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "✓ $pkg available" -ForegroundColor Green
+          } else {
+            if ($pkg -eq "libmpv2") {
+              # libmpv1 is acceptable fallback
+              continue
+            }
+            Write-Host "✗ $pkg NOT FOUND" -ForegroundColor Red
+            $failed = $true
+          }
+        }
+
+        if ($failed) {
+          exit 1
+        }
+
+        Write-Host "=== Linux dependencies (PowerShell): OK ===" -ForegroundColor Green
+
+    - name: Summary
+      if: success()
+      run: |
+        echo ""
+        echo "╔════════════════════════════════════════════╗"
+        echo "║  ✓ LINUX PREFLIGHT CHECK PASSED            ║"
+        echo "╚════════════════════════════════════════════╝"
+
+  # ============================================================================
+  # PREFLIGHT CHECK WINDOWS - Verify Windows dependencies before building
+  # ============================================================================
+  preflight-check-windows:
+    name: Preflight Check (Windows)
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Windows dependencies (Bash)
+      id: check-windows-bash
+      run: |
+        echo "=== Preflight Check: Windows Dependencies (Bash) ==="
+
+        # Check SourceForge libmpv
+        echo "Checking libmpv on SourceForge..."
+        SF_URL="https://sourceforge.net/projects/mpv-player-windows/files/libmpv/"
+        PAGE=$(curl -sL "$SF_URL" --max-time 30)
+        LATEST=$(echo "$PAGE" | grep -oP 'mpv-dev-x86_64-\d{8}-git-[a-f0-9]+\.7z' | head -1)
+
+        if [ -n "$LATEST" ]; then
+          echo "✓ libmpv found: $LATEST"
+          DOWNLOAD_URL="${SF_URL}${LATEST}/download"
+          HTTP_CODE=$(curl -sIL "$DOWNLOAD_URL" -o /dev/null -w "%{http_code}" --max-time 20)
+          if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "302" ]; then
+            echo "✓ libmpv downloadable (HTTP $HTTP_CODE)"
+          else
+            echo "✗ libmpv download failed (HTTP $HTTP_CODE)"
+            exit 1
+          fi
+        else
+          echo "✗ libmpv: NOT FOUND on SourceForge"
+          exit 1
+        fi
+
+        # Check gyan.dev ffprobe
+        echo "Checking ffprobe on gyan.dev..."
+        FFMPEG_URL="https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
+        HTTP_CODE=$(curl -sIL "$FFMPEG_URL" -o /dev/null -w "%{http_code}" --max-time 20)
+        if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "302" ]; then
+          echo "✓ ffprobe available (HTTP $HTTP_CODE)"
+        else
+          echo "✗ ffprobe: NOT AVAILABLE (HTTP $HTTP_CODE)"
+          exit 1
+        fi
+
+        echo "=== Windows dependencies URLs: OK ==="
+
+    - name: Check Windows dependencies (PowerShell)
+      id: check-windows-ps
+      shell: pwsh
+      run: |
+        Write-Host "=== Preflight Check: Windows Dependencies (PowerShell) ===" -ForegroundColor Cyan
+
+        # Check SourceForge libmpv
+        Write-Host "Checking libmpv on SourceForge..."
+        $sfBaseUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/"
+
+        try {
+          $page = Invoke-WebRequest -Uri $sfBaseUrl -UserAgent "Mozilla/5.0" -TimeoutSec 30
+          $pattern = 'mpv-dev-x86_64-\d{8}-git-[a-f0-9]+\.7z'
+          $matches = [regex]::Matches($page.Content, $pattern)
+
+          if ($matches.Count -gt 0) {
+            $latestFile = $matches[0].Value
+            Write-Host "✓ libmpv found: $latestFile" -ForegroundColor Green
+          } else {
+            Write-Host "✗ libmpv: NOT FOUND on SourceForge" -ForegroundColor Red
+            exit 1
+          }
+        } catch {
+          Write-Host "✗ libmpv: SourceForge unreachable - $($_.Exception.Message)" -ForegroundColor Red
+          exit 1
+        }
+
+        # Check gyan.dev ffprobe
+        Write-Host "Checking ffprobe on gyan.dev..."
+        $ffmpegUrl = "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
+
+        try {
+          $response = Invoke-WebRequest -Uri $ffmpegUrl -Method Head -TimeoutSec 20
+          if ($response.StatusCode -eq 200) {
+            Write-Host "✓ ffprobe available" -ForegroundColor Green
+          } else {
+            Write-Host "✗ ffprobe: unexpected status $($response.StatusCode)" -ForegroundColor Red
+            exit 1
+          }
+        } catch {
+          Write-Host "✗ ffprobe: gyan.dev unreachable - $($_.Exception.Message)" -ForegroundColor Red
+          exit 1
+        }
+
+        Write-Host "=== Windows dependencies (PowerShell): OK ===" -ForegroundColor Green
+
+    - name: Summary
+      if: success()
+      run: |
+        echo ""
+        echo "╔════════════════════════════════════════════╗"
+        echo "║  ✓ WINDOWS PREFLIGHT CHECK PASSED          ║"
+        echo "╚════════════════════════════════════════════╝"
+
+  # ============================================================================
+  # BUILD LINUX
+  # ============================================================================
+  build-linux:
+    needs: preflight-check-linux
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Get version
+      id: version
+      run: |
+        if [[ $GITHUB_REF == refs/tags/* ]]; then
+          VERSION=${GITHUB_REF#refs/tags/}
+          VERSION=${VERSION#v}
+        else
+          VERSION="0.0.0-dev.$(date +%Y%m%d).${GITHUB_SHA::7}"
+        fi
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        echo "Building version: $VERSION"
+
+    - name: Install Lazarus and dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          lazarus-ide-qt5 \
+          lazarus-src \
+          lcl-qt5 \
+          lcl-utils \
+          fpc \
+          libqt5pas1 \
+          libqt5pas-dev \
+          libmpv-dev \
+          ffmpeg \
+          build-essential
+
+    - name: Verify installation
+      run: |
+        echo "=== Lazarus version ==="
+        lazbuild --version
+        echo "=== FPC version ==="
+        fpc -iV
+        echo "=== Qt5Pas ==="
+        dpkg -l | grep qt5pas || true
+
+    - name: Build Release binary
+      run: |
+        make clean-all
+        make build-release
+
+        echo "=== Binary info ==="
+        ls -la bin/x86_64-linux/
+        file bin/x86_64-linux/${{ env.BINARY_NAME }}
+
+    - name: Test binary
+      run: |
+        echo "=== Testing binary execution ==="
+        # Test que le binaire peut s'exécuter (affiche l'aide ou version)
+        timeout 5 bin/x86_64-linux/${{ env.BINARY_NAME }} --help || true
+
+        echo "=== Binary dependencies ==="
+        ldd bin/x86_64-linux/${{ env.BINARY_NAME }} || true
+
+    - name: Create DEB package structure
+      run: |
+        mkdir -p package/usr/bin
+        mkdir -p package/usr/share/applications
+        mkdir -p package/usr/share/icons/hicolor/16x16/apps
+        mkdir -p package/usr/share/icons/hicolor/24x24/apps
+        mkdir -p package/usr/share/icons/hicolor/32x32/apps
+        mkdir -p package/usr/share/icons/hicolor/48x48/apps
+        mkdir -p package/usr/share/icons/hicolor/64x64/apps
+        mkdir -p package/usr/share/icons/hicolor/128x128/apps
+        mkdir -p package/usr/share/icons/hicolor/256x256/apps
+        mkdir -p package/usr/share/doc/3nity-media
+        mkdir -p package/usr/share/3nity-media/locale
+        mkdir -p package/DEBIAN
+
+        # Copy binary
+        cp bin/x86_64-linux/${{ env.BINARY_NAME }} package/usr/bin/
+        chmod +x package/usr/bin/${{ env.BINARY_NAME }}
+
+        # Create symlink for short alias
+        ln -s ${{ env.BINARY_NAME }} package/usr/bin/3nity
+
+        # Copy icons (all sizes)
+        for size in 16 24 32 48 64 128 256; do
+          if [ -f "resources/icons/${size}x${size}.png" ]; then
+            cp "resources/icons/${size}x${size}.png" "package/usr/share/icons/hicolor/${size}x${size}/apps/3nity-media.png"
+          fi
+        done
+        echo "Copied icons for sizes: 16, 24, 32, 48, 64, 128, 256"
+
+        # Copy locale files (translations)
+        if [ -d "resources/locale" ]; then
+          cp resources/locale/*.lang package/usr/share/3nity-media/locale/ 2>/dev/null || true
+          echo "Copied $(ls -1 package/usr/share/3nity-media/locale/*.lang 2>/dev/null | wc -l) locale files"
+        fi
+
+        # Copy documentation
+        cp README.md package/usr/share/doc/3nity-media/ || true
+        cp LICENSE* package/usr/share/doc/3nity-media/ || true
+
+        # Create desktop file
+        cat > package/usr/share/applications/3nity-media.desktop << 'EOF'
+        [Desktop Entry]
+        Version=1.0
+        Type=Application
+        Name=3nity Media
+        GenericName=Media Player
+        Comment=Modern multimedia player powered by libmpv
+        Exec=3nity-media %F
+        Icon=3nity-media
+        Terminal=false
+        Categories=AudioVideo;Audio;Video;Player;
+        MimeType=audio/*;video/*;application/ogg;application/x-ogg;audio/ogg;audio/vorbis;audio/x-vorbis;audio/x-vorbis+ogg;video/ogg;video/x-ogm+ogg;video/x-theora+ogg;video/x-theora;audio/x-speex;audio/opus;audio/flac;audio/x-flac;audio/x-ms-asf;audio/x-ms-asx;audio/x-ms-wax;audio/x-pn-realaudio;audio/x-pn-realaudio-plugin;audio/x-real-audio;audio/x-realaudio;audio/mpeg;audio/mpg;audio/mp3;audio/x-mp3;audio/x-mpeg;audio/x-mpg;video/mp4;video/x-m4v;video/mpeg;video/x-mpeg;video/mpeg-system;video/x-mpeg-system;video/mp2t;video/x-msvideo;video/avi;video/divx;video/x-flv;video/quicktime;video/x-matroska;audio/x-matroska;video/webm;audio/webm;audio/wav;audio/x-wav;audio/x-pn-wav;audio/x-pn-windows-acm;video/x-ms-wmv;video/x-ms-asf;audio/x-ms-wma;
+        Keywords=media;player;audio;video;music;movie;stream;radio;
+        EOF
+
+    - name: Create DEB control file
+      run: |
+        cat > package/DEBIAN/control << EOF
+        Package: 3nity-media
+        Version: ${{ steps.version.outputs.version }}
+        Section: sound
+        Priority: optional
+        Architecture: amd64
+        Depends: libc6 (>= 2.17), libqt5pas1, libmpv2 | libmpv1, ffmpeg
+        Recommends: yt-dlp
+        Maintainer: Nicolas DEOUX <NDXDev@gmail.com>
+        Description: Modern multimedia player powered by libmpv
+         3nity Media is a modern, lightweight media player built with
+         Lazarus/Free Pascal and powered by the libmpv engine.
+         .
+         Features include:
+          - Audio and video playback with libmpv
+          - Playlist management (M3U, PLS, XSPF)
+          - Internet radio streaming
+          - Audio equalizer
+          - Video adjustments
+          - Keyboard shortcuts
+          - Multi-language support
+        Homepage: https://github.com/NDXDeveloper/3nity-media
+        EOF
+
+    - name: Build DEB package
+      run: |
+        dpkg-deb --build package
+        DEB_FILE="3nity-media_${{ steps.version.outputs.version }}_amd64.deb"
+        mv package.deb "$DEB_FILE"
+        chmod a+r "$DEB_FILE"
+
+        echo "=== DEB package info ==="
+        dpkg-deb --info "$DEB_FILE"
+
+    # =========================================================================
+    # RPM PACKAGE
+    # =========================================================================
+    - name: Build RPM package
+      run: |
+        VERSION="${{ steps.version.outputs.version }}"
+
+        # Install RPM build tools
+        sudo apt-get install -y rpm rpmbuild 2>/dev/null || sudo apt-get install -y rpm
+
+        # Create RPM build structure
+        mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
+        mkdir -p ~/rpmbuild/BUILDROOT/3nity-media-${VERSION}-1.x86_64
+
+        # Create tarball for RPM source (including locale files)
+        mkdir -p 3nity-media-${VERSION}
+        mkdir -p 3nity-media-${VERSION}/locale
+        cp bin/x86_64-linux/${{ env.BINARY_NAME }} 3nity-media-${VERSION}/
+        cp README.md 3nity-media-${VERSION}/ 2>/dev/null || true
+        cp LICENSE* 3nity-media-${VERSION}/ 2>/dev/null || true
+        # Copy locale files
+        if [ -d "resources/locale" ]; then
+          cp resources/locale/*.lang 3nity-media-${VERSION}/locale/ 2>/dev/null || true
+        fi
+        tar -czf ~/rpmbuild/SOURCES/3nity-media-${VERSION}.tar.gz 3nity-media-${VERSION}
+
+        # Copy icons to SOURCES (all sizes)
+        for size in 16 24 32 48 64 128 256; do
+          if [ -f "resources/icons/${size}x${size}.png" ]; then
+            cp "resources/icons/${size}x${size}.png" "~/rpmbuild/SOURCES/3nity-media-${size}.png"
+          fi
+        done
+
+        # Create desktop file for RPM
+        cat > ~/rpmbuild/SOURCES/3nity-media.desktop << 'EOF'
+        [Desktop Entry]
+        Version=1.0
+        Type=Application
+        Name=3nity Media
+        GenericName=Media Player
+        Comment=Modern multimedia player powered by libmpv
+        Exec=3nity-media %F
+        Icon=3nity-media
+        Terminal=false
+        Categories=AudioVideo;Audio;Video;Player;
+        MimeType=audio/*;video/*;
+        Keywords=media;player;audio;video;music;movie;stream;radio;
+        EOF
+
+        # Create RPM spec file
+        cat > ~/rpmbuild/SPECS/3nity-media.spec << EOF
+        Name:           3nity-media
+        Version:        ${VERSION}
+        Release:        1%{?dist}
+        Summary:        Modern multimedia player powered by libmpv
+        License:        GPL-2.0
+        URL:            https://github.com/NDXDeveloper/3nity-media
+        Source0:        %{name}-%{version}.tar.gz
+        Source1:        3nity-media.desktop
+        Source2:        3nity-media-16.png
+        Source3:        3nity-media-24.png
+        Source4:        3nity-media-32.png
+        Source5:        3nity-media-48.png
+        Source6:        3nity-media-64.png
+        Source7:        3nity-media-128.png
+        Source8:        3nity-media-256.png
+
+        BuildArch:      x86_64
+        AutoReqProv:    no
+
+        Requires:       mpv-libs >= 0.32
+        Requires:       qt5-qtbase >= 5.12
+        Requires:       ffmpeg
+        Recommends:     yt-dlp
+
+        %description
+        3nity Media is a modern, lightweight media player built with
+        Lazarus/Free Pascal and powered by the libmpv engine.
+
+        Features include:
+        - Audio and video playback with libmpv
+        - Playlist management (M3U, PLS, XSPF)
+        - Internet radio streaming
+        - Audio equalizer
+        - Video adjustments
+        - Keyboard shortcuts
+        - Multi-language support (100+ languages)
+
+        %prep
+        %setup -q
+
+        %install
+        mkdir -p %{buildroot}%{_bindir}
+        mkdir -p %{buildroot}%{_datadir}/applications
+        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/16x16/apps
+        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/24x24/apps
+        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/32x32/apps
+        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/48x48/apps
+        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/64x64/apps
+        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/128x128/apps
+        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/256x256/apps
+        mkdir -p %{buildroot}%{_datadir}/doc/%{name}
+        mkdir -p %{buildroot}%{_datadir}/%{name}/locale
+
+        install -m 755 3nity-media %{buildroot}%{_bindir}/3nity-media
+        ln -s 3nity-media %{buildroot}%{_bindir}/3nity
+        install -m 644 %{SOURCE1} %{buildroot}%{_datadir}/applications/3nity-media.desktop
+        install -m 644 %{SOURCE2} %{buildroot}%{_datadir}/icons/hicolor/16x16/apps/3nity-media.png 2>/dev/null || true
+        install -m 644 %{SOURCE3} %{buildroot}%{_datadir}/icons/hicolor/24x24/apps/3nity-media.png 2>/dev/null || true
+        install -m 644 %{SOURCE4} %{buildroot}%{_datadir}/icons/hicolor/32x32/apps/3nity-media.png 2>/dev/null || true
+        install -m 644 %{SOURCE5} %{buildroot}%{_datadir}/icons/hicolor/48x48/apps/3nity-media.png 2>/dev/null || true
+        install -m 644 %{SOURCE6} %{buildroot}%{_datadir}/icons/hicolor/64x64/apps/3nity-media.png 2>/dev/null || true
+        install -m 644 %{SOURCE7} %{buildroot}%{_datadir}/icons/hicolor/128x128/apps/3nity-media.png 2>/dev/null || true
+        install -m 644 %{SOURCE8} %{buildroot}%{_datadir}/icons/hicolor/256x256/apps/3nity-media.png 2>/dev/null || true
+
+        # Install locale files
+        if [ -d "locale" ]; then
+          install -m 644 locale/*.lang %{buildroot}%{_datadir}/%{name}/locale/ 2>/dev/null || true
+        fi
+
+        # Install documentation
+        install -m 644 README.md %{buildroot}%{_datadir}/doc/%{name}/ 2>/dev/null || true
+
+        %files
+        %{_bindir}/3nity-media
+        %{_bindir}/3nity
+        %{_datadir}/applications/3nity-media.desktop
+        %{_datadir}/icons/hicolor/16x16/apps/3nity-media.png
+        %{_datadir}/icons/hicolor/24x24/apps/3nity-media.png
+        %{_datadir}/icons/hicolor/32x32/apps/3nity-media.png
+        %{_datadir}/icons/hicolor/48x48/apps/3nity-media.png
+        %{_datadir}/icons/hicolor/64x64/apps/3nity-media.png
+        %{_datadir}/icons/hicolor/128x128/apps/3nity-media.png
+        %{_datadir}/icons/hicolor/256x256/apps/3nity-media.png
+        %dir %{_datadir}/%{name}
+        %dir %{_datadir}/%{name}/locale
+        %{_datadir}/%{name}/locale/*
+        %dir %{_datadir}/doc/%{name}
+        %doc %{_datadir}/doc/%{name}/*
+
+        %changelog
+        * $(date "+%a %b %d %Y") Nicolas DEOUX <NDXDev@gmail.com> - ${VERSION}-1
+        - Release ${VERSION}
+        EOF
+
+        # Build RPM
+        rpmbuild -bb ~/rpmbuild/SPECS/3nity-media.spec || {
+          echo "Standard rpmbuild failed, trying with --nodeps..."
+          rpmbuild -bb --nodeps ~/rpmbuild/SPECS/3nity-media.spec
+        }
+
+        # Copy RPM to current directory
+        find ~/rpmbuild/RPMS -name "*.rpm" -exec cp {} . \;
+
+        # Rename to consistent format
+        RPM_FILE=$(ls *.rpm 2>/dev/null | head -1)
+        if [ -n "$RPM_FILE" ]; then
+          mv "$RPM_FILE" "3nity-media-${VERSION}-1.x86_64.rpm"
+          echo "=== RPM package info ==="
+          rpm -qip "3nity-media-${VERSION}-1.x86_64.rpm" || true
+        else
+          echo "RPM build may have failed"
+        fi
+
+        ls -la *.rpm 2>/dev/null || echo "No RPM files found"
+
+    - name: Create portable Linux archive
+      run: |
+        mkdir -p 3nity-media-linux-portable
+        mkdir -p 3nity-media-linux-portable/locale
+        mkdir -p 3nity-media-linux-portable/icons/hicolor/16x16/apps
+        mkdir -p 3nity-media-linux-portable/icons/hicolor/24x24/apps
+        mkdir -p 3nity-media-linux-portable/icons/hicolor/32x32/apps
+        mkdir -p 3nity-media-linux-portable/icons/hicolor/48x48/apps
+        mkdir -p 3nity-media-linux-portable/icons/hicolor/64x64/apps
+        mkdir -p 3nity-media-linux-portable/icons/hicolor/128x128/apps
+        mkdir -p 3nity-media-linux-portable/icons/hicolor/256x256/apps
+
+        cp bin/x86_64-linux/${{ env.BINARY_NAME }} 3nity-media-linux-portable/
+        cp README.md 3nity-media-linux-portable/ || true
+        cp LICENSE* 3nity-media-linux-portable/ || true
+
+        # Create symlink for short alias
+        ln -s ${{ env.BINARY_NAME }} 3nity-media-linux-portable/3nity
+
+        # Copy icons (all sizes)
+        for size in 16 24 32 48 64 128 256; do
+          if [ -f "resources/icons/${size}x${size}.png" ]; then
+            cp "resources/icons/${size}x${size}.png" "3nity-media-linux-portable/icons/hicolor/${size}x${size}/apps/3nity-media.png"
+          fi
+        done
+        # Also copy 256x256 as main icon
+        if [ -f "resources/icons/256x256.png" ]; then
+          cp resources/icons/256x256.png 3nity-media-linux-portable/3nity-media.png
+        fi
+        echo "Copied icons for sizes: 16, 24, 32, 48, 64, 128, 256"
+
+        # Copy locale files
+        if [ -d "resources/locale" ]; then
+          cp resources/locale/*.lang 3nity-media-linux-portable/locale/ 2>/dev/null || true
+          echo "Copied $(ls -1 3nity-media-linux-portable/locale/*.lang 2>/dev/null | wc -l) locale files"
+        fi
+
+        # Create desktop file
+        cat > 3nity-media-linux-portable/3nity-media.desktop << 'DESKTOP_EOF'
+        [Desktop Entry]
+        Version=1.0
+        Type=Application
+        Name=3nity Media
+        GenericName=Media Player
+        Comment=Modern multimedia player powered by libmpv
+        Exec=3nity-media %F
+        Icon=3nity-media
+        Terminal=false
+        Categories=AudioVideo;Audio;Video;Player;
+        MimeType=audio/*;video/*;
+        Keywords=media;player;audio;video;music;movie;stream;radio;
+        DESKTOP_EOF
+
+        # Create run.sh launcher
+        cat > 3nity-media-linux-portable/run.sh << 'EOF'
+        #!/bin/bash
+        DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+        export LD_LIBRARY_PATH="$DIR/lib:$LD_LIBRARY_PATH"
+        "$DIR/3nity-media" "$@"
+        EOF
+        chmod +x 3nity-media-linux-portable/run.sh
+
+        # Create install-deps.sh script
+        cat > 3nity-media-linux-portable/install-deps.sh << 'DEPS_EOF'
+        #!/bin/bash
+        #
+        # 3nity Media - Dependency Installation Script
+        # This script installs the required dependencies for 3nity Media
+        #
+
+        set -e
+
+        # Colors for output
+        RED='\033[0;31m'
+        GREEN='\033[0;32m'
+        YELLOW='\033[1;33m'
+        BLUE='\033[0;34m'
+        NC='\033[0m' # No Color
+
+        echo -e "${BLUE}"
+        echo "╔═══════════════════════════════════════════════════════════╗"
+        echo "║       3nity Media - Dependency Installation Script        ║"
+        echo "╚═══════════════════════════════════════════════════════════╝"
+        echo -e "${NC}"
+
+        # Check if running as root
+        if [ "$EUID" -eq 0 ]; then
+            SUDO=""
+        else
+            SUDO="sudo"
+            echo -e "${YELLOW}Note: This script requires sudo privileges to install packages.${NC}"
+            echo ""
+        fi
+
+        # Detect Linux distribution
+        detect_distro() {
+            if [ -f /etc/os-release ]; then
+                . /etc/os-release
+                DISTRO=$ID
+                DISTRO_LIKE=$ID_LIKE
+                VERSION_ID=$VERSION_ID
+            elif [ -f /etc/lsb-release ]; then
+                . /etc/lsb-release
+                DISTRO=$DISTRIB_ID
+            elif [ -f /etc/debian_version ]; then
+                DISTRO="debian"
+            elif [ -f /etc/fedora-release ]; then
+                DISTRO="fedora"
+            elif [ -f /etc/arch-release ]; then
+                DISTRO="arch"
+            else
+                DISTRO="unknown"
+            fi
+            echo "$DISTRO"
+        }
+
+        DISTRO=$(detect_distro)
+        echo -e "Detected distribution: ${GREEN}$DISTRO${NC}"
+        echo ""
+
+        # Install dependencies based on distribution
+        case "$DISTRO" in
+            ubuntu|debian|linuxmint|pop|elementary|zorin|kali)
+                echo -e "${BLUE}Installing dependencies for Debian/Ubuntu-based system...${NC}"
+                $SUDO apt-get update
+                $SUDO apt-get install -y \
+                    libmpv2 libmpv1 2>/dev/null || $SUDO apt-get install -y libmpv1 || $SUDO apt-get install -y libmpv2 \
+                    libqt5pas1 \
+                    ffmpeg
+                ;;
+
+            fedora)
+                echo -e "${BLUE}Installing dependencies for Fedora...${NC}"
+                $SUDO dnf install -y \
+                    mpv-libs \
+                    qt5-qtbase \
+                    ffmpeg
+                ;;
+
+            centos|rhel|rocky|almalinux)
+                echo -e "${BLUE}Installing dependencies for RHEL/CentOS-based system...${NC}"
+                # Enable EPEL and RPM Fusion for ffmpeg
+                $SUDO dnf install -y epel-release || true
+                $SUDO dnf install -y --nogpgcheck \
+                    https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm || true
+                $SUDO dnf install -y \
+                    mpv-libs \
+                    qt5-qtbase \
+                    ffmpeg
+                ;;
+
+            opensuse*|suse|sles)
+                echo -e "${BLUE}Installing dependencies for openSUSE/SUSE...${NC}"
+                $SUDO zypper install -y \
+                    libmpv2 \
+                    libQt5Core5 libQt5Gui5 libQt5Widgets5 \
+                    ffmpeg
+                ;;
+
+            arch|manjaro|endeavouros|garuda)
+                echo -e "${BLUE}Installing dependencies for Arch-based system...${NC}"
+                $SUDO pacman -Sy --noconfirm \
+                    mpv \
+                    qt5-base \
+                    ffmpeg
+                ;;
+
+            gentoo)
+                echo -e "${BLUE}Installing dependencies for Gentoo...${NC}"
+                $SUDO emerge --ask=n \
+                    media-video/mpv \
+                    dev-qt/qtcore:5 \
+                    media-video/ffmpeg
+                ;;
+
+            void)
+                echo -e "${BLUE}Installing dependencies for Void Linux...${NC}"
+                $SUDO xbps-install -Sy \
+                    mpv \
+                    qt5-base \
+                    ffmpeg
+                ;;
+
+            alpine)
+                echo -e "${BLUE}Installing dependencies for Alpine Linux...${NC}"
+                $SUDO apk add \
+                    mpv-libs \
+                    qt5-qtbase \
+                    ffmpeg
+                ;;
+
+            nixos)
+                echo -e "${YELLOW}NixOS detected.${NC}"
+                echo "Please add the following to your configuration.nix:"
+                echo ""
+                echo "  environment.systemPackages = with pkgs; ["
+                echo "    mpv"
+                echo "    ffmpeg"
+                echo "    libsForQt5.qt5.qtbase"
+                echo "  ];"
+                echo ""
+                echo "Then run: sudo nixos-rebuild switch"
+                exit 0
+                ;;
+
+            *)
+                # Try to detect based on ID_LIKE
+                case "$DISTRO_LIKE" in
+                    *debian*|*ubuntu*)
+                        echo -e "${BLUE}Debian-like system detected, trying apt...${NC}"
+                        $SUDO apt-get update
+                        $SUDO apt-get install -y libmpv2 libqt5pas1 ffmpeg 2>/dev/null || \
+                        $SUDO apt-get install -y libmpv1 libqt5pas1 ffmpeg
+                        ;;
+                    *fedora*|*rhel*)
+                        echo -e "${BLUE}Fedora-like system detected, trying dnf...${NC}"
+                        $SUDO dnf install -y mpv-libs qt5-qtbase ffmpeg
+                        ;;
+                    *arch*)
+                        echo -e "${BLUE}Arch-like system detected, trying pacman...${NC}"
+                        $SUDO pacman -Sy --noconfirm mpv qt5-base ffmpeg
+                        ;;
+                    *)
+                        echo -e "${RED}Unknown distribution: $DISTRO${NC}"
+                        echo ""
+                        echo "Please install the following dependencies manually:"
+                        echo "  - libmpv (mpv media player library)"
+                        echo "  - Qt5 base libraries"
+                        echo "  - ffmpeg (for ffprobe)"
+                        echo ""
+                        echo "Common package names:"
+                        echo "  Debian/Ubuntu: libmpv2 libqt5pas1 ffmpeg"
+                        echo "  Fedora:        mpv-libs qt5-qtbase ffmpeg"
+                        echo "  Arch:          mpv qt5-base ffmpeg"
+                        echo "  openSUSE:      libmpv2 libQt5Core5 ffmpeg"
+                        exit 1
+                        ;;
+                esac
+                ;;
+        esac
+
+        echo ""
+        echo -e "${GREEN}╔═══════════════════════════════════════════════════════════╗${NC}"
+        echo -e "${GREEN}║            Dependencies installed successfully!           ║${NC}"
+        echo -e "${GREEN}╚═══════════════════════════════════════════════════════════╝${NC}"
+        echo ""
+        echo "You can now run 3nity Media with:"
+        echo "  ./run.sh"
+        echo ""
+        echo "Or directly:"
+        echo "  ./3nity-media"
+        echo ""
+        DEPS_EOF
+        chmod +x 3nity-media-linux-portable/install-deps.sh
+
+        tar -czf "3nity-media-linux-portable-${{ steps.version.outputs.version }}.tar.gz" 3nity-media-linux-portable/
+
+    # =========================================================================
+    # APPIMAGE
+    # =========================================================================
+    - name: Create AppImage
+      run: |
+        VERSION="${{ steps.version.outputs.version }}"
+
+        # Install AppImage tools and dependencies
+        sudo apt-get install -y libfuse2 file patchelf
+        wget -q https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
+        wget -q https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
+        chmod +x linuxdeploy*.AppImage
+
+        # Create AppDir structure
+        mkdir -p AppDir/usr/bin
+        mkdir -p AppDir/usr/lib
+        mkdir -p AppDir/usr/share/applications
+        mkdir -p AppDir/usr/share/icons/hicolor/16x16/apps
+        mkdir -p AppDir/usr/share/icons/hicolor/24x24/apps
+        mkdir -p AppDir/usr/share/icons/hicolor/32x32/apps
+        mkdir -p AppDir/usr/share/icons/hicolor/48x48/apps
+        mkdir -p AppDir/usr/share/icons/hicolor/64x64/apps
+        mkdir -p AppDir/usr/share/icons/hicolor/128x128/apps
+        mkdir -p AppDir/usr/share/icons/hicolor/256x256/apps
+
+        # Copy binary
+        cp bin/x86_64-linux/${{ env.BINARY_NAME }} AppDir/usr/bin/
+        chmod +x AppDir/usr/bin/${{ env.BINARY_NAME }}
+
+        # Create symlink for short alias
+        ln -s ${{ env.BINARY_NAME }} AppDir/usr/bin/3nity
+
+        # === BUNDLE DEPENDENCIES ===
+        # Copy libmpv and its dependencies
+        echo "Bundling libmpv..."
+        LIBMPV_PATH=$(ldconfig -p | grep libmpv.so | head -1 | awk '{print $NF}')
+        if [ -n "$LIBMPV_PATH" ]; then
+          cp -L "$LIBMPV_PATH" AppDir/usr/lib/
+          # Also copy libmpv.so.2 or libmpv.so.1 symlinks
+          for lib in /usr/lib/x86_64-linux-gnu/libmpv.so*; do
+            [ -f "$lib" ] && cp -L "$lib" AppDir/usr/lib/ 2>/dev/null || true
+          done
+        fi
+
+        # Copy libqt5pas
+        echo "Bundling libqt5pas..."
+        for lib in /usr/lib/x86_64-linux-gnu/libQt5Pas.so* /usr/lib/libQt5Pas.so*; do
+          [ -f "$lib" ] && cp -L "$lib" AppDir/usr/lib/ 2>/dev/null || true
+        done
+
+        # Copy additional required libraries that may not be on all systems
+        echo "Bundling additional libraries..."
+        for LIB in libavformat libavcodec libavutil libswscale libswresample libass libbluray libplacebo; do
+          LIBPATH=$(ldconfig -p | grep "${LIB}.so" | head -1 | awk '{print $NF}')
+          if [ -n "$LIBPATH" ] && [ -f "$LIBPATH" ]; then
+            cp -L "$LIBPATH" AppDir/usr/lib/ 2>/dev/null || true
+          fi
+        done
+
+        # Use ldd to find and copy all dependencies of the binary
+        echo "Copying binary dependencies..."
+        ldd AppDir/usr/bin/${{ env.BINARY_NAME }} | grep "=> /" | awk '{print $3}' | while read lib; do
+          # Skip system libraries that should be on every Linux system
+          case "$lib" in
+            /lib/x86_64-linux-gnu/libc.so*) continue ;;
+            /lib/x86_64-linux-gnu/libm.so*) continue ;;
+            /lib/x86_64-linux-gnu/libpthread*) continue ;;
+            /lib/x86_64-linux-gnu/libdl*) continue ;;
+            /lib/x86_64-linux-gnu/librt*) continue ;;
+            /lib/x86_64-linux-gnu/ld-linux*) continue ;;
+          esac
+          [ -f "$lib" ] && cp -L "$lib" AppDir/usr/lib/ 2>/dev/null || true
+        done
+
+        echo "=== Libraries bundled in AppDir/usr/lib/ ==="
+        ls -la AppDir/usr/lib/
+
+        # Bundle ffprobe binary for metadata extraction
+        echo "Bundling ffprobe..."
+        FFPROBE_PATH=$(which ffprobe 2>/dev/null)
+        if [ -n "$FFPROBE_PATH" ] && [ -f "$FFPROBE_PATH" ]; then
+          cp "$FFPROBE_PATH" AppDir/usr/bin/
+          chmod +x AppDir/usr/bin/ffprobe
+          echo "ffprobe bundled from: $FFPROBE_PATH"
+        else
+          echo "Warning: ffprobe not found, metadata extraction may not work"
+        fi
+
+        # Copy icons (all sizes)
+        for size in 16 24 32 48 64 128 256; do
+          if [ -f "resources/icons/${size}x${size}.png" ]; then
+            cp "resources/icons/${size}x${size}.png" "AppDir/usr/share/icons/hicolor/${size}x${size}/apps/3nity-media.png"
+          fi
+        done
+        echo "Copied icons for sizes: 16, 24, 32, 48, 64, 128, 256"
+
+        # Copy LICENSE and documentation
+        mkdir -p AppDir/usr/share/doc/3nity-media
+        cp LICENSE AppDir/usr/share/doc/3nity-media/ || true
+        cp README.md AppDir/usr/share/doc/3nity-media/ || true
+
+        # Copy locale files
+        mkdir -p AppDir/usr/share/3nity-media/locale
+        if [ -d "resources/locale" ]; then
+          cp resources/locale/*.lang AppDir/usr/share/3nity-media/locale/ 2>/dev/null || true
+          echo "Copied $(ls -1 AppDir/usr/share/3nity-media/locale/*.lang 2>/dev/null | wc -l) locale files"
+        fi
+
+        # Create desktop file
+        cat > AppDir/usr/share/applications/3nity-media.desktop << 'EOF'
+        [Desktop Entry]
+        Version=1.0
+        Type=Application
+        Name=3nity Media
+        GenericName=Media Player
+        Comment=Modern multimedia player powered by libmpv
+        Exec=3nity-media %F
+        Icon=3nity-media
+        Terminal=false
+        Categories=AudioVideo;Audio;Video;Player;
+        MimeType=audio/*;video/*;
+        Keywords=media;player;audio;video;music;movie;
+        EOF
+
+        # Create AppRun with proper library loading
+        cat > AppDir/AppRun << 'EOF'
+        #!/bin/bash
+        SELF=$(readlink -f "$0")
+        HERE=${SELF%/*}
+        export PATH="${HERE}/usr/bin:${PATH}"
+        export LD_LIBRARY_PATH="${HERE}/usr/lib:${HERE}/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
+        export QT_PLUGIN_PATH="${HERE}/usr/lib/qt5/plugins:${QT_PLUGIN_PATH}"
+        export QT_QPA_PLATFORM_PLUGIN_PATH="${HERE}/usr/lib/qt5/plugins/platforms:${QT_QPA_PLATFORM_PLUGIN_PATH}"
+        exec "${HERE}/usr/bin/3nity-media" "$@"
+        EOF
+        chmod +x AppDir/AppRun
+
+        # Symlinks required by AppImage
+        ln -sf usr/share/applications/3nity-media.desktop AppDir/3nity-media.desktop
+        ln -sf usr/share/icons/hicolor/256x256/apps/3nity-media.png AppDir/3nity-media.png 2>/dev/null || true
+
+        # Build AppImage with linuxdeploy (will also bundle Qt dependencies)
+        export EXTRA_QT_PLUGINS="platforms;platformthemes;iconengines"
+        ARCH=x86_64 ./linuxdeploy-x86_64.AppImage \
+          --appdir AppDir \
+          --plugin qt \
+          --output appimage \
+          --desktop-file AppDir/usr/share/applications/3nity-media.desktop || \
+        # Fallback: use appimagetool directly if linuxdeploy fails
+        (wget -q https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage && \
+         chmod +x appimagetool-x86_64.AppImage && \
+         ARCH=x86_64 ./appimagetool-x86_64.AppImage AppDir)
+
+        # Rename AppImage
+        mv 3nity_Media*.AppImage "3nity-Media-${VERSION}-x86_64.AppImage" 2>/dev/null || \
+        mv 3nity*.AppImage "3nity-Media-${VERSION}-x86_64.AppImage" 2>/dev/null || \
+        mv *.AppImage "3nity-Media-${VERSION}-x86_64.AppImage" 2>/dev/null || true
+
+        echo "=== AppImage created ==="
+        ls -la *.AppImage 2>/dev/null || echo "AppImage creation may have failed"
+
+    # =========================================================================
+    # SNAP
+    # =========================================================================
+    - name: Create Snap package
+      run: |
+        VERSION="${{ steps.version.outputs.version }}"
+
+        # Install snapcraft
+        sudo snap install snapcraft --classic
+
+        # Create snap directory and gui directory for desktop/icon
+        mkdir -p snap/gui
+
+        # Create desktop file for Snap
+        cat > snap/gui/3nity-media.desktop << 'DESKTOP_EOF'
+        [Desktop Entry]
+        Version=1.0
+        Type=Application
+        Name=3nity Media
+        GenericName=Media Player
+        Comment=Modern multimedia player powered by libmpv
+        Exec=3nity-media %F
+        Icon=${SNAP}/meta/gui/3nity-media.png
+        Terminal=false
+        Categories=AudioVideo;Audio;Video;Player;
+        MimeType=audio/*;video/*;
+        Keywords=media;player;audio;video;music;movie;stream;radio;
+        DESKTOP_EOF
+
+        # Copy icons for Snap (all sizes)
+        for size in 16 24 32 48 64 128 256; do
+          if [ -f "resources/icons/${size}x${size}.png" ]; then
+            cp "resources/icons/${size}x${size}.png" "snap/gui/3nity-media-${size}.png"
+          fi
+        done
+        # Also copy 256x256 as main icon
+        if [ -f "resources/icons/256x256.png" ]; then
+          cp resources/icons/256x256.png snap/gui/3nity-media.png
+        fi
+
+        # Create snapcraft.yaml
+        cat > snap/snapcraft.yaml << EOF
+        name: 3nity-media
+        version: '${VERSION}'
+        summary: Modern multimedia player powered by libmpv
+        description: |
+          3nity Media is a modern, lightweight media player built with
+          Lazarus/Free Pascal and powered by the libmpv engine.
+
+          Features:
+          - Audio and video playback with libmpv
+          - Playlist management (M3U, PLS, XSPF)
+          - Internet radio streaming
+          - Audio equalizer
+          - Video adjustments
+          - Keyboard shortcuts
+          - Multi-language support (100+ languages)
+
+        grade: stable
+        confinement: strict
+        base: core22
+        architectures:
+          - build-on: amd64
+
+        apps:
+          3nity-media:
+            command: usr/bin/3nity-media
+            desktop: usr/share/applications/3nity-media.desktop
+            extensions: [kde-neon]
+            plugs:
+              - home
+              - audio-playback
+              - audio-record
+              - network
+              - network-bind
+              - opengl
+              - x11
+              - wayland
+              - desktop
+              - desktop-legacy
+              - removable-media
+              - optical-drive
+
+        parts:
+          3nity-media:
+            plugin: dump
+            source: .
+            organize:
+              bin/x86_64-linux/3nity-media: usr/bin/3nity-media
+              LICENSE: usr/share/doc/3nity-media/LICENSE
+              README.md: usr/share/doc/3nity-media/README.md
+              snap/gui/3nity-media.desktop: usr/share/applications/3nity-media.desktop
+              snap/gui/3nity-media-16.png: usr/share/icons/hicolor/16x16/apps/3nity-media.png
+              snap/gui/3nity-media-24.png: usr/share/icons/hicolor/24x24/apps/3nity-media.png
+              snap/gui/3nity-media-32.png: usr/share/icons/hicolor/32x32/apps/3nity-media.png
+              snap/gui/3nity-media-48.png: usr/share/icons/hicolor/48x48/apps/3nity-media.png
+              snap/gui/3nity-media-64.png: usr/share/icons/hicolor/64x64/apps/3nity-media.png
+              snap/gui/3nity-media-128.png: usr/share/icons/hicolor/128x128/apps/3nity-media.png
+              snap/gui/3nity-media-256.png: usr/share/icons/hicolor/256x256/apps/3nity-media.png
+              resources/locale: usr/share/3nity-media/locale
+            stage-packages:
+              - libmpv1
+              - libqt5pas1
+              - ffmpeg
+        EOF
+
+        # Build snap (local only, not pushed to store)
+        snapcraft --destructive-mode || echo "Snap build requires more setup - skipping"
+
+        # Move snap if created
+        mv *.snap "3nity-media_${VERSION}_amd64.snap" 2>/dev/null || true
+
+        echo "=== Snap package ==="
+        ls -la *.snap 2>/dev/null || echo "Snap not created (requires snapcraft login for some features)"
+
+    # =========================================================================
+    # FLATPAK
+    # =========================================================================
+    - name: Create Flatpak package
+      run: |
+        VERSION="${{ steps.version.outputs.version }}"
+
+        # Install Flatpak and flatpak-builder
+        sudo apt-get install -y flatpak flatpak-builder
+        flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+        # Install KDE Platform (includes Qt5) and SDK
+        flatpak install --user -y flathub org.kde.Platform//6.6 org.kde.Sdk//6.6 || \
+        flatpak install --user -y flathub org.kde.Platform//5.15-23.08 org.kde.Sdk//5.15-23.08 || true
+
+        # Copy libqt5pas to be bundled with the app
+        mkdir -p flatpak-libs
+        for lib in /usr/lib/x86_64-linux-gnu/libQt5Pas.so* /usr/lib/libQt5Pas.so*; do
+          [ -f "$lib" ] && cp -L "$lib" flatpak-libs/ 2>/dev/null || true
+        done
+
+        # Copy libmpv libraries
+        for lib in /usr/lib/x86_64-linux-gnu/libmpv.so*; do
+          [ -f "$lib" ] && cp -L "$lib" flatpak-libs/ 2>/dev/null || true
+        done
+
+        echo "=== Libraries to bundle ==="
+        ls -la flatpak-libs/
+
+        # Create Flatpak manifest with KDE runtime and bundled libraries
+        cat > com.ndxdev.3nity-media.yml << 'MANIFEST_EOF'
+        app-id: com.ndxdev.3nity-media
+        runtime: org.kde.Platform
+        runtime-version: '5.15-23.08'
+        sdk: org.kde.Sdk
+        command: 3nity-media
+        finish-args:
+          - --share=ipc
+          - --share=network
+          - --socket=x11
+          - --socket=wayland
+          - --socket=pulseaudio
+          - --device=dri
+          - --filesystem=home
+          - --filesystem=/media
+          - --filesystem=/run/media
+          - --talk-name=org.freedesktop.Notifications
+
+        modules:
+          # Build libmpv from source (includes all codecs)
+          - name: ffmpeg
+            buildsystem: autotools
+            config-opts:
+              - --enable-shared
+              - --disable-static
+              - --disable-doc
+              - --disable-programs
+              - --enable-ffprobe
+              - --enable-gpl
+              - --enable-version3
+              - --enable-libass
+              - --enable-libfreetype
+              - --enable-libmp3lame
+              - --enable-libopus
+              - --enable-libvorbis
+              - --enable-libvpx
+              - --enable-libx264
+              - --enable-libx265
+            sources:
+              - type: archive
+                url: https://ffmpeg.org/releases/ffmpeg-6.1.tar.xz
+                sha256: 488c76e57dd9b3bee901f71d5c95eaf1db4a5a31fe46a28654e837144207c270
+            cleanup:
+              - /include
+              - /lib/pkgconfig
+
+          - name: libmpv
+            buildsystem: meson
+            config-opts:
+              - -Dlibmpv=true
+              - -Dcplayer=false
+              - -Dbuild-date=false
+              - -Dalsa=enabled
+              - -Dpulse=enabled
+              - -Dwayland=enabled
+              - -Dx11=enabled
+              - -Dgl=enabled
+              - -Dvulkan=enabled
+            sources:
+              - type: archive
+                url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.37.0.tar.gz
+                sha256: 1d2d4adbaf048a2fa6ee134575032c4b2dad9a7efafd5b3e69b88db935afaddf
+            cleanup:
+              - /include
+              - /lib/pkgconfig
+
+          # Bundle libQt5Pas (Pascal Qt5 bindings)
+          - name: libqt5pas
+            buildsystem: simple
+            build-commands:
+              - install -Dm755 libQt5Pas.so.1 /app/lib/libQt5Pas.so.1
+              - ln -sf libQt5Pas.so.1 /app/lib/libQt5Pas.so
+            sources:
+              - type: dir
+                path: flatpak-libs
+
+          # Install the main application
+          - name: 3nity-media
+            buildsystem: simple
+            build-commands:
+              - install -Dm755 3nity-media /app/bin/3nity-media
+              - ln -sf 3nity-media /app/bin/3nity
+              - install -Dm644 3nity-media.desktop /app/share/applications/com.ndxdev.3nity-media.desktop
+              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/\${size}x\${size}.png" ]; then install -Dm644 "icons/\${size}x\${size}.png" "/app/share/icons/hicolor/\${size}x\${size}/apps/com.ndxdev.3nity-media.png"; fi; done
+              - install -Dm644 LICENSE /app/share/doc/3nity-media/LICENSE
+              - install -Dm644 README.md /app/share/doc/3nity-media/README.md 2>/dev/null || true
+              - mkdir -p /app/share/3nity-media/locale
+              - cp -r locale/*.lang /app/share/3nity-media/locale/ 2>/dev/null || true
+            sources:
+              - type: file
+                path: bin/x86_64-linux/3nity-media
+              - type: file
+                path: 3nity-media.desktop
+              - type: file
+                path: LICENSE
+              - type: file
+                path: README.md
+              - type: dir
+                path: resources/icons
+                dest: icons
+              - type: dir
+                path: resources/locale
+                dest: locale
+        MANIFEST_EOF
+
+        # Create desktop file for Flatpak
+        cat > 3nity-media.desktop << 'EOF'
+        [Desktop Entry]
+        Version=1.0
+        Type=Application
+        Name=3nity Media
+        GenericName=Media Player
+        Comment=Modern multimedia player powered by libmpv
+        Exec=3nity-media %F
+        Icon=com.ndxdev.3nity-media
+        Terminal=false
+        Categories=AudioVideo;Audio;Video;Player;
+        MimeType=audio/*;video/*;
+        EOF
+
+        # Create icon placeholder (fallback, icons are now installed from resources/icons/)
+        if [ -f "resources/icons/256x256.png" ]; then
+          cp resources/icons/256x256.png 3nity-media.png
+        elif [ -f "resources/icon.png" ]; then
+          cp resources/icon.png 3nity-media.png
+        fi
+
+        # Build Flatpak
+        mkdir -p flatpak-build repo
+        flatpak-builder --user --force-clean --repo=repo flatpak-build com.ndxdev.3nity-media.yml || {
+          echo "Full Flatpak build failed, trying simplified version..."
+
+          # Simplified manifest without building ffmpeg/mpv from source
+          cat > com.ndxdev.3nity-media-simple.yml << 'SIMPLE_EOF'
+        app-id: com.ndxdev.3nity-media
+        runtime: org.kde.Platform
+        runtime-version: '5.15-23.08'
+        sdk: org.kde.Sdk
+        command: 3nity-media-wrapper
+        finish-args:
+          - --share=ipc
+          - --share=network
+          - --socket=x11
+          - --socket=wayland
+          - --socket=pulseaudio
+          - --device=dri
+          - --filesystem=home
+          - --filesystem=/media
+          - --filesystem=/run/media
+          - --talk-name=org.freedesktop.Notifications
+
+        modules:
+          - name: 3nity-media
+            buildsystem: simple
+            build-commands:
+              - install -Dm755 3nity-media /app/bin/3nity-media
+              - ln -sf 3nity-media /app/bin/3nity
+              - install -Dm755 flatpak-libs/* /app/lib/ 2>/dev/null || true
+              - |
+                cat > /app/bin/3nity-media-wrapper << 'WRAPPER'
+                #!/bin/bash
+                export LD_LIBRARY_PATH="/app/lib:${LD_LIBRARY_PATH}"
+                exec /app/bin/3nity-media "$@"
+                WRAPPER
+              - chmod +x /app/bin/3nity-media-wrapper
+              - install -Dm644 3nity-media.desktop /app/share/applications/com.ndxdev.3nity-media.desktop
+              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/\${size}x\${size}.png" ]; then install -Dm644 "icons/\${size}x\${size}.png" "/app/share/icons/hicolor/\${size}x\${size}/apps/com.ndxdev.3nity-media.png"; fi; done
+              - mkdir -p /app/share/3nity-media/locale
+              - cp -r locale/*.lang /app/share/3nity-media/locale/ 2>/dev/null || true
+            sources:
+              - type: file
+                path: bin/x86_64-linux/3nity-media
+              - type: dir
+                path: flatpak-libs
+                dest: flatpak-libs
+              - type: file
+                path: 3nity-media.desktop
+              - type: dir
+                path: resources/icons
+                dest: icons
+              - type: dir
+                path: resources/locale
+                dest: locale
+        SIMPLE_EOF
+
+          flatpak-builder --user --force-clean --repo=repo flatpak-build com.ndxdev.3nity-media-simple.yml || echo "Flatpak build requires additional setup"
+        }
+
+        # Create single-file bundle
+        flatpak build-bundle repo "3nity-media-${VERSION}.flatpak" com.ndxdev.3nity-media 2>/dev/null || true
+
+        echo "=== Flatpak package ==="
+        ls -la *.flatpak 2>/dev/null || echo "Flatpak bundle not created"
+
+    - name: Upload Linux artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: linux-builds
+        path: |
+          3nity-media_*.deb
+          3nity-media-*.rpm
+          3nity-media-linux-portable-*.tar.gz
+          3nity-Media-*-x86_64.AppImage
+          3nity-media_*_amd64.snap
+          3nity-media-*.flatpak
+          bin/x86_64-linux/${{ env.BINARY_NAME }}
+        retention-days: 30
+
+  # ============================================================================
+  # BUILD WINDOWS
+  # ============================================================================
+  build-windows:
+    runs-on: windows-latest
+    needs: [preflight-check-windows, build-linux]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Install Lazarus
+      run: |
+        Write-Host "Installing Lazarus via Chocolatey..."
+        choco install lazarus -y
+
+        # Add to PATH
+        echo "C:\lazarus" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+        echo "C:\lazarus\fpc\3.2.2\bin\x86_64-win64" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+    - name: Verify Lazarus installation
+      run: |
+        Write-Host "=== Lazarus version ==="
+        & "C:\lazarus\lazbuild.exe" --version
+
+    - name: Build Windows binary
+      run: |
+        cd src
+
+        # Build with Lazarus (Windows uses default widget set)
+        & "C:\lazarus\lazbuild.exe" --build-mode=Release TrinityMedia.lpi
+
+        # Find and copy binary
+        $binaryPath = $null
+        if (Test-Path "3nity-media.exe") {
+          $binaryPath = "3nity-media.exe"
+        } elseif (Test-Path "..\bin\x86_64-win64\3nity-media.exe") {
+          $binaryPath = "..\bin\x86_64-win64\3nity-media.exe"
+        } elseif (Test-Path "..\bin\i386-win32\3nity-media.exe") {
+          $binaryPath = "..\bin\i386-win32\3nity-media.exe"
+        }
+
+        if ($binaryPath) {
+          Write-Host "Build successful! Binary: $binaryPath"
+          Copy-Item $binaryPath "..\3nity-media.exe" -Force
+          # Create alias copy for short name
+          Copy-Item $binaryPath "..\3nity.exe" -Force
+        } else {
+          Write-Host "Searching for binary..."
+          Get-ChildItem -Filter "*.exe" -Recurse | Format-Table Name, FullName
+          exit 1
+        }
+
+        cd ..
+        Get-Item "3nity-media.exe" | Format-List Name, Length
+        Get-Item "3nity.exe" | Format-List Name, Length
+
+    - name: Download Windows dependencies
+      run: |
+        # Create deps directory
+        New-Item -ItemType Directory -Force -Path "deps"
+
+        Write-Host "=== Downloading libmpv ==="
+        # Download libmpv from SourceForge mpv-player-windows project
+        # We scrape the directory listing to find the latest mpv-dev-x86_64 build
+        $sfBaseUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/"
+        $mpvArchive = "deps\libmpv.7z"
+
+        try {
+          # Get directory listing to find latest version
+          Write-Host "Fetching SourceForge directory listing..."
+          $page = Invoke-WebRequest -Uri $sfBaseUrl -UserAgent "Mozilla/5.0"
+
+          # Find the latest mpv-dev-x86_64 file (not v3 for broader compatibility)
+          $pattern = 'mpv-dev-x86_64-\d{8}-git-[a-f0-9]+\.7z'
+          $matches = [regex]::Matches($page.Content, $pattern)
+
+          if ($matches.Count -gt 0) {
+            $latestFile = $matches[0].Value
+            $mpvUrl = "${sfBaseUrl}${latestFile}/download"
+            Write-Host "Found latest libmpv: $latestFile"
+          } else {
+            # Fallback to a known working version
+            $mpvUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/mpv-dev-x86_64-20251228-git-a58dd8a.7z/download"
+            Write-Host "Using fallback URL"
+          }
+
+          Write-Host "Downloading from: $mpvUrl"
+          Invoke-WebRequest -Uri $mpvUrl -OutFile $mpvArchive -UserAgent "Mozilla/5.0" -MaximumRedirection 10
+        } catch {
+          Write-Host "SourceForge download failed: $($_.Exception.Message)"
+          Write-Host "Trying fallback URL..."
+          $mpvUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/mpv-dev-x86_64-20251228-git-a58dd8a.7z/download"
+          Invoke-WebRequest -Uri $mpvUrl -OutFile $mpvArchive -UserAgent "Mozilla/5.0" -MaximumRedirection 10
+        }
+
+        # Extract libmpv
+        7z x $mpvArchive -odeps\libmpv -y
+
+        # Find and copy the DLL (should be libmpv-2.dll)
+        $mpvDll = Get-ChildItem -Path "deps\libmpv" -Recurse -Filter "libmpv*.dll" | Select-Object -First 1
+        if ($mpvDll) {
+          Copy-Item $mpvDll.FullName "." -Force
+          Write-Host "Copied: $($mpvDll.Name)"
+        } else {
+          Write-Host "ERROR: libmpv DLL not found in archive!"
+          Get-ChildItem -Path "deps\libmpv" -Recurse | Format-Table Name
+          exit 1
+        }
+
+        Write-Host "=== Downloading FFmpeg (ffprobe) ==="
+        # Download FFmpeg essentials from gyan.dev (reliable source, includes ffprobe)
+        $ffmpegUrl = "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
+        $ffmpegArchive = "deps\ffmpeg.zip"
+
+        Invoke-WebRequest -Uri $ffmpegUrl -OutFile $ffmpegArchive
+
+        # Extract FFmpeg
+        Expand-Archive -Path $ffmpegArchive -DestinationPath "deps\ffmpeg" -Force
+
+        # Find and copy ffprobe.exe
+        $ffprobe = Get-ChildItem -Path "deps\ffmpeg" -Recurse -Filter "ffprobe.exe" | Select-Object -First 1
+        if ($ffprobe) {
+          Copy-Item $ffprobe.FullName "ffprobe.exe" -Force
+          Write-Host "ffprobe.exe copied from: $($ffprobe.FullName)"
+        } else {
+          Write-Host "ERROR: ffprobe.exe not found in archive!"
+          exit 1
+        }
+
+        Write-Host "=== Dependencies ready ==="
+        Get-ChildItem -Filter "*.dll" | Format-Table Name, Length
+        Get-ChildItem -Filter "*.exe" | Format-Table Name, Length
+
+        # Copy locale files
+        Write-Host "=== Copying locale files ==="
+        if (Test-Path "resources\locale") {
+          New-Item -ItemType Directory -Force -Path "locale" | Out-Null
+          Copy-Item "resources\locale\*.lang" "locale\" -ErrorAction SilentlyContinue
+          $localeCount = (Get-ChildItem "locale\*.lang" -ErrorAction SilentlyContinue | Measure-Object).Count
+          Write-Host "Copied $localeCount locale files"
+        } else {
+          Write-Host "No locale directory found at resources\locale"
+        }
+
+        # Copy application icon
+        Write-Host "=== Copying application icon ==="
+        if (Test-Path "resources\icons\3nity-media.ico") {
+          Copy-Item "resources\icons\3nity-media.ico" "3nity-media.ico"
+          Write-Host "Copied 3nity-media.ico"
+        } else {
+          Write-Host "Warning: No .ico file found at resources\icons\3nity-media.ico"
+        }
+
+    - name: Create Windows installer script (Inno Setup)
+      run: |
+        $version = "${{ needs.build-linux.outputs.version }}"
+
+        # System installer (Admin)
+        $issSystemScript = @"
+        #define MyAppName "3nity Media"
+        #define MyAppVersion "$version"
+        #define MyAppPublisher "Nicolas DEOUX"
+        #define MyAppURL "https://github.com/NDXDeveloper/3nity-media"
+        #define MyAppExeName "3nity-media.exe"
+
+        [Setup]
+        AppId={{3NITY-MEDIA-LAZARUS-001}
+        AppName={#MyAppName}
+        AppVersion={#MyAppVersion}
+        AppPublisher={#MyAppPublisher}
+        AppPublisherURL={#MyAppURL}
+        DefaultDirName={autopf}\{#MyAppName}
+        DefaultGroupName={#MyAppName}
+        AllowNoIcons=yes
+        OutputDir=.
+        OutputBaseFilename=3nity-Media-Setup-$version
+        SetupIconFile=3nity-media.ico
+        Compression=lzma
+        SolidCompression=yes
+        WizardStyle=modern
+        ArchitecturesAllowed=x64compatible
+        ArchitecturesInstallIn64BitMode=x64compatible
+        PrivilegesRequired=admin
+        UninstallDisplayIcon={app}\3nity-media.ico
+
+        [Languages]
+        Name: "english"; MessagesFile: "compiler:Default.isl"
+        Name: "french"; MessagesFile: "compiler:Languages\French.isl"
+
+        [Tasks]
+        Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+
+        [Files]
+        Source: "3nity-media.exe"; DestDir: "{app}"; Flags: ignoreversion
+        Source: "3nity.exe"; DestDir: "{app}"; Flags: ignoreversion
+        Source: "3nity-media.ico"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "*.dll"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "ffprobe.exe"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "LICENSE"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "locale\*"; DestDir: "{app}\locale"; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
+
+        [Icons]
+        Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\3nity-media.ico"
+        Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
+        Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\3nity-media.ico"; Tasks: desktopicon
+
+        [Run]
+        Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#MyAppName}}"; Flags: nowait postinstall skipifsilent
+        "@
+
+        # User installer (No admin)
+        $issUserScript = @"
+        #define MyAppName "3nity Media"
+        #define MyAppVersion "$version"
+        #define MyAppPublisher "Nicolas DEOUX"
+        #define MyAppURL "https://github.com/NDXDeveloper/3nity-media"
+        #define MyAppExeName "3nity-media.exe"
+
+        [Setup]
+        AppId={{3NITY-MEDIA-LAZARUS-USER}
+        AppName={#MyAppName} (User Install)
+        AppVersion={#MyAppVersion}
+        AppPublisher={#MyAppPublisher}
+        AppPublisherURL={#MyAppURL}
+        DefaultDirName={localappdata}\Programs\{#MyAppName}
+        DefaultGroupName={#MyAppName}
+        AllowNoIcons=yes
+        OutputDir=.
+        OutputBaseFilename=3nity-Media-Setup-User-$version
+        SetupIconFile=3nity-media.ico
+        Compression=lzma
+        SolidCompression=yes
+        WizardStyle=modern
+        ArchitecturesAllowed=x64compatible
+        ArchitecturesInstallIn64BitMode=x64compatible
+        PrivilegesRequired=lowest
+        UninstallDisplayIcon={app}\3nity-media.ico
+
+        [Languages]
+        Name: "english"; MessagesFile: "compiler:Default.isl"
+        Name: "french"; MessagesFile: "compiler:Languages\French.isl"
+
+        [Tasks]
+        Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+
+        [Files]
+        Source: "3nity-media.exe"; DestDir: "{app}"; Flags: ignoreversion
+        Source: "3nity.exe"; DestDir: "{app}"; Flags: ignoreversion
+        Source: "3nity-media.ico"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "*.dll"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "ffprobe.exe"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "LICENSE"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+        Source: "locale\*"; DestDir: "{app}\locale"; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
+
+        [Icons]
+        Name: "{userprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\3nity-media.ico"
+        Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\3nity-media.ico"; Tasks: desktopicon
+
+        [Run]
+        Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#MyAppName}}"; Flags: nowait postinstall skipifsilent
+        "@
+
+        $issSystemScript | Out-File -FilePath "installer-system.iss" -Encoding utf8
+        $issUserScript | Out-File -FilePath "installer-user.iss" -Encoding utf8
+
+    - name: Install Inno Setup
+      run: choco install innosetup -y
+
+    - name: Build Windows installers
+      run: |
+        & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer-system.iss
+        & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer-user.iss
+
+        Write-Host "=== Installers created ==="
+        Get-ChildItem -Filter "*.exe" | Format-Table Name, Length
+
+    - name: Create portable Windows archive
+      run: |
+        $version = "${{ needs.build-linux.outputs.version }}"
+
+        mkdir 3nity-media-windows-portable
+        Copy-Item "3nity-media.exe" "3nity-media-windows-portable\"
+        Copy-Item "3nity.exe" "3nity-media-windows-portable\"
+        Copy-Item "3nity-media.ico" "3nity-media-windows-portable\" -ErrorAction SilentlyContinue
+        Copy-Item "*.dll" "3nity-media-windows-portable\" -ErrorAction SilentlyContinue
+        Copy-Item "ffprobe.exe" "3nity-media-windows-portable\" -ErrorAction SilentlyContinue
+        Copy-Item "LICENSE" "3nity-media-windows-portable\" -ErrorAction SilentlyContinue
+        Copy-Item "README.md" "3nity-media-windows-portable\" -ErrorAction SilentlyContinue
+
+        # Copy locale files
+        if (Test-Path "locale") {
+          New-Item -ItemType Directory -Force -Path "3nity-media-windows-portable\locale" | Out-Null
+          Copy-Item "locale\*" "3nity-media-windows-portable\locale\" -ErrorAction SilentlyContinue
+          $localeCount = (Get-ChildItem "3nity-media-windows-portable\locale\*.lang" -ErrorAction SilentlyContinue | Measure-Object).Count
+          Write-Host "Copied $localeCount locale files to portable archive"
+        }
+
+        Write-Host "=== Portable archive contents ==="
+        Get-ChildItem "3nity-media-windows-portable" | Format-Table Name, Length
+        if (Test-Path "3nity-media-windows-portable\locale") {
+          Write-Host "=== Locale files ==="
+          Get-ChildItem "3nity-media-windows-portable\locale" | Measure-Object | Select-Object -ExpandProperty Count | ForEach-Object { Write-Host "$_ locale files" }
+        }
+
+        Compress-Archive -Path "3nity-media-windows-portable" -DestinationPath "3nity-media-windows-portable-$version.zip"
+
+    - name: Upload Windows artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: windows-builds
+        path: |
+          3nity-Media-Setup-*.exe
+          3nity-media-windows-portable-*.zip
+          3nity-media.exe
+          3nity.exe
+        retention-days: 30
+
+  # ============================================================================
+  # CREATE RELEASE
+  # ============================================================================
+  create-release:
+    runs-on: ubuntu-latest
+    needs: [build-linux, build-windows]
+    if: startsWith(github.ref, 'refs/tags/v')
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Download all artifacts
+      uses: actions/download-artifact@v4
+
+    - name: Prepare release assets
+      run: |
+        mkdir -p release-assets
+
+        # Linux builds
+        cp linux-builds/*.deb release-assets/ || true
+        cp linux-builds/*.rpm release-assets/ || true
+        cp linux-builds/*.tar.gz release-assets/ || true
+        cp linux-builds/*.AppImage release-assets/ || true
+        cp linux-builds/*.snap release-assets/ || true
+        cp linux-builds/*.flatpak release-assets/ || true
+
+        # Windows builds
+        cp windows-builds/*.exe release-assets/ || true
+        cp windows-builds/*.zip release-assets/ || true
+
+        # Create checksums
+        cd release-assets
+        sha256sum * > checksums.txt
+
+        echo "=== Release assets ==="
+        ls -la
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: release-assets/*
+        draft: false
+        prerelease: ${{ contains(github.ref, 'alpha') || contains(github.ref, 'beta') || contains(github.ref, 'rc') }}
+        generate_release_notes: true
+        body: |
+          ## 🎵 3nity Media ${{ github.ref_name }}
+
+          Lecteur multimédia moderne propulsé par libmpv.
+
+          ### 📦 Téléchargements
+
+          #### Linux
+          | Format | Fichier | Description |
+          |--------|---------|-------------|
+          | **DEB** | `3nity-media_${{ needs.build-linux.outputs.version }}_amd64.deb` | Ubuntu, Debian, Linux Mint |
+          | **RPM** | `3nity-media-${{ needs.build-linux.outputs.version }}-1.x86_64.rpm` | Fedora, openSUSE, RHEL, CentOS |
+          | **AppImage** | `3nity-Media-${{ needs.build-linux.outputs.version }}-x86_64.AppImage` | Universel, portable |
+          | **Snap** | `3nity-media_${{ needs.build-linux.outputs.version }}_amd64.snap` | Snap Store compatible |
+          | **Flatpak** | `3nity-media-${{ needs.build-linux.outputs.version }}.flatpak` | Flathub compatible |
+          | **Portable** | `3nity-media-linux-portable-${{ needs.build-linux.outputs.version }}.tar.gz` | Archive tar.gz |
+
+          #### Windows
+          | Format | Fichier | Description |
+          |--------|---------|-------------|
+          | **Installateur** | `3nity-Media-Setup-${{ needs.build-linux.outputs.version }}.exe` | Installation système (Admin) |
+          | **Installateur User** | `3nity-Media-Setup-User-${{ needs.build-linux.outputs.version }}.exe` | Sans droits admin |
+          | **Portable** | `3nity-media-windows-portable-${{ needs.build-linux.outputs.version }}.zip` | Archive ZIP |
+
+          ---
+
+          ### 🛠️ Installation
+
+          #### Linux - DEB (Ubuntu/Debian)
+          ```bash
+          wget https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/3nity-media_${{ needs.build-linux.outputs.version }}_amd64.deb
+          sudo apt install ./3nity-media_${{ needs.build-linux.outputs.version }}_amd64.deb
+          ```
+
+          #### Linux - RPM (Fedora/openSUSE/RHEL)
+          ```bash
+          # Fedora
+          wget https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/3nity-media-${{ needs.build-linux.outputs.version }}-1.x86_64.rpm
+          sudo dnf install ./3nity-media-${{ needs.build-linux.outputs.version }}-1.x86_64.rpm
+
+          # openSUSE
+          sudo zypper install ./3nity-media-${{ needs.build-linux.outputs.version }}-1.x86_64.rpm
+          ```
+
+          #### Linux - AppImage
+          ```bash
+          wget https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/3nity-Media-${{ needs.build-linux.outputs.version }}-x86_64.AppImage
+          chmod +x 3nity-Media-${{ needs.build-linux.outputs.version }}-x86_64.AppImage
+          ./3nity-Media-${{ needs.build-linux.outputs.version }}-x86_64.AppImage
+          ```
+
+          #### Linux - Snap
+          ```bash
+          wget https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/3nity-media_${{ needs.build-linux.outputs.version }}_amd64.snap
+          sudo snap install --dangerous 3nity-media_${{ needs.build-linux.outputs.version }}_amd64.snap
+          ```
+
+          #### Linux - Flatpak
+          ```bash
+          wget https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/3nity-media-${{ needs.build-linux.outputs.version }}.flatpak
+          flatpak install 3nity-media-${{ needs.build-linux.outputs.version }}.flatpak
+          ```
+
+          #### Windows
+          - **Installateur système:** Télécharger et exécuter `3nity-Media-Setup-${{ needs.build-linux.outputs.version }}.exe`
+          - **Installateur utilisateur:** Télécharger et exécuter `3nity-Media-Setup-User-${{ needs.build-linux.outputs.version }}.exe` (aucun droit admin requis)
+          - **Portable:** Extraire `3nity-media-windows-portable-${{ needs.build-linux.outputs.version }}.zip`
+
+          ---
+
+          ### ✨ Fonctionnalités
+
+          - 🎬 Lecture audio/vidéo avec libmpv
+          - 📋 Gestion de playlists (M3U, PLS, XSPF)
+          - 📻 Radio internet / streaming
+          - 🎛️ Égaliseur audio
+          - 🎨 Effets visuels
+          - ⌨️ Raccourcis clavier personnalisables
+          - 🌍 Support multilingue
+
+          ### 📋 Dépendances Linux
+
+          #### DEB (Ubuntu/Debian)
+          - `libqt5pas1` - Bindings Qt5 pour Pascal
+          - `libmpv2` ou `libmpv1` - Moteur de lecture
+          - `ffmpeg` - Extraction des métadonnées (ffprobe)
+
+          #### RPM (Fedora/openSUSE)
+          - `qt5-qtbase` - Framework Qt5
+          - `mpv-libs` - Moteur de lecture
+          - `ffmpeg` - Extraction des métadonnées (ffprobe)
+
+          > **Note:** AppImage, Snap et Flatpak incluent leurs dépendances (dont ffprobe).
+
+          ### ✅ Vérification
+          Les checksums SHA256 sont disponibles dans `checksums.txt`.
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
