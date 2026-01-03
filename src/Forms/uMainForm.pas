@@ -19,6 +19,7 @@ interface
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Menus,
   StdCtrls, ComCtrls, Buttons, LCLType, LCLIntf, LMessages, Math, Clipbrd,
+  {$IFDEF WINDOWS}ShellApi,{$ENDIF}
   uLibMPV, uMPVConst, uMPVEngine, uPlaylistManager, uRadioManager, uTypes, uConstants, uConfig,
   uPlaylist, uRadios, uEqualizer, uOptions, uMediaInfo, uAbout, uVideoAdjust, uLocale,
   uGotoTime, uHistory, uBookmarks, uFavorites, uSleepTimer, uShortcuts, uShortcutsEditor,
