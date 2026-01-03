@@ -50,13 +50,13 @@ uses
 
 {$R *.res}
 
+{$IFDEF UNIX}
 const
   { flock constants for Unix systems }
-  {$IFDEF UNIX}
   LOCK_EX = 2;  { Exclusive lock }
   LOCK_NB = 4;  { Non-blocking }
   LOCK_UN = 8;  { Unlock }
-  {$ENDIF}
+{$ENDIF}
 
 var
   I: Integer;
