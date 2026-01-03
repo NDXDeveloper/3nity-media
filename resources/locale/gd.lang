@@ -1,0 +1,892 @@
+[Language]
+Name=Scottish Gaelic - Gàidhlig
+Code=gd
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Clàr-taice an Fhaidhle
+File=&Faidhle
+FileOpen=&Fosgail Faidhle...
+FileOpenURL=Fosgail &URL...
+FileOpenClipboard=Fosgail on &Bhòrd-copaidh
+FileRecent=Faidhlichean &Faisg
+ClearRecentFiles=Glan Faidhlichean Faisg
+FileExit=&Fàg
+
+; Clàr-taice a' Chluich
+Playback=&Cluich
+PlaybackPlayPause=&Cluich/Cur na Stad
+PlaybackStop=&Stad
+PlaybackPrevious=&Roimhe
+PlaybackNext=&Air Adhart
+PlaybackSeekForward=Lorg &Air Adhart
+PlaybackSeekBackward=Lorg Air &Ais
+PlaybackSpeed=&Luaths
+PlaybackABLoop=Lùb A-&B
+PlaybackSetA=Suidhich &A
+PlaybackSetB=Suidhich &B
+PlaybackClearAB=&Glan A-B
+PlaybackChapters=&Caibideilean
+PlaybackPrevChapter=Caibideil Roimhe
+PlaybackNextChapter=Caibideil Air Adhart
+PlaybackFrameStep=Ceum &Frèama Air Adhart
+PlaybackFrameBack=Ceum &Frèama Air Ais
+
+; Seòladh DVD
+PlaybackDVD=&Seòladh DVD
+DVDMenu=&Clàr-taice
+DVDUp=&Suas
+DVDDown=&Sìos
+DVDLeft=&Clì
+DVDRight=&Deas
+DVDSelect=&Tagh
+PlaybackDVDTitles=&Tiotalan DVD
+
+; Ìre 21: Fosgail Pasgan
+FileOpenFolder=Fosgail &Pasgan...
+
+; Clàr-taice DVD/Bluray
+FileOpenDVD=Fosgail &DVD...
+FileOpenBluray=Fosgail &Blu-ray...
+
+; Ìre 13: Theirig gu Àm agus Eachdraidh
+PlaybackGotoTime=&Theirig gu Àm...
+ToolsHistory=&Eachdraidh
+
+; Ìre 14: Treàidh an t-Siostaim
+TrayShow=&Seall/Falaich
+TrayPlayPause=&Cluich/Cur na Stad
+TrayStop=&Stad
+TrayPrevious=&Roimhe
+TrayNext=&Air Adhart
+TrayMute=&Tost
+TrayExit=&Fàg
+
+; Ìre 15: Comharran-leabhair
+PlaybackAddBookmark=Cuir &Comharra-leabhair ris...
+PlaybackBookmarks=Comharran-&leabhair
+BookmarksTitle=Comharran-leabhair
+BookmarksGoto=&Theirig gu Comharra-leabhair
+BookmarksRemove=&Thoir air falbh Comharra-leabhair
+BookmarksClear=&Glan na Comharran-leabhair Uile
+BookmarksOpenFolder=Fosgail &Pasgan
+BookmarksCopyPath=&Dèan Lethbhreac den t-Slighe
+BookmarksCount=%d comharra-leabhair
+NoBookmarks=(Gun chomharran-leabhair)
+NoFileLoaded=(Gun fhaidhle air a luchdachadh)
+BookmarkAdded=Comharra-leabhair air a chur ris aig %s
+BookmarkJumped=Leum gu comharra-leabhair aig %s
+AddBookmarkTitle=Cuir Comharra-leabhair Ris
+AddBookmarkPrompt=Cuir a-steach ainm a' chomharra-leabhair:
+ShowAllBookmarks=Seall na Comharran-leabhair Uile...
+
+; Ìre 16: Annsachdan
+ToolsFavorites=&Annsachdan
+ToolsAddFavorite=Cuir ri &Annsachdan
+FavoritesTitle=Annsachdan
+FavoritesPlay=&Cluich
+FavoritesRemove=&Thoir air falbh o Annsachdan
+FavoritesClear=&Glan na h-Annsachdan Uile
+FavoritesOpenFolder=Fosgail &Pasgan
+FavoritesCopyPath=&Dèan Lethbhreac den t-Slighe
+FavoritesCount=%d annsachd
+NoFavorites=(Gun annsachdan)
+AddFavoriteTitle=Cuir ri Annsachdan
+AddFavoritePrompt=Cuir a-steach ainm don annsachd:
+AlreadyFavorite=Mar-thà sna h-annsachdan
+AddedToFavorites=Air a chur ri annsachdan: %s
+NoFileToFavorite=Chan eil faidhle air a luchdachadh a chur ri annsachdan
+FavoriteTypeFile=Faidhle
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Rèidio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Sreangan fòrmatan traca
+TrackWithTitle=Traca %d: %s
+TrackWithLang=Traca %d (%s)
+TrackNumber=Traca %d
+
+; Nithean clàr-taice luaths
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Nithean clàr-taice sgèile
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Traca fo-thiotalan
+SubtitleDisable=Cuir dheth
+
+; Ìre 17: Tìmear Cadail
+ToolsSleepTimer=&Tìmear Cadail...
+ToolsSleepTimerActive=&Tìmear Cadail [%s]
+ToolsCancelTimer=Cuir dheth &Tìmear
+
+; Clàr-taice Fuaim
+Audio=&Fuaim
+AudioTrack=&Traca Fuaime
+AudioVolumeUp=&Fuaim Suas
+AudioVolumeDown=&Fuaim Sìos
+AudioMute=&Tost
+AudioEqualizer=&Co-ionannair
+AudioDelay=&Dàil Fuaime
+AudioDelayPlus=Dàil +0.1d
+AudioDelayMinus=Dàil -0.1d
+AudioDelayReset=Ath-shuidhich Dàil
+AudioNormalize=&Cunbhalaich Fuaim
+
+; Clàr-taice Bhidio
+Video=&Bhidio
+VideoFullscreen=&Làn-sgrìn
+VideoAspect=&Co-mheas Taobh
+VideoAspectAuto=&Fèin-ghluasadach
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Glacadh-sgrìn
+VideoScreenshotAs=Glacadh-sgrìn &Mar...
+VideoRotation=&Cuairteachadh
+VideoRotate0=&0° (Àbhaisteach)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Flip
+VideoFlipH=Flip &Còmhnard
+VideoFlipV=Flip &Inghearach
+VideoDeinterlace=&Dì-eadar-fhighe
+VideoZoom=&Sùm
+VideoZoomIn=Sùm &A-steach
+VideoZoomOut=Sùm &A-mach
+VideoZoomReset=&Ath-shuidhich Sùm
+VideoPan=&Pan
+VideoPanLeft=Pan &Clì
+VideoPanRight=Pan &Deas
+VideoPanUp=Pan &Suas
+VideoPanDown=Pan &Sìos
+VideoPanReset=A&th-shuidhich Pan
+VideoTrack=&Traca Bhidio
+VideoColors=Rèiteachaidhean &Dath
+VideoBrightness=&Soilleireachd
+VideoContrast=&Iomsgaradh
+VideoSaturation=&Sàthachadh
+VideoHue=&Tuar
+VideoGamma=&Gama
+VideoColorsReset=Ath-shuidhich na &Dathan Uile
+VideoIncrease=Meudaich (+5)
+VideoDecrease=Lùghdaich (-5)
+VideoReset=Ath-shuidhich
+VideoAdjustDialog=&Rèiteachaidhean Bhidio...
+
+; Clàr-taice Sealladh
+View=&Sealladh
+ViewAlwaysOnTop=&An-còmhnaidh air Uachdar
+ViewFitToVideo=&Freagair Uinneag ris a' Bhidio
+ViewScale=&Sgèile Uinneige
+
+; Ìre 26: Clàr-taice Lèirsinn
+ViewVisualization=&Lèirsinn
+VisNone=&Gun dad
+VisSpectrum=Anailiseadh &Speactram
+VisWaveform=Cruth &Tuinne
+VisVector=Sgòp &Bhectair
+VisVolume=Meatair &VU
+VisNextMode=&Modh Air Adhart
+VisNextColor=&Sgeama Dhathan Air Adhart
+
+; Clàr-taice Fo-thiotalan
+Subtitles=&Fo-thiotalan
+SubtitleTrack=&Traca Fo-thiotalan
+SubtitleLoad=&Luchdaich Fo-thiotalan...
+SubtitleDelay=&Dàil Fo-thiotalan
+SubtitleDelayPlus=Dàil +0.1d
+SubtitleDelayMinus=Dàil -0.1d
+SubtitleDelayReset=Ath-shuidhich Dàil
+
+; Clàr-taice Innealan
+Tools=&Innealan
+ToolsPlaylist=Liosta-&chluich
+ToolsRadios=&Rèidiothain
+ToolsShortcuts=Ath-ghoiridean &Meur-chlàir...
+ToolsOptions=&Roghainnean
+
+; Ìre 27: Clàr-taice Clàraidh
+ToolsRecord=&Clàraich Sruth...
+ToolsStopRecord=&Stad Clàradh
+ToolsRecording=&Clàradh...
+
+; Clàr-taice Cobhair
+Help=&Cobhair
+HelpMediaInfo=Fiosrachadh &Meadhain
+HelpLog=Uinneag &Loga
+HelpAbout=M&u Dheidhinn
+
+[Dialog]
+OpenFile=Fosgail Faidhle
+OpenURL=Fosgail URL
+SaveScreenshot=Sàbhail Glacadh-sgrìn
+LoadSubtitle=Luchdaich Faidhle Fo-thiotalan
+EnterURL=Cuir a-steach URL:
+ResumePlayback=Lean air a' Chluich
+ResumeFrom=Lean o %s?
+ClearRecentFiles=Glan Faidhlichean Faisg
+NoRecentFiles=(Gun fhaidhlichean faisg)
+NoAudioTracks=(Gun tràcan fuaime)
+NoVideoTracks=(Gun tràcan bhidio)
+NoSubtitleTracks=(Gun tràcan fo-thiotalan)
+NoChapters=(Gun chaibideilean)
+OpenDVD=Fosgail DVD
+OpenBluray=Fosgail Blu-ray
+OpenFolder=Fosgail Pasgan
+
+; Criathragan faidhle
+ScreenshotFilter=Ìomhaigh PNG|*.png|Ìomhaigh JPEG|*.jpg|Ìomhaigh WebP|*.webp
+DVDFilter=Pasgan DVD|*.;*.iso|Faidhlichean uile (*.*)|*.*
+BlurayFilter=Pasgan Blu-ray|*.;*.iso|Faidhlichean uile (*.*)|*.*
+NoDVD=(Gun DVD air a luchdachadh)
+DVDTitle=Tiotal %d
+GotoTime=Theirig gu Àm
+EnterTime=Cuir a-steach an t-àm airson leum thuige:
+Hours=Uairean
+Minutes=Mionaidean
+Seconds=Diogan
+Current=Làithreach:
+HistoryTitle=Eachdraidh Cluich
+HistoryItems=%d nì san eachdraidh
+HistoryPlay=&Cluich
+HistoryRemove=&Thoir air falbh on Eachdraidh
+HistoryClear=&Glan an Eachdraidh Uile
+HistoryOpenFolder=Fosgail &Pasgan
+HistoryCopyPath=&Dèan Lethbhreac den t-Slighe
+ClearHistory=Glan Eachdraidh
+ClearHistoryConfirm=A bheil thu cinnteach gu bheil thu airson an eachdraidh uile a ghlanadh?
+SleepTimerTitle=Tìmear Cadail
+SleepTimerDescription=Suidhich tìmear airson stad gu fèin-ghluasadach
+SleepTimerHours=Uairean
+SleepTimerMinutes=Mionaidean
+SleepTimerQuickSet=Suidheachadh Luath
+SleepTimerAction=Nuair a ruitheas an tìmear a-mach
+SleepTimerStopPlayback=Stad cluich
+SleepTimerCloseApp=Dùin an aplacaid
+SleepTimerShutdown=Cuir dheth an coimpiutair
+SleepTimerStart=Tòisich Tìmear
+
+[Status]
+Ready=Deiseil
+Opening=A' fosgladh...
+Playing=A' cluich
+Paused=Stadta
+Stopped=Air stad
+Error=Mearachd
+Buffering=A' bufaireachadh...
+Seeking=A' lorg...
+Recording=A' clàradh
+
+[Message]
+SpeedFormat=Luaths: %.2fx
+VolumeFormat=Fuaim: %d%%
+BrightnessFormat=Soilleireachd: %d
+ContrastFormat=Iomsgaradh: %d
+SaturationFormat=Sàthachadh: %d
+HueFormat=Tuar: %d
+GammaFormat=Gama: %d
+ColorsReset=Dathan bhidio air an ath-shuidheachadh
+LoopASet=Puing A air a shuidheachadh aig %s
+LoopBSet=Puing B air a shuidheachadh aig %s - Lùb gnìomhach
+LoopCleared=Lùb A-B air a ghlanadh
+SetAFirst=Suidhich puing A an toiseach (brùth L)
+RotationFormat=Cuairteachadh: %d°
+FlipHOn=Flip còmhnard: AIR
+FlipHOff=Flip còmhnard: DHETH
+FlipVOn=Flip inghearach: AIR
+FlipVOff=Flip inghearach: DHETH
+DeinterlaceOn=Dì-eadar-fhighe: AIR
+DeinterlaceOff=Dì-eadar-fhighe: DHETH
+AlwaysOnTopOn=An-còmhnaidh air uachdar: AIR
+AlwaysOnTopOff=An-còmhnaidh air uachdar: DHETH
+WindowFitted=Uinneag air a freagairt ri %dx%d
+WindowScale=Sgèile uinneige: %.0f%%
+ScreenshotSaved=Glacadh-sgrìn air a shàbhaladh: %s
+AudioNormalizeOn=Cunbhalachadh fuaime: AIR
+AudioNormalizeOff=Cunbhalachadh fuaime: DHETH
+AudioDelayFormat=Dàil fuaime: %.1f d
+SubtitleDelayFormat=Dàil fo-thiotalan: %.1f d
+ZoomFormat=Sùm: %.0f%%
+PanCenter=Pan: Meadhan
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Gun bhidio air a luchdachadh
+PlayingFromClipboard=A' cluich on bhòrd-copaidh: %s
+ClipboardInvalid=Chan eil URL no slighe dligheach sa bhòrd-chopaidh
+ClipboardEmpty=Tha am bòrd-copaidh falamh no gun teacsa
+ResumedAt=Lean air %s
+FrameStepForward=Ceum frèama air adhart
+FrameStepBackward=Ceum frèama air ais
+PreviousChapter=Caibideil roimhe
+NextChapter=Caibideil air adhart
+PlayingRadio=A' cluich rèidio: %s
+PlayingDVD=A' cluich DVD: %s
+PlayingBluray=A' cluich Blu-ray: %s
+DVDTitlePlaying=Tiotal DVD %d
+SeekTo=A' lorg gu %s
+MinimizedToTray=Air a lùghdachadh dhan treàidh. Dèan briogadh dùbailte airson ath-shealltainn.
+SleepTimerSet=Tìmear cadail air a shuidheachadh: %s
+SleepTimerCancelled=Tìmear cadail air a chur dheth
+SleepTimerWarning=Tìmear cadail: 1 mhionaid air fhàgail
+SleepTimerFinal=Tìmear cadail: 10 diogan air fhàgail
+SleepTimerStopped=Tìmear cadail: Cluich air stad
+SleepTimerClosing=Tìmear cadail: A' dùnadh aplacaid
+SleepTimerShutdown=Tìmear cadail: A' cur dheth an coimpiutair
+SleepTimerExpired=Tìmear Cadail Air Ruith A-mach
+ShutdownManual=Cuir dheth an coimpiutair agad a làimh.
+
+; Ìre 21: Fosgail Pasgan
+FolderOpened=Pasgan air fhosgladh: %d faidhle
+NoMediaFound=Cha deach faidhlichean meadhain a lorg
+FilesAdded=%d faidhle air an cur ris an liosta
+
+; Ìre 27: Teachdaireachdan clàraidh
+RecordNeedPlayback=Tòisich cluich mus clàraich thu.
+RecordingStarted=Clàradh air tòiseachadh
+RecordingStopped=Clàradh air stad
+
+; Teachdaireachdan inbhe a bharrachd
+EndOfPlaylist=Deireadh na liosta-cluich
+NoMediaLoaded=Chan eil faidhle meadhain air a luchdachadh.
+JumpedToNamed=Leum gu: %s
+ChapterFormat=Caibideil %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Comharra-leabhair aig %s
+
+[Label]
+Muted=Tostach
+
+[Button]
+Play=Cluich
+Pause=Stad
+Stop=Stad
+Previous=Roimhe
+Next=Air Adhart
+Mute=Tost
+Unmute=Cuir air fuaim
+Fullscreen=Làn-sgrìn
+OK=Ceart ma-thà
+Cancel=Sguir dheth
+Apply=Cuir an sàs
+Close=Dùin
+Yes=Tha
+No=Chan eil
+
+[Tooltip]
+Play=Cluich/Stad
+Stop=Stad cluich
+Previous=Traca roimhe
+Next=Traca air adhart
+Mute=Tionndaidh tost
+Volume=Fuaim
+Seek=Àite lorg
+Fullscreen=Tionndaidh làn-sgrìn
+
+[Playlist]
+Title=Liosta-cluich
+Add=Cuir ris
+Remove=Thoir air falbh
+Clear=Glan
+MoveUp=Gluais Suas
+MoveDown=Gluais Sìos
+Shuffle=Measgaich
+Repeat=Ath-aithris
+Play=Cluich
+ShuffleOn=Measgachadh: Air
+ShuffleOff=Measgachadh: Dheth
+RepeatOff=Ath-aithris: Dheth
+RepeatOne=Ath-aithris: Aon
+RepeatAll=Ath-aithris: Uile
+SavePlaylist=Sàbhail
+LoadPlaylist=Luchdaich
+TotalDuration=Iomlan: %s
+ItemCount=%d nì
+
+; Ìre 22: Leasachaidhean Liosta-cluich
+Search=Lorg:
+FilterPlaceholder=Criathraich liosta-cluich...
+ClearSearch=Glan
+FilterCount=%d/%d
+RemoveDuplicates=Thoir air falbh &Dùblaidhean
+Properties=&Feartan...
+NoDuplicates=Cha deach dùblaidhean a lorg.
+DuplicatesFound=Chaidh %d dùblaich(ean) a lorg. An thoir thu air falbh iad?
+RemoveDuplicatesTitle=Thoir air falbh Dùblaidhean
+PropertiesTitle=Feartan na Liosta-cluich
+PropTotalItems=Nithean iomlan: %d
+PropTotalDuration=Fad iomlan: %s
+PropPlayed=Air a chluich: %d
+PropUnplayed=Gun a chluich: %d
+PropTotalSize=Meud iomlan: %.2f MB
+PropShuffle=Measgachadh: %s
+PropRepeat=Ath-aithris: %s
+On=Air
+Off=Dheth
+
+; Iuchraichean ùra airson ApplyLocale
+ClearTitle=Glan Liosta-cluich
+ClearConfirm=A bheil thu cinnteach gu bheil thu airson an liosta-cluich a ghlanadh?
+NoPlaylist=Gun liosta-cluich
+StatusFormat=%d nì | Iomlan: %s
+RepeatOne=A-a. 1
+RepeatAll=A-a. Uile
+HintRepeatEnable=Briog airson Ath-aithris Uile a chur air
+HintRepeatOne=Ath-aithris Aon - Briog airson cur dheth
+HintRepeatAll=Ath-aithris Uile - Briog airson Ath-aithris Aon
+HintShuffleRepeat=Measgachadh + Ath-aithris Uile - Briog airson cur dheth ath-aithris
+RemoveDuplicatesTitle=Thoir air falbh Dùblaidhean
+NoDuplicates=Cha deach dùblaidhean a lorg.
+SelectAll=Tagh Uile
+SelectNone=Tagh Gun dad
+SelectInvert=Tionndaidh Taghadh
+Sort=Reitich
+SortByName=Le Ainm
+SortByTitle=Le Tiotal
+SortByArtist=Le Neach-ciùil
+SortByDuration=Le Fad
+SortReverse=Cuir air ais
+SortRandom=Dèan tuaireamach
+ColTitle=Tiotal
+ColDuration=Fad
+ColArtist=Neach-ciùil
+ColAlbum=Clàr
+PlaylistFilter=Liosta-cluich M3U|*.m3u|Liosta-cluich M3U8|*.m3u8|Liosta-cluich PLS|*.pls
+
+[Equalizer]
+Title=Co-ionannair
+Presets=Ro-shuidheachaidhean:
+Preamp=Ro-mheudair:
+Flat=Rèidh
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Clasaigeach
+BassBoost=Neartachadh Beus
+TrebleBoost=Neartachadh Àrd
+Vocal=Guthach
+Reset=Ath-shuidhich
+Enable=Cuir air a' Cho-ionannair
+Save=Sàbhail
+Delete=Sguab às
+Ready=Deiseil
+; Putanan agus gnìomhan
+SavePreset=Sàbhail Ro-shuidheachadh
+DeletePreset=Sguab às Ro-shuidheachadh
+SavePresetTitle=Sàbhail Ro-shuidheachadh
+PresetNamePrompt=Ainm an ro-shuidheachaidh:
+EnterPresetName=Cuir a-steach ainm don ro-shuidheachadh.
+OverwritePresetTitle=Sgrìobh thairis air Ro-shuidheachadh
+OverwritePresetConfirm=Tha ro-shuidheachadh leis an ainm seo ann mar-thà. An sgrìobh thu thairis air?
+PresetUpdated=Ro-shuidheachadh air ùrachadh: %s
+PresetSaved=Ro-shuidheachadh air a shàbhaladh: %s
+SelectPresetToDelete=Tagh ro-shuidheachadh airson a sguabadh às.
+CannotDeleteDefault=Chan urrainn dhut ro-shuidheachaidhean bunaiteach a sguabadh às.
+DeletePresetTitle=Sguab às Ro-shuidheachadh
+DeletePresetConfirm=A bheil thu cinnteach gu bheil thu airson an ro-shuidheachadh seo a sguabadh às?
+PresetDeleted=Ro-shuidheachadh air a sguabadh às
+ResetToFlat=Co-ionannair air ath-shuidheachadh gu rèidh
+PresetApplied=Ro-shuidheachadh air a chur an sàs: %s
+
+[Options]
+Title=Roghainnean
+General=Coitcheann
+Video=Bhidio
+Audio=Fuaim
+Subtitles=Fo-thiotalan
+Cache=Tasgadan
+Language=Cànan:
+RestartRequired=Tha ath-thòiseachadh riatanach airson atharrachaidhean a thoirt gu buil
+
+; Tab Coitcheann - Giùlan
+Behavior=Giùlan
+SingleInstance=Ceadaich aon eisimpleir a-mhàin
+AutoPlay=Cluich gu fèin-ghluasadach nuair a dh'fhosglar
+AutoResume=Lean air àite cluich
+MinimizeToTray=Lùghdaich gu treàidh an t-siostaim
+AutoSavePlaylist=Sàbhail liosta-cluich air fhàgail
+
+; Tab Coitcheann - OSD
+OSD=Taisbeanadh Air an Sgrìn
+ShowOSD=Seall teachdaireachdan air an sgrìn
+ShowTrayIcon=Seall ìomhaigheag treàidh
+OSDDuration=Fad OSD (ms):
+
+; Tab Coitcheann - Glacaidhean-sgrìn
+Screenshots=Glacaidhean-sgrìn
+ScreenshotPath=Pasgan sàbhalaidh:
+ScreenshotFormat=Fòrmat:
+
+; Tab Coitcheann - Eachdraidh
+HistorySettings=Eachdraidh
+HistoryEnabled=Cuir air eachdraidh cluich
+HistoryMaxItems=Nithean as motha:
+
+; Tab Coitcheann - Cànan
+LanguageGroup=Cànan
+RestartNote=(Tha ath-thòiseachadh riatanach airson atharrachaidhean)
+
+; Tab Bhidio
+VideoAdjust=Rèiteachaidhean Bhidio
+Brightness=Soilleireachd:
+Contrast=Iomsgaradh:
+Saturation=Sàthachadh:
+Hue=Tuar:
+Gamma=Gama:
+VideoOutput=Toradh Bhidio
+Output=Toradh:
+HWAccel=Cuir air luathachadh bathar-cruaidh
+Deinterlacing=Dì-eadar-fhighe
+Mode=Modh:
+
+; Tab Fuaime
+AudioOutput=Toradh Fuaime
+OutputDriver=Draibhear toraidh:
+Device=Inneal:
+AudioOptions=Roghainnean Fuaime
+NormalizeAudio=Cunbhalaich fuaim audio
+Channels=Sianalan:
+
+; Tab Fo-thiotalan
+UseDefaultSubtitles=Cleachd roghainnean fo-thiotalan bunaiteach
+Font=Cruth-clò
+FontName=Cruth-clò:
+FontSize=Meud:
+FontColor=Dath:
+Bold=Trom
+Italic=Eadailteach
+Outline=Iomall
+OutlineColor=Dath:
+OutlineSize=Meud:
+Position=Àite
+VerticalPosition=Àite inghearach:
+SubOptions=Roghainnean
+Encoding=Còdachadh:
+AutoLoadSubs=Luchdaich faidhlichean fo-thiotalan gu fèin-ghluasadach
+
+; Rabhaidhean toradh bhidio
+VOWarningX11=Rabhadh: Chan eil x11 a' toirt taic do rèiteachaidhean bhidio (soilleireachd, iomsgaradh, msaa.)
+VOWarningWayland=Rabhadh: Feumaidh seisean Wayland. Tha taic do rèiteachaidhean bhidio.
+
+; Tab Tasgadain
+CacheSettings=Meud Bufair Tasgadain (KB)
+CacheDefault=Tasgadan bunaiteach:
+CacheLocal=Faidhlichean ionadail:
+CacheNetwork=Faidhlichean lìonra:
+CacheInternet=Sruthan eadar-lìn:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Mu Dheidhinn
+Version=Tionndadh
+Engine=Einnsean
+Technology=Teicneòlas
+BuildInfo=Fiosrachadh Togail
+SystemInfo=Siostam
+Credits=Creidseannan
+Developer=Neach-leasachaidh:
+Author=Ùghdar
+License=Ceadachd
+Website=Làrach-lìn
+GitHub=GitHub
+Description=Cluicheadair meadhain ùr-nodha, aotrom
+LicenseText=Tha 3nity Media fo cheadachd GPL-2.0\n\nTha seo a' ciallachadh gu bheil thu saor gu:\n  • Am bathar-bog a chleachdadh airson adhbhar sam bith\n  • An còd tùsail a sgrùdadh agus atharrachadh\n  • Lethbhreacan den bhathar-bhog a sgaoileadh\n  • Na h-atharrachaidhean agad fhèin a sgaoileadh\n\nFo chumha gum bi atharrachaidhean sam bith a thèid a sgaoileadh\ncuideachd fo cheadachd GPL-2.0.
+BuildDate=Ceann-là:
+Target=Targaid:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Ath-ghoiridean Meur-chlàir
+Description=Rèitich ath-ghoiridean meur-chlàir airson gnìomhan
+Search=Lorg:
+PressKey=Brùth iuchair...
+ColCategory=Roinn
+ColAction=Gnìomh
+ColShortcut=Ath-ghoirid
+Assign=Sònraich
+Clear=Glan
+Reset=Ath-shuidhich
+ResetAll=Ath-shuidhich Uile
+CurrentShortcut=Làithreach: %s
+NoKeyPressed=Brùth measgachadh iuchraichean an toiseach.
+Conflict=Còmhstri: Mar-thà air a shònrachadh gu "%s"
+ConfirmReplace=Cuir an Àite Ath-ghoirid
+ReplaceMessage=Tha an ath-ghoirid seo mar-thà sònraichte gu "%s". A bheil thu airson a cur na àite?
+ConfirmResetAll=Ath-shuidhich na h-Ath-ghoiridean Uile
+ResetAllMessage=A bheil thu cinnteach gu bheil thu airson na h-ath-ghoiridean uile ath-shuidheachadh gu na roghainnean bunaiteach?
+; Ainmean ghnìomhan
+ActPlayPause=Cluich / Stad
+ActStop=Stad
+ActPrevious=Roimhe
+ActNext=Air Adhart
+ActSeekForward=Lorg Air Adhart (10d)
+ActSeekBackward=Lorg Air Ais (10d)
+ActSeekForward5=Lorg Air Adhart (1 mion)
+ActSeekBackward5=Lorg Air Ais (1 mion)
+ActSpeedUp=Luathaich
+ActSpeedDown=Slaodaich
+ActSpeedReset=Ath-shuidhich Luaths
+ActSetLoopA=Suidhich Puing Lùib A
+ActSetLoopB=Suidhich Puing Lùib B
+ActClearLoop=Glan Lùb A-B
+ActFrameForward=Frèama Air Adhart
+ActFrameBackward=Frèama Air Ais
+ActPrevChapter=Caibideil Roimhe
+ActNextChapter=Caibideil Air Adhart
+ActGotoTime=Theirig gu Àm
+ActVolumeUp=Fuaim Suas
+ActVolumeDown=Fuaim Sìos
+ActMute=Tost / Cuir Air Fuaim
+ActAudioDelayPlus=Dàil Fuaime +
+ActAudioDelayMinus=Dàil Fuaime -
+ActAudioDelayReset=Ath-shuidhich Dàil Fuaime
+ActFullscreen=Làn-sgrìn
+ActRotate=Cuairtich Bhidio
+ActDeinterlace=Dì-eadar-fhighe
+ActZoomIn=Sùm A-steach
+ActZoomOut=Sùm A-mach
+ActZoomReset=Ath-shuidhich Sùm
+ActAlwaysOnTop=An-còmhnaidh air Uachdar
+ActFitToVideo=Freagair ris a' Bhidio
+ActScreenshot=Glacadh-sgrìn
+ActVideoAdjust=Rèiteachaidhean Bhidio
+ActVisNextMode=Modh Lèirsinn Air Adhart
+ActVisNextColor=Sgeama Dhathan Air Adhart
+ActSubDelayPlus=Dàil Fo-thiotalan +
+ActSubDelayMinus=Dàil Fo-thiotalan -
+ActSubDelayReset=Ath-shuidhich Dàil Fo-thiotalan
+ActDVDMenu=Clàr-taice DVD
+ActDVDUp=Seòladh Suas DVD
+ActDVDDown=Seòladh Sìos DVD
+ActDVDLeft=Seòladh Clì DVD
+ActDVDRight=Seòladh Deas DVD
+ActDVDSelect=Tagh DVD
+ActOpenFile=Fosgail Faidhle
+ActOpenURL=Fosgail URL
+ActPlaylist=Seall Liosta-cluich
+ActQuit=Fàg
+
+[Log]
+; Ìre 25: Uinneag Loga
+Title=Loga MPV
+Command=Àithne:
+Clear=Glan
+Save=Sàbhail...
+Copy=&Dèan Lethbhreac
+SelectAll=Tagh &Uile
+SaveTitle=Sàbhail Loga
+SaveFilter=Faidhlichean teacsa (*.txt)|*.txt|Faidhlichean uile (*.*)|*.*
+ErrorTitle=Mearachd
+SaveError=Dh'fhàillig sàbhaladh loga: %s
+
+[MediaInfo]
+Title=Fiosrachadh Meadhain
+FileTab=Faidhle
+VideoTab=Bhidio
+AudioTab=Fuaim
+MetadataTab=Meata-dàta
+FileName=Ainm Faidhle:
+FilePath=Slighe:
+FileSize=Meud:
+Duration=Fad:
+Format=Fòrmat:
+Bitrate=Reat Bhiodan:
+Codec=Còdec:
+Resolution=Dùmhlachd:
+FrameRate=Reat Fhrèamaichean:
+PixelFormat=Fòrmat Piogsail:
+AspectRatio=Co-mheas Taobh:
+Channels=Sianalan:
+SampleRate=Reat Sampaill:
+Language=Cànan:
+Property=Buaidh
+Value=Luach
+CopyAll=Dèan Lethbhreac Uile
+CopiedToClipboard=Fiosrachadh meadhain air a chopaigeadh dhan bhòrd-chopaidh.
+NA=N/A
+NAStream=N/A (sruth)
+NALive=N/A (beò)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (Cuairt-fuaim 5.1)
+Channel71=8 (Cuairt-fuaim 7.1)
+Unknown=Neo-aithnichte
+NoMetadata=(Gun mheata-dàta)
+
+[Bookmarks]
+Title=Comharran-leabhair
+Goto=Theirig gu
+Remove=Thoir air falbh
+Clear=Glan Uile
+Refresh=Ath-nuadhaich
+OpenFolder=Fosgail Pasgan
+CopyPath=Dèan Lethbhreac den t-Slighe
+; Colbhan
+ColName=Ainm
+ColFile=Faidhle
+ColPosition=Àite
+ColCreated=Air a Chruthachadh
+; Còmhraidhean
+ClearTitle=Glan Comharran-leabhair
+ClearConfirm=A bheil thu cinnteach gu bheil thu airson na comharran-leabhair uile a ghlanadh?
+Count=%d comharra(-an)-leabhair
+
+[Favorites]
+Title=Annsachdan
+Play=Cluich
+Remove=Thoir air falbh
+Clear=Glan Uile
+Refresh=Ath-nuadhaich
+OpenFolder=Fosgail Pasgan
+CopyPath=Dèan Lethbhreac den t-Slighe
+; Colbhan
+ColName=Ainm
+ColType=Seòrsa
+ColPath=Slighe
+; Seòrsaichean
+TypeFile=Faidhle
+TypeURL=URL
+TypeRadio=Rèidio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Neo-aithnichte
+; Còmhraidhean
+ClearTitle=Glan Annsachdan
+ClearConfirm=A bheil thu cinnteach gu bheil thu airson na h-annsachdan uile a ghlanadh?
+Count=%d annsachd(-an)
+
+[History]
+Title=Eachdraidh Cluich
+Play=Cluich
+Remove=Thoir air falbh
+Clear=Glan Uile
+Refresh=Ath-nuadhaich
+OpenFolder=Fosgail Pasgan
+CopyPath=Dèan Lethbhreac den t-Slighe
+; Colbhan
+ColFileName=Faidhle
+ColPath=Slighe
+; Còmhraidhean
+ClearTitle=Glan Eachdraidh
+ClearConfirm=A bheil thu cinnteach gu bheil thu airson an eachdraidh uile a ghlanadh?
+Count=%d nì
+
+[SleepTimer]
+Title=Tìmear Cadail
+Description=Suidhich tìmear airson stad cluich gu fèin-ghluasadach
+Hours=Uairean:
+Minutes=Mionaidean:
+Action=Nuair a ruitheas an tìmear a-mach:
+StopPlayback=Stad cluich
+CloseApp=Dùin aplacaid
+Shutdown=Cuir dheth coimpiutair
+QuickSet=Suidheachadh luath:
+15Min=15 mion
+30Min=30 mion
+1Hour=1 uair
+2Hours=2 uair
+
+[Radios]
+Title=Rèidiothain Eadar-lìn
+Play=Cluich
+Add=Cuir ris
+Edit=Deasaich
+Delete=Sguab às
+Remove=Thoir air falbh
+Import=Ion-phortaich
+Export=Às-phortaich
+Refresh=Ath-nuadhaich
+Favorite=Annsachd
+ShowFavorites=Annsachdan
+ShowAll=Uile
+; Criathrag
+Genre=Gnè:
+Search=Lorg:
+SearchBtn=Lorg
+ClearSearch=Glan
+AllGenres=(Gach Gnè)
+; Clàr-taice co-theacsa
+AddFavorite=Cuir ri Annsachdan
+RemoveFavorite=Thoir air falbh o Annsachdan
+AddCustom=Cuir Stèisean Gnàthaichte ris...
+EditCustom=Deasaich Stèisean...
+DeleteCustom=Sguab às Stèisean
+OpenWebsite=Fosgail Làrach-lìn
+CopyURL=Dèan Lethbhreac URL
+; Colbhan
+ColName=Ainm
+ColGenre=Gnè
+ColBitrate=Reat Bhiodan
+ColCountry=Dùthaich
+ColCodec=Còdec
+; Còmhraidhean
+AddTitle=Cuir Stèisean Gnàthaichte Ris
+EditTitle=Deasaich Stèisean
+DeleteTitle=Sguab às Stèisean
+DeleteConfirm=A bheil thu cinnteach gu bheil thu airson an stèisean seo a sguabadh às?
+StationName=Ainm an Stèisein:
+StreamURL=URL an t-Srutha:
+GenrePrompt=Gnè:
+NameURLRequired=Tha ainm agus URL riatanach.
+; Teachdaireachdan inbhe
+LoadingIcecast=A' luchdachadh stèiseanan on eòlaire Icecast...
+IcecastError=Cha b' urrainn eòlaire Icecast a luchdachadh. A' cleachdadh stèiseanan bunaiteach.
+NoStationsLoaded=Cha deach stèiseanan a luchdachadh
+StationCount=%d stèisean
+LoadedStations=Chaidh %d stèisean a luchdachadh
+ErrorPrefix=Mearachd:
+; Iuchraichean dìleab
+Name=Ainm
+URL=URL
+Bitrate=Reat Bhiodan
+Description=Tuairisgeul
+Country=Dùthaich
+
+[OpenURL]
+Title=Fosgail URL
+Prompt=Cuir a-steach URL meadhain:
+
+[GotoTime]
+Title=Theirig gu Àm
+EnterTime=Cuir a-steach àm airson leum thuige:
+Hours=U
+Minutes=M
+Seconds=D
+Current=Làithreach:
+Duration=Fad:
+
+[VideoAdjust]
+Title=Rèiteachaidhean Bhidio
+Brightness=Soilleireachd:
+Contrast=Iomsgaradh:
+Saturation=Sàthachadh:
+Hue=Tuar:
+Gamma=Gama:
+ResetAll=Ath-shuidhich na Dathan Uile
+
+[CLI]
+; Teachdaireachdan loidhne-àithne
+Usage=Cleachdadh
+Arguments=[ROGHAINNEAN] [FAIDHLE|URL|PASGAN]
+Description=Cluicheadair ioma-mheadhan thar-àrdain a' cleachdadh libmpv mar chùl-chinn.
+Options=ROGHAINNEAN
+Examples=EISIMPLEIREAN
+MoreInfo=Airson barrachd fiosrachaidh, tadhail air
+EnqueuedTo=Chaidh a chur ann an ciudha gu eisimpleir a tha ann mar-thà: %s
+SentTo=Chaidh a chur gu eisimpleir a tha ann mar-thà: %s
+AlreadyRunning=Tha 3nity Media a' ruith mar-thà.
+ErrorFileNotFound=Mearachd: Cha deach faidhle no pasgan a lorg: %s
+ErrorSubNotFound=Mearachd: Cha deach faidhle fo-thiotalan a lorg: %s

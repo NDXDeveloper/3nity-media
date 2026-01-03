@@ -1,0 +1,892 @@
+[Language]
+Name=Icelandic - Íslenska
+Code=is
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Skráarvalmynd
+File=&Skrá
+FileOpen=&Opna skrá...
+FileOpenURL=Opna &vefslóð...
+FileOpenClipboard=Opna úr &klippispjaldi
+FileRecent=&Nýlegar skrár
+ClearRecentFiles=Hreinsa nýlegar skrár
+FileExit=&Hætta
+
+; Spilunarvalmynd
+Playback=&Spilun
+PlaybackPlayPause=&Spila/Hlé
+PlaybackStop=&Stöðva
+PlaybackPrevious=&Fyrri
+PlaybackNext=&Næsta
+PlaybackSeekForward=Spóla &áfram
+PlaybackSeekBackward=Spóla &til baka
+PlaybackSpeed=&Hraði
+PlaybackABLoop=A-&B lykkja
+PlaybackSetA=Setja &A
+PlaybackSetB=Setja &B
+PlaybackClearAB=&Hreinsa A-B
+PlaybackChapters=&Kaflar
+PlaybackPrevChapter=Fyrri kafli
+PlaybackNextChapter=Næsti kafli
+PlaybackFrameStep=Ramma skref &áfram
+PlaybackFrameBack=Ramma skref &til baka
+
+; DVD leiðsögn
+PlaybackDVD=DVD &leiðsögn
+DVDMenu=&Valmynd
+DVDUp=&Upp
+DVDDown=&Niður
+DVDLeft=&Vinstri
+DVDRight=&Hægri
+DVDSelect=&Velja
+PlaybackDVDTitles=DVD &titlar
+
+; Áfangi 21: Opna möppu
+FileOpenFolder=Opna &möppu...
+
+; Skráarvalmynd DVD/Bluray
+FileOpenDVD=Opna &DVD...
+FileOpenBluray=Opna &Blu-ray...
+
+; Áfangi 13: Fara í tíma og saga
+PlaybackGotoTime=&Fara í tíma...
+ToolsHistory=&Saga
+
+; Áfangi 14: Kerfisbakki
+TrayShow=&Sýna/Fela
+TrayPlayPause=&Spila/Hlé
+TrayStop=&Stöðva
+TrayPrevious=&Fyrri
+TrayNext=&Næsta
+TrayMute=&Þögn
+TrayExit=&Hætta
+
+; Áfangi 15: Bókamerki
+PlaybackAddBookmark=Bæta við &bókamerki...
+PlaybackBookmarks=Bóka&merki
+BookmarksTitle=Bókamerki
+BookmarksGoto=&Fara í bókamerki
+BookmarksRemove=&Fjarlægja bókamerki
+BookmarksClear=&Hreinsa öll bókamerki
+BookmarksOpenFolder=Opna &möppu
+BookmarksCopyPath=&Afrita slóð
+BookmarksCount=%d bókamerki
+NoBookmarks=(Engin bókamerki)
+NoFileLoaded=(Engin skrá hlaðin)
+BookmarkAdded=Bókamerki bætt við %s
+BookmarkJumped=Farið í bókamerki við %s
+AddBookmarkTitle=Bæta við bókamerki
+AddBookmarkPrompt=Sláðu inn nafn bókamerkis:
+ShowAllBookmarks=Sýna öll bókamerki...
+
+; Áfangi 16: Eftirlæti
+ToolsFavorites=&Eftirlæti
+ToolsAddFavorite=Bæta við eftir&læti
+FavoritesTitle=Eftirlæti
+FavoritesPlay=&Spila
+FavoritesRemove=&Fjarlægja úr eftirlætum
+FavoritesClear=&Hreinsa öll eftirlæti
+FavoritesOpenFolder=Opna &möppu
+FavoritesCopyPath=&Afrita slóð
+FavoritesCount=%d eftirlæti
+NoFavorites=(Engin eftirlæti)
+AddFavoriteTitle=Bæta við eftirlæti
+AddFavoritePrompt=Sláðu inn nafn fyrir eftirlæti:
+AlreadyFavorite=Þegar í eftirlætum
+AddedToFavorites=Bætt við eftirlæti: %s
+NoFileToFavorite=Engin skrá hlaðin til að bæta við eftirlæti
+FavoriteTypeFile=Skrá
+FavoriteTypeURL=Vefslóð
+FavoriteTypeRadio=Útvarp
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Snið lagastrengja
+TrackWithTitle=Lag %d: %s
+TrackWithLang=Lag %d (%s)
+TrackNumber=Lag %d
+
+; Hraðavalmyndaratriði
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Stærðarvalmyndaratriði
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Textalag
+SubtitleDisable=Slökkva
+
+; Áfangi 17: Svefntími
+ToolsSleepTimer=&Svefntími...
+ToolsSleepTimerActive=&Svefntími [%s]
+ToolsCancelTimer=Hætta við &tíma
+
+; Hljóðvalmynd
+Audio=&Hljóð
+AudioTrack=Hljóð&lag
+AudioVolumeUp=Hækka &hljóðstyrk
+AudioVolumeDown=Lækka &hljóðstyrk
+AudioMute=&Þögn
+AudioEqualizer=&Tónstillir
+AudioDelay=Hljóð&töf
+AudioDelayPlus=Töf +0.1s
+AudioDelayMinus=Töf -0.1s
+AudioDelayReset=Endurstilla töf
+AudioNormalize=&Staðla hljóðstyrk
+
+; Myndbandsvalmynd
+Video=&Myndband
+VideoFullscreen=&Allur skjár
+VideoAspect=&Hlutföll
+VideoAspectAuto=&Sjálfvirkt
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Skjámynd
+VideoScreenshotAs=Skjámynd &sem...
+VideoRotation=&Snúningur
+VideoRotate0=&0° (Venjulegt)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Spegla
+VideoFlipH=Spegla &lárétt
+VideoFlipV=Spegla &lóðrétt
+VideoDeinterlace=&Afstreymur
+VideoZoom=&Þysjun
+VideoZoomIn=Þysja &inn
+VideoZoomOut=Þysja &út
+VideoZoomReset=&Endurstilla þysjun
+VideoPan=&Hliðra
+VideoPanLeft=Hliðra &vinstri
+VideoPanRight=Hliðra &hægri
+VideoPanUp=Hliðra &upp
+VideoPanDown=Hliðra &niður
+VideoPanReset=&Endurstilla hliðrun
+VideoTrack=Myndband&slag
+VideoColors=Lita&stillingar
+VideoBrightness=&Birtustig
+VideoContrast=&Birtuskil
+VideoSaturation=&Mettun
+VideoHue=&Litblær
+VideoGamma=&Gamma
+VideoColorsReset=Endurstilla &alla liti
+VideoIncrease=Auka (+5)
+VideoDecrease=Minnka (-5)
+VideoReset=Endurstilla
+VideoAdjustDialog=Myndband&sstillingar...
+
+; Útsýnisvalmynd
+View=&Útsýni
+ViewAlwaysOnTop=&Alltaf efst
+ViewFitToVideo=&Passa glugga að myndbandi
+ViewScale=Glugga&stærð
+
+; Áfangi 26: Sjónræningarvalmynd
+ViewVisualization=&Sjónræning
+VisNone=&Engin
+VisSpectrum=&Rófsgreining
+VisWaveform=&Bylgjuform
+VisVector=&Vektorsjón
+VisVolume=H&ljóðstyrksmælir
+VisNextMode=Næsta &hamur
+VisNextColor=Næsta &litasamsetning
+
+; Textavalmynd
+Subtitles=&Textar
+SubtitleTrack=Texta&lag
+SubtitleLoad=&Hlaða texta...
+SubtitleDelay=Texta&töf
+SubtitleDelayPlus=Töf +0.1s
+SubtitleDelayMinus=Töf -0.1s
+SubtitleDelayReset=Endurstilla töf
+
+; Verkfæravalmynd
+Tools=&Verkfæri
+ToolsPlaylist=&Lagalisti
+ToolsRadios=&Útvarp
+ToolsShortcuts=&Flýtilyklar...
+ToolsOptions=&Valkostir
+
+; Áfangi 27: Upptökuvalmynd
+ToolsRecord=&Taka upp strauminn...
+ToolsStopRecord=&Stöðva upptöku
+ToolsRecording=&Upptaka...
+
+; Hjálparvalmynd
+Help=&Hjálp
+HelpMediaInfo=&Upplýsingar um miðil
+HelpLog=&Atvikaskrá
+HelpAbout=&Um
+
+[Dialog]
+OpenFile=Opna skrá
+OpenURL=Opna vefslóð
+SaveScreenshot=Vista skjámynd
+LoadSubtitle=Hlaða textaskrá
+EnterURL=Sláðu inn vefslóð:
+ResumePlayback=Halda áfram spilun
+ResumeFrom=Halda áfram frá %s?
+ClearRecentFiles=Hreinsa nýlegar skrár
+NoRecentFiles=(Engar nýlegar skrár)
+NoAudioTracks=(Engin hljóðlög)
+NoVideoTracks=(Engin myndbandslög)
+NoSubtitleTracks=(Engin textalög)
+NoChapters=(Engir kaflar)
+OpenDVD=Opna DVD
+OpenBluray=Opna Blu-ray
+OpenFolder=Opna möppu
+
+; Skráarsíur
+ScreenshotFilter=PNG mynd|*.png|JPEG mynd|*.jpg|WebP mynd|*.webp
+DVDFilter=DVD mappa|*.;*.iso|Allar skrár (*.*)|*.*
+BlurayFilter=Blu-ray mappa|*.;*.iso|Allar skrár (*.*)|*.*
+NoDVD=(Ekkert DVD hlaðið)
+DVDTitle=Titill %d
+GotoTime=Fara í tíma
+EnterTime=Sláðu inn tíma til að fara í:
+Hours=Klukkustundir
+Minutes=Mínútur
+Seconds=Sekúndur
+Current=Núverandi:
+HistoryTitle=Spilunar saga
+HistoryItems=%d atriði í sögu
+HistoryPlay=&Spila
+HistoryRemove=&Fjarlægja úr sögu
+HistoryClear=&Hreinsa alla sögu
+HistoryOpenFolder=Opna &möppu
+HistoryCopyPath=&Afrita slóð
+ClearHistory=Hreinsa sögu
+ClearHistoryConfirm=Ertu viss um að þú viljir hreinsa alla sögu?
+SleepTimerTitle=Svefntími
+SleepTimerDescription=Stilla tíma til að stöðva spilun sjálfkrafa
+SleepTimerHours=Klukkustundir
+SleepTimerMinutes=Mínútur
+SleepTimerQuickSet=Flýtistilling
+SleepTimerAction=Þegar tími rennur út
+SleepTimerStopPlayback=Stöðva spilun
+SleepTimerCloseApp=Loka forriti
+SleepTimerShutdown=Slökkva á tölvu
+SleepTimerStart=Hefja tíma
+
+[Status]
+Ready=Tilbúið
+Opening=Opna...
+Playing=Spilar
+Paused=Í bið
+Stopped=Stöðvað
+Error=Villa
+Buffering=Hleður í biðminni...
+Seeking=Leitar...
+Recording=Tekur upp
+
+[Message]
+SpeedFormat=Hraði: %.2fx
+VolumeFormat=Hljóðstyrkur: %d%%
+BrightnessFormat=Birtustig: %d
+ContrastFormat=Birtuskil: %d
+SaturationFormat=Mettun: %d
+HueFormat=Litblær: %d
+GammaFormat=Gamma: %d
+ColorsReset=Myndbandslitir endurstilltir
+LoopASet=Lykkja A sett við %s
+LoopBSet=Lykkja B sett við %s - Lykkja virk
+LoopCleared=A-B lykkja hreinsuð
+SetAFirst=Settu punkt A fyrst (ýttu á L)
+RotationFormat=Snúningur: %d°
+FlipHOn=Lárétt speglun: VIRKT
+FlipHOff=Lárétt speglun: ÓVIRKT
+FlipVOn=Lóðrétt speglun: VIRKT
+FlipVOff=Lóðrétt speglun: ÓVIRKT
+DeinterlaceOn=Afstreymur: VIRKT
+DeinterlaceOff=Afstreymur: ÓVIRKT
+AlwaysOnTopOn=Alltaf efst: VIRKT
+AlwaysOnTopOff=Alltaf efst: ÓVIRKT
+WindowFitted=Gluggi aðlagaður að %dx%d
+WindowScale=Gluggastærð: %.0f%%
+ScreenshotSaved=Skjámynd vistuð: %s
+AudioNormalizeOn=Hljóðstaðla: VIRKT
+AudioNormalizeOff=Hljóðstaðla: ÓVIRKT
+AudioDelayFormat=Hljóðtöf: %.1f s
+SubtitleDelayFormat=Textatöf: %.1f s
+ZoomFormat=Þysjun: %.0f%%
+PanCenter=Hliðrun: Miðja
+PanFormat=Hliðrun: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Ekkert myndband hlaðið
+PlayingFromClipboard=Spilar úr klippispjaldi: %s
+ClipboardInvalid=Klippispjald inniheldur ekki gilda vefslóð eða slóð
+ClipboardEmpty=Klippispjald er tómt eða inniheldur ekki texta
+ResumedAt=Haldið áfram við %s
+FrameStepForward=Ramma skref áfram
+FrameStepBackward=Ramma skref til baka
+PreviousChapter=Fyrri kafli
+NextChapter=Næsti kafli
+PlayingRadio=Spilar útvarp: %s
+PlayingDVD=Spilar DVD: %s
+PlayingBluray=Spilar Blu-ray: %s
+DVDTitlePlaying=DVD titill %d
+SeekTo=Fer í %s
+MinimizedToTray=Minnkað í bakka. Tvísmelltu til að endurheimta.
+SleepTimerSet=Svefntími stilltur: %s
+SleepTimerCancelled=Svefntími afturkallaður
+SleepTimerWarning=Svefntími: 1 mínúta eftir
+SleepTimerFinal=Svefntími: 10 sekúndur eftir
+SleepTimerStopped=Svefntími: Spilun stöðvuð
+SleepTimerClosing=Svefntími: Loka forriti
+SleepTimerShutdown=Svefntími: Slökkva á tölvu
+SleepTimerExpired=Svefntími rann út
+ShutdownManual=Vinsamlegast slökktu á tölvunni handvirkt.
+
+; Áfangi 21: Opna möppu
+FolderOpened=Opnaði möppu: %d skrár
+NoMediaFound=Engar miðilsskrár fundust
+FilesAdded=Bætti %d skrám við lagalista
+
+; Áfangi 27: Upptökuskilaboð
+RecordNeedPlayback=Byrjaðu spilun áður en þú tekur upp.
+RecordingStarted=Upptaka hafin
+RecordingStopped=Upptaka stöðvuð
+
+; Viðbótarstöðuskilaboð
+EndOfPlaylist=Endir lagalista
+NoMediaLoaded=Engin miðilsskrá er hlaðin.
+JumpedToNamed=Fór í: %s
+ChapterFormat=Kafli %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Bókamerki við %s
+
+[Label]
+Muted=Þögguð
+
+[Button]
+Play=Spila
+Pause=Hlé
+Stop=Stöðva
+Previous=Fyrri
+Next=Næsta
+Mute=Þögn
+Unmute=Afþögn
+Fullscreen=Allur skjár
+OK=Í lagi
+Cancel=Hætta við
+Apply=Beita
+Close=Loka
+Yes=Já
+No=Nei
+
+[Tooltip]
+Play=Spila/Hlé
+Stop=Stöðva spilun
+Previous=Fyrra lag
+Next=Næsta lag
+Mute=Víxla þögn
+Volume=Hljóðstyrkur
+Seek=Leita staðsetningar
+Fullscreen=Víxla öllum skjá
+
+[Playlist]
+Title=Lagalisti
+Add=Bæta við
+Remove=Fjarlægja
+Clear=Hreinsa
+MoveUp=Færa upp
+MoveDown=Færa niður
+Shuffle=Stokka
+Repeat=Endurtaka
+Play=Spila
+ShuffleOn=Stokka: Virkt
+ShuffleOff=Stokka: Óvirkt
+RepeatOff=Endurtaka: Slökkt
+RepeatOne=Endurtaka: Eitt
+RepeatAll=Endurtaka: Allt
+SavePlaylist=Vista
+LoadPlaylist=Hlaða
+TotalDuration=Samtals: %s
+ItemCount=%d atriði
+
+; Áfangi 22: Viðbætur við lagalista
+Search=Leita:
+FilterPlaceholder=Sía lagalista...
+ClearSearch=Hreinsa
+FilterCount=%d/%d
+RemoveDuplicates=Fjarlægja &tvítekningar
+Properties=&Eiginleikar...
+NoDuplicates=Engar tvítekningar fundust.
+DuplicatesFound=Fann %d tvítekningar. Fjarlægja þær?
+RemoveDuplicatesTitle=Fjarlægja tvítekningar
+PropertiesTitle=Eiginleikar lagalista
+PropTotalItems=Samtals atriði: %d
+PropTotalDuration=Heildarlengd: %s
+PropPlayed=Spilað: %d
+PropUnplayed=Óspilað: %d
+PropTotalSize=Heildarstærð: %.2f MB
+PropShuffle=Stokka: %s
+PropRepeat=Endurtaka: %s
+On=Virkt
+Off=Óvirkt
+
+; Nýir lyklar fyrir ApplyLocale
+ClearTitle=Hreinsa lagalista
+ClearConfirm=Ertu viss um að þú viljir hreinsa lagalistann?
+NoPlaylist=Enginn lagalisti
+StatusFormat=%d atriði | Samtals: %s
+RepeatOne=Endt. 1
+RepeatAll=Endt. allt
+HintRepeatEnable=Smelltu til að virkja Endurtaka allt
+HintRepeatOne=Endurtaka eitt - Smelltu til að slökkva
+HintRepeatAll=Endurtaka allt - Smelltu fyrir Endurtaka eitt
+HintShuffleRepeat=Stokka + Endurtaka allt - Smelltu til að slökkva á endurtaka
+RemoveDuplicatesTitle=Fjarlægja tvítekningar
+NoDuplicates=Engar tvítekningar fundust.
+SelectAll=Velja allt
+SelectNone=Velja ekkert
+SelectInvert=Snúa vali við
+Sort=Raða
+SortByName=Eftir nafni
+SortByTitle=Eftir titli
+SortByArtist=Eftir flytjanda
+SortByDuration=Eftir lengd
+SortReverse=Snúa við
+SortRandom=Handahófsröðun
+ColTitle=Titill
+ColDuration=Lengd
+ColArtist=Flytjandi
+ColAlbum=Plata
+PlaylistFilter=M3U lagalisti|*.m3u|M3U8 lagalisti|*.m3u8|PLS lagalisti|*.pls
+
+[Equalizer]
+Title=Tónstillir
+Presets=Forstillingar:
+Preamp=Formagnari:
+Flat=Flatt
+Rock=Rokk
+Pop=Popp
+Jazz=Djass
+Classical=Klassískt
+BassBoost=Bassaauki
+TrebleBoost=Diskantauki
+Vocal=Söngrödd
+Reset=Endurstilla
+Enable=Virkja tónstilli
+Save=Vista
+Delete=Eyða
+Ready=Tilbúið
+; Hnappar og aðgerðir
+SavePreset=Vista forstillingu
+DeletePreset=Eyða forstillingu
+SavePresetTitle=Vista forstillingu
+PresetNamePrompt=Nafn forstillingar:
+EnterPresetName=Vinsamlegast sláðu inn nafn forstillingar.
+OverwritePresetTitle=Skrifa yfir forstillingu
+OverwritePresetConfirm=Forstilling með þessu nafni er þegar til. Skrifa yfir?
+PresetUpdated=Forstilling uppfærð: %s
+PresetSaved=Forstilling vistuð: %s
+SelectPresetToDelete=Vinsamlegast veldu forstillingu til að eyða.
+CannotDeleteDefault=Get ekki eytt sjálfgefnum forstillingum.
+DeletePresetTitle=Eyða forstillingu
+DeletePresetConfirm=Ertu viss um að þú viljir eyða þessari forstillingu?
+PresetDeleted=Forstillingu eytt
+ResetToFlat=Tónstillir endurstilltur á flatt
+PresetApplied=Forstilling notuð: %s
+
+[Options]
+Title=Valkostir
+General=Almennt
+Video=Myndband
+Audio=Hljóð
+Subtitles=Textar
+Cache=Skyndiminni
+Language=Tungumál:
+RestartRequired=Endurræsing þarf til að breytingar taki gildi
+
+; Almennur flipi - Hegðun
+Behavior=Hegðun
+SingleInstance=Leyfa aðeins eitt tilvik
+AutoPlay=Sjálfvirk spilun við opnun
+AutoResume=Halda áfram spilunarstöðu
+MinimizeToTray=Minnka í kerfisbakka
+AutoSavePlaylist=Vista lagalista við lok
+
+; Almennur flipi - OSD
+OSD=Skjábirting
+ShowOSD=Sýna skjáskilaboð
+ShowTrayIcon=Sýna bakkamynd
+OSDDuration=Lengd skjábirtingar (ms):
+
+; Almennur flipi - Skjámyndir
+Screenshots=Skjámyndir
+ScreenshotPath=Vistunarmappa:
+ScreenshotFormat=Snið:
+
+; Almennur flipi - Saga
+HistorySettings=Saga
+HistoryEnabled=Virkja spilunar sögu
+HistoryMaxItems=Hámarksatriði:
+
+; Almennur flipi - Tungumál
+LanguageGroup=Tungumál
+RestartNote=(Endurræsing þarf fyrir breytingar)
+
+; Myndbandsflipa
+VideoAdjust=Myndbandsstillingar
+Brightness=Birtustig:
+Contrast=Birtuskil:
+Saturation=Mettun:
+Hue=Litblær:
+Gamma=Gamma:
+VideoOutput=Myndbandsúttak
+Output=Úttak:
+HWAccel=Virkja vélbúnaðarhröðun
+Deinterlacing=Afstreymun
+Mode=Hamur:
+
+; Hljóðflipa
+AudioOutput=Hljóðúttak
+OutputDriver=Úttaksrekill:
+Device=Tæki:
+AudioOptions=Hljóðvalkostir
+NormalizeAudio=Staðla hljóðstyrk
+Channels=Rásir:
+
+; Textaflipa
+UseDefaultSubtitles=Nota sjálfgefnar textastillingar
+Font=Letur
+FontName=Letur:
+FontSize=Stærð:
+FontColor=Litur:
+Bold=Feitletrað
+Italic=Skáletrað
+Outline=Útlína
+OutlineColor=Litur:
+OutlineSize=Stærð:
+Position=Staðsetning
+VerticalPosition=Lóðrétt staðsetning:
+SubOptions=Valkostir
+Encoding=Kóðun:
+AutoLoadSubs=Hlaða textaskrám sjálfkrafa
+
+; Viðvaranir myndbandsúttaks
+VOWarningX11=Viðvörun: x11 styður ekki myndbandsstillingar (birtustig, birtuskil, o.s.frv.)
+VOWarningWayland=Viðvörun: Krefst Wayland-setu. Myndbandsstillingar studdar.
+
+; Skyndiminnisflipa
+CacheSettings=Stærð skyndiminnisbuffa (KB)
+CacheDefault=Sjálfgefið skyndiminni:
+CacheLocal=Staðbundnar skrár:
+CacheNetwork=Netskrár:
+CacheInternet=Netstraumar:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Um
+Version=Útgáfa
+Engine=Vélin
+Technology=Tækni
+BuildInfo=Byggingarupplýsingar
+SystemInfo=Kerfi
+Credits=Höfundar
+Developer=Þróunaraðili:
+Author=Höfundur
+License=Leyfi
+Website=Vefsíða
+GitHub=GitHub
+Description=Nútímalegur, léttur miðillsspilari
+LicenseText=3nity Media er gefið út undir GPL-2.0\n\nÞetta þýðir að þú hefur frelsi til að:\n  • Nota hugbúnaðinn í hvaða tilgangi sem er\n  • Skoða og breyta frumkóðanum\n  • Dreifa eintökum af hugbúnaðinum\n  • Dreifa breytingum þínum\n\nMeð því skilyrði að allar dreifðar breytingar\nséu einnig gefnar út undir GPL-2.0.
+BuildDate=Dagsetning:
+Target=Markmið:
+Kernel=Kjarni:
+
+[Shortcuts]
+Title=Flýtilyklar
+Description=Stilla flýtilykla fyrir aðgerðir
+Search=Leita:
+PressKey=Ýttu á takka...
+ColCategory=Flokkur
+ColAction=Aðgerð
+ColShortcut=Flýtilykill
+Assign=Úthluta
+Clear=Hreinsa
+Reset=Endurstilla
+ResetAll=Endurstilla allt
+CurrentShortcut=Núverandi: %s
+NoKeyPressed=Vinsamlegast ýttu á takkasamsetning fyrst.
+Conflict=Árekstur: Þegar úthlutað til "%s"
+ConfirmReplace=Skipta um flýtilykil
+ReplaceMessage=Þessi flýtilykill er þegar úthlutaður til "%s". Viltu skipta um hann?
+ConfirmResetAll=Endurstilla alla flýtilykla
+ResetAllMessage=Ertu viss um að þú viljir endurstilla alla flýtilykla í sjálfgefin gildi?
+; Aðgerðanöfn
+ActPlayPause=Spila / Hlé
+ActStop=Stöðva
+ActPrevious=Fyrri
+ActNext=Næsta
+ActSeekForward=Spóla áfram (10s)
+ActSeekBackward=Spóla til baka (10s)
+ActSeekForward5=Spóla áfram (1 mín)
+ActSeekBackward5=Spóla til baka (1 mín)
+ActSpeedUp=Auka hraða
+ActSpeedDown=Minnka hraða
+ActSpeedReset=Endurstilla hraða
+ActSetLoopA=Setja lykkjupunkt A
+ActSetLoopB=Setja lykkjupunkt B
+ActClearLoop=Hreinsa A-B lykkju
+ActFrameForward=Rammi áfram
+ActFrameBackward=Rammi til baka
+ActPrevChapter=Fyrri kafli
+ActNextChapter=Næsti kafli
+ActGotoTime=Fara í tíma
+ActVolumeUp=Hækka hljóðstyrk
+ActVolumeDown=Lækka hljóðstyrk
+ActMute=Þögn / Afþögn
+ActAudioDelayPlus=Hljóðtöf +
+ActAudioDelayMinus=Hljóðtöf -
+ActAudioDelayReset=Endurstilla hljóðtöf
+ActFullscreen=Allur skjár
+ActRotate=Snúa myndbandi
+ActDeinterlace=Afstreymur
+ActZoomIn=Þysja inn
+ActZoomOut=Þysja út
+ActZoomReset=Endurstilla þysjun
+ActAlwaysOnTop=Alltaf efst
+ActFitToVideo=Passa að myndbandi
+ActScreenshot=Skjámynd
+ActVideoAdjust=Myndbandsstillingar
+ActVisNextMode=Næsta sjónræningarhamur
+ActVisNextColor=Næsta litasamsetning
+ActSubDelayPlus=Textatöf +
+ActSubDelayMinus=Textatöf -
+ActSubDelayReset=Endurstilla textatöf
+ActDVDMenu=DVD valmynd
+ActDVDUp=DVD leiðsögn upp
+ActDVDDown=DVD leiðsögn niður
+ActDVDLeft=DVD leiðsögn vinstri
+ActDVDRight=DVD leiðsögn hægri
+ActDVDSelect=DVD velja
+ActOpenFile=Opna skrá
+ActOpenURL=Opna vefslóð
+ActPlaylist=Sýna lagalista
+ActQuit=Hætta
+
+[Log]
+; Áfangi 25: Atvikaskráargluggi
+Title=MPV atvikaskrá
+Command=Skipun:
+Clear=Hreinsa
+Save=Vista...
+Copy=&Afrita
+SelectAll=Velja &allt
+SaveTitle=Vista atvikaskrá
+SaveFilter=Textaskrár (*.txt)|*.txt|Allar skrár (*.*)|*.*
+ErrorTitle=Villa
+SaveError=Ekki tókst að vista atvikaskrá: %s
+
+[MediaInfo]
+Title=Upplýsingar um miðil
+FileTab=Skrá
+VideoTab=Myndband
+AudioTab=Hljóð
+MetadataTab=Lýsigögn
+FileName=Skráarnafn:
+FilePath=Slóð:
+FileSize=Stærð:
+Duration=Lengd:
+Format=Snið:
+Bitrate=Bitahraði:
+Codec=Merkjamál:
+Resolution=Upplausn:
+FrameRate=Rammatíðni:
+PixelFormat=Snið díla:
+AspectRatio=Hlutföll:
+Channels=Rásir:
+SampleRate=Sýnatíðni:
+Language=Tungumál:
+Property=Eiginleiki
+Value=Gildi
+CopyAll=Afrita allt
+CopiedToClipboard=Upplýsingar um miðil afritaðar á klippispjald.
+NA=Á/I
+NAStream=Á/I (straumur)
+NALive=Á/I (beint)
+ChannelMono=1 (Einóma)
+ChannelStereo=2 (Víðóma)
+Channel51=6 (5.1 umhverfishljóð)
+Channel71=8 (7.1 umhverfishljóð)
+Unknown=Óþekkt
+NoMetadata=(Engin lýsigögn)
+
+[Bookmarks]
+Title=Bókamerki
+Goto=Fara í
+Remove=Fjarlægja
+Clear=Hreinsa allt
+Refresh=Endurnýja
+OpenFolder=Opna möppu
+CopyPath=Afrita slóð
+; Dálkar
+ColName=Nafn
+ColFile=Skrá
+ColPosition=Staðsetning
+ColCreated=Búið til
+; Gluggar
+ClearTitle=Hreinsa bókamerki
+ClearConfirm=Ertu viss um að þú viljir hreinsa öll bókamerki?
+Count=%d bókamerki
+
+[Favorites]
+Title=Eftirlæti
+Play=Spila
+Remove=Fjarlægja
+Clear=Hreinsa allt
+Refresh=Endurnýja
+OpenFolder=Opna möppu
+CopyPath=Afrita slóð
+; Dálkar
+ColName=Nafn
+ColType=Tegund
+ColPath=Slóð
+; Tegundir
+TypeFile=Skrá
+TypeURL=Vefslóð
+TypeRadio=Útvarp
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Óþekkt
+; Gluggar
+ClearTitle=Hreinsa eftirlæti
+ClearConfirm=Ertu viss um að þú viljir hreinsa öll eftirlæti?
+Count=%d eftirlæti
+
+[History]
+Title=Spilunar saga
+Play=Spila
+Remove=Fjarlægja
+Clear=Hreinsa allt
+Refresh=Endurnýja
+OpenFolder=Opna möppu
+CopyPath=Afrita slóð
+; Dálkar
+ColFileName=Skrá
+ColPath=Slóð
+; Gluggar
+ClearTitle=Hreinsa sögu
+ClearConfirm=Ertu viss um að þú viljir hreinsa alla sögu?
+Count=%d atriði
+
+[SleepTimer]
+Title=Svefntími
+Description=Stilla tíma til að stöðva spilun sjálfkrafa
+Hours=Klukkustundir:
+Minutes=Mínútur:
+Action=Þegar tími rennur út:
+StopPlayback=Stöðva spilun
+CloseApp=Loka forriti
+Shutdown=Slökkva á tölvu
+QuickSet=Flýtistilling:
+15Min=15 mín
+30Min=30 mín
+1Hour=1 klukkustund
+2Hours=2 klukkustundir
+
+[Radios]
+Title=Netútvarp
+Play=Spila
+Add=Bæta við
+Edit=Breyta
+Delete=Eyða
+Remove=Fjarlægja
+Import=Flytja inn
+Export=Flytja út
+Refresh=Endurnýja
+Favorite=Eftirlæti
+ShowFavorites=Eftirlæti
+ShowAll=Allt
+; Sía
+Genre=Tegund:
+Search=Leita:
+SearchBtn=Leita
+ClearSearch=Hreinsa
+AllGenres=(Allar tegundir)
+; Hægri-smelluvalmynd
+AddFavorite=Bæta við eftirlæti
+RemoveFavorite=Fjarlægja úr eftirlætum
+AddCustom=Bæta við sérsniðinni stöð...
+EditCustom=Breyta stöð...
+DeleteCustom=Eyða stöð
+OpenWebsite=Opna vefsíðu
+CopyURL=Afrita vefslóð
+; Dálkar
+ColName=Nafn
+ColGenre=Tegund
+ColBitrate=Bitahraði
+ColCountry=Land
+ColCodec=Merkjamál
+; Gluggar
+AddTitle=Bæta við sérsniðinni stöð
+EditTitle=Breyta stöð
+DeleteTitle=Eyða stöð
+DeleteConfirm=Ertu viss um að þú viljir eyða þessari stöð?
+StationName=Nafn stöðvar:
+StreamURL=Straumsvefslóð:
+GenrePrompt=Tegund:
+NameURLRequired=Nafn og vefslóð eru nauðsynleg.
+; Stöðuskilaboð
+LoadingIcecast=Hleður stöðvum úr Icecast möppu...
+IcecastError=Gat ekki hlaðið Icecast möppu. Nota sjálfgefnar stöðvar.
+NoStationsLoaded=Engar stöðvar hlaðnar
+StationCount=%d stöðvar
+LoadedStations=Hlaðið %d stöðvum
+ErrorPrefix=Villa:
+; Eldri lyklar
+Name=Nafn
+URL=Vefslóð
+Bitrate=Bitahraði
+Description=Lýsing
+Country=Land
+
+[OpenURL]
+Title=Opna vefslóð
+Prompt=Sláðu inn vefslóð miðils:
+
+[GotoTime]
+Title=Fara í tíma
+EnterTime=Sláðu inn tíma til að fara í:
+Hours=K
+Minutes=M
+Seconds=S
+Current=Núverandi:
+Duration=Lengd:
+
+[VideoAdjust]
+Title=Myndbandsstillingar
+Brightness=Birtustig:
+Contrast=Birtuskil:
+Saturation=Mettun:
+Hue=Litblær:
+Gamma=Gamma:
+ResetAll=Endurstilla alla liti
+
+[CLI]
+; Skipanarboð
+Usage=Notkun
+Arguments=[VALKOSTIR] [SKRÁ|URL|MAPPA]
+Description=Fjölmiðlaspilari fyrir mörg stýrikerfi sem notar libmpv sem bakenda.
+Options=VALKOSTIR
+Examples=DÆMI
+MoreInfo=Fyrir frekari upplýsingar, heimsæktu
+EnqueuedTo=Bætt í biðröð núverandi tilviks: %s
+SentTo=Sent til núverandi tilviks: %s
+AlreadyRunning=3nity Media er þegar í gangi.
+ErrorFileNotFound=Villa: Skrá eða mappa fannst ekki: %s
+ErrorSubNotFound=Villa: Textaskrá fannst ekki: %s

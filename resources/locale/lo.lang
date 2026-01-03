@@ -1,0 +1,892 @@
+[Language]
+Name=Lao - ພາສາລາວ
+Code=lo
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; ເມນູໄຟລ໌
+File=&ໄຟລ໌
+FileOpen=&ເປີດໄຟລ໌...
+FileOpenURL=ເປີດ &URL...
+FileOpenClipboard=ເປີດຈາກ &Clipboard
+FileRecent=ໄຟລ໌&ຫຼ້າສຸດ
+ClearRecentFiles=ລຶບໄຟລ໌ຫຼ້າສຸດ
+FileExit=&ອອກ
+
+; ເມນູການຫຼິ້ນ
+Playback=ການ&ຫຼິ້ນ
+PlaybackPlayPause=&ຫຼິ້ນ/ຢຸດຊົ່ວຄາວ
+PlaybackStop=&ຢຸດ
+PlaybackPrevious=&ກ່ອນໜ້າ
+PlaybackNext=&ຕໍ່ໄປ
+PlaybackSeekForward=ຊອກ&ໄປໜ້າ
+PlaybackSeekBackward=ຊອກ&ຖອຍຫຼັງ
+PlaybackSpeed=&ຄວາມໄວ
+PlaybackABLoop=ວົງ A-&B
+PlaybackSetA=ຕັ້ງ &A
+PlaybackSetB=ຕັ້ງ &B
+PlaybackClearAB=&ລຶບ A-B
+PlaybackChapters=&ບົດ
+PlaybackPrevChapter=ບົດກ່ອນໜ້າ
+PlaybackNextChapter=ບົດຕໍ່ໄປ
+PlaybackFrameStep=ຂັ້ນຕອນເຟຣມ &ໄປໜ້າ
+PlaybackFrameBack=ຂັ້ນຕອນເຟຣມ &ຖອຍຫຼັງ
+
+; ການນຳທາງ DVD
+PlaybackDVD=ການນຳທາງ &DVD
+DVDMenu=&ເມນູ
+DVDUp=&ຂຶ້ນ
+DVDDown=&ລົງ
+DVDLeft=&ຊ້າຍ
+DVDRight=&ຂວາ
+DVDSelect=&ເລືອກ
+PlaybackDVDTitles=ຊື່&ເລື່ອງ DVD
+
+; ຂັ້ນຕອນ 21: ເປີດໂຟນເດີ
+FileOpenFolder=ເປີດ&ໂຟນເດີ...
+
+; ເມນູໄຟລ໌ DVD/Bluray
+FileOpenDVD=ເປີດ &DVD...
+FileOpenBluray=ເປີດ &Blu-ray...
+
+; ຂັ້ນຕອນ 13: ໄປເວລາ ແລະ ປະຫວັດ
+PlaybackGotoTime=&ໄປເວລາ...
+ToolsHistory=&ປະຫວັດ
+
+; ຂັ້ນຕອນ 14: Tray ລະບົບ
+TrayShow=&ສະແດງ/ເຊື່ອງ
+TrayPlayPause=&ຫຼິ້ນ/ຢຸດຊົ່ວຄາວ
+TrayStop=&ຢຸດ
+TrayPrevious=&ກ່ອນໜ້າ
+TrayNext=&ຕໍ່ໄປ
+TrayMute=&ປິດສຽງ
+TrayExit=&ອອກ
+
+; ຂັ້ນຕອນ 15: ບຸກມາກ
+PlaybackAddBookmark=ເພີ່ມ&ບຸກມາກ...
+PlaybackBookmarks=&ບຸກມາກ
+BookmarksTitle=ບຸກມາກ
+BookmarksGoto=&ໄປບຸກມາກ
+BookmarksRemove=&ລຶບບຸກມາກ
+BookmarksClear=&ລຶບບຸກມາກທັງໝົດ
+BookmarksOpenFolder=ເປີດ&ໂຟນເດີ
+BookmarksCopyPath=&ສຳເນົາເສັ້ນທາງ
+BookmarksCount=%d ບຸກມາກ
+NoBookmarks=(ບໍ່ມີບຸກມາກ)
+NoFileLoaded=(ບໍ່ມີໄຟລ໌ໂຫຼດ)
+BookmarkAdded=ເພີ່ມບຸກມາກທີ່ %s
+BookmarkJumped=ໂດດໄປບຸກມາກທີ່ %s
+AddBookmarkTitle=ເພີ່ມບຸກມາກ
+AddBookmarkPrompt=ໃສ່ຊື່ບຸກມາກ:
+ShowAllBookmarks=ສະແດງບຸກມາກທັງໝົດ...
+
+; ຂັ້ນຕອນ 16: ລາຍການທີ່ມັກ
+ToolsFavorites=ລາຍການ&ທີ່ມັກ
+ToolsAddFavorite=ເພີ່ມໃສ່ລາຍການ&ທີ່ມັກ
+FavoritesTitle=ລາຍການທີ່ມັກ
+FavoritesPlay=&ຫຼິ້ນ
+FavoritesRemove=&ລຶບຈາກລາຍການທີ່ມັກ
+FavoritesClear=&ລຶບລາຍການທີ່ມັກທັງໝົດ
+FavoritesOpenFolder=ເປີດ&ໂຟນເດີ
+FavoritesCopyPath=&ສຳເນົາເສັ້ນທາງ
+FavoritesCount=%d ລາຍການທີ່ມັກ
+NoFavorites=(ບໍ່ມີລາຍການທີ່ມັກ)
+AddFavoriteTitle=ເພີ່ມໃສ່ລາຍການທີ່ມັກ
+AddFavoritePrompt=ໃສ່ຊື່ສຳລັບລາຍການທີ່ມັກ:
+AlreadyFavorite=ມີຢູ່ໃນລາຍການທີ່ມັກແລ້ວ
+AddedToFavorites=ເພີ່ມໃສ່ລາຍການທີ່ມັກ: %s
+NoFileToFavorite=ບໍ່ມີໄຟລ໌ໂຫຼດເພື່ອເພີ່ມໃສ່ລາຍການທີ່ມັກ
+FavoriteTypeFile=ໄຟລ໌
+FavoriteTypeURL=URL
+FavoriteTypeRadio=ວິທະຍຸ
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; ຮູບແບບແທຣັກ
+TrackWithTitle=ແທຣັກ %d: %s
+TrackWithLang=ແທຣັກ %d (%s)
+TrackNumber=ແທຣັກ %d
+
+; ລາຍການເມນູຄວາມໄວ
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; ລາຍການເມນູຂະໜາດ
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; ແທຣັກຄຳບັນຍາຍ
+SubtitleDisable=ປິດ
+
+; ຂັ້ນຕອນ 17: ໂມງຕັ້ງເວລານອນ
+ToolsSleepTimer=&ໂມງຕັ້ງເວລານອນ...
+ToolsSleepTimerActive=&ໂມງຕັ້ງເວລານອນ [%s]
+ToolsCancelTimer=ຍົກເລີກ&ໂມງຕັ້ງເວລາ
+
+; ເມນູສຽງ
+Audio=&ສຽງ
+AudioTrack=&ແທຣັກສຽງ
+AudioVolumeUp=ເພີ່ມ&ສຽງ
+AudioVolumeDown=ລົດ&ສຽງ
+AudioMute=&ປິດສຽງ
+AudioEqualizer=&Equalizer
+AudioDelay=&ການຊັກຊ້າສຽງ
+AudioDelayPlus=ຊັກຊ້າ +0.1s
+AudioDelayMinus=ຊັກຊ້າ -0.1s
+AudioDelayReset=ຕັ້ງຄ່າການຊັກຊ້າໃໝ່
+AudioNormalize=&ປັບສຽງ
+
+; ເມນູວິດີໂອ
+Video=&ວິດີໂອ
+VideoFullscreen=&ເຕັມຈໍ
+VideoAspect=&ອັດຕາສ່ວນ
+VideoAspectAuto=&ອັດຕະໂນມັດ
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&ພາບໜ້າຈໍ
+VideoScreenshotAs=ພາບໜ້າຈໍ &ເປັນ...
+VideoRotation=&ໝຸນ
+VideoRotate0=&0° (ປົກກະຕິ)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&ພິກ
+VideoFlipH=ພິກ&ແນວນອນ
+VideoFlipV=ພິກ&ແນວຕັ້ງ
+VideoDeinterlace=&Deinterlace
+VideoZoom=&ຂະຫຍາຍ
+VideoZoomIn=ຂະຫຍາຍ&ເຂົ້າ
+VideoZoomOut=ຂະຫຍາຍ&ອອກ
+VideoZoomReset=&ຕັ້ງຄ່າຂະຫຍາຍໃໝ່
+VideoPan=&Pan
+VideoPanLeft=Pan &ຊ້າຍ
+VideoPanRight=Pan &ຂວາ
+VideoPanUp=Pan &ຂຶ້ນ
+VideoPanDown=Pan &ລົງ
+VideoPanReset=ຕັ້ງຄ່າ &Pan ໃໝ່
+VideoTrack=&ແທຣັກວິດີໂອ
+VideoColors=ການປັບ&ສີ
+VideoBrightness=&ຄວາມແຈ້ງ
+VideoContrast=&ຄວາມຕ່າງ
+VideoSaturation=&ຄວາມອີ່ມສີ
+VideoHue=&ໂທນສີ
+VideoGamma=&Gamma
+VideoColorsReset=ຕັ້ງຄ່າ&ສີທັງໝົດໃໝ່
+VideoIncrease=ເພີ່ມ (+5)
+VideoDecrease=ລົດ (-5)
+VideoReset=ຕັ້ງຄ່າໃໝ່
+VideoAdjustDialog=ການປັບ&ວິດີໂອ...
+
+; ເມນູການເບິ່ງ
+View=ການ&ເບິ່ງ
+ViewAlwaysOnTop=&ຢູ່ເທິງສະເໝີ
+ViewFitToVideo=&ປັບໜ້າຕ່າງໃຫ້ພໍດີກັບວິດີໂອ
+ViewScale=&ຂະໜາດໜ້າຕ່າງ
+
+; ຂັ້ນຕອນ 26: ເມນູການເບິ່ງເຫັນ
+ViewVisualization=ການ&ເບິ່ງເຫັນ
+VisNone=&ບໍ່ມີ
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=&ໂໝດຕໍ່ໄປ
+VisNextColor=&ໂຄງສີຕໍ່ໄປ
+
+; ເມນູຄຳບັນຍາຍ
+Subtitles=&ຄຳບັນຍາຍ
+SubtitleTrack=&ແທຣັກຄຳບັນຍາຍ
+SubtitleLoad=&ໂຫຼດຄຳບັນຍາຍ...
+SubtitleDelay=&ການຊັກຊ້າຄຳບັນຍາຍ
+SubtitleDelayPlus=ຊັກຊ້າ +0.1s
+SubtitleDelayMinus=ຊັກຊ້າ -0.1s
+SubtitleDelayReset=ຕັ້ງຄ່າການຊັກຊ້າໃໝ່
+
+; ເມນູເຄື່ອງມື
+Tools=&ເຄື່ອງມື
+ToolsPlaylist=&ລາຍການຫຼິ້ນ
+ToolsRadios=&ວິທະຍຸ
+ToolsShortcuts=&ປຸ່ມລັດ...
+ToolsOptions=&ຕົວເລືອກ
+
+; ຂັ້ນຕອນ 27: ເມນູການບັນທຶກ
+ToolsRecord=&ບັນທຶກ Stream...
+ToolsStopRecord=&ຢຸດການບັນທຶກ
+ToolsRecording=ການ&ບັນທຶກ...
+
+; ເມນູຊ່ວຍເຫຼືອ
+Help=&ຊ່ວຍເຫຼືອ
+HelpMediaInfo=&ຂໍ້ມູນສື່
+HelpLog=ໜ້າຕ່າງ &Log
+HelpAbout=&ກ່ຽວກັບ
+
+[Dialog]
+OpenFile=ເປີດໄຟລ໌
+OpenURL=ເປີດ URL
+SaveScreenshot=ບັນທຶກພາບໜ້າຈໍ
+LoadSubtitle=ໂຫຼດໄຟລ໌ຄຳບັນຍາຍ
+EnterURL=ໃສ່ URL:
+ResumePlayback=ສືບຕໍ່ການຫຼິ້ນ
+ResumeFrom=ສືບຕໍ່ຈາກ %s?
+ClearRecentFiles=ລຶບໄຟລ໌ຫຼ້າສຸດ
+NoRecentFiles=(ບໍ່ມີໄຟລ໌ຫຼ້າສຸດ)
+NoAudioTracks=(ບໍ່ມີແທຣັກສຽງ)
+NoVideoTracks=(ບໍ່ມີແທຣັກວິດີໂອ)
+NoSubtitleTracks=(ບໍ່ມີແທຣັກຄຳບັນຍາຍ)
+NoChapters=(ບໍ່ມີບົດ)
+OpenDVD=ເປີດ DVD
+OpenBluray=ເປີດ Blu-ray
+OpenFolder=ເປີດໂຟນເດີ
+
+; ຕົວກັ່ນຕອງໄຟລ໌
+ScreenshotFilter=ຮູບ PNG|*.png|ຮູບ JPEG|*.jpg|ຮູບ WebP|*.webp
+DVDFilter=ໂຟນເດີ DVD|*.;*.iso|ໄຟລ໌ທັງໝົດ (*.*)|*.*
+BlurayFilter=ໂຟນເດີ Blu-ray|*.;*.iso|ໄຟລ໌ທັງໝົດ (*.*)|*.*
+NoDVD=(ບໍ່ມີ DVD ໂຫຼດ)
+DVDTitle=ຊື່ເລື່ອງ %d
+GotoTime=ໄປເວລາ
+EnterTime=ໃສ່ເວລາເພື່ອໂດດໄປ:
+Hours=ຊົ່ວໂມງ
+Minutes=ນາທີ
+Seconds=ວິນາທີ
+Current=ປັດຈຸບັນ:
+HistoryTitle=ປະຫວັດການຫຼິ້ນ
+HistoryItems=%d ລາຍການໃນປະຫວັດ
+HistoryPlay=&ຫຼິ້ນ
+HistoryRemove=&ລຶບຈາກປະຫວັດ
+HistoryClear=&ລຶບປະຫວັດທັງໝົດ
+HistoryOpenFolder=ເປີດ&ໂຟນເດີ
+HistoryCopyPath=&ສຳເນົາເສັ້ນທາງ
+ClearHistory=ລຶບປະຫວັດ
+ClearHistoryConfirm=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບປະຫວັດທັງໝົດ?
+SleepTimerTitle=ໂມງຕັ້ງເວລານອນ
+SleepTimerDescription=ຕັ້ງເວລາເພື່ອຢຸດການຫຼິ້ນອັດຕະໂນມັດ
+SleepTimerHours=ຊົ່ວໂມງ
+SleepTimerMinutes=ນາທີ
+SleepTimerQuickSet=ຕັ້ງໄວ
+SleepTimerAction=ເມື່ອເວລາໝົດ
+SleepTimerStopPlayback=ຢຸດການຫຼິ້ນ
+SleepTimerCloseApp=ປິດແອັບ
+SleepTimerShutdown=ປິດຄອມພິວເຕີ
+SleepTimerStart=ເລີ່ມໂມງຕັ້ງເວລາ
+
+[Status]
+Ready=ພ້ອມ
+Opening=ກຳລັງເປີດ...
+Playing=ກຳລັງຫຼິ້ນ
+Paused=ຢຸດຊົ່ວຄາວ
+Stopped=ຢຸດແລ້ວ
+Error=ຂໍ້ຜິດພາດ
+Buffering=ກຳລັງ Buffer...
+Seeking=ກຳລັງຊອກຫາ...
+Recording=ກຳລັງບັນທຶກ
+
+[Message]
+SpeedFormat=ຄວາມໄວ: %.2fx
+VolumeFormat=ສຽງ: %d%%
+BrightnessFormat=ຄວາມແຈ້ງ: %d
+ContrastFormat=ຄວາມຕ່າງ: %d
+SaturationFormat=ຄວາມອີ່ມສີ: %d
+HueFormat=ໂທນສີ: %d
+GammaFormat=Gamma: %d
+ColorsReset=ຕັ້ງຄ່າສີວິດີໂອໃໝ່ແລ້ວ
+LoopASet=ຕັ້ງວົງ A ທີ່ %s
+LoopBSet=ຕັ້ງວົງ B ທີ່ %s - ວົງກຳລັງເຮັດວຽກ
+LoopCleared=ລຶບວົງ A-B ແລ້ວ
+SetAFirst=ຕັ້ງຈຸດ A ກ່ອນ (ກົດ L)
+RotationFormat=ໝຸນ: %d°
+FlipHOn=ພິກແນວນອນ: ເປີດ
+FlipHOff=ພິກແນວນອນ: ປິດ
+FlipVOn=ພິກແນວຕັ້ງ: ເປີດ
+FlipVOff=ພິກແນວຕັ້ງ: ປິດ
+DeinterlaceOn=Deinterlace: ເປີດ
+DeinterlaceOff=Deinterlace: ປິດ
+AlwaysOnTopOn=ຢູ່ເທິງສະເໝີ: ເປີດ
+AlwaysOnTopOff=ຢູ່ເທິງສະເໝີ: ປິດ
+WindowFitted=ປັບໜ້າຕ່າງເປັນ %dx%d
+WindowScale=ຂະໜາດໜ້າຕ່າງ: %.0f%%
+ScreenshotSaved=ບັນທຶກພາບໜ້າຈໍ: %s
+AudioNormalizeOn=ປັບສຽງ: ເປີດ
+AudioNormalizeOff=ປັບສຽງ: ປິດ
+AudioDelayFormat=ການຊັກຊ້າສຽງ: %.1f s
+SubtitleDelayFormat=ການຊັກຊ້າຄຳບັນຍາຍ: %.1f s
+ZoomFormat=ຂະຫຍາຍ: %.0f%%
+PanCenter=Pan: ກາງ
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=ບໍ່ມີວິດີໂອໂຫຼດ
+PlayingFromClipboard=ກຳລັງຫຼິ້ນຈາກ clipboard: %s
+ClipboardInvalid=Clipboard ບໍ່ມີ URL ຫຼື ເສັ້ນທາງທີ່ຖືກຕ້ອງ
+ClipboardEmpty=Clipboard ຫວ່າງ ຫຼື ບໍ່ມີຂໍ້ຄວາມ
+ResumedAt=ສືບຕໍ່ທີ່ %s
+FrameStepForward=ຂັ້ນຕອນເຟຣມໄປໜ້າ
+FrameStepBackward=ຂັ້ນຕອນເຟຣມຖອຍຫຼັງ
+PreviousChapter=ບົດກ່ອນໜ້າ
+NextChapter=ບົດຕໍ່ໄປ
+PlayingRadio=ກຳລັງຫຼິ້ນວິທະຍຸ: %s
+PlayingDVD=ກຳລັງຫຼິ້ນ DVD: %s
+PlayingBluray=ກຳລັງຫຼິ້ນ Blu-ray: %s
+DVDTitlePlaying=ຊື່ເລື່ອງ DVD %d
+SeekTo=ກຳລັງຊອກຫາ %s
+MinimizedToTray=ຫຍໍ້ລົງໄປ tray. ຄລິກສອງເທື່ອເພື່ອຟື້ນຟູ.
+SleepTimerSet=ຕັ້ງໂມງຕັ້ງເວລານອນ: %s
+SleepTimerCancelled=ຍົກເລີກໂມງຕັ້ງເວລານອນ
+SleepTimerWarning=ໂມງຕັ້ງເວລານອນ: ເຫຼືອ 1 ນາທີ
+SleepTimerFinal=ໂມງຕັ້ງເວລານອນ: ເຫຼືອ 10 ວິນາທີ
+SleepTimerStopped=ໂມງຕັ້ງເວລານອນ: ຢຸດການຫຼິ້ນແລ້ວ
+SleepTimerClosing=ໂມງຕັ້ງເວລານອນ: ກຳລັງປິດແອັບ
+SleepTimerShutdown=ໂມງຕັ້ງເວລານອນ: ກຳລັງປິດຄອມພິວເຕີ
+SleepTimerExpired=ໂມງຕັ້ງເວລານອນໝົດແລ້ວ
+ShutdownManual=ກະລຸນາປິດຄອມພິວເຕີດ້ວຍມື.
+
+; ຂັ້ນຕອນ 21: ເປີດໂຟນເດີ
+FolderOpened=ເປີດໂຟນເດີ: %d ໄຟລ໌
+NoMediaFound=ບໍ່ພົບໄຟລ໌ສື່
+FilesAdded=ເພີ່ມ %d ໄຟລ໌ໃສ່ລາຍການຫຼິ້ນ
+
+; ຂັ້ນຕອນ 27: ຂໍ້ຄວາມການບັນທຶກ
+RecordNeedPlayback=ເລີ່ມການຫຼິ້ນກ່ອນການບັນທຶກ.
+RecordingStarted=ເລີ່ມການບັນທຶກແລ້ວ
+RecordingStopped=ຢຸດການບັນທຶກແລ້ວ
+
+; ຂໍ້ຄວາມສະຖານະເພີ່ມເຕີມ
+EndOfPlaylist=ສິ້ນສຸດລາຍການຫຼິ້ນ
+NoMediaLoaded=ບໍ່ມີໄຟລ໌ສື່ໂຫຼດໃນປັດຈຸບັນ.
+JumpedToNamed=ໂດດໄປ: %s
+ChapterFormat=ບົດ %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=ບຸກມາກທີ່ %s
+
+[Label]
+Muted=ປິດສຽງ
+
+[Button]
+Play=ຫຼິ້ນ
+Pause=ຢຸດຊົ່ວຄາວ
+Stop=ຢຸດ
+Previous=ກ່ອນໜ້າ
+Next=ຕໍ່ໄປ
+Mute=ປິດສຽງ
+Unmute=ເປີດສຽງ
+Fullscreen=ເຕັມຈໍ
+OK=ຕົກລົງ
+Cancel=ຍົກເລີກ
+Apply=ນຳໃຊ້
+Close=ປິດ
+Yes=ແມ່ນ
+No=ບໍ່
+
+[Tooltip]
+Play=ຫຼິ້ນ/ຢຸດຊົ່ວຄາວ
+Stop=ຢຸດການຫຼິ້ນ
+Previous=ແທຣັກກ່ອນໜ້າ
+Next=ແທຣັກຕໍ່ໄປ
+Mute=ສະຫຼັບປິດສຽງ
+Volume=ສຽງ
+Seek=ຕຳແໜ່ງຊອກຫາ
+Fullscreen=ສະຫຼັບເຕັມຈໍ
+
+[Playlist]
+Title=ລາຍການຫຼິ້ນ
+Add=ເພີ່ມ
+Remove=ລຶບ
+Clear=ລຶບ
+MoveUp=ຍ້າຍຂຶ້ນ
+MoveDown=ຍ້າຍລົງ
+Shuffle=ສັບປ່ຽນ
+Repeat=ຊ້ຳ
+Play=ຫຼິ້ນ
+ShuffleOn=ສັບປ່ຽນ: ເປີດ
+ShuffleOff=ສັບປ່ຽນ: ປິດ
+RepeatOff=ຊ້ຳ: ປິດ
+RepeatOne=ຊ້ຳ: ໜຶ່ງ
+RepeatAll=ຊ້ຳ: ທັງໝົດ
+SavePlaylist=ບັນທຶກ
+LoadPlaylist=ໂຫຼດ
+TotalDuration=ລວມ: %s
+ItemCount=%d ລາຍການ
+
+; ຂັ້ນຕອນ 22: ການປັບປຸງລາຍການຫຼິ້ນ
+Search=ຊອກຫາ:
+FilterPlaceholder=ກັ່ນຕອງລາຍການຫຼິ້ນ...
+ClearSearch=ລຶບ
+FilterCount=%d/%d
+RemoveDuplicates=ລຶບ&ຊ້ຳກັນ
+Properties=&ຄຸນສົມບັດ...
+NoDuplicates=ບໍ່ພົບລາຍການຊ້ຳກັນ.
+DuplicatesFound=ພົບ %d ລາຍການຊ້ຳກັນ. ລຶບບໍ?
+RemoveDuplicatesTitle=ລຶບລາຍການຊ້ຳກັນ
+PropertiesTitle=ຄຸນສົມບັດລາຍການຫຼິ້ນ
+PropTotalItems=ລາຍການລວມ: %d
+PropTotalDuration=ໄລຍະເວລາລວມ: %s
+PropPlayed=ຫຼິ້ນແລ້ວ: %d
+PropUnplayed=ຍັງບໍ່ຫຼິ້ນ: %d
+PropTotalSize=ຂະໜາດລວມ: %.2f MB
+PropShuffle=ສັບປ່ຽນ: %s
+PropRepeat=ຊ້ຳ: %s
+On=ເປີດ
+Off=ປິດ
+
+; ກະແຈໃໝ່ສຳລັບ ApplyLocale
+ClearTitle=ລຶບລາຍການຫຼິ້ນ
+ClearConfirm=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບລາຍການຫຼິ້ນ?
+NoPlaylist=ບໍ່ມີລາຍການຫຼິ້ນ
+StatusFormat=%d ລາຍການ | ລວມ: %s
+RepeatOne=ຊ້ຳ 1
+RepeatAll=ຊ້ຳ ທັງໝົດ
+HintRepeatEnable=ຄລິກເພື່ອເປີດຊ້ຳທັງໝົດ
+HintRepeatOne=ຊ້ຳໜຶ່ງ - ຄລິກເພື່ອປິດ
+HintRepeatAll=ຊ້ຳທັງໝົດ - ຄລິກສຳລັບຊ້ຳໜຶ່ງ
+HintShuffleRepeat=ສັບປ່ຽນ + ຊ້ຳທັງໝົດ - ຄລິກເພື່ອປິດຊ້ຳ
+RemoveDuplicatesTitle=ລຶບລາຍການຊ້ຳກັນ
+NoDuplicates=ບໍ່ພົບລາຍການຊ້ຳກັນ.
+SelectAll=ເລືອກທັງໝົດ
+SelectNone=ບໍ່ເລືອກ
+SelectInvert=ປີ້ນການເລືອກ
+Sort=ຈັດລຽງ
+SortByName=ຕາມຊື່
+SortByTitle=ຕາມຊື່ເລື່ອງ
+SortByArtist=ຕາມສິລະປິນ
+SortByDuration=ຕາມໄລຍະເວລາ
+SortReverse=ປີ້ນ
+SortRandom=ສັບປ່ຽນ
+ColTitle=ຊື່ເລື່ອງ
+ColDuration=ໄລຍະເວລາ
+ColArtist=ສິລະປິນ
+ColAlbum=ອັລບັ້ມ
+PlaylistFilter=ລາຍການຫຼິ້ນ M3U|*.m3u|ລາຍການຫຼິ້ນ M3U8|*.m3u8|ລາຍການຫຼິ້ນ PLS|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=ການຕັ້ງຄ່າລ່ວງໜ້າ:
+Preamp=Preamp:
+Flat=ແບນ
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=ຄລາສສິກ
+BassBoost=ເພີ່ມ Bass
+TrebleBoost=ເພີ່ມ Treble
+Vocal=ສຽງ
+Reset=ຕັ້ງຄ່າໃໝ່
+Enable=ເປີດ Equalizer
+Save=ບັນທຶກ
+Delete=ລຶບ
+Ready=ພ້ອມ
+; ປຸ່ມ ແລະ ການກະທຳ
+SavePreset=ບັນທຶກການຕັ້ງຄ່າລ່ວງໜ້າ
+DeletePreset=ລຶບການຕັ້ງຄ່າລ່ວງໜ້າ
+SavePresetTitle=ບັນທຶກການຕັ້ງຄ່າລ່ວງໜ້າ
+PresetNamePrompt=ຊື່ການຕັ້ງຄ່າລ່ວງໜ້າ:
+EnterPresetName=ກະລຸນາໃສ່ຊື່ການຕັ້ງຄ່າລ່ວງໜ້າ.
+OverwritePresetTitle=ຂຽນທັບການຕັ້ງຄ່າລ່ວງໜ້າ
+OverwritePresetConfirm=ການຕັ້ງຄ່າລ່ວງໜ້າທີ່ມີຊື່ນີ້ມີຢູ່ແລ້ວ. ຂຽນທັບບໍ?
+PresetUpdated=ອັບເດດການຕັ້ງຄ່າລ່ວງໜ້າ: %s
+PresetSaved=ບັນທຶກການຕັ້ງຄ່າລ່ວງໜ້າ: %s
+SelectPresetToDelete=ກະລຸນາເລືອກການຕັ້ງຄ່າລ່ວງໜ້າເພື່ອລຶບ.
+CannotDeleteDefault=ບໍ່ສາມາດລຶບການຕັ້ງຄ່າລ່ວງໜ້າເລີ່ມຕົ້ນໄດ້.
+DeletePresetTitle=ລຶບການຕັ້ງຄ່າລ່ວງໜ້າ
+DeletePresetConfirm=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບການຕັ້ງຄ່າລ່ວງໜ້ານີ້?
+PresetDeleted=ລຶບການຕັ້ງຄ່າລ່ວງໜ້າແລ້ວ
+ResetToFlat=ຕັ້ງຄ່າ Equalizer ໃໝ່ເປັນແບນ
+PresetApplied=ນຳໃຊ້ການຕັ້ງຄ່າລ່ວງໜ້າ: %s
+
+[Options]
+Title=ຕົວເລືອກ
+General=ທົ່ວໄປ
+Video=ວິດີໂອ
+Audio=ສຽງ
+Subtitles=ຄຳບັນຍາຍ
+Cache=Cache
+Language=ພາສາ:
+RestartRequired=ຕ້ອງເລີ່ມຄືນໃໝ່ເພື່ອໃຫ້ການປ່ຽນແປງມີຜົນ
+
+; ແຖບທົ່ວໄປ - ພຶດຕິກຳ
+Behavior=ພຶດຕິກຳ
+SingleInstance=ອະນຸຍາດໃຫ້ມີພຽງໜຶ່ງ instance
+AutoPlay=ຫຼິ້ນໄຟລ໌ອັດຕະໂນມັດເມື່ອເປີດ
+AutoResume=ສືບຕໍ່ຕຳແໜ່ງການຫຼິ້ນ
+MinimizeToTray=ຫຍໍ້ລົງໄປ tray ລະບົບ
+AutoSavePlaylist=ບັນທຶກລາຍການຫຼິ້ນເມື່ອອອກ
+
+; ແຖບທົ່ວໄປ - OSD
+OSD=ການສະແດງເທິງໜ້າຈໍ
+ShowOSD=ສະແດງຂໍ້ຄວາມເທິງໜ້າຈໍ
+ShowTrayIcon=ສະແດງໄອຄອນ tray
+OSDDuration=ໄລຍະເວລາ OSD (ms):
+
+; ແຖບທົ່ວໄປ - ພາບໜ້າຈໍ
+Screenshots=ພາບໜ້າຈໍ
+ScreenshotPath=ໂຟນເດີບັນທຶກ:
+ScreenshotFormat=ຮູບແບບ:
+
+; ແຖບທົ່ວໄປ - ປະຫວັດ
+HistorySettings=ປະຫວັດ
+HistoryEnabled=ເປີດປະຫວັດການຫຼິ້ນ
+HistoryMaxItems=ລາຍການສູງສຸດ:
+
+; ແຖບທົ່ວໄປ - ພາສາ
+LanguageGroup=ພາສາ
+RestartNote=(ຕ້ອງເລີ່ມຄືນໃໝ່ສຳລັບການປ່ຽນແປງ)
+
+; ແຖບວິດີໂອ
+VideoAdjust=ການປັບວິດີໂອ
+Brightness=ຄວາມແຈ້ງ:
+Contrast=ຄວາມຕ່າງ:
+Saturation=ຄວາມອີ່ມສີ:
+Hue=ໂທນສີ:
+Gamma=Gamma:
+VideoOutput=ຜົນຜະລິດວິດີໂອ
+Output=ຜົນຜະລິດ:
+HWAccel=ເປີດການເລັ່ງຮາດແວ
+Deinterlacing=Deinterlacing
+Mode=ໂໝດ:
+
+; ແຖບສຽງ
+AudioOutput=ຜົນຜະລິດສຽງ
+OutputDriver=ໄດເວີຜົນຜະລິດ:
+Device=ອຸປະກອນ:
+AudioOptions=ຕົວເລືອກສຽງ
+NormalizeAudio=ປັບສຽງ
+Channels=ຊ່ອງ:
+
+; ແຖບຄຳບັນຍາຍ
+UseDefaultSubtitles=ໃຊ້ການຕັ້ງຄ່າຄຳບັນຍາຍເລີ່ມຕົ້ນ
+Font=ຟອນ
+FontName=ຟອນ:
+FontSize=ຂະໜາດ:
+FontColor=ສີ:
+Bold=ໜາ
+Italic=ບ່ຽງ
+Outline=ເສັ້ນຂອບ
+OutlineColor=ສີ:
+OutlineSize=ຂະໜາດ:
+Position=ຕຳແໜ່ງ
+VerticalPosition=ຕຳແໜ່ງແນວຕັ້ງ:
+SubOptions=ຕົວເລືອກ
+Encoding=Encoding:
+AutoLoadSubs=ໂຫຼດໄຟລ໌ຄຳບັນຍາຍອັດຕະໂນມັດ
+
+; ຄຳເຕືອນຜົນຜະລິດວິດີໂອ
+VOWarningX11=ຄຳເຕືອນ: x11 ບໍ່ຮອງຮັບການປັບວິດີໂອ (ຄວາມແຈ້ງ, ຄວາມຕ່າງ, ແລະອື່ນໆ.)
+VOWarningWayland=ຄຳເຕືອນ: ຕ້ອງການເຊສຊັນ Wayland. ຮອງຮັບການປັບວິດີໂອ.
+
+; ແຖບ Cache
+CacheSettings=ຂະໜາດ Buffer Cache (KB)
+CacheDefault=Cache ເລີ່ມຕົ້ນ:
+CacheLocal=ໄຟລ໌ທ້ອງຖິ່ນ:
+CacheNetwork=ໄຟລ໌ເຄືອຂ່າຍ:
+CacheInternet=Stream ອິນເຕີເນັດ:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=ກ່ຽວກັບ
+Version=ເວີຊັນ
+Engine=ເຄື່ອງຈັກ
+Technology=ເຕັກໂນໂລຊີ
+BuildInfo=ຂໍ້ມູນການສ້າງ
+SystemInfo=ລະບົບ
+Credits=ເຄຣດິດ
+Developer=ນັກພັດທະນາ:
+Author=ຜູ້ຂຽນ
+License=ໃບອະນຸຍາດ
+Website=ເວັບໄຊ
+GitHub=GitHub
+Description=ໂປຣແກຣມຫຼິ້ນສື່ທັນສະໄໝ, ເບົາ
+LicenseText=3nity Media ຢູ່ພາຍໃຕ້ໃບອະນຸຍາດ GPL-2.0\n\nນີ້ໝາຍຄວາມວ່າທ່ານມີອິດສະຫຼະທີ່ຈະ:\n  • ໃຊ້ຊອບແວສຳລັບຈຸດປະສົງໃດໆ\n  • ສຶກສາ ແລະ ແກ້ໄຂລະຫັດແຫຼ່ງ\n  • ແຈກຢາຍສຳເນົາຊອບແວ\n  • ແຈກຢາຍການແກ້ໄຂຂອງທ່ານ\n\nພາຍໃຕ້ເງື່ອນໄຂວ່າການແກ້ໄຂທີ່ແຈກຢາຍ\nກໍ່ຢູ່ພາຍໃຕ້ໃບອະນຸຍາດ GPL-2.0 ເຊັ່ນກັນ.
+BuildDate=ວັນທີ:
+Target=ເປົ້າໝາຍ:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=ປຸ່ມລັດແປ້ນພິມ
+Description=ຕັ້ງຄ່າປຸ່ມລັດສຳລັບການກະທຳ
+Search=ຊອກຫາ:
+PressKey=ກົດປຸ່ມ...
+ColCategory=ໝວດໝູ່
+ColAction=ການກະທຳ
+ColShortcut=ປຸ່ມລັດ
+Assign=ມອບໝາຍ
+Clear=ລຶບ
+Reset=ຕັ້ງຄ່າໃໝ່
+ResetAll=ຕັ້ງຄ່າທັງໝົດໃໝ່
+CurrentShortcut=ປັດຈຸບັນ: %s
+NoKeyPressed=ກະລຸນາກົດການປະສົມປຸ່ມກ່ອນ.
+Conflict=ຂັດແຍ້ງ: ມອບໝາຍໃຫ້ "%s" ແລ້ວ
+ConfirmReplace=ແທນທີ່ປຸ່ມລັດ
+ReplaceMessage=ປຸ່ມລັດນີ້ຖືກມອບໝາຍໃຫ້ "%s" ແລ້ວ. ທ່ານຕ້ອງການແທນທີ່ບໍ?
+ConfirmResetAll=ຕັ້ງຄ່າປຸ່ມລັດທັງໝົດໃໝ່
+ResetAllMessage=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການຕັ້ງຄ່າປຸ່ມລັດທັງໝົດໃຫ້ເປັນຄ່າເລີ່ມຕົ້ນ?
+; ຊື່ການກະທຳ
+ActPlayPause=ຫຼິ້ນ / ຢຸດຊົ່ວຄາວ
+ActStop=ຢຸດ
+ActPrevious=ກ່ອນໜ້າ
+ActNext=ຕໍ່ໄປ
+ActSeekForward=ຊອກໄປໜ້າ (10s)
+ActSeekBackward=ຊອກຖອຍຫຼັງ (10s)
+ActSeekForward5=ຊອກໄປໜ້າ (1 ນາທີ)
+ActSeekBackward5=ຊອກຖອຍຫຼັງ (1 ນາທີ)
+ActSpeedUp=ເພີ່ມຄວາມໄວ
+ActSpeedDown=ລົດຄວາມໄວ
+ActSpeedReset=ຕັ້ງຄ່າຄວາມໄວໃໝ່
+ActSetLoopA=ຕັ້ງຈຸດວົງ A
+ActSetLoopB=ຕັ້ງຈຸດວົງ B
+ActClearLoop=ລຶບວົງ A-B
+ActFrameForward=ເຟຣມໄປໜ້າ
+ActFrameBackward=ເຟຣມຖອຍຫຼັງ
+ActPrevChapter=ບົດກ່ອນໜ້າ
+ActNextChapter=ບົດຕໍ່ໄປ
+ActGotoTime=ໄປເວລາ
+ActVolumeUp=ເພີ່ມສຽງ
+ActVolumeDown=ລົດສຽງ
+ActMute=ປິດສຽງ / ເປີດ
+ActAudioDelayPlus=ການຊັກຊ້າສຽງ +
+ActAudioDelayMinus=ການຊັກຊ້າສຽງ -
+ActAudioDelayReset=ຕັ້ງຄ່າການຊັກຊ້າສຽງໃໝ່
+ActFullscreen=ເຕັມຈໍ
+ActRotate=ໝຸນວິດີໂອ
+ActDeinterlace=Deinterlace
+ActZoomIn=ຂະຫຍາຍເຂົ້າ
+ActZoomOut=ຂະຫຍາຍອອກ
+ActZoomReset=ຕັ້ງຄ່າຂະຫຍາຍໃໝ່
+ActAlwaysOnTop=ຢູ່ເທິງສະເໝີ
+ActFitToVideo=ພໍດີກັບວິດີໂອ
+ActScreenshot=ພາບໜ້າຈໍ
+ActVideoAdjust=ການປັບວິດີໂອ
+ActVisNextMode=ໂໝດການເບິ່ງເຫັນຕໍ່ໄປ
+ActVisNextColor=ໂຄງສີຕໍ່ໄປ
+ActSubDelayPlus=ການຊັກຊ້າຄຳບັນຍາຍ +
+ActSubDelayMinus=ການຊັກຊ້າຄຳບັນຍາຍ -
+ActSubDelayReset=ຕັ້ງຄ່າການຊັກຊ້າຄຳບັນຍາຍໃໝ່
+ActDVDMenu=ເມນູ DVD
+ActDVDUp=ນຳທາງຂຶ້ນ DVD
+ActDVDDown=ນຳທາງລົງ DVD
+ActDVDLeft=ນຳທາງຊ້າຍ DVD
+ActDVDRight=ນຳທາງຂວາ DVD
+ActDVDSelect=ເລືອກ DVD
+ActOpenFile=ເປີດໄຟລ໌
+ActOpenURL=ເປີດ URL
+ActPlaylist=ສະແດງລາຍການຫຼິ້ນ
+ActQuit=ອອກ
+
+[Log]
+; ຂັ້ນຕອນ 25: ໜ້າຕ່າງ Log
+Title=Log MPV
+Command=ຄຳສັ່ງ:
+Clear=ລຶບ
+Save=ບັນທຶກ...
+Copy=&ສຳເນົາ
+SelectAll=ເລືອກ&ທັງໝົດ
+SaveTitle=ບັນທຶກ Log
+SaveFilter=ໄຟລ໌ຂໍ້ຄວາມ (*.txt)|*.txt|ໄຟລ໌ທັງໝົດ (*.*)|*.*
+ErrorTitle=ຂໍ້ຜິດພາດ
+SaveError=ລົ້ມເຫຼວໃນການບັນທຶກ log: %s
+
+[MediaInfo]
+Title=ຂໍ້ມູນສື່
+FileTab=ໄຟລ໌
+VideoTab=ວິດີໂອ
+AudioTab=ສຽງ
+MetadataTab=Metadata
+FileName=ຊື່ໄຟລ໌:
+FilePath=ເສັ້ນທາງ:
+FileSize=ຂະໜາດ:
+Duration=ໄລຍະເວລາ:
+Format=ຮູບແບບ:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=ຄວາມລະອຽດ:
+FrameRate=ອັດຕາເຟຣມ:
+PixelFormat=ຮູບແບບ Pixel:
+AspectRatio=ອັດຕາສ່ວນ:
+Channels=ຊ່ອງ:
+SampleRate=ອັດຕາຕົວຢ່າງ:
+Language=ພາສາ:
+Property=ຄຸນສົມບັດ
+Value=ຄ່າ
+CopyAll=ສຳເນົາທັງໝົດ
+CopiedToClipboard=ສຳເນົາຂໍ້ມູນສື່ໄປ clipboard ແລ້ວ.
+NA=ບໍ່ມີ
+NAStream=ບໍ່ມີ (stream)
+NALive=ບໍ່ມີ (ສົດ)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=ບໍ່ຮູ້
+NoMetadata=(ບໍ່ມີ metadata)
+
+[Bookmarks]
+Title=ບຸກມາກ
+Goto=ໄປ
+Remove=ລຶບ
+Clear=ລຶບທັງໝົດ
+Refresh=ໂຫຼດໃໝ່
+OpenFolder=ເປີດໂຟນເດີ
+CopyPath=ສຳເນົາເສັ້ນທາງ
+; ຖັນ
+ColName=ຊື່
+ColFile=ໄຟລ໌
+ColPosition=ຕຳແໜ່ງ
+ColCreated=ສ້າງແລ້ວ
+; ກ່ອງໂຕ້ຕອບ
+ClearTitle=ລຶບບຸກມາກ
+ClearConfirm=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບບຸກມາກທັງໝົດ?
+Count=%d ບຸກມາກ
+
+[Favorites]
+Title=ລາຍການທີ່ມັກ
+Play=ຫຼິ້ນ
+Remove=ລຶບ
+Clear=ລຶບທັງໝົດ
+Refresh=ໂຫຼດໃໝ່
+OpenFolder=ເປີດໂຟນເດີ
+CopyPath=ສຳເນົາເສັ້ນທາງ
+; ຖັນ
+ColName=ຊື່
+ColType=ປະເພດ
+ColPath=ເສັ້ນທາງ
+; ປະເພດ
+TypeFile=ໄຟລ໌
+TypeURL=URL
+TypeRadio=ວິທະຍຸ
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=ບໍ່ຮູ້
+; ກ່ອງໂຕ້ຕອບ
+ClearTitle=ລຶບລາຍການທີ່ມັກ
+ClearConfirm=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບລາຍການທີ່ມັກທັງໝົດ?
+Count=%d ລາຍການທີ່ມັກ
+
+[History]
+Title=ປະຫວັດການຫຼິ້ນ
+Play=ຫຼິ້ນ
+Remove=ລຶບ
+Clear=ລຶບທັງໝົດ
+Refresh=ໂຫຼດໃໝ່
+OpenFolder=ເປີດໂຟນເດີ
+CopyPath=ສຳເນົາເສັ້ນທາງ
+; ຖັນ
+ColFileName=ໄຟລ໌
+ColPath=ເສັ້ນທາງ
+; ກ່ອງໂຕ້ຕອບ
+ClearTitle=ລຶບປະຫວັດ
+ClearConfirm=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບປະຫວັດທັງໝົດ?
+Count=%d ລາຍການ
+
+[SleepTimer]
+Title=ໂມງຕັ້ງເວລານອນ
+Description=ຕັ້ງເວລາເພື່ອຢຸດການຫຼິ້ນອັດຕະໂນມັດ
+Hours=ຊົ່ວໂມງ:
+Minutes=ນາທີ:
+Action=ເມື່ອເວລາໝົດ:
+StopPlayback=ຢຸດການຫຼິ້ນ
+CloseApp=ປິດແອັບ
+Shutdown=ປິດຄອມພິວເຕີ
+QuickSet=ຕັ້ງໄວ:
+15Min=15 ນາທີ
+30Min=30 ນາທີ
+1Hour=1 ຊົ່ວໂມງ
+2Hours=2 ຊົ່ວໂມງ
+
+[Radios]
+Title=ວິທະຍຸອິນເຕີເນັດ
+Play=ຫຼິ້ນ
+Add=ເພີ່ມ
+Edit=ແກ້ໄຂ
+Delete=ລຶບ
+Remove=ລຶບ
+Import=ນຳເຂົ້າ
+Export=ສົ່ງອອກ
+Refresh=ໂຫຼດໃໝ່
+Favorite=ລາຍການທີ່ມັກ
+ShowFavorites=ລາຍການທີ່ມັກ
+ShowAll=ທັງໝົດ
+; ກັ່ນຕອງ
+Genre=ປະເພດ:
+Search=ຊອກຫາ:
+SearchBtn=ຊອກຫາ
+ClearSearch=ລຶບ
+AllGenres=(ປະເພດທັງໝົດ)
+; ເມນູບໍລິບົດ
+AddFavorite=ເພີ່ມໃສ່ລາຍການທີ່ມັກ
+RemoveFavorite=ລຶບຈາກລາຍການທີ່ມັກ
+AddCustom=ເພີ່ມສະຖານີເອງ...
+EditCustom=ແກ້ໄຂສະຖານີ...
+DeleteCustom=ລຶບສະຖານີ
+OpenWebsite=ເປີດເວັບໄຊ
+CopyURL=ສຳເນົາ URL
+; ຖັນ
+ColName=ຊື່
+ColGenre=ປະເພດ
+ColBitrate=Bitrate
+ColCountry=ປະເທດ
+ColCodec=Codec
+; ກ່ອງໂຕ້ຕອບ
+AddTitle=ເພີ່ມສະຖານີເອງ
+EditTitle=ແກ້ໄຂສະຖານີ
+DeleteTitle=ລຶບສະຖານີ
+DeleteConfirm=ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບສະຖານີນີ້?
+StationName=ຊື່ສະຖານີ:
+StreamURL=URL Stream:
+GenrePrompt=ປະເພດ:
+NameURLRequired=ຕ້ອງການຊື່ ແລະ URL.
+; ຂໍ້ຄວາມສະຖານະ
+LoadingIcecast=ກຳລັງໂຫຼດສະຖານີຈາກໄດເຣັກທໍຣີ Icecast...
+IcecastError=ບໍ່ສາມາດໂຫຼດໄດເຣັກທໍຣີ Icecast ໄດ້. ກຳລັງໃຊ້ສະຖານີເລີ່ມຕົ້ນ.
+NoStationsLoaded=ບໍ່ມີສະຖານີໂຫຼດ
+StationCount=%d ສະຖານີ
+LoadedStations=ໂຫຼດ %d ສະຖານີແລ້ວ
+ErrorPrefix=ຂໍ້ຜິດພາດ:
+; ກະແຈເກົ່າ
+Name=ຊື່
+URL=URL
+Bitrate=Bitrate
+Description=ຄຳອະທິບາຍ
+Country=ປະເທດ
+
+[OpenURL]
+Title=ເປີດ URL
+Prompt=ໃສ່ URL ສື່:
+
+[GotoTime]
+Title=ໄປເວລາ
+EnterTime=ໃສ່ເວລາເພື່ອໂດດໄປ:
+Hours=ຊ
+Minutes=ນ
+Seconds=ວ
+Current=ປັດຈຸບັນ:
+Duration=ໄລຍະເວລາ:
+
+[VideoAdjust]
+Title=ການປັບວິດີໂອ
+Brightness=ຄວາມແຈ້ງ:
+Contrast=ຄວາມຕ່າງ:
+Saturation=ຄວາມອີ່ມສີ:
+Hue=ໂທນສີ:
+Gamma=Gamma:
+ResetAll=ຕັ້ງຄ່າສີທັງໝົດໃໝ່
+
+[CLI]
+; ຂໍ້ຄວາມແຖວຄຳສັ່ງ
+Usage=ການນຳໃຊ້
+Arguments=[ຕົວເລືອກ] [ໄຟລ໌|URL|ໂຟນເດີ]
+Description=ເຄື່ອງຫຼິ້ນມັນຕິມີເດຍຂ້າມແພລດຟອມທີ່ໃຊ້ libmpv ເປັນເຄື່ອງຈັກ.
+Options=ຕົວເລືອກ
+Examples=ຕົວຢ່າງ
+MoreInfo=ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ເຂົ້າເບິ່ງ
+EnqueuedTo=ເພີ່ມໃສ່ຄິວຂອງອິນສະແຕນທີ່ມີຢູ່ແລ້ວ: %s
+SentTo=ສົ່ງໄປຫາອິນສະແຕນທີ່ມີຢູ່ແລ້ວ: %s
+AlreadyRunning=3nity Media ກຳລັງເຮັດວຽກຢູ່ແລ້ວ.
+ErrorFileNotFound=ຂໍ້ຜິດພາດ: ບໍ່ພົບໄຟລ໌ ຫຼື ໂຟນເດີ: %s
+ErrorSubNotFound=ຂໍ້ຜິດພາດ: ບໍ່ພົບໄຟລ໌ຄຳບັນຍາຍ: %s

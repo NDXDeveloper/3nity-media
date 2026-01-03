@@ -1,0 +1,892 @@
+[Language]
+Name=Hausa - Hausa
+Code=ha
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menun Fayil
+File=&Fayil
+FileOpen=&Buɗe Fayil...
+FileOpenURL=Buɗe &URL...
+FileOpenClipboard=Buɗe daga &Clipboard
+FileRecent=Fayiloli na &Kwanan nan
+ClearRecentFiles=Share Fayilolin Kwanan nan
+FileExit=&Fita
+
+; Menun Kunna
+Playback=&Kunna
+PlaybackPlayPause=&Kunna/Dakatar
+PlaybackStop=&Tsaya
+PlaybackPrevious=Na &Baya
+PlaybackNext=Na &Gaba
+PlaybackSeekForward=Nema &Gaba
+PlaybackSeekBackward=Nema &Baya
+PlaybackSpeed=&Gudu
+PlaybackABLoop=Madauki A-&B
+PlaybackSetA=Saita &A
+PlaybackSetB=Saita &B
+PlaybackClearAB=&Share A-B
+PlaybackChapters=&Babi
+PlaybackPrevChapter=Babin da ya Gabata
+PlaybackNextChapter=Babin Gaba
+PlaybackFrameStep=Mataki gaba &Hoton
+PlaybackFrameBack=Mataki baya &Hoton
+
+; Kewayawa DVD
+PlaybackDVD=&Kewayawa DVD
+DVDMenu=&Menu
+DVDUp=&Sama
+DVDDown=&Ƙasa
+DVDLeft=&Hagu
+DVDRight=&Dama
+DVDSelect=&Zaɓa
+PlaybackDVDTitles=&Taken DVD
+
+; Mataki 21: Buɗe Babban Fayil
+FileOpenFolder=Buɗe &Babban Fayil...
+
+; Menun Fayil DVD/Bluray
+FileOpenDVD=Buɗe &DVD...
+FileOpenBluray=Buɗe &Blu-ray...
+
+; Mataki 13: Je zuwa Lokaci da Tarihi
+PlaybackGotoTime=&Je zuwa Lokaci...
+ToolsHistory=&Tarihi
+
+; Mataki 14: Tray na Tsarin
+TrayShow=&Nuna/Ɓoye
+TrayPlayPause=&Kunna/Dakatar
+TrayStop=&Tsaya
+TrayPrevious=Na &Baya
+TrayNext=Na &Gaba
+TrayMute=&Ƙare Sauti
+TrayExit=&Fita
+
+; Mataki 15: Alamomi
+PlaybackAddBookmark=Ƙara &Alama...
+PlaybackBookmarks=&Alamomi
+BookmarksTitle=Alamomi
+BookmarksGoto=&Je zuwa Alama
+BookmarksRemove=&Cire Alama
+BookmarksClear=&Share Duk Alamomi
+BookmarksOpenFolder=Buɗe &Babban Fayil
+BookmarksCopyPath=&Kwafi Hanyar
+BookmarksCount=%d alamomi
+NoBookmarks=(Babu alamomi)
+NoFileLoaded=(Babu fayil da aka ɗora)
+BookmarkAdded=An ƙara alama a %s
+BookmarkJumped=An tsallaka zuwa alama a %s
+AddBookmarkTitle=Ƙara Alama
+AddBookmarkPrompt=Shigar da sunan alama:
+ShowAllBookmarks=Nuna Duk Alamomi...
+
+; Mataki 16: Abubuwan da ake So
+ToolsFavorites=&Abubuwan da ake So
+ToolsAddFavorite=Ƙara zuwa Abubuwan da &ake So
+FavoritesTitle=Abubuwan da ake So
+FavoritesPlay=&Kunna
+FavoritesRemove=&Cire daga Abubuwan da ake So
+FavoritesClear=&Share Duk Abubuwan da ake So
+FavoritesOpenFolder=Buɗe &Babban Fayil
+FavoritesCopyPath=&Kwafi Hanyar
+FavoritesCount=%d abubuwan da ake so
+NoFavorites=(Babu abubuwan da ake so)
+AddFavoriteTitle=Ƙara zuwa Abubuwan da ake So
+AddFavoritePrompt=Shigar da sunan abin da ake so:
+AlreadyFavorite=Ya riga yana cikin abubuwan da ake so
+AddedToFavorites=An ƙara zuwa abubuwan da ake so: %s
+NoFileToFavorite=Babu fayil da aka ɗora don ƙara zuwa abubuwan da ake so
+FavoriteTypeFile=Fayil
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Rediyo
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Tsarin rubutun waƙa
+TrackWithTitle=Waƙa %d: %s
+TrackWithLang=Waƙa %d (%s)
+TrackNumber=Waƙa %d
+
+; Abubuwan menun gudu
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Abubuwan menun girman
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Waƙar bayanin hoto
+SubtitleDisable=Kashe
+
+; Mataki 17: Mai ƙidayar Barci
+ToolsSleepTimer=&Mai ƙidayar Barci...
+ToolsSleepTimerActive=&Mai ƙidayar Barci [%s]
+ToolsCancelTimer=Soke &Mai ƙidaya
+
+; Menun Sauti
+Audio=&Sauti
+AudioTrack=&Waƙar Sauti
+AudioVolumeUp=Ƙara &Sauti
+AudioVolumeDown=Rage &Sauti
+AudioMute=&Ƙare Sauti
+AudioEqualizer=&Daidaitawa
+AudioDelay=&Jinkirin Sauti
+AudioDelayPlus=Jinkiri +0.1s
+AudioDelayMinus=Jinkiri -0.1s
+AudioDelayReset=Sake Saita Jinkiri
+AudioNormalize=&Daidaita Girman Sauti
+
+; Menun Bidiyo
+Video=&Bidiyo
+VideoFullscreen=&Cikakken Allo
+VideoAspect=&Rabo na Fuska
+VideoAspectAuto=&Atomatik
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Hoton Allo
+VideoScreenshotAs=Hoton Allo &Kamar...
+VideoRotation=&Juyawa
+VideoRotate0=&0° (Al'ada)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Juye
+VideoFlipH=Juye &Kwance
+VideoFlipV=Juye &Tsaye
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Faɗaɗa
+VideoZoomIn=Faɗaɗa &Ciki
+VideoZoomOut=Faɗaɗa &Waje
+VideoZoomReset=&Sake Saita Faɗaɗa
+VideoPan=&Pan
+VideoPanLeft=Pan &Hagu
+VideoPanRight=Pan &Dama
+VideoPanUp=Pan &Sama
+VideoPanDown=Pan &Ƙasa
+VideoPanReset=Sake &Saita Pan
+VideoTrack=&Waƙar Bidiyo
+VideoColors=Daidaita &Launuka
+VideoBrightness=&Haske
+VideoContrast=&Bambanci
+VideoSaturation=&Ƙoshin Launi
+VideoHue=&Launin
+VideoGamma=&Gamma
+VideoColorsReset=Sake Saita &Duk Launuka
+VideoIncrease=Ƙara (+5)
+VideoDecrease=Rage (-5)
+VideoReset=Sake Saita
+VideoAdjustDialog=&Daidaita Bidiyo...
+
+; Menun Duba
+View=&Duba
+ViewAlwaysOnTop=&Koyaushe a Sama
+ViewFitToVideo=&Daidaita Taga zuwa Bidiyo
+ViewScale=&Girman Taga
+
+; Mataki 26: Menun Gani
+ViewVisualization=&Gani
+VisNone=&Babu
+VisSpectrum=&Mai Nazarin Spectrum
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=Ma'aunin &VU
+VisNextMode=&Yanayin Gaba
+VisNextColor=&Tsarin Launi na Gaba
+
+; Menun Bayanin Hoto
+Subtitles=&Bayanin Hoto
+SubtitleTrack=&Waƙar Bayanin Hoto
+SubtitleLoad=&Ɗora Bayanin Hoto...
+SubtitleDelay=&Jinkirin Bayanin Hoto
+SubtitleDelayPlus=Jinkiri +0.1s
+SubtitleDelayMinus=Jinkiri -0.1s
+SubtitleDelayReset=Sake Saita Jinkiri
+
+; Menun Kayan Aiki
+Tools=&Kayan Aiki
+ToolsPlaylist=&Jerin Waƙoƙi
+ToolsRadios=&Rediyoyi
+ToolsShortcuts=&Gajerun Hanyoyi...
+ToolsOptions=&Zaɓuɓɓuka
+
+; Mataki 27: Menun Yin Rikodin
+ToolsRecord=&Rikodin Rafi...
+ToolsStopRecord=&Dakatar da Rikodin
+ToolsRecording=&Rikodin...
+
+; Menun Taimako
+Help=&Taimako
+HelpMediaInfo=&Bayanan Kafofin Watsa Labarai
+HelpLog=&Tagar Log
+HelpAbout=&Game da
+
+[Dialog]
+OpenFile=Buɗe Fayil
+OpenURL=Buɗe URL
+SaveScreenshot=Ajiye Hoton Allo
+LoadSubtitle=Ɗora Fayilin Bayanin Hoto
+EnterURL=Shigar da URL:
+ResumePlayback=Ci gaba da Kunna
+ResumeFrom=Ci gaba daga %s?
+ClearRecentFiles=Share Fayilolin Kwanan nan
+NoRecentFiles=(Babu fayilolin kwanan nan)
+NoAudioTracks=(Babu waƙoƙin sauti)
+NoVideoTracks=(Babu waƙoƙin bidiyo)
+NoSubtitleTracks=(Babu waƙoƙin bayanin hoto)
+NoChapters=(Babu babuka)
+OpenDVD=Buɗe DVD
+OpenBluray=Buɗe Blu-ray
+OpenFolder=Buɗe Babban Fayil
+
+; Tacewa fayiloli
+ScreenshotFilter=Hoton PNG|*.png|Hoton JPEG|*.jpg|Hoton WebP|*.webp
+DVDFilter=Babban Fayil na DVD|*.;*.iso|Duk fayiloli (*.*)|*.*
+BlurayFilter=Babban Fayil na Blu-ray|*.;*.iso|Duk fayiloli (*.*)|*.*
+NoDVD=(Babu DVD da aka ɗora)
+DVDTitle=Taken %d
+GotoTime=Je zuwa Lokaci
+EnterTime=Shigar da lokacin da za a tsallaka zuwa:
+Hours=Awanni
+Minutes=Mintuna
+Seconds=Dakikoki
+Current=Yanzu:
+HistoryTitle=Tarihin Kunna
+HistoryItems=%d abubuwa a tarihi
+HistoryPlay=&Kunna
+HistoryRemove=&Cire daga Tarihi
+HistoryClear=&Share Duk Tarihi
+HistoryOpenFolder=Buɗe &Babban Fayil
+HistoryCopyPath=&Kwafi Hanyar
+ClearHistory=Share Tarihi
+ClearHistoryConfirm=Ka tabbata kana son share duk tarihi?
+SleepTimerTitle=Mai ƙidayar Barci
+SleepTimerDescription=Saita mai ƙidaya don dakatar da kunna ta atomatik
+SleepTimerHours=Awanni
+SleepTimerMinutes=Mintuna
+SleepTimerQuickSet=Saita Cikin Sauri
+SleepTimerAction=Lokacin da mai ƙidaya ya ƙare
+SleepTimerStopPlayback=Dakatar da kunna
+SleepTimerCloseApp=Rufe shirin
+SleepTimerShutdown=Kashe kwamfuta
+SleepTimerStart=Fara Mai ƙidaya
+
+[Status]
+Ready=A shirye
+Opening=Ana buɗewa...
+Playing=Ana kunna
+Paused=An dakatar
+Stopped=An tsaya
+Error=Kuskure
+Buffering=Ana loda...
+Seeking=Ana nema...
+Recording=Ana rikodin
+
+[Message]
+SpeedFormat=Gudu: %.2fx
+VolumeFormat=Girman sauti: %d%%
+BrightnessFormat=Haske: %d
+ContrastFormat=Bambanci: %d
+SaturationFormat=Ƙoshin Launi: %d
+HueFormat=Launin: %d
+GammaFormat=Gamma: %d
+ColorsReset=An sake saita launukan bidiyo
+LoopASet=An saita madauki A a %s
+LoopBSet=An saita madauki B a %s - Madauki yana aiki
+LoopCleared=An share madauki A-B
+SetAFirst=Fara saita wurin A (danna L)
+RotationFormat=Juyawa: %d°
+FlipHOn=Juye kwance: KUNNA
+FlipHOff=Juye kwance: KASHE
+FlipVOn=Juye tsaye: KUNNA
+FlipVOff=Juye tsaye: KASHE
+DeinterlaceOn=Deinterlace: KUNNA
+DeinterlaceOff=Deinterlace: KASHE
+AlwaysOnTopOn=Koyaushe a sama: KUNNA
+AlwaysOnTopOff=Koyaushe a sama: KASHE
+WindowFitted=An daidaita taga zuwa %dx%d
+WindowScale=Girman taga: %.0f%%
+ScreenshotSaved=An ajiye hoton allo: %s
+AudioNormalizeOn=Daidaita sauti: KUNNA
+AudioNormalizeOff=Daidaita sauti: KASHE
+AudioDelayFormat=Jinkirin sauti: %.1f s
+SubtitleDelayFormat=Jinkirin bayanin hoto: %.1f s
+ZoomFormat=Faɗaɗa: %.0f%%
+PanCenter=Pan: Tsakiya
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Babu bidiyo da aka ɗora
+PlayingFromClipboard=Ana kunna daga clipboard: %s
+ClipboardInvalid=Clipboard bai ƙunshi URL ko hanya mai inganci ba
+ClipboardEmpty=Clipboard babu komai ko bai ƙunshi rubutu ba
+ResumedAt=An ci gaba a %s
+FrameStepForward=Mataki gaba hoton
+FrameStepBackward=Mataki baya hoton
+PreviousChapter=Babin da ya gabata
+NextChapter=Babin gaba
+PlayingRadio=Ana kunna rediyo: %s
+PlayingDVD=Ana kunna DVD: %s
+PlayingBluray=Ana kunna Blu-ray: %s
+DVDTitlePlaying=Taken DVD %d
+SeekTo=Ana nema zuwa %s
+MinimizedToTray=An ƙanƙantar zuwa tray. Danna sau biyu don dawo.
+SleepTimerSet=An saita mai ƙidayar barci: %s
+SleepTimerCancelled=An soke mai ƙidayar barci
+SleepTimerWarning=Mai ƙidayar barci: Minti 1 ya rage
+SleepTimerFinal=Mai ƙidayar barci: Dakikoki 10 sun rage
+SleepTimerStopped=Mai ƙidayar barci: An dakatar da kunna
+SleepTimerClosing=Mai ƙidayar barci: Ana rufe shirin
+SleepTimerShutdown=Mai ƙidayar barci: Ana kashe kwamfuta
+SleepTimerExpired=Mai ƙidayar Barci ya Ƙare
+ShutdownManual=Da fatan za a kashe kwamfutarka da hannu.
+
+; Mataki 21: Buɗe Babban Fayil
+FolderOpened=An buɗe babban fayil: %d fayiloli
+NoMediaFound=Ba a sami fayilolin kafofin watsa labarai ba
+FilesAdded=An ƙara fayiloli %d zuwa jerin waƙoƙi
+
+; Mataki 27: Saƙonnin rikodin
+RecordNeedPlayback=Fara kunna kafin rikodin.
+RecordingStarted=An fara rikodin
+RecordingStopped=An dakatar da rikodin
+
+; Ƙarin saƙonnin matsayi
+EndOfPlaylist=Ƙarshen jerin waƙoƙi
+NoMediaLoaded=Babu fayilin kafofin watsa labarai da aka ɗora.
+JumpedToNamed=An tsallaka zuwa: %s
+ChapterFormat=Babi %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Alama a %s
+
+[Label]
+Muted=An ƙare sauti
+
+[Button]
+Play=Kunna
+Pause=Dakatar
+Stop=Tsaya
+Previous=Na Baya
+Next=Na Gaba
+Mute=Ƙare Sauti
+Unmute=Dawo da Sauti
+Fullscreen=Cikakken Allo
+OK=OK
+Cancel=Soke
+Apply=Aiwatar
+Close=Rufe
+Yes=I
+No=A'a
+
+[Tooltip]
+Play=Kunna/Dakatar
+Stop=Dakatar da kunna
+Previous=Waƙa ta baya
+Next=Waƙa ta gaba
+Mute=Canza ƙare sauti
+Volume=Girman sauti
+Seek=Matsayin nema
+Fullscreen=Canza cikakken allo
+
+[Playlist]
+Title=Jerin Waƙoƙi
+Add=Ƙara
+Remove=Cire
+Clear=Share
+MoveUp=Matsa Sama
+MoveDown=Matsa Ƙasa
+Shuffle=Gauraye
+Repeat=Maimaita
+Play=Kunna
+ShuffleOn=Gauraye: Kunna
+ShuffleOff=Gauraye: Kashe
+RepeatOff=Maimaita: Kashe
+RepeatOne=Maimaita: Ɗaya
+RepeatAll=Maimaita: Duka
+SavePlaylist=Ajiye
+LoadPlaylist=Ɗora
+TotalDuration=Jimla: %s
+ItemCount=%d abubuwa
+
+; Mataki 22: Ingantawa na Jerin Waƙoƙi
+Search=Nema:
+FilterPlaceholder=Tace jerin waƙoƙi...
+ClearSearch=Share
+FilterCount=%d/%d
+RemoveDuplicates=Cire &Kwafi
+Properties=&Kaddarori...
+NoDuplicates=Ba a sami kwafi ba.
+DuplicatesFound=An sami kwafi %d. Cire su?
+RemoveDuplicatesTitle=Cire Kwafi
+PropertiesTitle=Kaddarorin Jerin Waƙoƙi
+PropTotalItems=Jimlar abubuwa: %d
+PropTotalDuration=Jimlar lokaci: %s
+PropPlayed=An kunna: %d
+PropUnplayed=Ba a kunna ba: %d
+PropTotalSize=Jimlar girma: %.2f MB
+PropShuffle=Gauraye: %s
+PropRepeat=Maimaita: %s
+On=Kunna
+Off=Kashe
+
+; Sabbin maɓalli don ApplyLocale
+ClearTitle=Share Jerin Waƙoƙi
+ClearConfirm=Ka tabbata kana son share jerin waƙoƙi?
+NoPlaylist=Babu jerin waƙoƙi
+StatusFormat=%d abubuwa | Jimla: %s
+RepeatOne=Mai. 1
+RepeatAll=Mai. Duka
+HintRepeatEnable=Danna don kunna Maimaita Duka
+HintRepeatOne=Maimaita Ɗaya - Danna don kashe
+HintRepeatAll=Maimaita Duka - Danna don Maimaita Ɗaya
+HintShuffleRepeat=Gauraye + Maimaita Duka - Danna don kashe maimaita
+RemoveDuplicatesTitle=Cire Kwafi
+NoDuplicates=Ba a sami kwafi ba.
+SelectAll=Zaɓi Duka
+SelectNone=Cire Zaɓi
+SelectInvert=Juyar da Zaɓi
+Sort=Tsara
+SortByName=Da Suna
+SortByTitle=Da Take
+SortByArtist=Da Mawaƙi
+SortByDuration=Da Lokaci
+SortReverse=Juyar
+SortRandom=Gauraye
+ColTitle=Take
+ColDuration=Lokaci
+ColArtist=Mawaƙi
+ColAlbum=Album
+PlaylistFilter=Jerin Waƙoƙi M3U|*.m3u|Jerin Waƙoƙi M3U8|*.m3u8|Jerin Waƙoƙi PLS|*.pls
+
+[Equalizer]
+Title=Daidaitawa
+Presets=Shirye-shirye:
+Preamp=Preamp:
+Flat=Daidai
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Gargajiya
+BassBoost=Ƙara Bass
+TrebleBoost=Ƙara Treble
+Vocal=Muryar
+Reset=Sake Saita
+Enable=Kunna Daidaitawa
+Save=Ajiye
+Delete=Share
+Ready=A shirye
+; Maɓallai da ayyuka
+SavePreset=Ajiye Shirye-shirye
+DeletePreset=Share Shirye-shirye
+SavePresetTitle=Ajiye Shirye-shirye
+PresetNamePrompt=Sunan shirye-shirye:
+EnterPresetName=Da fatan shigar da sunan shirye-shirye.
+OverwritePresetTitle=Rubuta a kan Shirye-shirye
+OverwritePresetConfirm=Shirye-shiryen da wannan suna ya riga ya wanzu. Rubuta a kai?
+PresetUpdated=An sabunta shirye-shirye: %s
+PresetSaved=An ajiye shirye-shirye: %s
+SelectPresetToDelete=Da fatan zaɓi shirye-shirye don sharewa.
+CannotDeleteDefault=Ba za a iya share shirye-shiryen farko ba.
+DeletePresetTitle=Share Shirye-shirye
+DeletePresetConfirm=Ka tabbata kana son share wannan shirye-shiryen?
+PresetDeleted=An share shirye-shirye
+ResetToFlat=An sake saita daidaitawa zuwa daidai
+PresetApplied=An aiwatar da shirye-shirye: %s
+
+[Options]
+Title=Zaɓuɓɓuka
+General=Gabaɗaya
+Video=Bidiyo
+Audio=Sauti
+Subtitles=Bayanin Hoto
+Cache=Cache
+Language=Harshe:
+RestartRequired=Ana buƙatar sake farawa don canje-canje su yi tasiri
+
+; Tab na Gabaɗaya - Ɗabi'a
+Behavior=Ɗabi'a
+SingleInstance=Ƙyale misali ɗaya kawai
+AutoPlay=Kunna fayiloli ta atomatik lokacin buɗewa
+AutoResume=Ci gaba da matsayin kunna
+MinimizeToTray=Ƙanƙantar zuwa tray na tsarin
+AutoSavePlaylist=Ajiye jerin waƙoƙi lokacin fita
+
+; Tab na Gabaɗaya - OSD
+OSD=Nunawa a Allo
+ShowOSD=Nuna saƙonni a allo
+ShowTrayIcon=Nuna gunkin tray
+OSDDuration=Lokacin OSD (ms):
+
+; Tab na Gabaɗaya - Hotunan Allo
+Screenshots=Hotunan Allo
+ScreenshotPath=Babban fayil na ajiya:
+ScreenshotFormat=Tsari:
+
+; Tab na Gabaɗaya - Tarihi
+HistorySettings=Tarihi
+HistoryEnabled=Kunna tarihin kunna
+HistoryMaxItems=Yawan abubuwa mafi girma:
+
+; Tab na Gabaɗaya - Harshe
+LanguageGroup=Harshe
+RestartNote=(Ana buƙatar sake farawa don canje-canje)
+
+; Tab na Bidiyo
+VideoAdjust=Daidaita Bidiyo
+Brightness=Haske:
+Contrast=Bambanci:
+Saturation=Ƙoshin Launi:
+Hue=Launin:
+Gamma=Gamma:
+VideoOutput=Fitarwa ta Bidiyo
+Output=Fitarwa:
+HWAccel=Kunna haɓaka kayan masarufi
+Deinterlacing=Deinterlacing
+Mode=Yanayi:
+
+; Tab na Sauti
+AudioOutput=Fitarwa ta Sauti
+OutputDriver=Direba na fitarwa:
+Device=Na'ura:
+AudioOptions=Zaɓuɓɓukan Sauti
+NormalizeAudio=Daidaita girman sauti
+Channels=Tasoshi:
+
+; Tab na Bayanin Hoto
+UseDefaultSubtitles=Yi amfani da saitin bayanin hoto na farko
+Font=Rubutu
+FontName=Rubutu:
+FontSize=Girma:
+FontColor=Launi:
+Bold=Mai kauri
+Italic=Kwatankwacin
+Outline=Gefen waje
+OutlineColor=Launi:
+OutlineSize=Girma:
+Position=Matsayi
+VerticalPosition=Matsayi na tsaye:
+SubOptions=Zaɓuɓɓuka
+Encoding=Encoding:
+AutoLoadSubs=Ɗora fayilolin bayanin hoto ta atomatik
+
+; Gargaɗin fitarwar bidiyo
+VOWarningX11=Gargaɗi: x11 bai goyi bayan daidaita bidiyo ba (haske, bambanci, da dai sauransu.)
+VOWarningWayland=Gargaɗi: Yana buƙatar zaman Wayland. Ana goyon bayan daidaita bidiyo.
+
+; Tab na Cache
+CacheSettings=Girman Buffer na Cache (KB)
+CacheDefault=Cache na farko:
+CacheLocal=Fayilolin gida:
+CacheNetwork=Fayilolin cibiyar sadarwa:
+CacheInternet=Rafukan Intanet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Game da
+Version=Sigar
+Engine=Injin
+Technology=Fasaha
+BuildInfo=Bayanan Gini
+SystemInfo=Tsarin
+Credits=Godiya
+Developer=Mai haɓakawa:
+Author=Marubucin
+License=Lasisin
+Website=Shafin Yanar gizo
+GitHub=GitHub
+Description=Mai kunna kafofin watsa labarai na zamani, mai sauƙi
+LicenseText=3nity Media yana ƙarƙashin lasisin GPL-2.0\n\nWannan yana nufin kuna da 'yanci don:\n  • Amfani da software don kowane dalili\n  • Nazari da canza lambar tushe\n  • Rarraba kwafi na software\n  • Rarraba canje-canjenku\n\nA ƙarƙashin sharaɗin cewa duk canje-canje da aka rarraba\nsu ma suna ƙarƙashin lasisin GPL-2.0.
+BuildDate=Kwanan wata:
+Target=Manufa:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Gajerun Hanyoyi na Keyboard
+Description=Tsara gajerun hanyoyi don ayyuka
+Search=Nema:
+PressKey=Danna maɓalli...
+ColCategory=Rukunin
+ColAction=Aiki
+ColShortcut=Gajeren Hanya
+Assign=Sanya
+Clear=Share
+Reset=Sake Saita
+ResetAll=Sake Saita Duka
+CurrentShortcut=Yanzu: %s
+NoKeyPressed=Da fatan danna haɗin maɓalli tukuna.
+Conflict=Rikici: An riga an sanya wa "%s"
+ConfirmReplace=Maye gurbin Gajeren Hanya
+ReplaceMessage=An riga an sanya wannan gajeren hanya wa "%s". Kuna son maye gurbin ta?
+ConfirmResetAll=Sake Saita Duk Gajerun Hanyoyi
+ResetAllMessage=Ka tabbata kana son sake saita duk gajerun hanyoyi zuwa na farko?
+; Sunayen aiki
+ActPlayPause=Kunna / Dakatar
+ActStop=Tsaya
+ActPrevious=Na Baya
+ActNext=Na Gaba
+ActSeekForward=Nema Gaba (10s)
+ActSeekBackward=Nema Baya (10s)
+ActSeekForward5=Nema Gaba (1 min)
+ActSeekBackward5=Nema Baya (1 min)
+ActSpeedUp=Ƙara Gudu
+ActSpeedDown=Rage Gudu
+ActSpeedReset=Sake Saita Gudu
+ActSetLoopA=Saita Wurin Madauki A
+ActSetLoopB=Saita Wurin Madauki B
+ActClearLoop=Share Madauki A-B
+ActFrameForward=Hoton Gaba
+ActFrameBackward=Hoton Baya
+ActPrevChapter=Babin da ya Gabata
+ActNextChapter=Babin Gaba
+ActGotoTime=Je zuwa Lokaci
+ActVolumeUp=Ƙara Sauti
+ActVolumeDown=Rage Sauti
+ActMute=Ƙare Sauti / Dawo
+ActAudioDelayPlus=Jinkirin Sauti +
+ActAudioDelayMinus=Jinkirin Sauti -
+ActAudioDelayReset=Sake Saita Jinkirin Sauti
+ActFullscreen=Cikakken Allo
+ActRotate=Juya Bidiyo
+ActDeinterlace=Deinterlace
+ActZoomIn=Faɗaɗa Ciki
+ActZoomOut=Faɗaɗa Waje
+ActZoomReset=Sake Saita Faɗaɗa
+ActAlwaysOnTop=Koyaushe a Sama
+ActFitToVideo=Daidaita zuwa Bidiyo
+ActScreenshot=Hoton Allo
+ActVideoAdjust=Daidaita Bidiyo
+ActVisNextMode=Yanayin Gani na Gaba
+ActVisNextColor=Tsarin Launi na Gaba
+ActSubDelayPlus=Jinkirin Bayanin Hoto +
+ActSubDelayMinus=Jinkirin Bayanin Hoto -
+ActSubDelayReset=Sake Saita Jinkirin Bayanin Hoto
+ActDVDMenu=Menun DVD
+ActDVDUp=Kewaya Sama a DVD
+ActDVDDown=Kewaya Ƙasa a DVD
+ActDVDLeft=Kewaya Hagu a DVD
+ActDVDRight=Kewaya Dama a DVD
+ActDVDSelect=Zaɓi a DVD
+ActOpenFile=Buɗe Fayil
+ActOpenURL=Buɗe URL
+ActPlaylist=Nuna Jerin Waƙoƙi
+ActQuit=Fita
+
+[Log]
+; Mataki 25: Tagar Log
+Title=Log MPV
+Command=Umarni:
+Clear=Share
+Save=Ajiye...
+Copy=&Kwafi
+SelectAll=Zaɓi &Duka
+SaveTitle=Ajiye Log
+SaveFilter=Fayilolin rubutu (*.txt)|*.txt|Duk fayiloli (*.*)|*.*
+ErrorTitle=Kuskure
+SaveError=An kasa ajiye log: %s
+
+[MediaInfo]
+Title=Bayanan Kafofin Watsa Labarai
+FileTab=Fayil
+VideoTab=Bidiyo
+AudioTab=Sauti
+MetadataTab=Metadata
+FileName=Sunan Fayil:
+FilePath=Hanya:
+FileSize=Girma:
+Duration=Lokaci:
+Format=Tsari:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Ƙuduri:
+FrameRate=Yawan Hotunan:
+PixelFormat=Tsarin Pixel:
+AspectRatio=Rabo na Fuska:
+Channels=Tasoshi:
+SampleRate=Yawan Samfuri:
+Language=Harshe:
+Property=Kadara
+Value=Ƙima
+CopyAll=Kwafi Duka
+CopiedToClipboard=An kwafi bayanan kafofin watsa labarai zuwa clipboard.
+NA=Babu
+NAStream=Babu (rafi)
+NALive=Babu (kai tsaye)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Ba a sani ba
+NoMetadata=(Babu metadata)
+
+[Bookmarks]
+Title=Alamomi
+Goto=Je zuwa
+Remove=Cire
+Clear=Share Duka
+Refresh=Sabunta
+OpenFolder=Buɗe Babban Fayil
+CopyPath=Kwafi Hanyar
+; Ginshiƙai
+ColName=Suna
+ColFile=Fayil
+ColPosition=Matsayi
+ColCreated=An Ƙirƙira
+; Tabbatarwa
+ClearTitle=Share Alamomi
+ClearConfirm=Ka tabbata kana son share duk alamomi?
+Count=alama/alamomi %d
+
+[Favorites]
+Title=Abubuwan da ake So
+Play=Kunna
+Remove=Cire
+Clear=Share Duka
+Refresh=Sabunta
+OpenFolder=Buɗe Babban Fayil
+CopyPath=Kwafi Hanyar
+; Ginshiƙai
+ColName=Suna
+ColType=Iri
+ColPath=Hanya
+; Iri-iri
+TypeFile=Fayil
+TypeURL=URL
+TypeRadio=Rediyo
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Ba a sani ba
+; Tabbatarwa
+ClearTitle=Share Abubuwan da ake So
+ClearConfirm=Ka tabbata kana son share duk abubuwan da ake so?
+Count=abu/abubuwa %d da ake so
+
+[History]
+Title=Tarihin Kunna
+Play=Kunna
+Remove=Cire
+Clear=Share Duka
+Refresh=Sabunta
+OpenFolder=Buɗe Babban Fayil
+CopyPath=Kwafi Hanyar
+; Ginshiƙai
+ColFileName=Fayil
+ColPath=Hanya
+; Tabbatarwa
+ClearTitle=Share Tarihi
+ClearConfirm=Ka tabbata kana son share duk tarihi?
+Count=abu/abubuwa %d
+
+[SleepTimer]
+Title=Mai ƙidayar Barci
+Description=Saita mai ƙidaya don dakatar da kunna ta atomatik
+Hours=Awanni:
+Minutes=Mintuna:
+Action=Lokacin da mai ƙidaya ya ƙare:
+StopPlayback=Dakatar da kunna
+CloseApp=Rufe shirin
+Shutdown=Kashe kwamfuta
+QuickSet=Saita cikin sauri:
+15Min=Minti 15
+30Min=Minti 30
+1Hour=Awa 1
+2Hours=Awanni 2
+
+[Radios]
+Title=Rediyoyin Intanet
+Play=Kunna
+Add=Ƙara
+Edit=Gyara
+Delete=Share
+Remove=Cire
+Import=Shigo
+Export=Fitar
+Refresh=Sabunta
+Favorite=Abu da ake So
+ShowFavorites=Abubuwan da ake So
+ShowAll=Duka
+; Tace
+Genre=Nau'i:
+Search=Nema:
+SearchBtn=Nema
+ClearSearch=Share
+AllGenres=(Duk Nau'i)
+; Menun mahallin
+AddFavorite=Ƙara zuwa Abubuwan da ake So
+RemoveFavorite=Cire daga Abubuwan da ake So
+AddCustom=Ƙara Tashar da Kanka...
+EditCustom=Gyara Tashar...
+DeleteCustom=Share Tashar
+OpenWebsite=Buɗe Shafin Yanar gizo
+CopyURL=Kwafi URL
+; Ginshiƙai
+ColName=Suna
+ColGenre=Nau'i
+ColBitrate=Bitrate
+ColCountry=Ƙasa
+ColCodec=Codec
+; Tabbatarwa
+AddTitle=Ƙara Tashar da Kanka
+EditTitle=Gyara Tashar
+DeleteTitle=Share Tashar
+DeleteConfirm=Ka tabbata kana son share wannan tashar?
+StationName=Sunan Tashar:
+StreamURL=URL na Rafi:
+GenrePrompt=Nau'i:
+NameURLRequired=Ana buƙatar suna da URL.
+; Saƙonnin matsayi
+LoadingIcecast=Ana loda tashoshi daga littafin Icecast...
+IcecastError=Ba za a iya loda littafin Icecast ba. Ana amfani da tashoshi na farko.
+NoStationsLoaded=Babu tashoshi da aka loda
+StationCount=%d tashoshi
+LoadedStations=An loda tashoshi %d
+ErrorPrefix=Kuskure:
+; Maɓallan tsofaffi
+Name=Suna
+URL=URL
+Bitrate=Bitrate
+Description=Bayani
+Country=Ƙasa
+
+[OpenURL]
+Title=Buɗe URL
+Prompt=Shigar da URL na kafofin watsa labarai:
+
+[GotoTime]
+Title=Je zuwa Lokaci
+EnterTime=Shigar da lokacin da za a tsallaka zuwa:
+Hours=A
+Minutes=M
+Seconds=D
+Current=Yanzu:
+Duration=Lokaci:
+
+[VideoAdjust]
+Title=Daidaita Bidiyo
+Brightness=Haske:
+Contrast=Bambanci:
+Saturation=Ƙoshin Launi:
+Hue=Launin:
+Gamma=Gamma:
+ResetAll=Sake Saita Duk Launuka
+
+[CLI]
+; Saƙonni na layin umarni
+Usage=Amfani
+Arguments=[ZAƁUƁƁUKA] [FAYIL|URL|BABBAN FAYIL]
+Description=Mai kunna kafofin watsa labarai masu yawa don dandamali daban-daban ta amfani da libmpv.
+Options=ZAƁUƁƁUKA
+Examples=MISALAI
+MoreInfo=Don ƙarin bayani, ziyarci
+EnqueuedTo=An ƙara zuwa jerin abin da ke aiki: %s
+SentTo=An aika zuwa abin da ke aiki: %s
+AlreadyRunning=3nity Media yana aiki ne a yanzu.
+ErrorFileNotFound=Kuskure: Ba a sami fayil ko jagorar ba: %s
+ErrorSubNotFound=Kuskure: Ba a sami fayil ɗin rubutun ba: %s

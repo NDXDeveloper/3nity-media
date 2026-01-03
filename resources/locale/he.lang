@@ -1,0 +1,892 @@
+[Language]
+Name=Hebrew - עברית
+Code=he
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; תפריט קובץ
+File=&קובץ
+FileOpen=&פתח קובץ...
+FileOpenURL=פתח &כתובת URL...
+FileOpenClipboard=פתח מ&לוח הגזירה
+FileRecent=קבצים &אחרונים
+ClearRecentFiles=נקה קבצים אחרונים
+FileExit=י&ציאה
+
+; תפריט ניגון
+Playback=&ניגון
+PlaybackPlayPause=&נגן/השהה
+PlaybackStop=&עצור
+PlaybackPrevious=ה&קודם
+PlaybackNext=ה&בא
+PlaybackSeekForward=דלג &קדימה
+PlaybackSeekBackward=דלג &אחורה
+PlaybackSpeed=&מהירות
+PlaybackABLoop=לולאה &A-B
+PlaybackSetA=קבע &A
+PlaybackSetB=קבע &B
+PlaybackClearAB=&נקה A-B
+PlaybackChapters=&פרקים
+PlaybackPrevChapter=פרק קודם
+PlaybackNextChapter=פרק הבא
+PlaybackFrameStep=פריים &קדימה
+PlaybackFrameBack=פריים &אחורה
+
+; ניווט DVD
+PlaybackDVD=&ניווט DVD
+DVDMenu=&תפריט
+DVDUp=&למעלה
+DVDDown=ל&מטה
+DVDLeft=&שמאלה
+DVDRight=&ימינה
+DVDSelect=&בחר
+PlaybackDVDTitles=&כותרות DVD
+
+; שלב 21: פתח תיקייה
+FileOpenFolder=פתח ת&יקייה...
+
+; תפריט קובץ DVD/Bluray
+FileOpenDVD=פתח &DVD...
+FileOpenBluray=פתח &Blu-ray...
+
+; שלב 13: מעבר לזמן והיסטוריה
+PlaybackGotoTime=&עבור לזמן...
+ToolsHistory=&היסטוריה
+
+; שלב 14: מגש מערכת
+TrayShow=&הצג/הסתר
+TrayPlayPause=&נגן/השהה
+TrayStop=&עצור
+TrayPrevious=ה&קודם
+TrayNext=ה&בא
+TrayMute=&השתק
+TrayExit=י&ציאה
+
+; שלב 15: סימניות
+PlaybackAddBookmark=הוסף &סימניה...
+PlaybackBookmarks=סימ&ניות
+BookmarksTitle=סימניות
+BookmarksGoto=&עבור לסימניה
+BookmarksRemove=&הסר סימניה
+BookmarksClear=&נקה את כל הסימניות
+BookmarksOpenFolder=פתח &תיקייה
+BookmarksCopyPath=ה&עתק נתיב
+BookmarksCount=%d סימניות
+NoBookmarks=(אין סימניות)
+NoFileLoaded=(לא נטען קובץ)
+BookmarkAdded=סימניה נוספה ב-%s
+BookmarkJumped=קפיצה לסימניה ב-%s
+AddBookmarkTitle=הוסף סימניה
+AddBookmarkPrompt=הזן שם סימניה:
+ShowAllBookmarks=הצג את כל הסימניות...
+
+; שלב 16: מועדפים
+ToolsFavorites=&מועדפים
+ToolsAddFavorite=הוסף למו&עדפים
+FavoritesTitle=מועדפים
+FavoritesPlay=&נגן
+FavoritesRemove=&הסר ממועדפים
+FavoritesClear=&נקה את כל המועדפים
+FavoritesOpenFolder=פתח &תיקייה
+FavoritesCopyPath=ה&עתק נתיב
+FavoritesCount=%d מועדפים
+NoFavorites=(אין מועדפים)
+AddFavoriteTitle=הוסף למועדפים
+AddFavoritePrompt=הזן שם למועדף:
+AlreadyFavorite=כבר במועדפים
+AddedToFavorites=נוסף למועדפים: %s
+NoFileToFavorite=לא נטען קובץ להוספה למועדפים
+FavoriteTypeFile=קובץ
+FavoriteTypeURL=כתובת URL
+FavoriteTypeRadio=רדיו
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; מחרוזות פורמט רצועה
+TrackWithTitle=רצועה %d: %s
+TrackWithLang=רצועה %d (%s)
+TrackNumber=רצועה %d
+
+; פריטי תפריט מהירות
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; פריטי תפריט קנה מידה
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; רצועת כתוביות
+SubtitleDisable=השבת
+
+; שלב 17: טיימר שינה
+ToolsSleepTimer=&טיימר שינה...
+ToolsSleepTimerActive=&טיימר שינה [%s]
+ToolsCancelTimer=בטל &טיימר
+
+; תפריט שמע
+Audio=&שמע
+AudioTrack=&רצועת שמע
+AudioVolumeUp=הגבר &עוצמה
+AudioVolumeDown=הנמך ע&וצמה
+AudioMute=&השתק
+AudioEqualizer=&אקולייזר
+AudioDelay=&השהיית שמע
+AudioDelayPlus=השהיה +0.1 שניות
+AudioDelayMinus=השהיה -0.1 שניות
+AudioDelayReset=אפס השהיה
+AudioNormalize=&נרמל עוצמה
+
+; תפריט וידאו
+Video=&וידאו
+VideoFullscreen=&מסך מלא
+VideoAspect=&יחס תצוגה
+VideoAspectAuto=&אוטומטי
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&צילום מסך
+VideoScreenshotAs=צילום מסך &בשם...
+VideoRotation=&סיבוב
+VideoRotate0=&0° (רגיל)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&היפוך
+VideoFlipH=היפוך &אופקי
+VideoFlipV=היפוך &אנכי
+VideoDeinterlace=&ביטול שזירה
+VideoZoom=&זום
+VideoZoomIn=הגדל &זום
+VideoZoomOut=הקטן ז&ום
+VideoZoomReset=&אפס זום
+VideoPan=&פאן
+VideoPanLeft=פאן &שמאלה
+VideoPanRight=פאן &ימינה
+VideoPanUp=פאן ל&מעלה
+VideoPanDown=פאן ל&מטה
+VideoPanReset=א&פס פאן
+VideoTrack=&רצועת וידאו
+VideoColors=&התאמות צבע
+VideoBrightness=&בהירות
+VideoContrast=&ניגודיות
+VideoSaturation=&רוויה
+VideoHue=&גוון
+VideoGamma=&גמא
+VideoColorsReset=אפס את &כל הצבעים
+VideoIncrease=הגדל (+5)
+VideoDecrease=הקטן (-5)
+VideoReset=אפס
+VideoAdjustDialog=&התאמות וידאו...
+
+; תפריט תצוגה
+View=ת&צוגה
+ViewAlwaysOnTop=&תמיד למעלה
+ViewFitToVideo=&התאם חלון לוידאו
+ViewScale=&קנה מידה חלון
+
+; שלב 26: תפריט ויזואליזציה
+ViewVisualization=&ויזואליזציה
+VisNone=&ללא
+VisSpectrum=&מנתח ספקטרום
+VisWaveform=&צורת גל
+VisVector=&סקופ וקטורי
+VisVolume=&מד VU
+VisNextMode=&מצב הבא
+VisNextColor=&ערכת צבעים הבאה
+
+; תפריט כתוביות
+Subtitles=&כתוביות
+SubtitleTrack=&רצועת כתוביות
+SubtitleLoad=&טען כתוביות...
+SubtitleDelay=&השהיית כתוביות
+SubtitleDelayPlus=השהיה +0.1 שניות
+SubtitleDelayMinus=השהיה -0.1 שניות
+SubtitleDelayReset=אפס השהיה
+
+; תפריט כלים
+Tools=&כלים
+ToolsPlaylist=&רשימת השמעה
+ToolsRadios=&רדיו
+ToolsShortcuts=&קיצורי מקלדת...
+ToolsOptions=&אפשרויות
+
+; שלב 27: תפריט הקלטה
+ToolsRecord=&הקלט זרם...
+ToolsStopRecord=ה&פסק הקלטה
+ToolsRecording=&הקלטה...
+
+; תפריט עזרה
+Help=&עזרה
+HelpMediaInfo=&מידע מדיה
+HelpLog=&חלון יומן
+HelpAbout=&אודות
+
+[Dialog]
+OpenFile=פתח קובץ
+OpenURL=פתח כתובת URL
+SaveScreenshot=שמור צילום מסך
+LoadSubtitle=טען קובץ כתוביות
+EnterURL=הזן כתובת URL:
+ResumePlayback=המשך ניגון
+ResumeFrom=להמשיך מ-%s?
+ClearRecentFiles=נקה קבצים אחרונים
+NoRecentFiles=(אין קבצים אחרונים)
+NoAudioTracks=(אין רצועות שמע)
+NoVideoTracks=(אין רצועות וידאו)
+NoSubtitleTracks=(אין רצועות כתוביות)
+NoChapters=(אין פרקים)
+OpenDVD=פתח DVD
+OpenBluray=פתח Blu-ray
+OpenFolder=פתח תיקייה
+
+; מסנני קבצים
+ScreenshotFilter=תמונת PNG|*.png|תמונת JPEG|*.jpg|תמונת WebP|*.webp
+DVDFilter=תיקיית DVD|*.;*.iso|כל הקבצים (*.*)|*.*
+BlurayFilter=תיקיית Blu-ray|*.;*.iso|כל הקבצים (*.*)|*.*
+NoDVD=(לא נטען DVD)
+DVDTitle=כותרת %d
+GotoTime=עבור לזמן
+EnterTime=הזן את הזמן לקפיצה:
+Hours=שעות
+Minutes=דקות
+Seconds=שניות
+Current=נוכחי:
+HistoryTitle=היסטוריית ניגון
+HistoryItems=%d פריטים בהיסטוריה
+HistoryPlay=&נגן
+HistoryRemove=&הסר מהיסטוריה
+HistoryClear=&נקה את כל ההיסטוריה
+HistoryOpenFolder=פתח &תיקייה
+HistoryCopyPath=ה&עתק נתיב
+ClearHistory=נקה היסטוריה
+ClearHistoryConfirm=האם אתה בטוח שברצונך לנקות את כל ההיסטוריה?
+SleepTimerTitle=טיימר שינה
+SleepTimerDescription=הגדר טיימר לעצירה אוטומטית של הניגון
+SleepTimerHours=שעות
+SleepTimerMinutes=דקות
+SleepTimerQuickSet=הגדרה מהירה
+SleepTimerAction=בתום הטיימר
+SleepTimerStopPlayback=עצור ניגון
+SleepTimerCloseApp=סגור יישום
+SleepTimerShutdown=כבה מחשב
+SleepTimerStart=התחל טיימר
+
+[Status]
+Ready=מוכן
+Opening=פותח...
+Playing=מנגן
+Paused=מושהה
+Stopped=עצור
+Error=שגיאה
+Buffering=טוען...
+Seeking=מדלג...
+Recording=מקליט
+
+[Message]
+SpeedFormat=מהירות: %.2fx
+VolumeFormat=עוצמה: %d%%
+BrightnessFormat=בהירות: %d
+ContrastFormat=ניגודיות: %d
+SaturationFormat=רוויה: %d
+HueFormat=גוון: %d
+GammaFormat=גמא: %d
+ColorsReset=צבעי וידאו אופסו
+LoopASet=נקודה A נקבעה ב-%s
+LoopBSet=נקודה B נקבעה ב-%s - לולאה פעילה
+LoopCleared=לולאה A-B נוקתה
+SetAFirst=קבע תחילה נקודה A (לחץ L)
+RotationFormat=סיבוב: %d°
+FlipHOn=היפוך אופקי: פעיל
+FlipHOff=היפוך אופקי: כבוי
+FlipVOn=היפוך אנכי: פעיל
+FlipVOff=היפוך אנכי: כבוי
+DeinterlaceOn=ביטול שזירה: פעיל
+DeinterlaceOff=ביטול שזירה: כבוי
+AlwaysOnTopOn=תמיד למעלה: פעיל
+AlwaysOnTopOff=תמיד למעלה: כבוי
+WindowFitted=חלון הותאם ל-%dx%d
+WindowScale=קנה מידה חלון: %.0f%%
+ScreenshotSaved=צילום מסך נשמר: %s
+AudioNormalizeOn=נרמול שמע: פעיל
+AudioNormalizeOff=נרמול שמע: כבוי
+AudioDelayFormat=השהיית שמע: %.1f שניות
+SubtitleDelayFormat=השהיית כתוביות: %.1f שניות
+ZoomFormat=זום: %.0f%%
+PanCenter=פאן: מרכז
+PanFormat=פאן: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=לא נטען וידאו
+PlayingFromClipboard=מנגן מלוח הגזירה: %s
+ClipboardInvalid=לוח הגזירה אינו מכיל כתובת URL או נתיב תקף
+ClipboardEmpty=לוח הגזירה ריק או אינו מכיל טקסט
+ResumedAt=הומשך ב-%s
+FrameStepForward=פריים קדימה
+FrameStepBackward=פריים אחורה
+PreviousChapter=פרק קודם
+NextChapter=פרק הבא
+PlayingRadio=מנגן רדיו: %s
+PlayingDVD=מנגן DVD: %s
+PlayingBluray=מנגן Blu-ray: %s
+DVDTitlePlaying=כותרת DVD %d
+SeekTo=מדלג ל-%s
+MinimizedToTray=ממוזער למגש. לחץ פעמיים לשחזור.
+SleepTimerSet=טיימר שינה הוגדר: %s
+SleepTimerCancelled=טיימר שינה בוטל
+SleepTimerWarning=טיימר שינה: דקה אחת נותרה
+SleepTimerFinal=טיימר שינה: 10 שניות נותרו
+SleepTimerStopped=טיימר שינה: הניגון נעצר
+SleepTimerClosing=טיימר שינה: סוגר יישום
+SleepTimerShutdown=טיימר שינה: מכבה מחשב
+SleepTimerExpired=טיימר שינה פג
+ShutdownManual=אנא כבה את המחשב ידנית.
+
+; שלב 21: פתח תיקייה
+FolderOpened=תיקייה נפתחה: %d קבצים
+NoMediaFound=לא נמצאו קובצי מדיה
+FilesAdded=נוספו %d קבצים לרשימת ההשמעה
+
+; שלב 27: הודעות הקלטה
+RecordNeedPlayback=התחל ניגון לפני הקלטה.
+RecordingStarted=ההקלטה החלה
+RecordingStopped=ההקלטה הסתיימה
+
+; הודעות סטטוס נוספות
+EndOfPlaylist=סוף רשימת ההשמעה
+NoMediaLoaded=לא נטען קובץ מדיה כרגע.
+JumpedToNamed=קפצתי ל: %s
+ChapterFormat=פרק %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=סימניה ב-%s
+
+[Label]
+Muted=מושתק
+
+[Button]
+Play=נגן
+Pause=השהה
+Stop=עצור
+Previous=קודם
+Next=הבא
+Mute=השתק
+Unmute=בטל השתקה
+Fullscreen=מסך מלא
+OK=אישור
+Cancel=ביטול
+Apply=החל
+Close=סגור
+Yes=כן
+No=לא
+
+[Tooltip]
+Play=נגן/השהה
+Stop=עצור ניגון
+Previous=רצועה קודמת
+Next=רצועה הבאה
+Mute=החלף השתקה
+Volume=עוצמה
+Seek=מיקום דילוג
+Fullscreen=החלף מסך מלא
+
+[Playlist]
+Title=רשימת השמעה
+Add=הוסף
+Remove=הסר
+Clear=נקה
+MoveUp=הזז למעלה
+MoveDown=הזז למטה
+Shuffle=ערבוב
+Repeat=חזרה
+Play=נגן
+ShuffleOn=ערבוב: פעיל
+ShuffleOff=ערבוב: כבוי
+RepeatOff=חזרה: כבוי
+RepeatOne=חזרה: אחד
+RepeatAll=חזרה: הכל
+SavePlaylist=שמור
+LoadPlaylist=טען
+TotalDuration=סה"כ: %s
+ItemCount=%d פריטים
+
+; שלב 22: שיפורי רשימת השמעה
+Search=חיפוש:
+FilterPlaceholder=סנן רשימת השמעה...
+ClearSearch=נקה
+FilterCount=%d/%d
+RemoveDuplicates=הסר &כפילויות
+Properties=מ&אפיינים...
+NoDuplicates=לא נמצאו כפילויות.
+DuplicatesFound=נמצאו %d כפילות(ים). להסיר אותם?
+RemoveDuplicatesTitle=הסר כפילויות
+PropertiesTitle=מאפייני רשימת השמעה
+PropTotalItems=סה"כ פריטים: %d
+PropTotalDuration=משך כולל: %s
+PropPlayed=נוגנו: %d
+PropUnplayed=לא נוגנו: %d
+PropTotalSize=גודל כולל: %.2f MB
+PropShuffle=ערבוב: %s
+PropRepeat=חזרה: %s
+On=פעיל
+Off=כבוי
+
+; מפתחות חדשים עבור ApplyLocale
+ClearTitle=נקה רשימת השמעה
+ClearConfirm=האם אתה בטוח שברצונך לנקות את רשימת ההשמעה?
+NoPlaylist=אין רשימת השמעה
+StatusFormat=%d פריטים | סה"כ: %s
+RepeatOne=חזרה 1
+RepeatAll=חזרה הכל
+HintRepeatEnable=לחץ להפעלת חזרה על הכל
+HintRepeatOne=חזרה על אחד - לחץ להשבתה
+HintRepeatAll=חזרה על הכל - לחץ לחזרה על אחד
+HintShuffleRepeat=ערבוב + חזרה על הכל - לחץ להשבתת חזרה
+RemoveDuplicatesTitle=הסר כפילויות
+NoDuplicates=לא נמצאו כפילויות.
+SelectAll=בחר הכל
+SelectNone=בטל בחירה
+SelectInvert=הפוך בחירה
+Sort=מיין
+SortByName=לפי שם
+SortByTitle=לפי כותרת
+SortByArtist=לפי אמן
+SortByDuration=לפי משך
+SortReverse=הפוך
+SortRandom=אקראי
+ColTitle=כותרת
+ColDuration=משך
+ColArtist=אמן
+ColAlbum=אלבום
+PlaylistFilter=רשימת השמעה M3U|*.m3u|רשימת השמעה M3U8|*.m3u8|רשימת השמעה PLS|*.pls
+
+[Equalizer]
+Title=אקולייזר
+Presets=הגדרות:
+Preamp=הגברה ראשית:
+Flat=שטוח
+Rock=רוק
+Pop=פופ
+Jazz=ג'אז
+Classical=קלאסי
+BassBoost=הגברת בס
+TrebleBoost=הגברת טרבל
+Vocal=קול
+Reset=אפס
+Enable=הפעל אקולייזר
+Save=שמור
+Delete=מחק
+Ready=מוכן
+; כפתורים ופעולות
+SavePreset=שמור הגדרה
+DeletePreset=מחק הגדרה
+SavePresetTitle=שמור הגדרה
+PresetNamePrompt=שם הגדרה:
+EnterPresetName=אנא הזן שם הגדרה.
+OverwritePresetTitle=החלף הגדרה
+OverwritePresetConfirm=הגדרה עם שם זה כבר קיימת. להחליף?
+PresetUpdated=הגדרה עודכנה: %s
+PresetSaved=הגדרה נשמרה: %s
+SelectPresetToDelete=אנא בחר הגדרה למחיקה.
+CannotDeleteDefault=לא ניתן למחוק הגדרות ברירת מחדל.
+DeletePresetTitle=מחק הגדרה
+DeletePresetConfirm=האם אתה בטוח שברצונך למחוק הגדרה זו?
+PresetDeleted=הגדרה נמחקה
+ResetToFlat=אקולייזר אופס לשטוח
+PresetApplied=הגדרה הוחלה: %s
+
+[Options]
+Title=אפשרויות
+General=כללי
+Video=וידאו
+Audio=שמע
+Subtitles=כתוביות
+Cache=מטמון
+Language=שפה:
+RestartRequired=נדרש אתחול מחדש כדי שהשינויים ייכנסו לתוקף
+
+; לשונית כללי - התנהגות
+Behavior=התנהגות
+SingleInstance=אפשר מופע יחיד בלבד
+AutoPlay=נגן אוטומטית בפתיחה
+AutoResume=המשך ממיקום הניגון
+MinimizeToTray=מזער למגש המערכת
+AutoSavePlaylist=שמור רשימת השמעה ביציאה
+
+; לשונית כללי - תצוגה על המסך
+OSD=תצוגה על המסך
+ShowOSD=הצג הודעות על המסך
+ShowTrayIcon=הצג סמל מגש
+OSDDuration=משך תצוגה (מ"ש):
+
+; לשונית כללי - צילומי מסך
+Screenshots=צילומי מסך
+ScreenshotPath=תיקיית שמירה:
+ScreenshotFormat=פורמט:
+
+; לשונית כללי - היסטוריה
+HistorySettings=היסטוריה
+HistoryEnabled=הפעל היסטוריית ניגון
+HistoryMaxItems=מקסימום פריטים:
+
+; לשונית כללי - שפה
+LanguageGroup=שפה
+RestartNote=(נדרש אתחול מחדש לשינויים)
+
+; לשונית וידאו
+VideoAdjust=התאמות וידאו
+Brightness=בהירות:
+Contrast=ניגודיות:
+Saturation=רוויה:
+Hue=גוון:
+Gamma=גמא:
+VideoOutput=פלט וידאו
+Output=פלט:
+HWAccel=הפעל האצת חומרה
+Deinterlacing=ביטול שזירה
+Mode=מצב:
+
+; לשונית שמע
+AudioOutput=פלט שמע
+OutputDriver=מנהל התקן פלט:
+Device=התקן:
+AudioOptions=אפשרויות שמע
+NormalizeAudio=נרמל עוצמת שמע
+Channels=ערוצים:
+
+; לשונית כתוביות
+UseDefaultSubtitles=השתמש בהגדרות כתוביות ברירת מחדל
+Font=גופן
+FontName=גופן:
+FontSize=גודל:
+FontColor=צבע:
+Bold=מודגש
+Italic=נטוי
+Outline=מתאר
+OutlineColor=צבע:
+OutlineSize=גודל:
+Position=מיקום
+VerticalPosition=מיקום אנכי:
+SubOptions=אפשרויות
+Encoding=קידוד:
+AutoLoadSubs=טען קבצי כתוביות אוטומטית
+
+; אזהרות פלט וידאו
+VOWarningX11=אזהרה: x11 אינו תומך בהתאמות וידאו (בהירות, ניגודיות וכו')
+VOWarningWayland=אזהרה: דורש הפעלת Wayland. התאמות וידאו נתמכות.
+
+; לשונית מטמון
+CacheSettings=גדלי מאגר מטמון (KB)
+CacheDefault=מטמון ברירת מחדל:
+CacheLocal=קבצים מקומיים:
+CacheNetwork=קבצי רשת:
+CacheInternet=זרמי אינטרנט:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=אודות
+Version=גרסה
+Engine=מנוע
+Technology=טכנולוגיה
+BuildInfo=מידע בנייה
+SystemInfo=מערכת
+Credits=תודות
+Developer=מפתח:
+Author=מחבר
+License=רישיון
+Website=אתר אינטרנט
+GitHub=GitHub
+Description=נגן מדיה מודרני וקל משקל
+LicenseText=3nity Media מורשה תחת GPL-2.0\n\nמשמעות הדבר שאתה חופשי:\n  • להשתמש בתוכנה לכל מטרה\n  • ללמוד ולשנות את קוד המקור\n  • להפיץ עותקים של התוכנה\n  • להפיץ את השינויים שלך\n\nבתנאי שכל שינויים מופצים\nמורשים גם הם תחת GPL-2.0.
+BuildDate=תאריך:
+Target=יעד:
+Kernel=ליבה:
+
+[Shortcuts]
+Title=קיצורי מקלדת
+Description=הגדר קיצורי מקלדת לפעולות
+Search=חיפוש:
+PressKey=לחץ על מקש...
+ColCategory=קטגוריה
+ColAction=פעולה
+ColShortcut=קיצור
+Assign=הקצה
+Clear=נקה
+Reset=אפס
+ResetAll=אפס הכל
+CurrentShortcut=נוכחי: %s
+NoKeyPressed=אנא לחץ תחילה על צירוף מקשים.
+Conflict=התנגשות: כבר מוקצה ל"%s"
+ConfirmReplace=החלף קיצור
+ReplaceMessage=קיצור זה כבר מוקצה ל"%s". האם להחליף?
+ConfirmResetAll=אפס את כל הקיצורים
+ResetAllMessage=האם אתה בטוח שברצונך לאפס את כל הקיצורים לברירת המחדל?
+; שמות פעולות
+ActPlayPause=נגן / השהה
+ActStop=עצור
+ActPrevious=קודם
+ActNext=הבא
+ActSeekForward=דלג קדימה (10 שניות)
+ActSeekBackward=דלג אחורה (10 שניות)
+ActSeekForward5=דלג קדימה (דקה)
+ActSeekBackward5=דלג אחורה (דקה)
+ActSpeedUp=הגבר מהירות
+ActSpeedDown=הפחת מהירות
+ActSpeedReset=אפס מהירות
+ActSetLoopA=קבע נקודת לולאה A
+ActSetLoopB=קבע נקודת לולאה B
+ActClearLoop=נקה לולאה A-B
+ActFrameForward=פריים קדימה
+ActFrameBackward=פריים אחורה
+ActPrevChapter=פרק קודם
+ActNextChapter=פרק הבא
+ActGotoTime=עבור לזמן
+ActVolumeUp=הגבר עוצמה
+ActVolumeDown=הנמך עוצמה
+ActMute=השתק / בטל השתקה
+ActAudioDelayPlus=השהיית שמע +
+ActAudioDelayMinus=השהיית שמע -
+ActAudioDelayReset=אפס השהיית שמע
+ActFullscreen=מסך מלא
+ActRotate=סובב וידאו
+ActDeinterlace=ביטול שזירה
+ActZoomIn=הגדל זום
+ActZoomOut=הקטן זום
+ActZoomReset=אפס זום
+ActAlwaysOnTop=תמיד למעלה
+ActFitToVideo=התאם לוידאו
+ActScreenshot=צילום מסך
+ActVideoAdjust=התאמות וידאו
+ActVisNextMode=מצב ויזואליזציה הבא
+ActVisNextColor=ערכת צבעים הבאה
+ActSubDelayPlus=השהיית כתוביות +
+ActSubDelayMinus=השהיית כתוביות -
+ActSubDelayReset=אפס השהיית כתוביות
+ActDVDMenu=תפריט DVD
+ActDVDUp=ניווט DVD למעלה
+ActDVDDown=ניווט DVD למטה
+ActDVDLeft=ניווט DVD שמאלה
+ActDVDRight=ניווט DVD ימינה
+ActDVDSelect=בחירת DVD
+ActOpenFile=פתח קובץ
+ActOpenURL=פתח כתובת URL
+ActPlaylist=הצג רשימת השמעה
+ActQuit=יציאה
+
+[Log]
+; שלב 25: חלון יומן
+Title=יומן MPV
+Command=פקודה:
+Clear=נקה
+Save=שמור...
+Copy=ה&עתק
+SelectAll=בחר ה&כל
+SaveTitle=שמור יומן
+SaveFilter=קובצי טקסט (*.txt)|*.txt|כל הקבצים (*.*)|*.*
+ErrorTitle=שגיאה
+SaveError=שמירת היומן נכשלה: %s
+
+[MediaInfo]
+Title=מידע מדיה
+FileTab=קובץ
+VideoTab=וידאו
+AudioTab=שמע
+MetadataTab=מטא-נתונים
+FileName=שם קובץ:
+FilePath=נתיב:
+FileSize=גודל:
+Duration=משך:
+Format=פורמט:
+Bitrate=קצב סיביות:
+Codec=קודק:
+Resolution=רזולוציה:
+FrameRate=קצב פריימים:
+PixelFormat=פורמט פיקסל:
+AspectRatio=יחס תצוגה:
+Channels=ערוצים:
+SampleRate=קצב דגימה:
+Language=שפה:
+Property=מאפיין
+Value=ערך
+CopyAll=העתק הכל
+CopiedToClipboard=מידע המדיה הועתק ללוח הגזירה.
+NA=לא זמין
+NAStream=לא זמין (זרם)
+NALive=לא זמין (שידור חי)
+ChannelMono=1 (מונו)
+ChannelStereo=2 (סטריאו)
+Channel51=6 (סראונד 5.1)
+Channel71=8 (סראונד 7.1)
+Unknown=לא ידוע
+NoMetadata=(אין מטא-נתונים)
+
+[Bookmarks]
+Title=סימניות
+Goto=עבור אל
+Remove=הסר
+Clear=נקה הכל
+Refresh=רענן
+OpenFolder=פתח תיקייה
+CopyPath=העתק נתיב
+; עמודות
+ColName=שם
+ColFile=קובץ
+ColPosition=מיקום
+ColCreated=נוצר
+; דיאלוגים
+ClearTitle=נקה סימניות
+ClearConfirm=האם אתה בטוח שברצונך לנקות את כל הסימניות?
+Count=%d סימניה(ות)
+
+[Favorites]
+Title=מועדפים
+Play=נגן
+Remove=הסר
+Clear=נקה הכל
+Refresh=רענן
+OpenFolder=פתח תיקייה
+CopyPath=העתק נתיב
+; עמודות
+ColName=שם
+ColType=סוג
+ColPath=נתיב
+; סוגים
+TypeFile=קובץ
+TypeURL=כתובת URL
+TypeRadio=רדיו
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=לא ידוע
+; דיאלוגים
+ClearTitle=נקה מועדפים
+ClearConfirm=האם אתה בטוח שברצונך לנקות את כל המועדפים?
+Count=%d מועדף(ים)
+
+[History]
+Title=היסטוריית ניגון
+Play=נגן
+Remove=הסר
+Clear=נקה הכל
+Refresh=רענן
+OpenFolder=פתח תיקייה
+CopyPath=העתק נתיב
+; עמודות
+ColFileName=קובץ
+ColPath=נתיב
+; דיאלוגים
+ClearTitle=נקה היסטוריה
+ClearConfirm=האם אתה בטוח שברצונך לנקות את כל ההיסטוריה?
+Count=%d פריט(ים)
+
+[SleepTimer]
+Title=טיימר שינה
+Description=הגדר טיימר לעצירה אוטומטית של הניגון
+Hours=שעות:
+Minutes=דקות:
+Action=בתום הטיימר:
+StopPlayback=עצור ניגון
+CloseApp=סגור יישום
+Shutdown=כבה מחשב
+QuickSet=הגדרה מהירה:
+15Min=15 דקות
+30Min=30 דקות
+1Hour=שעה
+2Hours=שעתיים
+
+[Radios]
+Title=רדיו אינטרנט
+Play=נגן
+Add=הוסף
+Edit=ערוך
+Delete=מחק
+Remove=הסר
+Import=ייבא
+Export=ייצא
+Refresh=רענן
+Favorite=מועדף
+ShowFavorites=מועדפים
+ShowAll=הכל
+; מסנן
+Genre=ז'אנר:
+Search=חיפוש:
+SearchBtn=חפש
+ClearSearch=נקה
+AllGenres=(כל הז'אנרים)
+; תפריט הקשר
+AddFavorite=הוסף למועדפים
+RemoveFavorite=הסר ממועדפים
+AddCustom=הוסף תחנה מותאמת...
+EditCustom=ערוך תחנה...
+DeleteCustom=מחק תחנה
+OpenWebsite=פתח אתר
+CopyURL=העתק כתובת URL
+; עמודות
+ColName=שם
+ColGenre=ז'אנר
+ColBitrate=קצב סיביות
+ColCountry=מדינה
+ColCodec=קודק
+; דיאלוגים
+AddTitle=הוסף תחנה מותאמת
+EditTitle=ערוך תחנה
+DeleteTitle=מחק תחנה
+DeleteConfirm=האם אתה בטוח שברצונך למחוק תחנה זו?
+StationName=שם תחנה:
+StreamURL=כתובת זרם:
+GenrePrompt=ז'אנר:
+NameURLRequired=שם וכתובת URL נדרשים.
+; הודעות סטטוס
+LoadingIcecast=טוען תחנות ממדריך Icecast...
+IcecastError=לא ניתן לטעון מדריך Icecast. משתמש בתחנות ברירת מחדל.
+NoStationsLoaded=לא נטענו תחנות
+StationCount=%d תחנות
+LoadedStations=נטענו %d תחנות
+ErrorPrefix=שגיאה:
+; מפתחות ישנים
+Name=שם
+URL=כתובת URL
+Bitrate=קצב סיביות
+Description=תיאור
+Country=מדינה
+
+[OpenURL]
+Title=פתח כתובת URL
+Prompt=הזן כתובת מדיה:
+
+[GotoTime]
+Title=עבור לזמן
+EnterTime=הזן זמן לקפיצה:
+Hours=ש
+Minutes=ד
+Seconds=ש
+Current=נוכחי:
+Duration=משך:
+
+[VideoAdjust]
+Title=התאמות וידאו
+Brightness=בהירות:
+Contrast=ניגודיות:
+Saturation=רוויה:
+Hue=גוון:
+Gamma=גמא:
+ResetAll=אפס את כל הצבעים
+
+[CLI]
+; הודעות שורת פקודה
+Usage=שימוש
+Arguments=[אפשרויות] [קובץ|URL|תיקייה]
+Description=נגן מולטימדיה חוצה פלטפורמות המשתמש ב-libmpv כמנוע.
+Options=אפשרויות
+Examples=דוגמאות
+MoreInfo=למידע נוסף, בקר באתר
+EnqueuedTo=נוסף לתור במופע קיים: %s
+SentTo=נשלח למופע קיים: %s
+AlreadyRunning=3nity Media כבר פועל.
+ErrorFileNotFound=שגיאה: קובץ או תיקייה לא נמצאו: %s
+ErrorSubNotFound=שגיאה: קובץ כתוביות לא נמצא: %s

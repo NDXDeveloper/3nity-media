@@ -1,0 +1,892 @@
+[Language]
+Name=Finnish - Suomi
+Code=fi
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Tiedostovalikko
+File=&Tiedosto
+FileOpen=&Avaa tiedosto...
+FileOpenURL=Avaa &URL...
+FileOpenClipboard=Avaa &leikepöydältä
+FileRecent=&Viimeisimmät tiedostot
+ClearRecentFiles=Tyhjennä viimeisimmät tiedostot
+FileExit=&Lopeta
+
+; Toistovalikko
+Playback=&Toisto
+PlaybackPlayPause=&Toista/Tauko
+PlaybackStop=&Pysäytä
+PlaybackPrevious=&Edellinen
+PlaybackNext=&Seuraava
+PlaybackSeekForward=Siirry &eteenpäin
+PlaybackSeekBackward=Siirry &taaksepäin
+PlaybackSpeed=&Nopeus
+PlaybackABLoop=A-&B-silmukka
+PlaybackSetA=Aseta &A
+PlaybackSetB=Aseta &B
+PlaybackClearAB=&Tyhjennä A-B
+PlaybackChapters=&Luvut
+PlaybackPrevChapter=Edellinen luku
+PlaybackNextChapter=Seuraava luku
+PlaybackFrameStep=Ruutu &eteenpäin
+PlaybackFrameBack=Ruutu &taaksepäin
+
+; DVD-navigointi
+PlaybackDVD=DVD-&navigointi
+DVDMenu=&Valikko
+DVDUp=&Ylös
+DVDDown=&Alas
+DVDLeft=&Vasen
+DVDRight=&Oikea
+DVDSelect=&Valitse
+PlaybackDVDTitles=DVD-&nimikkeet
+
+; Vaihe 21: Avaa kansio
+FileOpenFolder=Avaa k&ansio...
+
+; Tiedostovalikko DVD/Bluray
+FileOpenDVD=Avaa &DVD...
+FileOpenBluray=Avaa &Blu-ray...
+
+; Vaihe 13: Siirry aikaan ja historia
+PlaybackGotoTime=&Siirry aikaan...
+ToolsHistory=&Historia
+
+; Vaihe 14: Ilmaisinalue
+TrayShow=&Näytä/Piilota
+TrayPlayPause=&Toista/Tauko
+TrayStop=&Pysäytä
+TrayPrevious=&Edellinen
+TrayNext=&Seuraava
+TrayMute=&Mykistä
+TrayExit=&Lopeta
+
+; Vaihe 15: Kirjanmerkit
+PlaybackAddBookmark=Lisää &kirjanmerkki...
+PlaybackBookmarks=Kirjan&merkit
+BookmarksTitle=Kirjanmerkit
+BookmarksGoto=&Siirry kirjanmerkkiin
+BookmarksRemove=&Poista kirjanmerkki
+BookmarksClear=&Tyhjennä kaikki kirjanmerkit
+BookmarksOpenFolder=Avaa &kansio
+BookmarksCopyPath=&Kopioi polku
+BookmarksCount=%d kirjanmerkkiä
+NoBookmarks=(Ei kirjanmerkkejä)
+NoFileLoaded=(Tiedostoa ei ladattu)
+BookmarkAdded=Kirjanmerkki lisätty kohtaan %s
+BookmarkJumped=Siirryttiin kirjanmerkkiin kohdassa %s
+AddBookmarkTitle=Lisää kirjanmerkki
+AddBookmarkPrompt=Anna kirjanmerkin nimi:
+ShowAllBookmarks=Näytä kaikki kirjanmerkit...
+
+; Vaihe 16: Suosikit
+ToolsFavorites=&Suosikit
+ToolsAddFavorite=Lisää suo&sikkeihin
+FavoritesTitle=Suosikit
+FavoritesPlay=&Toista
+FavoritesRemove=&Poista suosikeista
+FavoritesClear=&Tyhjennä kaikki suosikit
+FavoritesOpenFolder=Avaa &kansio
+FavoritesCopyPath=&Kopioi polku
+FavoritesCount=%d suosikkia
+NoFavorites=(Ei suosikkeja)
+AddFavoriteTitle=Lisää suosikkeihin
+AddFavoritePrompt=Anna suosikin nimi:
+AlreadyFavorite=Jo suosikeissa
+AddedToFavorites=Lisätty suosikkeihin: %s
+NoFileToFavorite=Ei ladattua tiedostoa lisättäväksi suosikkeihin
+FavoriteTypeFile=Tiedosto
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Raitamuotoilumerkkijonot
+TrackWithTitle=Raita %d: %s
+TrackWithLang=Raita %d (%s)
+TrackNumber=Raita %d
+
+; Nopeusvalikoiden kohdat
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Skaalausvalikoiden kohdat
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Tekstitysraita
+SubtitleDisable=Poista käytöstä
+
+; Vaihe 17: Uniajastin
+ToolsSleepTimer=&Uniajastin...
+ToolsSleepTimerActive=&Uniajastin [%s]
+ToolsCancelTimer=Peruuta &ajastin
+
+; Äänivalikko
+Audio=&Ääni
+AudioTrack=Ääni&raita
+AudioVolumeUp=Äänenvoimakkuus &ylös
+AudioVolumeDown=Äänenvoimakkuus &alas
+AudioMute=&Mykistä
+AudioEqualizer=&Taajuuskorjain
+AudioDelay=Äänen &viive
+AudioDelayPlus=Viive +0.1s
+AudioDelayMinus=Viive -0.1s
+AudioDelayReset=Nollaa viive
+AudioNormalize=&Normalisoi äänenvoimakkuus
+
+; Videovalikko
+Video=&Video
+VideoFullscreen=&Koko näyttö
+VideoAspect=&Kuvasuhde
+VideoAspectAuto=&Automaattinen
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Kuvakaappaus
+VideoScreenshotAs=Kuvakaappaus &nimellä...
+VideoRotation=&Kierto
+VideoRotate0=&0° (Normaali)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Käännä
+VideoFlipH=Käännä &vaakasuunnassa
+VideoFlipV=Käännä &pystysuunnassa
+VideoDeinterlace=&Lomituksen poisto
+VideoZoom=&Zoomaus
+VideoZoomIn=Lähennä
+VideoZoomOut=Loitonna
+VideoZoomReset=&Nollaa zoomaus
+VideoPan=&Panoroi
+VideoPanLeft=Panoroi &vasemmalle
+VideoPanRight=Panoroi &oikealle
+VideoPanUp=Panoroi &ylös
+VideoPanDown=Panoroi &alas
+VideoPanReset=N&ollaa panorointi
+VideoTrack=Video&raita
+VideoColors=Väri&säädöt
+VideoBrightness=&Kirkkaus
+VideoContrast=&Kontrasti
+VideoSaturation=&Kylläisyys
+VideoHue=&Sävy
+VideoGamma=&Gamma
+VideoColorsReset=Nollaa &kaikki värit
+VideoIncrease=Lisää (+5)
+VideoDecrease=Vähennä (-5)
+VideoReset=Nollaa
+VideoAdjustDialog=Video&säädöt...
+
+; Näkymävalikko
+View=N&äytä
+ViewAlwaysOnTop=&Aina päällimmäisenä
+ViewFitToVideo=&Sovita ikkuna videoon
+ViewScale=Ikkunan &skaala
+
+; Vaihe 26: Visualisointivalikko
+ViewVisualization=&Visualisointi
+VisNone=&Ei mitään
+VisSpectrum=&Spektrianalysaattori
+VisWaveform=&Aaltomuoto
+VisVector=&Vektorilaajuus
+VisVolume=V&U-mittari
+VisNextMode=Seuraava &tila
+VisNextColor=Seuraava &väriskeema
+
+; Tekstitysvalikko
+Subtitles=Te&kstitykset
+SubtitleTrack=Tekstitys&raita
+SubtitleLoad=&Lataa tekstitys...
+SubtitleDelay=Tekstityksen &viive
+SubtitleDelayPlus=Viive +0.1s
+SubtitleDelayMinus=Viive -0.1s
+SubtitleDelayReset=Nollaa viive
+
+; Työkaluvalikko
+Tools=&Työkalut
+ToolsPlaylist=&Soittolista
+ToolsRadios=&Radiot
+ToolsShortcuts=&Pikanäppäimet...
+ToolsOptions=&Asetukset
+
+; Vaihe 27: Tallennusvalikko
+ToolsRecord=&Tallenna striimi...
+ToolsStopRecord=&Lopeta tallennus
+ToolsRecording=&Tallennus...
+
+; Ohjeen valikko
+Help=&Ohje
+HelpMediaInfo=&Mediatiedot
+HelpLog=&Lokiikkuna
+HelpAbout=&Tietoja
+
+[Dialog]
+OpenFile=Avaa tiedosto
+OpenURL=Avaa URL
+SaveScreenshot=Tallenna kuvakaappaus
+LoadSubtitle=Lataa tekstitystiedosto
+EnterURL=Anna URL:
+ResumePlayback=Jatka toistoa
+ResumeFrom=Jatka kohdasta %s?
+ClearRecentFiles=Tyhjennä viimeisimmät tiedostot
+NoRecentFiles=(Ei viimeisimpiä tiedostoja)
+NoAudioTracks=(Ei ääniraitoja)
+NoVideoTracks=(Ei videoraitoja)
+NoSubtitleTracks=(Ei tekstitysraitoja)
+NoChapters=(Ei lukuja)
+OpenDVD=Avaa DVD
+OpenBluray=Avaa Blu-ray
+OpenFolder=Avaa kansio
+
+; Tiedostosuodattimet
+ScreenshotFilter=PNG-kuva|*.png|JPEG-kuva|*.jpg|WebP-kuva|*.webp
+DVDFilter=DVD-kansio|*.;*.iso|Kaikki tiedostot (*.*)|*.*
+BlurayFilter=Blu-ray-kansio|*.;*.iso|Kaikki tiedostot (*.*)|*.*
+NoDVD=(DVD:tä ei ladattu)
+DVDTitle=Nimike %d
+GotoTime=Siirry aikaan
+EnterTime=Anna aika johon siirrytään:
+Hours=Tunnit
+Minutes=Minuutit
+Seconds=Sekunnit
+Current=Nykyinen:
+HistoryTitle=Toistohistoria
+HistoryItems=%d kohdetta historiassa
+HistoryPlay=&Toista
+HistoryRemove=&Poista historiasta
+HistoryClear=&Tyhjennä koko historia
+HistoryOpenFolder=Avaa &kansio
+HistoryCopyPath=&Kopioi polku
+ClearHistory=Tyhjennä historia
+ClearHistoryConfirm=Haluatko varmasti tyhjentää koko historian?
+SleepTimerTitle=Uniajastin
+SleepTimerDescription=Aseta ajastin pysäyttämään toisto automaattisesti
+SleepTimerHours=Tunnit
+SleepTimerMinutes=Minuutit
+SleepTimerQuickSet=Pika-asetus
+SleepTimerAction=Kun ajastin päättyy
+SleepTimerStopPlayback=Pysäytä toisto
+SleepTimerCloseApp=Sulje sovellus
+SleepTimerShutdown=Sammuta tietokone
+SleepTimerStart=Käynnistä ajastin
+
+[Status]
+Ready=Valmis
+Opening=Avataan...
+Playing=Toistetaan
+Paused=Tauolla
+Stopped=Pysäytetty
+Error=Virhe
+Buffering=Puskuroidaan...
+Seeking=Siirrytään...
+Recording=Tallennetaan
+
+[Message]
+SpeedFormat=Nopeus: %.2fx
+VolumeFormat=Äänenvoimakkuus: %d%%
+BrightnessFormat=Kirkkaus: %d
+ContrastFormat=Kontrasti: %d
+SaturationFormat=Kylläisyys: %d
+HueFormat=Sävy: %d
+GammaFormat=Gamma: %d
+ColorsReset=Videovärit nollattu
+LoopASet=Silmukan A asetettu kohtaan %s
+LoopBSet=Silmukan B asetettu kohtaan %s - Silmukka aktiivinen
+LoopCleared=A-B-silmukka tyhjennetty
+SetAFirst=Aseta piste A ensin (paina L)
+RotationFormat=Kierto: %d°
+FlipHOn=Vaakasuuntainen käännös: PÄÄLLÄ
+FlipHOff=Vaakasuuntainen käännös: POIS
+FlipVOn=Pystysuuntainen käännös: PÄÄLLÄ
+FlipVOff=Pystysuuntainen käännös: POIS
+DeinterlaceOn=Lomituksen poisto: PÄÄLLÄ
+DeinterlaceOff=Lomituksen poisto: POIS
+AlwaysOnTopOn=Aina päällimmäisenä: PÄÄLLÄ
+AlwaysOnTopOff=Aina päällimmäisenä: POIS
+WindowFitted=Ikkuna sovitettu kokoon %dx%d
+WindowScale=Ikkunan skaala: %.0f%%
+ScreenshotSaved=Kuvakaappaus tallennettu: %s
+AudioNormalizeOn=Äänen normalisointi: PÄÄLLÄ
+AudioNormalizeOff=Äänen normalisointi: POIS
+AudioDelayFormat=Äänen viive: %.1f s
+SubtitleDelayFormat=Tekstityksen viive: %.1f s
+ZoomFormat=Zoomaus: %.0f%%
+PanCenter=Panorointi: Keskellä
+PanFormat=Panorointi: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Videota ei ladattu
+PlayingFromClipboard=Toistetaan leikepöydältä: %s
+ClipboardInvalid=Leikepöytä ei sisällä kelvollista URL-osoitetta tai polkua
+ClipboardEmpty=Leikepöytä on tyhjä tai ei sisällä tekstiä
+ResumedAt=Jatkettu kohdasta %s
+FrameStepForward=Ruutu eteenpäin
+FrameStepBackward=Ruutu taaksepäin
+PreviousChapter=Edellinen luku
+NextChapter=Seuraava luku
+PlayingRadio=Toistetaan radiota: %s
+PlayingDVD=Toistetaan DVD:tä: %s
+PlayingBluray=Toistetaan Blu-raytä: %s
+DVDTitlePlaying=DVD-nimike %d
+SeekTo=Siirrytään kohtaan %s
+MinimizedToTray=Pienennetty ilmaisinalueelle. Kaksoisnapsauta palauttaaksesi.
+SleepTimerSet=Uniajastin asetettu: %s
+SleepTimerCancelled=Uniajastin peruutettu
+SleepTimerWarning=Uniajastin: 1 minuutti jäljellä
+SleepTimerFinal=Uniajastin: 10 sekuntia jäljellä
+SleepTimerStopped=Uniajastin: Toisto pysäytetty
+SleepTimerClosing=Uniajastin: Suljetaan sovellus
+SleepTimerShutdown=Uniajastin: Sammutetaan tietokone
+SleepTimerExpired=Uniajastin päättynyt
+ShutdownManual=Sammuta tietokone manuaalisesti.
+
+; Vaihe 21: Avaa kansio
+FolderOpened=Avattu kansio: %d tiedostoa
+NoMediaFound=Mediatiedostoja ei löytynyt
+FilesAdded=Lisätty %d tiedostoa soittolistaan
+
+; Vaihe 27: Tallennusviestit
+RecordNeedPlayback=Aloita toisto ennen tallennusta.
+RecordingStarted=Tallennus aloitettu
+RecordingStopped=Tallennus pysäytetty
+
+; Muut tilaviestit
+EndOfPlaylist=Soittolistan loppu
+NoMediaLoaded=Mediatiedostoa ei ole ladattu.
+JumpedToNamed=Siirryttiin: %s
+ChapterFormat=Luku %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Kirjanmerkki kohdassa %s
+
+[Label]
+Muted=Mykistetty
+
+[Button]
+Play=Toista
+Pause=Tauko
+Stop=Pysäytä
+Previous=Edellinen
+Next=Seuraava
+Mute=Mykistä
+Unmute=Poista mykistys
+Fullscreen=Koko näyttö
+OK=OK
+Cancel=Peruuta
+Apply=Käytä
+Close=Sulje
+Yes=Kyllä
+No=Ei
+
+[Tooltip]
+Play=Toista/Tauko
+Stop=Pysäytä toisto
+Previous=Edellinen raita
+Next=Seuraava raita
+Mute=Vaihda mykistys
+Volume=Äänenvoimakkuus
+Seek=Siirtymiskohta
+Fullscreen=Vaihda koko näyttö
+
+[Playlist]
+Title=Soittolista
+Add=Lisää
+Remove=Poista
+Clear=Tyhjennä
+MoveUp=Siirrä ylös
+MoveDown=Siirrä alas
+Shuffle=Sekoita
+Repeat=Toista
+Play=Toista
+ShuffleOn=Sekoitus: Päällä
+ShuffleOff=Sekoitus: Pois
+RepeatOff=Toisto: Pois
+RepeatOne=Toisto: Yksi
+RepeatAll=Toisto: Kaikki
+SavePlaylist=Tallenna
+LoadPlaylist=Lataa
+TotalDuration=Yhteensä: %s
+ItemCount=%d kohdetta
+
+; Vaihe 22: Soittolistan parannukset
+Search=Haku:
+FilterPlaceholder=Suodata soittolistaa...
+ClearSearch=Tyhjennä
+FilterCount=%d/%d
+RemoveDuplicates=Poista &kaksoiskappaleet
+Properties=&Ominaisuudet...
+NoDuplicates=Kaksoiskappaleita ei löytynyt.
+DuplicatesFound=Löydettiin %d kaksoiskappale(tta). Poistetaanko ne?
+RemoveDuplicatesTitle=Poista kaksoiskappaleet
+PropertiesTitle=Soittolistan ominaisuudet
+PropTotalItems=Kohteita yhteensä: %d
+PropTotalDuration=Kokonaiskesto: %s
+PropPlayed=Toistettu: %d
+PropUnplayed=Toistamatta: %d
+PropTotalSize=Kokonaiskoko: %.2f MB
+PropShuffle=Sekoitus: %s
+PropRepeat=Toisto: %s
+On=Päällä
+Off=Pois
+
+; Uudet avaimet ApplyLocale:lle
+ClearTitle=Tyhjennä soittolista
+ClearConfirm=Haluatko varmasti tyhjentää soittolistan?
+NoPlaylist=Ei soittolistaa
+StatusFormat=%d kohdetta | Yhteensä: %s
+RepeatOne=Toista 1
+RepeatAll=Toista kaikki
+HintRepeatEnable=Napsauta ottaaksesi käyttöön Toista kaikki
+HintRepeatOne=Toista yksi - Napsauta poistaaksesi käytöstä
+HintRepeatAll=Toista kaikki - Napsauta valitaksesi Toista yksi
+HintShuffleRepeat=Sekoitus + Toista kaikki - Napsauta poistaaksesi toiston käytöstä
+RemoveDuplicatesTitle=Poista kaksoiskappaleet
+NoDuplicates=Kaksoiskappaleita ei löytynyt.
+SelectAll=Valitse kaikki
+SelectNone=Poista valinnat
+SelectInvert=Käännä valinta
+Sort=Lajittele
+SortByName=Nimen mukaan
+SortByTitle=Otsikon mukaan
+SortByArtist=Artistin mukaan
+SortByDuration=Keston mukaan
+SortReverse=Käänteinen
+SortRandom=Satunnaista
+ColTitle=Otsikko
+ColDuration=Kesto
+ColArtist=Artisti
+ColAlbum=Albumi
+PlaylistFilter=M3U-soittolista|*.m3u|M3U8-soittolista|*.m3u8|PLS-soittolista|*.pls
+
+[Equalizer]
+Title=Taajuuskorjain
+Presets=Esiasetukset:
+Preamp=Esivahvistus:
+Flat=Tasainen
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klassinen
+BassBoost=Bassonkorostus
+TrebleBoost=Diskantin korostus
+Vocal=Laulu
+Reset=Nollaa
+Enable=Ota taajuuskorjain käyttöön
+Save=Tallenna
+Delete=Poista
+Ready=Valmis
+; Painikkeet ja toiminnot
+SavePreset=Tallenna esiasetus
+DeletePreset=Poista esiasetus
+SavePresetTitle=Tallenna esiasetus
+PresetNamePrompt=Esiasetuksen nimi:
+EnterPresetName=Anna esiasetuksen nimi.
+OverwritePresetTitle=Korvaa esiasetus
+OverwritePresetConfirm=Samanniminen esiasetus on jo olemassa. Korvataanko?
+PresetUpdated=Esiasetus päivitetty: %s
+PresetSaved=Esiasetus tallennettu: %s
+SelectPresetToDelete=Valitse poistettava esiasetus.
+CannotDeleteDefault=Oletusesiasetuksia ei voi poistaa.
+DeletePresetTitle=Poista esiasetus
+DeletePresetConfirm=Haluatko varmasti poistaa tämän esiasetuksen?
+PresetDeleted=Esiasetus poistettu
+ResetToFlat=Taajuuskorjain nollattu tasaiseksi
+PresetApplied=Esiasetus käytössä: %s
+
+[Options]
+Title=Asetukset
+General=Yleiset
+Video=Video
+Audio=Ääni
+Subtitles=Tekstitykset
+Cache=Välimuisti
+Language=Kieli:
+RestartRequired=Uudelleenkäynnistys vaaditaan muutosten voimaantuloon
+
+; Yleiset-välilehti - Käyttäytyminen
+Behavior=Käyttäytyminen
+SingleInstance=Salli vain yksi instanssi
+AutoPlay=Toista tiedostot automaattisesti avattaessa
+AutoResume=Jatka toistokohdasta
+MinimizeToTray=Pienennä ilmaisinalueelle
+AutoSavePlaylist=Tallenna soittolista suljettaessa
+
+; Yleiset-välilehti - OSD
+OSD=Näyttöviestit
+ShowOSD=Näytä näyttöviestit
+ShowTrayIcon=Näytä ilmaisinalueen kuvake
+OSDDuration=Näyttöviestin kesto (ms):
+
+; Yleiset-välilehti - Kuvakaappaukset
+Screenshots=Kuvakaappaukset
+ScreenshotPath=Tallennuskansio:
+ScreenshotFormat=Muoto:
+
+; Yleiset-välilehti - Historia
+HistorySettings=Historia
+HistoryEnabled=Ota toistohistoria käyttöön
+HistoryMaxItems=Enintään kohteita:
+
+; Yleiset-välilehti - Kieli
+LanguageGroup=Kieli
+RestartNote=(Uudelleenkäynnistys vaaditaan muutoksille)
+
+; Video-välilehti
+VideoAdjust=Videosäädöt
+Brightness=Kirkkaus:
+Contrast=Kontrasti:
+Saturation=Kylläisyys:
+Hue=Sävy:
+Gamma=Gamma:
+VideoOutput=Videolähtö
+Output=Lähtö:
+HWAccel=Ota laitteistokiihdytys käyttöön
+Deinterlacing=Lomituksen poisto
+Mode=Tila:
+
+; Ääni-välilehti
+AudioOutput=Äänilähtö
+OutputDriver=Lähtöajuri:
+Device=Laite:
+AudioOptions=Ääniasetukset
+NormalizeAudio=Normalisoi äänenvoimakkuus
+Channels=Kanavat:
+
+; Tekstitykset-välilehti
+UseDefaultSubtitles=Käytä oletustekstitysasetuksia
+Font=Fontti
+FontName=Fontti:
+FontSize=Koko:
+FontColor=Väri:
+Bold=Lihavoitu
+Italic=Kursiivi
+Outline=Reunaviiva
+OutlineColor=Väri:
+OutlineSize=Koko:
+Position=Sijainti
+VerticalPosition=Pystysijainti:
+SubOptions=Asetukset
+Encoding=Merkistö:
+AutoLoadSubs=Lataa tekstitystiedostot automaattisesti
+
+; Videolähdön varoitukset
+VOWarningX11=Varoitus: x11 ei tue videosäätöjä (kirkkaus, kontrasti jne.)
+VOWarningWayland=Varoitus: Vaatii Wayland-istunnon. Videosäädöt tuettu.
+
+; Välimuisti-välilehti
+CacheSettings=Välimuistin puskurikoot (KB)
+CacheDefault=Oletusvälimuisti:
+CacheLocal=Paikalliset tiedostot:
+CacheNetwork=Verkkotiedostot:
+CacheInternet=Internet-striimit:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Tietoja
+Version=Versio
+Engine=Moottori
+Technology=Teknologia
+BuildInfo=Käännöstiedot
+SystemInfo=Järjestelmä
+Credits=Tekijät
+Developer=Kehittäjä:
+Author=Tekijä
+License=Lisenssi
+Website=Verkkosivu
+GitHub=GitHub
+Description=Moderni, kevyt mediasoitin
+LicenseText=3nity Media on lisensoitu GPL-2.0:lla\n\nTämä tarkoittaa, että voit vapaasti:\n  • Käyttää ohjelmistoa mihin tahansa tarkoitukseen\n  • Tutkia ja muokata lähdekoodia\n  • Jakaa kopioita ohjelmistosta\n  • Jakaa muutoksiasi\n\nSillä ehdolla, että kaikki jaetut muutokset\non myös lisensoitu GPL-2.0:lla.
+BuildDate=Päivämäärä:
+Target=Kohde:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Pikanäppäimet
+Description=Määritä pikanäppäimet toiminnoille
+Search=Haku:
+PressKey=Paina näppäintä...
+ColCategory=Kategoria
+ColAction=Toiminto
+ColShortcut=Pikanäppäin
+Assign=Määritä
+Clear=Tyhjennä
+Reset=Nollaa
+ResetAll=Nollaa kaikki
+CurrentShortcut=Nykyinen: %s
+NoKeyPressed=Paina ensin näppäinyhdistelmää.
+Conflict=Ristiriita: Jo määritetty toiminnolle "%s"
+ConfirmReplace=Korvaa pikanäppäin
+ReplaceMessage=Tämä pikanäppäin on jo määritetty toiminnolle "%s". Haluatko korvata sen?
+ConfirmResetAll=Nollaa kaikki pikanäppäimet
+ResetAllMessage=Haluatko varmasti nollata kaikki pikanäppäimet oletusarvoihin?
+; Toimintojen nimet
+ActPlayPause=Toista / Tauko
+ActStop=Pysäytä
+ActPrevious=Edellinen
+ActNext=Seuraava
+ActSeekForward=Siirry eteenpäin (10s)
+ActSeekBackward=Siirry taaksepäin (10s)
+ActSeekForward5=Siirry eteenpäin (1 min)
+ActSeekBackward5=Siirry taaksepäin (1 min)
+ActSpeedUp=Nopeuta
+ActSpeedDown=Hidasta
+ActSpeedReset=Nollaa nopeus
+ActSetLoopA=Aseta silmukan piste A
+ActSetLoopB=Aseta silmukan piste B
+ActClearLoop=Tyhjennä A-B-silmukka
+ActFrameForward=Ruutu eteenpäin
+ActFrameBackward=Ruutu taaksepäin
+ActPrevChapter=Edellinen luku
+ActNextChapter=Seuraava luku
+ActGotoTime=Siirry aikaan
+ActVolumeUp=Äänenvoimakkuus ylös
+ActVolumeDown=Äänenvoimakkuus alas
+ActMute=Mykistä / Poista mykistys
+ActAudioDelayPlus=Äänen viive +
+ActAudioDelayMinus=Äänen viive -
+ActAudioDelayReset=Nollaa äänen viive
+ActFullscreen=Koko näyttö
+ActRotate=Kierrä videota
+ActDeinterlace=Lomituksen poisto
+ActZoomIn=Lähennä
+ActZoomOut=Loitonna
+ActZoomReset=Nollaa zoomaus
+ActAlwaysOnTop=Aina päällimmäisenä
+ActFitToVideo=Sovita videoon
+ActScreenshot=Kuvakaappaus
+ActVideoAdjust=Videosäädöt
+ActVisNextMode=Seuraava visualisointitila
+ActVisNextColor=Seuraava väriskeema
+ActSubDelayPlus=Tekstityksen viive +
+ActSubDelayMinus=Tekstityksen viive -
+ActSubDelayReset=Nollaa tekstityksen viive
+ActDVDMenu=DVD-valikko
+ActDVDUp=DVD navigoi ylös
+ActDVDDown=DVD navigoi alas
+ActDVDLeft=DVD navigoi vasemmalle
+ActDVDRight=DVD navigoi oikealle
+ActDVDSelect=DVD valitse
+ActOpenFile=Avaa tiedosto
+ActOpenURL=Avaa URL
+ActPlaylist=Näytä soittolista
+ActQuit=Lopeta
+
+[Log]
+; Vaihe 25: Lokiikkuna
+Title=MPV-loki
+Command=Komento:
+Clear=Tyhjennä
+Save=Tallenna...
+Copy=&Kopioi
+SelectAll=Valitse &kaikki
+SaveTitle=Tallenna loki
+SaveFilter=Tekstitiedostot (*.txt)|*.txt|Kaikki tiedostot (*.*)|*.*
+ErrorTitle=Virhe
+SaveError=Lokin tallennus epäonnistui: %s
+
+[MediaInfo]
+Title=Mediatiedot
+FileTab=Tiedosto
+VideoTab=Video
+AudioTab=Ääni
+MetadataTab=Metatiedot
+FileName=Tiedostonimi:
+FilePath=Polku:
+FileSize=Koko:
+Duration=Kesto:
+Format=Muoto:
+Bitrate=Bittinopeus:
+Codec=Koodekki:
+Resolution=Resoluutio:
+FrameRate=Kuvataajuus:
+PixelFormat=Pikselimuoto:
+AspectRatio=Kuvasuhde:
+Channels=Kanavat:
+SampleRate=Näytteenottotaajuus:
+Language=Kieli:
+Property=Ominaisuus
+Value=Arvo
+CopyAll=Kopioi kaikki
+CopiedToClipboard=Mediatiedot kopioitu leikepöydälle.
+NA=Ei saatavilla
+NAStream=Ei saatavilla (striimi)
+NALive=Ei saatavilla (suora)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Tuntematon
+NoMetadata=(Ei metatietoja)
+
+[Bookmarks]
+Title=Kirjanmerkit
+Goto=Siirry
+Remove=Poista
+Clear=Tyhjennä kaikki
+Refresh=Päivitä
+OpenFolder=Avaa kansio
+CopyPath=Kopioi polku
+; Sarakkeet
+ColName=Nimi
+ColFile=Tiedosto
+ColPosition=Sijainti
+ColCreated=Luotu
+; Valintaikkunat
+ClearTitle=Tyhjennä kirjanmerkit
+ClearConfirm=Haluatko varmasti tyhjentää kaikki kirjanmerkit?
+Count=%d kirjanmerkkiä
+
+[Favorites]
+Title=Suosikit
+Play=Toista
+Remove=Poista
+Clear=Tyhjennä kaikki
+Refresh=Päivitä
+OpenFolder=Avaa kansio
+CopyPath=Kopioi polku
+; Sarakkeet
+ColName=Nimi
+ColType=Tyyppi
+ColPath=Polku
+; Tyypit
+TypeFile=Tiedosto
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Tuntematon
+; Valintaikkunat
+ClearTitle=Tyhjennä suosikit
+ClearConfirm=Haluatko varmasti tyhjentää kaikki suosikit?
+Count=%d suosikkia
+
+[History]
+Title=Toistohistoria
+Play=Toista
+Remove=Poista
+Clear=Tyhjennä kaikki
+Refresh=Päivitä
+OpenFolder=Avaa kansio
+CopyPath=Kopioi polku
+; Sarakkeet
+ColFileName=Tiedosto
+ColPath=Polku
+; Valintaikkunat
+ClearTitle=Tyhjennä historia
+ClearConfirm=Haluatko varmasti tyhjentää koko historian?
+Count=%d kohdetta
+
+[SleepTimer]
+Title=Uniajastin
+Description=Aseta ajastin pysäyttämään toisto automaattisesti
+Hours=Tunnit:
+Minutes=Minuutit:
+Action=Kun ajastin päättyy:
+StopPlayback=Pysäytä toisto
+CloseApp=Sulje sovellus
+Shutdown=Sammuta tietokone
+QuickSet=Pika-asetus:
+15Min=15 min
+30Min=30 min
+1Hour=1 tunti
+2Hours=2 tuntia
+
+[Radios]
+Title=Internet-radiot
+Play=Toista
+Add=Lisää
+Edit=Muokkaa
+Delete=Poista
+Remove=Poista
+Import=Tuo
+Export=Vie
+Refresh=Päivitä
+Favorite=Suosikki
+ShowFavorites=Suosikit
+ShowAll=Kaikki
+; Suodatus
+Genre=Tyylilaji:
+Search=Haku:
+SearchBtn=Hae
+ClearSearch=Tyhjennä
+AllGenres=(Kaikki tyylilajit)
+; Pikavalikko
+AddFavorite=Lisää suosikkeihin
+RemoveFavorite=Poista suosikeista
+AddCustom=Lisää mukautettu asema...
+EditCustom=Muokkaa asemaa...
+DeleteCustom=Poista asema
+OpenWebsite=Avaa verkkosivu
+CopyURL=Kopioi URL
+; Sarakkeet
+ColName=Nimi
+ColGenre=Tyylilaji
+ColBitrate=Bittinopeus
+ColCountry=Maa
+ColCodec=Koodekki
+; Valintaikkunat
+AddTitle=Lisää mukautettu asema
+EditTitle=Muokkaa asemaa
+DeleteTitle=Poista asema
+DeleteConfirm=Haluatko varmasti poistaa tämän aseman?
+StationName=Aseman nimi:
+StreamURL=Striimin URL:
+GenrePrompt=Tyylilaji:
+NameURLRequired=Nimi ja URL vaaditaan.
+; Tilaviestit
+LoadingIcecast=Ladataan asemia Icecast-hakemistosta...
+IcecastError=Icecast-hakemistoa ei voitu ladata. Käytetään oletusasemia.
+NoStationsLoaded=Asemia ei ladattu
+StationCount=%d asemaa
+LoadedStations=Ladattu %d asemaa
+ErrorPrefix=Virhe:
+; Vanhat avaimet
+Name=Nimi
+URL=URL
+Bitrate=Bittinopeus
+Description=Kuvaus
+Country=Maa
+
+[OpenURL]
+Title=Avaa URL
+Prompt=Anna median URL:
+
+[GotoTime]
+Title=Siirry aikaan
+EnterTime=Anna aika johon siirrytään:
+Hours=T
+Minutes=M
+Seconds=S
+Current=Nykyinen:
+Duration=Kesto:
+
+[VideoAdjust]
+Title=Videosäädöt
+Brightness=Kirkkaus:
+Contrast=Kontrasti:
+Saturation=Kylläisyys:
+Hue=Sävy:
+Gamma=Gamma:
+ResetAll=Nollaa kaikki värit
+
+[CLI]
+; Komentoriviviestit
+Usage=Käyttö
+Arguments=[VALINNAT] [TIEDOSTO|URL|KANSIO]
+Description=Monialustainen multimediasoitin libmpv-taustaohjelmalla.
+Options=VALINNAT
+Examples=ESIMERKIT
+MoreInfo=Lisätietoja saat osoitteesta
+EnqueuedTo=Lisätty olemassa olevaan instanssiin: %s
+SentTo=Lähetetty olemassa olevaan instanssiin: %s
+AlreadyRunning=3nity Media on jo käynnissä.
+ErrorFileNotFound=Virhe: Tiedostoa tai kansiota ei löydy: %s
+ErrorSubNotFound=Virhe: Tekstitystiedostoa ei löydy: %s

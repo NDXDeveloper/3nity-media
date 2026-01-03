@@ -1,0 +1,892 @@
+[Language]
+Name=Haitian Creole - Kreyòl Ayisyen
+Code=ht
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Meni Fichye
+File=&Fichye
+FileOpen=&Ouvri Fichye...
+FileOpenURL=Ouvri &URL...
+FileOpenClipboard=Ouvri nan &Clipboard
+FileRecent=Fichye &Resan
+ClearRecentFiles=Efase Fichye Resan
+FileExit=&Sòti
+
+; Meni Lekti
+Playback=&Lekti
+PlaybackPlayPause=&Jwe/Poz
+PlaybackStop=&Kanpe
+PlaybackPrevious=&Anvan
+PlaybackNext=&Pwochen
+PlaybackSeekForward=Chèche &Devan
+PlaybackSeekBackward=Chèche &Dèyè
+PlaybackSpeed=&Vitès
+PlaybackABLoop=Boukle A-&B
+PlaybackSetA=Mete &A
+PlaybackSetB=Mete &B
+PlaybackClearAB=&Efase A-B
+PlaybackChapters=&Chapit
+PlaybackPrevChapter=Chapit Anvan
+PlaybackNextChapter=Chapit Pwochen
+PlaybackFrameStep=Etap &Kad Devan
+PlaybackFrameBack=Etap &Kad Dèyè
+
+; Navigasyon DVD
+PlaybackDVD=&Navigasyon DVD
+DVDMenu=&Meni
+DVDUp=&Anlè
+DVDDown=&Anba
+DVDLeft=&Gòch
+DVDRight=&Dwat
+DVDSelect=&Chwazi
+PlaybackDVDTitles=&Tit DVD
+
+; Faz 21: Ouvri Dosye
+FileOpenFolder=Ouvri &Dosye...
+
+; Meni Fichye DVD/Bluray
+FileOpenDVD=Ouvri &DVD...
+FileOpenBluray=Ouvri &Blu-ray...
+
+; Faz 13: Ale nan Tan ak Istwa
+PlaybackGotoTime=&Ale nan Tan...
+ToolsHistory=&Istwa
+
+; Faz 14: Plato Sistèm
+TrayShow=&Montre/Kache
+TrayPlayPause=&Jwe/Poz
+TrayStop=&Kanpe
+TrayPrevious=&Anvan
+TrayNext=&Pwochen
+TrayMute=&Silans
+TrayExit=&Sòti
+
+; Faz 15: Makè
+PlaybackAddBookmark=Ajoute &Makè...
+PlaybackBookmarks=&Makè
+BookmarksTitle=Makè
+BookmarksGoto=&Ale nan Makè
+BookmarksRemove=&Retire Makè
+BookmarksClear=&Efase Tout Makè
+BookmarksOpenFolder=Ouvri &Dosye
+BookmarksCopyPath=&Kopye Chemen
+BookmarksCount=%d makè
+NoBookmarks=(Pa gen makè)
+NoFileLoaded=(Pa gen fichye chaje)
+BookmarkAdded=Makè ajoute nan %s
+BookmarkJumped=Sote nan makè nan %s
+AddBookmarkTitle=Ajoute Makè
+AddBookmarkPrompt=Antre non makè:
+ShowAllBookmarks=Montre Tout Makè...
+
+; Faz 16: Favori
+ToolsFavorites=&Favori
+ToolsAddFavorite=Ajoute nan Favo&ri
+FavoritesTitle=Favori
+FavoritesPlay=&Jwe
+FavoritesRemove=&Retire nan Favori
+FavoritesClear=&Efase Tout Favori
+FavoritesOpenFolder=Ouvri &Dosye
+FavoritesCopyPath=&Kopye Chemen
+FavoritesCount=%d favori
+NoFavorites=(Pa gen favori)
+AddFavoriteTitle=Ajoute nan Favori
+AddFavoritePrompt=Antre non favori:
+AlreadyFavorite=Deja nan favori
+AddedToFavorites=Ajoute nan favori: %s
+NoFileToFavorite=Pa gen fichye chaje pou ajoute nan favori
+FavoriteTypeFile=Fichye
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radyo
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Fòma trak
+TrackWithTitle=Trak %d: %s
+TrackWithLang=Trak %d (%s)
+TrackNumber=Trak %d
+
+; Eleman meni vitès
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Eleman meni echèl
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Trak soutit
+SubtitleDisable=Dezaktive
+
+; Faz 17: Revèy Domi
+ToolsSleepTimer=Revèy &Domi...
+ToolsSleepTimerActive=Revèy &Domi [%s]
+ToolsCancelTimer=Anile &Revèy
+
+; Meni Odyo
+Audio=&Odyo
+AudioTrack=&Trak Odyo
+AudioVolumeUp=Volim &Anlè
+AudioVolumeDown=Volim &Anba
+AudioMute=&Silans
+AudioEqualizer=&Egalizè
+AudioDelay=&Reta Odyo
+AudioDelayPlus=Reta +0.1s
+AudioDelayMinus=Reta -0.1s
+AudioDelayReset=Remèt Reta
+AudioNormalize=&Nòmalize Volim
+
+; Meni Videyo
+Video=&Videyo
+VideoFullscreen=Ekran &Konplè
+VideoAspect=&Rapò Aspè
+VideoAspectAuto=&Otomatik
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Foto Ekran
+VideoScreenshotAs=Foto Ekran &Kòm...
+VideoRotation=&Wotasyon
+VideoRotate0=&0° (Nòmal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Vire
+VideoFlipH=Vire &Orizontal
+VideoFlipV=Vire &Vètikal
+VideoDeinterlace=&Deentrelase
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Antre
+VideoZoomOut=Zoom &Sòti
+VideoZoomReset=&Remèt Zoom
+VideoPan=&Panoramik
+VideoPanLeft=Panoramik &Gòch
+VideoPanRight=Panoramik &Dwat
+VideoPanUp=Panoramik &Anlè
+VideoPanDown=Panoramik &Anba
+VideoPanReset=R&emèt Panoramik
+VideoTrack=&Trak Videyo
+VideoColors=Ajisteman &Koulè
+VideoBrightness=&Limyè
+VideoContrast=&Kontras
+VideoSaturation=&Saturasyon
+VideoHue=&Koulè
+VideoGamma=&Gamma
+VideoColorsReset=Remèt &Tout Koulè
+VideoIncrease=Ogmante (+5)
+VideoDecrease=Diminye (-5)
+VideoReset=Remèt
+VideoAdjustDialog=&Ajisteman Videyo...
+
+; Meni Gade
+View=&Gade
+ViewAlwaysOnTop=&Toujou Sou Tèt
+ViewFitToVideo=&Adapte Fenèt nan Videyo
+ViewScale=&Echèl Fenèt
+
+; Faz 26: Meni Vizyalizasyon
+ViewVisualization=&Vizyalizasyon
+VisNone=&Anyen
+VisSpectrum=Analizè &Espèk
+VisWaveform=Fòm &Ond
+VisVector=&Vektè Eskòp
+VisVolume=Kontè &VU
+VisNextMode=Pwochen &Mòd
+VisNextColor=Pwochen &Eskema Koulè
+
+; Meni Soutit
+Subtitles=&Soutit
+SubtitleTrack=&Trak Soutit
+SubtitleLoad=&Chaje Soutit...
+SubtitleDelay=&Reta Soutit
+SubtitleDelayPlus=Reta +0.1s
+SubtitleDelayMinus=Reta -0.1s
+SubtitleDelayReset=Remèt Reta
+
+; Meni Zouti
+Tools=&Zouti
+ToolsPlaylist=Lis &Lekti
+ToolsRadios=&Radyo
+ToolsShortcuts=Rakousi &Klavye...
+ToolsOptions=&Opsyon
+
+; Faz 27: Meni Anrejistreman
+ToolsRecord=&Anrejistre Flou...
+ToolsStopRecord=A&rète Anrejistreman
+ToolsRecording=&Anrejistreman...
+
+; Meni Èd
+Help=&Èd
+HelpMediaInfo=Enfòmasyon &Medya
+HelpLog=Fenèt &Jounal
+HelpAbout=&Apwopo
+
+[Dialog]
+OpenFile=Ouvri Fichye
+OpenURL=Ouvri URL
+SaveScreenshot=Sovgade Foto Ekran
+LoadSubtitle=Chaje Fichye Soutit
+EnterURL=Antre URL:
+ResumePlayback=Kontinye Lekti
+ResumeFrom=Kontinye nan %s?
+ClearRecentFiles=Efase Fichye Resan
+NoRecentFiles=(Pa gen fichye resan)
+NoAudioTracks=(Pa gen trak odyo)
+NoVideoTracks=(Pa gen trak videyo)
+NoSubtitleTracks=(Pa gen trak soutit)
+NoChapters=(Pa gen chapit)
+OpenDVD=Ouvri DVD
+OpenBluray=Ouvri Blu-ray
+OpenFolder=Ouvri Dosye
+
+; Filt fichye
+ScreenshotFilter=Imaj PNG|*.png|Imaj JPEG|*.jpg|Imaj WebP|*.webp
+DVDFilter=Dosye DVD|*.;*.iso|Tout fichye (*.*)|*.*
+BlurayFilter=Dosye Blu-ray|*.;*.iso|Tout fichye (*.*)|*.*
+NoDVD=(Pa gen DVD chaje)
+DVDTitle=Tit %d
+GotoTime=Ale nan Tan
+EnterTime=Antre tan pou sote:
+Hours=Èdtan
+Minutes=Minit
+Seconds=Segond
+Current=Kounye a:
+HistoryTitle=Istwa Lekti
+HistoryItems=%d eleman nan istwa
+HistoryPlay=&Jwe
+HistoryRemove=&Retire nan Istwa
+HistoryClear=&Efase Tout Istwa
+HistoryOpenFolder=Ouvri &Dosye
+HistoryCopyPath=&Kopye Chemen
+ClearHistory=Efase Istwa
+ClearHistoryConfirm=Èske ou sèten ou vle efase tout istwa?
+SleepTimerTitle=Revèy Domi
+SleepTimerDescription=Mete revèy pou otomatikman kanpe lekti
+SleepTimerHours=Èdtan
+SleepTimerMinutes=Minit
+SleepTimerQuickSet=Rapid Mete
+SleepTimerAction=Lè revèy fini
+SleepTimerStopPlayback=Kanpe lekti
+SleepTimerCloseApp=Fèmen aplikasyon
+SleepTimerShutdown=Fèmen òdinatè
+SleepTimerStart=Kòmanse Revèy
+
+[Status]
+Ready=Prè
+Opening=Ap ouvri...
+Playing=Ap jwe
+Paused=Poz
+Stopped=Kanpe
+Error=Erè
+Buffering=Ap tanponnen...
+Seeking=Ap chèche...
+Recording=Ap anrejistre
+
+[Message]
+SpeedFormat=Vitès: %.2fx
+VolumeFormat=Volim: %d%%
+BrightnessFormat=Limyè: %d
+ContrastFormat=Kontras: %d
+SaturationFormat=Saturasyon: %d
+HueFormat=Koulè: %d
+GammaFormat=Gamma: %d
+ColorsReset=Koulè videyo remèt
+LoopASet=Boukle A mete nan %s
+LoopBSet=Boukle B mete nan %s - Boukle aktif
+LoopCleared=Boukle A-B efase
+SetAFirst=Mete pwen A an premye (peze L)
+RotationFormat=Wotasyon: %d°
+FlipHOn=Vire orizontal: AKTIF
+FlipHOff=Vire orizontal: DEZAKTIF
+FlipVOn=Vire vètikal: AKTIF
+FlipVOff=Vire vètikal: DEZAKTIF
+DeinterlaceOn=Deentrelase: AKTIF
+DeinterlaceOff=Deentrelase: DEZAKTIF
+AlwaysOnTopOn=Toujou sou tèt: AKTIF
+AlwaysOnTopOff=Toujou sou tèt: DEZAKTIF
+WindowFitted=Fenèt adapte nan %dx%d
+WindowScale=Echèl fenèt: %.0f%%
+ScreenshotSaved=Foto ekran sovgade: %s
+AudioNormalizeOn=Nòmalizasyon odyo: AKTIF
+AudioNormalizeOff=Nòmalizasyon odyo: DEZAKTIF
+AudioDelayFormat=Reta odyo: %.1f s
+SubtitleDelayFormat=Reta soutit: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Panoramik: Sant
+PanFormat=Panoramik: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Pa gen videyo chaje
+PlayingFromClipboard=Ap jwe nan clipboard: %s
+ClipboardInvalid=Clipboard pa gen yon URL oswa chemen valid
+ClipboardEmpty=Clipboard vid oswa pa gen tèks
+ResumedAt=Kontinye nan %s
+FrameStepForward=Etap kad devan
+FrameStepBackward=Etap kad dèyè
+PreviousChapter=Chapit anvan
+NextChapter=Chapit pwochen
+PlayingRadio=Ap jwe radyo: %s
+PlayingDVD=Ap jwe DVD: %s
+PlayingBluray=Ap jwe Blu-ray: %s
+DVDTitlePlaying=Tit DVD %d
+SeekTo=Ap chèche nan %s
+MinimizedToTray=Minimize nan plato. Doub-klike pou retabli.
+SleepTimerSet=Revèy domi mete: %s
+SleepTimerCancelled=Revèy domi anile
+SleepTimerWarning=Revèy domi: 1 minit rete
+SleepTimerFinal=Revèy domi: 10 segond rete
+SleepTimerStopped=Revèy domi: Lekti kanpe
+SleepTimerClosing=Revèy domi: Ap fèmen aplikasyon
+SleepTimerShutdown=Revèy domi: Ap fèmen òdinatè
+SleepTimerExpired=Revèy Domi Ekspire
+ShutdownManual=Tanpri fèmen òdinatè ou manyèlman.
+
+; Faz 21: Ouvri Dosye
+FolderOpened=Dosye ouvri: %d fichye
+NoMediaFound=Pa jwenn fichye medya
+FilesAdded=%d fichye ajoute nan lis
+
+; Faz 27: Mesaj anrejistreman
+RecordNeedPlayback=Kòmanse lekti anvan anrejistreman.
+RecordingStarted=Anrejistreman kòmanse
+RecordingStopped=Anrejistreman kanpe
+
+; Mesaj estati siplemantè
+EndOfPlaylist=Fen lis lekti
+NoMediaLoaded=Pa gen fichye medya chaje kounye a.
+JumpedToNamed=Sote nan: %s
+ChapterFormat=Chapit %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Makè nan %s
+
+[Label]
+Muted=Silans
+
+[Button]
+Play=Jwe
+Pause=Poz
+Stop=Kanpe
+Previous=Anvan
+Next=Pwochen
+Mute=Silans
+Unmute=Ouvri Son
+Fullscreen=Ekran Konplè
+OK=OK
+Cancel=Anile
+Apply=Aplike
+Close=Fèmen
+Yes=Wi
+No=Non
+
+[Tooltip]
+Play=Jwe/Poz
+Stop=Kanpe lekti
+Previous=Trak anvan
+Next=Trak pwochen
+Mute=Baskile silans
+Volume=Volim
+Seek=Pozisyon rechèch
+Fullscreen=Baskile ekran konplè
+
+[Playlist]
+Title=Lis Lekti
+Add=Ajoute
+Remove=Retire
+Clear=Efase
+MoveUp=Deplase Anlè
+MoveDown=Deplase Anba
+Shuffle=Melanje
+Repeat=Repete
+Play=Jwe
+ShuffleOn=Melanje: Aktif
+ShuffleOff=Melanje: Dezaktif
+RepeatOff=Repete: Dezaktif
+RepeatOne=Repete: Yon sèl
+RepeatAll=Repete: Tout
+SavePlaylist=Sovgade
+LoadPlaylist=Chaje
+TotalDuration=Total: %s
+ItemCount=%d eleman
+
+; Faz 22: Amelyorasyon Lis Lekti
+Search=Chèche:
+FilterPlaceholder=Filtre lis lekti...
+ClearSearch=Efase
+FilterCount=%d/%d
+RemoveDuplicates=Retire &Kopi
+Properties=&Pwopriyete...
+NoDuplicates=Pa jwenn kopi.
+DuplicatesFound=%d kopi jwenn. Retire yo?
+RemoveDuplicatesTitle=Retire Kopi
+PropertiesTitle=Pwopriyete Lis Lekti
+PropTotalItems=Total eleman: %d
+PropTotalDuration=Total dire: %s
+PropPlayed=Jwe: %d
+PropUnplayed=Pa jwe: %d
+PropTotalSize=Total gwosè: %.2f MB
+PropShuffle=Melanje: %s
+PropRepeat=Repete: %s
+On=Aktif
+Off=Dezaktif
+
+; Nouvo kle pou ApplyLocale
+ClearTitle=Efase Lis Lekti
+ClearConfirm=Èske ou sèten ou vle efase lis lekti a?
+NoPlaylist=Pa gen lis lekti
+StatusFormat=%d eleman | Total: %s
+RepeatOne=Rep. 1
+RepeatAll=Rep. Tout
+HintRepeatEnable=Klike pou aktive Repete Tout
+HintRepeatOne=Repete Yon sèl - Klike pou dezaktive
+HintRepeatAll=Repete Tout - Klike pou Repete Yon sèl
+HintShuffleRepeat=Melanje + Repete Tout - Klike pou dezaktive repete
+RemoveDuplicatesTitle=Retire Kopi
+NoDuplicates=Pa jwenn kopi.
+SelectAll=Seleksyone Tout
+SelectNone=Seleksyone Okenn
+SelectInvert=Envèse Seleksyon
+Sort=Triye
+SortByName=Pa Non
+SortByTitle=Pa Tit
+SortByArtist=Pa Atis
+SortByDuration=Pa Dire
+SortReverse=Envèse
+SortRandom=Owaza
+ColTitle=Tit
+ColDuration=Dire
+ColArtist=Atis
+ColAlbum=Albòm
+PlaylistFilter=Lis M3U|*.m3u|Lis M3U8|*.m3u8|Lis PLS|*.pls
+
+[Equalizer]
+Title=Egalizè
+Presets=Prekonfigirasyon:
+Preamp=Preamplifikatè:
+Flat=Plat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klasik
+BassBoost=Ranfòsman Bas
+TrebleBoost=Ranfòsman Treb
+Vocal=Vokal
+Reset=Remèt
+Enable=Aktive Egalizè
+Save=Sovgade
+Delete=Efase
+Ready=Prè
+; Bouton ak aksyon
+SavePreset=Sovgade Prekonfigirasyon
+DeletePreset=Efase Prekonfigirasyon
+SavePresetTitle=Sovgade Prekonfigirasyon
+PresetNamePrompt=Non prekonfigirasyon:
+EnterPresetName=Tanpri antre non prekonfigirasyon.
+OverwritePresetTitle=Ranplase Prekonfigirasyon
+OverwritePresetConfirm=Yon prekonfigirasyon ak non sa a deja egziste. Ranplase?
+PresetUpdated=Prekonfigirasyon mete ajou: %s
+PresetSaved=Prekonfigirasyon sovgade: %s
+SelectPresetToDelete=Tanpri chwazi yon prekonfigirasyon pou efase.
+CannotDeleteDefault=Pa kapab efase prekonfigirasyon pa defo.
+DeletePresetTitle=Efase Prekonfigirasyon
+DeletePresetConfirm=Èske ou sèten ou vle efase prekonfigirasyon sa a?
+PresetDeleted=Prekonfigirasyon efase
+ResetToFlat=Egalizè remèt plat
+PresetApplied=Prekonfigirasyon aplike: %s
+
+[Options]
+Title=Opsyon
+General=Jeneral
+Video=Videyo
+Audio=Odyo
+Subtitles=Soutit
+Cache=Kach
+Language=Lang:
+RestartRequired=Redemaraj nesesè pou aplike chanjman
+
+; Tab Jeneral - Konpòtman
+Behavior=Konpòtman
+SingleInstance=Pèmèt sèlman yon egzanp
+AutoPlay=Otomatikman jwe fichye lè ouvri
+AutoResume=Kontinye pozisyon lekti
+MinimizeToTray=Minimize nan plato sistèm
+AutoSavePlaylist=Sovgade lis lekti lè sòti
+
+; Tab Jeneral - OSD
+OSD=Afichaj sou Ekran
+ShowOSD=Montre mesaj sou ekran
+ShowTrayIcon=Montre ikòn plato
+OSDDuration=Dire OSD (ms):
+
+; Tab Jeneral - Foto Ekran
+Screenshots=Foto Ekran
+ScreenshotPath=Dosye sovgade:
+ScreenshotFormat=Fòma:
+
+; Tab Jeneral - Istwa
+HistorySettings=Istwa
+HistoryEnabled=Aktive istwa lekti
+HistoryMaxItems=Maksimòm eleman:
+
+; Tab Jeneral - Lang
+LanguageGroup=Lang
+RestartNote=(Redemaraj nesesè pou chanjman)
+
+; Tab Videyo
+VideoAdjust=Ajisteman Videyo
+Brightness=Limyè:
+Contrast=Kontras:
+Saturation=Saturasyon:
+Hue=Koulè:
+Gamma=Gamma:
+VideoOutput=Sòti Videyo
+Output=Sòti:
+HWAccel=Aktive akselerasyon materyèl
+Deinterlacing=Deentrelasaj
+Mode=Mòd:
+
+; Tab Odyo
+AudioOutput=Sòti Odyo
+OutputDriver=Drivè sòti:
+Device=Aparèy:
+AudioOptions=Opsyon Odyo
+NormalizeAudio=Nòmalize volim odyo
+Channels=Kanal:
+
+; Tab Soutit
+UseDefaultSubtitles=Itilize paramèt soutit pa defo
+Font=Polis
+FontName=Polis:
+FontSize=Gwosè:
+FontColor=Koulè:
+Bold=Gra
+Italic=Italik
+Outline=Kontou
+OutlineColor=Koulè:
+OutlineSize=Gwosè:
+Position=Pozisyon
+VerticalPosition=Pozisyon vètikal:
+SubOptions=Opsyon
+Encoding=Kodaj:
+AutoLoadSubs=Otomatikman chaje fichye soutit
+
+; Avètisman sòti videyo
+VOWarningX11=Avètisman: x11 pa sipòte ajisteman videyo (limyè, kontras, elatriye.)
+VOWarningWayland=Avètisman: Mande sesyon Wayland. Ajisteman videyo sipòte.
+
+; Tab Kach
+CacheSettings=Gwosè Tanpon Kach (KB)
+CacheDefault=Kach pa defo:
+CacheLocal=Fichye lokal:
+CacheNetwork=Fichye rezo:
+CacheInternet=Flou entènèt:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Apwopo
+Version=Vèsyon
+Engine=Motè
+Technology=Teknoloji
+BuildInfo=Enfòmasyon Konstriksyon
+SystemInfo=Sistèm
+Credits=Kredi
+Developer=Devlopè:
+Author=Otè
+License=Lisans
+Website=Sit Entènèt
+GitHub=GitHub
+Description=Yon lektè medya modèn ak lejè
+LicenseText=3nity Media lisansye anba GPL-2.0\n\nSa vle di ou lib pou:\n  • Itilize lojisyèl la pou nenpòt ki objektif\n  • Etidye ak modifye kòd sous la\n  • Distribye kopi lojisyèl la\n  • Distribye modifikasyon ou yo\n\nAnba kondisyon ke nenpòt modifikasyon distribye\ndwe tou lisansye anba GPL-2.0.
+BuildDate=Dat:
+Target=Sib:
+Kernel=Nwayo:
+
+[Shortcuts]
+Title=Rakousi Klavye
+Description=Konfigire rakousi klavye pou aksyon
+Search=Chèche:
+PressKey=Peze yon kle...
+ColCategory=Kategori
+ColAction=Aksyon
+ColShortcut=Rakousi
+Assign=Asiyen
+Clear=Efase
+Reset=Remèt
+ResetAll=Remèt Tout
+CurrentShortcut=Aktyèl: %s
+NoKeyPressed=Tanpri peze yon konbinezon kle anvan.
+Conflict=Konfli: Deja asiyen nan "%s"
+ConfirmReplace=Ranplase Rakousi
+ReplaceMessage=Rakousi sa a deja asiyen nan "%s". Èske ou vle ranplase li?
+ConfirmResetAll=Remèt Tout Rakousi
+ResetAllMessage=Èske ou sèten ou vle remèt tout rakousi nan pa defo yo?
+; Non aksyon
+ActPlayPause=Jwe / Poz
+ActStop=Kanpe
+ActPrevious=Anvan
+ActNext=Pwochen
+ActSeekForward=Chèche Devan (10s)
+ActSeekBackward=Chèche Dèyè (10s)
+ActSeekForward5=Chèche Devan (1 min)
+ActSeekBackward5=Chèche Dèyè (1 min)
+ActSpeedUp=Ogmante Vitès
+ActSpeedDown=Diminye Vitès
+ActSpeedReset=Remèt Vitès
+ActSetLoopA=Mete Pwen Boukle A
+ActSetLoopB=Mete Pwen Boukle B
+ActClearLoop=Efase Boukle A-B
+ActFrameForward=Kad Devan
+ActFrameBackward=Kad Dèyè
+ActPrevChapter=Chapit Anvan
+ActNextChapter=Chapit Pwochen
+ActGotoTime=Ale nan Tan
+ActVolumeUp=Volim Anlè
+ActVolumeDown=Volim Anba
+ActMute=Silans / Ouvri Son
+ActAudioDelayPlus=Reta Odyo +
+ActAudioDelayMinus=Reta Odyo -
+ActAudioDelayReset=Remèt Reta Odyo
+ActFullscreen=Ekran Konplè
+ActRotate=Tounen Videyo
+ActDeinterlace=Deentrelase
+ActZoomIn=Zoom Antre
+ActZoomOut=Zoom Sòti
+ActZoomReset=Remèt Zoom
+ActAlwaysOnTop=Toujou Sou Tèt
+ActFitToVideo=Adapte nan Videyo
+ActScreenshot=Foto Ekran
+ActVideoAdjust=Ajisteman Videyo
+ActVisNextMode=Pwochen Mòd Vizyalizasyon
+ActVisNextColor=Pwochen Eskema Koulè
+ActSubDelayPlus=Reta Soutit +
+ActSubDelayMinus=Reta Soutit -
+ActSubDelayReset=Remèt Reta Soutit
+ActDVDMenu=Meni DVD
+ActDVDUp=Navige Anlè DVD
+ActDVDDown=Navige Anba DVD
+ActDVDLeft=Navige Gòch DVD
+ActDVDRight=Navige Dwat DVD
+ActDVDSelect=Seleksyone DVD
+ActOpenFile=Ouvri Fichye
+ActOpenURL=Ouvri URL
+ActPlaylist=Montre Lis Lekti
+ActQuit=Sòti
+
+[Log]
+; Faz 25: Fenèt Jounal
+Title=Jounal MPV
+Command=Kòmand:
+Clear=Efase
+Save=Sovgade...
+Copy=&Kopye
+SelectAll=Seleksyone &Tout
+SaveTitle=Sovgade Jounal
+SaveFilter=Fichye tèks (*.txt)|*.txt|Tout fichye (*.*)|*.*
+ErrorTitle=Erè
+SaveError=Echèk sovgade jounal: %s
+
+[MediaInfo]
+Title=Enfòmasyon Medya
+FileTab=Fichye
+VideoTab=Videyo
+AudioTab=Odyo
+MetadataTab=Metadone
+FileName=Non Fichye:
+FilePath=Chemen:
+FileSize=Gwosè:
+Duration=Dire:
+Format=Fòma:
+Bitrate=Dèbibin:
+Codec=Kodèk:
+Resolution=Rezolisyon:
+FrameRate=To Kad:
+PixelFormat=Fòma Piksèl:
+AspectRatio=Rapò Aspè:
+Channels=Kanal:
+SampleRate=To Echantiyon:
+Language=Lang:
+Property=Pwopriyete
+Value=Valè
+CopyAll=Kopye Tout
+CopiedToClipboard=Enfòmasyon medya kopye nan clipboard.
+NA=N/A
+NAStream=N/A (flou)
+NALive=N/A (an dirèk)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Antoure)
+Channel71=8 (7.1 Antoure)
+Unknown=Enkoni
+NoMetadata=(Pa gen metadone)
+
+[Bookmarks]
+Title=Makè
+Goto=Ale nan
+Remove=Retire
+Clear=Efase Tout
+Refresh=Rafrechi
+OpenFolder=Ouvri Dosye
+CopyPath=Kopye Chemen
+; Kolòn
+ColName=Non
+ColFile=Fichye
+ColPosition=Pozisyon
+ColCreated=Kreye
+; Dyalòg
+ClearTitle=Efase Makè
+ClearConfirm=Èske ou sèten ou vle efase tout makè?
+Count=%d makè
+
+[Favorites]
+Title=Favori
+Play=Jwe
+Remove=Retire
+Clear=Efase Tout
+Refresh=Rafrechi
+OpenFolder=Ouvri Dosye
+CopyPath=Kopye Chemen
+; Kolòn
+ColName=Non
+ColType=Tip
+ColPath=Chemen
+; Tip
+TypeFile=Fichye
+TypeURL=URL
+TypeRadio=Radyo
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Enkoni
+; Dyalòg
+ClearTitle=Efase Favori
+ClearConfirm=Èske ou sèten ou vle efase tout favori?
+Count=%d favori
+
+[History]
+Title=Istwa Lekti
+Play=Jwe
+Remove=Retire
+Clear=Efase Tout
+Refresh=Rafrechi
+OpenFolder=Ouvri Dosye
+CopyPath=Kopye Chemen
+; Kolòn
+ColFileName=Fichye
+ColPath=Chemen
+; Dyalòg
+ClearTitle=Efase Istwa
+ClearConfirm=Èske ou sèten ou vle efase tout istwa?
+Count=%d eleman
+
+[SleepTimer]
+Title=Revèy Domi
+Description=Mete revèy pou otomatikman kanpe lekti
+Hours=Èdtan:
+Minutes=Minit:
+Action=Lè revèy fini:
+StopPlayback=Kanpe lekti
+CloseApp=Fèmen aplikasyon
+Shutdown=Fèmen òdinatè
+QuickSet=Rapid mete:
+15Min=15 min
+30Min=30 min
+1Hour=1 èdtan
+2Hours=2 èdtan
+
+[Radios]
+Title=Radyo Entènèt
+Play=Jwe
+Add=Ajoute
+Edit=Modifye
+Delete=Efase
+Remove=Retire
+Import=Enpòte
+Export=Ekspòte
+Refresh=Rafrechi
+Favorite=Favori
+ShowFavorites=Favori
+ShowAll=Tout
+; Filt
+Genre=Jan:
+Search=Chèche:
+SearchBtn=Chèche
+ClearSearch=Efase
+AllGenres=(Tout Jan)
+; Meni kontèks
+AddFavorite=Ajoute nan Favori
+RemoveFavorite=Retire nan Favori
+AddCustom=Ajoute Estasyon Pèsonalize...
+EditCustom=Modifye Estasyon...
+DeleteCustom=Efase Estasyon
+OpenWebsite=Ouvri Sit Entènèt
+CopyURL=Kopye URL
+; Kolòn
+ColName=Non
+ColGenre=Jan
+ColBitrate=Dèbibin
+ColCountry=Peyi
+ColCodec=Kodèk
+; Dyalòg
+AddTitle=Ajoute Estasyon Pèsonalize
+EditTitle=Modifye Estasyon
+DeleteTitle=Efase Estasyon
+DeleteConfirm=Èske ou sèten ou vle efase estasyon sa a?
+StationName=Non Estasyon:
+StreamURL=URL Flou:
+GenrePrompt=Jan:
+NameURLRequired=Non ak URL obligatwa.
+; Mesaj estati
+LoadingIcecast=Ap chaje estasyon nan anyè Icecast...
+IcecastError=Pa kapab chaje anyè Icecast. Ap itilize estasyon pa defo.
+NoStationsLoaded=Pa gen estasyon chaje
+StationCount=%d estasyon
+LoadedStations=%d estasyon chaje
+ErrorPrefix=Erè:
+; Kle ansyen
+Name=Non
+URL=URL
+Bitrate=Dèbibin
+Description=Deskripsyon
+Country=Peyi
+
+[OpenURL]
+Title=Ouvri URL
+Prompt=Antre URL medya:
+
+[GotoTime]
+Title=Ale nan Tan
+EnterTime=Antre tan pou sote:
+Hours=E
+Minutes=M
+Seconds=S
+Current=Aktyèl:
+Duration=Dire:
+
+[VideoAdjust]
+Title=Ajisteman Videyo
+Brightness=Limyè:
+Contrast=Kontras:
+Saturation=Saturasyon:
+Hue=Koulè:
+Gamma=Gamma:
+ResetAll=Remèt Tout Koulè
+
+[CLI]
+; Mesaj liy kòmand
+Usage=Itilizasyon
+Arguments=[OPSYON] [FICHYE|URL|DOSYE]
+Description=Yon lektè miltimedia ki mache sou plizyè platfòm ki itilize libmpv kòm motè.
+Options=OPSYON
+Examples=EGZANP
+MoreInfo=Pou plis enfòmasyon, vizite
+EnqueuedTo=Mete nan liy nan enstans ki egziste deja: %s
+SentTo=Voye bay enstans ki egziste deja: %s
+AlreadyRunning=3nity Media ap kouri deja.
+ErrorFileNotFound=Erè: Fichye oswa repètwa pa jwenn: %s
+ErrorSubNotFound=Erè: Fichye soutit pa jwenn: %s

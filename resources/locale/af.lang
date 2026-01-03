@@ -1,0 +1,892 @@
+[Language]
+Name=Afrikaans - Afrikaans
+Code=af
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Leer-kieslys
+File=&Leer
+FileOpen=&Maak Leer Oop...
+FileOpenURL=Maak &URL Oop...
+FileOpenClipboard=Maak Oop vanaf &Knipbord
+FileRecent=&Onlangse Leer
+ClearRecentFiles=Vee Onlangse Leer Uit
+FileExit=&Verlaat
+
+; Speelterug-kieslys
+Playback=&Speelterug
+PlaybackPlayPause=&Speel/Wag
+PlaybackStop=&Stop
+PlaybackPrevious=&Vorige
+PlaybackNext=&Volgende
+PlaybackSeekForward=Soek &Vorentoe
+PlaybackSeekBackward=Soek &Agtertoe
+PlaybackSpeed=&Spoed
+PlaybackABLoop=A-&B Lus
+PlaybackSetA=Stel &A
+PlaybackSetB=Stel &B
+PlaybackClearAB=&Vee A-B Uit
+PlaybackChapters=&Hoofstukke
+PlaybackPrevChapter=Vorige Hoofstuk
+PlaybackNextChapter=Volgende Hoofstuk
+PlaybackFrameStep=Raam Stap &Vorentoe
+PlaybackFrameBack=Raam Stap &Agtertoe
+
+; DVD Navigasie
+PlaybackDVD=DVD &Navigasie
+DVDMenu=&Kieslys
+DVDUp=&Op
+DVDDown=&Af
+DVDLeft=&Links
+DVDRight=&Regs
+DVDSelect=&Kies
+PlaybackDVDTitles=DVD &Titels
+
+; Fase 21: Maak Gids Oop
+FileOpenFolder=Maak &Gids Oop...
+
+; Leer-kieslys DVD/Bluray
+FileOpenDVD=Maak &DVD Oop...
+FileOpenBluray=Maak &Blu-ray Oop...
+
+; Fase 13: Gaan na Tyd en Geskiedenis
+PlaybackGotoTime=&Gaan na Tyd...
+ToolsHistory=&Geskiedenis
+
+; Fase 14: Stelselbak
+TrayShow=&Wys/Verberg
+TrayPlayPause=&Speel/Wag
+TrayStop=&Stop
+TrayPrevious=&Vorige
+TrayNext=&Volgende
+TrayMute=&Demp
+TrayExit=&Verlaat
+
+; Fase 15: Boekmerke
+PlaybackAddBookmark=Voeg &Boekmerk By...
+PlaybackBookmarks=Boek&merke
+BookmarksTitle=Boekmerke
+BookmarksGoto=&Gaan na Boekmerk
+BookmarksRemove=&Verwyder Boekmerk
+BookmarksClear=&Vee Alle Boekmerke Uit
+BookmarksOpenFolder=Maak &Gids Oop
+BookmarksCopyPath=&Kopieer Pad
+BookmarksCount=%d boekmerke
+NoBookmarks=(Geen boekmerke)
+NoFileLoaded=(Geen leer gelaai)
+BookmarkAdded=Boekmerk bygevoeg by %s
+BookmarkJumped=Gespring na boekmerk by %s
+AddBookmarkTitle=Voeg Boekmerk By
+AddBookmarkPrompt=Voer boekmerknaam in:
+ShowAllBookmarks=Wys Alle Boekmerke...
+
+; Fase 16: Gunstelinge
+ToolsFavorites=&Gunstelinge
+ToolsAddFavorite=Voeg by Gunsteling&e
+FavoritesTitle=Gunstelinge
+FavoritesPlay=&Speel
+FavoritesRemove=&Verwyder uit Gunstelinge
+FavoritesClear=&Vee Alle Gunstelinge Uit
+FavoritesOpenFolder=Maak &Gids Oop
+FavoritesCopyPath=&Kopieer Pad
+FavoritesCount=%d gunstelinge
+NoFavorites=(Geen gunstelinge)
+AddFavoriteTitle=Voeg by Gunstelinge
+AddFavoritePrompt=Voer naam vir gunsteling in:
+AlreadyFavorite=Reeds in gunstelinge
+AddedToFavorites=Bygevoeg by gunstelinge: %s
+NoFileToFavorite=Geen leer gelaai om by gunstelinge te voeg
+FavoriteTypeFile=Leer
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Snit formaat stringe
+TrackWithTitle=Snit %d: %s
+TrackWithLang=Snit %d (%s)
+TrackNumber=Snit %d
+
+; Spoed kieslys items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Skaal kieslys items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Ondertitel snit
+SubtitleDisable=Deaktiveer
+
+; Fase 17: Slaaptimer
+ToolsSleepTimer=&Slaaptimer...
+ToolsSleepTimerActive=&Slaaptimer [%s]
+ToolsCancelTimer=Kanselleer &Timer
+
+; Oudio-kieslys
+Audio=&Oudio
+AudioTrack=Oudio &Snit
+AudioVolumeUp=Volume &Op
+AudioVolumeDown=Volume &Af
+AudioMute=&Demp
+AudioEqualizer=&Ekwaliseerder
+AudioDelay=Oudio &Vertraging
+AudioDelayPlus=Vertraging +0.1s
+AudioDelayMinus=Vertraging -0.1s
+AudioDelayReset=Herstel Vertraging
+AudioNormalize=&Normaliseer Volume
+
+; Video-kieslys
+Video=&Video
+VideoFullscreen=&Volskerm
+VideoAspect=&Aspekverhouding
+VideoAspectAuto=&Outomaties
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Skermskoot
+VideoScreenshotAs=Skermskoot &As...
+VideoRotation=&Rotasie
+VideoRotate0=&0° (Normaal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Omkeer
+VideoFlipH=Omkeer &Horisontaal
+VideoFlipV=Omkeer &Vertikaal
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoem
+VideoZoomIn=Zoem &In
+VideoZoomOut=Zoem &Uit
+VideoZoomReset=&Herstel Zoem
+VideoPan=&Pan
+VideoPanLeft=Pan &Links
+VideoPanRight=Pan &Regs
+VideoPanUp=Pan &Op
+VideoPanDown=Pan &Af
+VideoPanReset=H&erstel Pan
+VideoTrack=Video &Snit
+VideoColors=Kleur &Aanpassings
+VideoBrightness=&Helderheid
+VideoContrast=&Kontras
+VideoSaturation=&Versadiging
+VideoHue=&Tint
+VideoGamma=&Gamma
+VideoColorsReset=Herstel &Alle Kleure
+VideoIncrease=Verhoog (+5)
+VideoDecrease=Verlaag (-5)
+VideoReset=Herstel
+VideoAdjustDialog=Video &Aanpassings...
+
+; Aansig-kieslys
+View=Aan&sig
+ViewAlwaysOnTop=&Altyd Bo-op
+ViewFitToVideo=&Pas Venster by Video
+ViewScale=Venster &Skaal
+
+; Fase 26: Visualisering-kieslys
+ViewVisualization=&Visualisering
+VisNone=&Geen
+VisSpectrum=&Spektrum Analiseerder
+VisWaveform=&Golfvorm
+VisVector=&Vektor Skoop
+VisVolume=V&U Meter
+VisNextMode=Volgende &Modus
+VisNextColor=Volgende &Kleurskema
+
+; Onderskrifte-kieslys
+Subtitles=&Onderskrifte
+SubtitleTrack=Onderskrif &Snit
+SubtitleLoad=&Laai Onderskrif...
+SubtitleDelay=Onderskrif &Vertraging
+SubtitleDelayPlus=Vertraging +0.1s
+SubtitleDelayMinus=Vertraging -0.1s
+SubtitleDelayReset=Herstel Vertraging
+
+; Gereedskap-kieslys
+Tools=&Gereedskap
+ToolsPlaylist=&Speellys
+ToolsRadios=&Radios
+ToolsShortcuts=&Sleutelbord Kortpaaie...
+ToolsOptions=&Opsies
+
+; Fase 27: Opname-kieslys
+ToolsRecord=&Neem Stroom Op...
+ToolsStopRecord=S&top Opname
+ToolsRecording=&Opname...
+
+; Hulp-kieslys
+Help=&Hulp
+HelpMediaInfo=&Media Inligting
+HelpLog=&Log Venster
+HelpAbout=&Aangaande
+
+[Dialog]
+OpenFile=Maak Leer Oop
+OpenURL=Maak URL Oop
+SaveScreenshot=Stoor Skermskoot
+LoadSubtitle=Laai Onderskriftleer
+EnterURL=Voer URL in:
+ResumePlayback=Hervat Speelterug
+ResumeFrom=Hervat vanaf %s?
+ClearRecentFiles=Vee Onlangse Leer Uit
+NoRecentFiles=(Geen onlangse leer)
+NoAudioTracks=(Geen oudiosnitte)
+NoVideoTracks=(Geen videosnitte)
+NoSubtitleTracks=(Geen onderskriftsnitte)
+NoChapters=(Geen hoofstukke)
+OpenDVD=Maak DVD Oop
+OpenBluray=Maak Blu-ray Oop
+OpenFolder=Maak Gids Oop
+
+; Leerfilters
+ScreenshotFilter=PNG Beeld|*.png|JPEG Beeld|*.jpg|WebP Beeld|*.webp
+DVDFilter=DVD Gids|*.;*.iso|Alle leer (*.*)|*.*
+BlurayFilter=Blu-ray Gids|*.;*.iso|Alle leer (*.*)|*.*
+NoDVD=(Geen DVD gelaai)
+DVDTitle=Titel %d
+GotoTime=Gaan na Tyd
+EnterTime=Voer die tyd in om na te spring:
+Hours=Ure
+Minutes=Minute
+Seconds=Sekondes
+Current=Huidige:
+HistoryTitle=Speelterug Geskiedenis
+HistoryItems=%d items in geskiedenis
+HistoryPlay=&Speel
+HistoryRemove=&Verwyder uit Geskiedenis
+HistoryClear=&Vee Alle Geskiedenis Uit
+HistoryOpenFolder=Maak &Gids Oop
+HistoryCopyPath=&Kopieer Pad
+ClearHistory=Vee Geskiedenis Uit
+ClearHistoryConfirm=Is jy seker jy wil alle geskiedenis uitvee?
+SleepTimerTitle=Slaaptimer
+SleepTimerDescription=Stel timer om speelterug outomaties te stop
+SleepTimerHours=Ure
+SleepTimerMinutes=Minute
+SleepTimerQuickSet=Vinnige Stel
+SleepTimerAction=Wanneer timer verval
+SleepTimerStopPlayback=Stop speelterug
+SleepTimerCloseApp=Sluit toepassing
+SleepTimerShutdown=Skakel rekenaar af
+SleepTimerStart=Begin Timer
+
+[Status]
+Ready=Gereed
+Opening=Besig om te open...
+Playing=Speel
+Paused=Gewag
+Stopped=Gestop
+Error=Fout
+Buffering=Buffer...
+Seeking=Soek...
+Recording=Neem Op
+
+[Message]
+SpeedFormat=Spoed: %.2fx
+VolumeFormat=Volume: %d%%
+BrightnessFormat=Helderheid: %d
+ContrastFormat=Kontras: %d
+SaturationFormat=Versadiging: %d
+HueFormat=Tint: %d
+GammaFormat=Gamma: %d
+ColorsReset=Video kleure herstel
+LoopASet=Lus A gestel by %s
+LoopBSet=Lus B gestel by %s - Lus aktief
+LoopCleared=A-B Lus uitgevee
+SetAFirst=Stel punt A eerste (druk L)
+RotationFormat=Rotasie: %d°
+FlipHOn=Horisontale omkeer: AAN
+FlipHOff=Horisontale omkeer: AF
+FlipVOn=Vertikale omkeer: AAN
+FlipVOff=Vertikale omkeer: AF
+DeinterlaceOn=Deinterlace: AAN
+DeinterlaceOff=Deinterlace: AF
+AlwaysOnTopOn=Altyd bo-op: AAN
+AlwaysOnTopOff=Altyd bo-op: AF
+WindowFitted=Venster aangepas na %dx%d
+WindowScale=Venster skaal: %.0f%%
+ScreenshotSaved=Skermskoot gestoor: %s
+AudioNormalizeOn=Oudionormalisering: AAN
+AudioNormalizeOff=Oudionormalisering: AF
+AudioDelayFormat=Oudiovertraging: %.1f s
+SubtitleDelayFormat=Onderskriftvertraging: %.1f s
+ZoomFormat=Zoem: %.0f%%
+PanCenter=Pan: Middel
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Geen video gelaai
+PlayingFromClipboard=Speel vanaf knipbord: %s
+ClipboardInvalid=Knipbord bevat nie 'n geldige URL of pad nie
+ClipboardEmpty=Knipbord is leeg of bevat nie teks nie
+ResumedAt=Hervat by %s
+FrameStepForward=Raam stap vorentoe
+FrameStepBackward=Raam stap agtertoe
+PreviousChapter=Vorige hoofstuk
+NextChapter=Volgende hoofstuk
+PlayingRadio=Speel radio: %s
+PlayingDVD=Speel DVD: %s
+PlayingBluray=Speel Blu-ray: %s
+DVDTitlePlaying=DVD Titel %d
+SeekTo=Soek na %s
+MinimizedToTray=Geminimeer na bak. Dubbelklik om te herstel.
+SleepTimerSet=Slaaptimer gestel: %s
+SleepTimerCancelled=Slaaptimer gekanselleer
+SleepTimerWarning=Slaaptimer: 1 minuut oor
+SleepTimerFinal=Slaaptimer: 10 sekondes oor
+SleepTimerStopped=Slaaptimer: Speelterug gestop
+SleepTimerClosing=Slaaptimer: Sluit toepassing
+SleepTimerShutdown=Slaaptimer: Skakel rekenaar af
+SleepTimerExpired=Slaaptimer Verval
+ShutdownManual=Skakel asseblief jou rekenaar handmatig af.
+
+; Fase 21: Maak Gids Oop
+FolderOpened=Gids oopgemaak: %d leer
+NoMediaFound=Geen medialeer gevind
+FilesAdded=%d leer by speellys gevoeg
+
+; Fase 27: Opname boodskappe
+RecordNeedPlayback=Begin speelterug voor opname.
+RecordingStarted=Opname begin
+RecordingStopped=Opname gestop
+
+; Bykomende status boodskappe
+EndOfPlaylist=Einde van speellys
+NoMediaLoaded=Geen medialeer is tans gelaai nie.
+JumpedToNamed=Gespring na: %s
+ChapterFormat=Hoofstuk %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Boekmerk by %s
+
+[Label]
+Muted=Gedemp
+
+[Button]
+Play=Speel
+Pause=Wag
+Stop=Stop
+Previous=Vorige
+Next=Volgende
+Mute=Demp
+Unmute=Ontdemp
+Fullscreen=Volskerm
+OK=OK
+Cancel=Kanselleer
+Apply=Pas Toe
+Close=Sluit
+Yes=Ja
+No=Nee
+
+[Tooltip]
+Play=Speel/Wag
+Stop=Stop speelterug
+Previous=Vorige snit
+Next=Volgende snit
+Mute=Wissel demp
+Volume=Volume
+Seek=Soekposisie
+Fullscreen=Wissel volskerm
+
+[Playlist]
+Title=Speellys
+Add=Voeg By
+Remove=Verwyder
+Clear=Vee Uit
+MoveUp=Skuif Op
+MoveDown=Skuif Af
+Shuffle=Skommel
+Repeat=Herhaal
+Play=Speel
+ShuffleOn=Skommel: Aan
+ShuffleOff=Skommel: Af
+RepeatOff=Herhaal: Af
+RepeatOne=Herhaal: Een
+RepeatAll=Herhaal: Almal
+SavePlaylist=Stoor
+LoadPlaylist=Laai
+TotalDuration=Totaal: %s
+ItemCount=%d items
+
+; Fase 22: Speellys Verbeterings
+Search=Soek:
+FilterPlaceholder=Filter speellys...
+ClearSearch=Vee Uit
+FilterCount=%d/%d
+RemoveDuplicates=Verwyder &Duplikate
+Properties=E&ienskappe...
+NoDuplicates=Geen duplikate gevind.
+DuplicatesFound=%d duplikaat/e gevind. Verwyder hulle?
+RemoveDuplicatesTitle=Verwyder Duplikate
+PropertiesTitle=Speellys Eienskappe
+PropTotalItems=Totale items: %d
+PropTotalDuration=Totale duur: %s
+PropPlayed=Gespeel: %d
+PropUnplayed=Ongespeel: %d
+PropTotalSize=Totale grootte: %.2f MB
+PropShuffle=Skommel: %s
+PropRepeat=Herhaal: %s
+On=Aan
+Off=Af
+
+; Nuwe sleutels vir ApplyLocale
+ClearTitle=Vee Speellys Uit
+ClearConfirm=Is jy seker jy wil die speellys uitvee?
+NoPlaylist=Geen speellys
+StatusFormat=%d items | Totaal: %s
+RepeatOne=Herh. 1
+RepeatAll=Herh. Almal
+HintRepeatEnable=Klik om Herhaal Almal te aktiveer
+HintRepeatOne=Herhaal Een - Klik om te deaktiveer
+HintRepeatAll=Herhaal Almal - Klik vir Herhaal Een
+HintShuffleRepeat=Skommel + Herhaal Almal - Klik om herhaal te deaktiveer
+RemoveDuplicatesTitle=Verwyder Duplikate
+NoDuplicates=Geen duplikate gevind.
+SelectAll=Kies Alles
+SelectNone=Kies Niks
+SelectInvert=Inverteer Seleksie
+Sort=Sorteer
+SortByName=Volgens Naam
+SortByTitle=Volgens Titel
+SortByArtist=Volgens Kunstenaar
+SortByDuration=Volgens Duur
+SortReverse=Omgekeerd
+SortRandom=Willekeurig
+ColTitle=Titel
+ColDuration=Duur
+ColArtist=Kunstenaar
+ColAlbum=Album
+PlaylistFilter=M3U Speellys|*.m3u|M3U8 Speellys|*.m3u8|PLS Speellys|*.pls
+
+[Equalizer]
+Title=Ekwaliseerder
+Presets=Voorafinstellings:
+Preamp=Voorversterker:
+Flat=Plat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klassiek
+BassBoost=Basversterking
+TrebleBoost=Hoogversterking
+Vocal=Vokaal
+Reset=Herstel
+Enable=Aktiveer Ekwaliseerder
+Save=Stoor
+Delete=Skrap
+Ready=Gereed
+; Knoppies en aksies
+SavePreset=Stoor Voorafinstelling
+DeletePreset=Skrap Voorafinstelling
+SavePresetTitle=Stoor Voorafinstelling
+PresetNamePrompt=Voorafinstelling naam:
+EnterPresetName=Voer asseblief 'n voorafinstelling naam in.
+OverwritePresetTitle=Oorskryf Voorafinstelling
+OverwritePresetConfirm='n Voorafinstelling met hierdie naam bestaan reeds. Oorskryf?
+PresetUpdated=Voorafinstelling opgedateer: %s
+PresetSaved=Voorafinstelling gestoor: %s
+SelectPresetToDelete=Kies asseblief 'n voorafinstelling om te skrap.
+CannotDeleteDefault=Kan nie verstekvoorafinstellings skrap nie.
+DeletePresetTitle=Skrap Voorafinstelling
+DeletePresetConfirm=Is jy seker jy wil hierdie voorafinstelling skrap?
+PresetDeleted=Voorafinstelling geskrap
+ResetToFlat=Ekwaliseerder herstel na plat
+PresetApplied=Voorafinstelling toegepas: %s
+
+[Options]
+Title=Opsies
+General=Algemeen
+Video=Video
+Audio=Oudio
+Subtitles=Onderskrifte
+Cache=Kas
+Language=Taal:
+RestartRequired=Herbegin vereis vir veranderinge om in werking te tree
+
+; Algemene oortjie - Gedrag
+Behavior=Gedrag
+SingleInstance=Laat slegs een instansie toe
+AutoPlay=Outomaties speel leer wanneer oopgemaak
+AutoResume=Hervat speelterug posisie
+MinimizeToTray=Minimeer na stelselbak
+AutoSavePlaylist=Stoor speellys by verlaat
+
+; Algemene oortjie - OSD
+OSD=Op-Skerm Vertoning
+ShowOSD=Wys op-skerm boodskappe
+ShowTrayIcon=Wys bak-ikoon
+OSDDuration=OSD duur (ms):
+
+; Algemene oortjie - Skermskote
+Screenshots=Skermskote
+ScreenshotPath=Stoor gids:
+ScreenshotFormat=Formaat:
+
+; Algemene oortjie - Geskiedenis
+HistorySettings=Geskiedenis
+HistoryEnabled=Aktiveer speelterug geskiedenis
+HistoryMaxItems=Maks items:
+
+; Algemene oortjie - Taal
+LanguageGroup=Taal
+RestartNote=(Herbegin vereis vir veranderinge)
+
+; Video-oortjie
+VideoAdjust=Video Aanpassings
+Brightness=Helderheid:
+Contrast=Kontras:
+Saturation=Versadiging:
+Hue=Tint:
+Gamma=Gamma:
+VideoOutput=Video Uitset
+Output=Uitset:
+HWAccel=Aktiveer hardeware versnelling
+Deinterlacing=Deinterlacing
+Mode=Modus:
+
+; Oudio-oortjie
+AudioOutput=Oudio Uitset
+OutputDriver=Uitset bestuurder:
+Device=Toestel:
+AudioOptions=Oudio Opsies
+NormalizeAudio=Normaliseer oudio volume
+Channels=Kanale:
+
+; Onderskrifte-oortjie
+UseDefaultSubtitles=Gebruik verstek onderskriftinstellings
+Font=Lettertipe
+FontName=Lettertipe:
+FontSize=Grootte:
+FontColor=Kleur:
+Bold=Vetdruk
+Italic=Kursief
+Outline=Omlyning
+OutlineColor=Kleur:
+OutlineSize=Grootte:
+Position=Posisie
+VerticalPosition=Vertikale posisie:
+SubOptions=Opsies
+Encoding=Enkodering:
+AutoLoadSubs=Laai outomaties onderskriftleer
+
+; Video uitset waarskuwings
+VOWarningX11=Waarskuwing: x11 ondersteun nie video-aanpassings nie (helderheid, kontras, ens.)
+VOWarningWayland=Waarskuwing: Vereis 'n Wayland-sessie. Video-aanpassings ondersteun.
+
+; Kas-oortjie
+CacheSettings=Kas Buffer Groottes (KB)
+CacheDefault=Verstek kas:
+CacheLocal=Plaaslike leer:
+CacheNetwork=Netwerk leer:
+CacheInternet=Internet strome:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Aangaande
+Version=Weergawe
+Engine=Enjin
+Technology=Tegnologie
+BuildInfo=Bou Inligting
+SystemInfo=Stelsel
+Credits=Erkennings
+Developer=Ontwikkelaar:
+Author=Outeur
+License=Lisensie
+Website=Webwerf
+GitHub=GitHub
+Description='n Moderne, liggewig mediaspeler
+LicenseText=3nity Media is gelisensieer onder GPL-2.0\n\nDit beteken jy is vry om:\n  - Die sagteware vir enige doel te gebruik\n  - Die bronkode te bestudeer en te wysig\n  - Kopie van die sagteware te versprei\n  - Jou wysigings te versprei\n\nOnder die voorwaarde dat enige verspreide wysigings\nook onder GPL-2.0 gelisensieer word.
+BuildDate=Datum:
+Target=Teiken:
+Kernel=Kern:
+
+[Shortcuts]
+Title=Sleutelbord Kortpaaie
+Description=Stel sleutelbord kortpaaie vir aksies op
+Search=Soek:
+PressKey=Druk 'n sleutel...
+ColCategory=Kategorie
+ColAction=Aksie
+ColShortcut=Kortpad
+Assign=Toewys
+Clear=Vee Uit
+Reset=Herstel
+ResetAll=Herstel Almal
+CurrentShortcut=Huidige: %s
+NoKeyPressed=Druk asseblief eers 'n sleutelkombinasie.
+Conflict=Konflik: Reeds toegewys aan "%s"
+ConfirmReplace=Vervang Kortpad
+ReplaceMessage=Hierdie kortpad is reeds toegewys aan "%s". Wil jy dit vervang?
+ConfirmResetAll=Herstel Alle Kortpaaie
+ResetAllMessage=Is jy seker jy wil alle kortpaaie na hul verstekwaardes herstel?
+; Aksie name
+ActPlayPause=Speel / Wag
+ActStop=Stop
+ActPrevious=Vorige
+ActNext=Volgende
+ActSeekForward=Soek Vorentoe (10s)
+ActSeekBackward=Soek Agtertoe (10s)
+ActSeekForward5=Soek Vorentoe (1 min)
+ActSeekBackward5=Soek Agtertoe (1 min)
+ActSpeedUp=Versnel
+ActSpeedDown=Vertraag
+ActSpeedReset=Herstel Spoed
+ActSetLoopA=Stel Luspunt A
+ActSetLoopB=Stel Luspunt B
+ActClearLoop=Vee A-B Lus Uit
+ActFrameForward=Raam Vorentoe
+ActFrameBackward=Raam Agtertoe
+ActPrevChapter=Vorige Hoofstuk
+ActNextChapter=Volgende Hoofstuk
+ActGotoTime=Gaan na Tyd
+ActVolumeUp=Volume Op
+ActVolumeDown=Volume Af
+ActMute=Demp / Ontdemp
+ActAudioDelayPlus=Oudiovertraging +
+ActAudioDelayMinus=Oudiovertraging -
+ActAudioDelayReset=Herstel Oudiovertraging
+ActFullscreen=Volskerm
+ActRotate=Roteer Video
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoem In
+ActZoomOut=Zoem Uit
+ActZoomReset=Herstel Zoem
+ActAlwaysOnTop=Altyd Bo-op
+ActFitToVideo=Pas by Video
+ActScreenshot=Skermskoot
+ActVideoAdjust=Video Aanpassings
+ActVisNextMode=Volgende Visualisering Modus
+ActVisNextColor=Volgende Kleurskema
+ActSubDelayPlus=Onderskriftvertraging +
+ActSubDelayMinus=Onderskriftvertraging -
+ActSubDelayReset=Herstel Onderskriftvertraging
+ActDVDMenu=DVD Kieslys
+ActDVDUp=DVD Navigeer Op
+ActDVDDown=DVD Navigeer Af
+ActDVDLeft=DVD Navigeer Links
+ActDVDRight=DVD Navigeer Regs
+ActDVDSelect=DVD Kies
+ActOpenFile=Maak Leer Oop
+ActOpenURL=Maak URL Oop
+ActPlaylist=Wys Speellys
+ActQuit=Verlaat
+
+[Log]
+; Fase 25: Log Venster
+Title=MPV Log
+Command=Opdrag:
+Clear=Vee Uit
+Save=Stoor...
+Copy=&Kopieer
+SelectAll=Kies &Alles
+SaveTitle=Stoor Log
+SaveFilter=Teksleer (*.txt)|*.txt|Alle leer (*.*)|*.*
+ErrorTitle=Fout
+SaveError=Kon nie log stoor nie: %s
+
+[MediaInfo]
+Title=Media Inligting
+FileTab=Leer
+VideoTab=Video
+AudioTab=Oudio
+MetadataTab=Metadata
+FileName=Leernaam:
+FilePath=Pad:
+FileSize=Grootte:
+Duration=Duur:
+Format=Formaat:
+Bitrate=Bistempo:
+Codec=Kodek:
+Resolution=Resolusie:
+FrameRate=Raamtempo:
+PixelFormat=Pikselformaat:
+AspectRatio=Aspekverhouding:
+Channels=Kanale:
+SampleRate=Monstertempo:
+Language=Taal:
+Property=Eienskap
+Value=Waarde
+CopyAll=Kopieer Alles
+CopiedToClipboard=Media-inligting na knipbord gekopieer.
+NA=N/B
+NAStream=N/B (stroom)
+NALive=N/B (regstreeks)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Omring)
+Channel71=8 (7.1 Omring)
+Unknown=Onbekend
+NoMetadata=(Geen metadata)
+
+[Bookmarks]
+Title=Boekmerke
+Goto=Gaan na
+Remove=Verwyder
+Clear=Vee Almal Uit
+Refresh=Verfris
+OpenFolder=Maak Gids Oop
+CopyPath=Kopieer Pad
+; Kolomme
+ColName=Naam
+ColFile=Leer
+ColPosition=Posisie
+ColCreated=Geskep
+; Dialoogs
+ClearTitle=Vee Boekmerke Uit
+ClearConfirm=Is jy seker jy wil alle boekmerke uitvee?
+Count=%d boekmerk(e)
+
+[Favorites]
+Title=Gunstelinge
+Play=Speel
+Remove=Verwyder
+Clear=Vee Almal Uit
+Refresh=Verfris
+OpenFolder=Maak Gids Oop
+CopyPath=Kopieer Pad
+; Kolomme
+ColName=Naam
+ColType=Tipe
+ColPath=Pad
+; Tipes
+TypeFile=Leer
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Onbekend
+; Dialoogs
+ClearTitle=Vee Gunstelinge Uit
+ClearConfirm=Is jy seker jy wil alle gunstelinge uitvee?
+Count=%d gunsteling(e)
+
+[History]
+Title=Speelterug Geskiedenis
+Play=Speel
+Remove=Verwyder
+Clear=Vee Almal Uit
+Refresh=Verfris
+OpenFolder=Maak Gids Oop
+CopyPath=Kopieer Pad
+; Kolomme
+ColFileName=Leer
+ColPath=Pad
+; Dialoogs
+ClearTitle=Vee Geskiedenis Uit
+ClearConfirm=Is jy seker jy wil alle geskiedenis uitvee?
+Count=%d item(s)
+
+[SleepTimer]
+Title=Slaaptimer
+Description=Stel 'n timer om speelterug outomaties te stop
+Hours=Ure:
+Minutes=Minute:
+Action=Wanneer timer verval:
+StopPlayback=Stop speelterug
+CloseApp=Sluit toepassing
+Shutdown=Skakel rekenaar af
+QuickSet=Vinnig stel:
+15Min=15 min
+30Min=30 min
+1Hour=1 uur
+2Hours=2 ure
+
+[Radios]
+Title=Internet Radios
+Play=Speel
+Add=Voeg By
+Edit=Wysig
+Delete=Skrap
+Remove=Verwyder
+Import=Invoer
+Export=Uitvoer
+Refresh=Verfris
+Favorite=Gunsteling
+ShowFavorites=Gunstelinge
+ShowAll=Almal
+; Filter
+Genre=Genre:
+Search=Soek:
+SearchBtn=Soek
+ClearSearch=Vee Uit
+AllGenres=(Alle Genres)
+; Konteks kieslys
+AddFavorite=Voeg by Gunstelinge
+RemoveFavorite=Verwyder uit Gunstelinge
+AddCustom=Voeg Pasgemaakte Stasie By...
+EditCustom=Wysig Stasie...
+DeleteCustom=Skrap Stasie
+OpenWebsite=Maak Webwerf Oop
+CopyURL=Kopieer URL
+; Kolomme
+ColName=Naam
+ColGenre=Genre
+ColBitrate=Bistempo
+ColCountry=Land
+ColCodec=Kodek
+; Dialoogs
+AddTitle=Voeg Pasgemaakte Stasie By
+EditTitle=Wysig Stasie
+DeleteTitle=Skrap Stasie
+DeleteConfirm=Is jy seker jy wil hierdie stasie skrap?
+StationName=Stasienaam:
+StreamURL=Stroom URL:
+GenrePrompt=Genre:
+NameURLRequired=Naam en URL word vereis.
+; Status boodskappe
+LoadingIcecast=Laai stasies vanaf Icecast-gids...
+IcecastError=Kon nie Icecast-gids laai nie. Gebruik verstekstasies.
+NoStationsLoaded=Geen stasies gelaai
+StationCount=%d stasies
+LoadedStations=%d stasies gelaai
+ErrorPrefix=Fout:
+; Oorblywende sleutels
+Name=Naam
+URL=URL
+Bitrate=Bistempo
+Description=Beskrywing
+Country=Land
+
+[OpenURL]
+Title=Maak URL Oop
+Prompt=Voer media URL in:
+
+[GotoTime]
+Title=Gaan na Tyd
+EnterTime=Voer tyd in om na te spring:
+Hours=U
+Minutes=M
+Seconds=S
+Current=Huidige:
+Duration=Duur:
+
+[VideoAdjust]
+Title=Video Aanpassings
+Brightness=Helderheid:
+Contrast=Kontras:
+Saturation=Versadiging:
+Hue=Tint:
+Gamma=Gamma:
+ResetAll=Herstel Alle Kleure
+
+[CLI]
+; Opdraglyn boodskappe
+Usage=Gebruik
+Arguments=[OPSIES] [LÊER|URL|GIDS]
+Description='n Kruisplatform multimedia-speler met libmpv-agterkant.
+Options=OPSIES
+Examples=VOORBEELDE
+MoreInfo=Vir meer inligting, besoek
+EnqueuedTo=Bygevoeg by bestaande instansie: %s
+SentTo=Gestuur na bestaande instansie: %s
+AlreadyRunning=3nity Media loop reeds.
+ErrorFileNotFound=Fout: Lêer of gids nie gevind nie: %s
+ErrorSubNotFound=Fout: Ondertitellêer nie gevind nie: %s

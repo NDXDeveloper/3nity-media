@@ -1,0 +1,892 @@
+[Language]
+Name=Welsh - Cymraeg
+Code=cy
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Dewislen Ffeil
+File=&Ffeil
+FileOpen=&Agor Ffeil...
+FileOpenURL=Agor &URL...
+FileOpenClipboard=Agor o'r &Clipfwrdd
+FileRecent=Ffeiliau &Diweddar
+ClearRecentFiles=Clirio Ffeiliau Diweddar
+FileExit=&Gadael
+
+; Dewislen Chwarae
+Playback=&Chwarae
+PlaybackPlayPause=&Chwarae/Oedi
+PlaybackStop=&Stopio
+PlaybackPrevious=&Blaenorol
+PlaybackNext=&Nesaf
+PlaybackSeekForward=Chwilio &Ymlaen
+PlaybackSeekBackward=Chwilio Yn &Ol
+PlaybackSpeed=&Cyflymder
+PlaybackABLoop=Dolen A-&B
+PlaybackSetA=Gosod &A
+PlaybackSetB=Gosod &B
+PlaybackClearAB=&Clirio A-B
+PlaybackChapters=&Penodau
+PlaybackPrevChapter=Pennod Blaenorol
+PlaybackNextChapter=Pennod Nesaf
+PlaybackFrameStep=Cam Ffrâm &Ymlaen
+PlaybackFrameBack=Cam Ffrâm Yn &Ôl
+
+; Llywio DVD
+PlaybackDVD=&Llywio DVD
+DVDMenu=&Dewislen
+DVDUp=&I Fyny
+DVDDown=I &Lawr
+DVDLeft=I'r &Chwith
+DVDRight=I'r &Dde
+DVDSelect=&Dewis
+PlaybackDVDTitles=&Teitlau DVD
+
+; Cam 21: Agor Ffolder
+FileOpenFolder=Agor Ff&older...
+
+; Dewislen Ffeil DVD/Bluray
+FileOpenDVD=Agor &DVD...
+FileOpenBluray=Agor &Blu-ray...
+
+; Cam 13: Mynd i Amser a Hanes
+PlaybackGotoTime=&Mynd i Amser...
+ToolsHistory=&Hanes
+
+; Cam 14: Hambwrdd System
+TrayShow=&Dangos/Cuddio
+TrayPlayPause=&Chwarae/Oedi
+TrayStop=&Stopio
+TrayPrevious=&Blaenorol
+TrayNext=&Nesaf
+TrayMute=&Tawelu
+TrayExit=&Gadael
+
+; Cam 15: Nodau Tudalen
+PlaybackAddBookmark=Ychwanegu &Nod Tudalen...
+PlaybackBookmarks=Nodau &Tudalen
+BookmarksTitle=Nodau Tudalen
+BookmarksGoto=&Mynd i Nod Tudalen
+BookmarksRemove=&Dileu Nod Tudalen
+BookmarksClear=&Clirio Pob Nod Tudalen
+BookmarksOpenFolder=Agor &Ffolder
+BookmarksCopyPath=&Copïo Llwybr
+BookmarksCount=%d nod tudalen
+NoBookmarks=(Dim nodau tudalen)
+NoFileLoaded=(Dim ffeil wedi'i llwytho)
+BookmarkAdded=Nod tudalen wedi'i ychwanegu ar %s
+BookmarkJumped=Wedi neidio i nod tudalen ar %s
+AddBookmarkTitle=Ychwanegu Nod Tudalen
+AddBookmarkPrompt=Rhowch enw'r nod tudalen:
+ShowAllBookmarks=Dangos Pob Nod Tudalen...
+
+; Cam 16: Ffefrynnau
+ToolsFavorites=&Ffefrynnau
+ToolsAddFavorite=Ychwanegu at &Ffefrynnau
+FavoritesTitle=Ffefrynnau
+FavoritesPlay=&Chwarae
+FavoritesRemove=&Dileu o Ffefrynnau
+FavoritesClear=&Clirio Pob Ffefryn
+FavoritesOpenFolder=Agor &Ffolder
+FavoritesCopyPath=&Copïo Llwybr
+FavoritesCount=%d ffefryn
+NoFavorites=(Dim ffefrynnau)
+AddFavoriteTitle=Ychwanegu at Ffefrynnau
+AddFavoritePrompt=Rhowch enw i'r ffefryn:
+AlreadyFavorite=Eisoes yn y ffefrynnau
+AddedToFavorites=Wedi'i ychwanegu at ffefrynnau: %s
+NoFileToFavorite=Dim ffeil wedi'i llwytho i'w hychwanegu at ffefrynnau
+FavoriteTypeFile=Ffeil
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Llinynnau fformat trac
+TrackWithTitle=Trac %d: %s
+TrackWithLang=Trac %d (%s)
+TrackNumber=Trac %d
+
+; Eitemau dewislen cyflymder
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Eitemau dewislen graddfa
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Trac isdeitlau
+SubtitleDisable=Analluogi
+
+; Cam 17: Amserydd Cysgu
+ToolsSleepTimer=&Amserydd Cysgu...
+ToolsSleepTimerActive=&Amserydd Cysgu [%s]
+ToolsCancelTimer=Canslo &Amserydd
+
+; Dewislen Sain
+Audio=&Sain
+AudioTrack=&Trac Sain
+AudioVolumeUp=Sain I &Fyny
+AudioVolumeDown=Sain I &Lawr
+AudioMute=&Tawelu
+AudioEqualizer=&Hafalydd
+AudioDelay=&Oedi Sain
+AudioDelayPlus=Oedi +0.1e
+AudioDelayMinus=Oedi -0.1e
+AudioDelayReset=Ailosod Oedi
+AudioNormalize=&Normaleiddio Sain
+
+; Dewislen Fideo
+Video=&Fideo
+VideoFullscreen=&Sgrin Lawn
+VideoAspect=&Cymhareb Agwedd
+VideoAspectAuto=&Awtomatig
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Sgrinlun
+VideoScreenshotAs=Sgrinlun &Fel...
+VideoRotation=&Cylchdroi
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Troi
+VideoFlipH=Troi yn &Llorweddol
+VideoFlipV=Troi yn &Fertigol
+VideoDeinterlace=&Dad-rynglinio
+VideoZoom=&Chwyddo
+VideoZoomIn=Chwyddo I &Mewn
+VideoZoomOut=Chwyddo &Allan
+VideoZoomReset=&Ailosod Chwyddo
+VideoPan=&Padell
+VideoPanLeft=Padell i'r &Chwith
+VideoPanRight=Padell i'r &Dde
+VideoPanUp=Padell I &Fyny
+VideoPanDown=Padell I &Lawr
+VideoPanReset=A&ilosod Padell
+VideoTrack=&Trac Fideo
+VideoColors=&Addasiadau Lliw
+VideoBrightness=&Disgleirdeb
+VideoContrast=&Cyferbyniad
+VideoSaturation=&Dirlawnder
+VideoHue=&Arlliw
+VideoGamma=&Gama
+VideoColorsReset=Ailosod &Pob Lliw
+VideoIncrease=Cynyddu (+5)
+VideoDecrease=Lleihau (-5)
+VideoReset=Ailosod
+VideoAdjustDialog=&Addasiadau Fideo...
+
+; Dewislen Golwg
+View=&Golwg
+ViewAlwaysOnTop=&Bob Amser ar y Brig
+ViewFitToVideo=&Ffitio Ffenestr i Fideo
+ViewScale=&Graddfa Ffenestr
+
+; Cam 26: Dewislen Delweddiad
+ViewVisualization=&Delweddiad
+VisNone=&Dim
+VisSpectrum=Dadansoddwr &Sbectrwm
+VisWaveform=&Tonffurf
+VisVector=Sgôp &Fector
+VisVolume=Mesurydd &VU
+VisNextMode=&Modd Nesaf
+VisNextColor=Cynllun &Lliw Nesaf
+
+; Dewislen Isdeitlau
+Subtitles=&Isdeitlau
+SubtitleTrack=&Trac Isdeitl
+SubtitleLoad=&Llwytho Isdeitl...
+SubtitleDelay=&Oedi Isdeitl
+SubtitleDelayPlus=Oedi +0.1e
+SubtitleDelayMinus=Oedi -0.1e
+SubtitleDelayReset=Ailosod Oedi
+
+; Dewislen Offer
+Tools=&Offer
+ToolsPlaylist=&Rhestr Chwarae
+ToolsRadios=&Radios
+ToolsShortcuts=&Llwybrau Byr Bysellfwrdd...
+ToolsOptions=&Opsiynau
+
+; Cam 27: Dewislen Recordio
+ToolsRecord=&Recordio Ffrwd...
+ToolsStopRecord=&Stopio Recordio
+ToolsRecording=&Recordio...
+
+; Dewislen Cymorth
+Help=&Cymorth
+HelpMediaInfo=&Gwybodaeth Cyfryngau
+HelpLog=Ffenestr &Log
+HelpAbout=&Ynghylch
+
+[Dialog]
+OpenFile=Agor Ffeil
+OpenURL=Agor URL
+SaveScreenshot=Cadw Sgrinlun
+LoadSubtitle=Llwytho Ffeil Isdeitl
+EnterURL=Rhowch URL:
+ResumePlayback=Ailddechrau Chwarae
+ResumeFrom=Ailddechrau o %s?
+ClearRecentFiles=Clirio Ffeiliau Diweddar
+NoRecentFiles=(Dim ffeiliau diweddar)
+NoAudioTracks=(Dim traciau sain)
+NoVideoTracks=(Dim traciau fideo)
+NoSubtitleTracks=(Dim traciau isdeitl)
+NoChapters=(Dim penodau)
+OpenDVD=Agor DVD
+OpenBluray=Agor Blu-ray
+OpenFolder=Agor Ffolder
+
+; Hidlwyr ffeiliau
+ScreenshotFilter=Delwedd PNG|*.png|Delwedd JPEG|*.jpg|Delwedd WebP|*.webp
+DVDFilter=Ffolder DVD|*.;*.iso|Pob ffeil (*.*)|*.*
+BlurayFilter=Ffolder Blu-ray|*.;*.iso|Pob ffeil (*.*)|*.*
+NoDVD=(Dim DVD wedi'i llwytho)
+DVDTitle=Teitl %d
+GotoTime=Mynd i Amser
+EnterTime=Rhowch yr amser i neidio iddo:
+Hours=Oriau
+Minutes=Munudau
+Seconds=Eiliadau
+Current=Cyfredol:
+HistoryTitle=Hanes Chwarae
+HistoryItems=%d eitem yn yr hanes
+HistoryPlay=&Chwarae
+HistoryRemove=&Dileu o'r Hanes
+HistoryClear=&Clirio Pob Hanes
+HistoryOpenFolder=Agor &Ffolder
+HistoryCopyPath=&Copïo Llwybr
+ClearHistory=Clirio Hanes
+ClearHistoryConfirm=Ydych chi'n siŵr eich bod am glirio'r holl hanes?
+SleepTimerTitle=Amserydd Cysgu
+SleepTimerDescription=Gosod amserydd i stopio chwarae'n awtomatig
+SleepTimerHours=Oriau
+SleepTimerMinutes=Munudau
+SleepTimerQuickSet=Gosod Cyflym
+SleepTimerAction=Pan fydd yr amserydd yn dod i ben
+SleepTimerStopPlayback=Stopio chwarae
+SleepTimerCloseApp=Cau'r rhaglen
+SleepTimerShutdown=Cau'r cyfrifiadur
+SleepTimerStart=Dechrau Amserydd
+
+[Status]
+Ready=Parod
+Opening=Yn agor...
+Playing=Yn chwarae
+Paused=Wedi oedi
+Stopped=Wedi stopio
+Error=Gwall
+Buffering=Yn bwffro...
+Seeking=Yn chwilio...
+Recording=Yn recordio
+
+[Message]
+SpeedFormat=Cyflymder: %.2fx
+VolumeFormat=Sain: %d%%
+BrightnessFormat=Disgleirdeb: %d
+ContrastFormat=Cyferbyniad: %d
+SaturationFormat=Dirlawnder: %d
+HueFormat=Arlliw: %d
+GammaFormat=Gama: %d
+ColorsReset=Lliwiau fideo wedi'u hailosod
+LoopASet=Dolen A wedi'i gosod ar %s
+LoopBSet=Dolen B wedi'i gosod ar %s - Dolen yn weithredol
+LoopCleared=Dolen A-B wedi'i chlirio
+SetAFirst=Gosodwch bwynt A yn gyntaf (pwyswch L)
+RotationFormat=Cylchdro: %d°
+FlipHOn=Troi llorweddol: YMLAEN
+FlipHOff=Troi llorweddol: I FFWRDD
+FlipVOn=Troi fertigol: YMLAEN
+FlipVOff=Troi fertigol: I FFWRDD
+DeinterlaceOn=Dad-rynglinio: YMLAEN
+DeinterlaceOff=Dad-rynglinio: I FFWRDD
+AlwaysOnTopOn=Bob amser ar y brig: YMLAEN
+AlwaysOnTopOff=Bob amser ar y brig: I FFWRDD
+WindowFitted=Ffenestr wedi'i ffitio i %dx%d
+WindowScale=Graddfa ffenestr: %.0f%%
+ScreenshotSaved=Sgrinlun wedi'i gadw: %s
+AudioNormalizeOn=Normaleiddio sain: YMLAEN
+AudioNormalizeOff=Normaleiddio sain: I FFWRDD
+AudioDelayFormat=Oedi sain: %.1f e
+SubtitleDelayFormat=Oedi isdeitl: %.1f e
+ZoomFormat=Chwyddo: %.0f%%
+PanCenter=Padell: Canol
+PanFormat=Padell: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Dim fideo wedi'i lwytho
+PlayingFromClipboard=Yn chwarae o'r clipfwrdd: %s
+ClipboardInvalid=Nid yw'r clipfwrdd yn cynnwys URL neu lwybr dilys
+ClipboardEmpty=Mae'r clipfwrdd yn wag neu nid yw'n cynnwys testun
+ResumedAt=Ailddechreuwyd ar %s
+FrameStepForward=Cam ffrâm ymlaen
+FrameStepBackward=Cam ffrâm yn ôl
+PreviousChapter=Pennod flaenorol
+NextChapter=Pennod nesaf
+PlayingRadio=Yn chwarae radio: %s
+PlayingDVD=Yn chwarae DVD: %s
+PlayingBluray=Yn chwarae Blu-ray: %s
+DVDTitlePlaying=Teitl DVD %d
+SeekTo=Yn chwilio am %s
+MinimizedToTray=Wedi'i leihau i'r hambwrdd. Cliciwch ddwywaith i adfer.
+SleepTimerSet=Amserydd cysgu wedi'i osod: %s
+SleepTimerCancelled=Amserydd cysgu wedi'i ganslo
+SleepTimerWarning=Amserydd cysgu: 1 munud yn weddill
+SleepTimerFinal=Amserydd cysgu: 10 eiliad yn weddill
+SleepTimerStopped=Amserydd cysgu: Chwarae wedi stopio
+SleepTimerClosing=Amserydd cysgu: Yn cau'r rhaglen
+SleepTimerShutdown=Amserydd cysgu: Yn cau'r cyfrifiadur
+SleepTimerExpired=Amserydd Cysgu Wedi Dod i Ben
+ShutdownManual=Caewch eich cyfrifiadur â llaw.
+
+; Cam 21: Agor Ffolder
+FolderOpened=Ffolder wedi'i agor: %d ffeil
+NoMediaFound=Dim ffeiliau cyfryngau wedi'u canfod
+FilesAdded=Wedi ychwanegu %d ffeil at y rhestr chwarae
+
+; Cam 27: Negeseuon recordio
+RecordNeedPlayback=Dechreuwch chwarae cyn recordio.
+RecordingStarted=Recordio wedi dechrau
+RecordingStopped=Recordio wedi stopio
+
+; Negeseuon statws ychwanegol
+EndOfPlaylist=Diwedd y rhestr chwarae
+NoMediaLoaded=Dim ffeil cyfryngau wedi'i llwytho ar hyn o bryd.
+JumpedToNamed=Wedi neidio i: %s
+ChapterFormat=Pennod %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Nod tudalen ar %s
+
+[Label]
+Muted=Wedi tawelu
+
+[Button]
+Play=Chwarae
+Pause=Oedi
+Stop=Stopio
+Previous=Blaenorol
+Next=Nesaf
+Mute=Tawelu
+Unmute=Dad-dawelu
+Fullscreen=Sgrin Lawn
+OK=Iawn
+Cancel=Canslo
+Apply=Gweithredu
+Close=Cau
+Yes=Ie
+No=Na
+
+[Tooltip]
+Play=Chwarae/Oedi
+Stop=Stopio chwarae
+Previous=Trac blaenorol
+Next=Trac nesaf
+Mute=Toglo tawelu
+Volume=Sain
+Seek=Safle chwilio
+Fullscreen=Toglo sgrin lawn
+
+[Playlist]
+Title=Rhestr Chwarae
+Add=Ychwanegu
+Remove=Dileu
+Clear=Clirio
+MoveUp=Symud i Fyny
+MoveDown=Symud i Lawr
+Shuffle=Cymysgu
+Repeat=Ailadrodd
+Play=Chwarae
+ShuffleOn=Cymysgu: Ymlaen
+ShuffleOff=Cymysgu: I Ffwrdd
+RepeatOff=Ailadrodd: I Ffwrdd
+RepeatOne=Ailadrodd: Un
+RepeatAll=Ailadrodd: Pob un
+SavePlaylist=Cadw
+LoadPlaylist=Llwytho
+TotalDuration=Cyfanswm: %s
+ItemCount=%d eitem
+
+; Cam 22: Gwelliannau Rhestr Chwarae
+Search=Chwilio:
+FilterPlaceholder=Hidlo rhestr chwarae...
+ClearSearch=Clirio
+FilterCount=%d/%d
+RemoveDuplicates=Dileu &Dyblygu
+Properties=&Priodweddau...
+NoDuplicates=Dim dyblygu wedi'u canfod.
+DuplicatesFound=Canfuwyd %d dyblyg. Eu dileu?
+RemoveDuplicatesTitle=Dileu Dyblygu
+PropertiesTitle=Priodweddau Rhestr Chwarae
+PropTotalItems=Cyfanswm eitemau: %d
+PropTotalDuration=Cyfanswm hyd: %s
+PropPlayed=Wedi chwarae: %d
+PropUnplayed=Heb chwarae: %d
+PropTotalSize=Cyfanswm maint: %.2f MB
+PropShuffle=Cymysgu: %s
+PropRepeat=Ailadrodd: %s
+On=Ymlaen
+Off=I Ffwrdd
+
+; Allweddi newydd ar gyfer ApplyLocale
+ClearTitle=Clirio Rhestr Chwarae
+ClearConfirm=Ydych chi'n siŵr eich bod am glirio'r rhestr chwarae?
+NoPlaylist=Dim rhestr chwarae
+StatusFormat=%d eitem | Cyfanswm: %s
+RepeatOne=Ail. 1
+RepeatAll=Ail. Pob
+HintRepeatEnable=Cliciwch i alluogi Ailadrodd Pob
+HintRepeatOne=Ailadrodd Un - Cliciwch i analluogi
+HintRepeatAll=Ailadrodd Pob - Cliciwch am Ailadrodd Un
+HintShuffleRepeat=Cymysgu + Ailadrodd Pob - Cliciwch i analluogi ailadrodd
+RemoveDuplicatesTitle=Dileu Dyblygu
+NoDuplicates=Dim dyblygu wedi'u canfod.
+SelectAll=Dewis Pob
+SelectNone=Dewis Dim
+SelectInvert=Gwrthdroi Dewis
+Sort=Trefnu
+SortByName=Wrth Enw
+SortByTitle=Wrth Deitl
+SortByArtist=Wrth Artist
+SortByDuration=Wrth Hyd
+SortReverse=Gwrthdroi
+SortRandom=Ar Hap
+ColTitle=Teitl
+ColDuration=Hyd
+ColArtist=Artist
+ColAlbum=Albwm
+PlaylistFilter=Rhestr Chwarae M3U|*.m3u|Rhestr Chwarae M3U8|*.m3u8|Rhestr Chwarae PLS|*.pls
+
+[Equalizer]
+Title=Hafalydd
+Presets=Rhagosodiadau:
+Preamp=Rhag-amp:
+Flat=Gwastad
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Clasurol
+BassBoost=Hwb Bas
+TrebleBoost=Hwb Trebl
+Vocal=Lleisiol
+Reset=Ailosod
+Enable=Galluogi Hafalydd
+Save=Cadw
+Delete=Dileu
+Ready=Parod
+; Botymau a gweithredoedd
+SavePreset=Cadw Rhagosodiad
+DeletePreset=Dileu Rhagosodiad
+SavePresetTitle=Cadw Rhagosodiad
+PresetNamePrompt=Enw'r rhagosodiad:
+EnterPresetName=Rhowch enw rhagosodiad.
+OverwritePresetTitle=Trosysgrifo Rhagosodiad
+OverwritePresetConfirm=Mae rhagosodiad gyda'r enw hwn yn bodoli eisoes. Trosysgrifo?
+PresetUpdated=Rhagosodiad wedi'i ddiweddaru: %s
+PresetSaved=Rhagosodiad wedi'i gadw: %s
+SelectPresetToDelete=Dewiswch ragosodiad i'w ddileu.
+CannotDeleteDefault=Ni ellir dileu rhagosodiadau diofyn.
+DeletePresetTitle=Dileu Rhagosodiad
+DeletePresetConfirm=Ydych chi'n siŵr eich bod am ddileu'r rhagosodiad hwn?
+PresetDeleted=Rhagosodiad wedi'i ddileu
+ResetToFlat=Hafalydd wedi'i ailosod i wastad
+PresetApplied=Rhagosodiad wedi'i weithredu: %s
+
+[Options]
+Title=Opsiynau
+General=Cyffredinol
+Video=Fideo
+Audio=Sain
+Subtitles=Isdeitlau
+Cache=Storfa
+Language=Iaith:
+RestartRequired=Mae angen ailddechrau er mwyn i'r newidiadau ddod i rym
+
+; Tab Cyffredinol - Ymddygiad
+Behavior=Ymddygiad
+SingleInstance=Caniatáu un enghraifft yn unig
+AutoPlay=Awtochwarae ffeiliau wrth agor
+AutoResume=Ailddechrau safle chwarae
+MinimizeToTray=Lleihau i hambwrdd y system
+AutoSavePlaylist=Cadw rhestr chwarae wrth adael
+
+; Tab Cyffredinol - OSD
+OSD=Arddangosfa Ar y Sgrin
+ShowOSD=Dangos negeseuon ar y sgrin
+ShowTrayIcon=Dangos eicon hambwrdd
+OSDDuration=Hyd OSD (ms):
+
+; Tab Cyffredinol - Sgrinluniau
+Screenshots=Sgrinluniau
+ScreenshotPath=Ffolder cadw:
+ScreenshotFormat=Fformat:
+
+; Tab Cyffredinol - Hanes
+HistorySettings=Hanes
+HistoryEnabled=Galluogi hanes chwarae
+HistoryMaxItems=Uchafswm eitemau:
+
+; Tab Cyffredinol - Iaith
+LanguageGroup=Iaith
+RestartNote=(Mae angen ailddechrau ar gyfer newidiadau)
+
+; Tab Fideo
+VideoAdjust=Addasiadau Fideo
+Brightness=Disgleirdeb:
+Contrast=Cyferbyniad:
+Saturation=Dirlawnder:
+Hue=Arlliw:
+Gamma=Gama:
+VideoOutput=Allbwn Fideo
+Output=Allbwn:
+HWAccel=Galluogi cyflymiad caledwedd
+Deinterlacing=Dad-rynglinio
+Mode=Modd:
+
+; Tab Sain
+AudioOutput=Allbwn Sain
+OutputDriver=Gyrrwr allbwn:
+Device=Dyfais:
+AudioOptions=Opsiynau Sain
+NormalizeAudio=Normaleiddio sain
+Channels=Sianeli:
+
+; Tab Isdeitlau
+UseDefaultSubtitles=Defnyddio gosodiadau isdeitl diofyn
+Font=Ffont
+FontName=Ffont:
+FontSize=Maint:
+FontColor=Lliw:
+Bold=Trwm
+Italic=Italig
+Outline=Amlinell
+OutlineColor=Lliw:
+OutlineSize=Maint:
+Position=Safle
+VerticalPosition=Safle fertigol:
+SubOptions=Opsiynau
+Encoding=Amgodiad:
+AutoLoadSubs=Llwytho ffeiliau isdeitl yn awtomatig
+
+; Rhybuddion allbwn fideo
+VOWarningX11=Rhybudd: nid yw x11 yn cefnogi addasiadau fideo (disgleirdeb, cyferbyniad, ac ati.)
+VOWarningWayland=Rhybudd: Mae angen sesiwn Wayland. Cefnogir addasiadau fideo.
+
+; Tab Storfa
+CacheSettings=Meintiau Byffer Storfa (KB)
+CacheDefault=Storfa ddiofyn:
+CacheLocal=Ffeiliau lleol:
+CacheNetwork=Ffeiliau rhwydwaith:
+CacheInternet=Ffrydiau rhyngrwyd:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Ynghylch
+Version=Fersiwn
+Engine=Peiriant
+Technology=Technoleg
+BuildInfo=Gwybodaeth Adeiladu
+SystemInfo=System
+Credits=Cydnabyddiaethau
+Developer=Datblygwr:
+Author=Awdur
+License=Trwydded
+Website=Gwefan
+GitHub=GitHub
+Description=Chwaraewr cyfryngau modern, ysgafn
+LicenseText=Mae 3nity Media wedi'i drwyddedu o dan GPL-2.0\n\nMae hyn yn golygu eich bod yn rhydd i:\n  • Defnyddio'r meddalwedd at unrhyw bwrpas\n  • Astudio ac addasu'r cod ffynhonnell\n  • Dosbarthu copïau o'r feddalwedd\n  • Dosbarthu eich addasiadau\n\nAr yr amod bod unrhyw addasiadau a ddosberthir\nhefyd wedi'u trwyddedu o dan GPL-2.0.
+BuildDate=Dyddiad:
+Target=Targed:
+Kernel=Cnewyllyn:
+
+[Shortcuts]
+Title=Llwybrau Byr Bysellfwrdd
+Description=Ffurfweddu llwybrau byr bysellfwrdd ar gyfer gweithredoedd
+Search=Chwilio:
+PressKey=Pwyswch fysell...
+ColCategory=Categori
+ColAction=Gweithred
+ColShortcut=Llwybr Byr
+Assign=Aseinio
+Clear=Clirio
+Reset=Ailosod
+ResetAll=Ailosod Pob
+CurrentShortcut=Cyfredol: %s
+NoKeyPressed=Pwyswch gyfuniad bysell yn gyntaf.
+Conflict=Gwrthdaro: Eisoes wedi'i aseinio i "%s"
+ConfirmReplace=Disodli Llwybr Byr
+ReplaceMessage=Mae'r llwybr byr hwn eisoes wedi'i aseinio i "%s". Ydych chi am ei ddisodli?
+ConfirmResetAll=Ailosod Pob Llwybr Byr
+ResetAllMessage=Ydych chi'n siŵr eich bod am ailosod pob llwybr byr i'w gosodiadau diofyn?
+; Enwau gweithredoedd
+ActPlayPause=Chwarae / Oedi
+ActStop=Stopio
+ActPrevious=Blaenorol
+ActNext=Nesaf
+ActSeekForward=Chwilio Ymlaen (10e)
+ActSeekBackward=Chwilio Yn Ôl (10e)
+ActSeekForward5=Chwilio Ymlaen (1 mun)
+ActSeekBackward5=Chwilio Yn Ôl (1 mun)
+ActSpeedUp=Cyflymu
+ActSpeedDown=Arafu
+ActSpeedReset=Ailosod Cyflymder
+ActSetLoopA=Gosod Pwynt Dolen A
+ActSetLoopB=Gosod Pwynt Dolen B
+ActClearLoop=Clirio Dolen A-B
+ActFrameForward=Ffrâm Ymlaen
+ActFrameBackward=Ffrâm Yn Ôl
+ActPrevChapter=Pennod Flaenorol
+ActNextChapter=Pennod Nesaf
+ActGotoTime=Mynd i Amser
+ActVolumeUp=Sain i Fyny
+ActVolumeDown=Sain i Lawr
+ActMute=Tawelu / Dad-dawelu
+ActAudioDelayPlus=Oedi Sain +
+ActAudioDelayMinus=Oedi Sain -
+ActAudioDelayReset=Ailosod Oedi Sain
+ActFullscreen=Sgrin Lawn
+ActRotate=Cylchdroi Fideo
+ActDeinterlace=Dad-rynglinio
+ActZoomIn=Chwyddo i Mewn
+ActZoomOut=Chwyddo Allan
+ActZoomReset=Ailosod Chwyddo
+ActAlwaysOnTop=Bob Amser ar y Brig
+ActFitToVideo=Ffitio i'r Fideo
+ActScreenshot=Sgrinlun
+ActVideoAdjust=Addasiadau Fideo
+ActVisNextMode=Modd Delweddiad Nesaf
+ActVisNextColor=Cynllun Lliw Nesaf
+ActSubDelayPlus=Oedi Isdeitl +
+ActSubDelayMinus=Oedi Isdeitl -
+ActSubDelayReset=Ailosod Oedi Isdeitl
+ActDVDMenu=Dewislen DVD
+ActDVDUp=Llywio DVD i Fyny
+ActDVDDown=Llywio DVD i Lawr
+ActDVDLeft=Llywio DVD i'r Chwith
+ActDVDRight=Llywio DVD i'r Dde
+ActDVDSelect=Dewis DVD
+ActOpenFile=Agor Ffeil
+ActOpenURL=Agor URL
+ActPlaylist=Dangos Rhestr Chwarae
+ActQuit=Gadael
+
+[Log]
+; Cam 25: Ffenestr Log
+Title=Log MPV
+Command=Gorchymyn:
+Clear=Clirio
+Save=Cadw...
+Copy=&Copïo
+SelectAll=Dewis &Pob
+SaveTitle=Cadw Log
+SaveFilter=Ffeiliau testun (*.txt)|*.txt|Pob ffeil (*.*)|*.*
+ErrorTitle=Gwall
+SaveError=Methwyd â chadw log: %s
+
+[MediaInfo]
+Title=Gwybodaeth Cyfryngau
+FileTab=Ffeil
+VideoTab=Fideo
+AudioTab=Sain
+MetadataTab=Metadata
+FileName=Enw Ffeil:
+FilePath=Llwybr:
+FileSize=Maint:
+Duration=Hyd:
+Format=Fformat:
+Bitrate=Cyfradd Bit:
+Codec=Codec:
+Resolution=Cydraniad:
+FrameRate=Cyfradd Ffrâm:
+PixelFormat=Fformat Picsel:
+AspectRatio=Cymhareb Agwedd:
+Channels=Sianeli:
+SampleRate=Cyfradd Samplu:
+Language=Iaith:
+Property=Priodwedd
+Value=Gwerth
+CopyAll=Copïo Pob
+CopiedToClipboard=Gwybodaeth cyfryngau wedi'i chopïo i'r clipfwrdd.
+NA=D/B
+NAStream=D/B (ffrwd)
+NALive=D/B (byw)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (Amgylchynol 5.1)
+Channel71=8 (Amgylchynol 7.1)
+Unknown=Anhysbys
+NoMetadata=(Dim metadata)
+
+[Bookmarks]
+Title=Nodau Tudalen
+Goto=Mynd i
+Remove=Dileu
+Clear=Clirio Pob
+Refresh=Adnewyddu
+OpenFolder=Agor Ffolder
+CopyPath=Copïo Llwybr
+; Colofnau
+ColName=Enw
+ColFile=Ffeil
+ColPosition=Safle
+ColCreated=Wedi'i Greu
+; Deialogau
+ClearTitle=Clirio Nodau Tudalen
+ClearConfirm=Ydych chi'n siŵr eich bod am glirio pob nod tudalen?
+Count=%d nod tudalen
+
+[Favorites]
+Title=Ffefrynnau
+Play=Chwarae
+Remove=Dileu
+Clear=Clirio Pob
+Refresh=Adnewyddu
+OpenFolder=Agor Ffolder
+CopyPath=Copïo Llwybr
+; Colofnau
+ColName=Enw
+ColType=Math
+ColPath=Llwybr
+; Mathau
+TypeFile=Ffeil
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Anhysbys
+; Deialogau
+ClearTitle=Clirio Ffefrynnau
+ClearConfirm=Ydych chi'n siŵr eich bod am glirio pob ffefryn?
+Count=%d ffefryn
+
+[History]
+Title=Hanes Chwarae
+Play=Chwarae
+Remove=Dileu
+Clear=Clirio Pob
+Refresh=Adnewyddu
+OpenFolder=Agor Ffolder
+CopyPath=Copïo Llwybr
+; Colofnau
+ColFileName=Ffeil
+ColPath=Llwybr
+; Deialogau
+ClearTitle=Clirio Hanes
+ClearConfirm=Ydych chi'n siŵr eich bod am glirio'r holl hanes?
+Count=%d eitem
+
+[SleepTimer]
+Title=Amserydd Cysgu
+Description=Gosod amserydd i stopio chwarae'n awtomatig
+Hours=Oriau:
+Minutes=Munudau:
+Action=Pan fydd yr amserydd yn dod i ben:
+StopPlayback=Stopio chwarae
+CloseApp=Cau'r rhaglen
+Shutdown=Cau'r cyfrifiadur
+QuickSet=Gosod cyflym:
+15Min=15 mun
+30Min=30 mun
+1Hour=1 awr
+2Hours=2 awr
+
+[Radios]
+Title=Radios Rhyngrwyd
+Play=Chwarae
+Add=Ychwanegu
+Edit=Golygu
+Delete=Dileu
+Remove=Dileu
+Import=Mewnforio
+Export=Allforio
+Refresh=Adnewyddu
+Favorite=Ffefryn
+ShowFavorites=Ffefrynnau
+ShowAll=Pob un
+; Hidl
+Genre=Genre:
+Search=Chwilio:
+SearchBtn=Chwilio
+ClearSearch=Clirio
+AllGenres=(Pob Genre)
+; Dewislen cyd-destun
+AddFavorite=Ychwanegu at Ffefrynnau
+RemoveFavorite=Dileu o Ffefrynnau
+AddCustom=Ychwanegu Gorsaf Bersonol...
+EditCustom=Golygu Gorsaf...
+DeleteCustom=Dileu Gorsaf
+OpenWebsite=Agor Gwefan
+CopyURL=Copïo URL
+; Colofnau
+ColName=Enw
+ColGenre=Genre
+ColBitrate=Cyfradd Bit
+ColCountry=Gwlad
+ColCodec=Codec
+; Deialogau
+AddTitle=Ychwanegu Gorsaf Bersonol
+EditTitle=Golygu Gorsaf
+DeleteTitle=Dileu Gorsaf
+DeleteConfirm=Ydych chi'n siŵr eich bod am ddileu'r orsaf hon?
+StationName=Enw'r Orsaf:
+StreamURL=URL Ffrwd:
+GenrePrompt=Genre:
+NameURLRequired=Mae angen enw ac URL.
+; Negeseuon statws
+LoadingIcecast=Yn llwytho gorsafoedd o gyfeirlyfr Icecast...
+IcecastError=Methu â llwytho cyfeirlyfr Icecast. Yn defnyddio gorsafoedd diofyn.
+NoStationsLoaded=Dim gorsafoedd wedi'u llwytho
+StationCount=%d gorsaf
+LoadedStations=Wedi llwytho %d gorsaf
+ErrorPrefix=Gwall:
+; Allweddi etifeddol
+Name=Enw
+URL=URL
+Bitrate=Cyfradd Bit
+Description=Disgrifiad
+Country=Gwlad
+
+[OpenURL]
+Title=Agor URL
+Prompt=Rhowch URL cyfryngau:
+
+[GotoTime]
+Title=Mynd i Amser
+EnterTime=Rhowch amser i neidio iddo:
+Hours=A
+Minutes=M
+Seconds=E
+Current=Cyfredol:
+Duration=Hyd:
+
+[VideoAdjust]
+Title=Addasiadau Fideo
+Brightness=Disgleirdeb:
+Contrast=Cyferbyniad:
+Saturation=Dirlawnder:
+Hue=Arlliw:
+Gamma=Gama:
+ResetAll=Ailosod Pob Lliw
+
+[CLI]
+; Negeseuon llinell orchymyn
+Usage=Defnydd
+Arguments=[DEWISIADAU] [FFEIL|URL|FFOLDER]
+Description=Chwaraewr amlgyfrwng traws-blatfform gan ddefnyddio cefndir libmpv.
+Options=DEWISIADAU
+Examples=ENGHREIFFTIAU
+MoreInfo=Am fwy o wybodaeth, ewch i
+EnqueuedTo=Ychwanegwyd at yr enghraifft bresennol: %s
+SentTo=Anfonwyd at yr enghraifft bresennol: %s
+AlreadyRunning=Mae 3nity Media eisoes yn rhedeg.
+ErrorFileNotFound=Gwall: Ni chanfuwyd y ffeil na'r ffolder: %s
+ErrorSubNotFound=Gwall: Ni chanfuwyd y ffeil isdeitlau: %s

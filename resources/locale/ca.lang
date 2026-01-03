@@ -1,0 +1,892 @@
+[Language]
+Name=Catalan - Català
+Code=ca
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menu Fitxer
+File=&Fitxer
+FileOpen=&Obrir fitxer...
+FileOpenURL=Obrir &URL...
+FileOpenClipboard=Obrir des del &Porta-retalls
+FileRecent=Fitxers &recents
+ClearRecentFiles=Esborrar fitxers recents
+FileExit=&Sortir
+
+; Menu Reproduccio
+Playback=&Reproduccio
+PlaybackPlayPause=&Reproduir/Pausa
+PlaybackStop=&Aturar
+PlaybackPrevious=&Anterior
+PlaybackNext=&Seguent
+PlaybackSeekForward=Avancar &endavant
+PlaybackSeekBackward=Retrocedir en&rere
+PlaybackSpeed=&Velocitat
+PlaybackABLoop=Bucle A-&B
+PlaybackSetA=Establir &A
+PlaybackSetB=Establir &B
+PlaybackClearAB=&Esborrar A-B
+PlaybackChapters=&Capitols
+PlaybackPrevChapter=Capitol anterior
+PlaybackNextChapter=Capitol seguent
+PlaybackFrameStep=Fotograma &endavant
+PlaybackFrameBack=Fotograma en&rere
+
+; Navegacio DVD
+PlaybackDVD=&Navegacio DVD
+DVDMenu=&Menu
+DVDUp=A&munt
+DVDDown=A&vall
+DVDLeft=&Esquerra
+DVDRight=&Dreta
+DVDSelect=&Seleccionar
+PlaybackDVDTitles=&Titols DVD
+
+; Fase 21: Obrir carpeta
+FileOpenFolder=Obrir car&peta...
+
+; Menu Fitxer DVD/Bluray
+FileOpenDVD=Obrir &DVD...
+FileOpenBluray=Obrir &Blu-ray...
+
+; Fase 13: Anar al temps i Historial
+PlaybackGotoTime=&Anar al temps...
+ToolsHistory=&Historial
+
+; Fase 14: Safata del sistema
+TrayShow=&Mostrar/Amagar
+TrayPlayPause=&Reproduir/Pausa
+TrayStop=&Aturar
+TrayPrevious=&Anterior
+TrayNext=&Seguent
+TrayMute=&Silenciar
+TrayExit=&Sortir
+
+; Fase 15: Marcadors
+PlaybackAddBookmark=Afegir &marcador...
+PlaybackBookmarks=&Marcadors
+BookmarksTitle=Marcadors
+BookmarksGoto=&Anar al marcador
+BookmarksRemove=&Eliminar marcador
+BookmarksClear=&Esborrar tots els marcadors
+BookmarksOpenFolder=Obrir &carpeta
+BookmarksCopyPath=&Copiar ruta
+BookmarksCount=%d marcadors
+NoBookmarks=(Sense marcadors)
+NoFileLoaded=(Cap fitxer carregat)
+BookmarkAdded=Marcador afegit a %s
+BookmarkJumped=Saltat al marcador a %s
+AddBookmarkTitle=Afegir marcador
+AddBookmarkPrompt=Introduiu el nom del marcador:
+ShowAllBookmarks=Mostrar tots els marcadors...
+
+; Fase 16: Favorits
+ToolsFavorites=&Favorits
+ToolsAddFavorite=Afegir a favo&rits
+FavoritesTitle=Favorits
+FavoritesPlay=&Reproduir
+FavoritesRemove=&Eliminar dels favorits
+FavoritesClear=&Esborrar tots els favorits
+FavoritesOpenFolder=Obrir &carpeta
+FavoritesCopyPath=&Copiar ruta
+FavoritesCount=%d favorits
+NoFavorites=(Sense favorits)
+AddFavoriteTitle=Afegir als favorits
+AddFavoritePrompt=Introduiu el nom del favorit:
+AlreadyFavorite=Ja es als favorits
+AddedToFavorites=Afegit als favorits: %s
+NoFileToFavorite=Cap fitxer carregat per afegir als favorits
+FavoriteTypeFile=Fitxer
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Cadenes de format de pista
+TrackWithTitle=Pista %d: %s
+TrackWithLang=Pista %d (%s)
+TrackNumber=Pista %d
+
+; Elements del menu de velocitat
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Elements del menu d'escala
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Pista de subtitols
+SubtitleDisable=Desactivar
+
+; Fase 17: Temporitzador de son
+ToolsSleepTimer=&Temporitzador de son...
+ToolsSleepTimerActive=&Temporitzador de son [%s]
+ToolsCancelTimer=Cancel·lar &temporitzador
+
+; Menu Audio
+Audio=&Audio
+AudioTrack=&Pista d'audio
+AudioVolumeUp=&Pujar volum
+AudioVolumeDown=&Baixar volum
+AudioMute=&Silenciar
+AudioEqualizer=&Equalitzador
+AudioDelay=&Retard d'audio
+AudioDelayPlus=Retard +0.1s
+AudioDelayMinus=Retard -0.1s
+AudioDelayReset=Restablir retard
+AudioNormalize=&Normalitzar volum
+
+; Menu Video
+Video=&Video
+VideoFullscreen=Pantalla &completa
+VideoAspect=&Relacio d'aspecte
+VideoAspectAuto=&Automatic
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Captura de pantalla
+VideoScreenshotAs=Captura de pantalla &com a...
+VideoRotation=&Rotacio
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Voltejar
+VideoFlipH=Voltejar &horitzontalment
+VideoFlipV=Voltejar &verticalment
+VideoDeinterlace=&Desentrellacat
+VideoZoom=&Zoom
+VideoZoomIn=&Ampliar
+VideoZoomOut=&Reduir
+VideoZoomReset=&Restablir zoom
+VideoPan=&Desplacament
+VideoPanLeft=Desplacar a l'&esquerra
+VideoPanRight=Desplacar a la &dreta
+VideoPanUp=Desplacar a&munt
+VideoPanDown=Desplacar a&vall
+VideoPanReset=R&establir desplacament
+VideoTrack=&Pista de video
+VideoColors=&Ajustos de color
+VideoBrightness=&Brillantor
+VideoContrast=&Contrast
+VideoSaturation=&Saturacio
+VideoHue=&Tonalitat
+VideoGamma=&Gamma
+VideoColorsReset=Restablir &tots els colors
+VideoIncrease=Augmentar (+5)
+VideoDecrease=Disminuir (-5)
+VideoReset=Restablir
+VideoAdjustDialog=&Ajustos de video...
+
+; Menu Visualitzacio
+View=&Visualitzar
+ViewAlwaysOnTop=&Sempre al damunt
+ViewFitToVideo=&Ajustar finestra al video
+ViewScale=&Escala de finestra
+
+; Fase 26: Menu de visualitzacio
+ViewVisualization=&Visualitzacio
+VisNone=&Cap
+VisSpectrum=Analitzador d'&espectre
+VisWaveform=&Forma d'ona
+VisVector=&Vectorscopi
+VisVolume=&Mesurador VU
+VisNextMode=&Mode seguent
+VisNextColor=&Esquema de colors seguent
+
+; Menu Subtitols
+Subtitles=&Subtitols
+SubtitleTrack=&Pista de subtitols
+SubtitleLoad=&Carregar subtitols...
+SubtitleDelay=&Retard de subtitols
+SubtitleDelayPlus=Retard +0.1s
+SubtitleDelayMinus=Retard -0.1s
+SubtitleDelayReset=Restablir retard
+
+; Menu Eines
+Tools=&Eines
+ToolsPlaylist=&Llista de reproduccio
+ToolsRadios=&Radios
+ToolsShortcuts=&Dreceres de teclat...
+ToolsOptions=&Opcions
+
+; Fase 27: Menu d'enregistrament
+ToolsRecord=&Enregistrar flux...
+ToolsStopRecord=A&turar enregistrament
+ToolsRecording=&Enregistrament...
+
+; Menu Ajuda
+Help=A&juda
+HelpMediaInfo=&Informacio del mitja
+HelpLog=&Finestra de registre
+HelpAbout=&Quant a
+
+[Dialog]
+OpenFile=Obrir fitxer
+OpenURL=Obrir URL
+SaveScreenshot=Desar captura de pantalla
+LoadSubtitle=Carregar fitxer de subtitols
+EnterURL=Introduiu URL:
+ResumePlayback=Reprendre reproduccio
+ResumeFrom=Reprendre des de %s?
+ClearRecentFiles=Esborrar fitxers recents
+NoRecentFiles=(Sense fitxers recents)
+NoAudioTracks=(Sense pistes d'audio)
+NoVideoTracks=(Sense pistes de video)
+NoSubtitleTracks=(Sense pistes de subtitols)
+NoChapters=(Sense capitols)
+OpenDVD=Obrir DVD
+OpenBluray=Obrir Blu-ray
+OpenFolder=Obrir carpeta
+
+; Filtres de fitxers
+ScreenshotFilter=Imatge PNG|*.png|Imatge JPEG|*.jpg|Imatge WebP|*.webp
+DVDFilter=Carpeta DVD|*.;*.iso|Tots els fitxers (*.*)|*.*
+BlurayFilter=Carpeta Blu-ray|*.;*.iso|Tots els fitxers (*.*)|*.*
+NoDVD=(Cap DVD carregat)
+DVDTitle=Titol %d
+GotoTime=Anar al temps
+EnterTime=Introduiu el temps on saltar:
+Hours=Hores
+Minutes=Minuts
+Seconds=Segons
+Current=Actual:
+HistoryTitle=Historial de reproduccio
+HistoryItems=%d elements a l'historial
+HistoryPlay=&Reproduir
+HistoryRemove=&Eliminar de l'historial
+HistoryClear=&Esborrar tot l'historial
+HistoryOpenFolder=Obrir &carpeta
+HistoryCopyPath=&Copiar ruta
+ClearHistory=Esborrar historial
+ClearHistoryConfirm=Esteu segur que voleu esborrar tot l'historial?
+SleepTimerTitle=Temporitzador de son
+SleepTimerDescription=Estableix un temporitzador per aturar la reproduccio automaticament
+SleepTimerHours=Hores
+SleepTimerMinutes=Minuts
+SleepTimerQuickSet=Configuracio rapida
+SleepTimerAction=Quan expiri el temporitzador
+SleepTimerStopPlayback=Aturar reproduccio
+SleepTimerCloseApp=Tancar aplicacio
+SleepTimerShutdown=Apagar l'ordinador
+SleepTimerStart=Iniciar temporitzador
+
+[Status]
+Ready=Preparat
+Opening=Obrint...
+Playing=Reproduint
+Paused=En pausa
+Stopped=Aturat
+Error=Error
+Buffering=Emmagatzemant...
+Seeking=Cercant...
+Recording=Enregistrant
+
+[Message]
+SpeedFormat=Velocitat: %.2fx
+VolumeFormat=Volum: %d%%
+BrightnessFormat=Brillantor: %d
+ContrastFormat=Contrast: %d
+SaturationFormat=Saturacio: %d
+HueFormat=Tonalitat: %d
+GammaFormat=Gamma: %d
+ColorsReset=Colors de video restablerts
+LoopASet=Punt A del bucle establert a %s
+LoopBSet=Punt B del bucle establert a %s - Bucle actiu
+LoopCleared=Bucle A-B esborrat
+SetAFirst=Establiu primer el punt A (premeu L)
+RotationFormat=Rotacio: %d°
+FlipHOn=Volteig horitzontal: ACTIVAT
+FlipHOff=Volteig horitzontal: DESACTIVAT
+FlipVOn=Volteig vertical: ACTIVAT
+FlipVOff=Volteig vertical: DESACTIVAT
+DeinterlaceOn=Desentrellacat: ACTIVAT
+DeinterlaceOff=Desentrellacat: DESACTIVAT
+AlwaysOnTopOn=Sempre al damunt: ACTIVAT
+AlwaysOnTopOff=Sempre al damunt: DESACTIVAT
+WindowFitted=Finestra ajustada a %dx%d
+WindowScale=Escala de finestra: %.0f%%
+ScreenshotSaved=Captura de pantalla desada: %s
+AudioNormalizeOn=Normalitzacio d'audio: ACTIVAT
+AudioNormalizeOff=Normalitzacio d'audio: DESACTIVAT
+AudioDelayFormat=Retard d'audio: %.1f s
+SubtitleDelayFormat=Retard de subtitols: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Desplacament: Centre
+PanFormat=Desplacament: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Cap video carregat
+PlayingFromClipboard=Reproduint des del porta-retalls: %s
+ClipboardInvalid=El porta-retalls no conte una URL o ruta valida
+ClipboardEmpty=El porta-retalls es buit o no conte text
+ResumedAt=Reprès a %s
+FrameStepForward=Fotograma endavant
+FrameStepBackward=Fotograma enrere
+PreviousChapter=Capitol anterior
+NextChapter=Capitol seguent
+PlayingRadio=Reproduint radio: %s
+PlayingDVD=Reproduint DVD: %s
+PlayingBluray=Reproduint Blu-ray: %s
+DVDTitlePlaying=Titol DVD %d
+SeekTo=Cercant a %s
+MinimizedToTray=Minimitzat a la safata. Feu doble clic per restaurar.
+SleepTimerSet=Temporitzador de son establert: %s
+SleepTimerCancelled=Temporitzador de son cancel·lat
+SleepTimerWarning=Temporitzador de son: 1 minut restant
+SleepTimerFinal=Temporitzador de son: 10 segons restants
+SleepTimerStopped=Temporitzador de son: Reproduccio aturada
+SleepTimerClosing=Temporitzador de son: Tancant aplicacio
+SleepTimerShutdown=Temporitzador de son: Apagant l'ordinador
+SleepTimerExpired=Temporitzador de son expirat
+ShutdownManual=Si us plau, apagueu l'ordinador manualment.
+
+; Fase 21: Obrir carpeta
+FolderOpened=Carpeta oberta: %d fitxers
+NoMediaFound=No s'han trobat fitxers multimedia
+FilesAdded=Afegits %d fitxers a la llista de reproduccio
+
+; Fase 27: Missatges d'enregistrament
+RecordNeedPlayback=Inicieu la reproduccio abans d'enregistrar.
+RecordingStarted=Enregistrament iniciat
+RecordingStopped=Enregistrament aturat
+
+; Missatges d'estat addicionals
+EndOfPlaylist=Fi de la llista de reproduccio
+NoMediaLoaded=No hi ha cap fitxer multimedia carregat.
+JumpedToNamed=Saltat a: %s
+ChapterFormat=Capitol %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Marcador a %s
+
+[Label]
+Muted=Silenciat
+
+[Button]
+Play=Reproduir
+Pause=Pausa
+Stop=Aturar
+Previous=Anterior
+Next=Seguent
+Mute=Silenciar
+Unmute=Activar so
+Fullscreen=Pantalla completa
+OK=D'acord
+Cancel=Cancel·lar
+Apply=Aplicar
+Close=Tancar
+Yes=Si
+No=No
+
+[Tooltip]
+Play=Reproduir/Pausa
+Stop=Aturar reproduccio
+Previous=Pista anterior
+Next=Pista seguent
+Mute=Commutar silenci
+Volume=Volum
+Seek=Posicio de cerca
+Fullscreen=Commutar pantalla completa
+
+[Playlist]
+Title=Llista de reproduccio
+Add=Afegir
+Remove=Eliminar
+Clear=Esborrar
+MoveUp=Moure amunt
+MoveDown=Moure avall
+Shuffle=Aleatori
+Repeat=Repetir
+Play=Reproduir
+ShuffleOn=Aleatori: Activat
+ShuffleOff=Aleatori: Desactivat
+RepeatOff=Repetir: Desactivat
+RepeatOne=Repetir: Un
+RepeatAll=Repetir: Tots
+SavePlaylist=Desar
+LoadPlaylist=Carregar
+TotalDuration=Total: %s
+ItemCount=%d elements
+
+; Fase 22: Millores de la llista de reproduccio
+Search=Cercar:
+FilterPlaceholder=Filtrar llista de reproduccio...
+ClearSearch=Esborrar
+FilterCount=%d/%d
+RemoveDuplicates=Eliminar &duplicats
+Properties=&Propietats...
+NoDuplicates=No s'han trobat duplicats.
+DuplicatesFound=S'han trobat %d duplicat(s). Voleu eliminar-los?
+RemoveDuplicatesTitle=Eliminar duplicats
+PropertiesTitle=Propietats de la llista de reproduccio
+PropTotalItems=Total d'elements: %d
+PropTotalDuration=Durada total: %s
+PropPlayed=Reproduits: %d
+PropUnplayed=No reproduits: %d
+PropTotalSize=Mida total: %.2f MB
+PropShuffle=Aleatori: %s
+PropRepeat=Repetir: %s
+On=Activat
+Off=Desactivat
+
+; Noves claus per ApplyLocale
+ClearTitle=Esborrar llista de reproduccio
+ClearConfirm=Esteu segur que voleu esborrar la llista de reproduccio?
+NoPlaylist=Sense llista de reproduccio
+StatusFormat=%d elements | Total: %s
+RepeatOne=Rep. 1
+RepeatAll=Rep. Tots
+HintRepeatEnable=Cliqueu per activar Repetir tots
+HintRepeatOne=Repetir un - Cliqueu per desactivar
+HintRepeatAll=Repetir tots - Cliqueu per Repetir un
+HintShuffleRepeat=Aleatori + Repetir tots - Cliqueu per desactivar repetir
+RemoveDuplicatesTitle=Eliminar duplicats
+NoDuplicates=No s'han trobat duplicats.
+SelectAll=Seleccionar tot
+SelectNone=No seleccionar res
+SelectInvert=Invertir seleccio
+Sort=Ordenar
+SortByName=Per nom
+SortByTitle=Per titol
+SortByArtist=Per artista
+SortByDuration=Per durada
+SortReverse=Invertir
+SortRandom=Aleatoritzar
+ColTitle=Titol
+ColDuration=Durada
+ColArtist=Artista
+ColAlbum=Album
+PlaylistFilter=Llista M3U|*.m3u|Llista M3U8|*.m3u8|Llista PLS|*.pls
+
+[Equalizer]
+Title=Equalitzador
+Presets=Preconfigurats:
+Preamp=Preamplificador:
+Flat=Pla
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Classica
+BassBoost=Reforc de greus
+TrebleBoost=Reforc d'aguts
+Vocal=Vocal
+Reset=Restablir
+Enable=Activar equalitzador
+Save=Desar
+Delete=Eliminar
+Ready=Preparat
+; Botons i accions
+SavePreset=Desar preconfiguracio
+DeletePreset=Eliminar preconfiguracio
+SavePresetTitle=Desar preconfiguracio
+PresetNamePrompt=Nom de la preconfiguracio:
+EnterPresetName=Si us plau, introduiu un nom de preconfiguracio.
+OverwritePresetTitle=Sobreescriure preconfiguracio
+OverwritePresetConfirm=Ja existeix una preconfiguracio amb aquest nom. Voleu sobreescriure-la?
+PresetUpdated=Preconfiguracio actualitzada: %s
+PresetSaved=Preconfiguracio desada: %s
+SelectPresetToDelete=Si us plau, seleccioneu una preconfiguracio per eliminar.
+CannotDeleteDefault=No es poden eliminar les preconfiguracions per defecte.
+DeletePresetTitle=Eliminar preconfiguracio
+DeletePresetConfirm=Esteu segur que voleu eliminar aquesta preconfiguracio?
+PresetDeleted=Preconfiguracio eliminada
+ResetToFlat=Equalitzador restablert a pla
+PresetApplied=Preconfiguracio aplicada: %s
+
+[Options]
+Title=Opcions
+General=General
+Video=Video
+Audio=Audio
+Subtitles=Subtitols
+Cache=Memoria cau
+Language=Idioma:
+RestartRequired=Cal reiniciar per aplicar els canvis
+
+; Pestanya General - Comportament
+Behavior=Comportament
+SingleInstance=Permetre nomes una instancia
+AutoPlay=Reproduir automaticament en obrir
+AutoResume=Reprendre posicio de reproduccio
+MinimizeToTray=Minimitzar a la safata del sistema
+AutoSavePlaylist=Desar llista de reproduccio en sortir
+
+; Pestanya General - OSD
+OSD=Visualitzacio en pantalla
+ShowOSD=Mostrar missatges en pantalla
+ShowTrayIcon=Mostrar icona a la safata
+OSDDuration=Durada OSD (ms):
+
+; Pestanya General - Captures de pantalla
+Screenshots=Captures de pantalla
+ScreenshotPath=Carpeta de desti:
+ScreenshotFormat=Format:
+
+; Pestanya General - Historial
+HistorySettings=Historial
+HistoryEnabled=Activar historial de reproduccio
+HistoryMaxItems=Maxim d'elements:
+
+; Pestanya General - Idioma
+LanguageGroup=Idioma
+RestartNote=(Cal reiniciar per aplicar els canvis)
+
+; Pestanya Video
+VideoAdjust=Ajustos de video
+Brightness=Brillantor:
+Contrast=Contrast:
+Saturation=Saturacio:
+Hue=Tonalitat:
+Gamma=Gamma:
+VideoOutput=Sortida de video
+Output=Sortida:
+HWAccel=Activar acceleracio per maquinari
+Deinterlacing=Desentrellacat
+Mode=Mode:
+
+; Pestanya Audio
+AudioOutput=Sortida d'audio
+OutputDriver=Controlador de sortida:
+Device=Dispositiu:
+AudioOptions=Opcions d'audio
+NormalizeAudio=Normalitzar volum d'audio
+Channels=Canals:
+
+; Pestanya Subtitols
+UseDefaultSubtitles=Utilitzar configuracio de subtitols per defecte
+Font=Tipografia
+FontName=Tipografia:
+FontSize=Mida:
+FontColor=Color:
+Bold=Negreta
+Italic=Cursiva
+Outline=Contorn
+OutlineColor=Color:
+OutlineSize=Mida:
+Position=Posicio
+VerticalPosition=Posicio vertical:
+SubOptions=Opcions
+Encoding=Codificacio:
+AutoLoadSubs=Carregar automaticament fitxers de subtitols
+
+; Avisos de sortida de video
+VOWarningX11=Avís: x11 no suporta ajustos de video (brillantor, contrast, etc.)
+VOWarningWayland=Avís: Requereix una sessio Wayland. Suporta ajustos de video.
+
+; Pestanya Memoria cau
+CacheSettings=Mides de memoria intermedia (KB)
+CacheDefault=Memoria cau per defecte:
+CacheLocal=Fitxers locals:
+CacheNetwork=Fitxers de xarxa:
+CacheInternet=Fluxos d'Internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Quant a
+Version=Versio
+Engine=Motor
+Technology=Tecnologia
+BuildInfo=Informacio de compilacio
+SystemInfo=Sistema
+Credits=Credits
+Developer=Desenvolupador:
+Author=Autor
+License=Llicencia
+Website=Lloc web
+GitHub=GitHub
+Description=Un reproductor multimedia modern i lleuger
+LicenseText=3nity Media te llicencia GPL-2.0\n\nAixo significa que teniu llibertat per:\n  - Utilitzar el programari per a qualsevol proposit\n  - Estudiar i modificar el codi font\n  - Distribuir copies del programari\n  - Distribuir les vostres modificacions\n\nAmb la condicio que qualsevol modificacio distribuida\ntambé tingui llicencia GPL-2.0.
+BuildDate=Data:
+Target=Objectiu:
+Kernel=Nucli:
+
+[Shortcuts]
+Title=Dreceres de teclat
+Description=Configurar dreceres de teclat per a les accions
+Search=Cercar:
+PressKey=Premeu una tecla...
+ColCategory=Categoria
+ColAction=Accio
+ColShortcut=Drecera
+Assign=Assignar
+Clear=Esborrar
+Reset=Restablir
+ResetAll=Restablir tot
+CurrentShortcut=Actual: %s
+NoKeyPressed=Si us plau, premeu primer una combinacio de tecles.
+Conflict=Conflicte: Ja assignat a "%s"
+ConfirmReplace=Substituir drecera
+ReplaceMessage=Aquesta drecera ja esta assignada a "%s". Voleu substituir-la?
+ConfirmResetAll=Restablir totes les dreceres
+ResetAllMessage=Esteu segur que voleu restablir totes les dreceres als valors per defecte?
+; Noms de les accions
+ActPlayPause=Reproduir / Pausa
+ActStop=Aturar
+ActPrevious=Anterior
+ActNext=Seguent
+ActSeekForward=Avancar (10s)
+ActSeekBackward=Retrocedir (10s)
+ActSeekForward5=Avancar (1 min)
+ActSeekBackward5=Retrocedir (1 min)
+ActSpeedUp=Augmentar velocitat
+ActSpeedDown=Disminuir velocitat
+ActSpeedReset=Restablir velocitat
+ActSetLoopA=Establir punt A del bucle
+ActSetLoopB=Establir punt B del bucle
+ActClearLoop=Esborrar bucle A-B
+ActFrameForward=Fotograma endavant
+ActFrameBackward=Fotograma enrere
+ActPrevChapter=Capitol anterior
+ActNextChapter=Capitol seguent
+ActGotoTime=Anar al temps
+ActVolumeUp=Pujar volum
+ActVolumeDown=Baixar volum
+ActMute=Silenciar / Activar so
+ActAudioDelayPlus=Retard d'audio +
+ActAudioDelayMinus=Retard d'audio -
+ActAudioDelayReset=Restablir retard d'audio
+ActFullscreen=Pantalla completa
+ActRotate=Rotar video
+ActDeinterlace=Desentrellacar
+ActZoomIn=Ampliar
+ActZoomOut=Reduir
+ActZoomReset=Restablir zoom
+ActAlwaysOnTop=Sempre al damunt
+ActFitToVideo=Ajustar al video
+ActScreenshot=Captura de pantalla
+ActVideoAdjust=Ajustos de video
+ActVisNextMode=Mode de visualitzacio seguent
+ActVisNextColor=Esquema de colors seguent
+ActSubDelayPlus=Retard de subtitols +
+ActSubDelayMinus=Retard de subtitols -
+ActSubDelayReset=Restablir retard de subtitols
+ActDVDMenu=Menu DVD
+ActDVDUp=Navegar amunt DVD
+ActDVDDown=Navegar avall DVD
+ActDVDLeft=Navegar esquerra DVD
+ActDVDRight=Navegar dreta DVD
+ActDVDSelect=Seleccionar DVD
+ActOpenFile=Obrir fitxer
+ActOpenURL=Obrir URL
+ActPlaylist=Mostrar llista de reproduccio
+ActQuit=Sortir
+
+[Log]
+; Fase 25: Finestra de registre
+Title=Registre MPV
+Command=Comanda:
+Clear=Esborrar
+Save=Desar...
+Copy=&Copiar
+SelectAll=Seleccionar &tot
+SaveTitle=Desar registre
+SaveFilter=Fitxers de text (*.txt)|*.txt|Tots els fitxers (*.*)|*.*
+ErrorTitle=Error
+SaveError=No s'ha pogut desar el registre: %s
+
+[MediaInfo]
+Title=Informacio del mitja
+FileTab=Fitxer
+VideoTab=Video
+AudioTab=Audio
+MetadataTab=Metadades
+FileName=Nom del fitxer:
+FilePath=Ruta:
+FileSize=Mida:
+Duration=Durada:
+Format=Format:
+Bitrate=Taxa de bits:
+Codec=Codec:
+Resolution=Resolucio:
+FrameRate=Velocitat de fotogrames:
+PixelFormat=Format de pixels:
+AspectRatio=Relacio d'aspecte:
+Channels=Canals:
+SampleRate=Freqüencia de mostreig:
+Language=Idioma:
+Property=Propietat
+Value=Valor
+CopyAll=Copiar tot
+CopiedToClipboard=Informacio del mitja copiada al porta-retalls.
+NA=N/D
+NAStream=N/D (flux)
+NALive=N/D (en directe)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Estereo)
+Channel51=6 (Envoltant 5.1)
+Channel71=8 (Envoltant 7.1)
+Unknown=Desconegut
+NoMetadata=(Sense metadades)
+
+[Bookmarks]
+Title=Marcadors
+Goto=Anar a
+Remove=Eliminar
+Clear=Esborrar tot
+Refresh=Actualitzar
+OpenFolder=Obrir carpeta
+CopyPath=Copiar ruta
+; Columnes
+ColName=Nom
+ColFile=Fitxer
+ColPosition=Posicio
+ColCreated=Creat
+; Dialegs
+ClearTitle=Esborrar marcadors
+ClearConfirm=Esteu segur que voleu esborrar tots els marcadors?
+Count=%d marcador(s)
+
+[Favorites]
+Title=Favorits
+Play=Reproduir
+Remove=Eliminar
+Clear=Esborrar tot
+Refresh=Actualitzar
+OpenFolder=Obrir carpeta
+CopyPath=Copiar ruta
+; Columnes
+ColName=Nom
+ColType=Tipus
+ColPath=Ruta
+; Tipus
+TypeFile=Fitxer
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Desconegut
+; Dialegs
+ClearTitle=Esborrar favorits
+ClearConfirm=Esteu segur que voleu esborrar tots els favorits?
+Count=%d favorit(s)
+
+[History]
+Title=Historial de reproduccio
+Play=Reproduir
+Remove=Eliminar
+Clear=Esborrar tot
+Refresh=Actualitzar
+OpenFolder=Obrir carpeta
+CopyPath=Copiar ruta
+; Columnes
+ColFileName=Fitxer
+ColPath=Ruta
+; Dialegs
+ClearTitle=Esborrar historial
+ClearConfirm=Esteu segur que voleu esborrar tot l'historial?
+Count=%d element(s)
+
+[SleepTimer]
+Title=Temporitzador de son
+Description=Estableix un temporitzador per aturar la reproduccio automaticament
+Hours=Hores:
+Minutes=Minuts:
+Action=Quan expiri el temporitzador:
+StopPlayback=Aturar reproduccio
+CloseApp=Tancar aplicacio
+Shutdown=Apagar l'ordinador
+QuickSet=Configuracio rapida:
+15Min=15 min
+30Min=30 min
+1Hour=1 hora
+2Hours=2 hores
+
+[Radios]
+Title=Radios d'Internet
+Play=Reproduir
+Add=Afegir
+Edit=Editar
+Delete=Eliminar
+Remove=Eliminar
+Import=Importar
+Export=Exportar
+Refresh=Actualitzar
+Favorite=Favorit
+ShowFavorites=Favorits
+ShowAll=Tots
+; Filtre
+Genre=Genere:
+Search=Cercar:
+SearchBtn=Cercar
+ClearSearch=Esborrar
+AllGenres=(Tots els generes)
+; Menu contextual
+AddFavorite=Afegir als favorits
+RemoveFavorite=Eliminar dels favorits
+AddCustom=Afegir emissora personalitzada...
+EditCustom=Editar emissora...
+DeleteCustom=Eliminar emissora
+OpenWebsite=Obrir lloc web
+CopyURL=Copiar URL
+; Columnes
+ColName=Nom
+ColGenre=Genere
+ColBitrate=Taxa de bits
+ColCountry=Pais
+ColCodec=Codec
+; Dialegs
+AddTitle=Afegir emissora personalitzada
+EditTitle=Editar emissora
+DeleteTitle=Eliminar emissora
+DeleteConfirm=Esteu segur que voleu eliminar aquesta emissora?
+StationName=Nom de l'emissora:
+StreamURL=URL del flux:
+GenrePrompt=Genere:
+NameURLRequired=El nom i la URL son obligatoris.
+; Missatges d'estat
+LoadingIcecast=Carregant emissores del directori Icecast...
+IcecastError=No s'ha pogut carregar el directori Icecast. Utilitzant emissores per defecte.
+NoStationsLoaded=Cap emissora carregada
+StationCount=%d emissores
+LoadedStations=Carregades %d emissores
+ErrorPrefix=Error:
+; Claus heretades
+Name=Nom
+URL=URL
+Bitrate=Taxa de bits
+Description=Descripcio
+Country=Pais
+
+[OpenURL]
+Title=Obrir URL
+Prompt=Introduiu URL del mitja:
+
+[GotoTime]
+Title=Anar al temps
+EnterTime=Introduiu el temps on saltar:
+Hours=H
+Minutes=M
+Seconds=S
+Current=Actual:
+Duration=Durada:
+
+[VideoAdjust]
+Title=Ajustos de video
+Brightness=Brillantor:
+Contrast=Contrast:
+Saturation=Saturacio:
+Hue=Tonalitat:
+Gamma=Gamma:
+ResetAll=Restablir tots els colors
+
+[CLI]
+; Missatges de línia d'ordres
+Usage=Ús
+Arguments=[OPCIONS] [FITXER|URL|CARPETA]
+Description=Reproductor multimèdia multiplataforma amb backend libmpv.
+Options=OPCIONS
+Examples=EXEMPLES
+MoreInfo=Per a més informació, visiteu
+EnqueuedTo=Afegit a la instància existent: %s
+SentTo=Enviat a la instància existent: %s
+AlreadyRunning=3nity Media ja s'està executant.
+ErrorFileNotFound=Error: No s'ha trobat el fitxer o la carpeta: %s
+ErrorSubNotFound=Error: No s'ha trobat el fitxer de subtítols: %s

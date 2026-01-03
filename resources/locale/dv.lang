@@ -1,0 +1,892 @@
+[Language]
+Name=Dhivehi - ދިވެހި
+Code=dv
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&ފައިލް
+FileOpen=&ފައިލް ހުޅުވާ...
+FileOpenURL=&URL ހުޅުވާ...
+FileOpenClipboard=&ކްލިޕްބޯޑުން ހުޅުވާ
+FileRecent=&ފަހުގެ ފައިލްތައް
+ClearRecentFiles=ފަހުގެ ފައިލްތައް ފޮހެލާ
+FileExit=&ނިކުމެ
+
+; Playback menu
+Playback=&ޕްލޭބެކް
+PlaybackPlayPause=&ޕްލޭ/ޕޯޒް
+PlaybackStop=&ހުއްޓާ
+PlaybackPrevious=&ކުރީގެ
+PlaybackNext=&ދެން
+PlaybackSeekForward=ކުރިއަށް &ޖެހިލާ
+PlaybackSeekBackward=ފަހަތަށް &ޖެހިލާ
+PlaybackSpeed=&ސްޕީޑް
+PlaybackABLoop=A-&B ލޫޕް
+PlaybackSetA=&A ސެޓް ކުރޭ
+PlaybackSetB=&B ސެޓް ކުރޭ
+PlaybackClearAB=A-B &ސާފުކުރޭ
+PlaybackChapters=&ޗެޕްޓަރުތައް
+PlaybackPrevChapter=ކުރީގެ ޗެޕްޓަރު
+PlaybackNextChapter=ދެން ޗެޕްޓަރު
+PlaybackFrameStep=ފްރޭމް ކުރިއަށް &ދޭ
+PlaybackFrameBack=ފްރޭމް ފަހަތަށް &ދޭ
+
+; DVD Navigation
+PlaybackDVD=DVD &ނެވިގޭޝަން
+DVDMenu=&މެނޫ
+DVDUp=&މައްޗަށް
+DVDDown=&ތިރިއަށް
+DVDLeft=&ވާތަށް
+DVDRight=&ކަނާތަށް
+DVDSelect=&ހޮވާ
+PlaybackDVDTitles=DVD &ޓައިޓަލްތައް
+
+; Phase 21: Open Folder
+FileOpenFolder=&ފޯލްޑަރު ހުޅުވާ...
+
+; File menu DVD/Bluray
+FileOpenDVD=&DVD ހުޅުވާ...
+FileOpenBluray=&Blu-ray ހުޅުވާ...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&ވަގުތަށް ދޭ...
+ToolsHistory=&ތާރީޚް
+
+; Phase 14: System Tray
+TrayShow=&ދައްކާ/ފޮރުވާ
+TrayPlayPause=&ޕްލޭ/ޕޯޒް
+TrayStop=&ހުއްޓާ
+TrayPrevious=&ކުރީގެ
+TrayNext=&ދެން
+TrayMute=&މިއުޓް
+TrayExit=&ނިކުމެ
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=&ބުކްމާކް އިތުރުކުރޭ...
+PlaybackBookmarks=ބުކް&މާކްތައް
+BookmarksTitle=ބުކްމާކްތައް
+BookmarksGoto=ބުކްމާކަށް &ދޭ
+BookmarksRemove=ބުކްމާކް &ނަގާ
+BookmarksClear=ހުރިހާ ބުކްމާކް &ސާފުކުރޭ
+BookmarksOpenFolder=&ފޯލްޑަރު ހުޅުވާ
+BookmarksCopyPath=ޕާތް &ކޮޕީކުރޭ
+BookmarksCount=%d ބުކްމާކް
+NoBookmarks=(ބުކްމާކް ނެތް)
+NoFileLoaded=(ފައިލް ލޯޑް ނުކުރެވޭ)
+BookmarkAdded=%s ގައި ބުކްމާކް އިތުރުވެއްޖެ
+BookmarkJumped=%s ގައި ބުކްމާކަށް ދިޔައީ
+AddBookmarkTitle=ބުކްމާކް އިތުރުކުރޭ
+AddBookmarkPrompt=ބުކްމާކް ނަން ލިޔޭ:
+ShowAllBookmarks=ހުރިހާ ބުކްމާކް ދައްކާ...
+
+; Phase 16: Favorites
+ToolsFavorites=&ފެވަރިޓް
+ToolsAddFavorite=ފެވަރިޓަށް &އިތުރުކުރޭ
+FavoritesTitle=ފެވަރިޓް
+FavoritesPlay=&ޕްލޭ
+FavoritesRemove=ފެވަރިޓުން &ނަގާ
+FavoritesClear=ހުރިހާ ފެވަރިޓް &ސާފުކުރޭ
+FavoritesOpenFolder=&ފޯލްޑަރު ހުޅުވާ
+FavoritesCopyPath=ޕާތް &ކޮޕީކުރޭ
+FavoritesCount=%d ފެވަރިޓް
+NoFavorites=(ފެވަރިޓް ނެތް)
+AddFavoriteTitle=ފެވަރިޓަށް އިތުރުކުރޭ
+AddFavoritePrompt=ފެވަރިޓް ނަން ލިޔޭ:
+AlreadyFavorite=މިހާރުވެސް ފެވަރިޓްގައި
+AddedToFavorites=ފެވަރިޓަށް އިތުރުވެއްޖެ: %s
+NoFileToFavorite=ފެވަރިޓަށް އިތުރުކުރަން ފައިލް ލޯޑް ނުކުރެވޭ
+FavoriteTypeFile=ފައިލް
+FavoriteTypeURL=URL
+FavoriteTypeRadio=ރޭޑިއޯ
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=ޓްރެކް %d: %s
+TrackWithLang=ޓްރެކް %d (%s)
+TrackNumber=ޓްރެކް %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=ނިއްވާ
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&ސްލީޕް ޓައިމަރު...
+ToolsSleepTimerActive=&ސްލީޕް ޓައިމަރު [%s]
+ToolsCancelTimer=ޓައިމަރު &ކެންސަލް
+
+; Audio menu
+Audio=&އޯޑިއޯ
+AudioTrack=އޯޑިއޯ &ޓްރެކް
+AudioVolumeUp=ވޮލިއުމް &އިތުރުކުރޭ
+AudioVolumeDown=ވޮލިއުމް &ދަށްކުރޭ
+AudioMute=&މިއުޓް
+AudioEqualizer=&އީކުއަލައިޒަރު
+AudioDelay=އޯޑިއޯ &ޑިލޭ
+AudioDelayPlus=ޑިލޭ +0.1s
+AudioDelayMinus=ޑިލޭ -0.1s
+AudioDelayReset=ޑިލޭ ރީސެޓް
+AudioNormalize=ވޮލިއުމް &ނޯމަލައިޒް
+
+; Video menu
+Video=&ވީޑިއޯ
+VideoFullscreen=&ފުލްސްކްރީން
+VideoAspect=&އެސްޕެކްޓް ރޭޝިއޯ
+VideoAspectAuto=&އޮޓޯ
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&ސްކްރީންޝޮޓް
+VideoScreenshotAs=ސްކްރީންޝޮޓް &ސޭވް...
+VideoRotation=&ރޮޓޭޓް
+VideoRotate0=&0° (ނޯމަލް)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&ފްލިޕް
+VideoFlipH=&ހޮރިޒޮންޓަލް ފްލިޕް
+VideoFlipV=&ވާޓިކަލް ފްލިޕް
+VideoDeinterlace=&ޑީއިންޓަލޭސް
+VideoZoom=&ޒޫމް
+VideoZoomIn=ޒޫމް &އިން
+VideoZoomOut=ޒޫމް &އައުޓް
+VideoZoomReset=ޒޫމް &ރީސެޓް
+VideoPan=&ޕޭން
+VideoPanLeft=&ވާތަށް ޕޭން
+VideoPanRight=&ކަނާތަށް ޕޭން
+VideoPanUp=&މައްޗަށް ޕޭން
+VideoPanDown=&ތިރިއަށް ޕޭން
+VideoPanReset=ޕޭން &ރީސެޓް
+VideoTrack=ވީޑިއޯ &ޓްރެކް
+VideoColors=ކުލަ &އެޖެސްޓް
+VideoBrightness=&ބްރައިޓްނެސް
+VideoContrast=&ކޮންޓްރާސްޓް
+VideoSaturation=&ސެޗުރޭޝަން
+VideoHue=&ހިއު
+VideoGamma=&ގެމާ
+VideoColorsReset=ހުރިހާ ކުލަ &ރީސެޓް
+VideoIncrease=އިތުރުކުރޭ (+5)
+VideoDecrease=ދަށްކުރޭ (-5)
+VideoReset=ރީސެޓް
+VideoAdjustDialog=ވީޑިއޯ &އެޖެސްޓް...
+
+; View menu
+View=&ވިއު
+ViewAlwaysOnTop=&އަބަދުވެސް މައްޗަށް
+ViewFitToVideo=ވިންޑޯ &ވީޑިއޯއަށް ފިޓް
+ViewScale=ވިންޑޯ &ސްކޭލް
+
+; Phase 26: Visualization menu
+ViewVisualization=&ވިޝުއަލައިޒޭޝަން
+VisNone=&ނެތް
+VisSpectrum=&ސްޕެކްޓްރަމް އެނަލައިޒަރު
+VisWaveform=&ވޭވްފޯމް
+VisVector=&ވެކްޓަރު ސްކޯޕް
+VisVolume=&VU މީޓަރު
+VisNextMode=ދެން &މޯޑް
+VisNextColor=ދެން &ކުލަ ސްކީމް
+
+; Subtitles menu
+Subtitles=&ސަބްޓައިޓަލް
+SubtitleTrack=ސަބްޓައިޓަލް &ޓްރެކް
+SubtitleLoad=ސަބްޓައިޓަލް &ލޯޑް...
+SubtitleDelay=ސަބްޓައިޓަލް &ޑިލޭ
+SubtitleDelayPlus=ޑިލޭ +0.1s
+SubtitleDelayMinus=ޑިލޭ -0.1s
+SubtitleDelayReset=ޑިލޭ ރީސެޓް
+
+; Tools menu
+Tools=&ޓޫލްސް
+ToolsPlaylist=&ޕްލޭލިސްޓް
+ToolsRadios=&ރޭޑިއޯ
+ToolsShortcuts=&ކީބޯޑް ޝޯޓްކަޓް...
+ToolsOptions=&އޮޕްޝަންސް
+
+; Phase 27: Recording menu
+ToolsRecord=&ސްޓްރީމް ރެކޯޑް...
+ToolsStopRecord=ރެކޯޑް &ހުއްޓާ
+ToolsRecording=&ރެކޯޑް ކުރަނީ...
+
+; Help menu
+Help=&ހެލްޕް
+HelpMediaInfo=&މީޑިއާ އިންފޯ
+HelpLog=&ލޮގް ވިންޑޯ
+HelpAbout=&އެބައުޓް
+
+[Dialog]
+OpenFile=ފައިލް ހުޅުވާ
+OpenURL=URL ހުޅުވާ
+SaveScreenshot=ސްކްރީންޝޮޓް ސޭވް ކުރޭ
+LoadSubtitle=ސަބްޓައިޓަލް ފައިލް ލޯޑް ކުރޭ
+EnterURL=URL ލިޔޭ:
+ResumePlayback=ޕްލޭބެކް ރީޒިއުމް ކުރޭ
+ResumeFrom=%s އިން ރީޒިއުމް ކުރަންތަ?
+ClearRecentFiles=ފަހުގެ ފައިލްތައް ސާފުކުރޭ
+NoRecentFiles=(ފަހުގެ ފައިލެއް ނެތް)
+NoAudioTracks=(އޯޑިއޯ ޓްރެކް ނެތް)
+NoVideoTracks=(ވީޑިއޯ ޓްރެކް ނެތް)
+NoSubtitleTracks=(ސަބްޓައިޓަލް ޓްރެކް ނެތް)
+NoChapters=(ޗެޕްޓަރު ނެތް)
+OpenDVD=DVD ހުޅުވާ
+OpenBluray=Blu-ray ހުޅުވާ
+OpenFolder=ފޯލްޑަރު ހުޅުވާ
+
+; File filters
+ScreenshotFilter=PNG ތަސްވީރު|*.png|JPEG ތަސްވީރު|*.jpg|WebP ތަސްވީރު|*.webp
+DVDFilter=DVD ފޯލްޑަރު|*.;*.iso|ހުރިހާ ފައިލް (*.*)|*.*
+BlurayFilter=Blu-ray ފޯލްޑަރު|*.;*.iso|ހުރިހާ ފައިލް (*.*)|*.*
+NoDVD=(DVD ލޯޑް ނުކުރެވޭ)
+DVDTitle=ޓައިޓަލް %d
+GotoTime=ވަގުތަށް ދޭ
+EnterTime=ދާން ވަގުތު ލިޔޭ:
+Hours=ގަޑި
+Minutes=މިނެޓް
+Seconds=ސިކުންތު
+Current=މިހާރު:
+HistoryTitle=ޕްލޭބެކް ތާރީޚް
+HistoryItems=ތާރީޚުގައި %d އައިޓަމް
+HistoryPlay=&ޕްލޭ
+HistoryRemove=ތާރީޚުން &ނަގާ
+HistoryClear=ހުރިހާ ތާރީޚް &ސާފުކުރޭ
+HistoryOpenFolder=&ފޯލްޑަރު ހުޅުވާ
+HistoryCopyPath=ޕާތް &ކޮޕީކުރޭ
+ClearHistory=ތާރީޚް ސާފުކުރޭ
+ClearHistoryConfirm=ހުރިހާ ތާރީޚް ސާފުކުރަން ޔަގީންތަ?
+SleepTimerTitle=ސްލީޕް ޓައިމަރު
+SleepTimerDescription=ޕްލޭބެކް އޮޓޯ ހުއްޓުވަން ޓައިމަރު ސެޓް ކުރޭ
+SleepTimerHours=ގަޑި
+SleepTimerMinutes=މިނެޓް
+SleepTimerQuickSet=ކުއިކް ސެޓް
+SleepTimerAction=ޓައިމަރު ނިމުނީމަ
+SleepTimerStopPlayback=ޕްލޭބެކް ހުއްޓާ
+SleepTimerCloseApp=އެޕް ބަންދުކުރޭ
+SleepTimerShutdown=ކޮމްޕިއުޓަރު ނިއްވާ
+SleepTimerStart=ޓައިމަރު ފަށާ
+
+[Status]
+Ready=ތައްޔާރު
+Opening=ހުޅުވަނީ...
+Playing=ޕްލޭ ކުރަނީ
+Paused=ޕޯޒް ކޮށްފައި
+Stopped=ހުއްޓާފައި
+Error=އެރަރު
+Buffering=ބަފަރު ކުރަނީ...
+Seeking=ސީކް ކުރަނީ...
+Recording=ރެކޯޑް ކުރަނީ
+
+[Message]
+SpeedFormat=ސްޕީޑް: %.2fx
+VolumeFormat=ވޮލިއުމް: %d%%
+BrightnessFormat=ބްރައިޓްނެސް: %d
+ContrastFormat=ކޮންޓްރާސްޓް: %d
+SaturationFormat=ސެޗުރޭޝަން: %d
+HueFormat=ހިއު: %d
+GammaFormat=ގެމާ: %d
+ColorsReset=ވީޑިއޯ ކުލަ ރީސެޓް ވެއްޖެ
+LoopASet=A ލޫޕް %s ގައި ސެޓް ވެއްޖެ
+LoopBSet=B ލޫޕް %s ގައި ސެޓް ވެއްޖެ - ލޫޕް އެކްޓިވް
+LoopCleared=A-B ލޫޕް ސާފުވެއްޖެ
+SetAFirst=ފުރަތަމަ A ޕޮއިންޓް ސެޓް ކުރޭ (L ފިއްތާ)
+RotationFormat=ރޮޓޭޝަން: %d°
+FlipHOn=ހޮރިޒޮންޓަލް ފްލިޕް: އޮން
+FlipHOff=ހޮރިޒޮންޓަލް ފްލިޕް: އޮފް
+FlipVOn=ވާޓިކަލް ފްލިޕް: އޮން
+FlipVOff=ވާޓިކަލް ފްލިޕް: އޮފް
+DeinterlaceOn=ޑީއިންޓަލޭސް: އޮން
+DeinterlaceOff=ޑީއިންޓަލޭސް: އޮފް
+AlwaysOnTopOn=އަބަދުވެސް މައްޗަށް: އޮން
+AlwaysOnTopOff=އަބަދުވެސް މައްޗަށް: އޮފް
+WindowFitted=ވިންޑޯ %dx%d އަށް ފިޓް ވެއްޖެ
+WindowScale=ވިންޑޯ ސްކޭލް: %.0f%%
+ScreenshotSaved=ސްކްރީންޝޮޓް ސޭވް ވެއްޖެ: %s
+AudioNormalizeOn=އޯޑިއޯ ނޯމަލައިޒޭޝަން: އޮން
+AudioNormalizeOff=އޯޑިއޯ ނޯމަލައިޒޭޝަން: އޮފް
+AudioDelayFormat=އޯޑިއޯ ޑިލޭ: %.1f s
+SubtitleDelayFormat=ސަބްޓައިޓަލް ޑިލޭ: %.1f s
+ZoomFormat=ޒޫމް: %.0f%%
+PanCenter=ޕޭން: ސެންޓަރު
+PanFormat=ޕޭން: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=ވީޑިއޯ ލޯޑް ނުކުރެވޭ
+PlayingFromClipboard=ކްލިޕްބޯޑުން ޕްލޭ ކުރަނީ: %s
+ClipboardInvalid=ކްލިޕްބޯޑުގައި ވެލިޑް URL ނޫނީ ޕާތެއް ނެތް
+ClipboardEmpty=ކްލިޕްބޯޑު ހުސް ނޫނީ ޓެކްސްޓެއް ނެތް
+ResumedAt=%s އިން ރީޒިއުމް ވެއްޖެ
+FrameStepForward=ފްރޭމް ކުރިއަށް
+FrameStepBackward=ފްރޭމް ފަހަތަށް
+PreviousChapter=ކުރީގެ ޗެޕްޓަރު
+NextChapter=ދެން ޗެޕްޓަރު
+PlayingRadio=ރޭޑިއޯ ޕްލޭ ކުރަނީ: %s
+PlayingDVD=DVD ޕްލޭ ކުރަނީ: %s
+PlayingBluray=Blu-ray ޕްލޭ ކުރަނީ: %s
+DVDTitlePlaying=DVD ޓައިޓަލް %d
+SeekTo=%s އަށް ސީކް ކުރަނީ
+MinimizedToTray=ޓްރޭއަށް މިނިމައިޒް ވެއްޖެ. ރީސްޓޯ ކުރަން ޑަބަލް-ކްލިކް ކުރޭ.
+SleepTimerSet=ސްލީޕް ޓައިމަރު ސެޓް ވެއްޖެ: %s
+SleepTimerCancelled=ސްލީޕް ޓައިމަރު ކެންސަލް ވެއްޖެ
+SleepTimerWarning=ސްލީޕް ޓައިމަރު: 1 މިނެޓް ބާކީ
+SleepTimerFinal=ސްލީޕް ޓައިމަރު: 10 ސިކުންތު ބާކީ
+SleepTimerStopped=ސްލީޕް ޓައިމަރު: ޕްލޭބެކް ހުއްޓިއްޖެ
+SleepTimerClosing=ސްލީޕް ޓައިމަރު: އެޕް ބަންދުވަނީ
+SleepTimerShutdown=ސްލީޕް ޓައިމަރު: ކޮމްޕިއުޓަރު ނިވެނީ
+SleepTimerExpired=ސްލީޕް ޓައިމަރު ނިމިއްޖެ
+ShutdownManual=ކޮމްޕިއުޓަރު މެނުއަލީ ނިއްވާ.
+
+; Phase 21: Open Folder
+FolderOpened=ފޯލްޑަރު ހުޅުވިއްޖެ: %d ފައިލް
+NoMediaFound=މީޑިއާ ފައިލެއް ނުފެނުނު
+FilesAdded=ޕްލޭލިސްޓަށް %d ފައިލް އިތުރުވެއްޖެ
+
+; Phase 27: Recording messages
+RecordNeedPlayback=ރެކޯޑް ކުރުމުގެ ކުރިން ޕްލޭބެކް ފަށާ.
+RecordingStarted=ރެކޯޑް ފެށިއްޖެ
+RecordingStopped=ރެކޯޑް ހުއްޓިއްޖެ
+
+; Additional status messages
+EndOfPlaylist=ޕްލޭލިސްޓް ނިމިއްޖެ
+NoMediaLoaded=މީޑިއާ ފައިލެއް ލޯޑް ނުކުރެވޭ.
+JumpedToNamed=ޖަމްޕް ވެއްޖެ: %s
+ChapterFormat=ޗެޕްޓަރު %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%s ގައި ބުކްމާކް
+
+[Label]
+Muted=މިއުޓް ކޮށްފައި
+
+[Button]
+Play=ޕްލޭ
+Pause=ޕޯޒް
+Stop=ހުއްޓާ
+Previous=ކުރީގެ
+Next=ދެން
+Mute=މިއުޓް
+Unmute=އަންމިއުޓް
+Fullscreen=ފުލްސްކްރީން
+OK=އޯކޭ
+Cancel=ކެންސަލް
+Apply=އެޕްލައި
+Close=ބަންދުކުރޭ
+Yes=އާނ
+No=ނޫނެ
+
+[Tooltip]
+Play=ޕްލޭ/ޕޯޒް
+Stop=ޕްލޭބެކް ހުއްޓާ
+Previous=ކުރީގެ ޓްރެކް
+Next=ދެން ޓްރެކް
+Mute=މިއުޓް ޓޮގަލް
+Volume=ވޮލިއުމް
+Seek=ސީކް ޕޮޒިޝަން
+Fullscreen=ފުލްސްކްރީން ޓޮގަލް
+
+[Playlist]
+Title=ޕްލޭލިސްޓް
+Add=އިތުރުކުރޭ
+Remove=ނަގާ
+Clear=ސާފުކުރޭ
+MoveUp=މައްޗަށް ގެންދޭ
+MoveDown=ތިރިއަށް ގެންދޭ
+Shuffle=ޝަފަލް
+Repeat=ރިޕީޓް
+Play=ޕްލޭ
+ShuffleOn=ޝަފަލް: އޮން
+ShuffleOff=ޝަފަލް: އޮފް
+RepeatOff=ރިޕީޓް: އޮފް
+RepeatOne=ރިޕީޓް: އެކެއް
+RepeatAll=ރިޕީޓް: ހުރިހާ
+SavePlaylist=ސޭވް
+LoadPlaylist=ލޯޑް
+TotalDuration=ޖުމްލަ: %s
+ItemCount=%d އައިޓަމް
+
+; Phase 22: Playlist Enhancements
+Search=ހޯދާ:
+FilterPlaceholder=ޕްލޭލިސްޓް ފިލްޓަރު...
+ClearSearch=ސާފުކުރޭ
+FilterCount=%d/%d
+RemoveDuplicates=&ޑުޕްލިކޭޓް ނަގާ
+Properties=&ޕްރޮޕަޓީސް...
+NoDuplicates=ޑުޕްލިކޭޓް ނުފެނުނު.
+DuplicatesFound=%d ޑުޕްލިކޭޓް ފެނިއްޖެ. ނަގަންތަ?
+RemoveDuplicatesTitle=ޑުޕްލިކޭޓް ނަގާ
+PropertiesTitle=ޕްލޭލިސްޓް ޕްރޮޕަޓީސް
+PropTotalItems=ޖުމްލަ އައިޓަމް: %d
+PropTotalDuration=ޖުމްލަ ވަގުތު: %s
+PropPlayed=ޕްލޭ ކޮށްފައި: %d
+PropUnplayed=ޕްލޭ ނުކުރޭ: %d
+PropTotalSize=ޖުމްލަ ސައިޒް: %.2f MB
+PropShuffle=ޝަފަލް: %s
+PropRepeat=ރިޕީޓް: %s
+On=އޮން
+Off=އޮފް
+
+; New keys for ApplyLocale
+ClearTitle=ޕްލޭލިސްޓް ސާފުކުރޭ
+ClearConfirm=ޕްލޭލިސްޓް ސާފުކުރަން ޔަގީންތަ?
+NoPlaylist=ޕްލޭލިސްޓެއް ނެތް
+StatusFormat=%d އައިޓަމް | ޖުމްލަ: %s
+RepeatOne=ރިޕ. 1
+RepeatAll=ރިޕ. ހުރިހާ
+HintRepeatEnable=ހުރިހާ ރިޕީޓް އޮން ކުރަން ކްލިކް ކުރޭ
+HintRepeatOne=އެކެއް ރިޕީޓް - އޮފް ކުރަން ކްލިކް ކުރޭ
+HintRepeatAll=ހުރިހާ ރިޕީޓް - އެކެއް ރިޕީޓަށް ކްލިކް ކުރޭ
+HintShuffleRepeat=ޝަފަލް + ހުރިހާ ރިޕީޓް - ރިޕީޓް އޮފް ކުރަން ކްލިކް ކުރޭ
+RemoveDuplicatesTitle=ޑުޕްލިކޭޓް ނަގާ
+NoDuplicates=ޑުޕްލިކޭޓް ނުފެނުނު.
+SelectAll=ހުރިހާ ސެލެކްޓް
+SelectNone=އެއްވެސް އެއްޗެއް ސެލެކްޓް ނުކުރޭ
+SelectInvert=ސެލެކްޝަން އިންވާޓް
+Sort=ސޯޓް
+SortByName=ނަމުން
+SortByTitle=ޓައިޓަލުން
+SortByArtist=އާޓިސްޓުން
+SortByDuration=ވަގުތުން
+SortReverse=ރިވާސް
+SortRandom=ރެންޑަމް
+ColTitle=ޓައިޓަލް
+ColDuration=ވަގުތު
+ColArtist=އާޓިސްޓް
+ColAlbum=އެލްބަމް
+PlaylistFilter=M3U ޕްލޭލިސްޓް|*.m3u|M3U8 ޕްލޭލިސްޓް|*.m3u8|PLS ޕްލޭލިސްޓް|*.pls
+
+[Equalizer]
+Title=އީކުއަލައިޒަރު
+Presets=ޕްރީސެޓް:
+Preamp=ޕްރީއެމްޕް:
+Flat=ފްލެޓް
+Rock=ރޮކް
+Pop=ޕޮޕް
+Jazz=ޖެޒް
+Classical=ކްލެސިކަލް
+BassBoost=ބޭސް ބޫސްޓް
+TrebleBoost=ޓްރެބަލް ބޫސްޓް
+Vocal=ވޯކަލް
+Reset=ރީސެޓް
+Enable=އީކުއަލައިޒަރު އޮން
+Save=ސޭވް
+Delete=ޑިލީޓް
+Ready=ތައްޔާރު
+; Buttons and actions
+SavePreset=ޕްރީސެޓް ސޭވް
+DeletePreset=ޕްރީސެޓް ޑިލީޓް
+SavePresetTitle=ޕްރީސެޓް ސޭވް
+PresetNamePrompt=ޕްރީސެޓް ނަން:
+EnterPresetName=ޕްރީސެޓް ނަން ލިޔޭ.
+OverwritePresetTitle=ޕްރީސެޓް އޯވަރައިޓް
+OverwritePresetConfirm=މި ނަން ޕްރީސެޓެއް މިހާރުވެސް އެބައޮތް. އޯވަރައިޓް ކުރަންތަ?
+PresetUpdated=ޕްރީސެޓް އަޕްޑޭޓް ވެއްޖެ: %s
+PresetSaved=ޕްރީސެޓް ސޭވް ވެއްޖެ: %s
+SelectPresetToDelete=ޑިލީޓް ކުރަން ޕްރީސެޓެއް ހޮވާ.
+CannotDeleteDefault=ޑީފޯލްޓް ޕްރީސެޓް ޑިލީޓް ނުކުރެވޭ.
+DeletePresetTitle=ޕްރީސެޓް ޑިލީޓް
+DeletePresetConfirm=މި ޕްރީސެޓް ޑިލީޓް ކުރަން ޔަގީންތަ?
+PresetDeleted=ޕްރީސެޓް ޑިލީޓް ވެއްޖެ
+ResetToFlat=އީކުއަލައިޒަރު ފްލެޓަށް ރީސެޓް ވެއްޖެ
+PresetApplied=ޕްރީސެޓް އެޕްލައި ވެއްޖެ: %s
+
+[Options]
+Title=އޮޕްޝަންސް
+General=ޖެނެރަލް
+Video=ވީޑިއޯ
+Audio=އޯޑިއޯ
+Subtitles=ސަބްޓައިޓަލް
+Cache=ކެޝް
+Language=ބަސް:
+RestartRequired=ބަދަލުތައް ހިނގަން ރީސްޓާޓް ކުރަން ޖެހޭ
+
+; General tab - Behavior
+Behavior=ބިހޭވިއަރު
+SingleInstance=އެންމެ އިންސްޓެންސެއް
+AutoPlay=ހުޅުވީމަ އޮޓޯ ޕްލޭ
+AutoResume=ޕްލޭބެކް ޕޮޒިޝަން ރީސްޓޯ
+MinimizeToTray=ސިސްޓަމް ޓްރޭއަށް މިނިމައިޒް
+AutoSavePlaylist=ނިކުމެވީމަ ޕްލޭލިސްޓް ސޭވް
+
+; General tab - OSD
+OSD=އޮން-ސްކްރީން ޑިސްޕްލޭ
+ShowOSD=އޮން-ސްކްރީން މެސެޖް ދައްކާ
+ShowTrayIcon=ޓްރޭ އައިކޮން ދައްކާ
+OSDDuration=OSD ވަގުތު (ms):
+
+; General tab - Screenshots
+Screenshots=ސްކްރީންޝޮޓް
+ScreenshotPath=ސޭވް ފޯލްޑަރު:
+ScreenshotFormat=ފޯމެޓް:
+
+; General tab - History
+HistorySettings=ތާރީޚް
+HistoryEnabled=ޕްލޭބެކް ތާރީޚް އޮން
+HistoryMaxItems=އެންމެ ގިނަ އައިޓަމް:
+
+; General tab - Language
+LanguageGroup=ބަސް
+RestartNote=(ބަދަލުތަކަށް ރީސްޓާޓް ކުރަން ޖެހޭ)
+
+; Video tab
+VideoAdjust=ވީޑިއޯ އެޖެސްޓް
+Brightness=ބްރައިޓްނެސް:
+Contrast=ކޮންޓްރާސްޓް:
+Saturation=ސެޗުރޭޝަން:
+Hue=ހިއު:
+Gamma=ގެމާ:
+VideoOutput=ވީޑިއޯ އައުޓްޕުޓް
+Output=އައުޓްޕުޓް:
+HWAccel=ހާޑްވެއަރު އެކްސެލެރޭޝަން އޮން
+Deinterlacing=ޑީއިންޓަލޭސިންގް
+Mode=މޯޑް:
+
+; Audio tab
+AudioOutput=އޯޑިއޯ އައުޓްޕުޓް
+OutputDriver=އައުޓްޕުޓް ޑްރައިވަރު:
+Device=ޑިވައިސް:
+AudioOptions=އޯޑިއޯ އޮޕްޝަންސް
+NormalizeAudio=އޯޑިއޯ ވޮލިއުމް ނޯމަލައިޒް
+Channels=ޗެނަލް:
+
+; Subtitles tab
+UseDefaultSubtitles=ޑީފޯލްޓް ސަބްޓައިޓަލް ސެޓިންގްސް ބޭނުންކުރޭ
+Font=ފޮންޓް
+FontName=ފޮންޓް:
+FontSize=ސައިޒް:
+FontColor=ކުލަ:
+Bold=ބޯލްޑް
+Italic=އިޓެލިކް
+Outline=އައުޓްލައިން
+OutlineColor=ކުލަ:
+OutlineSize=ސައިޒް:
+Position=ޕޮޒިޝަން
+VerticalPosition=ވާޓިކަލް ޕޮޒިޝަން:
+SubOptions=އޮޕްޝަންސް
+Encoding=އެންކޯޑިންގް:
+AutoLoadSubs=ސަބްޓައިޓަލް ފައިލް އޮޓޯ ލޯޑް
+
+; Video output warnings
+VOWarningX11=ވޯނިންގް: x11 ވީޑިއޯ އެޖެސްޓް (ބްރައިޓްނެސް، ކޮންޓްރާސްޓް ފަދަ) ސަޕޯޓް ނުކުރޭ
+VOWarningWayland=ވޯނިންގް: Wayland ސެޝަން ބޭނުން. ވީޑިއޯ އެޖެސްޓް ސަޕޯޓް ކުރޭ.
+
+; Cache tab
+CacheSettings=ކެޝް ބަފަރު ސައިޒް (KB)
+CacheDefault=ޑީފޯލްޓް ކެޝް:
+CacheLocal=ލޯކަލް ފައިލް:
+CacheNetwork=ނެޓްވާކް ފައިލް:
+CacheInternet=އިންޓަނެޓް ސްޓްރީމް:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=އެބައުޓް
+Version=ވާޝަން
+Engine=އެންޖީން
+Technology=ޓެކްނޮލޮޖީ
+BuildInfo=ބިލްޑް އިންފޯ
+SystemInfo=ސިސްޓަމް
+Credits=ކްރެޑިޓް
+Developer=ޑިވެލޮޕަރު:
+Author=އޯތަރު
+License=ލައިސެންސް
+Website=ވެބްސައިޓް
+GitHub=GitHub
+Description=ޒަމާނީ، ލައިޓް މީޑިއާ ޕްލެޔަރު
+LicenseText=3nity Media ލައިސެންސް GPL-2.0\n\nމިއިން ދޭހަވަނީ:\n  • ކޮންމެ ކަމަކަށް ސޮފްޓްވެއަރު ބޭނުންކުރެވޭ\n  • ސޯސް ކޯޑް ދިރާސާކޮށް ބަދަލުކުރެވޭ\n  • ސޮފްޓްވެއަރު ކޮޕީ ބެހެވޭ\n  • ބަދަލުތައް ބެހެވޭ\n\nބެހެވޭ ބަދަލުތައް ވެސް GPL-2.0 ދަށުން\nލައިސެންސް ހޯދަން ޖެހޭ ޝަރުތުގައި.
+BuildDate=ތާރީޚް:
+Target=ޓާގެޓް:
+Kernel=ކާނަލް:
+
+[Shortcuts]
+Title=ކީބޯޑް ޝޯޓްކަޓް
+Description=އެކްޝަންތަކަށް ކީބޯޑް ޝޯޓްކަޓް ކޮންފިގާ ކުރޭ
+Search=ހޯދާ:
+PressKey=ކީއެއް ފިއްތާ...
+ColCategory=ކެޓަގަރީ
+ColAction=އެކްޝަން
+ColShortcut=ޝޯޓްކަޓް
+Assign=އެސައިން
+Clear=ސާފުކުރޭ
+Reset=ރީސެޓް
+ResetAll=ހުރިހާ ރީސެޓް
+CurrentShortcut=މިހާރު: %s
+NoKeyPressed=ކީ ކޮމްބިނޭޝަނެއް ފިއްތާ.
+Conflict=ކޮންފްލިކްޓް: މިހާރުވެސް "%s" އަށް އެސައިން ކޮށްފައި
+ConfirmReplace=ޝޯޓްކަޓް ބަދަލުކުރޭ
+ReplaceMessage=މި ޝޯޓްކަޓް މިހާރުވެސް "%s" އަށް އެސައިން ކޮށްފައި. ބަދަލުކުރަންތަ?
+ConfirmResetAll=ހުރިހާ ޝޯޓްކަޓް ރީސެޓް
+ResetAllMessage=ހުރިހާ ޝޯޓްކަޓް ޑީފޯލްޓަށް ރީސެޓް ކުރަން ޔަގީންތަ?
+; Action names
+ActPlayPause=ޕްލޭ / ޕޯޒް
+ActStop=ހުއްޓާ
+ActPrevious=ކުރީގެ
+ActNext=ދެން
+ActSeekForward=ކުރިއަށް ސީކް (10s)
+ActSeekBackward=ފަހަތަށް ސީކް (10s)
+ActSeekForward5=ކުރިއަށް ސީކް (1 min)
+ActSeekBackward5=ފަހަތަށް ސީކް (1 min)
+ActSpeedUp=ސްޕީޑް އިތުރުކުރޭ
+ActSpeedDown=ސްޕީޑް ދަށްކުރޭ
+ActSpeedReset=ސްޕީޑް ރީސެޓް
+ActSetLoopA=ލޫޕް ޕޮއިންޓް A ސެޓް
+ActSetLoopB=ލޫޕް ޕޮއިންޓް B ސެޓް
+ActClearLoop=A-B ލޫޕް ސާފުކުރޭ
+ActFrameForward=ފްރޭމް ކުރިއަށް
+ActFrameBackward=ފްރޭމް ފަހަތަށް
+ActPrevChapter=ކުރީގެ ޗެޕްޓަރު
+ActNextChapter=ދެން ޗެޕްޓަރު
+ActGotoTime=ވަގުތަށް ދޭ
+ActVolumeUp=ވޮލިއުމް އިތުރުކުރޭ
+ActVolumeDown=ވޮލިއުމް ދަށްކުރޭ
+ActMute=މިއުޓް / އަންމިއުޓް
+ActAudioDelayPlus=އޯޑިއޯ ޑިލޭ +
+ActAudioDelayMinus=އޯޑިއޯ ޑިލޭ -
+ActAudioDelayReset=އޯޑިއޯ ޑިލޭ ރީސެޓް
+ActFullscreen=ފުލްސްކްރީން
+ActRotate=ވީޑިއޯ ރޮޓޭޓް
+ActDeinterlace=ޑީއިންޓަލޭސް
+ActZoomIn=ޒޫމް އިން
+ActZoomOut=ޒޫމް އައުޓް
+ActZoomReset=ޒޫމް ރީސެޓް
+ActAlwaysOnTop=އަބަދުވެސް މައްޗަށް
+ActFitToVideo=ވީޑިއޯއަށް ފިޓް
+ActScreenshot=ސްކްރީންޝޮޓް
+ActVideoAdjust=ވީޑިއޯ އެޖެސްޓް
+ActVisNextMode=ދެން ވިޝުއަލައިޒޭޝަން މޯޑް
+ActVisNextColor=ދެން ކުލަ ސްކީމް
+ActSubDelayPlus=ސަބްޓައިޓަލް ޑިލޭ +
+ActSubDelayMinus=ސަބްޓައިޓަލް ޑިލޭ -
+ActSubDelayReset=ސަބްޓައިޓަލް ޑިލޭ ރީސެޓް
+ActDVDMenu=DVD މެނޫ
+ActDVDUp=DVD މައްޗަށް ނެވިގޭޓް
+ActDVDDown=DVD ތިރިއަށް ނެވިގޭޓް
+ActDVDLeft=DVD ވާތަށް ނެވިގޭޓް
+ActDVDRight=DVD ކަނާތަށް ނެވިގޭޓް
+ActDVDSelect=DVD ހޮވާ
+ActOpenFile=ފައިލް ހުޅުވާ
+ActOpenURL=URL ހުޅުވާ
+ActPlaylist=ޕްލޭލިސްޓް ދައްކާ
+ActQuit=ނިކުމެ
+
+[Log]
+; Phase 25: Log Window
+Title=MPV ލޮގް
+Command=ކޮމާންޑް:
+Clear=ސާފުކުރޭ
+Save=ސޭވް...
+Copy=&ކޮޕީ
+SelectAll=ހުރިހާ &ސެލެކްޓް
+SaveTitle=ލޮގް ސޭވް
+SaveFilter=ޓެކްސްޓް ފައިލް (*.txt)|*.txt|ހުރިހާ ފައިލް (*.*)|*.*
+ErrorTitle=އެރަރު
+SaveError=ލޮގް ސޭވް ނުކުރެވުނު: %s
+
+[MediaInfo]
+Title=މީޑިއާ އިންފޯ
+FileTab=ފައިލް
+VideoTab=ވީޑިއޯ
+AudioTab=އޯޑިއޯ
+MetadataTab=މެޓާޑޭޓާ
+FileName=ފައިލް ނަން:
+FilePath=ޕާތް:
+FileSize=ސައިޒް:
+Duration=ވަގުތު:
+Format=ފޯމެޓް:
+Bitrate=ބިޓްރޭޓް:
+Codec=ކޯޑެކް:
+Resolution=ރެޒޮލިއުޝަން:
+FrameRate=ފްރޭމް ރޭޓް:
+PixelFormat=ޕިކްސެލް ފޯމެޓް:
+AspectRatio=އެސްޕެކްޓް ރޭޝިއޯ:
+Channels=ޗެނަލް:
+SampleRate=ސެމްޕަލް ރޭޓް:
+Language=ބަސް:
+Property=ޕްރޮޕަޓީ
+Value=ވެލިއު
+CopyAll=ހުރިހާ ކޮޕީ
+CopiedToClipboard=މީޑިއާ އިންފޯ ކްލިޕްބޯޑަށް ކޮޕީ ވެއްޖެ.
+NA=ނެތް
+NAStream=ނެތް (ސްޓްރީމް)
+NALive=ނެތް (ލައިވް)
+ChannelMono=1 (މޮނޯ)
+ChannelStereo=2 (ސްޓީރިއޯ)
+Channel51=6 (5.1 ސަރައުންޑް)
+Channel71=8 (7.1 ސަރައުންޑް)
+Unknown=ނޭނގޭ
+NoMetadata=(މެޓާޑޭޓާ ނެތް)
+
+[Bookmarks]
+Title=ބުކްމާކް
+Goto=ދޭ
+Remove=ނަގާ
+Clear=ހުރިހާ ސާފުކުރޭ
+Refresh=ރީފްރެޝް
+OpenFolder=ފޯލްޑަރު ހުޅުވާ
+CopyPath=ޕާތް ކޮޕީ
+; Columns
+ColName=ނަން
+ColFile=ފައިލް
+ColPosition=ޕޮޒިޝަން
+ColCreated=ހެދި ތާރީޚް
+; Dialogs
+ClearTitle=ބުކްމާކް ސާފުކުރޭ
+ClearConfirm=ހުރިހާ ބުކްމާކް ސާފުކުރަން ޔަގީންތަ?
+Count=%d ބުކްމާކް
+
+[Favorites]
+Title=ފެވަރިޓް
+Play=ޕްލޭ
+Remove=ނަގާ
+Clear=ހުރިހާ ސާފުކުރޭ
+Refresh=ރީފްރެޝް
+OpenFolder=ފޯލްޑަރު ހުޅުވާ
+CopyPath=ޕާތް ކޮޕީ
+; Columns
+ColName=ނަން
+ColType=ޓައިޕް
+ColPath=ޕާތް
+; Types
+TypeFile=ފައިލް
+TypeURL=URL
+TypeRadio=ރޭޑިއޯ
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=ނޭނގޭ
+; Dialogs
+ClearTitle=ފެވަރިޓް ސާފުކުރޭ
+ClearConfirm=ހުރިހާ ފެވަރިޓް ސާފުކުރަން ޔަގީންތަ?
+Count=%d ފެވަރިޓް
+
+[History]
+Title=ޕްލޭބެކް ތާރީޚް
+Play=ޕްލޭ
+Remove=ނަގާ
+Clear=ހުރިހާ ސާފުކުރޭ
+Refresh=ރީފްރެޝް
+OpenFolder=ފޯލްޑަރު ހުޅުވާ
+CopyPath=ޕާތް ކޮޕީ
+; Columns
+ColFileName=ފައިލް
+ColPath=ޕާތް
+; Dialogs
+ClearTitle=ތާރީޚް ސާފުކުރޭ
+ClearConfirm=ހުރިހާ ތާރީޚް ސާފުކުރަން ޔަގީންތަ?
+Count=%d އައިޓަމް
+
+[SleepTimer]
+Title=ސްލީޕް ޓައިމަރު
+Description=ޕްލޭބެކް އޮޓޯ ހުއްޓުވަން ޓައިމަރު ސެޓް ކުރޭ
+Hours=ގަޑި:
+Minutes=މިނެޓް:
+Action=ޓައިމަރު ނިމުނީމަ:
+StopPlayback=ޕްލޭބެކް ހުއްޓާ
+CloseApp=އެޕް ބަންދުކުރޭ
+Shutdown=ކޮމްޕިއުޓަރު ނިއްވާ
+QuickSet=ކުއިކް ސެޓް:
+15Min=15 މިނެޓް
+30Min=30 މިނެޓް
+1Hour=1 ގަޑި
+2Hours=2 ގަޑި
+
+[Radios]
+Title=އިންޓަނެޓް ރޭޑިއޯ
+Play=ޕްލޭ
+Add=އިތުރުކުރޭ
+Edit=އެޑިޓް
+Delete=ޑިލީޓް
+Remove=ނަގާ
+Import=އިމްޕޯޓް
+Export=އެކްސްޕޯޓް
+Refresh=ރީފްރެޝް
+Favorite=ފެވަރިޓް
+ShowFavorites=ފެވަރިޓް
+ShowAll=ހުރިހާ
+; Filter
+Genre=ޖޯންރާ:
+Search=ހޯދާ:
+SearchBtn=ހޯދާ
+ClearSearch=ސާފުކުރޭ
+AllGenres=(ހުރިހާ ޖޯންރާ)
+; Context menu
+AddFavorite=ފެވަރިޓަށް އިތުރުކުރޭ
+RemoveFavorite=ފެވަރިޓުން ނަގާ
+AddCustom=ކަސްޓަމް ސްޓޭޝަން އިތުރުކުރޭ...
+EditCustom=ސްޓޭޝަން އެޑިޓް...
+DeleteCustom=ސްޓޭޝަން ޑިލީޓް
+OpenWebsite=ވެބްސައިޓް ހުޅުވާ
+CopyURL=URL ކޮޕީ
+; Columns
+ColName=ނަން
+ColGenre=ޖޯންރާ
+ColBitrate=ބިޓްރޭޓް
+ColCountry=ގައުމު
+ColCodec=ކޯޑެކް
+; Dialogs
+AddTitle=ކަސްޓަމް ސްޓޭޝަން އިތުރުކުރޭ
+EditTitle=ސްޓޭޝަން އެޑިޓް
+DeleteTitle=ސްޓޭޝަން ޑިލީޓް
+DeleteConfirm=މި ސްޓޭޝަން ޑިލީޓް ކުރަން ޔަގީންތަ?
+StationName=ސްޓޭޝަން ނަން:
+StreamURL=ސްޓްރީމް URL:
+GenrePrompt=ޖޯންރާ:
+NameURLRequired=ނަމާއި URL ބޭނުން.
+; Status messages
+LoadingIcecast=Icecast ޑައިރެކްޓަރީން ސްޓޭޝަން ލޯޑް ކުރަނީ...
+IcecastError=Icecast ޑައިރެކްޓަރީ ލޯޑް ނުކުރެވުނު. ޑީފޯލްޓް ސްޓޭޝަން ބޭނުންކުރަނީ.
+NoStationsLoaded=ސްޓޭޝަން ލޯޑް ނުކުރެވޭ
+StationCount=%d ސްޓޭޝަން
+LoadedStations=%d ސްޓޭޝަން ލޯޑް ވެއްޖެ
+ErrorPrefix=އެރަރު:
+; Legacy keys
+Name=ނަން
+URL=URL
+Bitrate=ބިޓްރޭޓް
+Description=ތަފްސީލް
+Country=ގައުމު
+
+[OpenURL]
+Title=URL ހުޅުވާ
+Prompt=މީޑިއާ URL ލިޔޭ:
+
+[GotoTime]
+Title=ވަގުތަށް ދޭ
+EnterTime=ދާން ވަގުތު ލިޔޭ:
+Hours=ގ
+Minutes=މ
+Seconds=ސ
+Current=މިހާރު:
+Duration=ވަގުތު:
+
+[VideoAdjust]
+Title=ވީޑިއޯ އެޖެސްޓް
+Brightness=ބްރައިޓްނެސް:
+Contrast=ކޮންޓްރާސްޓް:
+Saturation=ސެޗުރޭޝަން:
+Hue=ހިއު:
+Gamma=ގެމާ:
+ResetAll=ހުރިހާ ކުލަ ރީސެޓް
+
+[CLI]
+; ކޮމާންޑް ލައިން މެސެޖް
+Usage=ބޭނުންކުރުން
+Arguments=[އޮޕްޝަންތައް] [ފައިލް|URL|ފޯލްޑަރ]
+Description=libmpv ބެކެންޑް ބޭނުންކޮށް ކްރޮސް-ޕްލެޓްފޯމް މީޑިއާ ޕްލެޔަރ.
+Options=އޮޕްޝަންތައް
+Examples=މިސާލުތައް
+MoreInfo=އިތުރު މައުލޫމާތަށް ބައްލަވާ
+EnqueuedTo=މިހާރު ހުރި އިންސްޓެންސަށް އެޑް ކުރެވިއްޖެ: %s
+SentTo=މިހާރު ހުރި އިންސްޓެންސަށް ފޮނުވިއްޖެ: %s
+AlreadyRunning=3nity Media މިހާރު ރަން ވަމުންދޭ.
+ErrorFileNotFound=އެރަރ: ފައިލް ނުވަތަ ފޯލްޑަރ ނުފެނުނު: %s
+ErrorSubNotFound=އެރަރ: ސަބްޓައިޓަލް ފައިލް ނުފެނުނު: %s

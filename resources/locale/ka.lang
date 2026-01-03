@@ -1,0 +1,892 @@
+[Language]
+Name=Georgian - ქართული
+Code=ka
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; ფაილის მენიუ
+File=&ფაილი
+FileOpen=ფაილის &გახსნა...
+FileOpenURL=&URL-ის გახსნა...
+FileOpenClipboard=&ბუფერიდან გახსნა
+FileRecent=&ბოლო ფაილები
+ClearRecentFiles=ბოლო ფაილების გასუფთავება
+FileExit=&გასვლა
+
+; დაკვრის მენიუ
+Playback=&დაკვრა
+PlaybackPlayPause=&დაკვრა/პაუზა
+PlaybackStop=&გაჩერება
+PlaybackPrevious=&წინა
+PlaybackNext=&შემდეგი
+PlaybackSeekForward=&წინ გადახვევა
+PlaybackSeekBackward=&უკან გადახვევა
+PlaybackSpeed=&სიჩქარე
+PlaybackABLoop=A-&B ციკლი
+PlaybackSetA=&A დაყენება
+PlaybackSetB=&B დაყენება
+PlaybackClearAB=A-B &გასუფთავება
+PlaybackChapters=&თავები
+PlaybackPrevChapter=წინა თავი
+PlaybackNextChapter=შემდეგი თავი
+PlaybackFrameStep=კადრით &წინ
+PlaybackFrameBack=კადრით &უკან
+
+; DVD ნავიგაცია
+PlaybackDVD=DVD &ნავიგაცია
+DVDMenu=&მენიუ
+DVDUp=&ზემოთ
+DVDDown=&ქვემოთ
+DVDLeft=&მარცხნივ
+DVDRight=&მარჯვნივ
+DVDSelect=&არჩევა
+PlaybackDVDTitles=DVD &სათაურები
+
+; ფაზა 21: საქაღალდის გახსნა
+FileOpenFolder=&საქაღალდის გახსნა...
+
+; ფაილის მენიუ DVD/Bluray
+FileOpenDVD=&DVD გახსნა...
+FileOpenBluray=&Blu-ray გახსნა...
+
+; ფაზა 13: დროზე გადასვლა და ისტორია
+PlaybackGotoTime=&დროზე გადასვლა...
+ToolsHistory=&ისტორია
+
+; ფაზა 14: სისტემის უჯრა
+TrayShow=&ჩვენება/დამალვა
+TrayPlayPause=&დაკვრა/პაუზა
+TrayStop=&გაჩერება
+TrayPrevious=&წინა
+TrayNext=&შემდეგი
+TrayMute=&დადუმება
+TrayExit=&გასვლა
+
+; ფაზა 15: სანიშნეები
+PlaybackAddBookmark=&სანიშნის დამატება...
+PlaybackBookmarks=სა&ნიშნეები
+BookmarksTitle=სანიშნეები
+BookmarksGoto=სანიშნეზე &გადასვლა
+BookmarksRemove=სანიშნის &წაშლა
+BookmarksClear=ყველა სანიშნის &გასუფთავება
+BookmarksOpenFolder=საქაღალდის &გახსნა
+BookmarksCopyPath=გზის &კოპირება
+BookmarksCount=%d სანიშნე
+NoBookmarks=(სანიშნეები არ არის)
+NoFileLoaded=(ფაილი არ არის ჩატვირთული)
+BookmarkAdded=სანიშნე დაემატა %s-ზე
+BookmarkJumped=გადახტა სანიშნეზე %s
+AddBookmarkTitle=სანიშნის დამატება
+AddBookmarkPrompt=შეიყვანეთ სანიშნის სახელი:
+ShowAllBookmarks=ყველა სანიშნის ჩვენება...
+
+; ფაზა 16: რჩეულები
+ToolsFavorites=რ&ჩეულები
+ToolsAddFavorite=რჩეულებში &დამატება
+FavoritesTitle=რჩეულები
+FavoritesPlay=&დაკვრა
+FavoritesRemove=რჩეულებიდან &წაშლა
+FavoritesClear=ყველა რჩეულის &გასუფთავება
+FavoritesOpenFolder=საქაღალდის &გახსნა
+FavoritesCopyPath=გზის &კოპირება
+FavoritesCount=%d რჩეული
+NoFavorites=(რჩეულები არ არის)
+AddFavoriteTitle=რჩეულებში დამატება
+AddFavoritePrompt=შეიყვანეთ რჩეულის სახელი:
+AlreadyFavorite=უკვე რჩეულებში
+AddedToFavorites=რჩეულებში დაემატა: %s
+NoFileToFavorite=რჩეულებში დასამატებელი ფაილი არ არის ჩატვირთული
+FavoriteTypeFile=ფაილი
+FavoriteTypeURL=URL
+FavoriteTypeRadio=რადიო
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; ტრეკის ფორმატის სტრიქონები
+TrackWithTitle=ტრეკი %d: %s
+TrackWithLang=ტრეკი %d (%s)
+TrackNumber=ტრეკი %d
+
+; სიჩქარის მენიუს ელემენტები
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; მასშტაბის მენიუს ელემენტები
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; სუბტიტრების ტრეკი
+SubtitleDisable=გამორთვა
+
+; ფაზა 17: ძილის ტაიმერი
+ToolsSleepTimer=ძილის &ტაიმერი...
+ToolsSleepTimerActive=ძილის &ტაიმერი [%s]
+ToolsCancelTimer=ტაიმერის &გაუქმება
+
+; აუდიო მენიუ
+Audio=&აუდიო
+AudioTrack=აუდიო &ტრეკი
+AudioVolumeUp=ხმის &გაზრდა
+AudioVolumeDown=ხმის &შემცირება
+AudioMute=&დადუმება
+AudioEqualizer=&ექვალაიზერი
+AudioDelay=აუდიო &დაყოვნება
+AudioDelayPlus=დაყოვნება +0.1წმ
+AudioDelayMinus=დაყოვნება -0.1წმ
+AudioDelayReset=დაყოვნების აღდგენა
+AudioNormalize=ხმის &ნორმალიზება
+
+; ვიდეო მენიუ
+Video=&ვიდეო
+VideoFullscreen=სრული &ეკრანი
+VideoAspect=თანა&ფარდობა
+VideoAspectAuto=&ავტო
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=ეკრანის &სურათი
+VideoScreenshotAs=ეკრანის სურათი &როგორც...
+VideoRotation=&ბრუნვა
+VideoRotate0=&0° (ნორმალური)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&გადაბრუნება
+VideoFlipH=&ჰორიზონტალური გადაბრუნება
+VideoFlipV=&ვერტიკალური გადაბრუნება
+VideoDeinterlace=&დეინტერლეისი
+VideoZoom=&მასშტაბი
+VideoZoomIn=&გადიდება
+VideoZoomOut=&დაპატარავება
+VideoZoomReset=მასშტაბის &აღდგენა
+VideoPan=&პან
+VideoPanLeft=პან &მარცხნივ
+VideoPanRight=პან &მარჯვნივ
+VideoPanUp=პან &ზემოთ
+VideoPanDown=პან &ქვემოთ
+VideoPanReset=პანის &აღდგენა
+VideoTrack=ვიდეო &ტრეკი
+VideoColors=ფერის &პარამეტრები
+VideoBrightness=&სიკაშკაშე
+VideoContrast=&კონტრასტი
+VideoSaturation=&გაჯერება
+VideoHue=&ელფერი
+VideoGamma=&გამა
+VideoColorsReset=ყველა ფერის &აღდგენა
+VideoIncrease=გაზრდა (+5)
+VideoDecrease=შემცირება (-5)
+VideoReset=აღდგენა
+VideoAdjustDialog=ვიდეო &პარამეტრები...
+
+; ხედის მენიუ
+View=&ხედი
+ViewAlwaysOnTop=ყოველთვის &ზემოთ
+ViewFitToVideo=ფანჯრის ვიდეოზე &მორგება
+ViewScale=ფანჯრის &მასშტაბი
+
+; ფაზა 26: ვიზუალიზაციის მენიუ
+ViewVisualization=&ვიზუალიზაცია
+VisNone=&არცერთი
+VisSpectrum=&სპექტრის ანალიზატორი
+VisWaveform=&ტალღის ფორმა
+VisVector=&ვექტორული სკოპი
+VisVolume=&VU მეტრი
+VisNextMode=შემდეგი &რეჟიმი
+VisNextColor=შემდეგი &ფერის სქემა
+
+; სუბტიტრების მენიუ
+Subtitles=&სუბტიტრები
+SubtitleTrack=სუბტიტრების &ტრეკი
+SubtitleLoad=სუბტიტრების &ჩატვირთვა...
+SubtitleDelay=სუბტიტრების &დაყოვნება
+SubtitleDelayPlus=დაყოვნება +0.1წმ
+SubtitleDelayMinus=დაყოვნება -0.1წმ
+SubtitleDelayReset=დაყოვნების აღდგენა
+
+; ხელსაწყოების მენიუ
+Tools=&ხელსაწყოები
+ToolsPlaylist=&დაკვრის სია
+ToolsRadios=&რადიო
+ToolsShortcuts=კლავიატურის &მალსახმობები...
+ToolsOptions=&პარამეტრები
+
+; ფაზა 27: ჩაწერის მენიუ
+ToolsRecord=ნაკადის &ჩაწერა...
+ToolsStopRecord=ჩაწერის &გაჩერება
+ToolsRecording=&ჩაწერა...
+
+; დახმარების მენიუ
+Help=&დახმარება
+HelpMediaInfo=მედია &ინფორმაცია
+HelpLog=&ჟურნალის ფანჯარა
+HelpAbout=&შესახებ
+
+[Dialog]
+OpenFile=ფაილის გახსნა
+OpenURL=URL-ის გახსნა
+SaveScreenshot=ეკრანის სურათის შენახვა
+LoadSubtitle=სუბტიტრების ფაილის ჩატვირთვა
+EnterURL=შეიყვანეთ URL:
+ResumePlayback=დაკვრის გაგრძელება
+ResumeFrom=გაგრძელება %s-დან?
+ClearRecentFiles=ბოლო ფაილების გასუფთავება
+NoRecentFiles=(ბოლო ფაილები არ არის)
+NoAudioTracks=(აუდიო ტრეკები არ არის)
+NoVideoTracks=(ვიდეო ტრეკები არ არის)
+NoSubtitleTracks=(სუბტიტრების ტრეკები არ არის)
+NoChapters=(თავები არ არის)
+OpenDVD=DVD გახსნა
+OpenBluray=Blu-ray გახსნა
+OpenFolder=საქაღალდის გახსნა
+
+; ფაილის ფილტრები
+ScreenshotFilter=PNG სურათი|*.png|JPEG სურათი|*.jpg|WebP სურათი|*.webp
+DVDFilter=DVD საქაღალდე|*.;*.iso|ყველა ფაილი (*.*)|*.*
+BlurayFilter=Blu-ray საქაღალდე|*.;*.iso|ყველა ფაილი (*.*)|*.*
+NoDVD=(DVD არ არის ჩატვირთული)
+DVDTitle=სათაური %d
+GotoTime=დროზე გადასვლა
+EnterTime=შეიყვანეთ დრო გადასახტომად:
+Hours=საათი
+Minutes=წუთი
+Seconds=წამი
+Current=მიმდინარე:
+HistoryTitle=დაკვრის ისტორია
+HistoryItems=%d ელემენტი ისტორიაში
+HistoryPlay=&დაკვრა
+HistoryRemove=ისტორიიდან &წაშლა
+HistoryClear=მთელი ისტორიის &გასუფთავება
+HistoryOpenFolder=საქაღალდის &გახსნა
+HistoryCopyPath=გზის &კოპირება
+ClearHistory=ისტორიის გასუფთავება
+ClearHistoryConfirm=ნამდვილად გსურთ მთელი ისტორიის გასუფთავება?
+SleepTimerTitle=ძილის ტაიმერი
+SleepTimerDescription=დააყენეთ ტაიმერი დაკვრის ავტომატურად გასაჩერებლად
+SleepTimerHours=საათი
+SleepTimerMinutes=წუთი
+SleepTimerQuickSet=სწრაფი დაყენება
+SleepTimerAction=ტაიმერის ამოწურვისას
+SleepTimerStopPlayback=დაკვრის გაჩერება
+SleepTimerCloseApp=აპლიკაციის დახურვა
+SleepTimerShutdown=კომპიუტერის გამორთვა
+SleepTimerStart=ტაიმერის დაწყება
+
+[Status]
+Ready=მზადაა
+Opening=იხსნება...
+Playing=უკრავს
+Paused=პაუზაზეა
+Stopped=გაჩერებულია
+Error=შეცდომა
+Buffering=ბუფერიზაცია...
+Seeking=ძებნა...
+Recording=ჩაწერა
+
+[Message]
+SpeedFormat=სიჩქარე: %.2fx
+VolumeFormat=ხმა: %d%%
+BrightnessFormat=სიკაშკაშე: %d
+ContrastFormat=კონტრასტი: %d
+SaturationFormat=გაჯერება: %d
+HueFormat=ელფერი: %d
+GammaFormat=გამა: %d
+ColorsReset=ვიდეოს ფერები აღდგა
+LoopASet=ციკლის A დაყენდა %s-ზე
+LoopBSet=ციკლის B დაყენდა %s-ზე - ციკლი აქტიურია
+LoopCleared=A-B ციკლი გასუფთავდა
+SetAFirst=ჯერ A წერტილი დააყენეთ (დააჭირეთ L)
+RotationFormat=ბრუნვა: %d°
+FlipHOn=ჰორიზონტალური გადაბრუნება: ჩართ
+FlipHOff=ჰორიზონტალური გადაბრუნება: გამორთ
+FlipVOn=ვერტიკალური გადაბრუნება: ჩართ
+FlipVOff=ვერტიკალური გადაბრუნება: გამორთ
+DeinterlaceOn=დეინტერლეისი: ჩართ
+DeinterlaceOff=დეინტერლეისი: გამორთ
+AlwaysOnTopOn=ყოველთვის ზემოთ: ჩართ
+AlwaysOnTopOff=ყოველთვის ზემოთ: გამორთ
+WindowFitted=ფანჯარა მოერგო %dx%d-ს
+WindowScale=ფანჯრის მასშტაბი: %.0f%%
+ScreenshotSaved=ეკრანის სურათი შენახულია: %s
+AudioNormalizeOn=აუდიო ნორმალიზაცია: ჩართ
+AudioNormalizeOff=აუდიო ნორმალიზაცია: გამორთ
+AudioDelayFormat=აუდიო დაყოვნება: %.1f წმ
+SubtitleDelayFormat=სუბტიტრების დაყოვნება: %.1f წმ
+ZoomFormat=მასშტაბი: %.0f%%
+PanCenter=პან: ცენტრი
+PanFormat=პან: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=ვიდეო არ არის ჩატვირთული
+PlayingFromClipboard=უკრავს ბუფერიდან: %s
+ClipboardInvalid=ბუფერი არ შეიცავს სწორ URL-ს ან გზას
+ClipboardEmpty=ბუფერი ცარიელია ან არ შეიცავს ტექსტს
+ResumedAt=გაგრძელდა %s-ზე
+FrameStepForward=კადრით წინ
+FrameStepBackward=კადრით უკან
+PreviousChapter=წინა თავი
+NextChapter=შემდეგი თავი
+PlayingRadio=რადიო უკრავს: %s
+PlayingDVD=DVD უკრავს: %s
+PlayingBluray=Blu-ray უკრავს: %s
+DVDTitlePlaying=DVD სათაური %d
+SeekTo=გადახვევა %s-ზე
+MinimizedToTray=მინიმიზირებულია უჯრაში. აღსადგენად ორჯერ დააწკაპუნეთ.
+SleepTimerSet=ძილის ტაიმერი დაყენებულია: %s
+SleepTimerCancelled=ძილის ტაიმერი გაუქმებულია
+SleepTimerWarning=ძილის ტაიმერი: დარჩა 1 წუთი
+SleepTimerFinal=ძილის ტაიმერი: დარჩა 10 წამი
+SleepTimerStopped=ძილის ტაიმერი: დაკვრა გაჩერდა
+SleepTimerClosing=ძილის ტაიმერი: აპლიკაცია იხურება
+SleepTimerShutdown=ძილის ტაიმერი: კომპიუტერი გამოირთვება
+SleepTimerExpired=ძილის ტაიმერი ამოიწურა
+ShutdownManual=გთხოვთ ხელით გამორთოთ კომპიუტერი.
+
+; ფაზა 21: საქაღალდის გახსნა
+FolderOpened=საქაღალდე გაიხსნა: %d ფაილი
+NoMediaFound=მედია ფაილები ვერ მოიძებნა
+FilesAdded=%d ფაილი დაემატა სიაში
+
+; ფაზა 27: ჩაწერის შეტყობინებები
+RecordNeedPlayback=ჩაწერამდე დაიწყეთ დაკვრა.
+RecordingStarted=ჩაწერა დაიწყო
+RecordingStopped=ჩაწერა გაჩერდა
+
+; დამატებითი სტატუსის შეტყობინებები
+EndOfPlaylist=დაკვრის სიის დასასრული
+NoMediaLoaded=მედია ფაილი არ არის ჩატვირთული.
+JumpedToNamed=გადახტა: %s
+ChapterFormat=თავი %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=სანიშნე %s-ზე
+
+[Label]
+Muted=დადუმებული
+
+[Button]
+Play=დაკვრა
+Pause=პაუზა
+Stop=გაჩერება
+Previous=წინა
+Next=შემდეგი
+Mute=დადუმება
+Unmute=ხმის ჩართვა
+Fullscreen=სრული ეკრანი
+OK=OK
+Cancel=გაუქმება
+Apply=გამოყენება
+Close=დახურვა
+Yes=დიახ
+No=არა
+
+[Tooltip]
+Play=დაკვრა/პაუზა
+Stop=დაკვრის გაჩერება
+Previous=წინა ტრეკი
+Next=შემდეგი ტრეკი
+Mute=დადუმების გადართვა
+Volume=ხმა
+Seek=ძებნის პოზიცია
+Fullscreen=სრული ეკრანის გადართვა
+
+[Playlist]
+Title=დაკვრის სია
+Add=დამატება
+Remove=წაშლა
+Clear=გასუფთავება
+MoveUp=ზემოთ გადატანა
+MoveDown=ქვემოთ გადატანა
+Shuffle=შერევა
+Repeat=გამეორება
+Play=დაკვრა
+ShuffleOn=შერევა: ჩართ
+ShuffleOff=შერევა: გამორთ
+RepeatOff=გამეორება: გამორთ
+RepeatOne=გამეორება: ერთი
+RepeatAll=გამეორება: ყველა
+SavePlaylist=შენახვა
+LoadPlaylist=ჩატვირთვა
+TotalDuration=სულ: %s
+ItemCount=%d ელემენტი
+
+; ფაზა 22: დაკვრის სიის გაუმჯობესება
+Search=ძებნა:
+FilterPlaceholder=სიის ფილტრაცია...
+ClearSearch=გასუფთავება
+FilterCount=%d/%d
+RemoveDuplicates=&დუბლიკატების წაშლა
+Properties=&თვისებები...
+NoDuplicates=დუბლიკატები ვერ მოიძებნა.
+DuplicatesFound=%d დუბლიკატი მოიძებნა. წავშალოთ?
+RemoveDuplicatesTitle=დუბლიკატების წაშლა
+PropertiesTitle=სიის თვისებები
+PropTotalItems=სულ ელემენტი: %d
+PropTotalDuration=სულ ხანგრძლივობა: %s
+PropPlayed=დაკრული: %d
+PropUnplayed=დაუკრავი: %d
+PropTotalSize=სულ ზომა: %.2f MB
+PropShuffle=შერევა: %s
+PropRepeat=გამეორება: %s
+On=ჩართ
+Off=გამორთ
+
+; ApplyLocale-ის ახალი გასაღებები
+ClearTitle=სიის გასუფთავება
+ClearConfirm=ნამდვილად გსურთ სიის გასუფთავება?
+NoPlaylist=სია არ არის
+StatusFormat=%d ელემენტი | სულ: %s
+RepeatOne=გამ. 1
+RepeatAll=გამ. ყველა
+HintRepeatEnable=დააწკაპუნეთ ყველას გამეორების ჩასართავად
+HintRepeatOne=ერთის გამეორება - დააწკაპუნეთ გამოსართავად
+HintRepeatAll=ყველას გამეორება - დააწკაპუნეთ ერთის გამეორებისთვის
+HintShuffleRepeat=შერევა + ყველას გამეორება - დააწკაპუნეთ გამეორების გამოსართავად
+RemoveDuplicatesTitle=დუბლიკატების წაშლა
+NoDuplicates=დუბლიკატები ვერ მოიძებნა.
+SelectAll=ყველას მონიშვნა
+SelectNone=არცერთის მონიშვნა
+SelectInvert=მონიშვნის ინვერსია
+Sort=დალაგება
+SortByName=სახელით
+SortByTitle=სათაურით
+SortByArtist=შემსრულებლით
+SortByDuration=ხანგრძლივობით
+SortReverse=შებრუნება
+SortRandom=შემთხვევითი
+ColTitle=სათაური
+ColDuration=ხანგრძლივობა
+ColArtist=შემსრულებელი
+ColAlbum=ალბომი
+PlaylistFilter=M3U სია|*.m3u|M3U8 სია|*.m3u8|PLS სია|*.pls
+
+[Equalizer]
+Title=ექვალაიზერი
+Presets=პრესეტები:
+Preamp=წინასწარი გამაძლიერებელი:
+Flat=ბრტყელი
+Rock=როკი
+Pop=პოპი
+Jazz=ჯაზი
+Classical=კლასიკური
+BassBoost=ბასის გაძლიერება
+TrebleBoost=მაღლების გაძლიერება
+Vocal=ვოკალი
+Reset=აღდგენა
+Enable=ექვალაიზერის ჩართვა
+Save=შენახვა
+Delete=წაშლა
+Ready=მზადაა
+; ღილაკები და მოქმედებები
+SavePreset=პრესეტის შენახვა
+DeletePreset=პრესეტის წაშლა
+SavePresetTitle=პრესეტის შენახვა
+PresetNamePrompt=პრესეტის სახელი:
+EnterPresetName=გთხოვთ შეიყვანოთ პრესეტის სახელი.
+OverwritePresetTitle=პრესეტის გადაწერა
+OverwritePresetConfirm=ამ სახელის პრესეტი უკვე არსებობს. გადავაწეროთ?
+PresetUpdated=პრესეტი განახლდა: %s
+PresetSaved=პრესეტი შენახულია: %s
+SelectPresetToDelete=გთხოვთ აირჩიოთ პრესეტი წასაშლელად.
+CannotDeleteDefault=ნაგულისხმევი პრესეტების წაშლა შეუძლებელია.
+DeletePresetTitle=პრესეტის წაშლა
+DeletePresetConfirm=ნამდვილად გსურთ ამ პრესეტის წაშლა?
+PresetDeleted=პრესეტი წაიშალა
+ResetToFlat=ექვალაიზერი აღდგა ბრტყელზე
+PresetApplied=პრესეტი გამოყენებულია: %s
+
+[Options]
+Title=პარამეტრები
+General=ზოგადი
+Video=ვიდეო
+Audio=აუდიო
+Subtitles=სუბტიტრები
+Cache=ქეში
+Language=ენა:
+RestartRequired=ცვლილებების გასააქტიურებლად გადატვირთვა საჭიროა
+
+; ზოგადი ტაბი - ქცევა
+Behavior=ქცევა
+SingleInstance=მხოლოდ ერთი ინსტანციის დაშვება
+AutoPlay=ავტომატური დაკვრა გახსნისას
+AutoResume=დაკვრის პოზიციის გაგრძელება
+MinimizeToTray=სისტემის უჯრაში მინიმიზება
+AutoSavePlaylist=სიის შენახვა გასვლისას
+
+; ზოგადი ტაბი - OSD
+OSD=ეკრანზე ჩვენება
+ShowOSD=ეკრანზე შეტყობინებების ჩვენება
+ShowTrayIcon=უჯრის ხატის ჩვენება
+OSDDuration=OSD ხანგრძლივობა (მწმ):
+
+; ზოგადი ტაბი - ეკრანის სურათები
+Screenshots=ეკრანის სურათები
+ScreenshotPath=შენახვის საქაღალდე:
+ScreenshotFormat=ფორმატი:
+
+; ზოგადი ტაბი - ისტორია
+HistorySettings=ისტორია
+HistoryEnabled=დაკვრის ისტორიის ჩართვა
+HistoryMaxItems=მაქსიმუმ ელემენტი:
+
+; ზოგადი ტაბი - ენა
+LanguageGroup=ენა
+RestartNote=(ცვლილებებისთვის გადატვირთვა საჭიროა)
+
+; ვიდეო ტაბი
+VideoAdjust=ვიდეო პარამეტრები
+Brightness=სიკაშკაშე:
+Contrast=კონტრასტი:
+Saturation=გაჯერება:
+Hue=ელფერი:
+Gamma=გამა:
+VideoOutput=ვიდეო გამომავალი
+Output=გამომავალი:
+HWAccel=აპარატურული აჩქარების ჩართვა
+Deinterlacing=დეინტერლეისინგი
+Mode=რეჟიმი:
+
+; აუდიო ტაბი
+AudioOutput=აუდიო გამომავალი
+OutputDriver=გამომავლის დრაივერი:
+Device=მოწყობილობა:
+AudioOptions=აუდიო პარამეტრები
+NormalizeAudio=აუდიო ხმის ნორმალიზება
+Channels=არხები:
+
+; სუბტიტრების ტაბი
+UseDefaultSubtitles=ნაგულისხმევი სუბტიტრების პარამეტრების გამოყენება
+Font=შრიფტი
+FontName=შრიფტი:
+FontSize=ზომა:
+FontColor=ფერი:
+Bold=მუქი
+Italic=დახრილი
+Outline=კონტური
+OutlineColor=ფერი:
+OutlineSize=ზომა:
+Position=პოზიცია
+VerticalPosition=ვერტიკალური პოზიცია:
+SubOptions=პარამეტრები
+Encoding=კოდირება:
+AutoLoadSubs=სუბტიტრების ფაილების ავტომატურად ჩატვირთვა
+
+; ვიდეო გამომავლის გაფრთხილებები
+VOWarningX11=გაფრთხილება: x11 არ უჭერს მხარს ვიდეო პარამეტრებს (სიკაშკაშე, კონტრასტი და ა.შ.)
+VOWarningWayland=გაფრთხილება: საჭიროებს Wayland სესიას. ვიდეო პარამეტრები მხარდაჭერილია.
+
+; ქეშის ტაბი
+CacheSettings=ქეშის ბუფერის ზომა (KB)
+CacheDefault=ნაგულისხმევი ქეში:
+CacheLocal=ლოკალური ფაილები:
+CacheNetwork=ქსელის ფაილები:
+CacheInternet=ინტერნეტ ნაკადები:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=შესახებ
+Version=ვერსია
+Engine=ძრავა
+Technology=ტექნოლოგია
+BuildInfo=აგების ინფორმაცია
+SystemInfo=სისტემა
+Credits=კრედიტები
+Developer=დეველოპერი:
+Author=ავტორი
+License=ლიცენზია
+Website=ვებსაიტი
+GitHub=GitHub
+Description=თანამედროვე, მსუბუქი მედია პლეერი
+LicenseText=3nity Media ლიცენზირებულია GPL-2.0-ით\n\nეს ნიშნავს, რომ თავისუფლად შეგიძლიათ:\n  • პროგრამის გამოყენება ნებისმიერი მიზნით\n  • კოდის შესწავლა და შეცვლა\n  • პროგრამის ასლების გავრცელება\n  • თქვენი ცვლილებების გავრცელება\n\nიმ პირობით, რომ ნებისმიერი გავრცელებული ცვლილება\nასევე ლიცენზირებული იქნება GPL-2.0-ით.
+BuildDate=თარიღი:
+Target=სამიზნე:
+Kernel=ბირთვი:
+
+[Shortcuts]
+Title=კლავიატურის მალსახმობები
+Description=მოქმედებებისთვის კლავიატურის მალსახმობების კონფიგურაცია
+Search=ძებნა:
+PressKey=დააჭირეთ ღილაკს...
+ColCategory=კატეგორია
+ColAction=მოქმედება
+ColShortcut=მალსახმობი
+Assign=მინიჭება
+Clear=გასუფთავება
+Reset=აღდგენა
+ResetAll=ყველას აღდგენა
+CurrentShortcut=მიმდინარე: %s
+NoKeyPressed=გთხოვთ ჯერ დააჭიროთ კომბინაციას.
+Conflict=კონფლიქტი: უკვე მინიჭებულია "%s"-ზე
+ConfirmReplace=მალსახმობის ჩანაცვლება
+ReplaceMessage=ეს მალსახმობი უკვე მინიჭებულია "%s"-ზე. ჩავანაცვლოთ?
+ConfirmResetAll=ყველა მალსახმობის აღდგენა
+ResetAllMessage=ნამდვილად გსურთ ყველა მალსახმობის ნაგულისხმევზე აღდგენა?
+; მოქმედებების სახელები
+ActPlayPause=დაკვრა / პაუზა
+ActStop=გაჩერება
+ActPrevious=წინა
+ActNext=შემდეგი
+ActSeekForward=წინ გადახვევა (10წმ)
+ActSeekBackward=უკან გადახვევა (10წმ)
+ActSeekForward5=წინ გადახვევა (1 წთ)
+ActSeekBackward5=უკან გადახვევა (1 წთ)
+ActSpeedUp=აჩქარება
+ActSpeedDown=შენელება
+ActSpeedReset=სიჩქარის აღდგენა
+ActSetLoopA=ციკლის A წერტილის დაყენება
+ActSetLoopB=ციკლის B წერტილის დაყენება
+ActClearLoop=A-B ციკლის გასუფთავება
+ActFrameForward=კადრით წინ
+ActFrameBackward=კადრით უკან
+ActPrevChapter=წინა თავი
+ActNextChapter=შემდეგი თავი
+ActGotoTime=დროზე გადასვლა
+ActVolumeUp=ხმის გაზრდა
+ActVolumeDown=ხმის შემცირება
+ActMute=დადუმება / ხმის ჩართვა
+ActAudioDelayPlus=აუდიო დაყოვნება +
+ActAudioDelayMinus=აუდიო დაყოვნება -
+ActAudioDelayReset=აუდიო დაყოვნების აღდგენა
+ActFullscreen=სრული ეკრანი
+ActRotate=ვიდეოს ბრუნვა
+ActDeinterlace=დეინტერლეისი
+ActZoomIn=გადიდება
+ActZoomOut=დაპატარავება
+ActZoomReset=მასშტაბის აღდგენა
+ActAlwaysOnTop=ყოველთვის ზემოთ
+ActFitToVideo=ვიდეოზე მორგება
+ActScreenshot=ეკრანის სურათი
+ActVideoAdjust=ვიდეო პარამეტრები
+ActVisNextMode=შემდეგი ვიზუალიზაციის რეჟიმი
+ActVisNextColor=შემდეგი ფერის სქემა
+ActSubDelayPlus=სუბტიტრების დაყოვნება +
+ActSubDelayMinus=სუბტიტრების დაყოვნება -
+ActSubDelayReset=სუბტიტრების დაყოვნების აღდგენა
+ActDVDMenu=DVD მენიუ
+ActDVDUp=DVD ზემოთ ნავიგაცია
+ActDVDDown=DVD ქვემოთ ნავიგაცია
+ActDVDLeft=DVD მარცხნივ ნავიგაცია
+ActDVDRight=DVD მარჯვნივ ნავიგაცია
+ActDVDSelect=DVD არჩევა
+ActOpenFile=ფაილის გახსნა
+ActOpenURL=URL-ის გახსნა
+ActPlaylist=სიის ჩვენება
+ActQuit=გასვლა
+
+[Log]
+; ფაზა 25: ჟურნალის ფანჯარა
+Title=MPV ჟურნალი
+Command=ბრძანება:
+Clear=გასუფთავება
+Save=შენახვა...
+Copy=&კოპირება
+SelectAll=ყველას &მონიშვნა
+SaveTitle=ჟურნალის შენახვა
+SaveFilter=ტექსტური ფაილები (*.txt)|*.txt|ყველა ფაილი (*.*)|*.*
+ErrorTitle=შეცდომა
+SaveError=ჟურნალის შენახვა ვერ მოხერხდა: %s
+
+[MediaInfo]
+Title=მედია ინფორმაცია
+FileTab=ფაილი
+VideoTab=ვიდეო
+AudioTab=აუდიო
+MetadataTab=მეტამონაცემები
+FileName=ფაილის სახელი:
+FilePath=გზა:
+FileSize=ზომა:
+Duration=ხანგრძლივობა:
+Format=ფორმატი:
+Bitrate=ბიტრეიტი:
+Codec=კოდეკი:
+Resolution=რეზოლუცია:
+FrameRate=კადრების სიჩქარე:
+PixelFormat=პიქსელის ფორმატი:
+AspectRatio=თანაფარდობა:
+Channels=არხები:
+SampleRate=სემპლის სიხშირე:
+Language=ენა:
+Property=თვისება
+Value=მნიშვნელობა
+CopyAll=ყველას კოპირება
+CopiedToClipboard=მედია ინფორმაცია დაკოპირებულია ბუფერში.
+NA=N/A
+NAStream=N/A (ნაკადი)
+NALive=N/A (პირდაპირი)
+ChannelMono=1 (მონო)
+ChannelStereo=2 (სტერეო)
+Channel51=6 (5.1 გარშემო)
+Channel71=8 (7.1 გარშემო)
+Unknown=უცნობი
+NoMetadata=(მეტამონაცემები არ არის)
+
+[Bookmarks]
+Title=სანიშნეები
+Goto=გადასვლა
+Remove=წაშლა
+Clear=ყველას გასუფთავება
+Refresh=განახლება
+OpenFolder=საქაღალდის გახსნა
+CopyPath=გზის კოპირება
+; სვეტები
+ColName=სახელი
+ColFile=ფაილი
+ColPosition=პოზიცია
+ColCreated=შექმნილი
+; დიალოგები
+ClearTitle=სანიშნეების გასუფთავება
+ClearConfirm=ნამდვილად გსურთ ყველა სანიშნის გასუფთავება?
+Count=%d სანიშნე
+
+[Favorites]
+Title=რჩეულები
+Play=დაკვრა
+Remove=წაშლა
+Clear=ყველას გასუფთავება
+Refresh=განახლება
+OpenFolder=საქაღალდის გახსნა
+CopyPath=გზის კოპირება
+; სვეტები
+ColName=სახელი
+ColType=ტიპი
+ColPath=გზა
+; ტიპები
+TypeFile=ფაილი
+TypeURL=URL
+TypeRadio=რადიო
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=უცნობი
+; დიალოგები
+ClearTitle=რჩეულების გასუფთავება
+ClearConfirm=ნამდვილად გსურთ ყველა რჩეულის გასუფთავება?
+Count=%d რჩეული
+
+[History]
+Title=დაკვრის ისტორია
+Play=დაკვრა
+Remove=წაშლა
+Clear=ყველას გასუფთავება
+Refresh=განახლება
+OpenFolder=საქაღალდის გახსნა
+CopyPath=გზის კოპირება
+; სვეტები
+ColFileName=ფაილი
+ColPath=გზა
+; დიალოგები
+ClearTitle=ისტორიის გასუფთავება
+ClearConfirm=ნამდვილად გსურთ მთელი ისტორიის გასუფთავება?
+Count=%d ელემენტი
+
+[SleepTimer]
+Title=ძილის ტაიმერი
+Description=დააყენეთ ტაიმერი დაკვრის ავტომატურად გასაჩერებლად
+Hours=საათი:
+Minutes=წუთი:
+Action=ტაიმერის ამოწურვისას:
+StopPlayback=დაკვრის გაჩერება
+CloseApp=აპლიკაციის დახურვა
+Shutdown=კომპიუტერის გამორთვა
+QuickSet=სწრაფი დაყენება:
+15Min=15 წთ
+30Min=30 წთ
+1Hour=1 სთ
+2Hours=2 სთ
+
+[Radios]
+Title=ინტერნეტ რადიო
+Play=დაკვრა
+Add=დამატება
+Edit=რედაქტირება
+Delete=წაშლა
+Remove=წაშლა
+Import=იმპორტი
+Export=ექსპორტი
+Refresh=განახლება
+Favorite=რჩეული
+ShowFavorites=რჩეულები
+ShowAll=ყველა
+; ფილტრი
+Genre=ჟანრი:
+Search=ძებნა:
+SearchBtn=ძებნა
+ClearSearch=გასუფთავება
+AllGenres=(ყველა ჟანრი)
+; კონტექსტური მენიუ
+AddFavorite=რჩეულებში დამატება
+RemoveFavorite=რჩეულებიდან წაშლა
+AddCustom=მორგებული სადგურის დამატება...
+EditCustom=სადგურის რედაქტირება...
+DeleteCustom=სადგურის წაშლა
+OpenWebsite=ვებსაიტის გახსნა
+CopyURL=URL-ის კოპირება
+; სვეტები
+ColName=სახელი
+ColGenre=ჟანრი
+ColBitrate=ბიტრეიტი
+ColCountry=ქვეყანა
+ColCodec=კოდეკი
+; დიალოგები
+AddTitle=მორგებული სადგურის დამატება
+EditTitle=სადგურის რედაქტირება
+DeleteTitle=სადგურის წაშლა
+DeleteConfirm=ნამდვილად გსურთ ამ სადგურის წაშლა?
+StationName=სადგურის სახელი:
+StreamURL=ნაკადის URL:
+GenrePrompt=ჟანრი:
+NameURLRequired=სახელი და URL აუცილებელია.
+; სტატუსის შეტყობინებები
+LoadingIcecast=სადგურების ჩატვირთვა Icecast კატალოგიდან...
+IcecastError=Icecast კატალოგი ვერ ჩაიტვირთა. ნაგულისხმევი სადგურები გამოიყენება.
+NoStationsLoaded=სადგურები არ არის ჩატვირთული
+StationCount=%d სადგური
+LoadedStations=%d სადგური ჩაიტვირთა
+ErrorPrefix=შეცდომა:
+; ძველი გასაღებები
+Name=სახელი
+URL=URL
+Bitrate=ბიტრეიტი
+Description=აღწერა
+Country=ქვეყანა
+
+[OpenURL]
+Title=URL-ის გახსნა
+Prompt=შეიყვანეთ მედია URL:
+
+[GotoTime]
+Title=დროზე გადასვლა
+EnterTime=შეიყვანეთ დრო გადასახტომად:
+Hours=ს
+Minutes=წ
+Seconds=წმ
+Current=მიმდინარე:
+Duration=ხანგრძლივობა:
+
+[VideoAdjust]
+Title=ვიდეო პარამეტრები
+Brightness=სიკაშკაშე:
+Contrast=კონტრასტი:
+Saturation=გაჯერება:
+Hue=ელფერი:
+Gamma=გამა:
+ResetAll=ყველა ფერის აღდგენა
+
+[CLI]
+; ბრძანების ხაზის შეტყობინებები
+Usage=გამოყენება
+Arguments=[პარამეტრები] [ფაილი|URL|საქაღალდე]
+Description=მულტიპლატფორმული მულტიმედია პლეერი libmpv ბექენდით.
+Options=პარამეტრები
+Examples=მაგალითები
+MoreInfo=დამატებითი ინფორმაციისთვის ეწვიეთ
+EnqueuedTo=რიგში დაემატა არსებულ ინსტანციას: %s
+SentTo=გაიგზავნა არსებულ ინსტანციაზე: %s
+AlreadyRunning=3nity Media უკვე გაშვებულია.
+ErrorFileNotFound=შეცდომა: ფაილი ან საქაღალდე ვერ მოიძებნა: %s
+ErrorSubNotFound=შეცდომა: სუბტიტრების ფაილი ვერ მოიძებნა: %s

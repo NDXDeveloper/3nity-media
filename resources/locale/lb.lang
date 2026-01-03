@@ -1,0 +1,892 @@
+[Language]
+Name=Luxembourgish - Lëtzebuergesch
+Code=lb
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Datei Menü
+File=&Datei
+FileOpen=Datei &opmaachen...
+FileOpenURL=&URL opmaachen...
+FileOpenClipboard=Vum &Clipboard opmaachen
+FileRecent=&Rezent Dateien
+ClearRecentFiles=Rezent Dateien läschen
+FileExit=&Erausgoen
+
+; Ofspillen Menü
+Playback=&Ofspillen
+PlaybackPlayPause=&Spillen/Paus
+PlaybackStop=&Stoppen
+PlaybackPrevious=&Vireg
+PlaybackNext=&Nächst
+PlaybackSeekForward=&Virun sichen
+PlaybackSeekBackward=&Zréck sichen
+PlaybackSpeed=&Vitesse
+PlaybackABLoop=A-&B Loop
+PlaybackSetA=&A setzen
+PlaybackSetB=&B setzen
+PlaybackClearAB=A-B &läschen
+PlaybackChapters=&Kapitelen
+PlaybackPrevChapter=Viregt Kapitel
+PlaybackNextChapter=Nächst Kapitel
+PlaybackFrameStep=Frame Schrëtt &Virun
+PlaybackFrameBack=Frame Schrëtt &Zréck
+
+; DVD Navigatioun
+PlaybackDVD=DVD &Navigatioun
+DVDMenu=&Menü
+DVDUp=&Uewen
+DVDDown=&Ënnen
+DVDLeft=&Lénks
+DVDRight=&Riets
+DVDSelect=&Wielen
+PlaybackDVDTitles=DVD &Titelen
+
+; Phase 21: Dossier opmaachen
+FileOpenFolder=&Dossier opmaachen...
+
+; Datei Menü DVD/Bluray
+FileOpenDVD=&DVD opmaachen...
+FileOpenBluray=&Blu-ray opmaachen...
+
+; Phase 13: Zur Zäit goen an Geschicht
+PlaybackGotoTime=Zur &Zäit goen...
+ToolsHistory=&Geschicht
+
+; Phase 14: System Tray
+TrayShow=&Weisen/Verstoppen
+TrayPlayPause=&Spillen/Paus
+TrayStop=&Stoppen
+TrayPrevious=&Vireg
+TrayNext=&Nächst
+TrayMute=&Stëmmen aus
+TrayExit=&Erausgoen
+
+; Phase 15: Lieszeechen
+PlaybackAddBookmark=&Lieszeechen derbäisetzen...
+PlaybackBookmarks=Lies&zeechen
+BookmarksTitle=Lieszeechen
+BookmarksGoto=Zum &Lieszeechen goen
+BookmarksRemove=Lieszeechen &läschen
+BookmarksClear=All Lieszeechen &läschen
+BookmarksOpenFolder=&Dossier opmaachen
+BookmarksCopyPath=&Wee kopéieren
+BookmarksCount=%d Lieszeechen
+NoBookmarks=(Keng Lieszeechen)
+NoFileLoaded=(Keng Datei gelueden)
+BookmarkAdded=Lieszeechen bei %s derbäigesat
+BookmarkJumped=Op Lieszeechen bei %s gesprong
+AddBookmarkTitle=Lieszeechen derbäisetzen
+AddBookmarkPrompt=Lieszeechen Numm aginn:
+ShowAllBookmarks=All Lieszeechen weisen...
+
+; Phase 16: Favoriten
+ToolsFavorites=&Favoriten
+ToolsAddFavorite=Zu Favo&riten derbäisetzen
+FavoritesTitle=Favoriten
+FavoritesPlay=&Spillen
+FavoritesRemove=Vun Favoriten &läschen
+FavoritesClear=All Favoriten &läschen
+FavoritesOpenFolder=&Dossier opmaachen
+FavoritesCopyPath=&Wee kopéieren
+FavoritesCount=%d Favoriten
+NoFavorites=(Keng Favoriten)
+AddFavoriteTitle=Zu Favoriten derbäisetzen
+AddFavoritePrompt=Numm fir de Favorit aginn:
+AlreadyFavorite=Scho bei de Favoriten
+AddedToFavorites=Zu Favoriten derbäigesat: %s
+NoFileToFavorite=Keng Datei gelueden fir zu Favoriten derbäizesetzen
+FavoriteTypeFile=Datei
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track Format Strings
+TrackWithTitle=Track %d: %s
+TrackWithLang=Track %d (%s)
+TrackNumber=Track %d
+
+; Vitesse Menü Elementer
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Skaléierung Menü Elementer
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Ënnertitelen Track
+SubtitleDisable=Ausschalten
+
+; Phase 17: Schlof Timer
+ToolsSleepTimer=&Schlof Timer...
+ToolsSleepTimerActive=&Schlof Timer [%s]
+ToolsCancelTimer=Timer &ofbriechen
+
+; Audio Menü
+Audio=&Audio
+AudioTrack=Audio &Track
+AudioVolumeUp=Volume &erop
+AudioVolumeDown=Volume &erof
+AudioMute=&Stëmmen aus
+AudioEqualizer=&Equalizer
+AudioDelay=Audio &Verspéidung
+AudioDelayPlus=Verspéidung +0.1s
+AudioDelayMinus=Verspéidung -0.1s
+AudioDelayReset=Verspéidung zrécksetzen
+AudioNormalize=Audio &normaliséieren
+
+; Video Menü
+Video=&Video
+VideoFullscreen=&Vollbild
+VideoAspect=&Säiteverhältnis
+VideoAspectAuto=&Automatesch
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Screenshot
+VideoScreenshotAs=Screenshot &als...
+VideoRotation=&Dréien
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Ëmdréien
+VideoFlipH=&Horizontal ëmdréien
+VideoFlipV=&Vertikal ëmdréien
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Era&zoomen
+VideoZoomOut=Eraus&zoomen
+VideoZoomReset=Zoom &zrécksetzen
+VideoPan=&Pan
+VideoPanLeft=Pan &Lénks
+VideoPanRight=Pan &Riets
+VideoPanUp=Pan &Uewen
+VideoPanDown=Pan &Ënnen
+VideoPanReset=Pan z&récksetzen
+VideoTrack=Video &Track
+VideoColors=Faarf &Ajustementer
+VideoBrightness=&Hellegkeet
+VideoContrast=&Kontrast
+VideoSaturation=&Sättigung
+VideoHue=&Faarftoun
+VideoGamma=&Gamma
+VideoColorsReset=All &Faarwen zrécksetzen
+VideoIncrease=Erhéijen (+5)
+VideoDecrease=Reduzéieren (-5)
+VideoReset=Zrécksetzen
+VideoAdjustDialog=Video &Ajustementer...
+
+; Affichage Menü
+View=&Affichage
+ViewAlwaysOnTop=Ëmmer &uewen
+ViewFitToVideo=Fënster un &Video upassen
+ViewScale=Fënster &Gréisst
+
+; Phase 26: Visualiséierung Menü
+ViewVisualization=&Visualiséierung
+VisNone=&Keng
+VisSpectrum=&Spektrum Analyser
+VisWaveform=&Welleform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=Nächste &Modus
+VisNextColor=Nächst &Faarfschema
+
+; Ënnertitelen Menü
+Subtitles=Ënner&titelen
+SubtitleTrack=Ënnertitelen &Track
+SubtitleLoad=Ënnertitelen &lueden...
+SubtitleDelay=Ënnertitelen &Verspéidung
+SubtitleDelayPlus=Verspéidung +0.1s
+SubtitleDelayMinus=Verspéidung -0.1s
+SubtitleDelayReset=Verspéidung zrécksetzen
+
+; Tools Menü
+Tools=&Tools
+ToolsPlaylist=&Playlist
+ToolsRadios=&Radioen
+ToolsShortcuts=Tasta&komboen...
+ToolsOptions=&Astellungen
+
+; Phase 27: Opnam Menü
+ToolsRecord=&Stream ophuelen...
+ToolsStopRecord=Opnam &stoppen
+ToolsRecording=&Opnam...
+
+; Hëllef Menü
+Help=&Hëllef
+HelpMediaInfo=&Medie Info
+HelpLog=&Log Fënster
+HelpAbout=&Iwwer
+
+[Dialog]
+OpenFile=Datei opmaachen
+OpenURL=URL opmaachen
+SaveScreenshot=Screenshot späicheren
+LoadSubtitle=Ënnertitelen Datei lueden
+EnterURL=URL aginn:
+ResumePlayback=Ofspillen weiderfoueren
+ResumeFrom=Vun %s weiderfoueren?
+ClearRecentFiles=Rezent Dateien läschen
+NoRecentFiles=(Keng rezent Dateien)
+NoAudioTracks=(Keng Audio Tracks)
+NoVideoTracks=(Keng Video Tracks)
+NoSubtitleTracks=(Keng Ënnertitelen Tracks)
+NoChapters=(Keng Kapitelen)
+OpenDVD=DVD opmaachen
+OpenBluray=Blu-ray opmaachen
+OpenFolder=Dossier opmaachen
+
+; Datei Filteren
+ScreenshotFilter=PNG Bild|*.png|JPEG Bild|*.jpg|WebP Bild|*.webp
+DVDFilter=DVD Dossier|*.;*.iso|All Dateien (*.*)|*.*
+BlurayFilter=Blu-ray Dossier|*.;*.iso|All Dateien (*.*)|*.*
+NoDVD=(Keng DVD gelueden)
+DVDTitle=Titel %d
+GotoTime=Zur Zäit goen
+EnterTime=Zäit aginn fir drop ze sprangen:
+Hours=Stonnen
+Minutes=Minutten
+Seconds=Sekonnen
+Current=Aktuell:
+HistoryTitle=Ofspill Geschicht
+HistoryItems=%d Elementer an der Geschicht
+HistoryPlay=&Spillen
+HistoryRemove=Vun der Geschicht &läschen
+HistoryClear=All Geschicht &läschen
+HistoryOpenFolder=&Dossier opmaachen
+HistoryCopyPath=&Wee kopéieren
+ClearHistory=Geschicht läschen
+ClearHistoryConfirm=Sidd Dir sécher dass Dir all Geschicht läsche wëllt?
+SleepTimerTitle=Schlof Timer
+SleepTimerDescription=Timer setzen fir automatesch d'Ofspillen ze stoppen
+SleepTimerHours=Stonnen
+SleepTimerMinutes=Minutten
+SleepTimerQuickSet=Séier setzen
+SleepTimerAction=Wann den Timer ofleeft
+SleepTimerStopPlayback=Ofspillen stoppen
+SleepTimerCloseApp=Applikatioun zoumaachen
+SleepTimerShutdown=Computer ausschalten
+SleepTimerStart=Timer starten
+
+[Status]
+Ready=Prett
+Opening=Opmaachen...
+Playing=Spillt
+Paused=Pauséiert
+Stopped=Gestoppt
+Error=Feeler
+Buffering=Pufferen...
+Seeking=Sichen...
+Recording=Ophuelen
+
+[Message]
+SpeedFormat=Vitesse: %.2fx
+VolumeFormat=Volume: %d%%
+BrightnessFormat=Hellegkeet: %d
+ContrastFormat=Kontrast: %d
+SaturationFormat=Sättigung: %d
+HueFormat=Faarftoun: %d
+GammaFormat=Gamma: %d
+ColorsReset=Video Faarwen zréckgesat
+LoopASet=Loop A bei %s gesat
+LoopBSet=Loop B bei %s gesat - Loop aktiv
+LoopCleared=A-B Loop geläscht
+SetAFirst=Setzen éischt de Punkt A (Press L)
+RotationFormat=Dréien: %d°
+FlipHOn=Horizontal ëmdréien: UN
+FlipHOff=Horizontal ëmdréien: AUS
+FlipVOn=Vertikal ëmdréien: UN
+FlipVOff=Vertikal ëmdréien: AUS
+DeinterlaceOn=Deinterlace: UN
+DeinterlaceOff=Deinterlace: AUS
+AlwaysOnTopOn=Ëmmer uewen: UN
+AlwaysOnTopOff=Ëmmer uewen: AUS
+WindowFitted=Fënster op %dx%d ugepasst
+WindowScale=Fënster Skaléierung: %.0f%%
+ScreenshotSaved=Screenshot gespäichert: %s
+AudioNormalizeOn=Audio Normaliséierung: UN
+AudioNormalizeOff=Audio Normaliséierung: AUS
+AudioDelayFormat=Audio Verspéidung: %.1f s
+SubtitleDelayFormat=Ënnertitelen Verspéidung: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Zentrum
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Kee Video gelueden
+PlayingFromClipboard=Spillt vum Clipboard: %s
+ClipboardInvalid=Clipboard enthält keng gëlteg URL oder Wee
+ClipboardEmpty=Clipboard ass eidel oder enthält keen Text
+ResumedAt=Weidergefouert bei %s
+FrameStepForward=Frame Schrëtt virun
+FrameStepBackward=Frame Schrëtt zréck
+PreviousChapter=Viregt Kapitel
+NextChapter=Nächst Kapitel
+PlayingRadio=Spillt Radio: %s
+PlayingDVD=Spillt DVD: %s
+PlayingBluray=Spillt Blu-ray: %s
+DVDTitlePlaying=DVD Titel %d
+SeekTo=Sicht op %s
+MinimizedToTray=Op Tray minimiséiert. Duebel klicken fir ze restauréieren.
+SleepTimerSet=Schlof Timer gesat: %s
+SleepTimerCancelled=Schlof Timer ofgebrach
+SleepTimerWarning=Schlof Timer: 1 Minutt iwwereg
+SleepTimerFinal=Schlof Timer: 10 Sekonnen iwwereg
+SleepTimerStopped=Schlof Timer: Ofspillen gestoppt
+SleepTimerClosing=Schlof Timer: Applikatioun gëtt zougemaach
+SleepTimerShutdown=Schlof Timer: Computer gëtt ausgeschalt
+SleepTimerExpired=Schlof Timer ofgelaf
+ShutdownManual=Schalt w.e.g. Ären Computer manuell aus.
+
+; Phase 21: Dossier opmaachen
+FolderOpened=Dossier opgemaach: %d Dateien
+NoMediaFound=Keng Medie Dateien fonnt
+FilesAdded=%d Dateien zur Playlist derbäigesat
+
+; Phase 27: Opnam Messagen
+RecordNeedPlayback=Start d'Ofspillen virum Ophuelen.
+RecordingStarted=Opnam gestart
+RecordingStopped=Opnam gestoppt
+
+; Zousätzlech Status Messagen
+EndOfPlaylist=Enn vun der Playlist
+NoMediaLoaded=Keng Medie Datei aktuell gelueden.
+JumpedToNamed=Gesprong op: %s
+ChapterFormat=Kapitel %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Lieszeechen bei %s
+
+[Label]
+Muted=Stëmmen aus
+
+[Button]
+Play=Spillen
+Pause=Paus
+Stop=Stoppen
+Previous=Vireg
+Next=Nächst
+Mute=Stëmmen aus
+Unmute=Stëmmen un
+Fullscreen=Vollbild
+OK=OK
+Cancel=Ofbriechen
+Apply=Uwenden
+Close=Zoumaachen
+Yes=Jo
+No=Nee
+
+[Tooltip]
+Play=Spillen/Paus
+Stop=Ofspillen stoppen
+Previous=Viregen Track
+Next=Nächsten Track
+Mute=Stëmmen aus ëmschalten
+Volume=Volume
+Seek=Sich Positioun
+Fullscreen=Vollbild ëmschalten
+
+[Playlist]
+Title=Playlist
+Add=Derbäisetzen
+Remove=Läschen
+Clear=Läschen
+MoveUp=No uewen réckelen
+MoveDown=No ënnen réckelen
+Shuffle=Mëschen
+Repeat=Widderhuelen
+Play=Spillen
+ShuffleOn=Mëschen: Un
+ShuffleOff=Mëschen: Aus
+RepeatOff=Widderhuelen: Aus
+RepeatOne=Widderhuelen: Een
+RepeatAll=Widderhuelen: All
+SavePlaylist=Späicheren
+LoadPlaylist=Lueden
+TotalDuration=Total: %s
+ItemCount=%d Elementer
+
+; Phase 22: Playlist Verbesserungen
+Search=Sichen:
+FilterPlaceholder=Playlist filteren...
+ClearSearch=Läschen
+FilterCount=%d/%d
+RemoveDuplicates=&Duplikate läschen
+Properties=&Eegeschaften...
+NoDuplicates=Keng Duplikate fonnt.
+DuplicatesFound=%d Duplikat(en) fonnt. Läschen?
+RemoveDuplicatesTitle=Duplikate läschen
+PropertiesTitle=Playlist Eegeschaften
+PropTotalItems=Total Elementer: %d
+PropTotalDuration=Total Dauer: %s
+PropPlayed=Gespillt: %d
+PropUnplayed=Net gespillt: %d
+PropTotalSize=Total Gréisst: %.2f MB
+PropShuffle=Mëschen: %s
+PropRepeat=Widderhuelen: %s
+On=Un
+Off=Aus
+
+; Nei Schlësselen fir ApplyLocale
+ClearTitle=Playlist läschen
+ClearConfirm=Sidd Dir sécher dass Dir d'Playlist läsche wëllt?
+NoPlaylist=Keng Playlist
+StatusFormat=%d Elementer | Total: %s
+RepeatOne=Wid. 1
+RepeatAll=Wid. All
+HintRepeatEnable=Klickt fir Widderhuelen All unzeschalten
+HintRepeatOne=Widderhuelen Een - Klickt fir auszeschalten
+HintRepeatAll=Widderhuelen All - Klickt fir Widderhuelen Een
+HintShuffleRepeat=Mëschen + Widderhuelen All - Klickt fir Widderhuelen auszeschalten
+RemoveDuplicatesTitle=Duplikate läschen
+NoDuplicates=Keng Duplikate fonnt.
+SelectAll=All auswielen
+SelectNone=Näischt auswielen
+SelectInvert=Auswiel ëmdréien
+Sort=Sortéieren
+SortByName=No Numm
+SortByTitle=No Titel
+SortByArtist=No Kënschtler
+SortByDuration=No Dauer
+SortReverse=Ëmgedréint
+SortRandom=Zoufälleg
+ColTitle=Titel
+ColDuration=Dauer
+ColArtist=Kënschtler
+ColAlbum=Album
+PlaylistFilter=M3U Playlist|*.m3u|M3U8 Playlist|*.m3u8|PLS Playlist|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Viragestellungen:
+Preamp=Preamp:
+Flat=Flaach
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klassesch
+BassBoost=Bass verstäerken
+TrebleBoost=Héichten verstäerken
+Vocal=Gesang
+Reset=Zrécksetzen
+Enable=Equalizer aktivéieren
+Save=Späicheren
+Delete=Läschen
+Ready=Prett
+; Knäppen an Aktiounen
+SavePreset=Viragestellung späicheren
+DeletePreset=Viragestellung läschen
+SavePresetTitle=Viragestellung späicheren
+PresetNamePrompt=Viragestellung Numm:
+EnterPresetName=Gitt w.e.g. e Viragestellung Numm an.
+OverwritePresetTitle=Viragestellung iwwerschreiwen
+OverwritePresetConfirm=Eng Viragestellung mat dësem Numm gëtt et schonn. Iwwerschreiwen?
+PresetUpdated=Viragestellung aktualiséiert: %s
+PresetSaved=Viragestellung gespäichert: %s
+SelectPresetToDelete=Wielt w.e.g. eng Viragestellung fir ze läschen.
+CannotDeleteDefault=Kann Standard Viragestellungen net läschen.
+DeletePresetTitle=Viragestellung läschen
+DeletePresetConfirm=Sidd Dir sécher dass Dir dës Viragestellung läsche wëllt?
+PresetDeleted=Viragestellung geläscht
+ResetToFlat=Equalizer op flaach zréckgesat
+PresetApplied=Viragestellung ugewannt: %s
+
+[Options]
+Title=Astellungen
+General=Allgemeng
+Video=Video
+Audio=Audio
+Subtitles=Ënnertitelen
+Cache=Cache
+Language=Sprooch:
+RestartRequired=Neistarten erfuerderlech fir Ännerungen z'applizéieren
+
+; Allgemeng Tab - Verhalen
+Behavior=Verhalen
+SingleInstance=Nëmmen eng Instanz erlaben
+AutoPlay=Dateien automatesch ofspillen beim Opmaachen
+AutoResume=Ofspill Positioun weiderfoueren
+MinimizeToTray=Op System Tray minimiséieren
+AutoSavePlaylist=Playlist späicheren beim Erausgoen
+
+; Allgemeng Tab - OSD
+OSD=Bildschirmanzeig
+ShowOSD=Bildschirm Messagen weisen
+ShowTrayIcon=Tray Icon weisen
+OSDDuration=OSD Dauer (ms):
+
+; Allgemeng Tab - Screenshots
+Screenshots=Screenshots
+ScreenshotPath=Späicher Dossier:
+ScreenshotFormat=Format:
+
+; Allgemeng Tab - Geschicht
+HistorySettings=Geschicht
+HistoryEnabled=Ofspill Geschicht aktivéieren
+HistoryMaxItems=Max Elementer:
+
+; Allgemeng Tab - Sprooch
+LanguageGroup=Sprooch
+RestartNote=(Neistarten erfuerderlech fir Ännerungen)
+
+; Video Tab
+VideoAdjust=Video Ajustementer
+Brightness=Hellegkeet:
+Contrast=Kontrast:
+Saturation=Sättigung:
+Hue=Faarftoun:
+Gamma=Gamma:
+VideoOutput=Video Output
+Output=Output:
+HWAccel=Hardware Beschleunegung aktivéieren
+Deinterlacing=Deinterlacing
+Mode=Modus:
+
+; Audio Tab
+AudioOutput=Audio Output
+OutputDriver=Output Driver:
+Device=Apparat:
+AudioOptions=Audio Optiounen
+NormalizeAudio=Audio normaliséieren
+Channels=Kanäl:
+
+; Ënnertitelen Tab
+UseDefaultSubtitles=Standard Ënnertitelen Astellungen benotzen
+Font=Schrëft
+FontName=Schrëft:
+FontSize=Gréisst:
+FontColor=Faarf:
+Bold=Fett
+Italic=Kursiv
+Outline=Kontur
+OutlineColor=Faarf:
+OutlineSize=Gréisst:
+Position=Positioun
+VerticalPosition=Vertikal Positioun:
+SubOptions=Optiounen
+Encoding=Encoding:
+AutoLoadSubs=Ënnertitelen Dateien automatesch lueden
+
+; Video Output Warnungen
+VOWarningX11=Warnung: x11 ënnerstëtzt keng Video Ajustementer (Hellegkeet, Kontrast, asw.)
+VOWarningWayland=Warnung: Erfuerdert eng Wayland Sessioun. Video Ajustementer ënnerstëtzt.
+
+; Cache Tab
+CacheSettings=Cache Buffer Gréissten (KB)
+CacheDefault=Standard Cache:
+CacheLocal=Lokal Dateien:
+CacheNetwork=Netzwierk Dateien:
+CacheInternet=Internet Streams:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Iwwer
+Version=Versioun
+Engine=Engine
+Technology=Technologie
+BuildInfo=Build Informatioun
+SystemInfo=System
+Credits=Credits
+Developer=Entwéckler:
+Author=Auteur
+License=Lizenz
+Website=Websäit
+GitHub=GitHub
+Description=E modernen, liichte Medie Player
+LicenseText=3nity Media ass ënner der GPL-2.0 Lizenz\n\nDat heescht Dir sidd fräi fir:\n  - D'Software fir all Zweck ze benotzen\n  - De Source Code ze studéieren an z'änneren\n  - Kopie vun der Software ze verdeelen\n  - Är Ännerungen ze verdeelen\n\nMat der Konditioun dass all verdeelt Ännerungen\noch ënner der GPL-2.0 lizenzéiert sinn.
+BuildDate=Datum:
+Target=Zil:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Tastaturkombinatiounen
+Description=Tastaturkombinatiounen fir Aktiounen konfiguréieren
+Search=Sichen:
+PressKey=Dréckt eng Tast...
+ColCategory=Kategorie
+ColAction=Aktioun
+ColShortcut=Tastaturkombo
+Assign=Zouweisen
+Clear=Läschen
+Reset=Zrécksetzen
+ResetAll=All zrécksetzen
+CurrentShortcut=Aktuell: %s
+NoKeyPressed=Dréckt w.e.g. éischt eng Tastekombinatioun.
+Conflict=Konflikt: Scho zougewisen un "%s"
+ConfirmReplace=Tastaturkombo ersetzen
+ReplaceMessage=Dës Tastaturkombo ass scho un "%s" zougewisen. Wëllt Dir se ersetzen?
+ConfirmResetAll=All Tastaturkomboen zrécksetzen
+ResetAllMessage=Sidd Dir sécher dass Dir all Tastaturkomboen op Standard zrécksetze wëllt?
+; Aktioun Nimm
+ActPlayPause=Spillen / Paus
+ActStop=Stoppen
+ActPrevious=Vireg
+ActNext=Nächst
+ActSeekForward=Virun sichen (10s)
+ActSeekBackward=Zréck sichen (10s)
+ActSeekForward5=Virun sichen (1 Min)
+ActSeekBackward5=Zréck sichen (1 Min)
+ActSpeedUp=Méi séier
+ActSpeedDown=Méi lues
+ActSpeedReset=Vitesse zrécksetzen
+ActSetLoopA=Loop Punkt A setzen
+ActSetLoopB=Loop Punkt B setzen
+ActClearLoop=A-B Loop läschen
+ActFrameForward=Frame virun
+ActFrameBackward=Frame zréck
+ActPrevChapter=Viregt Kapitel
+ActNextChapter=Nächst Kapitel
+ActGotoTime=Zur Zäit goen
+ActVolumeUp=Volume erop
+ActVolumeDown=Volume erof
+ActMute=Stëmmen aus / un
+ActAudioDelayPlus=Audio Verspéidung +
+ActAudioDelayMinus=Audio Verspéidung -
+ActAudioDelayReset=Audio Verspéidung zrécksetzen
+ActFullscreen=Vollbild
+ActRotate=Video dréien
+ActDeinterlace=Deinterlace
+ActZoomIn=Erazoomen
+ActZoomOut=Erauszoomen
+ActZoomReset=Zoom zrécksetzen
+ActAlwaysOnTop=Ëmmer uewen
+ActFitToVideo=Un Video upassen
+ActScreenshot=Screenshot
+ActVideoAdjust=Video Ajustementer
+ActVisNextMode=Nächste Visualiséierung Modus
+ActVisNextColor=Nächst Faarfschema
+ActSubDelayPlus=Ënnertitelen Verspéidung +
+ActSubDelayMinus=Ënnertitelen Verspéidung -
+ActSubDelayReset=Ënnertitelen Verspéidung zrécksetzen
+ActDVDMenu=DVD Menü
+ActDVDUp=DVD Navigéieren Uewen
+ActDVDDown=DVD Navigéieren Ënnen
+ActDVDLeft=DVD Navigéieren Lénks
+ActDVDRight=DVD Navigéieren Riets
+ActDVDSelect=DVD Auswielen
+ActOpenFile=Datei opmaachen
+ActOpenURL=URL opmaachen
+ActPlaylist=Playlist weisen
+ActQuit=Erausgoen
+
+[Log]
+; Phase 25: Log Fënster
+Title=MPV Log
+Command=Kommando:
+Clear=Läschen
+Save=Späicheren...
+Copy=&Kopéieren
+SelectAll=All &auswielen
+SaveTitle=Log späicheren
+SaveFilter=Text Dateien (*.txt)|*.txt|All Dateien (*.*)|*.*
+ErrorTitle=Feeler
+SaveError=Konnt Log net späicheren: %s
+
+[MediaInfo]
+Title=Medie Informatioun
+FileTab=Datei
+VideoTab=Video
+AudioTab=Audio
+MetadataTab=Metadata
+FileName=Datei Numm:
+FilePath=Wee:
+FileSize=Gréisst:
+Duration=Dauer:
+Format=Format:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Opléisung:
+FrameRate=Frame Rate:
+PixelFormat=Pixel Format:
+AspectRatio=Säiteverhältnis:
+Channels=Kanäl:
+SampleRate=Sample Rate:
+Language=Sprooch:
+Property=Eegeschaft
+Value=Wäert
+CopyAll=All kopéieren
+CopiedToClipboard=Medie Informatioun op Clipboard kopéiert.
+NA=N/A
+NAStream=N/A (Stream)
+NALive=N/A (Live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Onbekannt
+NoMetadata=(Keng Metadata)
+
+[Bookmarks]
+Title=Lieszeechen
+Goto=Goe op
+Remove=Läschen
+Clear=All läschen
+Refresh=Aktualiséieren
+OpenFolder=Dossier opmaachen
+CopyPath=Wee kopéieren
+; Kolonnen
+ColName=Numm
+ColFile=Datei
+ColPosition=Positioun
+ColCreated=Erstallt
+; Dialoger
+ClearTitle=Lieszeechen läschen
+ClearConfirm=Sidd Dir sécher dass Dir all Lieszeeche läsche wëllt?
+Count=%d Lieszeechen
+
+[Favorites]
+Title=Favoriten
+Play=Spillen
+Remove=Läschen
+Clear=All läschen
+Refresh=Aktualiséieren
+OpenFolder=Dossier opmaachen
+CopyPath=Wee kopéieren
+; Kolonnen
+ColName=Numm
+ColType=Typ
+ColPath=Wee
+; Typen
+TypeFile=Datei
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Onbekannt
+; Dialoger
+ClearTitle=Favoriten läschen
+ClearConfirm=Sidd Dir sécher dass Dir all Favorite läsche wëllt?
+Count=%d Favoriten
+
+[History]
+Title=Ofspill Geschicht
+Play=Spillen
+Remove=Läschen
+Clear=All läschen
+Refresh=Aktualiséieren
+OpenFolder=Dossier opmaachen
+CopyPath=Wee kopéieren
+; Kolonnen
+ColFileName=Datei
+ColPath=Wee
+; Dialoger
+ClearTitle=Geschicht läschen
+ClearConfirm=Sidd Dir sécher dass Dir all Geschicht läsche wëllt?
+Count=%d Elementer
+
+[SleepTimer]
+Title=Schlof Timer
+Description=Timer setzen fir automatesch d'Ofspillen ze stoppen
+Hours=Stonnen:
+Minutes=Minutten:
+Action=Wann den Timer ofleeft:
+StopPlayback=Ofspillen stoppen
+CloseApp=Applikatioun zoumaachen
+Shutdown=Computer ausschalten
+QuickSet=Séier setzen:
+15Min=15 Min
+30Min=30 Min
+1Hour=1 Stonn
+2Hours=2 Stonnen
+
+[Radios]
+Title=Internet Radioen
+Play=Spillen
+Add=Derbäisetzen
+Edit=Änneren
+Delete=Läschen
+Remove=Läschen
+Import=Importéieren
+Export=Exportéieren
+Refresh=Aktualiséieren
+Favorite=Favorit
+ShowFavorites=Favoriten
+ShowAll=All
+; Filter
+Genre=Genre:
+Search=Sichen:
+SearchBtn=Sichen
+ClearSearch=Läschen
+AllGenres=(All Genren)
+; Kontext Menü
+AddFavorite=Zu Favoriten derbäisetzen
+RemoveFavorite=Vun Favoriten läschen
+AddCustom=Eege Statioun derbäisetzen...
+EditCustom=Statioun änneren...
+DeleteCustom=Statioun läschen
+OpenWebsite=Websäit opmaachen
+CopyURL=URL kopéieren
+; Kolonnen
+ColName=Numm
+ColGenre=Genre
+ColBitrate=Bitrate
+ColCountry=Land
+ColCodec=Codec
+; Dialoger
+AddTitle=Eege Statioun derbäisetzen
+EditTitle=Statioun änneren
+DeleteTitle=Statioun läschen
+DeleteConfirm=Sidd Dir sécher dass Dir dës Statioun läsche wëllt?
+StationName=Statioun Numm:
+StreamURL=Stream URL:
+GenrePrompt=Genre:
+NameURLRequired=Numm an URL sinn erfuerderlech.
+; Status Messagen
+LoadingIcecast=Statiounen vum Icecast Verzeechnes lueden...
+IcecastError=Konnt Icecast Verzeechnes net lueden. Standard Statiounen benotzen.
+NoStationsLoaded=Keng Statiounen gelueden
+StationCount=%d Statiounen
+LoadedStations=%d Statioune gelueden
+ErrorPrefix=Feeler:
+; Verierzte Schlësselen
+Name=Numm
+URL=URL
+Bitrate=Bitrate
+Description=Beschreiwung
+Country=Land
+
+[OpenURL]
+Title=URL opmaachen
+Prompt=Medie URL aginn:
+
+[GotoTime]
+Title=Zur Zäit goen
+EnterTime=Zäit aginn fir drop ze sprangen:
+Hours=St
+Minutes=Mi
+Seconds=Se
+Current=Aktuell:
+Duration=Dauer:
+
+[VideoAdjust]
+Title=Video Ajustementer
+Brightness=Hellegkeet:
+Contrast=Kontrast:
+Saturation=Sättigung:
+Hue=Faarftoun:
+Gamma=Gamma:
+ResetAll=All Faarwen zrécksetzen
+
+[CLI]
+; Kommandozeil Messagen
+Usage=Benotzung
+Arguments=[OPTIOUNEN] [FICHIER|URL|DOSSIER]
+Description=E Cross-Plattform Multimedia-Spiller mat libmpv als Backend.
+Options=OPTIOUNEN
+Examples=BEISPILLER
+MoreInfo=Fir méi Informatiounen, besicht
+EnqueuedTo=An d'Schlaang vun der existéierender Instanz gesat: %s
+SentTo=Un déi existéierend Instanz geschéckt: %s
+AlreadyRunning=3nity Media leeft scho.
+ErrorFileNotFound=Feeler: Fichier oder Dossier net fonnt: %s
+ErrorSubNotFound=Feeler: Ënnertitel-Fichier net fonnt: %s

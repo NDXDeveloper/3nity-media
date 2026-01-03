@@ -1,0 +1,892 @@
+[Language]
+Name=Danish - Dansk
+Code=da
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Fil-menu
+File=&Fil
+FileOpen=&Åbn fil...
+FileOpenURL=Åbn &URL...
+FileOpenClipboard=Åbn fra &udklipsholder
+FileRecent=&Seneste filer
+ClearRecentFiles=Ryd seneste filer
+FileExit=A&fslut
+
+; Afspilningsmenu
+Playback=&Afspilning
+PlaybackPlayPause=&Afspil/Pause
+PlaybackStop=&Stop
+PlaybackPrevious=For&rige
+PlaybackNext=&Næste
+PlaybackSeekForward=Spol &frem
+PlaybackSeekBackward=Spol &tilbage
+PlaybackSpeed=&Hastighed
+PlaybackABLoop=A-&B-loop
+PlaybackSetA=Sæt &A
+PlaybackSetB=Sæt &B
+PlaybackClearAB=&Ryd A-B
+PlaybackChapters=&Kapitler
+PlaybackPrevChapter=Forrige kapitel
+PlaybackNextChapter=Næste kapitel
+PlaybackFrameStep=Billede frem
+PlaybackFrameBack=Billede tilbage
+
+; DVD-navigation
+PlaybackDVD=DVD-&navigation
+DVDMenu=&Menu
+DVDUp=&Op
+DVDDown=&Ned
+DVDLeft=&Venstre
+DVDRight=&Højre
+DVDSelect=&Vælg
+PlaybackDVDTitles=DVD-&titler
+
+; Fase 21: Åbn mappe
+FileOpenFolder=Åbn m&appe...
+
+; Fil-menu DVD/Blu-ray
+FileOpenDVD=Åbn &DVD...
+FileOpenBluray=Åbn &Blu-ray...
+
+; Fase 13: Gå til tid og historik
+PlaybackGotoTime=&Gå til tid...
+ToolsHistory=&Historik
+
+; Fase 14: Systembakke
+TrayShow=&Vis/Skjul
+TrayPlayPause=&Afspil/Pause
+TrayStop=&Stop
+TrayPrevious=For&rige
+TrayNext=&Næste
+TrayMute=&Lydløs
+TrayExit=A&fslut
+
+; Fase 15: Bogmærker
+PlaybackAddBookmark=Tilf&øj bogmærke...
+PlaybackBookmarks=Bog&mærker
+BookmarksTitle=Bogmærker
+BookmarksGoto=&Gå til bogmærke
+BookmarksRemove=&Fjern bogmærke
+BookmarksClear=&Ryd alle bogmærker
+BookmarksOpenFolder=Åbn &mappe
+BookmarksCopyPath=&Kopier sti
+BookmarksCount=%d bogmærker
+NoBookmarks=(Ingen bogmærker)
+NoFileLoaded=(Ingen fil indlæst)
+BookmarkAdded=Bogmærke tilføjet ved %s
+BookmarkJumped=Hoppet til bogmærke ved %s
+AddBookmarkTitle=Tilføj bogmærke
+AddBookmarkPrompt=Indtast bogmærkenavn:
+ShowAllBookmarks=Vis alle bogmærker...
+
+; Fase 16: Favoritter
+ToolsFavorites=&Favoritter
+ToolsAddFavorite=Tilf&øj til favoritter
+FavoritesTitle=Favoritter
+FavoritesPlay=&Afspil
+FavoritesRemove=&Fjern fra favoritter
+FavoritesClear=&Ryd alle favoritter
+FavoritesOpenFolder=Åbn &mappe
+FavoritesCopyPath=&Kopier sti
+FavoritesCount=%d favoritter
+NoFavorites=(Ingen favoritter)
+AddFavoriteTitle=Tilføj til favoritter
+AddFavoritePrompt=Indtast navn på favorit:
+AlreadyFavorite=Allerede i favoritter
+AddedToFavorites=Tilføjet til favoritter: %s
+NoFileToFavorite=Ingen fil indlæst at tilføje til favoritter
+FavoriteTypeFile=Fil
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Spornummerformater
+TrackWithTitle=Spor %d: %s
+TrackWithLang=Spor %d (%s)
+TrackNumber=Spor %d
+
+; Hastighedsmenupunkter
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Skaleringsmenupunkter
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Undertekstspor
+SubtitleDisable=Deaktiver
+
+; Fase 17: Sovetimer
+ToolsSleepTimer=&Sovetimer...
+ToolsSleepTimerActive=&Sovetimer [%s]
+ToolsCancelTimer=Annuller &timer
+
+; Lydmenu
+Audio=&Lyd
+AudioTrack=Lyd&spor
+AudioVolumeUp=Lydstyrke &op
+AudioVolumeDown=Lydstyrke &ned
+AudioMute=&Lydløs
+AudioEqualizer=&Equalizer
+AudioDelay=Lyd&forsinkelse
+AudioDelayPlus=Forsinkelse +0,1s
+AudioDelayMinus=Forsinkelse -0,1s
+AudioDelayReset=Nulstil forsinkelse
+AudioNormalize=&Normaliser lydstyrke
+
+; Videomenu
+Video=&Video
+VideoFullscreen=&Fuld skærm
+VideoAspect=&Billedformat
+VideoAspectAuto=&Automatisk
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Skærmbillede
+VideoScreenshotAs=Skærmbillede &som...
+VideoRotation=&Rotation
+VideoRotate0=&0 grader (Normal)
+VideoRotate90=&90 grader
+VideoRotate180=&180 grader
+VideoRotate270=&270 grader
+VideoFlip=&Vend
+VideoFlipH=Vend &vandret
+VideoFlipV=Vend &lodret
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &ind
+VideoZoomOut=Zoom &ud
+VideoZoomReset=&Nulstil zoom
+VideoPan=&Panorering
+VideoPanLeft=Panorer &venstre
+VideoPanRight=Panorer &højre
+VideoPanUp=Panorer &op
+VideoPanDown=Panorer &ned
+VideoPanReset=N&ulstil panorering
+VideoTrack=Video&spor
+VideoColors=Farve&justeringer
+VideoBrightness=&Lysstyrke
+VideoContrast=&Kontrast
+VideoSaturation=&Mætning
+VideoHue=&Farvetone
+VideoGamma=&Gamma
+VideoColorsReset=Nulstil &alle farver
+VideoIncrease=Forøg (+5)
+VideoDecrease=Formindsk (-5)
+VideoReset=Nulstil
+VideoAdjustDialog=Video&justeringer...
+
+; Vis-menu
+View=&Vis
+ViewAlwaysOnTop=&Altid øverst
+ViewFitToVideo=&Tilpas vindue til video
+ViewScale=Vindue&skalering
+
+; Fase 26: Visualiseringsmenu
+ViewVisualization=&Visualisering
+VisNone=&Ingen
+VisSpectrum=&Spektrumanalysator
+VisWaveform=&Bølgeform
+VisVector=&Vektorskop
+VisVolume=V&U-meter
+VisNextMode=Næste &tilstand
+VisNextColor=Næste &farveskema
+
+; Undertekstmenu
+Subtitles=&Undertekster
+SubtitleTrack=Undertekst&spor
+SubtitleLoad=&Indlæs undertekst...
+SubtitleDelay=Undertekst&forsinkelse
+SubtitleDelayPlus=Forsinkelse +0,1s
+SubtitleDelayMinus=Forsinkelse -0,1s
+SubtitleDelayReset=Nulstil forsinkelse
+
+; Værktøjsmenu
+Tools=&Værktøjer
+ToolsPlaylist=&Afspilningsliste
+ToolsRadios=&Radioer
+ToolsShortcuts=&Tastaturgenveje...
+ToolsOptions=&Indstillinger
+
+; Fase 27: Optagelsesmenu
+ToolsRecord=&Optag stream...
+ToolsStopRecord=S&top optagelse
+ToolsRecording=&Optagelse...
+
+; Hjælp-menu
+Help=&Hjælp
+HelpMediaInfo=&Medieinfo
+HelpLog=&Logvindue
+HelpAbout=&Om
+
+[Dialog]
+OpenFile=Åbn fil
+OpenURL=Åbn URL
+SaveScreenshot=Gem skærmbillede
+LoadSubtitle=Indlæs undertekstfil
+EnterURL=Indtast URL:
+ResumePlayback=Genoptag afspilning
+ResumeFrom=Genoptag fra %s?
+ClearRecentFiles=Ryd seneste filer
+NoRecentFiles=(Ingen seneste filer)
+NoAudioTracks=(Ingen lydspor)
+NoVideoTracks=(Ingen videospor)
+NoSubtitleTracks=(Ingen undertekstspor)
+NoChapters=(Ingen kapitler)
+OpenDVD=Åbn DVD
+OpenBluray=Åbn Blu-ray
+OpenFolder=Åbn mappe
+
+; Filfiltre
+ScreenshotFilter=PNG-billede|*.png|JPEG-billede|*.jpg|WebP-billede|*.webp
+DVDFilter=DVD-mappe|*.;*.iso|Alle filer (*.*)|*.*
+BlurayFilter=Blu-ray-mappe|*.;*.iso|Alle filer (*.*)|*.*
+NoDVD=(Ingen DVD indlæst)
+DVDTitle=Titel %d
+GotoTime=Gå til tid
+EnterTime=Indtast tid at hoppe til:
+Hours=Timer
+Minutes=Minutter
+Seconds=Sekunder
+Current=Aktuel:
+HistoryTitle=Afspilningshistorik
+HistoryItems=%d elementer i historik
+HistoryPlay=&Afspil
+HistoryRemove=&Fjern fra historik
+HistoryClear=&Ryd al historik
+HistoryOpenFolder=Åbn &mappe
+HistoryCopyPath=&Kopier sti
+ClearHistory=Ryd historik
+ClearHistoryConfirm=Er du sikker på, at du vil rydde al historik?
+SleepTimerTitle=Sovetimer
+SleepTimerDescription=Indstil timer til automatisk at stoppe afspilning
+SleepTimerHours=Timer
+SleepTimerMinutes=Minutter
+SleepTimerQuickSet=Hurtig indstilling
+SleepTimerAction=Når timer udløber
+SleepTimerStopPlayback=Stop afspilning
+SleepTimerCloseApp=Luk program
+SleepTimerShutdown=Luk computer ned
+SleepTimerStart=Start timer
+
+[Status]
+Ready=Klar
+Opening=Åbner...
+Playing=Afspiller
+Paused=Pauset
+Stopped=Stoppet
+Error=Fejl
+Buffering=Bufferer...
+Seeking=Søger...
+Recording=Optager
+
+[Message]
+SpeedFormat=Hastighed: %.2fx
+VolumeFormat=Lydstyrke: %d%%
+BrightnessFormat=Lysstyrke: %d
+ContrastFormat=Kontrast: %d
+SaturationFormat=Mætning: %d
+HueFormat=Farvetone: %d
+GammaFormat=Gamma: %d
+ColorsReset=Videofarver nulstillet
+LoopASet=Loop A sat ved %s
+LoopBSet=Loop B sat ved %s - Loop aktiv
+LoopCleared=A-B-loop ryddet
+SetAFirst=Sæt punkt A først (tryk L)
+RotationFormat=Rotation: %d grader
+FlipHOn=Vandret vending: TIL
+FlipHOff=Vandret vending: FRA
+FlipVOn=Lodret vending: TIL
+FlipVOff=Lodret vending: FRA
+DeinterlaceOn=Deinterlace: TIL
+DeinterlaceOff=Deinterlace: FRA
+AlwaysOnTopOn=Altid øverst: TIL
+AlwaysOnTopOff=Altid øverst: FRA
+WindowFitted=Vindue tilpasset til %dx%d
+WindowScale=Vindueskalering: %.0f%%
+ScreenshotSaved=Skærmbillede gemt: %s
+AudioNormalizeOn=Lydnormalisering: TIL
+AudioNormalizeOff=Lydnormalisering: FRA
+AudioDelayFormat=Lydforsinkelse: %.1f s
+SubtitleDelayFormat=Undertekstforsinkelse: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Panorering: Center
+PanFormat=Panorering: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Ingen video indlæst
+PlayingFromClipboard=Afspiller fra udklipsholder: %s
+ClipboardInvalid=Udklipsholder indeholder ikke en gyldig URL eller sti
+ClipboardEmpty=Udklipsholder er tom eller indeholder ikke tekst
+ResumedAt=Genoptaget ved %s
+FrameStepForward=Billede frem
+FrameStepBackward=Billede tilbage
+PreviousChapter=Forrige kapitel
+NextChapter=Næste kapitel
+PlayingRadio=Afspiller radio: %s
+PlayingDVD=Afspiller DVD: %s
+PlayingBluray=Afspiller Blu-ray: %s
+DVDTitlePlaying=DVD-titel %d
+SeekTo=Søger til %s
+MinimizedToTray=Minimeret til bakke. Dobbeltklik for at gendanne.
+SleepTimerSet=Sovetimer indstillet: %s
+SleepTimerCancelled=Sovetimer annulleret
+SleepTimerWarning=Sovetimer: 1 minut tilbage
+SleepTimerFinal=Sovetimer: 10 sekunder tilbage
+SleepTimerStopped=Sovetimer: Afspilning stoppet
+SleepTimerClosing=Sovetimer: Lukker program
+SleepTimerShutdown=Sovetimer: Lukker computer ned
+SleepTimerExpired=Sovetimer udløbet
+ShutdownManual=Luk venligst din computer ned manuelt.
+
+; Fase 21: Åbn mappe
+FolderOpened=Åbnede mappe: %d filer
+NoMediaFound=Ingen mediefiler fundet
+FilesAdded=Tilføjet %d filer til afspilningsliste
+
+; Fase 27: Optagelsesmeddelelser
+RecordNeedPlayback=Start afspilning før optagelse.
+RecordingStarted=Optagelse startet
+RecordingStopped=Optagelse stoppet
+
+; Yderligere statusmeddelelser
+EndOfPlaylist=Slut på afspilningsliste
+NoMediaLoaded=Ingen mediefil er i øjeblikket indlæst.
+JumpedToNamed=Hoppet til: %s
+ChapterFormat=Kapitel %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Bogmærke ved %s
+
+[Label]
+Muted=Lydløs
+
+[Button]
+Play=Afspil
+Pause=Pause
+Stop=Stop
+Previous=Forrige
+Next=Næste
+Mute=Lydløs
+Unmute=Lyd til
+Fullscreen=Fuld skærm
+OK=OK
+Cancel=Annuller
+Apply=Anvend
+Close=Luk
+Yes=Ja
+No=Nej
+
+[Tooltip]
+Play=Afspil/Pause
+Stop=Stop afspilning
+Previous=Forrige spor
+Next=Næste spor
+Mute=Skift lydløs
+Volume=Lydstyrke
+Seek=Søgeposition
+Fullscreen=Skift fuld skærm
+
+[Playlist]
+Title=Afspilningsliste
+Add=Tilf&øj
+Remove=Fjern
+Clear=Ryd
+MoveUp=Flyt op
+MoveDown=Flyt ned
+Shuffle=Bland
+Repeat=Gentag
+Play=Afspil
+ShuffleOn=Bland: Til
+ShuffleOff=Bland: Fra
+RepeatOff=Gentag: Fra
+RepeatOne=Gentag: En
+RepeatAll=Gentag: Alle
+SavePlaylist=Gem
+LoadPlaylist=Indlæs
+TotalDuration=Total: %s
+ItemCount=%d elementer
+
+; Fase 22: Afspilningslisteforbedringer
+Search=Søg:
+FilterPlaceholder=Filtrer afspilningsliste...
+ClearSearch=Ryd
+FilterCount=%d/%d
+RemoveDuplicates=Fjern &dubletter
+Properties=E&genskaber...
+NoDuplicates=Ingen dubletter fundet.
+DuplicatesFound=Fandt %d dublet(ter). Fjern dem?
+RemoveDuplicatesTitle=Fjern dubletter
+PropertiesTitle=Afspilningslisteegenskaber
+PropTotalItems=Antal elementer: %d
+PropTotalDuration=Samlet varighed: %s
+PropPlayed=Afspillet: %d
+PropUnplayed=Ikke afspillet: %d
+PropTotalSize=Samlet størrelse: %.2f MB
+PropShuffle=Bland: %s
+PropRepeat=Gentag: %s
+On=Til
+Off=Fra
+
+; Nye nøgler til ApplyLocale
+ClearTitle=Ryd afspilningsliste
+ClearConfirm=Er du sikker på, at du vil rydde afspilningslisten?
+NoPlaylist=Ingen afspilningsliste
+StatusFormat=%d elementer | Total: %s
+RepeatOne=Gent. 1
+RepeatAll=Gent. alle
+HintRepeatEnable=Klik for at aktivere Gentag alle
+HintRepeatOne=Gentag en - Klik for at deaktivere
+HintRepeatAll=Gentag alle - Klik for Gentag en
+HintShuffleRepeat=Bland + Gentag alle - Klik for at deaktivere gentagelse
+RemoveDuplicatesTitle=Fjern dubletter
+NoDuplicates=Ingen dubletter fundet.
+SelectAll=Vælg alle
+SelectNone=Vælg ingen
+SelectInvert=Inverter valg
+Sort=Sorter
+SortByName=Efter navn
+SortByTitle=Efter titel
+SortByArtist=Efter kunstner
+SortByDuration=Efter varighed
+SortReverse=Omvendt
+SortRandom=Tilfældig
+ColTitle=Titel
+ColDuration=Varighed
+ColArtist=Kunstner
+ColAlbum=Album
+PlaylistFilter=M3U-afspilningsliste|*.m3u|M3U8-afspilningsliste|*.m3u8|PLS-afspilningsliste|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Forudindstillinger:
+Preamp=Forforstærker:
+Flat=Flad
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klassisk
+BassBoost=Basforstærkning
+TrebleBoost=Diskantforstærkning
+Vocal=Vokal
+Reset=Nulstil
+Enable=Aktiver equalizer
+Save=Gem
+Delete=Slet
+Ready=Klar
+; Knapper og handlinger
+SavePreset=Gem forudindstilling
+DeletePreset=Slet forudindstilling
+SavePresetTitle=Gem forudindstilling
+PresetNamePrompt=Forudindstillingsnavn:
+EnterPresetName=Indtast venligst et forudindstillingsnavn.
+OverwritePresetTitle=Overskriv forudindstilling
+OverwritePresetConfirm=En forudindstilling med dette navn findes allerede. Overskriv?
+PresetUpdated=Forudindstilling opdateret: %s
+PresetSaved=Forudindstilling gemt: %s
+SelectPresetToDelete=Vælg venligst en forudindstilling at slette.
+CannotDeleteDefault=Kan ikke slette standardforudindstillinger.
+DeletePresetTitle=Slet forudindstilling
+DeletePresetConfirm=Er du sikker på, at du vil slette denne forudindstilling?
+PresetDeleted=Forudindstilling slettet
+ResetToFlat=Equalizer nulstillet til flad
+PresetApplied=Forudindstilling anvendt: %s
+
+[Options]
+Title=Indstillinger
+General=Generelt
+Video=Video
+Audio=Lyd
+Subtitles=Undertekster
+Cache=Cache
+Language=Sprog:
+RestartRequired=Genstart krævet for at ændringer træder i kraft
+
+; Generelt faneblad - Adfærd
+Behavior=Adfærd
+SingleInstance=Tillad kun en instans
+AutoPlay=Automatisk afspilning ved åbning
+AutoResume=Genoptag afspilningsposition
+MinimizeToTray=Minimer til systembakke
+AutoSavePlaylist=Gem afspilningsliste ved afslutning
+
+; Generelt faneblad - OSD
+OSD=Skærmvisning
+ShowOSD=Vis skærmmeddelelser
+ShowTrayIcon=Vis bakkeikon
+OSDDuration=OSD-varighed (ms):
+
+; Generelt faneblad - Skærmbilleder
+Screenshots=Skærmbilleder
+ScreenshotPath=Gemmemappe:
+ScreenshotFormat=Format:
+
+; Generelt faneblad - Historik
+HistorySettings=Historik
+HistoryEnabled=Aktiver afspilningshistorik
+HistoryMaxItems=Maks. elementer:
+
+; Generelt faneblad - Sprog
+LanguageGroup=Sprog
+RestartNote=(Genstart krævet for ændringer)
+
+; Video faneblad
+VideoAdjust=Videojusteringer
+Brightness=Lysstyrke:
+Contrast=Kontrast:
+Saturation=Mætning:
+Hue=Farvetone:
+Gamma=Gamma:
+VideoOutput=Videoudgang
+Output=Udgang:
+HWAccel=Aktiver hardwareacceleration
+Deinterlacing=Deinterlacing
+Mode=Tilstand:
+
+; Lyd faneblad
+AudioOutput=Lydudgang
+OutputDriver=Udgangsdriver:
+Device=Enhed:
+AudioOptions=Lydindstillinger
+NormalizeAudio=Normaliser lydstyrke
+Channels=Kanaler:
+
+; Undertekster faneblad
+UseDefaultSubtitles=Brug standardundertekstindstillinger
+Font=Skrifttype
+FontName=Skrifttype:
+FontSize=Størrelse:
+FontColor=Farve:
+Bold=Fed
+Italic=Kursiv
+Outline=Kontur
+OutlineColor=Farve:
+OutlineSize=Størrelse:
+Position=Position
+VerticalPosition=Lodret position:
+SubOptions=Indstillinger
+Encoding=Kodning:
+AutoLoadSubs=Indlæs automatisk undertekstfiler
+
+; Videoudgangsadvarsler
+VOWarningX11=Advarsel: x11 understøtter ikke videojusteringer (lysstyrke, kontrast osv.)
+VOWarningWayland=Advarsel: Kræver en Wayland-session. Videojusteringer understøttet.
+
+; Cache faneblad
+CacheSettings=Cachebufferstørrelser (KB)
+CacheDefault=Standardcache:
+CacheLocal=Lokale filer:
+CacheNetwork=Netværksfiler:
+CacheInternet=Internetstreams:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Om
+Version=Version
+Engine=Motor
+Technology=Teknologi
+BuildInfo=Byggeinformation
+SystemInfo=System
+Credits=Credits
+Developer=Udvikler:
+Author=Forfatter
+License=Licens
+Website=Hjemmeside
+GitHub=GitHub
+Description=En moderne, letvægtsmedieafspiller
+LicenseText=3nity Media er licenseret under GPL-2.0\n\nDette betyder, at du frit kan:\n  - Bruge softwaren til ethvert formål\n  - Studere og ændre kildekoden\n  - Distribuere kopier af softwaren\n  - Distribuere dine ændringer\n\nUnder betingelse af at alle distribuerede ændringer\nogså er licenseret under GPL-2.0.
+BuildDate=Dato:
+Target=Mål:
+Kernel=Kerne:
+
+[Shortcuts]
+Title=Tastaturgenveje
+Description=Konfigurer tastaturgenveje til handlinger
+Search=Søg:
+PressKey=Tryk en tast...
+ColCategory=Kategori
+ColAction=Handling
+ColShortcut=Genvej
+Assign=Tildel
+Clear=Ryd
+Reset=Nulstil
+ResetAll=Nulstil alle
+CurrentShortcut=Aktuel: %s
+NoKeyPressed=Tryk venligst på en tastekombination først.
+Conflict=Konflikt: Allerede tildelt til "%s"
+ConfirmReplace=Erstat genvej
+ReplaceMessage=Denne genvej er allerede tildelt til "%s". Vil du erstatte den?
+ConfirmResetAll=Nulstil alle genveje
+ResetAllMessage=Er du sikker på, at du vil nulstille alle genveje til standard?
+; Handlingsnavne
+ActPlayPause=Afspil / Pause
+ActStop=Stop
+ActPrevious=Forrige
+ActNext=Næste
+ActSeekForward=Spol frem (10s)
+ActSeekBackward=Spol tilbage (10s)
+ActSeekForward5=Spol frem (1 min)
+ActSeekBackward5=Spol tilbage (1 min)
+ActSpeedUp=Hastighed op
+ActSpeedDown=Hastighed ned
+ActSpeedReset=Nulstil hastighed
+ActSetLoopA=Sæt loop-punkt A
+ActSetLoopB=Sæt loop-punkt B
+ActClearLoop=Ryd A-B-loop
+ActFrameForward=Billede frem
+ActFrameBackward=Billede tilbage
+ActPrevChapter=Forrige kapitel
+ActNextChapter=Næste kapitel
+ActGotoTime=Gå til tid
+ActVolumeUp=Lydstyrke op
+ActVolumeDown=Lydstyrke ned
+ActMute=Lydløs / Lyd til
+ActAudioDelayPlus=Lydforsinkelse +
+ActAudioDelayMinus=Lydforsinkelse -
+ActAudioDelayReset=Nulstil lydforsinkelse
+ActFullscreen=Fuld skærm
+ActRotate=Roter video
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom ind
+ActZoomOut=Zoom ud
+ActZoomReset=Nulstil zoom
+ActAlwaysOnTop=Altid øverst
+ActFitToVideo=Tilpas til video
+ActScreenshot=Skærmbillede
+ActVideoAdjust=Videojusteringer
+ActVisNextMode=Næste visualiseringstilstand
+ActVisNextColor=Næste farveskema
+ActSubDelayPlus=Undertekstforsinkelse +
+ActSubDelayMinus=Undertekstforsinkelse -
+ActSubDelayReset=Nulstil undertekstforsinkelse
+ActDVDMenu=DVD-menu
+ActDVDUp=DVD naviger op
+ActDVDDown=DVD naviger ned
+ActDVDLeft=DVD naviger venstre
+ActDVDRight=DVD naviger højre
+ActDVDSelect=DVD vælg
+ActOpenFile=Åbn fil
+ActOpenURL=Åbn URL
+ActPlaylist=Vis afspilningsliste
+ActQuit=Afslut
+
+[Log]
+; Fase 25: Logvindue
+Title=MPV-log
+Command=Kommando:
+Clear=Ryd
+Save=Gem...
+Copy=&Kopier
+SelectAll=Vælg &alle
+SaveTitle=Gem log
+SaveFilter=Tekstfiler (*.txt)|*.txt|Alle filer (*.*)|*.*
+ErrorTitle=Fejl
+SaveError=Kunne ikke gemme log: %s
+
+[MediaInfo]
+Title=Medieinformation
+FileTab=Fil
+VideoTab=Video
+AudioTab=Lyd
+MetadataTab=Metadata
+FileName=Filnavn:
+FilePath=Sti:
+FileSize=Størrelse:
+Duration=Varighed:
+Format=Format:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Opløsning:
+FrameRate=Billedhastighed:
+PixelFormat=Pixelformat:
+AspectRatio=Billedformat:
+Channels=Kanaler:
+SampleRate=Samplingfrekvens:
+Language=Sprog:
+Property=Egenskab
+Value=Værdi
+CopyAll=Kopier alt
+CopiedToClipboard=Medieinformation kopieret til udklipsholder.
+NA=I/T
+NAStream=I/T (stream)
+NALive=I/T (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Ukendt
+NoMetadata=(Ingen metadata)
+
+[Bookmarks]
+Title=Bogmærker
+Goto=Gå til
+Remove=Fjern
+Clear=Ryd alle
+Refresh=Opdater
+OpenFolder=Åbn mappe
+CopyPath=Kopier sti
+; Kolonner
+ColName=Navn
+ColFile=Fil
+ColPosition=Position
+ColCreated=Oprettet
+; Dialoger
+ClearTitle=Ryd bogmærker
+ClearConfirm=Er du sikker på, at du vil rydde alle bogmærker?
+Count=%d bogmærke(r)
+
+[Favorites]
+Title=Favoritter
+Play=Afspil
+Remove=Fjern
+Clear=Ryd alle
+Refresh=Opdater
+OpenFolder=Åbn mappe
+CopyPath=Kopier sti
+; Kolonner
+ColName=Navn
+ColType=Type
+ColPath=Sti
+; Typer
+TypeFile=Fil
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Ukendt
+; Dialoger
+ClearTitle=Ryd favoritter
+ClearConfirm=Er du sikker på, at du vil rydde alle favoritter?
+Count=%d favorit(ter)
+
+[History]
+Title=Afspilningshistorik
+Play=Afspil
+Remove=Fjern
+Clear=Ryd alle
+Refresh=Opdater
+OpenFolder=Åbn mappe
+CopyPath=Kopier sti
+; Kolonner
+ColFileName=Fil
+ColPath=Sti
+; Dialoger
+ClearTitle=Ryd historik
+ClearConfirm=Er du sikker på, at du vil rydde al historik?
+Count=%d element(er)
+
+[SleepTimer]
+Title=Sovetimer
+Description=Indstil en timer til automatisk at stoppe afspilning
+Hours=Timer:
+Minutes=Minutter:
+Action=Når timer udløber:
+StopPlayback=Stop afspilning
+CloseApp=Luk program
+Shutdown=Luk computer ned
+QuickSet=Hurtig indstilling:
+15Min=15 min
+30Min=30 min
+1Hour=1 time
+2Hours=2 timer
+
+[Radios]
+Title=Internetradioer
+Play=Afspil
+Add=Tilf&øj
+Edit=Rediger
+Delete=Slet
+Remove=Fjern
+Import=Importer
+Export=Eksporter
+Refresh=Opdater
+Favorite=Favorit
+ShowFavorites=Favoritter
+ShowAll=Alle
+; Filter
+Genre=Genre:
+Search=Søg:
+SearchBtn=Søg
+ClearSearch=Ryd
+AllGenres=(Alle genrer)
+; Kontekstmenu
+AddFavorite=Tilføj til favoritter
+RemoveFavorite=Fjern fra favoritter
+AddCustom=Tilføj tilpasset station...
+EditCustom=Rediger station...
+DeleteCustom=Slet station
+OpenWebsite=Åbn hjemmeside
+CopyURL=Kopier URL
+; Kolonner
+ColName=Navn
+ColGenre=Genre
+ColBitrate=Bitrate
+ColCountry=Land
+ColCodec=Codec
+; Dialoger
+AddTitle=Tilføj tilpasset station
+EditTitle=Rediger station
+DeleteTitle=Slet station
+DeleteConfirm=Er du sikker på, at du vil slette denne station?
+StationName=Stationsnavn:
+StreamURL=Stream-URL:
+GenrePrompt=Genre:
+NameURLRequired=Navn og URL er påkrævet.
+; Statusmeddelelser
+LoadingIcecast=Indlæser stationer fra Icecast-katalog...
+IcecastError=Kunne ikke indlæse Icecast-katalog. Bruger standardstationer.
+NoStationsLoaded=Ingen stationer indlæst
+StationCount=%d stationer
+LoadedStations=Indlæste %d stationer
+ErrorPrefix=Fejl:
+; Legacy nøgler
+Name=Navn
+URL=URL
+Bitrate=Bitrate
+Description=Beskrivelse
+Country=Land
+
+[OpenURL]
+Title=Åbn URL
+Prompt=Indtast medie-URL:
+
+[GotoTime]
+Title=Gå til tid
+EnterTime=Indtast tid at hoppe til:
+Hours=T
+Minutes=M
+Seconds=S
+Current=Aktuel:
+Duration=Varighed:
+
+[VideoAdjust]
+Title=Videojusteringer
+Brightness=Lysstyrke:
+Contrast=Kontrast:
+Saturation=Mætning:
+Hue=Farvetone:
+Gamma=Gamma:
+ResetAll=Nulstil alle farver
+
+[CLI]
+; Kommandolinje-meddelelser
+Usage=Brug
+Arguments=[INDSTILLINGER] [FIL|URL|MAPPE]
+Description=Multiplatform multimedieafspiller med libmpv-backend.
+Options=INDSTILLINGER
+Examples=EKSEMPLER
+MoreInfo=For mere information, besøg
+EnqueuedTo=Tilføjet til eksisterende instans: %s
+SentTo=Sendt til eksisterende instans: %s
+AlreadyRunning=3nity Media kører allerede.
+ErrorFileNotFound=Fejl: Fil eller mappe ikke fundet: %s
+ErrorSubNotFound=Fejl: Undertekstfil ikke fundet: %s

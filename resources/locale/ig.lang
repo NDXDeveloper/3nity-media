@@ -1,0 +1,892 @@
+[Language]
+Name=Igbo - Igbo
+Code=ig
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menu faịlụ
+File=&Faịlụ
+FileOpen=&Mepee Faịlụ...
+FileOpenURL=Mepee &URL...
+FileOpenClipboard=Mepee site na &Clipboard
+FileRecent=Faịlụ &Ọhụrụ
+ClearRecentFiles=Kpochapụ Faịlụ Ọhụrụ
+FileExit=&Pụọ
+
+; Menu igwu egwu
+Playback=&Igwu Egwu
+PlaybackPlayPause=&Kpọọ/Kwụsị
+PlaybackStop=&Kwụsị
+PlaybackPrevious=&Nke gara aga
+PlaybackNext=&Ọzọ
+PlaybackSeekForward=Chọọ &N'ihu
+PlaybackSeekBackward=Chọọ &Azụ
+PlaybackSpeed=&Ọsọ
+PlaybackABLoop=Okirikiri A-&B
+PlaybackSetA=Setịpụ &A
+PlaybackSetB=Setịpụ &B
+PlaybackClearAB=&Kpochapụ A-B
+PlaybackChapters=&Isi
+PlaybackPrevChapter=Isi Gara aga
+PlaybackNextChapter=Isi Ọzọ
+PlaybackFrameStep=Nzọụkwụ Freemu &N'ihu
+PlaybackFrameBack=Nzọụkwụ Freemu &Azụ
+
+; Ịgagharị DVD
+PlaybackDVD=&Ịgagharị DVD
+DVDMenu=&Menu
+DVDUp=&Elu
+DVDDown=&Ala
+DVDLeft=&Aka ekpe
+DVDRight=&Aka nri
+DVDSelect=&Họrọ
+PlaybackDVDTitles=&Aha DVD
+
+; Nzọụkwụ 21: Mepee Folder
+FileOpenFolder=Mepee F&older...
+
+; Menu faịlụ DVD/Bluray
+FileOpenDVD=Mepee &DVD...
+FileOpenBluray=Mepee &Blu-ray...
+
+; Nzọụkwụ 13: Gaa na Oge na Akụkọ
+PlaybackGotoTime=&Gaa na Oge...
+ToolsHistory=&Akụkọ
+
+; Nzọụkwụ 14: Tray Sistemụ
+TrayShow=&Gosi/Zoo
+TrayPlayPause=&Kpọọ/Kwụsị
+TrayStop=&Kwụsị
+TrayPrevious=&Nke gara aga
+TrayNext=&Ọzọ
+TrayMute=&Mechie Ụda
+TrayExit=&Pụọ
+
+; Nzọụkwụ 15: Akara Akwụkwọ
+PlaybackAddBookmark=Tinye &Akara Akwụkwọ...
+PlaybackBookmarks=&Akara Akwụkwọ
+BookmarksTitle=Akara Akwụkwọ
+BookmarksGoto=&Gaa na Akara Akwụkwọ
+BookmarksRemove=&Wepụ Akara Akwụkwọ
+BookmarksClear=&Kpochapụ Akara Akwụkwọ niile
+BookmarksOpenFolder=Mepee &Folder
+BookmarksCopyPath=&Detuo Ụzọ
+BookmarksCount=%d akara akwụkwọ
+NoBookmarks=(Enweghị akara akwụkwọ)
+NoFileLoaded=(Enweghị faịlụ ebubatara)
+BookmarkAdded=Etinyere akara akwụkwọ na %s
+BookmarkJumped=Awụlala na akara akwụkwọ na %s
+AddBookmarkTitle=Tinye Akara Akwụkwọ
+AddBookmarkPrompt=Tinye aha akara akwụkwọ:
+ShowAllBookmarks=Gosi Akara Akwụkwọ niile...
+
+; Nzọụkwụ 16: Ihe Masịrị
+ToolsFavorites=Ihe &Masịrị
+ToolsAddFavorite=Tinye na Ihe &Masịrị
+FavoritesTitle=Ihe Masịrị
+FavoritesPlay=&Kpọọ
+FavoritesRemove=&Wepụ na Ihe Masịrị
+FavoritesClear=&Kpochapụ Ihe Masịrị niile
+FavoritesOpenFolder=Mepee &Folder
+FavoritesCopyPath=&Detuo Ụzọ
+FavoritesCount=%d ihe masịrị
+NoFavorites=(Enweghị ihe masịrị)
+AddFavoriteTitle=Tinye na Ihe Masịrị
+AddFavoritePrompt=Tinye aha maka ihe masịrị:
+AlreadyFavorite=Ọ dị na ihe masịrị
+AddedToFavorites=Etinyere na ihe masịrị: %s
+NoFileToFavorite=Enweghị faịlụ ebubatara iji tinye na ihe masịrị
+FavoriteTypeFile=Faịlụ
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Redio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Usoro egwu
+TrackWithTitle=Egwu %d: %s
+TrackWithLang=Egwu %d (%s)
+TrackNumber=Egwu %d
+
+; Ihe menu ọsọ
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Ihe menu nha
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Egwu nkwurịta okwu
+SubtitleDisable=Gbanyụọ
+
+; Nzọụkwụ 17: Oge Ụra
+ToolsSleepTimer=&Oge Ụra...
+ToolsSleepTimerActive=&Oge Ụra [%s]
+ToolsCancelTimer=Kagbuo &Oge
+
+; Menu Ụda
+Audio=&Ụda
+AudioTrack=&Egwu Ụda
+AudioVolumeUp=Bulie &Ụda
+AudioVolumeDown=Wedata &Ụda
+AudioMute=&Mechie Ụda
+AudioEqualizer=&Equalizer
+AudioDelay=&Nkwụsịrị Ụda
+AudioDelayPlus=Nkwụsịrị +0.1s
+AudioDelayMinus=Nkwụsịrị -0.1s
+AudioDelayReset=Weghachite Nkwụsịrị
+AudioNormalize=&Dozie Ụda
+
+; Menu Vidio
+Video=&Vidio
+VideoFullscreen=&Ihuenyo Zuru oke
+VideoAspect=&Oke Ihu
+VideoAspectAuto=&Akpaaka
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Foto Ihuenyo
+VideoScreenshotAs=Foto Ihuenyo &Dị ka...
+VideoRotation=&Ịtụgharị
+VideoRotate0=&0° (Nkịtị)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Tụgharịa
+VideoFlipH=Tụgharịa &Ọkwa
+VideoFlipV=Tụgharịa &Kwụ ọtọ
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Mụbaa
+VideoZoomIn=Mụbaa &N'ime
+VideoZoomOut=Mụbaa &N'ezi
+VideoZoomReset=&Weghachite Mụbaa
+VideoPan=&Pan
+VideoPanLeft=Pan &Aka ekpe
+VideoPanRight=Pan &Aka nri
+VideoPanUp=Pan &Elu
+VideoPanDown=Pan &Ala
+VideoPanReset=W&eghachite Pan
+VideoTrack=&Egwu Vidio
+VideoColors=Ndozi &Agba
+VideoBrightness=&Ìhè
+VideoContrast=&Nkwekọrịta
+VideoSaturation=&Njupụta Agba
+VideoHue=&Agba
+VideoGamma=&Gamma
+VideoColorsReset=Weghachite &Agba niile
+VideoIncrease=Mụbaa (+5)
+VideoDecrease=Belata (-5)
+VideoReset=Weghachite
+VideoAdjustDialog=&Ndozi Vidio...
+
+; Menu Nlele
+View=Nl&ele
+ViewAlwaysOnTop=&Nọgide n'elu
+ViewFitToVideo=&Mee Window kwekọọ na Vidio
+ViewScale=&Nha Window
+
+; Nzọụkwụ 26: Menu Ọhụ
+ViewVisualization=Ọ&hụ
+VisNone=&Enweghị
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=&Ọnọdụ Ọzọ
+VisNextColor=&Usoro Agba Ọzọ
+
+; Menu Nkwurịta okwu
+Subtitles=Nkwu&rịta okwu
+SubtitleTrack=&Egwu Nkwurịta okwu
+SubtitleLoad=&Bulite Nkwurịta okwu...
+SubtitleDelay=&Nkwụsịrị Nkwurịta okwu
+SubtitleDelayPlus=Nkwụsịrị +0.1s
+SubtitleDelayMinus=Nkwụsịrị -0.1s
+SubtitleDelayReset=Weghachite Nkwụsịrị
+
+; Menu Ngwá ọrụ
+Tools=&Ngwá ọrụ
+ToolsPlaylist=&Ndepụta Egwu
+ToolsRadios=&Redio
+ToolsShortcuts=&Ụzọ Mkpịrịsị...
+ToolsOptions=&Nhọrọ
+
+; Nzọụkwụ 27: Menu Ndenye
+ToolsRecord=&Denye Mmiri iyi...
+ToolsStopRecord=&Kwụsị Ndenye
+ToolsRecording=&Ndenye...
+
+; Menu Enyemaka
+Help=E&nyemaka
+HelpMediaInfo=&Ozi Media
+HelpLog=&Window Log
+HelpAbout=&Banyere
+
+[Dialog]
+OpenFile=Mepee Faịlụ
+OpenURL=Mepee URL
+SaveScreenshot=Chekwaa Foto Ihuenyo
+LoadSubtitle=Bulite Faịlụ Nkwurịta okwu
+EnterURL=Tinye URL:
+ResumePlayback=Malitegharị Igwu Egwu
+ResumeFrom=Malitegharị site na %s?
+ClearRecentFiles=Kpochapụ Faịlụ Ọhụrụ
+NoRecentFiles=(Enweghị faịlụ ọhụrụ)
+NoAudioTracks=(Enweghị egwu ụda)
+NoVideoTracks=(Enweghị egwu vidio)
+NoSubtitleTracks=(Enweghị egwu nkwurịta okwu)
+NoChapters=(Enweghị isi)
+OpenDVD=Mepee DVD
+OpenBluray=Mepee Blu-ray
+OpenFolder=Mepee Folder
+
+; Nzacha faịlụ
+ScreenshotFilter=Foto PNG|*.png|Foto JPEG|*.jpg|Foto WebP|*.webp
+DVDFilter=Folder DVD|*.;*.iso|Faịlụ niile (*.*)|*.*
+BlurayFilter=Folder Blu-ray|*.;*.iso|Faịlụ niile (*.*)|*.*
+NoDVD=(Enweghị DVD ebubatara)
+DVDTitle=Aha %d
+GotoTime=Gaa na Oge
+EnterTime=Tinye oge ịwụla:
+Hours=Awa
+Minutes=Nkeji
+Seconds=Sekọnd
+Current=Ugbu a:
+HistoryTitle=Akụkọ Igwu Egwu
+HistoryItems=%d ihe na akụkọ
+HistoryPlay=&Kpọọ
+HistoryRemove=&Wepụ na Akụkọ
+HistoryClear=&Kpochapụ Akụkọ niile
+HistoryOpenFolder=Mepee &Folder
+HistoryCopyPath=&Detuo Ụzọ
+ClearHistory=Kpochapụ Akụkọ
+ClearHistoryConfirm=Ị ji n'aka na ịchọrọ ikpochapụ akụkọ niile?
+SleepTimerTitle=Oge Ụra
+SleepTimerDescription=Setịpụ oge iji kwụsị igwu egwu akpaaka
+SleepTimerHours=Awa
+SleepTimerMinutes=Nkeji
+SleepTimerQuickSet=Setịpụ Ọsọ Ọsọ
+SleepTimerAction=Mgbe oge gụchara
+SleepTimerStopPlayback=Kwụsị igwu egwu
+SleepTimerCloseApp=Mechie ngwa
+SleepTimerShutdown=Gbanyụọ kọmputa
+SleepTimerStart=Malite Oge
+
+[Status]
+Ready=Njikere
+Opening=Na-emepe...
+Playing=Na-akpọ
+Paused=Kwụsịrị
+Stopped=Akwụsịla
+Error=Njehie
+Buffering=Na-ebu...
+Seeking=Na-achọ...
+Recording=Na-edekọ
+
+[Message]
+SpeedFormat=Ọsọ: %.2fx
+VolumeFormat=Ụda: %d%%
+BrightnessFormat=Ìhè: %d
+ContrastFormat=Nkwekọrịta: %d
+SaturationFormat=Njupụta Agba: %d
+HueFormat=Agba: %d
+GammaFormat=Gamma: %d
+ColorsReset=Eweghachitela agba vidio
+LoopASet=Esetiripụla okirikiri A na %s
+LoopBSet=Esetiripụla okirikiri B na %s - Okirikiri na-arụ ọrụ
+LoopCleared=Ekpochapụla okirikiri A-B
+SetAFirst=Buru ụzọ setịpụ ebe A (pịa L)
+RotationFormat=Ịtụgharị: %d°
+FlipHOn=Tụgharịa ọkwa: TAN
+FlipHOff=Tụgharịa ọkwa: GBANYỤỌ
+FlipVOn=Tụgharịa kwụ ọtọ: TAN
+FlipVOff=Tụgharịa kwụ ọtọ: GBANYỤỌ
+DeinterlaceOn=Deinterlace: TAN
+DeinterlaceOff=Deinterlace: GBANYỤỌ
+AlwaysOnTopOn=Nọgide n'elu: TAN
+AlwaysOnTopOff=Nọgide n'elu: GBANYỤỌ
+WindowFitted=Emela window kwekọọ na %dx%d
+WindowScale=Nha window: %.0f%%
+ScreenshotSaved=Echekwaala foto ihuenyo: %s
+AudioNormalizeOn=Ndozi ụda: TAN
+AudioNormalizeOff=Ndozi ụda: GBANYỤỌ
+AudioDelayFormat=Nkwụsịrị ụda: %.1f s
+SubtitleDelayFormat=Nkwụsịrị nkwurịta okwu: %.1f s
+ZoomFormat=Mụbaa: %.0f%%
+PanCenter=Pan: Etiti
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Enweghị vidio ebubatara
+PlayingFromClipboard=Na-akpọ site na clipboard: %s
+ClipboardInvalid=Clipboard enweghị URL ma ọ bụ ụzọ ziri ezi
+ClipboardEmpty=Clipboard tọgbọrọ n'efu ma ọ bụ enweghị ederede
+ResumedAt=Emalitegharịla na %s
+FrameStepForward=Nzọụkwụ freemu n'ihu
+FrameStepBackward=Nzọụkwụ freemu azụ
+PreviousChapter=Isi gara aga
+NextChapter=Isi ọzọ
+PlayingRadio=Na-akpọ redio: %s
+PlayingDVD=Na-akpọ DVD: %s
+PlayingBluray=Na-akpọ Blu-ray: %s
+DVDTitlePlaying=Aha DVD %d
+SeekTo=Na-achọ %s
+MinimizedToTray=Ebelatakarịla na tray. Pịa ugboro abụọ iji weghachi.
+SleepTimerSet=Esetiripụla oge ụra: %s
+SleepTimerCancelled=Akagbuola oge ụra
+SleepTimerWarning=Oge ụra: Nkeji 1 fọdụrụ
+SleepTimerFinal=Oge ụra: Sekọnd 10 fọdụrụ
+SleepTimerStopped=Oge ụra: Akwụsịla igwu egwu
+SleepTimerClosing=Oge ụra: Na-emechi ngwa
+SleepTimerShutdown=Oge ụra: Na-agbanyụ kọmputa
+SleepTimerExpired=Oge Ụra Agụchala
+ShutdownManual=Biko gbanyụọ kọmputa gị n'aka.
+
+; Nzọụkwụ 21: Mepee Folder
+FolderOpened=Emepela folder: %d faịlụ
+NoMediaFound=Ahụghị faịlụ media
+FilesAdded=Etinyere faịlụ %d na ndepụta egwu
+
+; Nzọụkwụ 27: Ozi ndenye
+RecordNeedPlayback=Bido igwu egwu tupu ịdenye.
+RecordingStarted=Malitere ndenye
+RecordingStopped=Akwụsịla ndenye
+
+; Ozi ọnọdụ ndị ọzọ
+EndOfPlaylist=Njedebe ndepụta egwu
+NoMediaLoaded=Enweghị faịlụ media ebubatara ugbu a.
+JumpedToNamed=Ewụlala na: %s
+ChapterFormat=Isi %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Akara akwụkwọ na %s
+
+[Label]
+Muted=Emechiri Ụda
+
+[Button]
+Play=Kpọọ
+Pause=Kwụsị
+Stop=Kwụsị
+Previous=Nke gara aga
+Next=Ọzọ
+Mute=Mechie Ụda
+Unmute=Meghe Ụda
+Fullscreen=Ihuenyo Zuru oke
+OK=Ọ dị mma
+Cancel=Kagbuo
+Apply=Tinye
+Close=Mechie
+Yes=Ee
+No=Mba
+
+[Tooltip]
+Play=Kpọọ/Kwụsị
+Stop=Kwụsị igwu egwu
+Previous=Egwu gara aga
+Next=Egwu ọzọ
+Mute=Gbanwee mechie ụda
+Volume=Ụda
+Seek=Ọnọdụ ịchọ
+Fullscreen=Gbanwee ihuenyo zuru oke
+
+[Playlist]
+Title=Ndepụta Egwu
+Add=Tinye
+Remove=Wepụ
+Clear=Kpochapụ
+MoveUp=Bugaa Elu
+MoveDown=Bugaa Ala
+Shuffle=Gwakọta
+Repeat=Megharịa
+Play=Kpọọ
+ShuffleOn=Gwakọta: Tan
+ShuffleOff=Gwakọta: Gbanyụọ
+RepeatOff=Megharịa: Gbanyụọ
+RepeatOne=Megharịa: Otu
+RepeatAll=Megharịa: Niile
+SavePlaylist=Chekwaa
+LoadPlaylist=Bulite
+TotalDuration=Nchịkọta: %s
+ItemCount=%d ihe
+
+; Nzọụkwụ 22: Mmụba Ndepụta Egwu
+Search=Chọọ:
+FilterPlaceholder=Zacha ndepụta egwu...
+ClearSearch=Kpochapụ
+FilterCount=%d/%d
+RemoveDuplicates=Wepụ &Okopi
+Properties=&Njirimara...
+NoDuplicates=Ahụghị okopi.
+DuplicatesFound=Ahụla okopi %d. Wepụ ha?
+RemoveDuplicatesTitle=Wepụ Okopi
+PropertiesTitle=Njirimara Ndepụta Egwu
+PropTotalItems=Nchịkọta ihe: %d
+PropTotalDuration=Nchịkọta oge: %s
+PropPlayed=Akpọrọ: %d
+PropUnplayed=Akpọbeghị: %d
+PropTotalSize=Nchịkọta nha: %.2f MB
+PropShuffle=Gwakọta: %s
+PropRepeat=Megharịa: %s
+On=Tan
+Off=Gbanyụọ
+
+; Igodo ọhụrụ maka ApplyLocale
+ClearTitle=Kpochapụ Ndepụta Egwu
+ClearConfirm=Ị ji n'aka na ịchọrọ ikpochapụ ndepụta egwu?
+NoPlaylist=Enweghị ndepụta egwu
+StatusFormat=%d ihe | Nchịkọta: %s
+RepeatOne=Meg. 1
+RepeatAll=Meg. Niile
+HintRepeatEnable=Pịa iji tan Megharịa Niile
+HintRepeatOne=Megharịa Otu - Pịa iji gbanyụọ
+HintRepeatAll=Megharịa Niile - Pịa maka Megharịa Otu
+HintShuffleRepeat=Gwakọta + Megharịa Niile - Pịa iji gbanyụọ megharịa
+RemoveDuplicatesTitle=Wepụ Okopi
+NoDuplicates=Ahụghị okopi.
+SelectAll=Họrọ Niile
+SelectNone=Họpụtaghị Ọbụla
+SelectInvert=Tụgharịa Nhọrọ
+Sort=Hazie
+SortByName=Site na Aha
+SortByTitle=Site na Aha
+SortByArtist=Site na Onye na-akpọ
+SortByDuration=Site na Oge
+SortReverse=Tụgharịa
+SortRandom=Gwakọta
+ColTitle=Aha
+ColDuration=Oge
+ColArtist=Onye na-akpọ
+ColAlbum=Album
+PlaylistFilter=Ndepụta Egwu M3U|*.m3u|Ndepụta Egwu M3U8|*.m3u8|Ndepụta Egwu PLS|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Nhọrọ Tupu:
+Preamp=Preamp:
+Flat=Larịị
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Oge Ochie
+BassBoost=Mụbaa Bass
+TrebleBoost=Mụbaa Treble
+Vocal=Olu
+Reset=Weghachite
+Enable=Tan Equalizer
+Save=Chekwaa
+Delete=Hichapụ
+Ready=Njikere
+; Bọtịnụ na omume
+SavePreset=Chekwaa Nhọrọ Tupu
+DeletePreset=Hichapụ Nhọrọ Tupu
+SavePresetTitle=Chekwaa Nhọrọ Tupu
+PresetNamePrompt=Aha nhọrọ tupu:
+EnterPresetName=Biko tinye aha nhọrọ tupu.
+OverwritePresetTitle=Degharịa Nhọrọ Tupu
+OverwritePresetConfirm=Nhọrọ tupu nwere aha a adịla. Degharịa ya?
+PresetUpdated=Emelitela nhọrọ tupu: %s
+PresetSaved=Echekwaala nhọrọ tupu: %s
+SelectPresetToDelete=Biko họrọ nhọrọ tupu ịhichapụ.
+CannotDeleteDefault=Enweghị ike ihichapụ nhọrọ tupu mbụ.
+DeletePresetTitle=Hichapụ Nhọrọ Tupu
+DeletePresetConfirm=Ị ji n'aka na ịchọrọ ihichapụ nhọrọ tupu a?
+PresetDeleted=Ehichapụla nhọrọ tupu
+ResetToFlat=Eweghachitela equalizer na larịị
+PresetApplied=Etinyere nhọrọ tupu: %s
+
+[Options]
+Title=Nhọrọ
+General=Izugbe
+Video=Vidio
+Audio=Ụda
+Subtitles=Nkwurịta okwu
+Cache=Cache
+Language=Asụsụ:
+RestartRequired=A chọrọ ịmalitegharị ka mgbanwe rụọ ọrụ
+
+; Tab Izugbe - Omume
+Behavior=Omume
+SingleInstance=Kwe ka otu ihe atụ soro
+AutoPlay=Kpọọ faịlụ akpaaka mgbe emepere
+AutoResume=Malitegharị ọnọdụ igwu egwu
+MinimizeToTray=Belata na tray sistemụ
+AutoSavePlaylist=Chekwaa ndepụta egwu mgbe ịpụrụ
+
+; Tab Izugbe - OSD
+OSD=Ngosipụta n'Ihuenyo
+ShowOSD=Gosi ozi n'ihuenyo
+ShowTrayIcon=Gosi akara tray
+OSDDuration=Oge OSD (ms):
+
+; Tab Izugbe - Foto Ihuenyo
+Screenshots=Foto Ihuenyo
+ScreenshotPath=Folder ịchekwaa:
+ScreenshotFormat=Ụdị:
+
+; Tab Izugbe - Akụkọ
+HistorySettings=Akụkọ
+HistoryEnabled=Tan akụkọ igwu egwu
+HistoryMaxItems=Ihe kacha ukwuu:
+
+; Tab Izugbe - Asụsụ
+LanguageGroup=Asụsụ
+RestartNote=(A chọrọ ịmalitegharị maka mgbanwe)
+
+; Tab Vidio
+VideoAdjust=Ndozi Vidio
+Brightness=Ìhè:
+Contrast=Nkwekọrịta:
+Saturation=Njupụta Agba:
+Hue=Agba:
+Gamma=Gamma:
+VideoOutput=Mpụta Vidio
+Output=Mpụta:
+HWAccel=Tan mmụba ngwaike
+Deinterlacing=Deinterlacing
+Mode=Ọnọdụ:
+
+; Tab Ụda
+AudioOutput=Mpụta Ụda
+OutputDriver=Draịva mpụta:
+Device=Ngwaọrụ:
+AudioOptions=Nhọrọ Ụda
+NormalizeAudio=Dozie ụda
+Channels=Ụzọ:
+
+; Tab Nkwurịta okwu
+UseDefaultSubtitles=Jiri ntọala nkwurịta okwu mbụ
+Font=Font
+FontName=Font:
+FontSize=Nha:
+FontColor=Agba:
+Bold=Bold
+Italic=Italic
+Outline=Akụkụ
+OutlineColor=Agba:
+OutlineSize=Nha:
+Position=Ọnọdụ
+VerticalPosition=Ọnọdụ kwụ ọtọ:
+SubOptions=Nhọrọ
+Encoding=Encoding:
+AutoLoadSubs=Bulite faịlụ nkwurịta okwu akpaaka
+
+; Ịdọ aka ná ntị mpụta vidio
+VOWarningX11=Ịdọ aka ná ntị: x11 anaghị akwado ndozi vidio (ìhè, nkwekọrịta, wdg.)
+VOWarningWayland=Ịdọ aka ná ntị: Ọ chọrọ oge Wayland. Akwadoro ndozi vidio.
+
+; Tab Cache
+CacheSettings=Nha Buffer Cache (KB)
+CacheDefault=Cache mbụ:
+CacheLocal=Faịlụ mpaghara:
+CacheNetwork=Faịlụ netwọk:
+CacheInternet=Mmiri iyi Ịntanetị:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Banyere
+Version=Ụdị
+Engine=Engine
+Technology=Teknụzụ
+BuildInfo=Ozi Iwu
+SystemInfo=Sistemụ
+Credits=Asọpụrụ
+Developer=Onye mmepe:
+Author=Onye dere
+License=Ikike
+Website=Weebụsaịtị
+GitHub=GitHub
+Description=Onye na-akpọ media ọhụrụ, dị mfe
+LicenseText=3nity Media nọ n'okpuru ikike GPL-2.0\n\nNke a pụtara na ị nwere nnwere onwe iji:\n  • Jiri software maka ebumnuche ọ bụla\n  • Mụta ma gbanwee koodu isi mmalite\n  • Kesaa ụdị software\n  • Kesaa mgbanwe gị\n\nN'okpuru ọnọdụ na mgbanwe ọ bụla ekesara\naga-adịkwa n'okpuru ikike GPL-2.0.
+BuildDate=Ụbọchị:
+Target=Ebumnuche:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Ụzọ Mkpịrịsị Keyboard
+Description=Hazie ụzọ mkpịrịsị maka omume
+Search=Chọọ:
+PressKey=Pịa igodo...
+ColCategory=Udi
+ColAction=Omume
+ColShortcut=Ụzọ Mkpịrịsị
+Assign=Kenye
+Clear=Kpochapụ
+Reset=Weghachite
+ResetAll=Weghachite Niile
+CurrentShortcut=Ugbu a: %s
+NoKeyPressed=Biko buru ụzọ pịa nchịkọta igodo.
+Conflict=Nsogbu: Ekenyela na "%s"
+ConfirmReplace=Dochie Ụzọ Mkpịrịsị
+ReplaceMessage=Ekenyela ụzọ mkpịrịsị a na "%s". Ịchọrọ idochi ya?
+ConfirmResetAll=Weghachite Ụzọ Mkpịrịsị Niile
+ResetAllMessage=Ị ji n'aka na ịchọrọ iweghachi ụzọ mkpịrịsị niile na nke mbụ?
+; Aha omume
+ActPlayPause=Kpọọ / Kwụsị
+ActStop=Kwụsị
+ActPrevious=Nke gara aga
+ActNext=Ọzọ
+ActSeekForward=Chọọ N'ihu (10s)
+ActSeekBackward=Chọọ Azụ (10s)
+ActSeekForward5=Chọọ N'ihu (1 min)
+ActSeekBackward5=Chọọ Azụ (1 min)
+ActSpeedUp=Mụbaa Ọsọ
+ActSpeedDown=Belata Ọsọ
+ActSpeedReset=Weghachite Ọsọ
+ActSetLoopA=Setịpụ Ebe Okirikiri A
+ActSetLoopB=Setịpụ Ebe Okirikiri B
+ActClearLoop=Kpochapụ Okirikiri A-B
+ActFrameForward=Freemu N'ihu
+ActFrameBackward=Freemu Azụ
+ActPrevChapter=Isi Gara aga
+ActNextChapter=Isi Ọzọ
+ActGotoTime=Gaa na Oge
+ActVolumeUp=Bulie Ụda
+ActVolumeDown=Wedata Ụda
+ActMute=Mechie Ụda / Meghe
+ActAudioDelayPlus=Nkwụsịrị Ụda +
+ActAudioDelayMinus=Nkwụsịrị Ụda -
+ActAudioDelayReset=Weghachite Nkwụsịrị Ụda
+ActFullscreen=Ihuenyo Zuru oke
+ActRotate=Tụgharịa Vidio
+ActDeinterlace=Deinterlace
+ActZoomIn=Mụbaa N'ime
+ActZoomOut=Mụbaa N'ezi
+ActZoomReset=Weghachite Mụbaa
+ActAlwaysOnTop=Nọgide N'elu
+ActFitToVideo=Kwekọọ na Vidio
+ActScreenshot=Foto Ihuenyo
+ActVideoAdjust=Ndozi Vidio
+ActVisNextMode=Ọnọdụ Ọhụ Ọzọ
+ActVisNextColor=Usoro Agba Ọzọ
+ActSubDelayPlus=Nkwụsịrị Nkwurịta okwu +
+ActSubDelayMinus=Nkwụsịrị Nkwurịta okwu -
+ActSubDelayReset=Weghachite Nkwụsịrị Nkwurịta okwu
+ActDVDMenu=Menu DVD
+ActDVDUp=Gaa Elu na DVD
+ActDVDDown=Gaa Ala na DVD
+ActDVDLeft=Gaa Aka ekpe na DVD
+ActDVDRight=Gaa Aka nri na DVD
+ActDVDSelect=Họrọ na DVD
+ActOpenFile=Mepee Faịlụ
+ActOpenURL=Mepee URL
+ActPlaylist=Gosi Ndepụta Egwu
+ActQuit=Pụọ
+
+[Log]
+; Nzọụkwụ 25: Window Log
+Title=Log MPV
+Command=Iwu:
+Clear=Kpochapụ
+Save=Chekwaa...
+Copy=&Detuo
+SelectAll=Họrọ &Niile
+SaveTitle=Chekwaa Log
+SaveFilter=Faịlụ ederede (*.txt)|*.txt|Faịlụ niile (*.*)|*.*
+ErrorTitle=Njehie
+SaveError=Enweghị ike ịchekwaa log: %s
+
+[MediaInfo]
+Title=Ozi Media
+FileTab=Faịlụ
+VideoTab=Vidio
+AudioTab=Ụda
+MetadataTab=Metadata
+FileName=Aha Faịlụ:
+FilePath=Ụzọ:
+FileSize=Nha:
+Duration=Oge:
+Format=Ụdị:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Mkpebi:
+FrameRate=Ọnụọgụ Freemu:
+PixelFormat=Ụdị Pixel:
+AspectRatio=Oke Ihu:
+Channels=Ụzọ:
+SampleRate=Ọnụọgụ Sampụlụ:
+Language=Asụsụ:
+Property=Njirimara
+Value=Uru
+CopyAll=Detuo Niile
+CopiedToClipboard=Edetuola ozi media na clipboard.
+NA=Enweghị
+NAStream=Enweghị (mmiri iyi)
+NALive=Enweghị (ndụ)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Amaghị
+NoMetadata=(Enweghị metadata)
+
+[Bookmarks]
+Title=Akara Akwụkwọ
+Goto=Gaa
+Remove=Wepụ
+Clear=Kpochapụ Niile
+Refresh=Melitegharị
+OpenFolder=Mepee Folder
+CopyPath=Detuo Ụzọ
+; Kọlụm
+ColName=Aha
+ColFile=Faịlụ
+ColPosition=Ọnọdụ
+ColCreated=Okere
+; Mkparịta ụka
+ClearTitle=Kpochapụ Akara Akwụkwọ
+ClearConfirm=Ị ji n'aka na ịchọrọ ikpochapụ akara akwụkwọ niile?
+Count=akara akwụkwọ %d
+
+[Favorites]
+Title=Ihe Masịrị
+Play=Kpọọ
+Remove=Wepụ
+Clear=Kpochapụ Niile
+Refresh=Melitegharị
+OpenFolder=Mepee Folder
+CopyPath=Detuo Ụzọ
+; Kọlụm
+ColName=Aha
+ColType=Ụdị
+ColPath=Ụzọ
+; Ụdị
+TypeFile=Faịlụ
+TypeURL=URL
+TypeRadio=Redio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Amaghị
+; Mkparịta ụka
+ClearTitle=Kpochapụ Ihe Masịrị
+ClearConfirm=Ị ji n'aka na ịchọrọ ikpochapụ ihe masịrị niile?
+Count=%d ihe masịrị
+
+[History]
+Title=Akụkọ Igwu Egwu
+Play=Kpọọ
+Remove=Wepụ
+Clear=Kpochapụ Niile
+Refresh=Melitegharị
+OpenFolder=Mepee Folder
+CopyPath=Detuo Ụzọ
+; Kọlụm
+ColFileName=Faịlụ
+ColPath=Ụzọ
+; Mkparịta ụka
+ClearTitle=Kpochapụ Akụkọ
+ClearConfirm=Ị ji n'aka na ịchọrọ ikpochapụ akụkọ niile?
+Count=%d ihe
+
+[SleepTimer]
+Title=Oge Ụra
+Description=Setịpụ oge iji kwụsị igwu egwu akpaaka
+Hours=Awa:
+Minutes=Nkeji:
+Action=Mgbe oge gụchara:
+StopPlayback=Kwụsị igwu egwu
+CloseApp=Mechie ngwa
+Shutdown=Gbanyụọ kọmputa
+QuickSet=Setịpụ ọsọ ọsọ:
+15Min=Nkeji 15
+30Min=Nkeji 30
+1Hour=Awa 1
+2Hours=Awa 2
+
+[Radios]
+Title=Redio Ịntanetị
+Play=Kpọọ
+Add=Tinye
+Edit=Dezie
+Delete=Hichapụ
+Remove=Wepụ
+Import=Bubata
+Export=Bupụ
+Refresh=Melitegharị
+Favorite=Ihe Masịrị
+ShowFavorites=Ihe Masịrị
+ShowAll=Niile
+; Nzacha
+Genre=Ụdị:
+Search=Chọọ:
+SearchBtn=Chọọ
+ClearSearch=Kpochapụ
+AllGenres=(Ụdị Niile)
+; Menu ihe omume
+AddFavorite=Tinye na Ihe Masịrị
+RemoveFavorite=Wepụ na Ihe Masịrị
+AddCustom=Tinye Ọdụ ụgbọ nke gi...
+EditCustom=Dezie Ọdụ ụgbọ...
+DeleteCustom=Hichapụ Ọdụ ụgbọ
+OpenWebsite=Mepee Weebụsaịtị
+CopyURL=Detuo URL
+; Kọlụm
+ColName=Aha
+ColGenre=Ụdị
+ColBitrate=Bitrate
+ColCountry=Obodo
+ColCodec=Codec
+; Mkparịta ụka
+AddTitle=Tinye Ọdụ ụgbọ Nke gi
+EditTitle=Dezie Ọdụ ụgbọ
+DeleteTitle=Hichapụ Ọdụ ụgbọ
+DeleteConfirm=Ị ji n'aka na ịchọrọ ihichapụ ọdụ ụgbọ a?
+StationName=Aha Ọdụ ụgbọ:
+StreamURL=URL Mmiri iyi:
+GenrePrompt=Ụdị:
+NameURLRequired=A chọrọ aha na URL.
+; Ozi ọnọdụ
+LoadingIcecast=Na-ebu ọdụ ụgbọ site na ndị nchịkọta Icecast...
+IcecastError=Enweghị ike ibu ndị nchịkọta Icecast. Na-eji ọdụ ụgbọ mbụ.
+NoStationsLoaded=Enweghị ọdụ ụgbọ ebubatara
+StationCount=%d ọdụ ụgbọ
+LoadedStations=Ebubatara ọdụ ụgbọ %d
+ErrorPrefix=Njehie:
+; Igodo ochie
+Name=Aha
+URL=URL
+Bitrate=Bitrate
+Description=Nkọwa
+Country=Obodo
+
+[OpenURL]
+Title=Mepee URL
+Prompt=Tinye URL media:
+
+[GotoTime]
+Title=Gaa na Oge
+EnterTime=Tinye oge ịwụla:
+Hours=A
+Minutes=N
+Seconds=S
+Current=Ugbu a:
+Duration=Oge:
+
+[VideoAdjust]
+Title=Ndozi Vidio
+Brightness=Ìhè:
+Contrast=Nkwekọrịta:
+Saturation=Njupụta Agba:
+Hue=Agba:
+Gamma=Gamma:
+ResetAll=Weghachite Agba Niile
+
+[CLI]
+; Ozi ahịrị iwu
+Usage=Ojiji
+Arguments=[NHỌRỌ] [FAỊLỤ|URL|NCHEKWA]
+Description=Ngwa egwu multimedia nke na-agafe ikpo okwu dị iche iche na-eji libmpv dị ka ụzọ azụ.
+Options=NHỌRỌ
+Examples=ATỤ
+MoreInfo=Maka ozi ndị ọzọ, gaa na
+EnqueuedTo=Etinyere na ahịrị nke ọnọdụ dị adị: %s
+SentTo=Ezigara ọnọdụ dị adị: %s
+AlreadyRunning=3nity Media na-agba ọsọ ugbu a.
+ErrorFileNotFound=Njehie: Ahụghị faịlụ ma ọ bụ ndekọ: %s
+ErrorSubNotFound=Njehie: Ahụghị faịlụ ndetu okwu: %s

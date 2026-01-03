@@ -1,0 +1,892 @@
+[Language]
+Name=Armenian - Հայերեն
+Code=hy
+Author=Nicolas DEOUX
+
+[Menu]
+; File menu
+File=&Նայլ
+FileOpen=&Բացել ֆայլ...
+FileOpenURL=Բացել &URL...
+FileOpenClipboard=Բացել ից &սեղմաման թերթ
+FileRecent=&Վերջին ֆայլեր
+ClearRecentFiles=Մաքրել վերջին ֆայլերը
+FileExit=E&լք
+
+; Playback menu
+Playback=&Նվագարկում
+PlaybackPlayPause=&Նվագարկել/Դադար
+PlaybackStop=&Կանգնել
+PlaybackPrevious=Pre&ախորդ
+PlaybackNext=&Հաջորդ
+PlaybackSeekForward=Փնտրել &առաջ
+PlaybackSeekBackward=Փնտրել &հետ
+PlaybackSpeed=&Արագություն
+PlaybackABLoop=A-&B օղակ
+PlaybackSetA=Սահմանել &A
+PlaybackSetB=Սահմանել &B
+PlaybackClearAB=&Մաքրել A-B
+PlaybackChapters=&Գլուխներ
+PlaybackPrevChapter=Նախորդ գլուխ
+PlaybackNextChapter=Հաջորդ գլուխ
+PlaybackFrameStep=Կադր քայլ &առաջ
+PlaybackFrameBack=Կադր քայլ &հետ
+
+; DVD Navigation
+PlaybackDVD=DVD &նավարկում
+DVDMenu=&Մենյու
+DVDUp=&Վերև
+DVDDown=&Վար
+DVDLeft=&Ձախ
+DVDRight=&Աջ
+DVDSelect=&Ընտրել
+PlaybackDVDTitles=DVD &վերնագրեր
+
+; Phase 21: Open Folder
+FileOpenFolder=Բացել F&older...
+
+; File menu DVD/Bluray
+FileOpenDVD=Բացել &DVD...
+FileOpenBluray=Բացել &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Անցնել պահին...
+ToolsHistory=&Պատմություն
+
+; Phase 14: System Tray
+TrayShow=&Ցույց տալ/Թաքցնել
+TrayPlayPause=&Նվագարկել/Դադար
+TrayStop=&Կանգնել
+TrayPrevious=Pre&ախորդ
+TrayNext=&Հաջորդ
+TrayMute=&Լռեցնել
+TrayExit=E&լք
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Ավելացնել &էջանիշ...
+PlaybackBookmarks=Book&marks
+BookmarksTitle=Էջանիշներ
+BookmarksGoto=&Անցնել էջանիշին
+BookmarksRemove=&Հեռացնել էջանիշը
+BookmarksClear=&Մաքրել բոլոր էջանիշները
+BookmarksOpenFolder=Բացել &թղթապանակ
+BookmarksCopyPath=&Պատճենել ուղին
+BookmarksCount=%d էջանիշ
+NoBookmarks=(Ոչ էջանիշ)
+NoFileLoaded=(Ոչ file loaded)
+BookmarkAdded=էջանիշ added at %s
+BookmarkJumped=Jumped դեպի bookmark at %s
+AddBookmarkTitle=Ավելացնել էջանիշ
+AddBookmarkPrompt=Մուտքագրեք bookmark name:
+ShowAllBookmarks=Ցույց տալ բոլոր էջանիշները...
+
+; Phase 16: Favorites
+ToolsFavorites=&Նախընտրածներ
+ToolsAddFavorite=Ավելացնել դեպի Favo&rites
+FavoritesTitle=Նախընտրածներ
+FavoritesPlay=&Նվագարկել
+FavoritesRemove=&Հեռացնել նախընտրածներից
+FavoritesClear=&Մաքրել բոլոր նախընտրածները
+FavoritesOpenFolder=Բացել &թղթապանակ
+FavoritesCopyPath=&Պատճենել ուղին
+FavoritesCount=%d նախընտրածներ
+NoFavorites=(Ոչ նախընտրածներ)
+AddFavoriteTitle=Ավելացնել նախընտրածներին
+AddFavoritePrompt=Մուտքագրեք name for favorite:
+AlreadyFavorite=Already in նախընտրածներ
+AddedToFavorites=Ավելացնելed դեպի նախընտրածներ: %s
+NoFileToFavorite=Ոչ file loaded դեպի add դեպի նախընտրածներ
+FavoriteTypeFile=Նայլ
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Լադիո
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=հոլք %d: %s
+TrackWithLang=հոլք %d (%s)
+TrackNumber=հոլք %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Անջատել
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&Քնի պահաչափ...
+ToolsSleepTimerActive=&Քնի պահաչափ [%s]
+ToolsCancelTimer=Չեղարկել &պահաչափ
+
+; Audio menu
+Audio=&Ձայն
+AudioTrack=Ձայն &հոլք
+AudioVolumeUp=Ձայն &Վերև
+AudioVolumeDown=Ձայն &Վար
+AudioMute=&Լռեցնել
+AudioEqualizer=&Էկվալայզեր
+AudioDelay=Ձայն &հապաղեցում
+AudioDelayPlus=հապաղեցում +0.1s
+AudioDelayMinus=հապաղեցում -0.1s
+AudioDelayReset=Վերակայել հապաղեցումը
+AudioNormalize=&Նորմալացնել ձայնը
+
+; Video menu
+Video=&Տեսանյութ
+VideoFullscreen=&Լիարջեկրան
+VideoAspect=&Կողմերի հարաբերություն
+VideoAspectAuto=&Ինքնաշխատ
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Էկրանի նկար
+VideoScreenshotAs=Էկրանի նկար &As...
+VideoRotation=&Պտույտ
+VideoRotate0=&0° (Նորմալ)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Շրջել
+VideoFlipH=Շրջել &Հորիզոնական
+VideoFlipV=Շրջել &Ուղղահայաց
+VideoDeinterlace=&Դեինտերլեյս
+VideoZoom=&Մեծացում
+VideoZoomIn=Մեծացում &In
+VideoZoomOut=Մեծացում &Out
+VideoZoomReset=&Վերակայել մեծացումը
+VideoPan=&Պանորամա
+VideoPanLeft=Պանորամա &Ձախ
+VideoPanRight=Պանորամա &Աջ
+VideoPanUp=Պանորամա &Վերև
+VideoPanDown=Պանորամա &Վար
+VideoPanReset=R&eset Պանորամա
+VideoTrack=Տեսանյութ &հոլք
+VideoColors=Գույն &կարգավորումներ
+VideoBrightness=&Պայծառություն
+VideoContrast=&Կոնտրաստ
+VideoSaturation=&Հագեցվածություն
+VideoHue=&Երանգ
+VideoGamma=&Գամմա
+VideoColorsReset=Վերակայել &Բոլորը գույներ
+VideoIncrease=Բարձրացնել (+5)
+VideoDecrease=Նվազեցնել (-5)
+VideoReset=Վերակայել
+VideoAdjustDialog=Տեսանյութ &կարգավորումներ...
+
+; View menu
+View=Vi&ew
+ViewAlwaysOnTop=&Միշտ վերևում
+ViewFitToVideo=&Հարմարեցնել պատուհանը տեսանյութին
+ViewScale=Պատուհան &մասշտաբ
+
+; Phase 26: Visualization menu
+ViewVisualization=&Վիզուալիզացիա
+VisNone=&Ոչ
+VisSpectrum=&Սպեկտրի անալիզատոր
+VisWaveform=&Ալիքի ձև
+VisVector=&Վեկտորային դիտող
+VisVolume=V&U հաշվիչ
+VisNextMode=Հաջորդ &ռեժիմ
+VisNextColor=Հաջորդ &Գույն սխեմա
+
+; Subtitles menu
+Subtitles=&Սուբտիտրներ
+SubtitleTrack=Սուբտիտր &հոլք
+SubtitleLoad=&Բեռնել սուբտիտր...
+SubtitleDelay=Սուբտիտր &հապաղեցում
+SubtitleDelayPlus=հապաղեցում +0.1s
+SubtitleDelayMinus=հապաղեցում -0.1s
+SubtitleDelayReset=Վերակայել հապաղեցումը
+
+; Tools menu
+Tools=&Գործիքներ
+ToolsPlaylist=&Նվագարկման ցանկ
+ToolsRadios=&Լադիոկայաններ
+ToolsShortcuts=&Ստեղնաշարի դյուրանցումներ...
+ToolsOptions=&Կարգավորումներ
+
+; Phase 27: Recording menu
+ToolsRecord=&Ձայնագրել հոսքը...
+ToolsStopRecord=S&դեպիp Ձայնագրում
+ToolsRecording=&Ձայնագրում...
+
+; Help menu
+Help=&Օգնություն
+HelpMediaInfo=&Մեդիա տեղեկություն
+HelpLog=&Մատյանի պատուհան
+HelpAbout=&Հավելվածի մասին
+
+[Dialog]
+OpenFile=Բացել ֆայլ
+OpenURL=Բացել URL
+SaveScreenshot=Պահպանել Էկրանի նկար
+LoadSubtitle=Բեռնել սուբտիտր Նայլ
+EnterURL=Մուտքագրեք URL:
+ResumePlayback=Շարունակել Նվագարկում
+ResumeFrom=Շարունակել ից %s?
+ClearRecentFiles=Մաքրել վերջին ֆայլերը
+NoRecentFiles=(Ոչ recent files)
+NoAudioTracks=(Ոչ audio tracks)
+NoVideoTracks=(Ոչ video tracks)
+NoSubtitleTracks=(Ոչ subtitle tracks)
+NoChapters=(Ոչ chapters)
+OpenDVD=Բացել DVD
+OpenBluray=Բացել Blu-ray
+OpenFolder=Բացել թղթապանակ
+
+; File filters
+ScreenshotFilter=PNG Նկար|*.png|JPEG Նկար|*.jpg|WebP Նկար|*.webp
+DVDFilter=DVD թղթապանակ|*.;*.iso|Բոլորը files (*.*)|*.*
+BlurayFilter=Blu-ray թղթապանակ|*.;*.iso|Բոլորը files (*.*)|*.*
+NoDVD=(Ոչ DVD loaded)
+DVDTitle=Վերնագիր %d
+GotoTime=Անցնել պահին
+EnterTime=Մուտքագրեք the time դեպի jump դեպի:
+Hours=Ժամ
+Minutes=Րոպե
+Seconds=Վայրկյան
+Current=Ընթացիկ:
+HistoryTitle=Նվագարկում Պատմություն
+HistoryItems=%d տարր in hisդեպիry
+HistoryPlay=&Նվագարկել
+HistoryRemove=&Հեռացնել ից Պատմություն
+HistoryClear=&Մաքրել Բոլորը Պատմություն
+HistoryOpenFolder=Բացել &թղթապանակ
+HistoryCopyPath=&Պատճենել ուղին
+ClearHistory=Մաքրել Պատմություն
+ClearHistoryConfirm=Are you sure you want դեպի clear all hisդեպիry?
+SleepTimerTitle=Քնի պահաչափ
+SleepTimerDescription=Սահմանել timer դեպի auդեպիmatically sդեպիp playback
+SleepTimerHours=Ժամ
+SleepTimerMinutes=Րոպե
+SleepTimerQuickSet=Quick Սահմանել
+SleepTimerAction=When timer expires
+SleepTimerStopPlayback=Կանգնել playback
+SleepTimerCloseApp=Փակել application
+SleepTimerShutdown=Shutdown computer
+SleepTimerStart=Start պահաչափ
+
+[Status]
+Ready=Պատրաստ
+Opening=Բացվում է...
+Playing=Նվագարկում է
+Paused=Դադարեցված է
+Stopped=Կանգնեցված է
+Error=Սխալ
+Buffering=Բուֆերավորում...
+Seeking=Փնտրում...
+Recording=Ձայնագրում
+
+[Message]
+SpeedFormat=Արագություն: %.2fx
+VolumeFormat=Ձայն: %d%%
+BrightnessFormat=Պայծառություն: %d
+ContrastFormat=Կոնտրաստ: %d
+SaturationFormat=Հագեցվածություն: %d
+HueFormat=Երանգ: %d
+GammaFormat=Գամմա: %d
+ColorsReset=Տեսանյութ colors reset
+LoopASet=օղակ A set at %s
+LoopBSet=օղակ B set at %s - օղակ active
+LoopCleared=A-B օղակ cleared
+SetAFirst=Սահմանել point A first (press L)
+RotationFormat=Պտույտ: %d°
+FlipHOn=Հորիզոնական flip: ON
+FlipHOff=Հորիզոնական flip: OFF
+FlipVOn=Ուղղահայաց flip: ON
+FlipVOff=Ուղղահայաց flip: OFF
+DeinterlaceOn=Դեինտերլեյս: ON
+DeinterlaceOff=Դեինտերլեյս: OFF
+AlwaysOnTopOn=Միշտ on դեպիp: ON
+AlwaysOnTopOff=Միշտ on դեպիp: OFF
+WindowFitted=Պատուհան fitted դեպի %dx%d
+WindowScale=Պատուհան scale: %.0f%%
+ScreenshotSaved=Էկրանի նկար saved: %s
+AudioNormalizeOn=Ձայն normalization: ON
+AudioNormalizeOff=Ձայն normalization: OFF
+AudioDelayFormat=Ձայն delay: %.1f s
+SubtitleDelayFormat=Սուբտիտր delay: %.1f s
+ZoomFormat=Մեծացում: %.0f%%
+PanCenter=Պանորամա: Center
+PanFormat=Պանորամա: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Ոչ video loaded
+PlayingFromClipboard=Նվագարկում է ից clipboard: %s
+ClipboardInvalid=սեղմաման թերթ does not contain a valid URL or path
+ClipboardEmpty=սեղմաման թերթ is empty or does not contain text
+ResumedAt=Շարունակելd at %s
+FrameStepForward=Կադր step forward
+FrameStepBackward=Կադր step backward
+PreviousChapter=Նախորդ chapter
+NextChapter=Հաջորդ chapter
+PlayingRadio=Նվագարկում է radio: %s
+PlayingDVD=Նվագարկում է DVD: %s
+PlayingBluray=Նվագարկում է Blu-ray: %s
+DVDTitlePlaying=DVD Վերնագիր %d
+SeekTo=Փնտրում դեպի %s
+MinimizedToTray=Փոքրացնելd դեպի թաքղում. Double-click դեպի resդեպիre.
+SleepTimerSet=Քնի timer set: %s
+SleepTimerCancelled=Քնի timer cancelled
+SleepTimerWarning=Քնի timer: 1 minute remaining
+SleepTimerFinal=Քնի timer: 10 seconds remaining
+SleepTimerStopped=Քնի timer: Նվագարկում sդեպիpped
+SleepTimerClosing=Քնի timer: Closing application
+SleepTimerShutdown=Քնի timer: Shutting down computer
+SleepTimerExpired=Քնի պահաչափ Expired
+ShutdownManual=Please shutdown your computer manually.
+
+; Phase 21: Open Folder
+FolderOpened=Բացելed folder: %d files
+NoMediaFound=Ոչ media files found
+FilesAdded=Ավելացնելed %d files դեպի playlist
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Start playback before recording.
+RecordingStarted=Ձայնագրում started
+RecordingStopped=Ձայնագրում sդեպիpped
+
+; Additional status messages
+EndOfPlaylist=End of playlist
+NoMediaLoaded=Ոչ media file is currently loaded.
+JumpedToNamed=Jumped դեպի: %s
+ChapterFormat=գլուխ %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=էջանիշ at %s
+
+[Label]
+Muted=Լռեցնելd
+
+[Button]
+Play=Նվագարկել
+Pause=Դադար
+Stop=Կանգնել
+Previous=Նախորդ
+Next=Հաջորդ
+Mute=Լռեցնել
+Unmute=Միացնել
+Fullscreen=Լիարջեկրան
+OK=Լավ
+Cancel=Չեղարկել
+Apply=Կիրառել
+Close=Փակել
+Yes=Այո
+No=Ոչ
+
+[Tooltip]
+Play=Նվագարկել/Դադար
+Stop=Կանգնել playback
+Previous=Նախորդ track
+Next=Հաջորդ track
+Mute=Toggle mute
+Volume=Ձայն
+Seek=Փնտրել դիրք
+Fullscreen=Toggle fullscreen
+
+[Playlist]
+Title=Նվագարկման ցանկ
+Add=Ավելացնել
+Remove=Հեռացնել
+Clear=Մաքրել
+MoveUp=Տեղափոխել վերև
+MoveDown=Տեղափոխել վար
+Shuffle=Խառնել
+Repeat=Կրկնել
+Play=Նվագարկել
+ShuffleOn=Խառնել: Միացված
+ShuffleOff=Խառնել: Անջատված
+RepeatOff=Կրկնել: Անջատված
+RepeatOne=Կրկնել: Մեկը
+RepeatAll=Կրկնել: Բոլորը
+SavePlaylist=Պահպանել
+LoadPlaylist=Բեռնել
+TotalDuration=Ընդամենը: %s
+ItemCount=%d տարր
+
+; Phase 22: Playlist Enhancements
+Search=Փնտրել:
+FilterPlaceholder=Ֆիլտրել playlist...
+ClearSearch=Մաքրել
+FilterCount=%d/%d
+RemoveDuplicates=Հեռացնել &Duplicates
+Properties=P&roperties...
+NoDuplicates=Ոչ duplicates found.
+DuplicatesFound=Found %d duplicate(s). Հեռացնել them?
+RemoveDuplicatesTitle=Հեռացնել Duplicates
+PropertiesTitle=Նվագարկման ցանկ Properties
+PropTotalItems=Ընդամենը տարր: %d
+PropTotalDuration=Ընդամենը duration: %s
+PropPlayed=Նվագարկելed: %d
+PropUnplayed=Unplayed: %d
+PropTotalSize=Ընդամենը size: %.2f MB
+PropShuffle=Խառնել: %s
+PropRepeat=Կրկնել: %s
+On=Միացված
+Off=Անջատված
+
+; New keys for ApplyLocale
+ClearTitle=Մաքրել Նվագարկման ցանկ
+ClearConfirm=Are you sure you want դեպի clear the playlist?
+NoPlaylist=Ոչ playlist
+StatusFormat=%d տարր | Ընդամենը: %s
+RepeatOne=Rep. 1
+RepeatAll=Rep. Բոլորը
+HintRepeatEnable=Click դեպի enable Կրկնել Բոլորը
+HintRepeatOne=Կրկնել Մեկը - Click դեպի disable
+HintRepeatAll=Կրկնել Բոլորը - Click for Կրկնել Մեկը
+HintShuffleRepeat=Խառնել + Կրկնել Բոլորը - Click դեպի disable repeat
+RemoveDuplicatesTitle=Հեռացնել Duplicates
+NoDuplicates=Ոչ duplicates found.
+SelectAll=Ընտրել Բոլորը
+SelectNone=Ընտրել Ոչ
+SelectInvert=Շրջել ընտրություն
+Sort=Տեսակավորել
+SortByName=Ըստ Անուն
+SortByTitle=Ըստ Վերնագիր
+SortByArtist=Ըստ Կատարող
+SortByDuration=Ըստ Տևողություն
+SortReverse=Հակառակ
+SortRandom=Պատահական
+ColTitle=Վերնագիր
+ColDuration=Տևողություն
+ColArtist=Կատարող
+ColAlbum=Ալբոմ
+PlaylistFilter=M3U Նվագարկման ցանկ|*.m3u|M3U8 Նվագարկման ցանկ|*.m3u8|PLS Նվագարկման ցանկ|*.pls
+
+[Equalizer]
+Title=Էկվալայզեր
+Presets=Պատրաստներ:
+Preamp=Նախնական ուժեղացում:
+Flat=Հարթ
+Rock=Ռոք
+Pop=Փոփ
+Jazz=Ջազ
+Classical=Դասական
+BassBoost=Բաս ուժեղացում
+TrebleBoost=Բարձր ուժեղացում
+Vocal=Ձայնային
+Reset=Վերակայել
+Enable=Միացնել Էկվալայզեր
+Save=Պահպանել
+Delete=Ջնջել
+Ready=Պատրաստ
+; Buttons and actions
+SavePreset=Պահպանել Պատրաստ
+DeletePreset=Ջնջել Պատրաստ
+SavePresetTitle=Պահպանել Պատրաստ
+PresetNamePrompt=Պատրաստ name:
+EnterPresetName=Please enter a preset name.
+OverwritePresetTitle=Overwrite Պատրաստ
+OverwritePresetConfirm=A preset with this name already exists. Overwrite?
+PresetUpdated=Պատրաստ updated: %s
+PresetSaved=Պատրաստ saved: %s
+SelectPresetToDelete=Please select a preset դեպի delete.
+CannotDeleteDefault=Cannot delete default presets.
+DeletePresetTitle=Ջնջել Պատրաստ
+DeletePresetConfirm=Are you sure you want դեպի delete this preset?
+PresetDeleted=Պատրաստ deleted
+ResetToFlat=Էկվալայզեր reset դեպի flat
+PresetApplied=Պատրաստ applied: %s
+
+[Options]
+Title=Կարգավորումներ
+General=Ընդհանուր
+Video=Տեսանյութ
+Audio=Ձայն
+Subtitles=Սուբտիտրներ
+Cache=Քեշ
+Language=Լեզու:
+RestartRequired=Վերագործարկել պահանջվում է for changes դեպի take effect
+
+; General tab - Behavior
+Behavior=Վարքագիծ
+SingleInstance=Բոլորըow only one instance
+AutoPlay=Ինքնաշխատ-play files on open
+AutoResume=Շարունակել playback դիրք
+MinimizeToTray=Փոքրացնել դեպի համակարգի թաքղում
+AutoSavePlaylist=Պահպանել playlist on eլք
+
+; General tab - OSD
+OSD=Միացված-Screen Display
+ShowOSD=Ցույց տալ on-screen messages
+ShowTrayIcon=Ցույց տալ թաքղում icon
+OSDDuration=OSD duration (ms):
+
+; General tab - Screenshots
+Screenshots=Էկրանի նկարs
+ScreenshotPath=Պահպանել folder:
+ScreenshotFormat=Ձևաչափ:
+
+; General tab - History
+HistorySettings=Պատմություն
+HistoryEnabled=Միացնել playback hisդեպիry
+HistoryMaxItems=Max տարր:
+
+; General tab - Language
+LanguageGroup=Լեզու
+RestartNote=(Վերագործարկել պահանջվում է for changes)
+
+; Video tab
+VideoAdjust=Տեսանյութի կարգավորումներ
+Brightness=Պայծառություն:
+Contrast=Կոնտրաստ:
+Saturation=Հագեցվածություն:
+Hue=Երանգ:
+Gamma=Գամմա:
+VideoOutput=Տեսանյութ Ելք
+Output=Ելք:
+HWAccel=Միացնել hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=ռեժիմ:
+
+; Audio tab
+AudioOutput=Ձայն Ելք
+OutputDriver=Ելք driver:
+Device=Սարք:
+AudioOptions=Ձայն Կարգավորումներ
+NormalizeAudio=Նորմալացնել audio volume
+Channels=Ալիքներ:
+
+; Subtitles tab
+UseDefaultSubtitles=Use default subtitle settings
+Font=Տառ
+FontName=Տառ:
+FontSize=Size:
+FontColor=Գույն:
+Bold=Հաստ
+Italic=Շեղ
+Outline=Outline
+OutlineColor=Գույն:
+OutlineSize=Size:
+Position=Դիրք
+VerticalPosition=Ուղղահայաց դիրք:
+SubOptions=Կարգավորումներ
+Encoding=Կոդավորում:
+AutoLoadSubs=Ինքնաշխատmatically load subtitle files
+
+; Video output warnings
+VOWarningX11=Warning: x11 does not support video adjustments (brightness, contrast, etc.)
+VOWarningWayland=Warning: Requires a Wayland session. Տեսանյութ adjustments supported.
+
+; Cache tab
+CacheSettings=Քեշ Buffer Sizes (KB)
+CacheDefault=Լռելյալ cache:
+CacheLocal=Local files:
+CacheNetwork=Network files:
+CacheInternet=Internet streams:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Հավելվածի մասին
+Version=Տարբերակ
+Engine=Շարժիչ
+Technology=Technology
+BuildInfo=Build տեղեկությունrmation
+SystemInfo=Համակարգ
+Credits=Շնորհակալություն
+Developer=Ծրագրող:
+Author=Հեղինակ
+License=Արտոնագիր
+Website=Կայք
+GitHub=GitHub
+Description=A modern, lightweight media player
+LicenseText=3nity Մեդիա is licensed under GPL-2.0\n\nThis means you are free դեպի:\n  • Use the software for any purpose\n  • Study and modify the source code\n  • Distribute copies of the software\n  • Distribute your modifications\n\nUnder the condition that any distributed modifications\nare also licensed under GPL-2.0.
+BuildDate=Ամսաթիվ:
+Target=Թիրախ:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Ստեղնաշարի դյուրանցումներ
+Description=Configure keyboard shortcuts for actions
+Search=Փնտրել:
+PressKey=Press a key...
+ColCategory=Կատեգորիա
+ColAction=Գործողություն
+ColShortcut=Դյուրանց
+Assign=Նշանակել
+Clear=Մաքրել
+Reset=Վերակայել
+ResetAll=Վերակայել Բոլորը
+CurrentShortcut=Ընթացիկ: %s
+NoKeyPressed=Please press a key combination first.
+Conflict=Հակասություն: Already assigned դեպի "%s"
+ConfirmReplace=Փոխարինել Դյուրանց
+ReplaceMessage=This shortcut is already assigned դեպի "%s". Do you want դեպի replace it?
+ConfirmResetAll=Վերակայել Բոլորը դյուրանցումներ
+ResetAllMessage=Are you sure you want դեպի reset all shortcuts դեպի their defaults?
+; Action names
+ActPlayPause=Նվագարկել / Դադար
+ActStop=Կանգնել
+ActPrevious=Նախորդ
+ActNext=Հաջորդ
+ActSeekForward=Փնտրել առաջ (10s)
+ActSeekBackward=Փնտրել հետ (10s)
+ActSeekForward5=Փնտրել առաջ (1 min)
+ActSeekBackward5=Փնտրել հետ (1 min)
+ActSpeedUp=Արագություն Վերև
+ActSpeedDown=Արագություն Վար
+ActSpeedReset=Վերակայել Արագություն
+ActSetLoopA=Սահմանել օղակ Point A
+ActSetLoopB=Սահմանել օղակ Point B
+ActClearLoop=Մաքրել A-B օղակ
+ActFrameForward=Կադր առաջ
+ActFrameBackward=Կադր հետ
+ActPrevChapter=Նախորդ գլուխ
+ActNextChapter=Հաջորդ գլուխ
+ActGotoTime=Անցնել պահին
+ActVolumeUp=Ձայնի բարձրացում
+ActVolumeDown=Ձայնի նվազեցում
+ActMute=Լռեցնել / Միացնել
+ActAudioDelayPlus=Ձայնի հապաղեցում +
+ActAudioDelayMinus=Ձայնի հապաղեցում -
+ActAudioDelayReset=Վերակայել Ձայնի հապաղեցում
+ActFullscreen=Լիարջեկրան
+ActRotate=Rotate Տեսանյութ
+ActDeinterlace=Դեինտերլեյս
+ActZoomIn=Մեծացնել
+ActZoomOut=Փոքրացնել
+ActZoomReset=Վերակայել մեծացումը
+ActAlwaysOnTop=Միշտ վերևում
+ActFitToVideo=Հարմարեցնել դեպի Տեսանյութ
+ActScreenshot=Էկրանի նկար
+ActVideoAdjust=Տեսանյութի կարգավորումներ
+ActVisNextMode=Հաջորդ Վիզուալիզացիա ռեժիմ
+ActVisNextColor=Հաջորդ գունային սխեմա
+ActSubDelayPlus=Սուբտիտրի հապաղեցում +
+ActSubDelayMinus=Սուբտիտրի հապաղեցում -
+ActSubDelayReset=Վերակայել Սուբտիտրի հապաղեցում
+ActDVDMenu=DVD Մենյու
+ActDVDUp=DVD Navigate Վերև
+ActDVDDown=DVD Navigate Վար
+ActDVDLeft=DVD Navigate Ձախ
+ActDVDRight=DVD Navigate Աջ
+ActDVDSelect=DVD Ընտրել
+ActOpenFile=Բացել ֆայլ
+ActOpenURL=Բացել URL
+ActPlaylist=Ցույց տալ Նվագարկման ցանկ
+ActQuit=Ելք
+
+[Log]
+; Phase 25: Log Window
+Title=MPV Մատյան
+Command=Հրաման:
+Clear=Մաքրել
+Save=Պահպանել...
+Copy=&Պատճենել
+SelectAll=Ընտրել &Բոլորը
+SaveTitle=Պահպանել Մատյան
+SaveFilter=Text files (*.txt)|*.txt|Բոլորը files (*.*)|*.*
+ErrorTitle=Սխալ
+SaveError=Failed դեպի save log: %s
+
+[MediaInfo]
+Title=Մեդիա տեղեկությունrmation
+FileTab=Նայլ
+VideoTab=Տեսանյութ
+AudioTab=Ձայն
+MetadataTab=Metadata
+FileName=Նայլ Անուն:
+FilePath=ուղին:
+FileSize=Size:
+Duration=Տևողություն:
+Format=Ձևաչափ:
+Bitrate=Բիթային արագություն:
+Codec=Կոդեկ:
+Resolution=Լուծարիքություն:
+FrameRate=Կադր Rate:
+PixelFormat=Pixel Ձևաչափ:
+AspectRatio=Կողմերի հարաբերություն:
+Channels=Ալիքներ:
+SampleRate=Sample Rate:
+Language=Լեզու:
+Property=Հատկություն
+Value=Արժեք
+CopyAll=Պատճենել Բոլորը
+CopiedToClipboard=Մեդիա information copied դեպի clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Անհայտ
+NoMetadata=(Ոչ metadata)
+
+[Bookmarks]
+Title=Էջանիշներ
+Goto=Go դեպի
+Remove=Հեռացնել
+Clear=Մաքրել Բոլորը
+Refresh=Թարմացնել
+OpenFolder=Բացել թղթապանակ
+CopyPath=Պատճենել ուղին
+; Columns
+ColName=Անուն
+ColFile=Նայլ
+ColPosition=Դիրք
+ColCreated=Ստեղծված
+; Dialogs
+ClearTitle=Մաքրել Էջանիշներ
+ClearConfirm=Are you sure you want դեպի clear all էջանիշ?
+Count=%d bookmark(s)
+
+[Favorites]
+Title=Նախընտրածներ
+Play=Նվագարկել
+Remove=Հեռացնել
+Clear=Մաքրել Բոլորը
+Refresh=Թարմացնել
+OpenFolder=Բացել թղթապանակ
+CopyPath=Պատճենել ուղին
+; Columns
+ColName=Անուն
+ColType=Տեսակ
+ColPath=ուղին
+; Types
+TypeFile=Նայլ
+TypeURL=URL
+TypeRadio=Լադիո
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Անհայտ
+; Dialogs
+ClearTitle=Մաքրել Նախընտրածներ
+ClearConfirm=Are you sure you want դեպի clear all նախընտրածներ?
+Count=%d favorite(s)
+
+[History]
+Title=Նվագարկում Պատմություն
+Play=Նվագարկել
+Remove=Հեռացնել
+Clear=Մաքրել Բոլորը
+Refresh=Թարմացնել
+OpenFolder=Բացել թղթապանակ
+CopyPath=Պատճենել ուղին
+; Columns
+ColFileName=Նայլ
+ColPath=ուղին
+; Dialogs
+ClearTitle=Մաքրել Պատմություն
+ClearConfirm=Are you sure you want դեպի clear all hisդեպիry?
+Count=%d item(s)
+
+[SleepTimer]
+Title=Քնի պահաչափ
+Description=Սահմանել a timer դեպի auդեպիmatically sդեպիp playback
+Hours=Ժամ:
+Minutes=Րոպե:
+Action=When timer expires:
+StopPlayback=Կանգնել playback
+CloseApp=Փակել application
+Shutdown=Shutdown computer
+QuickSet=Quick set:
+15Min=15 min
+30Min=30 min
+1Hour=1 hour
+2Hours=2 hours
+
+[Radios]
+Title=Internet Լադիոկայաններ
+Play=Նվագարկել
+Add=Ավելացնել
+Edit=Խմբագրել
+Delete=Ջնջել
+Remove=Հեռացնել
+Import=Ներմուծել
+Export=Արտահանել
+Refresh=Թարմացնել
+Favorite=Favorite
+ShowFavorites=Նախընտրածներ
+ShowAll=Բոլորը
+; Filter
+Genre=Ժանր:
+Search=Փնտրել:
+SearchBtn=Փնտրել
+ClearSearch=Մաքրել
+AllGenres=(Բոլորը Ժանրs)
+; Context menu
+AddFavorite=Ավելացնել նախընտրածներին
+RemoveFavorite=Հեռացնել նախընտրածներից
+AddCustom=Ավելացնել Cusդեպիm Կայան...
+EditCustom=Խմբագրել Կայան...
+DeleteCustom=Ջնջել Կայան
+OpenWebsite=Բացել Կայք
+CopyURL=Պատճենել URL
+; Columns
+ColName=Անուն
+ColGenre=Ժանր
+ColBitrate=Բիթային արագություն
+ColCountry=Երկիր
+ColCodec=Կոդեկ
+; Dialogs
+AddTitle=Ավելացնել Cusդեպիm Կայան
+EditTitle=Խմբագրել Կայան
+DeleteTitle=Ջնջել Կայան
+DeleteConfirm=Are you sure you want դեպի delete this station?
+StationName=Կայան Անուն:
+StreamURL=հոսք URL:
+GenrePrompt=Ժանր:
+NameURLRequired=Անուն and URL are պահանջվում է.
+; Status messages
+LoadingIcecast=Բեռնելing stations ից Icecast direcդեպիry...
+IcecastError=Could not load Icecast direcդեպիry. Using default stations.
+NoStationsLoaded=Ոչ stations loaded
+StationCount=%d stations
+LoadedStations=Բեռնելed %d stations
+ErrorPrefix=Սխալ:
+; Legacy keys
+Name=Անուն
+URL=URL
+Bitrate=Բիթային արագություն
+Description=Նկարագրություն
+Country=Երկիր
+
+[OpenURL]
+Title=Բացել URL
+Prompt=Մուտքագրեք media URL:
+
+[GotoTime]
+Title=Անցնել պահին
+EnterTime=Մուտքագրեք time դեպի jump դեպի:
+Hours=H
+Minutes=M
+Seconds=S
+Current=Ընթացիկ:
+Duration=Տևողություն:
+
+[VideoAdjust]
+Title=Տեսանյութի կարգավորումներ
+Brightness=Պայծառություն:
+Contrast=Կոնտրաստ:
+Saturation=Հագեցվածություն:
+Hue=Երանգ:
+Gamma=Գամմա:
+ResetAll=Վերակայել բոլոր գույները
+
+[CLI]
+; Հրամանի տողի հաղորդագրություններ
+Usage=Օգտագործում
+Arguments=[ԸՆՏՐՈՒԹՅՈՒՆՆԵՐ] [ՖԱՅԼ|ՀՂՈՐԴԱԳՐՈՒԹՅՈՒՆ|ՊԱՆԱԿԱԿԻՐ]
+Description=Խաչաձև հարթակային մուլտիմեդիա նվագարկիչ, որն օգտագործում է libmpv backend-ը:
+Options=ԸՆՏՐՈՒԹՅՈՒՆՆԵՐ
+Examples=Օրինակներ
+MoreInfo=Ավելի շատ տեղեկությունների համար այցելեք
+EnqueuedTo=Հերթագրված է առկա օրինակին՝ %s
+SentTo=Ուղարկվել է առկա օրինակին՝ %s
+AlreadyRunning=3nity Media-ն արդեն գործում է։
+ErrorFileNotFound=Error: Ֆայլը կամ գրացուցակը չի գտնվել՝ %s
+ErrorSubNotFound=Error: Ենթագրերի ֆայլը չի ​​գտնվել՝ %s

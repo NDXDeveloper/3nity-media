@@ -1,0 +1,892 @@
+[Language]
+Name=Kyrgyz - Кыргыз тили
+Code=ky
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Файл менюсу
+File=&Файл
+FileOpen=&Файлды ачуу...
+FileOpenURL=&URL ачуу...
+FileOpenClipboard=&Буферден ачуу
+FileRecent=&Акыркы файлдар
+ClearRecentFiles=Акыркы файлдарды тазалоо
+FileExit=&Чыгуу
+
+; Ойнотуу менюсу
+Playback=&Ойнотуу
+PlaybackPlayPause=&Ойнотуу/Тындыруу
+PlaybackStop=&Токтотуу
+PlaybackPrevious=&Мурунку
+PlaybackNext=&Кийинки
+PlaybackSeekForward=&Алдыга жылуу
+PlaybackSeekBackward=&Артка жылуу
+PlaybackSpeed=&Ылдамдык
+PlaybackABLoop=A-&B кайталоо
+PlaybackSetA=&A чекитин коюу
+PlaybackSetB=&B чекитин коюу
+PlaybackClearAB=A-B &тазалоо
+PlaybackChapters=&Бөлүмдөр
+PlaybackPrevChapter=Мурунку бөлүм
+PlaybackNextChapter=Кийинки бөлүм
+PlaybackFrameStep=&Кадр алдыга
+PlaybackFrameBack=&Кадр артка
+
+; DVD навигациясы
+PlaybackDVD=DVD &навигациясы
+DVDMenu=&Меню
+DVDUp=&Өйдө
+DVDDown=&Ылдый
+DVDLeft=&Солго
+DVDRight=&Оңго
+DVDSelect=&Тандоо
+PlaybackDVDTitles=DVD &аталыштары
+
+; 21-этап: Папканы ачуу
+FileOpenFolder=&Папканы ачуу...
+
+; Файл менюсу DVD/Bluray
+FileOpenDVD=&DVD ачуу...
+FileOpenBluray=&Blu-ray ачуу...
+
+; 13-этап: Убакытка өтүү жана тарых
+PlaybackGotoTime=&Убакытка өтүү...
+ToolsHistory=&Тарых
+
+; 14-этап: Система панели
+TrayShow=&Көрсөтүү/Жашыруу
+TrayPlayPause=&Ойнотуу/Тындыруу
+TrayStop=&Токтотуу
+TrayPrevious=&Мурунку
+TrayNext=&Кийинки
+TrayMute=&Үнсүз
+TrayExit=&Чыгуу
+
+; 15-этап: Кыстармалар
+PlaybackAddBookmark=&Кыстарма кошуу...
+PlaybackBookmarks=&Кыстармалар
+BookmarksTitle=Кыстармалар
+BookmarksGoto=&Кыстармага өтүү
+BookmarksRemove=&Кыстарманы өчүрүү
+BookmarksClear=&Баарын тазалоо
+BookmarksOpenFolder=&Папканы ачуу
+BookmarksCopyPath=&Жолду көчүрүү
+BookmarksCount=%d кыстарма
+NoBookmarks=(Кыстармалар жок)
+NoFileLoaded=(Файл жүктөлгөн эмес)
+BookmarkAdded=Кыстарма кошулду: %s
+BookmarkJumped=Кыстармага өтүлдү: %s
+AddBookmarkTitle=Кыстарма кошуу
+AddBookmarkPrompt=Кыстарма атын киргизиңиз:
+ShowAllBookmarks=Бардык кыстармаларды көрсөтүү...
+
+; 16-этап: Тандалмалар
+ToolsFavorites=&Тандалмалар
+ToolsAddFavorite=&Тандалмаларга кошуу
+FavoritesTitle=Тандалмалар
+FavoritesPlay=&Ойнотуу
+FavoritesRemove=&Тандалмалардан өчүрүү
+FavoritesClear=&Баарын тазалоо
+FavoritesOpenFolder=&Папканы ачуу
+FavoritesCopyPath=&Жолду көчүрүү
+FavoritesCount=%d тандалма
+NoFavorites=(Тандалмалар жок)
+AddFavoriteTitle=Тандалмаларга кошуу
+AddFavoritePrompt=Тандалма атын киргизиңиз:
+AlreadyFavorite=Мурунтан эле тандалмаларда
+AddedToFavorites=Тандалмаларга кошулду: %s
+NoFileToFavorite=Кошуу үчүн файл жүктөлгөн эмес
+FavoriteTypeFile=Файл
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Радио
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Трек форматтары
+TrackWithTitle=Трек %d: %s
+TrackWithLang=Трек %d (%s)
+TrackNumber=Трек %d
+
+; Ылдамдык менюсу
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Масштаб менюсу
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Субтитр треги
+SubtitleDisable=Өчүрүү
+
+; 17-этап: Уйку таймери
+ToolsSleepTimer=&Уйку таймери...
+ToolsSleepTimerActive=&Уйку таймери [%s]
+ToolsCancelTimer=&Таймерди жокко чыгаруу
+
+; Аудио менюсу
+Audio=&Аудио
+AudioTrack=Аудио &трек
+AudioVolumeUp=Үндү &жогорулатуу
+AudioVolumeDown=Үндү &төмөндөтүү
+AudioMute=&Үнсүз
+AudioEqualizer=&Эквалайзер
+AudioDelay=Аудио &кечиктирүү
+AudioDelayPlus=Кечиктирүү +0.1с
+AudioDelayMinus=Кечиктирүү -0.1с
+AudioDelayReset=Кечиктирүүнү баштапкы абалга келтирүү
+AudioNormalize=Үндү &нормалдаштыруу
+
+; Видео менюсу
+Video=&Видео
+VideoFullscreen=&Толук экран
+VideoAspect=&Пропорция
+VideoAspectAuto=&Авто
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Скриншот
+VideoScreenshotAs=Скриншот &катары...
+VideoRotation=&Буруу
+VideoRotate0=&0° (Кадимки)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Которуу
+VideoFlipH=&Горизонталдык которуу
+VideoFlipV=&Вертикалдык которуу
+VideoDeinterlace=&Деинтерлейс
+VideoZoom=&Масштаб
+VideoZoomIn=&Чоңойтуу
+VideoZoomOut=&Кичирейтүү
+VideoZoomReset=Масштабды &баштапкы абалга келтирүү
+VideoPan=&Жылдыруу
+VideoPanLeft=&Солго жылдыруу
+VideoPanRight=&Оңго жылдыруу
+VideoPanUp=&Өйдө жылдыруу
+VideoPanDown=&Ылдый жылдыруу
+VideoPanReset=&Жылдырууну баштапкы абалга келтирүү
+VideoTrack=Видео &трек
+VideoColors=&Түс тууралоолору
+VideoBrightness=&Жарыктык
+VideoContrast=&Контраст
+VideoSaturation=&Тоюнуулук
+VideoHue=&Түс
+VideoGamma=&Гамма
+VideoColorsReset=Бардык &түстөрдү баштапкы абалга келтирүү
+VideoIncrease=Көбөйтүү (+5)
+VideoDecrease=Азайтуу (-5)
+VideoReset=Баштапкы абалга келтирүү
+VideoAdjustDialog=Видео &тууралоолор...
+
+; Көрүнүш менюсу
+View=&Көрүнүш
+ViewAlwaysOnTop=&Дайыма үстүндө
+ViewFitToVideo=&Терезени видеого ылайыктоо
+ViewScale=Терезе &масштабы
+
+; 26-этап: Визуализация менюсу
+ViewVisualization=&Визуализация
+VisNone=&Жок
+VisSpectrum=&Спектр анализатору
+VisWaveform=&Толкун формасы
+VisVector=&Вектор көрүнүшү
+VisVolume=&VU метр
+VisNextMode=Кийинки &режим
+VisNextColor=Кийинки &түс схемасы
+
+; Субтитрлер менюсу
+Subtitles=&Субтитрлер
+SubtitleTrack=Субтитр &треги
+SubtitleLoad=&Субтитр жүктөө...
+SubtitleDelay=Субтитр &кечиктирүү
+SubtitleDelayPlus=Кечиктирүү +0.1с
+SubtitleDelayMinus=Кечиктирүү -0.1с
+SubtitleDelayReset=Кечиктирүүнү баштапкы абалга келтирүү
+
+; Куралдар менюсу
+Tools=&Куралдар
+ToolsPlaylist=&Ойнотуу тизмеси
+ToolsRadios=&Радиолор
+ToolsShortcuts=&Баскычтоп кыскартуулары...
+ToolsOptions=&Тууралоолор
+
+; 27-этап: Жазуу менюсу
+ToolsRecord=&Агымды жазуу...
+ToolsStopRecord=&Жазууну токтотуу
+ToolsRecording=&Жазуу...
+
+; Жардам менюсу
+Help=&Жардам
+HelpMediaInfo=&Медиа маалымат
+HelpLog=&Журнал терезеси
+HelpAbout=&Программа жөнүндө
+
+[Dialog]
+OpenFile=Файлды ачуу
+OpenURL=URL ачуу
+SaveScreenshot=Скриншотту сактоо
+LoadSubtitle=Субтитр файлын жүктөө
+EnterURL=URL киргизиңиз:
+ResumePlayback=Ойнотууну улантуу
+ResumeFrom=%s дан улантуу керекпи?
+ClearRecentFiles=Акыркы файлдарды тазалоо
+NoRecentFiles=(Акыркы файлдар жок)
+NoAudioTracks=(Аудио тректер жок)
+NoVideoTracks=(Видео тректер жок)
+NoSubtitleTracks=(Субтитр тректери жок)
+NoChapters=(Бөлүмдөр жок)
+OpenDVD=DVD ачуу
+OpenBluray=Blu-ray ачуу
+OpenFolder=Папканы ачуу
+
+; File filters
+ScreenshotFilter=PNG сүрөт|*.png|JPEG сүрөт|*.jpg|WebP сүрөт|*.webp
+DVDFilter=DVD папкасы|*.;*.iso|Бардык файлдар (*.*)|*.*
+BlurayFilter=Blu-ray папкасы|*.;*.iso|Бардык файлдар (*.*)|*.*
+NoDVD=(DVD жүктөлгөн эмес)
+DVDTitle=Аталыш %d
+GotoTime=Убакытка өтүү
+EnterTime=Өтүү убактысын киргизиңиз:
+Hours=Саат
+Minutes=Мүнөт
+Seconds=Секунд
+Current=Учурдагы:
+HistoryTitle=Ойнотуу тарыхы
+HistoryItems=Тарыхта %d элемент
+HistoryPlay=&Ойнотуу
+HistoryRemove=&Тарыхтан өчүрүү
+HistoryClear=&Бардык тарыхты тазалоо
+HistoryOpenFolder=&Папканы ачуу
+HistoryCopyPath=&Жолду көчүрүү
+ClearHistory=Тарыхты тазалоо
+ClearHistoryConfirm=Бардык тарыхты тазалоону каалайсызбы?
+SleepTimerTitle=Уйку таймери
+SleepTimerDescription=Ойнотууну автоматтык түрдө токтотуу таймерин орнотуңуз
+SleepTimerHours=Саат
+SleepTimerMinutes=Мүнөт
+SleepTimerQuickSet=Тез орнотуу
+SleepTimerAction=Таймер бүткөндө
+SleepTimerStopPlayback=Ойнотууну токтотуу
+SleepTimerCloseApp=Программаны жабуу
+SleepTimerShutdown=Компьютерди өчүрүү
+SleepTimerStart=Таймерди баштоо
+
+[Status]
+Ready=Даяр
+Opening=Ачылууда...
+Playing=Ойнотулууда
+Paused=Тындырылды
+Stopped=Токтотулду
+Error=Ката
+Buffering=Буферлөө...
+Seeking=Издөө...
+Recording=Жазуу
+
+[Message]
+SpeedFormat=Ылдамдык: %.2fx
+VolumeFormat=Үн деңгээли: %d%%
+BrightnessFormat=Жарыктык: %d
+ContrastFormat=Контраст: %d
+SaturationFormat=Тоюнуулук: %d
+HueFormat=Түс: %d
+GammaFormat=Гамма: %d
+ColorsReset=Видео түстөрү баштапкы абалга келтирилди
+LoopASet=A кайталоо орнотулду: %s
+LoopBSet=B кайталоо орнотулду: %s - Кайталоо активдүү
+LoopCleared=A-B кайталоо тазаланды
+SetAFirst=Алгач A чекитин орнотуңуз (L басыңыз)
+RotationFormat=Буруу: %d°
+FlipHOn=Горизонталдык которуу: КҮЙҮК
+FlipHOff=Горизонталдык которуу: ӨЧҮК
+FlipVOn=Вертикалдык которуу: КҮЙҮК
+FlipVOff=Вертикалдык которуу: ӨЧҮК
+DeinterlaceOn=Деинтерлейс: КҮЙҮК
+DeinterlaceOff=Деинтерлейс: ӨЧҮК
+AlwaysOnTopOn=Дайыма үстүндө: КҮЙҮК
+AlwaysOnTopOff=Дайыма үстүндө: ӨЧҮК
+WindowFitted=Терезе %dx%d өлчөмүнө ылайыкталды
+WindowScale=Терезе масштабы: %.0f%%
+ScreenshotSaved=Скриншот сакталды: %s
+AudioNormalizeOn=Аудио нормалдаштыруу: КҮЙҮК
+AudioNormalizeOff=Аудио нормалдаштыруу: ӨЧҮК
+AudioDelayFormat=Аудио кечиктирүү: %.1f с
+SubtitleDelayFormat=Субтитр кечиктирүү: %.1f с
+ZoomFormat=Масштаб: %.0f%%
+PanCenter=Жылдыруу: Борбор
+PanFormat=Жылдыруу: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Видео жүктөлгөн эмес
+PlayingFromClipboard=Буферден ойнотулууда: %s
+ClipboardInvalid=Буферде жарактуу URL жок
+ClipboardEmpty=Буфер бош
+ResumedAt=%s да улантылды
+FrameStepForward=Кадр алдыга
+FrameStepBackward=Кадр артка
+PreviousChapter=Мурунку бөлүм
+NextChapter=Кийинки бөлүм
+PlayingRadio=Радио ойнотулууда: %s
+PlayingDVD=DVD ойнотулууда: %s
+PlayingBluray=Blu-ray ойнотулууда: %s
+DVDTitlePlaying=DVD аталышы %d
+SeekTo=%s га өтүү
+MinimizedToTray=Панелге жашырылды. Калыбына келтирүү үчүн эки жолу басыңыз.
+SleepTimerSet=Уйку таймери орнотулду: %s
+SleepTimerCancelled=Уйку таймери жокко чыгарылды
+SleepTimerWarning=Уйку таймери: 1 мүнөт калды
+SleepTimerFinal=Уйку таймери: 10 секунд калды
+SleepTimerStopped=Уйку таймери: Ойнотуу токтотулду
+SleepTimerClosing=Уйку таймери: Программа жабылууда
+SleepTimerShutdown=Уйку таймери: Компьютер өчүрүлүүдө
+SleepTimerExpired=Уйку таймери бүттү
+ShutdownManual=Компьютерди кол менен өчүрүңүз.
+
+; 21-этап: Папканы ачуу
+FolderOpened=Папка ачылды: %d файл
+NoMediaFound=Медиа файлдар табылган жок
+FilesAdded=Ойнотуу тизмесине %d файл кошулду
+
+; 27-этап: Жазуу билдирүүлөрү
+RecordNeedPlayback=Жазуудан мурун ойнотууну баштаңыз.
+RecordingStarted=Жазуу башталды
+RecordingStopped=Жазуу токтотулду
+
+; Кошумча абал билдирүүлөрү
+EndOfPlaylist=Ойнотуу тизмесинин аягы
+NoMediaLoaded=Медиа файл жүктөлгөн эмес.
+JumpedToNamed=Өтүлдү: %s
+ChapterFormat=Бөлүм %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Кыстарма: %s
+
+[Label]
+Muted=Үн өчүк
+
+[Button]
+Play=Ойнотуу
+Pause=Тындыруу
+Stop=Токтотуу
+Previous=Мурунку
+Next=Кийинки
+Mute=Үнсүз
+Unmute=Үндү күйгүзүү
+Fullscreen=Толук экран
+OK=Макул
+Cancel=Жокко чыгаруу
+Apply=Колдонуу
+Close=Жабуу
+Yes=Ооба
+No=Жок
+
+[Tooltip]
+Play=Ойнотуу/Тындыруу
+Stop=Ойнотууну токтотуу
+Previous=Мурунку трек
+Next=Кийинки трек
+Mute=Үнсүз/күйгүзүү
+Volume=Үн деңгээли
+Seek=Издөө позициясы
+Fullscreen=Толук экранды которуу
+
+[Playlist]
+Title=Ойнотуу тизмеси
+Add=Кошуу
+Remove=Өчүрүү
+Clear=Тазалоо
+MoveUp=Өйдө жылдыруу
+MoveDown=Ылдый жылдыруу
+Shuffle=Аралаштыруу
+Repeat=Кайталоо
+Play=Ойнотуу
+ShuffleOn=Аралаштыруу: Күйүк
+ShuffleOff=Аралаштыруу: Өчүк
+RepeatOff=Кайталоо: Өчүк
+RepeatOne=Кайталоо: Бир
+RepeatAll=Кайталоо: Баары
+SavePlaylist=Сактоо
+LoadPlaylist=Жүктөө
+TotalDuration=Жалпы: %s
+ItemCount=%d элемент
+
+; 22-этап: Ойнотуу тизмеси жакшыртуулары
+Search=Издөө:
+FilterPlaceholder=Ойнотуу тизмесин чыпкалоо...
+ClearSearch=Тазалоо
+FilterCount=%d/%d
+RemoveDuplicates=&Кайталанууларды өчүрүү
+Properties=&Касиеттер...
+NoDuplicates=Кайталануулар табылган жок.
+DuplicatesFound=%d кайталануу табылды. Өчүрүлсүнбү?
+RemoveDuplicatesTitle=Кайталанууларды өчүрүү
+PropertiesTitle=Ойнотуу тизмеси касиеттери
+PropTotalItems=Жалпы элементтер: %d
+PropTotalDuration=Жалпы узактыгы: %s
+PropPlayed=Ойнотулган: %d
+PropUnplayed=Ойнотулбаган: %d
+PropTotalSize=Жалпы өлчөмү: %.2f MB
+PropShuffle=Аралаштыруу: %s
+PropRepeat=Кайталоо: %s
+On=Күйүк
+Off=Өчүк
+
+; Кошумча ачкычтар
+ClearTitle=Ойнотуу тизмесин тазалоо
+ClearConfirm=Ойнотуу тизмесин тазалоону каалайсызбы?
+NoPlaylist=Ойнотуу тизмеси жок
+StatusFormat=%d элемент | Жалпы: %s
+RepeatOne=Кайт. 1
+RepeatAll=Кайт. Баар.
+HintRepeatEnable=Баарын кайталоону күйгүзүү үчүн басыңыз
+HintRepeatOne=Бирди кайталоо - Өчүрүү үчүн басыңыз
+HintRepeatAll=Баарын кайталоо - Бирди кайталоо үчүн басыңыз
+HintShuffleRepeat=Аралаштыруу + Баарын кайталоо - Кайталоону өчүрүү үчүн басыңыз
+RemoveDuplicatesTitle=Кайталанууларды өчүрүү
+NoDuplicates=Кайталануулар табылган жок.
+SelectAll=Баарын тандоо
+SelectNone=Эч нерсе тандабоо
+SelectInvert=Тандоону тескери айландыруу
+Sort=Сорттоо
+SortByName=Аты боюнча
+SortByTitle=Аталышы боюнча
+SortByArtist=Аткаруучу боюнча
+SortByDuration=Узактыгы боюнча
+SortReverse=Тескери
+SortRandom=Кокустук
+ColTitle=Аталыш
+ColDuration=Узактыгы
+ColArtist=Аткаруучу
+ColAlbum=Альбом
+PlaylistFilter=M3U ойнотуу тизмеси|*.m3u|M3U8 ойнотуу тизмеси|*.m3u8|PLS ойнотуу тизмеси|*.pls
+
+[Equalizer]
+Title=Эквалайзер
+Presets=Алдын ала орнотуулар:
+Preamp=Алдын ала күчөтүү:
+Flat=Тегиз
+Rock=Рок
+Pop=Поп
+Jazz=Джаз
+Classical=Классикалык
+BassBoost=Бас күчөтүү
+TrebleBoost=Жогорку жыштык күчөтүү
+Vocal=Вокал
+Reset=Баштапкы абалга келтирүү
+Enable=Эквалайзерди күйгүзүү
+Save=Сактоо
+Delete=Өчүрүү
+Ready=Даяр
+; Баскычтар жана аракеттер
+SavePreset=Алдын ала орнотууну сактоо
+DeletePreset=Алдын ала орнотууну өчүрүү
+SavePresetTitle=Алдын ала орнотууну сактоо
+PresetNamePrompt=Алдын ала орнотуу аты:
+EnterPresetName=Алдын ала орнотуу атын киргизиңиз.
+OverwritePresetTitle=Алдын ала орнотууну кайра жазуу
+OverwritePresetConfirm=Бул аталыштагы алдын ала орнотуу бар. Кайра жазылсынбы?
+PresetUpdated=Алдын ала орнотуу жаңыланды: %s
+PresetSaved=Алдын ала орнотуу сакталды: %s
+SelectPresetToDelete=Өчүрүү үчүн алдын ала орнотуу тандаңыз.
+CannotDeleteDefault=Демейки алдын ала орнотууларды өчүрүү мүмкүн эмес.
+DeletePresetTitle=Алдын ала орнотууну өчүрүү
+DeletePresetConfirm=Бул алдын ала орнотууну өчүрүүнү каалайсызбы?
+PresetDeleted=Алдын ала орнотуу өчүрүлдү
+ResetToFlat=Эквалайзер тегиз абалга келтирилди
+PresetApplied=Алдын ала орнотуу колдонулду: %s
+
+[Options]
+Title=Тууралоолор
+General=Жалпы
+Video=Видео
+Audio=Аудио
+Subtitles=Субтитрлер
+Cache=Кэш
+Language=Тил:
+RestartRequired=Өзгөрүүлөрдү колдонуу үчүн кайра баштоо керек
+
+; Жалпы өтмөк - Жүрүм-турум
+Behavior=Жүрүм-турум
+SingleInstance=Бир гана көчүрмөгө уруксат берүү
+AutoPlay=Ачканда автоматтык түрдө ойнотуу
+AutoResume=Ойнотуу позициясын улантуу
+MinimizeToTray=Система панелине кичирейтүү
+AutoSavePlaylist=Чыгуудагы ойнотуу тизмесин сактоо
+
+; Жалпы өтмөк - OSD
+OSD=Экрандагы дисплей
+ShowOSD=Экрандагы билдирүүлөрдү көрсөтүү
+ShowTrayIcon=Панель иконкасын көрсөтүү
+OSDDuration=OSD узактыгы (мс):
+
+; Жалпы өтмөк - Скриншоттор
+Screenshots=Скриншоттор
+ScreenshotPath=Сактоо папкасы:
+ScreenshotFormat=Формат:
+
+; Жалпы өтмөк - Тарых
+HistorySettings=Тарых
+HistoryEnabled=Ойнотуу тарыхын күйгүзүү
+HistoryMaxItems=Макс. элементтер:
+
+; Жалпы өтмөк - Тил
+LanguageGroup=Тил
+RestartNote=(Өзгөрүүлөр үчүн кайра баштоо керек)
+
+; Видео өтмөк
+VideoAdjust=Видео тууралоолор
+Brightness=Жарыктык:
+Contrast=Контраст:
+Saturation=Тоюнуулук:
+Hue=Түс:
+Gamma=Гамма:
+VideoOutput=Видео чыгарылыш
+Output=Чыгарылыш:
+HWAccel=Аппараттык тездетүүнү күйгүзүү
+Deinterlacing=Деинтерлейс
+Mode=Режим:
+
+; Аудио өтмөк
+AudioOutput=Аудио чыгарылыш
+OutputDriver=Чыгарылыш драйвери:
+Device=Түзмөк:
+AudioOptions=Аудио тууралоолор
+NormalizeAudio=Аудио үнүн нормалдаштыруу
+Channels=Каналдар:
+
+; Субтитрлер өтмөгү
+UseDefaultSubtitles=Демейки субтитр тууралоолорун колдонуу
+Font=Шрифт
+FontName=Шрифт:
+FontSize=Өлчөмү:
+FontColor=Түсү:
+Bold=Калың
+Italic=Курсив
+Outline=Контур
+OutlineColor=Түсү:
+OutlineSize=Өлчөмү:
+Position=Позиция
+VerticalPosition=Вертикалдык позиция:
+SubOptions=Тууралоолор
+Encoding=Кодировка:
+AutoLoadSubs=Субтитр файлдарын автоматтык түрдө жүктөө
+
+; Видео чыгарылыш эскертүүлөрү
+VOWarningX11=Эскертүү: x11 видео тууралоолорду колдобойт (жарыктык, контраст ж.б.)
+VOWarningWayland=Эскертүү: Wayland сессиясы керек. Видео тууралоолор колдоого алынат.
+
+; Кэш өтмөгү
+CacheSettings=Кэш буфер өлчөмдөрү (KB)
+CacheDefault=Демейки кэш:
+CacheLocal=Жергиликтүү файлдар:
+CacheNetwork=Тармак файлдары:
+CacheInternet=Интернет агымдары:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Программа жөнүндө
+Version=Версия
+Engine=Кыймылдаткыч
+Technology=Технология
+BuildInfo=Куруу маалыматы
+SystemInfo=Система
+Credits=Ыраазычылык
+Developer=Иштеп чыгуучу:
+Author=Автор
+License=Лицензия
+Website=Веб-сайт
+GitHub=GitHub
+Description=Заманбап, жеңил медиа ойноткуч
+LicenseText=3nity Media GPL-2.0 лицензиясы менен\n\nБул сизге мүмкүндүк берет:\n  • Программаны каалаган максатта колдонуу\n  • Баштапкы кодду изилдөө жана өзгөртүү\n  • Программанын көчүрмөлөрүн таратуу\n  • Өзгөртүүлөрүңүздү таратуу\n\nШарты: таратылган өзгөртүүлөр\nGPL-2.0 лицензияланган болушу керек.
+BuildDate=Күнү:
+Target=Максат:
+Kernel=Ядро:
+
+[Shortcuts]
+Title=Баскычтоп кыскартуулары
+Description=Аракеттер үчүн баскычтоп кыскартууларын тууралоо
+Search=Издөө:
+PressKey=Баскыч басыңыз...
+ColCategory=Категория
+ColAction=Аракет
+ColShortcut=Кыскартуу
+Assign=Белгилөө
+Clear=Тазалоо
+Reset=Баштапкы абалга келтирүү
+ResetAll=Баарын баштапкы абалга келтирүү
+CurrentShortcut=Учурдагы: %s
+NoKeyPressed=Алгач баскыч комбинациясын басыңыз.
+Conflict=Конфликт: Мурунтан эле "%s" белгиленген
+ConfirmReplace=Кыскартууну алмаштыруу
+ReplaceMessage=Бул кыскартуу мурунтан эле "%s" белгиленген. Алмаштырылсынбы?
+ConfirmResetAll=Бардык кыскартууларды баштапкы абалга келтирүү
+ResetAllMessage=Бардык кыскартууларды демейки маанилерге баштапкы абалга келтирүүнү каалайсызбы?
+; Аракет аталыштары
+ActPlayPause=Ойнотуу / Тындыруу
+ActStop=Токтотуу
+ActPrevious=Мурунку
+ActNext=Кийинки
+ActSeekForward=Алдыга издөө (10с)
+ActSeekBackward=Артка издөө (10с)
+ActSeekForward5=Алдыга издөө (1 мүн)
+ActSeekBackward5=Артка издөө (1 мүн)
+ActSpeedUp=Тездетүү
+ActSpeedDown=Жайлатуу
+ActSpeedReset=Ылдамдыкты баштапкы абалга келтирүү
+ActSetLoopA=A кайталоо чекитин орнотуу
+ActSetLoopB=B кайталоо чекитин орнотуу
+ActClearLoop=A-B кайталоону тазалоо
+ActFrameForward=Кадр алдыга
+ActFrameBackward=Кадр артка
+ActPrevChapter=Мурунку бөлүм
+ActNextChapter=Кийинки бөлүм
+ActGotoTime=Убакытка өтүү
+ActVolumeUp=Үндү жогорулатуу
+ActVolumeDown=Үндү төмөндөтүү
+ActMute=Үнсүз / Күйгүзүү
+ActAudioDelayPlus=Аудио кечиктирүү +
+ActAudioDelayMinus=Аудио кечиктирүү -
+ActAudioDelayReset=Аудио кечиктирүүнү баштапкы абалга келтирүү
+ActFullscreen=Толук экран
+ActRotate=Видеону буруу
+ActDeinterlace=Деинтерлейс
+ActZoomIn=Чоңойтуу
+ActZoomOut=Кичирейтүү
+ActZoomReset=Масштабты баштапкы абалга келтирүү
+ActAlwaysOnTop=Дайыма үстүндө
+ActFitToVideo=Видеого ылайыктоо
+ActScreenshot=Скриншот
+ActVideoAdjust=Видео тууралоолор
+ActVisNextMode=Кийинки визуализация режими
+ActVisNextColor=Кийинки түс схемасы
+ActSubDelayPlus=Субтитр кечиктирүү +
+ActSubDelayMinus=Субтитр кечиктирүү -
+ActSubDelayReset=Субтитр кечиктирүүнү баштапкы абалга келтирүү
+ActDVDMenu=DVD менюсу
+ActDVDUp=DVD өйдө
+ActDVDDown=DVD ылдый
+ActDVDLeft=DVD солго
+ActDVDRight=DVD оңго
+ActDVDSelect=DVD тандоо
+ActOpenFile=Файлды ачуу
+ActOpenURL=URL ачуу
+ActPlaylist=Ойнотуу тизмесин көрсөтүү
+ActQuit=Чыгуу
+
+[Log]
+; 25-этап: Журнал терезеси
+Title=MPV журналы
+Command=Буйрук:
+Clear=Тазалоо
+Save=Сактоо...
+Copy=&Көчүрүү
+SelectAll=Баарын &тандоо
+SaveTitle=Журналды сактоо
+SaveFilter=Текст файлдары (*.txt)|*.txt|Бардык файлдар (*.*)|*.*
+ErrorTitle=Ката
+SaveError=Журналды сактоо ишке ашкан жок: %s
+
+[MediaInfo]
+Title=Медиа маалымат
+FileTab=Файл
+VideoTab=Видео
+AudioTab=Аудио
+MetadataTab=Метадайындар
+FileName=Файл аты:
+FilePath=Жол:
+FileSize=Өлчөмү:
+Duration=Узактыгы:
+Format=Формат:
+Bitrate=Битрейт:
+Codec=Кодек:
+Resolution=Резолюция:
+FrameRate=Кадр ылдамдыгы:
+PixelFormat=Пиксел форматы:
+AspectRatio=Пропорция:
+Channels=Каналдар:
+SampleRate=Үлгү ылдамдыгы:
+Language=Тил:
+Property=Касиет
+Value=Маани
+CopyAll=Баарын көчүрүү
+CopiedToClipboard=Медиа маалымат буферге көчүрүлдү.
+NA=Жеткиликсиз
+NAStream=Жеткиликсиз (агым)
+NALive=Жеткиликсиз (түз)
+ChannelMono=1 (Моно)
+ChannelStereo=2 (Стерео)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Белгисиз
+NoMetadata=(Метадайындар жок)
+
+[Bookmarks]
+Title=Кыстармалар
+Goto=Өтүү
+Remove=Өчүрүү
+Clear=Баарын тазалоо
+Refresh=Жаңылоо
+OpenFolder=Папканы ачуу
+CopyPath=Жолду көчүрүү
+; Тилкелер
+ColName=Аты
+ColFile=Файл
+ColPosition=Позиция
+ColCreated=Түзүлгөн
+; Диалогдор
+ClearTitle=Кыстармаларды тазалоо
+ClearConfirm=Бардык кыстармаларды тазалоону каалайсызбы?
+Count=%d кыстарма
+
+[Favorites]
+Title=Тандалмалар
+Play=Ойнотуу
+Remove=Өчүрүү
+Clear=Баарын тазалоо
+Refresh=Жаңылоо
+OpenFolder=Папканы ачуу
+CopyPath=Жолду көчүрүү
+; Тилкелер
+ColName=Аты
+ColType=Түрү
+ColPath=Жол
+; Түрлөр
+TypeFile=Файл
+TypeURL=URL
+TypeRadio=Радио
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Белгисиз
+; Диалогдор
+ClearTitle=Тандалмаларды тазалоо
+ClearConfirm=Бардык тандалмаларды тазалоону каалайсызбы?
+Count=%d тандалма
+
+[History]
+Title=Ойнотуу тарыхы
+Play=Ойнотуу
+Remove=Өчүрүү
+Clear=Баарын тазалоо
+Refresh=Жаңылоо
+OpenFolder=Папканы ачуу
+CopyPath=Жолду көчүрүү
+; Тилкелер
+ColFileName=Файл
+ColPath=Жол
+; Диалогдор
+ClearTitle=Тарыхты тазалоо
+ClearConfirm=Бардык тарыхты тазалоону каалайсызбы?
+Count=%d элемент
+
+[SleepTimer]
+Title=Уйку таймери
+Description=Ойнотууну автоматтык түрдө токтотуу таймерин орнотуңуз
+Hours=Саат:
+Minutes=Мүнөт:
+Action=Таймер бүткөндө:
+StopPlayback=Ойнотууну токтотуу
+CloseApp=Программаны жабуу
+Shutdown=Компьютерди өчүрүү
+QuickSet=Тез орнотуу:
+15Min=15 мүн
+30Min=30 мүн
+1Hour=1 саат
+2Hours=2 саат
+
+[Radios]
+Title=Интернет радиолор
+Play=Ойнотуу
+Add=Кошуу
+Edit=Түзөтүү
+Delete=Өчүрүү
+Remove=Өчүрүү
+Import=Импорт
+Export=Экспорт
+Refresh=Жаңылоо
+Favorite=Тандалма
+ShowFavorites=Тандалмалар
+ShowAll=Баары
+; Чыпка
+Genre=Жанр:
+Search=Издөө:
+SearchBtn=Издөө
+ClearSearch=Тазалоо
+AllGenres=(Бардык жанрлар)
+; Контекст менюсу
+AddFavorite=Тандалмаларга кошуу
+RemoveFavorite=Тандалмалардан өчүрүү
+AddCustom=Ыңгайлаштырылган станция кошуу...
+EditCustom=Станцияны түзөтүү...
+DeleteCustom=Станцияны өчүрүү
+OpenWebsite=Веб-сайтты ачуу
+CopyURL=URL көчүрүү
+; Тилкелер
+ColName=Аты
+ColGenre=Жанр
+ColBitrate=Битрейт
+ColCountry=Өлкө
+ColCodec=Кодек
+; Диалогдор
+AddTitle=Ыңгайлаштырылган станция кошуу
+EditTitle=Станцияны түзөтүү
+DeleteTitle=Станцияны өчүрүү
+DeleteConfirm=Бул станцияны өчүрүүнү каалайсызбы?
+StationName=Станция аты:
+StreamURL=Агым URL:
+GenrePrompt=Жанр:
+NameURLRequired=Аты жана URL талап кылынат.
+; Абал билдирүүлөрү
+LoadingIcecast=Icecast каталогунан станциялар жүктөлүүдө...
+IcecastError=Icecast каталогун жүктөө мүмкүн болгон жок. Демейки станциялар колдонулууда.
+NoStationsLoaded=Станциялар жүктөлгөн жок
+StationCount=%d станция
+LoadedStations=%d станция жүктөлдү
+ErrorPrefix=Ката:
+; Эски ачкычтар
+Name=Аты
+URL=URL
+Bitrate=Битрейт
+Description=Сүрөттөмө
+Country=Өлкө
+
+[OpenURL]
+Title=URL ачуу
+Prompt=Медиа URL киргизиңиз:
+
+[GotoTime]
+Title=Убакытка өтүү
+EnterTime=Өтүү убактысын киргизиңиз:
+Hours=С
+Minutes=М
+Seconds=Сек
+Current=Учурдагы:
+Duration=Узактыгы:
+
+[VideoAdjust]
+Title=Видео тууралоолор
+Brightness=Жарыктык:
+Contrast=Контраст:
+Saturation=Тоюнуулук:
+Hue=Түс:
+Gamma=Гамма:
+ResetAll=Бардык түстөрдү баштапкы абалга келтирүү
+
+[CLI]
+; Буйрук сабынын билдирүүлөрү
+Usage=Колдонуу
+Arguments=[ОПЦИЯЛАР] [ФАЙЛ|URL|ПАПКА]
+Description=libmpv кыймылдаткычын колдонгон кросс-платформалык мультимедиа ойноткуч.
+Options=ОПЦИЯЛАР
+Examples=МИСАЛДАР
+MoreInfo=Кошумча маалымат алуу үчүн, кириңиз
+EnqueuedTo=Болгон нускага кезекке кошулду: %s
+SentTo=Болгон нускага жөнөтүлдү: %s
+AlreadyRunning=3nity Media мурунтан эле иштеп жатат.
+ErrorFileNotFound=Ката: Файл же каталог табылган жок: %s
+ErrorSubNotFound=Ката: Субтитр файлы табылган жок: %s

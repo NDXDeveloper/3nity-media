@@ -1,0 +1,892 @@
+[Language]
+Name=Latvian - Latviešu
+Code=lv
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Faila izvēlne
+File=&Fails
+FileOpen=&Atvērt failu...
+FileOpenURL=Atvērt &URL...
+FileOpenClipboard=Atvērt no &starpliktuves
+FileRecent=&Nesenie faili
+ClearRecentFiles=Notīrīt nesenos failus
+FileExit=I&ziet
+
+; Atskaņošanas izvēlne
+Playback=&Atskaņošana
+PlaybackPlayPause=&Atskaņot/Pauzēt
+PlaybackStop=&Apturēt
+PlaybackPrevious=Iepr&iekšējais
+PlaybackNext=&Nākamais
+PlaybackSeekForward=Pārtīt uz &priekšu
+PlaybackSeekBackward=Pārtīt &atpakaļ
+PlaybackSpeed=Ā&trums
+PlaybackABLoop=A-&B cilpa
+PlaybackSetA=Iestatīt &A
+PlaybackSetB=Iestatīt &B
+PlaybackClearAB=&Notīrīt A-B
+PlaybackChapters=&Nodaļas
+PlaybackPrevChapter=Iepriekšējā nodaļa
+PlaybackNextChapter=Nākamā nodaļa
+PlaybackFrameStep=Kadrs uz &priekšu
+PlaybackFrameBack=Kadrs &atpakaļ
+
+; DVD navigācija
+PlaybackDVD=DVD &navigācija
+DVDMenu=&Izvēlne
+DVDUp=&Augšup
+DVDDown=&Lejup
+DVDLeft=Pa &kreisi
+DVDRight=Pa &labi
+DVDSelect=&Atlasīt
+PlaybackDVDTitles=DVD &virsraksti
+
+; 21. fāze: Atvērt mapi
+FileOpenFolder=Atvērt &mapi...
+
+; Faila izvēlne DVD/Bluray
+FileOpenDVD=Atvērt &DVD...
+FileOpenBluray=Atvērt &Blu-ray...
+
+; 13. fāze: Pāriet uz laiku un vēsture
+PlaybackGotoTime=&Pāriet uz laiku...
+ToolsHistory=&Vēsture
+
+; 14. fāze: Sistēmas tekne
+TrayShow=&Rādīt/Slēpt
+TrayPlayPause=&Atskaņot/Pauzēt
+TrayStop=&Apturēt
+TrayPrevious=Iepr&iekšējais
+TrayNext=&Nākamais
+TrayMute=&Izslēgt skaņu
+TrayExit=I&ziet
+
+; 15. fāze: Grāmatzīmes
+PlaybackAddBookmark=Pievienot &grāmatzīmi...
+PlaybackBookmarks=Grāmat&zīmes
+BookmarksTitle=Grāmatzīmes
+BookmarksGoto=&Pāriet uz grāmatzīmi
+BookmarksRemove=&Noņemt grāmatzīmi
+BookmarksClear=&Notīrīt visas grāmatzīmes
+BookmarksOpenFolder=Atvērt &mapi
+BookmarksCopyPath=&Kopēt ceļu
+BookmarksCount=%d grāmatzīmes
+NoBookmarks=(Nav grāmatzīmju)
+NoFileLoaded=(Nav ielādēts fails)
+BookmarkAdded=Grāmatzīme pievienota pie %s
+BookmarkJumped=Pārgāja uz grāmatzīmi pie %s
+AddBookmarkTitle=Pievienot grāmatzīmi
+AddBookmarkPrompt=Ievadiet grāmatzīmes nosaukumu:
+ShowAllBookmarks=Rādīt visas grāmatzīmes...
+
+; 16. fāze: Izlase
+ToolsFavorites=&Izlase
+ToolsAddFavorite=Pievienot izla&sei
+FavoritesTitle=Izlase
+FavoritesPlay=&Atskaņot
+FavoritesRemove=&Noņemt no izlases
+FavoritesClear=&Notīrīt visu izlasi
+FavoritesOpenFolder=Atvērt &mapi
+FavoritesCopyPath=&Kopēt ceļu
+FavoritesCount=%d izlases vienības
+NoFavorites=(Nav izlases)
+AddFavoriteTitle=Pievienot izlasei
+AddFavoritePrompt=Ievadiet nosaukumu izlasei:
+AlreadyFavorite=Jau ir izlasē
+AddedToFavorites=Pievienots izlasei: %s
+NoFileToFavorite=Nav ielādēta faila, ko pievienot izlasei
+FavoriteTypeFile=Fails
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Celiņu formāta virknes
+TrackWithTitle=Celiņš %d: %s
+TrackWithLang=Celiņš %d (%s)
+TrackNumber=Celiņš %d
+
+; Ātruma izvēlnes vienības
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Mēroga izvēlnes vienības
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitru celiņš
+SubtitleDisable=Atspējot
+
+; 17. fāze: Miega taimeris
+ToolsSleepTimer=&Miega taimeris...
+ToolsSleepTimerActive=&Miega taimeris [%s]
+ToolsCancelTimer=Atcelt &taimeri
+
+; Audio izvēlne
+Audio=&Audio
+AudioTrack=Audio &celiņš
+AudioVolumeUp=Skaļums &augstāk
+AudioVolumeDown=Skaļums &zemāk
+AudioMute=&Izslēgt skaņu
+AudioEqualizer=&Ekvalaizers
+AudioDelay=Audio &aizkave
+AudioDelayPlus=Aizkave +0.1s
+AudioDelayMinus=Aizkave -0.1s
+AudioDelayReset=Atiestatīt aizkavi
+AudioNormalize=&Normalizēt skaļumu
+
+; Video izvēlne
+Video=&Video
+VideoFullscreen=&Pilnekrāns
+VideoAspect=&Proporcijas
+VideoAspectAuto=&Automātiski
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Ekrānuzņēmums
+VideoScreenshotAs=Ekrānuzņēmums &kā...
+VideoRotation=&Rotācija
+VideoRotate0=&0° (Normāls)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Apgriezt
+VideoFlipH=Apgriezt &horizontāli
+VideoFlipV=Apgriezt &vertikāli
+VideoDeinterlace=&Pretmijrindu apstrāde
+VideoZoom=&Tālummaiņa
+VideoZoomIn=Tu&vināt
+VideoZoomOut=Tā&lināt
+VideoZoomReset=&Atiestatīt tālummaiņu
+VideoPan=&Panoramēšana
+VideoPanLeft=Panoramēt pa &kreisi
+VideoPanRight=Panoramēt pa &labi
+VideoPanUp=Panoramēt &augšup
+VideoPanDown=Panoramēt &lejup
+VideoPanReset=At&iestatīt panoramēšanu
+VideoTrack=Video &celiņš
+VideoColors=Krāsu &pielāgojumi
+VideoBrightness=&Spilgtums
+VideoContrast=&Kontrasts
+VideoSaturation=&Piesātinājums
+VideoHue=&Nokrāsa
+VideoGamma=&Gamma
+VideoColorsReset=Atiestatīt &visas krāsas
+VideoIncrease=Palielināt (+5)
+VideoDecrease=Samazināt (-5)
+VideoReset=Atiestatīt
+VideoAdjustDialog=Video &pielāgojumi...
+
+; Skata izvēlne
+View=Sk&ats
+ViewAlwaysOnTop=&Vienmēr virspusē
+ViewFitToVideo=&Pielāgot logu video
+ViewScale=Loga &mērogs
+
+; 26. fāze: Vizualizācijas izvēlne
+ViewVisualization=&Vizualizācija
+VisNone=&Nav
+VisSpectrum=&Spektra analizators
+VisWaveform=&Viļņu forma
+VisVector=&Vektoru skops
+VisVolume=V&U mērītājs
+VisNextMode=Nākamais &režīms
+VisNextColor=Nākamā &krāsu shēma
+
+; Subtitru izvēlne
+Subtitles=&Subtitri
+SubtitleTrack=Subtitru &celiņš
+SubtitleLoad=&Ielādēt subtitrus...
+SubtitleDelay=Subtitru &aizkave
+SubtitleDelayPlus=Aizkave +0.1s
+SubtitleDelayMinus=Aizkave -0.1s
+SubtitleDelayReset=Atiestatīt aizkavi
+
+; Rīku izvēlne
+Tools=&Rīki
+ToolsPlaylist=&Atskaņošanas saraksts
+ToolsRadios=&Radio
+ToolsShortcuts=&Tastatūras saīsnes...
+ToolsOptions=&Opcijas
+
+; 27. fāze: Ierakstīšanas izvēlne
+ToolsRecord=&Ierakstīt straumi...
+ToolsStopRecord=A&pturēt ierakstīšanu
+ToolsRecording=&Ierakstīšana...
+
+; Palīdzības izvēlne
+Help=&Palīdzība
+HelpMediaInfo=&Multivides info
+HelpLog=&Žurnāla logs
+HelpAbout=&Par programmu
+
+[Dialog]
+OpenFile=Atvērt failu
+OpenURL=Atvērt URL
+SaveScreenshot=Saglabāt ekrānuzņēmumu
+LoadSubtitle=Ielādēt subtitru failu
+EnterURL=Ievadiet URL:
+ResumePlayback=Atsākt atskaņošanu
+ResumeFrom=Atsākt no %s?
+ClearRecentFiles=Notīrīt nesenos failus
+NoRecentFiles=(Nav neseno failu)
+NoAudioTracks=(Nav audio celiņu)
+NoVideoTracks=(Nav video celiņu)
+NoSubtitleTracks=(Nav subtitru celiņu)
+NoChapters=(Nav nodaļu)
+OpenDVD=Atvērt DVD
+OpenBluray=Atvērt Blu-ray
+OpenFolder=Atvērt mapi
+
+; Failu filtri
+ScreenshotFilter=PNG attēls|*.png|JPEG attēls|*.jpg|WebP attēls|*.webp
+DVDFilter=DVD mape|*.;*.iso|Visi faili (*.*)|*.*
+BlurayFilter=Blu-ray mape|*.;*.iso|Visi faili (*.*)|*.*
+NoDVD=(Nav ielādēts DVD)
+DVDTitle=Virsraksts %d
+GotoTime=Pāriet uz laiku
+EnterTime=Ievadiet laiku, uz kuru pāriet:
+Hours=Stundas
+Minutes=Minūtes
+Seconds=Sekundes
+Current=Pašreizējais:
+HistoryTitle=Atskaņošanas vēsture
+HistoryItems=%d vienības vēsturē
+HistoryPlay=&Atskaņot
+HistoryRemove=&Noņemt no vēstures
+HistoryClear=&Notīrīt visu vēsturi
+HistoryOpenFolder=Atvērt &mapi
+HistoryCopyPath=&Kopēt ceļu
+ClearHistory=Notīrīt vēsturi
+ClearHistoryConfirm=Vai tiešām vēlaties notīrīt visu vēsturi?
+SleepTimerTitle=Miega taimeris
+SleepTimerDescription=Iestatīt taimeri, lai automātiski apturētu atskaņošanu
+SleepTimerHours=Stundas
+SleepTimerMinutes=Minūtes
+SleepTimerQuickSet=Ātrā iestatīšana
+SleepTimerAction=Kad taimeris beidzas
+SleepTimerStopPlayback=Apturēt atskaņošanu
+SleepTimerCloseApp=Aizvērt lietotni
+SleepTimerShutdown=Izslēgt datoru
+SleepTimerStart=Sākt taimeri
+
+[Status]
+Ready=Gatavs
+Opening=Atver...
+Playing=Atskaņo
+Paused=Pauzēts
+Stopped=Apturēts
+Error=Kļūda
+Buffering=Buferizē...
+Seeking=Pārtina...
+Recording=Ieraksta
+
+[Message]
+SpeedFormat=Ātrums: %.2fx
+VolumeFormat=Skaļums: %d%%
+BrightnessFormat=Spilgtums: %d
+ContrastFormat=Kontrasts: %d
+SaturationFormat=Piesātinājums: %d
+HueFormat=Nokrāsa: %d
+GammaFormat=Gamma: %d
+ColorsReset=Video krāsas atiestatītas
+LoopASet=Cilpas A punkts iestatīts pie %s
+LoopBSet=Cilpas B punkts iestatīts pie %s - Cilpa aktīva
+LoopCleared=A-B cilpa notīrīta
+SetAFirst=Vispirms iestatiet A punktu (nospiediet L)
+RotationFormat=Rotācija: %d°
+FlipHOn=Horizontālā apgriešana: IESLĒGTA
+FlipHOff=Horizontālā apgriešana: IZSLĒGTA
+FlipVOn=Vertikālā apgriešana: IESLĒGTA
+FlipVOff=Vertikālā apgriešana: IZSLĒGTA
+DeinterlaceOn=Pretmijrindu apstrāde: IESLĒGTA
+DeinterlaceOff=Pretmijrindu apstrāde: IZSLĒGTA
+AlwaysOnTopOn=Vienmēr virspusē: IESLĒGTS
+AlwaysOnTopOff=Vienmēr virspusē: IZSLĒGTS
+WindowFitted=Logs pielāgots uz %dx%d
+WindowScale=Loga mērogs: %.0f%%
+ScreenshotSaved=Ekrānuzņēmums saglabāts: %s
+AudioNormalizeOn=Audio normalizācija: IESLĒGTA
+AudioNormalizeOff=Audio normalizācija: IZSLĒGTA
+AudioDelayFormat=Audio aizkave: %.1f s
+SubtitleDelayFormat=Subtitru aizkave: %.1f s
+ZoomFormat=Tālummaiņa: %.0f%%
+PanCenter=Panoramēšana: Centrs
+PanFormat=Panoramēšana: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Nav ielādēts video
+PlayingFromClipboard=Atskaņo no starpliktuves: %s
+ClipboardInvalid=Starpliktuve nesatur derīgu URL vai ceļu
+ClipboardEmpty=Starpliktuve ir tukša vai nesatur tekstu
+ResumedAt=Atsākts pie %s
+FrameStepForward=Kadrs uz priekšu
+FrameStepBackward=Kadrs atpakaļ
+PreviousChapter=Iepriekšējā nodaļa
+NextChapter=Nākamā nodaļa
+PlayingRadio=Atskaņo radio: %s
+PlayingDVD=Atskaņo DVD: %s
+PlayingBluray=Atskaņo Blu-ray: %s
+DVDTitlePlaying=DVD virsraksts %d
+SeekTo=Pārtina uz %s
+MinimizedToTray=Minimizēts teknē. Dubultklikšķis, lai atjaunotu.
+SleepTimerSet=Miega taimeris iestatīts: %s
+SleepTimerCancelled=Miega taimeris atcelts
+SleepTimerWarning=Miega taimeris: Atlicis 1 minūte
+SleepTimerFinal=Miega taimeris: Atlicis 10 sekundes
+SleepTimerStopped=Miega taimeris: Atskaņošana apturēta
+SleepTimerClosing=Miega taimeris: Aizver lietotni
+SleepTimerShutdown=Miega taimeris: Izslēdz datoru
+SleepTimerExpired=Miega taimeris beidzies
+ShutdownManual=Lūdzu izslēdziet datoru manuāli.
+
+; 21. fāze: Atvērt mapi
+FolderOpened=Atvērta mape: %d faili
+NoMediaFound=Multivides faili nav atrasti
+FilesAdded=Pievienoti %d faili atskaņošanas sarakstam
+
+; 27. fāze: Ierakstīšanas ziņojumi
+RecordNeedPlayback=Sāciet atskaņošanu pirms ierakstīšanas.
+RecordingStarted=Ierakstīšana sākta
+RecordingStopped=Ierakstīšana apturēta
+
+; Papildu statusa ziņojumi
+EndOfPlaylist=Atskaņošanas saraksta beigas
+NoMediaLoaded=Pašlaik nav ielādēts multivides fails.
+JumpedToNamed=Pārgāja uz: %s
+ChapterFormat=Nodaļa %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Grāmatzīme pie %s
+
+[Label]
+Muted=Skaņa izslēgta
+
+[Button]
+Play=Atskaņot
+Pause=Pauzēt
+Stop=Apturēt
+Previous=Iepriekšējais
+Next=Nākamais
+Mute=Izslēgt skaņu
+Unmute=Ieslēgt skaņu
+Fullscreen=Pilnekrāns
+OK=Labi
+Cancel=Atcelt
+Apply=Lietot
+Close=Aizvērt
+Yes=Jā
+No=Nē
+
+[Tooltip]
+Play=Atskaņot/Pauzēt
+Stop=Apturēt atskaņošanu
+Previous=Iepriekšējais celiņš
+Next=Nākamais celiņš
+Mute=Pārslēgt skaņu
+Volume=Skaļums
+Seek=Pārtīšanas pozīcija
+Fullscreen=Pārslēgt pilnekrānu
+
+[Playlist]
+Title=Atskaņošanas saraksts
+Add=Pievienot
+Remove=Noņemt
+Clear=Notīrīt
+MoveUp=Pārvietot augšup
+MoveDown=Pārvietot lejup
+Shuffle=Jaukt
+Repeat=Atkārtot
+Play=Atskaņot
+ShuffleOn=Jaukšana: Ieslēgta
+ShuffleOff=Jaukšana: Izslēgta
+RepeatOff=Atkārtošana: Izslēgta
+RepeatOne=Atkārtošana: Viens
+RepeatAll=Atkārtošana: Visi
+SavePlaylist=Saglabāt
+LoadPlaylist=Ielādēt
+TotalDuration=Kopā: %s
+ItemCount=%d vienības
+
+; 22. fāze: Atskaņošanas saraksta uzlabojumi
+Search=Meklēt:
+FilterPlaceholder=Filtrēt sarakstu...
+ClearSearch=Notīrīt
+FilterCount=%d/%d
+RemoveDuplicates=Noņemt &dublikātus
+Properties=Ī&pašības...
+NoDuplicates=Dublikāti nav atrasti.
+DuplicatesFound=Atrasti %d dublikāti. Noņemt tos?
+RemoveDuplicatesTitle=Noņemt dublikātus
+PropertiesTitle=Atskaņošanas saraksta īpašības
+PropTotalItems=Kopā vienību: %d
+PropTotalDuration=Kopējais ilgums: %s
+PropPlayed=Atskaņoti: %d
+PropUnplayed=Neatskaņoti: %d
+PropTotalSize=Kopējais izmērs: %.2f MB
+PropShuffle=Jaukšana: %s
+PropRepeat=Atkārtošana: %s
+On=Ieslēgts
+Off=Izslēgts
+
+; Jaunās atslēgas ApplyLocale
+ClearTitle=Notīrīt atskaņošanas sarakstu
+ClearConfirm=Vai tiešām vēlaties notīrīt atskaņošanas sarakstu?
+NoPlaylist=Nav atskaņošanas saraksta
+StatusFormat=%d vienības | Kopā: %s
+RepeatOne=Atk. 1
+RepeatAll=Atk. visi
+HintRepeatEnable=Klikšķiniet, lai ieslēgtu Atkārtot visu
+HintRepeatOne=Atkārtot vienu - Klikšķiniet, lai izslēgtu
+HintRepeatAll=Atkārtot visu - Klikšķiniet, lai atkārtotu vienu
+HintShuffleRepeat=Jaukšana + Atkārtot visu - Klikšķiniet, lai izslēgtu atkārtošanu
+RemoveDuplicatesTitle=Noņemt dublikātus
+NoDuplicates=Dublikāti nav atrasti.
+SelectAll=Atlasīt visu
+SelectNone=Noņemt atlasi
+SelectInvert=Apgriezt atlasi
+Sort=Kārtot
+SortByName=Pēc nosaukuma
+SortByTitle=Pēc virsraksta
+SortByArtist=Pēc izpildītāja
+SortByDuration=Pēc ilguma
+SortReverse=Apgriezt
+SortRandom=Nejaušināt
+ColTitle=Virsraksts
+ColDuration=Ilgums
+ColArtist=Izpildītājs
+ColAlbum=Albums
+PlaylistFilter=M3U atskaņošanas saraksts|*.m3u|M3U8 atskaņošanas saraksts|*.m3u8|PLS atskaņošanas saraksts|*.pls
+
+[Equalizer]
+Title=Ekvalaizers
+Presets=Iepriekšiestatījumi:
+Preamp=Priekšpastiprinātājs:
+Flat=Plakans
+Rock=Roks
+Pop=Pop
+Jazz=Džezs
+Classical=Klasiskā
+BassBoost=Basu pastiprinājums
+TrebleBoost=Augsto frekvenču pastiprinājums
+Vocal=Vokāls
+Reset=Atiestatīt
+Enable=Ieslēgt ekvalaizeru
+Save=Saglabāt
+Delete=Dzēst
+Ready=Gatavs
+; Pogas un darbības
+SavePreset=Saglabāt iepriekšiestatījumu
+DeletePreset=Dzēst iepriekšiestatījumu
+SavePresetTitle=Saglabāt iepriekšiestatījumu
+PresetNamePrompt=Iepriekšiestatījuma nosaukums:
+EnterPresetName=Lūdzu ievadiet iepriekšiestatījuma nosaukumu.
+OverwritePresetTitle=Pārrakstīt iepriekšiestatījumu
+OverwritePresetConfirm=Iepriekšiestatījums ar šādu nosaukumu jau eksistē. Pārrakstīt?
+PresetUpdated=Iepriekšiestatījums atjaunināts: %s
+PresetSaved=Iepriekšiestatījums saglabāts: %s
+SelectPresetToDelete=Lūdzu atlasiet iepriekšiestatījumu dzēšanai.
+CannotDeleteDefault=Nevar dzēst noklusējuma iepriekšiestatījumus.
+DeletePresetTitle=Dzēst iepriekšiestatījumu
+DeletePresetConfirm=Vai tiešām vēlaties dzēst šo iepriekšiestatījumu?
+PresetDeleted=Iepriekšiestatījums dzēsts
+ResetToFlat=Ekvalaizers atiestatīts uz plakanu
+PresetApplied=Lietots iepriekšiestatījums: %s
+
+[Options]
+Title=Opcijas
+General=Vispārīgi
+Video=Video
+Audio=Audio
+Subtitles=Subtitri
+Cache=Kešatmiņa
+Language=Valoda:
+RestartRequired=Izmaiņu piemērošanai nepieciešama restartēšana
+
+; Vispārīgā cilne - Uzvedība
+Behavior=Uzvedība
+SingleInstance=Atļaut tikai vienu instanci
+AutoPlay=Automātiski atskaņot atvērtus failus
+AutoResume=Atsākt atskaņošanas pozīciju
+MinimizeToTray=Minimizēt uz sistēmas tekni
+AutoSavePlaylist=Saglabāt atskaņošanas sarakstu izejot
+
+; Vispārīgā cilne - OSD
+OSD=Ekrāna displejs
+ShowOSD=Rādīt ekrāna ziņojumus
+ShowTrayIcon=Rādīt teknes ikonu
+OSDDuration=OSD ilgums (ms):
+
+; Vispārīgā cilne - Ekrānuzņēmumi
+Screenshots=Ekrānuzņēmumi
+ScreenshotPath=Saglabāšanas mape:
+ScreenshotFormat=Formāts:
+
+; Vispārīgā cilne - Vēsture
+HistorySettings=Vēsture
+HistoryEnabled=Ieslēgt atskaņošanas vēsturi
+HistoryMaxItems=Maks. vienības:
+
+; Vispārīgā cilne - Valoda
+LanguageGroup=Valoda
+RestartNote=(Izmaiņām nepieciešama restartēšana)
+
+; Video cilne
+VideoAdjust=Video pielāgojumi
+Brightness=Spilgtums:
+Contrast=Kontrasts:
+Saturation=Piesātinājums:
+Hue=Nokrāsa:
+Gamma=Gamma:
+VideoOutput=Video izvade
+Output=Izvade:
+HWAccel=Ieslēgt aparatūras paātrinājumu
+Deinterlacing=Pretmijrindu apstrāde
+Mode=Režīms:
+
+; Audio cilne
+AudioOutput=Audio izvade
+OutputDriver=Izvades draiveris:
+Device=Ierīce:
+AudioOptions=Audio opcijas
+NormalizeAudio=Normalizēt audio skaļumu
+Channels=Kanāli:
+
+; Subtitru cilne
+UseDefaultSubtitles=Lietot noklusējuma subtitru iestatījumus
+Font=Fonts
+FontName=Fonts:
+FontSize=Izmērs:
+FontColor=Krāsa:
+Bold=Treknraksts
+Italic=Slīpraksts
+Outline=Kontūra
+OutlineColor=Krāsa:
+OutlineSize=Izmērs:
+Position=Pozīcija
+VerticalPosition=Vertikālā pozīcija:
+SubOptions=Opcijas
+Encoding=Kodējums:
+AutoLoadSubs=Automātiski ielādēt subtitru failus
+
+; Video izvades brīdinājumi
+VOWarningX11=Brīdinājums: x11 neatbalsta video pielāgojumus (spilgtums, kontrasts utt.)
+VOWarningWayland=Brīdinājums: Nepieciešama Wayland sesija. Video pielāgojumi atbalstīti.
+
+; Kešatmiņas cilne
+CacheSettings=Kešatmiņas bufera izmēri (KB)
+CacheDefault=Noklusējuma kešatmiņa:
+CacheLocal=Lokālie faili:
+CacheNetwork=Tīkla faili:
+CacheInternet=Interneta straumes:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Par programmu
+Version=Versija
+Engine=Dzinējs
+Technology=Tehnoloģija
+BuildInfo=Būvējuma informācija
+SystemInfo=Sistēma
+Credits=Pateicības
+Developer=Izstrādātājs:
+Author=Autors
+License=Licence
+Website=Tīmekļa vietne
+GitHub=GitHub
+Description=Moderns, viegls multivides atskaņotājs
+LicenseText=3nity Media ir licencēts saskaņā ar GPL-2.0\n\nTas nozīmē, ka jūs varat brīvi:\n  • Izmantot programmatūru jebkuram mērķim\n  • Pētīt un modificēt pirmkodu\n  • Izplatīt programmatūras kopijas\n  • Izplatīt savas modifikācijas\n\nAr nosacījumu, ka visas izplatītās modifikācijas\narī ir licencētas saskaņā ar GPL-2.0.
+BuildDate=Datums:
+Target=Mērķis:
+Kernel=Kodols:
+
+[Shortcuts]
+Title=Tastatūras saīsnes
+Description=Konfigurēt tastatūras saīsnes darbībām
+Search=Meklēt:
+PressKey=Nospiediet taustiņu...
+ColCategory=Kategorija
+ColAction=Darbība
+ColShortcut=Saīsne
+Assign=Piešķirt
+Clear=Notīrīt
+Reset=Atiestatīt
+ResetAll=Atiestatīt visu
+CurrentShortcut=Pašreizējā: %s
+NoKeyPressed=Lūdzu vispirms nospiediet taustiņu kombināciju.
+Conflict=Konflikts: Jau piešķirts "%s"
+ConfirmReplace=Aizstāt saīsni
+ReplaceMessage=Šī saīsne jau ir piešķirta "%s". Vai vēlaties to aizstāt?
+ConfirmResetAll=Atiestatīt visas saīsnes
+ResetAllMessage=Vai tiešām vēlaties atiestatīt visas saīsnes uz noklusējuma vērtībām?
+; Darbību nosaukumi
+ActPlayPause=Atskaņot / Pauzēt
+ActStop=Apturēt
+ActPrevious=Iepriekšējais
+ActNext=Nākamais
+ActSeekForward=Pārtīt uz priekšu (10s)
+ActSeekBackward=Pārtīt atpakaļ (10s)
+ActSeekForward5=Pārtīt uz priekšu (1 min)
+ActSeekBackward5=Pārtīt atpakaļ (1 min)
+ActSpeedUp=Palielināt ātrumu
+ActSpeedDown=Samazināt ātrumu
+ActSpeedReset=Atiestatīt ātrumu
+ActSetLoopA=Iestatīt cilpas A punktu
+ActSetLoopB=Iestatīt cilpas B punktu
+ActClearLoop=Notīrīt A-B cilpu
+ActFrameForward=Kadrs uz priekšu
+ActFrameBackward=Kadrs atpakaļ
+ActPrevChapter=Iepriekšējā nodaļa
+ActNextChapter=Nākamā nodaļa
+ActGotoTime=Pāriet uz laiku
+ActVolumeUp=Skaļums augstāk
+ActVolumeDown=Skaļums zemāk
+ActMute=Izslēgt / Ieslēgt skaņu
+ActAudioDelayPlus=Audio aizkave +
+ActAudioDelayMinus=Audio aizkave -
+ActAudioDelayReset=Atiestatīt audio aizkavi
+ActFullscreen=Pilnekrāns
+ActRotate=Pagriezt video
+ActDeinterlace=Pretmijrindu apstrāde
+ActZoomIn=Tuvināt
+ActZoomOut=Tālināt
+ActZoomReset=Atiestatīt tālummaiņu
+ActAlwaysOnTop=Vienmēr virspusē
+ActFitToVideo=Pielāgot video
+ActScreenshot=Ekrānuzņēmums
+ActVideoAdjust=Video pielāgojumi
+ActVisNextMode=Nākamais vizualizācijas režīms
+ActVisNextColor=Nākamā krāsu shēma
+ActSubDelayPlus=Subtitru aizkave +
+ActSubDelayMinus=Subtitru aizkave -
+ActSubDelayReset=Atiestatīt subtitru aizkavi
+ActDVDMenu=DVD izvēlne
+ActDVDUp=DVD navigēt augšup
+ActDVDDown=DVD navigēt lejup
+ActDVDLeft=DVD navigēt pa kreisi
+ActDVDRight=DVD navigēt pa labi
+ActDVDSelect=DVD atlasīt
+ActOpenFile=Atvērt failu
+ActOpenURL=Atvērt URL
+ActPlaylist=Rādīt atskaņošanas sarakstu
+ActQuit=Iziet
+
+[Log]
+; 25. fāze: Žurnāla logs
+Title=MPV žurnāls
+Command=Komanda:
+Clear=Notīrīt
+Save=Saglabāt...
+Copy=&Kopēt
+SelectAll=Atlasīt &visu
+SaveTitle=Saglabāt žurnālu
+SaveFilter=Teksta faili (*.txt)|*.txt|Visi faili (*.*)|*.*
+ErrorTitle=Kļūda
+SaveError=Neizdevās saglabāt žurnālu: %s
+
+[MediaInfo]
+Title=Multivides informācija
+FileTab=Fails
+VideoTab=Video
+AudioTab=Audio
+MetadataTab=Metadati
+FileName=Faila nosaukums:
+FilePath=Ceļš:
+FileSize=Izmērs:
+Duration=Ilgums:
+Format=Formāts:
+Bitrate=Bitreits:
+Codec=Kodeks:
+Resolution=Izšķirtspēja:
+FrameRate=Kadru ātrums:
+PixelFormat=Pikseļu formāts:
+AspectRatio=Proporcijas:
+Channels=Kanāli:
+SampleRate=Iztveršanas ātrums:
+Language=Valoda:
+Property=Īpašība
+Value=Vērtība
+CopyAll=Kopēt visu
+CopiedToClipboard=Multivides informācija kopēta starpliktuvē.
+NA=Nav pieejams
+NAStream=Nav pieejams (straume)
+NALive=Nav pieejams (tiešraide)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 telpiskais)
+Channel71=8 (7.1 telpiskais)
+Unknown=Nezināms
+NoMetadata=(Nav metadatu)
+
+[Bookmarks]
+Title=Grāmatzīmes
+Goto=Pāriet uz
+Remove=Noņemt
+Clear=Notīrīt visu
+Refresh=Atsvaidzināt
+OpenFolder=Atvērt mapi
+CopyPath=Kopēt ceļu
+; Kolonnas
+ColName=Nosaukums
+ColFile=Fails
+ColPosition=Pozīcija
+ColCreated=Izveidots
+; Dialogi
+ClearTitle=Notīrīt grāmatzīmes
+ClearConfirm=Vai tiešām vēlaties notīrīt visas grāmatzīmes?
+Count=%d grāmatzīme(-es)
+
+[Favorites]
+Title=Izlase
+Play=Atskaņot
+Remove=Noņemt
+Clear=Notīrīt visu
+Refresh=Atsvaidzināt
+OpenFolder=Atvērt mapi
+CopyPath=Kopēt ceļu
+; Kolonnas
+ColName=Nosaukums
+ColType=Tips
+ColPath=Ceļš
+; Tipi
+TypeFile=Fails
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Nezināms
+; Dialogi
+ClearTitle=Notīrīt izlasi
+ClearConfirm=Vai tiešām vēlaties notīrīt visu izlasi?
+Count=%d izlases vienība(-as)
+
+[History]
+Title=Atskaņošanas vēsture
+Play=Atskaņot
+Remove=Noņemt
+Clear=Notīrīt visu
+Refresh=Atsvaidzināt
+OpenFolder=Atvērt mapi
+CopyPath=Kopēt ceļu
+; Kolonnas
+ColFileName=Fails
+ColPath=Ceļš
+; Dialogi
+ClearTitle=Notīrīt vēsturi
+ClearConfirm=Vai tiešām vēlaties notīrīt visu vēsturi?
+Count=%d vienība(-as)
+
+[SleepTimer]
+Title=Miega taimeris
+Description=Iestatiet taimeri, lai automātiski apturētu atskaņošanu
+Hours=Stundas:
+Minutes=Minūtes:
+Action=Kad taimeris beidzas:
+StopPlayback=Apturēt atskaņošanu
+CloseApp=Aizvērt lietotni
+Shutdown=Izslēgt datoru
+QuickSet=Ātrā iestatīšana:
+15Min=15 min
+30Min=30 min
+1Hour=1 stunda
+2Hours=2 stundas
+
+[Radios]
+Title=Interneta radio
+Play=Atskaņot
+Add=Pievienot
+Edit=Rediģēt
+Delete=Dzēst
+Remove=Noņemt
+Import=Importēt
+Export=Eksportēt
+Refresh=Atsvaidzināt
+Favorite=Izlase
+ShowFavorites=Izlase
+ShowAll=Visi
+; Filtrs
+Genre=Žanrs:
+Search=Meklēt:
+SearchBtn=Meklēt
+ClearSearch=Notīrīt
+AllGenres=(Visi žanri)
+; Konteksta izvēlne
+AddFavorite=Pievienot izlasei
+RemoveFavorite=Noņemt no izlases
+AddCustom=Pievienot pielāgotu staciju...
+EditCustom=Rediģēt staciju...
+DeleteCustom=Dzēst staciju
+OpenWebsite=Atvērt tīmekļa vietni
+CopyURL=Kopēt URL
+; Kolonnas
+ColName=Nosaukums
+ColGenre=Žanrs
+ColBitrate=Bitreits
+ColCountry=Valsts
+ColCodec=Kodeks
+; Dialogi
+AddTitle=Pievienot pielāgotu staciju
+EditTitle=Rediģēt staciju
+DeleteTitle=Dzēst staciju
+DeleteConfirm=Vai tiešām vēlaties dzēst šo staciju?
+StationName=Stacijas nosaukums:
+StreamURL=Straumes URL:
+GenrePrompt=Žanrs:
+NameURLRequired=Nosaukums un URL ir obligāti.
+; Statusa ziņojumi
+LoadingIcecast=Ielādē stacijas no Icecast direktorijas...
+IcecastError=Nevarēja ielādēt Icecast direktoriju. Izmanto noklusējuma stacijas.
+NoStationsLoaded=Nav ielādētas stacijas
+StationCount=%d stacijas
+LoadedStations=Ielādētas %d stacijas
+ErrorPrefix=Kļūda:
+; Mantotās atslēgas
+Name=Nosaukums
+URL=URL
+Bitrate=Bitreits
+Description=Apraksts
+Country=Valsts
+
+[OpenURL]
+Title=Atvērt URL
+Prompt=Ievadiet multivides URL:
+
+[GotoTime]
+Title=Pāriet uz laiku
+EnterTime=Ievadiet laiku, uz kuru pāriet:
+Hours=H
+Minutes=M
+Seconds=S
+Current=Pašreizējais:
+Duration=Ilgums:
+
+[VideoAdjust]
+Title=Video pielāgojumi
+Brightness=Spilgtums:
+Contrast=Kontrasts:
+Saturation=Piesātinājums:
+Hue=Nokrāsa:
+Gamma=Gamma:
+ResetAll=Atiestatīt visas krāsas
+
+[CLI]
+; Komandrindas ziņojumi
+Usage=Lietošana
+Arguments=[OPCIJAS] [FAILS|URL|MAPE]
+Description=Starpplatformu multimediju atskaņotājs, kas izmanto libmpv kā dzinēju.
+Options=OPCIJAS
+Examples=PIEMĒRI
+MoreInfo=Lai iegūtu vairāk informācijas, apmeklējiet
+EnqueuedTo=Pievienots esošās instances rindai: %s
+SentTo=Nosūtīts esošajai instancei: %s
+AlreadyRunning=3nity Media jau darbojas.
+ErrorFileNotFound=Kļūda: Fails vai direktorija nav atrasts: %s
+ErrorSubNotFound=Kļūda: Subtitru fails nav atrasts: %s

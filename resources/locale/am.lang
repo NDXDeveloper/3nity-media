@@ -1,0 +1,892 @@
+[Language]
+Name=Amharic - አማርኛ
+Code=am
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; ፋይል ምናሌ
+File=&ፋይል
+FileOpen=&ፋይል ክፈት...
+FileOpenURL=&URL ክፈት...
+FileOpenClipboard=ከ&ክሊፕቦርድ ክፈት
+FileRecent=&የቅርብ ጊዜ ፋይሎች
+ClearRecentFiles=የቅርብ ጊዜ ፋይሎችን አጽዳ
+FileExit=ው&ጣ
+
+; ማጫወቻ ምናሌ
+Playback=&ማጫወቻ
+PlaybackPlayPause=&አጫውት/አቁም
+PlaybackStop=&አቁም
+PlaybackPrevious=&ቀዳሚ
+PlaybackNext=&ቀጣይ
+PlaybackSeekForward=ወደ ፊት &ፈልግ
+PlaybackSeekBackward=ወደ ኋላ &ፈልግ
+PlaybackSpeed=&ፍጥነት
+PlaybackABLoop=A-&B ሉፕ
+PlaybackSetA=&A አዘጋጅ
+PlaybackSetB=&B አዘጋጅ
+PlaybackClearAB=&A-B አጽዳ
+PlaybackChapters=&ምዕራፎች
+PlaybackPrevChapter=ቀዳሚ ምዕራፍ
+PlaybackNextChapter=ቀጣይ ምዕራፍ
+PlaybackFrameStep=ፍሬም ወደ &ፊት
+PlaybackFrameBack=ፍሬም ወደ &ኋላ
+
+; DVD አሰሳ
+PlaybackDVD=DVD &አሰሳ
+DVDMenu=&ምናሌ
+DVDUp=&ወደ ላይ
+DVDDown=&ወደ ታች
+DVDLeft=&ወደ ግራ
+DVDRight=&ወደ ቀኝ
+DVDSelect=&ምረጥ
+PlaybackDVDTitles=DVD &ርዕሶች
+
+; ደረጃ 21: ማህደር ክፈት
+FileOpenFolder=ማ&ህደር ክፈት...
+
+; ፋይል ምናሌ DVD/Bluray
+FileOpenDVD=&DVD ክፈት...
+FileOpenBluray=&Blu-ray ክፈት...
+
+; ደረጃ 13: ወደ ጊዜ ሂድ እና ታሪክ
+PlaybackGotoTime=ወደ &ጊዜ ሂድ...
+ToolsHistory=&ታሪክ
+
+; ደረጃ 14: ሲስተም ትሬይ
+TrayShow=&አሳይ/ደብቅ
+TrayPlayPause=&አጫውት/አቁም
+TrayStop=&አቁም
+TrayPrevious=&ቀዳሚ
+TrayNext=&ቀጣይ
+TrayMute=&ድምጽ አጥፋ
+TrayExit=ው&ጣ
+
+; ደረጃ 15: ዕልባቶች
+PlaybackAddBookmark=&ዕልባት ጨምር...
+PlaybackBookmarks=ዕ&ልባቶች
+BookmarksTitle=ዕልባቶች
+BookmarksGoto=ወደ ዕልባት &ሂድ
+BookmarksRemove=ዕልባት &አስወግድ
+BookmarksClear=ሁሉንም ዕልባቶች &አጽዳ
+BookmarksOpenFolder=&ማህደር ክፈት
+BookmarksCopyPath=መንገድ &ቅዳ
+BookmarksCount=%d ዕልባቶች
+NoBookmarks=(ዕልባቶች የሉም)
+NoFileLoaded=(ፋይል አልተጫነም)
+BookmarkAdded=በ%s ላይ ዕልባት ተጨመረ
+BookmarkJumped=በ%s ላይ ወደ ዕልባት ተዛወረ
+AddBookmarkTitle=ዕልባት ጨምር
+AddBookmarkPrompt=የዕልባት ስም አስገባ:
+ShowAllBookmarks=ሁሉንም ዕልባቶች አሳይ...
+
+; ደረጃ 16: ተወዳጆች
+ToolsFavorites=ተ&ወዳጆች
+ToolsAddFavorite=ወደ ተወዳጆች &ጨምር
+FavoritesTitle=ተወዳጆች
+FavoritesPlay=&አጫውት
+FavoritesRemove=ከተወዳጆች &አስወግድ
+FavoritesClear=ሁሉንም ተወዳጆች &አጽዳ
+FavoritesOpenFolder=&ማህደር ክፈት
+FavoritesCopyPath=መንገድ &ቅዳ
+FavoritesCount=%d ተወዳጆች
+NoFavorites=(ተወዳጆች የሉም)
+AddFavoriteTitle=ወደ ተወዳጆች ጨምር
+AddFavoritePrompt=ለተወዳጅ ስም አስገባ:
+AlreadyFavorite=ቀድሞውኑ በተወዳጆች ውስጥ አለ
+AddedToFavorites=ወደ ተወዳጆች ተጨመረ: %s
+NoFileToFavorite=ወደ ተወዳጆች ለመጨመር ፋይል አልተጫነም
+FavoriteTypeFile=ፋይል
+FavoriteTypeURL=URL
+FavoriteTypeRadio=ሬዲዮ
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; የትራክ ቅርጸት ጽሁፎች
+TrackWithTitle=ትራክ %d: %s
+TrackWithLang=ትራክ %d (%s)
+TrackNumber=ትራክ %d
+
+; የፍጥነት ምናሌ ንጥሎች
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; የመጠን ምናሌ ንጥሎች
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; የግርጌ ጽሁፍ ትራክ
+SubtitleDisable=አሰናክል
+
+; ደረጃ 17: የእንቅልፍ ሰዓት ቆጣሪ
+ToolsSleepTimer=የእንቅልፍ &ሰዓት ቆጣሪ...
+ToolsSleepTimerActive=የእንቅልፍ &ሰዓት ቆጣሪ [%s]
+ToolsCancelTimer=ሰዓት ቆጣሪ &ሰርዝ
+
+; ድምጽ ምናሌ
+Audio=&ድምጽ
+AudioTrack=የድምጽ &ትራክ
+AudioVolumeUp=ድምጽ &ጨምር
+AudioVolumeDown=ድምጽ &ቀንስ
+AudioMute=ድምጽ &አጥፋ
+AudioEqualizer=&ኢኩዋላይዘር
+AudioDelay=የድምጽ &መዘግየት
+AudioDelayPlus=መዘግየት +0.1s
+AudioDelayMinus=መዘግየት -0.1s
+AudioDelayReset=መዘግየት ዳግም አስጀምር
+AudioNormalize=ድምጽ &አስተካክል
+
+; ቪዲዮ ምናሌ
+Video=&ቪዲዮ
+VideoFullscreen=&ሙሉ ስክሪን
+VideoAspect=&የገጽታ ጥምርታ
+VideoAspectAuto=&ራስ-ሰር
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&ቅጽበታዊ ገጽ እይታ
+VideoScreenshotAs=ቅጽበታዊ ገጽ እይታ &እንደ...
+VideoRotation=&ማሽከርከር
+VideoRotate0=&0° (መደበኛ)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&ግለበጥ
+VideoFlipH=&አግድም ግለበጥ
+VideoFlipV=&ቁመት ግለበጥ
+VideoDeinterlace=&ዲኢንተርሌስ
+VideoZoom=&አጉላ
+VideoZoomIn=አጉላ &ውስጥ
+VideoZoomOut=አጉላ &ውጭ
+VideoZoomReset=አጉላ &ዳግም አስጀምር
+VideoPan=&ፓን
+VideoPanLeft=ፓን &ግራ
+VideoPanRight=ፓን &ቀኝ
+VideoPanUp=ፓን &ላይ
+VideoPanDown=ፓን &ታች
+VideoPanReset=ፓን &ዳግም አስጀምር
+VideoTrack=የቪዲዮ &ትራክ
+VideoColors=የቀለም &ማስተካከያዎች
+VideoBrightness=&ብሩህነት
+VideoContrast=&ኮንትራስት
+VideoSaturation=&ሳቹሬሽን
+VideoHue=&ሂዩ
+VideoGamma=&ጋማ
+VideoColorsReset=ሁሉንም ቀለሞች &ዳግም አስጀምር
+VideoIncrease=ጨምር (+5)
+VideoDecrease=ቀንስ (-5)
+VideoReset=ዳግም አስጀምር
+VideoAdjustDialog=የቪዲዮ &ማስተካከያዎች...
+
+; እይታ ምናሌ
+View=እ&ይታ
+ViewAlwaysOnTop=&ሁልጊዜ ከላይ
+ViewFitToVideo=ወደ ቪዲዮ &አስማማ
+ViewScale=የመስኮት &መጠን
+
+; ደረጃ 26: ምስላዊ ምናሌ
+ViewVisualization=&ምስላዊ
+VisNone=&ምንም
+VisSpectrum=&ስፔክትረም ተንታኝ
+VisWaveform=&ዌቭፎርም
+VisVector=&ቬክተር ስኮፕ
+VisVolume=&VU ሜትር
+VisNextMode=ቀጣይ &ሞድ
+VisNextColor=ቀጣይ &የቀለም ስክማ
+
+; የግርጌ ጽሁፎች ምናሌ
+Subtitles=&ግርጌ ጽሁፎች
+SubtitleTrack=የግርጌ ጽሁፍ &ትራክ
+SubtitleLoad=ግርጌ ጽሁፍ &ጫን...
+SubtitleDelay=የግርጌ ጽሁፍ &መዘግየት
+SubtitleDelayPlus=መዘግየት +0.1s
+SubtitleDelayMinus=መዘግየት -0.1s
+SubtitleDelayReset=መዘግየት ዳግም አስጀምር
+
+; መሳሪያዎች ምናሌ
+Tools=&መሳሪያዎች
+ToolsPlaylist=&ዝርዝር
+ToolsRadios=&ሬዲዮዎች
+ToolsShortcuts=የቁልፍ ሰሌዳ &አቋራጮች...
+ToolsOptions=&አማራጮች
+
+; ደረጃ 27: ቀረጻ ምናሌ
+ToolsRecord=ዥረት &ቅዳ...
+ToolsStopRecord=ቀረጻ &አቁም
+ToolsRecording=&ቀረጻ...
+
+; እገዛ ምናሌ
+Help=እ&ገዛ
+HelpMediaInfo=የ&ሚዲያ መረጃ
+HelpLog=የ&ሎግ መስኮት
+HelpAbout=&ስለ
+
+[Dialog]
+OpenFile=ፋይል ክፈት
+OpenURL=URL ክፈት
+SaveScreenshot=ቅጽበታዊ ገጽ እይታ አስቀምጥ
+LoadSubtitle=የግርጌ ጽሁፍ ፋይል ጫን
+EnterURL=URL አስገባ:
+ResumePlayback=ማጫወቻ ቀጥል
+ResumeFrom=ከ%s ቀጥል?
+ClearRecentFiles=የቅርብ ጊዜ ፋይሎችን አጽዳ
+NoRecentFiles=(የቅርብ ጊዜ ፋይሎች የሉም)
+NoAudioTracks=(የድምጽ ትራኮች የሉም)
+NoVideoTracks=(የቪዲዮ ትራኮች የሉም)
+NoSubtitleTracks=(የግርጌ ጽሁፍ ትራኮች የሉም)
+NoChapters=(ምዕራፎች የሉም)
+OpenDVD=DVD ክፈት
+OpenBluray=Blu-ray ክፈት
+OpenFolder=ማህደር ክፈት
+
+; የፋይል ማጣሪያዎች
+ScreenshotFilter=PNG ምስል|*.png|JPEG ምስል|*.jpg|WebP ምስል|*.webp
+DVDFilter=DVD ማህደር|*.;*.iso|ሁሉም ፋይሎች (*.*)|*.*
+BlurayFilter=Blu-ray ማህደር|*.;*.iso|ሁሉም ፋይሎች (*.*)|*.*
+NoDVD=(DVD አልተጫነም)
+DVDTitle=ርዕስ %d
+GotoTime=ወደ ጊዜ ሂድ
+EnterTime=የሚሄዱበትን ጊዜ አስገባ:
+Hours=ሰዓታት
+Minutes=ደቂቃዎች
+Seconds=ሴኮንዶች
+Current=አሁን ያለ:
+HistoryTitle=የማጫወቻ ታሪክ
+HistoryItems=በታሪክ ውስጥ %d ንጥሎች
+HistoryPlay=&አጫውት
+HistoryRemove=ከታሪክ &አስወግድ
+HistoryClear=ሁሉንም ታሪክ &አጽዳ
+HistoryOpenFolder=&ማህደር ክፈት
+HistoryCopyPath=መንገድ &ቅዳ
+ClearHistory=ታሪክ አጽዳ
+ClearHistoryConfirm=ሁሉንም ታሪክ ማጽዳት እንደሚፈልጉ እርግጠኛ ነዎት?
+SleepTimerTitle=የእንቅልፍ ሰዓት ቆጣሪ
+SleepTimerDescription=ማጫወቻን በራስ-ሰር ለማቆም ሰዓት ቆጣሪ አዘጋጅ
+SleepTimerHours=ሰዓታት
+SleepTimerMinutes=ደቂቃዎች
+SleepTimerQuickSet=ፈጣን ማዘጋጀት
+SleepTimerAction=ሰዓት ቆጣሪ ሲያልቅ
+SleepTimerStopPlayback=ማጫወቻ አቁም
+SleepTimerCloseApp=መተግበሪያ ዝጋ
+SleepTimerShutdown=ኮምፒውተር አጥፋ
+SleepTimerStart=ሰዓት ቆጣሪ ጀምር
+
+[Status]
+Ready=ዝግጁ
+Opening=በመክፈት ላይ...
+Playing=በማጫወት ላይ
+Paused=ቆሟል
+Stopped=ተቆሟል
+Error=ስህተት
+Buffering=በመጠባበቂያ ላይ...
+Seeking=በመፈለግ ላይ...
+Recording=በመቅዳት ላይ
+
+[Message]
+SpeedFormat=ፍጥነት: %.2fx
+VolumeFormat=ድምጽ: %d%%
+BrightnessFormat=ብሩህነት: %d
+ContrastFormat=ኮንትራስት: %d
+SaturationFormat=ሳቹሬሽን: %d
+HueFormat=ሂዩ: %d
+GammaFormat=ጋማ: %d
+ColorsReset=የቪዲዮ ቀለሞች ዳግም ተጀመሩ
+LoopASet=ሉፕ A በ%s ላይ ተዘጋጀ
+LoopBSet=ሉፕ B በ%s ላይ ተዘጋጀ - ሉፕ ንቁ
+LoopCleared=A-B ሉፕ ጸዳ
+SetAFirst=መጀመሪያ ነጥብ A አዘጋጅ (L ተጫን)
+RotationFormat=ማሽከርከር: %d°
+FlipHOn=አግድም ግልበጣ: በርቷል
+FlipHOff=አግድም ግልበጣ: ጠፍቷል
+FlipVOn=ቁመት ግልበጣ: በርቷል
+FlipVOff=ቁመት ግልበጣ: ጠፍቷል
+DeinterlaceOn=ዲኢንተርሌስ: በርቷል
+DeinterlaceOff=ዲኢንተርሌስ: ጠፍቷል
+AlwaysOnTopOn=ሁልጊዜ ከላይ: በርቷል
+AlwaysOnTopOff=ሁልጊዜ ከላይ: ጠፍቷል
+WindowFitted=መስኮት ወደ %dx%d ተስማማ
+WindowScale=የመስኮት መጠን: %.0f%%
+ScreenshotSaved=ቅጽበታዊ ገጽ እይታ ተቀመጠ: %s
+AudioNormalizeOn=የድምጽ ማስተካከል: በርቷል
+AudioNormalizeOff=የድምጽ ማስተካከል: ጠፍቷል
+AudioDelayFormat=የድምጽ መዘግየት: %.1f s
+SubtitleDelayFormat=የግርጌ ጽሁፍ መዘግየት: %.1f s
+ZoomFormat=አጉላ: %.0f%%
+PanCenter=ፓን: መሃል
+PanFormat=ፓን: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=ቪዲዮ አልተጫነም
+PlayingFromClipboard=ከክሊፕቦርድ በማጫወት ላይ: %s
+ClipboardInvalid=ክሊፕቦርድ ትክክለኛ URL ወይም መንገድ አልያዘም
+ClipboardEmpty=ክሊፕቦርድ ባዶ ነው ወይም ጽሁፍ አልያዘም
+ResumedAt=በ%s ላይ ቀጥሏል
+FrameStepForward=ፍሬም ወደ ፊት
+FrameStepBackward=ፍሬም ወደ ኋላ
+PreviousChapter=ቀዳሚ ምዕራፍ
+NextChapter=ቀጣይ ምዕራፍ
+PlayingRadio=ሬዲዮ በማጫወት ላይ: %s
+PlayingDVD=DVD በማጫወት ላይ: %s
+PlayingBluray=Blu-ray በማጫወት ላይ: %s
+DVDTitlePlaying=DVD ርዕስ %d
+SeekTo=ወደ %s በመሄድ ላይ
+MinimizedToTray=ወደ ትሬይ ተቀነሰ። ለመመለስ ሁለት ጊዜ ጠቅ ያድርጉ።
+SleepTimerSet=የእንቅልፍ ሰዓት ቆጣሪ ተዘጋጀ: %s
+SleepTimerCancelled=የእንቅልፍ ሰዓት ቆጣሪ ተሰረዘ
+SleepTimerWarning=የእንቅልፍ ሰዓት ቆጣሪ: 1 ደቂቃ ቀረ
+SleepTimerFinal=የእንቅልፍ ሰዓት ቆጣሪ: 10 ሴኮንዶች ቀሩ
+SleepTimerStopped=የእንቅልፍ ሰዓት ቆጣሪ: ማጫወቻ ቆሟል
+SleepTimerClosing=የእንቅልፍ ሰዓት ቆጣሪ: መተግበሪያ በመዝጋት ላይ
+SleepTimerShutdown=የእንቅልፍ ሰዓት ቆጣሪ: ኮምፒውተር በማጥፋት ላይ
+SleepTimerExpired=የእንቅልፍ ሰዓት ቆጣሪ አልቋል
+ShutdownManual=እባክዎ ኮምፒውተርዎን በእጅ ያጥፉ።
+
+; ደረጃ 21: ማህደር ክፈት
+FolderOpened=ማህደር ተከፈተ: %d ፋይሎች
+NoMediaFound=ሚዲያ ፋይሎች አልተገኙም
+FilesAdded=%d ፋይሎች ወደ ዝርዝር ተጨመሩ
+
+; ደረጃ 27: የቀረጻ መልዕክቶች
+RecordNeedPlayback=ከመቅዳት በፊት ማጫወቻ ጀምር።
+RecordingStarted=ቀረጻ ተጀመረ
+RecordingStopped=ቀረጻ ቆመ
+
+; ተጨማሪ ሁኔታ መልዕክቶች
+EndOfPlaylist=የዝርዝር መጨረሻ
+NoMediaLoaded=በአሁኑ ጊዜ ሚዲያ ፋይል አልተጫነም።
+JumpedToNamed=ወደዚህ ዘለለ: %s
+ChapterFormat=ምዕራፍ %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=በ%s ላይ ዕልባት
+
+[Label]
+Muted=ድምጽ ጠፍቷል
+
+[Button]
+Play=አጫውት
+Pause=አቁም
+Stop=አቁም
+Previous=ቀዳሚ
+Next=ቀጣይ
+Mute=ድምጽ አጥፋ
+Unmute=ድምጽ አብራ
+Fullscreen=ሙሉ ስክሪን
+OK=እሺ
+Cancel=ሰርዝ
+Apply=ተግብር
+Close=ዝጋ
+Yes=አዎ
+No=አይ
+
+[Tooltip]
+Play=አጫውት/አቁም
+Stop=ማጫወቻ አቁም
+Previous=ቀዳሚ ትራክ
+Next=ቀጣይ ትራክ
+Mute=ድምጽ አጥፋ/አብራ
+Volume=ድምጽ
+Seek=ቦታ ፈልግ
+Fullscreen=ሙሉ ስክሪን ቀያይር
+
+[Playlist]
+Title=ዝርዝር
+Add=ጨምር
+Remove=አስወግድ
+Clear=አጽዳ
+MoveUp=ወደ ላይ ውሰድ
+MoveDown=ወደ ታች ውሰድ
+Shuffle=ቀላቅል
+Repeat=ድገም
+Play=አጫውት
+ShuffleOn=ቀላቅል: በርቷል
+ShuffleOff=ቀላቅል: ጠፍቷል
+RepeatOff=ድገም: ጠፍቷል
+RepeatOne=ድገም: አንድ
+RepeatAll=ድገም: ሁሉም
+SavePlaylist=አስቀምጥ
+LoadPlaylist=ጫን
+TotalDuration=ጠቅላላ: %s
+ItemCount=%d ንጥሎች
+
+; ደረጃ 22: የዝርዝር ማሻሻያዎች
+Search=ፈልግ:
+FilterPlaceholder=ዝርዝር አጣራ...
+ClearSearch=አጽዳ
+FilterCount=%d/%d
+RemoveDuplicates=ድግግሞሾችን &አስወግድ
+Properties=&ባህሪያት...
+NoDuplicates=ድግግሞሾች አልተገኙም።
+DuplicatesFound=%d ድግግሞሽ(ሾች) ተገኙ። ያስወግዷቸው?
+RemoveDuplicatesTitle=ድግግሞሾችን አስወግድ
+PropertiesTitle=የዝርዝር ባህሪያት
+PropTotalItems=ጠቅላላ ንጥሎች: %d
+PropTotalDuration=ጠቅላላ ቆይታ: %s
+PropPlayed=የተጫወቱ: %d
+PropUnplayed=ያልተጫወቱ: %d
+PropTotalSize=ጠቅላላ መጠን: %.2f MB
+PropShuffle=ቀላቅል: %s
+PropRepeat=ድገም: %s
+On=በርቷል
+Off=ጠፍቷል
+
+; ለApplyLocale አዲስ ቁልፎች
+ClearTitle=ዝርዝር አጽዳ
+ClearConfirm=ዝርዝሩን ማጽዳት እንደሚፈልጉ እርግጠኛ ነዎት?
+NoPlaylist=ዝርዝር የለም
+StatusFormat=%d ንጥሎች | ጠቅላላ: %s
+RepeatOne=ድግ. 1
+RepeatAll=ድግ. ሁሉ
+HintRepeatEnable=ሁሉንም ድገም ለማንቃት ጠቅ ያድርጉ
+HintRepeatOne=አንድ ድገም - ለማሰናከል ጠቅ ያድርጉ
+HintRepeatAll=ሁሉንም ድገም - አንድ ድገም ለማድረግ ጠቅ ያድርጉ
+HintShuffleRepeat=ቀላቅል + ሁሉንም ድገም - ድገም ለማሰናከል ጠቅ ያድርጉ
+RemoveDuplicatesTitle=ድግግሞሾችን አስወግድ
+NoDuplicates=ድግግሞሾች አልተገኙም።
+SelectAll=ሁሉንም ምረጥ
+SelectNone=ምንም አትምረጥ
+SelectInvert=ምርጫ ገልብጥ
+Sort=ደርድር
+SortByName=በስም
+SortByTitle=በርዕስ
+SortByArtist=በአርቲስት
+SortByDuration=በቆይታ
+SortReverse=ገልብጥ
+SortRandom=በዘፈቀደ
+ColTitle=ርዕስ
+ColDuration=ቆይታ
+ColArtist=አርቲስት
+ColAlbum=አልበም
+PlaylistFilter=M3U ዝርዝር|*.m3u|M3U8 ዝርዝር|*.m3u8|PLS ዝርዝር|*.pls
+
+[Equalizer]
+Title=ኢኩዋላይዘር
+Presets=ቅድመ-ማዘጋጀቶች:
+Preamp=ቅድመ-አምፕ:
+Flat=ጠፍጣፋ
+Rock=ሮክ
+Pop=ፖፕ
+Jazz=ጃዝ
+Classical=ክላሲካል
+BassBoost=ባስ ቡስት
+TrebleBoost=ትሬብል ቡስት
+Vocal=ድምጽ
+Reset=ዳግም አስጀምር
+Enable=ኢኩዋላይዘር አንቃ
+Save=አስቀምጥ
+Delete=ሰርዝ
+Ready=ዝግጁ
+; ቁልፎች እና ድርጊቶች
+SavePreset=ቅድመ-ማዘጋጀት አስቀምጥ
+DeletePreset=ቅድመ-ማዘጋጀት ሰርዝ
+SavePresetTitle=ቅድመ-ማዘጋጀት አስቀምጥ
+PresetNamePrompt=የቅድመ-ማዘጋጀት ስም:
+EnterPresetName=እባክዎ የቅድመ-ማዘጋጀት ስም ያስገቡ።
+OverwritePresetTitle=ቅድመ-ማዘጋጀት ተኪ
+OverwritePresetConfirm=በዚህ ስም ቅድመ-ማዘጋጀት ቀድሞውኑ አለ። ይተኩት?
+PresetUpdated=ቅድመ-ማዘጋጀት ተዘመነ: %s
+PresetSaved=ቅድመ-ማዘጋጀት ተቀመጠ: %s
+SelectPresetToDelete=እባክዎ ለመሰረዝ ቅድመ-ማዘጋጀት ይምረጡ።
+CannotDeleteDefault=ነባሪ ቅድመ-ማዘጋጀቶችን መሰረዝ አይቻልም።
+DeletePresetTitle=ቅድመ-ማዘጋጀት ሰርዝ
+DeletePresetConfirm=ይህን ቅድመ-ማዘጋጀት መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?
+PresetDeleted=ቅድመ-ማዘጋጀት ተሰረዘ
+ResetToFlat=ኢኩዋላይዘር ወደ ጠፍጣፋ ዳግም ተጀመረ
+PresetApplied=ቅድመ-ማዘጋጀት ተተገበረ: %s
+
+[Options]
+Title=አማራጮች
+General=አጠቃላይ
+Video=ቪዲዮ
+Audio=ድምጽ
+Subtitles=ግርጌ ጽሁፎች
+Cache=መሸጎጫ
+Language=ቋንቋ:
+RestartRequired=ለውጦች እንዲሰሩ ዳግም ማስጀመር ያስፈልጋል
+
+; አጠቃላይ ታብ - ባህሪ
+Behavior=ባህሪ
+SingleInstance=አንድ ምሳሌ ብቻ ፍቀድ
+AutoPlay=ሲከፈት በራስ-ሰር አጫውት
+AutoResume=የማጫወቻ ቦታ ቀጥል
+MinimizeToTray=ወደ ሲስተም ትሬይ አሳንስ
+AutoSavePlaylist=ሲወጣ ዝርዝር አስቀምጥ
+
+; አጠቃላይ ታብ - OSD
+OSD=በስክሪን ላይ ማሳያ
+ShowOSD=በስክሪን ላይ መልዕክቶች አሳይ
+ShowTrayIcon=የትሬይ አዶ አሳይ
+OSDDuration=የOSD ቆይታ (ms):
+
+; አጠቃላይ ታብ - ቅጽበታዊ ገጽ እይታዎች
+Screenshots=ቅጽበታዊ ገጽ እይታዎች
+ScreenshotPath=የማስቀመጫ ማህደር:
+ScreenshotFormat=ቅርጸት:
+
+; አጠቃላይ ታብ - ታሪክ
+HistorySettings=ታሪክ
+HistoryEnabled=የማጫወቻ ታሪክ አንቃ
+HistoryMaxItems=ከፍተኛ ንጥሎች:
+
+; አጠቃላይ ታብ - ቋንቋ
+LanguageGroup=ቋንቋ
+RestartNote=(ለውጦች ዳግም ማስጀመር ያስፈልጋል)
+
+; ቪዲዮ ታብ
+VideoAdjust=የቪዲዮ ማስተካከያዎች
+Brightness=ብሩህነት:
+Contrast=ኮንትራስት:
+Saturation=ሳቹሬሽን:
+Hue=ሂዩ:
+Gamma=ጋማ:
+VideoOutput=የቪዲዮ ውጤት
+Output=ውጤት:
+HWAccel=የሃርድዌር ማፋጠን አንቃ
+Deinterlacing=ዲኢንተርሌሲንግ
+Mode=ሞድ:
+
+; ድምጽ ታብ
+AudioOutput=የድምጽ ውጤት
+OutputDriver=የውጤት ነጂ:
+Device=መሳሪያ:
+AudioOptions=የድምጽ አማራጮች
+NormalizeAudio=የድምጽ መጠን አስተካክል
+Channels=ቻነሎች:
+
+; ግርጌ ጽሁፎች ታብ
+UseDefaultSubtitles=ነባሪ የግርጌ ጽሁፍ ቅንብሮች ተጠቀም
+Font=ቅርጸ-ቁምፊ
+FontName=ቅርጸ-ቁምፊ:
+FontSize=መጠን:
+FontColor=ቀለም:
+Bold=ወፍራም
+Italic=ሰያፍ
+Outline=ዳር
+OutlineColor=ቀለም:
+OutlineSize=መጠን:
+Position=ቦታ
+VerticalPosition=ቁመት ቦታ:
+SubOptions=አማራጮች
+Encoding=ኢንኮዲንግ:
+AutoLoadSubs=የግርጌ ጽሁፍ ፋይሎችን በራስ-ሰር ጫን
+
+; የቪዲዮ ውጤት ማስጠንቀቂያዎች
+VOWarningX11=ማስጠንቀቂያ: x11 የቪዲዮ ማስተካከያዎችን (ብሩህነት፣ ኮንትራስት፣ ወዘተ) አይደግፍም
+VOWarningWayland=ማስጠንቀቂያ: የWayland ክፍለ ጊዜ ያስፈልጋል። የቪዲዮ ማስተካከያዎች ይደገፋሉ።
+
+; መሸጎጫ ታብ
+CacheSettings=የመሸጎጫ ቋት መጠኖች (KB)
+CacheDefault=ነባሪ መሸጎጫ:
+CacheLocal=የአካባቢ ፋይሎች:
+CacheNetwork=የአውታረ መረብ ፋይሎች:
+CacheInternet=የኢንተርኔት ዥረቶች:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=ስለ
+Version=ስሪት
+Engine=ሞተር
+Technology=ቴክኖሎጂ
+BuildInfo=የግንባታ መረጃ
+SystemInfo=ሲስተም
+Credits=ምስጋናዎች
+Developer=ገንቢ:
+Author=ደራሲ
+License=ፍቃድ
+Website=ድረ-ገጽ
+GitHub=GitHub
+Description=ዘመናዊ፣ ቀላል ሚዲያ ማጫወቻ
+LicenseText=3nity Media በGPL-2.0 ስር ፍቃድ አለው\n\nይህ ማለት ነጻ ነዎት:\n  • ለማንኛውም ዓላማ ሶፍትዌሩን መጠቀም\n  • የምንጭ ኮዱን ማጥናት እና ማሻሻል\n  • የሶፍትዌሩን ቅጂዎች ማሰራጨት\n  • ማሻሻያዎችዎን ማሰራጨት\n\nማንኛውም የተሰራጩ ማሻሻያዎች\nበGPL-2.0 ስር ፍቃድ ሊኖራቸው ይገባል በሚል ሁኔታ።
+BuildDate=ቀን:
+Target=ኢላማ:
+Kernel=ከርነል:
+
+[Shortcuts]
+Title=የቁልፍ ሰሌዳ አቋራጮች
+Description=ለድርጊቶች የቁልፍ ሰሌዳ አቋራጮች አዋቅር
+Search=ፈልግ:
+PressKey=ቁልፍ ተጫን...
+ColCategory=ምድብ
+ColAction=ድርጊት
+ColShortcut=አቋራጭ
+Assign=መድብ
+Clear=አጽዳ
+Reset=ዳግም አስጀምር
+ResetAll=ሁሉንም ዳግም አስጀምር
+CurrentShortcut=አሁን ያለ: %s
+NoKeyPressed=እባክዎ መጀመሪያ የቁልፍ ጥምር ይጫኑ።
+Conflict=ግጭት: ቀድሞውኑ ለ"%s" ተመድቧል
+ConfirmReplace=አቋራጭ ተካ
+ReplaceMessage=ይህ አቋራጭ ቀድሞውኑ ለ"%s" ተመድቧል። ይተኩት?
+ConfirmResetAll=ሁሉንም አቋራጮች ዳግም አስጀምር
+ResetAllMessage=ሁሉንም አቋራጮች ወደ ነባሪያቸው ዳግም ማስጀመር እንደሚፈልጉ እርግጠኛ ነዎት?
+; የድርጊት ስሞች
+ActPlayPause=አጫውት / አቁም
+ActStop=አቁም
+ActPrevious=ቀዳሚ
+ActNext=ቀጣይ
+ActSeekForward=ወደ ፊት ፈልግ (10s)
+ActSeekBackward=ወደ ኋላ ፈልግ (10s)
+ActSeekForward5=ወደ ፊት ፈልግ (1 ደቂቃ)
+ActSeekBackward5=ወደ ኋላ ፈልግ (1 ደቂቃ)
+ActSpeedUp=ፍጥነት ጨምር
+ActSpeedDown=ፍጥነት ቀንስ
+ActSpeedReset=ፍጥነት ዳግም አስጀምር
+ActSetLoopA=ሉፕ ነጥብ A አዘጋጅ
+ActSetLoopB=ሉፕ ነጥብ B አዘጋጅ
+ActClearLoop=A-B ሉፕ አጽዳ
+ActFrameForward=ፍሬም ወደ ፊት
+ActFrameBackward=ፍሬም ወደ ኋላ
+ActPrevChapter=ቀዳሚ ምዕራፍ
+ActNextChapter=ቀጣይ ምዕራፍ
+ActGotoTime=ወደ ጊዜ ሂድ
+ActVolumeUp=ድምጽ ጨምር
+ActVolumeDown=ድምጽ ቀንስ
+ActMute=ድምጽ አጥፋ / አብራ
+ActAudioDelayPlus=የድምጽ መዘግየት +
+ActAudioDelayMinus=የድምጽ መዘግየት -
+ActAudioDelayReset=የድምጽ መዘግየት ዳግም አስጀምር
+ActFullscreen=ሙሉ ስክሪን
+ActRotate=ቪዲዮ አሽከርክር
+ActDeinterlace=ዲኢንተርሌስ
+ActZoomIn=አጉላ ውስጥ
+ActZoomOut=አጉላ ውጭ
+ActZoomReset=አጉላ ዳግም አስጀምር
+ActAlwaysOnTop=ሁልጊዜ ከላይ
+ActFitToVideo=ወደ ቪዲዮ አስማማ
+ActScreenshot=ቅጽበታዊ ገጽ እይታ
+ActVideoAdjust=የቪዲዮ ማስተካከያዎች
+ActVisNextMode=ቀጣይ ምስላዊ ሞድ
+ActVisNextColor=ቀጣይ የቀለም ስክማ
+ActSubDelayPlus=የግርጌ ጽሁፍ መዘግየት +
+ActSubDelayMinus=የግርጌ ጽሁፍ መዘግየት -
+ActSubDelayReset=የግርጌ ጽሁፍ መዘግየት ዳግም አስጀምር
+ActDVDMenu=DVD ምናሌ
+ActDVDUp=DVD ወደ ላይ አስስ
+ActDVDDown=DVD ወደ ታች አስስ
+ActDVDLeft=DVD ወደ ግራ አስስ
+ActDVDRight=DVD ወደ ቀኝ አስስ
+ActDVDSelect=DVD ምረጥ
+ActOpenFile=ፋይል ክፈት
+ActOpenURL=URL ክፈት
+ActPlaylist=ዝርዝር አሳይ
+ActQuit=ውጣ
+
+[Log]
+; ደረጃ 25: ሎግ መስኮት
+Title=MPV ሎግ
+Command=ትዕዛዝ:
+Clear=አጽዳ
+Save=አስቀምጥ...
+Copy=&ቅዳ
+SelectAll=ሁሉንም &ምረጥ
+SaveTitle=ሎግ አስቀምጥ
+SaveFilter=የጽሁፍ ፋይሎች (*.txt)|*.txt|ሁሉም ፋይሎች (*.*)|*.*
+ErrorTitle=ስህተት
+SaveError=ሎግ ማስቀመጥ አልተሳካም: %s
+
+[MediaInfo]
+Title=የሚዲያ መረጃ
+FileTab=ፋይል
+VideoTab=ቪዲዮ
+AudioTab=ድምጽ
+MetadataTab=ሜታዳታ
+FileName=የፋይል ስም:
+FilePath=መንገድ:
+FileSize=መጠን:
+Duration=ቆይታ:
+Format=ቅርጸት:
+Bitrate=ቢትሬት:
+Codec=ኮዴክ:
+Resolution=ጥራት:
+FrameRate=የፍሬም ፍጥነት:
+PixelFormat=የፒክሰል ቅርጸት:
+AspectRatio=የገጽታ ጥምርታ:
+Channels=ቻነሎች:
+SampleRate=የናሙና ፍጥነት:
+Language=ቋንቋ:
+Property=ባህሪ
+Value=ዋጋ
+CopyAll=ሁሉንም ቅዳ
+CopiedToClipboard=የሚዲያ መረጃ ወደ ክሊፕቦርድ ተቀድቷል።
+NA=የለም
+NAStream=የለም (ዥረት)
+NALive=የለም (ቀጥታ)
+ChannelMono=1 (ሞኖ)
+ChannelStereo=2 (ስቴሪዮ)
+Channel51=6 (5.1 ሰራውንድ)
+Channel71=8 (7.1 ሰራውንድ)
+Unknown=ያልታወቀ
+NoMetadata=(ሜታዳታ የለም)
+
+[Bookmarks]
+Title=ዕልባቶች
+Goto=ሂድ
+Remove=አስወግድ
+Clear=ሁሉንም አጽዳ
+Refresh=አድስ
+OpenFolder=ማህደር ክፈት
+CopyPath=መንገድ ቅዳ
+; ዓምዶች
+ColName=ስም
+ColFile=ፋይል
+ColPosition=ቦታ
+ColCreated=የተፈጠረ
+; ውይይቶች
+ClearTitle=ዕልባቶች አጽዳ
+ClearConfirm=ሁሉንም ዕልባቶች ማጽዳት እንደሚፈልጉ እርግጠኛ ነዎት?
+Count=%d ዕልባት(ቶች)
+
+[Favorites]
+Title=ተወዳጆች
+Play=አጫውት
+Remove=አስወግድ
+Clear=ሁሉንም አጽዳ
+Refresh=አድስ
+OpenFolder=ማህደር ክፈት
+CopyPath=መንገድ ቅዳ
+; ዓምዶች
+ColName=ስም
+ColType=አይነት
+ColPath=መንገድ
+; አይነቶች
+TypeFile=ፋይል
+TypeURL=URL
+TypeRadio=ሬዲዮ
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=ያልታወቀ
+; ውይይቶች
+ClearTitle=ተወዳጆች አጽዳ
+ClearConfirm=ሁሉንም ተወዳጆች ማጽዳት እንደሚፈልጉ እርግጠኛ ነዎት?
+Count=%d ተወዳጅ(ዎች)
+
+[History]
+Title=የማጫወቻ ታሪክ
+Play=አጫውት
+Remove=አስወግድ
+Clear=ሁሉንም አጽዳ
+Refresh=አድስ
+OpenFolder=ማህደር ክፈት
+CopyPath=መንገድ ቅዳ
+; ዓምዶች
+ColFileName=ፋይል
+ColPath=መንገድ
+; ውይይቶች
+ClearTitle=ታሪክ አጽዳ
+ClearConfirm=ሁሉንም ታሪክ ማጽዳት እንደሚፈልጉ እርግጠኛ ነዎት?
+Count=%d ንጥል(ሎች)
+
+[SleepTimer]
+Title=የእንቅልፍ ሰዓት ቆጣሪ
+Description=ማጫወቻን በራስ-ሰር ለማቆም ሰዓት ቆጣሪ አዘጋጅ
+Hours=ሰዓታት:
+Minutes=ደቂቃዎች:
+Action=ሰዓት ቆጣሪ ሲያልቅ:
+StopPlayback=ማጫወቻ አቁም
+CloseApp=መተግበሪያ ዝጋ
+Shutdown=ኮምፒውተር አጥፋ
+QuickSet=ፈጣን ማዘጋጀት:
+15Min=15 ደቂቃ
+30Min=30 ደቂቃ
+1Hour=1 ሰዓት
+2Hours=2 ሰዓታት
+
+[Radios]
+Title=የኢንተርኔት ሬዲዮዎች
+Play=አጫውት
+Add=ጨምር
+Edit=አርትዕ
+Delete=ሰርዝ
+Remove=አስወግድ
+Import=አስመጣ
+Export=ላክ
+Refresh=አድስ
+Favorite=ተወዳጅ
+ShowFavorites=ተወዳጆች
+ShowAll=ሁሉም
+; ማጣሪያ
+Genre=ዘውግ:
+Search=ፈልግ:
+SearchBtn=ፈልግ
+ClearSearch=አጽዳ
+AllGenres=(ሁሉም ዘውጎች)
+; የአውድ ምናሌ
+AddFavorite=ወደ ተወዳጆች ጨምር
+RemoveFavorite=ከተወዳጆች አስወግድ
+AddCustom=ብጁ ጣቢያ ጨምር...
+EditCustom=ጣቢያ አርትዕ...
+DeleteCustom=ጣቢያ ሰርዝ
+OpenWebsite=ድረ-ገጽ ክፈት
+CopyURL=URL ቅዳ
+; ዓምዶች
+ColName=ስም
+ColGenre=ዘውግ
+ColBitrate=ቢትሬት
+ColCountry=ሀገር
+ColCodec=ኮዴክ
+; ውይይቶች
+AddTitle=ብጁ ጣቢያ ጨምር
+EditTitle=ጣቢያ አርትዕ
+DeleteTitle=ጣቢያ ሰርዝ
+DeleteConfirm=ይህን ጣቢያ መሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?
+StationName=የጣቢያ ስም:
+StreamURL=የዥረት URL:
+GenrePrompt=ዘውግ:
+NameURLRequired=ስም እና URL ያስፈልጋሉ።
+; የሁኔታ መልዕክቶች
+LoadingIcecast=ከIcecast ማውጫ ጣቢያዎች በመጫን ላይ...
+IcecastError=የIcecast ማውጫ መጫን አልተቻለም። ነባሪ ጣቢያዎችን በመጠቀም ላይ።
+NoStationsLoaded=ጣቢያዎች አልተጫኑም
+StationCount=%d ጣቢያዎች
+LoadedStations=%d ጣቢያዎች ተጫኑ
+ErrorPrefix=ስህተት:
+; ቀድሞ የነበሩ ቁልፎች
+Name=ስም
+URL=URL
+Bitrate=ቢትሬት
+Description=መግለጫ
+Country=ሀገር
+
+[OpenURL]
+Title=URL ክፈት
+Prompt=የሚዲያ URL አስገባ:
+
+[GotoTime]
+Title=ወደ ጊዜ ሂድ
+EnterTime=የሚሄዱበትን ጊዜ አስገባ:
+Hours=ሰ
+Minutes=ደ
+Seconds=ሴ
+Current=አሁን ያለ:
+Duration=ቆይታ:
+
+[VideoAdjust]
+Title=የቪዲዮ ማስተካከያዎች
+Brightness=ብሩህነት:
+Contrast=ኮንትራስት:
+Saturation=ሳቹሬሽን:
+Hue=ሂዩ:
+Gamma=ጋማ:
+ResetAll=ሁሉንም ቀለሞች ዳግም አስጀምር
+
+[CLI]
+; የትእዛዝ መስመር መልዕክቶች
+Usage=አጠቃቀም
+Arguments=[አማራጮች] [ፋይል|URL|አቃፊ]
+Description=libmpv ጀርባን በመጠቀም የመድረክ ሚዲያ ማጫወቻ።
+Options=አማራጮች
+Examples=ምሳሌዎች
+MoreInfo=ለተጨማሪ መረጃ፣ ይጎብኙ
+EnqueuedTo=ወደ ነባር ምሳሌ ተጨምሯል: %s
+SentTo=ወደ ነባር ምሳሌ ተልኳል: %s
+AlreadyRunning=3nity Media ቀድሞውኑ እየሰራ ነው።
+ErrorFileNotFound=ስህተት: ፋይል ወይም አቃፊ አልተገኘም: %s
+ErrorSubNotFound=ስህተት: የንዑስ ጽሁፍ ፋይል አልተገኘም: %s

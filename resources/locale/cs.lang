@@ -1,0 +1,892 @@
+[Language]
+Name=Czech - Čeština
+Code=cs
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menu Soubor
+File=&Soubor
+FileOpen=&Otevřít soubor...
+FileOpenURL=Otevřít &URL...
+FileOpenClipboard=Otevřít ze &schránky
+FileRecent=&Poslední soubory
+ClearRecentFiles=Vymazat poslední soubory
+FileExit=U&končit
+
+; Menu Přehrávání
+Playback=Pře&hrávání
+PlaybackPlayPause=&Přehrát/Pozastavit
+PlaybackStop=&Zastavit
+PlaybackPrevious=&Předchozí
+PlaybackNext=&Další
+PlaybackSeekForward=Převinout v&před
+PlaybackSeekBackward=Převinout &zpět
+PlaybackSpeed=&Rychlost
+PlaybackABLoop=Smyčka A-&B
+PlaybackSetA=Nastavit &A
+PlaybackSetB=Nastavit &B
+PlaybackClearAB=&Vymazat A-B
+PlaybackChapters=&Kapitoly
+PlaybackPrevChapter=Předchozí kapitola
+PlaybackNextChapter=Další kapitola
+PlaybackFrameStep=Krok &snímku vpřed
+PlaybackFrameBack=Krok &snímku zpět
+
+; Navigace DVD
+PlaybackDVD=&Navigace DVD
+DVDMenu=&Menu
+DVDUp=&Nahoru
+DVDDown=&Dolů
+DVDLeft=&Vlevo
+DVDRight=V&pravo
+DVDSelect=&Vybrat
+PlaybackDVDTitles=&Tituly DVD
+
+; Fáze 21: Otevřít složku
+FileOpenFolder=Otevřít &složku...
+
+; Menu Soubor DVD/Blu-ray
+FileOpenDVD=Otevřít &DVD...
+FileOpenBluray=Otevřít &Blu-ray...
+
+; Fáze 13: Přejít na čas a Historie
+PlaybackGotoTime=&Přejít na čas...
+ToolsHistory=&Historie
+
+; Fáze 14: Systémová lišta
+TrayShow=&Zobrazit/Skrýt
+TrayPlayPause=&Přehrát/Pozastavit
+TrayStop=&Zastavit
+TrayPrevious=&Předchozí
+TrayNext=&Další
+TrayMute=&Ztlumit
+TrayExit=U&končit
+
+; Fáze 15: Záložky
+PlaybackAddBookmark=Přidat &záložku...
+PlaybackBookmarks=Zálo&žky
+BookmarksTitle=Záložky
+BookmarksGoto=&Přejít na záložku
+BookmarksRemove=&Odebrat záložku
+BookmarksClear=&Vymazat všechny záložky
+BookmarksOpenFolder=Otevřít &složku
+BookmarksCopyPath=&Kopírovat cestu
+BookmarksCount=%d záložek
+NoBookmarks=(Žádné záložky)
+NoFileLoaded=(Žádný soubor načten)
+BookmarkAdded=Záložka přidána v %s
+BookmarkJumped=Skok na záložku v %s
+AddBookmarkTitle=Přidat záložku
+AddBookmarkPrompt=Zadejte název záložky:
+ShowAllBookmarks=Zobrazit všechny záložky...
+
+; Fáze 16: Oblíbené
+ToolsFavorites=&Oblíbené
+ToolsAddFavorite=Přidat do &oblíbených
+FavoritesTitle=Oblíbené
+FavoritesPlay=&Přehrát
+FavoritesRemove=&Odebrat z oblíbených
+FavoritesClear=&Vymazat všechna oblíbená
+FavoritesOpenFolder=Otevřít &složku
+FavoritesCopyPath=&Kopírovat cestu
+FavoritesCount=%d oblíbených
+NoFavorites=(Žádná oblíbená)
+AddFavoriteTitle=Přidat do oblíbených
+AddFavoritePrompt=Zadejte název pro oblíbené:
+AlreadyFavorite=Již je v oblíbených
+AddedToFavorites=Přidáno do oblíbených: %s
+NoFileToFavorite=Žádný soubor k přidání do oblíbených
+FavoriteTypeFile=Soubor
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Rádio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Formátovací řetězce stop
+TrackWithTitle=Stopa %d: %s
+TrackWithLang=Stopa %d (%s)
+TrackNumber=Stopa %d
+
+; Položky menu rychlosti
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Položky menu měřítka
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Stopa titulků
+SubtitleDisable=Vypnout
+
+; Fáze 17: Časovač spánku
+ToolsSleepTimer=&Časovač spánku...
+ToolsSleepTimerActive=&Časovač spánku [%s]
+ToolsCancelTimer=Zrušit &časovač
+
+; Menu Zvuk
+Audio=&Zvuk
+AudioTrack=Zvuková &stopa
+AudioVolumeUp=&Zvýšit hlasitost
+AudioVolumeDown=&Snížit hlasitost
+AudioMute=&Ztlumit
+AudioEqualizer=&Ekvalizér
+AudioDelay=&Zpoždění zvuku
+AudioDelayPlus=Zpoždění +0.1s
+AudioDelayMinus=Zpoždění -0.1s
+AudioDelayReset=Resetovat zpoždění
+AudioNormalize=&Normalizovat hlasitost
+
+; Menu Video
+Video=&Video
+VideoFullscreen=&Celá obrazovka
+VideoAspect=Poměr &stran
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Snímek obrazovky
+VideoScreenshotAs=Snímek obrazovky &jako...
+VideoRotation=&Otočení
+VideoRotate0=&0° (Normální)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Převrácení
+VideoFlipH=Převrátit &horizontálně
+VideoFlipV=Převrátit &vertikálně
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Při&blížit
+VideoZoomOut=&Oddálit
+VideoZoomReset=&Resetovat zoom
+VideoPan=&Posun
+VideoPanLeft=Posun v&levo
+VideoPanRight=Posun v&pravo
+VideoPanUp=Posun &nahoru
+VideoPanDown=Posun &dolů
+VideoPanReset=Re&setovat posun
+VideoTrack=Video&stopa
+VideoColors=Nastavení &barev
+VideoBrightness=&Jas
+VideoContrast=&Kontrast
+VideoSaturation=Na&sycení
+VideoHue=O&dstín
+VideoGamma=&Gama
+VideoColorsReset=Resetovat &všechny barvy
+VideoIncrease=Zvýšit (+5)
+VideoDecrease=Snížit (-5)
+VideoReset=Resetovat
+VideoAdjustDialog=&Nastavení videa...
+
+; Menu Zobrazení
+View=Zo&brazení
+ViewAlwaysOnTop=&Vždy navrchu
+ViewFitToVideo=&Přizpůsobit okno videu
+ViewScale=&Měřítko okna
+
+; Fáze 26: Menu vizualizace
+ViewVisualization=&Vizualizace
+VisNone=&Žádná
+VisSpectrum=&Spektrální analyzátor
+VisWaveform=&Vlnový průběh
+VisVector=&Vektorskop
+VisVolume=V&U metr
+VisNextMode=Další &režim
+VisNextColor=Další &barevné schéma
+
+; Menu Titulky
+Subtitles=&Titulky
+SubtitleTrack=&Stopa titulků
+SubtitleLoad=&Načíst titulky...
+SubtitleDelay=&Zpoždění titulků
+SubtitleDelayPlus=Zpoždění +0.1s
+SubtitleDelayMinus=Zpoždění -0.1s
+SubtitleDelayReset=Resetovat zpoždění
+
+; Menu Nástroje
+Tools=&Nástroje
+ToolsPlaylist=&Playlist
+ToolsRadios=&Rádia
+ToolsShortcuts=&Klávesové zkratky...
+ToolsOptions=&Možnosti
+
+; Fáze 27: Menu nahrávání
+ToolsRecord=&Nahrát stream...
+ToolsStopRecord=Z&astavit nahrávání
+ToolsRecording=&Nahrávání...
+
+; Menu Nápověda
+Help=Ná&pověda
+HelpMediaInfo=&Informace o médiu
+HelpLog=&Okno protokolu
+HelpAbout=&O programu
+
+[Dialog]
+OpenFile=Otevřít soubor
+OpenURL=Otevřít URL
+SaveScreenshot=Uložit snímek obrazovky
+LoadSubtitle=Načíst soubor titulků
+EnterURL=Zadejte URL:
+ResumePlayback=Pokračovat v přehrávání
+ResumeFrom=Pokračovat od %s?
+ClearRecentFiles=Vymazat poslední soubory
+NoRecentFiles=(Žádné poslední soubory)
+NoAudioTracks=(Žádné zvukové stopy)
+NoVideoTracks=(Žádné video stopy)
+NoSubtitleTracks=(Žádné stopy titulků)
+NoChapters=(Žádné kapitoly)
+OpenDVD=Otevřít DVD
+OpenBluray=Otevřít Blu-ray
+OpenFolder=Otevřít složku
+
+; Filtry souborů
+ScreenshotFilter=Obrázek PNG|*.png|Obrázek JPEG|*.jpg|Obrázek WebP|*.webp
+DVDFilter=Složka DVD|*.;*.iso|Všechny soubory (*.*)|*.*
+BlurayFilter=Složka Blu-ray|*.;*.iso|Všechny soubory (*.*)|*.*
+NoDVD=(Žádné DVD načteno)
+DVDTitle=Titul %d
+GotoTime=Přejít na čas
+EnterTime=Zadejte čas pro přechod:
+Hours=Hodiny
+Minutes=Minuty
+Seconds=Sekundy
+Current=Aktuální:
+HistoryTitle=Historie přehrávání
+HistoryItems=%d položek v historii
+HistoryPlay=&Přehrát
+HistoryRemove=&Odebrat z historie
+HistoryClear=&Vymazat celou historii
+HistoryOpenFolder=Otevřít &složku
+HistoryCopyPath=&Kopírovat cestu
+ClearHistory=Vymazat historii
+ClearHistoryConfirm=Opravdu chcete vymazat celou historii?
+SleepTimerTitle=Časovač spánku
+SleepTimerDescription=Nastavit časovač pro automatické zastavení přehrávání
+SleepTimerHours=Hodiny
+SleepTimerMinutes=Minuty
+SleepTimerQuickSet=Rychlé nastavení
+SleepTimerAction=Po uplynutí časovače
+SleepTimerStopPlayback=Zastavit přehrávání
+SleepTimerCloseApp=Zavřít aplikaci
+SleepTimerShutdown=Vypnout počítač
+SleepTimerStart=Spustit časovač
+
+[Status]
+Ready=Připraveno
+Opening=Otevírání...
+Playing=Přehrávání
+Paused=Pozastaveno
+Stopped=Zastaveno
+Error=Chyba
+Buffering=Ukládání do vyrovnávací paměti...
+Seeking=Převíjení...
+Recording=Nahrávání
+
+[Message]
+SpeedFormat=Rychlost: %.2fx
+VolumeFormat=Hlasitost: %d%%
+BrightnessFormat=Jas: %d
+ContrastFormat=Kontrast: %d
+SaturationFormat=Nasycení: %d
+HueFormat=Odstín: %d
+GammaFormat=Gama: %d
+ColorsReset=Barvy videa resetovány
+LoopASet=Bod A smyčky nastaven na %s
+LoopBSet=Bod B smyčky nastaven na %s - Smyčka aktivní
+LoopCleared=Smyčka A-B vymazána
+SetAFirst=Nejprve nastavte bod A (stiskněte L)
+RotationFormat=Otočení: %d°
+FlipHOn=Horizontální převrácení: ZAP
+FlipHOff=Horizontální převrácení: VYP
+FlipVOn=Vertikální převrácení: ZAP
+FlipVOff=Vertikální převrácení: VYP
+DeinterlaceOn=Deinterlace: ZAP
+DeinterlaceOff=Deinterlace: VYP
+AlwaysOnTopOn=Vždy navrchu: ZAP
+AlwaysOnTopOff=Vždy navrchu: VYP
+WindowFitted=Okno přizpůsobeno na %dx%d
+WindowScale=Měřítko okna: %.0f%%
+ScreenshotSaved=Snímek obrazovky uložen: %s
+AudioNormalizeOn=Normalizace zvuku: ZAP
+AudioNormalizeOff=Normalizace zvuku: VYP
+AudioDelayFormat=Zpoždění zvuku: %.1f s
+SubtitleDelayFormat=Zpoždění titulků: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Posun: Střed
+PanFormat=Posun: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Žádné video načteno
+PlayingFromClipboard=Přehrávání ze schránky: %s
+ClipboardInvalid=Schránka neobsahuje platnou URL nebo cestu
+ClipboardEmpty=Schránka je prázdná nebo neobsahuje text
+ResumedAt=Pokračováno od %s
+FrameStepForward=Krok snímku vpřed
+FrameStepBackward=Krok snímku zpět
+PreviousChapter=Předchozí kapitola
+NextChapter=Další kapitola
+PlayingRadio=Přehrávání rádia: %s
+PlayingDVD=Přehrávání DVD: %s
+PlayingBluray=Přehrávání Blu-ray: %s
+DVDTitlePlaying=DVD Titul %d
+SeekTo=Přechod na %s
+MinimizedToTray=Minimalizováno do lišty. Dvojklikem obnovíte.
+SleepTimerSet=Časovač spánku nastaven: %s
+SleepTimerCancelled=Časovač spánku zrušen
+SleepTimerWarning=Časovač spánku: zbývá 1 minuta
+SleepTimerFinal=Časovač spánku: zbývá 10 sekund
+SleepTimerStopped=Časovač spánku: Přehrávání zastaveno
+SleepTimerClosing=Časovač spánku: Zavírání aplikace
+SleepTimerShutdown=Časovač spánku: Vypínání počítače
+SleepTimerExpired=Časovač spánku vypršel
+ShutdownManual=Prosím vypněte počítač ručně.
+
+; Fáze 21: Otevřít složku
+FolderOpened=Složka otevřena: %d souborů
+NoMediaFound=Žádné mediální soubory nenalezeny
+FilesAdded=%d souborů přidáno do playlistu
+
+; Fáze 27: Zprávy nahrávání
+RecordNeedPlayback=Před nahráváním spusťte přehrávání.
+RecordingStarted=Nahrávání zahájeno
+RecordingStopped=Nahrávání zastaveno
+
+; Další stavové zprávy
+EndOfPlaylist=Konec playlistu
+NoMediaLoaded=Žádný mediální soubor není načten.
+JumpedToNamed=Skok na: %s
+ChapterFormat=Kapitola %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Záložka v %s
+
+[Label]
+Muted=Ztlumeno
+
+[Button]
+Play=Přehrát
+Pause=Pozastavit
+Stop=Zastavit
+Previous=Předchozí
+Next=Další
+Mute=Ztlumit
+Unmute=Zapnout zvuk
+Fullscreen=Celá obrazovka
+OK=OK
+Cancel=Zrušit
+Apply=Použít
+Close=Zavřít
+Yes=Ano
+No=Ne
+
+[Tooltip]
+Play=Přehrát/Pozastavit
+Stop=Zastavit přehrávání
+Previous=Předchozí stopa
+Next=Další stopa
+Mute=Přepnout ztlumení
+Volume=Hlasitost
+Seek=Pozice převíjení
+Fullscreen=Přepnout celou obrazovku
+
+[Playlist]
+Title=Playlist
+Add=Přidat
+Remove=Odebrat
+Clear=Vymazat
+MoveUp=Nahoru
+MoveDown=Dolů
+Shuffle=Náhodně
+Repeat=Opakovat
+Play=Přehrát
+ShuffleOn=Náhodně: Zap
+ShuffleOff=Náhodně: Vyp
+RepeatOff=Opakovat: Vyp
+RepeatOne=Opakovat: Jeden
+RepeatAll=Opakovat: Vše
+SavePlaylist=Uložit
+LoadPlaylist=Načíst
+TotalDuration=Celkem: %s
+ItemCount=%d položek
+
+; Fáze 22: Vylepšení playlistu
+Search=Hledat:
+FilterPlaceholder=Filtrovat playlist...
+ClearSearch=Vymazat
+FilterCount=%d/%d
+RemoveDuplicates=Odebrat &duplikáty
+Properties=&Vlastnosti...
+NoDuplicates=Žádné duplikáty nenalezeny.
+DuplicatesFound=Nalezeno %d duplikát(ů). Odebrat?
+RemoveDuplicatesTitle=Odebrat duplikáty
+PropertiesTitle=Vlastnosti playlistu
+PropTotalItems=Celkem položek: %d
+PropTotalDuration=Celková délka: %s
+PropPlayed=Přehráno: %d
+PropUnplayed=Nepřehráno: %d
+PropTotalSize=Celková velikost: %.2f MB
+PropShuffle=Náhodně: %s
+PropRepeat=Opakovat: %s
+On=Zap
+Off=Vyp
+
+; Nové klíče pro ApplyLocale
+ClearTitle=Vymazat playlist
+ClearConfirm=Opravdu chcete vymazat playlist?
+NoPlaylist=Žádný playlist
+StatusFormat=%d položek | Celkem: %s
+RepeatOne=Opak. 1
+RepeatAll=Opak. vše
+HintRepeatEnable=Klikněte pro zapnutí opakování všeho
+HintRepeatOne=Opakování jednoho - Klikněte pro vypnutí
+HintRepeatAll=Opakování všeho - Klikněte pro opakování jednoho
+HintShuffleRepeat=Náhodně + Opakovat vše - Klikněte pro vypnutí opakování
+RemoveDuplicatesTitle=Odebrat duplikáty
+NoDuplicates=Žádné duplikáty nenalezeny.
+SelectAll=Vybrat vše
+SelectNone=Zrušit výběr
+SelectInvert=Invertovat výběr
+Sort=Seřadit
+SortByName=Podle názvu
+SortByTitle=Podle titulu
+SortByArtist=Podle interpreta
+SortByDuration=Podle délky
+SortReverse=Obrátit
+SortRandom=Náhodně
+ColTitle=Titul
+ColDuration=Délka
+ColArtist=Interpret
+ColAlbum=Album
+PlaylistFilter=Playlist M3U|*.m3u|Playlist M3U8|*.m3u8|Playlist PLS|*.pls
+
+[Equalizer]
+Title=Ekvalizér
+Presets=Předvolby:
+Preamp=Předzesílení:
+Flat=Plochý
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klasika
+BassBoost=Zesílení basů
+TrebleBoost=Zesílení výšek
+Vocal=Vokál
+Reset=Resetovat
+Enable=Povolit ekvalizér
+Save=Uložit
+Delete=Smazat
+Ready=Připraveno
+; Tlačítka a akce
+SavePreset=Uložit předvolbu
+DeletePreset=Smazat předvolbu
+SavePresetTitle=Uložit předvolbu
+PresetNamePrompt=Název předvolby:
+EnterPresetName=Prosím zadejte název předvolby.
+OverwritePresetTitle=Přepsat předvolbu
+OverwritePresetConfirm=Předvolba s tímto názvem již existuje. Přepsat?
+PresetUpdated=Předvolba aktualizována: %s
+PresetSaved=Předvolba uložena: %s
+SelectPresetToDelete=Prosím vyberte předvolbu ke smazání.
+CannotDeleteDefault=Výchozí předvolby nelze smazat.
+DeletePresetTitle=Smazat předvolbu
+DeletePresetConfirm=Opravdu chcete smazat tuto předvolbu?
+PresetDeleted=Předvolba smazána
+ResetToFlat=Ekvalizér resetován na plochý
+PresetApplied=Předvolba použita: %s
+
+[Options]
+Title=Možnosti
+General=Obecné
+Video=Video
+Audio=Zvuk
+Subtitles=Titulky
+Cache=Vyrovnávací paměť
+Language=Jazyk:
+RestartRequired=Pro použití změn je vyžadován restart
+
+; Záložka Obecné - Chování
+Behavior=Chování
+SingleInstance=Povolit pouze jednu instanci
+AutoPlay=Automatické přehrávání při otevření
+AutoResume=Pokračovat v pozici přehrávání
+MinimizeToTray=Minimalizovat do systémové lišty
+AutoSavePlaylist=Uložit playlist při ukončení
+
+; Záložka Obecné - OSD
+OSD=Zobrazení na obrazovce
+ShowOSD=Zobrazovat zprávy na obrazovce
+ShowTrayIcon=Zobrazovat ikonu v liště
+OSDDuration=Délka OSD (ms):
+
+; Záložka Obecné - Snímky obrazovky
+Screenshots=Snímky obrazovky
+ScreenshotPath=Složka pro uložení:
+ScreenshotFormat=Formát:
+
+; Záložka Obecné - Historie
+HistorySettings=Historie
+HistoryEnabled=Povolit historii přehrávání
+HistoryMaxItems=Max položek:
+
+; Záložka Obecné - Jazyk
+LanguageGroup=Jazyk
+RestartNote=(Pro změny je vyžadován restart)
+
+; Záložka Video
+VideoAdjust=Nastavení videa
+Brightness=Jas:
+Contrast=Kontrast:
+Saturation=Nasycení:
+Hue=Odstín:
+Gamma=Gama:
+VideoOutput=Výstup videa
+Output=Výstup:
+HWAccel=Povolit hardwarovou akceleraci
+Deinterlacing=Deinterlace
+Mode=Režim:
+
+; Záložka Zvuk
+AudioOutput=Výstup zvuku
+OutputDriver=Výstupní ovladač:
+Device=Zařízení:
+AudioOptions=Možnosti zvuku
+NormalizeAudio=Normalizovat hlasitost zvuku
+Channels=Kanály:
+
+; Záložka Titulky
+UseDefaultSubtitles=Použít výchozí nastavení titulků
+Font=Písmo
+FontName=Písmo:
+FontSize=Velikost:
+FontColor=Barva:
+Bold=Tučné
+Italic=Kurzíva
+Outline=Obrys
+OutlineColor=Barva:
+OutlineSize=Velikost:
+Position=Pozice
+VerticalPosition=Vertikální pozice:
+SubOptions=Možnosti
+Encoding=Kódování:
+AutoLoadSubs=Automaticky načítat soubory titulků
+
+; Varování výstupu videa
+VOWarningX11=Varování: x11 nepodporuje nastavení videa (jas, kontrast atd.)
+VOWarningWayland=Varování: Vyžaduje relaci Wayland. Nastavení videa podporováno.
+
+; Záložka Vyrovnávací paměť
+CacheSettings=Velikosti vyrovnávací paměti (KB)
+CacheDefault=Výchozí cache:
+CacheLocal=Lokální soubory:
+CacheNetwork=Síťové soubory:
+CacheInternet=Internetové streamy:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=O programu
+Version=Verze
+Engine=Engine
+Technology=Technologie
+BuildInfo=Informace o sestavení
+SystemInfo=Systém
+Credits=Autoři
+Developer=Vývojář:
+Author=Autor
+License=Licence
+Website=Web
+GitHub=GitHub
+Description=Moderní, lehký přehrávač médií
+LicenseText=3nity Media je licencován pod GPL-2.0\n\nTo znamená, že můžete:\n  • Používat software pro jakýkoliv účel\n  • Studovat a upravovat zdrojový kód\n  • Distribuovat kopie softwaru\n  • Distribuovat své úpravy\n\nPod podmínkou, že distribuované úpravy\njsou také licencovány pod GPL-2.0.
+BuildDate=Datum:
+Target=Cíl:
+Kernel=Jádro:
+
+[Shortcuts]
+Title=Klávesové zkratky
+Description=Konfigurace klávesových zkratek pro akce
+Search=Hledat:
+PressKey=Stiskněte klávesu...
+ColCategory=Kategorie
+ColAction=Akce
+ColShortcut=Zkratka
+Assign=Přiřadit
+Clear=Vymazat
+Reset=Resetovat
+ResetAll=Resetovat vše
+CurrentShortcut=Aktuální: %s
+NoKeyPressed=Nejprve stiskněte kombinaci kláves.
+Conflict=Konflikt: Již přiřazeno pro "%s"
+ConfirmReplace=Nahradit zkratku
+ReplaceMessage=Tato zkratka je již přiřazena pro "%s". Chcete ji nahradit?
+ConfirmResetAll=Resetovat všechny zkratky
+ResetAllMessage=Opravdu chcete resetovat všechny zkratky na výchozí hodnoty?
+; Názvy akcí
+ActPlayPause=Přehrát / Pozastavit
+ActStop=Zastavit
+ActPrevious=Předchozí
+ActNext=Další
+ActSeekForward=Převinout vpřed (10s)
+ActSeekBackward=Převinout zpět (10s)
+ActSeekForward5=Převinout vpřed (1 min)
+ActSeekBackward5=Převinout zpět (1 min)
+ActSpeedUp=Zvýšit rychlost
+ActSpeedDown=Snížit rychlost
+ActSpeedReset=Resetovat rychlost
+ActSetLoopA=Nastavit bod smyčky A
+ActSetLoopB=Nastavit bod smyčky B
+ActClearLoop=Vymazat smyčku A-B
+ActFrameForward=Snímek vpřed
+ActFrameBackward=Snímek zpět
+ActPrevChapter=Předchozí kapitola
+ActNextChapter=Další kapitola
+ActGotoTime=Přejít na čas
+ActVolumeUp=Zvýšit hlasitost
+ActVolumeDown=Snížit hlasitost
+ActMute=Ztlumit / Zapnout zvuk
+ActAudioDelayPlus=Zpoždění zvuku +
+ActAudioDelayMinus=Zpoždění zvuku -
+ActAudioDelayReset=Resetovat zpoždění zvuku
+ActFullscreen=Celá obrazovka
+ActRotate=Otočit video
+ActDeinterlace=Deinterlace
+ActZoomIn=Přiblížit
+ActZoomOut=Oddálit
+ActZoomReset=Resetovat zoom
+ActAlwaysOnTop=Vždy navrchu
+ActFitToVideo=Přizpůsobit videu
+ActScreenshot=Snímek obrazovky
+ActVideoAdjust=Nastavení videa
+ActVisNextMode=Další režim vizualizace
+ActVisNextColor=Další barevné schéma
+ActSubDelayPlus=Zpoždění titulků +
+ActSubDelayMinus=Zpoždění titulků -
+ActSubDelayReset=Resetovat zpoždění titulků
+ActDVDMenu=Menu DVD
+ActDVDUp=Navigace DVD nahoru
+ActDVDDown=Navigace DVD dolů
+ActDVDLeft=Navigace DVD vlevo
+ActDVDRight=Navigace DVD vpravo
+ActDVDSelect=Výběr DVD
+ActOpenFile=Otevřít soubor
+ActOpenURL=Otevřít URL
+ActPlaylist=Zobrazit playlist
+ActQuit=Ukončit
+
+[Log]
+; Fáze 25: Okno protokolu
+Title=Protokol MPV
+Command=Příkaz:
+Clear=Vymazat
+Save=Uložit...
+Copy=&Kopírovat
+SelectAll=Vybrat &vše
+SaveTitle=Uložit protokol
+SaveFilter=Textové soubory (*.txt)|*.txt|Všechny soubory (*.*)|*.*
+ErrorTitle=Chyba
+SaveError=Nepodařilo se uložit protokol: %s
+
+[MediaInfo]
+Title=Informace o médiu
+FileTab=Soubor
+VideoTab=Video
+AudioTab=Zvuk
+MetadataTab=Metadata
+FileName=Název souboru:
+FilePath=Cesta:
+FileSize=Velikost:
+Duration=Délka:
+Format=Formát:
+Bitrate=Bitrate:
+Codec=Kodek:
+Resolution=Rozlišení:
+FrameRate=Snímková frekvence:
+PixelFormat=Formát pixelů:
+AspectRatio=Poměr stran:
+Channels=Kanály:
+SampleRate=Vzorkovací frekvence:
+Language=Jazyk:
+Property=Vlastnost
+Value=Hodnota
+CopyAll=Kopírovat vše
+CopiedToClipboard=Informace o médiu zkopírovány do schránky.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (živě)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Neznámý
+NoMetadata=(Žádná metadata)
+
+[Bookmarks]
+Title=Záložky
+Goto=Přejít na
+Remove=Odebrat
+Clear=Vymazat vše
+Refresh=Obnovit
+OpenFolder=Otevřít složku
+CopyPath=Kopírovat cestu
+; Sloupce
+ColName=Název
+ColFile=Soubor
+ColPosition=Pozice
+ColCreated=Vytvořeno
+; Dialogy
+ClearTitle=Vymazat záložky
+ClearConfirm=Opravdu chcete vymazat všechny záložky?
+Count=%d záložek
+
+[Favorites]
+Title=Oblíbené
+Play=Přehrát
+Remove=Odebrat
+Clear=Vymazat vše
+Refresh=Obnovit
+OpenFolder=Otevřít složku
+CopyPath=Kopírovat cestu
+; Sloupce
+ColName=Název
+ColType=Typ
+ColPath=Cesta
+; Typy
+TypeFile=Soubor
+TypeURL=URL
+TypeRadio=Rádio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Neznámý
+; Dialogy
+ClearTitle=Vymazat oblíbené
+ClearConfirm=Opravdu chcete vymazat všechna oblíbená?
+Count=%d oblíbených
+
+[History]
+Title=Historie přehrávání
+Play=Přehrát
+Remove=Odebrat
+Clear=Vymazat vše
+Refresh=Obnovit
+OpenFolder=Otevřít složku
+CopyPath=Kopírovat cestu
+; Sloupce
+ColFileName=Soubor
+ColPath=Cesta
+; Dialogy
+ClearTitle=Vymazat historii
+ClearConfirm=Opravdu chcete vymazat celou historii?
+Count=%d položek
+
+[SleepTimer]
+Title=Časovač spánku
+Description=Nastavit časovač pro automatické zastavení přehrávání
+Hours=Hodiny:
+Minutes=Minuty:
+Action=Po uplynutí časovače:
+StopPlayback=Zastavit přehrávání
+CloseApp=Zavřít aplikaci
+Shutdown=Vypnout počítač
+QuickSet=Rychlé nastavení:
+15Min=15 min
+30Min=30 min
+1Hour=1 hod
+2Hours=2 hod
+
+[Radios]
+Title=Internetová rádia
+Play=Přehrát
+Add=Přidat
+Edit=Upravit
+Delete=Smazat
+Remove=Odebrat
+Import=Importovat
+Export=Exportovat
+Refresh=Obnovit
+Favorite=Oblíbené
+ShowFavorites=Oblíbené
+ShowAll=Vše
+; Filtr
+Genre=Žánr:
+Search=Hledat:
+SearchBtn=Hledat
+ClearSearch=Vymazat
+AllGenres=(Všechny žánry)
+; Kontextové menu
+AddFavorite=Přidat do oblíbených
+RemoveFavorite=Odebrat z oblíbených
+AddCustom=Přidat vlastní stanici...
+EditCustom=Upravit stanici...
+DeleteCustom=Smazat stanici
+OpenWebsite=Otevřít web
+CopyURL=Kopírovat URL
+; Sloupce
+ColName=Název
+ColGenre=Žánr
+ColBitrate=Bitrate
+ColCountry=Země
+ColCodec=Kodek
+; Dialogy
+AddTitle=Přidat vlastní stanici
+EditTitle=Upravit stanici
+DeleteTitle=Smazat stanici
+DeleteConfirm=Opravdu chcete smazat tuto stanici?
+StationName=Název stanice:
+StreamURL=URL streamu:
+GenrePrompt=Žánr:
+NameURLRequired=Název a URL jsou vyžadovány.
+; Stavové zprávy
+LoadingIcecast=Načítání stanic z adresáře Icecast...
+IcecastError=Nepodařilo se načíst adresář Icecast. Používají se výchozí stanice.
+NoStationsLoaded=Žádné stanice nenačteny
+StationCount=%d stanic
+LoadedStations=Načteno %d stanic
+ErrorPrefix=Chyba:
+; Starší klíče
+Name=Název
+URL=URL
+Bitrate=Bitrate
+Description=Popis
+Country=Země
+
+[OpenURL]
+Title=Otevřít URL
+Prompt=Zadejte URL média:
+
+[GotoTime]
+Title=Přejít na čas
+EnterTime=Zadejte čas pro přechod:
+Hours=H
+Minutes=M
+Seconds=S
+Current=Aktuální:
+Duration=Délka:
+
+[VideoAdjust]
+Title=Nastavení videa
+Brightness=Jas:
+Contrast=Kontrast:
+Saturation=Nasycení:
+Hue=Odstín:
+Gamma=Gama:
+ResetAll=Resetovat všechny barvy
+
+[CLI]
+; Zprávy příkazového řádku
+Usage=Použití
+Arguments=[MOŽNOSTI] [SOUBOR|URL|SLOŽKA]
+Description=Multiplatformní multimediální přehrávač využívající backend libmpv.
+Options=MOŽNOSTI
+Examples=PŘÍKLADY
+MoreInfo=Pro více informací navštivte
+EnqueuedTo=Přidáno do existující instance: %s
+SentTo=Odesláno do existující instance: %s
+AlreadyRunning=3nity Media již běží.
+ErrorFileNotFound=Chyba: Soubor nebo složka nebyla nalezena: %s
+ErrorSubNotFound=Chyba: Soubor titulků nebyl nalezen: %s

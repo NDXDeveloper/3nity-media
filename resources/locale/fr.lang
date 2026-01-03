@@ -1,0 +1,892 @@
+[Language]
+Name=French - Français
+Code=fr
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menu Fichier
+File=&Fichier
+FileOpen=&Ouvrir un fichier...
+FileOpenURL=Ouvrir une &URL...
+FileOpenClipboard=Ouvrir depuis le &presse-papiers
+FileRecent=Fichiers &récents
+ClearRecentFiles=Effacer les fichiers récents
+FileExit=&Quitter
+
+; Menu Lecture
+Playback=&Lecture
+PlaybackPlayPause=&Lecture/Pause
+PlaybackStop=&Arrêter
+PlaybackPrevious=&Précédent
+PlaybackNext=&Suivant
+PlaybackSeekForward=Avancer
+PlaybackSeekBackward=Reculer
+PlaybackSpeed=&Vitesse
+PlaybackABLoop=Boucle &A-B
+PlaybackSetA=Définir &A
+PlaybackSetB=Définir &B
+PlaybackClearAB=&Effacer A-B
+PlaybackChapters=&Chapitres
+PlaybackPrevChapter=Chapitre précédent
+PlaybackNextChapter=Chapitre suivant
+PlaybackFrameStep=Image &suivante
+PlaybackFrameBack=Image &précédente
+
+; Navigation DVD
+PlaybackDVD=&Navigation DVD
+DVDMenu=&Menu
+DVDUp=&Haut
+DVDDown=&Bas
+DVDLeft=&Gauche
+DVDRight=&Droite
+DVDSelect=&Sélectionner
+PlaybackDVDTitles=&Titres DVD
+
+; Phase 21: Ouvrir un dossier
+FileOpenFolder=Ouvrir un d&ossier...
+
+; Menu Fichier DVD/Bluray
+FileOpenDVD=Ouvrir un &DVD...
+FileOpenBluray=Ouvrir un &Blu-ray...
+
+; Phase 13: Aller à un temps et Historique
+PlaybackGotoTime=&Aller à...
+ToolsHistory=&Historique
+
+; Phase 14: Barre des tâches
+TrayShow=&Afficher/Masquer
+TrayPlayPause=&Lecture/Pause
+TrayStop=&Arrêter
+TrayPrevious=&Précédent
+TrayNext=&Suivant
+TrayMute=&Muet
+TrayExit=&Quitter
+
+; Phase 15: Signets
+PlaybackAddBookmark=Ajouter un &signet...
+PlaybackBookmarks=&Signets
+BookmarksTitle=Signets
+BookmarksGoto=&Aller au signet
+BookmarksRemove=&Supprimer le signet
+BookmarksClear=&Effacer tous les signets
+BookmarksOpenFolder=Ouvrir le &dossier
+BookmarksCopyPath=&Copier le chemin
+BookmarksCount=%d signets
+NoBookmarks=(Aucun signet)
+NoFileLoaded=(Aucun fichier chargé)
+BookmarkAdded=Signet ajouté à %s
+BookmarkJumped=Saut au signet à %s
+AddBookmarkTitle=Ajouter un signet
+AddBookmarkPrompt=Entrez le nom du signet :
+ShowAllBookmarks=Afficher tous les signets...
+
+; Phase 16: Favoris
+ToolsFavorites=&Favoris
+ToolsAddFavorite=Ajouter aux favo&ris
+FavoritesTitle=Favoris
+FavoritesPlay=&Lire
+FavoritesRemove=&Supprimer des favoris
+FavoritesClear=&Effacer tous les favoris
+FavoritesOpenFolder=Ouvrir le &dossier
+FavoritesCopyPath=&Copier le chemin
+FavoritesCount=%d favoris
+NoFavorites=(Aucun favori)
+AddFavoriteTitle=Ajouter aux favoris
+AddFavoritePrompt=Entrez le nom du favori :
+AlreadyFavorite=Déjà dans les favoris
+AddedToFavorites=Ajouté aux favoris : %s
+NoFileToFavorite=Aucun fichier chargé à ajouter aux favoris
+FavoriteTypeFile=Fichier
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Formats des pistes
+TrackWithTitle=Piste %d : %s
+TrackWithLang=Piste %d (%s)
+TrackNumber=Piste %d
+
+; Éléments du menu Vitesse
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Éléments du menu Échelle
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Piste de sous-titres
+SubtitleDisable=Désactiver
+
+; Phase 17: Minuterie de veille
+ToolsSleepTimer=&Minuterie de veille...
+ToolsSleepTimerActive=&Minuterie [%s]
+ToolsCancelTimer=Annuler la &minuterie
+
+; Menu Audio
+Audio=&Audio
+AudioTrack=&Piste audio
+AudioVolumeUp=Augmenter le &volume
+AudioVolumeDown=&Diminuer le volume
+AudioMute=&Muet
+AudioEqualizer=&Égaliseur
+AudioDelay=&Délai audio
+AudioDelayPlus=Délai +0.1s
+AudioDelayMinus=Délai -0.1s
+AudioDelayReset=Réinitialiser le délai
+AudioNormalize=&Normaliser le volume
+
+; Menu Vidéo
+Video=&Vidéo
+VideoFullscreen=Plein é&cran
+VideoAspect=&Rapport d'aspect
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Capture d'écran
+VideoScreenshotAs=Capture d'écran &sous...
+VideoRotation=&Rotation
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Retourner
+VideoFlipH=Retourner &horizontalement
+VideoFlipV=Retourner &verticalement
+VideoDeinterlace=&Désentrelacer
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &avant
+VideoZoomOut=Zoom a&rrière
+VideoZoomReset=&Réinitialiser le zoom
+VideoPan=&Panoramique
+VideoPanLeft=Panoramique &gauche
+VideoPanRight=Panoramique &droite
+VideoPanUp=Panoramique &haut
+VideoPanDown=Panoramique &bas
+VideoPanReset=R&éinitialiser panoramique
+VideoTrack=Piste &vidéo
+VideoColors=Ajustements des &couleurs
+VideoBrightness=&Luminosité
+VideoContrast=&Contraste
+VideoSaturation=&Saturation
+VideoHue=&Teinte
+VideoGamma=&Gamma
+VideoColorsReset=Réinitialiser &toutes les couleurs
+VideoIncrease=Augmenter (+5)
+VideoDecrease=Diminuer (-5)
+VideoReset=Réinitialiser
+VideoAdjustDialog=&Ajustements vidéo...
+
+; Menu Affichage
+View=Afficha&ge
+ViewAlwaysOnTop=Toujours au &premier plan
+ViewFitToVideo=&Ajuster à la vidéo
+ViewScale=&Échelle de la fenêtre
+
+; Phase 26: Menu Visualisation
+ViewVisualization=&Visualisation
+VisNone=&Aucune
+VisSpectrum=Analyseur de &spectre
+VisWaveform=Forme d'&onde
+VisVector=&Vectorscope
+VisVolume=VU-&mètre
+VisNextMode=Mode &suivant
+VisNextColor=Palette de &couleurs suivante
+
+; Menu Sous-titres
+Subtitles=&Sous-titres
+SubtitleTrack=Piste de &sous-titres
+SubtitleLoad=&Charger des sous-titres...
+SubtitleDelay=&Délai des sous-titres
+SubtitleDelayPlus=Délai +0.1s
+SubtitleDelayMinus=Délai -0.1s
+SubtitleDelayReset=Réinitialiser le délai
+
+; Menu Outils
+Tools=Ou&tils
+ToolsPlaylist=Liste de &lecture
+ToolsRadios=&Radios
+ToolsShortcuts=Raccourcis &clavier...
+ToolsOptions=&Options
+
+; Phase 27: Menu Enregistrement
+ToolsRecord=&Enregistrer le flux...
+ToolsStopRecord=Arrê&ter l'enregistrement
+ToolsRecording=&Enregistrement...
+
+; Menu Aide
+Help=&Aide
+HelpMediaInfo=&Informations média
+HelpLog=Fenêtre de &log
+HelpAbout=À &propos
+
+[Dialog]
+OpenFile=Ouvrir un fichier
+OpenURL=Ouvrir une URL
+SaveScreenshot=Enregistrer la capture d'écran
+LoadSubtitle=Charger un fichier de sous-titres
+EnterURL=Entrez l'URL :
+ResumePlayback=Reprendre la lecture
+ResumeFrom=Reprendre à %s ?
+ClearRecentFiles=Effacer les fichiers récents
+NoRecentFiles=(Aucun fichier récent)
+NoAudioTracks=(Aucune piste audio)
+NoVideoTracks=(Aucune piste vidéo)
+NoSubtitleTracks=(Aucune piste de sous-titres)
+NoChapters=(Aucun chapitre)
+OpenDVD=Ouvrir un DVD
+OpenBluray=Ouvrir un Blu-ray
+OpenFolder=Ouvrir un dossier
+
+; Filtres de fichiers
+ScreenshotFilter=Image PNG|*.png|Image JPEG|*.jpg|Image WebP|*.webp
+DVDFilter=Dossier DVD|*.;*.iso|Tous les fichiers (*.*)|*.*
+BlurayFilter=Dossier Blu-ray|*.;*.iso|Tous les fichiers (*.*)|*.*
+NoDVD=(Aucun DVD chargé)
+DVDTitle=Titre %d
+GotoTime=Aller à un temps
+EnterTime=Entrez le temps auquel aller :
+Hours=Heures
+Minutes=Minutes
+Seconds=Secondes
+Current=Actuel :
+HistoryTitle=Historique de lecture
+HistoryItems=%d éléments dans l'historique
+HistoryPlay=&Lire
+HistoryRemove=&Supprimer de l'historique
+HistoryClear=&Effacer tout l'historique
+HistoryOpenFolder=Ouvrir le &dossier
+HistoryCopyPath=&Copier le chemin
+ClearHistory=Effacer l'historique
+ClearHistoryConfirm=Êtes-vous sûr de vouloir effacer tout l'historique ?
+SleepTimerTitle=Minuterie de veille
+SleepTimerDescription=Définir une minuterie pour arrêter automatiquement la lecture
+SleepTimerHours=Heures
+SleepTimerMinutes=Minutes
+SleepTimerQuickSet=Préréglages rapides
+SleepTimerAction=À l'expiration de la minuterie
+SleepTimerStopPlayback=Arrêter la lecture
+SleepTimerCloseApp=Fermer l'application
+SleepTimerShutdown=Éteindre l'ordinateur
+SleepTimerStart=Démarrer la minuterie
+
+[Status]
+Ready=Prêt
+Opening=Ouverture...
+Playing=Lecture en cours
+Paused=En pause
+Stopped=Arrêté
+Error=Erreur
+Buffering=Mise en mémoire tampon...
+Seeking=Recherche...
+Recording=Enregistrement
+
+[Message]
+SpeedFormat=Vitesse : %.2fx
+VolumeFormat=Volume : %d%%
+BrightnessFormat=Luminosité : %d
+ContrastFormat=Contraste : %d
+SaturationFormat=Saturation : %d
+HueFormat=Teinte : %d
+GammaFormat=Gamma : %d
+ColorsReset=Couleurs vidéo réinitialisées
+LoopASet=Point A défini à %s
+LoopBSet=Point B défini à %s - Boucle active
+LoopCleared=Boucle A-B effacée
+SetAFirst=Définissez d'abord le point A (appuyez sur L)
+RotationFormat=Rotation : %d°
+FlipHOn=Retournement horizontal : ACTIVÉ
+FlipHOff=Retournement horizontal : DÉSACTIVÉ
+FlipVOn=Retournement vertical : ACTIVÉ
+FlipVOff=Retournement vertical : DÉSACTIVÉ
+DeinterlaceOn=Désentrelacement : ACTIVÉ
+DeinterlaceOff=Désentrelacement : DÉSACTIVÉ
+AlwaysOnTopOn=Toujours au premier plan : ACTIVÉ
+AlwaysOnTopOff=Toujours au premier plan : DÉSACTIVÉ
+WindowFitted=Fenêtre ajustée à %dx%d
+WindowScale=Échelle de la fenêtre : %.0f%%
+ScreenshotSaved=Capture d'écran enregistrée : %s
+AudioNormalizeOn=Normalisation audio : ACTIVÉE
+AudioNormalizeOff=Normalisation audio : DÉSACTIVÉE
+AudioDelayFormat=Délai audio : %.1f s
+SubtitleDelayFormat=Délai sous-titres : %.1f s
+ZoomFormat=Zoom : %.0f%%
+PanCenter=Panoramique : Centre
+PanFormat=Panoramique : X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Aucune vidéo chargée
+PlayingFromClipboard=Lecture depuis le presse-papiers : %s
+ClipboardInvalid=Le presse-papiers ne contient pas une URL ou un chemin valide
+ClipboardEmpty=Le presse-papiers est vide ou ne contient pas de texte
+ResumedAt=Repris à %s
+FrameStepForward=Image suivante
+FrameStepBackward=Image précédente
+PreviousChapter=Chapitre précédent
+NextChapter=Chapitre suivant
+PlayingRadio=Lecture radio : %s
+PlayingDVD=Lecture DVD : %s
+PlayingBluray=Lecture Blu-ray : %s
+DVDTitlePlaying=Titre DVD %d
+SeekTo=Recherche à %s
+MinimizedToTray=Réduit dans la barre. Double-cliquez pour restaurer.
+SleepTimerSet=Minuterie programmée : %s
+SleepTimerCancelled=Minuterie annulée
+SleepTimerWarning=Minuterie : 1 minute restante
+SleepTimerFinal=Minuterie : 10 secondes restantes
+SleepTimerStopped=Minuterie : Lecture arrêtée
+SleepTimerClosing=Minuterie : Fermeture de l'application
+SleepTimerShutdown=Minuterie : Extinction de l'ordinateur
+SleepTimerExpired=Minuterie expirée
+ShutdownManual=Veuillez éteindre votre ordinateur manuellement.
+
+; Phase 21: Ouvrir un dossier
+FolderOpened=Dossier ouvert : %d fichiers
+NoMediaFound=Aucun fichier média trouvé
+FilesAdded=%d fichiers ajoutés à la liste de lecture
+
+; Phase 27: Messages d'enregistrement
+RecordNeedPlayback=Démarrez la lecture avant d'enregistrer.
+RecordingStarted=Enregistrement démarré
+RecordingStopped=Enregistrement arrêté
+
+; Messages de statut supplémentaires
+EndOfPlaylist=Fin de la liste de lecture
+NoMediaLoaded=Aucun fichier média n'est chargé.
+JumpedToNamed=Saut vers : %s
+ChapterFormat=Chapitre %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Signet à %s
+
+[Label]
+Muted=Muet
+
+[Button]
+Play=Lecture
+Pause=Pause
+Stop=Arrêter
+Previous=Précédent
+Next=Suivant
+Mute=Muet
+Unmute=Son activé
+Fullscreen=Plein écran
+OK=OK
+Cancel=Annuler
+Apply=Appliquer
+Close=Fermer
+Yes=Oui
+No=Non
+
+[Tooltip]
+Play=Lecture/Pause
+Stop=Arrêter la lecture
+Previous=Piste précédente
+Next=Piste suivante
+Mute=Activer/Désactiver le son
+Volume=Volume
+Seek=Position de lecture
+Fullscreen=Basculer en plein écran
+
+[Playlist]
+Title=Liste de lecture
+Add=Ajouter
+Remove=Supprimer
+Clear=Effacer
+MoveUp=Monter
+MoveDown=Descendre
+Shuffle=Aléatoire
+Repeat=Répéter
+Play=Lire
+ShuffleOn=Aléatoire : Activé
+ShuffleOff=Aléatoire : Désactivé
+RepeatOff=Répétition : Désactivée
+RepeatOne=Répétition : Une piste
+RepeatAll=Répétition : Toutes
+SavePlaylist=Enregistrer
+LoadPlaylist=Charger
+TotalDuration=Total : %s
+ItemCount=%d éléments
+
+; Phase 22: Améliorations de la playlist
+Search=Rechercher :
+FilterPlaceholder=Filtrer la liste...
+ClearSearch=Effacer
+FilterCount=%d/%d
+RemoveDuplicates=Supprimer les &doublons
+Properties=P&ropriétés...
+NoDuplicates=Aucun doublon trouvé.
+DuplicatesFound=%d doublon(s) trouvé(s). Les supprimer ?
+RemoveDuplicatesTitle=Supprimer les doublons
+PropertiesTitle=Propriétés de la liste
+PropTotalItems=Nombre d'éléments : %d
+PropTotalDuration=Durée totale : %s
+PropPlayed=Lu : %d
+PropUnplayed=Non lu : %d
+PropTotalSize=Taille totale : %.2f Mo
+PropShuffle=Aléatoire : %s
+PropRepeat=Répétition : %s
+On=Activé
+Off=Désactivé
+
+; Nouvelles clés pour ApplyLocale
+ClearTitle=Effacer la liste
+ClearConfirm=Êtes-vous sûr de vouloir effacer la liste de lecture ?
+NoPlaylist=Aucune liste de lecture
+StatusFormat=%d éléments | Total : %s
+RepeatOne=Rép. 1
+RepeatAll=Rép. Tout
+HintRepeatEnable=Cliquer pour activer la répétition
+HintRepeatOne=Répéter une piste - Cliquer pour désactiver
+HintRepeatAll=Répéter tout - Cliquer pour répéter une piste
+HintShuffleRepeat=Aléatoire + Répéter tout - Cliquer pour désactiver la répétition
+RemoveDuplicatesTitle=Supprimer les doublons
+NoDuplicates=Aucun doublon trouvé.
+SelectAll=Tout sélectionner
+SelectNone=Désélectionner tout
+SelectInvert=Inverser la sélection
+Sort=Trier
+SortByName=Par nom
+SortByTitle=Par titre
+SortByArtist=Par artiste
+SortByDuration=Par durée
+SortReverse=Inverser l'ordre
+SortRandom=Mélanger
+ColTitle=Titre
+ColDuration=Durée
+ColArtist=Artiste
+ColAlbum=Album
+PlaylistFilter=Liste M3U|*.m3u|Liste M3U8|*.m3u8|Liste PLS|*.pls
+
+[Equalizer]
+Title=Égaliseur
+Presets=Préréglages :
+Preamp=Préampli :
+Flat=Plat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Classique
+BassBoost=Renforcement des basses
+TrebleBoost=Renforcement des aigus
+Vocal=Voix
+Reset=Réinitialiser
+Enable=Activer l'égaliseur
+Save=Enregistrer
+Delete=Supprimer
+Ready=Prêt
+; Boutons et actions
+SavePreset=Enregistrer le préréglage
+DeletePreset=Supprimer le préréglage
+SavePresetTitle=Enregistrer le préréglage
+PresetNamePrompt=Nom du préréglage :
+EnterPresetName=Veuillez entrer un nom de préréglage.
+OverwritePresetTitle=Écraser le préréglage
+OverwritePresetConfirm=Un préréglage avec ce nom existe déjà. Écraser ?
+PresetUpdated=Préréglage mis à jour : %s
+PresetSaved=Préréglage enregistré : %s
+SelectPresetToDelete=Veuillez sélectionner un préréglage à supprimer.
+CannotDeleteDefault=Impossible de supprimer les préréglages par défaut.
+DeletePresetTitle=Supprimer le préréglage
+DeletePresetConfirm=Êtes-vous sûr de vouloir supprimer ce préréglage ?
+PresetDeleted=Préréglage supprimé
+ResetToFlat=Égaliseur réinitialisé (plat)
+PresetApplied=Préréglage appliqué : %s
+
+[Options]
+Title=Options
+General=Général
+Video=Vidéo
+Audio=Audio
+Subtitles=Sous-titres
+Cache=Cache
+Language=Langue :
+RestartRequired=Un redémarrage est nécessaire pour appliquer les modifications
+
+; Onglet Général - Comportement
+Behavior=Comportement
+SingleInstance=N'autoriser qu'une seule instance
+AutoPlay=Lecture automatique à l'ouverture
+AutoResume=Reprendre la position de lecture
+MinimizeToTray=Réduire dans la barre des tâches
+AutoSavePlaylist=Sauvegarder la liste de lecture à la fermeture
+
+; Onglet Général - OSD
+OSD=Affichage à l'écran
+ShowOSD=Afficher les messages à l'écran
+ShowTrayIcon=Afficher l'icône dans la barre
+OSDDuration=Durée OSD (ms) :
+
+; Onglet Général - Captures d'écran
+Screenshots=Captures d'écran
+ScreenshotPath=Dossier :
+ScreenshotFormat=Format :
+
+; Onglet Général - Historique
+HistorySettings=Historique
+HistoryEnabled=Activer l'historique de lecture
+HistoryMaxItems=Nombre max :
+
+; Onglet Général - Langue
+LanguageGroup=Langue
+RestartNote=(Redémarrage requis pour les changements)
+
+; Onglet Vidéo
+VideoAdjust=Ajustements vidéo
+Brightness=Luminosité :
+Contrast=Contraste :
+Saturation=Saturation :
+Hue=Teinte :
+Gamma=Gamma :
+VideoOutput=Sortie vidéo
+Output=Sortie :
+HWAccel=Activer l'accélération matérielle
+Deinterlacing=Désentrelacement
+Mode=Mode :
+
+; Onglet Audio
+AudioOutput=Sortie audio
+OutputDriver=Pilote de sortie :
+Device=Périphérique :
+AudioOptions=Options audio
+NormalizeAudio=Normaliser le volume audio
+Channels=Canaux :
+
+; Onglet Sous-titres
+UseDefaultSubtitles=Utiliser les paramètres par défaut
+Font=Police
+FontName=Police :
+FontSize=Taille :
+FontColor=Couleur :
+Bold=Gras
+Italic=Italique
+Outline=Contour
+OutlineColor=Couleur :
+OutlineSize=Taille :
+Position=Position
+VerticalPosition=Position verticale :
+SubOptions=Options
+Encoding=Encodage :
+AutoLoadSubs=Charger automatiquement les fichiers de sous-titres
+
+; Avertissements sortie vidéo
+VOWarningX11=Attention : x11 ne supporte pas les ajustements vidéo (luminosité, contraste, etc.)
+VOWarningWayland=Attention : Nécessite une session Wayland. Ajustements vidéo supportés.
+
+; Onglet Cache
+CacheSettings=Tailles des tampons (Ko)
+CacheDefault=Cache par défaut :
+CacheLocal=Fichiers locaux :
+CacheNetwork=Fichiers réseau :
+CacheInternet=Flux Internet :
+CacheDVD=DVD :
+CacheCDROM=CD-ROM :
+
+[About]
+Title=À propos
+Version=Version
+Engine=Moteur
+Technology=Technologie
+BuildInfo=Informations de compilation
+SystemInfo=Système
+Credits=Crédits
+Developer=Développeur :
+Author=Auteur
+License=Licence
+Website=Site web
+GitHub=GitHub
+Description=Un lecteur multimédia moderne et léger
+LicenseText=3nity Media est sous licence GPL-2.0\n\nCela signifie que vous êtes libre de :\n  • Utiliser le logiciel à toutes fins\n  • Étudier et modifier le code source\n  • Distribuer des copies du logiciel\n  • Distribuer vos modifications\n\nÀ condition que toute modification distribuée\nsoit également sous licence GPL-2.0.
+BuildDate=Date :
+Target=Cible :
+Kernel=Noyau :
+
+[Shortcuts]
+Title=Raccourcis clavier
+Description=Configurer les raccourcis clavier pour les actions
+Search=Rechercher :
+PressKey=Appuyez sur une touche...
+ColCategory=Catégorie
+ColAction=Action
+ColShortcut=Raccourci
+Assign=Assigner
+Clear=Effacer
+Reset=Réinitialiser
+ResetAll=Tout réinitialiser
+CurrentShortcut=Actuel : %s
+NoKeyPressed=Veuillez d'abord appuyer sur une combinaison de touches.
+Conflict=Conflit : Déjà assigné à « %s »
+ConfirmReplace=Remplacer le raccourci
+ReplaceMessage=Ce raccourci est déjà assigné à « %s ». Voulez-vous le remplacer ?
+ConfirmResetAll=Réinitialiser tous les raccourcis
+ResetAllMessage=Êtes-vous sûr de vouloir réinitialiser tous les raccourcis à leurs valeurs par défaut ?
+; Noms des actions
+ActPlayPause=Lecture / Pause
+ActStop=Arrêter
+ActPrevious=Précédent
+ActNext=Suivant
+ActSeekForward=Avancer (10s)
+ActSeekBackward=Reculer (10s)
+ActSeekForward5=Avancer (1 min)
+ActSeekBackward5=Reculer (1 min)
+ActSpeedUp=Accélérer
+ActSpeedDown=Ralentir
+ActSpeedReset=Vitesse normale
+ActSetLoopA=Définir le point A
+ActSetLoopB=Définir le point B
+ActClearLoop=Effacer la boucle A-B
+ActFrameForward=Image suivante
+ActFrameBackward=Image précédente
+ActPrevChapter=Chapitre précédent
+ActNextChapter=Chapitre suivant
+ActGotoTime=Aller à un temps
+ActVolumeUp=Augmenter le volume
+ActVolumeDown=Diminuer le volume
+ActMute=Muet / Son
+ActAudioDelayPlus=Délai audio +
+ActAudioDelayMinus=Délai audio -
+ActAudioDelayReset=Réinitialiser le délai audio
+ActFullscreen=Plein écran
+ActRotate=Rotation vidéo
+ActDeinterlace=Désentrelacer
+ActZoomIn=Zoom avant
+ActZoomOut=Zoom arrière
+ActZoomReset=Réinitialiser le zoom
+ActAlwaysOnTop=Toujours au premier plan
+ActFitToVideo=Ajuster à la vidéo
+ActScreenshot=Capture d'écran
+ActVideoAdjust=Ajustements vidéo
+ActVisNextMode=Mode de visualisation suivant
+ActVisNextColor=Palette de couleurs suivante
+ActSubDelayPlus=Délai sous-titres +
+ActSubDelayMinus=Délai sous-titres -
+ActSubDelayReset=Réinitialiser le délai sous-titres
+ActDVDMenu=Menu DVD
+ActDVDUp=Navigation DVD haut
+ActDVDDown=Navigation DVD bas
+ActDVDLeft=Navigation DVD gauche
+ActDVDRight=Navigation DVD droite
+ActDVDSelect=Sélection DVD
+ActOpenFile=Ouvrir un fichier
+ActOpenURL=Ouvrir une URL
+ActPlaylist=Afficher la liste de lecture
+ActQuit=Quitter
+
+[Log]
+; Phase 25 : Fenêtre de log
+Title=Journal MPV
+Command=Commande :
+Clear=Effacer
+Save=Enregistrer...
+Copy=&Copier
+SelectAll=&Tout sélectionner
+SaveTitle=Enregistrer le journal
+SaveFilter=Fichiers texte (*.txt)|*.txt|Tous les fichiers (*.*)|*.*
+ErrorTitle=Erreur
+SaveError=Échec de l'enregistrement du journal : %s
+
+[MediaInfo]
+Title=Informations média
+FileTab=Fichier
+VideoTab=Vidéo
+AudioTab=Audio
+MetadataTab=Métadonnées
+FileName=Nom du fichier :
+FilePath=Chemin :
+FileSize=Taille :
+Duration=Durée :
+Format=Format :
+Bitrate=Débit :
+Codec=Codec :
+Resolution=Résolution :
+FrameRate=Fréquence d'images :
+PixelFormat=Format pixel :
+AspectRatio=Rapport d'aspect :
+Channels=Canaux :
+SampleRate=Fréquence :
+Language=Langue :
+Property=Propriété
+Value=Valeur
+CopyAll=Tout copier
+CopiedToClipboard=Informations média copiées dans le presse-papiers.
+NA=N/D
+NAStream=N/D (flux)
+NALive=N/D (en direct)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stéréo)
+Channel51=6 (Surround 5.1)
+Channel71=8 (Surround 7.1)
+Unknown=Inconnu
+NoMetadata=(Pas de métadonnées)
+
+[Bookmarks]
+Title=Signets
+Goto=Aller à
+Remove=Supprimer
+Clear=Tout effacer
+Refresh=Actualiser
+OpenFolder=Ouvrir le dossier
+CopyPath=Copier le chemin
+; Colonnes
+ColName=Nom
+ColFile=Fichier
+ColPosition=Position
+ColCreated=Créé le
+; Dialogues
+ClearTitle=Effacer les signets
+ClearConfirm=Êtes-vous sûr de vouloir effacer tous les signets ?
+Count=%d signet(s)
+
+[Favorites]
+Title=Favoris
+Play=Lire
+Remove=Supprimer
+Clear=Tout effacer
+Refresh=Actualiser
+OpenFolder=Ouvrir le dossier
+CopyPath=Copier le chemin
+; Colonnes
+ColName=Nom
+ColType=Type
+ColPath=Chemin
+; Types
+TypeFile=Fichier
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Inconnu
+; Dialogues
+ClearTitle=Effacer les favoris
+ClearConfirm=Êtes-vous sûr de vouloir effacer tous les favoris ?
+Count=%d favori(s)
+
+[History]
+Title=Historique de lecture
+Play=Lire
+Remove=Supprimer
+Clear=Tout effacer
+Refresh=Actualiser
+OpenFolder=Ouvrir le dossier
+CopyPath=Copier le chemin
+; Colonnes
+ColFileName=Fichier
+ColPath=Chemin
+; Dialogues
+ClearTitle=Effacer l'historique
+ClearConfirm=Êtes-vous sûr de vouloir effacer tout l'historique ?
+Count=%d entrée(s)
+
+[SleepTimer]
+Title=Minuterie de veille
+Description=Définir une minuterie pour arrêter automatiquement la lecture
+Hours=Heures :
+Minutes=Minutes :
+Action=À l'expiration :
+StopPlayback=Arrêter la lecture
+CloseApp=Fermer l'application
+Shutdown=Éteindre l'ordinateur
+QuickSet=Préréglages :
+15Min=15 min
+30Min=30 min
+1Hour=1 heure
+2Hours=2 heures
+
+[Radios]
+Title=Radios Internet
+Play=Lire
+Add=Ajouter
+Edit=Modifier
+Delete=Supprimer
+Remove=Supprimer
+Import=Importer
+Export=Exporter
+Refresh=Actualiser
+Favorite=Favori
+ShowFavorites=Favoris
+ShowAll=Tout
+; Filtre
+Genre=Genre :
+Search=Rechercher :
+SearchBtn=Rechercher
+ClearSearch=Effacer
+AllGenres=(Tous les genres)
+; Menu contextuel
+AddFavorite=Ajouter aux favoris
+RemoveFavorite=Retirer des favoris
+AddCustom=Ajouter une station...
+EditCustom=Modifier la station...
+DeleteCustom=Supprimer la station
+OpenWebsite=Ouvrir le site
+CopyURL=Copier l'URL
+; Colonnes
+ColName=Nom
+ColGenre=Genre
+ColBitrate=Débit
+ColCountry=Pays
+ColCodec=Codec
+; Dialogues
+AddTitle=Ajouter une station
+EditTitle=Modifier la station
+DeleteTitle=Supprimer la station
+DeleteConfirm=Êtes-vous sûr de vouloir supprimer cette station ?
+StationName=Nom de la station :
+StreamURL=URL du flux :
+GenrePrompt=Genre :
+NameURLRequired=Le nom et l'URL sont requis.
+; Messages de statut
+LoadingIcecast=Chargement des stations depuis Icecast...
+IcecastError=Impossible de charger le répertoire Icecast. Utilisation des stations par défaut.
+NoStationsLoaded=Aucune station chargée
+StationCount=%d stations
+LoadedStations=%d stations chargées
+ErrorPrefix=Erreur :
+; Clés legacy
+Name=Nom
+URL=URL
+Bitrate=Débit
+Description=Description
+Country=Pays
+
+[OpenURL]
+Title=Ouvrir une URL
+Prompt=Entrez l'URL du média :
+
+[GotoTime]
+Title=Aller à
+EnterTime=Temps de destination :
+Hours=H
+Minutes=M
+Seconds=S
+Current=Position :
+Duration=Durée :
+
+[VideoAdjust]
+Title=Ajustements vidéo
+Brightness=Luminosité :
+Contrast=Contraste :
+Saturation=Saturation :
+Hue=Teinte :
+Gamma=Gamma :
+ResetAll=Réinitialiser toutes les couleurs
+
+[CLI]
+; Messages de ligne de commande
+Usage=Utilisation
+Arguments=[OPTIONS] [FICHIER|URL|DOSSIER]
+Description=Un lecteur multimédia multiplateforme basé sur libmpv.
+Options=OPTIONS
+Examples=EXEMPLES
+MoreInfo=Pour plus d'informations, visitez
+EnqueuedTo=Ajouté à l'instance existante : %s
+SentTo=Envoyé à l'instance existante : %s
+AlreadyRunning=3nity Media est déjà en cours d'exécution.
+ErrorFileNotFound=Erreur : Fichier ou dossier introuvable : %s
+ErrorSubNotFound=Erreur : Fichier de sous-titres introuvable : %s

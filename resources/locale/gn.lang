@@ -1,0 +1,892 @@
+[Language]
+Name=Guarani - Avañe'ẽ
+Code=gn
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Marandurenda ñembohekovéva
+File=&Marandurenda
+FileOpen=&Jepe'a Marandurenda...
+FileOpenURL=Jepe'a &URL...
+FileOpenClipboard=Jepe'a &Clipboard-gui
+FileRecent=Marandurenda &Ramovéva
+ClearRecentFiles=Mopotĩ Marandurenda Ramovéva
+FileExit=&Ñesẽ
+
+; Ñemboheta ñembohekovéva
+Playback=&Ñemboheta
+PlaybackPlayPause=&Ñemboheta/Pyta
+PlaybackStop=&Pyta
+PlaybackPrevious=&Mboyve
+PlaybackNext=&Upeigua
+PlaybackSeekForward=Jeheka &Tenondépe
+PlaybackSeekBackward=Jeheka &Tapykuépe
+PlaybackSpeed=&Pya'ekue
+PlaybackABLoop=A-&B Jere
+PlaybackSetA=Moĩ &A
+PlaybackSetB=Moĩ &B
+PlaybackClearAB=&Mopotĩ A-B
+PlaybackChapters=&Tapicha
+PlaybackPrevChapter=Tapicha Mboyvegua
+PlaybackNextChapter=Tapicha Upeiguáva
+PlaybackFrameStep=Cuadro &Tenondépe
+PlaybackFrameBack=Cuadro &Tapykuépe
+
+; DVD Ñemongu'e
+PlaybackDVD=DVD &Ñemongu'e
+DVDMenu=&Ñembohekovéva
+DVDUp=&Yvate
+DVDDown=&Yvýpe
+DVDLeft=&Asúpe
+DVDRight=&Akatúape
+DVDSelect=&Jeporavo
+PlaybackDVDTitles=DVD &Téra
+
+; Jepe'a Ñongatuha
+FileOpenFolder=Jepe'a Ñon&gatuha...
+
+; Marandurenda ñembohekovéva DVD/Bluray
+FileOpenDVD=Jepe'a &DVD...
+FileOpenBluray=Jepe'a &Blu-ray...
+
+; Oho Aravo ha Tembiasakue
+PlaybackGotoTime=&Oho Aravo-pe...
+ToolsHistory=&Tembiasakue
+
+; Sistema Bandeja
+TrayShow=&Hechauka/Ñomi
+TrayPlayPause=&Ñemboheta/Pyta
+TrayStop=&Pyta
+TrayPrevious=&Mboyve
+TrayNext=&Upeigua
+TrayMute=&Kirirĩ
+TrayExit=&Ñesẽ
+
+; Techaukaha
+PlaybackAddBookmark=Moĩve &Techaukaha...
+PlaybackBookmarks=Tech&aukaha
+BookmarksTitle=Techaukaha
+BookmarksGoto=&Oho Techaukaha-pe
+BookmarksRemove=&Mboguete Techaukaha
+BookmarksClear=&Mopotĩ Opavave Techaukaha
+BookmarksOpenFolder=Jepe'a &Ñongatuha
+BookmarksCopyPath=&Mongata Tape
+BookmarksCount=%d techaukaha
+NoBookmarks=(Ndaipóri techaukaha)
+NoFileLoaded=(Ndaipóri marandurenda oñemboguata)
+BookmarkAdded=Techaukaha oñemoĩ %s-pe
+BookmarkJumped=Ojepopo'o techaukaha-pe %s
+AddBookmarkTitle=Moĩve Techaukaha
+AddBookmarkPrompt=Ehai techaukaha réra:
+ShowAllBookmarks=Hechauka Opavave Techaukaha...
+
+; Ojehayhuvéva
+ToolsFavorites=Oje&hayhuvéva
+ToolsAddFavorite=Moĩve Ojehayhuvéva&pe
+FavoritesTitle=Ojehayhuvéva
+FavoritesPlay=&Ñemboheta
+FavoritesRemove=&Mboguete Ojehayhuvéva-gui
+FavoritesClear=&Mopotĩ Opavave Ojehayhuvéva
+FavoritesOpenFolder=Jepe'a &Ñongatuha
+FavoritesCopyPath=&Mongata Tape
+FavoritesCount=%d ojehayhuvéva
+NoFavorites=(Ndaipóri ojehayhuvéva)
+AddFavoriteTitle=Moĩve Ojehayhuvéva-pe
+AddFavoritePrompt=Ehai ojehayhuvéva réra:
+AlreadyFavorite=Ha'éma ojehayhuvéva
+AddedToFavorites=Oñemoĩ ojehayhuvéva-pe: %s
+NoFileToFavorite=Ndaipóri marandurenda oñemboguata oñemoĩ haguã ojehayhuvéva-pe
+FavoriteTypeFile=Marandurenda
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Rádio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Pista jejehaipy
+TrackWithTitle=Pista %d: %s
+TrackWithLang=Pista %d (%s)
+TrackNumber=Pista %d
+
+; Pya'ekue ñembohekovéva
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Tuichakue ñembohekovéva
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Kuatiahaipyre pista
+SubtitleDisable=Mbogue
+
+; Ke Aravo
+ToolsSleepTimer=&Ke Aravo...
+ToolsSleepTimerActive=&Ke Aravo [%s]
+ToolsCancelTimer=Mbogue &Aravo
+
+; Pu ñembohekovéva
+Audio=&Pu
+AudioTrack=Pu &Pista
+AudioVolumeUp=Pu &Moĩvéve
+AudioVolumeDown=Pu &Mboguehápe
+AudioMute=&Kirirĩ
+AudioEqualizer=&Igualizador
+AudioDelay=Pu &Akykue
+AudioDelayPlus=Akykue +0.1s
+AudioDelayMinus=Akykue -0.1s
+AudioDelayReset=Moñepyrũjey Akykue
+AudioNormalize=&Normaliza Pu
+
+; Ta'ãnga ñembohekovéva
+Video=&Ta'ãnga
+VideoFullscreen=Pantalla &Tuichavéva
+VideoAspect=&Aspecto Rehegua
+VideoAspectAuto=&Ijeheguiete
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=Pantalla &Ta'ãnga
+VideoScreenshotAs=Pantalla Ta'ãnga &Háicha...
+VideoRotation=&Jere
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Mbojere
+VideoFlipH=Mbojere &Yvate-yvýpe
+VideoFlipV=Mbojere &Verticálpe
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Uguãpe
+VideoZoomOut=Zoom &Okápe
+VideoZoomReset=&Moñepyrũjey Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan &Asúpe
+VideoPanRight=Pan &Akatúape
+VideoPanUp=Pan &Yvate
+VideoPanDown=Pan &Yvýpe
+VideoPanReset=Mo&ñepyrũjey Pan
+VideoTrack=Ta'ãnga &Pista
+VideoColors=Sa'y &Ñemoĩporã
+VideoBrightness=&Tesape
+VideoContrast=&Contraste
+VideoSaturation=&Saturación
+VideoHue=&Sa'y
+VideoGamma=&Gamma
+VideoColorsReset=Moñepyrũjey &Opavave Sa'y
+VideoIncrease=Moĩvéve (+5)
+VideoDecrease=Mboguehápe (-5)
+VideoReset=Moñepyrũjey
+VideoAdjustDialog=Ta'ãnga &Ñemoĩporã...
+
+; Maña ñembohekovéva
+View=&Maña
+ViewAlwaysOnTop=&Yvate Guarã
+ViewFitToVideo=&Moĩ Ventana Ta'ãnga-pe
+ViewScale=Ventana &Tuichakue
+
+; Jechauka ñembohekovéva
+ViewVisualization=&Jechauka
+VisNone=&Mba'eve
+VisSpectrum=&Espectro Analizador
+VisWaveform=&Ysyry Ha'ã
+VisVector=&Vector Alcance
+VisVolume=&VU Medidor
+VisNextMode=Upeigua &Mba'e
+VisNextColor=Upeigua &Sa'y Esquema
+
+; Kuatiahaipyre ñembohekovéva
+Subtitles=&Kuatiahaipyre
+SubtitleTrack=Kuatiahaipyre &Pista
+SubtitleLoad=&Oguata Kuatiahaipyre...
+SubtitleDelay=Kuatiahaipyre &Akykue
+SubtitleDelayPlus=Akykue +0.1s
+SubtitleDelayMinus=Akykue -0.1s
+SubtitleDelayReset=Moñepyrũjey Akykue
+
+; Tembiporu ñembohekovéva
+Tools=&Tembiporu
+ToolsPlaylist=&Ñemboheta Tysýi
+ToolsRadios=&Rádio
+ToolsShortcuts=Teclado &Tape Mbyky...
+ToolsOptions=&Opción
+
+; Grabación ñembohekovéva
+ToolsRecord=&Grabación Ysyry...
+ToolsStopRecord=P&yta Grabación
+ToolsRecording=&Grabación...
+
+; Pytyvõ ñembohekovéva
+Help=&Pytyvõ
+HelpMediaInfo=Media &Marandu
+HelpLog=&Log Ventana
+HelpAbout=&Rehegua
+
+[Dialog]
+OpenFile=Jepe'a Marandurenda
+OpenURL=Jepe'a URL
+SaveScreenshot=Ñongatu Pantalla Ta'ãnga
+LoadSubtitle=Oguata Kuatiahaipyre Marandurenda
+EnterURL=Ehai URL:
+ResumePlayback=Seguí Ñemboheta
+ResumeFrom=Seguí %s-gui?
+ClearRecentFiles=Mopotĩ Marandurenda Ramovéva
+NoRecentFiles=(Ndaipóri marandurenda ramovéva)
+NoAudioTracks=(Ndaipóri pu pista)
+NoVideoTracks=(Ndaipóri ta'ãnga pista)
+NoSubtitleTracks=(Ndaipóri kuatiahaipyre pista)
+NoChapters=(Ndaipóri tapicha)
+OpenDVD=Jepe'a DVD
+OpenBluray=Jepe'a Blu-ray
+OpenFolder=Jepe'a Ñongatuha
+
+; Marandurenda jeporavo
+ScreenshotFilter=PNG Ta'ãnga|*.png|JPEG Ta'ãnga|*.jpg|WebP Ta'ãnga|*.webp
+DVDFilter=DVD Ñongatuha|*.;*.iso|Opavave marandurenda (*.*)|*.*
+BlurayFilter=Blu-ray Ñongatuha|*.;*.iso|Opavave marandurenda (*.*)|*.*
+NoDVD=(Ndaipóri DVD oñemboguata)
+DVDTitle=Téra %d
+GotoTime=Oho Aravo-pe
+EnterTime=Ehai aravo ojepo'o haguã:
+Hours=Aravo
+Minutes=Minuto
+Seconds=Segundo
+Current=Ko'ãga:
+HistoryTitle=Ñemboheta Tembiasakue
+HistoryItems=%d ñemohenda tembiasakue-pe
+HistoryPlay=&Ñemboheta
+HistoryRemove=&Mboguete Tembiasakue-gui
+HistoryClear=&Mopotĩ Opavave Tembiasakue
+HistoryOpenFolder=Jepe'a &Ñongatuha
+HistoryCopyPath=&Mongata Tape
+ClearHistory=Mopotĩ Tembiasakue
+ClearHistoryConfirm=Añetehápe remopotĩse opavave tembiasakue?
+SleepTimerTitle=Ke Aravo
+SleepTimerDescription=Moĩ aravo ijeheguiete opyta haguã ñemboheta
+SleepTimerHours=Aravo
+SleepTimerMinutes=Minuto
+SleepTimerQuickSet=Pya'e Moĩ
+SleepTimerAction=Aravo opa ramo
+SleepTimerStopPlayback=Pyta ñemboheta
+SleepTimerCloseApp=Mboty aplicación
+SleepTimerShutdown=Mbogue computadora
+SleepTimerStart=Ñepyrũ Aravo
+
+[Status]
+Ready=Oĩma
+Opening=Oñepe'a...
+Playing=Oñemboheta
+Paused=Opyta
+Stopped=Opyta
+Error=Javy
+Buffering=Oñemboguata...
+Seeking=Ojeheka...
+Recording=Oñegravación
+
+[Message]
+SpeedFormat=Pya'ekue: %.2fx
+VolumeFormat=Pu: %d%%
+BrightnessFormat=Tesape: %d
+ContrastFormat=Contraste: %d
+SaturationFormat=Saturación: %d
+HueFormat=Sa'y: %d
+GammaFormat=Gamma: %d
+ColorsReset=Ta'ãnga sa'y oñemoñepyrũjey
+LoopASet=Jere A oñemoĩ %s-pe
+LoopBSet=Jere B oñemoĩ %s-pe - Jere oĩma
+LoopCleared=A-B Jere oñemopotĩ
+SetAFirst=Moĩ punto A tenonde (eñemity L)
+RotationFormat=Jere: %d°
+FlipHOn=Yvate-yvýpe mbojere: OĨ
+FlipHOff=Yvate-yvýpe mbojere: NDAIPÓRI
+FlipVOn=Verticálpe mbojere: OĨ
+FlipVOff=Verticálpe mbojere: NDAIPÓRI
+DeinterlaceOn=Deinterlace: OĨ
+DeinterlaceOff=Deinterlace: NDAIPÓRI
+AlwaysOnTopOn=Yvate guarã: OĨ
+AlwaysOnTopOff=Yvate guarã: NDAIPÓRI
+WindowFitted=Ventana oñemoĩ %dx%d
+WindowScale=Ventana tuichakue: %.0f%%
+ScreenshotSaved=Pantalla ta'ãnga oñongatu: %s
+AudioNormalizeOn=Pu normalización: OĨ
+AudioNormalizeOff=Pu normalización: NDAIPÓRI
+AudioDelayFormat=Pu akykue: %.1f s
+SubtitleDelayFormat=Kuatiahaipyre akykue: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Mbytépe
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Ndaipóri ta'ãnga oñemboguata
+PlayingFromClipboard=Oñemboheta clipboard-gui: %s
+ClipboardInvalid=Clipboard ndoguerekói URL térã tape oĩporãva
+ClipboardEmpty=Clipboard nandi térã ndoguerekói moñe'ẽrã
+ResumedAt=Oñeseguí %s-pe
+FrameStepForward=Cuadro tenondépe
+FrameStepBackward=Cuadro tapykuépe
+PreviousChapter=Tapicha mboyvegua
+NextChapter=Tapicha upeiguáva
+PlayingRadio=Oñemboheta rádio: %s
+PlayingDVD=Oñemboheta DVD: %s
+PlayingBluray=Oñemboheta Blu-ray: %s
+DVDTitlePlaying=DVD Téra %d
+SeekTo=Ojeheka %s
+MinimizedToTray=Ombopichĩ bandeja-pe. Mokõi jety oñemoĩjey haguã.
+SleepTimerSet=Ke aravo oñemoĩ: %s
+SleepTimerCancelled=Ke aravo oñembogue
+SleepTimerWarning=Ke aravo: 1 minuto opyta
+SleepTimerFinal=Ke aravo: 10 segundo opyta
+SleepTimerStopped=Ke aravo: Ñemboheta opyta
+SleepTimerClosing=Ke aravo: Omboty aplicación
+SleepTimerShutdown=Ke aravo: Ombogue computadora
+SleepTimerExpired=Ke Aravo Opa
+ShutdownManual=Eiko porã embogue nde computadora nde pópe.
+
+; Jepe'a Ñongatuha
+FolderOpened=Ñongatuha oñepe'a: %d marandurenda
+NoMediaFound=Ndojejuhúi media marandurenda
+FilesAdded=%d marandurenda oñemoĩ tysýi-pe
+
+; Grabación marandu
+RecordNeedPlayback=Eñepyrũ ñemboheta egravación mboyvépe.
+RecordingStarted=Grabación oñepyrũ
+RecordingStopped=Grabación opyta
+
+; Ñemohenda estado marandu
+EndOfPlaylist=Ñemboheta tysýi opa
+NoMediaLoaded=Ndaipóri media marandurenda oñemboguata ko'ãga.
+JumpedToNamed=Ojepo'o: %s
+ChapterFormat=Tapicha %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Techaukaha %s-pe
+
+[Label]
+Muted=Kirirĩ
+
+[Button]
+Play=Ñemboheta
+Pause=Pyta
+Stop=Pyta
+Previous=Mboyve
+Next=Upeigua
+Mute=Kirirĩ
+Unmute=Pu
+Fullscreen=Pantalla Tuichavéva
+OK=Oĩporã
+Cancel=Mbogue
+Apply=Moĩ
+Close=Mboty
+Yes=Añete
+No=Nahániri
+
+[Tooltip]
+Play=Ñemboheta/Pyta
+Stop=Pyta ñemboheta
+Previous=Pista mboyvegua
+Next=Pista upeiguáva
+Mute=Mbojere kirirĩ
+Volume=Pu
+Seek=Jeheka posición
+Fullscreen=Mbojere pantalla tuichavéva
+
+[Playlist]
+Title=Ñemboheta Tysýi
+Add=Moĩve
+Remove=Mboguete
+Clear=Mopotĩ
+MoveUp=Mbokurusu Yvate
+MoveDown=Mbokurusu Yvýpe
+Shuffle=Ñembyai
+Repeat=Jey
+Play=Ñemboheta
+ShuffleOn=Ñembyai: Oĩ
+ShuffleOff=Ñembyai: Ndaipóri
+RepeatOff=Jey: Ndaipóri
+RepeatOne=Jey: Peteĩ
+RepeatAll=Jey: Opavave
+SavePlaylist=Ñongatu
+LoadPlaylist=Oguata
+TotalDuration=Opavave: %s
+ItemCount=%d ñemohenda
+
+; Ñemboheta Tysýi Ñemoĩporãve
+Search=Jeheka:
+FilterPlaceholder=Filtro ñemboheta tysýi...
+ClearSearch=Mopotĩ
+FilterCount=%d/%d
+RemoveDuplicates=Mboguete &Duplicado
+Properties=&Propiedad...
+NoDuplicates=Ndojejuhúi duplicado.
+DuplicatesFound=Ojejuhu %d duplicado. Emboguete?
+RemoveDuplicatesTitle=Mboguete Duplicado
+PropertiesTitle=Ñemboheta Tysýi Propiedad
+PropTotalItems=Opavave ñemohenda: %d
+PropTotalDuration=Opavave aravo: %s
+PropPlayed=Oñemboheta: %d
+PropUnplayed=Ndoñembohetái: %d
+PropTotalSize=Opavave tuichakue: %.2f MB
+PropShuffle=Ñembyai: %s
+PropRepeat=Jey: %s
+On=Oĩ
+Off=Ndaipóri
+
+; Llave pyahu ApplyLocale-pe guarã
+ClearTitle=Mopotĩ Ñemboheta Tysýi
+ClearConfirm=Añetehápe remopotĩse ñemboheta tysýi?
+NoPlaylist=Ndaipóri ñemboheta tysýi
+StatusFormat=%d ñemohenda | Opavave: %s
+RepeatOne=Jey 1
+RepeatAll=Jey Op
+HintRepeatEnable=Eñemity emboguata haguã Jey Opavave
+HintRepeatOne=Jey Peteĩ - Eñemity embogue haguã
+HintRepeatAll=Jey Opavave - Eñemity Jey Peteĩ-pe guarã
+HintShuffleRepeat=Ñembyai + Jey Opavave - Eñemity embogue haguã jey
+RemoveDuplicatesTitle=Mboguete Duplicado
+NoDuplicates=Ndojejuhúi duplicado.
+SelectAll=Jeporavo Opavave
+SelectNone=Jeporavo Mba'eve
+SelectInvert=Mbojere Jeporavo
+Sort=Ñemohenda
+SortByName=Réra rupi
+SortByTitle=Téra rupi
+SortByArtist=Artista rupi
+SortByDuration=Aravo rupi
+SortReverse=Mbojere
+SortRandom=Ñembyai
+ColTitle=Téra
+ColDuration=Aravo
+ColArtist=Artista
+ColAlbum=Álbum
+PlaylistFilter=M3U Ñemboheta Tysýi|*.m3u|M3U8 Ñemboheta Tysýi|*.m3u8|PLS Ñemboheta Tysýi|*.pls
+
+[Equalizer]
+Title=Igualizador
+Presets=Ñemohenda tenondegua:
+Preamp=Preamplificador:
+Flat=Ñuasã
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Clásico
+BassBoost=Bajo Moĩvéve
+TrebleBoost=Agudo Moĩvéve
+Vocal=Ñe'ẽ
+Reset=Moñepyrũjey
+Enable=Emboguata Igualizador
+Save=Ñongatu
+Delete=Mbogue
+Ready=Oĩma
+; Votõ ha tembiapo
+SavePreset=Ñongatu Preset
+DeletePreset=Mbogue Preset
+SavePresetTitle=Ñongatu Preset
+PresetNamePrompt=Preset réra:
+EnterPresetName=Eiko porã ehai preset réra.
+OverwritePresetTitle=Mohai Ári Preset
+OverwritePresetConfirm=Preset ko rérandi oĩma. Emohái ári?
+PresetUpdated=Preset oñemopyahu: %s
+PresetSaved=Preset oñongatu: %s
+SelectPresetToDelete=Eiko porã eiporavo preset embogue haguã.
+CannotDeleteDefault=Ndaikatúi embogue preset default.
+DeletePresetTitle=Mbogue Preset
+DeletePresetConfirm=Añetehápe rembogue ko preset?
+PresetDeleted=Preset oñembogue
+ResetToFlat=Igualizador oñemoñepyrũjey ñuasã-pe
+PresetApplied=Preset oñemoĩ: %s
+
+[Options]
+Title=Opción
+General=Opavave
+Video=Ta'ãnga
+Audio=Pu
+Subtitles=Kuatiahaipyre
+Cache=Ñongatu
+Language=Ñe'ẽ:
+RestartRequired=Oñeikotevẽ oñeñepyrũjey oñemoĩ haguã moambue
+
+; Opavave tab - Tembiapo
+Behavior=Tembiapo
+SingleInstance=Emoneĩ peteĩ instancia
+AutoPlay=Ijeheguiete ñemboheta oñepe'a ramo
+AutoResume=Seguí ñemboheta posición
+MinimizeToTray=Ombopichĩ sistema bandeja-pe
+AutoSavePlaylist=Ñongatu ñemboheta tysýi osẽ ramo
+
+; Opavave tab - OSD
+OSD=Pantalla Jechauka
+ShowOSD=Hechauka pantalla marandu
+ShowTrayIcon=Hechauka bandeja ícono
+OSDDuration=OSD aravo (ms):
+
+; Opavave tab - Pantalla ta'ãnga
+Screenshots=Pantalla Ta'ãnga
+ScreenshotPath=Ñongatu ñongatuha:
+ScreenshotFormat=Formato:
+
+; Opavave tab - Tembiasakue
+HistorySettings=Tembiasakue
+HistoryEnabled=Emboguata ñemboheta tembiasakue
+HistoryMaxItems=Tuichavéva ñemohenda:
+
+; Opavave tab - Ñe'ẽ
+LanguageGroup=Ñe'ẽ
+RestartNote=(Oñeikotevẽ oñeñepyrũjey moambue-pe guarã)
+
+; Ta'ãnga tab
+VideoAdjust=Ta'ãnga Ñemohenda
+Brightness=Tesape:
+Contrast=Contraste:
+Saturation=Saturación:
+Hue=Sa'y:
+Gamma=Gamma:
+VideoOutput=Ta'ãnga Osẽ
+Output=Osẽ:
+HWAccel=Emboguata hardware aceleración
+Deinterlacing=Deinterlacing
+Mode=Mba'e:
+
+; Pu tab
+AudioOutput=Pu Osẽ
+OutputDriver=Osẽ controlador:
+Device=Dispositivo:
+AudioOptions=Pu Opción
+NormalizeAudio=Normaliza pu pu
+Channels=Canal:
+
+; Kuatiahaipyre tab
+UseDefaultSubtitles=Eipuru kuatiahaipyre ñemohenda default
+Font=Letra
+FontName=Letra:
+FontSize=Tuichakue:
+FontColor=Sa'y:
+Bold=Hatã
+Italic=Kindy
+Outline=Contorno
+OutlineColor=Sa'y:
+OutlineSize=Tuichakue:
+Position=Posición
+VerticalPosition=Verticálpe posición:
+SubOptions=Opción
+Encoding=Codificación:
+AutoLoadSubs=Ijeheguiete oguata kuatiahaipyre marandurenda
+
+; Ta'ãnga osẽ ñe'ẽmongeta
+VOWarningX11=Ñe'ẽmongeta: x11 ndojapo'i ta'ãnga ñemohenda (tesape, contraste, ambue.)
+VOWarningWayland=Ñe'ẽmongeta: Oñeikotevẽ Wayland sesión. Ta'ãnga ñemohenda oĩma.
+
+; Ñongatu tab
+CacheSettings=Ñongatu Buffer Tuichakue (KB)
+CacheDefault=Ñongatu default:
+CacheLocal=Local marandurenda:
+CacheNetwork=Red marandurenda:
+CacheInternet=Internet ysyry:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Rehegua
+Version=Versión
+Engine=Motor
+Technology=Tecnología
+BuildInfo=Japo Marandu
+SystemInfo=Sistema
+Credits=Crédito
+Developer=Japohára:
+Author=Moñe'ẽha
+License=Licencia
+Website=Web ñemohenda
+GitHub=GitHub
+Description=Media ñembohetahára pyahu ha kangy
+LicenseText=3nity Media olisensía GPL-2.0 guýpe\n\nKóva he'ise nde libre:\n  • Eipuru software opa mba'e-pe guarã\n  • Eñembo'e ha emoambue código\n  • Emohenda software copia\n  • Emohenda nde moambue\n\nChupe guarã opavave moambue oñemohendaséva\nokañy avei lisensía GPL-2.0 guýpe.
+BuildDate=Ára:
+Target=Objetivo:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Teclado Tape Mbyky
+Description=Emohenda teclado tape mbyky tembiapo-pe guarã
+Search=Jeheka:
+PressKey=Eñemity tecla...
+ColCategory=Categoría
+ColAction=Tembiapo
+ColShortcut=Tape Mbyky
+Assign=Moĩ
+Clear=Mopotĩ
+Reset=Moñepyrũjey
+ResetAll=Moñepyrũjey Opavave
+CurrentShortcut=Ko'ãga: %s
+NoKeyPressed=Eiko porã eñemity tecla combinación tenonde.
+Conflict=Conflicto: Oñemoĩma "%s"
+ConfirmReplace=Mbojere Tape Mbyky
+ReplaceMessage=Ko tape mbyky oñemoĩma "%s"-pe. Rembojere?
+ConfirmResetAll=Moñepyrũjey Opavave Tape Mbyky
+ResetAllMessage=Añetehápe remoñepyrũjey opavave tape mbyky default-pe?
+; Tembiapo réra
+ActPlayPause=Ñemboheta / Pyta
+ActStop=Pyta
+ActPrevious=Mboyve
+ActNext=Upeigua
+ActSeekForward=Jeheka Tenondépe (10s)
+ActSeekBackward=Jeheka Tapykuépe (10s)
+ActSeekForward5=Jeheka Tenondépe (1 min)
+ActSeekBackward5=Jeheka Tapykuépe (1 min)
+ActSpeedUp=Moĩvéve Pya'ekue
+ActSpeedDown=Mboguehápe Pya'ekue
+ActSpeedReset=Moñepyrũjey Pya'ekue
+ActSetLoopA=Moĩ Jere Punto A
+ActSetLoopB=Moĩ Jere Punto B
+ActClearLoop=Mopotĩ A-B Jere
+ActFrameForward=Cuadro Tenondépe
+ActFrameBackward=Cuadro Tapykuépe
+ActPrevChapter=Tapicha Mboyvegua
+ActNextChapter=Tapicha Upeiguáva
+ActGotoTime=Oho Aravo-pe
+ActVolumeUp=Pu Moĩvéve
+ActVolumeDown=Pu Mboguehápe
+ActMute=Kirirĩ / Pu
+ActAudioDelayPlus=Pu Akykue +
+ActAudioDelayMinus=Pu Akykue -
+ActAudioDelayReset=Moñepyrũjey Pu Akykue
+ActFullscreen=Pantalla Tuichavéva
+ActRotate=Mbojere Ta'ãnga
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom Uguãpe
+ActZoomOut=Zoom Okápe
+ActZoomReset=Moñepyrũjey Zoom
+ActAlwaysOnTop=Yvate Guarã
+ActFitToVideo=Moĩ Ta'ãnga-pe
+ActScreenshot=Pantalla Ta'ãnga
+ActVideoAdjust=Ta'ãnga Ñemohenda
+ActVisNextMode=Upeigua Jechauka Mba'e
+ActVisNextColor=Upeigua Sa'y Esquema
+ActSubDelayPlus=Kuatiahaipyre Akykue +
+ActSubDelayMinus=Kuatiahaipyre Akykue -
+ActSubDelayReset=Moñepyrũjey Kuatiahaipyre Akykue
+ActDVDMenu=DVD Ñembohekovéva
+ActDVDUp=DVD Ñemongu'e Yvate
+ActDVDDown=DVD Ñemongu'e Yvýpe
+ActDVDLeft=DVD Ñemongu'e Asúpe
+ActDVDRight=DVD Ñemongu'e Akatúape
+ActDVDSelect=DVD Jeporavo
+ActOpenFile=Jepe'a Marandurenda
+ActOpenURL=Jepe'a URL
+ActPlaylist=Hechauka Ñemboheta Tysýi
+ActQuit=Ñesẽ
+
+[Log]
+; Log Ventana
+Title=MPV Log
+Command=Mandu'a:
+Clear=Mopotĩ
+Save=Ñongatu...
+Copy=&Mongata
+SelectAll=Jeporavo &Opavave
+SaveTitle=Ñongatu Log
+SaveFilter=Moñe'ẽrã marandurenda (*.txt)|*.txt|Opavave marandurenda (*.*)|*.*
+ErrorTitle=Javy
+SaveError=Ndaikatúi oñongatu log: %s
+
+[MediaInfo]
+Title=Media Marandu
+FileTab=Marandurenda
+VideoTab=Ta'ãnga
+AudioTab=Pu
+MetadataTab=Metadata
+FileName=Marandurenda Réra:
+FilePath=Tape:
+FileSize=Tuichakue:
+Duration=Aravo:
+Format=Formato:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolución:
+FrameRate=Cuadro Rate:
+PixelFormat=Pixel Formato:
+AspectRatio=Aspecto Rehegua:
+Channels=Canal:
+SampleRate=Muestra Rate:
+Language=Ñe'ẽ:
+Property=Propiedad
+Value=Valor
+CopyAll=Mongata Opavave
+CopiedToClipboard=Media marandu oñemongata clipboard-pe.
+NA=N/A
+NAStream=N/A (ysyry)
+NALive=N/A (oĩ)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Ojeikuaa'ỹva
+NoMetadata=(Ndaipóri metadata)
+
+[Bookmarks]
+Title=Techaukaha
+Goto=Oho
+Remove=Mboguete
+Clear=Mopotĩ Opavave
+Refresh=Mbopyahu
+OpenFolder=Jepe'a Ñongatuha
+CopyPath=Mongata Tape
+; Columna
+ColName=Réra
+ColFile=Marandurenda
+ColPosition=Posición
+ColCreated=Oñemoheñoi
+; Diálogo
+ClearTitle=Mopotĩ Techaukaha
+ClearConfirm=Añetehápe remopotĩse opavave techaukaha?
+Count=%d techaukaha
+
+[Favorites]
+Title=Ojehayhuvéva
+Play=Ñemboheta
+Remove=Mboguete
+Clear=Mopotĩ Opavave
+Refresh=Mbopyahu
+OpenFolder=Jepe'a Ñongatuha
+CopyPath=Mongata Tape
+; Columna
+ColName=Réra
+ColType=Tipo
+ColPath=Tape
+; Tipo
+TypeFile=Marandurenda
+TypeURL=URL
+TypeRadio=Rádio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Ojeikuaa'ỹva
+; Diálogo
+ClearTitle=Mopotĩ Ojehayhuvéva
+ClearConfirm=Añetehápe remopotĩse opavave ojehayhuvéva?
+Count=%d ojehayhuvéva
+
+[History]
+Title=Ñemboheta Tembiasakue
+Play=Ñemboheta
+Remove=Mboguete
+Clear=Mopotĩ Opavave
+Refresh=Mbopyahu
+OpenFolder=Jepe'a Ñongatuha
+CopyPath=Mongata Tape
+; Columna
+ColFileName=Marandurenda
+ColPath=Tape
+; Diálogo
+ClearTitle=Mopotĩ Tembiasakue
+ClearConfirm=Añetehápe remopotĩse opavave tembiasakue?
+Count=%d ñemohenda
+
+[SleepTimer]
+Title=Ke Aravo
+Description=Moĩ aravo ijeheguiete opyta haguã ñemboheta
+Hours=Aravo:
+Minutes=Minuto:
+Action=Aravo opa ramo:
+StopPlayback=Pyta ñemboheta
+CloseApp=Mboty aplicación
+Shutdown=Mbogue computadora
+QuickSet=Pya'e moĩ:
+15Min=15 min
+30Min=30 min
+1Hour=1 aravo
+2Hours=2 aravo
+
+[Radios]
+Title=Internet Rádio
+Play=Ñemboheta
+Add=Moĩve
+Edit=Moambue
+Delete=Mbogue
+Remove=Mboguete
+Import=Mbogueru
+Export=Mondo
+Refresh=Mbopyahu
+Favorite=Ojehayhuvéva
+ShowFavorites=Ojehayhuvéva
+ShowAll=Opavave
+; Filtro
+Genre=Género:
+Search=Jeheka:
+SearchBtn=Jeheka
+ClearSearch=Mopotĩ
+AllGenres=(Opavave Género)
+; Contexto ñembohekovéva
+AddFavorite=Moĩve Ojehayhuvéva-pe
+RemoveFavorite=Mboguete Ojehayhuvéva-gui
+AddCustom=Moĩve Estación Kikin...
+EditCustom=Moambue Estación...
+DeleteCustom=Mbogue Estación
+OpenWebsite=Jepe'a Web Ñemohenda
+CopyURL=Mongata URL
+; Columna
+ColName=Réra
+ColGenre=Género
+ColBitrate=Bitrate
+ColCountry=Tetã
+ColCodec=Codec
+; Diálogo
+AddTitle=Moĩve Estación Kikin
+EditTitle=Moambue Estación
+DeleteTitle=Mbogue Estación
+DeleteConfirm=Añetehápe rembogue ko estación?
+StationName=Estación Réra:
+StreamURL=Ysyry URL:
+GenrePrompt=Género:
+NameURLRequired=Réra ha URL oñeikotevẽ.
+; Estado marandu
+LoadingIcecast=Oñemboguata estación Icecast directorio-gui...
+IcecastError=Ndaikatúi oñemboguata Icecast directorio. Oñepuru estación default.
+NoStationsLoaded=Ndaipóri estación oñemboguata
+StationCount=%d estación
+LoadedStations=%d estación oñemboguata
+ErrorPrefix=Javy:
+; Llave ymaguare
+Name=Réra
+URL=URL
+Bitrate=Bitrate
+Description=Ñe'ẽmongeta
+Country=Tetã
+
+[OpenURL]
+Title=Jepe'a URL
+Prompt=Ehai media URL:
+
+[GotoTime]
+Title=Oho Aravo-pe
+EnterTime=Ehai aravo ojepo'o haguã:
+Hours=A
+Minutes=M
+Seconds=S
+Current=Ko'ãga:
+Duration=Aravo:
+
+[VideoAdjust]
+Title=Ta'ãnga Ñemohenda
+Brightness=Tesape:
+Contrast=Contraste:
+Saturation=Saturación:
+Hue=Sa'y:
+Gamma=Gamma:
+ResetAll=Moñepyrũjey Opavave Sa'y
+
+[CLI]
+; Ñe'ẽ línea de comando-pegua
+Usage=Jepuru
+Arguments=[PORAVORÃ] [MARANDUKA|URL|ÑONGATUHA]
+Description=Peteĩ multimedia reproductor opaite plataforma-pe oipuru libmpv backend-ramo.
+Options=PORAVORÃ
+Examples=TECHAUKAHA
+MoreInfo=Maranduve rehegua, eñeñandu
+EnqueuedTo=Oñembojoapy cola-pe instancia oĩvape: %s
+SentTo=Oñemondo instancia oĩvape: %s
+AlreadyRunning=3nity Media oñemomba'apo oiméma.
+ErrorFileNotFound=Javy: Ndojejuhúi maranduka térã ñongatuha: %s
+ErrorSubNotFound=Javy: Ndojejuhúi maranduka subtítulo-pegua: %s

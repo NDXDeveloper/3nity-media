@@ -1,0 +1,892 @@
+[Language]
+Name=Basque - Euskara
+Code=eu
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Fitxategi menua
+File=&Fitxategia
+FileOpen=&Ireki fitxategia...
+FileOpenURL=Ireki &URLa...
+FileOpenClipboard=Ireki &arbeletik
+FileRecent=&Azken fitxategiak
+ClearRecentFiles=Garbitu azken fitxategiak
+FileExit=I&rten
+
+; Erreprodukzio menua
+Playback=&Erreprodukzioa
+PlaybackPlayPause=&Erreproduzitu/Pausatu
+PlaybackStop=&Gelditu
+PlaybackPrevious=A&urrekoa
+PlaybackNext=&Hurrengoa
+PlaybackSeekForward=Aurrera &bilatu
+PlaybackSeekBackward=Atzera &bilatu
+PlaybackSpeed=&Abiadura
+PlaybackABLoop=A-&B begizta
+PlaybackSetA=Ezarri &A
+PlaybackSetB=Ezarri &B
+PlaybackClearAB=&Garbitu A-B
+PlaybackChapters=&Kapituluak
+PlaybackPrevChapter=Aurreko kapitulua
+PlaybackNextChapter=Hurrengo kapitulua
+PlaybackFrameStep=Fotograma bat &aurrera
+PlaybackFrameBack=Fotograma bat &atzera
+
+; DVD nabigazioa
+PlaybackDVD=DVD &nabigazioa
+DVDMenu=&Menua
+DVDUp=&Gora
+DVDDown=&Behera
+DVDLeft=&Ezkerrera
+DVDRight=&Eskuinera
+DVDSelect=&Hautatu
+PlaybackDVDTitles=DVD &tituluak
+
+; 21. fasea: Ireki karpeta
+FileOpenFolder=Ireki kar&peta...
+
+; Fitxategi menua DVD/Bluray
+FileOpenDVD=Ireki &DVDa...
+FileOpenBluray=Ireki &Blu-raya...
+
+; 13. fasea: Joan denborara eta historia
+PlaybackGotoTime=&Joan denborara...
+ToolsHistory=&Historia
+
+; 14. fasea: Sistema-erretilua
+TrayShow=&Erakutsi/Ezkutatu
+TrayPlayPause=&Erreproduzitu/Pausatu
+TrayStop=&Gelditu
+TrayPrevious=A&urrekoa
+TrayNext=&Hurrengoa
+TrayMute=&Mututu
+TrayExit=I&rten
+
+; 15. fasea: Laster-markak
+PlaybackAddBookmark=Gehitu &laster-marka...
+PlaybackBookmarks=Laster-&markak
+BookmarksTitle=Laster-markak
+BookmarksGoto=&Joan laster-markara
+BookmarksRemove=&Kendu laster-marka
+BookmarksClear=&Garbitu laster-marka guztiak
+BookmarksOpenFolder=Ireki &karpeta
+BookmarksCopyPath=&Kopiatu bidea
+BookmarksCount=%d laster-marka
+NoBookmarks=(Laster-markarik ez)
+NoFileLoaded=(Ez dago fitxategirik kargatuta)
+BookmarkAdded=Laster-marka gehituta %s-n
+BookmarkJumped=%s-ko laster-markara joanda
+AddBookmarkTitle=Gehitu laster-marka
+AddBookmarkPrompt=Sartu laster-markaren izena:
+ShowAllBookmarks=Erakutsi laster-marka guztiak...
+
+; 16. fasea: Gogokoak
+ToolsFavorites=&Gogokoak
+ToolsAddFavorite=Gehitu gogo&koetara
+FavoritesTitle=Gogokoak
+FavoritesPlay=&Erreproduzitu
+FavoritesRemove=&Kendu gogokoetatik
+FavoritesClear=&Garbitu gogoko guztiak
+FavoritesOpenFolder=Ireki &karpeta
+FavoritesCopyPath=&Kopiatu bidea
+FavoritesCount=%d gogoko
+NoFavorites=(Gogokorik ez)
+AddFavoriteTitle=Gehitu gogokoetara
+AddFavoritePrompt=Sartu gogokoaren izena:
+AlreadyFavorite=Dagoeneko gogokoetan dago
+AddedToFavorites=Gogokoetara gehituta: %s
+NoFileToFavorite=Ez dago fitxategirik gogokoetara gehitzeko
+FavoriteTypeFile=Fitxategia
+FavoriteTypeURL=URLa
+FavoriteTypeRadio=Irratia
+FavoriteTypeDVD=DVDa
+FavoriteTypeBluray=Blu-raya
+
+; Pisten formatu-kateak
+TrackWithTitle=%d pista: %s
+TrackWithLang=%d pista (%s)
+TrackNumber=%d pista
+
+; Abiadura menuaren elementuak
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Eskala menuaren elementuak
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Azpititulu pista
+SubtitleDisable=Desgaitu
+
+; 17. fasea: Lo-tenporizadorea
+ToolsSleepTimer=&Lo-tenporizadorea...
+ToolsSleepTimerActive=&Lo-tenporizadorea [%s]
+ToolsCancelTimer=Ezeztatu &tenporizadorea
+
+; Audio menua
+Audio=&Audioa
+AudioTrack=Audio &pista
+AudioVolumeUp=Igo &bolumena
+AudioVolumeDown=Jaitsi &bolumena
+AudioMute=&Mututu
+AudioEqualizer=&Ekualizadorea
+AudioDelay=Audio &atzerapena
+AudioDelayPlus=Atzerapena +0.1s
+AudioDelayMinus=Atzerapena -0.1s
+AudioDelayReset=Berrezarri atzerapena
+AudioNormalize=&Normalizatu bolumena
+
+; Bideo menua
+Video=&Bideoa
+VideoFullscreen=&Pantaila osoa
+VideoAspect=&Aspektu-erlazioa
+VideoAspectAuto=&Automatikoa
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Pantaila-argazkia
+VideoScreenshotAs=Pantaila-argazkia &honela...
+VideoRotation=&Biraketa
+VideoRotate0=&0° (Normala)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Irauli
+VideoFlipH=Irauli &horizontalki
+VideoFlipV=Irauli &bertikalki
+VideoDeinterlace=&Desentrelazatu
+VideoZoom=&Zooma
+VideoZoomIn=&Hurbiltu
+VideoZoomOut=&Urrundu
+VideoZoomReset=&Berrezarri zooma
+VideoPan=&Pan
+VideoPanLeft=Pan &ezkerrera
+VideoPanRight=Pan &eskuinera
+VideoPanUp=Pan &gora
+VideoPanDown=Pan &behera
+VideoPanReset=B&errezarri pan-a
+VideoTrack=Bideo &pista
+VideoColors=Kolore &doikuntzak
+VideoBrightness=&Distira
+VideoContrast=&Kontrastea
+VideoSaturation=&Saturazioa
+VideoHue=&Tonua
+VideoGamma=&Gamma
+VideoColorsReset=Berrezarri &kolore guztiak
+VideoIncrease=Handitu (+5)
+VideoDecrease=Txikitu (-5)
+VideoReset=Berrezarri
+VideoAdjustDialog=Bideo &doikuntzak...
+
+; Ikusi menua
+View=Ik&usi
+ViewAlwaysOnTop=&Beti gainean
+ViewFitToVideo=&Egokitu leihoa bideoari
+ViewScale=Leihoaren &eskala
+
+; 26. fasea: Bistaratzea menua
+ViewVisualization=&Bistaratzea
+VisNone=&Bat ere ez
+VisSpectrum=&Espektro analizatzailea
+VisWaveform=&Uhin-forma
+VisVector=&Bektore-esparrua
+VisVolume=B&U Neurtzailea
+VisNextMode=Hurrengo &modua
+VisNextColor=Hurrengo &kolore-eskema
+
+; Azpititulu menua
+Subtitles=A&zpitituluak
+SubtitleTrack=Azpititulu &pista
+SubtitleLoad=&Kargatu azpititulua...
+SubtitleDelay=Azpititulu &atzerapena
+SubtitleDelayPlus=Atzerapena +0.1s
+SubtitleDelayMinus=Atzerapena -0.1s
+SubtitleDelayReset=Berrezarri atzerapena
+
+; Tresnak menua
+Tools=&Tresnak
+ToolsPlaylist=&Erreprodukzio-zerrenda
+ToolsRadios=&Irratiak
+ToolsShortcuts=&Laster-teklak...
+ToolsOptions=&Aukerak
+
+; 27. fasea: Grabazio menua
+ToolsRecord=&Grabatu jarioa...
+ToolsStopRecord=G&elditu grabazioa
+ToolsRecording=&Grabazioa...
+
+; Laguntza menua
+Help=&Laguntza
+HelpMediaInfo=&Multimedia-informazioa
+HelpLog=&Erregistro-leihoa
+HelpAbout=&Honi buruz
+
+[Dialog]
+OpenFile=Ireki fitxategia
+OpenURL=Ireki URLa
+SaveScreenshot=Gorde pantaila-argazkia
+LoadSubtitle=Kargatu azpititulu-fitxategia
+EnterURL=Sartu URLa:
+ResumePlayback=Jarraitu erreprodukzioa
+ResumeFrom=Jarraitu %s-tik?
+ClearRecentFiles=Garbitu azken fitxategiak
+NoRecentFiles=(Azken fitxategirik ez)
+NoAudioTracks=(Audio pistarik ez)
+NoVideoTracks=(Bideo pistarik ez)
+NoSubtitleTracks=(Azpititulu pistarik ez)
+NoChapters=(Kapitulutik ez)
+OpenDVD=Ireki DVDa
+OpenBluray=Ireki Blu-raya
+OpenFolder=Ireki karpeta
+
+; Fitxategi-iragazkiak
+ScreenshotFilter=PNG irudia|*.png|JPEG irudia|*.jpg|WebP irudia|*.webp
+DVDFilter=DVD karpeta|*.;*.iso|Fitxategi guztiak (*.*)|*.*
+BlurayFilter=Blu-ray karpeta|*.;*.iso|Fitxategi guztiak (*.*)|*.*
+NoDVD=(Ez dago DVDrik kargatuta)
+DVDTitle=%d titulua
+GotoTime=Joan denborara
+EnterTime=Sartu saltatzeko denbora:
+Hours=Orduak
+Minutes=Minutuak
+Seconds=Segundoak
+Current=Unekoa:
+HistoryTitle=Erreprodukzio-historia
+HistoryItems=Historian %d elementu
+HistoryPlay=&Erreproduzitu
+HistoryRemove=&Kendu historiatik
+HistoryClear=&Garbitu historia guztia
+HistoryOpenFolder=Ireki &karpeta
+HistoryCopyPath=&Kopiatu bidea
+ClearHistory=Garbitu historia
+ClearHistoryConfirm=Ziur zaude historia guztia garbitu nahi duzula?
+SleepTimerTitle=Lo-tenporizadorea
+SleepTimerDescription=Ezarri tenporizadorea erreprodukzioa automatikoki gelditzeko
+SleepTimerHours=Orduak
+SleepTimerMinutes=Minutuak
+SleepTimerQuickSet=Ezarpen azkarra
+SleepTimerAction=Tenporizadorea amaitutakoan
+SleepTimerStopPlayback=Gelditu erreprodukzioa
+SleepTimerCloseApp=Itxi aplikazioa
+SleepTimerShutdown=Itzali ordenagailua
+SleepTimerStart=Hasi tenporizadorea
+
+[Status]
+Ready=Prest
+Opening=Irekitzen...
+Playing=Erreproduzitzen
+Paused=Pausatuta
+Stopped=Geldituta
+Error=Errorea
+Buffering=Buffer egiten...
+Seeking=Bilatzen...
+Recording=Grabatzen
+
+[Message]
+SpeedFormat=Abiadura: %.2fx
+VolumeFormat=Bolumena: %d%%
+BrightnessFormat=Distira: %d
+ContrastFormat=Kontrastea: %d
+SaturationFormat=Saturazioa: %d
+HueFormat=Tonua: %d
+GammaFormat=Gamma: %d
+ColorsReset=Bideo koloreak berrezarrita
+LoopASet=A begizta-puntua %s-n ezarrita
+LoopBSet=B begizta-puntua %s-n ezarrita - Begizta aktibo
+LoopCleared=A-B begizta garbituta
+SetAFirst=Ezarri lehenik A puntua (sakatu L)
+RotationFormat=Biraketa: %d°
+FlipHOn=Irauli horizontalki: AKTIBO
+FlipHOff=Irauli horizontalki: DESAKTIBO
+FlipVOn=Irauli bertikalki: AKTIBO
+FlipVOff=Irauli bertikalki: DESAKTIBO
+DeinterlaceOn=Desentrelazatu: AKTIBO
+DeinterlaceOff=Desentrelazatu: DESAKTIBO
+AlwaysOnTopOn=Beti gainean: AKTIBO
+AlwaysOnTopOff=Beti gainean: DESAKTIBO
+WindowFitted=Leihoa %dx%d-ra egokituta
+WindowScale=Leiho-eskala: %.0f%%
+ScreenshotSaved=Pantaila-argazkia gordeta: %s
+AudioNormalizeOn=Audio normalizazioa: AKTIBO
+AudioNormalizeOff=Audio normalizazioa: DESAKTIBO
+AudioDelayFormat=Audio atzerapena: %.1f s
+SubtitleDelayFormat=Azpititulu atzerapena: %.1f s
+ZoomFormat=Zooma: %.0f%%
+PanCenter=Pan: Erdialdea
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Ez dago bideorik kargatuta
+PlayingFromClipboard=Arbeletik erreproduzitzen: %s
+ClipboardInvalid=Arbelak ez du baliozko URLrik edo biderik
+ClipboardEmpty=Arbela hutsik dago edo ez du testurik
+ResumedAt=%s-n jarraitu da
+FrameStepForward=Fotograma bat aurrera
+FrameStepBackward=Fotograma bat atzera
+PreviousChapter=Aurreko kapitulua
+NextChapter=Hurrengo kapitulua
+PlayingRadio=Irratia erreproduzitzen: %s
+PlayingDVD=DVDa erreproduzitzen: %s
+PlayingBluray=Blu-raya erreproduzitzen: %s
+DVDTitlePlaying=DVD %d titulua
+SeekTo=%s-ra bilatzen
+MinimizedToTray=Erretiluan minimizatuta. Klik bikoitza berreskuratzeko.
+SleepTimerSet=Lo-tenporizadorea ezarrita: %s
+SleepTimerCancelled=Lo-tenporizadorea ezeztatuta
+SleepTimerWarning=Lo-tenporizadorea: minutu bat geratzen da
+SleepTimerFinal=Lo-tenporizadorea: 10 segundo geratzen dira
+SleepTimerStopped=Lo-tenporizadorea: Erreprodukzioa geldituta
+SleepTimerClosing=Lo-tenporizadorea: Aplikazioa ixten
+SleepTimerShutdown=Lo-tenporizadorea: Ordenagailua itzaltzen
+SleepTimerExpired=Lo-tenporizadorea amaituta
+ShutdownManual=Mesedez, itzali ordenagailua eskuz.
+
+; 21. fasea: Ireki karpeta
+FolderOpened=Karpeta irekita: %d fitxategi
+NoMediaFound=Ez da multimedia fitxategirik aurkitu
+FilesAdded=%d fitxategi gehitu dira erreprodukzio-zerrendara
+
+; 27. fasea: Grabazio mezuak
+RecordNeedPlayback=Hasi erreprodukzioa grabatu baino lehen.
+RecordingStarted=Grabazioa hasita
+RecordingStopped=Grabazioa geldituta
+
+; Egoera-mezu gehigarriak
+EndOfPlaylist=Erreprodukzio-zerrendaren amaiera
+NoMediaLoaded=Ez dago multimedia fitxategirik kargatuta.
+JumpedToNamed=Hona joanda: %s
+ChapterFormat=%d kapitulua (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Laster-marka %s-n
+
+[Label]
+Muted=Mutututa
+
+[Button]
+Play=Erreproduzitu
+Pause=Pausatu
+Stop=Gelditu
+Previous=Aurrekoa
+Next=Hurrengoa
+Mute=Mututu
+Unmute=Desmututu
+Fullscreen=Pantaila osoa
+OK=Ados
+Cancel=Utzi
+Apply=Aplikatu
+Close=Itxi
+Yes=Bai
+No=Ez
+
+[Tooltip]
+Play=Erreproduzitu/Pausatu
+Stop=Gelditu erreprodukzioa
+Previous=Aurreko pista
+Next=Hurrengo pista
+Mute=Txandakatu mututze
+Volume=Bolumena
+Seek=Bilaketa-posizioa
+Fullscreen=Txandakatu pantaila osoa
+
+[Playlist]
+Title=Erreprodukzio-zerrenda
+Add=Gehitu
+Remove=Kendu
+Clear=Garbitu
+MoveUp=Mugitu gora
+MoveDown=Mugitu behera
+Shuffle=Nahastu
+Repeat=Errepikatu
+Play=Erreproduzitu
+ShuffleOn=Nahastu: Aktibo
+ShuffleOff=Nahastu: Desaktibo
+RepeatOff=Errepikatu: Desaktibo
+RepeatOne=Errepikatu: Bat
+RepeatAll=Errepikatu: Guztiak
+SavePlaylist=Gorde
+LoadPlaylist=Kargatu
+TotalDuration=Guztira: %s
+ItemCount=%d elementu
+
+; 22. fasea: Erreprodukzio-zerrenda hobekuntzak
+Search=Bilatu:
+FilterPlaceholder=Iragazi erreprodukzio-zerrenda...
+ClearSearch=Garbitu
+FilterCount=%d/%d
+RemoveDuplicates=Kendu &bikoiztuak
+Properties=P&ropietateak...
+NoDuplicates=Ez da bikoizturik aurkitu.
+DuplicatesFound=%d bikoiztu aurkitu d(ir)a. Kendu?
+RemoveDuplicatesTitle=Kendu bikoiztuak
+PropertiesTitle=Erreprodukzio-zerrenda propietateak
+PropTotalItems=Elementu guztira: %d
+PropTotalDuration=Iraupena guztira: %s
+PropPlayed=Erreproduzitutakoak: %d
+PropUnplayed=Erreproduzitu gabekoak: %d
+PropTotalSize=Tamaina guztira: %.2f MB
+PropShuffle=Nahastu: %s
+PropRepeat=Errepikatu: %s
+On=Aktibo
+Off=Desaktibo
+
+; ApplyLocale-rako gako berriak
+ClearTitle=Garbitu erreprodukzio-zerrenda
+ClearConfirm=Ziur zaude erreprodukzio-zerrenda garbitu nahi duzula?
+NoPlaylist=Erreprodukzio-zerredarik ez
+StatusFormat=%d elementu | Guztira: %s
+RepeatOne=Errep. 1
+RepeatAll=Errep. guzt.
+HintRepeatEnable=Egin klik Errepikatu guztiak gaitzeko
+HintRepeatOne=Errepikatu bat - Egin klik desgaitzeko
+HintRepeatAll=Errepikatu guztiak - Egin klik Errepikatu bat lortzeko
+HintShuffleRepeat=Nahastu + Errepikatu guztiak - Egin klik errepikapena desgaitzeko
+RemoveDuplicatesTitle=Kendu bikoiztuak
+NoDuplicates=Ez da bikoizturik aurkitu.
+SelectAll=Hautatu guztiak
+SelectNone=Ez hautatu bat ere
+SelectInvert=Alderantzikatu hautaketa
+Sort=Ordenatu
+SortByName=Izenez
+SortByTitle=Tituluz
+SortByArtist=Artistaz
+SortByDuration=Iraupenez
+SortReverse=Alderantzikatu
+SortRandom=Ausaz jarri
+ColTitle=Titulua
+ColDuration=Iraupena
+ColArtist=Artista
+ColAlbum=Albuma
+PlaylistFilter=M3U Erreprodukzio-zerrenda|*.m3u|M3U8 Erreprodukzio-zerrenda|*.m3u8|PLS Erreprodukzio-zerrenda|*.pls
+
+[Equalizer]
+Title=Ekualizadorea
+Presets=Aurrezarpenak:
+Preamp=Aurre-anplifikadorea:
+Flat=Laua
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klasikoa
+BassBoost=Baxu-indartzea
+TrebleBoost=Agudo-indartzea
+Vocal=Bokala
+Reset=Berrezarri
+Enable=Gaitu ekualizadorea
+Save=Gorde
+Delete=Ezabatu
+Ready=Prest
+; Botoiak eta ekintzak
+SavePreset=Gorde aurrezarpena
+DeletePreset=Ezabatu aurrezarpena
+SavePresetTitle=Gorde aurrezarpena
+PresetNamePrompt=Aurrezarpenaren izena:
+EnterPresetName=Mesedez, sartu aurrezapenaren izena.
+OverwritePresetTitle=Gainidatzi aurrezarpena
+OverwritePresetConfirm=Izen honekin aurrezarpena existitzen da dagoeneko. Gainidatzi?
+PresetUpdated=Aurrezarpena eguneratuta: %s
+PresetSaved=Aurrezarpena gordeta: %s
+SelectPresetToDelete=Mesedez, hautatu aurrezarpen bat ezabatzeko.
+CannotDeleteDefault=Ezin dira aurrezarpen lehenetsiak ezabatu.
+DeletePresetTitle=Ezabatu aurrezarpena
+DeletePresetConfirm=Ziur zaude aurrezarpen hau ezabatu nahi duzula?
+PresetDeleted=Aurrezarpena ezabatuta
+ResetToFlat=Ekualizadorea lauan berrezarrita
+PresetApplied=Aurrezarpena aplikatuta: %s
+
+[Options]
+Title=Aukerak
+General=Orokorra
+Video=Bideoa
+Audio=Audioa
+Subtitles=Azpitituluak
+Cache=Cachea
+Language=Hizkuntza:
+RestartRequired=Berrabiaraztea beharrezkoa da aldaketak eraginkortasunez jartzeko
+
+; Orokorra fitxa - Portaera
+Behavior=Portaera
+SingleInstance=Baimendu instantzia bakarra
+AutoPlay=Auto-erreproduzitu fitxategiak irekitzean
+AutoResume=Jarraitu erreprodukzio-posizioa
+MinimizeToTray=Minimizatu sistema-erretilura
+AutoSavePlaylist=Gorde erreprodukzio-zerrenda irtetean
+
+; Orokorra fitxa - OSD
+OSD=Pantailako bistaratzea
+ShowOSD=Erakutsi pantailako mezuak
+ShowTrayIcon=Erakutsi erretilu-ikonoa
+OSDDuration=OSD iraupena (ms):
+
+; Orokorra fitxa - Pantaila-argazkiak
+Screenshots=Pantaila-argazkiak
+ScreenshotPath=Gordetze-karpeta:
+ScreenshotFormat=Formatua:
+
+; Orokorra fitxa - Historia
+HistorySettings=Historia
+HistoryEnabled=Gaitu erreprodukzio-historia
+HistoryMaxItems=Gehienezko elementuak:
+
+; Orokorra fitxa - Hizkuntza
+LanguageGroup=Hizkuntza
+RestartNote=(Berrabiaraztea beharrezkoa aldaketetarako)
+
+; Bideoa fitxa
+VideoAdjust=Bideo doikuntzak
+Brightness=Distira:
+Contrast=Kontrastea:
+Saturation=Saturazioa:
+Hue=Tonua:
+Gamma=Gamma:
+VideoOutput=Bideo irteera
+Output=Irteera:
+HWAccel=Gaitu hardware azelerazioa
+Deinterlacing=Desentrelazatua
+Mode=Modua:
+
+; Audioa fitxa
+AudioOutput=Audio irteera
+OutputDriver=Irteera kontrolatzailea:
+Device=Gailua:
+AudioOptions=Audio aukerak
+NormalizeAudio=Normalizatu audio bolumena
+Channels=Kanalak:
+
+; Azpitituluak fitxa
+UseDefaultSubtitles=Erabili azpititulu ezarpen lehenetsiak
+Font=Letra-tipoa
+FontName=Letra-tipoa:
+FontSize=Tamaina:
+FontColor=Kolorea:
+Bold=Lodia
+Italic=Etzana
+Outline=Ertza
+OutlineColor=Kolorea:
+OutlineSize=Tamaina:
+Position=Posizioa
+VerticalPosition=Posizio bertikala:
+SubOptions=Aukerak
+Encoding=Kodeketa:
+AutoLoadSubs=Automatikoki kargatu azpititulu-fitxategiak
+
+; Bideo irteera abisuak
+VOWarningX11=Abisua: x11-k ez du bideo doikuntzarik onartzen (distira, kontrastea, etab.)
+VOWarningWayland=Abisua: Wayland saioa behar da. Bideo doikuntzak onartzen dira.
+
+; Cachea fitxa
+CacheSettings=Cache buffer tamainak (KB)
+CacheDefault=Cache lehenetsia:
+CacheLocal=Fitxategi lokalak:
+CacheNetwork=Sareko fitxategiak:
+CacheInternet=Internet jarioak:
+CacheDVD=DVDa:
+CacheCDROM=CD-ROMa:
+
+[About]
+Title=Honi buruz
+Version=Bertsioa
+Engine=Motorra
+Technology=Teknologia
+BuildInfo=Eraikitze-informazioa
+SystemInfo=Sistema
+Credits=Kredituak
+Developer=Garatzailea:
+Author=Egilea
+License=Lizentzia
+Website=Webgunea
+GitHub=GitHub
+Description=Multimedia erreproduzitzaile moderno eta arina
+LicenseText=3nity Media GPL-2.0 lizentziapean dago\n\nHonek esan nahi du askatasunez:\n  * Softwarea edozein helburutarako erabil dezakezu\n  * Iturburu-kodea aztertu eta aldatu dezakezu\n  * Softwarearen kopiak banatu ditzakezu\n  * Zure aldaketak banatu ditzakezu\n\nBaldintza honekin: banatutako aldaketak\nGPL-2.0 lizentzapean egon behar dira.
+BuildDate=Data:
+Target=Helburua:
+Kernel=Nukleoa:
+
+[Shortcuts]
+Title=Laster-teklak
+Description=Konfiguratu laster-teklak ekintzarako
+Search=Bilatu:
+PressKey=Sakatu tekla bat...
+ColCategory=Kategoria
+ColAction=Ekintza
+ColShortcut=Laster-tekla
+Assign=Esleitu
+Clear=Garbitu
+Reset=Berrezarri
+ResetAll=Berrezarri guztiak
+CurrentShortcut=Unekoa: %s
+NoKeyPressed=Mesedez, sakatu tekla-konbinazio bat lehenik.
+Conflict=Gatazka: Dagoeneko "%s"-ri esleita
+ConfirmReplace=Ordeztu laster-tekla
+ReplaceMessage=Laster-tekla hau dagoeneko "%s"-ri esleita dago. Ordeztu nahi duzu?
+ConfirmResetAll=Berrezarri laster-tekla guztiak
+ResetAllMessage=Ziur zaude laster-tekla guztiak haien lehenetsietara berrezarri nahi dituzula?
+; Ekintza izenak
+ActPlayPause=Erreproduzitu / Pausatu
+ActStop=Gelditu
+ActPrevious=Aurrekoa
+ActNext=Hurrengoa
+ActSeekForward=Aurrera bilatu (10s)
+ActSeekBackward=Atzera bilatu (10s)
+ActSeekForward5=Aurrera bilatu (1 min)
+ActSeekBackward5=Atzera bilatu (1 min)
+ActSpeedUp=Abiadura handitu
+ActSpeedDown=Abiadura txikitu
+ActSpeedReset=Berrezarri abiadura
+ActSetLoopA=Ezarri A begizta-puntua
+ActSetLoopB=Ezarri B begizta-puntua
+ActClearLoop=Garbitu A-B begizta
+ActFrameForward=Fotograma aurrera
+ActFrameBackward=Fotograma atzera
+ActPrevChapter=Aurreko kapitulua
+ActNextChapter=Hurrengo kapitulua
+ActGotoTime=Joan denborara
+ActVolumeUp=Bolumena igo
+ActVolumeDown=Bolumena jaitsi
+ActMute=Mututu / Desmututu
+ActAudioDelayPlus=Audio atzerapena +
+ActAudioDelayMinus=Audio atzerapena -
+ActAudioDelayReset=Berrezarri audio atzerapena
+ActFullscreen=Pantaila osoa
+ActRotate=Biratu bideoa
+ActDeinterlace=Desentrelazatu
+ActZoomIn=Hurbiltu
+ActZoomOut=Urrundu
+ActZoomReset=Berrezarri zooma
+ActAlwaysOnTop=Beti gainean
+ActFitToVideo=Egokitu bideoari
+ActScreenshot=Pantaila-argazkia
+ActVideoAdjust=Bideo doikuntzak
+ActVisNextMode=Hurrengo bistaratze modua
+ActVisNextColor=Hurrengo kolore-eskema
+ActSubDelayPlus=Azpititulu atzerapena +
+ActSubDelayMinus=Azpititulu atzerapena -
+ActSubDelayReset=Berrezarri azpititulu atzerapena
+ActDVDMenu=DVD menua
+ActDVDUp=DVD nabigatu gora
+ActDVDDown=DVD nabigatu behera
+ActDVDLeft=DVD nabigatu ezkerrera
+ActDVDRight=DVD nabigatu eskuinera
+ActDVDSelect=DVD hautatu
+ActOpenFile=Ireki fitxategia
+ActOpenURL=Ireki URLa
+ActPlaylist=Erakutsi erreprodukzio-zerrenda
+ActQuit=Irten
+
+[Log]
+; 25. fasea: Erregistro-leihoa
+Title=MPV erregistroa
+Command=Komandoa:
+Clear=Garbitu
+Save=Gorde...
+Copy=&Kopiatu
+SelectAll=Hautatu &guztiak
+SaveTitle=Gorde erregistroa
+SaveFilter=Testu-fitxategiak (*.txt)|*.txt|Fitxategi guztiak (*.*)|*.*
+ErrorTitle=Errorea
+SaveError=Ezin izan da erregistroa gorde: %s
+
+[MediaInfo]
+Title=Multimedia-informazioa
+FileTab=Fitxategia
+VideoTab=Bideoa
+AudioTab=Audioa
+MetadataTab=Metadatuak
+FileName=Fitxategi-izena:
+FilePath=Bidea:
+FileSize=Tamaina:
+Duration=Iraupena:
+Format=Formatua:
+Bitrate=Bit-emaria:
+Codec=Kodeka:
+Resolution=Bereizmena:
+FrameRate=Fotograma-tasa:
+PixelFormat=Pixel formatua:
+AspectRatio=Aspektu-erlazioa:
+Channels=Kanalak:
+SampleRate=Laginketa-tasa:
+Language=Hizkuntza:
+Property=Propietatea
+Value=Balioa
+CopyAll=Kopiatu guztia
+CopiedToClipboard=Multimedia-informazioa arbelera kopiatuta.
+NA=E/A
+NAStream=E/A (jarioa)
+NALive=E/A (zuzenean)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Estereo)
+Channel51=6 (5.1 Ingurune-soinua)
+Channel71=8 (7.1 Ingurune-soinua)
+Unknown=Ezezaguna
+NoMetadata=(Metadaturik ez)
+
+[Bookmarks]
+Title=Laster-markak
+Goto=Joan hona
+Remove=Kendu
+Clear=Garbitu guztiak
+Refresh=Freskatu
+OpenFolder=Ireki karpeta
+CopyPath=Kopiatu bidea
+; Zutabeak
+ColName=Izena
+ColFile=Fitxategia
+ColPosition=Posizioa
+ColCreated=Sortua
+; Elkarrizketa-koadroak
+ClearTitle=Garbitu laster-markak
+ClearConfirm=Ziur zaude laster-marka guztiak garbitu nahi dituzula?
+Count=%d laster-marka
+
+[Favorites]
+Title=Gogokoak
+Play=Erreproduzitu
+Remove=Kendu
+Clear=Garbitu guztiak
+Refresh=Freskatu
+OpenFolder=Ireki karpeta
+CopyPath=Kopiatu bidea
+; Zutabeak
+ColName=Izena
+ColType=Mota
+ColPath=Bidea
+; Motak
+TypeFile=Fitxategia
+TypeURL=URLa
+TypeRadio=Irratia
+TypeDVD=DVDa
+TypeBluray=Blu-raya
+TypeUnknown=Ezezaguna
+; Elkarrizketa-koadroak
+ClearTitle=Garbitu gogokoak
+ClearConfirm=Ziur zaude gogoko guztiak garbitu nahi dituzula?
+Count=%d gogoko
+
+[History]
+Title=Erreprodukzio-historia
+Play=Erreproduzitu
+Remove=Kendu
+Clear=Garbitu guztiak
+Refresh=Freskatu
+OpenFolder=Ireki karpeta
+CopyPath=Kopiatu bidea
+; Zutabeak
+ColFileName=Fitxategia
+ColPath=Bidea
+; Elkarrizketa-koadroak
+ClearTitle=Garbitu historia
+ClearConfirm=Ziur zaude historia guztia garbitu nahi duzula?
+Count=%d elementu
+
+[SleepTimer]
+Title=Lo-tenporizadorea
+Description=Ezarri tenporizadorea erreprodukzioa automatikoki gelditzeko
+Hours=Orduak:
+Minutes=Minutuak:
+Action=Tenporizadorea amaitutakoan:
+StopPlayback=Gelditu erreprodukzioa
+CloseApp=Itxi aplikazioa
+Shutdown=Itzali ordenagailua
+QuickSet=Ezarpen azkarra:
+15Min=15 min
+30Min=30 min
+1Hour=1 ordu
+2Hours=2 ordu
+
+[Radios]
+Title=Interneteko irratiak
+Play=Erreproduzitu
+Add=Gehitu
+Edit=Editatu
+Delete=Ezabatu
+Remove=Kendu
+Import=Inportatu
+Export=Esportatu
+Refresh=Freskatu
+Favorite=Gogokoa
+ShowFavorites=Gogokoak
+ShowAll=Guztiak
+; Iragazkia
+Genre=Generoa:
+Search=Bilatu:
+SearchBtn=Bilatu
+ClearSearch=Garbitu
+AllGenres=(Genero guztiak)
+; Testuinguru-menua
+AddFavorite=Gehitu gogokoetara
+RemoveFavorite=Kendu gogokoetatik
+AddCustom=Gehitu irrati pertsonalizatua...
+EditCustom=Editatu irratia...
+DeleteCustom=Ezabatu irratia
+OpenWebsite=Ireki webgunea
+CopyURL=Kopiatu URLa
+; Zutabeak
+ColName=Izena
+ColGenre=Generoa
+ColBitrate=Bit-emaria
+ColCountry=Herrialdea
+ColCodec=Kodeka
+; Elkarrizketa-koadroak
+AddTitle=Gehitu irrati pertsonalizatua
+EditTitle=Editatu irratia
+DeleteTitle=Ezabatu irratia
+DeleteConfirm=Ziur zaude irrati hau ezabatu nahi duzula?
+StationName=Irrati-izena:
+StreamURL=Jario URLa:
+GenrePrompt=Generoa:
+NameURLRequired=Izena eta URLa beharrezkoak dira.
+; Egoera-mezuak
+LoadingIcecast=Icecast direktoriotik irratiak kargatzen...
+IcecastError=Ezin izan da Icecast direktorioa kargatu. Irrati lehenetsiak erabiliz.
+NoStationsLoaded=Ez da irratirik kargatu
+StationCount=%d irrati
+LoadedStations=%d irrati kargatu dira
+ErrorPrefix=Errorea:
+; Gako zaharrak
+Name=Izena
+URL=URLa
+Bitrate=Bit-emaria
+Description=Deskribapena
+Country=Herrialdea
+
+[OpenURL]
+Title=Ireki URLa
+Prompt=Sartu multimedia URLa:
+
+[GotoTime]
+Title=Joan denborara
+EnterTime=Sartu saltatzeko denbora:
+Hours=O
+Minutes=M
+Seconds=S
+Current=Unekoa:
+Duration=Iraupena:
+
+[VideoAdjust]
+Title=Bideo doikuntzak
+Brightness=Distira:
+Contrast=Kontrastea:
+Saturation=Saturazioa:
+Hue=Tonua:
+Gamma=Gamma:
+ResetAll=Berrezarri kolore guztiak
+
+[CLI]
+; Komando-lerroko mezuak
+Usage=Erabilera
+Arguments=[AUKERAK] [FITXATEGIA|URL|KARPETA]
+Description=Plataforma anitzeko multimedia erreproduzigailua libmpv backend-arekin.
+Options=AUKERAK
+Examples=ADIBIDEAK
+MoreInfo=Informazio gehiagorako, bisitatu
+EnqueuedTo=Lehendik dagoen instantziara gehitua: %s
+SentTo=Lehendik dagoen instantziara bidalita: %s
+AlreadyRunning=3nity Media jadanik martxan dago.
+ErrorFileNotFound=Errorea: Fitxategia edo karpeta ez da aurkitu: %s
+ErrorSubNotFound=Errorea: Azpitituluaren fitxategia ez da aurkitu: %s

@@ -1,0 +1,892 @@
+[Language]
+Name=Lithuanian - Lietuvių
+Code=lt
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Failo meniu
+File=&Failas
+FileOpen=&Atidaryti faila...
+FileOpenURL=Atidaryti &URL...
+FileOpenClipboard=Atidaryti is &isgarpines
+FileRecent=&Paskutiniai failai
+ClearRecentFiles=Isvalyti paskutiniu failu sarasa
+FileExit=I&seiti
+
+; Atkurimo meniu
+Playback=&Atkurimas
+PlaybackPlayPause=&Groti/Pauzuoti
+PlaybackStop=&Sustabdyti
+PlaybackPrevious=&Ankstesnis
+PlaybackNext=&Kitas
+PlaybackSeekForward=Sukti &pirmyn
+PlaybackSeekBackward=Sukti &atgal
+PlaybackSpeed=&Greitis
+PlaybackABLoop=A-&B kilpa
+PlaybackSetA=Nustatyti &A
+PlaybackSetB=Nustatyti &B
+PlaybackClearAB=&Isvalyti A-B
+PlaybackChapters=&Skyriai
+PlaybackPrevChapter=Ankstesnis skyrius
+PlaybackNextChapter=Kitas skyrius
+PlaybackFrameStep=Kadras &pirmyn
+PlaybackFrameBack=Kadras &atgal
+
+; DVD navigacija
+PlaybackDVD=DVD &navigacija
+DVDMenu=&Meniu
+DVDUp=&Aukstyn
+DVDDown=&Zemyn
+DVDLeft=&Kaire
+DVDRight=&Desine
+DVDSelect=&Pasirinkti
+PlaybackDVDTitles=DVD &pavadinimai
+
+; 21 faze: Atidaryti aplanka
+FileOpenFolder=Atidaryti a&planka...
+
+; Failo meniu DVD/Bluray
+FileOpenDVD=Atidaryti &DVD...
+FileOpenBluray=Atidaryti &Blu-ray...
+
+; 13 faze: Eiti i laika ir istorija
+PlaybackGotoTime=&Eiti i laika...
+ToolsHistory=&Istorija
+
+; 14 faze: Sistemos deklute
+TrayShow=&Rodyti/Slepti
+TrayPlayPause=&Groti/Pauzuoti
+TrayStop=&Sustabdyti
+TrayPrevious=&Ankstesnis
+TrayNext=&Kitas
+TrayMute=&Nutildyti
+TrayExit=I&seiti
+
+; 15 faze: Zalklapes
+PlaybackAddBookmark=Prideti &zymele...
+PlaybackBookmarks=Zy&meles
+BookmarksTitle=Zymeles
+BookmarksGoto=&Eiti i zymele
+BookmarksRemove=&Pasalinti zymele
+BookmarksClear=I&svalyti visas zymeles
+BookmarksOpenFolder=Atidaryti &aplanka
+BookmarksCopyPath=&Kopijuoti kelia
+BookmarksCount=%d zymeliu
+NoBookmarks=(Nera zymeliu)
+NoFileLoaded=(Failas neikeltas)
+BookmarkAdded=Zymele prideta ties %s
+BookmarkJumped=Peseikta i zymele ties %s
+AddBookmarkTitle=Prideti zymele
+AddBookmarkPrompt=Iveskite zymeles pavadinima:
+ShowAllBookmarks=Rodyti visas zymeles...
+
+; 16 faze: Megstamiausi
+ToolsFavorites=&Megstamiausi
+ToolsAddFavorite=Prideti i megs&tamiausiuus
+FavoritesTitle=Megstamiausi
+FavoritesPlay=&Groti
+FavoritesRemove=&Pasalinti is megstamiausiuju
+FavoritesClear=I&svalyti visus megstamiausiuus
+FavoritesOpenFolder=Atidaryti &aplanka
+FavoritesCopyPath=&Kopijuoti kelia
+FavoritesCount=%d megstamiausiuju
+NoFavorites=(Nera megstamiausiuju)
+AddFavoriteTitle=Prideti i megstamiausiuus
+AddFavoritePrompt=Iveskite megstamiausio pavadinima:
+AlreadyFavorite=Jau yra megstamiausiuose
+AddedToFavorites=Prideta i megstamiausiuus: %s
+NoFileToFavorite=Nera ikelto failo, kuri butu galima prideti i megstamiausiuus
+FavoriteTypeFile=Failas
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radijas
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Garso takelu formatai
+TrackWithTitle=Takelis %d: %s
+TrackWithLang=Takelis %d (%s)
+TrackNumber=Takelis %d
+
+; Greicio meniu elementai
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Mastelio meniu elementai
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitru takelis
+SubtitleDisable=Isjungti
+
+; 17 faze: Miego laikmatis
+ToolsSleepTimer=&Miego laikmatis...
+ToolsSleepTimerActive=&Miego laikmatis [%s]
+ToolsCancelTimer=Atsaukti &laikmati
+
+; Garso meniu
+Audio=&Garsas
+AudioTrack=Garso &takelis
+AudioVolumeUp=Padidinti &garsuma
+AudioVolumeDown=Sumazinti &garsuma
+AudioMute=&Nutildyti
+AudioEqualizer=&Ekvalaizeris
+AudioDelay=Garso &delsa
+AudioDelayPlus=Delsa +0.1s
+AudioDelayMinus=Delsa -0.1s
+AudioDelayReset=Atstatyti delsa
+AudioNormalize=&Normalizuoti garsuma
+
+; Vaizdo meniu
+Video=&Vaizdas
+VideoFullscreen=&Visas ekranas
+VideoAspect=&Krastu santykis
+VideoAspectAuto=&Automatinis
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Ekrano nuotrauka
+VideoScreenshotAs=Ekrano nuotrauka &kaip...
+VideoRotation=&Pasukimas
+VideoRotate0=&0° (Normalus)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Apversti
+VideoFlipH=Apversti &horizontaliai
+VideoFlipV=Apversti &vertikaliai
+VideoDeinterlace=&Isprasti pynima
+VideoZoom=&Priartinimas
+VideoZoomIn=&Priartinti
+VideoZoomOut=&Atitolinti
+VideoZoomReset=&Atstatyti priartinima
+VideoPan=&Pastumti
+VideoPanLeft=Pastumti &kaire
+VideoPanRight=Pastumti &desine
+VideoPanUp=Pastumti &aukstyn
+VideoPanDown=Pastumti &zemyn
+VideoPanReset=A&tstatyti pastumima
+VideoTrack=Vaizdo &takelis
+VideoColors=Spalvu &nustatymai
+VideoBrightness=&Ryskumas
+VideoContrast=&Kontrastas
+VideoSaturation=&Sodrumas
+VideoHue=&Atspalvis
+VideoGamma=&Gama
+VideoColorsReset=Atstatyti &visas spalvas
+VideoIncrease=Padidinti (+5)
+VideoDecrease=Sumazinti (-5)
+VideoReset=Atstatyti
+VideoAdjustDialog=Vaizdo &nustatymai...
+
+; Rodymo meniu
+View=&Rodymas
+ViewAlwaysOnTop=&Visada virsuje
+ViewFitToVideo=&Pritaikyti langa prie vaizdo
+ViewScale=Lango &mastas
+
+; 26 faze: Vizualizacijos meniu
+ViewVisualization=&Vizualizacija
+VisNone=&Jokia
+VisSpectrum=&Spektro analizatorius
+VisWaveform=&Bangos forma
+VisVector=&Vektorine diagrama
+VisVolume=&VU matuoklis
+VisNextMode=Kitas &rezimas
+VisNextColor=Kita &spalvu schema
+
+; Subtitru meniu
+Subtitles=S&ubtitrai
+SubtitleTrack=Subtitru &takelis
+SubtitleLoad=&Ikelti subtitrus...
+SubtitleDelay=Subtitru &delsa
+SubtitleDelayPlus=Delsa +0.1s
+SubtitleDelayMinus=Delsa -0.1s
+SubtitleDelayReset=Atstatyti delsa
+
+; Irankiu meniu
+Tools=&Irankiai
+ToolsPlaylist=&Grojaratis
+ToolsRadios=&Radijas
+ToolsShortcuts=&Klaviaturos spartieji klavisai...
+ToolsOptions=&Nustatymai
+
+; 27 faze: Irasymo meniu
+ToolsRecord=&Irasyti srauta...
+ToolsStopRecord=Su&stabdyti irasyma
+ToolsRecording=&Irasoma...
+
+; Pagalbos meniu
+Help=&Pagalba
+HelpMediaInfo=&Medijos informacija
+HelpLog=&Zurnalas
+HelpAbout=&Apie
+
+[Dialog]
+OpenFile=Atidaryti faila
+OpenURL=Atidaryti URL
+SaveScreenshot=Issaugoti ekrano nuotrauka
+LoadSubtitle=Ikelti subtitru faila
+EnterURL=Iveskite URL:
+ResumePlayback=Testi atkurima
+ResumeFrom=Testi nuo %s?
+ClearRecentFiles=Isvalyti paskutinius failus
+NoRecentFiles=(Nera paskutiniu failu)
+NoAudioTracks=(Nera garso takeliu)
+NoVideoTracks=(Nera vaizdo takeliu)
+NoSubtitleTracks=(Nera subtitru takeliu)
+NoChapters=(Nera skyriu)
+OpenDVD=Atidaryti DVD
+OpenBluray=Atidaryti Blu-ray
+OpenFolder=Atidaryti aplanka
+
+; Failu filtrai
+ScreenshotFilter=PNG nuotrauka|*.png|JPEG nuotrauka|*.jpg|WebP nuotrauka|*.webp
+DVDFilter=DVD aplankas|*.;*.iso|Visi failai (*.*)|*.*
+BlurayFilter=Blu-ray aplankas|*.;*.iso|Visi failai (*.*)|*.*
+NoDVD=(DVD neikeltas)
+DVDTitle=Pavadinimas %d
+GotoTime=Eiti i laika
+EnterTime=Iveskite laika, i kuri norite pereiti:
+Hours=Valandos
+Minutes=Minutes
+Seconds=Sekundes
+Current=Dabartinis:
+HistoryTitle=Atkurimo istorija
+HistoryItems=%d irasu istorijoje
+HistoryPlay=&Groti
+HistoryRemove=&Pasalinti is istorijos
+HistoryClear=I&svalyti visa istorija
+HistoryOpenFolder=Atidaryti &aplanka
+HistoryCopyPath=&Kopijuoti kelia
+ClearHistory=Isvalyti istorija
+ClearHistoryConfirm=Ar tikrai norite isvalyti visa istorija?
+SleepTimerTitle=Miego laikmatis
+SleepTimerDescription=Nustatykite laikmati automatiniam atkurimo sustabdymui
+SleepTimerHours=Valandos
+SleepTimerMinutes=Minutes
+SleepTimerQuickSet=Greitas nustatymas
+SleepTimerAction=Kai laikmatis baigiasi
+SleepTimerStopPlayback=Sustabdyti atkurima
+SleepTimerCloseApp=Uzdaryti programa
+SleepTimerShutdown=Isjungti kompiuteri
+SleepTimerStart=Paleisti laikmati
+
+[Status]
+Ready=Paruosta
+Opening=Atidaroma...
+Playing=Grojama
+Paused=Pristabdyta
+Stopped=Sustabdyta
+Error=Klaida
+Buffering=Kaupiama...
+Seeking=Sukama...
+Recording=Irasoma
+
+[Message]
+SpeedFormat=Greitis: %.2fx
+VolumeFormat=Garsumas: %d%%
+BrightnessFormat=Ryskumas: %d
+ContrastFormat=Kontrastas: %d
+SaturationFormat=Sodrumas: %d
+HueFormat=Atspalvis: %d
+GammaFormat=Gama: %d
+ColorsReset=Vaizdo spalvos atstatytos
+LoopASet=Kilpos taskas A nustatytas ties %s
+LoopBSet=Kilpos taskas B nustatytas ties %s - Kilpa aktyvi
+LoopCleared=A-B kilpa isvlyta
+SetAFirst=Pirmiausia nustatykite taska A (paspauskite L)
+RotationFormat=Pasukimas: %d°
+FlipHOn=Horizontalus apvertimas: IJUNGTA
+FlipHOff=Horizontalus apvertimas: ISJUNGTA
+FlipVOn=Vertikalus apvertimas: IJUNGTA
+FlipVOff=Vertikalus apvertimas: ISJUNGTA
+DeinterlaceOn=Pynimo ispratimas: IJUNGTA
+DeinterlaceOff=Pynimo ispratimas: ISJUNGTA
+AlwaysOnTopOn=Visada virsuje: IJUNGTA
+AlwaysOnTopOff=Visada virsuje: ISJUNGTA
+WindowFitted=Langas pritaikytas prie %dx%d
+WindowScale=Lango mastas: %.0f%%
+ScreenshotSaved=Ekrano nuotrauka issaugota: %s
+AudioNormalizeOn=Garso normalizavimas: IJUNGTA
+AudioNormalizeOff=Garso normalizavimas: ISJUNGTA
+AudioDelayFormat=Garso delsa: %.1f s
+SubtitleDelayFormat=Subtitru delsa: %.1f s
+ZoomFormat=Priartinimas: %.0f%%
+PanCenter=Pastumimas: Centre
+PanFormat=Pastumimas: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Vaizdas neikeltas
+PlayingFromClipboard=Grojama is isgarpines: %s
+ClipboardInvalid=Isgarpineje nera tinkamo URL ar kelio
+ClipboardEmpty=Isgarpine tustia arba neturi teksto
+ResumedAt=Tesiama nuo %s
+FrameStepForward=Kadras pirmyn
+FrameStepBackward=Kadras atgal
+PreviousChapter=Ankstesnis skyrius
+NextChapter=Kitas skyrius
+PlayingRadio=Grojamas radijas: %s
+PlayingDVD=Grojamas DVD: %s
+PlayingBluray=Grojamas Blu-ray: %s
+DVDTitlePlaying=DVD pavadinimas %d
+SeekTo=Sukama i %s
+MinimizedToTray=Sumzazinta i deklute. Dukart spragtelekite, kad atstatytumete.
+SleepTimerSet=Miego laikmatis nustatytas: %s
+SleepTimerCancelled=Miego laikmatis atsauktas
+SleepTimerWarning=Miego laikmatis: liko 1 minute
+SleepTimerFinal=Miego laikmatis: liko 10 sekundziu
+SleepTimerStopped=Miego laikmatis: Atkurimas sustabdytas
+SleepTimerClosing=Miego laikmatis: Uzdaroma programa
+SleepTimerShutdown=Miego laikmatis: Isjungiamas kompiuteris
+SleepTimerExpired=Miego laikmatis baigesi
+ShutdownManual=Prasome isjungti kompiuteri rankiniu budu.
+
+; 21 faze: Atidaryti aplanka
+FolderOpened=Atidarytas aplankas: %d failu
+NoMediaFound=Medijos failu nerasta
+FilesAdded=Prideta %d failu i grojarasti
+
+; 27 faze: Irasymo pranesimai
+RecordNeedPlayback=Pradekite atkurima pries irasant.
+RecordingStarted=Irasymas pradetas
+RecordingStopped=Irasymas sustabdytas
+
+; Papildomi busenos pranesimai
+EndOfPlaylist=Grojarastio pabaiga
+NoMediaLoaded=Siuo metu nera ikelto medijos failo.
+JumpedToNamed=Pereita i: %s
+ChapterFormat=Skyrius %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Zymele ties %s
+
+[Label]
+Muted=Nutildyta
+
+[Button]
+Play=Groti
+Pause=Pauzuoti
+Stop=Sustabdyti
+Previous=Ankstesnis
+Next=Kitas
+Mute=Nutildyti
+Unmute=Ijungti garsa
+Fullscreen=Visas ekranas
+OK=Gerai
+Cancel=Atsaukti
+Apply=Taikyti
+Close=Uzdaryti
+Yes=Taip
+No=Ne
+
+[Tooltip]
+Play=Groti/Pauzuoti
+Stop=Sustabdyti atkurima
+Previous=Ankstesnis takelis
+Next=Kitas takelis
+Mute=Perjungti nutildyma
+Volume=Garsumas
+Seek=Sukimo pozicija
+Fullscreen=Perjungti visa ekrana
+
+[Playlist]
+Title=Grojaratis
+Add=Prideti
+Remove=Pasalinti
+Clear=Isvalyti
+MoveUp=Kelti aukstyn
+MoveDown=Leisti zemyn
+Shuffle=Maisyti
+Repeat=Kartoti
+Play=Groti
+ShuffleOn=Maisymas: Ijungta
+ShuffleOff=Maisymas: Isjungta
+RepeatOff=Kartojimas: Isjungta
+RepeatOne=Kartojimas: Viena
+RepeatAll=Kartojimas: Viska
+SavePlaylist=Issaugoti
+LoadPlaylist=Ikelti
+TotalDuration=Viso: %s
+ItemCount=%d elementu
+
+; 22 faze: Grojarastio pagerinimai
+Search=Paieska:
+FilterPlaceholder=Filtruoti grojarasti...
+ClearSearch=Isvalyti
+FilterCount=%d/%d
+RemoveDuplicates=Pasalinti &dublikatus
+Properties=S&avybes...
+NoDuplicates=Dublikatu nerasta.
+DuplicatesFound=Rasta %d dublikatu. Pasalinti juos?
+RemoveDuplicatesTitle=Pasalinti dublikatus
+PropertiesTitle=Grojarastio savybes
+PropTotalItems=Viso elementu: %d
+PropTotalDuration=Bendra trukme: %s
+PropPlayed=Grota: %d
+PropUnplayed=Negrota: %d
+PropTotalSize=Bendras dydis: %.2f MB
+PropShuffle=Maisymas: %s
+PropRepeat=Kartojimas: %s
+On=Ijungta
+Off=Isjungta
+
+; Nauji raksazodziai ApplyLocale
+ClearTitle=Isvalyti grojarasti
+ClearConfirm=Ar tikrai norite isvalyti grojarasti?
+NoPlaylist=Nera grojarastio
+StatusFormat=%d elementu | Viso: %s
+RepeatOne=Kart. 1
+RepeatAll=Kart. Viska
+HintRepeatEnable=Spragtelekite, kad ijungtumete kartojima
+HintRepeatOne=Kartoti viena - Spragtelekite, kad isjungtumete
+HintRepeatAll=Kartoti viska - Spragtelekite, kad kartotumete viena
+HintShuffleRepeat=Maisymas + Kartoti viska - Spragtelekite, kad isjungtumete kartojima
+RemoveDuplicatesTitle=Pasalinti dublikatus
+NoDuplicates=Dublikatu nerasta.
+SelectAll=Pazymeti viska
+SelectNone=Atzymeti viska
+SelectInvert=Apversti pasirinkima
+Sort=Rikiuoti
+SortByName=Pagal pavadinima
+SortByTitle=Pagal antraste
+SortByArtist=Pagal atlikeja
+SortByDuration=Pagal trukme
+SortReverse=Apversti
+SortRandom=Atsitiktine tvarka
+ColTitle=Pavadinimas
+ColDuration=Trukme
+ColArtist=Atlikejas
+ColAlbum=Albumas
+PlaylistFilter=M3U grojaratis|*.m3u|M3U8 grojaratis|*.m3u8|PLS grojaratis|*.pls
+
+[Equalizer]
+Title=Ekvalaizeris
+Presets=Sablonas:
+Preamp=Priesstiprintuvas:
+Flat=Plokscias
+Rock=Rokas
+Pop=Pop
+Jazz=Dzazas
+Classical=Klasika
+BassBoost=Boso sustiprinimas
+TrebleBoost=Aukstyju sustiprinimas
+Vocal=Vokalas
+Reset=Atstatyti
+Enable=Ijungti ekvalaiziteri
+Save=Issaugoti
+Delete=Istrinti
+Ready=Paruosta
+; Mygtukai ir veiksmai
+SavePreset=Issaugoti sablona
+DeletePreset=Istrinti sablona
+SavePresetTitle=Issaugoti sablona
+PresetNamePrompt=Sablono pavadinimas:
+EnterPresetName=Prasome ivesti sablono pavadinima.
+OverwritePresetTitle=Perrasyti sablona
+OverwritePresetConfirm=Sablonas tokiu pavadinimu jau egzistuoja. Perrasyti?
+PresetUpdated=Sablonas atnaujintas: %s
+PresetSaved=Sablonas issaugotas: %s
+SelectPresetToDelete=Prasome pasirinkti sablona istrinimui.
+CannotDeleteDefault=Negalima istrinti numatytu sablonu.
+DeletePresetTitle=Istrinti sablona
+DeletePresetConfirm=Ar tikrai norite istrinti si sablona?
+PresetDeleted=Sablonas istrintas
+ResetToFlat=Ekvalaizeris atstatytas i plokscia
+PresetApplied=Taikomas sablonas: %s
+
+[Options]
+Title=Nustatymai
+General=Bendra
+Video=Vaizdas
+Audio=Garsas
+Subtitles=Subtitrai
+Cache=Podeldis
+Language=Kalba:
+RestartRequired=Reikalingas paleidimas is naujo, kad pakeitimai isigaliotu
+
+; Bendra skirtuke - Elgsena
+Behavior=Elgsena
+SingleInstance=Leisti tik viena egzemplioriu
+AutoPlay=Automatiskai groti failus atidarant
+AutoResume=Testi atkurimo pozicija
+MinimizeToTray=Sumazinti i sistemos deklute
+AutoSavePlaylist=Issaugoti grojarasti uzdarant
+
+; Bendra skirtuke - OSD
+OSD=Ekrano pranesimai
+ShowOSD=Rodyti ekrano pranesimus
+ShowTrayIcon=Rodyti deklutes piktograma
+OSDDuration=OSD trukme (ms):
+
+; Bendra skirtuke - Ekrano nuotraukos
+Screenshots=Ekrano nuotraukos
+ScreenshotPath=Issaugojimo aplankas:
+ScreenshotFormat=Formatas:
+
+; Bendra skirtuke - Istorija
+HistorySettings=Istorija
+HistoryEnabled=Ijungti atkurimo istorija
+HistoryMaxItems=Maks. irasu:
+
+; Bendra skirtuke - Kalba
+LanguageGroup=Kalba
+RestartNote=(Reikalingas paleidimas is naujo)
+
+; Vaizdo skirtuke
+VideoAdjust=Vaizdo koregavimai
+Brightness=Ryskumas:
+Contrast=Kontrastas:
+Saturation=Sodrumas:
+Hue=Atspalvis:
+Gamma=Gama:
+VideoOutput=Vaizdo isvestis
+Output=Isvestis:
+HWAccel=Ijungti aparatini pagreitinima
+Deinterlacing=Pynimo ispratimas
+Mode=Rezimas:
+
+; Garso skirtuke
+AudioOutput=Garso isvestis
+OutputDriver=Isvesties tvarkykle:
+Device=Irenginys:
+AudioOptions=Garso parinktys
+NormalizeAudio=Normalizuoti garso garsuma
+Channels=Kanalai:
+
+; Subtitru skirtuke
+UseDefaultSubtitles=Naudoti numatytuosius subtitru nustatymus
+Font=Sriftas
+FontName=Sriftas:
+FontSize=Dydis:
+FontColor=Spalva:
+Bold=Pusjuodis
+Italic=Pasvirasis
+Outline=Konturas
+OutlineColor=Spalva:
+OutlineSize=Dydis:
+Position=Pozicija
+VerticalPosition=Vertikali pozicija:
+SubOptions=Parinktys
+Encoding=Koduote:
+AutoLoadSubs=Automatiskai ikelti subtitru failus
+
+; Vaizdo isvesties ispejimas
+VOWarningX11=Ispejimas: x11 nepalaiko vaizdo koregavimu (ryskumas, kontrastas ir kt.)
+VOWarningWayland=Ispejimas: Reikalinga Wayland sesija. Vaizdo koregavimai palaikomi.
+
+; Podeldzio skirtuke
+CacheSettings=Podeldzio buferio dydziai (KB)
+CacheDefault=Numatytasis podelidis:
+CacheLocal=Vietiniai failai:
+CacheNetwork=Tinklo failai:
+CacheInternet=Interneto srautai:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Apie
+Version=Versija
+Engine=Variklis
+Technology=Technologija
+BuildInfo=Kompiliavimo informacija
+SystemInfo=Sistema
+Credits=Kurimo darbai
+Developer=Kurejas:
+Author=Autorius
+License=Licencija
+Website=Svetaine
+GitHub=GitHub
+Description=Modernus, lengvas medijos grotuvas
+LicenseText=3nity Media yra licencijuotas pagal GPL-2.0\n\nTai reiskia, kad galite laisvai:\n  - Naudoti programine iranga bet kokiam tikslui\n  - Studijuoti ir keisti pirmini koda\n  - Platinti programines irangos kopijas\n  - Platinti savo modifikacijas\n\nSu salyga, kad visi platinami pakeitimai\ntaip pat bus licencijuoti pagal GPL-2.0.
+BuildDate=Data:
+Target=Tikslas:
+Kernel=Branduolys:
+
+[Shortcuts]
+Title=Klaviaturos spartieji klavisai
+Description=Konfigūruoti klaviaturos spartiuosius klavisus veiksmams
+Search=Paieska:
+PressKey=Paspauskite klavisa...
+ColCategory=Kategorija
+ColAction=Veiksmas
+ColShortcut=Spartusis klavisas
+Assign=Priskirti
+Clear=Isvalyti
+Reset=Atstatyti
+ResetAll=Atstatyti viska
+CurrentShortcut=Dabartinis: %s
+NoKeyPressed=Pirmiausia paspauskite klavisu kombinacija.
+Conflict=Konfliktas: Jau priskirta "%s"
+ConfirmReplace=Pakeisti spartuji klavisa
+ReplaceMessage=Sis spartusis klavisas jau priskirtas "%s". Ar norite ji pakeisti?
+ConfirmResetAll=Atstatyti visus spartiuosius klavisus
+ResetAllMessage=Ar tikrai norite atstatyti visus spartiuosius klavisus i numatytuosius?
+; Veiksmu pavadinimai
+ActPlayPause=Groti / Pauzuoti
+ActStop=Sustabdyti
+ActPrevious=Ankstesnis
+ActNext=Kitas
+ActSeekForward=Sukti pirmyn (10s)
+ActSeekBackward=Sukti atgal (10s)
+ActSeekForward5=Sukti pirmyn (1 min)
+ActSeekBackward5=Sukti atgal (1 min)
+ActSpeedUp=Pagreitinti
+ActSpeedDown=Suletinti
+ActSpeedReset=Atstatyti greiti
+ActSetLoopA=Nustatyti kilpos taska A
+ActSetLoopB=Nustatyti kilpos taska B
+ActClearLoop=Isvalyti A-B kilpa
+ActFrameForward=Kadras pirmyn
+ActFrameBackward=Kadras atgal
+ActPrevChapter=Ankstesnis skyrius
+ActNextChapter=Kitas skyrius
+ActGotoTime=Eiti i laika
+ActVolumeUp=Padidinti garsuma
+ActVolumeDown=Sumazinti garsuma
+ActMute=Nutildyti / Ijungti garsa
+ActAudioDelayPlus=Garso delsa +
+ActAudioDelayMinus=Garso delsa -
+ActAudioDelayReset=Atstatyti garso delsa
+ActFullscreen=Visas ekranas
+ActRotate=Pasukti vaizda
+ActDeinterlace=Isprasti pynima
+ActZoomIn=Priartinti
+ActZoomOut=Atitolinti
+ActZoomReset=Atstatyti priartinima
+ActAlwaysOnTop=Visada virsuje
+ActFitToVideo=Pritaikyti prie vaizdo
+ActScreenshot=Ekrano nuotrauka
+ActVideoAdjust=Vaizdo nustatymai
+ActVisNextMode=Kitas vizualizacijos rezimas
+ActVisNextColor=Kita spalvu schema
+ActSubDelayPlus=Subtitru delsa +
+ActSubDelayMinus=Subtitru delsa -
+ActSubDelayReset=Atstatyti subtitru delsa
+ActDVDMenu=DVD meniu
+ActDVDUp=DVD navigacija aukstyn
+ActDVDDown=DVD navigacija zemyn
+ActDVDLeft=DVD navigacija kaire
+ActDVDRight=DVD navigacija desine
+ActDVDSelect=DVD pasirinkti
+ActOpenFile=Atidaryti faila
+ActOpenURL=Atidaryti URL
+ActPlaylist=Rodyti grojarasti
+ActQuit=Iseiti
+
+[Log]
+; 25 faze: Zurnalo langas
+Title=MPV zurnalas
+Command=Komanda:
+Clear=Isvalyti
+Save=Issaugoti...
+Copy=&Kopijuoti
+SelectAll=Pazymeti &viska
+SaveTitle=Issaugoti zurnala
+SaveFilter=Teksto failai (*.txt)|*.txt|Visi failai (*.*)|*.*
+ErrorTitle=Klaida
+SaveError=Nepavyko issaugoti zurnalo: %s
+
+[MediaInfo]
+Title=Medijos informacija
+FileTab=Failas
+VideoTab=Vaizdas
+AudioTab=Garsas
+MetadataTab=Metaduomenys
+FileName=Failo pavadinimas:
+FilePath=Kelias:
+FileSize=Dydis:
+Duration=Trukme:
+Format=Formatas:
+Bitrate=Bitu greitis:
+Codec=Kodekas:
+Resolution=Raiška:
+FrameRate=Kadru daznis:
+PixelFormat=Pikseliu formatas:
+AspectRatio=Krastu santykis:
+Channels=Kanalai:
+SampleRate=Diskretizavimo daznis:
+Language=Kalba:
+Property=Savybe
+Value=Reiksme
+CopyAll=Kopijuoti viska
+CopiedToClipboard=Medijos informacija nukopijuota i isgarpine.
+NA=N/A
+NAStream=N/A (srautas)
+NALive=N/A (tiesiogiai)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Erdvinis)
+Channel71=8 (7.1 Erdvinis)
+Unknown=Nezinoma
+NoMetadata=(Nera metaduomenu)
+
+[Bookmarks]
+Title=Zymeles
+Goto=Eiti i
+Remove=Pasalinti
+Clear=Isvalyti viska
+Refresh=Atnaujinti
+OpenFolder=Atidaryti aplanka
+CopyPath=Kopijuoti kelia
+; Stulpeliai
+ColName=Pavadinimas
+ColFile=Failas
+ColPosition=Pozicija
+ColCreated=Sukurta
+; Dialogai
+ClearTitle=Isvalyti zymeles
+ClearConfirm=Ar tikrai norite isvalyti visas zymeles?
+Count=%d zymele(-iu)
+
+[Favorites]
+Title=Megstamiausi
+Play=Groti
+Remove=Pasalinti
+Clear=Isvalyti viska
+Refresh=Atnaujinti
+OpenFolder=Atidaryti aplanka
+CopyPath=Kopijuoti kelia
+; Stulpeliai
+ColName=Pavadinimas
+ColType=Tipas
+ColPath=Kelias
+; Tipai
+TypeFile=Failas
+TypeURL=URL
+TypeRadio=Radijas
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Nezinomas
+; Dialogai
+ClearTitle=Isvalyti megstamiausiuus
+ClearConfirm=Ar tikrai norite isvalyti visus megstamiausiuus?
+Count=%d megstamiausias(-iu)
+
+[History]
+Title=Atkurimo istorija
+Play=Groti
+Remove=Pasalinti
+Clear=Isvalyti viska
+Refresh=Atnaujinti
+OpenFolder=Atidaryti aplanka
+CopyPath=Kopijuoti kelia
+; Stulpeliai
+ColFileName=Failas
+ColPath=Kelias
+; Dialogai
+ClearTitle=Isvalyti istorija
+ClearConfirm=Ar tikrai norite isvalyti visa istorija?
+Count=%d irasas(-u)
+
+[SleepTimer]
+Title=Miego laikmatis
+Description=Nustatykite laikmati automatiniam atkurimo sustabdymui
+Hours=Valandos:
+Minutes=Minutes:
+Action=Kai laikmatis baigiasi:
+StopPlayback=Sustabdyti atkurima
+CloseApp=Uzdaryti programa
+Shutdown=Isjungti kompiuteri
+QuickSet=Greitas nustatymas:
+15Min=15 min
+30Min=30 min
+1Hour=1 valanda
+2Hours=2 valandos
+
+[Radios]
+Title=Interneto radijas
+Play=Groti
+Add=Prideti
+Edit=Redaguoti
+Delete=Istrinti
+Remove=Pasalinti
+Import=Importuoti
+Export=Eksportuoti
+Refresh=Atnaujinti
+Favorite=Megstamiausias
+ShowFavorites=Megstamiausi
+ShowAll=Visi
+; Filtras
+Genre=Zanras:
+Search=Paieska:
+SearchBtn=Ieskoti
+ClearSearch=Isvalyti
+AllGenres=(Visi zanrai)
+; Kontekstinis meniu
+AddFavorite=Prideti i megstamiausiuus
+RemoveFavorite=Pasalinti is megstamiausiuju
+AddCustom=Prideti pasirinkta stoti...
+EditCustom=Redaguoti stoti...
+DeleteCustom=Istrinti stoti
+OpenWebsite=Atidaryti svetaine
+CopyURL=Kopijuoti URL
+; Stulpeliai
+ColName=Pavadinimas
+ColGenre=Zanras
+ColBitrate=Bitu greitis
+ColCountry=Salis
+ColCodec=Kodekas
+; Dialogai
+AddTitle=Prideti pasirinkta stoti
+EditTitle=Redaguoti stoti
+DeleteTitle=Istrinti stoti
+DeleteConfirm=Ar tikrai norite istrinti sia stoti?
+StationName=Stoties pavadinimas:
+StreamURL=Srauto URL:
+GenrePrompt=Zanras:
+NameURLRequired=Pavadinimas ir URL yra butini.
+; Busenos pranesimai
+LoadingIcecast=Ikeliamos stotys is Icecast katalogo...
+IcecastError=Nepavyko ikelti Icecast katalogo. Naudojamos numatytosios stotys.
+NoStationsLoaded=Stotys neikeltos
+StationCount=%d stociu
+LoadedStations=Ikelta %d stociu
+ErrorPrefix=Klaida:
+; Seni raksazodziai
+Name=Pavadinimas
+URL=URL
+Bitrate=Bitu greitis
+Description=Aprasymas
+Country=Salis
+
+[OpenURL]
+Title=Atidaryti URL
+Prompt=Iveskite medijos URL:
+
+[GotoTime]
+Title=Eiti i laika
+EnterTime=Iveskite laika, i kuri norite pereiti:
+Hours=V
+Minutes=M
+Seconds=S
+Current=Dabartinis:
+Duration=Trukme:
+
+[VideoAdjust]
+Title=Vaizdo nustatymai
+Brightness=Ryskumas:
+Contrast=Kontrastas:
+Saturation=Sodrumas:
+Hue=Atspalvis:
+Gamma=Gama:
+ResetAll=Atstatyti visas spalvas
+
+[CLI]
+; Komandinės eilutės pranešimai
+Usage=Naudojimas
+Arguments=[PARINKTYS] [FAILAS|URL|APLANKAS]
+Description=Daugiaplforminis multimedijos grotuvas, naudojantis libmpv variklį.
+Options=PARINKTYS
+Examples=PAVYZDŽIAI
+MoreInfo=Daugiau informacijos rasite
+EnqueuedTo=Pridėta į esamą eilę: %s
+SentTo=Išsiųsta į esamą egzempliorių: %s
+AlreadyRunning=3nity Media jau veikia.
+ErrorFileNotFound=Klaida: Failas arba katalogas nerastas: %s
+ErrorSubNotFound=Klaida: Subtitrų failas nerastas: %s

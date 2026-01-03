@@ -1,0 +1,892 @@
+[Language]
+Name=Arabic - العربية
+Code=ar
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; قائمة ملف
+File=&ملف
+FileOpen=&فتح ملف...
+FileOpenURL=فتح &رابط...
+FileOpenClipboard=فتح من الح&افظة
+FileRecent=الملفات ال&حديثة
+ClearRecentFiles=مسح الملفات الحديثة
+FileExit=&خروج
+
+; قائمة التشغيل
+Playback=ت&شغيل
+PlaybackPlayPause=&تشغيل/إيقاف مؤقت
+PlaybackStop=إ&يقاف
+PlaybackPrevious=ال&سابق
+PlaybackNext=ال&تالي
+PlaybackSeekForward=تقديم &للأمام
+PlaybackSeekBackward=ترجيع لل&خلف
+PlaybackSpeed=ال&سرعة
+PlaybackABLoop=تكرار أ-&ب
+PlaybackSetA=تعيين &أ
+PlaybackSetB=تعيين &ب
+PlaybackClearAB=&مسح أ-ب
+PlaybackChapters=ال&فصول
+PlaybackPrevChapter=الفصل السابق
+PlaybackNextChapter=الفصل التالي
+PlaybackFrameStep=إطار &للأمام
+PlaybackFrameBack=إطار لل&خلف
+
+; تصفح DVD
+PlaybackDVD=تصفح &DVD
+DVDMenu=ال&قائمة
+DVDUp=&أعلى
+DVDDown=أ&سفل
+DVDLeft=&يسار
+DVDRight=ي&مين
+DVDSelect=ا&ختيار
+PlaybackDVDTitles=عناوين &DVD
+
+; المرحلة 21: فتح مجلد
+FileOpenFolder=فتح م&جلد...
+
+; قائمة ملف DVD/Bluray
+FileOpenDVD=فتح &DVD...
+FileOpenBluray=فتح &Blu-ray...
+
+; المرحلة 13: الانتقال للوقت والسجل
+PlaybackGotoTime=الا&نتقال للوقت...
+ToolsHistory=ال&سجل
+
+; المرحلة 14: أيقونة النظام
+TrayShow=إ&ظهار/إخفاء
+TrayPlayPause=&تشغيل/إيقاف مؤقت
+TrayStop=إ&يقاف
+TrayPrevious=ال&سابق
+TrayNext=ال&تالي
+TrayMute=&كتم
+TrayExit=&خروج
+
+; المرحلة 15: العلامات المرجعية
+PlaybackAddBookmark=إضافة &علامة مرجعية...
+PlaybackBookmarks=ال&علامات المرجعية
+BookmarksTitle=العلامات المرجعية
+BookmarksGoto=الا&نتقال للعلامة
+BookmarksRemove=&حذف العلامة
+BookmarksClear=&مسح كل العلامات
+BookmarksOpenFolder=فتح ال&مجلد
+BookmarksCopyPath=&نسخ المسار
+BookmarksCount=%d علامة مرجعية
+NoBookmarks=(لا توجد علامات مرجعية)
+NoFileLoaded=(لم يتم تحميل ملف)
+BookmarkAdded=تمت إضافة علامة مرجعية عند %s
+BookmarkJumped=تم الانتقال للعلامة المرجعية عند %s
+AddBookmarkTitle=إضافة علامة مرجعية
+AddBookmarkPrompt=أدخل اسم العلامة المرجعية:
+ShowAllBookmarks=عرض كل العلامات المرجعية...
+
+; المرحلة 16: المفضلة
+ToolsFavorites=ال&مفضلة
+ToolsAddFavorite=إضافة للم&فضلة
+FavoritesTitle=المفضلة
+FavoritesPlay=&تشغيل
+FavoritesRemove=&حذف من المفضلة
+FavoritesClear=&مسح كل المفضلة
+FavoritesOpenFolder=فتح ال&مجلد
+FavoritesCopyPath=&نسخ المسار
+FavoritesCount=%d مفضلة
+NoFavorites=(لا توجد مفضلات)
+AddFavoriteTitle=إضافة للمفضلة
+AddFavoritePrompt=أدخل اسم المفضلة:
+AlreadyFavorite=موجود بالفعل في المفضلة
+AddedToFavorites=تمت الإضافة للمفضلة: %s
+NoFileToFavorite=لم يتم تحميل ملف لإضافته للمفضلة
+FavoriteTypeFile=ملف
+FavoriteTypeURL=رابط
+FavoriteTypeRadio=راديو
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; تنسيق المسارات
+TrackWithTitle=المسار %d: %s
+TrackWithLang=المسار %d (%s)
+TrackNumber=المسار %d
+
+; عناصر قائمة السرعة
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; عناصر قائمة المقياس
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; مسار الترجمة
+SubtitleDisable=تعطيل
+
+; المرحلة 17: مؤقت النوم
+ToolsSleepTimer=&مؤقت النوم...
+ToolsSleepTimerActive=&مؤقت النوم [%s]
+ToolsCancelTimer=إلغاء الم&ؤقت
+
+; قائمة الصوت
+Audio=ال&صوت
+AudioTrack=&مسار الصوت
+AudioVolumeUp=رفع م&ستوى الصوت
+AudioVolumeDown=خفض مستو&ى الصوت
+AudioMute=&كتم
+AudioEqualizer=الم&عادل
+AudioDelay=&تأخير الصوت
+AudioDelayPlus=تأخير +0.1 ثانية
+AudioDelayMinus=تأخير -0.1 ثانية
+AudioDelayReset=إعادة تعيين التأخير
+AudioNormalize=ت&طبيع مستوى الصوت
+
+; قائمة الفيديو
+Video=ال&فيديو
+VideoFullscreen=&ملء الشاشة
+VideoAspect=نسبة ال&عرض للارتفاع
+VideoAspectAuto=&تلقائي
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&لقطة شاشة
+VideoScreenshotAs=لقطة شاشة &باسم...
+VideoRotation=ال&تدوير
+VideoRotate0=&0° (عادي)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=ال&قلب
+VideoFlipH=قلب &أفقي
+VideoFlipV=قلب &عمودي
+VideoDeinterlace=إزالة ال&تشابك
+VideoZoom=ال&تكبير
+VideoZoomIn=تكبير &للداخل
+VideoZoomOut=تصغير لل&خارج
+VideoZoomReset=إ&عادة تعيين التكبير
+VideoPan=الت&حريك
+VideoPanLeft=تحريك ل&ليسار
+VideoPanRight=تحريك للي&مين
+VideoPanUp=تحريك لل&أعلى
+VideoPanDown=تحريك للأ&سفل
+VideoPanReset=إعا&دة تعيين التحريك
+VideoTrack=&مسار الفيديو
+VideoColors=&تعديلات الألوان
+VideoBrightness=ال&سطوع
+VideoContrast=الت&باين
+VideoSaturation=الت&شبع
+VideoHue=در&جة اللون
+VideoGamma=&غاما
+VideoColorsReset=إعادة تعيين &كل الألوان
+VideoIncrease=زيادة (+5)
+VideoDecrease=نقصان (-5)
+VideoReset=إعادة تعيين
+VideoAdjustDialog=&تعديلات الفيديو...
+
+; قائمة العرض
+View=ال&عرض
+ViewAlwaysOnTop=دائماً في ال&مقدمة
+ViewFitToVideo=&ملاءمة النافذة للفيديو
+ViewScale=&مقياس النافذة
+
+; المرحلة 26: قائمة التصور
+ViewVisualization=الت&صور
+VisNone=&بدون
+VisSpectrum=محلل ال&طيف
+VisWaveform=شكل ال&موجة
+VisVector=نطاق ال&متجه
+VisVolume=مقياس ال&شدة
+VisNextMode=الوضع ال&تالي
+VisNextColor=نظام الألوان ال&تالي
+
+; قائمة الترجمة
+Subtitles=ال&ترجمة
+SubtitleTrack=&مسار الترجمة
+SubtitleLoad=&تحميل ملف ترجمة...
+SubtitleDelay=&تأخير الترجمة
+SubtitleDelayPlus=تأخير +0.1 ثانية
+SubtitleDelayMinus=تأخير -0.1 ثانية
+SubtitleDelayReset=إعادة تعيين التأخير
+
+; قائمة الأدوات
+Tools=الأ&دوات
+ToolsPlaylist=قائمة ال&تشغيل
+ToolsRadios=ال&راديو
+ToolsShortcuts=اختصارات لوحة الم&فاتيح...
+ToolsOptions=ال&خيارات
+
+; المرحلة 27: قائمة التسجيل
+ToolsRecord=&تسجيل البث...
+ToolsStopRecord=إ&يقاف التسجيل
+ToolsRecording=ال&تسجيل...
+
+; قائمة المساعدة
+Help=م&ساعدة
+HelpMediaInfo=معلومات ال&وسائط
+HelpLog=نافذة ال&سجل
+HelpAbout=&حول
+
+[Dialog]
+OpenFile=فتح ملف
+OpenURL=فتح رابط
+SaveScreenshot=حفظ لقطة الشاشة
+LoadSubtitle=تحميل ملف ترجمة
+EnterURL=أدخل الرابط:
+ResumePlayback=استئناف التشغيل
+ResumeFrom=استئناف من %s؟
+ClearRecentFiles=مسح الملفات الحديثة
+NoRecentFiles=(لا توجد ملفات حديثة)
+NoAudioTracks=(لا توجد مسارات صوتية)
+NoVideoTracks=(لا توجد مسارات فيديو)
+NoSubtitleTracks=(لا توجد مسارات ترجمة)
+NoChapters=(لا توجد فصول)
+OpenDVD=فتح DVD
+OpenBluray=فتح Blu-ray
+OpenFolder=فتح مجلد
+
+; مرشحات الملفات
+ScreenshotFilter=صورة PNG|*.png|صورة JPEG|*.jpg|صورة WebP|*.webp
+DVDFilter=مجلد DVD|*.;*.iso|كل الملفات (*.*)|*.*
+BlurayFilter=مجلد Blu-ray|*.;*.iso|كل الملفات (*.*)|*.*
+NoDVD=(لم يتم تحميل DVD)
+DVDTitle=العنوان %d
+GotoTime=الانتقال للوقت
+EnterTime=أدخل الوقت للانتقال إليه:
+Hours=ساعات
+Minutes=دقائق
+Seconds=ثواني
+Current=الحالي:
+HistoryTitle=سجل التشغيل
+HistoryItems=%d عنصر في السجل
+HistoryPlay=&تشغيل
+HistoryRemove=&حذف من السجل
+HistoryClear=&مسح كل السجل
+HistoryOpenFolder=فتح ال&مجلد
+HistoryCopyPath=&نسخ المسار
+ClearHistory=مسح السجل
+ClearHistoryConfirm=هل أنت متأكد من مسح كل السجل؟
+SleepTimerTitle=مؤقت النوم
+SleepTimerDescription=ضبط مؤقت لإيقاف التشغيل تلقائياً
+SleepTimerHours=ساعات
+SleepTimerMinutes=دقائق
+SleepTimerQuickSet=ضبط سريع
+SleepTimerAction=عند انتهاء المؤقت
+SleepTimerStopPlayback=إيقاف التشغيل
+SleepTimerCloseApp=إغلاق التطبيق
+SleepTimerShutdown=إيقاف تشغيل الحاسوب
+SleepTimerStart=بدء المؤقت
+
+[Status]
+Ready=جاهز
+Opening=جاري الفتح...
+Playing=قيد التشغيل
+Paused=متوقف مؤقتاً
+Stopped=متوقف
+Error=خطأ
+Buffering=جاري التخزين المؤقت...
+Seeking=جاري التنقل...
+Recording=جاري التسجيل
+
+[Message]
+SpeedFormat=السرعة: %.2fx
+VolumeFormat=مستوى الصوت: %d%%
+BrightnessFormat=السطوع: %d
+ContrastFormat=التباين: %d
+SaturationFormat=التشبع: %d
+HueFormat=درجة اللون: %d
+GammaFormat=غاما: %d
+ColorsReset=تم إعادة تعيين ألوان الفيديو
+LoopASet=تم تعيين النقطة أ عند %s
+LoopBSet=تم تعيين النقطة ب عند %s - التكرار نشط
+LoopCleared=تم مسح تكرار أ-ب
+SetAFirst=عيّن النقطة أ أولاً (اضغط L)
+RotationFormat=التدوير: %d°
+FlipHOn=القلب الأفقي: تشغيل
+FlipHOff=القلب الأفقي: إيقاف
+FlipVOn=القلب العمودي: تشغيل
+FlipVOff=القلب العمودي: إيقاف
+DeinterlaceOn=إزالة التشابك: تشغيل
+DeinterlaceOff=إزالة التشابك: إيقاف
+AlwaysOnTopOn=دائماً في المقدمة: تشغيل
+AlwaysOnTopOff=دائماً في المقدمة: إيقاف
+WindowFitted=تم ملاءمة النافذة إلى %dx%d
+WindowScale=مقياس النافذة: %.0f%%
+ScreenshotSaved=تم حفظ لقطة الشاشة: %s
+AudioNormalizeOn=تطبيع الصوت: تشغيل
+AudioNormalizeOff=تطبيع الصوت: إيقاف
+AudioDelayFormat=تأخير الصوت: %.1f ثانية
+SubtitleDelayFormat=تأخير الترجمة: %.1f ثانية
+ZoomFormat=التكبير: %.0f%%
+PanCenter=التحريك: الوسط
+PanFormat=التحريك: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=لم يتم تحميل فيديو
+PlayingFromClipboard=جاري التشغيل من الحافظة: %s
+ClipboardInvalid=الحافظة لا تحتوي على رابط أو مسار صالح
+ClipboardEmpty=الحافظة فارغة أو لا تحتوي على نص
+ResumedAt=تم الاستئناف عند %s
+FrameStepForward=إطار للأمام
+FrameStepBackward=إطار للخلف
+PreviousChapter=الفصل السابق
+NextChapter=الفصل التالي
+PlayingRadio=جاري تشغيل الراديو: %s
+PlayingDVD=جاري تشغيل DVD: %s
+PlayingBluray=جاري تشغيل Blu-ray: %s
+DVDTitlePlaying=عنوان DVD %d
+SeekTo=الانتقال إلى %s
+MinimizedToTray=تم التصغير لأيقونة النظام. انقر مرتين للاستعادة.
+SleepTimerSet=تم ضبط مؤقت النوم: %s
+SleepTimerCancelled=تم إلغاء مؤقت النوم
+SleepTimerWarning=مؤقت النوم: دقيقة واحدة متبقية
+SleepTimerFinal=مؤقت النوم: 10 ثوانٍ متبقية
+SleepTimerStopped=مؤقت النوم: تم إيقاف التشغيل
+SleepTimerClosing=مؤقت النوم: جاري إغلاق التطبيق
+SleepTimerShutdown=مؤقت النوم: جاري إيقاف تشغيل الحاسوب
+SleepTimerExpired=انتهى مؤقت النوم
+ShutdownManual=الرجاء إيقاف تشغيل الحاسوب يدوياً.
+
+; المرحلة 21: فتح مجلد
+FolderOpened=تم فتح المجلد: %d ملف
+NoMediaFound=لم يتم العثور على ملفات وسائط
+FilesAdded=تمت إضافة %d ملف لقائمة التشغيل
+
+; المرحلة 27: رسائل التسجيل
+RecordNeedPlayback=ابدأ التشغيل قبل التسجيل.
+RecordingStarted=بدأ التسجيل
+RecordingStopped=توقف التسجيل
+
+; رسائل حالة إضافية
+EndOfPlaylist=نهاية قائمة التشغيل
+NoMediaLoaded=لم يتم تحميل ملف وسائط حالياً.
+JumpedToNamed=تم الانتقال إلى: %s
+ChapterFormat=الفصل %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=علامة مرجعية عند %s
+
+[Label]
+Muted=مكتوم
+
+[Button]
+Play=تشغيل
+Pause=إيقاف مؤقت
+Stop=إيقاف
+Previous=السابق
+Next=التالي
+Mute=كتم
+Unmute=إلغاء الكتم
+Fullscreen=ملء الشاشة
+OK=موافق
+Cancel=إلغاء
+Apply=تطبيق
+Close=إغلاق
+Yes=نعم
+No=لا
+
+[Tooltip]
+Play=تشغيل/إيقاف مؤقت
+Stop=إيقاف التشغيل
+Previous=المسار السابق
+Next=المسار التالي
+Mute=تبديل الكتم
+Volume=مستوى الصوت
+Seek=موضع التنقل
+Fullscreen=تبديل ملء الشاشة
+
+[Playlist]
+Title=قائمة التشغيل
+Add=إضافة
+Remove=حذف
+Clear=مسح
+MoveUp=نقل لأعلى
+MoveDown=نقل لأسفل
+Shuffle=خلط
+Repeat=تكرار
+Play=تشغيل
+ShuffleOn=الخلط: تشغيل
+ShuffleOff=الخلط: إيقاف
+RepeatOff=التكرار: إيقاف
+RepeatOne=التكرار: واحد
+RepeatAll=التكرار: الكل
+SavePlaylist=حفظ
+LoadPlaylist=تحميل
+TotalDuration=المجموع: %s
+ItemCount=%d عنصر
+
+; المرحلة 22: تحسينات قائمة التشغيل
+Search=بحث:
+FilterPlaceholder=تصفية قائمة التشغيل...
+ClearSearch=مسح
+FilterCount=%d/%d
+RemoveDuplicates=حذف ال&مكررات
+Properties=&خصائص...
+NoDuplicates=لم يتم العثور على مكررات.
+DuplicatesFound=تم العثور على %d مكرر. هل تريد حذفها؟
+RemoveDuplicatesTitle=حذف المكررات
+PropertiesTitle=خصائص قائمة التشغيل
+PropTotalItems=إجمالي العناصر: %d
+PropTotalDuration=إجمالي المدة: %s
+PropPlayed=تم تشغيله: %d
+PropUnplayed=لم يتم تشغيله: %d
+PropTotalSize=الحجم الإجمالي: %.2f ميجابايت
+PropShuffle=الخلط: %s
+PropRepeat=التكرار: %s
+On=تشغيل
+Off=إيقاف
+
+; مفاتيح جديدة لـ ApplyLocale
+ClearTitle=مسح قائمة التشغيل
+ClearConfirm=هل أنت متأكد من مسح قائمة التشغيل؟
+NoPlaylist=لا توجد قائمة تشغيل
+StatusFormat=%d عنصر | المجموع: %s
+RepeatOne=تكرار 1
+RepeatAll=تكرار الكل
+HintRepeatEnable=انقر لتفعيل تكرار الكل
+HintRepeatOne=تكرار واحد - انقر للتعطيل
+HintRepeatAll=تكرار الكل - انقر لتكرار واحد
+HintShuffleRepeat=خلط + تكرار الكل - انقر لتعطيل التكرار
+RemoveDuplicatesTitle=حذف المكررات
+NoDuplicates=لم يتم العثور على مكررات.
+SelectAll=تحديد الكل
+SelectNone=إلغاء التحديد
+SelectInvert=عكس التحديد
+Sort=ترتيب
+SortByName=حسب الاسم
+SortByTitle=حسب العنوان
+SortByArtist=حسب الفنان
+SortByDuration=حسب المدة
+SortReverse=عكس
+SortRandom=عشوائي
+ColTitle=العنوان
+ColDuration=المدة
+ColArtist=الفنان
+ColAlbum=الألبوم
+PlaylistFilter=قائمة تشغيل M3U|*.m3u|قائمة تشغيل M3U8|*.m3u8|قائمة تشغيل PLS|*.pls
+
+[Equalizer]
+Title=المعادل
+Presets=الإعدادات المسبقة:
+Preamp=التضخيم المسبق:
+Flat=مستوي
+Rock=روك
+Pop=بوب
+Jazz=جاز
+Classical=كلاسيكي
+BassBoost=تعزيز الجهير
+TrebleBoost=تعزيز الحاد
+Vocal=صوتي
+Reset=إعادة تعيين
+Enable=تفعيل المعادل
+Save=حفظ
+Delete=حذف
+Ready=جاهز
+; الأزرار والإجراءات
+SavePreset=حفظ الإعداد المسبق
+DeletePreset=حذف الإعداد المسبق
+SavePresetTitle=حفظ الإعداد المسبق
+PresetNamePrompt=اسم الإعداد المسبق:
+EnterPresetName=الرجاء إدخال اسم الإعداد المسبق.
+OverwritePresetTitle=استبدال الإعداد المسبق
+OverwritePresetConfirm=يوجد إعداد مسبق بهذا الاسم. هل تريد استبداله؟
+PresetUpdated=تم تحديث الإعداد المسبق: %s
+PresetSaved=تم حفظ الإعداد المسبق: %s
+SelectPresetToDelete=الرجاء اختيار إعداد مسبق لحذفه.
+CannotDeleteDefault=لا يمكن حذف الإعدادات المسبقة الافتراضية.
+DeletePresetTitle=حذف الإعداد المسبق
+DeletePresetConfirm=هل أنت متأكد من حذف هذا الإعداد المسبق؟
+PresetDeleted=تم حذف الإعداد المسبق
+ResetToFlat=تم إعادة تعيين المعادل إلى مستوي
+PresetApplied=تم تطبيق الإعداد المسبق: %s
+
+[Options]
+Title=الخيارات
+General=عام
+Video=الفيديو
+Audio=الصوت
+Subtitles=الترجمة
+Cache=التخزين المؤقت
+Language=اللغة:
+RestartRequired=يلزم إعادة التشغيل لتطبيق التغييرات
+
+; علامة التبويب العامة - السلوك
+Behavior=السلوك
+SingleInstance=السماح بنسخة واحدة فقط
+AutoPlay=تشغيل الملفات تلقائياً عند الفتح
+AutoResume=استئناف موضع التشغيل
+MinimizeToTray=التصغير لأيقونة النظام
+AutoSavePlaylist=حفظ قائمة التشغيل عند الخروج
+
+; علامة التبويب العامة - العرض على الشاشة
+OSD=العرض على الشاشة
+ShowOSD=إظهار رسائل على الشاشة
+ShowTrayIcon=إظهار أيقونة النظام
+OSDDuration=مدة العرض (مللي ثانية):
+
+; علامة التبويب العامة - لقطات الشاشة
+Screenshots=لقطات الشاشة
+ScreenshotPath=مجلد الحفظ:
+ScreenshotFormat=التنسيق:
+
+; علامة التبويب العامة - السجل
+HistorySettings=السجل
+HistoryEnabled=تفعيل سجل التشغيل
+HistoryMaxItems=أقصى عدد عناصر:
+
+; علامة التبويب العامة - اللغة
+LanguageGroup=اللغة
+RestartNote=(يلزم إعادة التشغيل لتطبيق التغييرات)
+
+; علامة تبويب الفيديو
+VideoAdjust=تعديلات الفيديو
+Brightness=السطوع:
+Contrast=التباين:
+Saturation=التشبع:
+Hue=درجة اللون:
+Gamma=غاما:
+VideoOutput=إخراج الفيديو
+Output=الإخراج:
+HWAccel=تفعيل تسريع الأجهزة
+Deinterlacing=إزالة التشابك
+Mode=الوضع:
+
+; علامة تبويب الصوت
+AudioOutput=إخراج الصوت
+OutputDriver=برنامج الإخراج:
+Device=الجهاز:
+AudioOptions=خيارات الصوت
+NormalizeAudio=تطبيع مستوى الصوت
+Channels=القنوات:
+
+; علامة تبويب الترجمة
+UseDefaultSubtitles=استخدام إعدادات الترجمة الافتراضية
+Font=الخط
+FontName=الخط:
+FontSize=الحجم:
+FontColor=اللون:
+Bold=عريض
+Italic=مائل
+Outline=الحدود
+OutlineColor=اللون:
+OutlineSize=الحجم:
+Position=الموضع
+VerticalPosition=الموضع العمودي:
+SubOptions=الخيارات
+Encoding=الترميز:
+AutoLoadSubs=تحميل ملفات الترجمة تلقائياً
+
+; تحذيرات إخراج الفيديو
+VOWarningX11=تحذير: x11 لا يدعم تعديلات الفيديو (السطوع، التباين، إلخ.)
+VOWarningWayland=تحذير: يتطلب جلسة Wayland. تعديلات الفيديو مدعومة.
+
+; علامة تبويب التخزين المؤقت
+CacheSettings=أحجام مخزن التخزين المؤقت (كيلوبايت)
+CacheDefault=التخزين المؤقت الافتراضي:
+CacheLocal=الملفات المحلية:
+CacheNetwork=ملفات الشبكة:
+CacheInternet=بث الإنترنت:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=حول
+Version=الإصدار
+Engine=المحرك
+Technology=التقنية
+BuildInfo=معلومات البناء
+SystemInfo=النظام
+Credits=الاعتمادات
+Developer=المطور:
+Author=المؤلف
+License=الترخيص
+Website=الموقع
+GitHub=GitHub
+Description=مشغل وسائط حديث وخفيف الوزن
+LicenseText=3nity Media مرخص بموجب GPL-2.0\n\nهذا يعني أنك حر في:\n  • استخدام البرنامج لأي غرض\n  • دراسة وتعديل الشفرة المصدرية\n  • توزيع نسخ من البرنامج\n  • توزيع تعديلاتك\n\nبشرط أن تكون أي تعديلات موزعة\nمرخصة أيضاً بموجب GPL-2.0.
+BuildDate=التاريخ:
+Target=الهدف:
+Kernel=النواة:
+
+[Shortcuts]
+Title=اختصارات لوحة المفاتيح
+Description=تكوين اختصارات لوحة المفاتيح للإجراءات
+Search=بحث:
+PressKey=اضغط مفتاحاً...
+ColCategory=الفئة
+ColAction=الإجراء
+ColShortcut=الاختصار
+Assign=تعيين
+Clear=مسح
+Reset=إعادة تعيين
+ResetAll=إعادة تعيين الكل
+CurrentShortcut=الحالي: %s
+NoKeyPressed=الرجاء الضغط على مجموعة مفاتيح أولاً.
+Conflict=تعارض: معين بالفعل لـ "%s"
+ConfirmReplace=استبدال الاختصار
+ReplaceMessage=هذا الاختصار معين بالفعل لـ "%s". هل تريد استبداله؟
+ConfirmResetAll=إعادة تعيين كل الاختصارات
+ResetAllMessage=هل أنت متأكد من إعادة تعيين كل الاختصارات للافتراضية؟
+; أسماء الإجراءات
+ActPlayPause=تشغيل / إيقاف مؤقت
+ActStop=إيقاف
+ActPrevious=السابق
+ActNext=التالي
+ActSeekForward=تقديم (10 ثوانٍ)
+ActSeekBackward=ترجيع (10 ثوانٍ)
+ActSeekForward5=تقديم (1 دقيقة)
+ActSeekBackward5=ترجيع (1 دقيقة)
+ActSpeedUp=زيادة السرعة
+ActSpeedDown=تقليل السرعة
+ActSpeedReset=إعادة تعيين السرعة
+ActSetLoopA=تعيين نقطة التكرار أ
+ActSetLoopB=تعيين نقطة التكرار ب
+ActClearLoop=مسح تكرار أ-ب
+ActFrameForward=إطار للأمام
+ActFrameBackward=إطار للخلف
+ActPrevChapter=الفصل السابق
+ActNextChapter=الفصل التالي
+ActGotoTime=الانتقال للوقت
+ActVolumeUp=رفع مستوى الصوت
+ActVolumeDown=خفض مستوى الصوت
+ActMute=كتم / إلغاء الكتم
+ActAudioDelayPlus=تأخير الصوت +
+ActAudioDelayMinus=تأخير الصوت -
+ActAudioDelayReset=إعادة تعيين تأخير الصوت
+ActFullscreen=ملء الشاشة
+ActRotate=تدوير الفيديو
+ActDeinterlace=إزالة التشابك
+ActZoomIn=تكبير
+ActZoomOut=تصغير
+ActZoomReset=إعادة تعيين التكبير
+ActAlwaysOnTop=دائماً في المقدمة
+ActFitToVideo=ملاءمة للفيديو
+ActScreenshot=لقطة شاشة
+ActVideoAdjust=تعديلات الفيديو
+ActVisNextMode=وضع التصور التالي
+ActVisNextColor=نظام الألوان التالي
+ActSubDelayPlus=تأخير الترجمة +
+ActSubDelayMinus=تأخير الترجمة -
+ActSubDelayReset=إعادة تعيين تأخير الترجمة
+ActDVDMenu=قائمة DVD
+ActDVDUp=تنقل DVD لأعلى
+ActDVDDown=تنقل DVD لأسفل
+ActDVDLeft=تنقل DVD لليسار
+ActDVDRight=تنقل DVD لليمين
+ActDVDSelect=اختيار DVD
+ActOpenFile=فتح ملف
+ActOpenURL=فتح رابط
+ActPlaylist=عرض قائمة التشغيل
+ActQuit=خروج
+
+[Log]
+; المرحلة 25: نافذة السجل
+Title=سجل MPV
+Command=الأمر:
+Clear=مسح
+Save=حفظ...
+Copy=&نسخ
+SelectAll=تحديد ال&كل
+SaveTitle=حفظ السجل
+SaveFilter=ملفات نصية (*.txt)|*.txt|كل الملفات (*.*)|*.*
+ErrorTitle=خطأ
+SaveError=فشل حفظ السجل: %s
+
+[MediaInfo]
+Title=معلومات الوسائط
+FileTab=الملف
+VideoTab=الفيديو
+AudioTab=الصوت
+MetadataTab=البيانات الوصفية
+FileName=اسم الملف:
+FilePath=المسار:
+FileSize=الحجم:
+Duration=المدة:
+Format=التنسيق:
+Bitrate=معدل البت:
+Codec=الترميز:
+Resolution=الدقة:
+FrameRate=معدل الإطارات:
+PixelFormat=تنسيق البكسل:
+AspectRatio=نسبة العرض للارتفاع:
+Channels=القنوات:
+SampleRate=معدل العينة:
+Language=اللغة:
+Property=الخاصية
+Value=القيمة
+CopyAll=نسخ الكل
+CopiedToClipboard=تم نسخ معلومات الوسائط للحافظة.
+NA=غير متوفر
+NAStream=غير متوفر (بث)
+NALive=غير متوفر (مباشر)
+ChannelMono=1 (أحادي)
+ChannelStereo=2 (ستيريو)
+Channel51=6 (محيطي 5.1)
+Channel71=8 (محيطي 7.1)
+Unknown=غير معروف
+NoMetadata=(لا توجد بيانات وصفية)
+
+[Bookmarks]
+Title=العلامات المرجعية
+Goto=الانتقال إلى
+Remove=حذف
+Clear=مسح الكل
+Refresh=تحديث
+OpenFolder=فتح المجلد
+CopyPath=نسخ المسار
+; الأعمدة
+ColName=الاسم
+ColFile=الملف
+ColPosition=الموضع
+ColCreated=تاريخ الإنشاء
+; مربعات الحوار
+ClearTitle=مسح العلامات المرجعية
+ClearConfirm=هل أنت متأكد من مسح كل العلامات المرجعية؟
+Count=%d علامة مرجعية
+
+[Favorites]
+Title=المفضلة
+Play=تشغيل
+Remove=حذف
+Clear=مسح الكل
+Refresh=تحديث
+OpenFolder=فتح المجلد
+CopyPath=نسخ المسار
+; الأعمدة
+ColName=الاسم
+ColType=النوع
+ColPath=المسار
+; الأنواع
+TypeFile=ملف
+TypeURL=رابط
+TypeRadio=راديو
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=غير معروف
+; مربعات الحوار
+ClearTitle=مسح المفضلة
+ClearConfirm=هل أنت متأكد من مسح كل المفضلة؟
+Count=%d مفضلة
+
+[History]
+Title=سجل التشغيل
+Play=تشغيل
+Remove=حذف
+Clear=مسح الكل
+Refresh=تحديث
+OpenFolder=فتح المجلد
+CopyPath=نسخ المسار
+; الأعمدة
+ColFileName=الملف
+ColPath=المسار
+; مربعات الحوار
+ClearTitle=مسح السجل
+ClearConfirm=هل أنت متأكد من مسح كل السجل؟
+Count=%d عنصر
+
+[SleepTimer]
+Title=مؤقت النوم
+Description=ضبط مؤقت لإيقاف التشغيل تلقائياً
+Hours=ساعات:
+Minutes=دقائق:
+Action=عند انتهاء المؤقت:
+StopPlayback=إيقاف التشغيل
+CloseApp=إغلاق التطبيق
+Shutdown=إيقاف تشغيل الحاسوب
+QuickSet=ضبط سريع:
+15Min=15 دقيقة
+30Min=30 دقيقة
+1Hour=ساعة واحدة
+2Hours=ساعتان
+
+[Radios]
+Title=راديو الإنترنت
+Play=تشغيل
+Add=إضافة
+Edit=تعديل
+Delete=حذف
+Remove=حذف
+Import=استيراد
+Export=تصدير
+Refresh=تحديث
+Favorite=مفضلة
+ShowFavorites=المفضلة
+ShowAll=الكل
+; التصفية
+Genre=النوع:
+Search=بحث:
+SearchBtn=بحث
+ClearSearch=مسح
+AllGenres=(كل الأنواع)
+; القائمة السياقية
+AddFavorite=إضافة للمفضلة
+RemoveFavorite=حذف من المفضلة
+AddCustom=إضافة محطة مخصصة...
+EditCustom=تعديل المحطة...
+DeleteCustom=حذف المحطة
+OpenWebsite=فتح الموقع
+CopyURL=نسخ الرابط
+; الأعمدة
+ColName=الاسم
+ColGenre=النوع
+ColBitrate=معدل البت
+ColCountry=البلد
+ColCodec=الترميز
+; مربعات الحوار
+AddTitle=إضافة محطة مخصصة
+EditTitle=تعديل المحطة
+DeleteTitle=حذف المحطة
+DeleteConfirm=هل أنت متأكد من حذف هذه المحطة؟
+StationName=اسم المحطة:
+StreamURL=رابط البث:
+GenrePrompt=النوع:
+NameURLRequired=الاسم والرابط مطلوبان.
+; رسائل الحالة
+LoadingIcecast=جاري تحميل المحطات من دليل Icecast...
+IcecastError=تعذر تحميل دليل Icecast. يتم استخدام المحطات الافتراضية.
+NoStationsLoaded=لم يتم تحميل محطات
+StationCount=%d محطة
+LoadedStations=تم تحميل %d محطة
+ErrorPrefix=خطأ:
+; المفاتيح القديمة
+Name=الاسم
+URL=الرابط
+Bitrate=معدل البت
+Description=الوصف
+Country=البلد
+
+[OpenURL]
+Title=فتح رابط
+Prompt=أدخل رابط الوسائط:
+
+[GotoTime]
+Title=الانتقال للوقت
+EnterTime=أدخل الوقت للانتقال إليه:
+Hours=س
+Minutes=د
+Seconds=ث
+Current=الحالي:
+Duration=المدة:
+
+[VideoAdjust]
+Title=تعديلات الفيديو
+Brightness=السطوع:
+Contrast=التباين:
+Saturation=التشبع:
+Hue=درجة اللون:
+Gamma=غاما:
+ResetAll=إعادة تعيين كل الألوان
+
+[CLI]
+; رسائل سطر الأوامر
+Usage=الاستخدام
+Arguments=[خيارات] [ملف|رابط|مجلد]
+Description=مشغل وسائط متعدد المنصات يستخدم واجهة libmpv.
+Options=الخيارات
+Examples=أمثلة
+MoreInfo=لمزيد من المعلومات، قم بزيارة
+EnqueuedTo=تمت الإضافة إلى المثيل الحالي: %s
+SentTo=تم الإرسال إلى المثيل الحالي: %s
+AlreadyRunning=3nity Media قيد التشغيل بالفعل.
+ErrorFileNotFound=خطأ: الملف أو المجلد غير موجود: %s
+ErrorSubNotFound=خطأ: ملف الترجمة غير موجود: %s

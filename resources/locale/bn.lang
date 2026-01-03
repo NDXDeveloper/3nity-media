@@ -1,0 +1,892 @@
+[Language]
+Name=Bengali - বাংলা
+Code=bn
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; ফাইল মেনু
+File=&ফাইল
+FileOpen=&ফাইল খুলুন...
+FileOpenURL=&URL খুলুন...
+FileOpenClipboard=&ক্লিপবোর্ড থেকে খুলুন
+FileRecent=&সাম্প্রতিক ফাইল
+ClearRecentFiles=সাম্প্রতিক ফাইল মুছুন
+FileExit=বাহি&র
+
+; প্লেব্যাক মেনু
+Playback=&প্লেব্যাক
+PlaybackPlayPause=&চালান/বিরতি
+PlaybackStop=&থামান
+PlaybackPrevious=পূর্&ববর্তী
+PlaybackNext=&পরবর্তী
+PlaybackSeekForward=এগিয়ে &যান
+PlaybackSeekBackward=পিছিয়ে &যান
+PlaybackSpeed=&গতি
+PlaybackABLoop=A-&B লুপ
+PlaybackSetA=&A সেট করুন
+PlaybackSetB=&B সেট করুন
+PlaybackClearAB=A-B &মুছুন
+PlaybackChapters=&অধ্যায়
+PlaybackPrevChapter=পূর্ববর্তী অধ্যায়
+PlaybackNextChapter=পরবর্তী অধ্যায়
+PlaybackFrameStep=ফ্রেম এগিয়ে &যান
+PlaybackFrameBack=ফ্রেম পিছিয়ে &যান
+
+; DVD নেভিগেশন
+PlaybackDVD=DVD &নেভিগেশন
+DVDMenu=&মেনু
+DVDUp=&উপরে
+DVDDown=&নিচে
+DVDLeft=&বামে
+DVDRight=&ডানে
+DVDSelect=&নির্বাচন
+PlaybackDVDTitles=DVD &শিরোনাম
+
+; ফেজ ২১: ফোল্ডার খুলুন
+FileOpenFolder=ফো&ল্ডার খুলুন...
+
+; ফাইল মেনু DVD/Bluray
+FileOpenDVD=&DVD খুলুন...
+FileOpenBluray=&Blu-ray খুলুন...
+
+; ফেজ ১৩: সময়ে যান এবং ইতিহাস
+PlaybackGotoTime=সময়ে &যান...
+ToolsHistory=&ইতিহাস
+
+; ফেজ ১৪: সিস্টেম ট্রে
+TrayShow=&দেখান/লুকান
+TrayPlayPause=&চালান/বিরতি
+TrayStop=&থামান
+TrayPrevious=পূর্&ববর্তী
+TrayNext=&পরবর্তী
+TrayMute=&নিঃশব্দ
+TrayExit=বাহি&র
+
+; ফেজ ১৫: বুকমার্ক
+PlaybackAddBookmark=&বুকমার্ক যোগ করুন...
+PlaybackBookmarks=বুক&মার্ক
+BookmarksTitle=বুকমার্ক
+BookmarksGoto=বুকমার্কে &যান
+BookmarksRemove=বুকমার্ক &সরান
+BookmarksClear=সব বুকমার্ক &মুছুন
+BookmarksOpenFolder=&ফোল্ডার খুলুন
+BookmarksCopyPath=পথ &কপি করুন
+BookmarksCount=%d বুকমার্ক
+NoBookmarks=(কোন বুকমার্ক নেই)
+NoFileLoaded=(কোন ফাইল লোড হয়নি)
+BookmarkAdded=%s এ বুকমার্ক যোগ হয়েছে
+BookmarkJumped=%s এ বুকমার্কে গেছে
+AddBookmarkTitle=বুকমার্ক যোগ করুন
+AddBookmarkPrompt=বুকমার্কের নাম লিখুন:
+ShowAllBookmarks=সব বুকমার্ক দেখান...
+
+; ফেজ ১৬: পছন্দের
+ToolsFavorites=&পছন্দের
+ToolsAddFavorite=পছন্দে &যোগ করুন
+FavoritesTitle=পছন্দের
+FavoritesPlay=&চালান
+FavoritesRemove=পছন্দ থেকে &সরান
+FavoritesClear=সব পছন্দ &মুছুন
+FavoritesOpenFolder=&ফোল্ডার খুলুন
+FavoritesCopyPath=পথ &কপি করুন
+FavoritesCount=%d পছন্দের
+NoFavorites=(কোন পছন্দের নেই)
+AddFavoriteTitle=পছন্দে যোগ করুন
+AddFavoritePrompt=পছন্দের জন্য নাম লিখুন:
+AlreadyFavorite=ইতিমধ্যে পছন্দে আছে
+AddedToFavorites=পছন্দে যোগ হয়েছে: %s
+NoFileToFavorite=পছন্দে যোগ করার জন্য কোন ফাইল লোড নেই
+FavoriteTypeFile=ফাইল
+FavoriteTypeURL=URL
+FavoriteTypeRadio=রেডিও
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; ট্র্যাক ফরম্যাট স্ট্রিং
+TrackWithTitle=ট্র্যাক %d: %s
+TrackWithLang=ট্র্যাক %d (%s)
+TrackNumber=ট্র্যাক %d
+
+; গতি মেনু আইটেম
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; স্কেল মেনু আইটেম
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; সাবটাইটেল ট্র্যাক
+SubtitleDisable=নিষ্ক্রিয়
+
+; ফেজ ১৭: স্লিপ টাইমার
+ToolsSleepTimer=&স্লিপ টাইমার...
+ToolsSleepTimerActive=&স্লিপ টাইমার [%s]
+ToolsCancelTimer=&টাইমার বাতিল করুন
+
+; অডিও মেনু
+Audio=&অডিও
+AudioTrack=অডিও &ট্র্যাক
+AudioVolumeUp=ভলিউম &বাড়ান
+AudioVolumeDown=ভলিউম &কমান
+AudioMute=&নিঃশব্দ
+AudioEqualizer=&ইকুয়ালাইজার
+AudioDelay=অডিও &বিলম্ব
+AudioDelayPlus=বিলম্ব +0.1s
+AudioDelayMinus=বিলম্ব -0.1s
+AudioDelayReset=বিলম্ব রিসেট
+AudioNormalize=ভলিউম &নরমালাইজ
+
+; ভিডিও মেনু
+Video=&ভিডিও
+VideoFullscreen=&পূর্ণ স্ক্রিন
+VideoAspect=&আকৃতির অনুপাত
+VideoAspectAuto=&স্বয়ংক্রিয়
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&স্ক্রিনশট
+VideoScreenshotAs=স্ক্রিনশট &হিসাবে...
+VideoRotation=&ঘূর্ণন
+VideoRotate0=&0° (স্বাভাবিক)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&উল্টান
+VideoFlipH=অনুভূমিক &উল্টান
+VideoFlipV=উল্লম্ব &উল্টান
+VideoDeinterlace=&ডিইন্টারলেস
+VideoZoom=&জুম
+VideoZoomIn=জুম &ইন
+VideoZoomOut=জুম &আউট
+VideoZoomReset=জুম &রিসেট
+VideoPan=&প্যান
+VideoPanLeft=প্যান &বামে
+VideoPanRight=প্যান &ডানে
+VideoPanUp=প্যান &উপরে
+VideoPanDown=প্যান &নিচে
+VideoPanReset=প্যান রি&সেট
+VideoTrack=ভিডিও &ট্র্যাক
+VideoColors=রঙ &সমন্বয়
+VideoBrightness=&উজ্জ্বলতা
+VideoContrast=&কন্ট্রাস্ট
+VideoSaturation=&স্যাচুরেশন
+VideoHue=&হিউ
+VideoGamma=&গামা
+VideoColorsReset=সব রঙ &রিসেট
+VideoIncrease=বাড়ান (+5)
+VideoDecrease=কমান (-5)
+VideoReset=রিসেট
+VideoAdjustDialog=ভিডিও &সমন্বয়...
+
+; ভিউ মেনু
+View=দে&খুন
+ViewAlwaysOnTop=&সবসময় উপরে
+ViewFitToVideo=&ভিডিওতে উইন্ডো ফিট
+ViewScale=উইন্ডো &স্কেল
+
+; ফেজ ২৬: ভিজুয়ালাইজেশন মেনু
+ViewVisualization=&ভিজুয়ালাইজেশন
+VisNone=&কিছুই না
+VisSpectrum=&স্পেকট্রাম বিশ্লেষক
+VisWaveform=&ওয়েভফর্ম
+VisVector=&ভেক্টর স্কোপ
+VisVolume=VU &মিটার
+VisNextMode=পরবর্তী &মোড
+VisNextColor=পরবর্তী &রঙ স্কিম
+
+; সাবটাইটেল মেনু
+Subtitles=&সাবটাইটেল
+SubtitleTrack=সাবটাইটেল &ট্র্যাক
+SubtitleLoad=সাবটাইটেল &লোড...
+SubtitleDelay=সাবটাইটেল &বিলম্ব
+SubtitleDelayPlus=বিলম্ব +0.1s
+SubtitleDelayMinus=বিলম্ব -0.1s
+SubtitleDelayReset=বিলম্ব রিসেট
+
+; টুলস মেনু
+Tools=&টুলস
+ToolsPlaylist=&প্লেলিস্ট
+ToolsRadios=&রেডিও
+ToolsShortcuts=&কীবোর্ড শর্টকাট...
+ToolsOptions=&অপশন
+
+; ফেজ ২৭: রেকর্ডিং মেনু
+ToolsRecord=&স্ট্রিম রেকর্ড...
+ToolsStopRecord=রেকর্ডিং &থামান
+ToolsRecording=&রেকর্ডিং...
+
+; সাহায্য মেনু
+Help=&সাহায্য
+HelpMediaInfo=&মিডিয়া তথ্য
+HelpLog=&লগ উইন্ডো
+HelpAbout=&সম্পর্কে
+
+[Dialog]
+OpenFile=ফাইল খুলুন
+OpenURL=URL খুলুন
+SaveScreenshot=স্ক্রিনশট সংরক্ষণ
+LoadSubtitle=সাবটাইটেল ফাইল লোড
+EnterURL=URL লিখুন:
+ResumePlayback=প্লেব্যাক পুনরায় শুরু
+ResumeFrom=%s থেকে পুনরায় শুরু করবেন?
+ClearRecentFiles=সাম্প্রতিক ফাইল মুছুন
+NoRecentFiles=(কোন সাম্প্রতিক ফাইল নেই)
+NoAudioTracks=(কোন অডিও ট্র্যাক নেই)
+NoVideoTracks=(কোন ভিডিও ট্র্যাক নেই)
+NoSubtitleTracks=(কোন সাবটাইটেল ট্র্যাক নেই)
+NoChapters=(কোন অধ্যায় নেই)
+OpenDVD=DVD খুলুন
+OpenBluray=Blu-ray খুলুন
+OpenFolder=ফোল্ডার খুলুন
+
+; ফাইল ফিল্টার
+ScreenshotFilter=PNG ছবি|*.png|JPEG ছবি|*.jpg|WebP ছবি|*.webp
+DVDFilter=DVD ফোল্ডার|*.;*.iso|সব ফাইল (*.*)|*.*
+BlurayFilter=Blu-ray ফোল্ডার|*.;*.iso|সব ফাইল (*.*)|*.*
+NoDVD=(কোন DVD লোড নেই)
+DVDTitle=শিরোনাম %d
+GotoTime=সময়ে যান
+EnterTime=যে সময়ে যেতে চান লিখুন:
+Hours=ঘণ্টা
+Minutes=মিনিট
+Seconds=সেকেন্ড
+Current=বর্তমান:
+HistoryTitle=প্লেব্যাক ইতিহাস
+HistoryItems=ইতিহাসে %d আইটেম
+HistoryPlay=&চালান
+HistoryRemove=ইতিহাস থেকে &সরান
+HistoryClear=সব ইতিহাস &মুছুন
+HistoryOpenFolder=&ফোল্ডার খুলুন
+HistoryCopyPath=পথ &কপি করুন
+ClearHistory=ইতিহাস মুছুন
+ClearHistoryConfirm=আপনি কি সব ইতিহাস মুছতে চান?
+SleepTimerTitle=স্লিপ টাইমার
+SleepTimerDescription=স্বয়ংক্রিয়ভাবে প্লেব্যাক বন্ধ করার জন্য টাইমার সেট করুন
+SleepTimerHours=ঘণ্টা
+SleepTimerMinutes=মিনিট
+SleepTimerQuickSet=দ্রুত সেট
+SleepTimerAction=টাইমার শেষ হলে
+SleepTimerStopPlayback=প্লেব্যাক বন্ধ করুন
+SleepTimerCloseApp=অ্যাপ্লিকেশন বন্ধ করুন
+SleepTimerShutdown=কম্পিউটার বন্ধ করুন
+SleepTimerStart=টাইমার শুরু
+
+[Status]
+Ready=প্রস্তুত
+Opening=খুলছে...
+Playing=চলছে
+Paused=বিরতি
+Stopped=থামানো
+Error=ত্রুটি
+Buffering=বাফারিং...
+Seeking=খুঁজছে...
+Recording=রেকর্ডিং
+
+[Message]
+SpeedFormat=গতি: %.2fx
+VolumeFormat=ভলিউম: %d%%
+BrightnessFormat=উজ্জ্বলতা: %d
+ContrastFormat=কন্ট্রাস্ট: %d
+SaturationFormat=স্যাচুরেশন: %d
+HueFormat=হিউ: %d
+GammaFormat=গামা: %d
+ColorsReset=ভিডিও রঙ রিসেট হয়েছে
+LoopASet=%s এ লুপ A সেট হয়েছে
+LoopBSet=%s এ লুপ B সেট হয়েছে - লুপ সক্রিয়
+LoopCleared=A-B লুপ মুছে গেছে
+SetAFirst=প্রথমে পয়েন্ট A সেট করুন (L চাপুন)
+RotationFormat=ঘূর্ণন: %d°
+FlipHOn=অনুভূমিক উল্টানো: চালু
+FlipHOff=অনুভূমিক উল্টানো: বন্ধ
+FlipVOn=উল্লম্ব উল্টানো: চালু
+FlipVOff=উল্লম্ব উল্টানো: বন্ধ
+DeinterlaceOn=ডিইন্টারলেস: চালু
+DeinterlaceOff=ডিইন্টারলেস: বন্ধ
+AlwaysOnTopOn=সবসময় উপরে: চালু
+AlwaysOnTopOff=সবসময় উপরে: বন্ধ
+WindowFitted=উইন্ডো %dx%d এ ফিট করা হয়েছে
+WindowScale=উইন্ডো স্কেল: %.0f%%
+ScreenshotSaved=স্ক্রিনশট সংরক্ষিত: %s
+AudioNormalizeOn=অডিও নরমালাইজেশন: চালু
+AudioNormalizeOff=অডিও নরমালাইজেশন: বন্ধ
+AudioDelayFormat=অডিও বিলম্ব: %.1f s
+SubtitleDelayFormat=সাবটাইটেল বিলম্ব: %.1f s
+ZoomFormat=জুম: %.0f%%
+PanCenter=প্যান: কেন্দ্র
+PanFormat=প্যান: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=কোন ভিডিও লোড নেই
+PlayingFromClipboard=ক্লিপবোর্ড থেকে চালানো হচ্ছে: %s
+ClipboardInvalid=ক্লিপবোর্ডে বৈধ URL বা পথ নেই
+ClipboardEmpty=ক্লিপবোর্ড খালি বা টেক্সট নেই
+ResumedAt=%s এ পুনরায় শুরু হয়েছে
+FrameStepForward=ফ্রেম এগিয়ে গেছে
+FrameStepBackward=ফ্রেম পিছিয়ে গেছে
+PreviousChapter=পূর্ববর্তী অধ্যায়
+NextChapter=পরবর্তী অধ্যায়
+PlayingRadio=রেডিও চালানো হচ্ছে: %s
+PlayingDVD=DVD চালানো হচ্ছে: %s
+PlayingBluray=Blu-ray চালানো হচ্ছে: %s
+DVDTitlePlaying=DVD শিরোনাম %d
+SeekTo=%s এ যাচ্ছে
+MinimizedToTray=ট্রেতে ছোট করা হয়েছে। পুনরুদ্ধার করতে ডাবল-ক্লিক করুন।
+SleepTimerSet=স্লিপ টাইমার সেট: %s
+SleepTimerCancelled=স্লিপ টাইমার বাতিল হয়েছে
+SleepTimerWarning=স্লিপ টাইমার: ১ মিনিট বাকি
+SleepTimerFinal=স্লিপ টাইমার: ১০ সেকেন্ড বাকি
+SleepTimerStopped=স্লিপ টাইমার: প্লেব্যাক বন্ধ হয়েছে
+SleepTimerClosing=স্লিপ টাইমার: অ্যাপ্লিকেশন বন্ধ হচ্ছে
+SleepTimerShutdown=স্লিপ টাইমার: কম্পিউটার বন্ধ হচ্ছে
+SleepTimerExpired=স্লিপ টাইমার শেষ
+ShutdownManual=অনুগ্রহ করে আপনার কম্পিউটার ম্যানুয়ালি বন্ধ করুন।
+
+; ফেজ ২১: ফোল্ডার খুলুন
+FolderOpened=ফোল্ডার খোলা হয়েছে: %d ফাইল
+NoMediaFound=কোন মিডিয়া ফাইল পাওয়া যায়নি
+FilesAdded=প্লেলিস্টে %d ফাইল যোগ হয়েছে
+
+; ফেজ ২৭: রেকর্ডিং বার্তা
+RecordNeedPlayback=রেকর্ডিং এর আগে প্লেব্যাক শুরু করুন।
+RecordingStarted=রেকর্ডিং শুরু হয়েছে
+RecordingStopped=রেকর্ডিং বন্ধ হয়েছে
+
+; অতিরিক্ত স্ট্যাটাস বার্তা
+EndOfPlaylist=প্লেলিস্ট শেষ
+NoMediaLoaded=কোন মিডিয়া ফাইল লোড নেই।
+JumpedToNamed=গেছে: %s
+ChapterFormat=অধ্যায় %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%s এ বুকমার্ক
+
+[Label]
+Muted=নিঃশব্দ
+
+[Button]
+Play=চালান
+Pause=বিরতি
+Stop=থামান
+Previous=পূর্ববর্তী
+Next=পরবর্তী
+Mute=নিঃশব্দ
+Unmute=শব্দ চালু
+Fullscreen=পূর্ণ স্ক্রিন
+OK=ঠিক আছে
+Cancel=বাতিল
+Apply=প্রয়োগ
+Close=বন্ধ
+Yes=হ্যাঁ
+No=না
+
+[Tooltip]
+Play=চালান/বিরতি
+Stop=প্লেব্যাক থামান
+Previous=পূর্ববর্তী ট্র্যাক
+Next=পরবর্তী ট্র্যাক
+Mute=নিঃশব্দ টগল
+Volume=ভলিউম
+Seek=অবস্থান খুঁজুন
+Fullscreen=পূর্ণ স্ক্রিন টগল
+
+[Playlist]
+Title=প্লেলিস্ট
+Add=যোগ
+Remove=সরান
+Clear=মুছুন
+MoveUp=উপরে সরান
+MoveDown=নিচে সরান
+Shuffle=শাফল
+Repeat=পুনরাবৃত্তি
+Play=চালান
+ShuffleOn=শাফল: চালু
+ShuffleOff=শাফল: বন্ধ
+RepeatOff=পুনরাবৃত্তি: বন্ধ
+RepeatOne=পুনরাবৃত্তি: একটি
+RepeatAll=পুনরাবৃত্তি: সব
+SavePlaylist=সংরক্ষণ
+LoadPlaylist=লোড
+TotalDuration=মোট: %s
+ItemCount=%d আইটেম
+
+; ফেজ ২২: প্লেলিস্ট উন্নতি
+Search=অনুসন্ধান:
+FilterPlaceholder=প্লেলিস্ট ফিল্টার...
+ClearSearch=মুছুন
+FilterCount=%d/%d
+RemoveDuplicates=&ডুপ্লিকেট সরান
+Properties=&বৈশিষ্ট্য...
+NoDuplicates=কোন ডুপ্লিকেট পাওয়া যায়নি।
+DuplicatesFound=%d ডুপ্লিকেট পাওয়া গেছে। সরাতে চান?
+RemoveDuplicatesTitle=ডুপ্লিকেট সরান
+PropertiesTitle=প্লেলিস্ট বৈশিষ্ট্য
+PropTotalItems=মোট আইটেম: %d
+PropTotalDuration=মোট সময়কাল: %s
+PropPlayed=চালানো হয়েছে: %d
+PropUnplayed=চালানো হয়নি: %d
+PropTotalSize=মোট আকার: %.2f MB
+PropShuffle=শাফল: %s
+PropRepeat=পুনরাবৃত্তি: %s
+On=চালু
+Off=বন্ধ
+
+; ApplyLocale এর জন্য নতুন কী
+ClearTitle=প্লেলিস্ট মুছুন
+ClearConfirm=আপনি কি প্লেলিস্ট মুছতে চান?
+NoPlaylist=কোন প্লেলিস্ট নেই
+StatusFormat=%d আইটেম | মোট: %s
+RepeatOne=পুন. ১
+RepeatAll=পুন. সব
+HintRepeatEnable=পুনরাবৃত্তি সব সক্রিয় করতে ক্লিক করুন
+HintRepeatOne=পুনরাবৃত্তি একটি - নিষ্ক্রিয় করতে ক্লিক করুন
+HintRepeatAll=পুনরাবৃত্তি সব - পুনরাবৃত্তি একটি করতে ক্লিক করুন
+HintShuffleRepeat=শাফল + পুনরাবৃত্তি সব - পুনরাবৃত্তি নিষ্ক্রিয় করতে ক্লিক করুন
+RemoveDuplicatesTitle=ডুপ্লিকেট সরান
+NoDuplicates=কোন ডুপ্লিকেট পাওয়া যায়নি।
+SelectAll=সব নির্বাচন
+SelectNone=কোনটি নয়
+SelectInvert=নির্বাচন উল্টান
+Sort=সাজান
+SortByName=নাম অনুযায়ী
+SortByTitle=শিরোনাম অনুযায়ী
+SortByArtist=শিল্পী অনুযায়ী
+SortByDuration=সময়কাল অনুযায়ী
+SortReverse=উল্টান
+SortRandom=এলোমেলো
+ColTitle=শিরোনাম
+ColDuration=সময়কাল
+ColArtist=শিল্পী
+ColAlbum=অ্যালবাম
+PlaylistFilter=M3U প্লেলিস্ট|*.m3u|M3U8 প্লেলিস্ট|*.m3u8|PLS প্লেলিস্ট|*.pls
+
+[Equalizer]
+Title=ইকুয়ালাইজার
+Presets=প্রিসেট:
+Preamp=প্রিঅ্যাম্প:
+Flat=ফ্ল্যাট
+Rock=রক
+Pop=পপ
+Jazz=জ্যাজ
+Classical=ক্লাসিক্যাল
+BassBoost=বেস বুস্ট
+TrebleBoost=ট্রেবল বুস্ট
+Vocal=ভোকাল
+Reset=রিসেট
+Enable=ইকুয়ালাইজার সক্রিয়
+Save=সংরক্ষণ
+Delete=মুছুন
+Ready=প্রস্তুত
+; বাটন এবং অ্যাকশন
+SavePreset=প্রিসেট সংরক্ষণ
+DeletePreset=প্রিসেট মুছুন
+SavePresetTitle=প্রিসেট সংরক্ষণ
+PresetNamePrompt=প্রিসেটের নাম:
+EnterPresetName=অনুগ্রহ করে একটি প্রিসেটের নাম লিখুন।
+OverwritePresetTitle=প্রিসেট ওভাররাইট
+OverwritePresetConfirm=এই নামে একটি প্রিসেট আছে। ওভাররাইট করবেন?
+PresetUpdated=প্রিসেট আপডেট হয়েছে: %s
+PresetSaved=প্রিসেট সংরক্ষিত: %s
+SelectPresetToDelete=মুছতে একটি প্রিসেট নির্বাচন করুন।
+CannotDeleteDefault=ডিফল্ট প্রিসেট মুছতে পারবেন না।
+DeletePresetTitle=প্রিসেট মুছুন
+DeletePresetConfirm=আপনি কি এই প্রিসেট মুছতে চান?
+PresetDeleted=প্রিসেট মুছে গেছে
+ResetToFlat=ইকুয়ালাইজার ফ্ল্যাটে রিসেট হয়েছে
+PresetApplied=প্রিসেট প্রয়োগ হয়েছে: %s
+
+[Options]
+Title=অপশন
+General=সাধারণ
+Video=ভিডিও
+Audio=অডিও
+Subtitles=সাবটাইটেল
+Cache=ক্যাশ
+Language=ভাষা:
+RestartRequired=পরিবর্তন কার্যকর হতে পুনরায় চালু করতে হবে
+
+; সাধারণ ট্যাব - আচরণ
+Behavior=আচরণ
+SingleInstance=শুধু একটি ইন্সট্যান্স অনুমতি দিন
+AutoPlay=খোলার সময় স্বয়ংক্রিয় চালান
+AutoResume=প্লেব্যাক অবস্থান মনে রাখুন
+MinimizeToTray=সিস্টেম ট্রেতে ছোট করুন
+AutoSavePlaylist=বন্ধ করার সময় প্লেলিস্ট সংরক্ষণ
+
+; সাধারণ ট্যাব - OSD
+OSD=অন-স্ক্রিন ডিসপ্লে
+ShowOSD=অন-স্ক্রিন বার্তা দেখান
+ShowTrayIcon=ট্রে আইকন দেখান
+OSDDuration=OSD সময়কাল (ms):
+
+; সাধারণ ট্যাব - স্ক্রিনশট
+Screenshots=স্ক্রিনশট
+ScreenshotPath=সংরক্ষণ ফোল্ডার:
+ScreenshotFormat=ফরম্যাট:
+
+; সাধারণ ট্যাব - ইতিহাস
+HistorySettings=ইতিহাস
+HistoryEnabled=প্লেব্যাক ইতিহাস সক্রিয়
+HistoryMaxItems=সর্বোচ্চ আইটেম:
+
+; সাধারণ ট্যাব - ভাষা
+LanguageGroup=ভাষা
+RestartNote=(পরিবর্তনের জন্য পুনরায় চালু করুন)
+
+; ভিডিও ট্যাব
+VideoAdjust=ভিডিও সমন্বয়
+Brightness=উজ্জ্বলতা:
+Contrast=কন্ট্রাস্ট:
+Saturation=স্যাচুরেশন:
+Hue=হিউ:
+Gamma=গামা:
+VideoOutput=ভিডিও আউটপুট
+Output=আউটপুট:
+HWAccel=হার্ডওয়্যার ত্বরণ সক্রিয়
+Deinterlacing=ডিইন্টারলেসিং
+Mode=মোড:
+
+; অডিও ট্যাব
+AudioOutput=অডিও আউটপুট
+OutputDriver=আউটপুট ড্রাইভার:
+Device=ডিভাইস:
+AudioOptions=অডিও অপশন
+NormalizeAudio=অডিও ভলিউম নরমালাইজ
+Channels=চ্যানেল:
+
+; সাবটাইটেল ট্যাব
+UseDefaultSubtitles=ডিফল্ট সাবটাইটেল সেটিংস ব্যবহার করুন
+Font=ফন্ট
+FontName=ফন্ট:
+FontSize=আকার:
+FontColor=রঙ:
+Bold=বোল্ড
+Italic=ইটালিক
+Outline=আউটলাইন
+OutlineColor=রঙ:
+OutlineSize=আকার:
+Position=অবস্থান
+VerticalPosition=উল্লম্ব অবস্থান:
+SubOptions=অপশন
+Encoding=এনকোডিং:
+AutoLoadSubs=স্বয়ংক্রিয়ভাবে সাবটাইটেল ফাইল লোড করুন
+
+; ভিডিও আউটপুট সতর্কতা
+VOWarningX11=সতর্কতা: x11 ভিডিও সমন্বয় সমর্থন করে না (উজ্জ্বলতা, কন্ট্রাস্ট, ইত্যাদি)
+VOWarningWayland=সতর্কতা: Wayland সেশন প্রয়োজন। ভিডিও সমন্বয় সমর্থিত।
+
+; ক্যাশ ট্যাব
+CacheSettings=ক্যাশ বাফার আকার (KB)
+CacheDefault=ডিফল্ট ক্যাশ:
+CacheLocal=স্থানীয় ফাইল:
+CacheNetwork=নেটওয়ার্ক ফাইল:
+CacheInternet=ইন্টারনেট স্ট্রিম:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=সম্পর্কে
+Version=সংস্করণ
+Engine=ইঞ্জিন
+Technology=প্রযুক্তি
+BuildInfo=বিল্ড তথ্য
+SystemInfo=সিস্টেম
+Credits=কৃতিত্ব
+Developer=ডেভেলপার:
+Author=লেখক
+License=লাইসেন্স
+Website=ওয়েবসাইট
+GitHub=GitHub
+Description=একটি আধুনিক, হালকা মিডিয়া প্লেয়ার
+LicenseText=3nity Media GPL-2.0 লাইসেন্সের অধীনে\n\nএর মানে আপনি স্বাধীন:\n  • যেকোনো উদ্দেশ্যে সফটওয়্যার ব্যবহার করতে\n  • সোর্স কোড অধ্যয়ন ও পরিবর্তন করতে\n  • সফটওয়্যারের কপি বিতরণ করতে\n  • আপনার পরিবর্তন বিতরণ করতে\n\nশর্ত হলো যেকোনো বিতরিত পরিবর্তন\nGPL-2.0 লাইসেন্সের অধীনে হতে হবে।
+BuildDate=তারিখ:
+Target=লক্ষ্য:
+Kernel=কার্নেল:
+
+[Shortcuts]
+Title=কীবোর্ড শর্টকাট
+Description=অ্যাকশনের জন্য কীবোর্ড শর্টকাট কনফিগার করুন
+Search=অনুসন্ধান:
+PressKey=একটি কী চাপুন...
+ColCategory=ক্যাটাগরি
+ColAction=অ্যাকশন
+ColShortcut=শর্টকাট
+Assign=বরাদ্দ
+Clear=মুছুন
+Reset=রিসেট
+ResetAll=সব রিসেট
+CurrentShortcut=বর্তমান: %s
+NoKeyPressed=অনুগ্রহ করে প্রথমে একটি কী কম্বিনেশন চাপুন।
+Conflict=সংঘর্ষ: ইতিমধ্যে "%s" এ বরাদ্দ
+ConfirmReplace=শর্টকাট প্রতিস্থাপন
+ReplaceMessage=এই শর্টকাট ইতিমধ্যে "%s" এ বরাদ্দ। প্রতিস্থাপন করবেন?
+ConfirmResetAll=সব শর্টকাট রিসেট
+ResetAllMessage=আপনি কি সব শর্টকাট ডিফল্টে রিসেট করতে চান?
+; অ্যাকশন নাম
+ActPlayPause=চালান / বিরতি
+ActStop=থামান
+ActPrevious=পূর্ববর্তী
+ActNext=পরবর্তী
+ActSeekForward=এগিয়ে যান (10s)
+ActSeekBackward=পিছিয়ে যান (10s)
+ActSeekForward5=এগিয়ে যান (1 মিনিট)
+ActSeekBackward5=পিছিয়ে যান (1 মিনিট)
+ActSpeedUp=গতি বাড়ান
+ActSpeedDown=গতি কমান
+ActSpeedReset=গতি রিসেট
+ActSetLoopA=লুপ পয়েন্ট A সেট
+ActSetLoopB=লুপ পয়েন্ট B সেট
+ActClearLoop=A-B লুপ মুছুন
+ActFrameForward=ফ্রেম এগিয়ে
+ActFrameBackward=ফ্রেম পিছিয়ে
+ActPrevChapter=পূর্ববর্তী অধ্যায়
+ActNextChapter=পরবর্তী অধ্যায়
+ActGotoTime=সময়ে যান
+ActVolumeUp=ভলিউম বাড়ান
+ActVolumeDown=ভলিউম কমান
+ActMute=নিঃশব্দ / শব্দ চালু
+ActAudioDelayPlus=অডিও বিলম্ব +
+ActAudioDelayMinus=অডিও বিলম্ব -
+ActAudioDelayReset=অডিও বিলম্ব রিসেট
+ActFullscreen=পূর্ণ স্ক্রিন
+ActRotate=ভিডিও ঘোরান
+ActDeinterlace=ডিইন্টারলেস
+ActZoomIn=জুম ইন
+ActZoomOut=জুম আউট
+ActZoomReset=জুম রিসেট
+ActAlwaysOnTop=সবসময় উপরে
+ActFitToVideo=ভিডিওতে ফিট
+ActScreenshot=স্ক্রিনশট
+ActVideoAdjust=ভিডিও সমন্বয়
+ActVisNextMode=পরবর্তী ভিজুয়ালাইজেশন মোড
+ActVisNextColor=পরবর্তী রঙ স্কিম
+ActSubDelayPlus=সাবটাইটেল বিলম্ব +
+ActSubDelayMinus=সাবটাইটেল বিলম্ব -
+ActSubDelayReset=সাবটাইটেল বিলম্ব রিসেট
+ActDVDMenu=DVD মেনু
+ActDVDUp=DVD উপরে নেভিগেট
+ActDVDDown=DVD নিচে নেভিগেট
+ActDVDLeft=DVD বামে নেভিগেট
+ActDVDRight=DVD ডানে নেভিগেট
+ActDVDSelect=DVD নির্বাচন
+ActOpenFile=ফাইল খুলুন
+ActOpenURL=URL খুলুন
+ActPlaylist=প্লেলিস্ট দেখান
+ActQuit=বন্ধ করুন
+
+[Log]
+; ফেজ ২৫: লগ উইন্ডো
+Title=MPV লগ
+Command=কমান্ড:
+Clear=মুছুন
+Save=সংরক্ষণ...
+Copy=&কপি
+SelectAll=সব &নির্বাচন
+SaveTitle=লগ সংরক্ষণ
+SaveFilter=টেক্সট ফাইল (*.txt)|*.txt|সব ফাইল (*.*)|*.*
+ErrorTitle=ত্রুটি
+SaveError=লগ সংরক্ষণ ব্যর্থ: %s
+
+[MediaInfo]
+Title=মিডিয়া তথ্য
+FileTab=ফাইল
+VideoTab=ভিডিও
+AudioTab=অডিও
+MetadataTab=মেটাডেটা
+FileName=ফাইলের নাম:
+FilePath=পথ:
+FileSize=আকার:
+Duration=সময়কাল:
+Format=ফরম্যাট:
+Bitrate=বিটরেট:
+Codec=কোডেক:
+Resolution=রেজোলিউশন:
+FrameRate=ফ্রেম রেট:
+PixelFormat=পিক্সেল ফরম্যাট:
+AspectRatio=আকৃতির অনুপাত:
+Channels=চ্যানেল:
+SampleRate=স্যাম্পল রেট:
+Language=ভাষা:
+Property=বৈশিষ্ট্য
+Value=মান
+CopyAll=সব কপি
+CopiedToClipboard=মিডিয়া তথ্য ক্লিপবোর্ডে কপি হয়েছে।
+NA=N/A
+NAStream=N/A (স্ট্রিম)
+NALive=N/A (লাইভ)
+ChannelMono=1 (মোনো)
+ChannelStereo=2 (স্টেরিও)
+Channel51=6 (5.1 সারাউন্ড)
+Channel71=8 (7.1 সারাউন্ড)
+Unknown=অজানা
+NoMetadata=(কোন মেটাডেটা নেই)
+
+[Bookmarks]
+Title=বুকমার্ক
+Goto=যান
+Remove=সরান
+Clear=সব মুছুন
+Refresh=রিফ্রেশ
+OpenFolder=ফোল্ডার খুলুন
+CopyPath=পথ কপি
+; কলাম
+ColName=নাম
+ColFile=ফাইল
+ColPosition=অবস্থান
+ColCreated=তৈরি
+; ডায়ালগ
+ClearTitle=বুকমার্ক মুছুন
+ClearConfirm=আপনি কি সব বুকমার্ক মুছতে চান?
+Count=%d বুকমার্ক
+
+[Favorites]
+Title=পছন্দের
+Play=চালান
+Remove=সরান
+Clear=সব মুছুন
+Refresh=রিফ্রেশ
+OpenFolder=ফোল্ডার খুলুন
+CopyPath=পথ কপি
+; কলাম
+ColName=নাম
+ColType=ধরন
+ColPath=পথ
+; ধরন
+TypeFile=ফাইল
+TypeURL=URL
+TypeRadio=রেডিও
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=অজানা
+; ডায়ালগ
+ClearTitle=পছন্দের মুছুন
+ClearConfirm=আপনি কি সব পছন্দের মুছতে চান?
+Count=%d পছন্দের
+
+[History]
+Title=প্লেব্যাক ইতিহাস
+Play=চালান
+Remove=সরান
+Clear=সব মুছুন
+Refresh=রিফ্রেশ
+OpenFolder=ফোল্ডার খুলুন
+CopyPath=পথ কপি
+; কলাম
+ColFileName=ফাইল
+ColPath=পথ
+; ডায়ালগ
+ClearTitle=ইতিহাস মুছুন
+ClearConfirm=আপনি কি সব ইতিহাস মুছতে চান?
+Count=%d আইটেম
+
+[SleepTimer]
+Title=স্লিপ টাইমার
+Description=স্বয়ংক্রিয়ভাবে প্লেব্যাক বন্ধ করার জন্য টাইমার সেট করুন
+Hours=ঘণ্টা:
+Minutes=মিনিট:
+Action=টাইমার শেষ হলে:
+StopPlayback=প্লেব্যাক বন্ধ করুন
+CloseApp=অ্যাপ্লিকেশন বন্ধ করুন
+Shutdown=কম্পিউটার বন্ধ করুন
+QuickSet=দ্রুত সেট:
+15Min=15 মিনিট
+30Min=30 মিনিট
+1Hour=1 ঘণ্টা
+2Hours=2 ঘণ্টা
+
+[Radios]
+Title=ইন্টারনেট রেডিও
+Play=চালান
+Add=যোগ
+Edit=সম্পাদনা
+Delete=মুছুন
+Remove=সরান
+Import=আমদানি
+Export=রপ্তানি
+Refresh=রিফ্রেশ
+Favorite=পছন্দের
+ShowFavorites=পছন্দের
+ShowAll=সব
+; ফিল্টার
+Genre=ধরন:
+Search=অনুসন্ধান:
+SearchBtn=অনুসন্ধান
+ClearSearch=মুছুন
+AllGenres=(সব ধরন)
+; কনটেক্সট মেনু
+AddFavorite=পছন্দে যোগ করুন
+RemoveFavorite=পছন্দ থেকে সরান
+AddCustom=কাস্টম স্টেশন যোগ করুন...
+EditCustom=স্টেশন সম্পাদনা...
+DeleteCustom=স্টেশন মুছুন
+OpenWebsite=ওয়েবসাইট খুলুন
+CopyURL=URL কপি
+; কলাম
+ColName=নাম
+ColGenre=ধরন
+ColBitrate=বিটরেট
+ColCountry=দেশ
+ColCodec=কোডেক
+; ডায়ালগ
+AddTitle=কাস্টম স্টেশন যোগ করুন
+EditTitle=স্টেশন সম্পাদনা
+DeleteTitle=স্টেশন মুছুন
+DeleteConfirm=আপনি কি এই স্টেশন মুছতে চান?
+StationName=স্টেশনের নাম:
+StreamURL=স্ট্রিম URL:
+GenrePrompt=ধরন:
+NameURLRequired=নাম এবং URL প্রয়োজন।
+; স্ট্যাটাস বার্তা
+LoadingIcecast=Icecast ডিরেক্টরি থেকে স্টেশন লোড হচ্ছে...
+IcecastError=Icecast ডিরেক্টরি লোড করা যায়নি। ডিফল্ট স্টেশন ব্যবহার হচ্ছে।
+NoStationsLoaded=কোন স্টেশন লোড হয়নি
+StationCount=%d স্টেশন
+LoadedStations=%d স্টেশন লোড হয়েছে
+ErrorPrefix=ত্রুটি:
+; লিগ্যাসি কী
+Name=নাম
+URL=URL
+Bitrate=বিটরেট
+Description=বিবরণ
+Country=দেশ
+
+[OpenURL]
+Title=URL খুলুন
+Prompt=মিডিয়া URL লিখুন:
+
+[GotoTime]
+Title=সময়ে যান
+EnterTime=যে সময়ে যেতে চান লিখুন:
+Hours=ঘ
+Minutes=মি
+Seconds=সে
+Current=বর্তমান:
+Duration=সময়কাল:
+
+[VideoAdjust]
+Title=ভিডিও সমন্বয়
+Brightness=উজ্জ্বলতা:
+Contrast=কন্ট্রাস্ট:
+Saturation=স্যাচুরেশন:
+Hue=হিউ:
+Gamma=গামা:
+ResetAll=সব রঙ রিসেট
+
+[CLI]
+; কমান্ড লাইন বার্তা
+Usage=ব্যবহার
+Arguments=[বিকল্প] [ফাইল|URL|ফোল্ডার]
+Description=libmpv ব্যাকএন্ড ব্যবহার করে ক্রস-প্ল্যাটফর্ম মাল্টিমিডিয়া প্লেয়ার।
+Options=বিকল্পসমূহ
+Examples=উদাহরণ
+MoreInfo=আরও তথ্যের জন্য, দেখুন
+EnqueuedTo=বিদ্যমান ইনস্ট্যান্সে যোগ করা হয়েছে: %s
+SentTo=বিদ্যমান ইনস্ট্যান্সে পাঠানো হয়েছে: %s
+AlreadyRunning=3nity Media ইতিমধ্যে চলছে।
+ErrorFileNotFound=ত্রুটি: ফাইল বা ফোল্ডার পাওয়া যায়নি: %s
+ErrorSubNotFound=ত্রুটি: সাবটাইটেল ফাইল পাওয়া যায়নি: %s

@@ -1,0 +1,892 @@
+[Language]
+Name=Greek - Ελληνικά
+Code=el
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Μενού Αρχείο
+File=&Αρχείο
+FileOpen=&Άνοιγμα αρχείου...
+FileOpenURL=Άνοιγμα &URL...
+FileOpenClipboard=Άνοιγμα από το &Πρόχειρο
+FileRecent=&Πρόσφατα αρχεία
+ClearRecentFiles=Εκκαθάριση πρόσφατων αρχείων
+FileExit=Έ&ξοδος
+
+; Μενού Αναπαραγωγή
+Playback=Αναπα&ραγωγή
+PlaybackPlayPause=&Αναπαραγωγή/Παύση
+PlaybackStop=&Διακοπή
+PlaybackPrevious=&Προηγούμενο
+PlaybackNext=&Επόμενο
+PlaybackSeekForward=Μετάβαση μ&προς
+PlaybackSeekBackward=Μετάβαση &πίσω
+PlaybackSpeed=&Ταχύτητα
+PlaybackABLoop=Βρόχος A-&B
+PlaybackSetA=Ορισμός &A
+PlaybackSetB=Ορισμός &B
+PlaybackClearAB=&Καθαρισμός A-B
+PlaybackChapters=&Κεφάλαια
+PlaybackPrevChapter=Προηγούμενο κεφάλαιο
+PlaybackNextChapter=Επόμενο κεφάλαιο
+PlaybackFrameStep=Βήμα &καρέ μπροστά
+PlaybackFrameBack=Βήμα &καρέ πίσω
+
+; Πλοήγηση DVD
+PlaybackDVD=&Πλοήγηση DVD
+DVDMenu=&Μενού
+DVDUp=&Πάνω
+DVDDown=&Κάτω
+DVDLeft=&Αριστερά
+DVDRight=&Δεξιά
+DVDSelect=&Επιλογή
+PlaybackDVDTitles=&Τίτλοι DVD
+
+; Φάση 21: Άνοιγμα φακέλου
+FileOpenFolder=Άνοιγμα &φακέλου...
+
+; Μενού Αρχείο DVD/Blu-ray
+FileOpenDVD=Άνοιγμα &DVD...
+FileOpenBluray=Άνοιγμα &Blu-ray...
+
+; Φάση 13: Μετάβαση σε χρόνο και Ιστορικό
+PlaybackGotoTime=&Μετάβαση σε χρόνο...
+ToolsHistory=&Ιστορικό
+
+; Φάση 14: Περιοχή ειδοποιήσεων
+TrayShow=&Εμφάνιση/Απόκρυψη
+TrayPlayPause=&Αναπαραγωγή/Παύση
+TrayStop=&Διακοπή
+TrayPrevious=&Προηγούμενο
+TrayNext=&Επόμενο
+TrayMute=&Σίγαση
+TrayExit=Έ&ξοδος
+
+; Φάση 15: Σελιδοδείκτες
+PlaybackAddBookmark=Προσθήκη &σελιδοδείκτη...
+PlaybackBookmarks=Σελιδο&δείκτες
+BookmarksTitle=Σελιδοδείκτες
+BookmarksGoto=&Μετάβαση στον σελιδοδείκτη
+BookmarksRemove=&Αφαίρεση σελιδοδείκτη
+BookmarksClear=&Εκκαθάριση όλων των σελιδοδεικτών
+BookmarksOpenFolder=Άνοιγμα &φακέλου
+BookmarksCopyPath=&Αντιγραφή διαδρομής
+BookmarksCount=%d σελιδοδείκτες
+NoBookmarks=(Κανένας σελιδοδείκτης)
+NoFileLoaded=(Κανένα αρχείο φορτωμένο)
+BookmarkAdded=Ο σελιδοδείκτης προστέθηκε στο %s
+BookmarkJumped=Μετάβαση στον σελιδοδείκτη στο %s
+AddBookmarkTitle=Προσθήκη σελιδοδείκτη
+AddBookmarkPrompt=Εισαγάγετε όνομα σελιδοδείκτη:
+ShowAllBookmarks=Εμφάνιση όλων των σελιδοδεικτών...
+
+; Φάση 16: Αγαπημένα
+ToolsFavorites=Α&γαπημένα
+ToolsAddFavorite=Προσθήκη στα Αγα&πημένα
+FavoritesTitle=Αγαπημένα
+FavoritesPlay=&Αναπαραγωγή
+FavoritesRemove=&Αφαίρεση από τα αγαπημένα
+FavoritesClear=&Εκκαθάριση όλων των αγαπημένων
+FavoritesOpenFolder=Άνοιγμα &φακέλου
+FavoritesCopyPath=&Αντιγραφή διαδρομής
+FavoritesCount=%d αγαπημένα
+NoFavorites=(Κανένα αγαπημένο)
+AddFavoriteTitle=Προσθήκη στα αγαπημένα
+AddFavoritePrompt=Εισαγάγετε όνομα για το αγαπημένο:
+AlreadyFavorite=Είναι ήδη στα αγαπημένα
+AddedToFavorites=Προστέθηκε στα αγαπημένα: %s
+NoFileToFavorite=Κανένα αρχείο φορτωμένο για προσθήκη στα αγαπημένα
+FavoriteTypeFile=Αρχείο
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Ραδιόφωνο
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Μορφοποίηση κομματιών
+TrackWithTitle=Κομμάτι %d: %s
+TrackWithLang=Κομμάτι %d (%s)
+TrackNumber=Κομμάτι %d
+
+; Στοιχεία μενού ταχύτητας
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Στοιχεία μενού κλίμακας
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Κομμάτι υποτίτλων
+SubtitleDisable=Απενεργοποίηση
+
+; Φάση 17: Χρονοδιακόπτης ύπνου
+ToolsSleepTimer=&Χρονοδιακόπτης ύπνου...
+ToolsSleepTimerActive=&Χρονοδιακόπτης ύπνου [%s]
+ToolsCancelTimer=Ακύρωση &χρονοδιακόπτη
+
+; Μενού Ήχος
+Audio=Ή&χος
+AudioTrack=&Κομμάτι ήχου
+AudioVolumeUp=Αύ&ξηση έντασης
+AudioVolumeDown=&Μείωση έντασης
+AudioMute=&Σίγαση
+AudioEqualizer=&Ισοσταθμιστής
+AudioDelay=&Καθυστέρηση ήχου
+AudioDelayPlus=Καθυστέρηση +0.1s
+AudioDelayMinus=Καθυστέρηση -0.1s
+AudioDelayReset=Επαναφορά καθυστέρησης
+AudioNormalize=&Κανονικοποίηση έντασης
+
+; Μενού Βίντεο
+Video=&Βίντεο
+VideoFullscreen=&Πλήρης οθόνη
+VideoAspect=&Αναλογία διαστάσεων
+VideoAspectAuto=&Αυτόματη
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Στιγμιότυπο οθόνης
+VideoScreenshotAs=Στιγμιότυπο οθόνης &ως...
+VideoRotation=&Περιστροφή
+VideoRotate0=&0° (Κανονική)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Αναστροφή
+VideoFlipH=Αναστροφή &οριζόντια
+VideoFlipV=Αναστροφή &κατακόρυφα
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Ζουμ
+VideoZoomIn=&Μεγέθυνση
+VideoZoomOut=&Σμίκρυνση
+VideoZoomReset=&Επαναφορά ζουμ
+VideoPan=&Μετακίνηση
+VideoPanLeft=Μετακίνηση &αριστερά
+VideoPanRight=Μετακίνηση &δεξιά
+VideoPanUp=Μετακίνηση &πάνω
+VideoPanDown=Μετακίνηση &κάτω
+VideoPanReset=Επ&αναφορά μετακίνησης
+VideoTrack=Κομμάτι &βίντεο
+VideoColors=Ρυθμίσεις &χρωμάτων
+VideoBrightness=&Φωτεινότητα
+VideoContrast=&Αντίθεση
+VideoSaturation=&Κορεσμός
+VideoHue=&Απόχρωση
+VideoGamma=&Γάμμα
+VideoColorsReset=Επαναφορά &όλων των χρωμάτων
+VideoIncrease=Αύξηση (+5)
+VideoDecrease=Μείωση (-5)
+VideoReset=Επαναφορά
+VideoAdjustDialog=&Ρυθμίσεις βίντεο...
+
+; Μενού Προβολή
+View=Προ&βολή
+ViewAlwaysOnTop=&Πάντα στην κορυφή
+ViewFitToVideo=&Προσαρμογή παραθύρου στο βίντεο
+ViewScale=&Κλίμακα παραθύρου
+
+; Φάση 26: Μενού οπτικοποίησης
+ViewVisualization=&Οπτικοποίηση
+VisNone=&Καμία
+VisSpectrum=&Αναλυτής φάσματος
+VisWaveform=&Κυματομορφή
+VisVector=&Διανυσματοσκόπιο
+VisVolume=&Μετρητής VU
+VisNextMode=Επόμενη &λειτουργία
+VisNextColor=Επόμενο &χρωματικό σχήμα
+
+; Μενού Υπότιτλοι
+Subtitles=&Υπότιτλοι
+SubtitleTrack=&Κομμάτι υποτίτλων
+SubtitleLoad=&Φόρτωση υποτίτλων...
+SubtitleDelay=&Καθυστέρηση υποτίτλων
+SubtitleDelayPlus=Καθυστέρηση +0.1s
+SubtitleDelayMinus=Καθυστέρηση -0.1s
+SubtitleDelayReset=Επαναφορά καθυστέρησης
+
+; Μενού Εργαλεία
+Tools=&Εργαλεία
+ToolsPlaylist=&Λίστα αναπαραγωγής
+ToolsRadios=&Ραδιόφωνα
+ToolsShortcuts=&Συντομεύσεις πληκτρολογίου...
+ToolsOptions=&Επιλογές
+
+; Φάση 27: Μενού εγγραφής
+ToolsRecord=&Εγγραφή ροής...
+ToolsStopRecord=Δ&ιακοπή εγγραφής
+ToolsRecording=&Εγγραφή...
+
+; Μενού Βοήθεια
+Help=&Βοήθεια
+HelpMediaInfo=&Πληροφορίες μέσου
+HelpLog=&Παράθυρο καταγραφής
+HelpAbout=&Σχετικά
+
+[Dialog]
+OpenFile=Άνοιγμα αρχείου
+OpenURL=Άνοιγμα URL
+SaveScreenshot=Αποθήκευση στιγμιότυπου οθόνης
+LoadSubtitle=Φόρτωση αρχείου υποτίτλων
+EnterURL=Εισαγάγετε URL:
+ResumePlayback=Συνέχιση αναπαραγωγής
+ResumeFrom=Συνέχιση από %s;
+ClearRecentFiles=Εκκαθάριση πρόσφατων αρχείων
+NoRecentFiles=(Κανένα πρόσφατο αρχείο)
+NoAudioTracks=(Κανένα κομμάτι ήχου)
+NoVideoTracks=(Κανένα κομμάτι βίντεο)
+NoSubtitleTracks=(Κανένα κομμάτι υποτίτλων)
+NoChapters=(Κανένα κεφάλαιο)
+OpenDVD=Άνοιγμα DVD
+OpenBluray=Άνοιγμα Blu-ray
+OpenFolder=Άνοιγμα φακέλου
+
+; Φίλτρα αρχείων
+ScreenshotFilter=Εικόνα PNG|*.png|Εικόνα JPEG|*.jpg|Εικόνα WebP|*.webp
+DVDFilter=Φάκελος DVD|*.;*.iso|Όλα τα αρχεία (*.*)|*.*
+BlurayFilter=Φάκελος Blu-ray|*.;*.iso|Όλα τα αρχεία (*.*)|*.*
+NoDVD=(Κανένα DVD φορτωμένο)
+DVDTitle=Τίτλος %d
+GotoTime=Μετάβαση σε χρόνο
+EnterTime=Εισαγάγετε τον χρόνο μετάβασης:
+Hours=Ώρες
+Minutes=Λεπτά
+Seconds=Δευτερόλεπτα
+Current=Τρέχων:
+HistoryTitle=Ιστορικό αναπαραγωγής
+HistoryItems=%d στοιχεία στο ιστορικό
+HistoryPlay=&Αναπαραγωγή
+HistoryRemove=&Αφαίρεση από το ιστορικό
+HistoryClear=&Εκκαθάριση όλου του ιστορικού
+HistoryOpenFolder=Άνοιγμα &φακέλου
+HistoryCopyPath=&Αντιγραφή διαδρομής
+ClearHistory=Εκκαθάριση ιστορικού
+ClearHistoryConfirm=Είστε σίγουροι ότι θέλετε να εκκαθαρίσετε όλο το ιστορικό;
+SleepTimerTitle=Χρονοδιακόπτης ύπνου
+SleepTimerDescription=Ορισμός χρονοδιακόπτη για αυτόματη διακοπή αναπαραγωγής
+SleepTimerHours=Ώρες
+SleepTimerMinutes=Λεπτά
+SleepTimerQuickSet=Γρήγορος ορισμός
+SleepTimerAction=Όταν λήξει ο χρονοδιακόπτης
+SleepTimerStopPlayback=Διακοπή αναπαραγωγής
+SleepTimerCloseApp=Κλείσιμο εφαρμογής
+SleepTimerShutdown=Τερματισμός υπολογιστή
+SleepTimerStart=Έναρξη χρονοδιακόπτη
+
+[Status]
+Ready=Έτοιμο
+Opening=Άνοιγμα...
+Playing=Αναπαραγωγή
+Paused=Σε παύση
+Stopped=Διακοπή
+Error=Σφάλμα
+Buffering=Προσωρινή αποθήκευση...
+Seeking=Αναζήτηση...
+Recording=Εγγραφή
+
+[Message]
+SpeedFormat=Ταχύτητα: %.2fx
+VolumeFormat=Ένταση: %d%%
+BrightnessFormat=Φωτεινότητα: %d
+ContrastFormat=Αντίθεση: %d
+SaturationFormat=Κορεσμός: %d
+HueFormat=Απόχρωση: %d
+GammaFormat=Γάμμα: %d
+ColorsReset=Τα χρώματα βίντεο επαναφέρθηκαν
+LoopASet=Το σημείο A του βρόχου ορίστηκε στο %s
+LoopBSet=Το σημείο B του βρόχου ορίστηκε στο %s - Ο βρόχος είναι ενεργός
+LoopCleared=Ο βρόχος A-B εκκαθαρίστηκε
+SetAFirst=Ορίστε πρώτα το σημείο A (πατήστε L)
+RotationFormat=Περιστροφή: %d°
+FlipHOn=Οριζόντια αναστροφή: ΕΝ
+FlipHOff=Οριζόντια αναστροφή: ΑΠ
+FlipVOn=Κατακόρυφη αναστροφή: ΕΝ
+FlipVOff=Κατακόρυφη αναστροφή: ΑΠ
+DeinterlaceOn=Deinterlace: ΕΝ
+DeinterlaceOff=Deinterlace: ΑΠ
+AlwaysOnTopOn=Πάντα στην κορυφή: ΕΝ
+AlwaysOnTopOff=Πάντα στην κορυφή: ΑΠ
+WindowFitted=Το παράθυρο προσαρμόστηκε σε %dx%d
+WindowScale=Κλίμακα παραθύρου: %.0f%%
+ScreenshotSaved=Το στιγμιότυπο οθόνης αποθηκεύτηκε: %s
+AudioNormalizeOn=Κανονικοποίηση ήχου: ΕΝ
+AudioNormalizeOff=Κανονικοποίηση ήχου: ΑΠ
+AudioDelayFormat=Καθυστέρηση ήχου: %.1f δ
+SubtitleDelayFormat=Καθυστέρηση υποτίτλων: %.1f δ
+ZoomFormat=Ζουμ: %.0f%%
+PanCenter=Μετακίνηση: Κέντρο
+PanFormat=Μετακίνηση: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Κανένα βίντεο φορτωμένο
+PlayingFromClipboard=Αναπαραγωγή από το πρόχειρο: %s
+ClipboardInvalid=Το πρόχειρο δεν περιέχει έγκυρο URL ή διαδρομή
+ClipboardEmpty=Το πρόχειρο είναι κενό ή δεν περιέχει κείμενο
+ResumedAt=Συνέχιση στο %s
+FrameStepForward=Βήμα καρέ μπροστά
+FrameStepBackward=Βήμα καρέ πίσω
+PreviousChapter=Προηγούμενο κεφάλαιο
+NextChapter=Επόμενο κεφάλαιο
+PlayingRadio=Αναπαραγωγή ραδιοφώνου: %s
+PlayingDVD=Αναπαραγωγή DVD: %s
+PlayingBluray=Αναπαραγωγή Blu-ray: %s
+DVDTitlePlaying=Τίτλος DVD %d
+SeekTo=Μετάβαση στο %s
+MinimizedToTray=Ελαχιστοποιήθηκε στην περιοχή ειδοποιήσεων. Κάντε διπλό κλικ για επαναφορά.
+SleepTimerSet=Ο χρονοδιακόπτης ύπνου ορίστηκε: %s
+SleepTimerCancelled=Ο χρονοδιακόπτης ύπνου ακυρώθηκε
+SleepTimerWarning=Χρονοδιακόπτης ύπνου: απομένει 1 λεπτό
+SleepTimerFinal=Χρονοδιακόπτης ύπνου: απομένουν 10 δευτερόλεπτα
+SleepTimerStopped=Χρονοδιακόπτης ύπνου: Η αναπαραγωγή σταμάτησε
+SleepTimerClosing=Χρονοδιακόπτης ύπνου: Κλείσιμο εφαρμογής
+SleepTimerShutdown=Χρονοδιακόπτης ύπνου: Τερματισμός υπολογιστή
+SleepTimerExpired=Ο χρονοδιακόπτης ύπνου έληξε
+ShutdownManual=Παρακαλώ τερματίστε τον υπολογιστή χειροκίνητα.
+
+; Φάση 21: Άνοιγμα φακέλου
+FolderOpened=Ο φάκελος άνοιξε: %d αρχεία
+NoMediaFound=Δεν βρέθηκαν αρχεία πολυμέσων
+FilesAdded=%d αρχεία προστέθηκαν στη λίστα αναπαραγωγής
+
+; Φάση 27: Μηνύματα εγγραφής
+RecordNeedPlayback=Ξεκινήστε την αναπαραγωγή πριν την εγγραφή.
+RecordingStarted=Η εγγραφή ξεκίνησε
+RecordingStopped=Η εγγραφή σταμάτησε
+
+; Επιπλέον μηνύματα κατάστασης
+EndOfPlaylist=Τέλος λίστας αναπαραγωγής
+NoMediaLoaded=Κανένα αρχείο πολυμέσων δεν είναι φορτωμένο.
+JumpedToNamed=Μετάβαση στο: %s
+ChapterFormat=Κεφάλαιο %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Σελιδοδείκτης στο %s
+
+[Label]
+Muted=Σε σίγαση
+
+[Button]
+Play=Αναπαραγωγή
+Pause=Παύση
+Stop=Διακοπή
+Previous=Προηγούμενο
+Next=Επόμενο
+Mute=Σίγαση
+Unmute=Κατάργηση σίγασης
+Fullscreen=Πλήρης οθόνη
+OK=OK
+Cancel=Ακύρωση
+Apply=Εφαρμογή
+Close=Κλείσιμο
+Yes=Ναι
+No=Όχι
+
+[Tooltip]
+Play=Αναπαραγωγή/Παύση
+Stop=Διακοπή αναπαραγωγής
+Previous=Προηγούμενο κομμάτι
+Next=Επόμενο κομμάτι
+Mute=Εναλλαγή σίγασης
+Volume=Ένταση
+Seek=Θέση αναζήτησης
+Fullscreen=Εναλλαγή πλήρους οθόνης
+
+[Playlist]
+Title=Λίστα αναπαραγωγής
+Add=Προσθήκη
+Remove=Αφαίρεση
+Clear=Εκκαθάριση
+MoveUp=Μετακίνηση πάνω
+MoveDown=Μετακίνηση κάτω
+Shuffle=Τυχαία
+Repeat=Επανάληψη
+Play=Αναπαραγωγή
+ShuffleOn=Τυχαία: Ενεργό
+ShuffleOff=Τυχαία: Ανενεργό
+RepeatOff=Επανάληψη: Ανενεργό
+RepeatOne=Επανάληψη: Ένα
+RepeatAll=Επανάληψη: Όλα
+SavePlaylist=Αποθήκευση
+LoadPlaylist=Φόρτωση
+TotalDuration=Σύνολο: %s
+ItemCount=%d στοιχεία
+
+; Φάση 22: Βελτιώσεις λίστας αναπαραγωγής
+Search=Αναζήτηση:
+FilterPlaceholder=Φιλτράρισμα λίστας αναπαραγωγής...
+ClearSearch=Εκκαθάριση
+FilterCount=%d/%d
+RemoveDuplicates=Αφαίρεση &διπλότυπων
+Properties=&Ιδιότητες...
+NoDuplicates=Δεν βρέθηκαν διπλότυπα.
+DuplicatesFound=Βρέθηκαν %d διπλότυπα. Να αφαιρεθούν;
+RemoveDuplicatesTitle=Αφαίρεση διπλότυπων
+PropertiesTitle=Ιδιότητες λίστας αναπαραγωγής
+PropTotalItems=Σύνολο στοιχείων: %d
+PropTotalDuration=Συνολική διάρκεια: %s
+PropPlayed=Αναπαράχθηκαν: %d
+PropUnplayed=Δεν αναπαράχθηκαν: %d
+PropTotalSize=Συνολικό μέγεθος: %.2f MB
+PropShuffle=Τυχαία: %s
+PropRepeat=Επανάληψη: %s
+On=Ενεργό
+Off=Ανενεργό
+
+; Νέα κλειδιά για ApplyLocale
+ClearTitle=Εκκαθάριση λίστας αναπαραγωγής
+ClearConfirm=Είστε σίγουροι ότι θέλετε να εκκαθαρίσετε τη λίστα αναπαραγωγής;
+NoPlaylist=Καμία λίστα αναπαραγωγής
+StatusFormat=%d στοιχεία | Σύνολο: %s
+RepeatOne=Επαν. 1
+RepeatAll=Επαν. όλα
+HintRepeatEnable=Κάντε κλικ για ενεργοποίηση επανάληψης όλων
+HintRepeatOne=Επανάληψη ενός - Κάντε κλικ για απενεργοποίηση
+HintRepeatAll=Επανάληψη όλων - Κάντε κλικ για επανάληψη ενός
+HintShuffleRepeat=Τυχαία + Επανάληψη όλων - Κάντε κλικ για απενεργοποίηση επανάληψης
+RemoveDuplicatesTitle=Αφαίρεση διπλότυπων
+NoDuplicates=Δεν βρέθηκαν διπλότυπα.
+SelectAll=Επιλογή όλων
+SelectNone=Αποεπιλογή όλων
+SelectInvert=Αντιστροφή επιλογής
+Sort=Ταξινόμηση
+SortByName=Κατά όνομα
+SortByTitle=Κατά τίτλο
+SortByArtist=Κατά καλλιτέχνη
+SortByDuration=Κατά διάρκεια
+SortReverse=Αντιστροφή
+SortRandom=Τυχαία
+ColTitle=Τίτλος
+ColDuration=Διάρκεια
+ColArtist=Καλλιτέχνης
+ColAlbum=Άλμπουμ
+PlaylistFilter=Λίστα αναπαραγωγής M3U|*.m3u|Λίστα αναπαραγωγής M3U8|*.m3u8|Λίστα αναπαραγωγής PLS|*.pls
+
+[Equalizer]
+Title=Ισοσταθμιστής
+Presets=Προεπιλογές:
+Preamp=Προενίσχυση:
+Flat=Επίπεδο
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Κλασσική
+BassBoost=Ενίσχυση μπάσων
+TrebleBoost=Ενίσχυση πρίμων
+Vocal=Φωνητικά
+Reset=Επαναφορά
+Enable=Ενεργοποίηση ισοσταθμιστή
+Save=Αποθήκευση
+Delete=Διαγραφή
+Ready=Έτοιμο
+; Κουμπιά και ενέργειες
+SavePreset=Αποθήκευση προεπιλογής
+DeletePreset=Διαγραφή προεπιλογής
+SavePresetTitle=Αποθήκευση προεπιλογής
+PresetNamePrompt=Όνομα προεπιλογής:
+EnterPresetName=Παρακαλώ εισαγάγετε όνομα προεπιλογής.
+OverwritePresetTitle=Αντικατάσταση προεπιλογής
+OverwritePresetConfirm=Μια προεπιλογή με αυτό το όνομα υπάρχει ήδη. Να αντικατασταθεί;
+PresetUpdated=Η προεπιλογή ενημερώθηκε: %s
+PresetSaved=Η προεπιλογή αποθηκεύτηκε: %s
+SelectPresetToDelete=Παρακαλώ επιλέξτε μια προεπιλογή για διαγραφή.
+CannotDeleteDefault=Δεν είναι δυνατή η διαγραφή προεπιλεγμένων ρυθμίσεων.
+DeletePresetTitle=Διαγραφή προεπιλογής
+DeletePresetConfirm=Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την προεπιλογή;
+PresetDeleted=Η προεπιλογή διαγράφηκε
+ResetToFlat=Ο ισοσταθμιστής επαναφέρθηκε σε επίπεδο
+PresetApplied=Εφαρμόστηκε η προεπιλογή: %s
+
+[Options]
+Title=Επιλογές
+General=Γενικά
+Video=Βίντεο
+Audio=Ήχος
+Subtitles=Υπότιτλοι
+Cache=Προσωρινή μνήμη
+Language=Γλώσσα:
+RestartRequired=Απαιτείται επανεκκίνηση για εφαρμογή των αλλαγών
+
+; Καρτέλα Γενικά - Συμπεριφορά
+Behavior=Συμπεριφορά
+SingleInstance=Να επιτρέπεται μόνο μία παρουσία
+AutoPlay=Αυτόματη αναπαραγωγή κατά το άνοιγμα
+AutoResume=Συνέχιση θέσης αναπαραγωγής
+MinimizeToTray=Ελαχιστοποίηση στην περιοχή ειδοποιήσεων
+AutoSavePlaylist=Αποθήκευση λίστας αναπαραγωγής κατά την έξοδο
+
+; Καρτέλα Γενικά - OSD
+OSD=Εμφάνιση στην οθόνη
+ShowOSD=Εμφάνιση μηνυμάτων στην οθόνη
+ShowTrayIcon=Εμφάνιση εικονιδίου στην περιοχή ειδοποιήσεων
+OSDDuration=Διάρκεια OSD (ms):
+
+; Καρτέλα Γενικά - Στιγμιότυπα οθόνης
+Screenshots=Στιγμιότυπα οθόνης
+ScreenshotPath=Φάκελος αποθήκευσης:
+ScreenshotFormat=Μορφή:
+
+; Καρτέλα Γενικά - Ιστορικό
+HistorySettings=Ιστορικό
+HistoryEnabled=Ενεργοποίηση ιστορικού αναπαραγωγής
+HistoryMaxItems=Μέγ. στοιχεία:
+
+; Καρτέλα Γενικά - Γλώσσα
+LanguageGroup=Γλώσσα
+RestartNote=(Απαιτείται επανεκκίνηση για αλλαγές)
+
+; Καρτέλα Βίντεο
+VideoAdjust=Ρυθμίσεις βίντεο
+Brightness=Φωτεινότητα:
+Contrast=Αντίθεση:
+Saturation=Κορεσμός:
+Hue=Απόχρωση:
+Gamma=Γάμμα:
+VideoOutput=Έξοδος βίντεο
+Output=Έξοδος:
+HWAccel=Ενεργοποίηση επιτάχυνσης υλικού
+Deinterlacing=Deinterlacing
+Mode=Λειτουργία:
+
+; Καρτέλα Ήχος
+AudioOutput=Έξοδος ήχου
+OutputDriver=Πρόγραμμα οδήγησης εξόδου:
+Device=Συσκευή:
+AudioOptions=Επιλογές ήχου
+NormalizeAudio=Κανονικοποίηση έντασης ήχου
+Channels=Κανάλια:
+
+; Καρτέλα Υπότιτλοι
+UseDefaultSubtitles=Χρήση προεπιλεγμένων ρυθμίσεων υποτίτλων
+Font=Γραμματοσειρά
+FontName=Γραμματοσειρά:
+FontSize=Μέγεθος:
+FontColor=Χρώμα:
+Bold=Έντονα
+Italic=Πλάγια
+Outline=Περίγραμμα
+OutlineColor=Χρώμα:
+OutlineSize=Μέγεθος:
+Position=Θέση
+VerticalPosition=Κατακόρυφη θέση:
+SubOptions=Επιλογές
+Encoding=Κωδικοποίηση:
+AutoLoadSubs=Αυτόματη φόρτωση αρχείων υποτίτλων
+
+; Προειδοποιήσεις εξόδου βίντεο
+VOWarningX11=Προειδοποίηση: Το x11 δεν υποστηρίζει ρυθμίσεις βίντεο (φωτεινότητα, αντίθεση κ.λπ.)
+VOWarningWayland=Προειδοποίηση: Απαιτεί συνεδρία Wayland. Οι ρυθμίσεις βίντεο υποστηρίζονται.
+
+; Καρτέλα Προσωρινή μνήμη
+CacheSettings=Μεγέθη buffer προσωρινής μνήμης (KB)
+CacheDefault=Προεπιλεγμένη μνήμη:
+CacheLocal=Τοπικά αρχεία:
+CacheNetwork=Αρχεία δικτύου:
+CacheInternet=Ροές διαδικτύου:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Σχετικά
+Version=Έκδοση
+Engine=Μηχανή
+Technology=Τεχνολογία
+BuildInfo=Πληροφορίες κατασκευής
+SystemInfo=Σύστημα
+Credits=Συντελεστές
+Developer=Προγραμματιστής:
+Author=Συγγραφέας
+License=Άδεια
+Website=Ιστοσελίδα
+GitHub=GitHub
+Description=Ένα σύγχρονο, ελαφρύ πρόγραμμα αναπαραγωγής πολυμέσων
+LicenseText=Το 3nity Media διατίθεται υπό την άδεια GPL-2.0\n\nΑυτό σημαίνει ότι είστε ελεύθεροι να:\n  • Χρησιμοποιήσετε το λογισμικό για οποιονδήποτε σκοπό\n  • Μελετήσετε και τροποποιήσετε τον πηγαίο κώδικα\n  • Διανείμετε αντίγραφα του λογισμικού\n  • Διανείμετε τις τροποποιήσεις σας\n\nΥπό την προϋπόθεση ότι οι διανεμόμενες τροποποιήσεις\nδιατίθενται επίσης υπό την άδεια GPL-2.0.
+BuildDate=Ημερομηνία:
+Target=Στόχος:
+Kernel=Πυρήνας:
+
+[Shortcuts]
+Title=Συντομεύσεις πληκτρολογίου
+Description=Ρύθμιση συντομεύσεων πληκτρολογίου για ενέργειες
+Search=Αναζήτηση:
+PressKey=Πατήστε ένα πλήκτρο...
+ColCategory=Κατηγορία
+ColAction=Ενέργεια
+ColShortcut=Συντόμευση
+Assign=Ανάθεση
+Clear=Εκκαθάριση
+Reset=Επαναφορά
+ResetAll=Επαναφορά όλων
+CurrentShortcut=Τρέχουσα: %s
+NoKeyPressed=Πατήστε πρώτα έναν συνδυασμό πλήκτρων.
+Conflict=Σύγκρουση: Έχει ήδη ανατεθεί στο "%s"
+ConfirmReplace=Αντικατάσταση συντόμευσης
+ReplaceMessage=Αυτή η συντόμευση έχει ήδη ανατεθεί στο "%s". Θέλετε να την αντικαταστήσετε;
+ConfirmResetAll=Επαναφορά όλων των συντομεύσεων
+ResetAllMessage=Είστε σίγουροι ότι θέλετε να επαναφέρετε όλες τις συντομεύσεις στις προεπιλεγμένες τιμές;
+; Ονόματα ενεργειών
+ActPlayPause=Αναπαραγωγή / Παύση
+ActStop=Διακοπή
+ActPrevious=Προηγούμενο
+ActNext=Επόμενο
+ActSeekForward=Μετάβαση μπροστά (10δ)
+ActSeekBackward=Μετάβαση πίσω (10δ)
+ActSeekForward5=Μετάβαση μπροστά (1 λεπ)
+ActSeekBackward5=Μετάβαση πίσω (1 λεπ)
+ActSpeedUp=Αύξηση ταχύτητας
+ActSpeedDown=Μείωση ταχύτητας
+ActSpeedReset=Επαναφορά ταχύτητας
+ActSetLoopA=Ορισμός σημείου βρόχου A
+ActSetLoopB=Ορισμός σημείου βρόχου B
+ActClearLoop=Εκκαθάριση βρόχου A-B
+ActFrameForward=Καρέ μπροστά
+ActFrameBackward=Καρέ πίσω
+ActPrevChapter=Προηγούμενο κεφάλαιο
+ActNextChapter=Επόμενο κεφάλαιο
+ActGotoTime=Μετάβαση σε χρόνο
+ActVolumeUp=Αύξηση έντασης
+ActVolumeDown=Μείωση έντασης
+ActMute=Σίγαση / Κατάργηση σίγασης
+ActAudioDelayPlus=Καθυστέρηση ήχου +
+ActAudioDelayMinus=Καθυστέρηση ήχου -
+ActAudioDelayReset=Επαναφορά καθυστέρησης ήχου
+ActFullscreen=Πλήρης οθόνη
+ActRotate=Περιστροφή βίντεο
+ActDeinterlace=Deinterlace
+ActZoomIn=Μεγέθυνση
+ActZoomOut=Σμίκρυνση
+ActZoomReset=Επαναφορά ζουμ
+ActAlwaysOnTop=Πάντα στην κορυφή
+ActFitToVideo=Προσαρμογή στο βίντεο
+ActScreenshot=Στιγμιότυπο οθόνης
+ActVideoAdjust=Ρυθμίσεις βίντεο
+ActVisNextMode=Επόμενη λειτουργία οπτικοποίησης
+ActVisNextColor=Επόμενο χρωματικό σχήμα
+ActSubDelayPlus=Καθυστέρηση υποτίτλων +
+ActSubDelayMinus=Καθυστέρηση υποτίτλων -
+ActSubDelayReset=Επαναφορά καθυστέρησης υποτίτλων
+ActDVDMenu=Μενού DVD
+ActDVDUp=Πλοήγηση DVD πάνω
+ActDVDDown=Πλοήγηση DVD κάτω
+ActDVDLeft=Πλοήγηση DVD αριστερά
+ActDVDRight=Πλοήγηση DVD δεξιά
+ActDVDSelect=Επιλογή DVD
+ActOpenFile=Άνοιγμα αρχείου
+ActOpenURL=Άνοιγμα URL
+ActPlaylist=Εμφάνιση λίστας αναπαραγωγής
+ActQuit=Έξοδος
+
+[Log]
+; Φάση 25: Παράθυρο καταγραφής
+Title=Καταγραφή MPV
+Command=Εντολή:
+Clear=Εκκαθάριση
+Save=Αποθήκευση...
+Copy=&Αντιγραφή
+SelectAll=Επιλογή &όλων
+SaveTitle=Αποθήκευση καταγραφής
+SaveFilter=Αρχεία κειμένου (*.txt)|*.txt|Όλα τα αρχεία (*.*)|*.*
+ErrorTitle=Σφάλμα
+SaveError=Αποτυχία αποθήκευσης καταγραφής: %s
+
+[MediaInfo]
+Title=Πληροφορίες μέσου
+FileTab=Αρχείο
+VideoTab=Βίντεο
+AudioTab=Ήχος
+MetadataTab=Μεταδεδομένα
+FileName=Όνομα αρχείου:
+FilePath=Διαδρομή:
+FileSize=Μέγεθος:
+Duration=Διάρκεια:
+Format=Μορφή:
+Bitrate=Ρυθμός bit:
+Codec=Κωδικοποιητής:
+Resolution=Ανάλυση:
+FrameRate=Ρυθμός καρέ:
+PixelFormat=Μορφή εικονοστοιχείων:
+AspectRatio=Αναλογία διαστάσεων:
+Channels=Κανάλια:
+SampleRate=Ρυθμός δειγματοληψίας:
+Language=Γλώσσα:
+Property=Ιδιότητα
+Value=Τιμή
+CopyAll=Αντιγραφή όλων
+CopiedToClipboard=Οι πληροφορίες μέσου αντιγράφηκαν στο πρόχειρο.
+NA=Δ/Υ
+NAStream=Δ/Υ (ροή)
+NALive=Δ/Υ (ζωντανά)
+ChannelMono=1 (Μονοφωνικό)
+ChannelStereo=2 (Στερεοφωνικό)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Άγνωστο
+NoMetadata=(Κανένα μεταδεδομένο)
+
+[Bookmarks]
+Title=Σελιδοδείκτες
+Goto=Μετάβαση
+Remove=Αφαίρεση
+Clear=Εκκαθάριση όλων
+Refresh=Ανανέωση
+OpenFolder=Άνοιγμα φακέλου
+CopyPath=Αντιγραφή διαδρομής
+; Στήλες
+ColName=Όνομα
+ColFile=Αρχείο
+ColPosition=Θέση
+ColCreated=Δημιουργήθηκε
+; Διαλόγοι
+ClearTitle=Εκκαθάριση σελιδοδεικτών
+ClearConfirm=Είστε σίγουροι ότι θέλετε να εκκαθαρίσετε όλους τους σελιδοδείκτες;
+Count=%d σελιδοδείκτες
+
+[Favorites]
+Title=Αγαπημένα
+Play=Αναπαραγωγή
+Remove=Αφαίρεση
+Clear=Εκκαθάριση όλων
+Refresh=Ανανέωση
+OpenFolder=Άνοιγμα φακέλου
+CopyPath=Αντιγραφή διαδρομής
+; Στήλες
+ColName=Όνομα
+ColType=Τύπος
+ColPath=Διαδρομή
+; Τύποι
+TypeFile=Αρχείο
+TypeURL=URL
+TypeRadio=Ραδιόφωνο
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Άγνωστο
+; Διαλόγοι
+ClearTitle=Εκκαθάριση αγαπημένων
+ClearConfirm=Είστε σίγουροι ότι θέλετε να εκκαθαρίσετε όλα τα αγαπημένα;
+Count=%d αγαπημένα
+
+[History]
+Title=Ιστορικό αναπαραγωγής
+Play=Αναπαραγωγή
+Remove=Αφαίρεση
+Clear=Εκκαθάριση όλων
+Refresh=Ανανέωση
+OpenFolder=Άνοιγμα φακέλου
+CopyPath=Αντιγραφή διαδρομής
+; Στήλες
+ColFileName=Αρχείο
+ColPath=Διαδρομή
+; Διαλόγοι
+ClearTitle=Εκκαθάριση ιστορικού
+ClearConfirm=Είστε σίγουροι ότι θέλετε να εκκαθαρίσετε όλο το ιστορικό;
+Count=%d στοιχεία
+
+[SleepTimer]
+Title=Χρονοδιακόπτης ύπνου
+Description=Ορισμός χρονοδιακόπτη για αυτόματη διακοπή αναπαραγωγής
+Hours=Ώρες:
+Minutes=Λεπτά:
+Action=Όταν λήξει ο χρονοδιακόπτης:
+StopPlayback=Διακοπή αναπαραγωγής
+CloseApp=Κλείσιμο εφαρμογής
+Shutdown=Τερματισμός υπολογιστή
+QuickSet=Γρήγορος ορισμός:
+15Min=15 λεπ
+30Min=30 λεπ
+1Hour=1 ώρα
+2Hours=2 ώρες
+
+[Radios]
+Title=Διαδικτυακά ραδιόφωνα
+Play=Αναπαραγωγή
+Add=Προσθήκη
+Edit=Επεξεργασία
+Delete=Διαγραφή
+Remove=Αφαίρεση
+Import=Εισαγωγή
+Export=Εξαγωγή
+Refresh=Ανανέωση
+Favorite=Αγαπημένο
+ShowFavorites=Αγαπημένα
+ShowAll=Όλα
+; Φίλτρο
+Genre=Είδος:
+Search=Αναζήτηση:
+SearchBtn=Αναζήτηση
+ClearSearch=Εκκαθάριση
+AllGenres=(Όλα τα είδη)
+; Μενού περιβάλλοντος
+AddFavorite=Προσθήκη στα αγαπημένα
+RemoveFavorite=Αφαίρεση από τα αγαπημένα
+AddCustom=Προσθήκη προσαρμοσμένου σταθμού...
+EditCustom=Επεξεργασία σταθμού...
+DeleteCustom=Διαγραφή σταθμού
+OpenWebsite=Άνοιγμα ιστοσελίδας
+CopyURL=Αντιγραφή URL
+; Στήλες
+ColName=Όνομα
+ColGenre=Είδος
+ColBitrate=Ρυθμός bit
+ColCountry=Χώρα
+ColCodec=Κωδικοποιητής
+; Διαλόγοι
+AddTitle=Προσθήκη προσαρμοσμένου σταθμού
+EditTitle=Επεξεργασία σταθμού
+DeleteTitle=Διαγραφή σταθμού
+DeleteConfirm=Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον σταθμό;
+StationName=Όνομα σταθμού:
+StreamURL=URL ροής:
+GenrePrompt=Είδος:
+NameURLRequired=Απαιτούνται όνομα και URL.
+; Μηνύματα κατάστασης
+LoadingIcecast=Φόρτωση σταθμών από τον κατάλογο Icecast...
+IcecastError=Δεν ήταν δυνατή η φόρτωση του καταλόγου Icecast. Χρήση προεπιλεγμένων σταθμών.
+NoStationsLoaded=Δεν φορτώθηκαν σταθμοί
+StationCount=%d σταθμοί
+LoadedStations=Φορτώθηκαν %d σταθμοί
+ErrorPrefix=Σφάλμα:
+; Παλαιά κλειδιά
+Name=Όνομα
+URL=URL
+Bitrate=Ρυθμός bit
+Description=Περιγραφή
+Country=Χώρα
+
+[OpenURL]
+Title=Άνοιγμα URL
+Prompt=Εισαγάγετε URL πολυμέσου:
+
+[GotoTime]
+Title=Μετάβαση σε χρόνο
+EnterTime=Εισαγάγετε χρόνο μετάβασης:
+Hours=Ω
+Minutes=Λ
+Seconds=Δ
+Current=Τρέχων:
+Duration=Διάρκεια:
+
+[VideoAdjust]
+Title=Ρυθμίσεις βίντεο
+Brightness=Φωτεινότητα:
+Contrast=Αντίθεση:
+Saturation=Κορεσμός:
+Hue=Απόχρωση:
+Gamma=Γάμμα:
+ResetAll=Επαναφορά όλων των χρωμάτων
+
+[CLI]
+; Μηνύματα γραμμής εντολών
+Usage=Χρήση
+Arguments=[ΕΠΙΛΟΓΕΣ] [ΑΡΧΕΙΟ|URL|ΦΑΚΕΛΟΣ]
+Description=Διαπλατφορμικό πρόγραμμα αναπαραγωγής πολυμέσων με backend libmpv.
+Options=ΕΠΙΛΟΓΕΣ
+Examples=ΠΑΡΑΔΕΙΓΜΑΤΑ
+MoreInfo=Για περισσότερες πληροφορίες, επισκεφθείτε
+EnqueuedTo=Προστέθηκε στην υπάρχουσα παρουσία: %s
+SentTo=Στάλθηκε στην υπάρχουσα παρουσία: %s
+AlreadyRunning=Το 3nity Media εκτελείται ήδη.
+ErrorFileNotFound=Σφάλμα: Το αρχείο ή ο φάκελος δεν βρέθηκε: %s
+ErrorSubNotFound=Σφάλμα: Το αρχείο υποτίτλων δεν βρέθηκε: %s

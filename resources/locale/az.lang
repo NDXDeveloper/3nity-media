@@ -1,0 +1,892 @@
+[Language]
+Name=Azerbaijani - Azərbaycan
+Code=az
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Fayl
+FileOpen=&Fayl aç...
+FileOpenURL=&URL aç...
+FileOpenClipboard=&Buferdən aç
+FileRecent=&Son fayllar
+ClearRecentFiles=Son faylları təmizlə
+FileExit=&Çıxış
+
+; Playback menu
+Playback=&Oxutma
+PlaybackPlayPause=&Oxut/Pauza
+PlaybackStop=&Dayandır
+PlaybackPrevious=&Əvvəlki
+PlaybackNext=&Növbəti
+PlaybackSeekForward=&İrəli keç
+PlaybackSeekBackward=&Geri keç
+PlaybackSpeed=&Sürət
+PlaybackABLoop=A-&B döngüsü
+PlaybackSetA=A nöqtəsini &qoy
+PlaybackSetB=B nöqtəsini q&oy
+PlaybackClearAB=A-B-ni &təmizlə
+PlaybackChapters=&Bölümlər
+PlaybackPrevChapter=Əvvəlki bölüm
+PlaybackNextChapter=Növbəti bölüm
+PlaybackFrameStep=Kadr &irəli
+PlaybackFrameBack=Kadr &geri
+
+; DVD Navigation
+PlaybackDVD=DVD &naviqasiya
+DVDMenu=&Menyu
+DVDUp=&Yuxarı
+DVDDown=&Aşağı
+DVDLeft=&Sol
+DVDRight=&Sağ
+DVDSelect=&Seç
+PlaybackDVDTitles=DVD &başlıqlar
+
+; Phase 21: Open Folder
+FileOpenFolder=&Qovluq aç...
+
+; File menu DVD/Bluray
+FileOpenDVD=&DVD aç...
+FileOpenBluray=&Blu-ray aç...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Vaxta keç...
+ToolsHistory=&Tarixçə
+
+; Phase 14: System Tray
+TrayShow=&Göstər/Gizlə
+TrayPlayPause=&Oxut/Pauza
+TrayStop=&Dayandır
+TrayPrevious=&Əvvəlki
+TrayNext=&Növbəti
+TrayMute=&Səssiz
+TrayExit=&Çıxış
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=&Əlfəcin əlavə et...
+PlaybackBookmarks=Əl&fəcinlər
+BookmarksTitle=Əlfəcinlər
+BookmarksGoto=Əlfəcinə &keç
+BookmarksRemove=Əlfəcini &sil
+BookmarksClear=Bütün əlfəcinləri &təmizlə
+BookmarksOpenFolder=&Qovluğu aç
+BookmarksCopyPath=Yolu &kopyala
+BookmarksCount=%d əlfəcin
+NoBookmarks=(Əlfəcin yoxdur)
+NoFileLoaded=(Fayl yüklənməyib)
+BookmarkAdded=Əlfəcin %s-də əlavə edildi
+BookmarkJumped=%s-dəki əlfəcinə keçildi
+AddBookmarkTitle=Əlfəcin əlavə et
+AddBookmarkPrompt=Əlfəcin adını daxil edin:
+ShowAllBookmarks=Bütün əlfəcinləri göstər...
+
+; Phase 16: Favorites
+ToolsFavorites=&Sevimlilər
+ToolsAddFavorite=Sevimlilərə &əlavə et
+FavoritesTitle=Sevimlilər
+FavoritesPlay=&Oxut
+FavoritesRemove=Sevimlilərdən &sil
+FavoritesClear=Bütün sevimliləri &təmizlə
+FavoritesOpenFolder=&Qovluğu aç
+FavoritesCopyPath=Yolu &kopyala
+FavoritesCount=%d sevimli
+NoFavorites=(Sevimli yoxdur)
+AddFavoriteTitle=Sevimlilərə əlavə et
+AddFavoritePrompt=Sevimli üçün ad daxil edin:
+AlreadyFavorite=Artıq sevimlilərdədir
+AddedToFavorites=Sevimlilərə əlavə edildi: %s
+NoFileToFavorite=Sevimlilərə əlavə etmək üçün fayl yüklənməyib
+FavoriteTypeFile=Fayl
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Yol %d: %s
+TrackWithLang=Yol %d (%s)
+TrackNumber=Yol %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Söndür
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&Yuxu taymeri...
+ToolsSleepTimerActive=&Yuxu taymeri [%s]
+ToolsCancelTimer=Taymeri &ləğv et
+
+; Audio menu
+Audio=&Səs
+AudioTrack=Səs &yolu
+AudioVolumeUp=Səsi &artır
+AudioVolumeDown=Səsi &azalt
+AudioMute=&Səssiz
+AudioEqualizer=&Ekvalayzər
+AudioDelay=Səs &gecikməsi
+AudioDelayPlus=Gecikmə +0.1s
+AudioDelayMinus=Gecikmə -0.1s
+AudioDelayReset=Gecikməni sıfırla
+AudioNormalize=Səsi &normallaşdır
+
+; Video menu
+Video=&Video
+VideoFullscreen=&Tam ekran
+VideoAspect=&En-boy nisbəti
+VideoAspectAuto=&Avtomatik
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Ekran şəkli
+VideoScreenshotAs=Ekran şəkli &olaraq...
+VideoRotation=&Döndürmə
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Çevirmə
+VideoFlipH=&Üfüqi çevir
+VideoFlipV=&Şaquli çevir
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Böyütmə
+VideoZoomIn=&Böyüt
+VideoZoomOut=&Kiçilt
+VideoZoomReset=Böyütməni &sıfırla
+VideoPan=&Kaydırma
+VideoPanLeft=&Sola kaydır
+VideoPanRight=Sa&ğa kaydır
+VideoPanUp=&Yuxarı kaydır
+VideoPanDown=&Aşağı kaydır
+VideoPanReset=Kaydırmanı s&ıfırla
+VideoTrack=Video &yolu
+VideoColors=&Rəng tənzimləmələri
+VideoBrightness=&Parlaqlıq
+VideoContrast=&Kontrast
+VideoSaturation=&Doyma
+VideoHue=Rəng &tonu
+VideoGamma=&Qamma
+VideoColorsReset=Bütün rəngləri &sıfırla
+VideoIncrease=Artır (+5)
+VideoDecrease=Azalt (-5)
+VideoReset=Sıfırla
+VideoAdjustDialog=Video &tənzimləmələri...
+
+; View menu
+View=&Görünüş
+ViewAlwaysOnTop=&Həmişə üstdə
+ViewFitToVideo=Pəncərəni &videoya uyğunlaşdır
+ViewScale=Pəncərə &miqyası
+
+; Phase 26: Visualization menu
+ViewVisualization=&Vizualizasiya
+VisNone=&Heç biri
+VisSpectrum=&Spektr analizatoru
+VisWaveform=&Dalğa forması
+VisVector=&Vektor əhatəsi
+VisVolume=S&əviyyə ölçən
+VisNextMode=Növbəti &rejim
+VisNextColor=Növbəti &rəng sxemi
+
+; Subtitles menu
+Subtitles=&Altyazılar
+SubtitleTrack=Altyazı &yolu
+SubtitleLoad=Altyazı &yüklə...
+SubtitleDelay=Altyazı &gecikməsi
+SubtitleDelayPlus=Gecikmə +0.1s
+SubtitleDelayMinus=Gecikmə -0.1s
+SubtitleDelayReset=Gecikməni sıfırla
+
+; Tools menu
+Tools=A&lətlər
+ToolsPlaylist=&Siyahı
+ToolsRadios=&Radiolar
+ToolsShortcuts=&Klaviatura qısayolları...
+ToolsOptions=&Seçimlər
+
+; Phase 27: Recording menu
+ToolsRecord=&Yayımı yaz...
+ToolsStopRecord=Yazını &dayandır
+ToolsRecording=&Yazılır...
+
+; Help menu
+Help=&Yardım
+HelpMediaInfo=&Media məlumatı
+HelpLog=&Jurnal pəncərəsi
+HelpAbout=&Haqqında
+
+[Dialog]
+OpenFile=Fayl aç
+OpenURL=URL aç
+SaveScreenshot=Ekran şəklini saxla
+LoadSubtitle=Altyazı faylı yüklə
+EnterURL=URL daxil edin:
+ResumePlayback=Oxutmanı davam et
+ResumeFrom=%s-dən davam edilsin?
+ClearRecentFiles=Son faylları təmizlə
+NoRecentFiles=(Son fayl yoxdur)
+NoAudioTracks=(Səs yolu yoxdur)
+NoVideoTracks=(Video yolu yoxdur)
+NoSubtitleTracks=(Altyazı yolu yoxdur)
+NoChapters=(Bölüm yoxdur)
+OpenDVD=DVD aç
+OpenBluray=Blu-ray aç
+OpenFolder=Qovluq aç
+
+; File filters
+ScreenshotFilter=PNG şəkil|*.png|JPEG şəkil|*.jpg|WebP şəkil|*.webp
+DVDFilter=DVD qovluğu|*.;*.iso|Bütün fayllar (*.*)|*.*
+BlurayFilter=Blu-ray qovluğu|*.;*.iso|Bütün fayllar (*.*)|*.*
+NoDVD=(DVD yüklənməyib)
+DVDTitle=Başlıq %d
+GotoTime=Vaxta keç
+EnterTime=Keçmək üçün vaxtı daxil edin:
+Hours=Saat
+Minutes=Dəqiqə
+Seconds=Saniyə
+Current=Cari:
+HistoryTitle=Oxutma tarixçəsi
+HistoryItems=Tarixçədə %d element
+HistoryPlay=&Oxut
+HistoryRemove=Tarixçədən &sil
+HistoryClear=Bütün tarixçəni &təmizlə
+HistoryOpenFolder=&Qovluğu aç
+HistoryCopyPath=Yolu &kopyala
+ClearHistory=Tarixçəni təmizlə
+ClearHistoryConfirm=Bütün tarixçəni silmək istədiyinizə əminsiniz?
+SleepTimerTitle=Yuxu taymeri
+SleepTimerDescription=Oxutmanı avtomatik dayandırmaq üçün taymer qur
+SleepTimerHours=Saat
+SleepTimerMinutes=Dəqiqə
+SleepTimerQuickSet=Sürətli qurma
+SleepTimerAction=Taymer bitdikdə
+SleepTimerStopPlayback=Oxutmanı dayandır
+SleepTimerCloseApp=Proqramı bağla
+SleepTimerShutdown=Kompüteri söndür
+SleepTimerStart=Taymeri başlat
+
+[Status]
+Ready=Hazır
+Opening=Açılır...
+Playing=Oxunur
+Paused=Pauzadadır
+Stopped=Dayandırılıb
+Error=Xəta
+Buffering=Buferləşir...
+Seeking=Axtarılır...
+Recording=Yazılır
+
+[Message]
+SpeedFormat=Sürət: %.2fx
+VolumeFormat=Səs: %d%%
+BrightnessFormat=Parlaqlıq: %d
+ContrastFormat=Kontrast: %d
+SaturationFormat=Doyma: %d
+HueFormat=Rəng tonu: %d
+GammaFormat=Qamma: %d
+ColorsReset=Video rəngləri sıfırlandı
+LoopASet=A döngüsü %s-də qoyuldu
+LoopBSet=B döngüsü %s-də qoyuldu - Döngü aktiv
+LoopCleared=A-B döngüsü təmizləndi
+SetAFirst=Əvvəlcə A nöqtəsini qoyun (L düyməsinə basın)
+RotationFormat=Döndürmə: %d°
+FlipHOn=Üfüqi çevirmə: AÇIQ
+FlipHOff=Üfüqi çevirmə: BAĞLI
+FlipVOn=Şaquli çevirmə: AÇIQ
+FlipVOff=Şaquli çevirmə: BAĞLI
+DeinterlaceOn=Deinterlace: AÇIQ
+DeinterlaceOff=Deinterlace: BAĞLI
+AlwaysOnTopOn=Həmişə üstdə: AÇIQ
+AlwaysOnTopOff=Həmişə üstdə: BAĞLI
+WindowFitted=Pəncərə %dx%d ölçüsünə uyğunlaşdırıldı
+WindowScale=Pəncərə miqyası: %.0f%%
+ScreenshotSaved=Ekran şəkli saxlandı: %s
+AudioNormalizeOn=Səs normallaşdırma: AÇIQ
+AudioNormalizeOff=Səs normallaşdırma: BAĞLI
+AudioDelayFormat=Səs gecikməsi: %.1f s
+SubtitleDelayFormat=Altyazı gecikməsi: %.1f s
+ZoomFormat=Böyütmə: %.0f%%
+PanCenter=Kaydırma: Mərkəz
+PanFormat=Kaydırma: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Video yüklənməyib
+PlayingFromClipboard=Buferdən oxunur: %s
+ClipboardInvalid=Buferdə etibarlı URL və ya yol yoxdur
+ClipboardEmpty=Bufer boşdur və ya mətn yoxdur
+ResumedAt=%s-dən davam edildi
+FrameStepForward=Kadr irəli
+FrameStepBackward=Kadr geri
+PreviousChapter=Əvvəlki bölüm
+NextChapter=Növbəti bölüm
+PlayingRadio=Radio oxunur: %s
+PlayingDVD=DVD oxunur: %s
+PlayingBluray=Blu-ray oxunur: %s
+DVDTitlePlaying=DVD başlıq %d
+SeekTo=%s-ə keçilir
+MinimizedToTray=Tepsiyə kiçildildi. Bərpa etmək üçün iki dəfə klikləyin.
+SleepTimerSet=Yuxu taymeri quruldu: %s
+SleepTimerCancelled=Yuxu taymeri ləğv edildi
+SleepTimerWarning=Yuxu taymeri: 1 dəqiqə qaldı
+SleepTimerFinal=Yuxu taymeri: 10 saniyə qaldı
+SleepTimerStopped=Yuxu taymeri: Oxutma dayandırıldı
+SleepTimerClosing=Yuxu taymeri: Proqram bağlanır
+SleepTimerShutdown=Yuxu taymeri: Kompüter sönür
+SleepTimerExpired=Yuxu taymeri bitdi
+ShutdownManual=Zəhmət olmasa kompüterinizi əl ilə söndürün.
+
+; Phase 21: Open Folder
+FolderOpened=Qovluq açıldı: %d fayl
+NoMediaFound=Media faylları tapılmadı
+FilesAdded=Siyahıya %d fayl əlavə edildi
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Yazmadan əvvəl oxutmanı başladın.
+RecordingStarted=Yazma başladı
+RecordingStopped=Yazma dayandırıldı
+
+; Additional status messages
+EndOfPlaylist=Siyahının sonu
+NoMediaLoaded=Hal-hazırda media faylı yüklənməyib.
+JumpedToNamed=Keçildi: %s
+ChapterFormat=Bölüm %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%s-də əlfəcin
+
+[Label]
+Muted=Səssiz
+
+[Button]
+Play=Oxut
+Pause=Pauza
+Stop=Dayandır
+Previous=Əvvəlki
+Next=Növbəti
+Mute=Səssiz
+Unmute=Səsli
+Fullscreen=Tam ekran
+OK=Oldu
+Cancel=Ləğv et
+Apply=Tətbiq et
+Close=Bağla
+Yes=Bəli
+No=Xeyr
+
+[Tooltip]
+Play=Oxut/Pauza
+Stop=Oxutmanı dayandır
+Previous=Əvvəlki yol
+Next=Növbəti yol
+Mute=Səssizi aç/bağla
+Volume=Səs səviyyəsi
+Seek=Axtarış mövqeyi
+Fullscreen=Tam ekranı aç/bağla
+
+[Playlist]
+Title=Siyahı
+Add=Əlavə et
+Remove=Sil
+Clear=Təmizlə
+MoveUp=Yuxarı köçür
+MoveDown=Aşağı köçür
+Shuffle=Qarışdır
+Repeat=Təkrarla
+Play=Oxut
+ShuffleOn=Qarışdırma: Açıq
+ShuffleOff=Qarışdırma: Bağlı
+RepeatOff=Təkrar: Bağlı
+RepeatOne=Təkrar: Bir
+RepeatAll=Təkrar: Hamısı
+SavePlaylist=Saxla
+LoadPlaylist=Yüklə
+TotalDuration=Cəmi: %s
+ItemCount=%d element
+
+; Phase 22: Playlist Enhancements
+Search=Axtar:
+FilterPlaceholder=Siyahını filtrələ...
+ClearSearch=Təmizlə
+FilterCount=%d/%d
+RemoveDuplicates=&Dublikatları sil
+Properties=&Xüsusiyyətlər...
+NoDuplicates=Dublikat tapılmadı.
+DuplicatesFound=%d dublikat tapıldı. Silinsin?
+RemoveDuplicatesTitle=Dublikatları sil
+PropertiesTitle=Siyahı xüsusiyyətləri
+PropTotalItems=Cəmi element: %d
+PropTotalDuration=Cəmi müddət: %s
+PropPlayed=Oxunmuş: %d
+PropUnplayed=Oxunmamış: %d
+PropTotalSize=Cəmi ölçü: %.2f MB
+PropShuffle=Qarışdırma: %s
+PropRepeat=Təkrar: %s
+On=Açıq
+Off=Bağlı
+
+; New keys for ApplyLocale
+ClearTitle=Siyahını təmizlə
+ClearConfirm=Siyahını təmizləmək istədiyinizə əminsiniz?
+NoPlaylist=Siyahı yoxdur
+StatusFormat=%d element | Cəmi: %s
+RepeatOne=Tək. 1
+RepeatAll=Tək. Hamı
+HintRepeatEnable=Hamısını təkrarla aktiv etmək üçün klikləyin
+HintRepeatOne=Birini təkrarla - Söndürmək üçün klikləyin
+HintRepeatAll=Hamısını təkrarla - Birini təkrarla üçün klikləyin
+HintShuffleRepeat=Qarışdır + Hamısını təkrarla - Təkrarı söndürmək üçün klikləyin
+RemoveDuplicatesTitle=Dublikatları sil
+NoDuplicates=Dublikat tapılmadı.
+SelectAll=Hamısını seç
+SelectNone=Heç birini seçmə
+SelectInvert=Seçimi çevir
+Sort=Sırala
+SortByName=Ada görə
+SortByTitle=Başlığa görə
+SortByArtist=Sənətçiyə görə
+SortByDuration=Müddətə görə
+SortReverse=Tərsinə
+SortRandom=Təsadüfi
+ColTitle=Başlıq
+ColDuration=Müddət
+ColArtist=Sənətçi
+ColAlbum=Albom
+PlaylistFilter=M3U siyahısı|*.m3u|M3U8 siyahısı|*.m3u8|PLS siyahısı|*.pls
+
+[Equalizer]
+Title=Ekvalayzər
+Presets=Hazır parametrlər:
+Preamp=Əvvəlcədən güc:
+Flat=Düz
+Rock=Rok
+Pop=Pop
+Jazz=Caz
+Classical=Klassik
+BassBoost=Bas gücləndirmə
+TrebleBoost=Tiz gücləndirmə
+Vocal=Vokal
+Reset=Sıfırla
+Enable=Ekvalayzeri aktiv et
+Save=Saxla
+Delete=Sil
+Ready=Hazır
+; Buttons and actions
+SavePreset=Parametri saxla
+DeletePreset=Parametri sil
+SavePresetTitle=Parametri saxla
+PresetNamePrompt=Parametr adı:
+EnterPresetName=Zəhmət olmasa parametr adı daxil edin.
+OverwritePresetTitle=Parametrin üzərinə yaz
+OverwritePresetConfirm=Bu adda parametr artıq mövcuddur. Üzərinə yazılsın?
+PresetUpdated=Parametr yeniləndi: %s
+PresetSaved=Parametr saxlandı: %s
+SelectPresetToDelete=Zəhmət olmasa silmək üçün parametr seçin.
+CannotDeleteDefault=Standart parametrlər silinə bilməz.
+DeletePresetTitle=Parametri sil
+DeletePresetConfirm=Bu parametri silmək istədiyinizə əminsiniz?
+PresetDeleted=Parametr silindi
+ResetToFlat=Ekvalayzər düz vəziyyətə sıfırlandı
+PresetApplied=Parametr tətbiq edildi: %s
+
+[Options]
+Title=Seçimlər
+General=Ümumi
+Video=Video
+Audio=Səs
+Subtitles=Altyazılar
+Cache=Keş
+Language=Dil:
+RestartRequired=Dəyişikliklərin qüvvəyə minməsi üçün yenidən başlatma tələb olunur
+
+; General tab - Behavior
+Behavior=Davranış
+SingleInstance=Yalnız bir nümunəyə icazə ver
+AutoPlay=Açıldıqda avtomatik oxut
+AutoResume=Oxutma mövqeyini bərpa et
+MinimizeToTray=Sistem tepsiyinə kiçilt
+AutoSavePlaylist=Çıxışda siyahını saxla
+
+; General tab - OSD
+OSD=Ekranda göstərmə
+ShowOSD=Ekranda mesajları göstər
+ShowTrayIcon=Tepsi ikonunu göstər
+OSDDuration=OSD müddəti (ms):
+
+; General tab - Screenshots
+Screenshots=Ekran şəkilləri
+ScreenshotPath=Saxlama qovluğu:
+ScreenshotFormat=Format:
+
+; General tab - History
+HistorySettings=Tarixçə
+HistoryEnabled=Oxutma tarixçəsini aktiv et
+HistoryMaxItems=Maks element:
+
+; General tab - Language
+LanguageGroup=Dil
+RestartNote=(Dəyişikliklər üçün yenidən başlatma tələb olunur)
+
+; Video tab
+VideoAdjust=Video tənzimləmələri
+Brightness=Parlaqlıq:
+Contrast=Kontrast:
+Saturation=Doyma:
+Hue=Rəng tonu:
+Gamma=Qamma:
+VideoOutput=Video çıxışı
+Output=Çıxış:
+HWAccel=Aparat sürətlənməsini aktiv et
+Deinterlacing=Deinterlacing
+Mode=Rejim:
+
+; Audio tab
+AudioOutput=Səs çıxışı
+OutputDriver=Çıxış drayveri:
+Device=Cihaz:
+AudioOptions=Səs seçimləri
+NormalizeAudio=Səs səviyyəsini normallaşdır
+Channels=Kanallar:
+
+; Subtitles tab
+UseDefaultSubtitles=Standart altyazı parametrlərini istifadə et
+Font=Şrift
+FontName=Şrift:
+FontSize=Ölçü:
+FontColor=Rəng:
+Bold=Qalın
+Italic=Kursiv
+Outline=Kontur
+OutlineColor=Rəng:
+OutlineSize=Ölçü:
+Position=Mövqe
+VerticalPosition=Şaquli mövqe:
+SubOptions=Seçimlər
+Encoding=Kodlaşdırma:
+AutoLoadSubs=Altyazı fayllarını avtomatik yüklə
+
+; Video output warnings
+VOWarningX11=Xəbərdarlıq: x11 video tənzimləmələrini (parlaqlıq, kontrast və s.) dəstəkləmir
+VOWarningWayland=Xəbərdarlıq: Wayland sessiyası tələb olunur. Video tənzimləmələri dəstəklənir.
+
+; Cache tab
+CacheSettings=Keş bufer ölçüləri (KB)
+CacheDefault=Standart keş:
+CacheLocal=Yerli fayllar:
+CacheNetwork=Şəbəkə faylları:
+CacheInternet=İnternet yayımları:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Haqqında
+Version=Versiya
+Engine=Mühərrik
+Technology=Texnologiya
+BuildInfo=Qurma məlumatı
+SystemInfo=Sistem
+Credits=Minnətdarlıqlar
+Developer=Tərtibatçı:
+Author=Müəllif
+License=Lisenziya
+Website=Vebsayt
+GitHub=GitHub
+Description=Müasir, yüngül media pleyer
+LicenseText=3nity Media GPL-2.0 altında lisenziyalıdır\n\nBu o deməkdir ki, siz azadsınız:\n  • Proqramı istənilən məqsədlə istifadə etmək\n  • Mənbə kodunu öyrənmək və dəyişdirmək\n  • Proqramın nüsxələrini yaymaq\n  • Dəyişikliklərinizi yaymaq\n\nYayılan dəyişikliklərin də GPL-2.0 altında\nlisenziyalaşdırılması şərti ilə.
+BuildDate=Tarix:
+Target=Hədəf:
+Kernel=Nüvə:
+
+[Shortcuts]
+Title=Klaviatura qısayolları
+Description=Əməliyyatlar üçün klaviatura qısayollarını konfiqurasiya edin
+Search=Axtar:
+PressKey=Düymə basın...
+ColCategory=Kateqoriya
+ColAction=Əməliyyat
+ColShortcut=Qısayol
+Assign=Təyin et
+Clear=Təmizlə
+Reset=Sıfırla
+ResetAll=Hamısını sıfırla
+CurrentShortcut=Cari: %s
+NoKeyPressed=Zəhmət olmasa əvvəlcə düymə kombinasiyası basın.
+Conflict=Konflikt: Artıq "%s" üçün təyin edilib
+ConfirmReplace=Qısayolu dəyişdir
+ReplaceMessage=Bu qısayol artıq "%s" üçün təyin edilib. Dəyişdirilsin?
+ConfirmResetAll=Bütün qısayolları sıfırla
+ResetAllMessage=Bütün qısayolları standart vəziyyətə sıfırlamaq istədiyinizə əminsiniz?
+; Action names
+ActPlayPause=Oxut / Pauza
+ActStop=Dayandır
+ActPrevious=Əvvəlki
+ActNext=Növbəti
+ActSeekForward=İrəli keç (10s)
+ActSeekBackward=Geri keç (10s)
+ActSeekForward5=İrəli keç (1 dəq)
+ActSeekBackward5=Geri keç (1 dəq)
+ActSpeedUp=Sürətləndir
+ActSpeedDown=Yavaşlat
+ActSpeedReset=Sürəti sıfırla
+ActSetLoopA=A döngü nöqtəsini qoy
+ActSetLoopB=B döngü nöqtəsini qoy
+ActClearLoop=A-B döngüsünü təmizlə
+ActFrameForward=Kadr irəli
+ActFrameBackward=Kadr geri
+ActPrevChapter=Əvvəlki bölüm
+ActNextChapter=Növbəti bölüm
+ActGotoTime=Vaxta keç
+ActVolumeUp=Səsi artır
+ActVolumeDown=Səsi azalt
+ActMute=Səssiz / Səsli
+ActAudioDelayPlus=Səs gecikməsi +
+ActAudioDelayMinus=Səs gecikməsi -
+ActAudioDelayReset=Səs gecikməsini sıfırla
+ActFullscreen=Tam ekran
+ActRotate=Videonu döndür
+ActDeinterlace=Deinterlace
+ActZoomIn=Böyüt
+ActZoomOut=Kiçilt
+ActZoomReset=Böyütməni sıfırla
+ActAlwaysOnTop=Həmişə üstdə
+ActFitToVideo=Videoya uyğunlaşdır
+ActScreenshot=Ekran şəkli
+ActVideoAdjust=Video tənzimləmələri
+ActVisNextMode=Növbəti vizualizasiya rejimi
+ActVisNextColor=Növbəti rəng sxemi
+ActSubDelayPlus=Altyazı gecikməsi +
+ActSubDelayMinus=Altyazı gecikməsi -
+ActSubDelayReset=Altyazı gecikməsini sıfırla
+ActDVDMenu=DVD menyu
+ActDVDUp=DVD yuxarı naviqasiya
+ActDVDDown=DVD aşağı naviqasiya
+ActDVDLeft=DVD sol naviqasiya
+ActDVDRight=DVD sağ naviqasiya
+ActDVDSelect=DVD seç
+ActOpenFile=Fayl aç
+ActOpenURL=URL aç
+ActPlaylist=Siyahını göstər
+ActQuit=Çıxış
+
+[Log]
+; Phase 25: Log Window
+Title=MPV jurnalı
+Command=Əmr:
+Clear=Təmizlə
+Save=Saxla...
+Copy=&Kopyala
+SelectAll=Hamısını &seç
+SaveTitle=Jurnalı saxla
+SaveFilter=Mətn faylları (*.txt)|*.txt|Bütün fayllar (*.*)|*.*
+ErrorTitle=Xəta
+SaveError=Jurnal saxlanılmadı: %s
+
+[MediaInfo]
+Title=Media məlumatı
+FileTab=Fayl
+VideoTab=Video
+AudioTab=Səs
+MetadataTab=Metadata
+FileName=Fayl adı:
+FilePath=Yol:
+FileSize=Ölçü:
+Duration=Müddət:
+Format=Format:
+Bitrate=Bitreyt:
+Codec=Kodek:
+Resolution=Ayırdetmə:
+FrameRate=Kadr sürəti:
+PixelFormat=Piksel formatı:
+AspectRatio=En-boy nisbəti:
+Channels=Kanallar:
+SampleRate=Nümunə sürəti:
+Language=Dil:
+Property=Xüsusiyyət
+Value=Dəyər
+CopyAll=Hamısını kopyala
+CopiedToClipboard=Media məlumatı buferə kopyalandı.
+NA=Mövcud deyil
+NAStream=Mövcud deyil (yayım)
+NALive=Mövcud deyil (canlı)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Naməlum
+NoMetadata=(Metadata yoxdur)
+
+[Bookmarks]
+Title=Əlfəcinlər
+Goto=Keç
+Remove=Sil
+Clear=Hamısını təmizlə
+Refresh=Yenilə
+OpenFolder=Qovluğu aç
+CopyPath=Yolu kopyala
+; Columns
+ColName=Ad
+ColFile=Fayl
+ColPosition=Mövqe
+ColCreated=Yaradılıb
+; Dialogs
+ClearTitle=Əlfəcinləri təmizlə
+ClearConfirm=Bütün əlfəcinləri silmək istədiyinizə əminsiniz?
+Count=%d əlfəcin
+
+[Favorites]
+Title=Sevimlilər
+Play=Oxut
+Remove=Sil
+Clear=Hamısını təmizlə
+Refresh=Yenilə
+OpenFolder=Qovluğu aç
+CopyPath=Yolu kopyala
+; Columns
+ColName=Ad
+ColType=Növ
+ColPath=Yol
+; Types
+TypeFile=Fayl
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Naməlum
+; Dialogs
+ClearTitle=Sevimliləri təmizlə
+ClearConfirm=Bütün sevimliləri silmək istədiyinizə əminsiniz?
+Count=%d sevimli
+
+[History]
+Title=Oxutma tarixçəsi
+Play=Oxut
+Remove=Sil
+Clear=Hamısını təmizlə
+Refresh=Yenilə
+OpenFolder=Qovluğu aç
+CopyPath=Yolu kopyala
+; Columns
+ColFileName=Fayl
+ColPath=Yol
+; Dialogs
+ClearTitle=Tarixçəni təmizlə
+ClearConfirm=Bütün tarixçəni silmək istədiyinizə əminsiniz?
+Count=%d element
+
+[SleepTimer]
+Title=Yuxu taymeri
+Description=Oxutmanı avtomatik dayandırmaq üçün taymer qur
+Hours=Saat:
+Minutes=Dəqiqə:
+Action=Taymer bitdikdə:
+StopPlayback=Oxutmanı dayandır
+CloseApp=Proqramı bağla
+Shutdown=Kompüteri söndür
+QuickSet=Sürətli qurma:
+15Min=15 dəq
+30Min=30 dəq
+1Hour=1 saat
+2Hours=2 saat
+
+[Radios]
+Title=İnternet radioları
+Play=Oxut
+Add=Əlavə et
+Edit=Redaktə et
+Delete=Sil
+Remove=Sil
+Import=İdxal et
+Export=İxrac et
+Refresh=Yenilə
+Favorite=Sevimli
+ShowFavorites=Sevimlilər
+ShowAll=Hamısı
+; Filter
+Genre=Janr:
+Search=Axtar:
+SearchBtn=Axtar
+ClearSearch=Təmizlə
+AllGenres=(Bütün janrlar)
+; Context menu
+AddFavorite=Sevimlilərə əlavə et
+RemoveFavorite=Sevimlilərdən sil
+AddCustom=Xüsusi stansiya əlavə et...
+EditCustom=Stansiyanı redaktə et...
+DeleteCustom=Stansiyanı sil
+OpenWebsite=Vebsaytı aç
+CopyURL=URL-i kopyala
+; Columns
+ColName=Ad
+ColGenre=Janr
+ColBitrate=Bitreyt
+ColCountry=Ölkə
+ColCodec=Kodek
+; Dialogs
+AddTitle=Xüsusi stansiya əlavə et
+EditTitle=Stansiyanı redaktə et
+DeleteTitle=Stansiyanı sil
+DeleteConfirm=Bu stansiyanı silmək istədiyinizə əminsiniz?
+StationName=Stansiya adı:
+StreamURL=Yayım URL-i:
+GenrePrompt=Janr:
+NameURLRequired=Ad və URL tələb olunur.
+; Status messages
+LoadingIcecast=Icecast kataloqundan stansiyalar yüklənir...
+IcecastError=Icecast kataloqu yüklənmədi. Standart stansiyalar istifadə olunur.
+NoStationsLoaded=Stansiya yüklənmədi
+StationCount=%d stansiya
+LoadedStations=%d stansiya yükləndi
+ErrorPrefix=Xəta:
+; Legacy keys
+Name=Ad
+URL=URL
+Bitrate=Bitreyt
+Description=Təsvir
+Country=Ölkə
+
+[OpenURL]
+Title=URL aç
+Prompt=Media URL-i daxil edin:
+
+[GotoTime]
+Title=Vaxta keç
+EnterTime=Keçmək üçün vaxtı daxil edin:
+Hours=S
+Minutes=D
+Seconds=S
+Current=Cari:
+Duration=Müddət:
+
+[VideoAdjust]
+Title=Video tənzimləmələri
+Brightness=Parlaqlıq:
+Contrast=Kontrast:
+Saturation=Doyma:
+Hue=Rəng tonu:
+Gamma=Qamma:
+ResetAll=Bütün rəngləri sıfırla
+
+[CLI]
+; Əmr sətri mesajları
+Usage=İstifadə
+Arguments=[SEÇİMLƏR] [FAYL|URL|QOVLUQ]
+Description=libmpv əsaslı çoxplatformalı multimedia pleyer.
+Options=SEÇİMLƏR
+Examples=NÜMUNƏLƏR
+MoreInfo=Ətraflı məlumat üçün daxil olun
+EnqueuedTo=Mövcud nümunəyə əlavə edildi: %s
+SentTo=Mövcud nümunəyə göndərildi: %s
+AlreadyRunning=3nity Media artıq işləyir.
+ErrorFileNotFound=Xəta: Fayl və ya qovluq tapılmadı: %s
+ErrorSubNotFound=Xəta: Altyazı faylı tapılmadı: %s

@@ -1,0 +1,892 @@
+[Language]
+Name=Irish - Gaeilge
+Code=ga
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Roghchlár Comhad
+File=&Comhad
+FileOpen=&Oscail Comhad...
+FileOpenURL=Oscail &URL...
+FileOpenClipboard=Oscail ón &Ghearrthaisce
+FileRecent=Comhaid &Dhéanacha
+ClearRecentFiles=Glan Comhaid Dhéanacha
+FileExit=&Scoir
+
+; Roghchlár Athsheinm
+Playback=&Athsheinm
+PlaybackPlayPause=&Seinn/Cuir ar Sos
+PlaybackStop=&Stop
+PlaybackPrevious=&Roimhe seo
+PlaybackNext=Ar A&ghaidh
+PlaybackSeekForward=Cuardaigh ar A&ghaidh
+PlaybackSeekBackward=Cuardaigh Siar
+PlaybackSpeed=&Luas
+PlaybackABLoop=Lúb A-&B
+PlaybackSetA=Socraigh &A
+PlaybackSetB=Socraigh &B
+PlaybackClearAB=&Glan A-B
+PlaybackChapters=&Caibidlí
+PlaybackPrevChapter=Caibidil Roimhe seo
+PlaybackNextChapter=An Chéad Chaibidil Eile
+PlaybackFrameStep=Céim Fráma ar A&ghaidh
+PlaybackFrameBack=Céim Fráma Siar
+
+; Nascleanúint DVD
+PlaybackDVD=&Nascleanúint DVD
+DVDMenu=&Roghchlár
+DVDUp=&Suas
+DVDDown=Síos
+DVDLeft=&Clé
+DVDRight=&Deas
+DVDSelect=&Roghnaigh
+PlaybackDVDTitles=&Teidil DVD
+
+; Céim 21: Oscail Fillteán
+FileOpenFolder=Oscail Fi&llteán...
+
+; Roghchlár Comhad DVD/Bluray
+FileOpenDVD=Oscail &DVD...
+FileOpenBluray=Oscail &Blu-ray...
+
+; Céim 13: Téigh go hAm agus Stair
+PlaybackGotoTime=&Téigh go hAm...
+ToolsHistory=&Stair
+
+; Céim 14: Tráidire Córais
+TrayShow=&Taispeáin/Folaigh
+TrayPlayPause=&Seinn/Cuir ar Sos
+TrayStop=&Stop
+TrayPrevious=&Roimhe seo
+TrayNext=Ar A&ghaidh
+TrayMute=&Balbhaigh
+TrayExit=&Scoir
+
+; Céim 15: Leabharmharcanna
+PlaybackAddBookmark=Cuir &Leabharmharc leis...
+PlaybackBookmarks=Leabhar&mharcanna
+BookmarksTitle=Leabharmharcanna
+BookmarksGoto=&Téigh go Leabharmharc
+BookmarksRemove=&Bain Leabharmharc
+BookmarksClear=&Glan Gach Leabharmharc
+BookmarksOpenFolder=Oscail &Fillteán
+BookmarksCopyPath=&Cóipeáil Cosán
+BookmarksCount=%d leabharmharc
+NoBookmarks=(Gan leabharmharcanna)
+NoFileLoaded=(Gan comhad luchtaithe)
+BookmarkAdded=Leabharmharc curtha leis ag %s
+BookmarkJumped=Léimeadh go leabharmharc ag %s
+AddBookmarkTitle=Cuir Leabharmharc Leis
+AddBookmarkPrompt=Iontráil ainm an leabharmhairc:
+ShowAllBookmarks=Taispeáin Gach Leabharmharc...
+
+; Céim 16: Ceanáin
+ToolsFavorites=&Ceanáin
+ToolsAddFavorite=Cuir le Ceaná&in
+FavoritesTitle=Ceanáin
+FavoritesPlay=&Seinn
+FavoritesRemove=&Bain ó Cheanáin
+FavoritesClear=&Glan Gach Ceanán
+FavoritesOpenFolder=Oscail &Fillteán
+FavoritesCopyPath=&Cóipeáil Cosán
+FavoritesCount=%d ceanán
+NoFavorites=(Gan ceanáin)
+AddFavoriteTitle=Cuir le Ceanáin
+AddFavoritePrompt=Iontráil ainm don cheanán:
+AlreadyFavorite=I gceanáin cheana féin
+AddedToFavorites=Curtha le ceanáin: %s
+NoFileToFavorite=Níl aon chomhad luchtaithe le cur le ceanáin
+FavoriteTypeFile=Comhad
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Raidió
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Teaghráin formáide rian
+TrackWithTitle=Rian %d: %s
+TrackWithLang=Rian %d (%s)
+TrackNumber=Rian %d
+
+; Míreanna roghchláir luais
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Míreanna roghchláir scála
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Rian fotheidil
+SubtitleDisable=Díchumasaigh
+
+; Céim 17: Amadóir Codlata
+ToolsSleepTimer=&Amadóir Codlata...
+ToolsSleepTimerActive=&Amadóir Codlata [%s]
+ToolsCancelTimer=Cealaigh &Amadóir
+
+; Roghchlár Fuaime
+Audio=&Fuaim
+AudioTrack=&Rian Fuaime
+AudioVolumeUp=Airde &Suas
+AudioVolumeDown=Airde Síos
+AudioMute=&Balbhaigh
+AudioEqualizer=&Cothromóir
+AudioDelay=&Moill Fuaime
+AudioDelayPlus=Moill +0.1s
+AudioDelayMinus=Moill -0.1s
+AudioDelayReset=Athshocraigh Moill
+AudioNormalize=&Normalú Airde
+
+; Roghchlár Físeáin
+Video=&Físeán
+VideoFullscreen=&Scáileán Iomlán
+VideoAspect=Cóimheas &Gné
+VideoAspectAuto=&Uathoibríoch
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Gabháil Scáileáin
+VideoScreenshotAs=Gabháil Scáileáin &Mar...
+VideoRotation=&Rothlú
+VideoRotate0=&0° (Gnáth)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Iompaigh
+VideoFlipH=Iompaigh go &Cothrománach
+VideoFlipV=Iompaigh go &Ingearach
+VideoDeinterlace=&Díidirleathú
+VideoZoom=&Zúmáil
+VideoZoomIn=Zúmáil &Isteach
+VideoZoomOut=Zúmáil &Amach
+VideoZoomReset=&Athshocraigh Zúmáil
+VideoPan=&Peanáil
+VideoPanLeft=Peanáil &Clé
+VideoPanRight=Peanáil &Deas
+VideoPanUp=Peanáil &Suas
+VideoPanDown=Peanáil Síos
+VideoPanReset=A&thshocraigh Peanáil
+VideoTrack=&Rian Físeáin
+VideoColors=Coigeartuithe &Datha
+VideoBrightness=&Gile
+VideoContrast=&Codarsnacht
+VideoSaturation=&Sáithiú
+VideoHue=&Lí
+VideoGamma=&Gáma
+VideoColorsReset=Athshocraigh Gach &Dath
+VideoIncrease=Méadaigh (+5)
+VideoDecrease=Laghdaigh (-5)
+VideoReset=Athshocraigh
+VideoAdjustDialog=&Coigeartuithe Físeáin...
+
+; Roghchlár Amharc
+View=&Amharc
+ViewAlwaysOnTop=&I gCónaí ar Bharr
+ViewFitToVideo=&Oiriúnaigh Fuinneog don Fhíseán
+ViewScale=&Scála Fuinneoige
+
+; Céim 26: Roghchlár Amharcléiriú
+ViewVisualization=&Amharcléiriú
+VisNone=&Gan Ceann
+VisSpectrum=Anailíseoir &Speictream
+VisWaveform=&Tonnfhoirm
+VisVector=Scóip &Veicteora
+VisVolume=Méadar &VU
+VisNextMode=An Chéad &Mhód Eile
+VisNextColor=An Chéad Scéim &Datha Eile
+
+; Roghchlár Fotheideal
+Subtitles=&Fotheidil
+SubtitleTrack=&Rian Fotheidil
+SubtitleLoad=&Luchtaigh Fotheideal...
+SubtitleDelay=&Moill Fotheidil
+SubtitleDelayPlus=Moill +0.1s
+SubtitleDelayMinus=Moill -0.1s
+SubtitleDelayReset=Athshocraigh Moill
+
+; Roghchlár Uirlisí
+Tools=&Uirlisí
+ToolsPlaylist=&Seinmliosta
+ToolsRadios=&Raidió
+ToolsShortcuts=&Aicearraí Méarchláir...
+ToolsOptions=&Socruithe
+
+; Céim 27: Roghchlár Taifeadta
+ToolsRecord=&Taifead Sruth...
+ToolsStopRecord=S&top Taifeadta
+ToolsRecording=&Taifeadadh...
+
+; Roghchlár Cabhrach
+Help=&Cabhair
+HelpMediaInfo=Eolas &Meán
+HelpLog=Fuinneog &Loga
+HelpAbout=&Maidir Le
+
+[Dialog]
+OpenFile=Oscail Comhad
+OpenURL=Oscail URL
+SaveScreenshot=Sábháil Gabháil Scáileáin
+LoadSubtitle=Luchtaigh Comhad Fotheidil
+EnterURL=Iontráil URL:
+ResumePlayback=Lean ar Aghaidh le hAthsheinm
+ResumeFrom=Lean ar aghaidh ó %s?
+ClearRecentFiles=Glan Comhaid Dhéanacha
+NoRecentFiles=(Gan comhaid dhéanacha)
+NoAudioTracks=(Gan rianta fuaime)
+NoVideoTracks=(Gan rianta físeáin)
+NoSubtitleTracks=(Gan rianta fotheidil)
+NoChapters=(Gan caibidlí)
+OpenDVD=Oscail DVD
+OpenBluray=Oscail Blu-ray
+OpenFolder=Oscail Fillteán
+
+; Scagairí comhaid
+ScreenshotFilter=Íomhá PNG|*.png|Íomhá JPEG|*.jpg|Íomhá WebP|*.webp
+DVDFilter=Fillteán DVD|*.;*.iso|Gach comhad (*.*)|*.*
+BlurayFilter=Fillteán Blu-ray|*.;*.iso|Gach comhad (*.*)|*.*
+NoDVD=(Gan DVD luchtaithe)
+DVDTitle=Teideal %d
+GotoTime=Téigh go hAm
+EnterTime=Iontráil an t-am le léim chuige:
+Hours=Uaireanta
+Minutes=Nóiméid
+Seconds=Soicindí
+Current=Reatha:
+HistoryTitle=Stair Athsheanma
+HistoryItems=%d mír sa stair
+HistoryPlay=&Seinn
+HistoryRemove=&Bain ón Stair
+HistoryClear=&Glan Gach Stair
+HistoryOpenFolder=Oscail &Fillteán
+HistoryCopyPath=&Cóipeáil Cosán
+ClearHistory=Glan Stair
+ClearHistoryConfirm=An bhfuil tú cinnte gur mhaith leat an stair go léir a ghlanadh?
+SleepTimerTitle=Amadóir Codlata
+SleepTimerDescription=Socraigh amadóir chun athsheinm a stopadh go huathoibríoch
+SleepTimerHours=Uaireanta
+SleepTimerMinutes=Nóiméid
+SleepTimerQuickSet=Socraigh go Tapa
+SleepTimerAction=Nuair a éagann an t-amadóir
+SleepTimerStopPlayback=Stop athsheinm
+SleepTimerCloseApp=Dún an feidhmchlár
+SleepTimerShutdown=Múch an ríomhaire
+SleepTimerStart=Tosaigh Amadóir
+
+[Status]
+Ready=Réidh
+Opening=Ag Oscailt...
+Playing=Ag Seinm
+Paused=Ar Sos
+Stopped=Stoptha
+Error=Earráid
+Buffering=Ag Maolánaigh...
+Seeking=Ag Cuardach...
+Recording=Ag Taifeadadh
+
+[Message]
+SpeedFormat=Luas: %.2fx
+VolumeFormat=Airde: %d%%
+BrightnessFormat=Gile: %d
+ContrastFormat=Codarsnacht: %d
+SaturationFormat=Sáithiú: %d
+HueFormat=Lí: %d
+GammaFormat=Gáma: %d
+ColorsReset=Dathanna físeáin athshocraíodh
+LoopASet=Lúb A socraithe ag %s
+LoopBSet=Lúb B socraithe ag %s - Lúb gníomhach
+LoopCleared=Lúb A-B glanta
+SetAFirst=Socraigh pointe A ar dtús (brúigh L)
+RotationFormat=Rothlú: %d°
+FlipHOn=Iompú cothrománach: AR SIÚL
+FlipHOff=Iompú cothrománach: AS
+FlipVOn=Iompú ingearach: AR SIÚL
+FlipVOff=Iompú ingearach: AS
+DeinterlaceOn=Díidirleathú: AR SIÚL
+DeinterlaceOff=Díidirleathú: AS
+AlwaysOnTopOn=I gcónaí ar bharr: AR SIÚL
+AlwaysOnTopOff=I gcónaí ar bharr: AS
+WindowFitted=Fuinneog oiriúnaithe do %dx%d
+WindowScale=Scála fuinneoige: %.0f%%
+ScreenshotSaved=Gabháil scáileáin sábháilte: %s
+AudioNormalizeOn=Normalú fuaime: AR SIÚL
+AudioNormalizeOff=Normalú fuaime: AS
+AudioDelayFormat=Moill fuaime: %.1f s
+SubtitleDelayFormat=Moill fotheidil: %.1f s
+ZoomFormat=Zúmáil: %.0f%%
+PanCenter=Peanáil: Lár
+PanFormat=Peanáil: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Níl físeán luchtaithe
+PlayingFromClipboard=Ag seinm ón ghearrthaisce: %s
+ClipboardInvalid=Níl URL nó cosán bailí sa ghearrthaisce
+ClipboardEmpty=Tá an ghearrthaisce folamh nó níl téacs ann
+ResumedAt=Lean ar aghaidh ag %s
+FrameStepForward=Céim fráma ar aghaidh
+FrameStepBackward=Céim fráma siar
+PreviousChapter=An chaibidil roimhe seo
+NextChapter=An chéad chaibidil eile
+PlayingRadio=Ag seinm raidió: %s
+PlayingDVD=Ag seinm DVD: %s
+PlayingBluray=Ag seinm Blu-ray: %s
+DVDTitlePlaying=Teideal DVD %d
+SeekTo=Ag cuardach go %s
+MinimizedToTray=Íoslaghdaithe go tráidire. Cliceáil faoi dhó le haischur.
+SleepTimerSet=Amadóir codlata socraithe: %s
+SleepTimerCancelled=Amadóir codlata cealaithe
+SleepTimerWarning=Amadóir codlata: 1 nóiméad fágtha
+SleepTimerFinal=Amadóir codlata: 10 soicind fágtha
+SleepTimerStopped=Amadóir codlata: Athsheinm stoptha
+SleepTimerClosing=Amadóir codlata: Ag dúnadh an fheidhmchláir
+SleepTimerShutdown=Amadóir codlata: Ag múchadh an ríomhaire
+SleepTimerExpired=Amadóir Codlata Éagtha
+ShutdownManual=Múch do ríomhaire de láimh le do thoil.
+
+; Céim 21: Oscail Fillteán
+FolderOpened=Fillteán oscailte: %d comhad
+NoMediaFound=Níor aimsíodh comhaid meán
+FilesAdded=Cuireadh %d comhad leis an seinmliosta
+
+; Céim 27: Teachtaireachtaí taifeadta
+RecordNeedPlayback=Tosaigh athsheinm roimh thaifeadadh.
+RecordingStarted=Taifeadadh tosaithe
+RecordingStopped=Taifeadadh stoptha
+
+; Teachtaireachtaí stádais breise
+EndOfPlaylist=Deireadh an tseinmliosta
+NoMediaLoaded=Níl aon chomhad meán luchtaithe faoi láthair.
+JumpedToNamed=Léimeadh go: %s
+ChapterFormat=Caibidil %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Leabharmharc ag %s
+
+[Label]
+Muted=Balbhaithe
+
+[Button]
+Play=Seinn
+Pause=Cuir ar Sos
+Stop=Stop
+Previous=Roimhe seo
+Next=Ar Aghaidh
+Mute=Balbhaigh
+Unmute=Díbhalbhaigh
+Fullscreen=Scáileán Iomlán
+OK=OK
+Cancel=Cealaigh
+Apply=Cuir i bhFeidhm
+Close=Dún
+Yes=Tá
+No=Níl
+
+[Tooltip]
+Play=Seinn/Cuir ar Sos
+Stop=Stop athsheinm
+Previous=Rian roimhe seo
+Next=An chéad rian eile
+Mute=Scoránaigh balbhú
+Volume=Airde
+Seek=Suíomh cuardaigh
+Fullscreen=Scoránaigh scáileán iomlán
+
+[Playlist]
+Title=Seinmliosta
+Add=Cuir Leis
+Remove=Bain
+Clear=Glan
+MoveUp=Bog Suas
+MoveDown=Bog Síos
+Shuffle=Suaith
+Repeat=Athsheinn
+Play=Seinn
+ShuffleOn=Suaitheadh: Ar Siúl
+ShuffleOff=Suaitheadh: As
+RepeatOff=Athsheinm: As
+RepeatOne=Athsheinn: Ceann Amháin
+RepeatAll=Athsheinn: Gach Ceann
+SavePlaylist=Sábháil
+LoadPlaylist=Luchtaigh
+TotalDuration=Iomlán: %s
+ItemCount=%d mír
+
+; Céim 22: Feabhsuithe Seinmliosta
+Search=Cuardaigh:
+FilterPlaceholder=Scag seinmliosta...
+ClearSearch=Glan
+FilterCount=%d/%d
+RemoveDuplicates=Bain &Dúblaigh
+Properties=&Airíonna...
+NoDuplicates=Níor aimsíodh dúblaigh.
+DuplicatesFound=Aimsíodh %d dúblach(a). An bhfuil fonn ort iad a bhaint?
+RemoveDuplicatesTitle=Bain Dúblaigh
+PropertiesTitle=Airíonna Seinmliosta
+PropTotalItems=Míreanna iomlána: %d
+PropTotalDuration=Fad iomlán: %s
+PropPlayed=Seinnta: %d
+PropUnplayed=Gan seinm: %d
+PropTotalSize=Méid iomlán: %.2f MB
+PropShuffle=Suaitheadh: %s
+PropRepeat=Athsheinm: %s
+On=Ar Siúl
+Off=As
+
+; Eochracha nua do ApplyLocale
+ClearTitle=Glan Seinmliosta
+ClearConfirm=An bhfuil tú cinnte gur mhaith leat an seinmliosta a ghlanadh?
+NoPlaylist=Gan seinmliosta
+StatusFormat=%d mír | Iomlán: %s
+RepeatOne=Athsh. 1
+RepeatAll=Athsh. Uile
+HintRepeatEnable=Cliceáil le Athsheinm Gach Ceann a chumasú
+HintRepeatOne=Athsheinn Ceann Amháin - Cliceáil le díchumasú
+HintRepeatAll=Athsheinn Gach Ceann - Cliceáil le haghaidh Athsheinn Ceann Amháin
+HintShuffleRepeat=Suaitheadh + Athsheinn Gach Ceann - Cliceáil le athsheinm a dhíchumasú
+RemoveDuplicatesTitle=Bain Dúblaigh
+NoDuplicates=Níor aimsíodh dúblaigh.
+SelectAll=Roghnaigh Uile
+SelectNone=Díroghnaigh Uile
+SelectInvert=Inbhéartaigh Roghnú
+Sort=Sórtáil
+SortByName=De réir Ainm
+SortByTitle=De réir Teideal
+SortByArtist=De réir Ealaíontóir
+SortByDuration=De réir Fad
+SortReverse=Aisiompaigh
+SortRandom=Randamaigh
+ColTitle=Teideal
+ColDuration=Fad
+ColArtist=Ealaíontóir
+ColAlbum=Albam
+PlaylistFilter=Seinmliosta M3U|*.m3u|Seinmliosta M3U8|*.m3u8|Seinmliosta PLS|*.pls
+
+[Equalizer]
+Title=Cothromóir
+Presets=Réamhshocruithe:
+Preamp=Réamhaimplitheoir:
+Flat=Cothrom
+Rock=Rac
+Pop=Pop
+Jazz=Snagcheol
+Classical=Clasaiceach
+BassBoost=Treisiú Dord
+TrebleBoost=Treisiú Tribile
+Vocal=Guthach
+Reset=Athshocraigh
+Enable=Cumasaigh Cothromóir
+Save=Sábháil
+Delete=Scrios
+Ready=Réidh
+; Cnaipí agus gníomhartha
+SavePreset=Sábháil Réamhshocrú
+DeletePreset=Scrios Réamhshocrú
+SavePresetTitle=Sábháil Réamhshocrú
+PresetNamePrompt=Ainm réamhshocraithe:
+EnterPresetName=Iontráil ainm réamhshocraithe le do thoil.
+OverwritePresetTitle=Forscríobh Réamhshocrú
+OverwritePresetConfirm=Tá réamhshocrú leis an ainm seo ann cheana. An bhfuil fonn ort é a fhorscríobh?
+PresetUpdated=Réamhshocrú nuashonraithe: %s
+PresetSaved=Réamhshocrú sábháilte: %s
+SelectPresetToDelete=Roghnaigh réamhshocrú le scriosadh le do thoil.
+CannotDeleteDefault=Ní féidir réamhshocruithe réamhshocraithe a scriosadh.
+DeletePresetTitle=Scrios Réamhshocrú
+DeletePresetConfirm=An bhfuil tú cinnte gur mhaith leat an réamhshocrú seo a scriosadh?
+PresetDeleted=Réamhshocrú scriosta
+ResetToFlat=Cothromóir athshocraíodh go cothrom
+PresetApplied=Réamhshocrú curtha i bhfeidhm: %s
+
+[Options]
+Title=Socruithe
+General=Ginearálta
+Video=Físeán
+Audio=Fuaim
+Subtitles=Fotheidil
+Cache=Taisce
+Language=Teanga:
+RestartRequired=Teastaíonn atosú chun na hathruithe a chur i bhfeidhm
+
+; Cluaisín Ginearálta - Iompar
+Behavior=Iompar
+SingleInstance=Ceadaigh cás amháin amháin
+AutoPlay=Uathsheinn comhaid ar oscailt
+AutoResume=Lean ar aghaidh ó shuíomh athsheanma
+MinimizeToTray=Íoslaghdaigh go tráidire córais
+AutoSavePlaylist=Sábháil seinmliosta ar scor
+
+; Cluaisín Ginearálta - OSD
+OSD=Taispeántas Ar Scáileán
+ShowOSD=Taispeáin teachtaireachtaí ar scáileán
+ShowTrayIcon=Taispeáin deilbhín tráidire
+OSDDuration=Fad OSD (ms):
+
+; Cluaisín Ginearálta - Gabhálacha Scáileáin
+Screenshots=Gabhálacha Scáileáin
+ScreenshotPath=Fillteán sábhála:
+ScreenshotFormat=Formáid:
+
+; Cluaisín Ginearálta - Stair
+HistorySettings=Stair
+HistoryEnabled=Cumasaigh stair athsheanma
+HistoryMaxItems=Uasmhéid míreanna:
+
+; Cluaisín Ginearálta - Teanga
+LanguageGroup=Teanga
+RestartNote=(Teastaíonn atosú le haghaidh athruithe)
+
+; Cluaisín Físeáin
+VideoAdjust=Coigeartuithe Físeáin
+Brightness=Gile:
+Contrast=Codarsnacht:
+Saturation=Sáithiú:
+Hue=Lí:
+Gamma=Gáma:
+VideoOutput=Aschur Físeáin
+Output=Aschur:
+HWAccel=Cumasaigh luasghéarú crua-earraí
+Deinterlacing=Díidirleathú
+Mode=Mód:
+
+; Cluaisín Fuaime
+AudioOutput=Aschur Fuaime
+OutputDriver=Tiománaí aschuir:
+Device=Gléas:
+AudioOptions=Roghanna Fuaime
+NormalizeAudio=Normalú airde fuaime
+Channels=Cainéil:
+
+; Cluaisín Fotheideal
+UseDefaultSubtitles=Úsáid socruithe réamhshocraithe fotheidil
+Font=Cló
+FontName=Cló:
+FontSize=Méid:
+FontColor=Dath:
+Bold=Trom
+Italic=Iodálach
+Outline=Imlíne
+OutlineColor=Dath:
+OutlineSize=Méid:
+Position=Suíomh
+VerticalPosition=Suíomh ingearach:
+SubOptions=Roghanna
+Encoding=Ionchódú:
+AutoLoadSubs=Luchtaigh comhaid fotheidil go huathoibríoch
+
+; Rabhaidh aschuir físeáin
+VOWarningX11=Rabhadh: Ní thacaíonn x11 le coigeartuithe físeáin (gile, codarsnacht, srl.)
+VOWarningWayland=Rabhadh: Teastaíonn seisiún Wayland. Tacaítear le coigeartuithe físeáin.
+
+; Cluaisín Taisce
+CacheSettings=Méideanna Maolán Taisce (KB)
+CacheDefault=Taisce réamhshocraithe:
+CacheLocal=Comhaid áitiúla:
+CacheNetwork=Comhaid líonra:
+CacheInternet=Sruthanna idirlín:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Maidir Le
+Version=Leagan
+Engine=Inneall
+Technology=Teicneolaíocht
+BuildInfo=Eolas Tógála
+SystemInfo=Córas
+Credits=Creidiúintí
+Developer=Forbróir:
+Author=Údar
+License=Ceadúnas
+Website=Suíomh Gréasáin
+GitHub=GitHub
+Description=Seinnteoir meán nua-aimseartha éadrom
+LicenseText=Tá 3nity Media ceadúnaithe faoi GPL-2.0\n\nCiallaíonn sé seo go bhfuil saoirse agat:\n  • An bogearraí a úsáid chun aon chríche\n  • An cód foinse a staidéar agus a mhodhnú\n  • Cóipeanna den bhogearraí a dháileadh\n  • Do mhodhnuithe a dháileadh\n\nAr an gcoinníoll go bhfuil aon mhodhnuithe dáilte\nceadúnaithe faoi GPL-2.0 chomh maith.
+BuildDate=Dáta:
+Target=Sprioc:
+Kernel=Eithne:
+
+[Shortcuts]
+Title=Aicearraí Méarchláir
+Description=Cumraigh aicearraí méarchláir do ghníomhartha
+Search=Cuardaigh:
+PressKey=Brúigh eochair...
+ColCategory=Catagóir
+ColAction=Gníomh
+ColShortcut=Aicearra
+Assign=Sann
+Clear=Glan
+Reset=Athshocraigh
+ResetAll=Athshocraigh Uile
+CurrentShortcut=Reatha: %s
+NoKeyPressed=Brúigh teaglaim eochracha ar dtús le do thoil.
+Conflict=Coinbhleacht: Sannta cheana do "%s"
+ConfirmReplace=Athchuir Aicearra
+ReplaceMessage=Tá an aicearra seo sannta cheana do "%s". An bhfuil fonn ort é a athchur?
+ConfirmResetAll=Athshocraigh Gach Aicearra
+ResetAllMessage=An bhfuil tú cinnte gur mhaith leat gach aicearra a athshocrú go dtí a réamhshocruithe?
+; Ainmneacha gníomhartha
+ActPlayPause=Seinn / Cuir ar Sos
+ActStop=Stop
+ActPrevious=Roimhe seo
+ActNext=Ar Aghaidh
+ActSeekForward=Cuardaigh ar Aghaidh (10s)
+ActSeekBackward=Cuardaigh Siar (10s)
+ActSeekForward5=Cuardaigh ar Aghaidh (1 nóim)
+ActSeekBackward5=Cuardaigh Siar (1 nóim)
+ActSpeedUp=Luasaigh
+ActSpeedDown=Moilligh
+ActSpeedReset=Athshocraigh Luas
+ActSetLoopA=Socraigh Pointe Lúibe A
+ActSetLoopB=Socraigh Pointe Lúibe B
+ActClearLoop=Glan Lúb A-B
+ActFrameForward=Fráma ar Aghaidh
+ActFrameBackward=Fráma Siar
+ActPrevChapter=Caibidil Roimhe seo
+ActNextChapter=An Chéad Chaibidil Eile
+ActGotoTime=Téigh go hAm
+ActVolumeUp=Airde Suas
+ActVolumeDown=Airde Síos
+ActMute=Balbhaigh / Díbhalbhaigh
+ActAudioDelayPlus=Moill Fuaime +
+ActAudioDelayMinus=Moill Fuaime -
+ActAudioDelayReset=Athshocraigh Moill Fuaime
+ActFullscreen=Scáileán Iomlán
+ActRotate=Rothlaigh Físeán
+ActDeinterlace=Díidirleathú
+ActZoomIn=Zúmáil Isteach
+ActZoomOut=Zúmáil Amach
+ActZoomReset=Athshocraigh Zúmáil
+ActAlwaysOnTop=I gCónaí ar Bharr
+ActFitToVideo=Oiriúnaigh don Fhíseán
+ActScreenshot=Gabháil Scáileáin
+ActVideoAdjust=Coigeartuithe Físeáin
+ActVisNextMode=An Chéad Mhód Amharcléirithe Eile
+ActVisNextColor=An Chéad Scéim Datha Eile
+ActSubDelayPlus=Moill Fotheidil +
+ActSubDelayMinus=Moill Fotheidil -
+ActSubDelayReset=Athshocraigh Moill Fotheidil
+ActDVDMenu=Roghchlár DVD
+ActDVDUp=Nascleanúint DVD Suas
+ActDVDDown=Nascleanúint DVD Síos
+ActDVDLeft=Nascleanúint DVD Clé
+ActDVDRight=Nascleanúint DVD Deas
+ActDVDSelect=Roghnú DVD
+ActOpenFile=Oscail Comhad
+ActOpenURL=Oscail URL
+ActPlaylist=Taispeáin Seinmliosta
+ActQuit=Scoir
+
+[Log]
+; Céim 25: Fuinneog Loga
+Title=Loga MPV
+Command=Ordú:
+Clear=Glan
+Save=Sábháil...
+Copy=&Cóipeáil
+SelectAll=Roghnaigh &Uile
+SaveTitle=Sábháil Loga
+SaveFilter=Comhaid téacs (*.txt)|*.txt|Gach comhad (*.*)|*.*
+ErrorTitle=Earráid
+SaveError=Theip ar shábháil an loga: %s
+
+[MediaInfo]
+Title=Eolas Meán
+FileTab=Comhad
+VideoTab=Físeán
+AudioTab=Fuaim
+MetadataTab=Meiteashonraí
+FileName=Ainm Comhaid:
+FilePath=Cosán:
+FileSize=Méid:
+Duration=Fad:
+Format=Formáid:
+Bitrate=Ráta Giotán:
+Codec=Códaic:
+Resolution=Taifeach:
+FrameRate=Ráta Fráma:
+PixelFormat=Formáid Picteilín:
+AspectRatio=Cóimheas Gné:
+Channels=Cainéil:
+SampleRate=Ráta Samplála:
+Language=Teanga:
+Property=Airí
+Value=Luach
+CopyAll=Cóipeáil Uile
+CopiedToClipboard=Eolas meán cóipeáilte go gearrthaisce.
+NA=N/B
+NAStream=N/B (sruth)
+NALive=N/B (beo)
+ChannelMono=1 (Monafónach)
+ChannelStereo=2 (Steiréafónach)
+Channel51=6 (Imfhuaim 5.1)
+Channel71=8 (Imfhuaim 7.1)
+Unknown=Anaithnid
+NoMetadata=(Gan meiteashonraí)
+
+[Bookmarks]
+Title=Leabharmharcanna
+Goto=Téigh go
+Remove=Bain
+Clear=Glan Uile
+Refresh=Athnuaigh
+OpenFolder=Oscail Fillteán
+CopyPath=Cóipeáil Cosán
+; Colúin
+ColName=Ainm
+ColFile=Comhad
+ColPosition=Suíomh
+ColCreated=Cruthaithe
+; Dialóga
+ClearTitle=Glan Leabharmharcanna
+ClearConfirm=An bhfuil tú cinnte gur mhaith leat gach leabharmharc a ghlanadh?
+Count=%d leabharmharc(anna)
+
+[Favorites]
+Title=Ceanáin
+Play=Seinn
+Remove=Bain
+Clear=Glan Uile
+Refresh=Athnuaigh
+OpenFolder=Oscail Fillteán
+CopyPath=Cóipeáil Cosán
+; Colúin
+ColName=Ainm
+ColType=Cineál
+ColPath=Cosán
+; Cineálacha
+TypeFile=Comhad
+TypeURL=URL
+TypeRadio=Raidió
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Anaithnid
+; Dialóga
+ClearTitle=Glan Ceanáin
+ClearConfirm=An bhfuil tú cinnte gur mhaith leat gach ceanán a ghlanadh?
+Count=%d ceanán(anna)
+
+[History]
+Title=Stair Athsheanma
+Play=Seinn
+Remove=Bain
+Clear=Glan Uile
+Refresh=Athnuaigh
+OpenFolder=Oscail Fillteán
+CopyPath=Cóipeáil Cosán
+; Colúin
+ColFileName=Comhad
+ColPath=Cosán
+; Dialóga
+ClearTitle=Glan Stair
+ClearConfirm=An bhfuil tú cinnte gur mhaith leat an stair go léir a ghlanadh?
+Count=%d mír(eanna)
+
+[SleepTimer]
+Title=Amadóir Codlata
+Description=Socraigh amadóir chun athsheinm a stopadh go huathoibríoch
+Hours=Uaireanta:
+Minutes=Nóiméid:
+Action=Nuair a éagann an t-amadóir:
+StopPlayback=Stop athsheinm
+CloseApp=Dún feidhmchlár
+Shutdown=Múch ríomhaire
+QuickSet=Socraigh go tapa:
+15Min=15 nóim
+30Min=30 nóim
+1Hour=1 uair
+2Hours=2 uair
+
+[Radios]
+Title=Raidió Idirlín
+Play=Seinn
+Add=Cuir Leis
+Edit=Cuir in Eagar
+Delete=Scrios
+Remove=Bain
+Import=Iompórtáil
+Export=Easpórtáil
+Refresh=Athnuaigh
+Favorite=Ceanán
+ShowFavorites=Ceanáin
+ShowAll=Gach Ceann
+; Scagaire
+Genre=Seánra:
+Search=Cuardaigh:
+SearchBtn=Cuardaigh
+ClearSearch=Glan
+AllGenres=(Gach Seánra)
+; Roghchlár comhthéacs
+AddFavorite=Cuir le Ceanáin
+RemoveFavorite=Bain ó Cheanáin
+AddCustom=Cuir Stáisiún Saincheaptha Leis...
+EditCustom=Cuir Stáisiún in Eagar...
+DeleteCustom=Scrios Stáisiún
+OpenWebsite=Oscail Suíomh Gréasáin
+CopyURL=Cóipeáil URL
+; Colúin
+ColName=Ainm
+ColGenre=Seánra
+ColBitrate=Ráta Giotán
+ColCountry=Tír
+ColCodec=Códaic
+; Dialóga
+AddTitle=Cuir Stáisiún Saincheaptha Leis
+EditTitle=Cuir Stáisiún in Eagar
+DeleteTitle=Scrios Stáisiún
+DeleteConfirm=An bhfuil tú cinnte gur mhaith leat an stáisiún seo a scriosadh?
+StationName=Ainm Stáisiúin:
+StreamURL=URL Srutha:
+GenrePrompt=Seánra:
+NameURLRequired=Teastaíonn ainm agus URL.
+; Teachtaireachtaí stádais
+LoadingIcecast=Ag luchtú stáisiún ón eolaire Icecast...
+IcecastError=Níorbh fhéidir eolaire Icecast a luchtú. Ag úsáid stáisiún réamhshocraithe.
+NoStationsLoaded=Níl stáisiún ar bith luchtaithe
+StationCount=%d stáisiún
+LoadedStations=Luchtaíodh %d stáisiún
+ErrorPrefix=Earráid:
+; Eochracha oidhreachta
+Name=Ainm
+URL=URL
+Bitrate=Ráta Giotán
+Description=Cur Síos
+Country=Tír
+
+[OpenURL]
+Title=Oscail URL
+Prompt=Iontráil URL meán:
+
+[GotoTime]
+Title=Téigh go hAm
+EnterTime=Iontráil am le léim chuige:
+Hours=U
+Minutes=N
+Seconds=S
+Current=Reatha:
+Duration=Fad:
+
+[VideoAdjust]
+Title=Coigeartuithe Físeáin
+Brightness=Gile:
+Contrast=Codarsnacht:
+Saturation=Sáithiú:
+Hue=Lí:
+Gamma=Gáma:
+ResetAll=Athshocraigh Gach Dath
+
+[CLI]
+; Teachtaireachtaí líne ordaithe
+Usage=Úsáid
+Arguments=[ROGHANNA] [COMHAD|URL|FILLTEÁN]
+Description=Seinnteoir ilmheán tras-ardán ag baint úsáide as cúl libmpv.
+Options=ROGHANNA
+Examples=SAMPLAÍ
+MoreInfo=Le haghaidh tuilleadh eolais, tabhair cuairt ar
+EnqueuedTo=Curtha leis an ásc atá ann cheana: %s
+SentTo=Seolta chuig an ásc atá ann cheana: %s
+AlreadyRunning=Tá 3nity Media ag rith cheana féin.
+ErrorFileNotFound=Earráid: Níor aimsíodh an comhad nó an fillteán: %s
+ErrorSubNotFound=Earráid: Níor aimsíodh an comhad fotheideal: %s

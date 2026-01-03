@@ -1,0 +1,892 @@
+[Language]
+Name=Fijian - Vosa Vakaviti
+Code=fj
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Faile
+FileOpen=&Dola Faile...
+FileOpenURL=Dola &URL...
+FileOpenClipboard=Dola mai na &Clipboard
+FileRecent=Na Faile &Vakacokonaki
+ClearRecentFiles=Sarava na Faile Vakacokonaki
+FileExit=&Sucu
+
+; Playback menu
+Playback=&Qito
+PlaybackPlayPause=&Qito/Vakacegu
+PlaybackStop=&Muduka
+PlaybackPrevious=&Liuliu
+PlaybackNext=&Qai
+PlaybackSeekForward=Sarava &Ki Liu
+PlaybackSeekBackward=Sarava &Ki Muri
+PlaybackSpeed=&Totolo
+PlaybackABLoop=Cakacaka A-&B
+PlaybackSetA=Maroroya &A
+PlaybackSetB=Maroroya &B
+PlaybackClearAB=&Sarava A-B
+PlaybackChapters=Na &Mataveilawa
+PlaybackPrevChapter=Mataveilawa e Liuliu
+PlaybackNextChapter=Mataveilawa e Qai
+PlaybackFrameStep=Lade ni Yaloyalo Ki Liu
+PlaybackFrameBack=Lade ni Yaloyalo Ki Muri
+
+; DVD Navigation
+PlaybackDVD=Lewena na &DVD
+DVDMenu=&Menu
+DVDUp=&Cake
+DVDDown=&Ra
+DVDLeft=Ma&ta
+DVDRight=Ma&tau
+DVDSelect=&Digitaka
+PlaybackDVDTitles=Na &Ulutaga ni DVD
+
+; Phase 21: Open Folder
+FileOpenFolder=Dola &Fola...
+
+; File menu DVD/Bluray
+FileOpenDVD=Dola &DVD...
+FileOpenBluray=Dola &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Lako ki na Gauna...
+ToolsHistory=&Tukutuku
+
+; Phase 14: System Tray
+TrayShow=&Vakaraitaka/Vuniyaka
+TrayPlayPause=&Qito/Vakacegu
+TrayStop=&Muduka
+TrayPrevious=&Liuliu
+TrayNext=&Qai
+TrayMute=&Vakalogologo
+TrayExit=&Sucu
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Vakabitaka e dua na &Maka...
+PlaybackBookmarks=Na &Maka
+BookmarksTitle=Na Maka
+BookmarksGoto=&Lako ki na Maka
+BookmarksRemove=&Bokoca na Maka
+BookmarksClear=&Sarava na Maka Kece
+BookmarksOpenFolder=Dola &Fola
+BookmarksCopyPath=&Kopi na Sala
+BookmarksCount=maka %d
+NoBookmarks=(Sega ni Maka)
+NoFileLoaded=(Sega ni Faile e Loudi)
+BookmarkAdded=E vakabitaka na maka ki na %s
+BookmarkJumped=E lako ki na maka ki na %s
+AddBookmarkTitle=Vakabitaka na Maka
+AddBookmarkPrompt=Curu na yaca ni maka:
+ShowAllBookmarks=Vakaraitaka na Maka Kece...
+
+; Phase 16: Favorites
+ToolsFavorites=Na &Taleitaki
+ToolsAddFavorite=Vakabitaka ki na &Taleitaki
+FavoritesTitle=Na Taleitaki
+FavoritesPlay=&Qito
+FavoritesRemove=&Bokoca mai na Taleitaki
+FavoritesClear=&Sarava na Taleitaki Kece
+FavoritesOpenFolder=Dola &Fola
+FavoritesCopyPath=&Kopi na Sala
+FavoritesCount=taleitaki %d
+NoFavorites=(Sega ni Taleitaki)
+AddFavoriteTitle=Vakabitaka ki na Taleitaki
+AddFavoritePrompt=Curu na yaca ni taleitaki:
+AlreadyFavorite=E sa tiko oqo ena taleitaki
+AddedToFavorites=E sa vakabitaka ki na taleitaki: %s
+NoFileToFavorite=Sega ni faile e loudi me vakabitaka ki na taleitaki
+FavoriteTypeFile=Faile
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Sere %d: %s
+TrackWithLang=Sere %d (%s)
+TrackNumber=Sere %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Vakacegui
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=Na Kaloko ni &Moce...
+ToolsSleepTimerActive=Na Kaloko ni &Moce [%s]
+ToolsCancelTimer=Kaniseli na &Kaloko
+
+; Audio menu
+Audio=&Domo
+AudioTrack=Sere ni &Domo
+AudioVolumeUp=Vakalevu na &Leo
+AudioVolumeDown=Vakalailai na &Leo
+AudioMute=&Vakalogologo
+AudioEqualizer=&Equalizer
+AudioDelay=&Bera ni Domo
+AudioDelayPlus=Bera +0.1s
+AudioDelayMinus=Bera -0.1s
+AudioDelayReset=Vakamataca na Bera
+AudioNormalize=&Vakadodonu na Leo
+
+; Video menu
+Video=&Vidio
+VideoFullscreen=&Siveta Taucoko
+VideoAspect=&Iwase
+VideoAspectAuto=&Vakaira
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Iyaloyalo ni Siveta
+VideoScreenshotAs=Iyaloyalo ni Siveta &Vakai...
+VideoRotation=&Viritaki
+VideoRotate0=&0° (Savasava)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Vuki
+VideoFlipH=Vuki &Taudaku
+VideoFlipV=Vuki &Turaga
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Vakalelevu
+VideoZoomIn=Vakalelevu &Ki Loma
+VideoZoomOut=Vakalelevu &Ki Tuba
+VideoZoomReset=&Vakamataca Vakalelevu
+VideoPan=&Pan
+VideoPanLeft=Pan Ma&ta
+VideoPanRight=Pan Ma&tau
+VideoPanUp=Pan &Cake
+VideoPanDown=Pan &Ra
+VideoPanReset=Vaka&mataca Pan
+VideoTrack=Sere ni &Vidio
+VideoColors=Veisau ni &Lanu
+VideoBrightness=&Rarama
+VideoContrast=&Duavata
+VideoSaturation=&Saturation
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Vakamataca na &Lanu Kece
+VideoIncrease=Vakalevu (+5)
+VideoDecrease=Vakalailai (-5)
+VideoReset=Vakamataca
+VideoAdjustDialog=Veisau ni &Vidio...
+
+; View menu
+View=&Raica
+ViewAlwaysOnTop=&Tu Cake Vakadina
+ViewFitToVideo=&Vakaduru na Katuba ki na Vidio
+ViewScale=&Iwase ni Katuba
+
+; Phase 26: Visualization menu
+ViewVisualization=&Vakaraitaka
+VisNone=&Sega
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=V&U Meter
+VisNextMode=Na Sala &Qai
+VisNextColor=Na Lanu &Qai
+
+; Subtitles menu
+Subtitles=Na &Subtitle
+SubtitleTrack=Sere ni &Subtitle
+SubtitleLoad=&Loudi na Subtitle...
+SubtitleDelay=&Bera ni Subtitle
+SubtitleDelayPlus=Bera +0.1s
+SubtitleDelayMinus=Bera -0.1s
+SubtitleDelayReset=Vakamataca na Bera
+
+; Tools menu
+Tools=Na &Iyaya ni Cakacaka
+ToolsPlaylist=&Lisi ni Sere
+ToolsRadios=&Radio
+ToolsShortcuts=Na &Isigasiga ni Kibodi...
+ToolsOptions=&Digitaka
+
+; Phase 27: Recording menu
+ToolsRecord=&Maroroya...
+ToolsStopRecord=&Muduka na Maroroya
+ToolsRecording=&Maroroya...
+
+; Help menu
+Help=&Vukei
+HelpMediaInfo=Tukutuku ni &Media
+HelpLog=Katuba ni &Log
+HelpAbout=&Kena
+
+[Dialog]
+OpenFile=Dola Faile
+OpenURL=Dola URL
+SaveScreenshot=Maroroya Iyaloyalo ni Siveta
+LoadSubtitle=Loudi na Faile ni Subtitle
+EnterURL=Curu na URL:
+ResumePlayback=Vakatura na Qito
+ResumeFrom=Vakatura mai na %s?
+ClearRecentFiles=Sarava na Faile Vakacokonaki
+NoRecentFiles=(Sega ni faile vakacokonaki)
+NoAudioTracks=(Sega ni sere ni domo)
+NoVideoTracks=(Sega ni sere ni vidio)
+NoSubtitleTracks=(Sega ni sere ni subtitle)
+NoChapters=(Sega ni mataveilawa)
+OpenDVD=Dola DVD
+OpenBluray=Dola Blu-ray
+OpenFolder=Dola Fola
+
+; File filters
+ScreenshotFilter=Iyaloyalo PNG|*.png|Iyaloyalo JPEG|*.jpg|Iyaloyalo WebP|*.webp
+DVDFilter=Fola ni DVD|*.;*.iso|Faile kece (*.*)|*.*
+BlurayFilter=Fola ni Blu-ray|*.;*.iso|Faile kece (*.*)|*.*
+NoDVD=(Sega ni DVD e loudi)
+DVDTitle=Ulutaga %d
+GotoTime=Lako ki na Gauna
+EnterTime=Curu na gauna o via lako kina:
+Hours=Aua
+Minutes=Miniti
+Seconds=Sekodi
+Current=Ni Ko:
+HistoryTitle=Tukutuku ni Qito
+HistoryItems=ka %d ena tukutuku
+HistoryPlay=&Qito
+HistoryRemove=&Bokoca mai na Tukutuku
+HistoryClear=&Sarava na Tukutuku Kece
+HistoryOpenFolder=Dola &Fola
+HistoryCopyPath=&Kopi na Sala
+ClearHistory=Sarava na Tukutuku
+ClearHistoryConfirm=O vakadinadina mo sarava na tukutuku kece?
+SleepTimerTitle=Kaloko ni Moce
+SleepTimerDescription=Maroroya na kaloko me muduka na qito vakaira
+SleepTimerHours=Aua
+SleepTimerMinutes=Miniti
+SleepTimerQuickSet=Maroroya Totolo
+SleepTimerAction=Kevaka na kaloko e oti
+SleepTimerStopPlayback=Muduka na qito
+SleepTimerCloseApp=Sogo na porokaramu
+SleepTimerShutdown=Vakacegui na konivuta
+SleepTimerStart=Taki na Kaloko
+
+[Status]
+Ready=Sa Gaunisala
+Opening=Sa Dola...
+Playing=Sa Qito
+Paused=Sa Vakacegu
+Stopped=Sa Muduka
+Error=Cala
+Buffering=Sa Rai...
+Seeking=Sa Vakasamataka...
+Recording=Sa Maroroya
+
+[Message]
+SpeedFormat=Totolo: %.2fx
+VolumeFormat=Leo: %d%%
+BrightnessFormat=Rarama: %d
+ContrastFormat=Duavata: %d
+SaturationFormat=Saturation: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Sa vakamataca na lanu ni vidio
+LoopASet=Loop A e maroroya ki na %s
+LoopBSet=Loop B e maroroya ki na %s - Loop e caka
+LoopCleared=Sa sarava na Loop A-B
+SetAFirst=Maroroya mada na A (tiki L)
+RotationFormat=Viritaki: %d°
+FlipHOn=Vuki taudaku: SA DOLA
+FlipHOff=Vuki taudaku: SA SOGO
+FlipVOn=Vuki turaga: SA DOLA
+FlipVOff=Vuki turaga: SA SOGO
+DeinterlaceOn=Deinterlace: SA DOLA
+DeinterlaceOff=Deinterlace: SA SOGO
+AlwaysOnTopOn=Tu cake vakadina: SA DOLA
+AlwaysOnTopOff=Tu cake vakadina: SA SOGO
+WindowFitted=Katuba e vakaduru ki na %dx%d
+WindowScale=Iwase ni katuba: %.0f%%
+ScreenshotSaved=Iyaloyalo ni siveta e maroroya: %s
+AudioNormalizeOn=Vakadodonu na domo: SA DOLA
+AudioNormalizeOff=Vakadodonu na domo: SA SOGO
+AudioDelayFormat=Bera ni domo: %.1f s
+SubtitleDelayFormat=Bera ni subtitle: %.1f s
+ZoomFormat=Vakalelevu: %.0f%%
+PanCenter=Pan: Loma
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Sega ni vidio e loudi
+PlayingFromClipboard=Sa qito mai na clipboard: %s
+ClipboardInvalid=Na clipboard e sega ni URL se sala e dodonu
+ClipboardEmpty=Na clipboard e lala se sega ni vosa
+ResumedAt=E vakatura ki na %s
+FrameStepForward=Lade ni yaloyalo ki liu
+FrameStepBackward=Lade ni yaloyalo ki muri
+PreviousChapter=Mataveilawa e liuliu
+NextChapter=Mataveilawa e qai
+PlayingRadio=Sa qito na radio: %s
+PlayingDVD=Sa qito na DVD: %s
+PlayingBluray=Sa qito na Blu-ray: %s
+DVDTitlePlaying=Ulutaga ni DVD %d
+SeekTo=Sa lako ki na %s
+MinimizedToTray=E sa vakalailai ki na tray. Tiki rua me vakalesu.
+SleepTimerSet=Kaloko ni moce e maroroya: %s
+SleepTimerCancelled=Kaloko ni moce e kaniseli
+SleepTimerWarning=Kaloko ni moce: miniti 1 e tiko
+SleepTimerFinal=Kaloko ni moce: sekodi 10 e tiko
+SleepTimerStopped=Kaloko ni moce: Qito e muduka
+SleepTimerClosing=Kaloko ni moce: Sa sogo na porokaramu
+SleepTimerShutdown=Kaloko ni moce: Sa vakacegui na konivuta
+SleepTimerExpired=Kaloko ni Moce Sa Oti
+ShutdownManual=Vakacegui na konivuta veitalia.
+
+; Phase 21: Open Folder
+FolderOpened=Fola e dola: faile %d
+NoMediaFound=Sega ni faile ni media e kunea
+FilesAdded=Faile %d e vakabitaka ki na lisi
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Taki na qito ni bera ni maroroya.
+RecordingStarted=Maroroya sa taki
+RecordingStopped=Maroroya sa muduka
+
+; Additional status messages
+EndOfPlaylist=Oti ni lisi
+NoMediaLoaded=Sega ni faile ni media e loudi.
+JumpedToNamed=E sa lako ki na: %s
+ChapterFormat=Mataveilawa %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Maka ki na %s
+
+[Label]
+Muted=E Vakalogologo
+
+[Button]
+Play=Qito
+Pause=Vakacegu
+Stop=Muduka
+Previous=Liuliu
+Next=Qai
+Mute=Vakalogologo
+Unmute=Vakadola na Leo
+Fullscreen=Siveta Taucoko
+OK=Vinaka
+Cancel=Kaniseli
+Apply=Vakayagataka
+Close=Sogo
+Yes=Io
+No=Sega
+
+[Tooltip]
+Play=Qito/Vakacegu
+Stop=Muduka na qito
+Previous=Sere e liuliu
+Next=Sere e qai
+Mute=Veisau na vakalogologo
+Volume=Leo
+Seek=Vanua ni vakasamataka
+Fullscreen=Veisau na siveta taucoko
+
+[Playlist]
+Title=Lisi ni Sere
+Add=Vakabitaka
+Remove=Bokoca
+Clear=Sarava
+MoveUp=Kokoya Cake
+MoveDown=Kokoya Ra
+Shuffle=Veivuke
+Repeat=Vakatabui
+Play=Qito
+ShuffleOn=Veivuke: Sa Dola
+ShuffleOff=Veivuke: Sa Sogo
+RepeatOff=Vakatabui: Sa Sogo
+RepeatOne=Vakatabui: Dua
+RepeatAll=Vakatabui: Kece
+SavePlaylist=Maroroya
+LoadPlaylist=Loudi
+TotalDuration=Kece: %s
+ItemCount=ka %d
+
+; Phase 22: Playlist Enhancements
+Search=Vakasamataka:
+FilterPlaceholder=Cila na lisi...
+ClearSearch=Sarava
+FilterCount=%d/%d
+RemoveDuplicates=Bokoca na &Ruarua
+Properties=Na &Tukutuku...
+NoDuplicates=Sega ni ruarua e kunea.
+DuplicatesFound=Ruarua %d e kunea. Bokoca?
+RemoveDuplicatesTitle=Bokoca na Ruarua
+PropertiesTitle=Tukutuku ni Lisi
+PropTotalItems=Ka kece: %d
+PropTotalDuration=Gauna kece: %s
+PropPlayed=Sa qito: %d
+PropUnplayed=Sega ni qito: %d
+PropTotalSize=Levu kece: %.2f MB
+PropShuffle=Veivuke: %s
+PropRepeat=Vakatabui: %s
+On=Sa Dola
+Off=Sa Sogo
+
+; New keys for ApplyLocale
+ClearTitle=Sarava na Lisi
+ClearConfirm=O vakadinadina mo sarava na lisi?
+NoPlaylist=Sega ni lisi
+StatusFormat=ka %d | Kece: %s
+RepeatOne=Vak. 1
+RepeatAll=Vak. Kece
+HintRepeatEnable=Tiki me taki na Vakatabui Kece
+HintRepeatOne=Vakatabui Dua - Tiki me muduka
+HintRepeatAll=Vakatabui Kece - Tiki ki na Vakatabui Dua
+HintShuffleRepeat=Veivuke + Vakatabui Kece - Tiki me muduka vakatabui
+RemoveDuplicatesTitle=Bokoca na Ruarua
+NoDuplicates=Sega ni ruarua e kunea.
+SelectAll=Digitaka Kece
+SelectNone=Digitaka Sega
+SelectInvert=Veisau na Digitaka
+Sort=Vakatokai
+SortByName=Ni Yaca
+SortByTitle=Ni Ulutaga
+SortByArtist=Ni Dau Sere
+SortByDuration=Ni Gauna
+SortReverse=Veisau
+SortRandom=Veivuke
+ColTitle=Ulutaga
+ColDuration=Gauna
+ColArtist=Dau Sere
+ColAlbum=Albamu
+PlaylistFilter=M3U Lisi|*.m3u|M3U8 Lisi|*.m3u8|PLS Lisi|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Maroroya:
+Preamp=Preamp:
+Flat=Palati
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Makawa
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Domo
+Reset=Vakamataca
+Enable=Vakadola na Equalizer
+Save=Maroroya
+Delete=Sarava
+Ready=Sa Gaunisala
+; Buttons and actions
+SavePreset=Maroroya na Preset
+DeletePreset=Sarava na Preset
+SavePresetTitle=Maroroya na Preset
+PresetNamePrompt=Yaca ni preset:
+EnterPresetName=Curu na yaca ni preset.
+OverwritePresetTitle=Vola Cake na Preset
+OverwritePresetConfirm=Na preset e tiko na yaca oqo e tiko. Vola cake?
+PresetUpdated=Preset e vakavoutaka: %s
+PresetSaved=Preset e maroroya: %s
+SelectPresetToDelete=Digitaka na preset mo via bokoca.
+CannotDeleteDefault=E sega ni rawa ni bokoca na preset vakavuravura.
+DeletePresetTitle=Sarava na Preset
+DeletePresetConfirm=O vakadinadina mo bokoca na preset oqo?
+PresetDeleted=Preset e bokoca
+ResetToFlat=Equalizer e vakamataca palati
+PresetApplied=Preset e vakayagataka: %s
+
+[Options]
+Title=Digitaka
+General=Taucoko
+Video=Vidio
+Audio=Domo
+Subtitles=Subtitle
+Cache=Cache
+Language=Vosa:
+RestartRequired=E gadrevi me vakavoutaki me caka na veisau
+
+; General tab - Behavior
+Behavior=Itovo
+SingleInstance=Vakadina me dua ga
+AutoPlay=Qito vakaira ke dola
+AutoResume=Vakatura na vanua ni qito
+MinimizeToTray=Vakalailai ki na tray
+AutoSavePlaylist=Maroroya na lisi ke o sucu
+
+; General tab - OSD
+OSD=Vakaraitaka ki na Siveta
+ShowOSD=Vakaraitaka na itukutuku ni siveta
+ShowTrayIcon=Vakaraitaka na iyaloyalo ni tray
+OSDDuration=Gauna ni OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Iyaloyalo ni Siveta
+ScreenshotPath=Fola ni maroroya:
+ScreenshotFormat=Ituvatuva:
+
+; General tab - History
+HistorySettings=Tukutuku
+HistoryEnabled=Vakadola na tukutuku ni qito
+HistoryMaxItems=Naba levu:
+
+; General tab - Language
+LanguageGroup=Vosa
+RestartNote=(E gadrevi me vakavoutaki ni veisau)
+
+; Video tab
+VideoAdjust=Veisau ni Vidio
+Brightness=Rarama:
+Contrast=Duavata:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Vidio e Sucu
+Output=Sucu:
+HWAccel=Vakadola na hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Sala:
+
+; Audio tab
+AudioOutput=Domo e Sucu
+OutputDriver=Draiva ni sucu:
+Device=Iyaya:
+AudioOptions=Digitaka ni Domo
+NormalizeAudio=Vakadodonu na leo ni domo
+Channels=Gaunisala:
+
+; Subtitles tab
+UseDefaultSubtitles=Vakayagataka na preset ni subtitle vakavuravura
+Font=Fonithi
+FontName=Fonithi:
+FontSize=Levu:
+FontColor=Lanu:
+Bold=Bold
+Italic=Italic
+Outline=Yavutuloa
+OutlineColor=Lanu:
+OutlineSize=Levu:
+Position=Vanua
+VerticalPosition=Vanua turaga:
+SubOptions=Digitaka
+Encoding=Encoding:
+AutoLoadSubs=Loudi na faile ni subtitle vakaira
+
+; Video output warnings
+VOWarningX11=Vakanananu: x11 e sega ni tokoni na veisau ni vidio (rarama, duavata, etc.)
+VOWarningWayland=Vakanananu: E gadrevi na Wayland session. Veisau ni vidio e tokona.
+
+; Cache tab
+CacheSettings=Levu ni Cache Buffer (KB)
+CacheDefault=Cache vakavuravura:
+CacheLocal=Faile ni vale:
+CacheNetwork=Faile ni network:
+CacheInternet=Stream ni Internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Kena
+Version=Veritoni
+Engine=Inji
+Technology=Tekinoloji
+BuildInfo=Tukutuku ni Build
+SystemInfo=Sisitemi
+Credits=Vakavinavinaka
+Developer=Dau Cakacaka:
+Author=Dau Vola
+License=Laiseni
+Website=Webusaiti
+GitHub=GitHub
+Description=Dau qito ni media vinaka, malumalumu
+LicenseText=3nity Media e tiko na laiseni GPL-2.0\n\nOqori e kena ibalebale ni o sa dodonu mo:\n  - Vakayagataka na software ki na cava ga\n  - Vulica ka veisautaka na code ni source\n  - Wasea na kopi ni software\n  - Wasea na nomu veisau\n\nE na gauna ni veisau kece e wasea\ne tiko talega na laiseni GPL-2.0.
+BuildDate=Siga:
+Target=Taumu:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Isigasiga ni Kibodi
+Description=Vakarautaka na isigasiga ni kibodi ni cakacaka
+Search=Vakasamataka:
+PressKey=Tiki na ki...
+ColCategory=Imatai
+ColAction=Cakacaka
+ColShortcut=Isigasiga
+Assign=Maroroya
+Clear=Sarava
+Reset=Vakamataca
+ResetAll=Vakamataca Kece
+CurrentShortcut=Ni Ko: %s
+NoKeyPressed=Tiki mada na ki.
+Conflict=Veivacu: E sa maroroya ki na "%s"
+ConfirmReplace=Veisau na Isigasiga
+ReplaceMessage=Na isigasiga oqo e sa maroroya ki na "%s". O gadreva mo veisautaka?
+ConfirmResetAll=Vakamataca na Isigasiga Kece
+ResetAllMessage=O vakadinadina mo vakamataca na isigasiga kece vakavuravura?
+; Action names
+ActPlayPause=Qito / Vakacegu
+ActStop=Muduka
+ActPrevious=Liuliu
+ActNext=Qai
+ActSeekForward=Vakasamataka Ki Liu (10s)
+ActSeekBackward=Vakasamataka Ki Muri (10s)
+ActSeekForward5=Vakasamataka Ki Liu (1 min)
+ActSeekBackward5=Vakasamataka Ki Muri (1 min)
+ActSpeedUp=Vakalevu na Totolo
+ActSpeedDown=Vakalailai na Totolo
+ActSpeedReset=Vakamataca na Totolo
+ActSetLoopA=Maroroya Loop A
+ActSetLoopB=Maroroya Loop B
+ActClearLoop=Sarava Loop A-B
+ActFrameForward=Yaloyalo Ki Liu
+ActFrameBackward=Yaloyalo Ki Muri
+ActPrevChapter=Mataveilawa e Liuliu
+ActNextChapter=Mataveilawa e Qai
+ActGotoTime=Lako ki na Gauna
+ActVolumeUp=Vakalevu na Leo
+ActVolumeDown=Vakalailai na Leo
+ActMute=Vakalogologo / Dola
+ActAudioDelayPlus=Bera ni Domo +
+ActAudioDelayMinus=Bera ni Domo -
+ActAudioDelayReset=Vakamataca Bera ni Domo
+ActFullscreen=Siveta Taucoko
+ActRotate=Viritaka na Vidio
+ActDeinterlace=Deinterlace
+ActZoomIn=Vakalelevu Ki Loma
+ActZoomOut=Vakalelevu Ki Tuba
+ActZoomReset=Vakamataca Vakalelevu
+ActAlwaysOnTop=Tu Cake Vakadina
+ActFitToVideo=Vakaduru ki na Vidio
+ActScreenshot=Iyaloyalo ni Siveta
+ActVideoAdjust=Veisau ni Vidio
+ActVisNextMode=Sala ni Vakaraitaka Qai
+ActVisNextColor=Lanu Qai
+ActSubDelayPlus=Bera ni Subtitle +
+ActSubDelayMinus=Bera ni Subtitle -
+ActSubDelayReset=Vakamataca Bera ni Subtitle
+ActDVDMenu=Menu ni DVD
+ActDVDUp=DVD Cake
+ActDVDDown=DVD Ra
+ActDVDLeft=DVD Mata
+ActDVDRight=DVD Matau
+ActDVDSelect=DVD Digitaka
+ActOpenFile=Dola Faile
+ActOpenURL=Dola URL
+ActPlaylist=Vakaraitaka na Lisi
+ActQuit=Sucu
+
+[Log]
+; Phase 25: Log Window
+Title=Log ni MPV
+Command=Cakacaka:
+Clear=Sarava
+Save=Maroroya...
+Copy=&Kopi
+SelectAll=Digitaka &Kece
+SaveTitle=Maroroya na Log
+SaveFilter=Faile ni vosa (*.txt)|*.txt|Faile kece (*.*)|*.*
+ErrorTitle=Cala
+SaveError=Maroroya na log e cala: %s
+
+[MediaInfo]
+Title=Tukutuku ni Media
+FileTab=Faile
+VideoTab=Vidio
+AudioTab=Domo
+MetadataTab=Metadata
+FileName=Yaca ni Faile:
+FilePath=Sala:
+FileSize=Levu:
+Duration=Gauna:
+Format=Ituvatuva:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Ituvatuva ni Pixel:
+AspectRatio=Iwase:
+Channels=Gaunisala:
+SampleRate=Sample Rate:
+Language=Vosa:
+Property=Tukutuku
+Value=Kena
+CopyAll=Kopi Kece
+CopiedToClipboard=Tukutuku ni media e kopi ki na clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Sega ni Kila
+NoMetadata=(Sega ni metadata)
+
+[Bookmarks]
+Title=Na Maka
+Goto=Lako ki
+Remove=Bokoca
+Clear=Sarava Kece
+Refresh=Vakavoutaka
+OpenFolder=Dola Fola
+CopyPath=Kopi na Sala
+; Columns
+ColName=Yaca
+ColFile=Faile
+ColPosition=Vanua
+ColCreated=E Caka
+; Dialogs
+ClearTitle=Sarava na Maka
+ClearConfirm=O vakadinadina mo sarava na maka kece?
+Count=maka %d
+
+[Favorites]
+Title=Na Taleitaki
+Play=Qito
+Remove=Bokoca
+Clear=Sarava Kece
+Refresh=Vakavoutaka
+OpenFolder=Dola Fola
+CopyPath=Kopi na Sala
+; Columns
+ColName=Yaca
+ColType=Mataqali
+ColPath=Sala
+; Types
+TypeFile=Faile
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Sega ni Kila
+; Dialogs
+ClearTitle=Sarava na Taleitaki
+ClearConfirm=O vakadinadina mo sarava na taleitaki kece?
+Count=taleitaki %d
+
+[History]
+Title=Tukutuku ni Qito
+Play=Qito
+Remove=Bokoca
+Clear=Sarava Kece
+Refresh=Vakavoutaka
+OpenFolder=Dola Fola
+CopyPath=Kopi na Sala
+; Columns
+ColFileName=Faile
+ColPath=Sala
+; Dialogs
+ClearTitle=Sarava na Tukutuku
+ClearConfirm=O vakadinadina mo sarava na tukutuku kece?
+Count=ka %d
+
+[SleepTimer]
+Title=Kaloko ni Moce
+Description=Maroroya na kaloko me muduka na qito vakaira
+Hours=Aua:
+Minutes=Miniti:
+Action=Ke na kaloko e oti:
+StopPlayback=Muduka na qito
+CloseApp=Sogo na porokaramu
+Shutdown=Vakacegui na konivuta
+QuickSet=Maroroya totolo:
+15Min=15 min
+30Min=30 min
+1Hour=1 aua
+2Hours=2 aua
+
+[Radios]
+Title=Radio ni Internet
+Play=Qito
+Add=Vakabitaka
+Edit=Veisau
+Delete=Sarava
+Remove=Bokoca
+Import=Kauta mai
+Export=Vakasucuma
+Refresh=Vakavoutaka
+Favorite=Taleitaki
+ShowFavorites=Taleitaki
+ShowAll=Kece
+; Filter
+Genre=Mataqali:
+Search=Vakasamataka:
+SearchBtn=Vakasamataka
+ClearSearch=Sarava
+AllGenres=(Mataqali Kece)
+; Context menu
+AddFavorite=Vakabitaka ki na Taleitaki
+RemoveFavorite=Bokoca mai na Taleitaki
+AddCustom=Vakabitaka na Siteseni...
+EditCustom=Veisau na Siteseni...
+DeleteCustom=Sarava na Siteseni
+OpenWebsite=Dola na Webusaiti
+CopyURL=Kopi na URL
+; Columns
+ColName=Yaca
+ColGenre=Mataqali
+ColBitrate=Bitrate
+ColCountry=Vanua
+ColCodec=Codec
+; Dialogs
+AddTitle=Vakabitaka na Siteseni
+EditTitle=Veisau na Siteseni
+DeleteTitle=Sarava na Siteseni
+DeleteConfirm=O vakadinadina mo bokoca na siteseni oqo?
+StationName=Yaca ni Siteseni:
+StreamURL=URL ni Stream:
+GenrePrompt=Mataqali:
+NameURLRequired=E gadrevi na yaca kei na URL.
+; Status messages
+LoadingIcecast=Sa loudi na siteseni mai na Icecast...
+IcecastError=E sega ni rawa ni loudi na Icecast. Vakayagataka na siteseni vakavuravura.
+NoStationsLoaded=Sega ni siteseni e loudi
+StationCount=siteseni %d
+LoadedStations=Siteseni %d e loudi
+ErrorPrefix=Cala:
+; Legacy keys
+Name=Yaca
+URL=URL
+Bitrate=Bitrate
+Description=Tukutuku
+Country=Vanua
+
+[OpenURL]
+Title=Dola URL
+Prompt=Curu na URL ni media:
+
+[GotoTime]
+Title=Lako ki na Gauna
+EnterTime=Curu na gauna o via lako kina:
+Hours=A
+Minutes=M
+Seconds=S
+Current=Ni Ko:
+Duration=Gauna:
+
+[VideoAdjust]
+Title=Veisau ni Vidio
+Brightness=Rarama:
+Contrast=Duavata:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Vakamataca na Lanu Kece
+
+[CLI]
+; Itukutuku ni laina ni vakatulewa
+Usage=Vakayagataki
+Arguments=[NA DIGIDIGI] [FAILE|URL|FOLITA]
+Description=E dua na multimedia player e caka vata kei na libmpv backend.
+Options=NA DIGIDIGI
+Examples=NA VAKATAKI
+MoreInfo=Me kila tale, sikova na
+EnqueuedTo=Sa kau kina instance tiko: %s
+SentTo=Sa vakauta kina instance tiko: %s
+AlreadyRunning=3nity Media sa caka tiko.
+ErrorFileNotFound=Cala: Na faile se folita e sega ni kunei: %s
+ErrorSubNotFound=Cala: Na faile ni subtitle e sega ni kunei: %s

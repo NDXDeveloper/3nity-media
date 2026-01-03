@@ -1,0 +1,892 @@
+[Language]
+Name=Korean - 한국어
+Code=ko
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; 파일 메뉴
+File=파일(&F)
+FileOpen=파일 열기(&O)...
+FileOpenURL=URL 열기(&U)...
+FileOpenClipboard=클립보드에서 열기(&C)
+FileRecent=최근 파일(&R)
+ClearRecentFiles=최근 파일 지우기
+FileExit=종료(&X)
+
+; 재생 메뉴
+Playback=재생(&P)
+PlaybackPlayPause=재생/일시정지(&P)
+PlaybackStop=정지(&S)
+PlaybackPrevious=이전(&V)
+PlaybackNext=다음(&N)
+PlaybackSeekForward=앞으로 이동(&F)
+PlaybackSeekBackward=뒤로 이동(&B)
+PlaybackSpeed=속도(&S)
+PlaybackABLoop=A-B 구간 반복(&B)
+PlaybackSetA=A 지점 설정(&A)
+PlaybackSetB=B 지점 설정(&B)
+PlaybackClearAB=A-B 지우기(&C)
+PlaybackChapters=챕터(&C)
+PlaybackPrevChapter=이전 챕터
+PlaybackNextChapter=다음 챕터
+PlaybackFrameStep=프레임 앞으로(&F)
+PlaybackFrameBack=프레임 뒤로(&B)
+
+; DVD 탐색
+PlaybackDVD=DVD 탐색(&N)
+DVDMenu=메뉴(&M)
+DVDUp=위(&U)
+DVDDown=아래(&D)
+DVDLeft=왼쪽(&L)
+DVDRight=오른쪽(&R)
+DVDSelect=선택(&S)
+PlaybackDVDTitles=DVD 타이틀(&T)
+
+; 21단계: 폴더 열기
+FileOpenFolder=폴더 열기(&O)...
+
+; 파일 메뉴 DVD/블루레이
+FileOpenDVD=DVD 열기(&D)...
+FileOpenBluray=블루레이 열기(&B)...
+
+; 13단계: 시간 이동 및 기록
+PlaybackGotoTime=시간으로 이동(&G)...
+ToolsHistory=기록(&H)
+
+; 14단계: 시스템 트레이
+TrayShow=표시/숨기기(&S)
+TrayPlayPause=재생/일시정지(&P)
+TrayStop=정지(&S)
+TrayPrevious=이전(&V)
+TrayNext=다음(&N)
+TrayMute=음소거(&M)
+TrayExit=종료(&X)
+
+; 15단계: 북마크
+PlaybackAddBookmark=북마크 추가(&B)...
+PlaybackBookmarks=북마크(&M)
+BookmarksTitle=북마크
+BookmarksGoto=북마크로 이동(&G)
+BookmarksRemove=북마크 제거(&R)
+BookmarksClear=모든 북마크 지우기(&C)
+BookmarksOpenFolder=폴더 열기(&F)
+BookmarksCopyPath=경로 복사(&C)
+BookmarksCount=%d개 북마크
+NoBookmarks=(북마크 없음)
+NoFileLoaded=(로드된 파일 없음)
+BookmarkAdded=%s에 북마크 추가됨
+BookmarkJumped=%s 북마크로 이동함
+AddBookmarkTitle=북마크 추가
+AddBookmarkPrompt=북마크 이름 입력:
+ShowAllBookmarks=모든 북마크 보기...
+
+; 16단계: 즐겨찾기
+ToolsFavorites=즐겨찾기(&F)
+ToolsAddFavorite=즐겨찾기에 추가(&R)
+FavoritesTitle=즐겨찾기
+FavoritesPlay=재생(&P)
+FavoritesRemove=즐겨찾기에서 제거(&R)
+FavoritesClear=모든 즐겨찾기 지우기(&C)
+FavoritesOpenFolder=폴더 열기(&F)
+FavoritesCopyPath=경로 복사(&C)
+FavoritesCount=%d개 즐겨찾기
+NoFavorites=(즐겨찾기 없음)
+AddFavoriteTitle=즐겨찾기에 추가
+AddFavoritePrompt=즐겨찾기 이름 입력:
+AlreadyFavorite=이미 즐겨찾기에 있습니다
+AddedToFavorites=즐겨찾기에 추가됨: %s
+NoFileToFavorite=즐겨찾기에 추가할 파일이 로드되지 않았습니다
+FavoriteTypeFile=파일
+FavoriteTypeURL=URL
+FavoriteTypeRadio=라디오
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=블루레이
+
+; 트랙 형식 문자열
+TrackWithTitle=트랙 %d: %s
+TrackWithLang=트랙 %d (%s)
+TrackNumber=트랙 %d
+
+; 속도 메뉴 항목
+Speed050=0.5배
+Speed075=0.75배
+Speed100=1.0배
+Speed125=1.25배
+Speed150=1.5배
+Speed175=1.75배
+Speed200=2.0배
+
+; 크기 메뉴 항목
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; 자막 트랙
+SubtitleDisable=비활성화
+
+; 17단계: 취침 타이머
+ToolsSleepTimer=취침 타이머(&S)...
+ToolsSleepTimerActive=취침 타이머 [%s](&S)
+ToolsCancelTimer=타이머 취소(&T)
+
+; 오디오 메뉴
+Audio=오디오(&A)
+AudioTrack=오디오 트랙(&T)
+AudioVolumeUp=볼륨 높이기(&U)
+AudioVolumeDown=볼륨 낮추기(&D)
+AudioMute=음소거(&M)
+AudioEqualizer=이퀄라이저(&E)
+AudioDelay=오디오 지연(&D)
+AudioDelayPlus=지연 +0.1초
+AudioDelayMinus=지연 -0.1초
+AudioDelayReset=지연 초기화
+AudioNormalize=볼륨 정규화(&N)
+
+; 비디오 메뉴
+Video=비디오(&V)
+VideoFullscreen=전체 화면(&F)
+VideoAspect=화면 비율(&A)
+VideoAspectAuto=자동(&A)
+VideoAspect169=16:9(&1)
+VideoAspect43=4:3(&4)
+VideoAspect235=2.35:1(&2)
+VideoScreenshot=스크린샷(&S)
+VideoScreenshotAs=다른 이름으로 스크린샷(&A)...
+VideoRotation=회전(&R)
+VideoRotate0=0° (일반)(&0)
+VideoRotate90=90°(&9)
+VideoRotate180=180°(&1)
+VideoRotate270=270°(&2)
+VideoFlip=뒤집기(&F)
+VideoFlipH=수평 뒤집기(&H)
+VideoFlipV=수직 뒤집기(&V)
+VideoDeinterlace=디인터레이스(&D)
+VideoZoom=확대/축소(&Z)
+VideoZoomIn=확대(&I)
+VideoZoomOut=축소(&O)
+VideoZoomReset=확대/축소 초기화(&R)
+VideoPan=팬(&P)
+VideoPanLeft=왼쪽으로 팬(&L)
+VideoPanRight=오른쪽으로 팬(&R)
+VideoPanUp=위로 팬(&U)
+VideoPanDown=아래로 팬(&D)
+VideoPanReset=팬 초기화(&E)
+VideoTrack=비디오 트랙(&T)
+VideoColors=색상 조정(&A)
+VideoBrightness=밝기(&B)
+VideoContrast=대비(&C)
+VideoSaturation=채도(&S)
+VideoHue=색조(&H)
+VideoGamma=감마(&G)
+VideoColorsReset=모든 색상 초기화(&A)
+VideoIncrease=증가 (+5)
+VideoDecrease=감소 (-5)
+VideoReset=초기화
+VideoAdjustDialog=비디오 조정(&A)...
+
+; 보기 메뉴
+View=보기(&E)
+ViewAlwaysOnTop=항상 위에(&A)
+ViewFitToVideo=비디오에 맞추기(&F)
+ViewScale=창 크기(&S)
+
+; 26단계: 시각화 메뉴
+ViewVisualization=시각화(&V)
+VisNone=없음(&N)
+VisSpectrum=스펙트럼 분석기(&S)
+VisWaveform=파형(&W)
+VisVector=벡터 스코프(&V)
+VisVolume=VU 미터(&U)
+VisNextMode=다음 모드(&M)
+VisNextColor=다음 색상 스킴(&C)
+
+; 자막 메뉴
+Subtitles=자막(&S)
+SubtitleTrack=자막 트랙(&T)
+SubtitleLoad=자막 불러오기(&L)...
+SubtitleDelay=자막 지연(&D)
+SubtitleDelayPlus=지연 +0.1초
+SubtitleDelayMinus=지연 -0.1초
+SubtitleDelayReset=지연 초기화
+
+; 도구 메뉴
+Tools=도구(&T)
+ToolsPlaylist=재생 목록(&P)
+ToolsRadios=라디오(&R)
+ToolsShortcuts=키보드 단축키(&K)...
+ToolsOptions=옵션(&O)
+
+; 27단계: 녹화 메뉴
+ToolsRecord=스트림 녹화(&R)...
+ToolsStopRecord=녹화 중지(&T)
+ToolsRecording=녹화 중(&R)...
+
+; 도움말 메뉴
+Help=도움말(&H)
+HelpMediaInfo=미디어 정보(&M)
+HelpLog=로그 창(&L)
+HelpAbout=정보(&A)
+
+[Dialog]
+OpenFile=파일 열기
+OpenURL=URL 열기
+SaveScreenshot=스크린샷 저장
+LoadSubtitle=자막 파일 불러오기
+EnterURL=URL 입력:
+ResumePlayback=재생 재개
+ResumeFrom=%s부터 재개하시겠습니까?
+ClearRecentFiles=최근 파일 지우기
+NoRecentFiles=(최근 파일 없음)
+NoAudioTracks=(오디오 트랙 없음)
+NoVideoTracks=(비디오 트랙 없음)
+NoSubtitleTracks=(자막 트랙 없음)
+NoChapters=(챕터 없음)
+OpenDVD=DVD 열기
+OpenBluray=블루레이 열기
+OpenFolder=폴더 열기
+
+; 파일 필터
+ScreenshotFilter=PNG 이미지|*.png|JPEG 이미지|*.jpg|WebP 이미지|*.webp
+DVDFilter=DVD 폴더|*.;*.iso|모든 파일 (*.*)|*.*
+BlurayFilter=블루레이 폴더|*.;*.iso|모든 파일 (*.*)|*.*
+NoDVD=(로드된 DVD 없음)
+DVDTitle=타이틀 %d
+GotoTime=시간으로 이동
+EnterTime=이동할 시간을 입력하세요:
+Hours=시
+Minutes=분
+Seconds=초
+Current=현재:
+HistoryTitle=재생 기록
+HistoryItems=기록에 %d개 항목
+HistoryPlay=재생(&P)
+HistoryRemove=기록에서 제거(&R)
+HistoryClear=모든 기록 지우기(&C)
+HistoryOpenFolder=폴더 열기(&F)
+HistoryCopyPath=경로 복사(&C)
+ClearHistory=기록 지우기
+ClearHistoryConfirm=모든 기록을 지우시겠습니까?
+SleepTimerTitle=취침 타이머
+SleepTimerDescription=재생을 자동으로 중지하도록 타이머 설정
+SleepTimerHours=시
+SleepTimerMinutes=분
+SleepTimerQuickSet=빠른 설정
+SleepTimerAction=타이머 만료 시
+SleepTimerStopPlayback=재생 중지
+SleepTimerCloseApp=앱 종료
+SleepTimerShutdown=컴퓨터 종료
+SleepTimerStart=타이머 시작
+
+[Status]
+Ready=준비
+Opening=여는 중...
+Playing=재생 중
+Paused=일시정지
+Stopped=정지됨
+Error=오류
+Buffering=버퍼링 중...
+Seeking=탐색 중...
+Recording=녹화 중
+
+[Message]
+SpeedFormat=속도: %.2fx
+VolumeFormat=볼륨: %d%%
+BrightnessFormat=밝기: %d
+ContrastFormat=대비: %d
+SaturationFormat=채도: %d
+HueFormat=색조: %d
+GammaFormat=감마: %d
+ColorsReset=비디오 색상 초기화됨
+LoopASet=%s에 루프 A 지점 설정됨
+LoopBSet=%s에 루프 B 지점 설정됨 - 루프 활성화됨
+LoopCleared=A-B 루프 해제됨
+SetAFirst=먼저 A 지점을 설정하세요 (L 키 누르기)
+RotationFormat=회전: %d°
+FlipHOn=수평 뒤집기: 켜짐
+FlipHOff=수평 뒤집기: 꺼짐
+FlipVOn=수직 뒤집기: 켜짐
+FlipVOff=수직 뒤집기: 꺼짐
+DeinterlaceOn=디인터레이스: 켜짐
+DeinterlaceOff=디인터레이스: 꺼짐
+AlwaysOnTopOn=항상 위에: 켜짐
+AlwaysOnTopOff=항상 위에: 꺼짐
+WindowFitted=창 크기 조정됨: %dx%d
+WindowScale=창 크기: %.0f%%
+ScreenshotSaved=스크린샷 저장됨: %s
+AudioNormalizeOn=오디오 정규화: 켜짐
+AudioNormalizeOff=오디오 정규화: 꺼짐
+AudioDelayFormat=오디오 지연: %.1f초
+SubtitleDelayFormat=자막 지연: %.1f초
+ZoomFormat=확대/축소: %.0f%%
+PanCenter=팬: 중앙
+PanFormat=팬: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=로드된 비디오 없음
+PlayingFromClipboard=클립보드에서 재생 중: %s
+ClipboardInvalid=클립보드에 유효한 URL 또는 경로가 없습니다
+ClipboardEmpty=클립보드가 비어 있거나 텍스트가 없습니다
+ResumedAt=%s에서 재개됨
+FrameStepForward=프레임 앞으로 이동
+FrameStepBackward=프레임 뒤로 이동
+PreviousChapter=이전 챕터
+NextChapter=다음 챕터
+PlayingRadio=라디오 재생 중: %s
+PlayingDVD=DVD 재생 중: %s
+PlayingBluray=블루레이 재생 중: %s
+DVDTitlePlaying=DVD 타이틀 %d
+SeekTo=%s(으)로 이동
+MinimizedToTray=트레이로 최소화됨. 더블클릭하여 복원하세요.
+SleepTimerSet=취침 타이머 설정됨: %s
+SleepTimerCancelled=취침 타이머 취소됨
+SleepTimerWarning=취침 타이머: 1분 남음
+SleepTimerFinal=취침 타이머: 10초 남음
+SleepTimerStopped=취침 타이머: 재생 중지됨
+SleepTimerClosing=취침 타이머: 앱 종료 중
+SleepTimerShutdown=취침 타이머: 컴퓨터 종료 중
+SleepTimerExpired=취침 타이머 만료됨
+ShutdownManual=컴퓨터를 수동으로 종료해 주세요.
+
+; 21단계: 폴더 열기
+FolderOpened=폴더 열림: %d개 파일
+NoMediaFound=미디어 파일을 찾을 수 없음
+FilesAdded=재생 목록에 %d개 파일 추가됨
+
+; 27단계: 녹화 메시지
+RecordNeedPlayback=녹화하기 전에 재생을 시작하세요.
+RecordingStarted=녹화 시작됨
+RecordingStopped=녹화 중지됨
+
+; 추가 상태 메시지
+EndOfPlaylist=재생 목록 끝
+NoMediaLoaded=현재 로드된 미디어 파일이 없습니다.
+JumpedToNamed=이동함: %s
+ChapterFormat=챕터 %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%s 북마크
+
+[Label]
+Muted=음소거됨
+
+[Button]
+Play=재생
+Pause=일시정지
+Stop=정지
+Previous=이전
+Next=다음
+Mute=음소거
+Unmute=음소거 해제
+Fullscreen=전체 화면
+OK=확인
+Cancel=취소
+Apply=적용
+Close=닫기
+Yes=예
+No=아니오
+
+[Tooltip]
+Play=재생/일시정지
+Stop=재생 중지
+Previous=이전 트랙
+Next=다음 트랙
+Mute=음소거 전환
+Volume=볼륨
+Seek=탐색 위치
+Fullscreen=전체 화면 전환
+
+[Playlist]
+Title=재생 목록
+Add=추가
+Remove=제거
+Clear=지우기
+MoveUp=위로 이동
+MoveDown=아래로 이동
+Shuffle=셔플
+Repeat=반복
+Play=재생
+ShuffleOn=셔플: 켜짐
+ShuffleOff=셔플: 꺼짐
+RepeatOff=반복: 꺼짐
+RepeatOne=반복: 하나
+RepeatAll=반복: 전체
+SavePlaylist=저장
+LoadPlaylist=불러오기
+TotalDuration=합계: %s
+ItemCount=%d개 항목
+
+; 22단계: 재생 목록 향상
+Search=검색:
+FilterPlaceholder=재생 목록 필터...
+ClearSearch=지우기
+FilterCount=%d/%d
+RemoveDuplicates=중복 제거(&D)
+Properties=속성(&R)...
+NoDuplicates=중복 항목이 없습니다.
+DuplicatesFound=%d개 중복 항목을 찾았습니다. 제거하시겠습니까?
+RemoveDuplicatesTitle=중복 제거
+PropertiesTitle=재생 목록 속성
+PropTotalItems=총 항목: %d
+PropTotalDuration=총 재생 시간: %s
+PropPlayed=재생됨: %d
+PropUnplayed=재생 안 됨: %d
+PropTotalSize=총 크기: %.2f MB
+PropShuffle=셔플: %s
+PropRepeat=반복: %s
+On=켜짐
+Off=꺼짐
+
+; ApplyLocale용 새 키
+ClearTitle=재생 목록 지우기
+ClearConfirm=재생 목록을 지우시겠습니까?
+NoPlaylist=재생 목록 없음
+StatusFormat=%d개 항목 | 합계: %s
+RepeatOne=반복 1
+RepeatAll=전체 반복
+HintRepeatEnable=클릭하여 전체 반복 활성화
+HintRepeatOne=하나 반복 - 클릭하여 비활성화
+HintRepeatAll=전체 반복 - 클릭하여 하나 반복
+HintShuffleRepeat=셔플 + 전체 반복 - 클릭하여 반복 비활성화
+RemoveDuplicatesTitle=중복 제거
+NoDuplicates=중복 항목이 없습니다.
+SelectAll=전체 선택
+SelectNone=선택 해제
+SelectInvert=선택 반전
+Sort=정렬
+SortByName=이름순
+SortByTitle=제목순
+SortByArtist=아티스트순
+SortByDuration=재생 시간순
+SortReverse=역순
+SortRandom=무작위
+ColTitle=제목
+ColDuration=재생 시간
+ColArtist=아티스트
+ColAlbum=앨범
+PlaylistFilter=M3U 재생 목록|*.m3u|M3U8 재생 목록|*.m3u8|PLS 재생 목록|*.pls
+
+[Equalizer]
+Title=이퀄라이저
+Presets=프리셋:
+Preamp=프리앰프:
+Flat=플랫
+Rock=록
+Pop=팝
+Jazz=재즈
+Classical=클래식
+BassBoost=베이스 부스트
+TrebleBoost=트레블 부스트
+Vocal=보컬
+Reset=초기화
+Enable=이퀄라이저 활성화
+Save=저장
+Delete=삭제
+Ready=준비
+; 버튼 및 동작
+SavePreset=프리셋 저장
+DeletePreset=프리셋 삭제
+SavePresetTitle=프리셋 저장
+PresetNamePrompt=프리셋 이름:
+EnterPresetName=프리셋 이름을 입력하세요.
+OverwritePresetTitle=프리셋 덮어쓰기
+OverwritePresetConfirm=이 이름의 프리셋이 이미 존재합니다. 덮어쓰시겠습니까?
+PresetUpdated=프리셋 업데이트됨: %s
+PresetSaved=프리셋 저장됨: %s
+SelectPresetToDelete=삭제할 프리셋을 선택하세요.
+CannotDeleteDefault=기본 프리셋은 삭제할 수 없습니다.
+DeletePresetTitle=프리셋 삭제
+DeletePresetConfirm=이 프리셋을 삭제하시겠습니까?
+PresetDeleted=프리셋 삭제됨
+ResetToFlat=이퀄라이저가 플랫으로 초기화됨
+PresetApplied=프리셋 적용됨: %s
+
+[Options]
+Title=옵션
+General=일반
+Video=비디오
+Audio=오디오
+Subtitles=자막
+Cache=캐시
+Language=언어:
+RestartRequired=변경 사항을 적용하려면 재시작이 필요합니다
+
+; 일반 탭 - 동작
+Behavior=동작
+SingleInstance=하나의 인스턴스만 허용
+AutoPlay=열 때 자동 재생
+AutoResume=재생 위치 기억
+MinimizeToTray=시스템 트레이로 최소화
+AutoSavePlaylist=종료 시 재생 목록 저장
+
+; 일반 탭 - OSD
+OSD=화면 표시
+ShowOSD=화면 메시지 표시
+ShowTrayIcon=트레이 아이콘 표시
+OSDDuration=OSD 지속 시간 (ms):
+
+; 일반 탭 - 스크린샷
+Screenshots=스크린샷
+ScreenshotPath=저장 폴더:
+ScreenshotFormat=형식:
+
+; 일반 탭 - 기록
+HistorySettings=기록
+HistoryEnabled=재생 기록 활성화
+HistoryMaxItems=최대 항목:
+
+; 일반 탭 - 언어
+LanguageGroup=언어
+RestartNote=(변경 사항 적용을 위해 재시작 필요)
+
+; 비디오 탭
+VideoAdjust=비디오 조정
+Brightness=밝기:
+Contrast=대비:
+Saturation=채도:
+Hue=색조:
+Gamma=감마:
+VideoOutput=비디오 출력
+Output=출력:
+HWAccel=하드웨어 가속 활성화
+Deinterlacing=디인터레이싱
+Mode=모드:
+
+; 오디오 탭
+AudioOutput=오디오 출력
+OutputDriver=출력 드라이버:
+Device=장치:
+AudioOptions=오디오 옵션
+NormalizeAudio=오디오 볼륨 정규화
+Channels=채널:
+
+; 자막 탭
+UseDefaultSubtitles=기본 자막 설정 사용
+Font=글꼴
+FontName=글꼴:
+FontSize=크기:
+FontColor=색상:
+Bold=굵게
+Italic=기울임
+Outline=외곽선
+OutlineColor=색상:
+OutlineSize=크기:
+Position=위치
+VerticalPosition=수직 위치:
+SubOptions=옵션
+Encoding=인코딩:
+AutoLoadSubs=자막 파일 자동 불러오기
+
+; 비디오 출력 경고
+VOWarningX11=경고: x11은 비디오 조정(밝기, 대비 등)을 지원하지 않습니다
+VOWarningWayland=경고: Wayland 세션이 필요합니다. 비디오 조정이 지원됩니다.
+
+; 캐시 탭
+CacheSettings=캐시 버퍼 크기 (KB)
+CacheDefault=기본 캐시:
+CacheLocal=로컬 파일:
+CacheNetwork=네트워크 파일:
+CacheInternet=인터넷 스트림:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=정보
+Version=버전
+Engine=엔진
+Technology=기술
+BuildInfo=빌드 정보
+SystemInfo=시스템
+Credits=크레딧
+Developer=개발자:
+Author=작성자
+License=라이선스
+Website=웹사이트
+GitHub=GitHub
+Description=현대적이고 가벼운 미디어 플레이어
+LicenseText=3nity Media는 GPL-2.0 라이선스를 따릅니다\n\n이 라이선스는 다음을 허용합니다:\n  • 모든 목적으로 소프트웨어 사용\n  • 소스 코드 연구 및 수정\n  • 소프트웨어 복사본 배포\n  • 수정본 배포\n\n배포되는 수정본도 GPL-2.0 라이선스를\n따라야 한다는 조건이 있습니다.
+BuildDate=날짜:
+Target=대상:
+Kernel=커널:
+
+[Shortcuts]
+Title=키보드 단축키
+Description=동작에 대한 키보드 단축키 구성
+Search=검색:
+PressKey=키를 누르세요...
+ColCategory=카테고리
+ColAction=동작
+ColShortcut=단축키
+Assign=지정
+Clear=지우기
+Reset=초기화
+ResetAll=전체 초기화
+CurrentShortcut=현재: %s
+NoKeyPressed=먼저 키 조합을 누르세요.
+Conflict=충돌: 이미 "%s"에 지정됨
+ConfirmReplace=단축키 교체
+ReplaceMessage=이 단축키는 이미 "%s"에 지정되어 있습니다. 교체하시겠습니까?
+ConfirmResetAll=모든 단축키 초기화
+ResetAllMessage=모든 단축키를 기본값으로 초기화하시겠습니까?
+; 동작 이름
+ActPlayPause=재생 / 일시정지
+ActStop=정지
+ActPrevious=이전
+ActNext=다음
+ActSeekForward=앞으로 이동 (10초)
+ActSeekBackward=뒤로 이동 (10초)
+ActSeekForward5=앞으로 이동 (1분)
+ActSeekBackward5=뒤로 이동 (1분)
+ActSpeedUp=속도 높이기
+ActSpeedDown=속도 낮추기
+ActSpeedReset=속도 초기화
+ActSetLoopA=루프 지점 A 설정
+ActSetLoopB=루프 지점 B 설정
+ActClearLoop=A-B 루프 지우기
+ActFrameForward=프레임 앞으로
+ActFrameBackward=프레임 뒤로
+ActPrevChapter=이전 챕터
+ActNextChapter=다음 챕터
+ActGotoTime=시간으로 이동
+ActVolumeUp=볼륨 높이기
+ActVolumeDown=볼륨 낮추기
+ActMute=음소거 / 음소거 해제
+ActAudioDelayPlus=오디오 지연 +
+ActAudioDelayMinus=오디오 지연 -
+ActAudioDelayReset=오디오 지연 초기화
+ActFullscreen=전체 화면
+ActRotate=비디오 회전
+ActDeinterlace=디인터레이스
+ActZoomIn=확대
+ActZoomOut=축소
+ActZoomReset=확대/축소 초기화
+ActAlwaysOnTop=항상 위에
+ActFitToVideo=비디오에 맞추기
+ActScreenshot=스크린샷
+ActVideoAdjust=비디오 조정
+ActVisNextMode=다음 시각화 모드
+ActVisNextColor=다음 색상 스킴
+ActSubDelayPlus=자막 지연 +
+ActSubDelayMinus=자막 지연 -
+ActSubDelayReset=자막 지연 초기화
+ActDVDMenu=DVD 메뉴
+ActDVDUp=DVD 위로 탐색
+ActDVDDown=DVD 아래로 탐색
+ActDVDLeft=DVD 왼쪽으로 탐색
+ActDVDRight=DVD 오른쪽으로 탐색
+ActDVDSelect=DVD 선택
+ActOpenFile=파일 열기
+ActOpenURL=URL 열기
+ActPlaylist=재생 목록 표시
+ActQuit=종료
+
+[Log]
+; 25단계: 로그 창
+Title=MPV 로그
+Command=명령:
+Clear=지우기
+Save=저장...
+Copy=복사(&C)
+SelectAll=전체 선택(&A)
+SaveTitle=로그 저장
+SaveFilter=텍스트 파일 (*.txt)|*.txt|모든 파일 (*.*)|*.*
+ErrorTitle=오류
+SaveError=로그 저장 실패: %s
+
+[MediaInfo]
+Title=미디어 정보
+FileTab=파일
+VideoTab=비디오
+AudioTab=오디오
+MetadataTab=메타데이터
+FileName=파일 이름:
+FilePath=경로:
+FileSize=크기:
+Duration=재생 시간:
+Format=형식:
+Bitrate=비트레이트:
+Codec=코덱:
+Resolution=해상도:
+FrameRate=프레임 레이트:
+PixelFormat=픽셀 형식:
+AspectRatio=화면 비율:
+Channels=채널:
+SampleRate=샘플 레이트:
+Language=언어:
+Property=속성
+Value=값
+CopyAll=전체 복사
+CopiedToClipboard=미디어 정보가 클립보드에 복사되었습니다.
+NA=해당 없음
+NAStream=해당 없음 (스트림)
+NALive=해당 없음 (라이브)
+ChannelMono=1 (모노)
+ChannelStereo=2 (스테레오)
+Channel51=6 (5.1 서라운드)
+Channel71=8 (7.1 서라운드)
+Unknown=알 수 없음
+NoMetadata=(메타데이터 없음)
+
+[Bookmarks]
+Title=북마크
+Goto=이동
+Remove=제거
+Clear=모두 지우기
+Refresh=새로고침
+OpenFolder=폴더 열기
+CopyPath=경로 복사
+; 열
+ColName=이름
+ColFile=파일
+ColPosition=위치
+ColCreated=생성일
+; 대화 상자
+ClearTitle=북마크 지우기
+ClearConfirm=모든 북마크를 지우시겠습니까?
+Count=%d개 북마크
+
+[Favorites]
+Title=즐겨찾기
+Play=재생
+Remove=제거
+Clear=모두 지우기
+Refresh=새로고침
+OpenFolder=폴더 열기
+CopyPath=경로 복사
+; 열
+ColName=이름
+ColType=유형
+ColPath=경로
+; 유형
+TypeFile=파일
+TypeURL=URL
+TypeRadio=라디오
+TypeDVD=DVD
+TypeBluray=블루레이
+TypeUnknown=알 수 없음
+; 대화 상자
+ClearTitle=즐겨찾기 지우기
+ClearConfirm=모든 즐겨찾기를 지우시겠습니까?
+Count=%d개 즐겨찾기
+
+[History]
+Title=재생 기록
+Play=재생
+Remove=제거
+Clear=모두 지우기
+Refresh=새로고침
+OpenFolder=폴더 열기
+CopyPath=경로 복사
+; 열
+ColFileName=파일
+ColPath=경로
+; 대화 상자
+ClearTitle=기록 지우기
+ClearConfirm=모든 기록을 지우시겠습니까?
+Count=%d개 항목
+
+[SleepTimer]
+Title=취침 타이머
+Description=재생을 자동으로 중지하도록 타이머 설정
+Hours=시:
+Minutes=분:
+Action=타이머 만료 시:
+StopPlayback=재생 중지
+CloseApp=앱 종료
+Shutdown=컴퓨터 종료
+QuickSet=빠른 설정:
+15Min=15분
+30Min=30분
+1Hour=1시간
+2Hours=2시간
+
+[Radios]
+Title=인터넷 라디오
+Play=재생
+Add=추가
+Edit=편집
+Delete=삭제
+Remove=제거
+Import=가져오기
+Export=내보내기
+Refresh=새로고침
+Favorite=즐겨찾기
+ShowFavorites=즐겨찾기
+ShowAll=전체
+; 필터
+Genre=장르:
+Search=검색:
+SearchBtn=검색
+ClearSearch=지우기
+AllGenres=(모든 장르)
+; 컨텍스트 메뉴
+AddFavorite=즐겨찾기에 추가
+RemoveFavorite=즐겨찾기에서 제거
+AddCustom=사용자 정의 방송국 추가...
+EditCustom=방송국 편집...
+DeleteCustom=방송국 삭제
+OpenWebsite=웹사이트 열기
+CopyURL=URL 복사
+; 열
+ColName=이름
+ColGenre=장르
+ColBitrate=비트레이트
+ColCountry=국가
+ColCodec=코덱
+; 대화 상자
+AddTitle=사용자 정의 방송국 추가
+EditTitle=방송국 편집
+DeleteTitle=방송국 삭제
+DeleteConfirm=이 방송국을 삭제하시겠습니까?
+StationName=방송국 이름:
+StreamURL=스트림 URL:
+GenrePrompt=장르:
+NameURLRequired=이름과 URL이 필요합니다.
+; 상태 메시지
+LoadingIcecast=Icecast 디렉토리에서 방송국 로딩 중...
+IcecastError=Icecast 디렉토리를 로드할 수 없습니다. 기본 방송국을 사용합니다.
+NoStationsLoaded=로드된 방송국 없음
+StationCount=%d개 방송국
+LoadedStations=%d개 방송국 로드됨
+ErrorPrefix=오류:
+; 레거시 키
+Name=이름
+URL=URL
+Bitrate=비트레이트
+Description=설명
+Country=국가
+
+[OpenURL]
+Title=URL 열기
+Prompt=미디어 URL 입력:
+
+[GotoTime]
+Title=시간으로 이동
+EnterTime=이동할 시간 입력:
+Hours=시
+Minutes=분
+Seconds=초
+Current=현재:
+Duration=재생 시간:
+
+[VideoAdjust]
+Title=비디오 조정
+Brightness=밝기:
+Contrast=대비:
+Saturation=채도:
+Hue=색조:
+Gamma=감마:
+ResetAll=모든 색상 초기화
+
+[CLI]
+; 명령줄 메시지
+Usage=사용법
+Arguments=[옵션] [파일|URL|폴더]
+Description=libmpv 백엔드를 사용하는 크로스 플랫폼 멀티미디어 플레이어.
+Options=옵션
+Examples=예제
+MoreInfo=자세한 정보는 다음을 방문하세요
+EnqueuedTo=기존 인스턴스 대기열에 추가됨: %s
+SentTo=기존 인스턴스로 전송됨: %s
+AlreadyRunning=3nity Media가 이미 실행 중입니다.
+ErrorFileNotFound=오류: 파일 또는 디렉토리를 찾을 수 없음: %s
+ErrorSubNotFound=오류: 자막 파일을 찾을 수 없음: %s

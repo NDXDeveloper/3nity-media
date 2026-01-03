@@ -1,0 +1,892 @@
+[Language]
+Name=Estonian - Eesti
+Code=et
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Faili menüü
+File=&Fail
+FileOpen=&Ava fail...
+FileOpenURL=Ava &URL...
+FileOpenClipboard=Ava &lõikelaualt
+FileRecent=&Viimased failid
+ClearRecentFiles=Tühjenda viimased failid
+FileExit=V&äljumine
+
+; Taasesituse menüü
+Playback=&Taasesitus
+PlaybackPlayPause=&Esita/Paus
+PlaybackStop=&Peata
+PlaybackPrevious=Eel&mine
+PlaybackNext=&Järgmine
+PlaybackSeekForward=Keri &edasi
+PlaybackSeekBackward=Keri &tagasi
+PlaybackSpeed=&Kiirus
+PlaybackABLoop=A-&B kordus
+PlaybackSetA=Määrake &A
+PlaybackSetB=Määrake &B
+PlaybackClearAB=&Tühjenda A-B
+PlaybackChapters=&Peatükid
+PlaybackPrevChapter=Eelmine peatükk
+PlaybackNextChapter=Järgmine peatükk
+PlaybackFrameStep=Kaader &edasi
+PlaybackFrameBack=Kaader &tagasi
+
+; DVD navigatsioon
+PlaybackDVD=DVD &navigatsioon
+DVDMenu=&Menüü
+DVDUp=&Üles
+DVDDown=&Alla
+DVDLeft=&Vasakule
+DVDRight=&Paremale
+DVDSelect=&Vali
+PlaybackDVDTitles=DVD &tiitlid
+
+; Faas 21: Kausta avamine
+FileOpenFolder=Ava k&aust...
+
+; Faili menüü DVD/Bluray
+FileOpenDVD=Ava &DVD...
+FileOpenBluray=Ava &Blu-ray...
+
+; Faas 13: Mine aega ja ajalugu
+PlaybackGotoTime=&Mine aega...
+ToolsHistory=&Ajalugu
+
+; Faas 14: Süsteemisalv
+TrayShow=&Kuva/Peida
+TrayPlayPause=&Esita/Paus
+TrayStop=&Peata
+TrayPrevious=Eel&mine
+TrayNext=&Järgmine
+TrayMute=&Vaigista
+TrayExit=V&äljumine
+
+; Faas 15: Järjehoidjad
+PlaybackAddBookmark=Lisa &järjehoidja...
+PlaybackBookmarks=Järje&hoidjad
+BookmarksTitle=Järjehoidjad
+BookmarksGoto=&Mine järjehoidjasse
+BookmarksRemove=&Eemalda järjehoidja
+BookmarksClear=&Tühjenda kõik järjehoidjad
+BookmarksOpenFolder=Ava &kaust
+BookmarksCopyPath=&Kopeeri tee
+BookmarksCount=%d järjehoidjat
+NoBookmarks=(Järjehoidjad puuduvad)
+NoFileLoaded=(Fail pole laaditud)
+BookmarkAdded=Järjehoidja lisatud kohas %s
+BookmarkJumped=Hüpatud järjehoidjasse kohas %s
+AddBookmarkTitle=Lisa järjehoidja
+AddBookmarkPrompt=Sisestage järjehoidja nimi:
+ShowAllBookmarks=Kuva kõik järjehoidjad...
+
+; Faas 16: Lemmikud
+ToolsFavorites=&Lemmikud
+ToolsAddFavorite=Lisa &lemmikutesse
+FavoritesTitle=Lemmikud
+FavoritesPlay=&Esita
+FavoritesRemove=&Eemalda lemmikutest
+FavoritesClear=&Tühjenda kõik lemmikud
+FavoritesOpenFolder=Ava &kaust
+FavoritesCopyPath=&Kopeeri tee
+FavoritesCount=%d lemmikut
+NoFavorites=(Lemmikud puuduvad)
+AddFavoriteTitle=Lisa lemmikutesse
+AddFavoritePrompt=Sisestage lemmiku nimi:
+AlreadyFavorite=Juba lemmikutes
+AddedToFavorites=Lisatud lemmikutesse: %s
+NoFileToFavorite=Lemmikuks lisamiseks pole faili laaditud
+FavoriteTypeFile=Fail
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Raadio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Raja formaadi stringid
+TrackWithTitle=Rada %d: %s
+TrackWithLang=Rada %d (%s)
+TrackNumber=Rada %d
+
+; Kiiruse menüüelemendid
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Skaala menüüelemendid
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtiitrite rada
+SubtitleDisable=Keela
+
+; Faas 17: Unetaimer
+ToolsSleepTimer=&Unetaimer...
+ToolsSleepTimerActive=&Unetaimer [%s]
+ToolsCancelTimer=Tühista &taimer
+
+; Heli menüü
+Audio=&Heli
+AudioTrack=Heli&rada
+AudioVolumeUp=Helitugevus &üles
+AudioVolumeDown=Helitugevus &alla
+AudioMute=&Vaigista
+AudioEqualizer=&Ekvalaiser
+AudioDelay=Heli &viivitus
+AudioDelayPlus=Viivitus +0.1s
+AudioDelayMinus=Viivitus -0.1s
+AudioDelayReset=Lähtesta viivitus
+AudioNormalize=&Normaliseeri helitugevus
+
+; Video menüü
+Video=&Video
+VideoFullscreen=&Täisekraan
+VideoAspect=&Kuvasuhe
+VideoAspectAuto=&Automaatne
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Ekraanipilt
+VideoScreenshotAs=Ekraanipilt &kui...
+VideoRotation=&Pööramine
+VideoRotate0=&0 (Normaalne)
+VideoRotate90=&90
+VideoRotate180=&180
+VideoRotate270=&270
+VideoFlip=&Peegelda
+VideoFlipH=Peegelda &horisontaalselt
+VideoFlipV=Peegelda &vertikaalselt
+VideoDeinterlace=&Läbipõimimine
+VideoZoom=&Suum
+VideoZoomIn=Suumi &sisse
+VideoZoomOut=Suumi &välja
+VideoZoomReset=&Lähtesta suum
+VideoPan=&Nihuta
+VideoPanLeft=Nihuta &vasakule
+VideoPanRight=Nihuta &paremale
+VideoPanUp=Nihuta &üles
+VideoPanDown=Nihuta &alla
+VideoPanReset=L&ähtesta nihutus
+VideoTrack=Video&rada
+VideoColors=Värvi&kohandused
+VideoBrightness=&Heledus
+VideoContrast=&Kontrastsus
+VideoSaturation=&Küllastus
+VideoHue=&Värvitoon
+VideoGamma=&Gamma
+VideoColorsReset=Lähtesta &kõik värvid
+VideoIncrease=Suurenda (+5)
+VideoDecrease=Vähenda (-5)
+VideoReset=Lähtesta
+VideoAdjustDialog=Video &kohandused...
+
+; Vaate menüü
+View=V&aade
+ViewAlwaysOnTop=&Alati pealmine
+ViewFitToVideo=&Sobita aken videoga
+ViewScale=Akna &skaala
+
+; Faas 26: Visualiseerimise menüü
+ViewVisualization=&Visualiseerimine
+VisNone=&Puudub
+VisSpectrum=&Spektrianalüsaator
+VisWaveform=&Lainekuju
+VisVector=&Vektorskoop
+VisVolume=V&U meeter
+VisNextMode=Järgmine &režiim
+VisNextColor=Järgmine &värviskeem
+
+; Subtiitrite menüü
+Subtitles=&Subtiitrid
+SubtitleTrack=Subtiitri&rada
+SubtitleLoad=&Laadi subtiitrid...
+SubtitleDelay=Subtiitrite &viivitus
+SubtitleDelayPlus=Viivitus +0.1s
+SubtitleDelayMinus=Viivitus -0.1s
+SubtitleDelayReset=Lähtesta viivitus
+
+; Tööriistad menüü
+Tools=&Tööriistad
+ToolsPlaylist=&Esitusnimekiri
+ToolsRadios=&Raadiod
+ToolsShortcuts=&Klaviatuuri otseteed...
+ToolsOptions=&Seaded
+
+; Faas 27: Salvestamise menüü
+ToolsRecord=&Salvesta voog...
+ToolsStopRecord=L&õpeta salvestamine
+ToolsRecording=&Salvestamine...
+
+; Abi menüü
+Help=&Abi
+HelpMediaInfo=&Meedia teave
+HelpLog=&Logi aken
+HelpAbout=&Teave
+
+[Dialog]
+OpenFile=Ava fail
+OpenURL=Ava URL
+SaveScreenshot=Salvesta ekraanipilt
+LoadSubtitle=Laadi subtiitrite fail
+EnterURL=Sisestage URL:
+ResumePlayback=Jätka taasesitust
+ResumeFrom=Jätkata kohast %s?
+ClearRecentFiles=Tühjenda viimased failid
+NoRecentFiles=(Viimased failid puuduvad)
+NoAudioTracks=(Helirajad puuduvad)
+NoVideoTracks=(Videorajad puuduvad)
+NoSubtitleTracks=(Subtiitrirajad puuduvad)
+NoChapters=(Peatükid puuduvad)
+OpenDVD=Ava DVD
+OpenBluray=Ava Blu-ray
+OpenFolder=Ava kaust
+
+; Failifiltrid
+ScreenshotFilter=PNG pilt|*.png|JPEG pilt|*.jpg|WebP pilt|*.webp
+DVDFilter=DVD kaust|*.;*.iso|Kõik failid (*.*)|*.*
+BlurayFilter=Blu-ray kaust|*.;*.iso|Kõik failid (*.*)|*.*
+NoDVD=(DVD pole laaditud)
+DVDTitle=Tiitel %d
+GotoTime=Mine aega
+EnterTime=Sisestage aeg kuhu minna:
+Hours=Tunnid
+Minutes=Minutid
+Seconds=Sekundid
+Current=Praegune:
+HistoryTitle=Taasesituse ajalugu
+HistoryItems=%d kirjet ajaloos
+HistoryPlay=&Esita
+HistoryRemove=&Eemalda ajaloost
+HistoryClear=&Tühjenda kogu ajalugu
+HistoryOpenFolder=Ava &kaust
+HistoryCopyPath=&Kopeeri tee
+ClearHistory=Tühjenda ajalugu
+ClearHistoryConfirm=Kas olete kindel, et soovite kogu ajaloo tühjendada?
+SleepTimerTitle=Unetaimer
+SleepTimerDescription=Määrake taimer, et automaatselt taasesitus peatada
+SleepTimerHours=Tunnid
+SleepTimerMinutes=Minutid
+SleepTimerQuickSet=Kiirvalik
+SleepTimerAction=Taimeri lõppemisel
+SleepTimerStopPlayback=Peata taasesitus
+SleepTimerCloseApp=Sulge rakendus
+SleepTimerShutdown=Sulge arvuti
+SleepTimerStart=Alusta taimerit
+
+[Status]
+Ready=Valmis
+Opening=Avamine...
+Playing=Esitatakse
+Paused=Peatatud
+Stopped=Peatatud
+Error=Viga
+Buffering=Puhverdamine...
+Seeking=Kerimine...
+Recording=Salvestamine
+
+[Message]
+SpeedFormat=Kiirus: %.2fx
+VolumeFormat=Helitugevus: %d%%
+BrightnessFormat=Heledus: %d
+ContrastFormat=Kontrastsus: %d
+SaturationFormat=Küllastus: %d
+HueFormat=Värvitoon: %d
+GammaFormat=Gamma: %d
+ColorsReset=Video värvid lähtestatud
+LoopASet=Korduse A määratud kohas %s
+LoopBSet=Korduse B määratud kohas %s - Kordus aktiivne
+LoopCleared=A-B kordus tühjendatud
+SetAFirst=Määrake esmalt punkt A (vajutage L)
+RotationFormat=Pööre: %d°
+FlipHOn=Horisontaalne peegeldamine: SEES
+FlipHOff=Horisontaalne peegeldamine: VÄLJAS
+FlipVOn=Vertikaalne peegeldamine: SEES
+FlipVOff=Vertikaalne peegeldamine: VÄLJAS
+DeinterlaceOn=Läbipõimimine: SEES
+DeinterlaceOff=Läbipõimimine: VÄLJAS
+AlwaysOnTopOn=Alati pealmine: SEES
+AlwaysOnTopOff=Alati pealmine: VÄLJAS
+WindowFitted=Aken sobitatud %dx%d
+WindowScale=Akna skaala: %.0f%%
+ScreenshotSaved=Ekraanipilt salvestatud: %s
+AudioNormalizeOn=Heli normaliseerimine: SEES
+AudioNormalizeOff=Heli normaliseerimine: VÄLJAS
+AudioDelayFormat=Heli viivitus: %.1f s
+SubtitleDelayFormat=Subtiitrite viivitus: %.1f s
+ZoomFormat=Suum: %.0f%%
+PanCenter=Nihutus: Keskel
+PanFormat=Nihutus: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Video pole laaditud
+PlayingFromClipboard=Esitatakse lõikelaualt: %s
+ClipboardInvalid=Lõikelaud ei sisalda kehtivat URL-i või teed
+ClipboardEmpty=Lõikelaud on tühi või ei sisalda teksti
+ResumedAt=Jätkati kohast %s
+FrameStepForward=Kaader edasi
+FrameStepBackward=Kaader tagasi
+PreviousChapter=Eelmine peatükk
+NextChapter=Järgmine peatükk
+PlayingRadio=Esitatakse raadiot: %s
+PlayingDVD=Esitatakse DVD-d: %s
+PlayingBluray=Esitatakse Blu-ray-d: %s
+DVDTitlePlaying=DVD tiitel %d
+SeekTo=Kerimine kohta %s
+MinimizedToTray=Minimeeritud salve. Topeltklõpsake taastamiseks.
+SleepTimerSet=Unetaimer määratud: %s
+SleepTimerCancelled=Unetaimer tühistatud
+SleepTimerWarning=Unetaimer: 1 minut jäänud
+SleepTimerFinal=Unetaimer: 10 sekundit jäänud
+SleepTimerStopped=Unetaimer: Taasesitus peatatud
+SleepTimerClosing=Unetaimer: Rakenduse sulgemine
+SleepTimerShutdown=Unetaimer: Arvuti sulgemine
+SleepTimerExpired=Unetaimer aegunud
+ShutdownManual=Palun sulgege arvuti käsitsi.
+
+; Faas 21: Kausta avamine
+FolderOpened=Kaust avatud: %d faili
+NoMediaFound=Meediumifaile ei leitud
+FilesAdded=%d faili lisatud esitusnimekirja
+
+; Faas 27: Salvestamise teated
+RecordNeedPlayback=Enne salvestamist alustage taasesitust.
+RecordingStarted=Salvestamine alustatud
+RecordingStopped=Salvestamine peatatud
+
+; Lisakohaooluteated
+EndOfPlaylist=Esitusnimekirja lõpp
+NoMediaLoaded=Meediumifail pole hetkel laaditud.
+JumpedToNamed=Hüpatud: %s
+ChapterFormat=Peatükk %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Järjehoidja kohas %s
+
+[Label]
+Muted=Vaigistatud
+
+[Button]
+Play=Esita
+Pause=Paus
+Stop=Peata
+Previous=Eelmine
+Next=Järgmine
+Mute=Vaigista
+Unmute=Taasta heli
+Fullscreen=Täisekraan
+OK=OK
+Cancel=Loobu
+Apply=Rakenda
+Close=Sulge
+Yes=Jah
+No=Ei
+
+[Tooltip]
+Play=Esita/Paus
+Stop=Peata taasesitus
+Previous=Eelmine rada
+Next=Järgmine rada
+Mute=Lülita vaigistamine
+Volume=Helitugevus
+Seek=Kerimisasend
+Fullscreen=Lülita täisekraan
+
+[Playlist]
+Title=Esitusnimekiri
+Add=Lisa
+Remove=Eemalda
+Clear=Tühjenda
+MoveUp=Liiguta üles
+MoveDown=Liiguta alla
+Shuffle=Sega
+Repeat=Korda
+Play=Esita
+ShuffleOn=Segamine: Sees
+ShuffleOff=Segamine: Väljas
+RepeatOff=Kordamine: Väljas
+RepeatOne=Kordamine: Üks
+RepeatAll=Kordamine: Kõik
+SavePlaylist=Salvesta
+LoadPlaylist=Laadi
+TotalDuration=Kokku: %s
+ItemCount=%d elementi
+
+; Faas 22: Esitusnimekirja täiustused
+Search=Otsing:
+FilterPlaceholder=Filtreeri esitusnimekirja...
+ClearSearch=Tühjenda
+FilterCount=%d/%d
+RemoveDuplicates=Eemalda &duplikaadid
+Properties=&Omadused...
+NoDuplicates=Duplikaate ei leitud.
+DuplicatesFound=Leiti %d duplikaat(i). Kas eemaldada?
+RemoveDuplicatesTitle=Eemalda duplikaadid
+PropertiesTitle=Esitusnimekirja omadused
+PropTotalItems=Elemente kokku: %d
+PropTotalDuration=Kogukestus: %s
+PropPlayed=Esitatud: %d
+PropUnplayed=Esitamata: %d
+PropTotalSize=Kogumaht: %.2f MB
+PropShuffle=Segamine: %s
+PropRepeat=Kordamine: %s
+On=Sees
+Off=Väljas
+
+; Uued võtmed ApplyLocale jaoks
+ClearTitle=Tühjenda esitusnimekiri
+ClearConfirm=Kas olete kindel, et soovite esitusnimekirja tühjendada?
+NoPlaylist=Esitusnimekiri puudub
+StatusFormat=%d elementi | Kokku: %s
+RepeatOne=Korda 1
+RepeatAll=Korda kõik
+HintRepeatEnable=Klõpsake, et lubada kõikide kordamine
+HintRepeatOne=Ühe kordamine - Klõpsake keelamiseks
+HintRepeatAll=Kõikide kordamine - Klõpsake ühe kordamiseks
+HintShuffleRepeat=Segamine + Kõikide kordamine - Klõpsake kordamise keelamiseks
+RemoveDuplicatesTitle=Eemalda duplikaadid
+NoDuplicates=Duplikaate ei leitud.
+SelectAll=Vali kõik
+SelectNone=Tühjenda valik
+SelectInvert=Pööra valik
+Sort=Sorteeri
+SortByName=Nime järgi
+SortByTitle=Pealkirja järgi
+SortByArtist=Esitaja järgi
+SortByDuration=Kestuse järgi
+SortReverse=Pööra ümber
+SortRandom=Juhuslikusta
+ColTitle=Pealkiri
+ColDuration=Kestus
+ColArtist=Esitaja
+ColAlbum=Album
+PlaylistFilter=M3U esitusnimekiri|*.m3u|M3U8 esitusnimekiri|*.m3u8|PLS esitusnimekiri|*.pls
+
+[Equalizer]
+Title=Ekvalaiser
+Presets=Eelmallid:
+Preamp=Eelvõimendi:
+Flat=Lame
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klassikaline
+BassBoost=Bassivõimendus
+TrebleBoost=Kõrgsageduste võimendus
+Vocal=Vokaal
+Reset=Lähtesta
+Enable=Luba ekvalaiser
+Save=Salvesta
+Delete=Kustuta
+Ready=Valmis
+; Nupud ja tegevused
+SavePreset=Salvesta eelmall
+DeletePreset=Kustuta eelmall
+SavePresetTitle=Salvesta eelmall
+PresetNamePrompt=Eelmalli nimi:
+EnterPresetName=Palun sisestage eelmalli nimi.
+OverwritePresetTitle=Kirjuta eelmall üle
+OverwritePresetConfirm=Selle nimega eelmall on juba olemas. Kas kirjutada üle?
+PresetUpdated=Eelmall uuendatud: %s
+PresetSaved=Eelmall salvestatud: %s
+SelectPresetToDelete=Palun valige kustutatav eelmall.
+CannotDeleteDefault=Vaikimisi eelmalle ei saa kustutada.
+DeletePresetTitle=Kustuta eelmall
+DeletePresetConfirm=Kas olete kindel, et soovite selle eelmalli kustutada?
+PresetDeleted=Eelmall kustutatud
+ResetToFlat=Ekvalaiser lähtestatud lamedaks
+PresetApplied=Eelmall rakendatud: %s
+
+[Options]
+Title=Seaded
+General=Üldine
+Video=Video
+Audio=Heli
+Subtitles=Subtiitrid
+Cache=Vahemälu
+Language=Keel:
+RestartRequired=Muudatuste jõustumiseks on vajalik taaskäivitus
+
+; Üldine vahekaart - Käitumine
+Behavior=Käitumine
+SingleInstance=Luba ainult üks eksemplar
+AutoPlay=Automaatne taasesitus avamisel
+AutoResume=Jätka taasesituse asukohta
+MinimizeToTray=Minimeeri süsteemisalve
+AutoSavePlaylist=Salvesta esitusnimekiri väljumisel
+
+; Üldine vahekaart - OSD
+OSD=Ekraanikuva
+ShowOSD=Kuva ekraaniteated
+ShowTrayIcon=Kuva salve ikoon
+OSDDuration=OSD kestus (ms):
+
+; Üldine vahekaart - Ekraanipildid
+Screenshots=Ekraanipildid
+ScreenshotPath=Salvestuskaust:
+ScreenshotFormat=Formaat:
+
+; Üldine vahekaart - Ajalugu
+HistorySettings=Ajalugu
+HistoryEnabled=Luba taasesituse ajalugu
+HistoryMaxItems=Maksimaalne arv:
+
+; Üldine vahekaart - Keel
+LanguageGroup=Keel
+RestartNote=(Vajalik taaskäivitus)
+
+; Video vahekaart
+VideoAdjust=Video kohandused
+Brightness=Heledus:
+Contrast=Kontrastsus:
+Saturation=Küllastus:
+Hue=Värvitoon:
+Gamma=Gamma:
+VideoOutput=Video väljund
+Output=Väljund:
+HWAccel=Luba riistvaraline kiirendus
+Deinterlacing=Läbipõimimine
+Mode=Režiim:
+
+; Heli vahekaart
+AudioOutput=Heli väljund
+OutputDriver=Väljunddraiver:
+Device=Seade:
+AudioOptions=Heliseaded
+NormalizeAudio=Normaliseeri helitugevus
+Channels=Kanalid:
+
+; Subtiitrite vahekaart
+UseDefaultSubtitles=Kasuta vaikimisi subtiitrite seadeid
+Font=Font
+FontName=Font:
+FontSize=Suurus:
+FontColor=Värv:
+Bold=Paks
+Italic=Kaldkiri
+Outline=Kontuur
+OutlineColor=Värv:
+OutlineSize=Suurus:
+Position=Asukoht
+VerticalPosition=Vertikaalne asend:
+SubOptions=Seaded
+Encoding=Kodeering:
+AutoLoadSubs=Laadi subtiitrifailid automaatselt
+
+; Video väljundi hoiatused
+VOWarningX11=Hoiatus: x11 ei toeta video kohandusi (heledus, kontrastsus jne)
+VOWarningWayland=Hoiatus: Vajab Waylandi seanssi. Video kohandused toetatud.
+
+; Vahemälu vahekaart
+CacheSettings=Vahemälu puhvri suurused (KB)
+CacheDefault=Vaikimisi vahemälu:
+CacheLocal=Kohalikud failid:
+CacheNetwork=Võrgufailid:
+CacheInternet=Internetivood:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Teave
+Version=Versioon
+Engine=Mootor
+Technology=Tehnoloogia
+BuildInfo=Järgu teave
+SystemInfo=Süsteem
+Credits=Tunnustused
+Developer=Arendaja:
+Author=Autor
+License=Litsents
+Website=Veebileht
+GitHub=GitHub
+Description=Modernne ja kerge meediumipleier
+LicenseText=3nity Media on litsentseeritud GPL-2.0 alusel\n\nSee tähendab, et teil on vabadus:\n  - Kasutada tarkvara mis tahes eesmärgil\n  - Uurida ja muuta lähtekood\n  - Levitada tarkvara koopiaid\n  - Levitada oma muudatusi\n\nTingimusel, et kõik levitatud muudatused\non samuti litsentseeritud GPL-2.0 alusel.
+BuildDate=Kuupäev:
+Target=Sihtmärk:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Klaviatuuri otseteed
+Description=Seadistage klaviatuuri otseteid tegevuste jaoks
+Search=Otsing:
+PressKey=Vajutage klahvi...
+ColCategory=Kategooria
+ColAction=Tegevus
+ColShortcut=Otsetee
+Assign=Määrake
+Clear=Tühjenda
+Reset=Lähtesta
+ResetAll=Lähtesta kõik
+CurrentShortcut=Praegune: %s
+NoKeyPressed=Palun vajutage esmalt klahvikombinatsiooni.
+Conflict=Konflikt: Juba määratud "%s" jaoks
+ConfirmReplace=Asenda otsetee
+ReplaceMessage=See otsetee on juba määratud "%s" jaoks. Kas soovite asendada?
+ConfirmResetAll=Lähtesta kõik otseteed
+ResetAllMessage=Kas olete kindel, et soovite kõik otseteed vaikimisi lähtestada?
+; Tegevuste nimed
+ActPlayPause=Esita / Paus
+ActStop=Peata
+ActPrevious=Eelmine
+ActNext=Järgmine
+ActSeekForward=Keri edasi (10s)
+ActSeekBackward=Keri tagasi (10s)
+ActSeekForward5=Keri edasi (1 min)
+ActSeekBackward5=Keri tagasi (1 min)
+ActSpeedUp=Kiirenda
+ActSpeedDown=Aeglusta
+ActSpeedReset=Lähtesta kiirus
+ActSetLoopA=Määrake korduspunkt A
+ActSetLoopB=Määrake korduspunkt B
+ActClearLoop=Tühjenda A-B kordus
+ActFrameForward=Kaader edasi
+ActFrameBackward=Kaader tagasi
+ActPrevChapter=Eelmine peatükk
+ActNextChapter=Järgmine peatükk
+ActGotoTime=Mine aega
+ActVolumeUp=Helitugevus üles
+ActVolumeDown=Helitugevus alla
+ActMute=Vaigista / Taasta heli
+ActAudioDelayPlus=Heli viivitus +
+ActAudioDelayMinus=Heli viivitus -
+ActAudioDelayReset=Lähtesta heli viivitus
+ActFullscreen=Täisekraan
+ActRotate=Pööra videot
+ActDeinterlace=Läbipõimimine
+ActZoomIn=Suumi sisse
+ActZoomOut=Suumi välja
+ActZoomReset=Lähtesta suum
+ActAlwaysOnTop=Alati pealmine
+ActFitToVideo=Sobita videoga
+ActScreenshot=Ekraanipilt
+ActVideoAdjust=Video kohandused
+ActVisNextMode=Järgmine visualiseerimise režiim
+ActVisNextColor=Järgmine värviskeem
+ActSubDelayPlus=Subtiitrite viivitus +
+ActSubDelayMinus=Subtiitrite viivitus -
+ActSubDelayReset=Lähtesta subtiitrite viivitus
+ActDVDMenu=DVD menüü
+ActDVDUp=DVD navigeeri üles
+ActDVDDown=DVD navigeeri alla
+ActDVDLeft=DVD navigeeri vasakule
+ActDVDRight=DVD navigeeri paremale
+ActDVDSelect=DVD vali
+ActOpenFile=Ava fail
+ActOpenURL=Ava URL
+ActPlaylist=Kuva esitusnimekiri
+ActQuit=Välju
+
+[Log]
+; Faas 25: Logi aken
+Title=MPV logi
+Command=Käsklus:
+Clear=Tühjenda
+Save=Salvesta...
+Copy=&Kopeeri
+SelectAll=Vali &kõik
+SaveTitle=Salvesta logi
+SaveFilter=Tekstifailid (*.txt)|*.txt|Kõik failid (*.*)|*.*
+ErrorTitle=Viga
+SaveError=Logi salvestamine ebaõnnestus: %s
+
+[MediaInfo]
+Title=Meedia teave
+FileTab=Fail
+VideoTab=Video
+AudioTab=Heli
+MetadataTab=Metaandmed
+FileName=Faili nimi:
+FilePath=Tee:
+FileSize=Suurus:
+Duration=Kestus:
+Format=Formaat:
+Bitrate=Bitikiirus:
+Codec=Koodek:
+Resolution=Resolutsioon:
+FrameRate=Kaadrikiirus:
+PixelFormat=Piksli formaat:
+AspectRatio=Kuvasuhe:
+Channels=Kanalid:
+SampleRate=Diskreetimissagedus:
+Language=Keel:
+Property=Omadus
+Value=Väärtus
+CopyAll=Kopeeri kõik
+CopiedToClipboard=Meedia teave kopeeritud lõikelauale.
+NA=Pole saadaval
+NAStream=Pole saadaval (voog)
+NALive=Pole saadaval (otse)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 ruumiline heli)
+Channel71=8 (7.1 ruumiline heli)
+Unknown=Tundmatu
+NoMetadata=(Metaandmed puuduvad)
+
+[Bookmarks]
+Title=Järjehoidjad
+Goto=Mine
+Remove=Eemalda
+Clear=Tühjenda kõik
+Refresh=Värskenda
+OpenFolder=Ava kaust
+CopyPath=Kopeeri tee
+; Veerud
+ColName=Nimi
+ColFile=Fail
+ColPosition=Positsioon
+ColCreated=Loodud
+; Dialoogid
+ClearTitle=Tühjenda järjehoidjad
+ClearConfirm=Kas olete kindel, et soovite kõik järjehoidjad tühjendada?
+Count=%d järjehoidja(t)
+
+[Favorites]
+Title=Lemmikud
+Play=Esita
+Remove=Eemalda
+Clear=Tühjenda kõik
+Refresh=Värskenda
+OpenFolder=Ava kaust
+CopyPath=Kopeeri tee
+; Veerud
+ColName=Nimi
+ColType=Tüüp
+ColPath=Tee
+; Tüübid
+TypeFile=Fail
+TypeURL=URL
+TypeRadio=Raadio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Tundmatu
+; Dialoogid
+ClearTitle=Tühjenda lemmikud
+ClearConfirm=Kas olete kindel, et soovite kõik lemmikud tühjendada?
+Count=%d lemmik(ut)
+
+[History]
+Title=Taasesituse ajalugu
+Play=Esita
+Remove=Eemalda
+Clear=Tühjenda kõik
+Refresh=Värskenda
+OpenFolder=Ava kaust
+CopyPath=Kopeeri tee
+; Veerud
+ColFileName=Fail
+ColPath=Tee
+; Dialoogid
+ClearTitle=Tühjenda ajalugu
+ClearConfirm=Kas olete kindel, et soovite kogu ajaloo tühjendada?
+Count=%d kirje(t)
+
+[SleepTimer]
+Title=Unetaimer
+Description=Määrake taimer, et taasesitus automaatselt peatada
+Hours=Tunnid:
+Minutes=Minutid:
+Action=Taimeri lõppemisel:
+StopPlayback=Peata taasesitus
+CloseApp=Sulge rakendus
+Shutdown=Sulge arvuti
+QuickSet=Kiirvalik:
+15Min=15 min
+30Min=30 min
+1Hour=1 tund
+2Hours=2 tundi
+
+[Radios]
+Title=Internetiraadiod
+Play=Esita
+Add=Lisa
+Edit=Muuda
+Delete=Kustuta
+Remove=Eemalda
+Import=Impordi
+Export=Ekspordi
+Refresh=Värskenda
+Favorite=Lemmik
+ShowFavorites=Lemmikud
+ShowAll=Kõik
+; Filter
+Genre=Žanr:
+Search=Otsing:
+SearchBtn=Otsi
+ClearSearch=Tühjenda
+AllGenres=(Kõik žanrid)
+; Kontekstimenüü
+AddFavorite=Lisa lemmikutesse
+RemoveFavorite=Eemalda lemmikutest
+AddCustom=Lisa kohandatud jaam...
+EditCustom=Muuda jaama...
+DeleteCustom=Kustuta jaam
+OpenWebsite=Ava veebileht
+CopyURL=Kopeeri URL
+; Veerud
+ColName=Nimi
+ColGenre=Žanr
+ColBitrate=Bitikiirus
+ColCountry=Riik
+ColCodec=Koodek
+; Dialoogid
+AddTitle=Lisa kohandatud jaam
+EditTitle=Muuda jaama
+DeleteTitle=Kustuta jaam
+DeleteConfirm=Kas olete kindel, et soovite selle jaama kustutada?
+StationName=Jaama nimi:
+StreamURL=Voo URL:
+GenrePrompt=Žanr:
+NameURLRequired=Nimi ja URL on kohustuslikud.
+; Olekuteated
+LoadingIcecast=Jaamade laadimine Icecast kataloogist...
+IcecastError=Icecast kataloogi ei saanud laadida. Kasutatakse vaikimisi jaamu.
+NoStationsLoaded=Jaamu pole laaditud
+StationCount=%d jaama
+LoadedStations=Laaditi %d jaama
+ErrorPrefix=Viga:
+; Parandivõtmed
+Name=Nimi
+URL=URL
+Bitrate=Bitikiirus
+Description=Kirjeldus
+Country=Riik
+
+[OpenURL]
+Title=Ava URL
+Prompt=Sisestage meedia URL:
+
+[GotoTime]
+Title=Mine aega
+EnterTime=Sisestage aeg kuhu minna:
+Hours=T
+Minutes=M
+Seconds=S
+Current=Praegune:
+Duration=Kestus:
+
+[VideoAdjust]
+Title=Video kohandused
+Brightness=Heledus:
+Contrast=Kontrastsus:
+Saturation=Küllastus:
+Hue=Värvitoon:
+Gamma=Gamma:
+ResetAll=Lähtesta kõik värvid
+
+[CLI]
+; Käsurea teated
+Usage=Kasutamine
+Arguments=[VALIKUD] [FAIL|URL|KAUST]
+Description=Platvormideülene multimeediamängija libmpv taustaprogrammiga.
+Options=VALIKUD
+Examples=NÄITED
+MoreInfo=Lisateabe saamiseks külastage
+EnqueuedTo=Lisatud olemasolevasse eksemplari: %s
+SentTo=Saadetud olemasolevasse eksemplari: %s
+AlreadyRunning=3nity Media juba töötab.
+ErrorFileNotFound=Viga: Faili või kausta ei leitud: %s
+ErrorSubNotFound=Viga: Subtiitrite faili ei leitud: %s

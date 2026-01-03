@@ -1,0 +1,892 @@
+[Language]
+Name=Dzongkha - རྫོང་ཁ
+Code=dz
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; ཡིག་སྣོད་དཀར་ཆག
+File=ཡིག་&སྣོད
+FileOpen=ཡིག་སྣོད་&ཁ་ཕྱེ...
+FileOpenURL=&URL་ཁ་ཕྱེ...
+FileOpenClipboard=ཀླིཔ་བོརྡ་ལས་ཁ་&ཕྱེ
+FileRecent=ཡིག་སྣོད་&གསརཔ
+ClearRecentFiles=ཡིག་སྣོད་གསརཔ་བསལ
+FileExit=&ཕྱིར་འཐོན
+
+; གཟིགས་པའི་དཀར་ཆག
+Playback=གཟིགས་&པ
+PlaybackPlayPause=&གཟིགས/བཀག
+PlaybackStop=མཚམས་&འཇོག
+PlaybackPrevious=སྔོན་&མ
+PlaybackNext=&ཤུལ་མ
+PlaybackSeekForward=མདུན་ལུ་&འཚོལ
+PlaybackSeekBackward=རྒྱབ་ལུ་&འཚོལ
+PlaybackSpeed=&མགྱོགས་ཚད
+PlaybackABLoop=A-&B་འཁོར་བ
+PlaybackSetA=&A་བཀོད
+PlaybackSetB=&B་བཀོད
+PlaybackClearAB=A-B་&བསལ
+PlaybackChapters=ལེའུ་&ཚུ
+PlaybackPrevChapter=སྔོན་མའི་ལེའུ
+PlaybackNextChapter=ཤུལ་མའི་ལེའུ
+PlaybackFrameStep=གཞི་རིམ་མདུན་ལུ་&སྤོ
+PlaybackFrameBack=གཞི་རིམ་རྒྱབ་ལུ་&སྤོ
+
+; DVD་འགྲུལ་བསྐྱོད
+PlaybackDVD=DVD་&འགྲུལ་བསྐྱོད
+DVDMenu=དཀར་&ཆག
+DVDUp=&སྟོད
+DVDDown=&སྨད
+DVDLeft=&གཡོན
+DVDRight=&གཡས
+DVDSelect=&གདམ
+PlaybackDVDTitles=DVD་&མཚན་བྱང
+
+; རིམ་པ་ ༢༡: ཡིག་ཁུག་ཁ་ཕྱེ
+FileOpenFolder=ཡིག་ཁུག་ཁ་&ཕྱེ...
+
+; ཡིག་སྣོད་དཀར་ཆག DVD/Bluray
+FileOpenDVD=&DVD་ཁ་ཕྱེ...
+FileOpenBluray=&Blu-ray་ཁ་ཕྱེ...
+
+; རིམ་པ་ ༡༣: དུས་ཚོད་དང་ལོ་རྒྱུས
+PlaybackGotoTime=དུས་ཚོད་ལུ་&འགྱོ...
+ToolsHistory=ལོ་&རྒྱུས
+
+; རིམ་པ་ ༡༤: མ་ལག་ཕྲ་ཁྲམ
+TrayShow=&སྟོན/སྦ
+TrayPlayPause=&གཟིགས/བཀག
+TrayStop=མཚམས་&འཇོག
+TrayPrevious=སྔོན་&མ
+TrayNext=&ཤུལ་མ
+TrayMute=སྒྲ་&མེད
+TrayExit=&ཕྱིར་འཐོན
+
+; རིམ་པ་ ༡༥: མཚན་རྟགས
+PlaybackAddBookmark=མཚན་རྟགས་&ཁ་སྐོང...
+PlaybackBookmarks=མཚན་&རྟགས
+BookmarksTitle=མཚན་རྟགས
+BookmarksGoto=མཚན་རྟགས་ལུ་&འགྱོ
+BookmarksRemove=མཚན་རྟགས་&བསལ
+BookmarksClear=མཚན་རྟགས་ཚང་མ་&བསལ
+BookmarksOpenFolder=ཡིག་ཁུག་ཁ་&ཕྱེ
+BookmarksCopyPath=ལམ་&འདྲ་བཤུས
+BookmarksCount=མཚན་རྟགས་ %d
+NoBookmarks=(མཚན་རྟགས་མེད)
+NoFileLoaded=(ཡིག་སྣོད་མངོན་མེད)
+BookmarkAdded=མཚན་རྟགས་ %s་ལུ་ཁ་སྐོང་བྱས
+BookmarkJumped=མཚན་རྟགས་ %s་ལུ་མཆོངས
+AddBookmarkTitle=མཚན་རྟགས་ཁ་སྐོང
+AddBookmarkPrompt=མཚན་རྟགས་མིང་བཙུགས:
+ShowAllBookmarks=མཚན་རྟགས་ཚང་མ་སྟོན...
+
+; རིམ་པ་ ༡༦: དགའ་མཁན
+ToolsFavorites=དགའ་&མཁན
+ToolsAddFavorite=དགའ་མཁན་ལུ་&ཁ་སྐོང
+FavoritesTitle=དགའ་མཁན
+FavoritesPlay=&གཟིགས
+FavoritesRemove=དགའ་མཁན་ལས་&བསལ
+FavoritesClear=དགའ་མཁན་ཚང་མ་&བསལ
+FavoritesOpenFolder=ཡིག་ཁུག་ཁ་&ཕྱེ
+FavoritesCopyPath=ལམ་&འདྲ་བཤུས
+FavoritesCount=དགའ་མཁན་ %d
+NoFavorites=(དགའ་མཁན་མེད)
+AddFavoriteTitle=དགའ་མཁན་ལུ་ཁ་སྐོང
+AddFavoritePrompt=དགའ་མཁན་མིང་བཙུགས:
+AlreadyFavorite=དགའ་མཁན་ནང་ཡོདཔ་ཨིན
+AddedToFavorites=དགའ་མཁན་ལུ་ཁ་སྐོང་བྱས: %s
+NoFileToFavorite=དགའ་མཁན་ལུ་ཁ་སྐོང་འབད་ནིའི་ཡིག་སྣོད་མེད
+FavoriteTypeFile=ཡིག་སྣོད
+FavoriteTypeURL=URL
+FavoriteTypeRadio=རེ་ཌིའོ
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; ཁ་སྐད་རྩ་སྒྲིག
+TrackWithTitle=ཁ་སྐད་ %d: %s
+TrackWithLang=ཁ་སྐད་ %d (%s)
+TrackNumber=ཁ་སྐད་ %d
+
+; མགྱོགས་ཚད་དཀར་ཆག
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; ཚད་གཞི་དཀར་ཆག
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; འོག་ཡིག་ཁ་སྐད
+SubtitleDisable=བཀག
+
+; རིམ་པ་ ༡༧: གཉིད་དུས་ཚོད
+ToolsSleepTimer=གཉིད་དུས་&ཚོད...
+ToolsSleepTimerActive=གཉིད་དུས་&ཚོད [%s]
+ToolsCancelTimer=དུས་ཚོད་&དོར
+
+; སྒྲ་དཀར་ཆག
+Audio=&སྒྲ
+AudioTrack=སྒྲ་&ཁ་སྐད
+AudioVolumeUp=སྒྲ་ཤུགས་&ཡར
+AudioVolumeDown=སྒྲ་ཤུགས་&མར
+AudioMute=སྒྲ་&མེད
+AudioEqualizer=&མཉམ་སྒྲིག་པ
+AudioDelay=སྒྲ་&འགོར་བ
+AudioDelayPlus=འགོར་བ་ +0.1s
+AudioDelayMinus=འགོར་བ་ -0.1s
+AudioDelayReset=འགོར་བ་སླར་གསོ
+AudioNormalize=སྒྲ་ཤུགས་&མཉམ་སྒྲིག
+
+; བརྙན་དཀར་ཆག
+Video=&བརྙན
+VideoFullscreen=འཆར་ངོས་&ཧྲིལ་བུ
+VideoAspect=&ཚད་གཞི
+VideoAspectAuto=&རང་བྱུང
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=འཆར་ངོས་པར་&བཤུས
+VideoScreenshotAs=འཆར་ངོས་པར་བཤུས་&སྦེ...
+VideoRotation=&འཁོར་བསྒྱུར
+VideoRotate0=&0° (སྤྱིར་བཏང)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&ལྡོག
+VideoFlipH=&ཐད་སྙོམས་ལྡོག
+VideoFlipV=&ཕྱེད་དབྱེ་ལྡོག
+VideoDeinterlace=&Deinterlace
+VideoZoom=&ཟུམ
+VideoZoomIn=ཟུམ་&ནང
+VideoZoomOut=ཟུམ་&ཕྱི
+VideoZoomReset=ཟུམ་&སླར་གསོ
+VideoPan=&པན
+VideoPanLeft=པན་&གཡོན
+VideoPanRight=པན་&གཡས
+VideoPanUp=པན་&སྟོད
+VideoPanDown=པན་&སྨད
+VideoPanReset=པན་&སླར་གསོ
+VideoTrack=བརྙན་&ཁ་སྐད
+VideoColors=ཚོས་གཞི་&བསྒྱུར
+VideoBrightness=&གསལ་ཆ
+VideoContrast=&འགལ་ཟླ
+VideoSaturation=&འདམ་ཚད
+VideoHue=&མདོག
+VideoGamma=&གྷ་མ
+VideoColorsReset=ཚོས་གཞི་ཚང་མ་&སླར་གསོ
+VideoIncrease=ཡར་སྣོན (+5)
+VideoDecrease=མར་བཀག (-5)
+VideoReset=སླར་གསོ
+VideoAdjustDialog=བརྙན་&བསྒྱུར་བཅོས...
+
+; བལྟ་དཀར་ཆག
+View=&བལྟ
+ViewAlwaysOnTop=&རྟག་པར་སྟེང
+ViewFitToVideo=སྒྲོམ་བརྙན་ལུ་&འཚམ
+ViewScale=སྒྲོམ་&ཚད་གཞི
+
+; རིམ་པ་ ༢༦: མཐོང་སྣང་དཀར་ཆག
+ViewVisualization=&མཐོང་སྣང
+VisNone=&མེད
+VisSpectrum=&སྤེཀ་ཊམ་དཔྱད
+VisWaveform=ཆུ་རླབས་&དབྱིབས
+VisVector=&བེག་ཊར་ཁྱབ་ཁོངས
+VisVolume=&VU་ཚད་འཇལ
+VisNextMode=&རྣམ་པ་ཤུལ་མ
+VisNextColor=&ཚོས་གཞི་ཤུལ་མ
+
+; འོག་ཡིག་དཀར་ཆག
+Subtitles=འོག་&ཡིག
+SubtitleTrack=འོག་ཡིག་&ཁ་སྐད
+SubtitleLoad=འོག་ཡིག་&མངོན...
+SubtitleDelay=འོག་ཡིག་&འགོར་བ
+SubtitleDelayPlus=འགོར་བ་ +0.1s
+SubtitleDelayMinus=འགོར་བ་ -0.1s
+SubtitleDelayReset=འགོར་བ་སླར་གསོ
+
+; ལག་ཆས་དཀར་ཆག
+Tools=ལག་&ཆས
+ToolsPlaylist=གཟིགས་&ཐོ
+ToolsRadios=རེ་ཌི&འོ
+ToolsShortcuts=མཐེབ་གཞོང་&མགྱོགས་ལམ...
+ToolsOptions=&གདམ་ཁ
+
+; རིམ་པ་ ༢༧: བཙུགས་པའི་དཀར་ཆག
+ToolsRecord=རྒྱུན་&བཙུགས...
+ToolsStopRecord=བཙུགས་པ་&མཚམས་འཇོག
+ToolsRecording=&བཙུགས་པ...
+
+; རོགས་རམ་དཀར་ཆག
+Help=&རོགས་རམ
+HelpMediaInfo=བརྙན་&ཆ་འཕྲིན
+HelpLog=&ཐོ་སྒྲོམ
+HelpAbout=&སྐོར
+
+[Dialog]
+OpenFile=ཡིག་སྣོད་ཁ་ཕྱེ
+OpenURL=URL་ཁ་ཕྱེ
+SaveScreenshot=འཆར་ངོས་པར་བཤུས་སྲུང
+LoadSubtitle=འོག་ཡིག་ཡིག་སྣོད་མངོན
+EnterURL=URL་བཙུགས:
+ResumePlayback=གཟིགས་པ་མུ་མཐུད
+ResumeFrom=%s་ལས་མུ་མཐུད?
+ClearRecentFiles=ཡིག་སྣོད་གསརཔ་བསལ
+NoRecentFiles=(ཡིག་སྣོད་གསརཔ་མེད)
+NoAudioTracks=(སྒྲ་ཁ་སྐད་མེད)
+NoVideoTracks=(བརྙན་ཁ་སྐད་མེད)
+NoSubtitleTracks=(འོག་ཡིག་ཁ་སྐད་མེད)
+NoChapters=(ལེའུ་མེད)
+OpenDVD=DVD་ཁ་ཕྱེ
+OpenBluray=Blu-ray་ཁ་ཕྱེ
+OpenFolder=ཡིག་ཁུག་ཁ་ཕྱེ
+
+; ཡིག་སྣོད་བཤགས་མ
+ScreenshotFilter=PNG་པར|*.png|JPEG་པར|*.jpg|WebP་པར|*.webp
+DVDFilter=DVD་ཡིག་ཁུག|*.;*.iso|ཡིག་སྣོད་ཚང་མ (*.*)|*.*
+BlurayFilter=Blu-ray་ཡིག་ཁུག|*.;*.iso|ཡིག་སྣོད་ཚང་མ (*.*)|*.*
+NoDVD=(DVD་མངོན་མེད)
+DVDTitle=མཚན་བྱང་ %d
+GotoTime=དུས་ཚོད་ལུ་འགྱོ
+EnterTime=མཆོང་ནིའི་དུས་ཚོད་བཙུགས:
+Hours=ཆུ་ཚོད
+Minutes=སྐར་མ
+Seconds=སྐར་ཆ
+Current=ད་ལྟོ:
+HistoryTitle=གཟིགས་པའི་ལོ་རྒྱུས
+HistoryItems=ལོ་རྒྱུས་ནང་ %d
+HistoryPlay=&གཟིགས
+HistoryRemove=ལོ་རྒྱུས་ལས་&བསལ
+HistoryClear=ལོ་རྒྱུས་ཚང་མ་&བསལ
+HistoryOpenFolder=ཡིག་ཁུག་ཁ་&ཕྱེ
+HistoryCopyPath=ལམ་&འདྲ་བཤུས
+ClearHistory=ལོ་རྒྱུས་བསལ
+ClearHistoryConfirm=ལོ་རྒྱུས་ཚང་མ་བསལ་ནི་ཨིན་ན?
+SleepTimerTitle=གཉིད་དུས་ཚོད
+SleepTimerDescription=རང་བྱུང་གཟིགས་པ་མཚམས་འཇོག་པའི་དུས་ཚོད་བཀོད
+SleepTimerHours=ཆུ་ཚོད
+SleepTimerMinutes=སྐར་མ
+SleepTimerQuickSet=མགྱོགས་བཀོད
+SleepTimerAction=དུས་ཚོད་མཇུག་བསྡུ་ཚེ
+SleepTimerStopPlayback=གཟིགས་པ་མཚམས་འཇོག
+SleepTimerCloseApp=ཉེར་སྤྱོད་ཁ་རྒྱག
+SleepTimerShutdown=གློག་ཀླད་ཁ་རྒྱག
+SleepTimerStart=དུས་ཚོད་འགོ་བཙུགས
+
+[Status]
+Ready=གྲ་སྒྲིག
+Opening=ཁ་ཕྱེ་དོ...
+Playing=གཟིགས་དོ
+Paused=བཀག་ཡོད
+Stopped=མཚམས་བཞག
+Error=འཛོལ་བ
+Buffering=བཀག་ཉར་དོ...
+Seeking=འཚོལ་དོ...
+Recording=བཙུགས་དོ
+
+[Message]
+SpeedFormat=མགྱོགས་ཚད: %.2fx
+VolumeFormat=སྒྲ་ཤུགས: %d%%
+BrightnessFormat=གསལ་ཆ: %d
+ContrastFormat=འགལ་ཟླ: %d
+SaturationFormat=འདམ་ཚད: %d
+HueFormat=མདོག: %d
+GammaFormat=གྷ་མ: %d
+ColorsReset=བརྙན་ཚོས་གཞི་སླར་གསོ་བྱས
+LoopASet=འཁོར་བ་ A་ %s་ལུ་བཀོད
+LoopBSet=འཁོར་བ་ B་ %s་ལུ་བཀོད - འཁོར་བ་འཁོར་དོ
+LoopCleared=A-B་འཁོར་བ་བསལ་ཡོད
+SetAFirst=ཧེ་མ་ཚེག་ A་བཀོད (L་མནན)
+RotationFormat=འཁོར་བསྒྱུར: %d°
+FlipHOn=ཐད་སྙོམས་ལྡོག: ཨོན
+FlipHOff=ཐད་སྙོམས་ལྡོག: ཨོཕ
+FlipVOn=ཕྱེད་དབྱེ་ལྡོག: ཨོན
+FlipVOff=ཕྱེད་དབྱེ་ལྡོག: ཨོཕ
+DeinterlaceOn=Deinterlace: ཨོན
+DeinterlaceOff=Deinterlace: ཨོཕ
+AlwaysOnTopOn=རྟག་པར་སྟེང: ཨོན
+AlwaysOnTopOff=རྟག་པར་སྟེང: ཨོཕ
+WindowFitted=སྒྲོམ་ %dx%d་ལུ་འཚམ་བྱས
+WindowScale=སྒྲོམ་ཚད་གཞི: %.0f%%
+ScreenshotSaved=འཆར་ངོས་པར་བཤུས་སྲུང་བྱས: %s
+AudioNormalizeOn=སྒྲ་མཉམ་སྒྲིག: ཨོན
+AudioNormalizeOff=སྒྲ་མཉམ་སྒྲིག: ཨོཕ
+AudioDelayFormat=སྒྲ་འགོར་བ: %.1f s
+SubtitleDelayFormat=འོག་ཡིག་འགོར་བ: %.1f s
+ZoomFormat=ཟུམ: %.0f%%
+PanCenter=པན: དཀྱིལ
+PanFormat=པན: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=བརྙན་མངོན་མེད
+PlayingFromClipboard=ཀླིཔ་བོརྡ་ལས་གཟིགས་དོ: %s
+ClipboardInvalid=ཀླིཔ་བོརྡ་ནང་ URL་ཡང་ན་ལམ་བདེན་པ་མེད
+ClipboardEmpty=ཀླིཔ་བོརྡ་སྟོངམ་ཡང་ན་ཚིག་མེད
+ResumedAt=%s་ལས་མུ་མཐུད་བྱས
+FrameStepForward=གཞི་རིམ་མདུན་ལུ་སྤོ
+FrameStepBackward=གཞི་རིམ་རྒྱབ་ལུ་སྤོ
+PreviousChapter=སྔོན་མའི་ལེའུ
+NextChapter=ཤུལ་མའི་ལེའུ
+PlayingRadio=རེ་ཌིའོ་གཟིགས་དོ: %s
+PlayingDVD=DVD་གཟིགས་དོ: %s
+PlayingBluray=Blu-ray་གཟིགས་དོ: %s
+DVDTitlePlaying=DVD་མཚན་བྱང་ %d
+SeekTo=%s་ལུ་འཚོལ་དོ
+MinimizedToTray=ཕྲ་ཁྲམ་ལུ་ཆུང་བཀག་བྱས། སྟོན་ནིའི་དོན་ལུ་གཉིས་མནན།
+SleepTimerSet=གཉིད་དུས་ཚོད་བཀོད: %s
+SleepTimerCancelled=གཉིད་དུས་ཚོད་དོར
+SleepTimerWarning=གཉིད་དུས་ཚོད: སྐར་མ་ ༡ ལུས་ཡོད
+SleepTimerFinal=གཉིད་དུས་ཚོད: སྐར་ཆ་ ༡༠ ལུས་ཡོད
+SleepTimerStopped=གཉིད་དུས་ཚོད: གཟིགས་པ་མཚམས་བཞག
+SleepTimerClosing=གཉིད་དུས་ཚོད: ཉེར་སྤྱོད་ཁ་རྒྱག་དོ
+SleepTimerShutdown=གཉིད་དུས་ཚོད: གློག་ཀླད་ཁ་རྒྱག་དོ
+SleepTimerExpired=གཉིད་དུས་ཚོད་མཇུག་བསྡུས
+ShutdownManual=ལག་ཐོག་ལས་གློག་ཀླད་ཁ་རྒྱག་གནང།
+
+; རིམ་པ་ ༢༡: ཡིག་ཁུག་ཁ་ཕྱེ
+FolderOpened=ཡིག་ཁུག་ཁ་ཕྱེས: ཡིག་སྣོད་ %d
+NoMediaFound=བརྙན་ཡིག་སྣོད་མ་ཐོབ
+FilesAdded=ཡིག་སྣོད་ %d་ཐོ་ལུ་ཁ་སྐོང་བྱས
+
+; རིམ་པ་ ༢༧: བཙུགས་པའི་འཕྲིན
+RecordNeedPlayback=བཙུགས་པའི་སྔོན་ལུ་གཟིགས་པ་འགོ་བཙུགས།
+RecordingStarted=བཙུགས་པ་འགོ་བཙུགས
+RecordingStopped=བཙུགས་པ་མཚམས་བཞག
+
+; གནས་སྟངས་འཕྲིན་ཁ་སྐོང
+EndOfPlaylist=གཟིགས་ཐོ་མཇུག
+NoMediaLoaded=ད་ལྟོ་བརྙན་ཡིག་སྣོད་མངོན་མེད།
+JumpedToNamed=མཆོངས་ཚར: %s
+ChapterFormat=ལེའུ་ %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=མཚན་རྟགས་ %s
+
+[Label]
+Muted=སྒྲ་མེད
+
+[Button]
+Play=གཟིགས
+Pause=བཀག
+Stop=མཚམས་འཇོག
+Previous=སྔོན་མ
+Next=ཤུལ་མ
+Mute=སྒྲ་མེད
+Unmute=སྒྲ་ཡོད
+Fullscreen=འཆར་ངོས་ཧྲིལ་བུ
+OK=བཏུབ
+Cancel=དོར
+Apply=འཇུག
+Close=ཁ་རྒྱག
+Yes=ཨིན
+No=མེན
+
+[Tooltip]
+Play=གཟིགས/བཀག
+Stop=གཟིགས་པ་མཚམས་འཇོག
+Previous=སྔོན་མའི་ཁ་སྐད
+Next=ཤུལ་མའི་ཁ་སྐད
+Mute=སྒྲ་མེད་བསྒྱུར
+Volume=སྒྲ་ཤུགས
+Seek=འཚོལ་གནས
+Fullscreen=འཆར་ངོས་ཧྲིལ་བུ་བསྒྱུར
+
+[Playlist]
+Title=གཟིགས་ཐོ
+Add=ཁ་སྐོང
+Remove=བསལ
+Clear=སྟོངམ
+MoveUp=ཡར་སྤོ
+MoveDown=མར་སྤོ
+Shuffle=བསྲེ
+Repeat=བསྐྱར
+Play=གཟིགས
+ShuffleOn=བསྲེ: ཨོན
+ShuffleOff=བསྲེ: ཨོཕ
+RepeatOff=བསྐྱར: ཨོཕ
+RepeatOne=བསྐྱར: གཅིག
+RepeatAll=བསྐྱར: ཚང་མ
+SavePlaylist=སྲུང
+LoadPlaylist=མངོན
+TotalDuration=བསྡོམས: %s
+ItemCount=%d
+
+; རིམ་པ་ ༢༢: གཟིགས་ཐོ་བཟོ་བཅོས
+Search=འཚོལ:
+FilterPlaceholder=གཟིགས་ཐོ་བཤགས...
+ClearSearch=སྟོངམ
+FilterCount=%d/%d
+RemoveDuplicates=བསྐྱར་བ་&བསལ
+Properties=&རྒྱུ་མཚན...
+NoDuplicates=བསྐྱར་བ་མ་ཐོབ།
+DuplicatesFound=བསྐྱར་བ་ %d་ཐོབ། བསལ་ནི་ཨིན་ན?
+RemoveDuplicatesTitle=བསྐྱར་བ་བསལ
+PropertiesTitle=གཟིགས་ཐོ་རྒྱུ་མཚན
+PropTotalItems=བསྡོམས: %d
+PropTotalDuration=བསྡོམས་དུས་ཚོད: %s
+PropPlayed=གཟིགས་ཚར: %d
+PropUnplayed=མ་གཟིགས: %d
+PropTotalSize=བསྡོམས་ཚད: %.2f MB
+PropShuffle=བསྲེ: %s
+PropRepeat=བསྐྱར: %s
+On=ཨོན
+Off=ཨོཕ
+
+; ApplyLocale་གི་ལྡེ་མིག་གསརཔ
+ClearTitle=གཟིགས་ཐོ་སྟོངམ
+ClearConfirm=གཟིགས་ཐོ་སྟོངམ་བཟོ་ནི་ཨིན་ན?
+NoPlaylist=གཟིགས་ཐོ་མེད
+StatusFormat=%d | བསྡོམས: %s
+RepeatOne=བསྐྱར་ ༡
+RepeatAll=བསྐྱར་ཚང
+HintRepeatEnable=བསྐྱར་ཚང་མ་འཁོར་ནིའི་དོན་ལུ་མནན
+HintRepeatOne=བསྐྱར་གཅིག - བཀག་ནིའི་དོན་ལུ་མནན
+HintRepeatAll=བསྐྱར་ཚང་མ - བསྐྱར་གཅིག་གི་དོན་ལུ་མནན
+HintShuffleRepeat=བསྲེ + བསྐྱར་ཚང་མ - བསྐྱར་བཀག་ནིའི་དོན་ལུ་མནན
+RemoveDuplicatesTitle=བསྐྱར་བ་བསལ
+NoDuplicates=བསྐྱར་བ་མ་ཐོབ།
+SelectAll=ཚང་མ་གདམ
+SelectNone=ག་ཡང་མེད
+SelectInvert=གདམ་ཁ་ལྡོག
+Sort=སྒྲིག
+SortByName=མིང་གིས
+SortByTitle=མཚན་བྱང་གིས
+SortByArtist=སྒྲུང་མཁན་གིས
+SortByDuration=དུས་ཚོད་གིས
+SortReverse=ལྡོག
+SortRandom=བསྲེ
+ColTitle=མཚན་བྱང
+ColDuration=དུས་ཚོད
+ColArtist=སྒྲུང་མཁན
+ColAlbum=ཨལ་བམ
+PlaylistFilter=M3U་གཟིགས་ཐོ|*.m3u|M3U8་གཟིགས་ཐོ|*.m3u8|PLS་གཟིགས་ཐོ|*.pls
+
+[Equalizer]
+Title=མཉམ་སྒྲིག་པ
+Presets=སྔོན་སྒྲིག:
+Preamp=སྔོན་ཤུགས:
+Flat=མཉམ
+Rock=རོཀ
+Pop=པོཔ
+Jazz=ཇཛ
+Classical=སྔ་རབས
+BassBoost=བས་ཤུགས
+TrebleBoost=མཐོ་ཤུགས
+Vocal=སྐད
+Reset=སླར་གསོ
+Enable=མཉམ་སྒྲིག་པ་འཁོར
+Save=སྲུང
+Delete=བསལ
+Ready=གྲ་སྒྲིག
+; མཐེབ་དང་བྱ་བ
+SavePreset=སྔོན་སྒྲིག་སྲུང
+DeletePreset=སྔོན་སྒྲིག་བསལ
+SavePresetTitle=སྔོན་སྒྲིག་སྲུང
+PresetNamePrompt=སྔོན་སྒྲིག་མིང:
+EnterPresetName=སྔོན་སྒྲིག་མིང་བཙུགས་གནང།
+OverwritePresetTitle=སྔོན་སྒྲིག་བཀོད་བཤུས
+OverwritePresetConfirm=མིང་འདི་དང་འདྲ་བའི་སྔོན་སྒྲིག་ཡོདཔ་ཨིན། བཀོད་བཤུས་འབད་ནི་ཨིན་ན?
+PresetUpdated=སྔོན་སྒྲིག་གསར་བསྐྱེད་བྱས: %s
+PresetSaved=སྔོན་སྒྲིག་སྲུང་ཚར: %s
+SelectPresetToDelete=བསལ་ནིའི་སྔོན་སྒྲིག་གདམ་གནང།
+CannotDeleteDefault=སྔོན་སྒྲིག་སྔོན་མ་བསལ་མི་ཚུགས།
+DeletePresetTitle=སྔོན་སྒྲིག་བསལ
+DeletePresetConfirm=སྔོན་སྒྲིག་འདི་བསལ་ནི་ཨིན་ན?
+PresetDeleted=སྔོན་སྒྲིག་བསལ་ཚར
+ResetToFlat=མཉམ་སྒྲིག་པ་མཉམ་ལུ་སླར་གསོ་བྱས
+PresetApplied=སྔོན་སྒྲིག་འཇུག་ཚར: %s
+
+[Options]
+Title=གདམ་ཁ
+General=སྤྱིར་བཏང
+Video=བརྙན
+Audio=སྒྲ
+Subtitles=འོག་ཡིག
+Cache=བཀག་ཉར
+Language=སྐད་ཡིག:
+RestartRequired=བསྒྱུར་བཅོས་འཇུག་ནིའི་དོན་ལུ་བསྐྱར་འགོ་དགོ
+
+; སྤྱིར་བཏང་ - སྤྱོད་ལམ
+Behavior=སྤྱོད་ལམ
+SingleInstance=དཔེ་གཅིག་རྐྱངམ་ཅིག་བཅུག
+AutoPlay=ཁ་ཕྱེ་ཚེ་རང་བྱུང་གཟིགས
+AutoResume=གཟིགས་གནས་མུ་མཐུད
+MinimizeToTray=མ་ལག་ཕྲ་ཁྲམ་ལུ་ཆུང་བཀག
+AutoSavePlaylist=ཕྱིར་འཐོན་ཚེ་གཟིགས་ཐོ་སྲུང
+
+; སྤྱིར་བཏང་ - OSD
+OSD=འཆར་ངོས་སྟོན
+ShowOSD=འཆར་ངོས་འཕྲིན་སྟོན
+ShowTrayIcon=ཕྲ་ཁྲམ་རྟགས་སྟོན
+OSDDuration=OSD་དུས་ཚོད (ms):
+
+; སྤྱིར་བཏང་ - འཆར་ངོས་པར་བཤུས
+Screenshots=འཆར་ངོས་པར་བཤུས
+ScreenshotPath=སྲུང་ཡིག་ཁུག:
+ScreenshotFormat=རྩ་སྒྲིག:
+
+; སྤྱིར་བཏང་ - ལོ་རྒྱུས
+HistorySettings=ལོ་རྒྱུས
+HistoryEnabled=གཟིགས་པའི་ལོ་རྒྱུས་འཁོར
+HistoryMaxItems=མང་མཐའ:
+
+; སྤྱིར་བཏང་ - སྐད་ཡིག
+LanguageGroup=སྐད་ཡིག
+RestartNote=(བསྒྱུར་བཅོས་ལུ་བསྐྱར་འགོ་དགོ)
+
+; བརྙན
+VideoAdjust=བརྙན་བསྒྱུར་བཅོས
+Brightness=གསལ་ཆ:
+Contrast=འགལ་ཟླ:
+Saturation=འདམ་ཚད:
+Hue=མདོག:
+Gamma=གྷ་མ:
+VideoOutput=བརྙན་ཐོན
+Output=ཐོན:
+HWAccel=མཁྲེགས་ཆས་མགྱོགས་བཅག་འཁོར
+Deinterlacing=Deinterlacing
+Mode=རྣམ་པ:
+
+; སྒྲ
+AudioOutput=སྒྲ་ཐོན
+OutputDriver=ཐོན་སྐུལ་མ:
+Device=ཆས:
+AudioOptions=སྒྲ་གདམ་ཁ
+NormalizeAudio=སྒྲ་ཤུགས་མཉམ་སྒྲིག
+Channels=ཁ་ལམ:
+
+; འོག་ཡིག
+UseDefaultSubtitles=སྔོན་མའི་འོག་ཡིག་སྒྲིག་སྤྱོད
+Font=ཡིག་གཟུགས
+FontName=ཡིག་གཟུགས:
+FontSize=ཚད:
+FontColor=ཚོས་གཞི:
+Bold=མཐུག
+Italic=གཡོན
+Outline=མཐའ་སྐོར
+OutlineColor=ཚོས་གཞི:
+OutlineSize=ཚད:
+Position=གནས
+VerticalPosition=ཕྱེད་དབྱེ་གནས:
+SubOptions=གདམ་ཁ
+Encoding=ཨང་སྒྲིག:
+AutoLoadSubs=རང་བྱུང་འོག་ཡིག་ཡིག་སྣོད་མངོན
+
+; བརྙན་ཐོན་ཉེན་བརྡ
+VOWarningX11=ཉེན་བརྡ: x11་གིས་བརྙན་བསྒྱུར་བཅོས་རྒྱབ་སྐྱོར་མི་འབད (གསལ་ཆ, འགལ་ཟླ, སོགས།)
+VOWarningWayland=ཉེན་བརྡ: Wayland་སྐབས་དགོ། བརྙན་བསྒྱུར་བཅོས་རྒྱབ་སྐྱོར་ཡོད།
+
+; བཀག་ཉར
+CacheSettings=བཀག་ཉར་ཚད (KB)
+CacheDefault=སྔོན་མ་བཀག་ཉར:
+CacheLocal=ས་གནས་ཡིག་སྣོད:
+CacheNetwork=དྲ་རྒྱ་ཡིག་སྣོད:
+CacheInternet=དྲ་རྒྱུན:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=སྐོར
+Version=པར་གཞི
+Engine=འཕྲུལ
+Technology=ལག་རྩལ
+BuildInfo=བཟོ་བའི་ཆ་འཕྲིན
+SystemInfo=མ་ལག
+Credits=བཀའ་དྲིན
+Developer=བཟོ་མཁན:
+Author=རྩོམ་པ་པོ
+License=ཆོག་མཆན
+Website=དྲ་ཚིགས
+GitHub=GitHub
+Description=བརྙན་གཟིགས་མཁན་གསརཔ་དང་ཡང་མོ
+LicenseText=3nity Media་ GPL-2.0 འོག་ཆོག་མཆན་ཡོད\n\nདེ་གིས་ཁྱོད་ལུ་རང་དབང་ཡོད:\n  • མཉེན་ཆས་དམིགས་ཡུལ་གང་རུང་ལུ་སྤྱོད\n  • འབྱུང་ཁུངས་ཨང་རྟགས་སློབ་དང་བསྒྱུར\n  • མཉེན་ཆས་འདྲ་བཤུས་བགོ\n  • ཁྱོད་ཀྱི་བསྒྱུར་བཅོས་བགོ\n\nཆ་རྐྱེན་འདི་འོག་བགོ་བའི་བསྒྱུར་བཅོས་\nGPL-2.0 འོག་ཆོག་མཆན་ཡོད་དགོ།
+BuildDate=ཚེས:
+Target=དམིགས:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=མཐེབ་གཞོང་མགྱོགས་ལམ
+Description=བྱ་བའི་དོན་ལུ་མཐེབ་གཞོང་མགྱོགས་ལམ་སྒྲིག
+Search=འཚོལ:
+PressKey=མཐེབ་མནན...
+ColCategory=རིགས
+ColAction=བྱ་བ
+ColShortcut=མགྱོགས་ལམ
+Assign=འགན་སྤྲོད
+Clear=སྟོངམ
+Reset=སླར་གསོ
+ResetAll=ཚང་མ་སླར་གསོ
+CurrentShortcut=ད་ལྟོ: %s
+NoKeyPressed=ཧེ་མ་མཐེབ་མནན་གནང།
+Conflict=འགལ་བ: "%s"་ལུ་འགན་སྤྲོད་ཡོད
+ConfirmReplace=མགྱོགས་ལམ་བརྗེ
+ReplaceMessage=མགྱོགས་ལམ་འདི་ "%s"་ལུ་འགན་སྤྲོད་ཡོད། བརྗེ་ནི་ཨིན་ན?
+ConfirmResetAll=མགྱོགས་ལམ་ཚང་མ་སླར་གསོ
+ResetAllMessage=མགྱོགས་ལམ་ཚང་མ་སྔོན་མ་ལུ་སླར་གསོ་ནི་ཨིན་ན?
+; བྱ་བའི་མིང
+ActPlayPause=གཟིགས / བཀག
+ActStop=མཚམས་འཇོག
+ActPrevious=སྔོན་མ
+ActNext=ཤུལ་མ
+ActSeekForward=མདུན་ལུ་འཚོལ (10s)
+ActSeekBackward=རྒྱབ་ལུ་འཚོལ (10s)
+ActSeekForward5=མདུན་ལུ་འཚོལ (1 min)
+ActSeekBackward5=རྒྱབ་ལུ་འཚོལ (1 min)
+ActSpeedUp=མགྱོགས་ཚད་ཡར
+ActSpeedDown=མགྱོགས་ཚད་མར
+ActSpeedReset=མགྱོགས་ཚད་སླར་གསོ
+ActSetLoopA=འཁོར་བ་ཚེག་ A་བཀོད
+ActSetLoopB=འཁོར་བ་ཚེག་ B་བཀོད
+ActClearLoop=A-B་འཁོར་བ་བསལ
+ActFrameForward=གཞི་རིམ་མདུན
+ActFrameBackward=གཞི་རིམ་རྒྱབ
+ActPrevChapter=སྔོན་མའི་ལེའུ
+ActNextChapter=ཤུལ་མའི་ལེའུ
+ActGotoTime=དུས་ཚོད་ལུ་འགྱོ
+ActVolumeUp=སྒྲ་ཤུགས་ཡར
+ActVolumeDown=སྒྲ་ཤུགས་མར
+ActMute=སྒྲ་མེད / ཡོད
+ActAudioDelayPlus=སྒྲ་འགོར་བ +
+ActAudioDelayMinus=སྒྲ་འགོར་བ -
+ActAudioDelayReset=སྒྲ་འགོར་བ་སླར་གསོ
+ActFullscreen=འཆར་ངོས་ཧྲིལ་བུ
+ActRotate=བརྙན་འཁོར་བསྒྱུར
+ActDeinterlace=Deinterlace
+ActZoomIn=ཟུམ་ནང
+ActZoomOut=ཟུམ་ཕྱི
+ActZoomReset=ཟུམ་སླར་གསོ
+ActAlwaysOnTop=རྟག་པར་སྟེང
+ActFitToVideo=བརྙན་ལུ་འཚམ
+ActScreenshot=འཆར་ངོས་པར་བཤུས
+ActVideoAdjust=བརྙན་བསྒྱུར་བཅོས
+ActVisNextMode=མཐོང་སྣང་རྣམ་པ་ཤུལ་མ
+ActVisNextColor=ཚོས་གཞི་ཤུལ་མ
+ActSubDelayPlus=འོག་ཡིག་འགོར་བ +
+ActSubDelayMinus=འོག་ཡིག་འགོར་བ -
+ActSubDelayReset=འོག་ཡིག་འགོར་བ་སླར་གསོ
+ActDVDMenu=DVD་དཀར་ཆག
+ActDVDUp=DVD་ཡར་འགྲུལ
+ActDVDDown=DVD་མར་འགྲུལ
+ActDVDLeft=DVD་གཡོན་འགྲུལ
+ActDVDRight=DVD་གཡས་འགྲུལ
+ActDVDSelect=DVD་གདམ
+ActOpenFile=ཡིག་སྣོད་ཁ་ཕྱེ
+ActOpenURL=URL་ཁ་ཕྱེ
+ActPlaylist=གཟིགས་ཐོ་སྟོན
+ActQuit=ཕྱིར་འཐོན
+
+[Log]
+; རིམ་པ་ ༢༥: ཐོ་སྒྲོམ
+Title=MPV་ཐོ
+Command=བཀའ:
+Clear=སྟོངམ
+Save=སྲུང...
+Copy=འདྲ་&བཤུས
+SelectAll=ཚང་མ་&གདམ
+SaveTitle=ཐོ་སྲུང
+SaveFilter=ཚིག་ཡིག་སྣོད (*.txt)|*.txt|ཡིག་སྣོད་ཚང་མ (*.*)|*.*
+ErrorTitle=འཛོལ་བ
+SaveError=ཐོ་སྲུང་མ་ཚུགས: %s
+
+[MediaInfo]
+Title=བརྙན་ཆ་འཕྲིན
+FileTab=ཡིག་སྣོད
+VideoTab=བརྙན
+AudioTab=སྒྲ
+MetadataTab=མེ་ཊ་དྷ་ཊ
+FileName=ཡིག་སྣོད་མིང:
+FilePath=ལམ:
+FileSize=ཚད:
+Duration=དུས་ཚོད:
+Format=རྩ་སྒྲིག:
+Bitrate=བིཊ་ཚད:
+Codec=ཀོ་ཌེཀ:
+Resolution=གསལ་ཚད:
+FrameRate=གཞི་རིམ་ཚད:
+PixelFormat=པིག་སེལ་རྩ་སྒྲིག:
+AspectRatio=ཚད་གཞི:
+Channels=ཁ་ལམ:
+SampleRate=དཔེ་ཚད:
+Language=སྐད་ཡིག:
+Property=རྒྱུ་མཚན
+Value=གནས
+CopyAll=ཚང་མ་འདྲ་བཤུས
+CopiedToClipboard=བརྙན་ཆ་འཕྲིན་ཀླིཔ་བོརྡ་ལུ་འདྲ་བཤུས་བྱས།
+NA=མེད
+NAStream=མེད (རྒྱུན)
+NALive=མེད (ཐད་ཀར)
+ChannelMono=1 (མོ་ནོ)
+ChannelStereo=2 (སྟེ་རིའོ)
+Channel51=6 (5.1 བསྐོར)
+Channel71=8 (7.1 བསྐོར)
+Unknown=མ་ཤེས
+NoMetadata=(མེ་ཊ་དྷ་ཊ་མེད)
+
+[Bookmarks]
+Title=མཚན་རྟགས
+Goto=འགྱོ
+Remove=བསལ
+Clear=ཚང་མ་བསལ
+Refresh=གསར་བསྐྱེད
+OpenFolder=ཡིག་ཁུག་ཁ་ཕྱེ
+CopyPath=ལམ་འདྲ་བཤུས
+; སྟར
+ColName=མིང
+ColFile=ཡིག་སྣོད
+ColPosition=གནས
+ColCreated=བཟོས
+; གླེང་མོལ
+ClearTitle=མཚན་རྟགས་བསལ
+ClearConfirm=མཚན་རྟགས་ཚང་མ་བསལ་ནི་ཨིན་ན?
+Count=མཚན་རྟགས་ %d
+
+[Favorites]
+Title=དགའ་མཁན
+Play=གཟིགས
+Remove=བསལ
+Clear=ཚང་མ་བསལ
+Refresh=གསར་བསྐྱེད
+OpenFolder=ཡིག་ཁུག་ཁ་ཕྱེ
+CopyPath=ལམ་འདྲ་བཤུས
+; སྟར
+ColName=མིང
+ColType=རིགས
+ColPath=ལམ
+; རིགས
+TypeFile=ཡིག་སྣོད
+TypeURL=URL
+TypeRadio=རེ་ཌིའོ
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=མ་ཤེས
+; གླེང་མོལ
+ClearTitle=དགའ་མཁན་བསལ
+ClearConfirm=དགའ་མཁན་ཚང་མ་བསལ་ནི་ཨིན་ན?
+Count=དགའ་མཁན་ %d
+
+[History]
+Title=གཟིགས་པའི་ལོ་རྒྱུས
+Play=གཟིགས
+Remove=བསལ
+Clear=ཚང་མ་བསལ
+Refresh=གསར་བསྐྱེད
+OpenFolder=ཡིག་ཁུག་ཁ་ཕྱེ
+CopyPath=ལམ་འདྲ་བཤུས
+; སྟར
+ColFileName=ཡིག་སྣོད
+ColPath=ལམ
+; གླེང་མོལ
+ClearTitle=ལོ་རྒྱུས་བསལ
+ClearConfirm=ལོ་རྒྱུས་ཚང་མ་བསལ་ནི་ཨིན་ན?
+Count=%d
+
+[SleepTimer]
+Title=གཉིད་དུས་ཚོད
+Description=རང་བྱུང་གཟིགས་པ་མཚམས་འཇོག་པའི་དུས་ཚོད་བཀོད
+Hours=ཆུ་ཚོད:
+Minutes=སྐར་མ:
+Action=དུས་ཚོད་མཇུག་བསྡུ་ཚེ:
+StopPlayback=གཟིགས་པ་མཚམས་འཇོག
+CloseApp=ཉེར་སྤྱོད་ཁ་རྒྱག
+Shutdown=གློག་ཀླད་ཁ་རྒྱག
+QuickSet=མགྱོགས་བཀོད:
+15Min=སྐར་མ་ ༡༥
+30Min=སྐར་མ་ ༣༠
+1Hour=ཆུ་ཚོད་ ༡
+2Hours=ཆུ་ཚོད་ ༢
+
+[Radios]
+Title=དྲ་རྒྱ་རེ་ཌིའོ
+Play=གཟིགས
+Add=ཁ་སྐོང
+Edit=བཅོས
+Delete=བསལ
+Remove=བསལ
+Import=ནང་འདྲེན
+Export=ཕྱི་འདྲེན
+Refresh=གསར་བསྐྱེད
+Favorite=དགའ་མཁན
+ShowFavorites=དགའ་མཁན
+ShowAll=ཚང་མ
+; བཤགས་མ
+Genre=རིགས:
+Search=འཚོལ:
+SearchBtn=འཚོལ
+ClearSearch=སྟོངམ
+AllGenres=(རིགས་ཚང་མ)
+; འབྲེལ་མཚམས་དཀར་ཆག
+AddFavorite=དགའ་མཁན་ལུ་ཁ་སྐོང
+RemoveFavorite=དགའ་མཁན་ལས་བསལ
+AddCustom=ལས་སྟངས་ཁ་སྐོང...
+EditCustom=ལས་སྟངས་བཅོས...
+DeleteCustom=ལས་སྟངས་བསལ
+OpenWebsite=དྲ་ཚིགས་ཁ་ཕྱེ
+CopyURL=URL་འདྲ་བཤུས
+; སྟར
+ColName=མིང
+ColGenre=རིགས
+ColBitrate=བིཊ་ཚད
+ColCountry=རྒྱལ་ཁབ
+ColCodec=ཀོ་ཌེཀ
+; གླེང་མོལ
+AddTitle=ལས་སྟངས་ཁ་སྐོང
+EditTitle=ལས་སྟངས་བཅོས
+DeleteTitle=ལས་སྟངས་བསལ
+DeleteConfirm=ལས་སྟངས་འདི་བསལ་ནི་ཨིན་ན?
+StationName=ལས་སྟངས་མིང:
+StreamURL=རྒྱུན་ URL:
+GenrePrompt=རིགས:
+NameURLRequired=མིང་དང་ URL་དགོ།
+; གནས་སྟངས་འཕྲིན
+LoadingIcecast=Icecast་ལས་ལས་སྟངས་མངོན་དོ...
+IcecastError=Icecast་མངོན་མ་ཚུགས། སྔོན་མའི་ལས་སྟངས་སྤྱོད་དོ།
+NoStationsLoaded=ལས་སྟངས་མངོན་མེད
+StationCount=ལས་སྟངས་ %d
+LoadedStations=ལས་སྟངས་ %d་མངོན་ཚར
+ErrorPrefix=འཛོལ་བ:
+; ལྡེ་མིག་རྙིང
+Name=མིང
+URL=URL
+Bitrate=བིཊ་ཚད
+Description=འགྲེལ་བཤད
+Country=རྒྱལ་ཁབ
+
+[OpenURL]
+Title=URL་ཁ་ཕྱེ
+Prompt=བརྙན་ URL་བཙུགས:
+
+[GotoTime]
+Title=དུས་ཚོད་ལུ་འགྱོ
+EnterTime=མཆོང་ནིའི་དུས་ཚོད་བཙུགས:
+Hours=ཆུ
+Minutes=མ
+Seconds=ཆ
+Current=ད་ལྟོ:
+Duration=དུས་ཚོད:
+
+[VideoAdjust]
+Title=བརྙན་བསྒྱུར་བཅོས
+Brightness=གསལ་ཆ:
+Contrast=འགལ་ཟླ:
+Saturation=འདམ་ཚད:
+Hue=མདོག:
+Gamma=གྷ་མ:
+ResetAll=ཚོས་གཞི་ཚང་མ་སླར་གསོ
+
+[CLI]
+; བརྡ་བཀོད་གྲལ་ཐིག་འཕྲིན་དོན
+Usage=བཀོལ་སྤྱོད
+Arguments=[གདམ་ག] [ཡིག་སྣོད|URL|ཡིག་ཁུག]
+Description=libmpv རྒྱབ་གཉེར་ལག་ལེན་འཐབ་མི་མཉམ་འབྲེལ་བརྙན་འཕྲིན་གཟིགས་འཕྲུལ།
+Options=གདམ་ག
+Examples=དཔེ་མཚོན
+MoreInfo=བརྡ་དོན་ཁ་གསལ་གྱི་དོན་ལུ་ བལྟ་ཞིབ་འབད
+EnqueuedTo=ད་ལྟོའི་དངོས་མཚན་ནང་ཁ་སྐོང་འབད་ཡོད: %s
+SentTo=ད་ལྟོའི་དངོས་མཚན་ནང་གཏང་ཡོད: %s
+AlreadyRunning=3nity Media ཧེ་མ་ལས་འཁོར་བཞིན་ཡོད།
+ErrorFileNotFound=འཛོལ་བ: ཡིག་སྣོད་ཡང་ན་ཡིག་ཁུག་མ་རྙེད: %s
+ErrorSubNotFound=འཛོལ་བ: ཡིག་འཛིན་ཡིག་སྣོད་མ་རྙེད: %s

@@ -1,0 +1,892 @@
+[Language]
+Name=Hungarian - Magyar
+Code=hu
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Fájl menü
+File=&Fájl
+FileOpen=&Fájl megnyitása...
+FileOpenURL=&URL megnyitása...
+FileOpenClipboard=Megnyitás a &vágólapról
+FileRecent=&Legutóbbi fájlok
+ClearRecentFiles=Legutóbbi fájlok törlése
+FileExit=&Kilépés
+
+; Lejátszás menü
+Playback=&Lejátszás
+PlaybackPlayPause=&Lejátszás/Szünet
+PlaybackStop=&Megállítás
+PlaybackPrevious=&Előző
+PlaybackNext=&Következő
+PlaybackSeekForward=Előre &tekerés
+PlaybackSeekBackward=Hátra &tekerés
+PlaybackSpeed=&Sebesség
+PlaybackABLoop=A-&B hurok
+PlaybackSetA=&A pont beállítása
+PlaybackSetB=&B pont beállítása
+PlaybackClearAB=A-B &törlése
+PlaybackChapters=&Fejezetek
+PlaybackPrevChapter=Előző fejezet
+PlaybackNextChapter=Következő fejezet
+PlaybackFrameStep=&Képkocka előre
+PlaybackFrameBack=&Képkocka hátra
+
+; DVD navigáció
+PlaybackDVD=DVD &navigáció
+DVDMenu=&Menü
+DVDUp=&Fel
+DVDDown=&Le
+DVDLeft=&Balra
+DVDRight=&Jobbra
+DVDSelect=&Kiválasztás
+PlaybackDVDTitles=DVD &címek
+
+; 21. fázis: Mappa megnyitása
+FileOpenFolder=&Mappa megnyitása...
+
+; Fájl menü DVD/Blu-ray
+FileOpenDVD=&DVD megnyitása...
+FileOpenBluray=&Blu-ray megnyitása...
+
+; 13. fázis: Ugrás időpontra és Előzmények
+PlaybackGotoTime=&Ugrás időpontra...
+ToolsHistory=&Előzmények
+
+; 14. fázis: Rendszertálca
+TrayShow=&Megjelenítés/Elrejtés
+TrayPlayPause=&Lejátszás/Szünet
+TrayStop=&Megállítás
+TrayPrevious=&Előző
+TrayNext=&Következő
+TrayMute=&Némítás
+TrayExit=&Kilépés
+
+; 15. fázis: Könyvjelzők
+PlaybackAddBookmark=&Könyvjelző hozzáadása...
+PlaybackBookmarks=Könyv&jelzők
+BookmarksTitle=Könyvjelzők
+BookmarksGoto=&Ugrás könyvjelzőre
+BookmarksRemove=Könyvjelző &eltávolítása
+BookmarksClear=Összes könyvjelző &törlése
+BookmarksOpenFolder=&Mappa megnyitása
+BookmarksCopyPath=Útvonal &másolása
+BookmarksCount=%d könyvjelző
+NoBookmarks=(Nincsenek könyvjelzők)
+NoFileLoaded=(Nincs betöltött fájl)
+BookmarkAdded=Könyvjelző hozzáadva: %s
+BookmarkJumped=Ugrás könyvjelzőre: %s
+AddBookmarkTitle=Könyvjelző hozzáadása
+AddBookmarkPrompt=Adja meg a könyvjelző nevét:
+ShowAllBookmarks=Összes könyvjelző megjelenítése...
+
+; 16. fázis: Kedvencek
+ToolsFavorites=&Kedvencek
+ToolsAddFavorite=Hozzáadás a &kedvencekhez
+FavoritesTitle=Kedvencek
+FavoritesPlay=&Lejátszás
+FavoritesRemove=&Eltávolítás a kedvencekből
+FavoritesClear=Összes kedvenc &törlése
+FavoritesOpenFolder=&Mappa megnyitása
+FavoritesCopyPath=Útvonal &másolása
+FavoritesCount=%d kedvenc
+NoFavorites=(Nincsenek kedvencek)
+AddFavoriteTitle=Hozzáadás a kedvencekhez
+AddFavoritePrompt=Adja meg a kedvenc nevét:
+AlreadyFavorite=Már a kedvencek között van
+AddedToFavorites=Hozzáadva a kedvencekhez: %s
+NoFileToFavorite=Nincs betöltött fájl a kedvencekhez adáshoz
+FavoriteTypeFile=Fájl
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Rádió
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Sáv formázási karakterláncok
+TrackWithTitle=Sáv %d: %s
+TrackWithLang=Sáv %d (%s)
+TrackNumber=Sáv %d
+
+; Sebesség menüelemek
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Méretarány menüelemek
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Feliratsáv
+SubtitleDisable=Kikapcsolás
+
+; 17. fázis: Elalvási időzítő
+ToolsSleepTimer=&Elalvási időzítő...
+ToolsSleepTimerActive=&Elalvási időzítő [%s]
+ToolsCancelTimer=Időzítő &törlése
+
+; Hang menü
+Audio=&Hang
+AudioTrack=Hang&sáv
+AudioVolumeUp=Hangerő &növelése
+AudioVolumeDown=Hangerő &csökkentése
+AudioMute=&Némítás
+AudioEqualizer=&Hangszínszabályzó
+AudioDelay=Hang&késleltetés
+AudioDelayPlus=Késleltetés +0.1s
+AudioDelayMinus=Késleltetés -0.1s
+AudioDelayReset=Késleltetés visszaállítása
+AudioNormalize=Hangerő &normalizálása
+
+; Videó menü
+Video=&Videó
+VideoFullscreen=&Teljes képernyő
+VideoAspect=&Képarány
+VideoAspectAuto=&Automatikus
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=Képernyő&kép
+VideoScreenshotAs=Képernyőkép &mentése másként...
+VideoRotation=&Forgatás
+VideoRotate0=&0° (Normál)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Tükrözés
+VideoFlipH=Tükrözés &vízszintesen
+VideoFlipV=Tükrözés &függőlegesen
+VideoDeinterlace=&Váltottsorosság megszüntetése
+VideoZoom=&Nagyítás
+VideoZoomIn=&Nagyítás
+VideoZoomOut=&Kicsinyítés
+VideoZoomReset=Nagyítás &visszaállítása
+VideoPan=&Pásztázás
+VideoPanLeft=Pásztázás &balra
+VideoPanRight=Pásztázás &jobbra
+VideoPanUp=Pásztázás &fel
+VideoPanDown=Pásztázás &le
+VideoPanReset=Pásztázás v&isszaállítása
+VideoTrack=Videó&sáv
+VideoColors=&Színbeállítások
+VideoBrightness=&Fényerő
+VideoContrast=&Kontraszt
+VideoSaturation=&Telítettség
+VideoHue=&Árnyalat
+VideoGamma=&Gamma
+VideoColorsReset=Összes szín &visszaállítása
+VideoIncrease=Növelés (+5)
+VideoDecrease=Csökkentés (-5)
+VideoReset=Visszaállítás
+VideoAdjustDialog=Videó &beállítások...
+
+; Nézet menü
+View=&Nézet
+ViewAlwaysOnTop=&Mindig felül
+ViewFitToVideo=Ablak &igazítása a videóhoz
+ViewScale=Ablak &méretaránya
+
+; 26. fázis: Vizualizáció menü
+ViewVisualization=&Vizualizáció
+VisNone=&Nincs
+VisSpectrum=&Spektrum analizátor
+VisWaveform=&Hullámforma
+VisVector=&Vektorszkóp
+VisVolume=V&U mérő
+VisNextMode=Következő &mód
+VisNextColor=Következő &színséma
+
+; Felirat menü
+Subtitles=&Feliratok
+SubtitleTrack=Felirat&sáv
+SubtitleLoad=Felirat &betöltése...
+SubtitleDelay=Felirat &késleltetés
+SubtitleDelayPlus=Késleltetés +0.1s
+SubtitleDelayMinus=Késleltetés -0.1s
+SubtitleDelayReset=Késleltetés visszaállítása
+
+; Eszközök menü
+Tools=&Eszközök
+ToolsPlaylist=&Lejátszási lista
+ToolsRadios=&Rádiók
+ToolsShortcuts=&Gyorsbillentyűk...
+ToolsOptions=&Beállítások
+
+; 27. fázis: Felvétel menü
+ToolsRecord=Adatfolyam &rögzítése...
+ToolsStopRecord=Rögzítés &leállítása
+ToolsRecording=&Rögzítés...
+
+; Súgó menü
+Help=&Súgó
+HelpMediaInfo=&Média információ
+HelpLog=&Napló ablak
+HelpAbout=&Névjegy
+
+[Dialog]
+OpenFile=Fájl megnyitása
+OpenURL=URL megnyitása
+SaveScreenshot=Képernyőkép mentése
+LoadSubtitle=Felirattfájl betöltése
+EnterURL=Adja meg az URL-t:
+ResumePlayback=Lejátszás folytatása
+ResumeFrom=Folytatás innen: %s?
+ClearRecentFiles=Legutóbbi fájlok törlése
+NoRecentFiles=(Nincsenek legutóbbi fájlok)
+NoAudioTracks=(Nincsenek hangsávok)
+NoVideoTracks=(Nincsenek videósávok)
+NoSubtitleTracks=(Nincsenek feliratsávok)
+NoChapters=(Nincsenek fejezetek)
+OpenDVD=DVD megnyitása
+OpenBluray=Blu-ray megnyitása
+OpenFolder=Mappa megnyitása
+
+; Fájlszűrők
+ScreenshotFilter=PNG kép|*.png|JPEG kép|*.jpg|WebP kép|*.webp
+DVDFilter=DVD mappa|*.;*.iso|Minden fájl (*.*)|*.*
+BlurayFilter=Blu-ray mappa|*.;*.iso|Minden fájl (*.*)|*.*
+NoDVD=(Nincs betöltött DVD)
+DVDTitle=Cím %d
+GotoTime=Ugrás időpontra
+EnterTime=Adja meg az időpontot:
+Hours=Óra
+Minutes=Perc
+Seconds=Másodperc
+Current=Jelenlegi:
+HistoryTitle=Lejátszási előzmények
+HistoryItems=%d elem az előzményekben
+HistoryPlay=&Lejátszás
+HistoryRemove=&Eltávolítás az előzményekből
+HistoryClear=Összes előzmény &törlése
+HistoryOpenFolder=&Mappa megnyitása
+HistoryCopyPath=Útvonal &másolása
+ClearHistory=Előzmények törlése
+ClearHistoryConfirm=Biztosan törölni szeretné az összes előzményt?
+SleepTimerTitle=Elalvási időzítő
+SleepTimerDescription=Időzítő beállítása a lejátszás automatikus leállításához
+SleepTimerHours=Óra
+SleepTimerMinutes=Perc
+SleepTimerQuickSet=Gyors beállítás
+SleepTimerAction=Időzítő lejártakor
+SleepTimerStopPlayback=Lejátszás leállítása
+SleepTimerCloseApp=Alkalmazás bezárása
+SleepTimerShutdown=Számítógép leállítása
+SleepTimerStart=Időzítő indítása
+
+[Status]
+Ready=Kész
+Opening=Megnyitás...
+Playing=Lejátszás
+Paused=Szüneteltetve
+Stopped=Leállítva
+Error=Hiba
+Buffering=Pufferelés...
+Seeking=Keresés...
+Recording=Rögzítés
+
+[Message]
+SpeedFormat=Sebesség: %.2fx
+VolumeFormat=Hangerő: %d%%
+BrightnessFormat=Fényerő: %d
+ContrastFormat=Kontraszt: %d
+SaturationFormat=Telítettség: %d
+HueFormat=Árnyalat: %d
+GammaFormat=Gamma: %d
+ColorsReset=Videó színek visszaállítva
+LoopASet=A pont beállítva: %s
+LoopBSet=B pont beállítva: %s - Hurok aktív
+LoopCleared=A-B hurok törölve
+SetAFirst=Először állítsa be az A pontot (nyomja meg az L-t)
+RotationFormat=Forgatás: %d°
+FlipHOn=Vízszintes tükrözés: BE
+FlipHOff=Vízszintes tükrözés: KI
+FlipVOn=Függőleges tükrözés: BE
+FlipVOff=Függőleges tükrözés: KI
+DeinterlaceOn=Váltottsorosság megszüntetése: BE
+DeinterlaceOff=Váltottsorosság megszüntetése: KI
+AlwaysOnTopOn=Mindig felül: BE
+AlwaysOnTopOff=Mindig felül: KI
+WindowFitted=Ablak igazítva: %dx%d
+WindowScale=Ablak méretaránya: %.0f%%
+ScreenshotSaved=Képernyőkép mentve: %s
+AudioNormalizeOn=Hang normalizálás: BE
+AudioNormalizeOff=Hang normalizálás: KI
+AudioDelayFormat=Hang késleltetés: %.1f mp
+SubtitleDelayFormat=Felirat késleltetés: %.1f mp
+ZoomFormat=Nagyítás: %.0f%%
+PanCenter=Pásztázás: Közép
+PanFormat=Pásztázás: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Nincs betöltött videó
+PlayingFromClipboard=Lejátszás a vágólapról: %s
+ClipboardInvalid=A vágólap nem tartalmaz érvényes URL-t vagy útvonalat
+ClipboardEmpty=A vágólap üres vagy nem tartalmaz szöveget
+ResumedAt=Folytatva: %s
+FrameStepForward=Képkocka előre
+FrameStepBackward=Képkocka hátra
+PreviousChapter=Előző fejezet
+NextChapter=Következő fejezet
+PlayingRadio=Rádió lejátszása: %s
+PlayingDVD=DVD lejátszása: %s
+PlayingBluray=Blu-ray lejátszása: %s
+DVDTitlePlaying=DVD cím %d
+SeekTo=Ugrás: %s
+MinimizedToTray=Minimalizálva a tálcára. Dupla kattintás a visszaállításhoz.
+SleepTimerSet=Elalvási időzítő beállítva: %s
+SleepTimerCancelled=Elalvási időzítő törölve
+SleepTimerWarning=Elalvási időzítő: 1 perc van hátra
+SleepTimerFinal=Elalvási időzítő: 10 másodperc van hátra
+SleepTimerStopped=Elalvási időzítő: Lejátszás leállítva
+SleepTimerClosing=Elalvási időzítő: Alkalmazás bezárása
+SleepTimerShutdown=Elalvási időzítő: Számítógép leállítása
+SleepTimerExpired=Elalvási időzítő lejárt
+ShutdownManual=Kérjük, állítsa le a számítógépet manuálisan.
+
+; 21. fázis: Mappa megnyitása
+FolderOpened=Mappa megnyitva: %d fájl
+NoMediaFound=Nem találhatók médiafájlok
+FilesAdded=%d fájl hozzáadva a lejátszási listához
+
+; 27. fázis: Rögzítési üzenetek
+RecordNeedPlayback=Indítsa el a lejátszást a rögzítés előtt.
+RecordingStarted=Rögzítés elindítva
+RecordingStopped=Rögzítés leállítva
+
+; További állapotüzenetek
+EndOfPlaylist=Lejátszási lista vége
+NoMediaLoaded=Nincs betöltött médiafájl.
+JumpedToNamed=Ugrás: %s
+ChapterFormat=Fejezet %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Könyvjelző: %s
+
+[Label]
+Muted=Némítva
+
+[Button]
+Play=Lejátszás
+Pause=Szünet
+Stop=Megállítás
+Previous=Előző
+Next=Következő
+Mute=Némítás
+Unmute=Némítás feloldása
+Fullscreen=Teljes képernyő
+OK=OK
+Cancel=Mégse
+Apply=Alkalmaz
+Close=Bezárás
+Yes=Igen
+No=Nem
+
+[Tooltip]
+Play=Lejátszás/Szünet
+Stop=Lejátszás leállítása
+Previous=Előző szám
+Next=Következő szám
+Mute=Némítás be/ki
+Volume=Hangerő
+Seek=Keresési pozíció
+Fullscreen=Teljes képernyő be/ki
+
+[Playlist]
+Title=Lejátszási lista
+Add=Hozzáadás
+Remove=Eltávolítás
+Clear=Törlés
+MoveUp=Fel
+MoveDown=Le
+Shuffle=Keverés
+Repeat=Ismétlés
+Play=Lejátszás
+ShuffleOn=Keverés: Be
+ShuffleOff=Keverés: Ki
+RepeatOff=Ismétlés: Ki
+RepeatOne=Ismétlés: Egy
+RepeatAll=Ismétlés: Mind
+SavePlaylist=Mentés
+LoadPlaylist=Betöltés
+TotalDuration=Összesen: %s
+ItemCount=%d elem
+
+; 22. fázis: Lejátszási lista fejlesztések
+Search=Keresés:
+FilterPlaceholder=Lejátszási lista szűrése...
+ClearSearch=Törlés
+FilterCount=%d/%d
+RemoveDuplicates=&Duplikátumok eltávolítása
+Properties=&Tulajdonságok...
+NoDuplicates=Nincsenek duplikátumok.
+DuplicatesFound=%d duplikátum található. Eltávolítja?
+RemoveDuplicatesTitle=Duplikátumok eltávolítása
+PropertiesTitle=Lejátszási lista tulajdonságai
+PropTotalItems=Összes elem: %d
+PropTotalDuration=Teljes időtartam: %s
+PropPlayed=Lejátszott: %d
+PropUnplayed=Nem lejátszott: %d
+PropTotalSize=Teljes méret: %.2f MB
+PropShuffle=Keverés: %s
+PropRepeat=Ismétlés: %s
+On=Be
+Off=Ki
+
+; Új kulcsok az ApplyLocale-hoz
+ClearTitle=Lejátszási lista törlése
+ClearConfirm=Biztosan törölni szeretné a lejátszási listát?
+NoPlaylist=Nincs lejátszási lista
+StatusFormat=%d elem | Összesen: %s
+RepeatOne=Ism. 1
+RepeatAll=Ism. mind
+HintRepeatEnable=Kattintson az összes ismétlésének bekapcsolásához
+HintRepeatOne=Egy ismétlése - Kattintson a kikapcsoláshoz
+HintRepeatAll=Összes ismétlése - Kattintson az egy ismétléséhez
+HintShuffleRepeat=Keverés + Összes ismétlése - Kattintson az ismétlés kikapcsolásához
+RemoveDuplicatesTitle=Duplikátumok eltávolítása
+NoDuplicates=Nincsenek duplikátumok.
+SelectAll=Összes kijelölése
+SelectNone=Kijelölés megszüntetése
+SelectInvert=Kijelölés megfordítása
+Sort=Rendezés
+SortByName=Név szerint
+SortByTitle=Cím szerint
+SortByArtist=Előadó szerint
+SortByDuration=Időtartam szerint
+SortReverse=Megfordítás
+SortRandom=Véletlenszerű
+ColTitle=Cím
+ColDuration=Időtartam
+ColArtist=Előadó
+ColAlbum=Album
+PlaylistFilter=M3U lejátszási lista|*.m3u|M3U8 lejátszási lista|*.m3u8|PLS lejátszási lista|*.pls
+
+[Equalizer]
+Title=Hangszínszabályzó
+Presets=Előbeállítások:
+Preamp=Előerősítés:
+Flat=Lapos
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klasszikus
+BassBoost=Basszus kiemelés
+TrebleBoost=Magas kiemelés
+Vocal=Vokál
+Reset=Visszaállítás
+Enable=Hangszínszabályzó engedélyezése
+Save=Mentés
+Delete=Törlés
+Ready=Kész
+; Gombok és műveletek
+SavePreset=Előbeállítás mentése
+DeletePreset=Előbeállítás törlése
+SavePresetTitle=Előbeállítás mentése
+PresetNamePrompt=Előbeállítás neve:
+EnterPresetName=Kérjük, adjon meg egy előbeállítás nevet.
+OverwritePresetTitle=Előbeállítás felülírása
+OverwritePresetConfirm=Ilyen nevű előbeállítás már létezik. Felülírja?
+PresetUpdated=Előbeállítás frissítve: %s
+PresetSaved=Előbeállítás mentve: %s
+SelectPresetToDelete=Kérjük, válasszon egy előbeállítást a törléshez.
+CannotDeleteDefault=Az alapértelmezett előbeállítások nem törölhetők.
+DeletePresetTitle=Előbeállítás törlése
+DeletePresetConfirm=Biztosan törölni szeretné ezt az előbeállítást?
+PresetDeleted=Előbeállítás törölve
+ResetToFlat=Hangszínszabályzó visszaállítva laposra
+PresetApplied=Előbeállítás alkalmazva: %s
+
+[Options]
+Title=Beállítások
+General=Általános
+Video=Videó
+Audio=Hang
+Subtitles=Feliratok
+Cache=Gyorsítótár
+Language=Nyelv:
+RestartRequired=A változtatások érvényesítéséhez újraindítás szükséges
+
+; Általános fül - Viselkedés
+Behavior=Viselkedés
+SingleInstance=Csak egy példány engedélyezése
+AutoPlay=Automatikus lejátszás megnyitáskor
+AutoResume=Lejátszási pozíció folytatása
+MinimizeToTray=Minimalizálás a rendszertálcára
+AutoSavePlaylist=Lejátszási lista mentése kilépéskor
+
+; Általános fül - OSD
+OSD=Képernyőn megjelenő üzenetek
+ShowOSD=Képernyőn megjelenő üzenetek mutatása
+ShowTrayIcon=Tálcaikon megjelenítése
+OSDDuration=OSD időtartam (ms):
+
+; Általános fül - Képernyőképek
+Screenshots=Képernyőképek
+ScreenshotPath=Mentési mappa:
+ScreenshotFormat=Formátum:
+
+; Általános fül - Előzmények
+HistorySettings=Előzmények
+HistoryEnabled=Lejátszási előzmények engedélyezése
+HistoryMaxItems=Max. elemek:
+
+; Általános fül - Nyelv
+LanguageGroup=Nyelv
+RestartNote=(Újraindítás szükséges a változtatásokhoz)
+
+; Videó fül
+VideoAdjust=Videó beállítások
+Brightness=Fényerő:
+Contrast=Kontraszt:
+Saturation=Telítettség:
+Hue=Árnyalat:
+Gamma=Gamma:
+VideoOutput=Videó kimenet
+Output=Kimenet:
+HWAccel=Hardveres gyorsítás engedélyezése
+Deinterlacing=Váltottsorosság megszüntetése
+Mode=Mód:
+
+; Hang fül
+AudioOutput=Hang kimenet
+OutputDriver=Kimeneti meghajtó:
+Device=Eszköz:
+AudioOptions=Hang beállítások
+NormalizeAudio=Hang hangerő normalizálása
+Channels=Csatornák:
+
+; Feliratok fül
+UseDefaultSubtitles=Alapértelmezett feliratbeállítások használata
+Font=Betűtípus
+FontName=Betűtípus:
+FontSize=Méret:
+FontColor=Szín:
+Bold=Félkövér
+Italic=Dőlt
+Outline=Körvonal
+OutlineColor=Szín:
+OutlineSize=Méret:
+Position=Pozíció
+VerticalPosition=Függőleges pozíció:
+SubOptions=Beállítások
+Encoding=Kódolás:
+AutoLoadSubs=Felirattfájlok automatikus betöltése
+
+; Videó kimenet figyelmeztetések
+VOWarningX11=Figyelmeztetés: Az x11 nem támogatja a videó beállításokat (fényerő, kontraszt stb.)
+VOWarningWayland=Figyelmeztetés: Wayland munkamenet szükséges. Videó beállítások támogatottak.
+
+; Gyorsítótár fül
+CacheSettings=Gyorsítótár puffer méretek (KB)
+CacheDefault=Alapértelmezett gyorsítótár:
+CacheLocal=Helyi fájlok:
+CacheNetwork=Hálózati fájlok:
+CacheInternet=Internetes adatfolyamok:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Névjegy
+Version=Verzió
+Engine=Motor
+Technology=Technológia
+BuildInfo=Build információ
+SystemInfo=Rendszer
+Credits=Közreműködők
+Developer=Fejlesztő:
+Author=Szerző
+License=Licenc
+Website=Weboldal
+GitHub=GitHub
+Description=Modern, könnyű médialejátszó
+LicenseText=A 3nity Media a GPL-2.0 licenc alatt áll\n\nEz azt jelenti, hogy szabadon:\n  • Bármilyen célra használhatja a szoftvert\n  • Tanulmányozhatja és módosíthatja a forráskódot\n  • Terjesztheti a szoftver másolatait\n  • Terjesztheti a módosításait\n\nAzzal a feltétellel, hogy a terjesztett módosítások\nszintén GPL-2.0 licenc alatt állnak.
+BuildDate=Dátum:
+Target=Cél:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Gyorsbillentyűk
+Description=Gyorsbillentyűk beállítása műveletekhez
+Search=Keresés:
+PressKey=Nyomjon meg egy billentyűt...
+ColCategory=Kategória
+ColAction=Művelet
+ColShortcut=Gyorsbillentyű
+Assign=Hozzárendelés
+Clear=Törlés
+Reset=Visszaállítás
+ResetAll=Összes visszaállítása
+CurrentShortcut=Jelenlegi: %s
+NoKeyPressed=Először nyomjon meg egy billentyűkombinációt.
+Conflict=Ütközés: Már hozzárendelve ehhez: "%s"
+ConfirmReplace=Gyorsbillentyű cseréje
+ReplaceMessage=Ez a gyorsbillentyű már hozzá van rendelve ehhez: "%s". Cseréli?
+ConfirmResetAll=Összes gyorsbillentyű visszaállítása
+ResetAllMessage=Biztosan visszaállítja az összes gyorsbillentyűt az alapértelmezett értékekre?
+; Művelet nevek
+ActPlayPause=Lejátszás / Szünet
+ActStop=Megállítás
+ActPrevious=Előző
+ActNext=Következő
+ActSeekForward=Előre tekerés (10mp)
+ActSeekBackward=Hátra tekerés (10mp)
+ActSeekForward5=Előre tekerés (1 perc)
+ActSeekBackward5=Hátra tekerés (1 perc)
+ActSpeedUp=Sebesség növelése
+ActSpeedDown=Sebesség csökkentése
+ActSpeedReset=Sebesség visszaállítása
+ActSetLoopA=A hurokpont beállítása
+ActSetLoopB=B hurokpont beállítása
+ActClearLoop=A-B hurok törlése
+ActFrameForward=Képkocka előre
+ActFrameBackward=Képkocka hátra
+ActPrevChapter=Előző fejezet
+ActNextChapter=Következő fejezet
+ActGotoTime=Ugrás időpontra
+ActVolumeUp=Hangerő növelése
+ActVolumeDown=Hangerő csökkentése
+ActMute=Némítás / Némítás feloldása
+ActAudioDelayPlus=Hang késleltetés +
+ActAudioDelayMinus=Hang késleltetés -
+ActAudioDelayReset=Hang késleltetés visszaállítása
+ActFullscreen=Teljes képernyő
+ActRotate=Videó forgatása
+ActDeinterlace=Váltottsorosság megszüntetése
+ActZoomIn=Nagyítás
+ActZoomOut=Kicsinyítés
+ActZoomReset=Nagyítás visszaállítása
+ActAlwaysOnTop=Mindig felül
+ActFitToVideo=Igazítás a videóhoz
+ActScreenshot=Képernyőkép
+ActVideoAdjust=Videó beállítások
+ActVisNextMode=Következő vizualizációs mód
+ActVisNextColor=Következő színséma
+ActSubDelayPlus=Felirat késleltetés +
+ActSubDelayMinus=Felirat késleltetés -
+ActSubDelayReset=Felirat késleltetés visszaállítása
+ActDVDMenu=DVD menü
+ActDVDUp=DVD navigáció fel
+ActDVDDown=DVD navigáció le
+ActDVDLeft=DVD navigáció balra
+ActDVDRight=DVD navigáció jobbra
+ActDVDSelect=DVD kiválasztás
+ActOpenFile=Fájl megnyitása
+ActOpenURL=URL megnyitása
+ActPlaylist=Lejátszási lista megjelenítése
+ActQuit=Kilépés
+
+[Log]
+; 25. fázis: Napló ablak
+Title=MPV napló
+Command=Parancs:
+Clear=Törlés
+Save=Mentés...
+Copy=&Másolás
+SelectAll=Összes ki&jelölése
+SaveTitle=Napló mentése
+SaveFilter=Szöveges fájlok (*.txt)|*.txt|Minden fájl (*.*)|*.*
+ErrorTitle=Hiba
+SaveError=Nem sikerült menteni a naplót: %s
+
+[MediaInfo]
+Title=Média információ
+FileTab=Fájl
+VideoTab=Videó
+AudioTab=Hang
+MetadataTab=Metaadatok
+FileName=Fájlnév:
+FilePath=Útvonal:
+FileSize=Méret:
+Duration=Időtartam:
+Format=Formátum:
+Bitrate=Bitráta:
+Codec=Kodek:
+Resolution=Felbontás:
+FrameRate=Képkockasebesség:
+PixelFormat=Pixelformátum:
+AspectRatio=Képarány:
+Channels=Csatornák:
+SampleRate=Mintavételi sebesség:
+Language=Nyelv:
+Property=Tulajdonság
+Value=Érték
+CopyAll=Összes másolása
+CopiedToClipboard=A média információ másolva a vágólapra.
+NA=N/A
+NAStream=N/A (adatfolyam)
+NALive=N/A (élő)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Sztereó)
+Channel51=6 (5.1 térhangzás)
+Channel71=8 (7.1 térhangzás)
+Unknown=Ismeretlen
+NoMetadata=(Nincsenek metaadatok)
+
+[Bookmarks]
+Title=Könyvjelzők
+Goto=Ugrás
+Remove=Eltávolítás
+Clear=Összes törlése
+Refresh=Frissítés
+OpenFolder=Mappa megnyitása
+CopyPath=Útvonal másolása
+; Oszlopok
+ColName=Név
+ColFile=Fájl
+ColPosition=Pozíció
+ColCreated=Létrehozva
+; Párbeszédablakok
+ClearTitle=Könyvjelzők törlése
+ClearConfirm=Biztosan törölni szeretné az összes könyvjelzőt?
+Count=%d könyvjelző
+
+[Favorites]
+Title=Kedvencek
+Play=Lejátszás
+Remove=Eltávolítás
+Clear=Összes törlése
+Refresh=Frissítés
+OpenFolder=Mappa megnyitása
+CopyPath=Útvonal másolása
+; Oszlopok
+ColName=Név
+ColType=Típus
+ColPath=Útvonal
+; Típusok
+TypeFile=Fájl
+TypeURL=URL
+TypeRadio=Rádió
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Ismeretlen
+; Párbeszédablakok
+ClearTitle=Kedvencek törlése
+ClearConfirm=Biztosan törölni szeretné az összes kedvencet?
+Count=%d kedvenc
+
+[History]
+Title=Lejátszási előzmények
+Play=Lejátszás
+Remove=Eltávolítás
+Clear=Összes törlése
+Refresh=Frissítés
+OpenFolder=Mappa megnyitása
+CopyPath=Útvonal másolása
+; Oszlopok
+ColFileName=Fájl
+ColPath=Útvonal
+; Párbeszédablakok
+ClearTitle=Előzmények törlése
+ClearConfirm=Biztosan törölni szeretné az összes előzményt?
+Count=%d elem
+
+[SleepTimer]
+Title=Elalvási időzítő
+Description=Időzítő beállítása a lejátszás automatikus leállításához
+Hours=Óra:
+Minutes=Perc:
+Action=Időzítő lejártakor:
+StopPlayback=Lejátszás leállítása
+CloseApp=Alkalmazás bezárása
+Shutdown=Számítógép leállítása
+QuickSet=Gyors beállítás:
+15Min=15 perc
+30Min=30 perc
+1Hour=1 óra
+2Hours=2 óra
+
+[Radios]
+Title=Internetes rádiók
+Play=Lejátszás
+Add=Hozzáadás
+Edit=Szerkesztés
+Delete=Törlés
+Remove=Eltávolítás
+Import=Importálás
+Export=Exportálás
+Refresh=Frissítés
+Favorite=Kedvenc
+ShowFavorites=Kedvencek
+ShowAll=Összes
+; Szűrő
+Genre=Műfaj:
+Search=Keresés:
+SearchBtn=Keresés
+ClearSearch=Törlés
+AllGenres=(Összes műfaj)
+; Helyi menü
+AddFavorite=Hozzáadás a kedvencekhez
+RemoveFavorite=Eltávolítás a kedvencekből
+AddCustom=Egyéni állomás hozzáadása...
+EditCustom=Állomás szerkesztése...
+DeleteCustom=Állomás törlése
+OpenWebsite=Weboldal megnyitása
+CopyURL=URL másolása
+; Oszlopok
+ColName=Név
+ColGenre=Műfaj
+ColBitrate=Bitráta
+ColCountry=Ország
+ColCodec=Kodek
+; Párbeszédablakok
+AddTitle=Egyéni állomás hozzáadása
+EditTitle=Állomás szerkesztése
+DeleteTitle=Állomás törlése
+DeleteConfirm=Biztosan törölni szeretné ezt az állomást?
+StationName=Állomás neve:
+StreamURL=Adatfolyam URL:
+GenrePrompt=Műfaj:
+NameURLRequired=A név és az URL megadása kötelező.
+; Állapotüzenetek
+LoadingIcecast=Állomások betöltése az Icecast könyvtárból...
+IcecastError=Nem sikerült betölteni az Icecast könyvtárat. Alapértelmezett állomások használata.
+NoStationsLoaded=Nincsenek betöltött állomások
+StationCount=%d állomás
+LoadedStations=%d állomás betöltve
+ErrorPrefix=Hiba:
+; Régi kulcsok
+Name=Név
+URL=URL
+Bitrate=Bitráta
+Description=Leírás
+Country=Ország
+
+[OpenURL]
+Title=URL megnyitása
+Prompt=Adja meg a média URL-t:
+
+[GotoTime]
+Title=Ugrás időpontra
+EnterTime=Adja meg az időpontot:
+Hours=Ó
+Minutes=P
+Seconds=Mp
+Current=Jelenlegi:
+Duration=Időtartam:
+
+[VideoAdjust]
+Title=Videó beállítások
+Brightness=Fényerő:
+Contrast=Kontraszt:
+Saturation=Telítettség:
+Hue=Árnyalat:
+Gamma=Gamma:
+ResetAll=Összes szín visszaállítása
+
+[CLI]
+; Parancssori üzenetek
+Usage=Használat
+Arguments=[OPCIÓK] [FÁJL|URL|MAPPA]
+Description=Platformfüggetlen multimédia lejátszó libmpv motorral.
+Options=OPCIÓK
+Examples=PÉLDÁK
+MoreInfo=További információért látogassa meg
+EnqueuedTo=Hozzáadva a meglévő példány várólistájához: %s
+SentTo=Elküldve a meglévő példánynak: %s
+AlreadyRunning=A 3nity Media már fut.
+ErrorFileNotFound=Hiba: A fájl vagy könyvtár nem található: %s
+ErrorSubNotFound=Hiba: A feliratfájl nem található: %s

@@ -1,0 +1,892 @@
+[Language]
+Name=Persian - فارسی
+Code=fa
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; منوی فایل
+File=&فایل
+FileOpen=&باز کردن فایل...
+FileOpenURL=باز کردن &URL...
+FileOpenClipboard=باز کردن از &کلیپ‌بورد
+FileRecent=فایل‌های &اخیر
+ClearRecentFiles=پاک کردن فایل‌های اخیر
+FileExit=&خروج
+
+; منوی پخش
+Playback=&پخش
+PlaybackPlayPause=&پخش/مکث
+PlaybackStop=&توقف
+PlaybackPrevious=&قبلی
+PlaybackNext=&بعدی
+PlaybackSeekForward=جستجو به &جلو
+PlaybackSeekBackward=جستجو به &عقب
+PlaybackSpeed=&سرعت
+PlaybackABLoop=حلقه &A-B
+PlaybackSetA=تنظیم &A
+PlaybackSetB=تنظیم &B
+PlaybackClearAB=&پاک کردن A-B
+PlaybackChapters=&فصل‌ها
+PlaybackPrevChapter=فصل قبلی
+PlaybackNextChapter=فصل بعدی
+PlaybackFrameStep=گام فریم به &جلو
+PlaybackFrameBack=گام فریم به &عقب
+
+; ناوبری DVD
+PlaybackDVD=&ناوبری DVD
+DVDMenu=&منو
+DVDUp=&بالا
+DVDDown=&پایین
+DVDLeft=&چپ
+DVDRight=&راست
+DVDSelect=&انتخاب
+PlaybackDVDTitles=&عناوین DVD
+
+; فاز ۲۱: باز کردن پوشه
+FileOpenFolder=باز کردن پ&وشه...
+
+; منوی فایل DVD/Bluray
+FileOpenDVD=باز کردن &DVD...
+FileOpenBluray=باز کردن &Blu-ray...
+
+; فاز ۱۳: رفتن به زمان و تاریخچه
+PlaybackGotoTime=&رفتن به زمان...
+ToolsHistory=&تاریخچه
+
+; فاز ۱۴: سینی سیستم
+TrayShow=&نمایش/مخفی
+TrayPlayPause=&پخش/مکث
+TrayStop=&توقف
+TrayPrevious=&قبلی
+TrayNext=&بعدی
+TrayMute=&بی‌صدا
+TrayExit=&خروج
+
+; فاز ۱۵: نشانک‌ها
+PlaybackAddBookmark=افزودن &نشانک...
+PlaybackBookmarks=نشان&ک‌ها
+BookmarksTitle=نشانک‌ها
+BookmarksGoto=&رفتن به نشانک
+BookmarksRemove=&حذف نشانک
+BookmarksClear=&پاک کردن همه نشانک‌ها
+BookmarksOpenFolder=باز کردن &پوشه
+BookmarksCopyPath=&کپی مسیر
+BookmarksCount=%d نشانک
+NoBookmarks=(بدون نشانک)
+NoFileLoaded=(فایلی بارگذاری نشده)
+BookmarkAdded=نشانک در %s اضافه شد
+BookmarkJumped=پرش به نشانک در %s
+AddBookmarkTitle=افزودن نشانک
+AddBookmarkPrompt=نام نشانک را وارد کنید:
+ShowAllBookmarks=نمایش همه نشانک‌ها...
+
+; فاز ۱۶: علاقه‌مندی‌ها
+ToolsFavorites=&علاقه‌مندی‌ها
+ToolsAddFavorite=افزودن به علاقه‌مندی‌&ها
+FavoritesTitle=علاقه‌مندی‌ها
+FavoritesPlay=&پخش
+FavoritesRemove=&حذف از علاقه‌مندی‌ها
+FavoritesClear=&پاک کردن همه علاقه‌مندی‌ها
+FavoritesOpenFolder=باز کردن &پوشه
+FavoritesCopyPath=&کپی مسیر
+FavoritesCount=%d علاقه‌مندی
+NoFavorites=(بدون علاقه‌مندی)
+AddFavoriteTitle=افزودن به علاقه‌مندی‌ها
+AddFavoritePrompt=نام علاقه‌مندی را وارد کنید:
+AlreadyFavorite=قبلاً در علاقه‌مندی‌ها است
+AddedToFavorites=به علاقه‌مندی‌ها اضافه شد: %s
+NoFileToFavorite=فایلی برای افزودن به علاقه‌مندی‌ها بارگذاری نشده
+FavoriteTypeFile=فایل
+FavoriteTypeURL=URL
+FavoriteTypeRadio=رادیو
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; رشته‌های قالب تراک
+TrackWithTitle=تراک %d: %s
+TrackWithLang=تراک %d (%s)
+TrackNumber=تراک %d
+
+; آیتم‌های منوی سرعت
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; آیتم‌های منوی مقیاس
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; تراک زیرنویس
+SubtitleDisable=غیرفعال
+
+; فاز ۱۷: تایمر خواب
+ToolsSleepTimer=&تایمر خواب...
+ToolsSleepTimerActive=&تایمر خواب [%s]
+ToolsCancelTimer=لغو &تایمر
+
+; منوی صدا
+Audio=&صدا
+AudioTrack=&تراک صدا
+AudioVolumeUp=افزایش &صدا
+AudioVolumeDown=کاهش &صدا
+AudioMute=&بی‌صدا
+AudioEqualizer=&اکولایزر
+AudioDelay=&تأخیر صدا
+AudioDelayPlus=تأخیر +0.1ث
+AudioDelayMinus=تأخیر -0.1ث
+AudioDelayReset=بازنشانی تأخیر
+AudioNormalize=&نرمال‌سازی صدا
+
+; منوی ویدیو
+Video=&ویدیو
+VideoFullscreen=&تمام‌صفحه
+VideoAspect=&نسبت تصویر
+VideoAspectAuto=&خودکار
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&عکس صفحه
+VideoScreenshotAs=عکس صفحه &با نام...
+VideoRotation=&چرخش
+VideoRotate0=&0° (عادی)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&وارونه
+VideoFlipH=وارونه &افقی
+VideoFlipV=وارونه &عمودی
+VideoDeinterlace=&حذف درهم‌بافت
+VideoZoom=&بزرگنمایی
+VideoZoomIn=بزرگنمایی &بیشتر
+VideoZoomOut=بزرگنمایی &کمتر
+VideoZoomReset=&بازنشانی بزرگنمایی
+VideoPan=&جابجایی
+VideoPanLeft=جابجایی به &چپ
+VideoPanRight=جابجایی به &راست
+VideoPanUp=جابجایی به &بالا
+VideoPanDown=جابجایی به &پایین
+VideoPanReset=با&زنشانی جابجایی
+VideoTrack=&تراک ویدیو
+VideoColors=تنظیمات &رنگ
+VideoBrightness=&روشنایی
+VideoContrast=&کنتراست
+VideoSaturation=&اشباع
+VideoHue=&فام
+VideoGamma=&گاما
+VideoColorsReset=بازنشانی &همه رنگ‌ها
+VideoIncrease=افزایش (+5)
+VideoDecrease=کاهش (-5)
+VideoReset=بازنشانی
+VideoAdjustDialog=&تنظیمات ویدیو...
+
+; منوی نما
+View=&نما
+ViewAlwaysOnTop=&همیشه در بالا
+ViewFitToVideo=&تناسب پنجره با ویدیو
+ViewScale=&مقیاس پنجره
+
+; فاز ۲۶: منوی تجسم
+ViewVisualization=&تجسم
+VisNone=&هیچ
+VisSpectrum=تحلیلگر &طیف
+VisWaveform=&موج
+VisVector=&نمایشگر برداری
+VisVolume=&سنجشگر صدا
+VisNextMode=&حالت بعدی
+VisNextColor=طرح &رنگ بعدی
+
+; منوی زیرنویس
+Subtitles=&زیرنویس
+SubtitleTrack=&تراک زیرنویس
+SubtitleLoad=&بارگذاری زیرنویس...
+SubtitleDelay=&تأخیر زیرنویس
+SubtitleDelayPlus=تأخیر +0.1ث
+SubtitleDelayMinus=تأخیر -0.1ث
+SubtitleDelayReset=بازنشانی تأخیر
+
+; منوی ابزارها
+Tools=&ابزارها
+ToolsPlaylist=&لیست پخش
+ToolsRadios=&رادیوها
+ToolsShortcuts=&میانبرهای صفحه‌کلید...
+ToolsOptions=&تنظیمات
+
+; فاز ۲۷: منوی ضبط
+ToolsRecord=&ضبط جریان...
+ToolsStopRecord=&توقف ضبط
+ToolsRecording=&ضبط...
+
+; منوی راهنما
+Help=&راهنما
+HelpMediaInfo=&اطلاعات رسانه
+HelpLog=&پنجره گزارش
+HelpAbout=&درباره
+
+[Dialog]
+OpenFile=باز کردن فایل
+OpenURL=باز کردن URL
+SaveScreenshot=ذخیره عکس صفحه
+LoadSubtitle=بارگذاری فایل زیرنویس
+EnterURL=URL را وارد کنید:
+ResumePlayback=ادامه پخش
+ResumeFrom=ادامه از %s؟
+ClearRecentFiles=پاک کردن فایل‌های اخیر
+NoRecentFiles=(بدون فایل اخیر)
+NoAudioTracks=(بدون تراک صوتی)
+NoVideoTracks=(بدون تراک ویدیویی)
+NoSubtitleTracks=(بدون تراک زیرنویس)
+NoChapters=(بدون فصل)
+OpenDVD=باز کردن DVD
+OpenBluray=باز کردن Blu-ray
+OpenFolder=باز کردن پوشه
+
+; فیلترهای فایل
+ScreenshotFilter=تصویر PNG|*.png|تصویر JPEG|*.jpg|تصویر WebP|*.webp
+DVDFilter=پوشه DVD|*.;*.iso|همه فایل‌ها (*.*)|*.*
+BlurayFilter=پوشه Blu-ray|*.;*.iso|همه فایل‌ها (*.*)|*.*
+NoDVD=(DVD بارگذاری نشده)
+DVDTitle=عنوان %d
+GotoTime=رفتن به زمان
+EnterTime=زمان مورد نظر را وارد کنید:
+Hours=ساعت
+Minutes=دقیقه
+Seconds=ثانیه
+Current=فعلی:
+HistoryTitle=تاریخچه پخش
+HistoryItems=%d مورد در تاریخچه
+HistoryPlay=&پخش
+HistoryRemove=&حذف از تاریخچه
+HistoryClear=&پاک کردن همه تاریخچه
+HistoryOpenFolder=باز کردن &پوشه
+HistoryCopyPath=&کپی مسیر
+ClearHistory=پاک کردن تاریخچه
+ClearHistoryConfirm=آیا مطمئن هستید که می‌خواهید همه تاریخچه را پاک کنید؟
+SleepTimerTitle=تایمر خواب
+SleepTimerDescription=تنظیم تایمر برای توقف خودکار پخش
+SleepTimerHours=ساعت
+SleepTimerMinutes=دقیقه
+SleepTimerQuickSet=تنظیم سریع
+SleepTimerAction=هنگام اتمام تایمر
+SleepTimerStopPlayback=توقف پخش
+SleepTimerCloseApp=بستن برنامه
+SleepTimerShutdown=خاموش کردن رایانه
+SleepTimerStart=شروع تایمر
+
+[Status]
+Ready=آماده
+Opening=در حال باز کردن...
+Playing=در حال پخش
+Paused=متوقف شده
+Stopped=متوقف
+Error=خطا
+Buffering=در حال بافر...
+Seeking=در حال جستجو...
+Recording=در حال ضبط
+
+[Message]
+SpeedFormat=سرعت: %.2fx
+VolumeFormat=صدا: %d%%
+BrightnessFormat=روشنایی: %d
+ContrastFormat=کنتراست: %d
+SaturationFormat=اشباع: %d
+HueFormat=فام: %d
+GammaFormat=گاما: %d
+ColorsReset=رنگ‌های ویدیو بازنشانی شد
+LoopASet=نقطه A حلقه در %s تنظیم شد
+LoopBSet=نقطه B حلقه در %s تنظیم شد - حلقه فعال
+LoopCleared=حلقه A-B پاک شد
+SetAFirst=ابتدا نقطه A را تنظیم کنید (L را فشار دهید)
+RotationFormat=چرخش: %d°
+FlipHOn=وارونگی افقی: روشن
+FlipHOff=وارونگی افقی: خاموش
+FlipVOn=وارونگی عمودی: روشن
+FlipVOff=وارونگی عمودی: خاموش
+DeinterlaceOn=حذف درهم‌بافت: روشن
+DeinterlaceOff=حذف درهم‌بافت: خاموش
+AlwaysOnTopOn=همیشه در بالا: روشن
+AlwaysOnTopOff=همیشه در بالا: خاموش
+WindowFitted=پنجره تنظیم شد به %dx%d
+WindowScale=مقیاس پنجره: %.0f%%
+ScreenshotSaved=عکس صفحه ذخیره شد: %s
+AudioNormalizeOn=نرمال‌سازی صدا: روشن
+AudioNormalizeOff=نرمال‌سازی صدا: خاموش
+AudioDelayFormat=تأخیر صدا: %.1f ث
+SubtitleDelayFormat=تأخیر زیرنویس: %.1f ث
+ZoomFormat=بزرگنمایی: %.0f%%
+PanCenter=جابجایی: مرکز
+PanFormat=جابجایی: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=ویدیویی بارگذاری نشده
+PlayingFromClipboard=پخش از کلیپ‌بورد: %s
+ClipboardInvalid=کلیپ‌بورد حاوی URL یا مسیر معتبر نیست
+ClipboardEmpty=کلیپ‌بورد خالی است یا حاوی متن نیست
+ResumedAt=ادامه از %s
+FrameStepForward=گام فریم به جلو
+FrameStepBackward=گام فریم به عقب
+PreviousChapter=فصل قبلی
+NextChapter=فصل بعدی
+PlayingRadio=پخش رادیو: %s
+PlayingDVD=پخش DVD: %s
+PlayingBluray=پخش Blu-ray: %s
+DVDTitlePlaying=عنوان DVD %d
+SeekTo=جستجو به %s
+MinimizedToTray=کوچک شده به سینی. برای بازگردانی دوبار کلیک کنید.
+SleepTimerSet=تایمر خواب تنظیم شد: %s
+SleepTimerCancelled=تایمر خواب لغو شد
+SleepTimerWarning=تایمر خواب: ۱ دقیقه باقی مانده
+SleepTimerFinal=تایمر خواب: ۱۰ ثانیه باقی مانده
+SleepTimerStopped=تایمر خواب: پخش متوقف شد
+SleepTimerClosing=تایمر خواب: بستن برنامه
+SleepTimerShutdown=تایمر خواب: خاموش کردن رایانه
+SleepTimerExpired=تایمر خواب به پایان رسید
+ShutdownManual=لطفاً رایانه خود را به صورت دستی خاموش کنید.
+
+; فاز ۲۱: باز کردن پوشه
+FolderOpened=پوشه باز شد: %d فایل
+NoMediaFound=فایل رسانه‌ای یافت نشد
+FilesAdded=%d فایل به لیست پخش اضافه شد
+
+; فاز ۲۷: پیام‌های ضبط
+RecordNeedPlayback=قبل از ضبط پخش را شروع کنید.
+RecordingStarted=ضبط شروع شد
+RecordingStopped=ضبط متوقف شد
+
+; پیام‌های وضعیت اضافی
+EndOfPlaylist=پایان لیست پخش
+NoMediaLoaded=هیچ فایل رسانه‌ای بارگذاری نشده.
+JumpedToNamed=پرش به: %s
+ChapterFormat=فصل %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=نشانک در %s
+
+[Label]
+Muted=بی‌صدا
+
+[Button]
+Play=پخش
+Pause=مکث
+Stop=توقف
+Previous=قبلی
+Next=بعدی
+Mute=بی‌صدا
+Unmute=صدادار
+Fullscreen=تمام‌صفحه
+OK=تأیید
+Cancel=لغو
+Apply=اعمال
+Close=بستن
+Yes=بله
+No=خیر
+
+[Tooltip]
+Play=پخش/مکث
+Stop=توقف پخش
+Previous=تراک قبلی
+Next=تراک بعدی
+Mute=تغییر بی‌صدا
+Volume=صدا
+Seek=موقعیت جستجو
+Fullscreen=تغییر تمام‌صفحه
+
+[Playlist]
+Title=لیست پخش
+Add=افزودن
+Remove=حذف
+Clear=پاک کردن
+MoveUp=انتقال به بالا
+MoveDown=انتقال به پایین
+Shuffle=درهم
+Repeat=تکرار
+Play=پخش
+ShuffleOn=درهم: روشن
+ShuffleOff=درهم: خاموش
+RepeatOff=تکرار: خاموش
+RepeatOne=تکرار: یکی
+RepeatAll=تکرار: همه
+SavePlaylist=ذخیره
+LoadPlaylist=بارگذاری
+TotalDuration=کل: %s
+ItemCount=%d مورد
+
+; فاز ۲۲: بهبودهای لیست پخش
+Search=جستجو:
+FilterPlaceholder=فیلتر لیست پخش...
+ClearSearch=پاک کردن
+FilterCount=%d/%d
+RemoveDuplicates=حذف &تکراری‌ها
+Properties=&ویژگی‌ها...
+NoDuplicates=موردی تکراری یافت نشد.
+DuplicatesFound=%d مورد تکراری یافت شد. آیا حذف شوند؟
+RemoveDuplicatesTitle=حذف تکراری‌ها
+PropertiesTitle=ویژگی‌های لیست پخش
+PropTotalItems=تعداد کل موارد: %d
+PropTotalDuration=مدت زمان کل: %s
+PropPlayed=پخش شده: %d
+PropUnplayed=پخش نشده: %d
+PropTotalSize=حجم کل: %.2f مگابایت
+PropShuffle=درهم: %s
+PropRepeat=تکرار: %s
+On=روشن
+Off=خاموش
+
+; کلیدهای جدید برای ApplyLocale
+ClearTitle=پاک کردن لیست پخش
+ClearConfirm=آیا مطمئن هستید که می‌خواهید لیست پخش را پاک کنید؟
+NoPlaylist=بدون لیست پخش
+StatusFormat=%d مورد | کل: %s
+RepeatOne=تکرار ۱
+RepeatAll=تکرار همه
+HintRepeatEnable=برای فعال کردن تکرار همه کلیک کنید
+HintRepeatOne=تکرار یکی - برای غیرفعال کردن کلیک کنید
+HintRepeatAll=تکرار همه - برای تکرار یکی کلیک کنید
+HintShuffleRepeat=درهم + تکرار همه - برای غیرفعال کردن تکرار کلیک کنید
+RemoveDuplicatesTitle=حذف تکراری‌ها
+NoDuplicates=موردی تکراری یافت نشد.
+SelectAll=انتخاب همه
+SelectNone=لغو انتخاب
+SelectInvert=معکوس کردن انتخاب
+Sort=مرتب‌سازی
+SortByName=بر اساس نام
+SortByTitle=بر اساس عنوان
+SortByArtist=بر اساس هنرمند
+SortByDuration=بر اساس مدت زمان
+SortReverse=معکوس
+SortRandom=تصادفی
+ColTitle=عنوان
+ColDuration=مدت زمان
+ColArtist=هنرمند
+ColAlbum=آلبوم
+PlaylistFilter=لیست پخش M3U|*.m3u|لیست پخش M3U8|*.m3u8|لیست پخش PLS|*.pls
+
+[Equalizer]
+Title=اکولایزر
+Presets=پیش‌تنظیم‌ها:
+Preamp=پیش‌تقویت:
+Flat=صاف
+Rock=راک
+Pop=پاپ
+Jazz=جز
+Classical=کلاسیک
+BassBoost=تقویت باس
+TrebleBoost=تقویت تربل
+Vocal=صدای خواننده
+Reset=بازنشانی
+Enable=فعال کردن اکولایزر
+Save=ذخیره
+Delete=حذف
+Ready=آماده
+; دکمه‌ها و اقدامات
+SavePreset=ذخیره پیش‌تنظیم
+DeletePreset=حذف پیش‌تنظیم
+SavePresetTitle=ذخیره پیش‌تنظیم
+PresetNamePrompt=نام پیش‌تنظیم:
+EnterPresetName=لطفاً نام پیش‌تنظیم را وارد کنید.
+OverwritePresetTitle=بازنویسی پیش‌تنظیم
+OverwritePresetConfirm=پیش‌تنظیمی با این نام وجود دارد. آیا بازنویسی شود؟
+PresetUpdated=پیش‌تنظیم به‌روزرسانی شد: %s
+PresetSaved=پیش‌تنظیم ذخیره شد: %s
+SelectPresetToDelete=لطفاً پیش‌تنظیمی برای حذف انتخاب کنید.
+CannotDeleteDefault=پیش‌تنظیم‌های پیش‌فرض قابل حذف نیستند.
+DeletePresetTitle=حذف پیش‌تنظیم
+DeletePresetConfirm=آیا مطمئن هستید که می‌خواهید این پیش‌تنظیم را حذف کنید؟
+PresetDeleted=پیش‌تنظیم حذف شد
+ResetToFlat=اکولایزر به صاف بازنشانی شد
+PresetApplied=پیش‌تنظیم اعمال شد: %s
+
+[Options]
+Title=تنظیمات
+General=عمومی
+Video=ویدیو
+Audio=صدا
+Subtitles=زیرنویس
+Cache=کش
+Language=زبان:
+RestartRequired=برای اعمال تغییرات نیاز به راه‌اندازی مجدد است
+
+; تب عمومی - رفتار
+Behavior=رفتار
+SingleInstance=اجازه فقط یک نمونه
+AutoPlay=پخش خودکار فایل‌ها هنگام باز شدن
+AutoResume=ادامه موقعیت پخش
+MinimizeToTray=کوچک کردن به سینی سیستم
+AutoSavePlaylist=ذخیره لیست پخش هنگام خروج
+
+; تب عمومی - OSD
+OSD=نمایش روی صفحه
+ShowOSD=نمایش پیام‌های روی صفحه
+ShowTrayIcon=نمایش آیکون سینی
+OSDDuration=مدت زمان OSD (میلی‌ثانیه):
+
+; تب عمومی - عکس صفحه
+Screenshots=عکس صفحه
+ScreenshotPath=پوشه ذخیره:
+ScreenshotFormat=قالب:
+
+; تب عمومی - تاریخچه
+HistorySettings=تاریخچه
+HistoryEnabled=فعال کردن تاریخچه پخش
+HistoryMaxItems=حداکثر موارد:
+
+; تب عمومی - زبان
+LanguageGroup=زبان
+RestartNote=(برای تغییرات نیاز به راه‌اندازی مجدد است)
+
+; تب ویدیو
+VideoAdjust=تنظیمات ویدیو
+Brightness=روشنایی:
+Contrast=کنتراست:
+Saturation=اشباع:
+Hue=فام:
+Gamma=گاما:
+VideoOutput=خروجی ویدیو
+Output=خروجی:
+HWAccel=فعال کردن شتاب سخت‌افزاری
+Deinterlacing=حذف درهم‌بافت
+Mode=حالت:
+
+; تب صدا
+AudioOutput=خروجی صدا
+OutputDriver=درایور خروجی:
+Device=دستگاه:
+AudioOptions=گزینه‌های صدا
+NormalizeAudio=نرمال‌سازی صدا
+Channels=کانال‌ها:
+
+; تب زیرنویس
+UseDefaultSubtitles=استفاده از تنظیمات پیش‌فرض زیرنویس
+Font=فونت
+FontName=فونت:
+FontSize=اندازه:
+FontColor=رنگ:
+Bold=ضخیم
+Italic=ایتالیک
+Outline=حاشیه
+OutlineColor=رنگ:
+OutlineSize=اندازه:
+Position=موقعیت
+VerticalPosition=موقعیت عمودی:
+SubOptions=گزینه‌ها
+Encoding=رمزگذاری:
+AutoLoadSubs=بارگذاری خودکار فایل‌های زیرنویس
+
+; هشدارهای خروجی ویدیو
+VOWarningX11=هشدار: x11 از تنظیمات ویدیو (روشنایی، کنتراست و غیره) پشتیبانی نمی‌کند
+VOWarningWayland=هشدار: نیاز به جلسه Wayland دارد. تنظیمات ویدیو پشتیبانی می‌شود.
+
+; تب کش
+CacheSettings=اندازه بافر کش (کیلوبایت)
+CacheDefault=کش پیش‌فرض:
+CacheLocal=فایل‌های محلی:
+CacheNetwork=فایل‌های شبکه:
+CacheInternet=جریان‌های اینترنتی:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=درباره
+Version=نسخه
+Engine=موتور
+Technology=فناوری
+BuildInfo=اطلاعات ساخت
+SystemInfo=سیستم
+Credits=اعتبارات
+Developer=توسعه‌دهنده:
+Author=نویسنده
+License=مجوز
+Website=وب‌سایت
+GitHub=گیت‌هاب
+Description=یک پخش‌کننده رسانه مدرن و سبک
+LicenseText=3nity Media تحت مجوز GPL-2.0 است\n\nاین بدان معناست که شما آزاد هستید:\n  • استفاده از نرم‌افزار برای هر منظوری\n  • مطالعه و تغییر کد منبع\n  • توزیع نسخه‌های نرم‌افزار\n  • توزیع تغییرات خود\n\nبا این شرط که هر تغییر توزیع شده\nنیز تحت مجوز GPL-2.0 باشد.
+BuildDate=تاریخ:
+Target=هدف:
+Kernel=هسته:
+
+[Shortcuts]
+Title=میانبرهای صفحه‌کلید
+Description=پیکربندی میانبرهای صفحه‌کلید برای اقدامات
+Search=جستجو:
+PressKey=یک کلید فشار دهید...
+ColCategory=دسته‌بندی
+ColAction=اقدام
+ColShortcut=میانبر
+Assign=تخصیص
+Clear=پاک کردن
+Reset=بازنشانی
+ResetAll=بازنشانی همه
+CurrentShortcut=فعلی: %s
+NoKeyPressed=لطفاً ابتدا یک ترکیب کلید فشار دهید.
+Conflict=تداخل: قبلاً به "%s" تخصیص داده شده
+ConfirmReplace=جایگزینی میانبر
+ReplaceMessage=این میانبر قبلاً به "%s" تخصیص داده شده. آیا می‌خواهید جایگزین کنید؟
+ConfirmResetAll=بازنشانی همه میانبرها
+ResetAllMessage=آیا مطمئن هستید که می‌خواهید همه میانبرها را به پیش‌فرض بازنشانی کنید؟
+; نام اقدامات
+ActPlayPause=پخش / مکث
+ActStop=توقف
+ActPrevious=قبلی
+ActNext=بعدی
+ActSeekForward=جستجو به جلو (۱۰ثانیه)
+ActSeekBackward=جستجو به عقب (۱۰ثانیه)
+ActSeekForward5=جستجو به جلو (۱ دقیقه)
+ActSeekBackward5=جستجو به عقب (۱ دقیقه)
+ActSpeedUp=افزایش سرعت
+ActSpeedDown=کاهش سرعت
+ActSpeedReset=بازنشانی سرعت
+ActSetLoopA=تنظیم نقطه حلقه A
+ActSetLoopB=تنظیم نقطه حلقه B
+ActClearLoop=پاک کردن حلقه A-B
+ActFrameForward=فریم به جلو
+ActFrameBackward=فریم به عقب
+ActPrevChapter=فصل قبلی
+ActNextChapter=فصل بعدی
+ActGotoTime=رفتن به زمان
+ActVolumeUp=افزایش صدا
+ActVolumeDown=کاهش صدا
+ActMute=بی‌صدا / صدادار
+ActAudioDelayPlus=تأخیر صدا +
+ActAudioDelayMinus=تأخیر صدا -
+ActAudioDelayReset=بازنشانی تأخیر صدا
+ActFullscreen=تمام‌صفحه
+ActRotate=چرخاندن ویدیو
+ActDeinterlace=حذف درهم‌بافت
+ActZoomIn=بزرگنمایی بیشتر
+ActZoomOut=بزرگنمایی کمتر
+ActZoomReset=بازنشانی بزرگنمایی
+ActAlwaysOnTop=همیشه در بالا
+ActFitToVideo=تناسب با ویدیو
+ActScreenshot=عکس صفحه
+ActVideoAdjust=تنظیمات ویدیو
+ActVisNextMode=حالت تجسم بعدی
+ActVisNextColor=طرح رنگ بعدی
+ActSubDelayPlus=تأخیر زیرنویس +
+ActSubDelayMinus=تأخیر زیرنویس -
+ActSubDelayReset=بازنشانی تأخیر زیرنویس
+ActDVDMenu=منوی DVD
+ActDVDUp=ناوبری DVD بالا
+ActDVDDown=ناوبری DVD پایین
+ActDVDLeft=ناوبری DVD چپ
+ActDVDRight=ناوبری DVD راست
+ActDVDSelect=انتخاب DVD
+ActOpenFile=باز کردن فایل
+ActOpenURL=باز کردن URL
+ActPlaylist=نمایش لیست پخش
+ActQuit=خروج
+
+[Log]
+; فاز ۲۵: پنجره گزارش
+Title=گزارش MPV
+Command=دستور:
+Clear=پاک کردن
+Save=ذخیره...
+Copy=&کپی
+SelectAll=انتخاب &همه
+SaveTitle=ذخیره گزارش
+SaveFilter=فایل‌های متنی (*.txt)|*.txt|همه فایل‌ها (*.*)|*.*
+ErrorTitle=خطا
+SaveError=ذخیره گزارش ناموفق بود: %s
+
+[MediaInfo]
+Title=اطلاعات رسانه
+FileTab=فایل
+VideoTab=ویدیو
+AudioTab=صدا
+MetadataTab=فراداده
+FileName=نام فایل:
+FilePath=مسیر:
+FileSize=اندازه:
+Duration=مدت زمان:
+Format=قالب:
+Bitrate=نرخ بیت:
+Codec=کدک:
+Resolution=رزولوشن:
+FrameRate=نرخ فریم:
+PixelFormat=قالب پیکسل:
+AspectRatio=نسبت تصویر:
+Channels=کانال‌ها:
+SampleRate=نرخ نمونه‌برداری:
+Language=زبان:
+Property=ویژگی
+Value=مقدار
+CopyAll=کپی همه
+CopiedToClipboard=اطلاعات رسانه به کلیپ‌بورد کپی شد.
+NA=ندارد
+NAStream=ندارد (جریان)
+NALive=ندارد (زنده)
+ChannelMono=۱ (مونو)
+ChannelStereo=۲ (استریو)
+Channel51=۶ (صدای فراگیر 5.1)
+Channel71=۸ (صدای فراگیر 7.1)
+Unknown=ناشناخته
+NoMetadata=(بدون فراداده)
+
+[Bookmarks]
+Title=نشانک‌ها
+Goto=رفتن به
+Remove=حذف
+Clear=پاک کردن همه
+Refresh=بازخوانی
+OpenFolder=باز کردن پوشه
+CopyPath=کپی مسیر
+; ستون‌ها
+ColName=نام
+ColFile=فایل
+ColPosition=موقعیت
+ColCreated=ایجاد شده
+; گفتگوها
+ClearTitle=پاک کردن نشانک‌ها
+ClearConfirm=آیا مطمئن هستید که می‌خواهید همه نشانک‌ها را پاک کنید؟
+Count=%d نشانک
+
+[Favorites]
+Title=علاقه‌مندی‌ها
+Play=پخش
+Remove=حذف
+Clear=پاک کردن همه
+Refresh=بازخوانی
+OpenFolder=باز کردن پوشه
+CopyPath=کپی مسیر
+; ستون‌ها
+ColName=نام
+ColType=نوع
+ColPath=مسیر
+; انواع
+TypeFile=فایل
+TypeURL=URL
+TypeRadio=رادیو
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=ناشناخته
+; گفتگوها
+ClearTitle=پاک کردن علاقه‌مندی‌ها
+ClearConfirm=آیا مطمئن هستید که می‌خواهید همه علاقه‌مندی‌ها را پاک کنید؟
+Count=%d علاقه‌مندی
+
+[History]
+Title=تاریخچه پخش
+Play=پخش
+Remove=حذف
+Clear=پاک کردن همه
+Refresh=بازخوانی
+OpenFolder=باز کردن پوشه
+CopyPath=کپی مسیر
+; ستون‌ها
+ColFileName=فایل
+ColPath=مسیر
+; گفتگوها
+ClearTitle=پاک کردن تاریخچه
+ClearConfirm=آیا مطمئن هستید که می‌خواهید همه تاریخچه را پاک کنید؟
+Count=%d مورد
+
+[SleepTimer]
+Title=تایمر خواب
+Description=تنظیم تایمر برای توقف خودکار پخش
+Hours=ساعت:
+Minutes=دقیقه:
+Action=هنگام اتمام تایمر:
+StopPlayback=توقف پخش
+CloseApp=بستن برنامه
+Shutdown=خاموش کردن رایانه
+QuickSet=تنظیم سریع:
+15Min=۱۵ دقیقه
+30Min=۳۰ دقیقه
+1Hour=۱ ساعت
+2Hours=۲ ساعت
+
+[Radios]
+Title=رادیوهای اینترنتی
+Play=پخش
+Add=افزودن
+Edit=ویرایش
+Delete=حذف
+Remove=حذف
+Import=وارد کردن
+Export=صادر کردن
+Refresh=بازخوانی
+Favorite=علاقه‌مندی
+ShowFavorites=علاقه‌مندی‌ها
+ShowAll=همه
+; فیلتر
+Genre=ژانر:
+Search=جستجو:
+SearchBtn=جستجو
+ClearSearch=پاک کردن
+AllGenres=(همه ژانرها)
+; منوی زمینه
+AddFavorite=افزودن به علاقه‌مندی‌ها
+RemoveFavorite=حذف از علاقه‌مندی‌ها
+AddCustom=افزودن ایستگاه سفارشی...
+EditCustom=ویرایش ایستگاه...
+DeleteCustom=حذف ایستگاه
+OpenWebsite=باز کردن وب‌سایت
+CopyURL=کپی URL
+; ستون‌ها
+ColName=نام
+ColGenre=ژانر
+ColBitrate=نرخ بیت
+ColCountry=کشور
+ColCodec=کدک
+; گفتگوها
+AddTitle=افزودن ایستگاه سفارشی
+EditTitle=ویرایش ایستگاه
+DeleteTitle=حذف ایستگاه
+DeleteConfirm=آیا مطمئن هستید که می‌خواهید این ایستگاه را حذف کنید؟
+StationName=نام ایستگاه:
+StreamURL=URL جریان:
+GenrePrompt=ژانر:
+NameURLRequired=نام و URL الزامی هستند.
+; پیام‌های وضعیت
+LoadingIcecast=در حال بارگذاری ایستگاه‌ها از دایرکتوری Icecast...
+IcecastError=بارگذاری دایرکتوری Icecast امکان‌پذیر نیست. استفاده از ایستگاه‌های پیش‌فرض.
+NoStationsLoaded=ایستگاهی بارگذاری نشده
+StationCount=%d ایستگاه
+LoadedStations=%d ایستگاه بارگذاری شد
+ErrorPrefix=خطا:
+; کلیدهای قدیمی
+Name=نام
+URL=URL
+Bitrate=نرخ بیت
+Description=توضیحات
+Country=کشور
+
+[OpenURL]
+Title=باز کردن URL
+Prompt=URL رسانه را وارد کنید:
+
+[GotoTime]
+Title=رفتن به زمان
+EnterTime=زمان مورد نظر را وارد کنید:
+Hours=س
+Minutes=د
+Seconds=ث
+Current=فعلی:
+Duration=مدت زمان:
+
+[VideoAdjust]
+Title=تنظیمات ویدیو
+Brightness=روشنایی:
+Contrast=کنتراست:
+Saturation=اشباع:
+Hue=فام:
+Gamma=گاما:
+ResetAll=بازنشانی همه رنگ‌ها
+
+[CLI]
+; پیام‌های خط فرمان
+Usage=کاربرد
+Arguments=[گزینه‌ها] [فایل|نشانی|پوشه]
+Description=پخش‌کننده چندرسانه‌ای چندسکویی با پشتیبان libmpv.
+Options=گزینه‌ها
+Examples=مثال‌ها
+MoreInfo=برای اطلاعات بیشتر، مراجعه کنید به
+EnqueuedTo=به نمونه موجود اضافه شد: %s
+SentTo=به نمونه موجود ارسال شد: %s
+AlreadyRunning=3nity Media در حال اجرا است.
+ErrorFileNotFound=خطا: فایل یا پوشه یافت نشد: %s
+ErrorSubNotFound=خطا: فایل زیرنویس یافت نشد: %s

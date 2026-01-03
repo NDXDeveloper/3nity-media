@@ -1,0 +1,892 @@
+[Language]
+Name=Japanese - 日本語
+Code=ja
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; ファイルメニュー
+File=ファイル(&F)
+FileOpen=ファイルを開く(&O)...
+FileOpenURL=URLを開く(&U)...
+FileOpenClipboard=クリップボードから開く(&C)
+FileRecent=最近使ったファイル(&R)
+ClearRecentFiles=最近使ったファイルをクリア
+FileExit=終了(&X)
+
+; 再生メニュー
+Playback=再生(&P)
+PlaybackPlayPause=再生/一時停止(&P)
+PlaybackStop=停止(&S)
+PlaybackPrevious=前へ(&V)
+PlaybackNext=次へ(&N)
+PlaybackSeekForward=早送り(&F)
+PlaybackSeekBackward=巻き戻し(&B)
+PlaybackSpeed=速度(&S)
+PlaybackABLoop=A-Bループ(&B)
+PlaybackSetA=Aを設定(&A)
+PlaybackSetB=Bを設定(&B)
+PlaybackClearAB=A-Bをクリア(&C)
+PlaybackChapters=チャプター(&C)
+PlaybackPrevChapter=前のチャプター
+PlaybackNextChapter=次のチャプター
+PlaybackFrameStep=1フレーム進む(&F)
+PlaybackFrameBack=1フレーム戻る(&B)
+
+; DVDナビゲーション
+PlaybackDVD=DVDナビゲーション(&N)
+DVDMenu=メニュー(&M)
+DVDUp=上(&U)
+DVDDown=下(&D)
+DVDLeft=左(&L)
+DVDRight=右(&R)
+DVDSelect=選択(&S)
+PlaybackDVDTitles=DVDタイトル(&T)
+
+; フェーズ21: フォルダを開く
+FileOpenFolder=フォルダを開く(&O)...
+
+; ファイルメニュー DVD/Blu-ray
+FileOpenDVD=DVDを開く(&D)...
+FileOpenBluray=Blu-rayを開く(&B)...
+
+; フェーズ13: 時間指定ジャンプと履歴
+PlaybackGotoTime=時間を指定してジャンプ(&G)...
+ToolsHistory=履歴(&H)
+
+; フェーズ14: システムトレイ
+TrayShow=表示/非表示(&S)
+TrayPlayPause=再生/一時停止(&P)
+TrayStop=停止(&S)
+TrayPrevious=前へ(&V)
+TrayNext=次へ(&N)
+TrayMute=ミュート(&M)
+TrayExit=終了(&X)
+
+; フェーズ15: ブックマーク
+PlaybackAddBookmark=ブックマークを追加(&B)...
+PlaybackBookmarks=ブックマーク(&M)
+BookmarksTitle=ブックマーク
+BookmarksGoto=ブックマークへジャンプ(&G)
+BookmarksRemove=ブックマークを削除(&R)
+BookmarksClear=すべてのブックマークをクリア(&C)
+BookmarksOpenFolder=フォルダを開く(&F)
+BookmarksCopyPath=パスをコピー(&C)
+BookmarksCount=%d件のブックマーク
+NoBookmarks=(ブックマークなし)
+NoFileLoaded=(ファイルが読み込まれていません)
+BookmarkAdded=%sにブックマークを追加しました
+BookmarkJumped=%sのブックマークへジャンプしました
+AddBookmarkTitle=ブックマークを追加
+AddBookmarkPrompt=ブックマーク名を入力:
+ShowAllBookmarks=すべてのブックマークを表示...
+
+; フェーズ16: お気に入り
+ToolsFavorites=お気に入り(&F)
+ToolsAddFavorite=お気に入りに追加(&R)
+FavoritesTitle=お気に入り
+FavoritesPlay=再生(&P)
+FavoritesRemove=お気に入りから削除(&R)
+FavoritesClear=すべてのお気に入りをクリア(&C)
+FavoritesOpenFolder=フォルダを開く(&F)
+FavoritesCopyPath=パスをコピー(&C)
+FavoritesCount=%d件のお気に入り
+NoFavorites=(お気に入りなし)
+AddFavoriteTitle=お気に入りに追加
+AddFavoritePrompt=お気に入りの名前を入力:
+AlreadyFavorite=既にお気に入りに登録されています
+AddedToFavorites=お気に入りに追加しました: %s
+NoFileToFavorite=お気に入りに追加するファイルが読み込まれていません
+FavoriteTypeFile=ファイル
+FavoriteTypeURL=URL
+FavoriteTypeRadio=ラジオ
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; トラック形式文字列
+TrackWithTitle=トラック %d: %s
+TrackWithLang=トラック %d (%s)
+TrackNumber=トラック %d
+
+; 速度メニュー項目
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; スケールメニュー項目
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; 字幕トラック
+SubtitleDisable=無効
+
+; フェーズ17: スリープタイマー
+ToolsSleepTimer=スリープタイマー(&S)...
+ToolsSleepTimerActive=スリープタイマー [%s](&S)
+ToolsCancelTimer=タイマーをキャンセル(&T)
+
+; オーディオメニュー
+Audio=オーディオ(&A)
+AudioTrack=オーディオトラック(&T)
+AudioVolumeUp=音量を上げる(&U)
+AudioVolumeDown=音量を下げる(&D)
+AudioMute=ミュート(&M)
+AudioEqualizer=イコライザー(&E)
+AudioDelay=オーディオ遅延(&D)
+AudioDelayPlus=遅延 +0.1秒
+AudioDelayMinus=遅延 -0.1秒
+AudioDelayReset=遅延をリセット
+AudioNormalize=音量を正規化(&N)
+
+; ビデオメニュー
+Video=ビデオ(&V)
+VideoFullscreen=フルスクリーン(&F)
+VideoAspect=アスペクト比(&A)
+VideoAspectAuto=自動(&A)
+VideoAspect169=16:9(&1)
+VideoAspect43=4:3(&4)
+VideoAspect235=2.35:1(&2)
+VideoScreenshot=スクリーンショット(&S)
+VideoScreenshotAs=スクリーンショットを保存(&A)...
+VideoRotation=回転(&R)
+VideoRotate0=0° (通常)(&0)
+VideoRotate90=90°(&9)
+VideoRotate180=180°(&1)
+VideoRotate270=270°(&2)
+VideoFlip=反転(&F)
+VideoFlipH=水平反転(&H)
+VideoFlipV=垂直反転(&V)
+VideoDeinterlace=デインターレース(&D)
+VideoZoom=ズーム(&Z)
+VideoZoomIn=ズームイン(&I)
+VideoZoomOut=ズームアウト(&O)
+VideoZoomReset=ズームをリセット(&R)
+VideoPan=パン(&P)
+VideoPanLeft=左へパン(&L)
+VideoPanRight=右へパン(&R)
+VideoPanUp=上へパン(&U)
+VideoPanDown=下へパン(&D)
+VideoPanReset=パンをリセット(&E)
+VideoTrack=ビデオトラック(&T)
+VideoColors=色調整(&A)
+VideoBrightness=明るさ(&B)
+VideoContrast=コントラスト(&C)
+VideoSaturation=彩度(&S)
+VideoHue=色相(&H)
+VideoGamma=ガンマ(&G)
+VideoColorsReset=すべての色をリセット(&A)
+VideoIncrease=増加 (+5)
+VideoDecrease=減少 (-5)
+VideoReset=リセット
+VideoAdjustDialog=ビデオ調整(&A)...
+
+; 表示メニュー
+View=表示(&E)
+ViewAlwaysOnTop=常に最前面(&A)
+ViewFitToVideo=ウィンドウをビデオに合わせる(&F)
+ViewScale=ウィンドウスケール(&S)
+
+; フェーズ26: ビジュアライゼーションメニュー
+ViewVisualization=ビジュアライゼーション(&V)
+VisNone=なし(&N)
+VisSpectrum=スペクトラムアナライザー(&S)
+VisWaveform=波形(&W)
+VisVector=ベクトルスコープ(&V)
+VisVolume=VUメーター(&U)
+VisNextMode=次のモード(&M)
+VisNextColor=次のカラースキーム(&C)
+
+; 字幕メニュー
+Subtitles=字幕(&S)
+SubtitleTrack=字幕トラック(&T)
+SubtitleLoad=字幕を読み込む(&L)...
+SubtitleDelay=字幕遅延(&D)
+SubtitleDelayPlus=遅延 +0.1秒
+SubtitleDelayMinus=遅延 -0.1秒
+SubtitleDelayReset=遅延をリセット
+
+; ツールメニュー
+Tools=ツール(&T)
+ToolsPlaylist=プレイリスト(&P)
+ToolsRadios=インターネットラジオ(&R)
+ToolsShortcuts=キーボードショートカット(&K)...
+ToolsOptions=オプション(&O)
+
+; フェーズ27: 録画メニュー
+ToolsRecord=ストリームを録画(&R)...
+ToolsStopRecord=録画を停止(&T)
+ToolsRecording=録画中(&R)...
+
+; ヘルプメニュー
+Help=ヘルプ(&H)
+HelpMediaInfo=メディア情報(&M)
+HelpLog=ログウィンドウ(&L)
+HelpAbout=このソフトについて(&A)
+
+[Dialog]
+OpenFile=ファイルを開く
+OpenURL=URLを開く
+SaveScreenshot=スクリーンショットを保存
+LoadSubtitle=字幕ファイルを読み込む
+EnterURL=URLを入力:
+ResumePlayback=再生を再開
+ResumeFrom=%sから再開しますか?
+ClearRecentFiles=最近使ったファイルをクリア
+NoRecentFiles=(最近使ったファイルなし)
+NoAudioTracks=(オーディオトラックなし)
+NoVideoTracks=(ビデオトラックなし)
+NoSubtitleTracks=(字幕トラックなし)
+NoChapters=(チャプターなし)
+OpenDVD=DVDを開く
+OpenBluray=Blu-rayを開く
+OpenFolder=フォルダを開く
+
+; ファイルフィルター
+ScreenshotFilter=PNG画像|*.png|JPEG画像|*.jpg|WebP画像|*.webp
+DVDFilter=DVDフォルダ|*.;*.iso|すべてのファイル (*.*)|*.*
+BlurayFilter=Blu-rayフォルダ|*.;*.iso|すべてのファイル (*.*)|*.*
+NoDVD=(DVDが読み込まれていません)
+DVDTitle=タイトル %d
+GotoTime=時間を指定してジャンプ
+EnterTime=ジャンプする時間を入力:
+Hours=時
+Minutes=分
+Seconds=秒
+Current=現在:
+HistoryTitle=再生履歴
+HistoryItems=%d件の履歴
+HistoryPlay=再生(&P)
+HistoryRemove=履歴から削除(&R)
+HistoryClear=すべての履歴をクリア(&C)
+HistoryOpenFolder=フォルダを開く(&F)
+HistoryCopyPath=パスをコピー(&C)
+ClearHistory=履歴をクリア
+ClearHistoryConfirm=すべての履歴をクリアしてもよろしいですか?
+SleepTimerTitle=スリープタイマー
+SleepTimerDescription=再生を自動的に停止するタイマーを設定
+SleepTimerHours=時間
+SleepTimerMinutes=分
+SleepTimerQuickSet=クイック設定
+SleepTimerAction=タイマー終了時の動作
+SleepTimerStopPlayback=再生を停止
+SleepTimerCloseApp=アプリケーションを閉じる
+SleepTimerShutdown=コンピュータをシャットダウン
+SleepTimerStart=タイマーを開始
+
+[Status]
+Ready=準備完了
+Opening=開いています...
+Playing=再生中
+Paused=一時停止
+Stopped=停止
+Error=エラー
+Buffering=バッファリング中...
+Seeking=シーク中...
+Recording=録画中
+
+[Message]
+SpeedFormat=速度: %.2fx
+VolumeFormat=音量: %d%%
+BrightnessFormat=明るさ: %d
+ContrastFormat=コントラスト: %d
+SaturationFormat=彩度: %d
+HueFormat=色相: %d
+GammaFormat=ガンマ: %d
+ColorsReset=ビデオの色をリセットしました
+LoopASet=ループポイントAを%sに設定しました
+LoopBSet=ループポイントBを%sに設定しました - ループ有効
+LoopCleared=A-Bループをクリアしました
+SetAFirst=まずポイントAを設定してください (Lキーを押す)
+RotationFormat=回転: %d°
+FlipHOn=水平反転: オン
+FlipHOff=水平反転: オフ
+FlipVOn=垂直反転: オン
+FlipVOff=垂直反転: オフ
+DeinterlaceOn=デインターレース: オン
+DeinterlaceOff=デインターレース: オフ
+AlwaysOnTopOn=常に最前面: オン
+AlwaysOnTopOff=常に最前面: オフ
+WindowFitted=ウィンドウを%dx%dに合わせました
+WindowScale=ウィンドウスケール: %.0f%%
+ScreenshotSaved=スクリーンショットを保存しました: %s
+AudioNormalizeOn=オーディオ正規化: オン
+AudioNormalizeOff=オーディオ正規化: オフ
+AudioDelayFormat=オーディオ遅延: %.1f秒
+SubtitleDelayFormat=字幕遅延: %.1f秒
+ZoomFormat=ズーム: %.0f%%
+PanCenter=パン: 中央
+PanFormat=パン: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=ビデオが読み込まれていません
+PlayingFromClipboard=クリップボードから再生: %s
+ClipboardInvalid=クリップボードに有効なURLまたはパスがありません
+ClipboardEmpty=クリップボードが空か、テキストがありません
+ResumedAt=%sから再開しました
+FrameStepForward=1フレーム進む
+FrameStepBackward=1フレーム戻る
+PreviousChapter=前のチャプター
+NextChapter=次のチャプター
+PlayingRadio=ラジオを再生中: %s
+PlayingDVD=DVDを再生中: %s
+PlayingBluray=Blu-rayを再生中: %s
+DVDTitlePlaying=DVDタイトル %d
+SeekTo=%sへシーク
+MinimizedToTray=トレイに最小化しました。ダブルクリックで復元します。
+SleepTimerSet=スリープタイマーを設定しました: %s
+SleepTimerCancelled=スリープタイマーをキャンセルしました
+SleepTimerWarning=スリープタイマー: 残り1分
+SleepTimerFinal=スリープタイマー: 残り10秒
+SleepTimerStopped=スリープタイマー: 再生を停止しました
+SleepTimerClosing=スリープタイマー: アプリケーションを閉じています
+SleepTimerShutdown=スリープタイマー: コンピュータをシャットダウンしています
+SleepTimerExpired=スリープタイマー終了
+ShutdownManual=手動でコンピュータをシャットダウンしてください。
+
+; フェーズ21: フォルダを開く
+FolderOpened=フォルダを開きました: %d件のファイル
+NoMediaFound=メディアファイルが見つかりません
+FilesAdded=%d件のファイルをプレイリストに追加しました
+
+; フェーズ27: 録画メッセージ
+RecordNeedPlayback=録画する前に再生を開始してください。
+RecordingStarted=録画を開始しました
+RecordingStopped=録画を停止しました
+
+; 追加のステータスメッセージ
+EndOfPlaylist=プレイリストの終わり
+NoMediaLoaded=メディアファイルが読み込まれていません。
+JumpedToNamed=ジャンプしました: %s
+ChapterFormat=チャプター %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%sのブックマーク
+
+[Label]
+Muted=ミュート
+
+[Button]
+Play=再生
+Pause=一時停止
+Stop=停止
+Previous=前へ
+Next=次へ
+Mute=ミュート
+Unmute=ミュート解除
+Fullscreen=フルスクリーン
+OK=OK
+Cancel=キャンセル
+Apply=適用
+Close=閉じる
+Yes=はい
+No=いいえ
+
+[Tooltip]
+Play=再生/一時停止
+Stop=再生を停止
+Previous=前のトラック
+Next=次のトラック
+Mute=ミュート切り替え
+Volume=音量
+Seek=シーク位置
+Fullscreen=フルスクリーン切り替え
+
+[Playlist]
+Title=プレイリスト
+Add=追加
+Remove=削除
+Clear=クリア
+MoveUp=上へ移動
+MoveDown=下へ移動
+Shuffle=シャッフル
+Repeat=リピート
+Play=再生
+ShuffleOn=シャッフル: オン
+ShuffleOff=シャッフル: オフ
+RepeatOff=リピート: オフ
+RepeatOne=リピート: 1曲
+RepeatAll=リピート: 全曲
+SavePlaylist=保存
+LoadPlaylist=読み込み
+TotalDuration=合計: %s
+ItemCount=%d件
+
+; フェーズ22: プレイリストの拡張機能
+Search=検索:
+FilterPlaceholder=プレイリストをフィルター...
+ClearSearch=クリア
+FilterCount=%d/%d
+RemoveDuplicates=重複を削除(&D)
+Properties=プロパティ(&R)...
+NoDuplicates=重複は見つかりませんでした。
+DuplicatesFound=%d件の重複が見つかりました。削除しますか?
+RemoveDuplicatesTitle=重複を削除
+PropertiesTitle=プレイリストのプロパティ
+PropTotalItems=合計アイテム数: %d
+PropTotalDuration=合計時間: %s
+PropPlayed=再生済み: %d
+PropUnplayed=未再生: %d
+PropTotalSize=合計サイズ: %.2f MB
+PropShuffle=シャッフル: %s
+PropRepeat=リピート: %s
+On=オン
+Off=オフ
+
+; ApplyLocaleの新しいキー
+ClearTitle=プレイリストをクリア
+ClearConfirm=プレイリストをクリアしてもよろしいですか?
+NoPlaylist=プレイリストなし
+StatusFormat=%d件 | 合計: %s
+RepeatOne=1曲リピート
+RepeatAll=全曲リピート
+HintRepeatEnable=クリックで全曲リピートを有効化
+HintRepeatOne=1曲リピート - クリックで無効化
+HintRepeatAll=全曲リピート - クリックで1曲リピートに切り替え
+HintShuffleRepeat=シャッフル + 全曲リピート - クリックでリピートを無効化
+RemoveDuplicatesTitle=重複を削除
+NoDuplicates=重複は見つかりませんでした。
+SelectAll=すべて選択
+SelectNone=選択解除
+SelectInvert=選択を反転
+Sort=並べ替え
+SortByName=名前順
+SortByTitle=タイトル順
+SortByArtist=アーティスト順
+SortByDuration=時間順
+SortReverse=逆順
+SortRandom=ランダム
+ColTitle=タイトル
+ColDuration=時間
+ColArtist=アーティスト
+ColAlbum=アルバム
+PlaylistFilter=M3Uプレイリスト|*.m3u|M3U8プレイリスト|*.m3u8|PLSプレイリスト|*.pls
+
+[Equalizer]
+Title=イコライザー
+Presets=プリセット:
+Preamp=プリアンプ:
+Flat=フラット
+Rock=ロック
+Pop=ポップ
+Jazz=ジャズ
+Classical=クラシック
+BassBoost=低音ブースト
+TrebleBoost=高音ブースト
+Vocal=ボーカル
+Reset=リセット
+Enable=イコライザーを有効化
+Save=保存
+Delete=削除
+Ready=準備完了
+; ボタンとアクション
+SavePreset=プリセットを保存
+DeletePreset=プリセットを削除
+SavePresetTitle=プリセットを保存
+PresetNamePrompt=プリセット名:
+EnterPresetName=プリセット名を入力してください。
+OverwritePresetTitle=プリセットを上書き
+OverwritePresetConfirm=この名前のプリセットは既に存在します。上書きしますか?
+PresetUpdated=プリセットを更新しました: %s
+PresetSaved=プリセットを保存しました: %s
+SelectPresetToDelete=削除するプリセットを選択してください。
+CannotDeleteDefault=デフォルトプリセットは削除できません。
+DeletePresetTitle=プリセットを削除
+DeletePresetConfirm=このプリセットを削除してもよろしいですか?
+PresetDeleted=プリセットを削除しました
+ResetToFlat=イコライザーをフラットにリセットしました
+PresetApplied=プリセットを適用しました: %s
+
+[Options]
+Title=オプション
+General=一般
+Video=ビデオ
+Audio=オーディオ
+Subtitles=字幕
+Cache=キャッシュ
+Language=言語:
+RestartRequired=変更を有効にするには再起動が必要です
+
+; 一般タブ - 動作
+Behavior=動作
+SingleInstance=1つのインスタンスのみ許可
+AutoPlay=開いたファイルを自動再生
+AutoResume=再生位置を記憶
+MinimizeToTray=システムトレイに最小化
+AutoSavePlaylist=終了時にプレイリストを保存
+
+; 一般タブ - OSD
+OSD=オンスクリーンディスプレイ
+ShowOSD=オンスクリーンメッセージを表示
+ShowTrayIcon=トレイアイコンを表示
+OSDDuration=OSD表示時間 (ミリ秒):
+
+; 一般タブ - スクリーンショット
+Screenshots=スクリーンショット
+ScreenshotPath=保存フォルダ:
+ScreenshotFormat=形式:
+
+; 一般タブ - 履歴
+HistorySettings=履歴
+HistoryEnabled=再生履歴を有効化
+HistoryMaxItems=最大項目数:
+
+; 一般タブ - 言語
+LanguageGroup=言語
+RestartNote=(変更には再起動が必要)
+
+; ビデオタブ
+VideoAdjust=ビデオ調整
+Brightness=明るさ:
+Contrast=コントラスト:
+Saturation=彩度:
+Hue=色相:
+Gamma=ガンマ:
+VideoOutput=ビデオ出力
+Output=出力:
+HWAccel=ハードウェアアクセラレーションを有効化
+Deinterlacing=デインターレース
+Mode=モード:
+
+; オーディオタブ
+AudioOutput=オーディオ出力
+OutputDriver=出力ドライバー:
+Device=デバイス:
+AudioOptions=オーディオオプション
+NormalizeAudio=オーディオ音量を正規化
+Channels=チャンネル:
+
+; 字幕タブ
+UseDefaultSubtitles=デフォルトの字幕設定を使用
+Font=フォント
+FontName=フォント:
+FontSize=サイズ:
+FontColor=色:
+Bold=太字
+Italic=斜体
+Outline=アウトライン
+OutlineColor=色:
+OutlineSize=サイズ:
+Position=位置
+VerticalPosition=垂直位置:
+SubOptions=オプション
+Encoding=エンコーディング:
+AutoLoadSubs=字幕ファイルを自動的に読み込む
+
+; ビデオ出力の警告
+VOWarningX11=警告: x11はビデオ調整 (明るさ、コントラストなど) をサポートしていません
+VOWarningWayland=警告: Waylandセッションが必要です。ビデオ調整はサポートされています。
+
+; キャッシュタブ
+CacheSettings=キャッシュバッファサイズ (KB)
+CacheDefault=デフォルトキャッシュ:
+CacheLocal=ローカルファイル:
+CacheNetwork=ネットワークファイル:
+CacheInternet=インターネットストリーム:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=このソフトについて
+Version=バージョン
+Engine=エンジン
+Technology=テクノロジー
+BuildInfo=ビルド情報
+SystemInfo=システム
+Credits=クレジット
+Developer=開発者:
+Author=作者
+License=ライセンス
+Website=ウェブサイト
+GitHub=GitHub
+Description=モダンで軽量なメディアプレーヤー
+LicenseText=3nity MediaはGPL-2.0でライセンスされています\n\nこれは以下のことが自由にできることを意味します:\n  • 任意の目的でソフトウェアを使用する\n  • ソースコードを調べ、変更する\n  • ソフトウェアのコピーを配布する\n  • 変更を配布する\n\n配布される変更もGPL-2.0でライセンスされる\n必要があるという条件の下で。
+BuildDate=日付:
+Target=ターゲット:
+Kernel=カーネル:
+
+[Shortcuts]
+Title=キーボードショートカット
+Description=アクションのキーボードショートカットを設定
+Search=検索:
+PressKey=キーを押してください...
+ColCategory=カテゴリ
+ColAction=アクション
+ColShortcut=ショートカット
+Assign=割り当て
+Clear=クリア
+Reset=リセット
+ResetAll=すべてリセット
+CurrentShortcut=現在: %s
+NoKeyPressed=まずキーの組み合わせを押してください。
+Conflict=競合: 既に「%s」に割り当てられています
+ConfirmReplace=ショートカットを置換
+ReplaceMessage=このショートカットは既に「%s」に割り当てられています。置換しますか?
+ConfirmResetAll=すべてのショートカットをリセット
+ResetAllMessage=すべてのショートカットをデフォルトにリセットしてもよろしいですか?
+; アクション名
+ActPlayPause=再生 / 一時停止
+ActStop=停止
+ActPrevious=前へ
+ActNext=次へ
+ActSeekForward=早送り (10秒)
+ActSeekBackward=巻き戻し (10秒)
+ActSeekForward5=早送り (1分)
+ActSeekBackward5=巻き戻し (1分)
+ActSpeedUp=速度を上げる
+ActSpeedDown=速度を下げる
+ActSpeedReset=速度をリセット
+ActSetLoopA=ループポイントAを設定
+ActSetLoopB=ループポイントBを設定
+ActClearLoop=A-Bループをクリア
+ActFrameForward=1フレーム進む
+ActFrameBackward=1フレーム戻る
+ActPrevChapter=前のチャプター
+ActNextChapter=次のチャプター
+ActGotoTime=時間を指定してジャンプ
+ActVolumeUp=音量を上げる
+ActVolumeDown=音量を下げる
+ActMute=ミュート / ミュート解除
+ActAudioDelayPlus=オーディオ遅延 +
+ActAudioDelayMinus=オーディオ遅延 -
+ActAudioDelayReset=オーディオ遅延をリセット
+ActFullscreen=フルスクリーン
+ActRotate=ビデオを回転
+ActDeinterlace=デインターレース
+ActZoomIn=ズームイン
+ActZoomOut=ズームアウト
+ActZoomReset=ズームをリセット
+ActAlwaysOnTop=常に最前面
+ActFitToVideo=ビデオに合わせる
+ActScreenshot=スクリーンショット
+ActVideoAdjust=ビデオ調整
+ActVisNextMode=次のビジュアライゼーションモード
+ActVisNextColor=次のカラースキーム
+ActSubDelayPlus=字幕遅延 +
+ActSubDelayMinus=字幕遅延 -
+ActSubDelayReset=字幕遅延をリセット
+ActDVDMenu=DVDメニュー
+ActDVDUp=DVD上へ移動
+ActDVDDown=DVD下へ移動
+ActDVDLeft=DVD左へ移動
+ActDVDRight=DVD右へ移動
+ActDVDSelect=DVD選択
+ActOpenFile=ファイルを開く
+ActOpenURL=URLを開く
+ActPlaylist=プレイリストを表示
+ActQuit=終了
+
+[Log]
+; フェーズ25: ログウィンドウ
+Title=MPVログ
+Command=コマンド:
+Clear=クリア
+Save=保存...
+Copy=コピー(&C)
+SelectAll=すべて選択(&A)
+SaveTitle=ログを保存
+SaveFilter=テキストファイル (*.txt)|*.txt|すべてのファイル (*.*)|*.*
+ErrorTitle=エラー
+SaveError=ログの保存に失敗しました: %s
+
+[MediaInfo]
+Title=メディア情報
+FileTab=ファイル
+VideoTab=ビデオ
+AudioTab=オーディオ
+MetadataTab=メタデータ
+FileName=ファイル名:
+FilePath=パス:
+FileSize=サイズ:
+Duration=長さ:
+Format=形式:
+Bitrate=ビットレート:
+Codec=コーデック:
+Resolution=解像度:
+FrameRate=フレームレート:
+PixelFormat=ピクセル形式:
+AspectRatio=アスペクト比:
+Channels=チャンネル:
+SampleRate=サンプルレート:
+Language=言語:
+Property=プロパティ
+Value=値
+CopyAll=すべてコピー
+CopiedToClipboard=メディア情報をクリップボードにコピーしました。
+NA=N/A
+NAStream=N/A (ストリーム)
+NALive=N/A (ライブ)
+ChannelMono=1 (モノラル)
+ChannelStereo=2 (ステレオ)
+Channel51=6 (5.1サラウンド)
+Channel71=8 (7.1サラウンド)
+Unknown=不明
+NoMetadata=(メタデータなし)
+
+[Bookmarks]
+Title=ブックマーク
+Goto=移動
+Remove=削除
+Clear=すべてクリア
+Refresh=更新
+OpenFolder=フォルダを開く
+CopyPath=パスをコピー
+; 列
+ColName=名前
+ColFile=ファイル
+ColPosition=位置
+ColCreated=作成日時
+; ダイアログ
+ClearTitle=ブックマークをクリア
+ClearConfirm=すべてのブックマークをクリアしてもよろしいですか?
+Count=%d件のブックマーク
+
+[Favorites]
+Title=お気に入り
+Play=再生
+Remove=削除
+Clear=すべてクリア
+Refresh=更新
+OpenFolder=フォルダを開く
+CopyPath=パスをコピー
+; 列
+ColName=名前
+ColType=種類
+ColPath=パス
+; 種類
+TypeFile=ファイル
+TypeURL=URL
+TypeRadio=ラジオ
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=不明
+; ダイアログ
+ClearTitle=お気に入りをクリア
+ClearConfirm=すべてのお気に入りをクリアしてもよろしいですか?
+Count=%d件のお気に入り
+
+[History]
+Title=再生履歴
+Play=再生
+Remove=削除
+Clear=すべてクリア
+Refresh=更新
+OpenFolder=フォルダを開く
+CopyPath=パスをコピー
+; 列
+ColFileName=ファイル
+ColPath=パス
+; ダイアログ
+ClearTitle=履歴をクリア
+ClearConfirm=すべての履歴をクリアしてもよろしいですか?
+Count=%d件
+
+[SleepTimer]
+Title=スリープタイマー
+Description=再生を自動的に停止するタイマーを設定
+Hours=時間:
+Minutes=分:
+Action=タイマー終了時:
+StopPlayback=再生を停止
+CloseApp=アプリケーションを閉じる
+Shutdown=コンピュータをシャットダウン
+QuickSet=クイック設定:
+15Min=15分
+30Min=30分
+1Hour=1時間
+2Hours=2時間
+
+[Radios]
+Title=インターネットラジオ
+Play=再生
+Add=追加
+Edit=編集
+Delete=削除
+Remove=削除
+Import=インポート
+Export=エクスポート
+Refresh=更新
+Favorite=お気に入り
+ShowFavorites=お気に入り
+ShowAll=すべて
+; フィルター
+Genre=ジャンル:
+Search=検索:
+SearchBtn=検索
+ClearSearch=クリア
+AllGenres=(すべてのジャンル)
+; コンテキストメニュー
+AddFavorite=お気に入りに追加
+RemoveFavorite=お気に入りから削除
+AddCustom=カスタムステーションを追加...
+EditCustom=ステーションを編集...
+DeleteCustom=ステーションを削除
+OpenWebsite=ウェブサイトを開く
+CopyURL=URLをコピー
+; 列
+ColName=名前
+ColGenre=ジャンル
+ColBitrate=ビットレート
+ColCountry=国
+ColCodec=コーデック
+; ダイアログ
+AddTitle=カスタムステーションを追加
+EditTitle=ステーションを編集
+DeleteTitle=ステーションを削除
+DeleteConfirm=このステーションを削除してもよろしいですか?
+StationName=ステーション名:
+StreamURL=ストリームURL:
+GenrePrompt=ジャンル:
+NameURLRequired=名前とURLは必須です。
+; ステータスメッセージ
+LoadingIcecast=Icecastディレクトリからステーションを読み込んでいます...
+IcecastError=Icecastディレクトリを読み込めませんでした。デフォルトのステーションを使用します。
+NoStationsLoaded=ステーションが読み込まれていません
+StationCount=%d件のステーション
+LoadedStations=%d件のステーションを読み込みました
+ErrorPrefix=エラー:
+; 旧キー
+Name=名前
+URL=URL
+Bitrate=ビットレート
+Description=説明
+Country=国
+
+[OpenURL]
+Title=URLを開く
+Prompt=メディアURLを入力:
+
+[GotoTime]
+Title=時間を指定してジャンプ
+EnterTime=ジャンプする時間を入力:
+Hours=時
+Minutes=分
+Seconds=秒
+Current=現在:
+Duration=長さ:
+
+[VideoAdjust]
+Title=ビデオ調整
+Brightness=明るさ:
+Contrast=コントラスト:
+Saturation=彩度:
+Hue=色相:
+Gamma=ガンマ:
+ResetAll=すべての色をリセット
+
+[CLI]
+; コマンドラインメッセージ
+Usage=使用法
+Arguments=[オプション] [ファイル|URL|フォルダ]
+Description=libmpvバックエンドを使用したクロスプラットフォームマルチメディアプレーヤー。
+Options=オプション
+Examples=例
+MoreInfo=詳細については、次をご覧ください
+EnqueuedTo=既存のインスタンスのキューに追加されました: %s
+SentTo=既存のインスタンスに送信されました: %s
+AlreadyRunning=3nity Mediaは既に実行中です。
+ErrorFileNotFound=エラー: ファイルまたはディレクトリが見つかりません: %s
+ErrorSubNotFound=エラー: 字幕ファイルが見つかりません: %s
