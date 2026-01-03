@@ -4,7 +4,6 @@
 ![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey.svg)
 ![Lazarus](https://img.shields.io/badge/Lazarus-3.6-orange.svg)
 ![libmpv](https://img.shields.io/badge/Powered%20by-libmpv-purple.svg)
-![Version](https://img.shields.io/badge/Version-6.0-green.svg)
 
 **A lightweight, cross-platform media player built with Lazarus/Free Pascal and powered by libmpv.**
 
