@@ -1,0 +1,892 @@
+[Language]
+Name=Filipino - Filipino
+Code=tl
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menu ng File
+File=&File
+FileOpen=&Buksan ang File...
+FileOpenURL=Buksan ang &URL...
+FileOpenClipboard=Buksan mula sa &Clipboard
+FileRecent=&Mga Kamakailang File
+ClearRecentFiles=Burahin ang Mga Kamakailang File
+FileExit=&Lumabas
+
+; Menu ng Pag-playback
+Playback=&Pag-playback
+PlaybackPlayPause=&Play/Pause
+PlaybackStop=&Itigil
+PlaybackPrevious=&Nakaraan
+PlaybackNext=&Susunod
+PlaybackSeekForward=Lumipat &Pasulong
+PlaybackSeekBackward=Lumipat Pa&balik
+PlaybackSpeed=&Bilis
+PlaybackABLoop=A-&B Loop
+PlaybackSetA=Itakda ang &A
+PlaybackSetB=Itakda ang &B
+PlaybackClearAB=&Burahin ang A-B
+PlaybackChapters=Mga &Kabanata
+PlaybackPrevChapter=Nakaraang Kabanata
+PlaybackNextChapter=Susunod na Kabanata
+PlaybackFrameStep=Frame Step Pa&sulong
+PlaybackFrameBack=Frame Step Pa&balik
+
+; Nabigasyon ng DVD
+PlaybackDVD=&Nabigasyon ng DVD
+DVDMenu=&Menu
+DVDUp=&Taas
+DVDDown=&Baba
+DVDLeft=&Kaliwa
+DVDRight=&Kanan
+DVDSelect=&Piliin
+PlaybackDVDTitles=Mga &Titulo ng DVD
+
+; Phase 21: Buksan ang Folder
+FileOpenFolder=Buksan ang F&older...
+
+; Menu ng File para sa DVD/Bluray
+FileOpenDVD=Buksan ang &DVD...
+FileOpenBluray=Buksan ang &Blu-ray...
+
+; Phase 13: Pumunta sa Oras at Kasaysayan
+PlaybackGotoTime=Pu&munta sa Oras...
+ToolsHistory=&Kasaysayan
+
+; Phase 14: System Tray
+TrayShow=&Ipakita/Itago
+TrayPlayPause=&Play/Pause
+TrayStop=&Itigil
+TrayPrevious=&Nakaraan
+TrayNext=&Susunod
+TrayMute=&I-mute
+TrayExit=&Lumabas
+
+; Phase 15: Mga Bookmark
+PlaybackAddBookmark=Magdagdag ng &Bookmark...
+PlaybackBookmarks=Mga Book&mark
+BookmarksTitle=Mga Bookmark
+BookmarksGoto=&Pumunta sa Bookmark
+BookmarksRemove=&Alisin ang Bookmark
+BookmarksClear=&Burahin Lahat ng Bookmark
+BookmarksOpenFolder=Buksan ang &Folder
+BookmarksCopyPath=K&opyahin ang Path
+BookmarksCount=%d mga bookmark
+NoBookmarks=(Walang mga bookmark)
+NoFileLoaded=(Walang file na naka-load)
+BookmarkAdded=Bookmark nadagdag sa %s
+BookmarkJumped=Lumipat sa bookmark sa %s
+AddBookmarkTitle=Magdagdag ng Bookmark
+AddBookmarkPrompt=Ilagay ang pangalan ng bookmark:
+ShowAllBookmarks=Ipakita Lahat ng Bookmark...
+
+; Phase 16: Mga Paborito
+ToolsFavorites=Mga &Paborito
+ToolsAddFavorite=Idagdag sa Mga Pabo&rito
+FavoritesTitle=Mga Paborito
+FavoritesPlay=&I-play
+FavoritesRemove=&Alisin sa Mga Paborito
+FavoritesClear=&Burahin Lahat ng Paborito
+FavoritesOpenFolder=Buksan ang &Folder
+FavoritesCopyPath=K&opyahin ang Path
+FavoritesCount=%d mga paborito
+NoFavorites=(Walang mga paborito)
+AddFavoriteTitle=Idagdag sa Mga Paborito
+AddFavoritePrompt=Ilagay ang pangalan para sa paborito:
+AlreadyFavorite=Nasa mga paborito na
+AddedToFavorites=Naidagdag sa mga paborito: %s
+NoFileToFavorite=Walang file na naka-load para idagdag sa mga paborito
+FavoriteTypeFile=File
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radyo
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Mga format string ng track
+TrackWithTitle=Track %d: %s
+TrackWithLang=Track %d (%s)
+TrackNumber=Track %d
+
+; Mga item ng menu ng bilis
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Mga item ng menu ng sukat
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Track ng subtitle
+SubtitleDisable=I-disable
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&Sleep Timer...
+ToolsSleepTimerActive=&Sleep Timer [%s]
+ToolsCancelTimer=Kanselahin ang &Timer
+
+; Menu ng Audio
+Audio=&Audio
+AudioTrack=&Track ng Audio
+AudioVolumeUp=&Taasan ang Volume
+AudioVolumeDown=&Babaan ang Volume
+AudioMute=&I-mute
+AudioEqualizer=&Equalizer
+AudioDelay=&Delay ng Audio
+AudioDelayPlus=Delay +0.1s
+AudioDelayMinus=Delay -0.1s
+AudioDelayReset=I-reset ang Delay
+AudioNormalize=&Normalize ang Volume
+
+; Menu ng Video
+Video=&Video
+VideoFullscreen=&Buong Screen
+VideoAspect=&Aspect Ratio
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Screenshot
+VideoScreenshotAs=Screenshot &Bilang...
+VideoRotation=&Pag-ikot
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Flip
+VideoFlipH=Flip &Pahalang
+VideoFlipV=Flip Pa&taas
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Papasok
+VideoZoomOut=Zoom Pa&labas
+VideoZoomReset=&I-reset ang Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan &Kaliwa
+VideoPanRight=Pan Ka&nan
+VideoPanUp=Pan &Taas
+VideoPanDown=Pan &Baba
+VideoPanReset=I-r&eset ang Pan
+VideoTrack=&Track ng Video
+VideoColors=Pag-a&ayos ng Kulay
+VideoBrightness=&Liwanag
+VideoContrast=&Contrast
+VideoSaturation=&Saturation
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=I-reset ang Lahat ng &Kulay
+VideoIncrease=Dagdagan (+5)
+VideoDecrease=Bawasan (-5)
+VideoReset=I-reset
+VideoAdjustDialog=Mga Pag-aayos ng &Video...
+
+; Menu ng View
+View=Ti&ngnan
+ViewAlwaysOnTop=&Palaging Nasa Itaas
+ViewFitToVideo=&I-fit ang Window sa Video
+ViewScale=&Sukat ng Window
+
+; Phase 26: Menu ng Visualization
+ViewVisualization=&Visualization
+VisNone=&Wala
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=Susunod na &Mode
+VisNextColor=Susunod na &Color Scheme
+
+; Menu ng Subtitle
+Subtitles=&Mga Subtitle
+SubtitleTrack=&Track ng Subtitle
+SubtitleLoad=&Mag-load ng Subtitle...
+SubtitleDelay=&Delay ng Subtitle
+SubtitleDelayPlus=Delay +0.1s
+SubtitleDelayMinus=Delay -0.1s
+SubtitleDelayReset=I-reset ang Delay
+
+; Menu ng Tools
+Tools=Mga &Kagamitan
+ToolsPlaylist=&Playlist
+ToolsRadios=Mga &Radyo
+ToolsShortcuts=Mga &Keyboard Shortcut...
+ToolsOptions=Mga &Opsyon
+
+; Phase 27: Menu ng Recording
+ToolsRecord=&Mag-record ng Stream...
+ToolsStopRecord=I&tigil ang Pag-record
+ToolsRecording=&Pag-record...
+
+; Menu ng Tulong
+Help=&Tulong
+HelpMediaInfo=Impormasyon ng &Media
+HelpLog=Window ng &Log
+HelpAbout=&Tungkol sa
+
+[Dialog]
+OpenFile=Buksan ang File
+OpenURL=Buksan ang URL
+SaveScreenshot=I-save ang Screenshot
+LoadSubtitle=Mag-load ng Subtitle File
+EnterURL=Ilagay ang URL:
+ResumePlayback=Ipagpatuloy ang Pag-playback
+ResumeFrom=Ipagpatuloy mula sa %s?
+ClearRecentFiles=Burahin ang Mga Kamakailang File
+NoRecentFiles=(Walang mga kamakailang file)
+NoAudioTracks=(Walang mga audio track)
+NoVideoTracks=(Walang mga video track)
+NoSubtitleTracks=(Walang mga subtitle track)
+NoChapters=(Walang mga kabanata)
+OpenDVD=Buksan ang DVD
+OpenBluray=Buksan ang Blu-ray
+OpenFolder=Buksan ang Folder
+
+; Mga filter ng file
+ScreenshotFilter=PNG Image|*.png|JPEG Image|*.jpg|WebP Image|*.webp
+DVDFilter=DVD Folder|*.;*.iso|Lahat ng files (*.*)|*.*
+BlurayFilter=Blu-ray Folder|*.;*.iso|Lahat ng files (*.*)|*.*
+NoDVD=(Walang DVD na naka-load)
+DVDTitle=Titulo %d
+GotoTime=Pumunta sa Oras
+EnterTime=Ilagay ang oras na pupuntahan:
+Hours=Oras
+Minutes=Minuto
+Seconds=Segundo
+Current=Kasalukuyan:
+HistoryTitle=Kasaysayan ng Pag-playback
+HistoryItems=%d mga item sa kasaysayan
+HistoryPlay=&I-play
+HistoryRemove=&Alisin sa Kasaysayan
+HistoryClear=&Burahin Lahat ng Kasaysayan
+HistoryOpenFolder=Buksan ang &Folder
+HistoryCopyPath=K&opyahin ang Path
+ClearHistory=Burahin ang Kasaysayan
+ClearHistoryConfirm=Sigurado ka bang gusto mong burahin ang lahat ng kasaysayan?
+SleepTimerTitle=Sleep Timer
+SleepTimerDescription=Magtakda ng timer para awtomatikong itigil ang pag-playback
+SleepTimerHours=Oras
+SleepTimerMinutes=Minuto
+SleepTimerQuickSet=Mabilisang Pagtatakda
+SleepTimerAction=Kapag nag-expire ang timer
+SleepTimerStopPlayback=Itigil ang pag-playback
+SleepTimerCloseApp=Isara ang application
+SleepTimerShutdown=I-shutdown ang computer
+SleepTimerStart=Simulan ang Timer
+
+[Status]
+Ready=Handa
+Opening=Binubuksan...
+Playing=Nagpe-play
+Paused=Naka-pause
+Stopped=Natigil
+Error=Error
+Buffering=Nagba-buffer...
+Seeking=Lumilipat...
+Recording=Nagre-record
+
+[Message]
+SpeedFormat=Bilis: %.2fx
+VolumeFormat=Volume: %d%%
+BrightnessFormat=Liwanag: %d
+ContrastFormat=Contrast: %d
+SaturationFormat=Saturation: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Na-reset ang mga kulay ng video
+LoopASet=Loop A naitakda sa %s
+LoopBSet=Loop B naitakda sa %s - Aktibo ang Loop
+LoopCleared=Na-clear ang A-B Loop
+SetAFirst=Itakda muna ang point A (pindutin ang L)
+RotationFormat=Pag-ikot: %d°
+FlipHOn=Pahalang na flip: NAKA-ON
+FlipHOff=Pahalang na flip: NAKA-OFF
+FlipVOn=Patayo na flip: NAKA-ON
+FlipVOff=Patayo na flip: NAKA-OFF
+DeinterlaceOn=Deinterlace: NAKA-ON
+DeinterlaceOff=Deinterlace: NAKA-OFF
+AlwaysOnTopOn=Palaging nasa itaas: NAKA-ON
+AlwaysOnTopOff=Palaging nasa itaas: NAKA-OFF
+WindowFitted=Window na-fit sa %dx%d
+WindowScale=Sukat ng window: %.0f%%
+ScreenshotSaved=Na-save ang screenshot: %s
+AudioNormalizeOn=Audio normalization: NAKA-ON
+AudioNormalizeOff=Audio normalization: NAKA-OFF
+AudioDelayFormat=Delay ng audio: %.1f s
+SubtitleDelayFormat=Delay ng subtitle: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Gitna
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Walang video na naka-load
+PlayingFromClipboard=Nagpe-play mula sa clipboard: %s
+ClipboardInvalid=Ang clipboard ay walang valid na URL o path
+ClipboardEmpty=Walang laman ang clipboard o wala itong text
+ResumedAt=Ipinagpatuloy sa %s
+FrameStepForward=Frame step pasulong
+FrameStepBackward=Frame step pabalik
+PreviousChapter=Nakaraang kabanata
+NextChapter=Susunod na kabanata
+PlayingRadio=Nagpe-play ng radyo: %s
+PlayingDVD=Nagpe-play ng DVD: %s
+PlayingBluray=Nagpe-play ng Blu-ray: %s
+DVDTitlePlaying=Titulo ng DVD %d
+SeekTo=Lumilipat sa %s
+MinimizedToTray=Na-minimize sa tray. Mag-double-click para ibalik.
+SleepTimerSet=Naitakda ang sleep timer: %s
+SleepTimerCancelled=Nakansela ang sleep timer
+SleepTimerWarning=Sleep timer: 1 minuto na lang
+SleepTimerFinal=Sleep timer: 10 segundo na lang
+SleepTimerStopped=Sleep timer: Natigil ang pag-playback
+SleepTimerClosing=Sleep timer: Isinasara ang application
+SleepTimerShutdown=Sleep timer: Sino-shutdown ang computer
+SleepTimerExpired=Nag-expire ang Sleep Timer
+ShutdownManual=Mangyaring i-shutdown ang iyong computer nang manual.
+
+; Phase 21: Buksan ang Folder
+FolderOpened=Binuksan ang folder: %d mga file
+NoMediaFound=Walang nahanap na mga media file
+FilesAdded=Naidagdag ang %d mga file sa playlist
+
+; Phase 27: Mga mensahe ng recording
+RecordNeedPlayback=Simulan ang pag-playback bago mag-record.
+RecordingStarted=Nagsimula ang pag-record
+RecordingStopped=Natigil ang pag-record
+
+; Mga karagdagang mensahe ng status
+EndOfPlaylist=Dulo ng playlist
+NoMediaLoaded=Walang media file na kasalukuyang naka-load.
+JumpedToNamed=Lumipat sa: %s
+ChapterFormat=Kabanata %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Bookmark sa %s
+
+[Label]
+Muted=Naka-mute
+
+[Button]
+Play=I-play
+Pause=I-pause
+Stop=Itigil
+Previous=Nakaraan
+Next=Susunod
+Mute=I-mute
+Unmute=I-unmute
+Fullscreen=Buong Screen
+OK=OK
+Cancel=Kanselahin
+Apply=Ilapat
+Close=Isara
+Yes=Oo
+No=Hindi
+
+[Tooltip]
+Play=Play/Pause
+Stop=Itigil ang pag-playback
+Previous=Nakaraang track
+Next=Susunod na track
+Mute=I-toggle ang mute
+Volume=Volume
+Seek=Posisyon ng seek
+Fullscreen=I-toggle ang buong screen
+
+[Playlist]
+Title=Playlist
+Add=Magdagdag
+Remove=Alisin
+Clear=Burahin
+MoveUp=Ilipat Pataas
+MoveDown=Ilipat Pababa
+Shuffle=Shuffle
+Repeat=Ulitin
+Play=I-play
+ShuffleOn=Shuffle: Naka-on
+ShuffleOff=Shuffle: Naka-off
+RepeatOff=Ulitin: Naka-off
+RepeatOne=Ulitin: Isa
+RepeatAll=Ulitin: Lahat
+SavePlaylist=I-save
+LoadPlaylist=Mag-load
+TotalDuration=Kabuuan: %s
+ItemCount=%d mga item
+
+; Phase 22: Mga Pagpapahusay ng Playlist
+Search=Paghahanap:
+FilterPlaceholder=I-filter ang playlist...
+ClearSearch=Burahin
+FilterCount=%d/%d
+RemoveDuplicates=Alisin ang mga &Duplicate
+Properties=Mga &Katangian...
+NoDuplicates=Walang nahanap na mga duplicate.
+DuplicatesFound=Nakahanap ng %d (mga) duplicate. Alisin ba sila?
+RemoveDuplicatesTitle=Alisin ang mga Duplicate
+PropertiesTitle=Mga Katangian ng Playlist
+PropTotalItems=Kabuuang mga item: %d
+PropTotalDuration=Kabuuang tagal: %s
+PropPlayed=Na-play: %d
+PropUnplayed=Hindi pa na-play: %d
+PropTotalSize=Kabuuang laki: %.2f MB
+PropShuffle=Shuffle: %s
+PropRepeat=Ulitin: %s
+On=Naka-on
+Off=Naka-off
+
+; Mga bagong key para sa ApplyLocale
+ClearTitle=Burahin ang Playlist
+ClearConfirm=Sigurado ka bang gusto mong burahin ang playlist?
+NoPlaylist=Walang playlist
+StatusFormat=%d mga item | Kabuuan: %s
+RepeatOne=Ulit. 1
+RepeatAll=Ulit. Lahat
+HintRepeatEnable=I-click para i-enable ang Ulitin Lahat
+HintRepeatOne=Ulitin Isa - I-click para i-disable
+HintRepeatAll=Ulitin Lahat - I-click para sa Ulitin Isa
+HintShuffleRepeat=Shuffle + Ulitin Lahat - I-click para i-disable ang ulitin
+RemoveDuplicatesTitle=Alisin ang mga Duplicate
+NoDuplicates=Walang nahanap na mga duplicate.
+SelectAll=Piliin Lahat
+SelectNone=Walang Pipiliin
+SelectInvert=Baligtarin ang Pagpili
+Sort=Pagsunud-sunurin
+SortByName=Ayon sa Pangalan
+SortByTitle=Ayon sa Titulo
+SortByArtist=Ayon sa Artista
+SortByDuration=Ayon sa Tagal
+SortReverse=Baligtarin
+SortRandom=I-random
+ColTitle=Titulo
+ColDuration=Tagal
+ColArtist=Artista
+ColAlbum=Album
+PlaylistFilter=M3U Playlist|*.m3u|M3U8 Playlist|*.m3u8|PLS Playlist|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Mga Preset:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klasikal
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Vocal
+Reset=I-reset
+Enable=I-enable ang Equalizer
+Save=I-save
+Delete=Burahin
+Ready=Handa
+; Mga button at aksyon
+SavePreset=I-save ang Preset
+DeletePreset=Burahin ang Preset
+SavePresetTitle=I-save ang Preset
+PresetNamePrompt=Pangalan ng preset:
+EnterPresetName=Mangyaring maglagay ng pangalan ng preset.
+OverwritePresetTitle=Patungan ang Preset
+OverwritePresetConfirm=May preset na ng ganitong pangalan. Patungan?
+PresetUpdated=Na-update ang preset: %s
+PresetSaved=Na-save ang preset: %s
+SelectPresetToDelete=Mangyaring pumili ng preset na buburahin.
+CannotDeleteDefault=Hindi mabubura ang mga default na preset.
+DeletePresetTitle=Burahin ang Preset
+DeletePresetConfirm=Sigurado ka bang gusto mong burahin ang preset na ito?
+PresetDeleted=Nabura ang preset
+ResetToFlat=Na-reset ang equalizer sa flat
+PresetApplied=Inilapat ang preset: %s
+
+[Options]
+Title=Mga Opsyon
+General=Pangkalahatan
+Video=Video
+Audio=Audio
+Subtitles=Mga Subtitle
+Cache=Cache
+Language=Wika:
+RestartRequired=Kailangan mag-restart para magkabisa ang mga pagbabago
+
+; Tab ng General - Pag-uugali
+Behavior=Pag-uugali
+SingleInstance=Payagan lang ang isang instance
+AutoPlay=Auto-play ng mga file kapag binuksan
+AutoResume=Ipagpatuloy ang posisyon ng pag-playback
+MinimizeToTray=I-minimize sa system tray
+AutoSavePlaylist=I-save ang playlist sa paglabas
+
+; Tab ng General - OSD
+OSD=On-Screen Display
+ShowOSD=Ipakita ang mga mensahe sa screen
+ShowTrayIcon=Ipakita ang tray icon
+OSDDuration=Tagal ng OSD (ms):
+
+; Tab ng General - Mga Screenshot
+Screenshots=Mga Screenshot
+ScreenshotPath=Folder na pag-i-save:
+ScreenshotFormat=Format:
+
+; Tab ng General - Kasaysayan
+HistorySettings=Kasaysayan
+HistoryEnabled=I-enable ang kasaysayan ng pag-playback
+HistoryMaxItems=Max na mga item:
+
+; Tab ng General - Wika
+LanguageGroup=Wika
+RestartNote=(Kailangan mag-restart para sa mga pagbabago)
+
+; Tab ng Video
+VideoAdjust=Mga Pag-aayos ng Video
+Brightness=Liwanag:
+Contrast=Contrast:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Output ng Video
+Output=Output:
+HWAccel=I-enable ang hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Mode:
+
+; Tab ng Audio
+AudioOutput=Output ng Audio
+OutputDriver=Output driver:
+Device=Device:
+AudioOptions=Mga Opsyon ng Audio
+NormalizeAudio=I-normalize ang volume ng audio
+Channels=Mga Channel:
+
+; Tab ng Subtitle
+UseDefaultSubtitles=Gamitin ang mga default na setting ng subtitle
+Font=Font
+FontName=Font:
+FontSize=Laki:
+FontColor=Kulay:
+Bold=Bold
+Italic=Italic
+Outline=Outline
+OutlineColor=Kulay:
+OutlineSize=Laki:
+Position=Posisyon
+VerticalPosition=Vertical na posisyon:
+SubOptions=Mga Opsyon
+Encoding=Encoding:
+AutoLoadSubs=Awtomatikong mag-load ng mga subtitle file
+
+; Mga babala ng video output
+VOWarningX11=Babala: hindi sinusuportahan ng x11 ang mga pag-aayos ng video (liwanag, contrast, atbp.)
+VOWarningWayland=Babala: Kailangan ng Wayland session. Sinusuportahan ang mga pag-aayos ng video.
+
+; Tab ng Cache
+CacheSettings=Mga Laki ng Cache Buffer (KB)
+CacheDefault=Default na cache:
+CacheLocal=Mga lokal na file:
+CacheNetwork=Mga network file:
+CacheInternet=Mga internet stream:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Tungkol sa
+Version=Bersyon
+Engine=Engine
+Technology=Teknolohiya
+BuildInfo=Impormasyon ng Build
+SystemInfo=Sistema
+Credits=Mga Kredito
+Developer=Developer:
+Author=May-akda
+License=Lisensya
+Website=Website
+GitHub=GitHub
+Description=Isang moderno, magaan na media player
+LicenseText=Ang 3nity Media ay lisensyado sa ilalim ng GPL-2.0\n\nIbig sabihin nito ay malaya ka na:\n  - Gamitin ang software para sa anumang layunin\n  - Pag-aralan at baguhin ang source code\n  - Ipamahagi ang mga kopya ng software\n  - Ipamahagi ang iyong mga pagbabago\n\nSa kondisyon na ang anumang ipinamahalang mga pagbabago\nay lisensyado rin sa ilalim ng GPL-2.0.
+BuildDate=Petsa:
+Target=Target:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Mga Keyboard Shortcut
+Description=I-configure ang mga keyboard shortcut para sa mga aksyon
+Search=Paghahanap:
+PressKey=Pindutin ang isang key...
+ColCategory=Kategorya
+ColAction=Aksyon
+ColShortcut=Shortcut
+Assign=Italaga
+Clear=Burahin
+Reset=I-reset
+ResetAll=I-reset Lahat
+CurrentShortcut=Kasalukuyan: %s
+NoKeyPressed=Mangyaring pindutin muna ang isang key combination.
+Conflict=Conflict: Naitalaga na sa "%s"
+ConfirmReplace=Palitan ang Shortcut
+ReplaceMessage=Ang shortcut na ito ay naitalaga na sa "%s". Gusto mo bang palitan ito?
+ConfirmResetAll=I-reset Lahat ng Shortcut
+ResetAllMessage=Sigurado ka bang gusto mong i-reset ang lahat ng shortcut sa kanilang mga default?
+; Mga pangalan ng aksyon
+ActPlayPause=Play / Pause
+ActStop=Itigil
+ActPrevious=Nakaraan
+ActNext=Susunod
+ActSeekForward=Lumipat Pasulong (10s)
+ActSeekBackward=Lumipat Pabalik (10s)
+ActSeekForward5=Lumipat Pasulong (1 min)
+ActSeekBackward5=Lumipat Pabalik (1 min)
+ActSpeedUp=Pabilisin
+ActSpeedDown=Pabagalin
+ActSpeedReset=I-reset ang Bilis
+ActSetLoopA=Itakda ang Loop Point A
+ActSetLoopB=Itakda ang Loop Point B
+ActClearLoop=Burahin ang A-B Loop
+ActFrameForward=Frame Pasulong
+ActFrameBackward=Frame Pabalik
+ActPrevChapter=Nakaraang Kabanata
+ActNextChapter=Susunod na Kabanata
+ActGotoTime=Pumunta sa Oras
+ActVolumeUp=Taasan ang Volume
+ActVolumeDown=Babaan ang Volume
+ActMute=I-mute / I-unmute
+ActAudioDelayPlus=Delay ng Audio +
+ActAudioDelayMinus=Delay ng Audio -
+ActAudioDelayReset=I-reset ang Delay ng Audio
+ActFullscreen=Buong Screen
+ActRotate=I-rotate ang Video
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom In
+ActZoomOut=Zoom Out
+ActZoomReset=I-reset ang Zoom
+ActAlwaysOnTop=Palaging Nasa Itaas
+ActFitToVideo=I-fit sa Video
+ActScreenshot=Screenshot
+ActVideoAdjust=Mga Pag-aayos ng Video
+ActVisNextMode=Susunod na Visualization Mode
+ActVisNextColor=Susunod na Color Scheme
+ActSubDelayPlus=Delay ng Subtitle +
+ActSubDelayMinus=Delay ng Subtitle -
+ActSubDelayReset=I-reset ang Delay ng Subtitle
+ActDVDMenu=Menu ng DVD
+ActDVDUp=Nabigasyon ng DVD Pataas
+ActDVDDown=Nabigasyon ng DVD Pababa
+ActDVDLeft=Nabigasyon ng DVD Pakaliwa
+ActDVDRight=Nabigasyon ng DVD Pakanan
+ActDVDSelect=Piliin sa DVD
+ActOpenFile=Buksan ang File
+ActOpenURL=Buksan ang URL
+ActPlaylist=Ipakita ang Playlist
+ActQuit=Lumabas
+
+[Log]
+; Phase 25: Window ng Log
+Title=MPV Log
+Command=Utos:
+Clear=Burahin
+Save=I-save...
+Copy=&Kopyahin
+SelectAll=Piliin &Lahat
+SaveTitle=I-save ang Log
+SaveFilter=Mga text file (*.txt)|*.txt|Lahat ng files (*.*)|*.*
+ErrorTitle=Error
+SaveError=Hindi ma-save ang log: %s
+
+[MediaInfo]
+Title=Impormasyon ng Media
+FileTab=File
+VideoTab=Video
+AudioTab=Audio
+MetadataTab=Metadata
+FileName=Pangalan ng File:
+FilePath=Path:
+FileSize=Laki:
+Duration=Tagal:
+Format=Format:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Pixel Format:
+AspectRatio=Aspect Ratio:
+Channels=Mga Channel:
+SampleRate=Sample Rate:
+Language=Wika:
+Property=Katangian
+Value=Halaga
+CopyAll=Kopyahin Lahat
+CopiedToClipboard=Nakopya ang impormasyon ng media sa clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Hindi alam
+NoMetadata=(Walang metadata)
+
+[Bookmarks]
+Title=Mga Bookmark
+Goto=Pumunta sa
+Remove=Alisin
+Clear=Burahin Lahat
+Refresh=I-refresh
+OpenFolder=Buksan ang Folder
+CopyPath=Kopyahin ang Path
+; Mga Kolum
+ColName=Pangalan
+ColFile=File
+ColPosition=Posisyon
+ColCreated=Nilikha
+; Mga Dialog
+ClearTitle=Burahin ang mga Bookmark
+ClearConfirm=Sigurado ka bang gusto mong burahin ang lahat ng bookmark?
+Count=%d (mga) bookmark
+
+[Favorites]
+Title=Mga Paborito
+Play=I-play
+Remove=Alisin
+Clear=Burahin Lahat
+Refresh=I-refresh
+OpenFolder=Buksan ang Folder
+CopyPath=Kopyahin ang Path
+; Mga Kolum
+ColName=Pangalan
+ColType=Uri
+ColPath=Path
+; Mga Uri
+TypeFile=File
+TypeURL=URL
+TypeRadio=Radyo
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Hindi alam
+; Mga Dialog
+ClearTitle=Burahin ang mga Paborito
+ClearConfirm=Sigurado ka bang gusto mong burahin ang lahat ng paborito?
+Count=%d (mga) paborito
+
+[History]
+Title=Kasaysayan ng Pag-playback
+Play=I-play
+Remove=Alisin
+Clear=Burahin Lahat
+Refresh=I-refresh
+OpenFolder=Buksan ang Folder
+CopyPath=Kopyahin ang Path
+; Mga Kolum
+ColFileName=File
+ColPath=Path
+; Mga Dialog
+ClearTitle=Burahin ang Kasaysayan
+ClearConfirm=Sigurado ka bang gusto mong burahin ang lahat ng kasaysayan?
+Count=%d (mga) item
+
+[SleepTimer]
+Title=Sleep Timer
+Description=Magtakda ng timer para awtomatikong itigil ang pag-playback
+Hours=Oras:
+Minutes=Minuto:
+Action=Kapag nag-expire ang timer:
+StopPlayback=Itigil ang pag-playback
+CloseApp=Isara ang application
+Shutdown=I-shutdown ang computer
+QuickSet=Mabilisang pagtatakda:
+15Min=15 min
+30Min=30 min
+1Hour=1 oras
+2Hours=2 oras
+
+[Radios]
+Title=Mga Internet Radio
+Play=I-play
+Add=Magdagdag
+Edit=I-edit
+Delete=Burahin
+Remove=Alisin
+Import=Mag-import
+Export=Mag-export
+Refresh=I-refresh
+Favorite=Paborito
+ShowFavorites=Mga Paborito
+ShowAll=Lahat
+; Filter
+Genre=Genre:
+Search=Paghahanap:
+SearchBtn=Maghanap
+ClearSearch=Burahin
+AllGenres=(Lahat ng Genre)
+; Menu ng konteksto
+AddFavorite=Idagdag sa mga Paborito
+RemoveFavorite=Alisin sa mga Paborito
+AddCustom=Magdagdag ng Custom na Station...
+EditCustom=I-edit ang Station...
+DeleteCustom=Burahin ang Station
+OpenWebsite=Buksan ang Website
+CopyURL=Kopyahin ang URL
+; Mga Kolum
+ColName=Pangalan
+ColGenre=Genre
+ColBitrate=Bitrate
+ColCountry=Bansa
+ColCodec=Codec
+; Mga Dialog
+AddTitle=Magdagdag ng Custom na Station
+EditTitle=I-edit ang Station
+DeleteTitle=Burahin ang Station
+DeleteConfirm=Sigurado ka bang gusto mong burahin ang station na ito?
+StationName=Pangalan ng Station:
+StreamURL=Stream URL:
+GenrePrompt=Genre:
+NameURLRequired=Kailangan ang pangalan at URL.
+; Mga mensahe ng status
+LoadingIcecast=Nag-loload ng mga station mula sa Icecast directory...
+IcecastError=Hindi ma-load ang Icecast directory. Ginagamit ang mga default na station.
+NoStationsLoaded=Walang mga station na na-load
+StationCount=%d mga station
+LoadedStations=Na-load ang %d mga station
+ErrorPrefix=Error:
+; Mga legacy key
+Name=Pangalan
+URL=URL
+Bitrate=Bitrate
+Description=Paglalarawan
+Country=Bansa
+
+[OpenURL]
+Title=Buksan ang URL
+Prompt=Ilagay ang URL ng media:
+
+[GotoTime]
+Title=Pumunta sa Oras
+EnterTime=Ilagay ang oras na pupuntahan:
+Hours=O
+Minutes=M
+Seconds=S
+Current=Kasalukuyan:
+Duration=Tagal:
+
+[VideoAdjust]
+Title=Mga Pag-aayos ng Video
+Brightness=Liwanag:
+Contrast=Contrast:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=I-reset Lahat ng Kulay
+
+[CLI]
+; Mga mensahe ng command line
+Usage=Paggamit
+Arguments=[MGA OPSYON] [FILE|URL|FOLDER]
+Description=Isang cross-platform multimedia player na gumagamit ng libmpv bilang backend.
+Options=MGA OPSYON
+Examples=MGA HALIMBAWA
+MoreInfo=Para sa karagdagang impormasyon, bisitahin
+EnqueuedTo=Idinagdag sa pila ng umiiral na instance: %s
+SentTo=Ipinadala sa umiiral na instance: %s
+AlreadyRunning=Ang 3nity Media ay tumatakbo na.
+ErrorFileNotFound=Error: Hindi nakita ang file o direktoryo: %s
+ErrorSubNotFound=Error: Hindi nakita ang subtitle file: %s

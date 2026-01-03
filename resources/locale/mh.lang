@@ -1,0 +1,892 @@
+[Language]
+Name=Marshallese - Kajin M̧ajeļ
+Code=mh
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Pepa
+FileOpen=&Kōļļap Pepa...
+FileOpenURL=Kōļļap &URL...
+FileOpenClipboard=Kōļļap jān &Clipboard
+FileRecent=Pepa Ko &Lukwōj
+ClearRecentFiles=Karuwainene Pepa Ko Lukwōj
+FileExit=&Etal
+
+; Playback menu
+Playback=&Jerbal
+PlaybackPlayPause=&Jerbal/Joñak
+PlaybackStop=&Kadede
+PlaybackPrevious=&Mokta
+PlaybackNext=&Tok
+PlaybackSeekForward=Pukot &Maan
+PlaybackSeekBackward=Pukot &Likatu
+PlaybackSpeed=&Eddodo
+PlaybackABLoop=A-B &Loop
+PlaybackSetA=Kepaak &A
+PlaybackSetB=Kepaak &B
+PlaybackClearAB=&Karuwainene A-B
+PlaybackChapters=&Beba Ko
+PlaybackPrevChapter=Beba Eo Mokta
+PlaybackNextChapter=Beba Eo Tok
+PlaybackFrameStep=Frame &Maan
+PlaybackFrameBack=Frame &Likatu
+
+; DVD Navigation
+PlaybackDVD=DVD &Kōkalle
+DVDMenu=&Menu
+DVDUp=&Iōñ
+DVDDown=&Iļo̧k
+DVDLeft=&Eọrak
+DVDRight=&Rear
+DVDSelect=&Kāļọk
+PlaybackDVDTitles=DVD &Etan Ko
+
+; Phase 21: Open Folder
+FileOpenFolder=Kōļļap &Folder...
+
+; File menu DVD/Bluray
+FileOpenDVD=Kōļļap &DVD...
+FileOpenBluray=Kōļļap &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Etal ñan Awa...
+ToolsHistory=&Melele Ko Mokta
+
+; Phase 14: System Tray
+TrayShow=&Kwaļọk/Kakije
+TrayPlayPause=&Jerbal/Joñak
+TrayStop=&Kadede
+TrayPrevious=&Mokta
+TrayNext=&Tok
+TrayMute=&Kōkakije
+TrayExit=&Etal
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Kepaak &Kaļọk...
+PlaybackBookmarks=Kaļọk &Ko
+BookmarksTitle=Kaļọk Ko
+BookmarksGoto=&Etal ñan Kaļọk
+BookmarksRemove=&Jolọk Kaļọk
+BookmarksClear=&Karuwainene Aolep Kaļọk
+BookmarksOpenFolder=Kōļļap &Folder
+BookmarksCopyPath=&Kakālọk Iaļ
+BookmarksCount=%d kaļọk ko
+NoBookmarks=(Ejjeļọk kaļọk)
+NoFileLoaded=(Ejjeļọk pepa epād)
+BookmarkAdded=Kaļọk ekepaak ion %s
+BookmarkJumped=Emōj etal ñan kaļọk ion %s
+AddBookmarkTitle=Kepaak Kaļọk
+AddBookmarkPrompt=Kōnnaan etan kaļọk:
+ShowAllBookmarks=Kwaļọk Aolep Kaļọk...
+
+; Phase 16: Favorites
+ToolsFavorites=&Ijoko Emman Ko
+ToolsAddFavorite=Kepaak ñan &Ijoko Emman
+FavoritesTitle=Ijoko Emman Ko
+FavoritesPlay=&Jerbal
+FavoritesRemove=&Jolọk jān Ijoko Emman
+FavoritesClear=&Karuwainene Aolep Ijoko Emman
+FavoritesOpenFolder=Kōļļap &Folder
+FavoritesCopyPath=&Kakālọk Iaļ
+FavoritesCount=%d ijoko emman ko
+NoFavorites=(Ejjeļọk ijoko emman)
+AddFavoriteTitle=Kepaak ñan Ijoko Emman
+AddFavoritePrompt=Kōnnaan etan ijoko emman:
+AlreadyFavorite=Eñin pād ilo ijoko emman
+AddedToFavorites=Ekepaak ñan ijoko emman: %s
+NoFileToFavorite=Ejjeļọk pepa ñan kepaak ñan ijoko emman
+FavoriteTypeFile=Pepa
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Track %d: %s
+TrackWithLang=Track %d (%s)
+TrackNumber=Track %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Kōkadede
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&Taim in Kiki...
+ToolsSleepTimerActive=&Taim in Kiki [%s]
+ToolsCancelTimer=Kōkadede &Taim
+
+; Audio menu
+Audio=&Ainikien
+AudioTrack=Ainikien &Track
+AudioVolumeUp=Būrojak &Iōñ
+AudioVolumeDown=Būrojak &Iļo̧k
+AudioMute=&Kōkakije
+AudioEqualizer=&Equalizer
+AudioDelay=Ainikien &Jokdrik
+AudioDelayPlus=Jokdrik +0.1s
+AudioDelayMinus=Jokdrik -0.1s
+AudioDelayReset=Kōjbarok Jokdrik
+AudioNormalize=&Normalize Būrojak
+
+; Video menu
+Video=&Video
+VideoFullscreen=&Ļapļap Screen
+VideoAspect=&Aspect Ratio
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Pija
+VideoScreenshotAs=Pija &Einwōt...
+VideoRotation=&Rotation
+VideoRotate0=&0° (Ejjeļọk)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Uwaak
+VideoFlipH=Uwaak &Eo̧rak-Rear
+VideoFlipV=Uwaak &Iōñ-Iļo̧k
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Ilōñ
+VideoZoomOut=Zoom &Ilikin
+VideoZoomReset=&Kōjbarok Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan &Eo̧rak
+VideoPanRight=Pan &Rear
+VideoPanUp=Pan &Iōñ
+VideoPanDown=Pan &Iļo̧k
+VideoPanReset=&Kōjbarok Pan
+VideoTrack=Video &Track
+VideoColors=&Kōļā Ko
+VideoBrightness=&Meram
+VideoContrast=&Contrast
+VideoSaturation=&Saturation
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Kōjbarok &Aolep Kōļā
+VideoIncrease=Kōļapļap (+5)
+VideoDecrease=Kōkadiklōk (-5)
+VideoReset=Kōjbarok
+VideoAdjustDialog=Video &Kepaak...
+
+; View menu
+View=&Lale
+ViewAlwaysOnTop=&Innem ion Iōñ
+ViewFitToVideo=&Kepaak Window ñan Video
+ViewScale=Window &Joñan
+
+; Phase 26: Visualization menu
+ViewVisualization=&Kōmaron̄ Lale
+VisNone=&Ejjeļọk
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=&Mode eo̧ Tok
+VisNextColor=&Kōļā eo̧ Tok
+
+; Subtitles menu
+Subtitles=&Likao Ko
+SubtitleTrack=Likao &Track
+SubtitleLoad=&Kōļļap Likao...
+SubtitleDelay=Likao &Jokdrik
+SubtitleDelayPlus=Jokdrik +0.1s
+SubtitleDelayMinus=Jokdrik -0.1s
+SubtitleDelayReset=Kōjbarok Jokdrik
+
+; Tools menu
+Tools=&Jerbal Ko
+ToolsPlaylist=&Playlist
+ToolsRadios=&Radio Ko
+ToolsShortcuts=&Keyboard Shortcuts...
+ToolsOptions=&Kein Kōņaan
+
+; Phase 27: Recording menu
+ToolsRecord=&Record Stream...
+ToolsStopRecord=&Kadede Recording
+ToolsRecording=&Recording...
+
+; Help menu
+Help=&Jibañ
+HelpMediaInfo=&Media Melele
+HelpLog=&Log Window
+HelpAbout=&Melele Kaki
+
+[Dialog]
+OpenFile=Kōļļap Pepa
+OpenURL=Kōļļap URL
+SaveScreenshot=Kōjparok Pija
+LoadSubtitle=Kōļļap Likao Pepa
+EnterURL=Kōnnaan URL:
+ResumePlayback=Kōjbarok Jerbal
+ResumeFrom=Kōjbarok jān %s?
+ClearRecentFiles=Karuwainene Pepa Ko Lukwōj
+NoRecentFiles=(Ejjeļọk pepa ko lukwōj)
+NoAudioTracks=(Ejjeļọk ainikien track ko)
+NoVideoTracks=(Ejjeļọk video track ko)
+NoSubtitleTracks=(Ejjeļọk likao track ko)
+NoChapters=(Ejjeļọk beba ko)
+OpenDVD=Kōļļap DVD
+OpenBluray=Kōļļap Blu-ray
+OpenFolder=Kōļļap Folder
+
+; File filters
+ScreenshotFilter=PNG Pija|*.png|JPEG Pija|*.jpg|WebP Pija|*.webp
+DVDFilter=DVD Folder|*.;*.iso|Aolep pepa (*.*)|*.*
+BlurayFilter=Blu-ray Folder|*.;*.iso|Aolep pepa (*.*)|*.*
+NoDVD=(Ejjeļọk DVD epād)
+DVDTitle=Etan %d
+GotoTime=Etal ñan Awa
+EnterTime=Kōnnaan awa eo̧ etal ñane:
+Hours=Awa
+Minutes=Minit
+Seconds=Jeken
+Current=Kiiō:
+HistoryTitle=Melele Ko in Jerbal
+HistoryItems=%d ijo ko ilo melele
+HistoryPlay=&Jerbal
+HistoryRemove=&Jolọk jān Melele
+HistoryClear=&Karuwainene Aolep Melele
+HistoryOpenFolder=Kōļļap &Folder
+HistoryCopyPath=&Kakālọk Iaļ
+ClearHistory=Karuwainene Melele
+ClearHistoryConfirm=Kwōj kōņaan karuwainene aolep melele?
+SleepTimerTitle=Taim in Kiki
+SleepTimerDescription=Kepaak taim ñan kadede jerbal
+SleepTimerHours=Awa
+SleepTimerMinutes=Minit
+SleepTimerQuickSet=Kepaak Eddodo
+SleepTimerAction=Ñe taim ejumae
+SleepTimerStopPlayback=Kadede jerbal
+SleepTimerCloseApp=Kilōk app
+SleepTimerShutdown=Kadede computer
+SleepTimerStart=Kōjbaroke Taim
+
+[Status]
+Ready=Emōj Peraak
+Opening=Epād kōļļap...
+Playing=Epād jerbal
+Paused=Ejoñak
+Stopped=Ekadede
+Error=Bōd
+Buffering=Epād buffering...
+Seeking=Epād pukot...
+Recording=Epād record
+
+[Message]
+SpeedFormat=Eddodo: %.2fx
+VolumeFormat=Būrojak: %d%%
+BrightnessFormat=Meram: %d
+ContrastFormat=Contrast: %d
+SaturationFormat=Saturation: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Video kōļā emōj kōjbarok
+LoopASet=Loop A ekepaak ion %s
+LoopBSet=Loop B ekepaak ion %s - Loop epād jerbal
+LoopCleared=A-B Loop emōj karuwainene
+SetAFirst=Kepaak ijo A m̧okta (tobrak L)
+RotationFormat=Rotation: %d°
+FlipHOn=Uwaak eo̧rak-rear: ON
+FlipHOff=Uwaak eo̧rak-rear: OFF
+FlipVOn=Uwaak iōñ-iļo̧k: ON
+FlipVOff=Uwaak iōñ-iļo̧k: OFF
+DeinterlaceOn=Deinterlace: ON
+DeinterlaceOff=Deinterlace: OFF
+AlwaysOnTopOn=Innem ion iōñ: ON
+AlwaysOnTopOff=Innem ion iōñ: OFF
+WindowFitted=Window ekepaak ñan %dx%d
+WindowScale=Window joñan: %.0f%%
+ScreenshotSaved=Pija emōj kōjparok: %s
+AudioNormalizeOn=Ainikien normalize: ON
+AudioNormalizeOff=Ainikien normalize: OFF
+AudioDelayFormat=Ainikien jokdrik: %.1f s
+SubtitleDelayFormat=Likao jokdrik: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Lōmānōk
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Ejjeļọk video epād
+PlayingFromClipboard=Epād jerbal jān clipboard: %s
+ClipboardInvalid=Clipboard ejjeļọk URL ak iaļ emman
+ClipboardEmpty=Clipboard ejjeļọk ak ejjeļọk text
+ResumedAt=Ekōjbarok ion %s
+FrameStepForward=Frame maan
+FrameStepBackward=Frame likatu
+PreviousChapter=Beba eo̧ mokta
+NextChapter=Beba eo̧ tok
+PlayingRadio=Epād jerbal radio: %s
+PlayingDVD=Epād jerbal DVD: %s
+PlayingBluray=Epād jerbal Blu-ray: %s
+DVDTitlePlaying=DVD Etan %d
+SeekTo=Epād pukot ñan %s
+MinimizedToTray=Emōj kakadiklōk ñan tray. Tobrak ruo ñan kōjbarok.
+SleepTimerSet=Taim in kiki ekepaak: %s
+SleepTimerCancelled=Taim in kiki emōj kadede
+SleepTimerWarning=Taim in kiki: 1 minit epād
+SleepTimerFinal=Taim in kiki: 10 jeken epād
+SleepTimerStopped=Taim in kiki: Jerbal emōj kadede
+SleepTimerClosing=Taim in kiki: Epād kilōk app
+SleepTimerShutdown=Taim in kiki: Epād kadede computer
+SleepTimerExpired=Taim in Kiki Emōj
+ShutdownManual=Jouj im kadede am computer.
+
+; Phase 21: Open Folder
+FolderOpened=Emōj kōļļap folder: %d pepa
+NoMediaFound=Ejjeļọk media pepa eloe
+FilesAdded=Emōj kepaak %d pepa ñan playlist
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Kōjbaroke jerbal m̧okta jān record.
+RecordingStarted=Record emōj kōjbaroke
+RecordingStopped=Record emōj kadede
+
+; Additional status messages
+EndOfPlaylist=Jemlọk in playlist
+NoMediaLoaded=Ejjeļọk media pepa epād kiiō.
+JumpedToNamed=Emōj etal ñan: %s
+ChapterFormat=Beba %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Kaļọk ion %s
+
+[Label]
+Muted=Ekakije
+
+[Button]
+Play=Jerbal
+Pause=Joñak
+Stop=Kadede
+Previous=Mokta
+Next=Tok
+Mute=Kakije
+Unmute=Kōkakije
+Fullscreen=Ļapļap Screen
+OK=OK
+Cancel=Kadede
+Apply=Kepaak
+Close=Kilōk
+Yes=Aet
+No=Jaab
+
+[Tooltip]
+Play=Jerbal/Joñak
+Stop=Kadede jerbal
+Previous=Track eo̧ mokta
+Next=Track eo̧ tok
+Mute=Kakije/Kōkakije
+Volume=Būrojak
+Seek=Pukot ijo
+Fullscreen=Ļapļap screen
+
+[Playlist]
+Title=Playlist
+Add=Kepaak
+Remove=Jolọk
+Clear=Karuwainene
+MoveUp=Ektak Iōñ
+MoveDown=Ektak Iļo̧k
+Shuffle=Kabuñ
+Repeat=Wōnm̧aan
+Play=Jerbal
+ShuffleOn=Kabuñ: On
+ShuffleOff=Kabuñ: Off
+RepeatOff=Wōnm̧aan: Off
+RepeatOne=Wōnm̧aan: Juon
+RepeatAll=Wōnm̧aan: Aolep
+SavePlaylist=Kōjparok
+LoadPlaylist=Kōļļap
+TotalDuration=Aolep: %s
+ItemCount=%d ijo ko
+
+; Phase 22: Playlist Enhancements
+Search=Pukot:
+FilterPlaceholder=Filter playlist...
+ClearSearch=Karuwainene
+FilterCount=%d/%d
+RemoveDuplicates=Jolọk &Ruo Ko
+Properties=&Joñan...
+NoDuplicates=Ejjeļọk ruo ko eloe.
+DuplicatesFound=Eloe %d ruo ko. Jolọk er?
+RemoveDuplicatesTitle=Jolọk Ruo Ko
+PropertiesTitle=Joñan in Playlist
+PropTotalItems=Aolep ijo: %d
+PropTotalDuration=Aolep joñan: %s
+PropPlayed=Emōj jerbal: %d
+PropUnplayed=Ejjab jerbal: %d
+PropTotalSize=Aolep joñan: %.2f MB
+PropShuffle=Kabuñ: %s
+PropRepeat=Wōnm̧aan: %s
+On=On
+Off=Off
+
+; New keys for ApplyLocale
+ClearTitle=Karuwainene Playlist
+ClearConfirm=Kwōj kōņaan karuwainene playlist?
+NoPlaylist=Ejjeļọk playlist
+StatusFormat=%d ijo | Aolep: %s
+RepeatOne=Wōn. 1
+RepeatAll=Wōn. Aolep
+HintRepeatEnable=Tobrak ñan kōjbaroke Wōnm̧aan Aolep
+HintRepeatOne=Wōnm̧aan Juon - Tobrak ñan kadede
+HintRepeatAll=Wōnm̧aan Aolep - Tobrak ñan Wōnm̧aan Juon
+HintShuffleRepeat=Kabuñ + Wōnm̧aan Aolep - Tobrak ñan kadede wōnm̧aan
+RemoveDuplicatesTitle=Jolọk Ruo Ko
+NoDuplicates=Ejjeļọk ruo ko eloe.
+SelectAll=Kāļọk Aolep
+SelectNone=Kāļọk Ejjeļọk
+SelectInvert=Kein Kāļọk
+Sort=Ekkōnnaan
+SortByName=Kaki Etan
+SortByTitle=Kaki Etan
+SortByArtist=Kaki Ri-jerbal
+SortByDuration=Kaki Joñan
+SortReverse=Kōjerbal Likatu
+SortRandom=Kabuñ
+ColTitle=Etan
+ColDuration=Joñan
+ColArtist=Ri-jerbal
+ColAlbum=Album
+PlaylistFilter=M3U Playlist|*.m3u|M3U8 Playlist|*.m3u8|PLS Playlist|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Preset Ko:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Classical
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Vocal
+Reset=Kōjbarok
+Enable=Kōjbaroke Equalizer
+Save=Kōjparok
+Delete=Jolọk
+Ready=Emōj Peraak
+; Buttons and actions
+SavePreset=Kōjparok Preset
+DeletePreset=Jolọk Preset
+SavePresetTitle=Kōjparok Preset
+PresetNamePrompt=Etan preset:
+EnterPresetName=Jouj im kōnnaan etan preset.
+OverwritePresetTitle=Ko̧ļọk Preset
+OverwritePresetConfirm=Preset kein etan eñin pād. Ko̧ļọk?
+PresetUpdated=Preset emōj ko̧ļọk: %s
+PresetSaved=Preset emōj kōjparok: %s
+SelectPresetToDelete=Jouj im kāļọk preset ñan jolọk.
+CannotDeleteDefault=Ejjab maron̄ jolọk default preset ko.
+DeletePresetTitle=Jolọk Preset
+DeletePresetConfirm=Kwōj kōņaan jolọk preset in?
+PresetDeleted=Preset emōj jolọk
+ResetToFlat=Equalizer emōj kōjbarok ñan flat
+PresetApplied=Preset emōj kepaak: %s
+
+[Options]
+Title=Kein Kōņaan
+General=Aolep
+Video=Video
+Audio=Ainikien
+Subtitles=Likao Ko
+Cache=Cache
+Language=Kajin:
+RestartRequired=Kōjbaroke tok aikuj ñan kepaak
+
+; General tab - Behavior
+Behavior=Wāween
+SingleInstance=Kelet juon wōt instance
+AutoPlay=Auto-jerbal pepa ko ñe epād
+AutoResume=Kōjbarok ijo in jerbal
+MinimizeToTray=Kakadiklōk ñan tray
+AutoSavePlaylist=Kōjparok playlist ñe etal
+
+; General tab - OSD
+OSD=On-Screen Display
+ShowOSD=Kwaļọk on-screen naan ko
+ShowTrayIcon=Kwaļọk tray icon
+OSDDuration=OSD joñan (ms):
+
+; General tab - Screenshots
+Screenshots=Pija Ko
+ScreenshotPath=Kōjparok folder:
+ScreenshotFormat=Format:
+
+; General tab - History
+HistorySettings=Melele Ko
+HistoryEnabled=Kōjbaroke melele in jerbal
+HistoryMaxItems=Aelōñtata ijo:
+
+; General tab - Language
+LanguageGroup=Kajin
+RestartNote=(Kōjbaroke tok aikuj ñan kepaak)
+
+; Video tab
+VideoAdjust=Video Kepaak
+Brightness=Meram:
+Contrast=Contrast:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Video Output
+Output=Output:
+HWAccel=Kōjbaroke hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Mode:
+
+; Audio tab
+AudioOutput=Ainikien Output
+OutputDriver=Output driver:
+Device=Device:
+AudioOptions=Ainikien Kein Kōņaan
+NormalizeAudio=Normalize ainikien būrojak
+Channels=Channel ko:
+
+; Subtitles tab
+UseDefaultSubtitles=Kōjerbal default likao kepaak
+Font=Font
+FontName=Font:
+FontSize=Joñan:
+FontColor=Kōļā:
+Bold=Bold
+Italic=Italic
+Outline=Outline
+OutlineColor=Kōļā:
+OutlineSize=Joñan:
+Position=Ijo
+VerticalPosition=Vertical ijo:
+SubOptions=Kein Kōņaan
+Encoding=Encoding:
+AutoLoadSubs=Auto kōļļap likao pepa ko
+
+; Video output warnings
+VOWarningX11=Katak: x11 ejjab maron̄ video kepaak (meram, contrast, etc.)
+VOWarningWayland=Katak: Aikuj Wayland session. Video kepaak emaron̄.
+
+; Cache tab
+CacheSettings=Cache Buffer Joñan (KB)
+CacheDefault=Default cache:
+CacheLocal=Local pepa:
+CacheNetwork=Network pepa:
+CacheInternet=Internet stream ko:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Melele Kaki
+Version=Version
+Engine=Engine
+Technology=Technology
+BuildInfo=Build Melele
+SystemInfo=System
+Credits=Credits
+Developer=Ri-kōm̧m̧an:
+Author=Ri-ko̧ļọk
+License=License
+Website=Website
+GitHub=GitHub
+Description=Juon media player eo̧ ekka im emman
+LicenseText=3nity Media elicense iuṃwin GPL-2.0\n\nIn mean kwōj maron̄:\n  - Kōjerbal software eo̧ ñan jabdewōt wāween\n  - Katak im kepaak source code eo̧\n  - Kabuñ copy ko an software eo̧\n  - Kabuñ am kepaak ko\n\nIuṃwin condition eo̧ ke jabdewōt kepaak ko kabuñ\nalike elicense iuṃwin GPL-2.0.
+BuildDate=Raan:
+Target=Target:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Keyboard Shortcuts
+Description=Kepaak keyboard shortcuts ñan jerbal ko
+Search=Pukot:
+PressKey=Tobrak juon ki...
+ColCategory=Category
+ColAction=Jerbal
+ColShortcut=Shortcut
+Assign=Kepaak
+Clear=Karuwainene
+Reset=Kōjbarok
+ResetAll=Kōjbarok Aolep
+CurrentShortcut=Kiiō: %s
+NoKeyPressed=Jouj im tobrak ki ko m̧okta.
+Conflict=Ekōņaan: Eñin pād kepaak ñan "%s"
+ConfirmReplace=Ko̧ļọk Shortcut
+ReplaceMessage=Shortcut in eñin pād kepaak ñan "%s". Kwōj kōņaan ko̧ļọk?
+ConfirmResetAll=Kōjbarok Aolep Shortcuts
+ResetAllMessage=Kwōj kōņaan kōjbarok aolep shortcuts ñan defaults?
+; Action names
+ActPlayPause=Jerbal / Joñak
+ActStop=Kadede
+ActPrevious=Mokta
+ActNext=Tok
+ActSeekForward=Pukot Maan (10s)
+ActSeekBackward=Pukot Likatu (10s)
+ActSeekForward5=Pukot Maan (1 min)
+ActSeekBackward5=Pukot Likatu (1 min)
+ActSpeedUp=Eddodo Iōñ
+ActSpeedDown=Eddodo Iļo̧k
+ActSpeedReset=Kōjbarok Eddodo
+ActSetLoopA=Kepaak Loop Ijo A
+ActSetLoopB=Kepaak Loop Ijo B
+ActClearLoop=Karuwainene A-B Loop
+ActFrameForward=Frame Maan
+ActFrameBackward=Frame Likatu
+ActPrevChapter=Beba eo̧ Mokta
+ActNextChapter=Beba eo̧ Tok
+ActGotoTime=Etal ñan Awa
+ActVolumeUp=Būrojak Iōñ
+ActVolumeDown=Būrojak Iļo̧k
+ActMute=Kakije / Kōkakije
+ActAudioDelayPlus=Ainikien Jokdrik +
+ActAudioDelayMinus=Ainikien Jokdrik -
+ActAudioDelayReset=Kōjbarok Ainikien Jokdrik
+ActFullscreen=Ļapļap Screen
+ActRotate=Rotate Video
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom Ilōñ
+ActZoomOut=Zoom Ilikin
+ActZoomReset=Kōjbarok Zoom
+ActAlwaysOnTop=Innem ion Iōñ
+ActFitToVideo=Kepaak ñan Video
+ActScreenshot=Pija
+ActVideoAdjust=Video Kepaak
+ActVisNextMode=Kōmaron̄ Lale Mode eo̧ Tok
+ActVisNextColor=Kōļā eo̧ Tok
+ActSubDelayPlus=Likao Jokdrik +
+ActSubDelayMinus=Likao Jokdrik -
+ActSubDelayReset=Kōjbarok Likao Jokdrik
+ActDVDMenu=DVD Menu
+ActDVDUp=DVD Kōkalle Iōñ
+ActDVDDown=DVD Kōkalle Iļo̧k
+ActDVDLeft=DVD Kōkalle Eo̧rak
+ActDVDRight=DVD Kōkalle Rear
+ActDVDSelect=DVD Kāļọk
+ActOpenFile=Kōļļap Pepa
+ActOpenURL=Kōļļap URL
+ActPlaylist=Kwaļọk Playlist
+ActQuit=Etal
+
+[Log]
+; Phase 25: Log Window
+Title=MPV Log
+Command=Command:
+Clear=Karuwainene
+Save=Kōjparok...
+Copy=&Kakālọk
+SelectAll=Kāļọk &Aolep
+SaveTitle=Kōjparok Log
+SaveFilter=Text pepa (*.txt)|*.txt|Aolep pepa (*.*)|*.*
+ErrorTitle=Bōd
+SaveError=Ejjab maron̄ kōjparok log: %s
+
+[MediaInfo]
+Title=Media Melele
+FileTab=Pepa
+VideoTab=Video
+AudioTab=Ainikien
+MetadataTab=Metadata
+FileName=Etan Pepa:
+FilePath=Iaļ:
+FileSize=Joñan:
+Duration=Joñan Awa:
+Format=Format:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Pixel Format:
+AspectRatio=Aspect Ratio:
+Channels=Channel ko:
+SampleRate=Sample Rate:
+Language=Kajin:
+Property=Property
+Value=Value
+CopyAll=Kakālọk Aolep
+CopiedToClipboard=Media melele emōj kakālọk ñan clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Ejjab jeļā
+NoMetadata=(Ejjeļọk metadata)
+
+[Bookmarks]
+Title=Kaļọk Ko
+Goto=Etal ñan
+Remove=Jolọk
+Clear=Karuwainene Aolep
+Refresh=Kōjbaroke
+OpenFolder=Kōļļap Folder
+CopyPath=Kakālọk Iaļ
+; Columns
+ColName=Etan
+ColFile=Pepa
+ColPosition=Ijo
+ColCreated=Emōj Kōm̧m̧an
+; Dialogs
+ClearTitle=Karuwainene Kaļọk Ko
+ClearConfirm=Kwōj kōņaan karuwainene aolep kaļọk ko?
+Count=%d kaļọk(s)
+
+[Favorites]
+Title=Ijoko Emman Ko
+Play=Jerbal
+Remove=Jolọk
+Clear=Karuwainene Aolep
+Refresh=Kōjbaroke
+OpenFolder=Kōļļap Folder
+CopyPath=Kakālọk Iaļ
+; Columns
+ColName=Etan
+ColType=Type
+ColPath=Iaļ
+; Types
+TypeFile=Pepa
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Ejjab jeļā
+; Dialogs
+ClearTitle=Karuwainene Ijoko Emman Ko
+ClearConfirm=Kwōj kōņaan karuwainene aolep ijoko emman ko?
+Count=%d ijoko emman(s)
+
+[History]
+Title=Melele Ko in Jerbal
+Play=Jerbal
+Remove=Jolọk
+Clear=Karuwainene Aolep
+Refresh=Kōjbaroke
+OpenFolder=Kōļļap Folder
+CopyPath=Kakālọk Iaļ
+; Columns
+ColFileName=Pepa
+ColPath=Iaļ
+; Dialogs
+ClearTitle=Karuwainene Melele Ko
+ClearConfirm=Kwōj kōņaan karuwainene aolep melele ko?
+Count=%d ijo(s)
+
+[SleepTimer]
+Title=Taim in Kiki
+Description=Kepaak taim ñan kadede jerbal
+Hours=Awa:
+Minutes=Minit:
+Action=Ñe taim ejumae:
+StopPlayback=Kadede jerbal
+CloseApp=Kilōk app
+Shutdown=Kadede computer
+QuickSet=Kepaak eddodo:
+15Min=15 minit
+30Min=30 minit
+1Hour=1 awa
+2Hours=2 awa
+
+[Radios]
+Title=Internet Radio Ko
+Play=Jerbal
+Add=Kepaak
+Edit=Kepaak
+Delete=Jolọk
+Remove=Jolọk
+Import=Import
+Export=Export
+Refresh=Kōjbaroke
+Favorite=Ijoko Emman
+ShowFavorites=Ijoko Emman
+ShowAll=Aolep
+; Filter
+Genre=Genre:
+Search=Pukot:
+SearchBtn=Pukot
+ClearSearch=Karuwainene
+AllGenres=(Aolep Genre)
+; Context menu
+AddFavorite=Kepaak ñan Ijoko Emman
+RemoveFavorite=Jolọk jān Ijoko Emman
+AddCustom=Kepaak Custom Station...
+EditCustom=Kepaak Station...
+DeleteCustom=Jolọk Station
+OpenWebsite=Kōļļap Website
+CopyURL=Kakālọk URL
+; Columns
+ColName=Etan
+ColGenre=Genre
+ColBitrate=Bitrate
+ColCountry=Aelōñ
+ColCodec=Codec
+; Dialogs
+AddTitle=Kepaak Custom Station
+EditTitle=Kepaak Station
+DeleteTitle=Jolọk Station
+DeleteConfirm=Kwōj kōņaan jolọk station in?
+StationName=Etan Station:
+StreamURL=Stream URL:
+GenrePrompt=Genre:
+NameURLRequired=Etan im URL aikuj.
+; Status messages
+LoadingIcecast=Epād kōļļap station ko jān Icecast directory...
+IcecastError=Ejjab maron̄ kōļļap Icecast directory. Epād kōjerbal default station ko.
+NoStationsLoaded=Ejjeļọk station ko epād
+StationCount=%d station ko
+LoadedStations=Emōj kōļļap %d station ko
+ErrorPrefix=Bōd:
+; Legacy keys
+Name=Etan
+URL=URL
+Bitrate=Bitrate
+Description=Melele
+Country=Aelōñ
+
+[OpenURL]
+Title=Kōļļap URL
+Prompt=Kōnnaan media URL:
+
+[GotoTime]
+Title=Etal ñan Awa
+EnterTime=Kōnnaan awa eo̧ etal ñane:
+Hours=A
+Minutes=M
+Seconds=J
+Current=Kiiō:
+Duration=Joñan:
+
+[VideoAdjust]
+Title=Video Kepaak
+Brightness=Meram:
+Contrast=Contrast:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Kōjbarok Aolep Kōļā
+
+[CLI]
+; Naan ko an command line
+Usage=Jerbal
+Arguments=[KEIN ṂŌṆĀ] [FILE|URL|FOLDER]
+Description=Juon multimedia player ñan aolep platform ej jerbal kōn libmpv.
+Options=KEIN ṂŌṆĀ
+Examples=WAANJOÑAK KO
+MoreInfo=Ñan lōñ lōñ melele, itok ñan
+EnqueuedTo=Ej bōk ñan laen in instance eo ej pād: %s
+SentTo=Ej kadriklọk ñan instance eo ej pād: %s
+AlreadyRunning=3nity Media ej jerbal kiiō.
+ErrorFileNotFound=Bōd: Ejjelọk file ak folder: %s
+ErrorSubNotFound=Bōd: Ejjelọk subtitle file: %s

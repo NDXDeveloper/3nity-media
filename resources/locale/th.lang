@@ -1,0 +1,892 @@
+[Language]
+Name=Thai - ไทย
+Code=th
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; เมนูไฟล์
+File=&ไฟล์
+FileOpen=&เปิดไฟล์...
+FileOpenURL=เปิด &URL...
+FileOpenClipboard=เปิดจาก&คลิปบอร์ด
+FileRecent=ไฟล์&ล่าสุด
+ClearRecentFiles=ล้างรายการไฟล์ล่าสุด
+FileExit=อ&อก
+
+; เมนูเล่น
+Playback=&เล่น
+PlaybackPlayPause=&เล่น/หยุดชั่วคราว
+PlaybackStop=&หยุด
+PlaybackPrevious=ก่อ&นหน้า
+PlaybackNext=&ถัดไป
+PlaybackSeekForward=เลื่อน&ไปข้างหน้า
+PlaybackSeekBackward=เลื่อน&ไปข้างหลัง
+PlaybackSpeed=&ความเร็ว
+PlaybackABLoop=วนซ้ำ A-&B
+PlaybackSetA=ตั้ง &A
+PlaybackSetB=ตั้ง &B
+PlaybackClearAB=&ล้าง A-B
+PlaybackChapters=&บท
+PlaybackPrevChapter=บทก่อนหน้า
+PlaybackNextChapter=บทถัดไป
+PlaybackFrameStep=เฟรมถัด&ไป
+PlaybackFrameBack=เฟรมก่อน&หน้า
+
+; นำทาง DVD
+PlaybackDVD=&นำทาง DVD
+DVDMenu=&เมนู
+DVDUp=&ขึ้น
+DVDDown=&ลง
+DVDLeft=&ซ้าย
+DVDRight=&ขวา
+DVDSelect=&เลือก
+PlaybackDVDTitles=&ไตเติ้ล DVD
+
+; ระยะที่ 21: เปิดโฟลเดอร์
+FileOpenFolder=เปิดโ&ฟลเดอร์...
+
+; เมนูไฟล์ DVD/Bluray
+FileOpenDVD=เปิด &DVD...
+FileOpenBluray=เปิด &Blu-ray...
+
+; ระยะที่ 13: ไปยังเวลาและประวัติ
+PlaybackGotoTime=&ไปยังเวลา...
+ToolsHistory=&ประวัติ
+
+; ระยะที่ 14: ถาดระบบ
+TrayShow=&แสดง/ซ่อน
+TrayPlayPause=&เล่น/หยุดชั่วคราว
+TrayStop=&หยุด
+TrayPrevious=ก่อ&นหน้า
+TrayNext=&ถัดไป
+TrayMute=&ปิดเสียง
+TrayExit=อ&อก
+
+; ระยะที่ 15: บุ๊คมาร์ค
+PlaybackAddBookmark=เพิ่ม&บุ๊คมาร์ค...
+PlaybackBookmarks=บุ๊ค&มาร์ค
+BookmarksTitle=บุ๊คมาร์ค
+BookmarksGoto=&ไปยังบุ๊คมาร์ค
+BookmarksRemove=&ลบบุ๊คมาร์ค
+BookmarksClear=&ล้างบุ๊คมาร์คทั้งหมด
+BookmarksOpenFolder=เปิด&โฟลเดอร์
+BookmarksCopyPath=&คัดลอกพาธ
+BookmarksCount=บุ๊คมาร์ค %d รายการ
+NoBookmarks=(ไม่มีบุ๊คมาร์ค)
+NoFileLoaded=(ไม่มีไฟล์ที่โหลด)
+BookmarkAdded=เพิ่มบุ๊คมาร์คที่ %s
+BookmarkJumped=ข้ามไปยังบุ๊คมาร์คที่ %s
+AddBookmarkTitle=เพิ่มบุ๊คมาร์ค
+AddBookmarkPrompt=ใส่ชื่อบุ๊คมาร์ค:
+ShowAllBookmarks=แสดงบุ๊คมาร์คทั้งหมด...
+
+; ระยะที่ 16: รายการโปรด
+ToolsFavorites=&รายการโปรด
+ToolsAddFavorite=เพิ่มไปยังรายกา&รโปรด
+FavoritesTitle=รายการโปรด
+FavoritesPlay=&เล่น
+FavoritesRemove=&ลบจากรายการโปรด
+FavoritesClear=&ล้างรายการโปรดทั้งหมด
+FavoritesOpenFolder=เปิด&โฟลเดอร์
+FavoritesCopyPath=&คัดลอกพาธ
+FavoritesCount=รายการโปรด %d รายการ
+NoFavorites=(ไม่มีรายการโปรด)
+AddFavoriteTitle=เพิ่มไปยังรายการโปรด
+AddFavoritePrompt=ใส่ชื่อสำหรับรายการโปรด:
+AlreadyFavorite=อยู่ในรายการโปรดแล้ว
+AddedToFavorites=เพิ่มไปยังรายการโปรด: %s
+NoFileToFavorite=ไม่มีไฟล์ที่โหลดเพื่อเพิ่มไปยังรายการโปรด
+FavoriteTypeFile=ไฟล์
+FavoriteTypeURL=URL
+FavoriteTypeRadio=วิทยุ
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; รูปแบบแทร็ค
+TrackWithTitle=แทร็ค %d: %s
+TrackWithLang=แทร็ค %d (%s)
+TrackNumber=แทร็ค %d
+
+; รายการเมนูความเร็ว
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; รายการเมนูขนาด
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; แทร็คคำบรรยาย
+SubtitleDisable=ปิดใช้งาน
+
+; ระยะที่ 17: ตั้งเวลานอน
+ToolsSleepTimer=&ตั้งเวลานอน...
+ToolsSleepTimerActive=&ตั้งเวลานอน [%s]
+ToolsCancelTimer=ยกเลิก&ตัวตั้งเวลา
+
+; เมนูเสียง
+Audio=&เสียง
+AudioTrack=&แทร็คเสียง
+AudioVolumeUp=เพิ่ม&ระดับเสียง
+AudioVolumeDown=ลด&ระดับเสียง
+AudioMute=&ปิดเสียง
+AudioEqualizer=&อีควอไลเซอร์
+AudioDelay=&หน่วงเสียง
+AudioDelayPlus=หน่วง +0.1 วินาที
+AudioDelayMinus=หน่วง -0.1 วินาที
+AudioDelayReset=รีเซ็ตการหน่วง
+AudioNormalize=&ปรับระดับเสียงให้เท่ากัน
+
+; เมนูวิดีโอ
+Video=&วิดีโอ
+VideoFullscreen=&เต็มจอ
+VideoAspect=&อัตราส่วนภาพ
+VideoAspectAuto=&อัตโนมัติ
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&จับภาพหน้าจอ
+VideoScreenshotAs=จับภาพหน้าจอ&เป็น...
+VideoRotation=&หมุน
+VideoRotate0=&0° (ปกติ)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&พลิก
+VideoFlipH=พลิก&แนวนอน
+VideoFlipV=พลิก&แนวตั้ง
+VideoDeinterlace=&ดีอินเตอร์เลซ
+VideoZoom=&ซูม
+VideoZoomIn=ซูม&เข้า
+VideoZoomOut=ซูม&ออก
+VideoZoomReset=&รีเซ็ตซูม
+VideoPan=&แพน
+VideoPanLeft=แพน&ซ้าย
+VideoPanRight=แพน&ขวา
+VideoPanUp=แพน&ขึ้น
+VideoPanDown=แพน&ลง
+VideoPanReset=รี&เซ็ตแพน
+VideoTrack=&แทร็ควิดีโอ
+VideoColors=&ปรับสี
+VideoBrightness=&ความสว่าง
+VideoContrast=&คอนทราสต์
+VideoSaturation=&ความอิ่มสี
+VideoHue=&โทนสี
+VideoGamma=&แกมม่า
+VideoColorsReset=รีเซ็ต&สีทั้งหมด
+VideoIncrease=เพิ่ม (+5)
+VideoDecrease=ลด (-5)
+VideoReset=รีเซ็ต
+VideoAdjustDialog=&ปรับแต่งวิดีโอ...
+
+; เมนูมุมมอง
+View=มุม&มอง
+ViewAlwaysOnTop=&อยู่ด้านบนเสมอ
+ViewFitToVideo=&ปรับหน้าต่างให้พอดีกับวิดีโอ
+ViewScale=&ขนาดหน้าต่าง
+
+; ระยะที่ 26: เมนูวิชวลไลเซชั่น
+ViewVisualization=&วิชวลไลเซชั่น
+VisNone=&ไม่มี
+VisSpectrum=&สเปกตรัมอนาไลเซอร์
+VisWaveform=&เวฟฟอร์ม
+VisVector=&เวกเตอร์สโคป
+VisVolume=&วียูมิเตอร์
+VisNextMode=&โหมดถัดไป
+VisNextColor=&ชุดสีถัดไป
+
+; เมนูคำบรรยาย
+Subtitles=&คำบรรยาย
+SubtitleTrack=&แทร็คคำบรรยาย
+SubtitleLoad=&โหลดคำบรรยาย...
+SubtitleDelay=&หน่วงคำบรรยาย
+SubtitleDelayPlus=หน่วง +0.1 วินาที
+SubtitleDelayMinus=หน่วง -0.1 วินาที
+SubtitleDelayReset=รีเซ็ตการหน่วง
+
+; เมนูเครื่องมือ
+Tools=&เครื่องมือ
+ToolsPlaylist=&เพลย์ลิสต์
+ToolsRadios=&วิทยุ
+ToolsShortcuts=&ปุ่มลัด...
+ToolsOptions=&ตัวเลือก
+
+; ระยะที่ 27: เมนูบันทึก
+ToolsRecord=&บันทึกสตรีม...
+ToolsStopRecord=ห&ยุดบันทึก
+ToolsRecording=&กำลังบันทึก...
+
+; เมนูช่วยเหลือ
+Help=&ช่วยเหลือ
+HelpMediaInfo=&ข้อมูลสื่อ
+HelpLog=&หน้าต่างบันทึก
+HelpAbout=&เกี่ยวกับ
+
+[Dialog]
+OpenFile=เปิดไฟล์
+OpenURL=เปิด URL
+SaveScreenshot=บันทึกภาพหน้าจอ
+LoadSubtitle=โหลดไฟล์คำบรรยาย
+EnterURL=ใส่ URL:
+ResumePlayback=เล่นต่อ
+ResumeFrom=เล่นต่อจาก %s?
+ClearRecentFiles=ล้างรายการไฟล์ล่าสุด
+NoRecentFiles=(ไม่มีไฟล์ล่าสุด)
+NoAudioTracks=(ไม่มีแทร็คเสียง)
+NoVideoTracks=(ไม่มีแทร็ควิดีโอ)
+NoSubtitleTracks=(ไม่มีแทร็คคำบรรยาย)
+NoChapters=(ไม่มีบท)
+OpenDVD=เปิด DVD
+OpenBluray=เปิด Blu-ray
+OpenFolder=เปิดโฟลเดอร์
+
+; ตัวกรองไฟล์
+ScreenshotFilter=รูปภาพ PNG|*.png|รูปภาพ JPEG|*.jpg|รูปภาพ WebP|*.webp
+DVDFilter=โฟลเดอร์ DVD|*.;*.iso|ไฟล์ทั้งหมด (*.*)|*.*
+BlurayFilter=โฟลเดอร์ Blu-ray|*.;*.iso|ไฟล์ทั้งหมด (*.*)|*.*
+NoDVD=(ไม่มี DVD ที่โหลด)
+DVDTitle=ไตเติ้ล %d
+GotoTime=ไปยังเวลา
+EnterTime=ใส่เวลาที่ต้องการข้าม:
+Hours=ชั่วโมง
+Minutes=นาที
+Seconds=วินาที
+Current=ปัจจุบัน:
+HistoryTitle=ประวัติการเล่น
+HistoryItems=%d รายการในประวัติ
+HistoryPlay=&เล่น
+HistoryRemove=&ลบจากประวัติ
+HistoryClear=&ล้างประวัติทั้งหมด
+HistoryOpenFolder=เปิด&โฟลเดอร์
+HistoryCopyPath=&คัดลอกพาธ
+ClearHistory=ล้างประวัติ
+ClearHistoryConfirm=คุณแน่ใจหรือไม่ว่าต้องการล้างประวัติทั้งหมด?
+SleepTimerTitle=ตั้งเวลานอน
+SleepTimerDescription=ตั้งเวลาเพื่อหยุดเล่นอัตโนมัติ
+SleepTimerHours=ชั่วโมง
+SleepTimerMinutes=นาที
+SleepTimerQuickSet=ตั้งเร็ว
+SleepTimerAction=เมื่อหมดเวลา
+SleepTimerStopPlayback=หยุดเล่น
+SleepTimerCloseApp=ปิดแอปพลิเคชัน
+SleepTimerShutdown=ปิดเครื่องคอมพิวเตอร์
+SleepTimerStart=เริ่มตั้งเวลา
+
+[Status]
+Ready=พร้อม
+Opening=กำลังเปิด...
+Playing=กำลังเล่น
+Paused=หยุดชั่วคราว
+Stopped=หยุด
+Error=ข้อผิดพลาด
+Buffering=กำลังบัฟเฟอร์...
+Seeking=กำลังเลื่อน...
+Recording=กำลังบันทึก
+
+[Message]
+SpeedFormat=ความเร็ว: %.2fx
+VolumeFormat=ระดับเสียง: %d%%
+BrightnessFormat=ความสว่าง: %d
+ContrastFormat=คอนทราสต์: %d
+SaturationFormat=ความอิ่มสี: %d
+HueFormat=โทนสี: %d
+GammaFormat=แกมม่า: %d
+ColorsReset=รีเซ็ตสีวิดีโอแล้ว
+LoopASet=ตั้งจุด A ที่ %s
+LoopBSet=ตั้งจุด B ที่ %s - เปิดใช้วนซ้ำ
+LoopCleared=ล้างการวนซ้ำ A-B แล้ว
+SetAFirst=ตั้งจุด A ก่อน (กด L)
+RotationFormat=หมุน: %d°
+FlipHOn=พลิกแนวนอน: เปิด
+FlipHOff=พลิกแนวนอน: ปิด
+FlipVOn=พลิกแนวตั้ง: เปิด
+FlipVOff=พลิกแนวตั้ง: ปิด
+DeinterlaceOn=ดีอินเตอร์เลซ: เปิด
+DeinterlaceOff=ดีอินเตอร์เลซ: ปิด
+AlwaysOnTopOn=อยู่ด้านบนเสมอ: เปิด
+AlwaysOnTopOff=อยู่ด้านบนเสมอ: ปิด
+WindowFitted=ปรับหน้าต่างเป็น %dx%d
+WindowScale=ขนาดหน้าต่าง: %.0f%%
+ScreenshotSaved=บันทึกภาพหน้าจอ: %s
+AudioNormalizeOn=ปรับระดับเสียงให้เท่ากัน: เปิด
+AudioNormalizeOff=ปรับระดับเสียงให้เท่ากัน: ปิด
+AudioDelayFormat=หน่วงเสียง: %.1f วินาที
+SubtitleDelayFormat=หน่วงคำบรรยาย: %.1f วินาที
+ZoomFormat=ซูม: %.0f%%
+PanCenter=แพน: กลาง
+PanFormat=แพน: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=ไม่มีวิดีโอที่โหลด
+PlayingFromClipboard=เล่นจากคลิปบอร์ด: %s
+ClipboardInvalid=คลิปบอร์ดไม่มี URL หรือพาธที่ถูกต้อง
+ClipboardEmpty=คลิปบอร์ดว่างเปล่าหรือไม่มีข้อความ
+ResumedAt=เล่นต่อที่ %s
+FrameStepForward=เฟรมถัดไป
+FrameStepBackward=เฟรมก่อนหน้า
+PreviousChapter=บทก่อนหน้า
+NextChapter=บทถัดไป
+PlayingRadio=กำลังเล่นวิทยุ: %s
+PlayingDVD=กำลังเล่น DVD: %s
+PlayingBluray=กำลังเล่น Blu-ray: %s
+DVDTitlePlaying=ไตเติ้ล DVD %d
+SeekTo=กำลังเลื่อนไปที่ %s
+MinimizedToTray=ย่อลงในถาด ดับเบิลคลิกเพื่อกู้คืน
+SleepTimerSet=ตั้งเวลานอน: %s
+SleepTimerCancelled=ยกเลิกตั้งเวลานอน
+SleepTimerWarning=ตั้งเวลานอน: เหลืออีก 1 นาที
+SleepTimerFinal=ตั้งเวลานอน: เหลืออีก 10 วินาที
+SleepTimerStopped=ตั้งเวลานอน: หยุดเล่นแล้ว
+SleepTimerClosing=ตั้งเวลานอน: กำลังปิดแอปพลิเคชัน
+SleepTimerShutdown=ตั้งเวลานอน: กำลังปิดเครื่องคอมพิวเตอร์
+SleepTimerExpired=หมดเวลานอนแล้ว
+ShutdownManual=กรุณาปิดเครื่องคอมพิวเตอร์ด้วยตนเอง
+
+; ระยะที่ 21: เปิดโฟลเดอร์
+FolderOpened=เปิดโฟลเดอร์: %d ไฟล์
+NoMediaFound=ไม่พบไฟล์สื่อ
+FilesAdded=เพิ่ม %d ไฟล์ไปยังเพลย์ลิสต์
+
+; ระยะที่ 27: ข้อความบันทึก
+RecordNeedPlayback=เริ่มเล่นก่อนบันทึก
+RecordingStarted=เริ่มบันทึกแล้ว
+RecordingStopped=หยุดบันทึกแล้ว
+
+; ข้อความสถานะเพิ่มเติม
+EndOfPlaylist=สิ้นสุดเพลย์ลิสต์
+NoMediaLoaded=ไม่มีไฟล์สื่อที่โหลดในขณะนี้
+JumpedToNamed=ข้ามไปยัง: %s
+ChapterFormat=บท %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=บุ๊คมาร์คที่ %s
+
+[Label]
+Muted=ปิดเสียง
+
+[Button]
+Play=เล่น
+Pause=หยุดชั่วคราว
+Stop=หยุด
+Previous=ก่อนหน้า
+Next=ถัดไป
+Mute=ปิดเสียง
+Unmute=เปิดเสียง
+Fullscreen=เต็มจอ
+OK=ตกลง
+Cancel=ยกเลิก
+Apply=นำไปใช้
+Close=ปิด
+Yes=ใช่
+No=ไม่
+
+[Tooltip]
+Play=เล่น/หยุดชั่วคราว
+Stop=หยุดเล่น
+Previous=แทร็คก่อนหน้า
+Next=แทร็คถัดไป
+Mute=สลับปิดเสียง
+Volume=ระดับเสียง
+Seek=ตำแหน่งเลื่อน
+Fullscreen=สลับเต็มจอ
+
+[Playlist]
+Title=เพลย์ลิสต์
+Add=เพิ่ม
+Remove=ลบ
+Clear=ล้าง
+MoveUp=เลื่อนขึ้น
+MoveDown=เลื่อนลง
+Shuffle=สุ่ม
+Repeat=เล่นซ้ำ
+Play=เล่น
+ShuffleOn=สุ่ม: เปิด
+ShuffleOff=สุ่ม: ปิด
+RepeatOff=เล่นซ้ำ: ปิด
+RepeatOne=เล่นซ้ำ: หนึ่ง
+RepeatAll=เล่นซ้ำ: ทั้งหมด
+SavePlaylist=บันทึก
+LoadPlaylist=โหลด
+TotalDuration=รวม: %s
+ItemCount=%d รายการ
+
+; ระยะที่ 22: การปรับปรุงเพลย์ลิสต์
+Search=ค้นหา:
+FilterPlaceholder=กรองเพลย์ลิสต์...
+ClearSearch=ล้าง
+FilterCount=%d/%d
+RemoveDuplicates=ลบ&รายการซ้ำ
+Properties=คุณ&สมบัติ...
+NoDuplicates=ไม่พบรายการซ้ำ
+DuplicatesFound=พบรายการซ้ำ %d รายการ ลบหรือไม่?
+RemoveDuplicatesTitle=ลบรายการซ้ำ
+PropertiesTitle=คุณสมบัติเพลย์ลิสต์
+PropTotalItems=รายการทั้งหมด: %d
+PropTotalDuration=ระยะเวลารวม: %s
+PropPlayed=เล่นแล้ว: %d
+PropUnplayed=ยังไม่เล่น: %d
+PropTotalSize=ขนาดรวม: %.2f MB
+PropShuffle=สุ่ม: %s
+PropRepeat=เล่นซ้ำ: %s
+On=เปิด
+Off=ปิด
+
+; คีย์ใหม่สำหรับ ApplyLocale
+ClearTitle=ล้างเพลย์ลิสต์
+ClearConfirm=คุณแน่ใจหรือไม่ว่าต้องการล้างเพลย์ลิสต์?
+NoPlaylist=ไม่มีเพลย์ลิสต์
+StatusFormat=%d รายการ | รวม: %s
+RepeatOne=ซ้ำ 1
+RepeatAll=ซ้ำทั้งหมด
+HintRepeatEnable=คลิกเพื่อเปิดใช้เล่นซ้ำทั้งหมด
+HintRepeatOne=เล่นซ้ำหนึ่ง - คลิกเพื่อปิด
+HintRepeatAll=เล่นซ้ำทั้งหมด - คลิกเพื่อเล่นซ้ำหนึ่ง
+HintShuffleRepeat=สุ่ม + เล่นซ้ำทั้งหมด - คลิกเพื่อปิดเล่นซ้ำ
+RemoveDuplicatesTitle=ลบรายการซ้ำ
+NoDuplicates=ไม่พบรายการซ้ำ
+SelectAll=เลือกทั้งหมด
+SelectNone=ไม่เลือก
+SelectInvert=กลับการเลือก
+Sort=เรียง
+SortByName=ตามชื่อ
+SortByTitle=ตามชื่อเรื่อง
+SortByArtist=ตามศิลปิน
+SortByDuration=ตามระยะเวลา
+SortReverse=กลับลำดับ
+SortRandom=สุ่ม
+ColTitle=ชื่อเรื่อง
+ColDuration=ระยะเวลา
+ColArtist=ศิลปิน
+ColAlbum=อัลบั้ม
+PlaylistFilter=เพลย์ลิสต์ M3U|*.m3u|เพลย์ลิสต์ M3U8|*.m3u8|เพลย์ลิสต์ PLS|*.pls
+
+[Equalizer]
+Title=อีควอไลเซอร์
+Presets=พรีเซ็ต:
+Preamp=พรีแอมป์:
+Flat=แบน
+Rock=ร็อค
+Pop=ป็อป
+Jazz=แจ๊ส
+Classical=คลาสสิก
+BassBoost=เพิ่มเบส
+TrebleBoost=เพิ่มเสียงแหลม
+Vocal=เสียงร้อง
+Reset=รีเซ็ต
+Enable=เปิดใช้อีควอไลเซอร์
+Save=บันทึก
+Delete=ลบ
+Ready=พร้อม
+; ปุ่มและการกระทำ
+SavePreset=บันทึกพรีเซ็ต
+DeletePreset=ลบพรีเซ็ต
+SavePresetTitle=บันทึกพรีเซ็ต
+PresetNamePrompt=ชื่อพรีเซ็ต:
+EnterPresetName=กรุณาใส่ชื่อพรีเซ็ต
+OverwritePresetTitle=เขียนทับพรีเซ็ต
+OverwritePresetConfirm=มีพรีเซ็ตชื่อนี้อยู่แล้ว ต้องการเขียนทับหรือไม่?
+PresetUpdated=อัปเดตพรีเซ็ต: %s
+PresetSaved=บันทึกพรีเซ็ต: %s
+SelectPresetToDelete=กรุณาเลือกพรีเซ็ตที่จะลบ
+CannotDeleteDefault=ไม่สามารถลบพรีเซ็ตเริ่มต้นได้
+DeletePresetTitle=ลบพรีเซ็ต
+DeletePresetConfirm=คุณแน่ใจหรือไม่ว่าต้องการลบพรีเซ็ตนี้?
+PresetDeleted=ลบพรีเซ็ตแล้ว
+ResetToFlat=รีเซ็ตอีควอไลเซอร์เป็นแบน
+PresetApplied=ใช้พรีเซ็ต: %s
+
+[Options]
+Title=ตัวเลือก
+General=ทั่วไป
+Video=วิดีโอ
+Audio=เสียง
+Subtitles=คำบรรยาย
+Cache=แคช
+Language=ภาษา:
+RestartRequired=ต้องรีสตาร์ทเพื่อให้การเปลี่ยนแปลงมีผล
+
+; แท็บทั่วไป - พฤติกรรม
+Behavior=พฤติกรรม
+SingleInstance=อนุญาตให้ใช้งานเพียงหนึ่งอินสแตนซ์
+AutoPlay=เล่นอัตโนมัติเมื่อเปิดไฟล์
+AutoResume=เล่นต่อจากตำแหน่งเดิม
+MinimizeToTray=ย่อลงในถาดระบบ
+AutoSavePlaylist=บันทึกเพลย์ลิสต์เมื่อออก
+
+; แท็บทั่วไป - OSD
+OSD=การแสดงผลบนหน้าจอ
+ShowOSD=แสดงข้อความบนหน้าจอ
+ShowTrayIcon=แสดงไอคอนถาด
+OSDDuration=ระยะเวลา OSD (มิลลิวินาที):
+
+; แท็บทั่วไป - ภาพหน้าจอ
+Screenshots=ภาพหน้าจอ
+ScreenshotPath=โฟลเดอร์บันทึก:
+ScreenshotFormat=รูปแบบ:
+
+; แท็บทั่วไป - ประวัติ
+HistorySettings=ประวัติ
+HistoryEnabled=เปิดใช้ประวัติการเล่น
+HistoryMaxItems=จำนวนสูงสุด:
+
+; แท็บทั่วไป - ภาษา
+LanguageGroup=ภาษา
+RestartNote=(ต้องรีสตาร์ทเพื่อให้การเปลี่ยนแปลงมีผล)
+
+; แท็บวิดีโอ
+VideoAdjust=ปรับแต่งวิดีโอ
+Brightness=ความสว่าง:
+Contrast=คอนทราสต์:
+Saturation=ความอิ่มสี:
+Hue=โทนสี:
+Gamma=แกมม่า:
+VideoOutput=เอาต์พุตวิดีโอ
+Output=เอาต์พุต:
+HWAccel=เปิดใช้การเร่งฮาร์ดแวร์
+Deinterlacing=ดีอินเตอร์เลซ
+Mode=โหมด:
+
+; แท็บเสียง
+AudioOutput=เอาต์พุตเสียง
+OutputDriver=ไดรเวอร์เอาต์พุต:
+Device=อุปกรณ์:
+AudioOptions=ตัวเลือกเสียง
+NormalizeAudio=ปรับระดับเสียงให้เท่ากัน
+Channels=ช่องสัญญาณ:
+
+; แท็บคำบรรยาย
+UseDefaultSubtitles=ใช้การตั้งค่าคำบรรยายเริ่มต้น
+Font=ฟอนต์
+FontName=ฟอนต์:
+FontSize=ขนาด:
+FontColor=สี:
+Bold=ตัวหนา
+Italic=ตัวเอียง
+Outline=เส้นขอบ
+OutlineColor=สี:
+OutlineSize=ขนาด:
+Position=ตำแหน่ง
+VerticalPosition=ตำแหน่งแนวตั้ง:
+SubOptions=ตัวเลือก
+Encoding=การเข้ารหัส:
+AutoLoadSubs=โหลดไฟล์คำบรรยายอัตโนมัติ
+
+; คำเตือนเอาต์พุตวิดีโอ
+VOWarningX11=คำเตือน: x11 ไม่รองรับการปรับแต่งวิดีโอ (ความสว่าง, คอนทราสต์ ฯลฯ)
+VOWarningWayland=คำเตือน: ต้องการเซสชัน Wayland รองรับการปรับแต่งวิดีโอ
+
+; แท็บแคช
+CacheSettings=ขนาดบัฟเฟอร์แคช (KB)
+CacheDefault=แคชเริ่มต้น:
+CacheLocal=ไฟล์ในเครื่อง:
+CacheNetwork=ไฟล์เครือข่าย:
+CacheInternet=สตรีมอินเทอร์เน็ต:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=เกี่ยวกับ
+Version=เวอร์ชัน
+Engine=เอนจิน
+Technology=เทคโนโลยี
+BuildInfo=ข้อมูลการสร้าง
+SystemInfo=ระบบ
+Credits=เครดิต
+Developer=นักพัฒนา:
+Author=ผู้เขียน
+License=ลิขสิทธิ์
+Website=เว็บไซต์
+GitHub=GitHub
+Description=เครื่องเล่นสื่อที่ทันสมัยและเบา
+LicenseText=3nity Media อยู่ภายใต้ลิขสิทธิ์ GPL-2.0\n\nหมายความว่าคุณสามารถ:\n  • ใช้ซอฟต์แวร์เพื่อวัตถุประสงค์ใดก็ได้\n  • ศึกษาและแก้ไขซอร์สโค้ด\n  • แจกจ่ายสำเนาของซอฟต์แวร์\n  • แจกจ่ายการแก้ไขของคุณ\n\nภายใต้เงื่อนไขว่าการแก้ไขที่แจกจ่าย\nต้องอยู่ภายใต้ลิขสิทธิ์ GPL-2.0 ด้วย
+BuildDate=วันที่:
+Target=เป้าหมาย:
+Kernel=เคอร์เนล:
+
+[Shortcuts]
+Title=ปุ่มลัด
+Description=กำหนดค่าปุ่มลัดสำหรับการกระทำ
+Search=ค้นหา:
+PressKey=กดปุ่ม...
+ColCategory=หมวดหมู่
+ColAction=การกระทำ
+ColShortcut=ปุ่มลัด
+Assign=กำหนด
+Clear=ล้าง
+Reset=รีเซ็ต
+ResetAll=รีเซ็ตทั้งหมด
+CurrentShortcut=ปัจจุบัน: %s
+NoKeyPressed=กรุณากดปุ่มผสมก่อน
+Conflict=ขัดแย้ง: กำหนดให้กับ "%s" แล้ว
+ConfirmReplace=แทนที่ปุ่มลัด
+ReplaceMessage=ปุ่มลัดนี้กำหนดให้กับ "%s" แล้ว ต้องการแทนที่หรือไม่?
+ConfirmResetAll=รีเซ็ตปุ่มลัดทั้งหมด
+ResetAllMessage=คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตปุ่มลัดทั้งหมดเป็นค่าเริ่มต้น?
+; ชื่อการกระทำ
+ActPlayPause=เล่น / หยุดชั่วคราว
+ActStop=หยุด
+ActPrevious=ก่อนหน้า
+ActNext=ถัดไป
+ActSeekForward=เลื่อนไปข้างหน้า (10 วินาที)
+ActSeekBackward=เลื่อนไปข้างหลัง (10 วินาที)
+ActSeekForward5=เลื่อนไปข้างหน้า (1 นาที)
+ActSeekBackward5=เลื่อนไปข้างหลัง (1 นาที)
+ActSpeedUp=เพิ่มความเร็ว
+ActSpeedDown=ลดความเร็ว
+ActSpeedReset=รีเซ็ตความเร็ว
+ActSetLoopA=ตั้งจุดวนซ้ำ A
+ActSetLoopB=ตั้งจุดวนซ้ำ B
+ActClearLoop=ล้างการวนซ้ำ A-B
+ActFrameForward=เฟรมถัดไป
+ActFrameBackward=เฟรมก่อนหน้า
+ActPrevChapter=บทก่อนหน้า
+ActNextChapter=บทถัดไป
+ActGotoTime=ไปยังเวลา
+ActVolumeUp=เพิ่มระดับเสียง
+ActVolumeDown=ลดระดับเสียง
+ActMute=ปิดเสียง / เปิดเสียง
+ActAudioDelayPlus=หน่วงเสียง +
+ActAudioDelayMinus=หน่วงเสียง -
+ActAudioDelayReset=รีเซ็ตการหน่วงเสียง
+ActFullscreen=เต็มจอ
+ActRotate=หมุนวิดีโอ
+ActDeinterlace=ดีอินเตอร์เลซ
+ActZoomIn=ซูมเข้า
+ActZoomOut=ซูมออก
+ActZoomReset=รีเซ็ตซูม
+ActAlwaysOnTop=อยู่ด้านบนเสมอ
+ActFitToVideo=ปรับให้พอดีกับวิดีโอ
+ActScreenshot=จับภาพหน้าจอ
+ActVideoAdjust=ปรับแต่งวิดีโอ
+ActVisNextMode=โหมดวิชวลไลเซชั่นถัดไป
+ActVisNextColor=ชุดสีถัดไป
+ActSubDelayPlus=หน่วงคำบรรยาย +
+ActSubDelayMinus=หน่วงคำบรรยาย -
+ActSubDelayReset=รีเซ็ตการหน่วงคำบรรยาย
+ActDVDMenu=เมนู DVD
+ActDVDUp=นำทาง DVD ขึ้น
+ActDVDDown=นำทาง DVD ลง
+ActDVDLeft=นำทาง DVD ซ้าย
+ActDVDRight=นำทาง DVD ขวา
+ActDVDSelect=เลือก DVD
+ActOpenFile=เปิดไฟล์
+ActOpenURL=เปิด URL
+ActPlaylist=แสดงเพลย์ลิสต์
+ActQuit=ออก
+
+[Log]
+; ระยะที่ 25: หน้าต่างบันทึก
+Title=บันทึก MPV
+Command=คำสั่ง:
+Clear=ล้าง
+Save=บันทึก...
+Copy=&คัดลอก
+SelectAll=เลือก&ทั้งหมด
+SaveTitle=บันทึกบันทึก
+SaveFilter=ไฟล์ข้อความ (*.txt)|*.txt|ไฟล์ทั้งหมด (*.*)|*.*
+ErrorTitle=ข้อผิดพลาด
+SaveError=ไม่สามารถบันทึกบันทึก: %s
+
+[MediaInfo]
+Title=ข้อมูลสื่อ
+FileTab=ไฟล์
+VideoTab=วิดีโอ
+AudioTab=เสียง
+MetadataTab=เมตาดาต้า
+FileName=ชื่อไฟล์:
+FilePath=พาธ:
+FileSize=ขนาด:
+Duration=ระยะเวลา:
+Format=รูปแบบ:
+Bitrate=บิตเรต:
+Codec=ตัวแปลงรหัส:
+Resolution=ความละเอียด:
+FrameRate=อัตราเฟรม:
+PixelFormat=รูปแบบพิกเซล:
+AspectRatio=อัตราส่วนภาพ:
+Channels=ช่องสัญญาณ:
+SampleRate=อัตราตัวอย่าง:
+Language=ภาษา:
+Property=คุณสมบัติ
+Value=ค่า
+CopyAll=คัดลอกทั้งหมด
+CopiedToClipboard=คัดลอกข้อมูลสื่อไปยังคลิปบอร์ดแล้ว
+NA=ไม่มี
+NAStream=ไม่มี (สตรีม)
+NALive=ไม่มี (สด)
+ChannelMono=1 (โมโน)
+ChannelStereo=2 (สเตอริโอ)
+Channel51=6 (เซอร์ราวด์ 5.1)
+Channel71=8 (เซอร์ราวด์ 7.1)
+Unknown=ไม่ทราบ
+NoMetadata=(ไม่มีเมตาดาต้า)
+
+[Bookmarks]
+Title=บุ๊คมาร์ค
+Goto=ไปยัง
+Remove=ลบ
+Clear=ล้างทั้งหมด
+Refresh=รีเฟรช
+OpenFolder=เปิดโฟลเดอร์
+CopyPath=คัดลอกพาธ
+; คอลัมน์
+ColName=ชื่อ
+ColFile=ไฟล์
+ColPosition=ตำแหน่ง
+ColCreated=สร้างเมื่อ
+; กล่องโต้ตอบ
+ClearTitle=ล้างบุ๊คมาร์ค
+ClearConfirm=คุณแน่ใจหรือไม่ว่าต้องการล้างบุ๊คมาร์คทั้งหมด?
+Count=บุ๊คมาร์ค %d รายการ
+
+[Favorites]
+Title=รายการโปรด
+Play=เล่น
+Remove=ลบ
+Clear=ล้างทั้งหมด
+Refresh=รีเฟรช
+OpenFolder=เปิดโฟลเดอร์
+CopyPath=คัดลอกพาธ
+; คอลัมน์
+ColName=ชื่อ
+ColType=ประเภท
+ColPath=พาธ
+; ประเภท
+TypeFile=ไฟล์
+TypeURL=URL
+TypeRadio=วิทยุ
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=ไม่ทราบ
+; กล่องโต้ตอบ
+ClearTitle=ล้างรายการโปรด
+ClearConfirm=คุณแน่ใจหรือไม่ว่าต้องการล้างรายการโปรดทั้งหมด?
+Count=รายการโปรด %d รายการ
+
+[History]
+Title=ประวัติการเล่น
+Play=เล่น
+Remove=ลบ
+Clear=ล้างทั้งหมด
+Refresh=รีเฟรช
+OpenFolder=เปิดโฟลเดอร์
+CopyPath=คัดลอกพาธ
+; คอลัมน์
+ColFileName=ไฟล์
+ColPath=พาธ
+; กล่องโต้ตอบ
+ClearTitle=ล้างประวัติ
+ClearConfirm=คุณแน่ใจหรือไม่ว่าต้องการล้างประวัติทั้งหมด?
+Count=%d รายการ
+
+[SleepTimer]
+Title=ตั้งเวลานอน
+Description=ตั้งเวลาเพื่อหยุดเล่นอัตโนมัติ
+Hours=ชั่วโมง:
+Minutes=นาที:
+Action=เมื่อหมดเวลา:
+StopPlayback=หยุดเล่น
+CloseApp=ปิดแอปพลิเคชัน
+Shutdown=ปิดเครื่องคอมพิวเตอร์
+QuickSet=ตั้งเร็ว:
+15Min=15 นาที
+30Min=30 นาที
+1Hour=1 ชั่วโมง
+2Hours=2 ชั่วโมง
+
+[Radios]
+Title=วิทยุอินเทอร์เน็ต
+Play=เล่น
+Add=เพิ่ม
+Edit=แก้ไข
+Delete=ลบ
+Remove=ลบ
+Import=นำเข้า
+Export=ส่งออก
+Refresh=รีเฟรช
+Favorite=รายการโปรด
+ShowFavorites=รายการโปรด
+ShowAll=ทั้งหมด
+; ตัวกรอง
+Genre=ประเภท:
+Search=ค้นหา:
+SearchBtn=ค้นหา
+ClearSearch=ล้าง
+AllGenres=(ทุกประเภท)
+; เมนูบริบท
+AddFavorite=เพิ่มไปยังรายการโปรด
+RemoveFavorite=ลบจากรายการโปรด
+AddCustom=เพิ่มสถานีกำหนดเอง...
+EditCustom=แก้ไขสถานี...
+DeleteCustom=ลบสถานี
+OpenWebsite=เปิดเว็บไซต์
+CopyURL=คัดลอก URL
+; คอลัมน์
+ColName=ชื่อ
+ColGenre=ประเภท
+ColBitrate=บิตเรต
+ColCountry=ประเทศ
+ColCodec=ตัวแปลงรหัส
+; กล่องโต้ตอบ
+AddTitle=เพิ่มสถานีกำหนดเอง
+EditTitle=แก้ไขสถานี
+DeleteTitle=ลบสถานี
+DeleteConfirm=คุณแน่ใจหรือไม่ว่าต้องการลบสถานีนี้?
+StationName=ชื่อสถานี:
+StreamURL=URL สตรีม:
+GenrePrompt=ประเภท:
+NameURLRequired=ต้องการชื่อและ URL
+; ข้อความสถานะ
+LoadingIcecast=กำลังโหลดสถานีจากไดเรกทอรี Icecast...
+IcecastError=ไม่สามารถโหลดไดเรกทอรี Icecast ใช้สถานีเริ่มต้น
+NoStationsLoaded=ไม่มีสถานีที่โหลด
+StationCount=%d สถานี
+LoadedStations=โหลด %d สถานีแล้ว
+ErrorPrefix=ข้อผิดพลาด:
+; คีย์เดิม
+Name=ชื่อ
+URL=URL
+Bitrate=บิตเรต
+Description=คำอธิบาย
+Country=ประเทศ
+
+[OpenURL]
+Title=เปิด URL
+Prompt=ใส่ URL สื่อ:
+
+[GotoTime]
+Title=ไปยังเวลา
+EnterTime=ใส่เวลาที่ต้องการข้าม:
+Hours=ชม.
+Minutes=น.
+Seconds=ว.
+Current=ปัจจุบัน:
+Duration=ระยะเวลา:
+
+[VideoAdjust]
+Title=ปรับแต่งวิดีโอ
+Brightness=ความสว่าง:
+Contrast=คอนทราสต์:
+Saturation=ความอิ่มสี:
+Hue=โทนสี:
+Gamma=แกมม่า:
+ResetAll=รีเซ็ตสีทั้งหมด
+
+[CLI]
+; ข้อความบรรทัดคำสั่ง
+Usage=การใช้งาน
+Arguments=[ตัวเลือก] [ไฟล์|URL|โฟลเดอร์]
+Description=เครื่องเล่นมัลติมีเดียข้ามแพลตฟอร์มที่ใช้ libmpv เป็นเอนจิน
+Options=ตัวเลือก
+Examples=ตัวอย่าง
+MoreInfo=สำหรับข้อมูลเพิ่มเติม เยี่ยมชม
+EnqueuedTo=เพิ่มในคิวของอินสแตนซ์ที่มีอยู่: %s
+SentTo=ส่งไปยังอินสแตนซ์ที่มีอยู่: %s
+AlreadyRunning=3nity Media กำลังทำงานอยู่แล้ว
+ErrorFileNotFound=ข้อผิดพลาด: ไม่พบไฟล์หรือไดเรกทอรี: %s
+ErrorSubNotFound=ข้อผิดพลาด: ไม่พบไฟล์คำบรรยาย: %s

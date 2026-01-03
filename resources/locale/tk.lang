@@ -1,0 +1,892 @@
+[Language]
+Name=Turkmen - Türkmen dili
+Code=tk
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Faýl menýusy
+File=&Faýl
+FileOpen=&Faýly açmak...
+FileOpenURL=&URL açmak...
+FileOpenClipboard=&Buferden açmak
+FileRecent=&Soňky faýllar
+ClearRecentFiles=Soňky faýllary arassalamak
+FileExit=&Çykmak
+
+; Oýnamak menýusy
+Playback=&Oýnamak
+PlaybackPlayPause=&Oýnamak/Duruzma
+PlaybackStop=&Saklamak
+PlaybackPrevious=&Öňki
+PlaybackNext=&Indiki
+PlaybackSeekForward=&Öňe geçmek
+PlaybackSeekBackward=&Yza gaýtmak
+PlaybackSpeed=&Tizlik
+PlaybackABLoop=A-&B gaýtalama
+PlaybackSetA=&A nokatyny bellemek
+PlaybackSetB=&B nokatyny bellemek
+PlaybackClearAB=A-B &arassalamak
+PlaybackChapters=&Bölümler
+PlaybackPrevChapter=Öňki bölüm
+PlaybackNextChapter=Indiki bölüm
+PlaybackFrameStep=&Kadr öňe
+PlaybackFrameBack=&Kadr yza
+
+; DVD nawigasiýasy
+PlaybackDVD=DVD &nawigasiýasy
+DVDMenu=&Menýu
+DVDUp=&Ýokary
+DVDDown=&Aşak
+DVDLeft=&Çepe
+DVDRight=&Saga
+DVDSelect=&Saýlamak
+PlaybackDVDTitles=DVD &atlary
+
+; 21-tapgyr: Papkany açmak
+FileOpenFolder=&Papkany açmak...
+
+; Faýl menýusy DVD/Bluray
+FileOpenDVD=&DVD açmak...
+FileOpenBluray=&Blu-ray açmak...
+
+; 13-tapgyr: Wagta geçmek we taryh
+PlaybackGotoTime=&Wagta geçmek...
+ToolsHistory=&Taryh
+
+; 14-tapgyr: Ulgam paneli
+TrayShow=&Görkezmek/Gizlemek
+TrayPlayPause=&Oýnamak/Duruzma
+TrayStop=&Saklamak
+TrayPrevious=&Öňki
+TrayNext=&Indiki
+TrayMute=&Sesi öçürmek
+TrayExit=&Çykmak
+
+; 15-tapgyr: Bellikler
+PlaybackAddBookmark=&Bellik goşmak...
+PlaybackBookmarks=&Bellikler
+BookmarksTitle=Bellikler
+BookmarksGoto=&Bellige geçmek
+BookmarksRemove=&Belligi aýyrmak
+BookmarksClear=&Hemmesini arassalamak
+BookmarksOpenFolder=&Papkany açmak
+BookmarksCopyPath=&Ýoly göçürmek
+BookmarksCount=%d bellik
+NoBookmarks=(Bellikler ýok)
+NoFileLoaded=(Faýl ýüklenmedi)
+BookmarkAdded=Bellik goşuldy: %s
+BookmarkJumped=Bellige geçildi: %s
+AddBookmarkTitle=Bellik goşmak
+AddBookmarkPrompt=Bellik adyny giriziň:
+ShowAllBookmarks=Ähli bellikleri görkezmek...
+
+; 16-tapgyr: Halanýanlar
+ToolsFavorites=&Halanýanlar
+ToolsAddFavorite=&Halanýanlara goşmak
+FavoritesTitle=Halanýanlar
+FavoritesPlay=&Oýnamak
+FavoritesRemove=&Halanýanlardan aýyrmak
+FavoritesClear=&Hemmesini arassalamak
+FavoritesOpenFolder=&Papkany açmak
+FavoritesCopyPath=&Ýoly göçürmek
+FavoritesCount=%d halanan
+NoFavorites=(Halanýanlar ýok)
+AddFavoriteTitle=Halanýanlara goşmak
+AddFavoritePrompt=Halanan adyny giriziň:
+AlreadyFavorite=Eýýäm halanýanlarda
+AddedToFavorites=Halanýanlara goşuldy: %s
+NoFileToFavorite=Goşmak üçin faýl ýüklenmedi
+FavoriteTypeFile=Faýl
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Trek formatlary
+TrackWithTitle=Trek %d: %s
+TrackWithLang=Trek %d (%s)
+TrackNumber=Trek %d
+
+; Tizlik menýusy
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Masştab menýusy
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitr treki
+SubtitleDisable=Öçürmek
+
+; 17-tapgyr: Uky taýmeri
+ToolsSleepTimer=&Uky taýmeri...
+ToolsSleepTimerActive=&Uky taýmeri [%s]
+ToolsCancelTimer=&Taýmeri ýatyrmak
+
+; Audio menýusy
+Audio=&Audio
+AudioTrack=Audio &trek
+AudioVolumeUp=Sesi &ýokarlandyrmak
+AudioVolumeDown=Sesi &peseltmek
+AudioMute=&Sesi öçürmek
+AudioEqualizer=&Ekwalaýzer
+AudioDelay=Audio &gijikme
+AudioDelayPlus=Gijikme +0.1s
+AudioDelayMinus=Gijikme -0.1s
+AudioDelayReset=Gijikme düzetmek
+AudioNormalize=Sesi &kadalaşdyrmak
+
+; Wideo menýusy
+Video=&Wideo
+VideoFullscreen=&Doly ekran
+VideoAspect=&Gatnaşyk
+VideoAspectAuto=&Awtomatik
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Skrinşot
+VideoScreenshotAs=Skrinşot &hökmünde...
+VideoRotation=&Aýlamak
+VideoRotate0=&0° (Adaty)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Öwürmek
+VideoFlipH=&Gorizontal öwürmek
+VideoFlipV=&Wertikal öwürmek
+VideoDeinterlace=&Deinterleys
+VideoZoom=&Masştab
+VideoZoomIn=&Ulaltmak
+VideoZoomOut=&Kiçeltmek
+VideoZoomReset=Masştaby &düzetmek
+VideoPan=&Süýşürmek
+VideoPanLeft=&Çepe süýşürmek
+VideoPanRight=&Saga süýşürmek
+VideoPanUp=&Ýokary süýşürmek
+VideoPanDown=&Aşak süýşürmek
+VideoPanReset=&Süýşürmäni düzetmek
+VideoTrack=Wideo &trek
+VideoColors=&Reňk sazlamalary
+VideoBrightness=&Ýagtylyk
+VideoContrast=&Kontrast
+VideoSaturation=&Doýgunlyk
+VideoHue=&Reňk öwüşgini
+VideoGamma=&Gamma
+VideoColorsReset=Ähli &reňkleri düzetmek
+VideoIncrease=Artdyrmak (+5)
+VideoDecrease=Kemeltmek (-5)
+VideoReset=Düzetmek
+VideoAdjustDialog=Wideo &sazlamalary...
+
+; Görnüş menýusy
+View=&Görnüş
+ViewAlwaysOnTop=&Hemişe ýokarda
+ViewFitToVideo=&Penjireni wideoa laýyklaşdyrmak
+ViewScale=Penjire &masştaby
+
+; 26-tapgyr: Wizualizasiýa menýusy
+ViewVisualization=&Wizualizasiýa
+VisNone=&Ýok
+VisSpectrum=&Spektr analizatory
+VisWaveform=&Tolkunyň şekili
+VisVector=&Wektor görnüşi
+VisVolume=&VU metr
+VisNextMode=Indiki &režim
+VisNextColor=Indiki &reňk sxemasy
+
+; Subtitrlar menýusy
+Subtitles=&Subtitrlar
+SubtitleTrack=Subtitr &treki
+SubtitleLoad=&Subtitr ýüklemek...
+SubtitleDelay=Subtitr &gijikme
+SubtitleDelayPlus=Gijikme +0.1s
+SubtitleDelayMinus=Gijikme -0.1s
+SubtitleDelayReset=Gijikme düzetmek
+
+; Gurallar menýusy
+Tools=&Gurallar
+ToolsPlaylist=&Pleýlist
+ToolsRadios=&Radiolar
+ToolsShortcuts=&Klawiatura gysgaltmalary...
+ToolsOptions=&Sazlamalar
+
+; 27-tapgyr: Ýazgy menýusy
+ToolsRecord=&Akymy ýazmak...
+ToolsStopRecord=&Ýazgyny saklamak
+ToolsRecording=&Ýazgy...
+
+; Kömek menýusy
+Help=&Kömek
+HelpMediaInfo=&Media maglumaty
+HelpLog=&Žurnal penjiresisi
+HelpAbout=&Programma barada
+
+[Dialog]
+OpenFile=Faýly açmak
+OpenURL=URL açmak
+SaveScreenshot=Skrinşoty ýatda saklamak
+LoadSubtitle=Subtitr faýlyny ýüklemek
+EnterURL=URL giriziň:
+ResumePlayback=Oýnamagy dowam etmek
+ResumeFrom=%s-dan dowam etmeli?
+ClearRecentFiles=Soňky faýllary arassalamak
+NoRecentFiles=(Soňky faýllar ýok)
+NoAudioTracks=(Audio trekler ýok)
+NoVideoTracks=(Wideo trekler ýok)
+NoSubtitleTracks=(Subtitr trekleri ýok)
+NoChapters=(Bölümler ýok)
+OpenDVD=DVD açmak
+OpenBluray=Blu-ray açmak
+OpenFolder=Papkany açmak
+
+; File filters
+ScreenshotFilter=PNG surat|*.png|JPEG surat|*.jpg|WebP surat|*.webp
+DVDFilter=DVD papkasy|*.;*.iso|Ähli faýllar (*.*)|*.*
+BlurayFilter=Blu-ray papkasy|*.;*.iso|Ähli faýllar (*.*)|*.*
+NoDVD=(DVD ýüklenmedi)
+DVDTitle=At %d
+GotoTime=Wagta geçmek
+EnterTime=Geçiş wagtyny giriziň:
+Hours=Sagat
+Minutes=Minut
+Seconds=Sekunt
+Current=Häzirki:
+HistoryTitle=Oýnama taryhy
+HistoryItems=Taryhda %d element
+HistoryPlay=&Oýnamak
+HistoryRemove=&Taryhdan aýyrmak
+HistoryClear=&Ähli taryhy arassalamak
+HistoryOpenFolder=&Papkany açmak
+HistoryCopyPath=&Ýoly göçürmek
+ClearHistory=Taryhy arassalamak
+ClearHistoryConfirm=Ähli taryhy arassalamak isleýärsiňizmi?
+SleepTimerTitle=Uky taýmeri
+SleepTimerDescription=Oýnamagy awtomatik saklamak taýmerini guruň
+SleepTimerHours=Sagat
+SleepTimerMinutes=Minut
+SleepTimerQuickSet=Çalt gurnamak
+SleepTimerAction=Taýmer gutaranda
+SleepTimerStopPlayback=Oýnamagy saklamak
+SleepTimerCloseApp=Programmany ýapmak
+SleepTimerShutdown=Kompýuteri öçürmek
+SleepTimerStart=Taýmeri başlamak
+
+[Status]
+Ready=Taýýar
+Opening=Açylýar...
+Playing=Oýnalýar
+Paused=Duruzyldy
+Stopped=Saklandy
+Error=Ýalňyşlyk
+Buffering=Buferlemek...
+Seeking=Gözlemek...
+Recording=Ýazgy
+
+[Message]
+SpeedFormat=Tizlik: %.2fx
+VolumeFormat=Ses derejesi: %d%%
+BrightnessFormat=Ýagtylyk: %d
+ContrastFormat=Kontrast: %d
+SaturationFormat=Doýgunlyk: %d
+HueFormat=Reňk öwüşgini: %d
+GammaFormat=Gamma: %d
+ColorsReset=Wideo reňkleri düzedildi
+LoopASet=A gaýtalama bellendi: %s
+LoopBSet=B gaýtalama bellendi: %s - Gaýtalama işjeň
+LoopCleared=A-B gaýtalama arassalandy
+SetAFirst=Ilki A nokatyny belläň (L basyň)
+RotationFormat=Aýlanma: %d°
+FlipHOn=Gorizontal öwürme: AÇYK
+FlipHOff=Gorizontal öwürme: ÖÇÜK
+FlipVOn=Wertikal öwürme: AÇYK
+FlipVOff=Wertikal öwürme: ÖÇÜK
+DeinterlaceOn=Deinterleys: AÇYK
+DeinterlaceOff=Deinterleys: ÖÇÜK
+AlwaysOnTopOn=Hemişe ýokarda: AÇYK
+AlwaysOnTopOff=Hemişe ýokarda: ÖÇÜK
+WindowFitted=Penjire %dx%d ölçegine laýyklaşdyryldy
+WindowScale=Penjire masştaby: %.0f%%
+ScreenshotSaved=Skrinşot ýatda saklandy: %s
+AudioNormalizeOn=Audio kadalaşdyrmak: AÇYK
+AudioNormalizeOff=Audio kadalaşdyrmak: ÖÇÜK
+AudioDelayFormat=Audio gijikme: %.1f s
+SubtitleDelayFormat=Subtitr gijikme: %.1f s
+ZoomFormat=Masştab: %.0f%%
+PanCenter=Süýşürme: Merkez
+PanFormat=Süýşürme: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Wideo ýüklenmedi
+PlayingFromClipboard=Buferden oýnalýar: %s
+ClipboardInvalid=Buferde dogry URL ýok
+ClipboardEmpty=Bufer boş
+ResumedAt=%s-da dowam etdirildi
+FrameStepForward=Kadr öňe
+FrameStepBackward=Kadr yza
+PreviousChapter=Öňki bölüm
+NextChapter=Indiki bölüm
+PlayingRadio=Radio oýnalýar: %s
+PlayingDVD=DVD oýnalýar: %s
+PlayingBluray=Blu-ray oýnalýar: %s
+DVDTitlePlaying=DVD ady %d
+SeekTo=%s-a geçmek
+MinimizedToTray=Panele gizlenildi. Dikeltmek üçin iki gezek basyň.
+SleepTimerSet=Uky taýmeri bellendi: %s
+SleepTimerCancelled=Uky taýmeri ýatyryldy
+SleepTimerWarning=Uky taýmeri: 1 minut galdy
+SleepTimerFinal=Uky taýmeri: 10 sekunt galdy
+SleepTimerStopped=Uky taýmeri: Oýnamak saklandy
+SleepTimerClosing=Uky taýmeri: Programma ýapylýar
+SleepTimerShutdown=Uky taýmeri: Kompýuter öçürilýär
+SleepTimerExpired=Uky taýmeri gutardy
+ShutdownManual=Kompýuteri el bilen öçüriň.
+
+; 21-tapgyr: Papkany açmak
+FolderOpened=Papka açyldy: %d faýl
+NoMediaFound=Media faýllar tapylmady
+FilesAdded=Pleýliste %d faýl goşuldy
+
+; 27-tapgyr: Ýazgy habarlary
+RecordNeedPlayback=Ýazmazdan öň oýnamagy başlaň.
+RecordingStarted=Ýazgy başlandy
+RecordingStopped=Ýazgy saklandy
+
+; Goşmaça ýagdaý habarlary
+EndOfPlaylist=Pleýlistiň soňy
+NoMediaLoaded=Media faýl ýüklenmedi.
+JumpedToNamed=Geçildi: %s
+ChapterFormat=Bölüm %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Bellik: %s
+
+[Label]
+Muted=Ses öçürilen
+
+[Button]
+Play=Oýnamak
+Pause=Duruzma
+Stop=Saklamak
+Previous=Öňki
+Next=Indiki
+Mute=Sesi öçürmek
+Unmute=Sesi açmak
+Fullscreen=Doly ekran
+OK=Bolýar
+Cancel=Ýatyrmak
+Apply=Ulanmak
+Close=Ýapmak
+Yes=Hawa
+No=Ýok
+
+[Tooltip]
+Play=Oýnamak/Duruzma
+Stop=Oýnamagy saklamak
+Previous=Öňki trek
+Next=Indiki trek
+Mute=Sesi öçürmek/açmak
+Volume=Ses derejesi
+Seek=Gözleg pozisiýasy
+Fullscreen=Doly ekrany üýtgetmek
+
+[Playlist]
+Title=Pleýlist
+Add=Goşmak
+Remove=Aýyrmak
+Clear=Arassalamak
+MoveUp=Ýokary süýşürmek
+MoveDown=Aşak süýşürmek
+Shuffle=Garyşdyrmak
+Repeat=Gaýtalamak
+Play=Oýnamak
+ShuffleOn=Garyşdyrmak: Açyk
+ShuffleOff=Garyşdyrmak: Öçük
+RepeatOff=Gaýtalamak: Öçük
+RepeatOne=Gaýtalamak: Bir
+RepeatAll=Gaýtalamak: Hemmesi
+SavePlaylist=Ýatda saklamak
+LoadPlaylist=Ýüklemek
+TotalDuration=Jemi: %s
+ItemCount=%d element
+
+; 22-tapgyr: Pleýlist gowulandyrmalary
+Search=Gözleg:
+FilterPlaceholder=Pleýlisti süzmek...
+ClearSearch=Arassalamak
+FilterCount=%d/%d
+RemoveDuplicates=&Dublikatlary aýyrmak
+Properties=&Häsiýetler...
+NoDuplicates=Dublikatlar tapylmady.
+DuplicatesFound=%d dublikat tapyldy. Aýyrmaly?
+RemoveDuplicatesTitle=Dublikatlary aýyrmak
+PropertiesTitle=Pleýlist häsiýetleri
+PropTotalItems=Jemi elementler: %d
+PropTotalDuration=Jemi dowamlylygy: %s
+PropPlayed=Oýnalan: %d
+PropUnplayed=Oýnalmadyk: %d
+PropTotalSize=Jemi ölçegi: %.2f MB
+PropShuffle=Garyşdyrmak: %s
+PropRepeat=Gaýtalamak: %s
+On=Açyk
+Off=Öçük
+
+; Goşmaça açarlar
+ClearTitle=Pleýlisti arassalamak
+ClearConfirm=Pleýlisti arassalamak isleýärsiňizmi?
+NoPlaylist=Pleýlist ýok
+StatusFormat=%d element | Jemi: %s
+RepeatOne=Gaýt. 1
+RepeatAll=Gaýt. Hem.
+HintRepeatEnable=Hemmesini gaýtalamak üçin basyň
+HintRepeatOne=Birini gaýtalamak - Öçürmek üçin basyň
+HintRepeatAll=Hemmesini gaýtalamak - Birini gaýtalamak üçin basyň
+HintShuffleRepeat=Garyşdyrmak + Hemmesini gaýtalamak - Gaýtalamany öçürmek üçin basyň
+RemoveDuplicatesTitle=Dublikatlary aýyrmak
+NoDuplicates=Dublikatlar tapylmady.
+SelectAll=Hemmesini saýlamak
+SelectNone=Hiç birini saýlamazlyk
+SelectInvert=Saýlawy ters öwürmek
+Sort=Tertiplemek
+SortByName=At boýunça
+SortByTitle=Sözbaşy boýunça
+SortByArtist=Ýerine ýetiriji boýunça
+SortByDuration=Dowamlylygy boýunça
+SortReverse=Ters
+SortRandom=Tötänleýin
+ColTitle=Sözbaşy
+ColDuration=Dowamlylygy
+ColArtist=Ýerine ýetiriji
+ColAlbum=Albom
+PlaylistFilter=M3U pleýlist|*.m3u|M3U8 pleýlist|*.m3u8|PLS pleýlist|*.pls
+
+[Equalizer]
+Title=Ekwalaýzer
+Presets=Öňünden sazlamalar:
+Preamp=Öňünden güýçlendiriji:
+Flat=Tekiz
+Rock=Rok
+Pop=Pop
+Jazz=Jazz
+Classical=Klassyk
+BassBoost=Bas güýçlendiriji
+TrebleBoost=Ýokary ýygylyk güýçlendiriji
+Vocal=Wokal
+Reset=Düzetmek
+Enable=Ekwalaýzeri açmak
+Save=Ýatda saklamak
+Delete=Öçürmek
+Ready=Taýýar
+; Düwmeler we hereketler
+SavePreset=Öňünden sazlamany ýatda saklamak
+DeletePreset=Öňünden sazlamany öçürmek
+SavePresetTitle=Öňünden sazlamany ýatda saklamak
+PresetNamePrompt=Öňünden sazlama ady:
+EnterPresetName=Öňünden sazlama adyny giriziň.
+OverwritePresetTitle=Öňünden sazlamany täzeden ýazmak
+OverwritePresetConfirm=Bu atly öňünden sazlama bar. Täzeden ýazmaly?
+PresetUpdated=Öňünden sazlama täzelendi: %s
+PresetSaved=Öňünden sazlama ýatda saklandy: %s
+SelectPresetToDelete=Öçürmek üçin öňünden sazlama saýlaň.
+CannotDeleteDefault=Adaty öňünden sazlamalary öçürip bolmaýar.
+DeletePresetTitle=Öňünden sazlamany öçürmek
+DeletePresetConfirm=Bu öňünden sazlamany öçürmek isleýärsiňizmi?
+PresetDeleted=Öňünden sazlama öçürildi
+ResetToFlat=Ekwalaýzer tekiz ýagdaýa düzedildi
+PresetApplied=Öňünden sazlama ulanyldy: %s
+
+[Options]
+Title=Sazlamalar
+General=Umumy
+Video=Wideo
+Audio=Audio
+Subtitles=Subtitrlar
+Cache=Keş
+Language=Dil:
+RestartRequired=Üýtgeşmeler üçin täzeden başlamak gerek
+
+; Umumy goýmasy - Özüni alyp barşy
+Behavior=Özüni alyp barşy
+SingleInstance=Diňe bir göçürme rugsat bermek
+AutoPlay=Açanda awtomatik oýnamak
+AutoResume=Oýnama pozisiýasyny dowam etmek
+MinimizeToTray=Ulgam paneline gizlemek
+AutoSavePlaylist=Çykanda pleýlisti ýatda saklamak
+
+; Umumy goýmasy - OSD
+OSD=Ekrandaky displey
+ShowOSD=Ekrandaky habarlary görkezmek
+ShowTrayIcon=Panel nyşanyny görkezmek
+OSDDuration=OSD dowamlylygym (ms):
+
+; Umumy goýmasy - Skrinşotlar
+Screenshots=Skrinşotlar
+ScreenshotPath=Saklamak papkasy:
+ScreenshotFormat=Format:
+
+; Umumy goýmasy - Taryh
+HistorySettings=Taryh
+HistoryEnabled=Oýnama taryhyny açmak
+HistoryMaxItems=Maks. elementler:
+
+; Umumy goýmasy - Dil
+LanguageGroup=Dil
+RestartNote=(Üýtgeşmeler üçin täzeden başlamak gerek)
+
+; Wideo goýmasy
+VideoAdjust=Wideo sazlamalary
+Brightness=Ýagtylyk:
+Contrast=Kontrast:
+Saturation=Doýgunlyk:
+Hue=Reňk öwüşgini:
+Gamma=Gamma:
+VideoOutput=Wideo çykyşy
+Output=Çykyş:
+HWAccel=Apparat tizlendirmesini açmak
+Deinterlacing=Deinterleys
+Mode=Režim:
+
+; Audio goýmasy
+AudioOutput=Audio çykyşy
+OutputDriver=Çykyş draýweri:
+Device=Enjam:
+AudioOptions=Audio sazlamalary
+NormalizeAudio=Audio sesini kadalaşdyrmak
+Channels=Kanallar:
+
+; Subtitrlar goýmasy
+UseDefaultSubtitles=Adaty subtitr sazlamalaryny ulanmak
+Font=Şrift
+FontName=Şrift:
+FontSize=Ölçegi:
+FontColor=Reňki:
+Bold=Galyň
+Italic=Italic
+Outline=Kontur
+OutlineColor=Reňki:
+OutlineSize=Ölçegi:
+Position=Pozisiýa
+VerticalPosition=Wertikal pozisiýa:
+SubOptions=Sazlamalar
+Encoding=Kodlamak:
+AutoLoadSubs=Subtitr faýllaryny awtomatik ýüklemek
+
+; Wideo çykyş duýduryşlary
+VOWarningX11=Duýduryş: x11 wideo sazlamalaryny goldamaýar (ýagtylyk, kontrast we ş.m.)
+VOWarningWayland=Duýduryş: Wayland sessiýasy zerur. Wideo sazlamalary goldanylýar.
+
+; Keş goýmasy
+CacheSettings=Keş bufer ölçegleri (KB)
+CacheDefault=Adaty keş:
+CacheLocal=Ýerli faýllar:
+CacheNetwork=Tor faýllary:
+CacheInternet=Internet akymlary:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Programma barada
+Version=Wersiýa
+Engine=Hereketlendiriji
+Technology=Tehnologiýa
+BuildInfo=Gurluş maglumaty
+SystemInfo=Ulgam
+Credits=Minnetdarlyk
+Developer=Ösdüriji:
+Author=Awtor
+License=Ygtyýarnama
+Website=Web saýt
+GitHub=GitHub
+Description=Häzirki zaman, ýeňil media pleýer
+LicenseText=3nity Media GPL-2.0 ygtyýarnama bilen\n\nBu size rugsat berýär:\n  • Programmany islendik maksat üçin ulanmak\n  • Çeşme kodyny öwrenmek we üýtgetmek\n  • Programma göçürmelerini ýaýratmak\n  • Üýtgeşmeleriňizi ýaýratmak\n\nŞerti: ýaýradylan üýtgeşmeler\nGPL-2.0 ygtyýarnamalanan bolmaly.
+BuildDate=Senesi:
+Target=Maksat:
+Kernel=Ýadro:
+
+[Shortcuts]
+Title=Klawiatura gysgaltmalary
+Description=Hereketler üçin klawiatura gysgaltmalaryny sazlamak
+Search=Gözleg:
+PressKey=Düwme basyň...
+ColCategory=Kategoriýa
+ColAction=Hereket
+ColShortcut=Gysgaltma
+Assign=Bellemek
+Clear=Arassalamak
+Reset=Düzetmek
+ResetAll=Hemmesini düzetmek
+CurrentShortcut=Häzirki: %s
+NoKeyPressed=Ilki düwme kombinasiýasyny basyň.
+Conflict=Gapma-garşylyk: Eýýäm "%s" bellenilen
+ConfirmReplace=Gysgaltmany çalyşmak
+ReplaceMessage=Bu gysgaltma eýýäm "%s" bellenilen. Çalyşmaly?
+ConfirmResetAll=Ähli gysgaltmalary düzetmek
+ResetAllMessage=Ähli gysgaltmalary adaty bahalara düzetmek isleýärsiňizmi?
+; Hereket atlary
+ActPlayPause=Oýnamak / Duruzma
+ActStop=Saklamak
+ActPrevious=Öňki
+ActNext=Indiki
+ActSeekForward=Öňe gözlemek (10s)
+ActSeekBackward=Yza gözlemek (10s)
+ActSeekForward5=Öňe gözlemek (1 min)
+ActSeekBackward5=Yza gözlemek (1 min)
+ActSpeedUp=Tizlendirmek
+ActSpeedDown=Haýallatmak
+ActSpeedReset=Tizligi düzetmek
+ActSetLoopA=A gaýtalama nokatyny bellemek
+ActSetLoopB=B gaýtalama nokatyny bellemek
+ActClearLoop=A-B gaýtalamany arassalamak
+ActFrameForward=Kadr öňe
+ActFrameBackward=Kadr yza
+ActPrevChapter=Öňki bölüm
+ActNextChapter=Indiki bölüm
+ActGotoTime=Wagta geçmek
+ActVolumeUp=Sesi ýokarlandyrmak
+ActVolumeDown=Sesi peseltmek
+ActMute=Sesi öçürmek / Açmak
+ActAudioDelayPlus=Audio gijikme +
+ActAudioDelayMinus=Audio gijikme -
+ActAudioDelayReset=Audio gijikme düzetmek
+ActFullscreen=Doly ekran
+ActRotate=Wideony aýlamak
+ActDeinterlace=Deinterleys
+ActZoomIn=Ulaltmak
+ActZoomOut=Kiçeltmek
+ActZoomReset=Masştaby düzetmek
+ActAlwaysOnTop=Hemişe ýokarda
+ActFitToVideo=Wideoa laýyklaşdyrmak
+ActScreenshot=Skrinşot
+ActVideoAdjust=Wideo sazlamalary
+ActVisNextMode=Indiki wizualizasiýa režimi
+ActVisNextColor=Indiki reňk sxemasy
+ActSubDelayPlus=Subtitr gijikme +
+ActSubDelayMinus=Subtitr gijikme -
+ActSubDelayReset=Subtitr gijikme düzetmek
+ActDVDMenu=DVD menýusy
+ActDVDUp=DVD ýokary
+ActDVDDown=DVD aşak
+ActDVDLeft=DVD çepe
+ActDVDRight=DVD saga
+ActDVDSelect=DVD saýlamak
+ActOpenFile=Faýly açmak
+ActOpenURL=URL açmak
+ActPlaylist=Pleýlisti görkezmek
+ActQuit=Çykmak
+
+[Log]
+; 25-tapgyr: Žurnal penjiresi
+Title=MPV žurnaly
+Command=Buýruk:
+Clear=Arassalamak
+Save=Ýatda saklamak...
+Copy=&Göçürmek
+SelectAll=Hemmesini &saýlamak
+SaveTitle=Žurnaly ýatda saklamak
+SaveFilter=Tekst faýllary (*.txt)|*.txt|Ähli faýllar (*.*)|*.*
+ErrorTitle=Ýalňyşlyk
+SaveError=Žurnaly ýatda saklamak başa barmady: %s
+
+[MediaInfo]
+Title=Media maglumaty
+FileTab=Faýl
+VideoTab=Wideo
+AudioTab=Audio
+MetadataTab=Metadata
+FileName=Faýl ady:
+FilePath=Ýol:
+FileSize=Ölçegi:
+Duration=Dowamlylygym:
+Format=Format:
+Bitrate=Bitreýt:
+Codec=Kodek:
+Resolution=Rezolýusiýa:
+FrameRate=Kadr tizligi:
+PixelFormat=Piksel formaty:
+AspectRatio=Gatnaşyk:
+Channels=Kanallar:
+SampleRate=Nusga tizligi:
+Language=Dil:
+Property=Häsiýet
+Value=Baha
+CopyAll=Hemmesini göçürmek
+CopiedToClipboard=Media maglumaty bufere göçürildi.
+NA=Elýeterli däl
+NAStream=Elýeterli däl (akym)
+NALive=Elýeterli däl (göni)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Näbelli
+NoMetadata=(Metadata ýok)
+
+[Bookmarks]
+Title=Bellikler
+Goto=Geçmek
+Remove=Aýyrmak
+Clear=Hemmesini arassalamak
+Refresh=Täzelemek
+OpenFolder=Papkany açmak
+CopyPath=Ýoly göçürmek
+; Sütünler
+ColName=Ady
+ColFile=Faýl
+ColPosition=Pozisiýa
+ColCreated=Döredilen
+; Dialoglar
+ClearTitle=Bellikleri arassalamak
+ClearConfirm=Ähli bellikleri arassalamak isleýärsiňizmi?
+Count=%d bellik
+
+[Favorites]
+Title=Halanýanlar
+Play=Oýnamak
+Remove=Aýyrmak
+Clear=Hemmesini arassalamak
+Refresh=Täzelemek
+OpenFolder=Papkany açmak
+CopyPath=Ýoly göçürmek
+; Sütünler
+ColName=Ady
+ColType=Görnüşi
+ColPath=Ýol
+; Görnüşler
+TypeFile=Faýl
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Näbelli
+; Dialoglar
+ClearTitle=Halanýanlary arassalamak
+ClearConfirm=Ähli halanýanlary arassalamak isleýärsiňizmi?
+Count=%d halanan
+
+[History]
+Title=Oýnama taryhy
+Play=Oýnamak
+Remove=Aýyrmak
+Clear=Hemmesini arassalamak
+Refresh=Täzelemek
+OpenFolder=Papkany açmak
+CopyPath=Ýoly göçürmek
+; Sütünler
+ColFileName=Faýl
+ColPath=Ýol
+; Dialoglar
+ClearTitle=Taryhy arassalamak
+ClearConfirm=Ähli taryhy arassalamak isleýärsiňizmi?
+Count=%d element
+
+[SleepTimer]
+Title=Uky taýmeri
+Description=Oýnamagy awtomatik saklamak taýmerini guruň
+Hours=Sagat:
+Minutes=Minut:
+Action=Taýmer gutaranda:
+StopPlayback=Oýnamagy saklamak
+CloseApp=Programmany ýapmak
+Shutdown=Kompýuteri öçürmek
+QuickSet=Çalt gurnamak:
+15Min=15 min
+30Min=30 min
+1Hour=1 sagat
+2Hours=2 sagat
+
+[Radios]
+Title=Internet radiolary
+Play=Oýnamak
+Add=Goşmak
+Edit=Redaktirlemek
+Delete=Öçürmek
+Remove=Aýyrmak
+Import=Import
+Export=Eksport
+Refresh=Täzelemek
+Favorite=Halanan
+ShowFavorites=Halanýanlar
+ShowAll=Hemmesi
+; Süzgüç
+Genre=Žanr:
+Search=Gözleg:
+SearchBtn=Gözlemek
+ClearSearch=Arassalamak
+AllGenres=(Ähli žanrlar)
+; Kontekst menýusy
+AddFavorite=Halanýanlara goşmak
+RemoveFavorite=Halanýanlardan aýyrmak
+AddCustom=Ýörite stansiýa goşmak...
+EditCustom=Stansiýany redaktirlemek...
+DeleteCustom=Stansiýany öçürmek
+OpenWebsite=Web saýty açmak
+CopyURL=URL göçürmek
+; Sütünler
+ColName=Ady
+ColGenre=Žanr
+ColBitrate=Bitreýt
+ColCountry=Ýurt
+ColCodec=Kodek
+; Dialoglar
+AddTitle=Ýörite stansiýa goşmak
+EditTitle=Stansiýany redaktirlemek
+DeleteTitle=Stansiýany öçürmek
+DeleteConfirm=Bu stansiýany öçürmek isleýärsiňizmi?
+StationName=Stansiýa ady:
+StreamURL=Akym URL:
+GenrePrompt=Žanr:
+NameURLRequired=At we URL zerur.
+; Ýagdaý habarlary
+LoadingIcecast=Icecast katalogyndan stansiýalar ýüklenilýär...
+IcecastError=Icecast katalogyny ýükläp bolmady. Adaty stansiýalar ulanylýar.
+NoStationsLoaded=Stansiýalar ýüklenmedi
+StationCount=%d stansiýa
+LoadedStations=%d stansiýa ýüklendi
+ErrorPrefix=Ýalňyşlyk:
+; Köne açarlar
+Name=Ady
+URL=URL
+Bitrate=Bitreýt
+Description=Beýan
+Country=Ýurt
+
+[OpenURL]
+Title=URL açmak
+Prompt=Media URL giriziň:
+
+[GotoTime]
+Title=Wagta geçmek
+EnterTime=Geçiş wagtyny giriziň:
+Hours=S
+Minutes=M
+Seconds=Sek
+Current=Häzirki:
+Duration=Dowamlylygym:
+
+[VideoAdjust]
+Title=Wideo sazlamalary
+Brightness=Ýagtylyk:
+Contrast=Kontrast:
+Saturation=Doýgunlyk:
+Hue=Reňk öwüşgini:
+Gamma=Gamma:
+ResetAll=Ähli reňkleri düzetmek
+
+[CLI]
+; Buýruk setiriniň habarlary
+Usage=Ulanylşy
+Arguments=[OPSIÝALAR] [FAÝL|URL|PAPKA]
+Description=libmpv motoryny ulanýan köp platformaly multimedia pleýer.
+Options=OPSIÝALAR
+Examples=MYSALLAR
+MoreInfo=Has köp maglumat üçin, giriň
+EnqueuedTo=Bar bolan mysalyň nobatyna goşuldy: %s
+SentTo=Bar bolan mysala iberildi: %s
+AlreadyRunning=3nity Media eýýäm işleýär.
+ErrorFileNotFound=Ýalňyşlyk: Faýl ýa-da bukja tapylmady: %s
+ErrorSubNotFound=Ýalňyşlyk: Subtitr faýly tapylmady: %s

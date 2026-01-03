@@ -1,0 +1,892 @@
+[Language]
+Name=Marathi - मराठी
+Code=mr
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; फाइल मेनू
+File=&फाइल
+FileOpen=&फाइल उघडा...
+FileOpenURL=&URL उघडा...
+FileOpenClipboard=&क्लिपबोर्डवरून उघडा
+FileRecent=&अलीकडील फाइल्स
+ClearRecentFiles=अलीकडील फाइल्स साफ करा
+FileExit=&बाहेर पडा
+
+; प्लेबॅक मेनू
+Playback=&प्लेबॅक
+PlaybackPlayPause=&चालवा/थांबवा
+PlaybackStop=&थांबा
+PlaybackPrevious=&मागील
+PlaybackNext=&पुढील
+PlaybackSeekForward=&पुढे शोधा
+PlaybackSeekBackward=&मागे शोधा
+PlaybackSpeed=&वेग
+PlaybackABLoop=A-&B लूप
+PlaybackSetA=&A सेट करा
+PlaybackSetB=&B सेट करा
+PlaybackClearAB=&A-B साफ करा
+PlaybackChapters=&अध्याय
+PlaybackPrevChapter=मागील अध्याय
+PlaybackNextChapter=पुढील अध्याय
+PlaybackFrameStep=फ्रेम &पुढे
+PlaybackFrameBack=फ्रेम &मागे
+
+; DVD नेव्हिगेशन
+PlaybackDVD=DVD &नेव्हिगेशन
+DVDMenu=&मेनू
+DVDUp=&वर
+DVDDown=&खाली
+DVDLeft=&डावे
+DVDRight=&उजवे
+DVDSelect=&निवडा
+PlaybackDVDTitles=DVD &शीर्षके
+
+; टप्पा 21: फोल्डर उघडा
+FileOpenFolder=फो&ल्डर उघडा...
+
+; फाइल मेनू DVD/Bluray
+FileOpenDVD=&DVD उघडा...
+FileOpenBluray=&Blu-ray उघडा...
+
+; टप्पा 13: वेळेवर जा आणि इतिहास
+PlaybackGotoTime=&वेळेवर जा...
+ToolsHistory=&इतिहास
+
+; टप्पा 14: सिस्टम ट्रे
+TrayShow=&दाखवा/लपवा
+TrayPlayPause=&चालवा/थांबवा
+TrayStop=&थांबा
+TrayPrevious=&मागील
+TrayNext=&पुढील
+TrayMute=&म्यूट
+TrayExit=&बाहेर पडा
+
+; टप्पा 15: बुकमार्क्स
+PlaybackAddBookmark=&बुकमार्क जोडा...
+PlaybackBookmarks=बुक&मार्क्स
+BookmarksTitle=बुकमार्क्स
+BookmarksGoto=बुकमार्कवर &जा
+BookmarksRemove=बुकमार्क &काढा
+BookmarksClear=सर्व बुकमार्क्स &साफ करा
+BookmarksOpenFolder=&फोल्डर उघडा
+BookmarksCopyPath=पाथ &कॉपी करा
+BookmarksCount=%d बुकमार्क्स
+NoBookmarks=(बुकमार्क्स नाहीत)
+NoFileLoaded=(फाइल लोड नाही)
+BookmarkAdded=%s वर बुकमार्क जोडला
+BookmarkJumped=%s वर बुकमार्कवर गेलो
+AddBookmarkTitle=बुकमार्क जोडा
+AddBookmarkPrompt=बुकमार्क नाव प्रविष्ट करा:
+ShowAllBookmarks=सर्व बुकमार्क्स दाखवा...
+
+; टप्पा 16: आवडते
+ToolsFavorites=&आवडते
+ToolsAddFavorite=आवडत्यांमध्ये &जोडा
+FavoritesTitle=आवडते
+FavoritesPlay=&चालवा
+FavoritesRemove=आवडत्यांमधून &काढा
+FavoritesClear=सर्व आवडते &साफ करा
+FavoritesOpenFolder=&फोल्डर उघडा
+FavoritesCopyPath=पाथ &कॉपी करा
+FavoritesCount=%d आवडते
+NoFavorites=(आवडते नाहीत)
+AddFavoriteTitle=आवडत्यांमध्ये जोडा
+AddFavoritePrompt=आवडत्यासाठी नाव प्रविष्ट करा:
+AlreadyFavorite=आधीच आवडत्यांमध्ये आहे
+AddedToFavorites=आवडत्यांमध्ये जोडले: %s
+NoFileToFavorite=आवडत्यांमध्ये जोडण्यासाठी फाइल लोड नाही
+FavoriteTypeFile=फाइल
+FavoriteTypeURL=URL
+FavoriteTypeRadio=रेडिओ
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; ट्रॅक फॉर्मेट स्ट्रिंग्स
+TrackWithTitle=ट्रॅक %d: %s
+TrackWithLang=ट्रॅक %d (%s)
+TrackNumber=ट्रॅक %d
+
+; स्पीड मेनू आयटम्स
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; स्केल मेनू आयटम्स
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; सबटायटल ट्रॅक
+SubtitleDisable=अक्षम करा
+
+; टप्पा 17: स्लीप टायमर
+ToolsSleepTimer=&स्लीप टायमर...
+ToolsSleepTimerActive=&स्लीप टायमर [%s]
+ToolsCancelTimer=&टायमर रद्द करा
+
+; ऑडिओ मेनू
+Audio=&ऑडिओ
+AudioTrack=ऑडिओ &ट्रॅक
+AudioVolumeUp=आवाज &वाढवा
+AudioVolumeDown=आवाज &कमी करा
+AudioMute=&म्यूट
+AudioEqualizer=&इक्वलायझर
+AudioDelay=ऑडिओ &विलंब
+AudioDelayPlus=विलंब +0.1s
+AudioDelayMinus=विलंब -0.1s
+AudioDelayReset=विलंब रीसेट
+AudioNormalize=आवाज &सामान्य करा
+
+; व्हिडिओ मेनू
+Video=&व्हिडिओ
+VideoFullscreen=&पूर्ण स्क्रीन
+VideoAspect=&गुणोत्तर
+VideoAspectAuto=&स्वयंचलित
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&स्क्रीनशॉट
+VideoScreenshotAs=स्क्रीनशॉट &म्हणून...
+VideoRotation=&फिरवणे
+VideoRotate0=&0° (सामान्य)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&फ्लिप
+VideoFlipH=&क्षैतिज फ्लिप
+VideoFlipV=&उभा फ्लिप
+VideoDeinterlace=&डीइंटरलेस
+VideoZoom=&झूम
+VideoZoomIn=झूम &इन
+VideoZoomOut=झूम &आउट
+VideoZoomReset=झूम &रीसेट
+VideoPan=&पॅन
+VideoPanLeft=पॅन &डावे
+VideoPanRight=पॅन &उजवे
+VideoPanUp=पॅन &वर
+VideoPanDown=पॅन &खाली
+VideoPanReset=पॅन &रीसेट
+VideoTrack=व्हिडिओ &ट्रॅक
+VideoColors=रंग &समायोजन
+VideoBrightness=&तेजस्वीता
+VideoContrast=&कॉन्ट्रास्ट
+VideoSaturation=&संपृक्तता
+VideoHue=&ह्यू
+VideoGamma=&गामा
+VideoColorsReset=सर्व रंग &रीसेट
+VideoIncrease=वाढवा (+5)
+VideoDecrease=कमी करा (-5)
+VideoReset=रीसेट
+VideoAdjustDialog=व्हिडिओ &समायोजन...
+
+; व्ह्यू मेनू
+View=&दृश्य
+ViewAlwaysOnTop=&नेहमी वर
+ViewFitToVideo=व्हिडिओवर &फिट करा
+ViewScale=विंडो &स्केल
+
+; टप्पा 26: व्हिज्युअलायझेशन मेनू
+ViewVisualization=&व्हिज्युअलायझेशन
+VisNone=&काहीही नाही
+VisSpectrum=&स्पेक्ट्रम विश्लेषक
+VisWaveform=&वेव्हफॉर्म
+VisVector=&व्हेक्टर स्कोप
+VisVolume=&VU मीटर
+VisNextMode=पुढील &मोड
+VisNextColor=पुढील &रंग योजना
+
+; सबटायटल्स मेनू
+Subtitles=&सबटायटल्स
+SubtitleTrack=सबटायटल &ट्रॅक
+SubtitleLoad=सबटायटल &लोड करा...
+SubtitleDelay=सबटायटल &विलंब
+SubtitleDelayPlus=विलंब +0.1s
+SubtitleDelayMinus=विलंब -0.1s
+SubtitleDelayReset=विलंब रीसेट
+
+; टूल्स मेनू
+Tools=&टूल्स
+ToolsPlaylist=&प्लेलिस्ट
+ToolsRadios=&रेडिओ
+ToolsShortcuts=&कीबोर्ड शॉर्टकट्स...
+ToolsOptions=&पर्याय
+
+; टप्पा 27: रेकॉर्डिंग मेनू
+ToolsRecord=&स्ट्रीम रेकॉर्ड करा...
+ToolsStopRecord=रेकॉर्डिंग &थांबवा
+ToolsRecording=&रेकॉर्डिंग...
+
+; मदत मेनू
+Help=&मदत
+HelpMediaInfo=&मीडिया माहिती
+HelpLog=&लॉग विंडो
+HelpAbout=&बद्दल
+
+[Dialog]
+OpenFile=फाइल उघडा
+OpenURL=URL उघडा
+SaveScreenshot=स्क्रीनशॉट सेव्ह करा
+LoadSubtitle=सबटायटल फाइल लोड करा
+EnterURL=URL प्रविष्ट करा:
+ResumePlayback=प्लेबॅक पुन्हा सुरू करा
+ResumeFrom=%s वरून पुन्हा सुरू करायचे?
+ClearRecentFiles=अलीकडील फाइल्स साफ करा
+NoRecentFiles=(अलीकडील फाइल्स नाहीत)
+NoAudioTracks=(ऑडिओ ट्रॅक्स नाहीत)
+NoVideoTracks=(व्हिडिओ ट्रॅक्स नाहीत)
+NoSubtitleTracks=(सबटायटल ट्रॅक्स नाहीत)
+NoChapters=(अध्याय नाहीत)
+OpenDVD=DVD उघडा
+OpenBluray=Blu-ray उघडा
+OpenFolder=फोल्डर उघडा
+
+; फाइल फिल्टर्स
+ScreenshotFilter=PNG इमेज|*.png|JPEG इमेज|*.jpg|WebP इमेज|*.webp
+DVDFilter=DVD फोल्डर|*.;*.iso|सर्व फाइल्स (*.*)|*.*
+BlurayFilter=Blu-ray फोल्डर|*.;*.iso|सर्व फाइल्स (*.*)|*.*
+NoDVD=(DVD लोड नाही)
+DVDTitle=शीर्षक %d
+GotoTime=वेळेवर जा
+EnterTime=जाण्याची वेळ प्रविष्ट करा:
+Hours=तास
+Minutes=मिनिटे
+Seconds=सेकंद
+Current=सध्याचे:
+HistoryTitle=प्लेबॅक इतिहास
+HistoryItems=इतिहासात %d आयटम्स
+HistoryPlay=&चालवा
+HistoryRemove=इतिहासातून &काढा
+HistoryClear=सर्व इतिहास &साफ करा
+HistoryOpenFolder=&फोल्डर उघडा
+HistoryCopyPath=पाथ &कॉपी करा
+ClearHistory=इतिहास साफ करा
+ClearHistoryConfirm=तुम्हाला खात्री आहे की सर्व इतिहास साफ करायचा?
+SleepTimerTitle=स्लीप टायमर
+SleepTimerDescription=प्लेबॅक स्वयंचलितपणे थांबवण्यासाठी टायमर सेट करा
+SleepTimerHours=तास
+SleepTimerMinutes=मिनिटे
+SleepTimerQuickSet=जलद सेट
+SleepTimerAction=टायमर संपल्यावर
+SleepTimerStopPlayback=प्लेबॅक थांबवा
+SleepTimerCloseApp=अॅप्लिकेशन बंद करा
+SleepTimerShutdown=संगणक बंद करा
+SleepTimerStart=टायमर सुरू करा
+
+[Status]
+Ready=तयार
+Opening=उघडत आहे...
+Playing=चालू आहे
+Paused=थांबवले
+Stopped=बंद
+Error=त्रुटी
+Buffering=बफरिंग...
+Seeking=शोधत आहे...
+Recording=रेकॉर्डिंग
+
+[Message]
+SpeedFormat=वेग: %.2fx
+VolumeFormat=आवाज: %d%%
+BrightnessFormat=तेजस्वीता: %d
+ContrastFormat=कॉन्ट्रास्ट: %d
+SaturationFormat=संपृक्तता: %d
+HueFormat=ह्यू: %d
+GammaFormat=गामा: %d
+ColorsReset=व्हिडिओ रंग रीसेट
+LoopASet=%s वर लूप A सेट
+LoopBSet=%s वर लूप B सेट - लूप सक्रिय
+LoopCleared=A-B लूप साफ
+SetAFirst=प्रथम पॉइंट A सेट करा (L दाबा)
+RotationFormat=फिरवणे: %d°
+FlipHOn=क्षैतिज फ्लिप: चालू
+FlipHOff=क्षैतिज फ्लिप: बंद
+FlipVOn=उभा फ्लिप: चालू
+FlipVOff=उभा फ्लिप: बंद
+DeinterlaceOn=डीइंटरलेस: चालू
+DeinterlaceOff=डीइंटरलेस: बंद
+AlwaysOnTopOn=नेहमी वर: चालू
+AlwaysOnTopOff=नेहमी वर: बंद
+WindowFitted=विंडो %dx%d वर फिट
+WindowScale=विंडो स्केल: %.0f%%
+ScreenshotSaved=स्क्रीनशॉट सेव्ह: %s
+AudioNormalizeOn=ऑडिओ सामान्यीकरण: चालू
+AudioNormalizeOff=ऑडिओ सामान्यीकरण: बंद
+AudioDelayFormat=ऑडिओ विलंब: %.1f s
+SubtitleDelayFormat=सबटायटल विलंब: %.1f s
+ZoomFormat=झूम: %.0f%%
+PanCenter=पॅन: मध्य
+PanFormat=पॅन: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=व्हिडिओ लोड नाही
+PlayingFromClipboard=क्लिपबोर्डवरून चालू: %s
+ClipboardInvalid=क्लिपबोर्डमध्ये वैध URL किंवा पाथ नाही
+ClipboardEmpty=क्लिपबोर्ड रिकामा आहे किंवा मजकूर नाही
+ResumedAt=%s वर पुन्हा सुरू
+FrameStepForward=फ्रेम पुढे
+FrameStepBackward=फ्रेम मागे
+PreviousChapter=मागील अध्याय
+NextChapter=पुढील अध्याय
+PlayingRadio=रेडिओ चालू: %s
+PlayingDVD=DVD चालू: %s
+PlayingBluray=Blu-ray चालू: %s
+DVDTitlePlaying=DVD शीर्षक %d
+SeekTo=%s वर जात आहे
+MinimizedToTray=ट्रेमध्ये लहान केले. पुनर्संचयित करण्यासाठी डबल-क्लिक करा.
+SleepTimerSet=स्लीप टायमर सेट: %s
+SleepTimerCancelled=स्लीप टायमर रद्द
+SleepTimerWarning=स्लीप टायमर: 1 मिनिट शिल्लक
+SleepTimerFinal=स्लीप टायमर: 10 सेकंद शिल्लक
+SleepTimerStopped=स्लीप टायमर: प्लेबॅक थांबवले
+SleepTimerClosing=स्लीप टायमर: अॅप्लिकेशन बंद होत आहे
+SleepTimerShutdown=स्लीप टायमर: संगणक बंद होत आहे
+SleepTimerExpired=स्लीप टायमर संपला
+ShutdownManual=कृपया तुमचा संगणक व्यक्तिचलितपणे बंद करा.
+
+; टप्पा 21: फोल्डर उघडा
+FolderOpened=फोल्डर उघडले: %d फाइल्स
+NoMediaFound=मीडिया फाइल्स सापडल्या नाहीत
+FilesAdded=प्लेलिस्टमध्ये %d फाइल्स जोडल्या
+
+; टप्पा 27: रेकॉर्डिंग संदेश
+RecordNeedPlayback=रेकॉर्डिंगपूर्वी प्लेबॅक सुरू करा.
+RecordingStarted=रेकॉर्डिंग सुरू
+RecordingStopped=रेकॉर्डिंग थांबवले
+
+; अतिरिक्त स्थिती संदेश
+EndOfPlaylist=प्लेलिस्टचा शेवट
+NoMediaLoaded=सध्या मीडिया फाइल लोड नाही.
+JumpedToNamed=येथे गेलो: %s
+ChapterFormat=अध्याय %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%s वर बुकमार्क
+
+[Label]
+Muted=म्यूट केले
+
+[Button]
+Play=चालवा
+Pause=थांबवा
+Stop=बंद
+Previous=मागील
+Next=पुढील
+Mute=म्यूट
+Unmute=अनम्यूट
+Fullscreen=पूर्ण स्क्रीन
+OK=ठीक आहे
+Cancel=रद्द करा
+Apply=लागू करा
+Close=बंद करा
+Yes=होय
+No=नाही
+
+[Tooltip]
+Play=चालवा/थांबवा
+Stop=प्लेबॅक थांबवा
+Previous=मागील ट्रॅक
+Next=पुढील ट्रॅक
+Mute=म्यूट टॉगल करा
+Volume=आवाज
+Seek=स्थिती शोधा
+Fullscreen=पूर्ण स्क्रीन टॉगल करा
+
+[Playlist]
+Title=प्लेलिस्ट
+Add=जोडा
+Remove=काढा
+Clear=साफ करा
+MoveUp=वर हलवा
+MoveDown=खाली हलवा
+Shuffle=शफल
+Repeat=पुनरावृत्ती
+Play=चालवा
+ShuffleOn=शफल: चालू
+ShuffleOff=शफल: बंद
+RepeatOff=पुनरावृत्ती: बंद
+RepeatOne=पुनरावृत्ती: एक
+RepeatAll=पुनरावृत्ती: सर्व
+SavePlaylist=सेव्ह करा
+LoadPlaylist=लोड करा
+TotalDuration=एकूण: %s
+ItemCount=%d आयटम्स
+
+; टप्पा 22: प्लेलिस्ट सुधारणा
+Search=शोधा:
+FilterPlaceholder=प्लेलिस्ट फिल्टर करा...
+ClearSearch=साफ करा
+FilterCount=%d/%d
+RemoveDuplicates=डुप्लिकेट &काढा
+Properties=&गुणधर्म...
+NoDuplicates=डुप्लिकेट सापडले नाहीत.
+DuplicatesFound=%d डुप्लिकेट सापडले. काढायचे?
+RemoveDuplicatesTitle=डुप्लिकेट काढा
+PropertiesTitle=प्लेलिस्ट गुणधर्म
+PropTotalItems=एकूण आयटम्स: %d
+PropTotalDuration=एकूण कालावधी: %s
+PropPlayed=चालवलेले: %d
+PropUnplayed=न चालवलेले: %d
+PropTotalSize=एकूण आकार: %.2f MB
+PropShuffle=शफल: %s
+PropRepeat=पुनरावृत्ती: %s
+On=चालू
+Off=बंद
+
+; ApplyLocale साठी नवीन की
+ClearTitle=प्लेलिस्ट साफ करा
+ClearConfirm=तुम्हाला खात्री आहे की प्लेलिस्ट साफ करायची?
+NoPlaylist=प्लेलिस्ट नाही
+StatusFormat=%d आयटम्स | एकूण: %s
+RepeatOne=पुन. 1
+RepeatAll=पुन. सर्व
+HintRepeatEnable=सर्व पुनरावृत्ती सक्षम करण्यासाठी क्लिक करा
+HintRepeatOne=एक पुनरावृत्ती - अक्षम करण्यासाठी क्लिक करा
+HintRepeatAll=सर्व पुनरावृत्ती - एक पुनरावृत्तीसाठी क्लिक करा
+HintShuffleRepeat=शफल + सर्व पुनरावृत्ती - पुनरावृत्ती अक्षम करण्यासाठी क्लिक करा
+RemoveDuplicatesTitle=डुप्लिकेट काढा
+NoDuplicates=डुप्लिकेट सापडले नाहीत.
+SelectAll=सर्व निवडा
+SelectNone=काहीही निवडू नका
+SelectInvert=निवड उलटा
+Sort=क्रमवारी
+SortByName=नावाने
+SortByTitle=शीर्षकाने
+SortByArtist=कलाकाराने
+SortByDuration=कालावधीने
+SortReverse=उलटा
+SortRandom=यादृच्छिक
+ColTitle=शीर्षक
+ColDuration=कालावधी
+ColArtist=कलाकार
+ColAlbum=अल्बम
+PlaylistFilter=M3U प्लेलिस्ट|*.m3u|M3U8 प्लेलिस्ट|*.m3u8|PLS प्लेलिस्ट|*.pls
+
+[Equalizer]
+Title=इक्वलायझर
+Presets=प्रीसेट्स:
+Preamp=प्रीअॅम्प:
+Flat=फ्लॅट
+Rock=रॉक
+Pop=पॉप
+Jazz=जॅझ
+Classical=शास्त्रीय
+BassBoost=बास बूस्ट
+TrebleBoost=ट्रेबल बूस्ट
+Vocal=व्होकल
+Reset=रीसेट
+Enable=इक्वलायझर सक्षम करा
+Save=सेव्ह करा
+Delete=हटवा
+Ready=तयार
+; बटणे आणि क्रिया
+SavePreset=प्रीसेट सेव्ह करा
+DeletePreset=प्रीसेट हटवा
+SavePresetTitle=प्रीसेट सेव्ह करा
+PresetNamePrompt=प्रीसेट नाव:
+EnterPresetName=कृपया प्रीसेट नाव प्रविष्ट करा.
+OverwritePresetTitle=प्रीसेट ओव्हरराइट करा
+OverwritePresetConfirm=या नावाचा प्रीसेट आधीच अस्तित्वात आहे. ओव्हरराइट करायचे?
+PresetUpdated=प्रीसेट अपडेट: %s
+PresetSaved=प्रीसेट सेव्ह: %s
+SelectPresetToDelete=कृपया हटवण्यासाठी प्रीसेट निवडा.
+CannotDeleteDefault=डीफॉल्ट प्रीसेट्स हटवता येत नाहीत.
+DeletePresetTitle=प्रीसेट हटवा
+DeletePresetConfirm=तुम्हाला खात्री आहे की हा प्रीसेट हटवायचा?
+PresetDeleted=प्रीसेट हटवला
+ResetToFlat=इक्वलायझर फ्लॅटवर रीसेट
+PresetApplied=प्रीसेट लागू: %s
+
+[Options]
+Title=पर्याय
+General=सामान्य
+Video=व्हिडिओ
+Audio=ऑडिओ
+Subtitles=सबटायटल्स
+Cache=कॅशे
+Language=भाषा:
+RestartRequired=बदल प्रभावी होण्यासाठी पुनरारंभ आवश्यक
+
+; सामान्य टॅब - वर्तन
+Behavior=वर्तन
+SingleInstance=फक्त एक इंस्टंस अनुमती द्या
+AutoPlay=उघडल्यावर स्वयंचलित चालवा
+AutoResume=प्लेबॅक स्थिती पुन्हा सुरू करा
+MinimizeToTray=सिस्टम ट्रेमध्ये लहान करा
+AutoSavePlaylist=बाहेर पडताना प्लेलिस्ट सेव्ह करा
+
+; सामान्य टॅब - OSD
+OSD=ऑन-स्क्रीन डिस्प्ले
+ShowOSD=ऑन-स्क्रीन संदेश दाखवा
+ShowTrayIcon=ट्रे आयकॉन दाखवा
+OSDDuration=OSD कालावधी (ms):
+
+; सामान्य टॅब - स्क्रीनशॉट्स
+Screenshots=स्क्रीनशॉट्स
+ScreenshotPath=सेव्ह फोल्डर:
+ScreenshotFormat=फॉर्मेट:
+
+; सामान्य टॅब - इतिहास
+HistorySettings=इतिहास
+HistoryEnabled=प्लेबॅक इतिहास सक्षम करा
+HistoryMaxItems=जास्तीत जास्त आयटम्स:
+
+; सामान्य टॅब - भाषा
+LanguageGroup=भाषा
+RestartNote=(बदलांसाठी पुनरारंभ आवश्यक)
+
+; व्हिडिओ टॅब
+VideoAdjust=व्हिडिओ समायोजन
+Brightness=तेजस्वीता:
+Contrast=कॉन्ट्रास्ट:
+Saturation=संपृक्तता:
+Hue=ह्यू:
+Gamma=गामा:
+VideoOutput=व्हिडिओ आउटपुट
+Output=आउटपुट:
+HWAccel=हार्डवेअर प्रवेग सक्षम करा
+Deinterlacing=डीइंटरलेसिंग
+Mode=मोड:
+
+; ऑडिओ टॅब
+AudioOutput=ऑडिओ आउटपुट
+OutputDriver=आउटपुट ड्रायव्हर:
+Device=डिव्हाइस:
+AudioOptions=ऑडिओ पर्याय
+NormalizeAudio=ऑडिओ आवाज सामान्य करा
+Channels=चॅनेल्स:
+
+; सबटायटल्स टॅब
+UseDefaultSubtitles=डीफॉल्ट सबटायटल सेटिंग्ज वापरा
+Font=फॉन्ट
+FontName=फॉन्ट:
+FontSize=आकार:
+FontColor=रंग:
+Bold=बोल्ड
+Italic=इटॅलिक
+Outline=आउटलाइन
+OutlineColor=रंग:
+OutlineSize=आकार:
+Position=स्थिती
+VerticalPosition=उभी स्थिती:
+SubOptions=पर्याय
+Encoding=एन्कोडिंग:
+AutoLoadSubs=सबटायटल फाइल्स स्वयंचलितपणे लोड करा
+
+; व्हिडिओ आउटपुट चेतावणी
+VOWarningX11=चेतावणी: x11 व्हिडिओ समायोजनांना (तेजस्वीता, कॉन्ट्रास्ट, इ.) समर्थन देत नाही
+VOWarningWayland=चेतावणी: Wayland सत्र आवश्यक. व्हिडिओ समायोजनांना समर्थन आहे.
+
+; कॅशे टॅब
+CacheSettings=कॅशे बफर आकार (KB)
+CacheDefault=डीफॉल्ट कॅशे:
+CacheLocal=स्थानिक फाइल्स:
+CacheNetwork=नेटवर्क फाइल्स:
+CacheInternet=इंटरनेट स्ट्रीम्स:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=बद्दल
+Version=आवृत्ती
+Engine=इंजिन
+Technology=तंत्रज्ञान
+BuildInfo=बिल्ड माहिती
+SystemInfo=सिस्टम
+Credits=क्रेडिट्स
+Developer=विकासक:
+Author=लेखक
+License=परवाना
+Website=वेबसाइट
+GitHub=GitHub
+Description=आधुनिक, हलका मीडिया प्लेयर
+LicenseText=3nity Media GPL-2.0 अंतर्गत परवानाधीन आहे\n\nयाचा अर्थ तुम्ही मुक्त आहात:\n  • कोणत्याही उद्देशासाठी सॉफ्टवेअर वापरा\n  • स्रोत कोड अभ्यास आणि बदल करा\n  • सॉफ्टवेअरच्या प्रती वितरित करा\n  • तुमचे बदल वितरित करा\n\nया अटीसह की वितरित केलेले कोणतेही बदल\nGPL-2.0 अंतर्गत परवानाधीन असणे आवश्यक आहे.
+BuildDate=तारीख:
+Target=टार्गेट:
+Kernel=कर्नल:
+
+[Shortcuts]
+Title=कीबोर्ड शॉर्टकट्स
+Description=क्रियांसाठी कीबोर्ड शॉर्टकट्स कॉन्फिगर करा
+Search=शोधा:
+PressKey=की दाबा...
+ColCategory=श्रेणी
+ColAction=क्रिया
+ColShortcut=शॉर्टकट
+Assign=नियुक्त करा
+Clear=साफ करा
+Reset=रीसेट
+ResetAll=सर्व रीसेट करा
+CurrentShortcut=सध्याचे: %s
+NoKeyPressed=कृपया प्रथम की संयोजन दाबा.
+Conflict=संघर्ष: आधीच "%s" ला नियुक्त
+ConfirmReplace=शॉर्टकट बदला
+ReplaceMessage=हा शॉर्टकट आधीच "%s" ला नियुक्त आहे. बदलायचे का?
+ConfirmResetAll=सर्व शॉर्टकट्स रीसेट करा
+ResetAllMessage=तुम्हाला खात्री आहे की सर्व शॉर्टकट्स त्यांच्या डीफॉल्टवर रीसेट करायचे?
+; क्रिया नावे
+ActPlayPause=चालवा / थांबवा
+ActStop=थांबा
+ActPrevious=मागील
+ActNext=पुढील
+ActSeekForward=पुढे शोधा (10s)
+ActSeekBackward=मागे शोधा (10s)
+ActSeekForward5=पुढे शोधा (1 मिनिट)
+ActSeekBackward5=मागे शोधा (1 मिनिट)
+ActSpeedUp=वेग वाढवा
+ActSpeedDown=वेग कमी करा
+ActSpeedReset=वेग रीसेट करा
+ActSetLoopA=लूप पॉइंट A सेट करा
+ActSetLoopB=लूप पॉइंट B सेट करा
+ActClearLoop=A-B लूप साफ करा
+ActFrameForward=फ्रेम पुढे
+ActFrameBackward=फ्रेम मागे
+ActPrevChapter=मागील अध्याय
+ActNextChapter=पुढील अध्याय
+ActGotoTime=वेळेवर जा
+ActVolumeUp=आवाज वाढवा
+ActVolumeDown=आवाज कमी करा
+ActMute=म्यूट / अनम्यूट
+ActAudioDelayPlus=ऑडिओ विलंब +
+ActAudioDelayMinus=ऑडिओ विलंब -
+ActAudioDelayReset=ऑडिओ विलंब रीसेट करा
+ActFullscreen=पूर्ण स्क्रीन
+ActRotate=व्हिडिओ फिरवा
+ActDeinterlace=डीइंटरलेस
+ActZoomIn=झूम इन
+ActZoomOut=झूम आउट
+ActZoomReset=झूम रीसेट
+ActAlwaysOnTop=नेहमी वर
+ActFitToVideo=व्हिडिओवर फिट करा
+ActScreenshot=स्क्रीनशॉट
+ActVideoAdjust=व्हिडिओ समायोजन
+ActVisNextMode=पुढील व्हिज्युअलायझेशन मोड
+ActVisNextColor=पुढील रंग योजना
+ActSubDelayPlus=सबटायटल विलंब +
+ActSubDelayMinus=सबटायटल विलंब -
+ActSubDelayReset=सबटायटल विलंब रीसेट करा
+ActDVDMenu=DVD मेनू
+ActDVDUp=DVD वर नेव्हिगेट करा
+ActDVDDown=DVD खाली नेव्हिगेट करा
+ActDVDLeft=DVD डावीकडे नेव्हिगेट करा
+ActDVDRight=DVD उजवीकडे नेव्हिगेट करा
+ActDVDSelect=DVD निवडा
+ActOpenFile=फाइल उघडा
+ActOpenURL=URL उघडा
+ActPlaylist=प्लेलिस्ट दाखवा
+ActQuit=बाहेर पडा
+
+[Log]
+; टप्पा 25: लॉग विंडो
+Title=MPV लॉग
+Command=कमांड:
+Clear=साफ करा
+Save=सेव्ह करा...
+Copy=&कॉपी करा
+SelectAll=सर्व &निवडा
+SaveTitle=लॉग सेव्ह करा
+SaveFilter=मजकूर फाइल्स (*.txt)|*.txt|सर्व फाइल्स (*.*)|*.*
+ErrorTitle=त्रुटी
+SaveError=लॉग सेव्ह करण्यात अयशस्वी: %s
+
+[MediaInfo]
+Title=मीडिया माहिती
+FileTab=फाइल
+VideoTab=व्हिडिओ
+AudioTab=ऑडिओ
+MetadataTab=मेटाडेटा
+FileName=फाइल नाव:
+FilePath=पाथ:
+FileSize=आकार:
+Duration=कालावधी:
+Format=फॉर्मेट:
+Bitrate=बिटरेट:
+Codec=कोडेक:
+Resolution=रिझोल्यूशन:
+FrameRate=फ्रेम रेट:
+PixelFormat=पिक्सेल फॉर्मेट:
+AspectRatio=गुणोत्तर:
+Channels=चॅनेल्स:
+SampleRate=सॅम्पल रेट:
+Language=भाषा:
+Property=गुणधर्म
+Value=मूल्य
+CopyAll=सर्व कॉपी करा
+CopiedToClipboard=मीडिया माहिती क्लिपबोर्डवर कॉपी केली.
+NA=उपलब्ध नाही
+NAStream=उपलब्ध नाही (स्ट्रीम)
+NALive=उपलब्ध नाही (लाइव्ह)
+ChannelMono=1 (मोनो)
+ChannelStereo=2 (स्टिरिओ)
+Channel51=6 (5.1 सराउंड)
+Channel71=8 (7.1 सराउंड)
+Unknown=अज्ञात
+NoMetadata=(मेटाडेटा नाही)
+
+[Bookmarks]
+Title=बुकमार्क्स
+Goto=जा
+Remove=काढा
+Clear=सर्व साफ करा
+Refresh=रिफ्रेश
+OpenFolder=फोल्डर उघडा
+CopyPath=पाथ कॉपी करा
+; स्तंभ
+ColName=नाव
+ColFile=फाइल
+ColPosition=स्थिती
+ColCreated=तयार केले
+; संवाद
+ClearTitle=बुकमार्क्स साफ करा
+ClearConfirm=तुम्हाला खात्री आहे की सर्व बुकमार्क्स साफ करायचे?
+Count=%d बुकमार्क(स्)
+
+[Favorites]
+Title=आवडते
+Play=चालवा
+Remove=काढा
+Clear=सर्व साफ करा
+Refresh=रिफ्रेश
+OpenFolder=फोल्डर उघडा
+CopyPath=पाथ कॉपी करा
+; स्तंभ
+ColName=नाव
+ColType=प्रकार
+ColPath=पाथ
+; प्रकार
+TypeFile=फाइल
+TypeURL=URL
+TypeRadio=रेडिओ
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=अज्ञात
+; संवाद
+ClearTitle=आवडते साफ करा
+ClearConfirm=तुम्हाला खात्री आहे की सर्व आवडते साफ करायचे?
+Count=%d आवडते
+
+[History]
+Title=प्लेबॅक इतिहास
+Play=चालवा
+Remove=काढा
+Clear=सर्व साफ करा
+Refresh=रिफ्रेश
+OpenFolder=फोल्डर उघडा
+CopyPath=पाथ कॉपी करा
+; स्तंभ
+ColFileName=फाइल
+ColPath=पाथ
+; संवाद
+ClearTitle=इतिहास साफ करा
+ClearConfirm=तुम्हाला खात्री आहे की सर्व इतिहास साफ करायचा?
+Count=%d आयटम(स्)
+
+[SleepTimer]
+Title=स्लीप टायमर
+Description=प्लेबॅक स्वयंचलितपणे थांबवण्यासाठी टायमर सेट करा
+Hours=तास:
+Minutes=मिनिटे:
+Action=टायमर संपल्यावर:
+StopPlayback=प्लेबॅक थांबवा
+CloseApp=अॅप्लिकेशन बंद करा
+Shutdown=संगणक बंद करा
+QuickSet=जलद सेट:
+15Min=15 मिनिटे
+30Min=30 मिनिटे
+1Hour=1 तास
+2Hours=2 तास
+
+[Radios]
+Title=इंटरनेट रेडिओ
+Play=चालवा
+Add=जोडा
+Edit=संपादित करा
+Delete=हटवा
+Remove=काढा
+Import=आयात करा
+Export=निर्यात करा
+Refresh=रिफ्रेश
+Favorite=आवडते
+ShowFavorites=आवडते
+ShowAll=सर्व
+; फिल्टर
+Genre=शैली:
+Search=शोधा:
+SearchBtn=शोधा
+ClearSearch=साफ करा
+AllGenres=(सर्व शैली)
+; संदर्भ मेनू
+AddFavorite=आवडत्यांमध्ये जोडा
+RemoveFavorite=आवडत्यांमधून काढा
+AddCustom=कस्टम स्टेशन जोडा...
+EditCustom=स्टेशन संपादित करा...
+DeleteCustom=स्टेशन हटवा
+OpenWebsite=वेबसाइट उघडा
+CopyURL=URL कॉपी करा
+; स्तंभ
+ColName=नाव
+ColGenre=शैली
+ColBitrate=बिटरेट
+ColCountry=देश
+ColCodec=कोडेक
+; संवाद
+AddTitle=कस्टम स्टेशन जोडा
+EditTitle=स्टेशन संपादित करा
+DeleteTitle=स्टेशन हटवा
+DeleteConfirm=तुम्हाला खात्री आहे की हे स्टेशन हटवायचे?
+StationName=स्टेशन नाव:
+StreamURL=स्ट्रीम URL:
+GenrePrompt=शैली:
+NameURLRequired=नाव आणि URL आवश्यक आहेत.
+; स्थिती संदेश
+LoadingIcecast=Icecast डिरेक्टरीवरून स्टेशन्स लोड होत आहेत...
+IcecastError=Icecast डिरेक्टरी लोड करता आली नाही. डीफॉल्ट स्टेशन्स वापरत आहे.
+NoStationsLoaded=स्टेशन्स लोड नाहीत
+StationCount=%d स्टेशन्स
+LoadedStations=%d स्टेशन्स लोड केले
+ErrorPrefix=त्रुटी:
+; लिगसी की
+Name=नाव
+URL=URL
+Bitrate=बिटरेट
+Description=वर्णन
+Country=देश
+
+[OpenURL]
+Title=URL उघडा
+Prompt=मीडिया URL प्रविष्ट करा:
+
+[GotoTime]
+Title=वेळेवर जा
+EnterTime=जाण्याची वेळ प्रविष्ट करा:
+Hours=ता
+Minutes=मि
+Seconds=से
+Current=सध्याचे:
+Duration=कालावधी:
+
+[VideoAdjust]
+Title=व्हिडिओ समायोजन
+Brightness=तेजस्वीता:
+Contrast=कॉन्ट्रास्ट:
+Saturation=संपृक्तता:
+Hue=ह्यू:
+Gamma=गामा:
+ResetAll=सर्व रंग रीसेट करा
+
+[CLI]
+; कमांड लाइन संदेश
+Usage=वापर
+Arguments=[पर्याय] [फाइल|URL|फोल्डर]
+Description=libmpv बॅकएंड वापरणारा क्रॉस-प्लॅटफॉर्म मल्टीमीडिया प्लेयर.
+Options=पर्याय
+Examples=उदाहरणे
+MoreInfo=अधिक माहितीसाठी, भेट द्या
+EnqueuedTo=विद्यमान इन्स्टन्सच्या रांगेत जोडले: %s
+SentTo=विद्यमान इन्स्टन्सला पाठवले: %s
+AlreadyRunning=3nity Media आधीच चालू आहे.
+ErrorFileNotFound=त्रुटी: फाइल किंवा डिरेक्टरी सापडली नाही: %s
+ErrorSubNotFound=त्रुटी: उपशीर्षक फाइल सापडली नाही: %s

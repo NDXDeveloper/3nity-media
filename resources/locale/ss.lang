@@ -1,0 +1,892 @@
+[Language]
+Name=Swati - SiSwati
+Code=ss
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Lifayela
+FileOpen=&Vula Lifayela...
+FileOpenURL=Vula &URL...
+FileOpenClipboard=Vula ku &Clipboard
+FileRecent=&Emafayela Lasandza
+ClearRecentFiles=Sula Emafayela Lasandza
+FileExit=&Phuma
+
+; Playback menu
+Playback=&Dlala
+PlaybackPlayPause=&Dlala/Misa
+PlaybackStop=&Misa
+PlaybackPrevious=Loku&ndvulele
+PlaybackNext=Loku&landzelako
+PlaybackSeekForward=Funa &Ngembili
+PlaybackSeekBackward=Funa &Ngemuva
+PlaybackSpeed=&Lijubane
+PlaybackABLoop=Loop ya A-&B
+PlaybackSetA=Beka &A
+PlaybackSetB=Beka &B
+PlaybackClearAB=&Sula A-B
+PlaybackChapters=&Tinhloko
+PlaybackPrevChapter=Inhloko Lengcamunye
+PlaybackNextChapter=Inhloko Lelandzelako
+PlaybackFrameStep=Ligcatfu Ngembili
+PlaybackFrameBack=Ligcatfu Ngemuva
+
+; DVD Navigation
+PlaybackDVD=&Kulawula kwe DVD
+DVDMenu=&Menu
+DVDUp=&Etulu
+DVDDown=&Phansi
+DVDLeft=Kwe&sancele
+DVDRight=Kwe&sekudla
+DVDSelect=&Khetsa
+PlaybackDVDTitles=&Tihloko te DVD
+
+; Phase 21: Open Folder
+FileOpenFolder=Vula &Lifoldara...
+
+; File menu DVD/Bluray
+FileOpenDVD=Vula &DVD...
+FileOpenBluray=Vula &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Hamba ku Sikhatsi...
+ToolsHistory=&Umlando
+
+; Phase 14: System Tray
+TrayShow=&Bontsa/Fihla
+TrayPlayPause=&Dlala/Misa
+TrayStop=&Misa
+TrayPrevious=Loku&ndvulele
+TrayNext=Loku&landzelako
+TrayMute=&Thulisa
+TrayExit=&Phuma
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Engeta &Siboniso...
+PlaybackBookmarks=&Tiboniso
+BookmarksTitle=Tiboniso
+BookmarksGoto=&Hamba ku Siboniso
+BookmarksRemove=&Susa Siboniso
+BookmarksClear=&Sula Tiboniso Tonkhe
+BookmarksOpenFolder=Vula &Lifoldara
+BookmarksCopyPath=&Kopisha Indlela
+BookmarksCount=tiboniso %d
+NoBookmarks=(Kute tiboniso)
+NoFileLoaded=(Kute lifayela lefakiwe)
+BookmarkAdded=Siboniso sengetewe ku %s
+BookmarkJumped=Ugcile ku siboniso ku %s
+AddBookmarkTitle=Engeta Siboniso
+AddBookmarkPrompt=Faka ligama lesiboniso:
+ShowAllBookmarks=Bontsa Tiboniso Tonkhe...
+
+; Phase 16: Favorites
+ToolsFavorites=&Tikutsandzako
+ToolsAddFavorite=Engeta ku &Tikutsandzako
+FavoritesTitle=Tikutsandzako
+FavoritesPlay=&Dlala
+FavoritesRemove=&Susa ku Tikutsandzako
+FavoritesClear=&Sula Tikutsandzako Tonkhe
+FavoritesOpenFolder=Vula &Lifoldara
+FavoritesCopyPath=&Kopisha Indlela
+FavoritesCount=tikutsandzako %d
+NoFavorites=(Kute tikutsandzako)
+AddFavoriteTitle=Engeta ku Tikutsandzako
+AddFavoritePrompt=Faka ligama lekutsandzako:
+AlreadyFavorite=Sele ku tikutsandzako
+AddedToFavorites=Kwengete ku tikutsandzako: %s
+NoFileToFavorite=Kute lifayela lefakiwe lekuyengeta ku tikutsandzako
+FavoriteTypeFile=Lifayela
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Iredhiyo
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Umculo %d: %s
+TrackWithLang=Umculo %d (%s)
+TrackNumber=Umculo %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Cisha
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=Sikhala se&Kulala...
+ToolsSleepTimerActive=Sikhala se&Kulala [%s]
+ToolsCancelTimer=Khansela &Sikhala
+
+; Audio menu
+Audio=&Umsindvo
+AudioTrack=Umculo we&Msindvo
+AudioVolumeUp=Yenyisa &Umsindvo
+AudioVolumeDown=Nciphisa &Umsindvo
+AudioMute=&Thulisa
+AudioEqualizer=&Equalizer
+AudioDelay=&Kulibala kwemsindvo
+AudioDelayPlus=Libala +0.1s
+AudioDelayMinus=Libala -0.1s
+AudioDelayReset=Buyisela Kulibala
+AudioNormalize=&Linganisa Umsindvo
+
+; Video menu
+Video=&Ividiyo
+VideoFullscreen=&Sikrini Sigcwele
+VideoAspect=&Linganiso
+VideoAspectAuto=&Otomathikhi
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Sitfombe seSikrini
+VideoScreenshotAs=Sitfombe seSikrini &Njenge...
+VideoRotation=&Jikelisa
+VideoRotate0=&0° (Jwayelekile)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Gucula
+VideoFlipH=Gucula &Horizontale
+VideoFlipV=Gucula &Vertikale
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Ngekhatsi
+VideoZoomOut=Zoom &Ngaphandle
+VideoZoomReset=&Buyisela Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan Kwe&sancele
+VideoPanRight=Pan Kwe&sekudla
+VideoPanUp=Pan &Etulu
+VideoPanDown=Pan &Phansi
+VideoPanReset=Bu&yisela Pan
+VideoTrack=Umculo we&Vidiyo
+VideoColors=Tinguculo te&Mibala
+VideoBrightness=&Ukukhanya
+VideoContrast=&Mehluko
+VideoSaturation=&Saturation
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Buyisela &Mibala Yonkhe
+VideoIncrease=Yenyisa (+5)
+VideoDecrease=Nciphisa (-5)
+VideoReset=Buyisela
+VideoAdjustDialog=Tinguculo te&Vidiyo...
+
+; View menu
+View=&Buka
+ViewAlwaysOnTop=&Njalo Etulu
+ViewFitToVideo=&Lungisa Lifasitela ku Vidiyo
+ViewScale=&Linganiso leLfasitela
+
+; Phase 26: Visualization menu
+ViewVisualization=&Kubontsa
+VisNone=&Lutfo
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=V&U Meter
+VisNextMode=Indlela &Lelandzelako
+VisNextColor=Umbala &Olandzela
+
+; Subtitles menu
+Subtitles=&Tisubthithili
+SubtitleTrack=Umculo we&Subthithili
+SubtitleLoad=&Faka Subthithili...
+SubtitleDelay=&Kulibala kweSubthithili
+SubtitleDelayPlus=Libala +0.1s
+SubtitleDelayMinus=Libala -0.1s
+SubtitleDelayReset=Buyisela Kulibala
+
+; Tools menu
+Tools=&Emathuluzi
+ToolsPlaylist=&Luhlu lweEngoma
+ToolsRadios=&Iredhiyo
+ToolsShortcuts=&Tifohlelo teKhibhodi...
+ToolsOptions=&Tikhetfo
+
+; Phase 27: Recording menu
+ToolsRecord=&Rekhoda...
+ToolsStopRecord=M&isa Kurekhoda
+ToolsRecording=&Rekhoda...
+
+; Help menu
+Help=&Lusito
+HelpMediaInfo=Lwati lwe&Media
+HelpLog=Lifasitela le&Log
+HelpAbout=&Mayelana
+
+[Dialog]
+OpenFile=Vula Lifayela
+OpenURL=Vula URL
+SaveScreenshot=Londvolota Sitfombe seSikrini
+LoadSubtitle=Faka Lifayela leSubthithili
+EnterURL=Faka URL:
+ResumePlayback=Chubeka Kudlala
+ResumeFrom=Chubeka kusuka %s?
+ClearRecentFiles=Sula Emafayela Lasandza
+NoRecentFiles=(Kute emafayela lasandza)
+NoAudioTracks=(Kute imculo yemsindvo)
+NoVideoTracks=(Kute imculo yevidiyo)
+NoSubtitleTracks=(Kute imculo yesubthithili)
+NoChapters=(Kute tinhloko)
+OpenDVD=Vula DVD
+OpenBluray=Vula Blu-ray
+OpenFolder=Vula Lifoldara
+
+; File filters
+ScreenshotFilter=Sitfombe se PNG|*.png|Sitfombe se JPEG|*.jpg|Sitfombe se WebP|*.webp
+DVDFilter=Lifoldara le DVD|*.;*.iso|Emafayela onkhe (*.*)|*.*
+BlurayFilter=Lifoldara le Blu-ray|*.;*.iso|Emafayela onkhe (*.*)|*.*
+NoDVD=(Kute DVD lefakiwe)
+DVDTitle=Sihloko %d
+GotoTime=Hamba ku Sikhatsi
+EnterTime=Faka sikhatsi lofuna kuhamba kuso:
+Hours=Emahora
+Minutes=Emaminithi
+Seconds=Emasekeni
+Current=Manje:
+HistoryTitle=Umlando wekuDlala
+HistoryItems=tintfo %d emlandweni
+HistoryPlay=&Dlala
+HistoryRemove=&Susa ku Mlando
+HistoryClear=&Sula Mlando Wonkhe
+HistoryOpenFolder=Vula &Lifoldara
+HistoryCopyPath=&Kopisha Indlela
+ClearHistory=Sula Umlando
+ClearHistoryConfirm=Ucinisakile kutsi ufuna kusula umlando wonkhe?
+SleepTimerTitle=Sikhala seKulala
+SleepTimerDescription=Beka sikhala sekumisa kudlala ngotomathikhi
+SleepTimerHours=Emahora
+SleepTimerMinutes=Emaminithi
+SleepTimerQuickSet=Beka Ngekushesha
+SleepTimerAction=Uma sikhala siphela
+SleepTimerStopPlayback=Misa kudlala
+SleepTimerCloseApp=Vala uhlelo
+SleepTimerShutdown=Cisha ikhompyutha
+SleepTimerStart=Cala Sikhala
+
+[Status]
+Ready=Kulungile
+Opening=Kuvula...
+Playing=Kudlala
+Paused=Kumisiwe
+Stopped=Kumisiwe
+Error=Siphosiso
+Buffering=Kulungisa...
+Seeking=Kufuna...
+Recording=Kurekhoda
+
+[Message]
+SpeedFormat=Lijubane: %.2fx
+VolumeFormat=Umsindvo: %d%%
+BrightnessFormat=Ukukhanya: %d
+ContrastFormat=Mehluko: %d
+SaturationFormat=Saturation: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Imibala yevidiyo ibuyiselwe
+LoopASet=Loop A ibekwe ku %s
+LoopBSet=Loop B ibekwe ku %s - Loop isebenta
+LoopCleared=Loop A-B isulwe
+SetAFirst=Beka liphoyinti A kucala (cindzetsa L)
+RotationFormat=Kujikelisa: %d°
+FlipHOn=Gucula horizontale: KUVULIWE
+FlipHOff=Gucula horizontale: KUVALIWE
+FlipVOn=Gucula vertikale: KUVULIWE
+FlipVOff=Gucula vertikale: KUVALIWE
+DeinterlaceOn=Deinterlace: KUVULIWE
+DeinterlaceOff=Deinterlace: KUVALIWE
+AlwaysOnTopOn=Njalo etulu: KUVULIWE
+AlwaysOnTopOff=Njalo etulu: KUVALIWE
+WindowFitted=Lifasitela lilungiswe ku %dx%d
+WindowScale=Linganiso lefasitela: %.0f%%
+ScreenshotSaved=Sitfombe sesikrini silondolotswe: %s
+AudioNormalizeOn=Linganisa umsindvo: KUVULIWE
+AudioNormalizeOff=Linganisa umsindvo: KUVALIWE
+AudioDelayFormat=Kulibala kwemsindvo: %.1f s
+SubtitleDelayFormat=Kulibala kwesubthithili: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Emkhatsini
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Kute vidiyo lefakiwe
+PlayingFromClipboard=Kudlala kusuka clipboard: %s
+ClipboardInvalid=Clipboard ayinayo URL noma indlela lekahle
+ClipboardEmpty=Clipboard ayinalutfo noma ayinalo umbhalo
+ResumedAt=Kuchubekile ku %s
+FrameStepForward=Ligcatfu ngembili
+FrameStepBackward=Ligcatfu ngemuva
+PreviousChapter=Inhloko lengcamunye
+NextChapter=Inhloko lelandzelako
+PlayingRadio=Kudlala iredhiyo: %s
+PlayingDVD=Kudlala DVD: %s
+PlayingBluray=Kudlala Blu-ray: %s
+DVDTitlePlaying=Sihloko se DVD %d
+SeekTo=Kuhamba ku %s
+MinimizedToTray=Incishisiwe ku tray. Cindzetsa kabili kubuyisa.
+SleepTimerSet=Sikhala sekulala sibekwe: %s
+SleepTimerCancelled=Sikhala sekulala sisulwe
+SleepTimerWarning=Sikhala sekulala: iminithi 1 isele
+SleepTimerFinal=Sikhala sekulala: emasekeni 10 asele
+SleepTimerStopped=Sikhala sekulala: Kudlala kumisiwe
+SleepTimerClosing=Sikhala sekulala: Kuvala uhlelo
+SleepTimerShutdown=Sikhala sekulala: Kucisha ikhompyutha
+SleepTimerExpired=Sikhala seKulala Siphelile
+ShutdownManual=Sicela ucishe ikhompyutha yakho ngesandla.
+
+; Phase 21: Open Folder
+FolderOpened=Lifoldara livuliwe: emafayela %d
+NoMediaFound=Kute emafayela emedia atfolakelwe
+FilesAdded=Emafayela %d engetewe kuluhlu
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Cala kudlala ngaphambi kwekurekhoda.
+RecordingStarted=Kurekhoda kucaliwe
+RecordingStopped=Kurekhoda kumisiwe
+
+; Additional status messages
+EndOfPlaylist=Kuphelela kweluhlu
+NoMediaLoaded=Kute lifayela lemedia lefakiwe.
+JumpedToNamed=Kugcile ku: %s
+ChapterFormat=Inhloko %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Siboniso ku %s
+
+[Label]
+Muted=Kuthulisiwe
+
+[Button]
+Play=Dlala
+Pause=Misa
+Stop=Misa
+Previous=Lokwendvulele
+Next=Lokulandzelako
+Mute=Thulisa
+Unmute=Vula Umsindvo
+Fullscreen=Sikrini Sigcwele
+OK=Kulungile
+Cancel=Khansela
+Apply=Sebentisa
+Close=Vala
+Yes=Yebo
+No=Cha
+
+[Tooltip]
+Play=Dlala/Misa
+Stop=Misa kudlala
+Previous=Umculo longcamunye
+Next=Umculo olandzela
+Mute=Gucula kuthulisa
+Volume=Umsindvo
+Seek=Indzawo yekufuna
+Fullscreen=Gucula sikrini sigcwele
+
+[Playlist]
+Title=Luhlu lweEngoma
+Add=Engeta
+Remove=Susa
+Clear=Sula
+MoveUp=Yenyisa Etulu
+MoveDown=Yehlisa Phansi
+Shuffle=Hlanganisa
+Repeat=Phindza
+Play=Dlala
+ShuffleOn=Hlanganisa: Kuvuliwe
+ShuffleOff=Hlanganisa: Kuvaliwe
+RepeatOff=Phindza: Kuvaliwe
+RepeatOne=Phindza: Kunye
+RepeatAll=Phindza: Konkhe
+SavePlaylist=Londvolota
+LoadPlaylist=Faka
+TotalDuration=Sekukonkhe: %s
+ItemCount=tintfo %d
+
+; Phase 22: Playlist Enhancements
+Search=Funa:
+FilterPlaceholder=Hlungula luhlu...
+ClearSearch=Sula
+FilterCount=%d/%d
+RemoveDuplicates=Susa &Timphindziwe
+Properties=&Timphawu...
+NoDuplicates=Kute timphindziwe titfolakelwe.
+DuplicatesFound=Timphindziwe %d titfolakelwe. Titsusa?
+RemoveDuplicatesTitle=Susa Timphindziwe
+PropertiesTitle=Timphawu teLuhlu
+PropTotalItems=Tintfo tonkhe: %d
+PropTotalDuration=Sikhatsi sonkhe: %s
+PropPlayed=Kudlaliwe: %d
+PropUnplayed=Kungadlaliwanga: %d
+PropTotalSize=Bukhulu bonkhe: %.2f MB
+PropShuffle=Hlanganisa: %s
+PropRepeat=Phindza: %s
+On=Kuvuliwe
+Off=Kuvaliwe
+
+; New keys for ApplyLocale
+ClearTitle=Sula Luhlu
+ClearConfirm=Ucinisakile kutsi ufuna kusula luhlu?
+NoPlaylist=Kute luhlu
+StatusFormat=tintfo %d | Sekukonkhe: %s
+RepeatOne=Phin. 1
+RepeatAll=Phin. Konkhe
+HintRepeatEnable=Cindzetsa kucala Phindza Konkhe
+HintRepeatOne=Phindza Kunye - Cindzetsa kumisa
+HintRepeatAll=Phindza Konkhe - Cindzetsa ku Phindza Kunye
+HintShuffleRepeat=Hlanganisa + Phindza Konkhe - Cindzetsa kumisa phindza
+RemoveDuplicatesTitle=Susa Timphindziwe
+NoDuplicates=Kute timphindziwe titfolakelwe.
+SelectAll=Khetsa Konkhe
+SelectNone=Khetsa Lutfo
+SelectInvert=Gucula Kukhetsa
+Sort=Hlela
+SortByName=NgeGama
+SortByTitle=NgeSihloko
+SortByArtist=NgeMculi
+SortByDuration=NgeSikhatsi
+SortReverse=Gucula
+SortRandom=Hlanganisa
+ColTitle=Sihloko
+ColDuration=Sikhatsi
+ColArtist=Mculi
+ColAlbum=Albamu
+PlaylistFilter=M3U Luhlu|*.m3u|M3U8 Luhlu|*.m3u8|PLS Luhlu|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Tibeko:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Letfolo
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Livi
+Reset=Buyisela
+Enable=Vumela Equalizer
+Save=Londvolota
+Delete=Sula
+Ready=Kulungile
+; Buttons and actions
+SavePreset=Londvolota Sibeko
+DeletePreset=Sula Sibeko
+SavePresetTitle=Londvolota Sibeko
+PresetNamePrompt=Ligama lesibeko:
+EnterPresetName=Sicela ufake ligama lesibeko.
+OverwritePresetTitle=Bhala Etulu Sibeko
+OverwritePresetConfirm=Sibeko lesineligama seleli sikhona. Bhala etulu?
+PresetUpdated=Sibeko sibuyeketiwe: %s
+PresetSaved=Sibeko silondolotswe: %s
+SelectPresetToDelete=Sicela ukhetse sibeko lofuna kusisusa.
+CannotDeleteDefault=Awukwati kususa tibeko tekucala.
+DeletePresetTitle=Sula Sibeko
+DeletePresetConfirm=Ucinisakile kutsi ufuna kususa lesibeko?
+PresetDeleted=Sibeko sisuswe
+ResetToFlat=Equalizer ibuyiselwe flat
+PresetApplied=Sibeko sisetjentisiwe: %s
+
+[Options]
+Title=Tikhetfo
+General=Sekukonkhe
+Video=Ividiyo
+Audio=Umsindvo
+Subtitles=Tisubthithili
+Cache=Cache
+Language=Lulwimi:
+RestartRequired=Kudingeka ucale kabusha kutsi tinguculo tisebente
+
+; General tab - Behavior
+Behavior=Kutiphatsa
+SingleInstance=Vumela intfo yinye kwaphela
+AutoPlay=Dlala ngotomathikhi uma uvula
+AutoResume=Chubeka indzawo yekudlala
+MinimizeToTray=Nciphisa ku tray
+AutoSavePlaylist=Londvolota luhlu uma uphuma
+
+; General tab - OSD
+OSD=Kubontsa eSikrinini
+ShowOSD=Bontsa imilayeto yesikrini
+ShowTrayIcon=Bontsa sitfombe setray
+OSDDuration=Sikhatsi se OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Titfombe teSikrini
+ScreenshotPath=Lifoldara lekulondvolota:
+ScreenshotFormat=Simo:
+
+; General tab - History
+HistorySettings=Umlando
+HistoryEnabled=Vumela umlando wekudlala
+HistoryMaxItems=Linani lelikhulu:
+
+; General tab - Language
+LanguageGroup=Lulwimi
+RestartNote=(Kudingeka kucala kabusha ngenca yetinguculo)
+
+; Video tab
+VideoAdjust=Tinguculo teVidiyo
+Brightness=Ukukhanya:
+Contrast=Mehluko:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Vidiyo Lephuma
+Output=Kuphuma:
+HWAccel=Vumela hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Indlela:
+
+; Audio tab
+AudioOutput=Umsindvo Lophuma
+OutputDriver=Drayiva lophuma:
+Device=Sibambiso:
+AudioOptions=Tikhetfo temsindvo
+NormalizeAudio=Linganisa umsindvo
+Channels=Titjhaneli:
+
+; Subtitles tab
+UseDefaultSubtitles=Sebentisa tibeko tesubthithili tekucala
+Font=Ifonti
+FontName=Ifonti:
+FontSize=Bukhulu:
+FontColor=Umbala:
+Bold=Bold
+Italic=Italic
+Outline=Umngcele
+OutlineColor=Umbala:
+OutlineSize=Bukhulu:
+Position=Indzawo
+VerticalPosition=Indzawo yobuvertikale:
+SubOptions=Tikhetfo
+Encoding=Encoding:
+AutoLoadSubs=Faka emafayela esubthithili ngotomathikhi
+
+; Video output warnings
+VOWarningX11=Tecwayiso: x11 ayisekeli tinguculo tevidiyo (ukukhanya, mehluko, njalo-njalo.)
+VOWarningWayland=Tecwayiso: Idinga Wayland session. Tinguculo tevidiyo tisekelwa.
+
+; Cache tab
+CacheSettings=Bukhulu be Cache Buffer (KB)
+CacheDefault=Cache yekucala:
+CacheLocal=Emafayela ekhaya:
+CacheNetwork=Emafayela enetwork:
+CacheInternet=Ema-stream e Internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Mayelana
+Version=Inhlobo
+Engine=Injini
+Technology=Itheknoloji
+BuildInfo=Lwati lweKwakha
+SystemInfo=Sistemu
+Credits=Kubonga
+Developer=Umphatsi:
+Author=Umbhali
+License=Ilayisense
+Website=Iwebhusayithi
+GitHub=GitHub
+Description=Sidlali semedia lesisencane, lesilula
+LicenseText=3nity Media inelayisense ye GPL-2.0\n\nLoku kusho kutsi ukhululekile ku:\n  - Sebentisa isofthiwe ngencoso yiyo nayiphi\n  - Funda nekugucula ikhodi yemtfombo\n  - Sabalalisa emakhophi esofthiwe\n  - Sabalalisa tinguculo takho\n\nNgesimo sekutsi tonkhe tinguculo letisatjalaliswe\natinelayisense ye GPL-2.0.
+BuildDate=Lusuku:
+Target=Luphawu:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Tifohlelo teKhibhodi
+Description=Lungisa tifohlelo tekhibhodi ngetento
+Search=Funa:
+PressKey=Cindzetsa luhlelo...
+ColCategory=Siqhezu
+ColAction=Sento
+ColShortcut=Sifohlelo
+Assign=Beka
+Clear=Sula
+Reset=Buyisela
+ResetAll=Buyisela Konkhe
+CurrentShortcut=Manje: %s
+NoKeyPressed=Sicela cindzetse luhlelo kucala.
+Conflict=Kuphambana: Sele sibekwe ku "%s"
+ConfirmReplace=Shintja Sifohlelo
+ReplaceMessage=Lesifohlelo sele sibekwe ku "%s". Ufuna kusishintja?
+ConfirmResetAll=Buyisela Tifohlelo Tonkhe
+ResetAllMessage=Ucinisakile kutsi ufuna kubuyisela tifohlelo tonkhe tekucala?
+; Action names
+ActPlayPause=Dlala / Misa
+ActStop=Misa
+ActPrevious=Lokwendvulele
+ActNext=Lokulandzelako
+ActSeekForward=Funa Ngembili (10s)
+ActSeekBackward=Funa Ngemuva (10s)
+ActSeekForward5=Funa Ngembili (1 min)
+ActSeekBackward5=Funa Ngemuva (1 min)
+ActSpeedUp=Yenyisa Lijubane
+ActSpeedDown=Nciphisa Lijubane
+ActSpeedReset=Buyisela Lijubane
+ActSetLoopA=Beka Loop A
+ActSetLoopB=Beka Loop B
+ActClearLoop=Sula Loop A-B
+ActFrameForward=Ifreyimu Ngembili
+ActFrameBackward=Ifreyimu Ngemuva
+ActPrevChapter=Inhloko Lengcamunye
+ActNextChapter=Inhloko Lelandzelako
+ActGotoTime=Hamba ku Sikhatsi
+ActVolumeUp=Yenyisa Umsindvo
+ActVolumeDown=Nciphisa Umsindvo
+ActMute=Thulisa / Vula
+ActAudioDelayPlus=Kulibala kwemsindvo +
+ActAudioDelayMinus=Kulibala kwemsindvo -
+ActAudioDelayReset=Buyisela Kulibala kwemsindvo
+ActFullscreen=Sikrini Sigcwele
+ActRotate=Jikelisa Vidiyo
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom Ngekhatsi
+ActZoomOut=Zoom Ngaphandle
+ActZoomReset=Buyisela Zoom
+ActAlwaysOnTop=Njalo Etulu
+ActFitToVideo=Lungisa ku Vidiyo
+ActScreenshot=Sitfombe seSikrini
+ActVideoAdjust=Tinguculo teVidiyo
+ActVisNextMode=Indlela yeKubontsa Lelandzelako
+ActVisNextColor=Umbala Olandzela
+ActSubDelayPlus=Kulibala kweSubthithili +
+ActSubDelayMinus=Kulibala kweSubthithili -
+ActSubDelayReset=Buyisela Kulibala kweSubthithili
+ActDVDMenu=Menu ye DVD
+ActDVDUp=DVD Etulu
+ActDVDDown=DVD Phansi
+ActDVDLeft=DVD Kwesancele
+ActDVDRight=DVD Kwesekudla
+ActDVDSelect=DVD Khetsa
+ActOpenFile=Vula Lifayela
+ActOpenURL=Vula URL
+ActPlaylist=Bontsa Luhlu
+ActQuit=Phuma
+
+[Log]
+; Phase 25: Log Window
+Title=Log ye MPV
+Command=Umyalo:
+Clear=Sula
+Save=Londvolota...
+Copy=&Kopisha
+SelectAll=Khetsa &Konkhe
+SaveTitle=Londvolota Log
+SaveFilter=Emafayela embhalo (*.txt)|*.txt|Emafayela onkhe (*.*)|*.*
+ErrorTitle=Siphosiso
+SaveError=Kulondvolota log kuhlulekile: %s
+
+[MediaInfo]
+Title=Lwati lweMedia
+FileTab=Lifayela
+VideoTab=Ividiyo
+AudioTab=Umsindvo
+MetadataTab=Metadata
+FileName=Ligama leFayela:
+FilePath=Indlela:
+FileSize=Bukhulu:
+Duration=Sikhatsi:
+Format=Simo:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Simo sePixel:
+AspectRatio=Linganiso:
+Channels=Titjhaneli:
+SampleRate=Sample Rate:
+Language=Lulwimi:
+Property=Timphawu
+Value=Linani
+CopyAll=Kopisha Konkhe
+CopiedToClipboard=Lwati lwemedia lukopishwe ku clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Akwatiwa
+NoMetadata=(Kute metadata)
+
+[Bookmarks]
+Title=Tiboniso
+Goto=Hamba ku
+Remove=Susa
+Clear=Sula Konkhe
+Refresh=Vusetela
+OpenFolder=Vula Lifoldara
+CopyPath=Kopisha Indlela
+; Columns
+ColName=Ligama
+ColFile=Lifayela
+ColPosition=Indzawo
+ColCreated=Yentiwe
+; Dialogs
+ClearTitle=Sula Tiboniso
+ClearConfirm=Ucinisakile kutsi ufuna kusula tiboniso tonkhe?
+Count=tiboniso %d
+
+[Favorites]
+Title=Tikutsandzako
+Play=Dlala
+Remove=Susa
+Clear=Sula Konkhe
+Refresh=Vusetela
+OpenFolder=Vula Lifoldara
+CopyPath=Kopisha Indlela
+; Columns
+ColName=Ligama
+ColType=Luhlobo
+ColPath=Indlela
+; Types
+TypeFile=Lifayela
+TypeURL=URL
+TypeRadio=Iredhiyo
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Akwatiwa
+; Dialogs
+ClearTitle=Sula Tikutsandzako
+ClearConfirm=Ucinisakile kutsi ufuna kusula tikutsandzako tonkhe?
+Count=tikutsandzako %d
+
+[History]
+Title=Umlando wekuDlala
+Play=Dlala
+Remove=Susa
+Clear=Sula Konkhe
+Refresh=Vusetela
+OpenFolder=Vula Lifoldara
+CopyPath=Kopisha Indlela
+; Columns
+ColFileName=Lifayela
+ColPath=Indlela
+; Dialogs
+ClearTitle=Sula Umlando
+ClearConfirm=Ucinisakile kutsi ufuna kusula umlando wonkhe?
+Count=tintfo %d
+
+[SleepTimer]
+Title=Sikhala seKulala
+Description=Beka sikhala sekumisa kudlala ngotomathikhi
+Hours=Emahora:
+Minutes=Emaminithi:
+Action=Uma sikhala siphela:
+StopPlayback=Misa kudlala
+CloseApp=Vala uhlelo
+Shutdown=Cisha ikhompyutha
+QuickSet=Beka ngekushesha:
+15Min=15 min
+30Min=30 min
+1Hour=1 hora
+2Hours=2 hora
+
+[Radios]
+Title=Tiredhiyo te Internet
+Play=Dlala
+Add=Engeta
+Edit=Gucula
+Delete=Sula
+Remove=Susa
+Import=Faka
+Export=Khipha
+Refresh=Vusetela
+Favorite=Kutsandzako
+ShowFavorites=Tikutsandzako
+ShowAll=Konkhe
+; Filter
+Genre=Luhlobo:
+Search=Funa:
+SearchBtn=Funa
+ClearSearch=Sula
+AllGenres=(Tinhlobo Tonkhe)
+; Context menu
+AddFavorite=Engeta ku Tikutsandzako
+RemoveFavorite=Susa ku Tikutsandzako
+AddCustom=Engeta Siteshi...
+EditCustom=Gucula Siteshi...
+DeleteCustom=Sula Siteshi
+OpenWebsite=Vula Iwebhusayithi
+CopyURL=Kopisha URL
+; Columns
+ColName=Ligama
+ColGenre=Luhlobo
+ColBitrate=Bitrate
+ColCountry=Live
+ColCodec=Codec
+; Dialogs
+AddTitle=Engeta Siteshi
+EditTitle=Gucula Siteshi
+DeleteTitle=Sula Siteshi
+DeleteConfirm=Ucinisakile kutsi ufuna kususa lesiteshi?
+StationName=Ligama leSiteshi:
+StreamURL=URL yeStream:
+GenrePrompt=Luhlobo:
+NameURLRequired=Ligama ne URL kuyadzingeka.
+; Status messages
+LoadingIcecast=Kufaka titeshi kusuka Icecast...
+IcecastError=Akukhonenki kufaka Icecast. Kusebentisa titeshi tekucala.
+NoStationsLoaded=Kute titeshi letifakiwe
+StationCount=titeshi %d
+LoadedStations=Titeshi %d tifakiwe
+ErrorPrefix=Siphosiso:
+; Legacy keys
+Name=Ligama
+URL=URL
+Bitrate=Bitrate
+Description=Inchazelo
+Country=Live
+
+[OpenURL]
+Title=Vula URL
+Prompt=Faka URL yemedia:
+
+[GotoTime]
+Title=Hamba ku Sikhatsi
+EnterTime=Faka sikhatsi lofuna kuhamba kuso:
+Hours=H
+Minutes=M
+Seconds=S
+Current=Manje:
+Duration=Sikhatsi:
+
+[VideoAdjust]
+Title=Tinguculo teVidiyo
+Brightness=Ukukhanya:
+Contrast=Mehluko:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Buyisela Mibala Yonkhe
+
+[CLI]
+; Imilayeto yemugca wemiyalo
+Usage=Kusetjentiswa
+Arguments=[TINKETFO] [LIFAYILI|URL|LIFOLDA]
+Description=Umdlali we-multimedia lowehluka ema-platform asebentisa i-libmpv njengemshini.
+Options=TINKETFO
+Examples=TIBONELO
+MoreInfo=Kutfola lolunye lwatiso, vakashela
+EnqueuedTo=Kungengwe emugceni we-instance lekhona: %s
+SentTo=Kutfunyelwe ku-instance lekhona: %s
+AlreadyRunning=I-3nity Media seyisebenta.
+ErrorFileNotFound=Liphutsa: Lifayili noma ludayirekthri alutfolakalanga: %s
+ErrorSubNotFound=Liphutsa: Lifayili letindatjana alutfolakalanga: %s

@@ -1,0 +1,892 @@
+[Language]
+Name=Albanian - Shqip
+Code=sq
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menyja e skedarit
+File=&Skedari
+FileOpen=&Hap Skedarin...
+FileOpenURL=Hap &URL...
+FileOpenClipboard=Hap nga &Clipboard
+FileRecent=Skedarët e &Fundit
+ClearRecentFiles=Pastro Skedarët e Fundit
+FileExit=&Dil
+
+; Menyja e riprodhimit
+Playback=&Riprodhimi
+PlaybackPlayPause=&Luaj/Pauzë
+PlaybackStop=&Ndalo
+PlaybackPrevious=I &Mëparshëm
+PlaybackNext=&Tjetri
+PlaybackSeekForward=Kërko &Përpara
+PlaybackSeekBackward=Kërko &Prapa
+PlaybackSpeed=&Shpejtësia
+PlaybackABLoop=Cikli A-&B
+PlaybackSetA=Cakto &A
+PlaybackSetB=Cakto &B
+PlaybackClearAB=&Pastro A-B
+PlaybackChapters=&Kapitujt
+PlaybackPrevChapter=Kapitulli i Mëparshëm
+PlaybackNextChapter=Kapitulli Tjetër
+PlaybackFrameStep=Hap Kadri &Përpara
+PlaybackFrameBack=Hap Kadri &Prapa
+
+; Navigimi DVD
+PlaybackDVD=&Navigimi DVD
+DVDMenu=&Menyja
+DVDUp=&Lart
+DVDDown=&Poshtë
+DVDLeft=&Majtas
+DVDRight=&Djathtas
+DVDSelect=&Zgjidh
+PlaybackDVDTitles=&Titujt DVD
+
+; Faza 21: Hap Dosjen
+FileOpenFolder=Hap D&osjen...
+
+; Menyja e skedarit DVD/Bluray
+FileOpenDVD=Hap &DVD...
+FileOpenBluray=Hap &Blu-ray...
+
+; Faza 13: Shko te Koha dhe Historia
+PlaybackGotoTime=&Shko te Koha...
+ToolsHistory=&Historia
+
+; Faza 14: Tabaka e Sistemit
+TrayShow=&Shfaq/Fshih
+TrayPlayPause=&Luaj/Pauzë
+TrayStop=&Ndalo
+TrayPrevious=I &Mëparshëm
+TrayNext=&Tjetri
+TrayMute=&Hesht
+TrayExit=&Dil
+
+; Faza 15: Faqerojtësit
+PlaybackAddBookmark=Shto &Faqerojtës...
+PlaybackBookmarks=Faqe&rojtësit
+BookmarksTitle=Faqerojtësit
+BookmarksGoto=&Shko te Faqerojtësi
+BookmarksRemove=&Hiq Faqerojtësin
+BookmarksClear=&Pastro Të Gjithë Faqerojtësit
+BookmarksOpenFolder=Hap &Dosjen
+BookmarksCopyPath=&Kopjo Shtegun
+BookmarksCount=%d faqerojtës
+NoBookmarks=(Asnjë faqerojtës)
+NoFileLoaded=(Asnjë skedar i ngarkuar)
+BookmarkAdded=Faqerojtësi u shtua në %s
+BookmarkJumped=U kërcye te faqerojtësi në %s
+AddBookmarkTitle=Shto Faqerojtës
+AddBookmarkPrompt=Shkruaj emrin e faqerojtësit:
+ShowAllBookmarks=Shfaq Të Gjithë Faqerojtësit...
+
+; Faza 16: Të Preferuarat
+ToolsFavorites=Të &Preferuarat
+ToolsAddFavorite=Shto te Të Pre&feruarat
+FavoritesTitle=Të Preferuarat
+FavoritesPlay=&Luaj
+FavoritesRemove=&Hiq nga Të Preferuarat
+FavoritesClear=&Pastro Të Gjitha Të Preferuarat
+FavoritesOpenFolder=Hap &Dosjen
+FavoritesCopyPath=&Kopjo Shtegun
+FavoritesCount=%d të preferuara
+NoFavorites=(Asnjë e preferuar)
+AddFavoriteTitle=Shto te Të Preferuarat
+AddFavoritePrompt=Shkruaj emrin për të preferuarën:
+AlreadyFavorite=Tashmë në të preferuarat
+AddedToFavorites=U shtua te të preferuarat: %s
+NoFileToFavorite=Asnjë skedar i ngarkuar për të shtuar te të preferuarat
+FavoriteTypeFile=Skedar
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Formatet e pistës
+TrackWithTitle=Pista %d: %s
+TrackWithLang=Pista %d (%s)
+TrackNumber=Pista %d
+
+; Artikujt e menysë së shpejtësisë
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Artikujt e menysë së shkallës
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Pista e titrimit
+SubtitleDisable=Çaktivizo
+
+; Faza 17: Kohëmatësi i Gjumit
+ToolsSleepTimer=&Kohëmatësi i Gjumit...
+ToolsSleepTimerActive=&Kohëmatësi i Gjumit [%s]
+ToolsCancelTimer=Anulo &Kohëmatësin
+
+; Menyja e audios
+Audio=&Audio
+AudioTrack=&Pista e Audios
+AudioVolumeUp=Volumi &Lart
+AudioVolumeDown=Volumi &Poshtë
+AudioMute=&Hesht
+AudioEqualizer=&Ekualizuesi
+AudioDelay=&Vonesa e Audios
+AudioDelayPlus=Vonesa +0.1s
+AudioDelayMinus=Vonesa -0.1s
+AudioDelayReset=Rivendos Vonesën
+AudioNormalize=&Normalizo Volumin
+
+; Menyja e videos
+Video=&Video
+VideoFullscreen=&Ekran i Plotë
+VideoAspect=&Raporti i Pamjes
+VideoAspectAuto=&Automatik
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Pamje Ekrani
+VideoScreenshotAs=Pamje Ekrani &Si...
+VideoRotation=&Rrotullimi
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Kthe
+VideoFlipH=Kthe &Horizontalisht
+VideoFlipV=Kthe &Vertikalisht
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zmadhimi
+VideoZoomIn=Zmadho &Brenda
+VideoZoomOut=Zmadho &Jashtë
+VideoZoomReset=&Rivendos Zmadhimin
+VideoPan=&Panoramë
+VideoPanLeft=Panoramë &Majtas
+VideoPanRight=Panoramë &Djathtas
+VideoPanUp=Panoramë &Lart
+VideoPanDown=Panoramë &Poshtë
+VideoPanReset=R&ivendos Panoramën
+VideoTrack=&Pista e Videos
+VideoColors=&Rregullimet e Ngjyrës
+VideoBrightness=&Ndriçimi
+VideoContrast=&Kontrasti
+VideoSaturation=&Ngopja
+VideoHue=&Nuanca
+VideoGamma=&Gama
+VideoColorsReset=Rivendos &Të Gjitha Ngjyrat
+VideoIncrease=Rrit (+5)
+VideoDecrease=Zvogëlo (-5)
+VideoReset=Rivendos
+VideoAdjustDialog=&Rregullimet e Videos...
+
+; Menyja e pamjes
+View=Pa&mja
+ViewAlwaysOnTop=&Gjithmonë Sipër
+ViewFitToVideo=&Përshtat Dritaren me Videon
+ViewScale=&Shkalla e Dritares
+
+; Faza 26: Menyja e vizualizimit
+ViewVisualization=&Vizualizimi
+VisNone=&Asnjë
+VisSpectrum=Analizuesi i &Spektrit
+VisWaveform=&Forma e Valës
+VisVector=&Fushëveprimi Vektorial
+VisVolume=Matësi &VU
+VisNextMode=&Mënyra Tjetër
+VisNextColor=Skema Tjetër e &Ngjyrës
+
+; Menyja e titrave
+Subtitles=&Titrat
+SubtitleTrack=&Pista e Titrave
+SubtitleLoad=&Ngarko Titrat...
+SubtitleDelay=&Vonesa e Titrave
+SubtitleDelayPlus=Vonesa +0.1s
+SubtitleDelayMinus=Vonesa -0.1s
+SubtitleDelayReset=Rivendos Vonesën
+
+; Menyja e mjeteve
+Tools=&Mjetet
+ToolsPlaylist=&Lista e Luajtjes
+ToolsRadios=&Radiot
+ToolsShortcuts=Shkurtesat e &Tastierës...
+ToolsOptions=&Opsionet
+
+; Faza 27: Menyja e regjistrimit
+ToolsRecord=&Regjistro Transmetimin...
+ToolsStopRecord=N&dal Regjistrimin
+ToolsRecording=&Regjistrimi...
+
+; Menyja e ndihmës
+Help=&Ndihmë
+HelpMediaInfo=&Informacioni i Medias
+HelpLog=&Dritarja e Regjistrit
+HelpAbout=&Rreth
+
+[Dialog]
+OpenFile=Hap Skedarin
+OpenURL=Hap URL
+SaveScreenshot=Ruaj Pamjen e Ekranit
+LoadSubtitle=Ngarko Skedarin e Titrave
+EnterURL=Shkruaj URL:
+ResumePlayback=Vazhdo Riprodhimin
+ResumeFrom=Vazhdo nga %s?
+ClearRecentFiles=Pastro Skedarët e Fundit
+NoRecentFiles=(Asnjë skedar i fundit)
+NoAudioTracks=(Asnjë pistë audio)
+NoVideoTracks=(Asnjë pistë video)
+NoSubtitleTracks=(Asnjë pistë titrash)
+NoChapters=(Asnjë kapitull)
+OpenDVD=Hap DVD
+OpenBluray=Hap Blu-ray
+OpenFolder=Hap Dosjen
+
+; Filtrat e skedarëve
+ScreenshotFilter=Imazh PNG|*.png|Imazh JPEG|*.jpg|Imazh WebP|*.webp
+DVDFilter=Dosje DVD|*.;*.iso|Të gjithë skedarët (*.*)|*.*
+BlurayFilter=Dosje Blu-ray|*.;*.iso|Të gjithë skedarët (*.*)|*.*
+NoDVD=(Asnjë DVD i ngarkuar)
+DVDTitle=Titulli %d
+GotoTime=Shko te Koha
+EnterTime=Shkruaj kohën për të kërcyer:
+Hours=Orët
+Minutes=Minutat
+Seconds=Sekondat
+Current=Aktuale:
+HistoryTitle=Historia e Riprodhimit
+HistoryItems=%d artikuj në histori
+HistoryPlay=&Luaj
+HistoryRemove=&Hiq nga Historia
+HistoryClear=&Pastro Gjithë Historinë
+HistoryOpenFolder=Hap &Dosjen
+HistoryCopyPath=&Kopjo Shtegun
+ClearHistory=Pastro Historinë
+ClearHistoryConfirm=Jeni i sigurt që doni të pastroni gjithë historinë?
+SleepTimerTitle=Kohëmatësi i Gjumit
+SleepTimerDescription=Cakto kohëmatësin për të ndaluar automatikisht riprodhimin
+SleepTimerHours=Orët
+SleepTimerMinutes=Minutat
+SleepTimerQuickSet=Caktim i Shpejtë
+SleepTimerAction=Kur kohëmatësi skadon
+SleepTimerStopPlayback=Ndalo riprodhimin
+SleepTimerCloseApp=Mbyll aplikacionin
+SleepTimerShutdown=Fik kompjuterin
+SleepTimerStart=Fillo Kohëmatësin
+
+[Status]
+Ready=Gati
+Opening=Duke hapur...
+Playing=Duke luajtur
+Paused=Pauzuar
+Stopped=Ndalur
+Error=Gabim
+Buffering=Duke bufferuar...
+Seeking=Duke kërkuar...
+Recording=Duke regjistruar
+
+[Message]
+SpeedFormat=Shpejtësia: %.2fx
+VolumeFormat=Volumi: %d%%
+BrightnessFormat=Ndriçimi: %d
+ContrastFormat=Kontrasti: %d
+SaturationFormat=Ngopja: %d
+HueFormat=Nuanca: %d
+GammaFormat=Gama: %d
+ColorsReset=Ngjyrat e videos u rivendosën
+LoopASet=Cikli A u caktua në %s
+LoopBSet=Cikli B u caktua në %s - Cikli aktiv
+LoopCleared=Cikli A-B u pastrua
+SetAFirst=Cakto pikën A fillimisht (shtyp L)
+RotationFormat=Rrotullimi: %d°
+FlipHOn=Kthimi horizontal: AKTIV
+FlipHOff=Kthimi horizontal: JOAKTIV
+FlipVOn=Kthimi vertikal: AKTIV
+FlipVOff=Kthimi vertikal: JOAKTIV
+DeinterlaceOn=Deinterlace: AKTIV
+DeinterlaceOff=Deinterlace: JOAKTIV
+AlwaysOnTopOn=Gjithmonë sipër: AKTIV
+AlwaysOnTopOff=Gjithmonë sipër: JOAKTIV
+WindowFitted=Dritarja u përshtat në %dx%d
+WindowScale=Shkalla e dritares: %.0f%%
+ScreenshotSaved=Pamja e ekranit u ruajt: %s
+AudioNormalizeOn=Normalizimi i audios: AKTIV
+AudioNormalizeOff=Normalizimi i audios: JOAKTIV
+AudioDelayFormat=Vonesa e audios: %.1f s
+SubtitleDelayFormat=Vonesa e titrave: %.1f s
+ZoomFormat=Zmadhimi: %.0f%%
+PanCenter=Panoramë: Qendër
+PanFormat=Panoramë: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Asnjë video e ngarkuar
+PlayingFromClipboard=Duke luajtur nga clipboard: %s
+ClipboardInvalid=Clipboard nuk përmban URL ose shteg të vlefshëm
+ClipboardEmpty=Clipboard është bosh ose nuk përmban tekst
+ResumedAt=U vazhdua në %s
+FrameStepForward=Hap kadri përpara
+FrameStepBackward=Hap kadri prapa
+PreviousChapter=Kapitulli i mëparshëm
+NextChapter=Kapitulli tjetër
+PlayingRadio=Duke luajtur radio: %s
+PlayingDVD=Duke luajtur DVD: %s
+PlayingBluray=Duke luajtur Blu-ray: %s
+DVDTitlePlaying=Titulli DVD %d
+SeekTo=Duke kërkuar në %s
+MinimizedToTray=U minimizua në tabakë. Kliko dy herë për të rikthyer.
+SleepTimerSet=Kohëmatësi i gjumit u caktua: %s
+SleepTimerCancelled=Kohëmatësi i gjumit u anulua
+SleepTimerWarning=Kohëmatësi i gjumit: 1 minutë e mbetur
+SleepTimerFinal=Kohëmatësi i gjumit: 10 sekonda të mbetura
+SleepTimerStopped=Kohëmatësi i gjumit: Riprodhimi u ndal
+SleepTimerClosing=Kohëmatësi i gjumit: Duke mbyllur aplikacionin
+SleepTimerShutdown=Kohëmatësi i gjumit: Duke fikur kompjuterin
+SleepTimerExpired=Kohëmatësi i Gjumit Skadoi
+ShutdownManual=Ju lutem fikeni kompjuterin manualisht.
+
+; Faza 21: Hap Dosjen
+FolderOpened=Dosja u hap: %d skedarë
+NoMediaFound=Asnjë skedar media nuk u gjet
+FilesAdded=U shtuan %d skedarë në listën e luajtjes
+
+; Faza 27: Mesazhet e regjistrimit
+RecordNeedPlayback=Filloni riprodhimin para regjistrimit.
+RecordingStarted=Regjistrimi filloi
+RecordingStopped=Regjistrimi u ndal
+
+; Mesazhe shtesë të statusit
+EndOfPlaylist=Fundi i listës së luajtjes
+NoMediaLoaded=Asnjë skedar media nuk është i ngarkuar aktualisht.
+JumpedToNamed=U kërcye te: %s
+ChapterFormat=Kapitulli %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Faqerojtës në %s
+
+[Label]
+Muted=Heshtuar
+
+[Button]
+Play=Luaj
+Pause=Pauzë
+Stop=Ndalo
+Previous=I Mëparshëm
+Next=Tjetri
+Mute=Hesht
+Unmute=Çhesht
+Fullscreen=Ekran i Plotë
+OK=OK
+Cancel=Anulo
+Apply=Apliko
+Close=Mbyll
+Yes=Po
+No=Jo
+
+[Tooltip]
+Play=Luaj/Pauzë
+Stop=Ndalo riprodhimin
+Previous=Pista e mëparshme
+Next=Pista tjetër
+Mute=Ndërro heshtimin
+Volume=Volumi
+Seek=Pozicioni i kërkimit
+Fullscreen=Ndërro ekranin e plotë
+
+[Playlist]
+Title=Lista e Luajtjes
+Add=Shto
+Remove=Hiq
+Clear=Pastro
+MoveUp=Lëviz Lart
+MoveDown=Lëviz Poshtë
+Shuffle=Përziej
+Repeat=Përsërit
+Play=Luaj
+ShuffleOn=Përziej: Aktiv
+ShuffleOff=Përziej: Joaktiv
+RepeatOff=Përsërit: Joaktiv
+RepeatOne=Përsërit: Një
+RepeatAll=Përsërit: Të Gjitha
+SavePlaylist=Ruaj
+LoadPlaylist=Ngarko
+TotalDuration=Totali: %s
+ItemCount=%d artikuj
+
+; Faza 22: Përmirësimet e Listës së Luajtjes
+Search=Kërko:
+FilterPlaceholder=Filtro listën e luajtjes...
+ClearSearch=Pastro
+FilterCount=%d/%d
+RemoveDuplicates=Hiq &Dublikatat
+Properties=V&etitë...
+NoDuplicates=Asnjë dublikatë nuk u gjet.
+DuplicatesFound=U gjetën %d dublikatë. T'i hiqni?
+RemoveDuplicatesTitle=Hiq Dublikatat
+PropertiesTitle=Vetitë e Listës së Luajtjes
+PropTotalItems=Artikuj total: %d
+PropTotalDuration=Kohëzgjatja totale: %s
+PropPlayed=Luajtur: %d
+PropUnplayed=Paluajtur: %d
+PropTotalSize=Madhësia totale: %.2f MB
+PropShuffle=Përziej: %s
+PropRepeat=Përsërit: %s
+On=Aktiv
+Off=Joaktiv
+
+; Çelësa të rinj për ApplyLocale
+ClearTitle=Pastro Listën e Luajtjes
+ClearConfirm=Jeni i sigurt që doni të pastroni listën e luajtjes?
+NoPlaylist=Asnjë listë luajtjeje
+StatusFormat=%d artikuj | Totali: %s
+RepeatOne=Përs. 1
+RepeatAll=Përs. Gjithë
+HintRepeatEnable=Kliko për të aktivizuar Përsërit Të Gjitha
+HintRepeatOne=Përsërit Një - Kliko për të çaktivizuar
+HintRepeatAll=Përsërit Të Gjitha - Kliko për Përsërit Një
+HintShuffleRepeat=Përziej + Përsërit Të Gjitha - Kliko për të çaktivizuar përsëritjen
+RemoveDuplicatesTitle=Hiq Dublikatat
+NoDuplicates=Asnjë dublikatë nuk u gjet.
+SelectAll=Zgjidh Të Gjitha
+SelectNone=Zgjidh Asnjë
+SelectInvert=Përmbys Zgjedhjen
+Sort=Rendit
+SortByName=Sipas Emrit
+SortByTitle=Sipas Titullit
+SortByArtist=Sipas Artistit
+SortByDuration=Sipas Kohëzgjatjes
+SortReverse=Përmbys
+SortRandom=Rastësizo
+ColTitle=Titulli
+ColDuration=Kohëzgjatja
+ColArtist=Artisti
+ColAlbum=Albumi
+PlaylistFilter=Lista M3U|*.m3u|Lista M3U8|*.m3u8|Lista PLS|*.pls
+
+[Equalizer]
+Title=Ekualizuesi
+Presets=Paracaktimet:
+Preamp=Paraamplifikuesi:
+Flat=I Sheshtë
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klasik
+BassBoost=Përforcim Basi
+TrebleBoost=Përforcim Diskanti
+Vocal=Vokal
+Reset=Rivendos
+Enable=Aktivizo Ekualizuesin
+Save=Ruaj
+Delete=Fshi
+Ready=Gati
+; Butonat dhe veprimet
+SavePreset=Ruaj Paracaktimin
+DeletePreset=Fshi Paracaktimin
+SavePresetTitle=Ruaj Paracaktimin
+PresetNamePrompt=Emri i paracaktimit:
+EnterPresetName=Ju lutem shkruani emrin e paracaktimit.
+OverwritePresetTitle=Mbishkruaj Paracaktimin
+OverwritePresetConfirm=Një paracaktim me këtë emër ekziston tashmë. Të mbishkruhet?
+PresetUpdated=Paracaktimi u përditësua: %s
+PresetSaved=Paracaktimi u ruajt: %s
+SelectPresetToDelete=Ju lutem zgjidhni një paracaktim për të fshirë.
+CannotDeleteDefault=Nuk mund të fshihen paracaktimet e parazgjedhura.
+DeletePresetTitle=Fshi Paracaktimin
+DeletePresetConfirm=Jeni i sigurt që doni të fshini këtë paracaktim?
+PresetDeleted=Paracaktimi u fshi
+ResetToFlat=Ekualizuesi u rivendos në të sheshtë
+PresetApplied=Paracaktimi u aplikua: %s
+
+[Options]
+Title=Opsionet
+General=Të Përgjithshme
+Video=Video
+Audio=Audio
+Subtitles=Titrat
+Cache=Cache
+Language=Gjuha:
+RestartRequired=Kërkohet rinisje që ndryshimet të hyjnë në fuqi
+
+; Skeda e përgjithshme - Sjellja
+Behavior=Sjellja
+SingleInstance=Lejo vetëm një instancë
+AutoPlay=Luaj automatikisht skedarët kur hapen
+AutoResume=Vazhdo pozicionin e riprodhimit
+MinimizeToTray=Minimizo në tabakën e sistemit
+AutoSavePlaylist=Ruaj listën e luajtjes kur mbyllet
+
+; Skeda e përgjithshme - OSD
+OSD=Shfaqja në Ekran
+ShowOSD=Shfaq mesazhet në ekran
+ShowTrayIcon=Shfaq ikonën e tabakës
+OSDDuration=Kohëzgjatja OSD (ms):
+
+; Skeda e përgjithshme - Pamjet e ekranit
+Screenshots=Pamjet e Ekranit
+ScreenshotPath=Dosja e ruajtjes:
+ScreenshotFormat=Formati:
+
+; Skeda e përgjithshme - Historia
+HistorySettings=Historia
+HistoryEnabled=Aktivizo historinë e riprodhimit
+HistoryMaxItems=Artikuj maksimal:
+
+; Skeda e përgjithshme - Gjuha
+LanguageGroup=Gjuha
+RestartNote=(Kërkohet rinisje për ndryshimet)
+
+; Skeda e videos
+VideoAdjust=Rregullimet e Videos
+Brightness=Ndriçimi:
+Contrast=Kontrasti:
+Saturation=Ngopja:
+Hue=Nuanca:
+Gamma=Gama:
+VideoOutput=Dalja e Videos
+Output=Dalja:
+HWAccel=Aktivizo përshpejtimin e harduerit
+Deinterlacing=Deinterlacing
+Mode=Mënyra:
+
+; Skeda e audios
+AudioOutput=Dalja e Audios
+OutputDriver=Drajveri i daljes:
+Device=Pajisja:
+AudioOptions=Opsionet e Audios
+NormalizeAudio=Normalizo volumin e audios
+Channels=Kanalet:
+
+; Skeda e titrave
+UseDefaultSubtitles=Përdor cilësimet e parazgjedhura të titrave
+Font=Fonti
+FontName=Fonti:
+FontSize=Madhësia:
+FontColor=Ngjyra:
+Bold=I Trashë
+Italic=I Pjerrët
+Outline=Kontura
+OutlineColor=Ngjyra:
+OutlineSize=Madhësia:
+Position=Pozicioni
+VerticalPosition=Pozicioni vertikal:
+SubOptions=Opsionet
+Encoding=Kodimi:
+AutoLoadSubs=Ngarko automatikisht skedarët e titrave
+
+; Paralajmërimet e daljes së videos
+VOWarningX11=Paralajmërim: x11 nuk mbështet rregullimet e videos (ndriçimi, kontrasti, etj.)
+VOWarningWayland=Paralajmërim: Kërkon një sesion Wayland. Rregullimet e videos mbështeten.
+
+; Skeda e cache
+CacheSettings=Madhësitë e Buferit Cache (KB)
+CacheDefault=Cache e parazgjedhur:
+CacheLocal=Skedarët lokal:
+CacheNetwork=Skedarët e rrjetit:
+CacheInternet=Transmetimet në internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Rreth
+Version=Versioni
+Engine=Motori
+Technology=Teknologjia
+BuildInfo=Informacioni i Ndërtimit
+SystemInfo=Sistemi
+Credits=Kreditet
+Developer=Zhvilluesi:
+Author=Autori
+License=Licenca
+Website=Faqja e Internetit
+GitHub=GitHub
+Description=Një luajtës mediash modern dhe i lehtë
+LicenseText=3nity Media është licencuar nën GPL-2.0\n\nKjo do të thotë se jeni të lirë të:\n  • Përdorni softuerin për çdo qëllim\n  • Studioni dhe modifikoni kodin burimor\n  • Shpërndani kopje të softuerit\n  • Shpërndani modifikimet tuaja\n\nNën kushtin që çdo modifikim i shpërndarë\nduhet të jetë gjithashtu i licencuar nën GPL-2.0.
+BuildDate=Data:
+Target=Objektivi:
+Kernel=Kerneli:
+
+[Shortcuts]
+Title=Shkurtesat e Tastierës
+Description=Konfiguro shkurtesat e tastierës për veprimet
+Search=Kërko:
+PressKey=Shtyp një tast...
+ColCategory=Kategoria
+ColAction=Veprimi
+ColShortcut=Shkurtesa
+Assign=Cakto
+Clear=Pastro
+Reset=Rivendos
+ResetAll=Rivendos Të Gjitha
+CurrentShortcut=Aktuale: %s
+NoKeyPressed=Ju lutem shtypni një kombinim tastesh fillimisht.
+Conflict=Konflikt: Tashmë e caktuar te "%s"
+ConfirmReplace=Zëvendëso Shkurtesën
+ReplaceMessage=Kjo shkurtesë është tashmë e caktuar te "%s". Doni ta zëvendësoni?
+ConfirmResetAll=Rivendos Të Gjitha Shkurtesat
+ResetAllMessage=Jeni i sigurt që doni të rivendosni të gjitha shkurtesat në vlerat e parazgjedhura?
+; Emrat e veprimeve
+ActPlayPause=Luaj / Pauzë
+ActStop=Ndalo
+ActPrevious=I Mëparshëm
+ActNext=Tjetri
+ActSeekForward=Kërko Përpara (10s)
+ActSeekBackward=Kërko Prapa (10s)
+ActSeekForward5=Kërko Përpara (1 min)
+ActSeekBackward5=Kërko Prapa (1 min)
+ActSpeedUp=Rrit Shpejtësinë
+ActSpeedDown=Ul Shpejtësinë
+ActSpeedReset=Rivendos Shpejtësinë
+ActSetLoopA=Cakto Pikën e Ciklit A
+ActSetLoopB=Cakto Pikën e Ciklit B
+ActClearLoop=Pastro Ciklin A-B
+ActFrameForward=Kadri Përpara
+ActFrameBackward=Kadri Prapa
+ActPrevChapter=Kapitulli i Mëparshëm
+ActNextChapter=Kapitulli Tjetër
+ActGotoTime=Shko te Koha
+ActVolumeUp=Volumi Lart
+ActVolumeDown=Volumi Poshtë
+ActMute=Hesht / Çhesht
+ActAudioDelayPlus=Vonesa e Audios +
+ActAudioDelayMinus=Vonesa e Audios -
+ActAudioDelayReset=Rivendos Vonesën e Audios
+ActFullscreen=Ekran i Plotë
+ActRotate=Rrotullo Videon
+ActDeinterlace=Deinterlace
+ActZoomIn=Zmadho Brenda
+ActZoomOut=Zmadho Jashtë
+ActZoomReset=Rivendos Zmadhimin
+ActAlwaysOnTop=Gjithmonë Sipër
+ActFitToVideo=Përshtat me Videon
+ActScreenshot=Pamje Ekrani
+ActVideoAdjust=Rregullimet e Videos
+ActVisNextMode=Mënyra Tjetër e Vizualizimit
+ActVisNextColor=Skema Tjetër e Ngjyrës
+ActSubDelayPlus=Vonesa e Titrave +
+ActSubDelayMinus=Vonesa e Titrave -
+ActSubDelayReset=Rivendos Vonesën e Titrave
+ActDVDMenu=Menyja DVD
+ActDVDUp=Navigo Lart DVD
+ActDVDDown=Navigo Poshtë DVD
+ActDVDLeft=Navigo Majtas DVD
+ActDVDRight=Navigo Djathtas DVD
+ActDVDSelect=Zgjidh DVD
+ActOpenFile=Hap Skedarin
+ActOpenURL=Hap URL
+ActPlaylist=Shfaq Listën e Luajtjes
+ActQuit=Dil
+
+[Log]
+; Faza 25: Dritarja e Regjistrit
+Title=Regjistri MPV
+Command=Komanda:
+Clear=Pastro
+Save=Ruaj...
+Copy=&Kopjo
+SelectAll=Zgjidh &Të Gjitha
+SaveTitle=Ruaj Regjistrin
+SaveFilter=Skedarë teksti (*.txt)|*.txt|Të gjithë skedarët (*.*)|*.*
+ErrorTitle=Gabim
+SaveError=Dështoi ruajtja e regjistrit: %s
+
+[MediaInfo]
+Title=Informacioni i Medias
+FileTab=Skedari
+VideoTab=Video
+AudioTab=Audio
+MetadataTab=Metadata
+FileName=Emri i Skedarit:
+FilePath=Shtegu:
+FileSize=Madhësia:
+Duration=Kohëzgjatja:
+Format=Formati:
+Bitrate=Bitrate:
+Codec=Kodeku:
+Resolution=Rezolucioni:
+FrameRate=Frekuenca e Kadrave:
+PixelFormat=Formati i Pikselëve:
+AspectRatio=Raporti i Pamjes:
+Channels=Kanalet:
+SampleRate=Frekuenca e Mostrave:
+Language=Gjuha:
+Property=Vetia
+Value=Vlera
+CopyAll=Kopjo Të Gjitha
+CopiedToClipboard=Informacioni i medias u kopjua në clipboard.
+NA=N/A
+NAStream=N/A (transmetim)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=E panjohur
+NoMetadata=(Asnjë metadata)
+
+[Bookmarks]
+Title=Faqerojtësit
+Goto=Shko te
+Remove=Hiq
+Clear=Pastro Të Gjithë
+Refresh=Rifresko
+OpenFolder=Hap Dosjen
+CopyPath=Kopjo Shtegun
+; Kolonat
+ColName=Emri
+ColFile=Skedari
+ColPosition=Pozicioni
+ColCreated=Krijuar
+; Dialogët
+ClearTitle=Pastro Faqerojtësit
+ClearConfirm=Jeni i sigurt që doni të pastroni të gjithë faqerojtësit?
+Count=%d faqerojtës
+
+[Favorites]
+Title=Të Preferuarat
+Play=Luaj
+Remove=Hiq
+Clear=Pastro Të Gjitha
+Refresh=Rifresko
+OpenFolder=Hap Dosjen
+CopyPath=Kopjo Shtegun
+; Kolonat
+ColName=Emri
+ColType=Tipi
+ColPath=Shtegu
+; Tipet
+TypeFile=Skedar
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=E panjohur
+; Dialogët
+ClearTitle=Pastro Të Preferuarat
+ClearConfirm=Jeni i sigurt që doni të pastroni të gjitha të preferuarat?
+Count=%d të preferuara
+
+[History]
+Title=Historia e Riprodhimit
+Play=Luaj
+Remove=Hiq
+Clear=Pastro Të Gjitha
+Refresh=Rifresko
+OpenFolder=Hap Dosjen
+CopyPath=Kopjo Shtegun
+; Kolonat
+ColFileName=Skedari
+ColPath=Shtegu
+; Dialogët
+ClearTitle=Pastro Historinë
+ClearConfirm=Jeni i sigurt që doni të pastroni gjithë historinë?
+Count=%d artikuj
+
+[SleepTimer]
+Title=Kohëmatësi i Gjumit
+Description=Cakto një kohëmatës për të ndaluar automatikisht riprodhimin
+Hours=Orët:
+Minutes=Minutat:
+Action=Kur kohëmatësi skadon:
+StopPlayback=Ndalo riprodhimin
+CloseApp=Mbyll aplikacionin
+Shutdown=Fik kompjuterin
+QuickSet=Caktim i shpejtë:
+15Min=15 min
+30Min=30 min
+1Hour=1 orë
+2Hours=2 orë
+
+[Radios]
+Title=Radiot e Internetit
+Play=Luaj
+Add=Shto
+Edit=Redakto
+Delete=Fshi
+Remove=Hiq
+Import=Importo
+Export=Eksporto
+Refresh=Rifresko
+Favorite=E Preferuar
+ShowFavorites=Të Preferuarat
+ShowAll=Të Gjitha
+; Filtri
+Genre=Zhanri:
+Search=Kërko:
+SearchBtn=Kërko
+ClearSearch=Pastro
+AllGenres=(Të Gjithë Zhanret)
+; Menyja e kontekstit
+AddFavorite=Shto te Të Preferuarat
+RemoveFavorite=Hiq nga Të Preferuarat
+AddCustom=Shto Stacion të Personalizuar...
+EditCustom=Redakto Stacionin...
+DeleteCustom=Fshi Stacionin
+OpenWebsite=Hap Faqen e Internetit
+CopyURL=Kopjo URL
+; Kolonat
+ColName=Emri
+ColGenre=Zhanri
+ColBitrate=Bitrate
+ColCountry=Vendi
+ColCodec=Kodeku
+; Dialogët
+AddTitle=Shto Stacion të Personalizuar
+EditTitle=Redakto Stacionin
+DeleteTitle=Fshi Stacionin
+DeleteConfirm=Jeni i sigurt që doni të fshini këtë stacion?
+StationName=Emri i Stacionit:
+StreamURL=URL e Transmetimit:
+GenrePrompt=Zhanri:
+NameURLRequired=Emri dhe URL janë të detyrueshme.
+; Mesazhet e statusit
+LoadingIcecast=Duke ngarkuar stacionet nga drejtoria Icecast...
+IcecastError=Nuk mund të ngarkohej drejtoria Icecast. Duke përdorur stacionet e parazgjedhura.
+NoStationsLoaded=Asnjë stacion nuk u ngarkua
+StationCount=%d stacione
+LoadedStations=U ngarkuan %d stacione
+ErrorPrefix=Gabim:
+; Çelësat e vjetër
+Name=Emri
+URL=URL
+Bitrate=Bitrate
+Description=Përshkrimi
+Country=Vendi
+
+[OpenURL]
+Title=Hap URL
+Prompt=Shkruaj URL-në e medias:
+
+[GotoTime]
+Title=Shko te Koha
+EnterTime=Shkruaj kohën për të kërcyer:
+Hours=O
+Minutes=M
+Seconds=S
+Current=Aktuale:
+Duration=Kohëzgjatja:
+
+[VideoAdjust]
+Title=Rregullimet e Videos
+Brightness=Ndriçimi:
+Contrast=Kontrasti:
+Saturation=Ngopja:
+Hue=Nuanca:
+Gamma=Gama:
+ResetAll=Rivendos Të Gjitha Ngjyrat
+
+[CLI]
+; Mesazhet e linjës së komandës
+Usage=Përdorimi
+Arguments=[OPSIONE] [SKEDAR|URL|DOSJE]
+Description=Një luajtës multimedial ndër-platformë që përdor libmpv si motor.
+Options=OPSIONE
+Examples=SHEMBUJ
+MoreInfo=Për më shumë informacion, vizitoni
+EnqueuedTo=U shtua në radhën e instancës ekzistuese: %s
+SentTo=U dërgua te instanca ekzistuese: %s
+AlreadyRunning=3nity Media është duke u ekzekutuar tashmë.
+ErrorFileNotFound=Gabim: Skedari ose direktoria nuk u gjet: %s
+ErrorSubNotFound=Gabim: Skedari i titrave nuk u gjet: %s

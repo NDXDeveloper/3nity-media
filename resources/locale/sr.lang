@@ -1,0 +1,892 @@
+[Language]
+Name=Serbian - Српски
+Code=sr
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Мени Датотека
+File=&Датотека
+FileOpen=&Отвори датотеку...
+FileOpenURL=Отвори &УРЛ...
+FileOpenClipboard=Отвори из &оставе
+FileRecent=&Недавне датотеке
+ClearRecentFiles=Обриши недавне датотеке
+FileExit=И&злаз
+
+; Мени Репродукција
+Playback=&Репродукција
+PlaybackPlayPause=&Пусти/Паузирај
+PlaybackStop=&Заустави
+PlaybackPrevious=Прет&ходно
+PlaybackNext=&Следеће
+PlaybackSeekForward=Премотај &унапред
+PlaybackSeekBackward=Премотај &уназад
+PlaybackSpeed=&Брзина
+PlaybackABLoop=А-&Б петља
+PlaybackSetA=Постави &А
+PlaybackSetB=Постави &Б
+PlaybackClearAB=&Обриши А-Б
+PlaybackChapters=&Поглавља
+PlaybackPrevChapter=Претходно поглавље
+PlaybackNextChapter=Следеће поглавље
+PlaybackFrameStep=Кадар &напред
+PlaybackFrameBack=Кадар &назад
+
+; ДВД навигација
+PlaybackDVD=ДВД &навигација
+DVDMenu=&Мени
+DVDUp=&Горе
+DVDDown=&Доле
+DVDLeft=&Лево
+DVDRight=&Десно
+DVDSelect=&Изабери
+PlaybackDVDTitles=ДВД &наслови
+
+; Фаза 21: Отвори фасциклу
+FileOpenFolder=Отвори ф&асциклу...
+
+; Мени Датотека ДВД/Блу-реј
+FileOpenDVD=Отвори &ДВД...
+FileOpenBluray=Отвори &Блу-реј...
+
+; Фаза 13: Иди на време и историја
+PlaybackGotoTime=&Иди на време...
+ToolsHistory=&Историја
+
+; Фаза 14: Системска касета
+TrayShow=&Прикажи/Сакриј
+TrayPlayPause=&Пусти/Паузирај
+TrayStop=&Заустави
+TrayPrevious=Прет&ходно
+TrayNext=&Следеће
+TrayMute=&Утишај
+TrayExit=И&злаз
+
+; Фаза 15: Обележивачи
+PlaybackAddBookmark=Додај &обележивач...
+PlaybackBookmarks=Обележ&ивачи
+BookmarksTitle=Обележивачи
+BookmarksGoto=&Иди на обележивач
+BookmarksRemove=&Уклони обележивач
+BookmarksClear=&Обриши све обележиваче
+BookmarksOpenFolder=Отвори &фасциклу
+BookmarksCopyPath=&Копирај путању
+BookmarksCount=%d обележивача
+NoBookmarks=(Нема обележивача)
+NoFileLoaded=(Нема учитане датотеке)
+BookmarkAdded=Обележивач додат на %s
+BookmarkJumped=Прескочено на обележивач на %s
+AddBookmarkTitle=Додај обележивач
+AddBookmarkPrompt=Унесите назив обележивача:
+ShowAllBookmarks=Прикажи све обележиваче...
+
+; Фаза 16: Омиљени
+ToolsFavorites=&Омиљени
+ToolsAddFavorite=Додај у оми&љене
+FavoritesTitle=Омиљени
+FavoritesPlay=&Пусти
+FavoritesRemove=&Уклони из омиљених
+FavoritesClear=&Обриши све омиљене
+FavoritesOpenFolder=Отвори &фасциклу
+FavoritesCopyPath=&Копирај путању
+FavoritesCount=%d омиљених
+NoFavorites=(Нема омиљених)
+AddFavoriteTitle=Додај у омиљене
+AddFavoritePrompt=Унесите назив за омиљено:
+AlreadyFavorite=Већ је у омиљенима
+AddedToFavorites=Додато у омиљене: %s
+NoFileToFavorite=Нема учитане датотеке за додавање у омиљене
+FavoriteTypeFile=Датотека
+FavoriteTypeURL=УРЛ
+FavoriteTypeRadio=Радио
+FavoriteTypeDVD=ДВД
+FavoriteTypeBluray=Блу-реј
+
+; Формат стринга за нумере
+TrackWithTitle=Нумера %d: %s
+TrackWithLang=Нумера %d (%s)
+TrackNumber=Нумера %d
+
+; Ставке менија брзине
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Ставке менија размере
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Нумера титла
+SubtitleDisable=Онемогући
+
+; Фаза 17: Тајмер за спавање
+ToolsSleepTimer=&Тајмер за спавање...
+ToolsSleepTimerActive=&Тајмер за спавање [%s]
+ToolsCancelTimer=Откажи &тајмер
+
+; Мени Аудио
+Audio=&Аудио
+AudioTrack=Аудио &нумера
+AudioVolumeUp=Јачина &горе
+AudioVolumeDown=Јачина &доле
+AudioMute=&Утишај
+AudioEqualizer=&Еквилајзер
+AudioDelay=Аудио &кашњење
+AudioDelayPlus=Кашњење +0.1с
+AudioDelayMinus=Кашњење -0.1с
+AudioDelayReset=Ресетуј кашњење
+AudioNormalize=&Нормализуј јачину
+
+; Мени Видео
+Video=&Видео
+VideoFullscreen=&Цео екран
+VideoAspect=&Однос страница
+VideoAspectAuto=&Аутоматски
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Снимак екрана
+VideoScreenshotAs=Снимак екрана &као...
+VideoRotation=&Ротација
+VideoRotate0=&0° (Нормално)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Окрени
+VideoFlipH=Окрени &хоризонтално
+VideoFlipV=Окрени &вертикално
+VideoDeinterlace=&Деинтерлејс
+VideoZoom=&Зум
+VideoZoomIn=Зумирај &унутра
+VideoZoomOut=Зумирај &напоље
+VideoZoomReset=&Ресетуј зум
+VideoPan=&Померање
+VideoPanLeft=Помери &лево
+VideoPanRight=Помери &десно
+VideoPanUp=Помери &горе
+VideoPanDown=Помери &доле
+VideoPanReset=Р&есетуј померање
+VideoTrack=Видео &нумера
+VideoColors=&Подешавања боја
+VideoBrightness=&Осветљеност
+VideoContrast=&Контраст
+VideoSaturation=&Засићење
+VideoHue=&Нијанса
+VideoGamma=&Гама
+VideoColorsReset=Ресетуј &све боје
+VideoIncrease=Повећај (+5)
+VideoDecrease=Смањи (-5)
+VideoReset=Ресетуј
+VideoAdjustDialog=Видео &подешавања...
+
+; Мени Приказ
+View=При&каз
+ViewAlwaysOnTop=&Увек на врху
+ViewFitToVideo=&Прилагоди прозор видеу
+ViewScale=&Размера прозора
+
+; Фаза 26: Мени Визуелизација
+ViewVisualization=&Визуелизација
+VisNone=&Ништа
+VisSpectrum=&Анализатор спектра
+VisWaveform=&Таласни облик
+VisVector=&Векторски осцилоскоп
+VisVolume=В&У метар
+VisNextMode=Следећи &режим
+VisNextColor=Следећа &шема боја
+
+; Мени Титлови
+Subtitles=&Титлови
+SubtitleTrack=&Нумера титла
+SubtitleLoad=&Учитај титл...
+SubtitleDelay=&Кашњење титла
+SubtitleDelayPlus=Кашњење +0.1с
+SubtitleDelayMinus=Кашњење -0.1с
+SubtitleDelayReset=Ресетуј кашњење
+
+; Мени Алати
+Tools=&Алати
+ToolsPlaylist=&Плејлиста
+ToolsRadios=&Радио станице
+ToolsShortcuts=&Пречице на тастатури...
+ToolsOptions=&Опције
+
+; Фаза 27: Мени Снимање
+ToolsRecord=&Сними стрим...
+ToolsStopRecord=За&устави снимање
+ToolsRecording=&Снимање...
+
+; Мени Помоћ
+Help=&Помоћ
+HelpMediaInfo=&Информације о медију
+HelpLog=&Прозор дневника
+HelpAbout=&О програму
+
+[Dialog]
+OpenFile=Отвори датотеку
+OpenURL=Отвори УРЛ
+SaveScreenshot=Сачувај снимак екрана
+LoadSubtitle=Учитај датотеку титла
+EnterURL=Унесите УРЛ:
+ResumePlayback=Настави репродукцију
+ResumeFrom=Настави од %s?
+ClearRecentFiles=Обриши недавне датотеке
+NoRecentFiles=(Нема недавних датотека)
+NoAudioTracks=(Нема аудио нумера)
+NoVideoTracks=(Нема видео нумера)
+NoSubtitleTracks=(Нема нумера титлова)
+NoChapters=(Нема поглавља)
+OpenDVD=Отвори ДВД
+OpenBluray=Отвори Блу-реј
+OpenFolder=Отвори фасциклу
+
+; Филтери датотека
+ScreenshotFilter=PNG слика|*.png|JPEG слика|*.jpg|WebP слика|*.webp
+DVDFilter=ДВД фасцикла|*.;*.iso|Све датотеке (*.*)|*.*
+BlurayFilter=Блу-реј фасцикла|*.;*.iso|Све датотеке (*.*)|*.*
+NoDVD=(Нема учитаног ДВД-а)
+DVDTitle=Наслов %d
+GotoTime=Иди на време
+EnterTime=Унесите време на које желите да скочите:
+Hours=Сати
+Minutes=Минути
+Seconds=Секунде
+Current=Тренутно:
+HistoryTitle=Историја репродукције
+HistoryItems=%d ставки у историји
+HistoryPlay=&Пусти
+HistoryRemove=&Уклони из историје
+HistoryClear=&Обриши целу историју
+HistoryOpenFolder=Отвори &фасциклу
+HistoryCopyPath=&Копирај путању
+ClearHistory=Обриши историју
+ClearHistoryConfirm=Да ли сте сигурни да желите да обришете целу историју?
+SleepTimerTitle=Тајмер за спавање
+SleepTimerDescription=Подесите тајмер за аутоматско заустављање репродукције
+SleepTimerHours=Сати
+SleepTimerMinutes=Минути
+SleepTimerQuickSet=Брзо подешавање
+SleepTimerAction=Када тајмер истекне
+SleepTimerStopPlayback=Заустави репродукцију
+SleepTimerCloseApp=Затвори апликацију
+SleepTimerShutdown=Искључи рачунар
+SleepTimerStart=Покрени тајмер
+
+[Status]
+Ready=Спремно
+Opening=Отварање...
+Playing=Пуштање
+Paused=Паузирано
+Stopped=Заустављено
+Error=Грешка
+Buffering=Баферовање...
+Seeking=Премотавање...
+Recording=Снимање
+
+[Message]
+SpeedFormat=Брзина: %.2fx
+VolumeFormat=Јачина: %d%%
+BrightnessFormat=Осветљеност: %d
+ContrastFormat=Контраст: %d
+SaturationFormat=Засићење: %d
+HueFormat=Нијанса: %d
+GammaFormat=Гама: %d
+ColorsReset=Боје видеа ресетоване
+LoopASet=Тачка А петље постављена на %s
+LoopBSet=Тачка Б петље постављена на %s - Петља активна
+LoopCleared=А-Б петља обрисана
+SetAFirst=Прво поставите тачку А (притисните L)
+RotationFormat=Ротација: %d°
+FlipHOn=Хоризонтално окретање: УКЉУЧЕНО
+FlipHOff=Хоризонтално окретање: ИСКЉУЧЕНО
+FlipVOn=Вертикално окретање: УКЉУЧЕНО
+FlipVOff=Вертикално окретање: ИСКЉУЧЕНО
+DeinterlaceOn=Деинтерлејс: УКЉУЧЕНО
+DeinterlaceOff=Деинтерлејс: ИСКЉУЧЕНО
+AlwaysOnTopOn=Увек на врху: УКЉУЧЕНО
+AlwaysOnTopOff=Увек на врху: ИСКЉУЧЕНО
+WindowFitted=Прозор прилагођен на %dx%d
+WindowScale=Размера прозора: %.0f%%
+ScreenshotSaved=Снимак екрана сачуван: %s
+AudioNormalizeOn=Нормализација звука: УКЉУЧЕНО
+AudioNormalizeOff=Нормализација звука: ИСКЉУЧЕНО
+AudioDelayFormat=Кашњење звука: %.1f с
+SubtitleDelayFormat=Кашњење титла: %.1f с
+ZoomFormat=Зум: %.0f%%
+PanCenter=Померање: Центар
+PanFormat=Померање: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Нема учитаног видеа
+PlayingFromClipboard=Пуштање из оставе: %s
+ClipboardInvalid=Остава не садржи исправан УРЛ или путању
+ClipboardEmpty=Остава је празна или не садржи текст
+ResumedAt=Настављено на %s
+FrameStepForward=Кадар напред
+FrameStepBackward=Кадар назад
+PreviousChapter=Претходно поглавље
+NextChapter=Следеће поглавље
+PlayingRadio=Пуштање радија: %s
+PlayingDVD=Пуштање ДВД-а: %s
+PlayingBluray=Пуштање Блу-реја: %s
+DVDTitlePlaying=ДВД наслов %d
+SeekTo=Премотавање на %s
+MinimizedToTray=Минимизовано у касету. Двоклик за враћање.
+SleepTimerSet=Тајмер за спавање подешен: %s
+SleepTimerCancelled=Тајмер за спавање отказан
+SleepTimerWarning=Тајмер за спавање: Остао 1 минут
+SleepTimerFinal=Тајмер за спавање: Остало 10 секунди
+SleepTimerStopped=Тајмер за спавање: Репродукција заустављена
+SleepTimerClosing=Тајмер за спавање: Затварање апликације
+SleepTimerShutdown=Тајмер за спавање: Искључивање рачунара
+SleepTimerExpired=Тајмер за спавање истекао
+ShutdownManual=Молимо ручно искључите рачунар.
+
+; Фаза 21: Отвори фасциклу
+FolderOpened=Отворена фасцикла: %d датотека
+NoMediaFound=Нису пронађене медијске датотеке
+FilesAdded=Додато %d датотека у плејлисту
+
+; Фаза 27: Поруке о снимању
+RecordNeedPlayback=Покрените репродукцију пре снимања.
+RecordingStarted=Снимање започето
+RecordingStopped=Снимање заустављено
+
+; Додатне статусне поруке
+EndOfPlaylist=Крај плејлисте
+NoMediaLoaded=Нема тренутно учитане медијске датотеке.
+JumpedToNamed=Прескочено на: %s
+ChapterFormat=Поглавље %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Обележивач на %s
+
+[Label]
+Muted=Утишано
+
+[Button]
+Play=Пусти
+Pause=Паузирај
+Stop=Заустави
+Previous=Претходно
+Next=Следеће
+Mute=Утишај
+Unmute=Укључи звук
+Fullscreen=Цео екран
+OK=У реду
+Cancel=Откажи
+Apply=Примени
+Close=Затвори
+Yes=Да
+No=Не
+
+[Tooltip]
+Play=Пусти/Паузирај
+Stop=Заустави репродукцију
+Previous=Претходна нумера
+Next=Следећа нумера
+Mute=Укључи/искључи звук
+Volume=Јачина
+Seek=Позиција претраге
+Fullscreen=Укључи/искључи цео екран
+
+[Playlist]
+Title=Плејлиста
+Add=Додај
+Remove=Уклони
+Clear=Обриши
+MoveUp=Помери горе
+MoveDown=Помери доле
+Shuffle=Мешање
+Repeat=Понављање
+Play=Пусти
+ShuffleOn=Мешање: Укључено
+ShuffleOff=Мешање: Искључено
+RepeatOff=Понављање: Искључено
+RepeatOne=Понављање: Једно
+RepeatAll=Понављање: Све
+SavePlaylist=Сачувај
+LoadPlaylist=Учитај
+TotalDuration=Укупно: %s
+ItemCount=%d ставки
+
+; Фаза 22: Побољшања плејлисте
+Search=Претрага:
+FilterPlaceholder=Филтрирај плејлисту...
+ClearSearch=Обриши
+FilterCount=%d/%d
+RemoveDuplicates=Уклони &дупликате
+Properties=С&војства...
+NoDuplicates=Нису пронађени дупликати.
+DuplicatesFound=Пронађено %d дупликат(а). Уклонити их?
+RemoveDuplicatesTitle=Уклони дупликате
+PropertiesTitle=Својства плејлисте
+PropTotalItems=Укупно ставки: %d
+PropTotalDuration=Укупно трајање: %s
+PropPlayed=Пуштено: %d
+PropUnplayed=Непуштено: %d
+PropTotalSize=Укупна величина: %.2f MB
+PropShuffle=Мешање: %s
+PropRepeat=Понављање: %s
+On=Укључено
+Off=Искључено
+
+; Нови кључеви за ApplyLocale
+ClearTitle=Обриши плејлисту
+ClearConfirm=Да ли сте сигурни да желите да обришете плејлисту?
+NoPlaylist=Нема плејлисте
+StatusFormat=%d ставки | Укупно: %s
+RepeatOne=Пон. 1
+RepeatAll=Пон. све
+HintRepeatEnable=Кликните за укључивање понављања свих
+HintRepeatOne=Понављање једног - Кликните за искључивање
+HintRepeatAll=Понављање свих - Кликните за понављање једног
+HintShuffleRepeat=Мешање + Понављање свих - Кликните за искључивање понављања
+RemoveDuplicatesTitle=Уклони дупликате
+NoDuplicates=Нису пронађени дупликати.
+SelectAll=Изабери све
+SelectNone=Не изабери ништа
+SelectInvert=Обрни избор
+Sort=Сортирај
+SortByName=По називу
+SortByTitle=По наслову
+SortByArtist=По извођачу
+SortByDuration=По трајању
+SortReverse=Обрни
+SortRandom=Насумично
+ColTitle=Наслов
+ColDuration=Трајање
+ColArtist=Извођач
+ColAlbum=Албум
+PlaylistFilter=M3U плејлиста|*.m3u|M3U8 плејлиста|*.m3u8|PLS плејлиста|*.pls
+
+[Equalizer]
+Title=Еквилајзер
+Presets=Пресети:
+Preamp=Предпојачање:
+Flat=Равно
+Rock=Рок
+Pop=Поп
+Jazz=Џез
+Classical=Класика
+BassBoost=Појачање баса
+TrebleBoost=Појачање високих
+Vocal=Вокал
+Reset=Ресетуј
+Enable=Омогући еквилајзер
+Save=Сачувај
+Delete=Обриши
+Ready=Спремно
+; Дугмад и акције
+SavePreset=Сачувај пресет
+DeletePreset=Обриши пресет
+SavePresetTitle=Сачувај пресет
+PresetNamePrompt=Назив пресета:
+EnterPresetName=Молимо унесите назив пресета.
+OverwritePresetTitle=Препиши пресет
+OverwritePresetConfirm=Пресет са овим називом већ постоји. Преписати?
+PresetUpdated=Пресет ажуриран: %s
+PresetSaved=Пресет сачуван: %s
+SelectPresetToDelete=Молимо изаберите пресет за брисање.
+CannotDeleteDefault=Није могуће обрисати подразумеване пресете.
+DeletePresetTitle=Обриши пресет
+DeletePresetConfirm=Да ли сте сигурни да желите да обришете овај пресет?
+PresetDeleted=Пресет обрисан
+ResetToFlat=Еквилајзер ресетован на равно
+PresetApplied=Пресет примењен: %s
+
+[Options]
+Title=Опције
+General=Опште
+Video=Видео
+Audio=Аудио
+Subtitles=Титлови
+Cache=Кеш
+Language=Језик:
+RestartRequired=Потребно је поновно покретање да би промене ступиле на снагу
+
+; Картица Опште - Понашање
+Behavior=Понашање
+SingleInstance=Дозволи само једну инстанцу
+AutoPlay=Аутоматски пусти датотеке при отварању
+AutoResume=Настави позицију репродукције
+MinimizeToTray=Минимизуј у системску касету
+AutoSavePlaylist=Сачувај плејлисту при излазу
+
+; Картица Опште - ОСД
+OSD=Приказ на екрану
+ShowOSD=Прикажи поруке на екрану
+ShowTrayIcon=Прикажи иконицу у касети
+OSDDuration=Трајање ОСД-а (мс):
+
+; Картица Опште - Снимци екрана
+Screenshots=Снимци екрана
+ScreenshotPath=Фасцикла за чување:
+ScreenshotFormat=Формат:
+
+; Картица Опште - Историја
+HistorySettings=Историја
+HistoryEnabled=Омогући историју репродукције
+HistoryMaxItems=Максимално ставки:
+
+; Картица Опште - Језик
+LanguageGroup=Језик
+RestartNote=(Потребно је поновно покретање за промене)
+
+; Картица Видео
+VideoAdjust=Подешавања видеа
+Brightness=Осветљеност:
+Contrast=Контраст:
+Saturation=Засићење:
+Hue=Нијанса:
+Gamma=Гама:
+VideoOutput=Видео излаз
+Output=Излаз:
+HWAccel=Омогући хардверско убрзање
+Deinterlacing=Деинтерлејсовање
+Mode=Режим:
+
+; Картица Аудио
+AudioOutput=Аудио излаз
+OutputDriver=Драјвер излаза:
+Device=Уређај:
+AudioOptions=Аудио опције
+NormalizeAudio=Нормализуј јачину звука
+Channels=Канали:
+
+; Картица Титлови
+UseDefaultSubtitles=Користи подразумевана подешавања титлова
+Font=Фонт
+FontName=Фонт:
+FontSize=Величина:
+FontColor=Боја:
+Bold=Подебљано
+Italic=Курзив
+Outline=Контура
+OutlineColor=Боја:
+OutlineSize=Величина:
+Position=Позиција
+VerticalPosition=Вертикална позиција:
+SubOptions=Опције
+Encoding=Кодирање:
+AutoLoadSubs=Аутоматски учитај датотеке титлова
+
+; Упозорења за видео излаз
+VOWarningX11=Упозорење: x11 не подржава подешавања видеа (осветљеност, контраст, итд.)
+VOWarningWayland=Упозорење: Захтева Wayland сесију. Подешавања видеа су подржана.
+
+; Картица Кеш
+CacheSettings=Величине бафера кеша (KB)
+CacheDefault=Подразумевани кеш:
+CacheLocal=Локалне датотеке:
+CacheNetwork=Мрежне датотеке:
+CacheInternet=Интернет стримови:
+CacheDVD=ДВД:
+CacheCDROM=ЦД-РОМ:
+
+[About]
+Title=О програму
+Version=Верзија
+Engine=Мотор
+Technology=Технологија
+BuildInfo=Информације о изградњи
+SystemInfo=Систем
+Credits=Заслуге
+Developer=Програмер:
+Author=Аутор
+License=Лиценца
+Website=Веб сајт
+GitHub=GitHub
+Description=Модеран, лаган медија плејер
+LicenseText=3nity Media је лиценциран под GPL-2.0\n\nТо значи да сте слободни да:\n  • Користите софтвер за било коју сврху\n  • Проучавате и мењате изворни код\n  • Дистрибуирате копије софтвера\n  • Дистрибуирате своје модификације\n\nПод условом да све дистрибуиране модификације\nтакође буду лиценциране под GPL-2.0.
+BuildDate=Датум:
+Target=Циљ:
+Kernel=Кернел:
+
+[Shortcuts]
+Title=Пречице на тастатури
+Description=Конфигуришите пречице на тастатури за акције
+Search=Претрага:
+PressKey=Притисните тастер...
+ColCategory=Категорија
+ColAction=Акција
+ColShortcut=Пречица
+Assign=Додели
+Clear=Обриши
+Reset=Ресетуј
+ResetAll=Ресетуј све
+CurrentShortcut=Тренутно: %s
+NoKeyPressed=Молимо прво притисните комбинацију тастера.
+Conflict=Конфликт: Већ додељено за "%s"
+ConfirmReplace=Замени пречицу
+ReplaceMessage=Ова пречица је већ додељена за "%s". Да ли желите да је замените?
+ConfirmResetAll=Ресетуј све пречице
+ResetAllMessage=Да ли сте сигурни да желите да ресетујете све пречице на подразумеване?
+; Називи акција
+ActPlayPause=Пусти / Паузирај
+ActStop=Заустави
+ActPrevious=Претходно
+ActNext=Следеће
+ActSeekForward=Премотај напред (10с)
+ActSeekBackward=Премотај назад (10с)
+ActSeekForward5=Премотај напред (1 мин)
+ActSeekBackward5=Премотај назад (1 мин)
+ActSpeedUp=Убрзај
+ActSpeedDown=Успори
+ActSpeedReset=Ресетуј брзину
+ActSetLoopA=Постави тачку А петље
+ActSetLoopB=Постави тачку Б петље
+ActClearLoop=Обриши А-Б петљу
+ActFrameForward=Кадар напред
+ActFrameBackward=Кадар назад
+ActPrevChapter=Претходно поглавље
+ActNextChapter=Следеће поглавље
+ActGotoTime=Иди на време
+ActVolumeUp=Појачај
+ActVolumeDown=Утишај
+ActMute=Утишај / Укључи звук
+ActAudioDelayPlus=Кашњење звука +
+ActAudioDelayMinus=Кашњење звука -
+ActAudioDelayReset=Ресетуј кашњење звука
+ActFullscreen=Цео екран
+ActRotate=Ротирај видео
+ActDeinterlace=Деинтерлејс
+ActZoomIn=Зумирај унутра
+ActZoomOut=Зумирај напоље
+ActZoomReset=Ресетуј зум
+ActAlwaysOnTop=Увек на врху
+ActFitToVideo=Прилагоди видеу
+ActScreenshot=Снимак екрана
+ActVideoAdjust=Подешавања видеа
+ActVisNextMode=Следећи режим визуелизације
+ActVisNextColor=Следећа шема боја
+ActSubDelayPlus=Кашњење титла +
+ActSubDelayMinus=Кашњење титла -
+ActSubDelayReset=Ресетуј кашњење титла
+ActDVDMenu=ДВД мени
+ActDVDUp=ДВД навигација горе
+ActDVDDown=ДВД навигација доле
+ActDVDLeft=ДВД навигација лево
+ActDVDRight=ДВД навигација десно
+ActDVDSelect=ДВД избор
+ActOpenFile=Отвори датотеку
+ActOpenURL=Отвори УРЛ
+ActPlaylist=Прикажи плејлисту
+ActQuit=Изађи
+
+[Log]
+; Фаза 25: Прозор дневника
+Title=MPV дневник
+Command=Команда:
+Clear=Обриши
+Save=Сачувај...
+Copy=&Копирај
+SelectAll=Изабери &све
+SaveTitle=Сачувај дневник
+SaveFilter=Текстуалне датотеке (*.txt)|*.txt|Све датотеке (*.*)|*.*
+ErrorTitle=Грешка
+SaveError=Није успело чување дневника: %s
+
+[MediaInfo]
+Title=Информације о медију
+FileTab=Датотека
+VideoTab=Видео
+AudioTab=Аудио
+MetadataTab=Метаподаци
+FileName=Назив датотеке:
+FilePath=Путања:
+FileSize=Величина:
+Duration=Трајање:
+Format=Формат:
+Bitrate=Битрејт:
+Codec=Кодек:
+Resolution=Резолуција:
+FrameRate=Брзина кадрова:
+PixelFormat=Формат пиксела:
+AspectRatio=Однос страница:
+Channels=Канали:
+SampleRate=Учестаност узорковања:
+Language=Језик:
+Property=Својство
+Value=Вредност
+CopyAll=Копирај све
+CopiedToClipboard=Информације о медију копиране у оставу.
+NA=Н/Д
+NAStream=Н/Д (стрим)
+NALive=Н/Д (уживо)
+ChannelMono=1 (Моно)
+ChannelStereo=2 (Стерео)
+Channel51=6 (5.1 сараунд)
+Channel71=8 (7.1 сараунд)
+Unknown=Непознато
+NoMetadata=(Нема метаподатака)
+
+[Bookmarks]
+Title=Обележивачи
+Goto=Иди на
+Remove=Уклони
+Clear=Обриши све
+Refresh=Освежи
+OpenFolder=Отвори фасциклу
+CopyPath=Копирај путању
+; Колоне
+ColName=Назив
+ColFile=Датотека
+ColPosition=Позиција
+ColCreated=Креирано
+; Дијалози
+ClearTitle=Обриши обележиваче
+ClearConfirm=Да ли сте сигурни да желите да обришете све обележиваче?
+Count=%d обележивач(а)
+
+[Favorites]
+Title=Омиљени
+Play=Пусти
+Remove=Уклони
+Clear=Обриши све
+Refresh=Освежи
+OpenFolder=Отвори фасциклу
+CopyPath=Копирај путању
+; Колоне
+ColName=Назив
+ColType=Тип
+ColPath=Путања
+; Типови
+TypeFile=Датотека
+TypeURL=УРЛ
+TypeRadio=Радио
+TypeDVD=ДВД
+TypeBluray=Блу-реј
+TypeUnknown=Непознато
+; Дијалози
+ClearTitle=Обриши омиљене
+ClearConfirm=Да ли сте сигурни да желите да обришете све омиљене?
+Count=%d омиљен(их)
+
+[History]
+Title=Историја репродукције
+Play=Пусти
+Remove=Уклони
+Clear=Обриши све
+Refresh=Освежи
+OpenFolder=Отвори фасциклу
+CopyPath=Копирај путању
+; Колоне
+ColFileName=Датотека
+ColPath=Путања
+; Дијалози
+ClearTitle=Обриши историју
+ClearConfirm=Да ли сте сигурни да желите да обришете целу историју?
+Count=%d ставк(и)
+
+[SleepTimer]
+Title=Тајмер за спавање
+Description=Подесите тајмер за аутоматско заустављање репродукције
+Hours=Сати:
+Minutes=Минути:
+Action=Када тајмер истекне:
+StopPlayback=Заустави репродукцију
+CloseApp=Затвори апликацију
+Shutdown=Искључи рачунар
+QuickSet=Брзо подешавање:
+15Min=15 мин
+30Min=30 мин
+1Hour=1 сат
+2Hours=2 сата
+
+[Radios]
+Title=Интернет радио станице
+Play=Пусти
+Add=Додај
+Edit=Измени
+Delete=Обриши
+Remove=Уклони
+Import=Увези
+Export=Извези
+Refresh=Освежи
+Favorite=Омиљено
+ShowFavorites=Омиљени
+ShowAll=Сви
+; Филтер
+Genre=Жанр:
+Search=Претрага:
+SearchBtn=Претражи
+ClearSearch=Обриши
+AllGenres=(Сви жанрови)
+; Контекстни мени
+AddFavorite=Додај у омиљене
+RemoveFavorite=Уклони из омиљених
+AddCustom=Додај прилагођену станицу...
+EditCustom=Измени станицу...
+DeleteCustom=Обриши станицу
+OpenWebsite=Отвори веб сајт
+CopyURL=Копирај УРЛ
+; Колоне
+ColName=Назив
+ColGenre=Жанр
+ColBitrate=Битрејт
+ColCountry=Држава
+ColCodec=Кодек
+; Дијалози
+AddTitle=Додај прилагођену станицу
+EditTitle=Измени станицу
+DeleteTitle=Обриши станицу
+DeleteConfirm=Да ли сте сигурни да желите да обришете ову станицу?
+StationName=Назив станице:
+StreamURL=УРЛ стрима:
+GenrePrompt=Жанр:
+NameURLRequired=Назив и УРЛ су обавезни.
+; Статусне поруке
+LoadingIcecast=Учитавање станица из Icecast директоријума...
+IcecastError=Није могуће учитати Icecast директоријум. Коришћење подразумеваних станица.
+NoStationsLoaded=Нема учитаних станица
+StationCount=%d станица
+LoadedStations=Учитано %d станица
+ErrorPrefix=Грешка:
+; Застарели кључеви
+Name=Назив
+URL=УРЛ
+Bitrate=Битрејт
+Description=Опис
+Country=Држава
+
+[OpenURL]
+Title=Отвори УРЛ
+Prompt=Унесите УРЛ медија:
+
+[GotoTime]
+Title=Иди на време
+EnterTime=Унесите време на које желите да скочите:
+Hours=С
+Minutes=М
+Seconds=С
+Current=Тренутно:
+Duration=Трајање:
+
+[VideoAdjust]
+Title=Подешавања видеа
+Brightness=Осветљеност:
+Contrast=Контраст:
+Saturation=Засићење:
+Hue=Нијанса:
+Gamma=Гама:
+ResetAll=Ресетуј све боје
+
+[CLI]
+; Поруке командне линије
+Usage=Употреба
+Arguments=[ОПЦИЈЕ] [ДАТОТЕКА|URL|ФАСЦИКЛА]
+Description=Мултиплатформски мултимедијални плејер који користи libmpv као мотор.
+Options=ОПЦИЈЕ
+Examples=ПРИМЕРИ
+MoreInfo=За више информација, посетите
+EnqueuedTo=Додато у ред постојеће инстанце: %s
+SentTo=Послато постојећој инстанци: %s
+AlreadyRunning=3nity Media већ ради.
+ErrorFileNotFound=Грешка: Датотека или директоријум није пронађен: %s
+ErrorSubNotFound=Грешка: Датотека титлова није пронађена: %s

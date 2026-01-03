@@ -1,0 +1,892 @@
+[Language]
+Name=Dutch - Nederlands
+Code=nl
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Bestandsmenu
+File=&Bestand
+FileOpen=&Bestand openen...
+FileOpenURL=&URL openen...
+FileOpenClipboard=Openen vanaf &Klembord
+FileRecent=&Recente bestanden
+ClearRecentFiles=Recente bestanden wissen
+FileExit=&Afsluiten
+
+; Afspeelmenu
+Playback=Afs&pelen
+PlaybackPlayPause=&Afspelen/Pauzeren
+PlaybackStop=&Stoppen
+PlaybackPrevious=&Vorige
+PlaybackNext=Vol&gende
+PlaybackSeekForward=Vooruit &spoelen
+PlaybackSeekBackward=&Achteruit spoelen
+PlaybackSpeed=&Snelheid
+PlaybackABLoop=A-&B Lus
+PlaybackSetA=Stel &A in
+PlaybackSetB=Stel &B in
+PlaybackClearAB=&Wis A-B
+PlaybackChapters=&Hoofdstukken
+PlaybackPrevChapter=Vorig hoofdstuk
+PlaybackNextChapter=Volgend hoofdstuk
+PlaybackFrameStep=Frame vooruit &stappen
+PlaybackFrameBack=Frame &achteruit stappen
+
+; DVD-navigatie
+PlaybackDVD=DVD &Navigatie
+DVDMenu=&Menu
+DVDUp=&Omhoog
+DVDDown=Om&laag
+DVDLeft=&Links
+DVDRight=&Rechts
+DVDSelect=&Selecteren
+PlaybackDVDTitles=DVD &Titels
+
+; Fase 21: Map openen
+FileOpenFolder=Map &openen...
+
+; Bestandsmenu DVD/Blu-ray
+FileOpenDVD=&DVD openen...
+FileOpenBluray=&Blu-ray openen...
+
+; Fase 13: Ga naar tijd en Geschiedenis
+PlaybackGotoTime=&Ga naar tijd...
+ToolsHistory=&Geschiedenis
+
+; Fase 14: Systeemvak
+TrayShow=&Tonen/Verbergen
+TrayPlayPause=&Afspelen/Pauzeren
+TrayStop=&Stoppen
+TrayPrevious=&Vorige
+TrayNext=Vol&gende
+TrayMute=&Dempen
+TrayExit=&Afsluiten
+
+; Fase 15: Bladwijzers
+PlaybackAddBookmark=&Bladwijzer toevoegen...
+PlaybackBookmarks=Blad&wijzers
+BookmarksTitle=Bladwijzers
+BookmarksGoto=&Ga naar bladwijzer
+BookmarksRemove=Bladwijzer &verwijderen
+BookmarksClear=Alle bladwijzers &wissen
+BookmarksOpenFolder=&Map openen
+BookmarksCopyPath=&Pad kopiëren
+BookmarksCount=%d bladwijzers
+NoBookmarks=(Geen bladwijzers)
+NoFileLoaded=(Geen bestand geladen)
+BookmarkAdded=Bladwijzer toegevoegd op %s
+BookmarkJumped=Gesprongen naar bladwijzer op %s
+AddBookmarkTitle=Bladwijzer toevoegen
+AddBookmarkPrompt=Voer bladwijzernaam in:
+ShowAllBookmarks=Alle bladwijzers tonen...
+
+; Fase 16: Favorieten
+ToolsFavorites=&Favorieten
+ToolsAddFavorite=Toevoegen aan Favo&rieten
+FavoritesTitle=Favorieten
+FavoritesPlay=&Afspelen
+FavoritesRemove=&Verwijderen uit favorieten
+FavoritesClear=Alle favorieten &wissen
+FavoritesOpenFolder=&Map openen
+FavoritesCopyPath=&Pad kopiëren
+FavoritesCount=%d favorieten
+NoFavorites=(Geen favorieten)
+AddFavoriteTitle=Toevoegen aan favorieten
+AddFavoritePrompt=Voer naam in voor favoriet:
+AlreadyFavorite=Staat al in favorieten
+AddedToFavorites=Toegevoegd aan favorieten: %s
+NoFileToFavorite=Geen bestand geladen om toe te voegen aan favorieten
+FavoriteTypeFile=Bestand
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Trackformaat strings
+TrackWithTitle=Track %d: %s
+TrackWithLang=Track %d (%s)
+TrackNumber=Track %d
+
+; Snelheid menu-items
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Schaal menu-items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Ondertitelspoor
+SubtitleDisable=Uitschakelen
+
+; Fase 17: Slaaptimer
+ToolsSleepTimer=&Slaaptimer...
+ToolsSleepTimerActive=&Slaaptimer [%s]
+ToolsCancelTimer=Timer &annuleren
+
+; Audiomenu
+Audio=&Audio
+AudioTrack=Audio&spoor
+AudioVolumeUp=Volume &verhogen
+AudioVolumeDown=Volume &verlagen
+AudioMute=&Dempen
+AudioEqualizer=&Equalizer
+AudioDelay=Audio&vertraging
+AudioDelayPlus=Vertraging +0.1s
+AudioDelayMinus=Vertraging -0.1s
+AudioDelayReset=Vertraging resetten
+AudioNormalize=Volume &normaliseren
+
+; Videomenu
+Video=&Video
+VideoFullscreen=&Volledig scherm
+VideoAspect=&Beeldverhouding
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Schermafbeelding
+VideoScreenshotAs=Schermafbeelding &als...
+VideoRotation=&Rotatie
+VideoRotate0=&0 (Normaal)
+VideoRotate90=&90
+VideoRotate180=&180
+VideoRotate270=&270
+VideoFlip=&Spiegelen
+VideoFlipH=Horizontaal &spiegelen
+VideoFlipV=Verticaal &spiegelen
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=In&zoomen
+VideoZoomOut=Uit&zoomen
+VideoZoomReset=Zoom &resetten
+VideoPan=&Pannen
+VideoPanLeft=Pan &links
+VideoPanRight=Pan &rechts
+VideoPanUp=Pan om&hoog
+VideoPanDown=Pan om&laag
+VideoPanReset=Pan r&esetten
+VideoTrack=Video&spoor
+VideoColors=Kleur&aanpassingen
+VideoBrightness=&Helderheid
+VideoContrast=&Contrast
+VideoSaturation=&Verzadiging
+VideoHue=&Tint
+VideoGamma=&Gamma
+VideoColorsReset=Alle kleuren &resetten
+VideoIncrease=Verhogen (+5)
+VideoDecrease=Verlagen (-5)
+VideoReset=Resetten
+VideoAdjustDialog=Video-&aanpassingen...
+
+; Weergavemenu
+View=Weer&gave
+ViewAlwaysOnTop=&Altijd op voorgrond
+ViewFitToVideo=Venster aan&passen aan video
+ViewScale=Venster&schaal
+
+; Fase 26: Visualisatiemenu
+ViewVisualization=&Visualisatie
+VisNone=&Geen
+VisSpectrum=&Spectrumanalyse
+VisWaveform=&Golfvorm
+VisVector=&Vectorscoop
+VisVolume=V&U-meter
+VisNextMode=Volgende &modus
+VisNextColor=Volgend &kleurenschema
+
+; Ondertitelsmenu
+Subtitles=&Ondertitels
+SubtitleTrack=Ondertitel&spoor
+SubtitleLoad=Ondertitel &laden...
+SubtitleDelay=Ondertitel&vertraging
+SubtitleDelayPlus=Vertraging +0.1s
+SubtitleDelayMinus=Vertraging -0.1s
+SubtitleDelayReset=Vertraging resetten
+
+; Extra's menu
+Tools=E&xtra's
+ToolsPlaylist=&Afspeellijst
+ToolsRadios=&Radio's
+ToolsShortcuts=&Sneltoetsen...
+ToolsOptions=&Instellingen
+
+; Fase 27: Opnamemenu
+ToolsRecord=Stream &opnemen...
+ToolsStopRecord=Opname &stoppen
+ToolsRecording=&Opname...
+
+; Helpmenu
+Help=&Help
+HelpMediaInfo=&Media-informatie
+HelpLog=&Logvenster
+HelpAbout=&Over
+
+[Dialog]
+OpenFile=Bestand openen
+OpenURL=URL openen
+SaveScreenshot=Schermafbeelding opslaan
+LoadSubtitle=Ondertitelbestand laden
+EnterURL=Voer URL in:
+ResumePlayback=Afspelen hervatten
+ResumeFrom=Hervatten vanaf %s?
+ClearRecentFiles=Recente bestanden wissen
+NoRecentFiles=(Geen recente bestanden)
+NoAudioTracks=(Geen audiotracks)
+NoVideoTracks=(Geen videotracks)
+NoSubtitleTracks=(Geen ondertitelsporen)
+NoChapters=(Geen hoofdstukken)
+OpenDVD=DVD openen
+OpenBluray=Blu-ray openen
+OpenFolder=Map openen
+
+; Bestandsfilters
+ScreenshotFilter=PNG-afbeelding|*.png|JPEG-afbeelding|*.jpg|WebP-afbeelding|*.webp
+DVDFilter=DVD-map|*.;*.iso|Alle bestanden (*.*)|*.*
+BlurayFilter=Blu-ray-map|*.;*.iso|Alle bestanden (*.*)|*.*
+NoDVD=(Geen DVD geladen)
+DVDTitle=Titel %d
+GotoTime=Ga naar tijd
+EnterTime=Voer de tijd in om naar te springen:
+Hours=Uren
+Minutes=Minuten
+Seconds=Seconden
+Current=Huidig:
+HistoryTitle=Afspeelgeschiedenis
+HistoryItems=%d items in geschiedenis
+HistoryPlay=&Afspelen
+HistoryRemove=&Verwijderen uit geschiedenis
+HistoryClear=Alle geschiedenis &wissen
+HistoryOpenFolder=&Map openen
+HistoryCopyPath=&Pad kopiëren
+ClearHistory=Geschiedenis wissen
+ClearHistoryConfirm=Weet u zeker dat u alle geschiedenis wilt wissen?
+SleepTimerTitle=Slaaptimer
+SleepTimerDescription=Stel timer in om afspelen automatisch te stoppen
+SleepTimerHours=Uren
+SleepTimerMinutes=Minuten
+SleepTimerQuickSet=Snel instellen
+SleepTimerAction=Wanneer timer afloopt
+SleepTimerStopPlayback=Afspelen stoppen
+SleepTimerCloseApp=Applicatie sluiten
+SleepTimerShutdown=Computer afsluiten
+SleepTimerStart=Timer starten
+
+[Status]
+Ready=Gereed
+Opening=Openen...
+Playing=Afspelen
+Paused=Gepauzeerd
+Stopped=Gestopt
+Error=Fout
+Buffering=Bufferen...
+Seeking=Zoeken...
+Recording=Opnemen
+
+[Message]
+SpeedFormat=Snelheid: %.2fx
+VolumeFormat=Volume: %d%%
+BrightnessFormat=Helderheid: %d
+ContrastFormat=Contrast: %d
+SaturationFormat=Verzadiging: %d
+HueFormat=Tint: %d
+GammaFormat=Gamma: %d
+ColorsReset=Videokleuren gereset
+LoopASet=Lus A ingesteld op %s
+LoopBSet=Lus B ingesteld op %s - Lus actief
+LoopCleared=A-B Lus gewist
+SetAFirst=Stel eerst punt A in (druk op L)
+RotationFormat=Rotatie: %d
+FlipHOn=Horizontaal spiegelen: AAN
+FlipHOff=Horizontaal spiegelen: UIT
+FlipVOn=Verticaal spiegelen: AAN
+FlipVOff=Verticaal spiegelen: UIT
+DeinterlaceOn=Deinterlace: AAN
+DeinterlaceOff=Deinterlace: UIT
+AlwaysOnTopOn=Altijd op voorgrond: AAN
+AlwaysOnTopOff=Altijd op voorgrond: UIT
+WindowFitted=Venster aangepast aan %dx%d
+WindowScale=Vensterschaal: %.0f%%
+ScreenshotSaved=Schermafbeelding opgeslagen: %s
+AudioNormalizeOn=Audionormalisatie: AAN
+AudioNormalizeOff=Audionormalisatie: UIT
+AudioDelayFormat=Audiovertraging: %.1f s
+SubtitleDelayFormat=Ondertitelvertraging: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pannen: Midden
+PanFormat=Pannen: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Geen video geladen
+PlayingFromClipboard=Afspelen vanaf klembord: %s
+ClipboardInvalid=Klembord bevat geen geldige URL of pad
+ClipboardEmpty=Klembord is leeg of bevat geen tekst
+ResumedAt=Hervat op %s
+FrameStepForward=Frame vooruit
+FrameStepBackward=Frame achteruit
+PreviousChapter=Vorig hoofdstuk
+NextChapter=Volgend hoofdstuk
+PlayingRadio=Radio afspelen: %s
+PlayingDVD=DVD afspelen: %s
+PlayingBluray=Blu-ray afspelen: %s
+DVDTitlePlaying=DVD Titel %d
+SeekTo=Spoelen naar %s
+MinimizedToTray=Geminimaliseerd naar systeemvak. Dubbelklik om te herstellen.
+SleepTimerSet=Slaaptimer ingesteld: %s
+SleepTimerCancelled=Slaaptimer geannuleerd
+SleepTimerWarning=Slaaptimer: nog 1 minuut
+SleepTimerFinal=Slaaptimer: nog 10 seconden
+SleepTimerStopped=Slaaptimer: Afspelen gestopt
+SleepTimerClosing=Slaaptimer: Applicatie wordt gesloten
+SleepTimerShutdown=Slaaptimer: Computer wordt afgesloten
+SleepTimerExpired=Slaaptimer verlopen
+ShutdownManual=Sluit uw computer handmatig af.
+
+; Fase 21: Map openen
+FolderOpened=Map geopend: %d bestanden
+NoMediaFound=Geen mediabestanden gevonden
+FilesAdded=%d bestanden toegevoegd aan afspeellijst
+
+; Fase 27: Opnameberichten
+RecordNeedPlayback=Start afspelen voordat u opneemt.
+RecordingStarted=Opname gestart
+RecordingStopped=Opname gestopt
+
+; Aanvullende statusberichten
+EndOfPlaylist=Einde van afspeellijst
+NoMediaLoaded=Er is geen mediabestand geladen.
+JumpedToNamed=Gesprongen naar: %s
+ChapterFormat=Hoofdstuk %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Bladwijzer op %s
+
+[Label]
+Muted=Gedempt
+
+[Button]
+Play=Afspelen
+Pause=Pauzeren
+Stop=Stoppen
+Previous=Vorige
+Next=Volgende
+Mute=Dempen
+Unmute=Dempen opheffen
+Fullscreen=Volledig scherm
+OK=OK
+Cancel=Annuleren
+Apply=Toepassen
+Close=Sluiten
+Yes=Ja
+No=Nee
+
+[Tooltip]
+Play=Afspelen/Pauzeren
+Stop=Afspelen stoppen
+Previous=Vorige track
+Next=Volgende track
+Mute=Dempen aan/uit
+Volume=Volume
+Seek=Zoekpositie
+Fullscreen=Volledig scherm aan/uit
+
+[Playlist]
+Title=Afspeellijst
+Add=Toevoegen
+Remove=Verwijderen
+Clear=Wissen
+MoveUp=Omhoog
+MoveDown=Omlaag
+Shuffle=Willekeurig
+Repeat=Herhalen
+Play=Afspelen
+ShuffleOn=Willekeurig: Aan
+ShuffleOff=Willekeurig: Uit
+RepeatOff=Herhalen: Uit
+RepeatOne=Herhalen: Een
+RepeatAll=Herhalen: Alles
+SavePlaylist=Opslaan
+LoadPlaylist=Laden
+TotalDuration=Totaal: %s
+ItemCount=%d items
+
+; Fase 22: Afspeellijstverbeteringen
+Search=Zoeken:
+FilterPlaceholder=Afspeellijst filteren...
+ClearSearch=Wissen
+FilterCount=%d/%d
+RemoveDuplicates=&Duplicaten verwijderen
+Properties=&Eigenschappen...
+NoDuplicates=Geen duplicaten gevonden.
+DuplicatesFound=%d duplica(a)t(en) gevonden. Verwijderen?
+RemoveDuplicatesTitle=Duplicaten verwijderen
+PropertiesTitle=Afspeellijsteigenschappen
+PropTotalItems=Totaal items: %d
+PropTotalDuration=Totale duur: %s
+PropPlayed=Afgespeeld: %d
+PropUnplayed=Niet afgespeeld: %d
+PropTotalSize=Totale grootte: %.2f MB
+PropShuffle=Willekeurig: %s
+PropRepeat=Herhalen: %s
+On=Aan
+Off=Uit
+
+; Nieuwe sleutels voor ApplyLocale
+ClearTitle=Afspeellijst wissen
+ClearConfirm=Weet u zeker dat u de afspeellijst wilt wissen?
+NoPlaylist=Geen afspeellijst
+StatusFormat=%d items | Totaal: %s
+RepeatOne=Herh. 1
+RepeatAll=Herh. alles
+HintRepeatEnable=Klik om Alles herhalen in te schakelen
+HintRepeatOne=Een herhalen - Klik om uit te schakelen
+HintRepeatAll=Alles herhalen - Klik voor Een herhalen
+HintShuffleRepeat=Willekeurig + Alles herhalen - Klik om herhalen uit te schakelen
+RemoveDuplicatesTitle=Duplicaten verwijderen
+NoDuplicates=Geen duplicaten gevonden.
+SelectAll=Alles selecteren
+SelectNone=Niets selecteren
+SelectInvert=Selectie omkeren
+Sort=Sorteren
+SortByName=Op naam
+SortByTitle=Op titel
+SortByArtist=Op artiest
+SortByDuration=Op duur
+SortReverse=Omdraaien
+SortRandom=Willekeurig maken
+ColTitle=Titel
+ColDuration=Duur
+ColArtist=Artiest
+ColAlbum=Album
+PlaylistFilter=M3U Afspeellijst|*.m3u|M3U8 Afspeellijst|*.m3u8|PLS Afspeellijst|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Presets:
+Preamp=Voorversterker:
+Flat=Vlak
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klassiek
+BassBoost=Bas boost
+TrebleBoost=Hoge tonen boost
+Vocal=Vocaal
+Reset=Resetten
+Enable=Equalizer inschakelen
+Save=Opslaan
+Delete=Verwijderen
+Ready=Gereed
+; Knoppen en acties
+SavePreset=Preset opslaan
+DeletePreset=Preset verwijderen
+SavePresetTitle=Preset opslaan
+PresetNamePrompt=Presetnaam:
+EnterPresetName=Voer een presetnaam in.
+OverwritePresetTitle=Preset overschrijven
+OverwritePresetConfirm=Er bestaat al een preset met deze naam. Overschrijven?
+PresetUpdated=Preset bijgewerkt: %s
+PresetSaved=Preset opgeslagen: %s
+SelectPresetToDelete=Selecteer een preset om te verwijderen.
+CannotDeleteDefault=Standaard presets kunnen niet worden verwijderd.
+DeletePresetTitle=Preset verwijderen
+DeletePresetConfirm=Weet u zeker dat u deze preset wilt verwijderen?
+PresetDeleted=Preset verwijderd
+ResetToFlat=Equalizer gereset naar vlak
+PresetApplied=Preset toegepast: %s
+
+[Options]
+Title=Instellingen
+General=Algemeen
+Video=Video
+Audio=Audio
+Subtitles=Ondertitels
+Cache=Cache
+Language=Taal:
+RestartRequired=Herstart vereist om wijzigingen door te voeren
+
+; Algemeen tabblad - Gedrag
+Behavior=Gedrag
+SingleInstance=Slechts een instantie toestaan
+AutoPlay=Automatisch afspelen bij openen
+AutoResume=Afspeelpositie hervatten
+MinimizeToTray=Minimaliseren naar systeemvak
+AutoSavePlaylist=Afspeellijst opslaan bij afsluiten
+
+; Algemeen tabblad - OSD
+OSD=Schermmeldingen
+ShowOSD=Schermmeldingen tonen
+ShowTrayIcon=Systeemvakpictogram tonen
+OSDDuration=OSD-duur (ms):
+
+; Algemeen tabblad - Schermafbeeldingen
+Screenshots=Schermafbeeldingen
+ScreenshotPath=Opslagmap:
+ScreenshotFormat=Formaat:
+
+; Algemeen tabblad - Geschiedenis
+HistorySettings=Geschiedenis
+HistoryEnabled=Afspeelgeschiedenis inschakelen
+HistoryMaxItems=Max items:
+
+; Algemeen tabblad - Taal
+LanguageGroup=Taal
+RestartNote=(Herstart vereist voor wijzigingen)
+
+; Video tabblad
+VideoAdjust=Video-aanpassingen
+Brightness=Helderheid:
+Contrast=Contrast:
+Saturation=Verzadiging:
+Hue=Tint:
+Gamma=Gamma:
+VideoOutput=Video-uitvoer
+Output=Uitvoer:
+HWAccel=Hardwareversnelling inschakelen
+Deinterlacing=Deinterlacing
+Mode=Modus:
+
+; Audio tabblad
+AudioOutput=Audio-uitvoer
+OutputDriver=Uitvoerdriver:
+Device=Apparaat:
+AudioOptions=Audio-opties
+NormalizeAudio=Audiovolume normaliseren
+Channels=Kanalen:
+
+; Ondertitels tabblad
+UseDefaultSubtitles=Standaard ondertitelinstellingen gebruiken
+Font=Lettertype
+FontName=Lettertype:
+FontSize=Grootte:
+FontColor=Kleur:
+Bold=Vet
+Italic=Cursief
+Outline=Omtrek
+OutlineColor=Kleur:
+OutlineSize=Grootte:
+Position=Positie
+VerticalPosition=Verticale positie:
+SubOptions=Opties
+Encoding=Codering:
+AutoLoadSubs=Ondertitelbestanden automatisch laden
+
+; Video-uitvoerwaarschuwingen
+VOWarningX11=Waarschuwing: x11 ondersteunt geen video-aanpassingen (helderheid, contrast, enz.)
+VOWarningWayland=Waarschuwing: Vereist een Wayland-sessie. Video-aanpassingen ondersteund.
+
+; Cache tabblad
+CacheSettings=Cachebuffergroottes (KB)
+CacheDefault=Standaard cache:
+CacheLocal=Lokale bestanden:
+CacheNetwork=Netwerkbestanden:
+CacheInternet=Internetstreams:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Over
+Version=Versie
+Engine=Engine
+Technology=Technologie
+BuildInfo=Build-informatie
+SystemInfo=Systeem
+Credits=Credits
+Developer=Ontwikkelaar:
+Author=Auteur
+License=Licentie
+Website=Website
+GitHub=GitHub
+Description=Een moderne, lichtgewicht mediaspeler
+LicenseText=3nity Media is gelicentieerd onder GPL-2.0\n\nDit betekent dat u vrij bent om:\n  - De software voor elk doel te gebruiken\n  - De broncode te bestuderen en te wijzigen\n  - Kopieën van de software te verspreiden\n  - Uw wijzigingen te verspreiden\n\nOnder de voorwaarde dat verspreide wijzigingen\nook onder GPL-2.0 worden gelicentieerd.
+BuildDate=Datum:
+Target=Doel:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Sneltoetsen
+Description=Configureer sneltoetsen voor acties
+Search=Zoeken:
+PressKey=Druk een toets...
+ColCategory=Categorie
+ColAction=Actie
+ColShortcut=Sneltoets
+Assign=Toewijzen
+Clear=Wissen
+Reset=Resetten
+ResetAll=Alles resetten
+CurrentShortcut=Huidige: %s
+NoKeyPressed=Druk eerst een toetscombinatie in.
+Conflict=Conflict: Al toegewezen aan "%s"
+ConfirmReplace=Sneltoets vervangen
+ReplaceMessage=Deze sneltoets is al toegewezen aan "%s". Wilt u deze vervangen?
+ConfirmResetAll=Alle sneltoetsen resetten
+ResetAllMessage=Weet u zeker dat u alle sneltoetsen naar standaard wilt resetten?
+; Actienamen
+ActPlayPause=Afspelen / Pauzeren
+ActStop=Stoppen
+ActPrevious=Vorige
+ActNext=Volgende
+ActSeekForward=Vooruit spoelen (10s)
+ActSeekBackward=Achteruit spoelen (10s)
+ActSeekForward5=Vooruit spoelen (1 min)
+ActSeekBackward5=Achteruit spoelen (1 min)
+ActSpeedUp=Snelheid verhogen
+ActSpeedDown=Snelheid verlagen
+ActSpeedReset=Snelheid resetten
+ActSetLoopA=Luspunt A instellen
+ActSetLoopB=Luspunt B instellen
+ActClearLoop=A-B Lus wissen
+ActFrameForward=Frame vooruit
+ActFrameBackward=Frame achteruit
+ActPrevChapter=Vorig hoofdstuk
+ActNextChapter=Volgend hoofdstuk
+ActGotoTime=Ga naar tijd
+ActVolumeUp=Volume verhogen
+ActVolumeDown=Volume verlagen
+ActMute=Dempen / Dempen opheffen
+ActAudioDelayPlus=Audiovertraging +
+ActAudioDelayMinus=Audiovertraging -
+ActAudioDelayReset=Audiovertraging resetten
+ActFullscreen=Volledig scherm
+ActRotate=Video roteren
+ActDeinterlace=Deinterlace
+ActZoomIn=Inzoomen
+ActZoomOut=Uitzoomen
+ActZoomReset=Zoom resetten
+ActAlwaysOnTop=Altijd op voorgrond
+ActFitToVideo=Aanpassen aan video
+ActScreenshot=Schermafbeelding
+ActVideoAdjust=Video-aanpassingen
+ActVisNextMode=Volgende visualisatiemodus
+ActVisNextColor=Volgend kleurenschema
+ActSubDelayPlus=Ondertitelvertraging +
+ActSubDelayMinus=Ondertitelvertraging -
+ActSubDelayReset=Ondertitelvertraging resetten
+ActDVDMenu=DVD-menu
+ActDVDUp=DVD omhoog navigeren
+ActDVDDown=DVD omlaag navigeren
+ActDVDLeft=DVD links navigeren
+ActDVDRight=DVD rechts navigeren
+ActDVDSelect=DVD selecteren
+ActOpenFile=Bestand openen
+ActOpenURL=URL openen
+ActPlaylist=Afspeellijst tonen
+ActQuit=Afsluiten
+
+[Log]
+; Fase 25: Logvenster
+Title=MPV-log
+Command=Commando:
+Clear=Wissen
+Save=Opslaan...
+Copy=&Kopiëren
+SelectAll=Alles &selecteren
+SaveTitle=Log opslaan
+SaveFilter=Tekstbestanden (*.txt)|*.txt|Alle bestanden (*.*)|*.*
+ErrorTitle=Fout
+SaveError=Kan log niet opslaan: %s
+
+[MediaInfo]
+Title=Media-informatie
+FileTab=Bestand
+VideoTab=Video
+AudioTab=Audio
+MetadataTab=Metadata
+FileName=Bestandsnaam:
+FilePath=Pad:
+FileSize=Grootte:
+Duration=Duur:
+Format=Formaat:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolutie:
+FrameRate=Framerate:
+PixelFormat=Pixelformaat:
+AspectRatio=Beeldverhouding:
+Channels=Kanalen:
+SampleRate=Samplerate:
+Language=Taal:
+Property=Eigenschap
+Value=Waarde
+CopyAll=Alles kopiëren
+CopiedToClipboard=Media-informatie gekopieerd naar klembord.
+NA=N.v.t.
+NAStream=N.v.t. (stream)
+NALive=N.v.t. (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Onbekend
+NoMetadata=(Geen metadata)
+
+[Bookmarks]
+Title=Bladwijzers
+Goto=Ga naar
+Remove=Verwijderen
+Clear=Alles wissen
+Refresh=Vernieuwen
+OpenFolder=Map openen
+CopyPath=Pad kopiëren
+; Kolommen
+ColName=Naam
+ColFile=Bestand
+ColPosition=Positie
+ColCreated=Aangemaakt
+; Dialoogvensters
+ClearTitle=Bladwijzers wissen
+ClearConfirm=Weet u zeker dat u alle bladwijzers wilt wissen?
+Count=%d bladwijzer(s)
+
+[Favorites]
+Title=Favorieten
+Play=Afspelen
+Remove=Verwijderen
+Clear=Alles wissen
+Refresh=Vernieuwen
+OpenFolder=Map openen
+CopyPath=Pad kopiëren
+; Kolommen
+ColName=Naam
+ColType=Type
+ColPath=Pad
+; Types
+TypeFile=Bestand
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Onbekend
+; Dialoogvensters
+ClearTitle=Favorieten wissen
+ClearConfirm=Weet u zeker dat u alle favorieten wilt wissen?
+Count=%d favoriet(en)
+
+[History]
+Title=Afspeelgeschiedenis
+Play=Afspelen
+Remove=Verwijderen
+Clear=Alles wissen
+Refresh=Vernieuwen
+OpenFolder=Map openen
+CopyPath=Pad kopiëren
+; Kolommen
+ColFileName=Bestand
+ColPath=Pad
+; Dialoogvensters
+ClearTitle=Geschiedenis wissen
+ClearConfirm=Weet u zeker dat u alle geschiedenis wilt wissen?
+Count=%d item(s)
+
+[SleepTimer]
+Title=Slaaptimer
+Description=Stel een timer in om afspelen automatisch te stoppen
+Hours=Uren:
+Minutes=Minuten:
+Action=Wanneer timer afloopt:
+StopPlayback=Afspelen stoppen
+CloseApp=Applicatie sluiten
+Shutdown=Computer afsluiten
+QuickSet=Snel instellen:
+15Min=15 min
+30Min=30 min
+1Hour=1 uur
+2Hours=2 uur
+
+[Radios]
+Title=Internetradio's
+Play=Afspelen
+Add=Toevoegen
+Edit=Bewerken
+Delete=Verwijderen
+Remove=Verwijderen
+Import=Importeren
+Export=Exporteren
+Refresh=Vernieuwen
+Favorite=Favoriet
+ShowFavorites=Favorieten
+ShowAll=Alles
+; Filter
+Genre=Genre:
+Search=Zoeken:
+SearchBtn=Zoeken
+ClearSearch=Wissen
+AllGenres=(Alle genres)
+; Contextmenu
+AddFavorite=Toevoegen aan favorieten
+RemoveFavorite=Verwijderen uit favorieten
+AddCustom=Aangepast station toevoegen...
+EditCustom=Station bewerken...
+DeleteCustom=Station verwijderen
+OpenWebsite=Website openen
+CopyURL=URL kopiëren
+; Kolommen
+ColName=Naam
+ColGenre=Genre
+ColBitrate=Bitrate
+ColCountry=Land
+ColCodec=Codec
+; Dialoogvensters
+AddTitle=Aangepast station toevoegen
+EditTitle=Station bewerken
+DeleteTitle=Station verwijderen
+DeleteConfirm=Weet u zeker dat u dit station wilt verwijderen?
+StationName=Stationnaam:
+StreamURL=Stream-URL:
+GenrePrompt=Genre:
+NameURLRequired=Naam en URL zijn vereist.
+; Statusberichten
+LoadingIcecast=Stations laden uit Icecast-directory...
+IcecastError=Kon Icecast-directory niet laden. Standaard stations worden gebruikt.
+NoStationsLoaded=Geen stations geladen
+StationCount=%d stations
+LoadedStations=%d stations geladen
+ErrorPrefix=Fout:
+; Legacy sleutels
+Name=Naam
+URL=URL
+Bitrate=Bitrate
+Description=Beschrijving
+Country=Land
+
+[OpenURL]
+Title=URL openen
+Prompt=Voer media-URL in:
+
+[GotoTime]
+Title=Ga naar tijd
+EnterTime=Voer tijd in om naar te springen:
+Hours=U
+Minutes=M
+Seconds=S
+Current=Huidig:
+Duration=Duur:
+
+[VideoAdjust]
+Title=Video-aanpassingen
+Brightness=Helderheid:
+Contrast=Contrast:
+Saturation=Verzadiging:
+Hue=Tint:
+Gamma=Gamma:
+ResetAll=Alle kleuren resetten
+
+[CLI]
+; Opdrachtregel berichten
+Usage=Gebruik
+Arguments=[OPTIES] [BESTAND|URL|MAP]
+Description=Een cross-platform multimediaspeler die libmpv als backend gebruikt.
+Options=OPTIES
+Examples=VOORBEELDEN
+MoreInfo=Voor meer informatie, bezoek
+EnqueuedTo=Toegevoegd aan wachtrij van bestaande instantie: %s
+SentTo=Verzonden naar bestaande instantie: %s
+AlreadyRunning=3nity Media draait al.
+ErrorFileNotFound=Fout: Bestand of map niet gevonden: %s
+ErrorSubNotFound=Fout: Ondertitelingsbestand niet gevonden: %s

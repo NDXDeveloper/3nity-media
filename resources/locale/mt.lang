@@ -1,0 +1,892 @@
+[Language]
+Name=Maltese - Malti
+Code=mt
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menu tal-Fajl
+File=&Fajl
+FileOpen=&Iftah Fajl...
+FileOpenURL=Iftah &URL...
+FileOpenClipboard=Iftah mill-&Clipboard
+FileRecent=Fajls &Ricenti
+ClearRecentFiles=Hassar Fajls Ricenti
+FileExit=O&hrog
+
+; Menu tal-Playback
+Playback=&Playback
+PlaybackPlayPause=&Iddoqq/Pawsa
+PlaybackStop=&Waqqaf
+PlaybackPrevious=Ta' &Qabel
+PlaybackNext=Li &Jmiss
+PlaybackSeekForward=Fittex &'l Quddiem
+PlaybackSeekBackward=Fittex &Lura
+PlaybackSpeed=&Velocita
+PlaybackABLoop=Loop A-&B
+PlaybackSetA=Issettja &A
+PlaybackSetB=Issettja &B
+PlaybackClearAB=&Hassar A-B
+PlaybackChapters=&Kapitli
+PlaybackPrevChapter=Kapitlu ta' Qabel
+PlaybackNextChapter=Kapitlu li Jmiss
+PlaybackFrameStep=Pass Frame &'l Quddiem
+PlaybackFrameBack=Pass Frame &Lura
+
+; Navigazzjoni DVD
+PlaybackDVD=&Navigazzjoni DVD
+DVDMenu=&Menu
+DVDUp=&Fuq
+DVDDown=&Isfel
+DVDLeft=&Xellug
+DVDRight=&Lemin
+DVDSelect=&Aghzel
+PlaybackDVDTitles=&Titli DVD
+
+; Fazi 21: Iftah Folder
+FileOpenFolder=Iftah F&older...
+
+; Menu Fajl DVD/Bluray
+FileOpenDVD=Iftah &DVD...
+FileOpenBluray=Iftah &Blu-ray...
+
+; Fazi 13: Mur ghal-Hin u Storja
+PlaybackGotoTime=&Mur ghal-Hin...
+ToolsHistory=&Storja
+
+; Fazi 14: System Tray
+TrayShow=&Uri/Ahbi
+TrayPlayPause=&Iddoqq/Pawsa
+TrayStop=&Waqqaf
+TrayPrevious=Ta' &Qabel
+TrayNext=Li &Jmiss
+TrayMute=&Mute
+TrayExit=O&hrog
+
+; Fazi 15: Bookmarks
+PlaybackAddBookmark=Zid &Bookmark...
+PlaybackBookmarks=Book&marks
+BookmarksTitle=Bookmarks
+BookmarksGoto=&Mur ghal Bookmark
+BookmarksRemove=&Nehhi Bookmark
+BookmarksClear=&Hassar il-Bookmarks Kollha
+BookmarksOpenFolder=Iftah &Folder
+BookmarksCopyPath=&Ikkopja Path
+BookmarksCount=%d bookmark
+NoBookmarks=(L-ebda bookmarks)
+NoFileLoaded=(L-ebda fajl loaded)
+BookmarkAdded=Bookmark mizjud f'%s
+BookmarkJumped=Mort ghal bookmark f'%s
+AddBookmarkTitle=Zid Bookmark
+AddBookmarkPrompt=Dahhal isem tal-bookmark:
+ShowAllBookmarks=Uri l-Bookmarks Kollha...
+
+; Fazi 16: Favoriti
+ToolsFavorites=&Favoriti
+ToolsAddFavorite=Zid mal-Favo&riti
+FavoritesTitle=Favoriti
+FavoritesPlay=&Iddoqq
+FavoritesRemove=&Nehhi mill-Favoriti
+FavoritesClear=&Hassar il-Favoriti Kollha
+FavoritesOpenFolder=Iftah &Folder
+FavoritesCopyPath=&Ikkopja Path
+FavoritesCount=%d favorit
+NoFavorites=(L-ebda favoriti)
+AddFavoriteTitle=Zid mal-Favoriti
+AddFavoritePrompt=Dahhal isem ghall-favorit:
+AlreadyFavorite=Diga fil-favoriti
+AddedToFavorites=Mizjud mal-favoriti: %s
+NoFileToFavorite=L-ebda fajl loaded biex jizjied mal-favoriti
+FavoriteTypeFile=Fajl
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radju
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Strings tal-format tat-track
+TrackWithTitle=Track %d: %s
+TrackWithLang=Track %d (%s)
+TrackNumber=Track %d
+
+; Items tal-menu tal-velocita
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Items tal-menu tal-iskala
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Track tas-sottotitli
+SubtitleDisable=Itfi
+
+; Fazi 17: Sleep Timer
+ToolsSleepTimer=Sleep &Timer...
+ToolsSleepTimerActive=Sleep &Timer [%s]
+ToolsCancelTimer=Ikkancella &Timer
+
+; Menu tal-Awdjo
+Audio=&Awdjo
+AudioTrack=&Track tal-Awdjo
+AudioVolumeUp=Volum &'l Fuq
+AudioVolumeDown=Volum &'l Isfel
+AudioMute=&Mute
+AudioEqualizer=&Ekwalizzatur
+AudioDelay=&Dewmien tal-Awdjo
+AudioDelayPlus=Dewmien +0.1s
+AudioDelayMinus=Dewmien -0.1s
+AudioDelayReset=Irrisettja Dewmien
+AudioNormalize=&Innormalizza Volum
+
+; Menu tal-Vidjo
+Video=&Vidjo
+VideoFullscreen=Skrin S&hih
+VideoAspect=&Aspect Ratio
+VideoAspectAuto=&Awtomatiku
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Screenshot
+VideoScreenshotAs=Screenshot &Bhala...
+VideoRotation=&Rotazzjoni
+VideoRotate0=&0 (Normali)
+VideoRotate90=&90
+VideoRotate180=&180
+VideoRotate270=&270
+VideoFlip=&Flip
+VideoFlipH=Flip &Orizzontali
+VideoFlipV=Flip &Vertikali
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &'l Gewwa
+VideoZoomOut=Zoom &'l Barra
+VideoZoomReset=&Irrisettja Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan &Xellug
+VideoPanRight=Pan &Lemin
+VideoPanUp=Pan &'l Fuq
+VideoPanDown=Pan &'l Isfel
+VideoPanReset=I&rrisettja Pan
+VideoTrack=&Track tal-Vidjo
+VideoColors=Aggustamenti tal-&Kulur
+VideoBrightness=&Brightness
+VideoContrast=&Kuntrast
+VideoSaturation=&Saturazzjoni
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Irrisettja l-&Kuluri Kollha
+VideoIncrease=Zid (+5)
+VideoDecrease=Naqqas (-5)
+VideoReset=Irrisettja
+VideoAdjustDialog=&Aggustamenti tal-Vidjo...
+
+; Menu tal-View
+View=&View
+ViewAlwaysOnTop=Dejjem &Fuq
+ViewFitToVideo=&Applika Tieqa ghall-Vidjo
+ViewScale=&Skala tat-Tieqa
+
+; Fazi 26: Menu tal-Vizwalizzazzjoni
+ViewVisualization=&Vizwalizzazzjoni
+VisNone=&Xejn
+VisSpectrum=Analizzatur tal-&Ispettru
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=Modalita li &Tmiss
+VisNextColor=Skema tal-&Kulur li Tmiss
+
+; Menu tas-Sottotitli
+Subtitles=&Sottotitli
+SubtitleTrack=&Track tas-Sottotitli
+SubtitleLoad=&Tagbbija Sottotitli...
+SubtitleDelay=&Dewmien tas-Sottotitli
+SubtitleDelayPlus=Dewmien +0.1s
+SubtitleDelayMinus=Dewmien -0.1s
+SubtitleDelayReset=Irrisettja Dewmien
+
+; Menu tal-Ghodod
+Tools=&Ghodda
+ToolsPlaylist=Lista tad-&daqq
+ToolsRadios=&Radjijiet
+ToolsShortcuts=&Shortcuts tat-Tastiera...
+ToolsOptions=&Settings
+
+; Fazi 27: Menu tar-Registrazzjoni
+ToolsRecord=&Irregistra Stream...
+ToolsStopRecord=W&aqqaf Registrazzjoni
+ToolsRecording=&Registrazzjoni...
+
+; Menu tal-Ghajnuna
+Help=&Ghajnuna
+HelpMediaInfo=Informazzjoni &tal-Medja
+HelpLog=Tieqa tal-&Log
+HelpAbout=&Dwar
+
+[Dialog]
+OpenFile=Iftah Fajl
+OpenURL=Iftah URL
+SaveScreenshot=Issejvja Screenshot
+LoadSubtitle=Tagbbija Fajl tas-Sottotitli
+EnterURL=Dahhal URL:
+ResumePlayback=Kompli Playback
+ResumeFrom=Kompli minn %s?
+ClearRecentFiles=Hassar Fajls Ricenti
+NoRecentFiles=(L-ebda fajls ricenti)
+NoAudioTracks=(L-ebda tracks tal-awdjo)
+NoVideoTracks=(L-ebda tracks tal-vidjo)
+NoSubtitleTracks=(L-ebda tracks tas-sottotitli)
+NoChapters=(L-ebda kapitli)
+OpenDVD=Iftah DVD
+OpenBluray=Iftah Blu-ray
+OpenFolder=Iftah Folder
+
+; Filtri tal-fajls
+ScreenshotFilter=Immagni PNG|*.png|Immagni JPEG|*.jpg|Immagni WebP|*.webp
+DVDFilter=Folder DVD|*.;*.iso|Fajls kollha (*.*)|*.*
+BlurayFilter=Folder Blu-ray|*.;*.iso|Fajls kollha (*.*)|*.*
+NoDVD=(L-ebda DVD loaded)
+DVDTitle=Titlu %d
+GotoTime=Mur ghal-Hin
+EnterTime=Dahhal il-hin fejn trid tmur:
+Hours=Sighat
+Minutes=Minuti
+Seconds=Sekondi
+Current=Attwali:
+HistoryTitle=Storja tal-Playback
+HistoryItems=%d items fl-istorja
+HistoryPlay=&Iddoqq
+HistoryRemove=&Nehhi mill-Istorja
+HistoryClear=&Hassar l-Istorja Kollha
+HistoryOpenFolder=Iftah &Folder
+HistoryCopyPath=&Ikkopja Path
+ClearHistory=Hassar Storja
+ClearHistoryConfirm=Cert li trid thassar l-istorja kollha?
+SleepTimerTitle=Sleep Timer
+SleepTimerDescription=Issettja timer biex tawtomatikament twaqqaf playback
+SleepTimerHours=Sighat
+SleepTimerMinutes=Minuti
+SleepTimerQuickSet=Quick Set
+SleepTimerAction=Meta jiskadi t-timer
+SleepTimerStopPlayback=Waqqaf playback
+SleepTimerCloseApp=Aghlaq applikazzjoni
+SleepTimerShutdown=Itfi l-kompjuter
+SleepTimerStart=Ibda Timer
+
+[Status]
+Ready=Lest
+Opening=Qed Jinfetah...
+Playing=Qed Idoqq
+Paused=Pawsa
+Stopped=Mwaqqaf
+Error=Zball
+Buffering=Qed Jibufferja...
+Seeking=Qed Ifittex...
+Recording=Qed Jirregistra
+
+[Message]
+SpeedFormat=Velocita: %.2fx
+VolumeFormat=Volum: %d%%
+BrightnessFormat=Brightness: %d
+ContrastFormat=Kuntrast: %d
+SaturationFormat=Saturazzjoni: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Kuluri tal-vidjo rrisettjati
+LoopASet=Loop A ssettjat f'%s
+LoopBSet=Loop B ssettjat f'%s - Loop attiv
+LoopCleared=Loop A-B imhassar
+SetAFirst=Issettja punt A l-ewwel (agbfas L)
+RotationFormat=Rotazzjoni: %d
+FlipHOn=Flip orizzontali: ON
+FlipHOff=Flip orizzontali: OFF
+FlipVOn=Flip vertikali: ON
+FlipVOff=Flip vertikali: OFF
+DeinterlaceOn=Deinterlace: ON
+DeinterlaceOff=Deinterlace: OFF
+AlwaysOnTopOn=Dejjem fuq: ON
+AlwaysOnTopOff=Dejjem fuq: OFF
+WindowFitted=Tieqa applikata ghal %dx%d
+WindowScale=Skala tat-tieqa: %.0f%%
+ScreenshotSaved=Screenshot issejvjat: %s
+AudioNormalizeOn=Normalizzazzjoni tal-awdjo: ON
+AudioNormalizeOff=Normalizzazzjoni tal-awdjo: OFF
+AudioDelayFormat=Dewmien tal-awdjo: %.1f s
+SubtitleDelayFormat=Dewmien tas-sottotitli: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Centru
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=L-ebda vidjo loaded
+PlayingFromClipboard=Qed idoqq mill-clipboard: %s
+ClipboardInvalid=Il-clipboard ma fihx URL jew path validu
+ClipboardEmpty=Il-clipboard vojt jew ma fihx test
+ResumedAt=Komplut f'%s
+FrameStepForward=Pass frame 'l quddiem
+FrameStepBackward=Pass frame lura
+PreviousChapter=Kapitlu ta' qabel
+NextChapter=Kapitlu li jmiss
+PlayingRadio=Qed idoqq radju: %s
+PlayingDVD=Qed idoqq DVD: %s
+PlayingBluray=Qed idoqq Blu-ray: %s
+DVDTitlePlaying=Titlu DVD %d
+SeekTo=Qed imur ghal %s
+MinimizedToTray=Minimizzat fit-tray. Ikklikkja darbtejn biex tirrestawra.
+SleepTimerSet=Sleep timer ssettjat: %s
+SleepTimerCancelled=Sleep timer ikkancellat
+SleepTimerWarning=Sleep timer: minuta wahda fadal
+SleepTimerFinal=Sleep timer: 10 sekondi fadal
+SleepTimerStopped=Sleep timer: Playback mwaqqaf
+SleepTimerClosing=Sleep timer: Qed jaghlaq applikazzjoni
+SleepTimerShutdown=Sleep timer: Qed jitfi l-kompjuter
+SleepTimerExpired=Sleep Timer Skada
+ShutdownManual=Jekk joghgbok itfi l-kompjuter tieghek manwalment.
+
+; Fazi 21: Iftah Folder
+FolderOpened=Folder miftuh: %d fajl
+NoMediaFound=L-ebda fajls tal-medja nstabu
+FilesAdded=%d fajl mizjuda mal-playlist
+
+; Fazi 27: Messaggi tar-registrazzjoni
+RecordNeedPlayback=Ibda playback qabel tirregistra.
+RecordingStarted=Registrazzjoni bdiet
+RecordingStopped=Registrazzjoni mwaqqfa
+
+; Messaggi addizzjonali tal-istatus
+EndOfPlaylist=Tmiem tal-playlist
+NoMediaLoaded=L-ebda fajl tal-medja loaded bhalissa.
+JumpedToNamed=Mort ghal: %s
+ChapterFormat=Kapitlu %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Bookmark f'%s
+
+[Label]
+Muted=Mute
+
+[Button]
+Play=Iddoqq
+Pause=Pawsa
+Stop=Waqqaf
+Previous=Ta' Qabel
+Next=Li Jmiss
+Mute=Mute
+Unmute=Unmute
+Fullscreen=Skrin Shih
+OK=OK
+Cancel=Ikkancella
+Apply=Applika
+Close=Aghlaq
+Yes=Iva
+No=Le
+
+[Tooltip]
+Play=Iddoqq/Pawsa
+Stop=Waqqaf playback
+Previous=Track ta' qabel
+Next=Track li jmiss
+Mute=Toggle mute
+Volume=Volum
+Seek=Pozizzjoni seek
+Fullscreen=Toggle fullscreen
+
+[Playlist]
+Title=Lista tad-daqq
+Add=Zid
+Remove=Nehhi
+Clear=Hassar
+MoveUp=Itla' 'l Fuq
+MoveDown=Mur 'l Isfel
+Shuffle=Shuffle
+Repeat=Ripeti
+Play=Iddoqq
+ShuffleOn=Shuffle: On
+ShuffleOff=Shuffle: Off
+RepeatOff=Ripeti: Off
+RepeatOne=Ripeti: Wiehed
+RepeatAll=Ripeti: Kollha
+SavePlaylist=Issejvja
+LoadPlaylist=Tagbbija
+TotalDuration=Total: %s
+ItemCount=%d items
+
+; Fazi 22: Titjib tal-Playlist
+Search=Fittex:
+FilterPlaceholder=Iffiltra playlist...
+ClearSearch=Hassar
+FilterCount=%d/%d
+RemoveDuplicates=Nehhi &Duplikati
+Properties=P&roprjetajiet...
+NoDuplicates=L-ebda duplikati nstabu.
+DuplicatesFound=Instab %d duplikat(i). Tnehhihom?
+RemoveDuplicatesTitle=Nehhi Duplikati
+PropertiesTitle=Proprjetajiet tal-Playlist
+PropTotalItems=Items totali: %d
+PropTotalDuration=Tul totali: %s
+PropPlayed=Indaqqew: %d
+PropUnplayed=Ma ndaqqewx: %d
+PropTotalSize=Daqs totali: %.2f MB
+PropShuffle=Shuffle: %s
+PropRepeat=Ripeti: %s
+On=On
+Off=Off
+
+; Keys godda ghal ApplyLocale
+ClearTitle=Hassar Lista tad-daqq
+ClearConfirm=Cert li trid thassar il-playlist?
+NoPlaylist=L-ebda playlist
+StatusFormat=%d items | Total: %s
+RepeatOne=Rip. 1
+RepeatAll=Rip. Koll
+HintRepeatEnable=Ikklikkja biex tattiva Ripeti Kollha
+HintRepeatOne=Ripeti Wiehed - Ikklikkja biex titfi
+HintRepeatAll=Ripeti Kollha - Ikklikkja ghal Ripeti Wiehed
+HintShuffleRepeat=Shuffle + Ripeti Kollha - Ikklikkja biex titfi ripeti
+RemoveDuplicatesTitle=Nehhi Duplikati
+NoDuplicates=L-ebda duplikati nstabu.
+SelectAll=Aghzel Kollha
+SelectNone=Aghzel Xejn
+SelectInvert=Inverta Ghazla
+Sort=Issortja
+SortByName=Bl-Isem
+SortByTitle=Bit-Titlu
+SortByArtist=Bl-Artist
+SortByDuration=Bit-Tul
+SortReverse=Inverti
+SortRandom=Randomizza
+ColTitle=Titlu
+ColDuration=Tul
+ColArtist=Artist
+ColAlbum=Album
+PlaylistFilter=Playlist M3U|*.m3u|Playlist M3U8|*.m3u8|Playlist PLS|*.pls
+
+[Equalizer]
+Title=Ekwalizzatur
+Presets=Presets:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klassiku
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Vokali
+Reset=Irrisettja
+Enable=Attiva Ekwalizzatur
+Save=Issejvja
+Delete=Hassar
+Ready=Lest
+; Buttuni u azzjonijiet
+SavePreset=Issejvja Preset
+DeletePreset=Hassar Preset
+SavePresetTitle=Issejvja Preset
+PresetNamePrompt=Isem tal-preset:
+EnterPresetName=Jekk joghgbok dahhal isem ghall-preset.
+OverwritePresetTitle=Ikteb fuq Preset
+OverwritePresetConfirm=Preset b'dan l-isem diga jezisti. Tikteb fuqu?
+PresetUpdated=Preset aggurnat: %s
+PresetSaved=Preset issejvjat: %s
+SelectPresetToDelete=Jekk joghgbok aghzel preset biex thassar.
+CannotDeleteDefault=Ma tistax thassar presets default.
+DeletePresetTitle=Hassar Preset
+DeletePresetConfirm=Cert li trid thassar dan il-preset?
+PresetDeleted=Preset imhassar
+ResetToFlat=Ekwalizzatur irrisettjat ghal flat
+PresetApplied=Preset applikat: %s
+
+[Options]
+Title=Settings
+General=Generali
+Video=Vidjo
+Audio=Awdjo
+Subtitles=Sottotitli
+Cache=Cache
+Language=Lingwa:
+RestartRequired=Restart mehtieg biex tibda effett il-bidliet
+
+; Tab Generali - Komportament
+Behavior=Komportament
+SingleInstance=Halli biss istanza wahda
+AutoPlay=Auto-play fajls meta jinfethu
+AutoResume=Kompli pozizzjoni tal-playback
+MinimizeToTray=Minimizza ghas-system tray
+AutoSavePlaylist=Issejvja playlist meta tohrog
+
+; Tab Generali - OSD
+OSD=On-Screen Display
+ShowOSD=Uri messaggi fuq l-iskrin
+ShowTrayIcon=Uri ikona tat-tray
+OSDDuration=Tul tal-OSD (ms):
+
+; Tab Generali - Screenshots
+Screenshots=Screenshots
+ScreenshotPath=Folder fejn issejvja:
+ScreenshotFormat=Format:
+
+; Tab Generali - Storja
+HistorySettings=Storja
+HistoryEnabled=Attiva storja tal-playback
+HistoryMaxItems=Items massimi:
+
+; Tab Generali - Lingwa
+LanguageGroup=Lingwa
+RestartNote=(Restart mehtieg ghall-bidliet)
+
+; Tab tal-Vidjo
+VideoAdjust=Aggustamenti tal-Vidjo
+Brightness=Brightness:
+Contrast=Kuntrast:
+Saturation=Saturazzjoni:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Output tal-Vidjo
+Output=Output:
+HWAccel=Attiva accelerazzjoni tal-hardware
+Deinterlacing=Deinterlacing
+Mode=Modalita:
+
+; Tab tal-Awdjo
+AudioOutput=Output tal-Awdjo
+OutputDriver=Driver tal-output:
+Device=Apparat:
+AudioOptions=Ghazliet tal-Awdjo
+NormalizeAudio=Innormalizza volum tal-awdjo
+Channels=Kanali:
+
+; Tab tas-Sottotitli
+UseDefaultSubtitles=Uza settings default tas-sottotitli
+Font=Font
+FontName=Font:
+FontSize=Daqs:
+FontColor=Kulur:
+Bold=Bold
+Italic=Italiku
+Outline=Outline
+OutlineColor=Kulur:
+OutlineSize=Daqs:
+Position=Pozizzjoni
+VerticalPosition=Pozizzjoni vertikali:
+SubOptions=Ghazliet
+Encoding=Encoding:
+AutoLoadSubs=Awtomatikament tagbbija fajls tas-sottotitli
+
+; Twissijiet tal-output tal-vidjo
+VOWarningX11=Twissija: x11 ma jsupportjax aggustamenti tal-vidjo (brightness, kuntrast, ecc.)
+VOWarningWayland=Twissija: Jehtieg sessjoni Wayland. Aggustamenti tal-vidjo supportjati.
+
+; Tab tal-Cache
+CacheSettings=Daqsijiet tal-Cache Buffer (KB)
+CacheDefault=Cache default:
+CacheLocal=Fajls lokali:
+CacheNetwork=Fajls tan-network:
+CacheInternet=Streams tal-internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Dwar
+Version=Verzjoni
+Engine=Engine
+Technology=Teknologija
+BuildInfo=Informazzjoni tal-Build
+SystemInfo=Sistema
+Credits=Credits
+Developer=Zviluppatur:
+Author=Awtur
+License=Licenzja
+Website=Websajt
+GitHub=GitHub
+Description=Lettatur tal-medja modern u hafif
+LicenseText=3nity Media huwa licenzjat taht GPL-2.0\n\nDan ifisser li int hieles biex:\n  - Tuza s-software ghal kwalunkwe skop\n  - Tistudja u timmodifika s-source code\n  - Tqassam kopji tas-software\n  - Tqassam il-modifiki tieghek\n\nTaht il-kundizzjoni li kwalunkwe modifiki mqassma\njkunu wkoll licenzjati taht GPL-2.0.
+BuildDate=Data:
+Target=Target:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Shortcuts tat-Tastiera
+Description=Ikkonfigura shortcuts tat-tastiera ghall-azzjonijiet
+Search=Fittex:
+PressKey=Aghfas key...
+ColCategory=Kategorija
+ColAction=Azzjoni
+ColShortcut=Shortcut
+Assign=Assenja
+Clear=Hassar
+Reset=Irrisettja
+ResetAll=Irrisettja Kollha
+CurrentShortcut=Attwali: %s
+NoKeyPressed=Jekk joghgbok aghfas kombinazzjoni ta' keys l-ewwel.
+Conflict=Kunflitt: Diga assenjat lil "%s"
+ConfirmReplace=Ibdel Shortcut
+ReplaceMessage=Dan is-shortcut diga assenjat lil "%s". Trid tibdlu?
+ConfirmResetAll=Irrisettja s-Shortcuts Kollha
+ResetAllMessage=Cert li trid tirrisettja s-shortcuts kollha ghad-defaults taghhom?
+; Ismijiet tal-azzjonijiet
+ActPlayPause=Iddoqq / Pawsa
+ActStop=Waqqaf
+ActPrevious=Ta' Qabel
+ActNext=Li Jmiss
+ActSeekForward=Fittex 'l Quddiem (10s)
+ActSeekBackward=Fittex Lura (10s)
+ActSeekForward5=Fittex 'l Quddiem (1 min)
+ActSeekBackward5=Fittex Lura (1 min)
+ActSpeedUp=Zid Velocita
+ActSpeedDown=Naqqas Velocita
+ActSpeedReset=Irrisettja Velocita
+ActSetLoopA=Issettja Punt A tal-Loop
+ActSetLoopB=Issettja Punt B tal-Loop
+ActClearLoop=Hassar Loop A-B
+ActFrameForward=Frame 'l Quddiem
+ActFrameBackward=Frame Lura
+ActPrevChapter=Kapitlu ta' Qabel
+ActNextChapter=Kapitlu li Jmiss
+ActGotoTime=Mur ghal-Hin
+ActVolumeUp=Volum 'l Fuq
+ActVolumeDown=Volum 'l Isfel
+ActMute=Mute / Unmute
+ActAudioDelayPlus=Dewmien tal-Awdjo +
+ActAudioDelayMinus=Dewmien tal-Awdjo -
+ActAudioDelayReset=Irrisettja Dewmien tal-Awdjo
+ActFullscreen=Skrin Shih
+ActRotate=Dawwar Vidjo
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom 'l Gewwa
+ActZoomOut=Zoom 'l Barra
+ActZoomReset=Irrisettja Zoom
+ActAlwaysOnTop=Dejjem Fuq
+ActFitToVideo=Applika ghall-Vidjo
+ActScreenshot=Screenshot
+ActVideoAdjust=Aggustamenti tal-Vidjo
+ActVisNextMode=Modalita li Tmiss tal-Vizwalizzazzjoni
+ActVisNextColor=Skema tal-Kulur li Tmiss
+ActSubDelayPlus=Dewmien tas-Sottotitli +
+ActSubDelayMinus=Dewmien tas-Sottotitli -
+ActSubDelayReset=Irrisettja Dewmien tas-Sottotitli
+ActDVDMenu=Menu DVD
+ActDVDUp=Navigazzjoni DVD 'l Fuq
+ActDVDDown=Navigazzjoni DVD 'l Isfel
+ActDVDLeft=Navigazzjoni DVD Xellug
+ActDVDRight=Navigazzjoni DVD Lemin
+ActDVDSelect=Aghzel DVD
+ActOpenFile=Iftah Fajl
+ActOpenURL=Iftah URL
+ActPlaylist=Uri Lista tad-daqq
+ActQuit=Ohrog
+
+[Log]
+; Fazi 25: Tieqa tal-Log
+Title=Log MPV
+Command=Kmand:
+Clear=Hassar
+Save=Issejvja...
+Copy=I&kkopja
+SelectAll=Aghzel &Kollha
+SaveTitle=Issejvja Log
+SaveFilter=Fajls tat-test (*.txt)|*.txt|Fajls kollha (*.*)|*.*
+ErrorTitle=Zball
+SaveError=Ma rnexxiex issejvja log: %s
+
+[MediaInfo]
+Title=Informazzjoni tal-Medja
+FileTab=Fajl
+VideoTab=Vidjo
+AudioTab=Awdjo
+MetadataTab=Metadata
+FileName=Isem tal-Fajl:
+FilePath=Path:
+FileSize=Daqs:
+Duration=Tul:
+Format=Format:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Rizoluzzjoni:
+FrameRate=Frame Rate:
+PixelFormat=Format tal-Pixel:
+AspectRatio=Aspect Ratio:
+Channels=Kanali:
+SampleRate=Sample Rate:
+Language=Lingwa:
+Property=Proprjetà
+Value=Valur
+CopyAll=Ikkopja Kollha
+CopiedToClipboard=Informazzjoni tal-medja kkopjata fil-clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Mhux maghruf
+NoMetadata=(L-ebda metadata)
+
+[Bookmarks]
+Title=Bookmarks
+Goto=Mur ghal
+Remove=Nehhi
+Clear=Hassar Kollha
+Refresh=Agghorna
+OpenFolder=Iftah Folder
+CopyPath=Ikkopja Path
+; Kolonni
+ColName=Isem
+ColFile=Fajl
+ColPosition=Pozizzjoni
+ColCreated=Mahlug
+; Djaloogi
+ClearTitle=Hassar Bookmarks
+ClearConfirm=Cert li trid thassar il-bookmarks kollha?
+Count=%d bookmark(s)
+
+[Favorites]
+Title=Favoriti
+Play=Iddoqq
+Remove=Nehhi
+Clear=Hassar Kollha
+Refresh=Agghorna
+OpenFolder=Iftah Folder
+CopyPath=Ikkopja Path
+; Kolonni
+ColName=Isem
+ColType=Tip
+ColPath=Path
+; Tipi
+TypeFile=Fajl
+TypeURL=URL
+TypeRadio=Radju
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Mhux maghruf
+; Djaloogi
+ClearTitle=Hassar Favoriti
+ClearConfirm=Cert li trid thassar il-favoriti kollha?
+Count=%d favorit(i)
+
+[History]
+Title=Storja tal-Playback
+Play=Iddoqq
+Remove=Nehhi
+Clear=Hassar Kollha
+Refresh=Agghorna
+OpenFolder=Iftah Folder
+CopyPath=Ikkopja Path
+; Kolonni
+ColFileName=Fajl
+ColPath=Path
+; Djaloogi
+ClearTitle=Hassar Storja
+ClearConfirm=Cert li trid thassar l-istorja kollha?
+Count=%d item(s)
+
+[SleepTimer]
+Title=Sleep Timer
+Description=Issettja timer biex tawtomatikament twaqqaf playback
+Hours=Sighat:
+Minutes=Minuti:
+Action=Meta jiskadi t-timer:
+StopPlayback=Waqqaf playback
+CloseApp=Aghlaq applikazzjoni
+Shutdown=Itfi kompjuter
+QuickSet=Quick set:
+15Min=15 min
+30Min=30 min
+1Hour=siegha
+2Hours=2 sighat
+
+[Radios]
+Title=Radjijiet tal-Internet
+Play=Iddoqq
+Add=Zid
+Edit=Editja
+Delete=Hassar
+Remove=Nehhi
+Import=Importa
+Export=Esporta
+Refresh=Agghorna
+Favorite=Favorit
+ShowFavorites=Favoriti
+ShowAll=Kollha
+; Filtru
+Genre=Generu:
+Search=Fittex:
+SearchBtn=Fittex
+ClearSearch=Hassar
+AllGenres=(Generi Kollha)
+; Menu tal-kuntest
+AddFavorite=Zid mal-Favoriti
+RemoveFavorite=Nehhi mill-Favoriti
+AddCustom=Zid Stazzjon Personalizzat...
+EditCustom=Editja Stazzjon...
+DeleteCustom=Hassar Stazzjon
+OpenWebsite=Iftah Websajt
+CopyURL=Ikkopja URL
+; Kolonni
+ColName=Isem
+ColGenre=Generu
+ColBitrate=Bitrate
+ColCountry=Pajjiz
+ColCodec=Codec
+; Djaloogi
+AddTitle=Zid Stazzjon Personalizzat
+EditTitle=Editja Stazzjon
+DeleteTitle=Hassar Stazzjon
+DeleteConfirm=Cert li trid thassar dan l-istazzjon?
+StationName=Isem tal-Istazzjon:
+StreamURL=URL tal-Stream:
+GenrePrompt=Generu:
+NameURLRequired=Isem u URL huma mehtieqa.
+; Messaggi tal-istatus
+LoadingIcecast=Qed jitghabbew stazzjonijiet mid-direttorju Icecast...
+IcecastError=Ma setax jitghabba d-direttorju Icecast. Qed jintuzaw stazzjonijiet default.
+NoStationsLoaded=L-ebda stazzjonijiet loaded
+StationCount=%d stazzjon
+LoadedStations=%d stazzjon loaded
+ErrorPrefix=Zball:
+; Keys legacy
+Name=Isem
+URL=URL
+Bitrate=Bitrate
+Description=Deskrizzjoni
+Country=Pajjiz
+
+[OpenURL]
+Title=Iftah URL
+Prompt=Dahhal URL tal-medja:
+
+[GotoTime]
+Title=Mur ghal-Hin
+EnterTime=Dahhal hin fejn tmur:
+Hours=S
+Minutes=M
+Seconds=S
+Current=Attwali:
+Duration=Tul:
+
+[VideoAdjust]
+Title=Aggustamenti tal-Vidjo
+Brightness=Brightness:
+Contrast=Kuntrast:
+Saturation=Saturazzjoni:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Irrisettja l-Kuluri Kollha
+
+[CLI]
+; Messaġġi tal-linja tal-kmand
+Usage=Użu
+Arguments=[GĦAŻLIET] [FAJL|URL|FOLDER]
+Description=Plejer multimedia cross-platform li juża libmpv bħala backend.
+Options=GĦAŻLIET
+Examples=EŻEMPJI
+MoreInfo=Għal aktar informazzjoni, żur
+EnqueuedTo=Miżjud mal-kju tal-istanza eżistenti: %s
+SentTo=Mibgħut lill-istanza eżistenti: %s
+AlreadyRunning=3nity Media diġà qed taħdem.
+ErrorFileNotFound=Żball: Fajl jew direttorju ma nstabx: %s
+ErrorSubNotFound=Żball: Fajl tas-sottotitli ma nstabx: %s

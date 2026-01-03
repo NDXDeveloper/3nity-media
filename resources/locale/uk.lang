@@ -1,0 +1,892 @@
+[Language]
+Name=Ukrainian - Українська
+Code=uk
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Меню Файл
+File=&Файл
+FileOpen=&Відкрити файл...
+FileOpenURL=Відкрити &URL...
+FileOpenClipboard=Відкрити з &буфера обміну
+FileRecent=&Нещодавні файли
+ClearRecentFiles=Очистити нещодавні файли
+FileExit=&Вихід
+
+; Меню Відтворення
+Playback=&Відтворення
+PlaybackPlayPause=&Відтворити/Пауза
+PlaybackStop=&Зупинити
+PlaybackPrevious=&Попередній
+PlaybackNext=&Наступний
+PlaybackSeekForward=Перемотати в&перед
+PlaybackSeekBackward=Перемотати на&зад
+PlaybackSpeed=&Швидкість
+PlaybackABLoop=Петля A-&B
+PlaybackSetA=Встановити &A
+PlaybackSetB=Встановити &B
+PlaybackClearAB=&Скинути A-B
+PlaybackChapters=&Розділи
+PlaybackPrevChapter=Попередній розділ
+PlaybackNextChapter=Наступний розділ
+PlaybackFrameStep=Крок &кадру вперед
+PlaybackFrameBack=Крок &кадру назад
+
+; Навігація DVD
+PlaybackDVD=&Навігація DVD
+DVDMenu=&Меню
+DVDUp=В&гору
+DVDDown=В&низ
+DVDLeft=В&ліво
+DVDRight=В&право
+DVDSelect=&Вибрати
+PlaybackDVDTitles=&Заголовки DVD
+
+; Фаза 21: Відкрити папку
+FileOpenFolder=Відкрити &папку...
+
+; Меню Файл DVD/Blu-ray
+FileOpenDVD=Відкрити &DVD...
+FileOpenBluray=Відкрити &Blu-ray...
+
+; Фаза 13: Перейти до часу та Історія
+PlaybackGotoTime=&Перейти до часу...
+ToolsHistory=&Історія
+
+; Фаза 14: Системний трей
+TrayShow=&Показати/Сховати
+TrayPlayPause=&Відтворити/Пауза
+TrayStop=&Зупинити
+TrayPrevious=&Попередній
+TrayNext=&Наступний
+TrayMute=&Без звуку
+TrayExit=&Вихід
+
+; Фаза 15: Закладки
+PlaybackAddBookmark=Додати &закладку...
+PlaybackBookmarks=Закла&дки
+BookmarksTitle=Закладки
+BookmarksGoto=&Перейти до закладки
+BookmarksRemove=&Видалити закладку
+BookmarksClear=&Очистити всі закладки
+BookmarksOpenFolder=Відкрити &папку
+BookmarksCopyPath=&Копіювати шлях
+BookmarksCount=%d закладок
+NoBookmarks=(Немає закладок)
+NoFileLoaded=(Файл не завантажено)
+BookmarkAdded=Закладку додано в %s
+BookmarkJumped=Перехід до закладки в %s
+AddBookmarkTitle=Додати закладку
+AddBookmarkPrompt=Введіть назву закладки:
+ShowAllBookmarks=Показати всі закладки...
+
+; Фаза 16: Обране
+ToolsFavorites=&Обране
+ToolsAddFavorite=Додати до &обраного
+FavoritesTitle=Обране
+FavoritesPlay=&Відтворити
+FavoritesRemove=&Видалити з обраного
+FavoritesClear=&Очистити все обране
+FavoritesOpenFolder=Відкрити &папку
+FavoritesCopyPath=&Копіювати шлях
+FavoritesCount=%d обраних
+NoFavorites=(Немає обраного)
+AddFavoriteTitle=Додати до обраного
+AddFavoritePrompt=Введіть назву для обраного:
+AlreadyFavorite=Вже в обраному
+AddedToFavorites=Додано до обраного: %s
+NoFileToFavorite=Немає завантаженого файлу для додавання до обраного
+FavoriteTypeFile=Файл
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Радіо
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Форматування доріжок
+TrackWithTitle=Доріжка %d: %s
+TrackWithLang=Доріжка %d (%s)
+TrackNumber=Доріжка %d
+
+; Пункти меню швидкості
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Пункти меню масштабу
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Доріжка субтитрів
+SubtitleDisable=Вимкнути
+
+; Фаза 17: Таймер сну
+ToolsSleepTimer=&Таймер сну...
+ToolsSleepTimerActive=&Таймер сну [%s]
+ToolsCancelTimer=Скасувати &таймер
+
+; Меню Аудіо
+Audio=&Аудіо
+AudioTrack=Аудіо&доріжка
+AudioVolumeUp=&Збільшити гучність
+AudioVolumeDown=&Зменшити гучність
+AudioMute=&Без звуку
+AudioEqualizer=&Еквалайзер
+AudioDelay=&Затримка аудіо
+AudioDelayPlus=Затримка +0.1с
+AudioDelayMinus=Затримка -0.1с
+AudioDelayReset=Скинути затримку
+AudioNormalize=&Нормалізувати гучність
+
+; Меню Відео
+Video=&Відео
+VideoFullscreen=&Повний екран
+VideoAspect=&Співвідношення сторін
+VideoAspectAuto=&Авто
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Знімок екрану
+VideoScreenshotAs=Знімок екрану &як...
+VideoRotation=&Поворот
+VideoRotate0=&0° (Нормально)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Відображення
+VideoFlipH=Відображення по &горизонталі
+VideoFlipV=Відображення по &вертикалі
+VideoDeinterlace=&Деінтерлейсинг
+VideoZoom=&Масштаб
+VideoZoomIn=З&більшити
+VideoZoomOut=З&меншити
+VideoZoomReset=&Скинути масштаб
+VideoPan=&Панорамування
+VideoPanLeft=Панорама в&ліво
+VideoPanRight=Панорама в&право
+VideoPanUp=Панорама в&гору
+VideoPanDown=Панорама в&низ
+VideoPanReset=С&кинути панораму
+VideoTrack=Відео&доріжка
+VideoColors=&Налаштування кольору
+VideoBrightness=&Яскравість
+VideoContrast=&Контраст
+VideoSaturation=&Насиченість
+VideoHue=&Відтінок
+VideoGamma=&Гамма
+VideoColorsReset=Скинути &всі кольори
+VideoIncrease=Збільшити (+5)
+VideoDecrease=Зменшити (-5)
+VideoReset=Скинути
+VideoAdjustDialog=&Налаштування відео...
+
+; Меню Вигляд
+View=&Вигляд
+ViewAlwaysOnTop=&Завжди зверху
+ViewFitToVideo=&Підігнати вікно під відео
+ViewScale=&Масштаб вікна
+
+; Фаза 26: Меню візуалізації
+ViewVisualization=&Візуалізація
+VisNone=&Немає
+VisSpectrum=&Аналізатор спектру
+VisWaveform=&Осцилограма
+VisVector=&Векторскоп
+VisVolume=V&U-метр
+VisNextMode=Наступний &режим
+VisNextColor=Наступна &кольорова схема
+
+; Меню Субтитри
+Subtitles=&Субтитри
+SubtitleTrack=&Доріжка субтитрів
+SubtitleLoad=&Завантажити субтитри...
+SubtitleDelay=&Затримка субтитрів
+SubtitleDelayPlus=Затримка +0.1с
+SubtitleDelayMinus=Затримка -0.1с
+SubtitleDelayReset=Скинути затримку
+
+; Меню Інструменти
+Tools=&Інструменти
+ToolsPlaylist=&Плейлист
+ToolsRadios=&Радіо
+ToolsShortcuts=&Гарячі клавіші...
+ToolsOptions=&Налаштування
+
+; Фаза 27: Меню запису
+ToolsRecord=&Запис потоку...
+ToolsStopRecord=&Зупинити запис
+ToolsRecording=&Запис...
+
+; Меню Довідка
+Help=&Довідка
+HelpMediaInfo=&Інформація про медіа
+HelpLog=&Вікно журналу
+HelpAbout=&Про програму
+
+[Dialog]
+OpenFile=Відкрити файл
+OpenURL=Відкрити URL
+SaveScreenshot=Зберегти знімок екрану
+LoadSubtitle=Завантажити файл субтитрів
+EnterURL=Введіть URL:
+ResumePlayback=Відновити відтворення
+ResumeFrom=Відновити з %s?
+ClearRecentFiles=Очистити нещодавні файли
+NoRecentFiles=(Немає нещодавніх файлів)
+NoAudioTracks=(Немає аудіодоріжок)
+NoVideoTracks=(Немає відеодоріжок)
+NoSubtitleTracks=(Немає доріжок субтитрів)
+NoChapters=(Немає розділів)
+OpenDVD=Відкрити DVD
+OpenBluray=Відкрити Blu-ray
+OpenFolder=Відкрити папку
+
+; Фільтри файлів
+ScreenshotFilter=Зображення PNG|*.png|Зображення JPEG|*.jpg|Зображення WebP|*.webp
+DVDFilter=Папка DVD|*.;*.iso|Усі файли (*.*)|*.*
+BlurayFilter=Папка Blu-ray|*.;*.iso|Усі файли (*.*)|*.*
+NoDVD=(DVD не завантажено)
+DVDTitle=Заголовок %d
+GotoTime=Перейти до часу
+EnterTime=Введіть час для переходу:
+Hours=Години
+Minutes=Хвилини
+Seconds=Секунди
+Current=Поточний:
+HistoryTitle=Історія відтворення
+HistoryItems=%d елементів в історії
+HistoryPlay=&Відтворити
+HistoryRemove=&Видалити з історії
+HistoryClear=&Очистити всю історію
+HistoryOpenFolder=Відкрити &папку
+HistoryCopyPath=&Копіювати шлях
+ClearHistory=Очистити історію
+ClearHistoryConfirm=Ви впевнені, що хочете очистити всю історію?
+SleepTimerTitle=Таймер сну
+SleepTimerDescription=Встановити таймер для автоматичної зупинки відтворення
+SleepTimerHours=Години
+SleepTimerMinutes=Хвилини
+SleepTimerQuickSet=Швидке встановлення
+SleepTimerAction=Після закінчення таймера
+SleepTimerStopPlayback=Зупинити відтворення
+SleepTimerCloseApp=Закрити програму
+SleepTimerShutdown=Вимкнути комп'ютер
+SleepTimerStart=Запустити таймер
+
+[Status]
+Ready=Готово
+Opening=Відкриття...
+Playing=Відтворення
+Paused=Пауза
+Stopped=Зупинено
+Error=Помилка
+Buffering=Буферизація...
+Seeking=Перемотування...
+Recording=Запис
+
+[Message]
+SpeedFormat=Швидкість: %.2fx
+VolumeFormat=Гучність: %d%%
+BrightnessFormat=Яскравість: %d
+ContrastFormat=Контраст: %d
+SaturationFormat=Насиченість: %d
+HueFormat=Відтінок: %d
+GammaFormat=Гамма: %d
+ColorsReset=Кольори відео скинуто
+LoopASet=Точка A встановлена в %s
+LoopBSet=Точка B встановлена в %s - Петля активна
+LoopCleared=Петля A-B очищена
+SetAFirst=Спочатку встановіть точку A (натисніть L)
+RotationFormat=Поворот: %d°
+FlipHOn=Горизонтальне відображення: УВІМК
+FlipHOff=Горизонтальне відображення: ВИМК
+FlipVOn=Вертикальне відображення: УВІМК
+FlipVOff=Вертикальне відображення: ВИМК
+DeinterlaceOn=Деінтерлейсинг: УВІМК
+DeinterlaceOff=Деінтерлейсинг: ВИМК
+AlwaysOnTopOn=Завжди зверху: УВІМК
+AlwaysOnTopOff=Завжди зверху: ВИМК
+WindowFitted=Вікно підігнано під %dx%d
+WindowScale=Масштаб вікна: %.0f%%
+ScreenshotSaved=Знімок екрану збережено: %s
+AudioNormalizeOn=Нормалізація аудіо: УВІМК
+AudioNormalizeOff=Нормалізація аудіо: ВИМК
+AudioDelayFormat=Затримка аудіо: %.1f с
+SubtitleDelayFormat=Затримка субтитрів: %.1f с
+ZoomFormat=Масштаб: %.0f%%
+PanCenter=Панорама: Центр
+PanFormat=Панорама: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Відео не завантажено
+PlayingFromClipboard=Відтворення з буфера обміну: %s
+ClipboardInvalid=Буфер обміну не містить допустимого URL або шляху
+ClipboardEmpty=Буфер обміну порожній або не містить тексту
+ResumedAt=Відновлено з %s
+FrameStepForward=Крок кадру вперед
+FrameStepBackward=Крок кадру назад
+PreviousChapter=Попередній розділ
+NextChapter=Наступний розділ
+PlayingRadio=Відтворення радіо: %s
+PlayingDVD=Відтворення DVD: %s
+PlayingBluray=Відтворення Blu-ray: %s
+DVDTitlePlaying=Заголовок DVD %d
+SeekTo=Перехід до %s
+MinimizedToTray=Згорнуто в трей. Двічі клацніть для відновлення.
+SleepTimerSet=Таймер сну встановлено: %s
+SleepTimerCancelled=Таймер сну скасовано
+SleepTimerWarning=Таймер сну: залишилася 1 хвилина
+SleepTimerFinal=Таймер сну: залишилося 10 секунд
+SleepTimerStopped=Таймер сну: Відтворення зупинено
+SleepTimerClosing=Таймер сну: Закриття програми
+SleepTimerShutdown=Таймер сну: Вимкнення комп'ютера
+SleepTimerExpired=Таймер сну закінчився
+ShutdownManual=Будь ласка, вимкніть комп'ютер вручну.
+
+; Фаза 21: Відкрити папку
+FolderOpened=Папку відкрито: %d файлів
+NoMediaFound=Медіафайли не знайдено
+FilesAdded=%d файлів додано до плейлиста
+
+; Фаза 27: Повідомлення запису
+RecordNeedPlayback=Почніть відтворення перед записом.
+RecordingStarted=Запис почато
+RecordingStopped=Запис зупинено
+
+; Додаткові повідомлення статусу
+EndOfPlaylist=Кінець плейлиста
+NoMediaLoaded=Медіафайл не завантажено.
+JumpedToNamed=Перехід до: %s
+ChapterFormat=Розділ %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Закладка в %s
+
+[Label]
+Muted=Без звуку
+
+[Button]
+Play=Відтворити
+Pause=Пауза
+Stop=Зупинити
+Previous=Попередній
+Next=Наступний
+Mute=Без звуку
+Unmute=Увімкнути звук
+Fullscreen=Повний екран
+OK=OK
+Cancel=Скасувати
+Apply=Застосувати
+Close=Закрити
+Yes=Так
+No=Ні
+
+[Tooltip]
+Play=Відтворити/Пауза
+Stop=Зупинити відтворення
+Previous=Попередній трек
+Next=Наступний трек
+Mute=Увімк/Вимк звук
+Volume=Гучність
+Seek=Позиція перемотування
+Fullscreen=Увімк/Вимк повний екран
+
+[Playlist]
+Title=Плейлист
+Add=Додати
+Remove=Видалити
+Clear=Очистити
+MoveUp=Вгору
+MoveDown=Вниз
+Shuffle=Випадково
+Repeat=Повтор
+Play=Відтворити
+ShuffleOn=Випадково: Увімк
+ShuffleOff=Випадково: Вимк
+RepeatOff=Повтор: Вимк
+RepeatOne=Повтор: Один
+RepeatAll=Повтор: Усі
+SavePlaylist=Зберегти
+LoadPlaylist=Завантажити
+TotalDuration=Всього: %s
+ItemCount=%d елементів
+
+; Фаза 22: Покращення плейлиста
+Search=Пошук:
+FilterPlaceholder=Фільтр плейлиста...
+ClearSearch=Очистити
+FilterCount=%d/%d
+RemoveDuplicates=Видалити &дублікати
+Properties=&Властивості...
+NoDuplicates=Дублікати не знайдено.
+DuplicatesFound=Знайдено %d дублікат(ів). Видалити?
+RemoveDuplicatesTitle=Видалити дублікати
+PropertiesTitle=Властивості плейлиста
+PropTotalItems=Всього елементів: %d
+PropTotalDuration=Загальна тривалість: %s
+PropPlayed=Відтворено: %d
+PropUnplayed=Не відтворено: %d
+PropTotalSize=Загальний розмір: %.2f МБ
+PropShuffle=Випадково: %s
+PropRepeat=Повтор: %s
+On=Увімк
+Off=Вимк
+
+; Нові ключі для ApplyLocale
+ClearTitle=Очистити плейлист
+ClearConfirm=Ви впевнені, що хочете очистити плейлист?
+NoPlaylist=Немає плейлиста
+StatusFormat=%d елементів | Всього: %s
+RepeatOne=Повт. 1
+RepeatAll=Повт. усі
+HintRepeatEnable=Натисніть для увімкнення повтору всіх
+HintRepeatOne=Повтор одного - Натисніть для вимкнення
+HintRepeatAll=Повтор усіх - Натисніть для повтору одного
+HintShuffleRepeat=Випадково + Повтор усіх - Натисніть для вимкнення повтору
+RemoveDuplicatesTitle=Видалити дублікати
+NoDuplicates=Дублікати не знайдено.
+SelectAll=Вибрати все
+SelectNone=Зняти вибір
+SelectInvert=Інвертувати вибір
+Sort=Сортування
+SortByName=За ім'ям
+SortByTitle=За назвою
+SortByArtist=За виконавцем
+SortByDuration=За тривалістю
+SortReverse=Зворотньо
+SortRandom=Випадково
+ColTitle=Назва
+ColDuration=Тривалість
+ColArtist=Виконавець
+ColAlbum=Альбом
+PlaylistFilter=Плейлист M3U|*.m3u|Плейлист M3U8|*.m3u8|Плейлист PLS|*.pls
+
+[Equalizer]
+Title=Еквалайзер
+Presets=Пресети:
+Preamp=Передпідсилення:
+Flat=Плоский
+Rock=Рок
+Pop=Поп
+Jazz=Джаз
+Classical=Класика
+BassBoost=Підсилення басу
+TrebleBoost=Підсилення високих
+Vocal=Вокал
+Reset=Скинути
+Enable=Увімкнути еквалайзер
+Save=Зберегти
+Delete=Видалити
+Ready=Готово
+; Кнопки та дії
+SavePreset=Зберегти пресет
+DeletePreset=Видалити пресет
+SavePresetTitle=Зберегти пресет
+PresetNamePrompt=Назва пресета:
+EnterPresetName=Будь ласка, введіть назву пресета.
+OverwritePresetTitle=Перезаписати пресет
+OverwritePresetConfirm=Пресет з такою назвою вже існує. Перезаписати?
+PresetUpdated=Пресет оновлено: %s
+PresetSaved=Пресет збережено: %s
+SelectPresetToDelete=Будь ласка, виберіть пресет для видалення.
+CannotDeleteDefault=Неможливо видалити стандартні пресети.
+DeletePresetTitle=Видалити пресет
+DeletePresetConfirm=Ви впевнені, що хочете видалити цей пресет?
+PresetDeleted=Пресет видалено
+ResetToFlat=Еквалайзер скинуто на плоский
+PresetApplied=Застосовано пресет: %s
+
+[Options]
+Title=Налаштування
+General=Загальні
+Video=Відео
+Audio=Аудіо
+Subtitles=Субтитри
+Cache=Кеш
+Language=Мова:
+RestartRequired=Потрібен перезапуск для застосування змін
+
+; Вкладка Загальні - Поведінка
+Behavior=Поведінка
+SingleInstance=Дозволити лише один екземпляр
+AutoPlay=Автовідтворення при відкритті
+AutoResume=Відновлювати позицію відтворення
+MinimizeToTray=Згортати в системний трей
+AutoSavePlaylist=Зберігати плейлист при виході
+
+; Вкладка Загальні - OSD
+OSD=Екранні повідомлення
+ShowOSD=Показувати екранні повідомлення
+ShowTrayIcon=Показувати значок у треї
+OSDDuration=Тривалість OSD (мс):
+
+; Вкладка Загальні - Знімки екрану
+Screenshots=Знімки екрану
+ScreenshotPath=Папка збереження:
+ScreenshotFormat=Формат:
+
+; Вкладка Загальні - Історія
+HistorySettings=Історія
+HistoryEnabled=Увімкнути історію відтворення
+HistoryMaxItems=Макс. елементів:
+
+; Вкладка Загальні - Мова
+LanguageGroup=Мова
+RestartNote=(Потрібен перезапуск для змін)
+
+; Вкладка Відео
+VideoAdjust=Налаштування відео
+Brightness=Яскравість:
+Contrast=Контраст:
+Saturation=Насиченість:
+Hue=Відтінок:
+Gamma=Гамма:
+VideoOutput=Вивід відео
+Output=Вивід:
+HWAccel=Увімкнути апаратне прискорення
+Deinterlacing=Деінтерлейсинг
+Mode=Режим:
+
+; Вкладка Аудіо
+AudioOutput=Вивід аудіо
+OutputDriver=Драйвер виводу:
+Device=Пристрій:
+AudioOptions=Налаштування аудіо
+NormalizeAudio=Нормалізувати гучність аудіо
+Channels=Канали:
+
+; Вкладка Субтитри
+UseDefaultSubtitles=Використовувати налаштування субтитрів за замовчуванням
+Font=Шрифт
+FontName=Шрифт:
+FontSize=Розмір:
+FontColor=Колір:
+Bold=Жирний
+Italic=Курсив
+Outline=Контур
+OutlineColor=Колір:
+OutlineSize=Розмір:
+Position=Позиція
+VerticalPosition=Вертикальна позиція:
+SubOptions=Параметри
+Encoding=Кодування:
+AutoLoadSubs=Автозавантаження файлів субтитрів
+
+; Попередження виводу відео
+VOWarningX11=Увага: x11 не підтримує налаштування відео (яскравість, контраст тощо)
+VOWarningWayland=Увага: Потрібна сесія Wayland. Налаштування відео підтримуються.
+
+; Вкладка Кеш
+CacheSettings=Розміри буфера кешу (КБ)
+CacheDefault=Кеш за замовчуванням:
+CacheLocal=Локальні файли:
+CacheNetwork=Мережеві файли:
+CacheInternet=Інтернет-потоки:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Про програму
+Version=Версія
+Engine=Рушій
+Technology=Технологія
+BuildInfo=Інформація про збірку
+SystemInfo=Система
+Credits=Автори
+Developer=Розробник:
+Author=Автор
+License=Ліцензія
+Website=Веб-сайт
+GitHub=GitHub
+Description=Сучасний легкий медіаплеєр
+LicenseText=3nity Media ліцензовано під GPL-2.0\n\nЦе означає, що ви можете:\n  • Використовувати програму для будь-яких цілей\n  • Вивчати та модифікувати вихідний код\n  • Розповсюджувати копії програми\n  • Розповсюджувати ваші модифікації\n\nЗа умови, що розповсюджувані модифікації\nтакож ліцензовані під GPL-2.0.
+BuildDate=Дата:
+Target=Ціль:
+Kernel=Ядро:
+
+[Shortcuts]
+Title=Гарячі клавіші
+Description=Налаштування гарячих клавіш для дій
+Search=Пошук:
+PressKey=Натисніть клавішу...
+ColCategory=Категорія
+ColAction=Дія
+ColShortcut=Гаряча клавіша
+Assign=Призначити
+Clear=Очистити
+Reset=Скинути
+ResetAll=Скинути все
+CurrentShortcut=Поточна: %s
+NoKeyPressed=Спочатку натисніть комбінацію клавіш.
+Conflict=Конфлікт: Вже призначено для "%s"
+ConfirmReplace=Замінити гарячу клавішу
+ReplaceMessage=Ця гаряча клавіша вже призначена для "%s". Хочете замінити?
+ConfirmResetAll=Скинути всі гарячі клавіші
+ResetAllMessage=Ви впевнені, що хочете скинути всі гарячі клавіші до значень за замовчуванням?
+; Назви дій
+ActPlayPause=Відтворити / Пауза
+ActStop=Зупинити
+ActPrevious=Попередній
+ActNext=Наступний
+ActSeekForward=Перемотати вперед (10с)
+ActSeekBackward=Перемотати назад (10с)
+ActSeekForward5=Перемотати вперед (1 хв)
+ActSeekBackward5=Перемотати назад (1 хв)
+ActSpeedUp=Збільшити швидкість
+ActSpeedDown=Зменшити швидкість
+ActSpeedReset=Скинути швидкість
+ActSetLoopA=Встановити точку петлі A
+ActSetLoopB=Встановити точку петлі B
+ActClearLoop=Очистити петлю A-B
+ActFrameForward=Кадр вперед
+ActFrameBackward=Кадр назад
+ActPrevChapter=Попередній розділ
+ActNextChapter=Наступний розділ
+ActGotoTime=Перейти до часу
+ActVolumeUp=Збільшити гучність
+ActVolumeDown=Зменшити гучність
+ActMute=Увімк/Вимк звук
+ActAudioDelayPlus=Затримка аудіо +
+ActAudioDelayMinus=Затримка аудіо -
+ActAudioDelayReset=Скинути затримку аудіо
+ActFullscreen=Повний екран
+ActRotate=Повернути відео
+ActDeinterlace=Деінтерлейсинг
+ActZoomIn=Збільшити
+ActZoomOut=Зменшити
+ActZoomReset=Скинути масштаб
+ActAlwaysOnTop=Завжди зверху
+ActFitToVideo=Підігнати під відео
+ActScreenshot=Знімок екрану
+ActVideoAdjust=Налаштування відео
+ActVisNextMode=Наступний режим візуалізації
+ActVisNextColor=Наступна кольорова схема
+ActSubDelayPlus=Затримка субтитрів +
+ActSubDelayMinus=Затримка субтитрів -
+ActSubDelayReset=Скинути затримку субтитрів
+ActDVDMenu=Меню DVD
+ActDVDUp=Навігація DVD вгору
+ActDVDDown=Навігація DVD вниз
+ActDVDLeft=Навігація DVD вліво
+ActDVDRight=Навігація DVD вправо
+ActDVDSelect=Вибір DVD
+ActOpenFile=Відкрити файл
+ActOpenURL=Відкрити URL
+ActPlaylist=Показати плейлист
+ActQuit=Вихід
+
+[Log]
+; Фаза 25: Вікно журналу
+Title=Журнал MPV
+Command=Команда:
+Clear=Очистити
+Save=Зберегти...
+Copy=&Копіювати
+SelectAll=Вибрати &все
+SaveTitle=Зберегти журнал
+SaveFilter=Текстові файли (*.txt)|*.txt|Усі файли (*.*)|*.*
+ErrorTitle=Помилка
+SaveError=Не вдалося зберегти журнал: %s
+
+[MediaInfo]
+Title=Інформація про медіа
+FileTab=Файл
+VideoTab=Відео
+AudioTab=Аудіо
+MetadataTab=Метадані
+FileName=Ім'я файлу:
+FilePath=Шлях:
+FileSize=Розмір:
+Duration=Тривалість:
+Format=Формат:
+Bitrate=Бітрейт:
+Codec=Кодек:
+Resolution=Роздільна здатність:
+FrameRate=Частота кадрів:
+PixelFormat=Формат пікселів:
+AspectRatio=Співвідношення сторін:
+Channels=Канали:
+SampleRate=Частота дискретизації:
+Language=Мова:
+Property=Властивість
+Value=Значення
+CopyAll=Копіювати все
+CopiedToClipboard=Інформацію про медіа скопійовано до буфера обміну.
+NA=Н/Д
+NAStream=Н/Д (потік)
+NALive=Н/Д (прямий ефір)
+ChannelMono=1 (Моно)
+ChannelStereo=2 (Стерео)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Невідомо
+NoMetadata=(Немає метаданих)
+
+[Bookmarks]
+Title=Закладки
+Goto=Перейти
+Remove=Видалити
+Clear=Очистити все
+Refresh=Оновити
+OpenFolder=Відкрити папку
+CopyPath=Копіювати шлях
+; Стовпці
+ColName=Назва
+ColFile=Файл
+ColPosition=Позиція
+ColCreated=Створено
+; Діалоги
+ClearTitle=Очистити закладки
+ClearConfirm=Ви впевнені, що хочете очистити всі закладки?
+Count=%d закладок
+
+[Favorites]
+Title=Обране
+Play=Відтворити
+Remove=Видалити
+Clear=Очистити все
+Refresh=Оновити
+OpenFolder=Відкрити папку
+CopyPath=Копіювати шлях
+; Стовпці
+ColName=Назва
+ColType=Тип
+ColPath=Шлях
+; Типи
+TypeFile=Файл
+TypeURL=URL
+TypeRadio=Радіо
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Невідомо
+; Діалоги
+ClearTitle=Очистити обране
+ClearConfirm=Ви впевнені, що хочете очистити все обране?
+Count=%d обраних
+
+[History]
+Title=Історія відтворення
+Play=Відтворити
+Remove=Видалити
+Clear=Очистити все
+Refresh=Оновити
+OpenFolder=Відкрити папку
+CopyPath=Копіювати шлях
+; Стовпці
+ColFileName=Файл
+ColPath=Шлях
+; Діалоги
+ClearTitle=Очистити історію
+ClearConfirm=Ви впевнені, що хочете очистити всю історію?
+Count=%d елементів
+
+[SleepTimer]
+Title=Таймер сну
+Description=Встановити таймер для автоматичної зупинки відтворення
+Hours=Години:
+Minutes=Хвилини:
+Action=Після закінчення таймера:
+StopPlayback=Зупинити відтворення
+CloseApp=Закрити програму
+Shutdown=Вимкнути комп'ютер
+QuickSet=Швидке встановлення:
+15Min=15 хв
+30Min=30 хв
+1Hour=1 год
+2Hours=2 год
+
+[Radios]
+Title=Інтернет-радіо
+Play=Відтворити
+Add=Додати
+Edit=Редагувати
+Delete=Видалити
+Remove=Видалити
+Import=Імпорт
+Export=Експорт
+Refresh=Оновити
+Favorite=Обране
+ShowFavorites=Обране
+ShowAll=Усі
+; Фільтр
+Genre=Жанр:
+Search=Пошук:
+SearchBtn=Пошук
+ClearSearch=Очистити
+AllGenres=(Усі жанри)
+; Контекстне меню
+AddFavorite=Додати до обраного
+RemoveFavorite=Видалити з обраного
+AddCustom=Додати власну станцію...
+EditCustom=Редагувати станцію...
+DeleteCustom=Видалити станцію
+OpenWebsite=Відкрити веб-сайт
+CopyURL=Копіювати URL
+; Стовпці
+ColName=Назва
+ColGenre=Жанр
+ColBitrate=Бітрейт
+ColCountry=Країна
+ColCodec=Кодек
+; Діалоги
+AddTitle=Додати власну станцію
+EditTitle=Редагувати станцію
+DeleteTitle=Видалити станцію
+DeleteConfirm=Ви впевнені, що хочете видалити цю станцію?
+StationName=Назва станції:
+StreamURL=URL потоку:
+GenrePrompt=Жанр:
+NameURLRequired=Потрібні назва та URL.
+; Повідомлення статусу
+LoadingIcecast=Завантаження станцій з каталогу Icecast...
+IcecastError=Не вдалося завантажити каталог Icecast. Використовуються станції за замовчуванням.
+NoStationsLoaded=Станції не завантажено
+StationCount=%d станцій
+LoadedStations=Завантажено %d станцій
+ErrorPrefix=Помилка:
+; Застарілі ключі
+Name=Назва
+URL=URL
+Bitrate=Бітрейт
+Description=Опис
+Country=Країна
+
+[OpenURL]
+Title=Відкрити URL
+Prompt=Введіть URL медіа:
+
+[GotoTime]
+Title=Перейти до часу
+EnterTime=Введіть час для переходу:
+Hours=Г
+Minutes=Х
+Seconds=С
+Current=Поточний:
+Duration=Тривалість:
+
+[VideoAdjust]
+Title=Налаштування відео
+Brightness=Яскравість:
+Contrast=Контраст:
+Saturation=Насиченість:
+Hue=Відтінок:
+Gamma=Гамма:
+ResetAll=Скинути всі кольори
+
+[CLI]
+; Повідомлення командного рядка
+Usage=Використання
+Arguments=[ОПЦІЇ] [ФАЙЛ|URL|ПАПКА]
+Description=Кросплатформний мультимедійний програвач на базі libmpv.
+Options=ОПЦІЇ
+Examples=ПРИКЛАДИ
+MoreInfo=Для отримання додаткової інформації відвідайте
+EnqueuedTo=Додано до черги існуючого екземпляра: %s
+SentTo=Надіслано існуючому екземпляру: %s
+AlreadyRunning=3nity Media вже запущено.
+ErrorFileNotFound=Помилка: Файл або каталог не знайдено: %s
+ErrorSubNotFound=Помилка: Файл субтитрів не знайдено: %s

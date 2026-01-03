@@ -1,0 +1,892 @@
+[Language]
+Name=Quechua - Runasimi
+Code=qu
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Qillqa menu
+File=&Qillqa
+FileOpen=&Kichay Qillqa...
+FileOpenURL=Kichay &URL...
+FileOpenClipboard=Kichay &Clipboardmanta
+FileRecent=&Qhipa Qillqakuna
+ClearRecentFiles=Pichay Qhipa Qillqakuna
+FileExit=&Lluqsiy
+
+; Pukllachiy menu
+Playback=&Pukllachiy
+PlaybackPlayPause=&Pukllachiy/Sayay
+PlaybackStop=&Sayachiy
+PlaybackPrevious=Ña&wpaq
+PlaybackNext=&Qhipa
+PlaybackSeekForward=Maskay &Ñawpaqman
+PlaybackSeekBackward=Maskay &Qhipaman
+PlaybackSpeed=&Usqhay
+PlaybackABLoop=A-&B Muyuq
+PlaybackSetA=Churay &A
+PlaybackSetB=Churay &B
+PlaybackClearAB=&Pichay A-B
+PlaybackChapters=&Umalliqkuna
+PlaybackPrevChapter=Ñawpaq Umalliq
+PlaybackNextChapter=Qhipa Umalliq
+PlaybackFrameStep=Kuadru &Purichiy Ñawpaq
+PlaybackFrameBack=Kuadru &Purichiy Qhipa
+
+; DVD Puririchiy
+PlaybackDVD=DVD &Puririchiy
+DVDMenu=&Menu
+DVDUp=&Hanaq
+DVDDown=&Uray
+DVDLeft=&Lluqi
+DVDRight=&Paña
+DVDSelect=&Akllay
+PlaybackDVDTitles=DVD &Sutikuna
+
+; Fase 21: Kichay Carpeta
+FileOpenFolder=Kichay C&arpeta...
+
+; Qillqa menu DVD/Bluray
+FileOpenDVD=Kichay &DVD...
+FileOpenBluray=Kichay &Blu-ray...
+
+; Fase 13: Riy Pachaman hina Ñawpa Kawsay
+PlaybackGotoTime=&Riy Pachaman...
+ToolsHistory=Ña&wpa Kawsay
+
+; Fase 14: Sistema Bandeja
+TrayShow=&Rikuchiy/Pakay
+TrayPlayPause=&Pukllachiy/Sayay
+TrayStop=&Sayachiy
+TrayPrevious=Ña&wpaq
+TrayNext=&Qhipa
+TrayMute=&Ch'inyachiy
+TrayExit=&Lluqsiy
+
+; Fase 15: Marcadorkuna
+PlaybackAddBookmark=Yapay &Marcador...
+PlaybackBookmarks=&Marcadorkuna
+BookmarksTitle=Marcadorkuna
+BookmarksGoto=&Riy Marcadorman
+BookmarksRemove=&Hurquy Marcador
+BookmarksClear=&Pichay Tukuy Marcadorkuna
+BookmarksOpenFolder=Kichay &Carpeta
+BookmarksCopyPath=&Copiay Ñan
+BookmarksCount=%d marcadorkuna
+NoBookmarks=(Mana marcadorkuna kanchu)
+NoFileLoaded=(Mana qillqa kichasqa kanchu)
+BookmarkAdded=Marcador yapasqa %s
+BookmarkJumped=Phaskarisqa marcadorman %s
+AddBookmarkTitle=Yapay Marcador
+AddBookmarkPrompt=Qillqay marcador sutita:
+ShowAllBookmarks=Rikuchiy Tukuy Marcadorkuna...
+
+; Fase 16: Munasqakuna
+ToolsFavorites=Muna&sqakuna
+ToolsAddFavorite=Yapay Munasqa&kunaman
+FavoritesTitle=Munasqakuna
+FavoritesPlay=&Pukllachiy
+FavoritesRemove=&Hurquy Munasqakunamanta
+FavoritesClear=&Pichay Tukuy Munasqakuna
+FavoritesOpenFolder=Kichay &Carpeta
+FavoritesCopyPath=&Copiay Ñan
+FavoritesCount=%d munasqakuna
+NoFavorites=(Mana munasqakuna kanchu)
+AddFavoriteTitle=Yapay Munasqakunaman
+AddFavoritePrompt=Qillqay munasqapaq sutita:
+AlreadyFavorite=Munasqakunapiña kachkan
+AddedToFavorites=Yapasqa munasqakunaman: %s
+NoFileToFavorite=Mana qillqa kichasqa yapanaykipaq munasqakunaman
+FavoriteTypeFile=Qillqa
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Traka formato qillqakuna
+TrackWithTitle=Traka %d: %s
+TrackWithLang=Traka %d (%s)
+TrackNumber=Traka %d
+
+; Usqhay menu elementokuna
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Escala menu elementokuna
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Uray qillqa traka
+SubtitleDisable=Wañuchiy
+
+; Fase 17: Puñuy Pachanchaq
+ToolsSleepTimer=Puñuy Pachan&chaq...
+ToolsSleepTimerActive=Puñuy Pachan&chaq [%s]
+ToolsCancelTimer=Ama Pachan&chaq
+
+; Uyarina menu
+Audio=&Uyarina
+AudioTrack=Uyarina &Traka
+AudioVolumeUp=Qapay &Hanaq
+AudioVolumeDown=Qapay &Uray
+AudioMute=&Ch'inyachiy
+AudioEqualizer=&Igualador
+AudioDelay=Uyarina &Qhipakuy
+AudioDelayPlus=Qhipakuy +0.1s
+AudioDelayMinus=Qhipakuy -0.1s
+AudioDelayReset=Kutichiy Qhipakuy
+AudioNormalize=&Normalizay Qapay
+
+; Rikuchiy menu
+Video=&Rikuchiy
+VideoFullscreen=Hunt'a &Pantalla
+VideoAspect=&Aspecto Ratio
+VideoAspectAuto=&Kikinmanta
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Pantalla Rikch'a
+VideoScreenshotAs=Pantalla Rikch'a &Hina...
+VideoRotation=&Muyuy
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Tikray
+VideoFlipH=Tikray &Horizontal
+VideoFlipV=Tikray &Vertical
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Ukhu
+VideoZoomOut=Zoom &Hawa
+VideoZoomReset=&Kutichiy Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan &Lluqi
+VideoPanRight=Pan &Paña
+VideoPanUp=Pan &Hanaq
+VideoPanDown=Pan &Uray
+VideoPanReset=K&utichiy Pan
+VideoTrack=Rikuchiy &Traka
+VideoColors=Llimphi &Allichaykuna
+VideoBrightness=&K'anchay
+VideoContrast=&Contraste
+VideoSaturation=&Saturación
+VideoHue=&Llimphi
+VideoGamma=&Gamma
+VideoColorsReset=Kutichiy &Tukuy Llimphikuna
+VideoIncrease=Yapay (+5)
+VideoDecrease=Pisiyachiy (-5)
+VideoReset=Kutichiy
+VideoAdjustDialog=Rikuchiy &Allichaykuna...
+
+; Qhaway menu
+View=&Qhaway
+ViewAlwaysOnTop=&Wiñay Patapi
+ViewFitToVideo=&Allichay Ventana Rikuchiyman
+ViewScale=Ventana &Escala
+
+; Fase 26: Visualización menu
+ViewVisualization=&Visualización
+VisNone=&Mana
+VisSpectrum=&Espectro Analizador
+VisWaveform=&Mayu Forma
+VisVector=&Vector Alcance
+VisVolume=&VU Medidor
+VisNextMode=Qhipa &Modo
+VisNextColor=Qhipa &Llimphi Esquema
+
+; Uray qillqa menu
+Subtitles=Uray &Qillqakuna
+SubtitleTrack=Uray Qillqa &Traka
+SubtitleLoad=&Cargay Uray Qillqa...
+SubtitleDelay=Uray Qillqa &Qhipakuy
+SubtitleDelayPlus=Qhipakuy +0.1s
+SubtitleDelayMinus=Qhipakuy -0.1s
+SubtitleDelayReset=Kutichiy Qhipakuy
+
+; Yanapay menu
+Tools=&Yanapakuykuna
+ToolsPlaylist=&Pukllana Lista
+ToolsRadios=&Radiokuna
+ToolsShortcuts=&Tecla Atajokuna...
+ToolsOptions=&Akllanakuna
+
+; Fase 27: Grabación menu
+ToolsRecord=&Grabay Mayu...
+ToolsStopRecord=Sa&yachiy Grabación
+ToolsRecording=&Grabación...
+
+; Yanapay menu
+Help=&Yanapay
+HelpMediaInfo=Media &Willakuy
+HelpLog=&Log Ventana
+HelpAbout=&Imamanta
+
+[Dialog]
+OpenFile=Kichay Qillqa
+OpenURL=Kichay URL
+SaveScreenshot=Waqaychay Pantalla Rikch'a
+LoadSubtitle=Cargay Uray Qillqa Qillqa
+EnterURL=Qillqay URL:
+ResumePlayback=Qatipay Pukllachiy
+ResumeFrom=Qatipay %s manta?
+ClearRecentFiles=Pichay Qhipa Qillqakuna
+NoRecentFiles=(Mana qhipa qillqakuna kanchu)
+NoAudioTracks=(Mana uyarina trakakuna kanchu)
+NoVideoTracks=(Mana rikuchiy trakakuna kanchu)
+NoSubtitleTracks=(Mana uray qillqa trakakuna kanchu)
+NoChapters=(Mana umalliqkuna kanchu)
+OpenDVD=Kichay DVD
+OpenBluray=Kichay Blu-ray
+OpenFolder=Kichay Carpeta
+
+; Qillqa filtrokuna
+ScreenshotFilter=PNG Rikch'a|*.png|JPEG Rikch'a|*.jpg|WebP Rikch'a|*.webp
+DVDFilter=DVD Carpeta|*.;*.iso|Tukuy qillqakuna (*.*)|*.*
+BlurayFilter=Blu-ray Carpeta|*.;*.iso|Tukuy qillqakuna (*.*)|*.*
+NoDVD=(Mana DVD cargasqa kanchu)
+DVDTitle=Suti %d
+GotoTime=Riy Pachaman
+EnterTime=Qillqay pacha phaskamunaykipaq:
+Hours=Horakuna
+Minutes=Minutokuna
+Seconds=Segundokuna
+Current=Kunan:
+HistoryTitle=Pukllachiy Ñawpa Kawsay
+HistoryItems=%d elementokuna ñawpa kawsaypi
+HistoryPlay=&Pukllachiy
+HistoryRemove=&Hurquy Ñawpa Kawsaymanta
+HistoryClear=&Pichay Tukuy Ñawpa Kawsay
+HistoryOpenFolder=Kichay &Carpeta
+HistoryCopyPath=&Copiay Ñan
+ClearHistory=Pichay Ñawpa Kawsay
+ClearHistoryConfirm=Chiqaqtachu tukuy ñawpa kawsay pichayta munanki?
+SleepTimerTitle=Puñuy Pachanchaq
+SleepTimerDescription=Churay pachanchaq kikinmanta sayachinaykipaq pukllachiy
+SleepTimerHours=Horakuna
+SleepTimerMinutes=Minutokuna
+SleepTimerQuickSet=Usqhay Churay
+SleepTimerAction=Pachanchaq tukuptin
+SleepTimerStopPlayback=Sayachiy pukllachiy
+SleepTimerCloseApp=Wisq'ay aplicación
+SleepTimerShutdown=Wañuchiy computadora
+SleepTimerStart=Qallariy Pachanchaq
+
+[Status]
+Ready=Wakisqa
+Opening=Kichachkan...
+Playing=Pukllachkan
+Paused=Sayasqa
+Stopped=Sayachisqa
+Error=Pantay
+Buffering=Bufferachkan...
+Seeking=Maskachkan...
+Recording=Grabachkan
+
+[Message]
+SpeedFormat=Usqhay: %.2fx
+VolumeFormat=Qapay: %d%%
+BrightnessFormat=K'anchay: %d
+ContrastFormat=Contraste: %d
+SaturationFormat=Saturación: %d
+HueFormat=Llimphi: %d
+GammaFormat=Gamma: %d
+ColorsReset=Rikuchiy llimphikuna kutichisqa
+LoopASet=Muyuq A churasqa %s
+LoopBSet=Muyuq B churasqa %s - Muyuq kawsachkan
+LoopCleared=A-B Muyuq pichasqa
+SetAFirst=Churay punto A ñawpaq (ñit'iy L)
+RotationFormat=Muyuy: %d°
+FlipHOn=Horizontal tikray: KACHKAN
+FlipHOff=Horizontal tikray: MANA
+FlipVOn=Vertical tikray: KACHKAN
+FlipVOff=Vertical tikray: MANA
+DeinterlaceOn=Deinterlace: KACHKAN
+DeinterlaceOff=Deinterlace: MANA
+AlwaysOnTopOn=Wiñay patapi: KACHKAN
+AlwaysOnTopOff=Wiñay patapi: MANA
+WindowFitted=Ventana allichasqa %dx%d
+WindowScale=Ventana escala: %.0f%%
+ScreenshotSaved=Pantalla rikch'a waqaychasqa: %s
+AudioNormalizeOn=Uyarina normalización: KACHKAN
+AudioNormalizeOff=Uyarina normalización: MANA
+AudioDelayFormat=Uyarina qhipakuy: %.1f s
+SubtitleDelayFormat=Uray qillqa qhipakuy: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Chawpi
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Mana rikuchiy cargasqa kanchu
+PlayingFromClipboard=Pukllachkan clipboardmanta: %s
+ClipboardInvalid=Clipboard mana allin URL utaq ñanta hap'in
+ClipboardEmpty=Clipboard ch'usaq utaq mana qillqata hap'in
+ResumedAt=Qatipasqa %s
+FrameStepForward=Kuadru purichiy ñawpaq
+FrameStepBackward=Kuadru purichiy qhipa
+PreviousChapter=Ñawpaq umalliq
+NextChapter=Qhipa umalliq
+PlayingRadio=Pukllachkan radio: %s
+PlayingDVD=Pukllachkan DVD: %s
+PlayingBluray=Pukllachkan Blu-ray: %s
+DVDTitlePlaying=DVD Suti %d
+SeekTo=Maskachkan %s
+MinimizedToTray=Huch'uyyachisqa bandejayman. Iskay kutita ñit'iy kutichiypaQ.
+SleepTimerSet=Puñuy pachanchaq churasqa: %s
+SleepTimerCancelled=Puñuy pachanchaq ama churasqa
+SleepTimerWarning=Puñuy pachanchaq: 1 minuto kachkan
+SleepTimerFinal=Puñuy pachanchaq: 10 segundo kachkan
+SleepTimerStopped=Puñuy pachanchaq: Pukllachiy sayachisqa
+SleepTimerClosing=Puñuy pachanchaq: Wisq'achkan aplicación
+SleepTimerShutdown=Puñuy pachanchaq: Wañuchichkan computadora
+SleepTimerExpired=Puñuy Pachanchaq Tukusqa
+ShutdownManual=Ama hina kaspa wañuchiy computadoraykita makiykiwan.
+
+; Fase 21: Kichay Carpeta
+FolderOpened=Carpeta kichasqa: %d qillqakuna
+NoMediaFound=Mana media qillqakuna tarisqachu
+FilesAdded=%d qillqakuna yapasqa listaman
+
+; Fase 27: Grabación willakuykuna
+RecordNeedPlayback=Qallariy pukllachiy grabanayki ñawpaq.
+RecordingStarted=Grabación qallarisqa
+RecordingStopped=Grabación sayachisqa
+
+; Yapasqa estado willakuykuna
+EndOfPlaylist=Pukllana lista tukuy
+NoMediaLoaded=Mana media qillqa cargasqa kunan.
+JumpedToNamed=Phaskarisqa: %s
+ChapterFormat=Umalliq %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Marcador %s
+
+[Label]
+Muted=Ch'inyachisqa
+
+[Button]
+Play=Pukllachiy
+Pause=Sayay
+Stop=Sayachiy
+Previous=Ñawpaq
+Next=Qhipa
+Mute=Ch'inyachiy
+Unmute=Qatariy
+Fullscreen=Hunt'a Pantalla
+OK=Allin
+Cancel=Ama
+Apply=Ruway
+Close=Wisq'ay
+Yes=Arí
+No=Mana
+
+[Tooltip]
+Play=Pukllachiy/Sayay
+Stop=Sayachiy pukllachiy
+Previous=Ñawpaq traka
+Next=Qhipa traka
+Mute=Tikray ch'inyachiy
+Volume=Qapay
+Seek=Maskay posición
+Fullscreen=Tikray hunt'a pantalla
+
+[Playlist]
+Title=Pukllana Lista
+Add=Yapay
+Remove=Hurquy
+Clear=Pichay
+MoveUp=Kuyuchiy Hanaq
+MoveDown=Kuyuchiy Uray
+Shuffle=Chaqruy
+Repeat=Kutipay
+Play=Pukllachiy
+ShuffleOn=Chaqruy: Kachkan
+ShuffleOff=Chaqruy: Mana
+RepeatOff=Kutipay: Mana
+RepeatOne=Kutipay: Huk
+RepeatAll=Kutipay: Tukuy
+SavePlaylist=Waqaychay
+LoadPlaylist=Cargay
+TotalDuration=Tukuy: %s
+ItemCount=%d elementokuna
+
+; Fase 22: Pukllana Lista Allichaykuna
+Search=Maskay:
+FilterPlaceholder=Filtray pukllana lista...
+ClearSearch=Pichay
+FilterCount=%d/%d
+RemoveDuplicates=Hurquy &Duplicadokuna
+Properties=&Propiedadkuna...
+NoDuplicates=Mana duplicadokuna tarisqachu.
+DuplicatesFound=%d duplicado(kuna) tarisqa. Hurquy?
+RemoveDuplicatesTitle=Hurquy Duplicadokuna
+PropertiesTitle=Pukllana Lista Propiedadkuna
+PropTotalItems=Tukuy elementokuna: %d
+PropTotalDuration=Tukuy pacha: %s
+PropPlayed=Pukllachisqa: %d
+PropUnplayed=Mana pukllachisqa: %d
+PropTotalSize=Tukuy hatun kay: %.2f MB
+PropShuffle=Chaqruy: %s
+PropRepeat=Kutipay: %s
+On=Kachkan
+Off=Mana
+
+; Musuq llavekuna ApplyLocale kaqpaq
+ClearTitle=Pichay Pukllana Lista
+ClearConfirm=Chiqaqtachu pukllana lista pichayta munanki?
+NoPlaylist=Mana pukllana lista kanchu
+StatusFormat=%d elementokuna | Tukuy: %s
+RepeatOne=Kut. 1
+RepeatAll=Kut. Tuk
+HintRepeatEnable=Ñit'iy Kutipay Tukuy kacharichinaykipaq
+HintRepeatOne=Kutipay Huk - Ñit'iy wañuchinaykipaq
+HintRepeatAll=Kutipay Tukuy - Ñit'iy Kutipay Huk kaqpaq
+HintShuffleRepeat=Chaqruy + Kutipay Tukuy - Ñit'iy wañuchinaykipaq kutipay
+RemoveDuplicatesTitle=Hurquy Duplicadokuna
+NoDuplicates=Mana duplicadokuna tarisqachu.
+SelectAll=Akllay Tukuy
+SelectNone=Akllay Mana
+SelectInvert=Tikray Akllasqa
+Sort=Kamachiy
+SortByName=Sutiwan
+SortByTitle=Títulowan
+SortByArtist=Artistawan
+SortByDuration=Pachawan
+SortReverse=Tikray
+SortRandom=Chaqruy
+ColTitle=Títul
+ColDuration=Pacha
+ColArtist=Artista
+ColAlbum=Álbum
+PlaylistFilter=M3U Pukllana Lista|*.m3u|M3U8 Pukllana Lista|*.m3u8|PLS Pukllana Lista|*.pls
+
+[Equalizer]
+Title=Igualador
+Presets=Ñawpaq churasqakuna:
+Preamp=Ñawpaq amplificador:
+Flat=Pampalla
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Clásico
+BassBoost=Bass Yapay
+TrebleBoost=Treble Yapay
+Vocal=Takiy
+Reset=Kutichiy
+Enable=Kachay Igualador
+Save=Waqaychay
+Delete=Qulluy
+Ready=Wakisqa
+; Botonkuna hina ruwanakuna
+SavePreset=Waqaychay Preset
+DeletePreset=Qulluy Preset
+SavePresetTitle=Waqaychay Preset
+PresetNamePrompt=Preset suti:
+EnterPresetName=Ama hina kaspa qillqay preset sutita.
+OverwritePresetTitle=Qillqay Patapi Preset
+OverwritePresetConfirm=Preset kay sutiwan kachkanña. Patapi qillqay?
+PresetUpdated=Preset musuqchasqa: %s
+PresetSaved=Preset waqaychasqa: %s
+SelectPresetToDelete=Ama hina kaspa akllay preset qullunaykipaq.
+CannotDeleteDefault=Mana atinkichu qulluy kikin presetkuna.
+DeletePresetTitle=Qulluy Preset
+DeletePresetConfirm=Chiqaqtachu kay preset qulluyta munanki?
+PresetDeleted=Preset qullusqa
+ResetToFlat=Igualador kutichisqa pampallaman
+PresetApplied=Preset rurasqa: %s
+
+[Options]
+Title=Akllanakuna
+General=Tukuy
+Video=Rikuchiy
+Audio=Uyarina
+Subtitles=Uray Qillqakuna
+Cache=Waqaychana
+Language=Simi:
+RestartRequired=Musuqmanta qallariy necesario ruwaykuna kacharichinaykipaq
+
+; Tukuy tab - Ruway
+Behavior=Ruway
+SingleInstance=Sapa instancia sapallata
+AutoPlay=Kikinmanta pukllachiy kichayptin
+AutoResume=Qatipay pukllachiy posición
+MinimizeToTray=Huch'uyyachiy sistema bandejaman
+AutoSavePlaylist=Waqaychay pukllana lista lluqsiptin
+
+; Tukuy tab - OSD
+OSD=Pantalla Rikuchiy
+ShowOSD=Rikuchiy pantalla willakuykuna
+ShowTrayIcon=Rikuchiy bandeja icono
+OSDDuration=OSD pacha (ms):
+
+; Tukuy tab - Pantalla rikch'akuna
+Screenshots=Pantalla Rikch'akuna
+ScreenshotPath=Waqaychay carpeta:
+ScreenshotFormat=Formato:
+
+; Tukuy tab - Ñawpa kawsay
+HistorySettings=Ñawpa Kawsay
+HistoryEnabled=Kachay pukllachiy ñawpa kawsay
+HistoryMaxItems=Aswanqa elementokuna:
+
+; Tukuy tab - Simi
+LanguageGroup=Simi
+RestartNote=(Musuqmanta qallariy necesario ruwaykuna kaqpaq)
+
+; Rikuchiy tab
+VideoAdjust=Rikuchiy Allichaykuna
+Brightness=K'anchay:
+Contrast=Contraste:
+Saturation=Saturación:
+Hue=Llimphi:
+Gamma=Gamma:
+VideoOutput=Rikuchiy Lluqsiy
+Output=Lluqsiy:
+HWAccel=Kachay hardware aceleración
+Deinterlacing=Deinterlacing
+Mode=Modo:
+
+; Uyarina tab
+AudioOutput=Uyarina Lluqsiy
+OutputDriver=Lluqsiy controlador:
+Device=Dispositivo:
+AudioOptions=Uyarina Akllanakuna
+NormalizeAudio=Normalizay uyarina qapay
+Channels=Canaleskuna:
+
+; Uray qillqakuna tab
+UseDefaultSubtitles=Ruway kikin uray qillqa churasqakuna
+Font=Letra
+FontName=Letra:
+FontSize=Hatun kay:
+FontColor=Llimphi:
+Bold=Sinchi
+Italic=Kinray
+Outline=Contorno
+OutlineColor=Llimphi:
+OutlineSize=Hatun kay:
+Position=Posición
+VerticalPosition=Vertical posición:
+SubOptions=Akllanakuna
+Encoding=Codificación:
+AutoLoadSubs=Kikinmanta cargay uray qillqa qillqakuna
+
+; Rikuchiy lluqsiy willakuykuna
+VOWarningX11=Willakuy: x11 mana rikuchiy allichaykuna ruwan (k'anchay, contraste, hina wakin.)
+VOWarningWayland=Willakuy: Wayland sesión necesita. Rikuchiy allichaykuna ruwan.
+
+; Waqaychana tab
+CacheSettings=Waqaychana Buffer Hatun Kay (KB)
+CacheDefault=Kikin waqaychana:
+CacheLocal=Local qillqakuna:
+CacheNetwork=Red qillqakuna:
+CacheInternet=Internet mayukuna:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Imamanta
+Version=Versión
+Engine=Motor
+Technology=Tecnología
+BuildInfo=Ruway Willakuy
+SystemInfo=Sistema
+Credits=Yupay
+Developer=Rurachiq:
+Author=Qillqaq
+License=Licencia
+Website=Web k'iti
+GitHub=GitHub
+Description=Musuq, hank'a media pukllachiq
+LicenseText=3nity Media licenciasqa GPL-2.0 urapi\n\nKay niyta munan qam libre kanki:\n  • Ruwanaykipaq software imapaqpas\n  • Yachanaykipaq hina tikranaykipaq fuente código\n  • Rakinaykipaq software copiakuna\n  • Rakinaykipaq tikrasqaykikuna\n\nChay condición urapi tukuy rakisqa tikrasqakuna\nkanan licenciasqa GPL-2.0 urapi.
+BuildDate=P'unchay:
+Target=Objetivo:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Tecla Atajokuna
+Description=Churay tecla atajokuna ruwaykuna kaqpaq
+Search=Maskay:
+PressKey=Ñit'iy tecla...
+ColCategory=Categoría
+ColAction=Ruwana
+ColShortcut=Atajo
+Assign=Churay
+Clear=Pichay
+Reset=Kutichiy
+ResetAll=Kutichiy Tukuy
+CurrentShortcut=Kunan: %s
+NoKeyPressed=Ama hina kaspa ñit'iy tecla combinación ñawpaq.
+Conflict=Conflicto: Ñam churasqa "%s"
+ConfirmReplace=Tikray Atajo
+ReplaceMessage=Kay atajo ñam churasqa "%s". Tikrayta munanki?
+ConfirmResetAll=Kutichiy Tukuy Atajokuna
+ResetAllMessage=Chiqaqtachu tukuy atajokuna kikin churasqaman kutichiyta munanki?
+; Ruwana sutikuna
+ActPlayPause=Pukllachiy / Sayay
+ActStop=Sayachiy
+ActPrevious=Ñawpaq
+ActNext=Qhipa
+ActSeekForward=Maskay Ñawpaqman (10s)
+ActSeekBackward=Maskay Qhipaman (10s)
+ActSeekForward5=Maskay Ñawpaqman (1 min)
+ActSeekBackward5=Maskay Qhipaman (1 min)
+ActSpeedUp=Yapay Usqhay
+ActSpeedDown=Pisiyachiy Usqhay
+ActSpeedReset=Kutichiy Usqhay
+ActSetLoopA=Churay Muyuq Punto A
+ActSetLoopB=Churay Muyuq Punto B
+ActClearLoop=Pichay A-B Muyuq
+ActFrameForward=Kuadru Ñawpaqman
+ActFrameBackward=Kuadru Qhipaman
+ActPrevChapter=Ñawpaq Umalliq
+ActNextChapter=Qhipa Umalliq
+ActGotoTime=Riy Pachaman
+ActVolumeUp=Qapay Hanaq
+ActVolumeDown=Qapay Uray
+ActMute=Ch'inyachiy / Qatariy
+ActAudioDelayPlus=Uyarina Qhipakuy +
+ActAudioDelayMinus=Uyarina Qhipakuy -
+ActAudioDelayReset=Kutichiy Uyarina Qhipakuy
+ActFullscreen=Hunt'a Pantalla
+ActRotate=Muyuy Rikuchiy
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom Ukhu
+ActZoomOut=Zoom Hawa
+ActZoomReset=Kutichiy Zoom
+ActAlwaysOnTop=Wiñay Patapi
+ActFitToVideo=Allichay Rikuchiyman
+ActScreenshot=Pantalla Rikch'a
+ActVideoAdjust=Rikuchiy Allichaykuna
+ActVisNextMode=Qhipa Visualización Modo
+ActVisNextColor=Qhipa Llimphi Esquema
+ActSubDelayPlus=Uray Qillqa Qhipakuy +
+ActSubDelayMinus=Uray Qillqa Qhipakuy -
+ActSubDelayReset=Kutichiy Uray Qillqa Qhipakuy
+ActDVDMenu=DVD Menu
+ActDVDUp=DVD Purichiy Hanaq
+ActDVDDown=DVD Purichiy Uray
+ActDVDLeft=DVD Purichiy Lluqi
+ActDVDRight=DVD Purichiy Paña
+ActDVDSelect=DVD Akllay
+ActOpenFile=Kichay Qillqa
+ActOpenURL=Kichay URL
+ActPlaylist=Rikuchiy Pukllana Lista
+ActQuit=Lluqsiy
+
+[Log]
+; Fase 25: Log Ventana
+Title=MPV Log
+Command=Kamachiy:
+Clear=Pichay
+Save=Waqaychay...
+Copy=&Copiay
+SelectAll=Akllay &Tukuy
+SaveTitle=Waqaychay Log
+SaveFilter=Qillqa qillqakuna (*.txt)|*.txt|Tukuy qillqakuna (*.*)|*.*
+ErrorTitle=Pantay
+SaveError=Mana atisqachu waqaychay log: %s
+
+[MediaInfo]
+Title=Media Willakuy
+FileTab=Qillqa
+VideoTab=Rikuchiy
+AudioTab=Uyarina
+MetadataTab=Metadata
+FileName=Qillqa Suti:
+FilePath=Ñan:
+FileSize=Hatun kay:
+Duration=Pacha:
+Format=Formato:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolución:
+FrameRate=Kuadru Rate:
+PixelFormat=Pixel Formato:
+AspectRatio=Aspecto Ratio:
+Channels=Canaleskuna:
+SampleRate=Sample Rate:
+Language=Simi:
+Property=Propiedad
+Value=Chanin
+CopyAll=Copiay Tukuy
+CopiedToClipboard=Media willakuy copiasqa clipboardman.
+NA=M/K
+NAStream=M/K (mayu)
+NALive=M/K (kawsaq)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Mana riqsisqa
+NoMetadata=(Mana metadata kanchu)
+
+[Bookmarks]
+Title=Marcadorkuna
+Goto=Riy
+Remove=Hurquy
+Clear=Pichay Tukuy
+Refresh=Musuqchay
+OpenFolder=Kichay Carpeta
+CopyPath=Copiay Ñan
+; Columnakuna
+ColName=Suti
+ColFile=Qillqa
+ColPosition=Posición
+ColCreated=Kamasqa
+; Diálogos
+ClearTitle=Pichay Marcadorkuna
+ClearConfirm=Chiqaqtachu tukuy marcadorkuna pichayta munanki?
+Count=%d marcador(kuna)
+
+[Favorites]
+Title=Munasqakuna
+Play=Pukllachiy
+Remove=Hurquy
+Clear=Pichay Tukuy
+Refresh=Musuqchay
+OpenFolder=Kichay Carpeta
+CopyPath=Copiay Ñan
+; Columnakuna
+ColName=Suti
+ColType=Tipo
+ColPath=Ñan
+; Tipokuna
+TypeFile=Qillqa
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Mana riqsisqa
+; Diálogos
+ClearTitle=Pichay Munasqakuna
+ClearConfirm=Chiqaqtachu tukuy munasqakuna pichayta munanki?
+Count=%d munasqa(kuna)
+
+[History]
+Title=Pukllachiy Ñawpa Kawsay
+Play=Pukllachiy
+Remove=Hurquy
+Clear=Pichay Tukuy
+Refresh=Musuqchay
+OpenFolder=Kichay Carpeta
+CopyPath=Copiay Ñan
+; Columnakuna
+ColFileName=Qillqa
+ColPath=Ñan
+; Diálogos
+ClearTitle=Pichay Ñawpa Kawsay
+ClearConfirm=Chiqaqtachu tukuy ñawpa kawsay pichayta munanki?
+Count=%d elemento(kuna)
+
+[SleepTimer]
+Title=Puñuy Pachanchaq
+Description=Churay pachanchaq kikinmanta sayachinaykipaq pukllachiy
+Hours=Horakuna:
+Minutes=Minutokuna:
+Action=Pachanchaq tukuptin:
+StopPlayback=Sayachiy pukllachiy
+CloseApp=Wisq'ay aplicación
+Shutdown=Wañuchiy computadora
+QuickSet=Usqhay churay:
+15Min=15 min
+30Min=30 min
+1Hour=1 hora
+2Hours=2 hora
+
+[Radios]
+Title=Internet Radiokuna
+Play=Pukllachiy
+Add=Yapay
+Edit=Allichay
+Delete=Qulluy
+Remove=Hurquy
+Import=Apamuy
+Export=Apay
+Refresh=Musuqchay
+Favorite=Munasqa
+ShowFavorites=Munasqakuna
+ShowAll=Tukuy
+; Filtro
+Genre=Género:
+Search=Maskay:
+SearchBtn=Maskay
+ClearSearch=Pichay
+AllGenres=(Tukuy Géneros)
+; Contexto menu
+AddFavorite=Yapay Munasqakunaman
+RemoveFavorite=Hurquy Munasqakunamanta
+AddCustom=Yapay Kikin Estación...
+EditCustom=Allichay Estación...
+DeleteCustom=Qulluy Estación
+OpenWebsite=Kichay Web K'iti
+CopyURL=Copiay URL
+; Columnakuna
+ColName=Suti
+ColGenre=Género
+ColBitrate=Bitrate
+ColCountry=Llaqta
+ColCodec=Codec
+; Diálogos
+AddTitle=Yapay Kikin Estación
+EditTitle=Allichay Estación
+DeleteTitle=Qulluy Estación
+DeleteConfirm=Chiqaqtachu kay estación qulluyta munanki?
+StationName=Estación Suti:
+StreamURL=Mayu URL:
+GenrePrompt=Género:
+NameURLRequired=Suti hina URL necesario.
+; Estado willakuykuna
+LoadingIcecast=Cargachkan estacioneskuna Icecast directorymanta...
+IcecastError=Mana atisqachu cargay Icecast directorio. Ruwachkan kikin estacioneskuna.
+NoStationsLoaded=Mana estacioneskuna cargasqa kanchu
+StationCount=%d estacioneskuna
+LoadedStations=%d estacioneskuna cargasqa
+ErrorPrefix=Pantay:
+; Ñawpa llavekuna
+Name=Suti
+URL=URL
+Bitrate=Bitrate
+Description=Willay
+Country=Llaqta
+
+[OpenURL]
+Title=Kichay URL
+Prompt=Qillqay media URL:
+
+[GotoTime]
+Title=Riy Pachaman
+EnterTime=Qillqay pacha phaskamunaykipaq:
+Hours=H
+Minutes=M
+Seconds=S
+Current=Kunan:
+Duration=Pacha:
+
+[VideoAdjust]
+Title=Rikuchiy Allichaykuna
+Brightness=K'anchay:
+Contrast=Contraste:
+Saturation=Saturación:
+Hue=Llimphi:
+Gamma=Gamma:
+ResetAll=Kutichiy Tukuy Llimphikuna
+
+[CLI]
+; Kamachiy siqi willakuykuna
+Usage=Llamk'achiy
+Arguments=[AKLLANAKUNA] [QILLQA|URL|WAQAYCHANA]
+Description=Huk multimedia pukllachiq tukuy plataformapaq libmpv nisqawan llamk'aq.
+Options=AKLLANAKUNA
+Examples=RIKUCHIKUYKUNA
+MoreInfo=Astawan yachanapaq, watukuy
+EnqueuedTo=Ñawpaq instanciaman siqi churasqa: %s
+SentTo=Ñawpaq instanciaman kachasqa: %s
+AlreadyRunning=3nity Media ñam llamk'achkan.
+ErrorFileNotFound=Pantay: Qillqa icha waqaychana mana tarisqachu: %s
+ErrorSubNotFound=Pantay: Uray qillqa mana tarisqachu: %s

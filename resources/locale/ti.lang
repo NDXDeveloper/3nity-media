@@ -1,0 +1,892 @@
+[Language]
+Name=Tigrinya - ትግርኛ
+Code=ti
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&ፋይል
+FileOpen=&ፋይል ክፈት...
+FileOpenURL=&URL ክፈት...
+FileOpenClipboard=&ካብ ክሊፕቦርድ ክፈት
+FileRecent=&ናይ ቀረባ ፋይላት
+ClearRecentFiles=ናይ ቀረባ ፋይላት ጽረግ
+FileExit=&ውጻእ
+
+; Playback menu
+Playback=&ምጽዋት
+PlaybackPlayPause=&ጻወት/ደው
+PlaybackStop=&ደው ኣብል
+PlaybackPrevious=&ቀዳማይ
+PlaybackNext=&ዝቕጽል
+PlaybackSeekForward=ንቕድሚት &ስጉም
+PlaybackSeekBackward=ንድሕሪት &ተመለስ
+PlaybackSpeed=&ፍጥነት
+PlaybackABLoop=A-&B ሉፕ
+PlaybackSetA=&A ኣቐምጥ
+PlaybackSetB=&B ኣቐምጥ
+PlaybackClearAB=A-B &ጽረግ
+PlaybackChapters=&ምዕራፋት
+PlaybackPrevChapter=ቀዳማይ ምዕራፍ
+PlaybackNextChapter=ዝቕጽል ምዕራፍ
+PlaybackFrameStep=ፍሬም ንቕድሚት &ስጉም
+PlaybackFrameBack=ፍሬም ንድሕሪት &ተመለስ
+
+; DVD Navigation
+PlaybackDVD=DVD &ምጥቃስ
+DVDMenu=&ሜኑ
+DVDUp=&ንላዕሊ
+DVDDown=&ንታሕቲ
+DVDLeft=&ንጸጋም
+DVDRight=&ንየማን
+DVDSelect=&ምረጽ
+PlaybackDVDTitles=DVD &ኣርእስትታት
+
+; Phase 21: Open Folder
+FileOpenFolder=&ፎልደር ክፈት...
+
+; File menu DVD/Bluray
+FileOpenDVD=&DVD ክፈት...
+FileOpenBluray=&Blu-ray ክፈት...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&ናብ ግዜ ኪድ...
+ToolsHistory=&ታሪኽ
+
+; Phase 14: System Tray
+TrayShow=&ኣርኢ/ሕባእ
+TrayPlayPause=&ጻወት/ደው
+TrayStop=&ደው ኣብል
+TrayPrevious=&ቀዳማይ
+TrayNext=&ዝቕጽል
+TrayMute=&ኣጥፊእ
+TrayExit=&ውጻእ
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=&ቡክማርክ ወስኽ...
+PlaybackBookmarks=ቡክ&ማርክታት
+BookmarksTitle=ቡክማርክታት
+BookmarksGoto=ናብ ቡክማርክ &ኪድ
+BookmarksRemove=ቡክማርክ &ኣወግድ
+BookmarksClear=ኩሎም ቡክማርክታት &ጽረግ
+BookmarksOpenFolder=&ፎልደር ክፈት
+BookmarksCopyPath=መገዲ &ቅዳሕ
+BookmarksCount=%d ቡክማርክታት
+NoBookmarks=(ቡክማርክ የለን)
+NoFileLoaded=(ፋይል ኣይጸዓነን)
+BookmarkAdded=ቡክማርክ ኣብ %s ተወሲኹ
+BookmarkJumped=ናብ ቡክማርክ ኣብ %s ተዘሊሉ
+AddBookmarkTitle=ቡክማርክ ወስኽ
+AddBookmarkPrompt=ስም ቡክማርክ ኣእቱ:
+ShowAllBookmarks=ኩሎም ቡክማርክታት ኣርኢ...
+
+; Phase 16: Favorites
+ToolsFavorites=&ፍቱዋት
+ToolsAddFavorite=ናብ ፍቱዋት &ወስኽ
+FavoritesTitle=ፍቱዋት
+FavoritesPlay=&ጻወት
+FavoritesRemove=ካብ ፍቱዋት &ኣወግድ
+FavoritesClear=ኩሎም ፍቱዋት &ጽረግ
+FavoritesOpenFolder=&ፎልደር ክፈት
+FavoritesCopyPath=መገዲ &ቅዳሕ
+FavoritesCount=%d ፍቱዋት
+NoFavorites=(ፍቱው የለን)
+AddFavoriteTitle=ናብ ፍቱዋት ወስኽ
+AddFavoritePrompt=ስም ፍቱው ኣእቱ:
+AlreadyFavorite=ድሮ ኣብ ፍቱዋት ኣሎ
+AddedToFavorites=ናብ ፍቱዋት ተወሲኹ: %s
+NoFileToFavorite=ናብ ፍቱዋት ንምውሳኽ ፋይል ኣይጸዓነን
+FavoriteTypeFile=ፋይል
+FavoriteTypeURL=URL
+FavoriteTypeRadio=ረድዮ
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=ትራክ %d: %s
+TrackWithLang=ትራክ %d (%s)
+TrackNumber=ትራክ %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=ኣጥፍእ
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&ስሊፕ ታይመር...
+ToolsSleepTimerActive=&ስሊፕ ታይመር [%s]
+ToolsCancelTimer=ታይመር &ሰርዝ
+
+; Audio menu
+Audio=&ድምጺ
+AudioTrack=ናይ ድምጺ &ትራክ
+AudioVolumeUp=ድምጺ &ወስኽ
+AudioVolumeDown=ድምጺ &ቀንስ
+AudioMute=&ኣጥፊእ
+AudioEqualizer=&ኢኳላይዘር
+AudioDelay=ናይ ድምጺ &ምድንጓይ
+AudioDelayPlus=ምድንጓይ +0.1s
+AudioDelayMinus=ምድንጓይ -0.1s
+AudioDelayReset=ምድንጓይ ሪሰት ግበር
+AudioNormalize=ድምጺ &ኖርማላይዝ
+
+; Video menu
+Video=&ቪድዮ
+VideoFullscreen=&ምሉእ ስክሪን
+VideoAspect=&መጠን ምስሊ
+VideoAspectAuto=&ኦቶማቲክ
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&ስክሪንሾት
+VideoScreenshotAs=ስክሪንሾት &ዓቅብ...
+VideoRotation=&ኣዙር
+VideoRotate0=&0° (ንቡር)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&ገልብጥ
+VideoFlipH=&ግድም ገልብጥ
+VideoFlipV=&ቁልቁል ገልብጥ
+VideoDeinterlace=&ዲኢንተርለይስ
+VideoZoom=&ዙም
+VideoZoomIn=ዙም &ኣእቱ
+VideoZoomOut=ዙም &ኣውጽእ
+VideoZoomReset=ዙም &ሪሰት
+VideoPan=&ፓን
+VideoPanLeft=&ንጸጋም ፓን
+VideoPanRight=&ንየማን ፓን
+VideoPanUp=&ንላዕሊ ፓን
+VideoPanDown=&ንታሕቲ ፓን
+VideoPanReset=ፓን &ሪሰት
+VideoTrack=ናይ ቪድዮ &ትራክ
+VideoColors=ሕብሪ &ምስትኽኻል
+VideoBrightness=&ብርሃን
+VideoContrast=&ኮንትራስት
+VideoSaturation=&ሳቱረሽን
+VideoHue=&ሂው
+VideoGamma=&ጋማ
+VideoColorsReset=ኩሎም ሕብርታት &ሪሰት
+VideoIncrease=ወስኽ (+5)
+VideoDecrease=ቀንስ (-5)
+VideoReset=ሪሰት
+VideoAdjustDialog=ቪድዮ &ምስትኽኻል...
+
+; View menu
+View=&ትርኢት
+ViewAlwaysOnTop=&ኩሉ ግዜ ኣብ ላዕሊ
+ViewFitToVideo=መስኮት ንቪድዮ &ኣጣጥም
+ViewScale=ናይ መስኮት &ስኬል
+
+; Phase 26: Visualization menu
+ViewVisualization=&ቪዝዋላይዘሽን
+VisNone=&የለን
+VisSpectrum=&ስፔክትረም ኣናላይዘር
+VisWaveform=&ዌቭፎርም
+VisVector=&ቬክተር ስኮፕ
+VisVolume=&VU ሜተር
+VisNextMode=ዝቕጽል &ሞድ
+VisNextColor=ዝቕጽል &ሕብሪ ስኪም
+
+; Subtitles menu
+Subtitles=&ትርጉም
+SubtitleTrack=ናይ ትርጉም &ትራክ
+SubtitleLoad=ትርጉም &ጽዓን...
+SubtitleDelay=ናይ ትርጉም &ምድንጓይ
+SubtitleDelayPlus=ምድንጓይ +0.1s
+SubtitleDelayMinus=ምድንጓይ -0.1s
+SubtitleDelayReset=ምድንጓይ ሪሰት
+
+; Tools menu
+Tools=&መሳርሕታት
+ToolsPlaylist=&ፕሌይሊስት
+ToolsRadios=&ረድዮታት
+ToolsShortcuts=&ኪቦርድ ሾርትካትስ...
+ToolsOptions=&ኣማራጽታት
+
+; Phase 27: Recording menu
+ToolsRecord=&ስትሪም ቅዳሕ...
+ToolsStopRecord=ምቅዳሕ &ደው ኣብል
+ToolsRecording=&ይቕዳሕ...
+
+; Help menu
+Help=&ሓገዝ
+HelpMediaInfo=&ሚድያ ሓበሬታ
+HelpLog=&ሎግ መስኮት
+HelpAbout=&ብዛዕባ
+
+[Dialog]
+OpenFile=ፋይል ክፈት
+OpenURL=URL ክፈት
+SaveScreenshot=ስክሪንሾት ዓቅብ
+LoadSubtitle=ናይ ትርጉም ፋይል ጽዓን
+EnterURL=URL ኣእቱ:
+ResumePlayback=ምጽዋት ቀጽል
+ResumeFrom=ካብ %s ክትቅጽል?
+ClearRecentFiles=ናይ ቀረባ ፋይላት ጽረግ
+NoRecentFiles=(ናይ ቀረባ ፋይል የለን)
+NoAudioTracks=(ናይ ድምጺ ትራክ የለን)
+NoVideoTracks=(ናይ ቪድዮ ትራክ የለን)
+NoSubtitleTracks=(ናይ ትርጉም ትራክ የለን)
+NoChapters=(ምዕራፍ የለን)
+OpenDVD=DVD ክፈት
+OpenBluray=Blu-ray ክፈት
+OpenFolder=ፎልደር ክፈት
+
+; File filters
+ScreenshotFilter=PNG ስእሊ|*.png|JPEG ስእሊ|*.jpg|WebP ስእሊ|*.webp
+DVDFilter=DVD ፎልደር|*.;*.iso|ኩሎም ፋይላት (*.*)|*.*
+BlurayFilter=Blu-ray ፎልደር|*.;*.iso|ኩሎም ፋይላት (*.*)|*.*
+NoDVD=(DVD ኣይጸዓነን)
+DVDTitle=ኣርእስቲ %d
+GotoTime=ናብ ግዜ ኪድ
+EnterTime=ንምኻድ ግዜ ኣእቱ:
+Hours=ሰዓታት
+Minutes=ደቒቕ
+Seconds=ካልኢታት
+Current=ሕጂ:
+HistoryTitle=ናይ ምጽዋት ታሪኽ
+HistoryItems=ኣብ ታሪኽ %d ነገራት
+HistoryPlay=&ጻወት
+HistoryRemove=ካብ ታሪኽ &ኣወግድ
+HistoryClear=ኩሉ ታሪኽ &ጽረግ
+HistoryOpenFolder=&ፎልደር ክፈት
+HistoryCopyPath=መገዲ &ቅዳሕ
+ClearHistory=ታሪኽ ጽረግ
+ClearHistoryConfirm=ኩሉ ታሪኽ ክትጽርግ ርግጸኛ ዲኻ?
+SleepTimerTitle=ስሊፕ ታይመር
+SleepTimerDescription=ምጽዋት ብኦቶማቲክ ንምዕጻው ታይመር ኣቐምጥ
+SleepTimerHours=ሰዓታት
+SleepTimerMinutes=ደቒቕ
+SleepTimerQuickSet=ቅልጡፍ ምቕማጥ
+SleepTimerAction=ታይመር ምስ ተወድአ
+SleepTimerStopPlayback=ምጽዋት ደው ኣብል
+SleepTimerCloseApp=ኣፕሊከሽን ዕጸው
+SleepTimerShutdown=ኮምፕዩተር ኣጥፍእ
+SleepTimerStart=ታይመር ጀምር
+
+[Status]
+Ready=ድሉው
+Opening=ይኽፈት...
+Playing=ይጻወት
+Paused=ደው ኢሉ
+Stopped=ደው ኣቢሉ
+Error=ጌጋ
+Buffering=ይባፈር...
+Seeking=ይደሊ...
+Recording=ይቕዳሕ
+
+[Message]
+SpeedFormat=ፍጥነት: %.2fx
+VolumeFormat=ድምጺ: %d%%
+BrightnessFormat=ብርሃን: %d
+ContrastFormat=ኮንትራስት: %d
+SaturationFormat=ሳቱረሽን: %d
+HueFormat=ሂው: %d
+GammaFormat=ጋማ: %d
+ColorsReset=ናይ ቪድዮ ሕብርታት ሪሰት ኮይኖም
+LoopASet=A ሉፕ ኣብ %s ተቐሚጡ
+LoopBSet=B ሉፕ ኣብ %s ተቐሚጡ - ሉፕ ንጡፍ
+LoopCleared=A-B ሉፕ ተጸሪጉ
+SetAFirst=ቅድም A ነጥቢ ኣቐምጥ (L ጽቐጥ)
+RotationFormat=ምዙር: %d°
+FlipHOn=ግድም ምግልባጥ: ኦን
+FlipHOff=ግድም ምግልባጥ: ኦፍ
+FlipVOn=ቁልቁል ምግልባጥ: ኦን
+FlipVOff=ቁልቁል ምግልባጥ: ኦፍ
+DeinterlaceOn=ዲኢንተርለይስ: ኦን
+DeinterlaceOff=ዲኢንተርለይስ: ኦፍ
+AlwaysOnTopOn=ኩሉ ግዜ ኣብ ላዕሊ: ኦን
+AlwaysOnTopOff=ኩሉ ግዜ ኣብ ላዕሊ: ኦፍ
+WindowFitted=መስኮት ናብ %dx%d ጠጠው ኢሉ
+WindowScale=ናይ መስኮት ስኬል: %.0f%%
+ScreenshotSaved=ስክሪንሾት ተዓቂቡ: %s
+AudioNormalizeOn=ናይ ድምጺ ኖርማላይዘሽን: ኦን
+AudioNormalizeOff=ናይ ድምጺ ኖርማላይዘሽን: ኦፍ
+AudioDelayFormat=ናይ ድምጺ ምድንጓይ: %.1f s
+SubtitleDelayFormat=ናይ ትርጉም ምድንጓይ: %.1f s
+ZoomFormat=ዙም: %.0f%%
+PanCenter=ፓን: ማእከል
+PanFormat=ፓን: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=ቪድዮ ኣይጸዓነን
+PlayingFromClipboard=ካብ ክሊፕቦርድ ይጻወት: %s
+ClipboardInvalid=ክሊፕቦርድ ቅኑዕ URL ወይ መገዲ የብሉን
+ClipboardEmpty=ክሊፕቦርድ ጥራይ ወይ ጽሑፍ የብሉን
+ResumedAt=ካብ %s ቀጺሉ
+FrameStepForward=ፍሬም ንቕድሚት
+FrameStepBackward=ፍሬም ንድሕሪት
+PreviousChapter=ቀዳማይ ምዕራፍ
+NextChapter=ዝቕጽል ምዕራፍ
+PlayingRadio=ረድዮ ይጻወት: %s
+PlayingDVD=DVD ይጻወት: %s
+PlayingBluray=Blu-ray ይጻወት: %s
+DVDTitlePlaying=DVD ኣርእስቲ %d
+SeekTo=ናብ %s ይደሊ
+MinimizedToTray=ናብ ትረይ ጸቢቡ። ንምምላስ ክልተ ግዜ ጽቐጥ።
+SleepTimerSet=ስሊፕ ታይመር ተቐሚጡ: %s
+SleepTimerCancelled=ስሊፕ ታይመር ተሰሪዙ
+SleepTimerWarning=ስሊፕ ታይመር: 1 ደቒቕ ተሪፉ
+SleepTimerFinal=ስሊፕ ታይመር: 10 ካልኢታት ተሪፎም
+SleepTimerStopped=ስሊፕ ታይመር: ምጽዋት ደው ኢሉ
+SleepTimerClosing=ስሊፕ ታይመር: ኣፕሊከሽን ይዕጸው
+SleepTimerShutdown=ስሊፕ ታይመር: ኮምፕዩተር ይጠፍእ
+SleepTimerExpired=ስሊፕ ታይመር ተወዲኡ
+ShutdownManual=በጃኻ ኮምፕዩተርካ ብኢድ ኣጥፍኣዮ።
+
+; Phase 21: Open Folder
+FolderOpened=ፎልደር ተኸፊቱ: %d ፋይላት
+NoMediaFound=ሚድያ ፋይላት ኣይተረኽበን
+FilesAdded=%d ፋይላት ናብ ፕሌይሊስት ተወሲኾም
+
+; Phase 27: Recording messages
+RecordNeedPlayback=ቅድሚ ምቅዳሕ ምጽዋት ጀምር።
+RecordingStarted=ምቅዳሕ ጀሚሩ
+RecordingStopped=ምቅዳሕ ደው ኢሉ
+
+; Additional status messages
+EndOfPlaylist=መወዳእታ ፕሌይሊስት
+NoMediaLoaded=ሕጂ ሚድያ ፋይል ኣይጸዓነን።
+JumpedToNamed=ዘሊሉ: %s
+ChapterFormat=ምዕራፍ %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=ቡክማርክ ኣብ %s
+
+[Label]
+Muted=ድምጺ ጠፊኡ
+
+[Button]
+Play=ጻወት
+Pause=ደው
+Stop=ደው ኣብል
+Previous=ቀዳማይ
+Next=ዝቕጽል
+Mute=ኣጥፊእ
+Unmute=ድምጺ ኣውጽእ
+Fullscreen=ምሉእ ስክሪን
+OK=ሕራይ
+Cancel=ሰርዝ
+Apply=ተግብር
+Close=ዕጸው
+Yes=እወ
+No=ኣይኮነን
+
+[Tooltip]
+Play=ጻወት/ደው
+Stop=ምጽዋት ደው ኣብል
+Previous=ቀዳማይ ትራክ
+Next=ዝቕጽል ትራክ
+Mute=ድምጺ ቀያይር
+Volume=ድምጺ
+Seek=መደለዪ ቦታ
+Fullscreen=ምሉእ ስክሪን ቀያይር
+
+[Playlist]
+Title=ፕሌይሊስት
+Add=ወስኽ
+Remove=ኣወግድ
+Clear=ጽረግ
+MoveUp=ንላዕሊ ኣግዕዝ
+MoveDown=ንታሕቲ ኣግዕዝ
+Shuffle=ሻፍል
+Repeat=ድገም
+Play=ጻወት
+ShuffleOn=ሻፍል: ኦን
+ShuffleOff=ሻፍል: ኦፍ
+RepeatOff=ምድጋም: ኦፍ
+RepeatOne=ምድጋም: ሓደ
+RepeatAll=ምድጋም: ኩሉ
+SavePlaylist=ዓቅብ
+LoadPlaylist=ጽዓን
+TotalDuration=ድምር: %s
+ItemCount=%d ነገራት
+
+; Phase 22: Playlist Enhancements
+Search=ድለ:
+FilterPlaceholder=ፕሌይሊስት ፈልጥር...
+ClearSearch=ጽረግ
+FilterCount=%d/%d
+RemoveDuplicates=&ዝደገሙ ኣወግድ
+Properties=&ባህርያት...
+NoDuplicates=ዝደገመ ኣይተረኽበን።
+DuplicatesFound=%d ዝደገሙ ተረኺቦም። ክትወግዶም?
+RemoveDuplicatesTitle=ዝደገሙ ኣወግድ
+PropertiesTitle=ባህርያት ፕሌይሊስት
+PropTotalItems=ድምር ነገራት: %d
+PropTotalDuration=ድምር ግዜ: %s
+PropPlayed=ተጻዊቱ: %d
+PropUnplayed=ኣይተጻወተን: %d
+PropTotalSize=ድምር ዓቐን: %.2f MB
+PropShuffle=ሻፍል: %s
+PropRepeat=ምድጋም: %s
+On=ኦን
+Off=ኦፍ
+
+; New keys for ApplyLocale
+ClearTitle=ፕሌይሊስት ጽረግ
+ClearConfirm=ፕሌይሊስት ክትጽርግ ርግጸኛ ዲኻ?
+NoPlaylist=ፕሌይሊስት የለን
+StatusFormat=%d ነገራት | ድምር: %s
+RepeatOne=ድግ. 1
+RepeatAll=ድግ. ኩሉ
+HintRepeatEnable=ኩሉ ድገም ንምኽፋት ጽቐጥ
+HintRepeatOne=ሓደ ድገም - ንምዕጻው ጽቐጥ
+HintRepeatAll=ኩሉ ድገም - ንሓደ ድገም ጽቐጥ
+HintShuffleRepeat=ሻፍል + ኩሉ ድገም - ድገም ንምዕጻው ጽቐጥ
+RemoveDuplicatesTitle=ዝደገሙ ኣወግድ
+NoDuplicates=ዝደገመ ኣይተረኽበን።
+SelectAll=ኩሉ ምረጽ
+SelectNone=ዋላ ሓደ ኣይትምረጽ
+SelectInvert=ምርጫ ገልብጥ
+Sort=ሰርዕ
+SortByName=ብስም
+SortByTitle=ብኣርእስቲ
+SortByArtist=ብኣርቲስት
+SortByDuration=ብግዜ
+SortReverse=ገልብጥ
+SortRandom=ብዘይ ስርዓት
+ColTitle=ኣርእስቲ
+ColDuration=ግዜ
+ColArtist=ኣርቲስት
+ColAlbum=ኣልበም
+PlaylistFilter=M3U ፕሌይሊስት|*.m3u|M3U8 ፕሌይሊስት|*.m3u8|PLS ፕሌይሊስት|*.pls
+
+[Equalizer]
+Title=ኢኳላይዘር
+Presets=ፕሪሰትስ:
+Preamp=ፕሪኣምፕ:
+Flat=ጠፍጣፍ
+Rock=ሮክ
+Pop=ፖፕ
+Jazz=ጃዝ
+Classical=ክላሲካል
+BassBoost=ባስ ቡስት
+TrebleBoost=ትሬብል ቡስት
+Vocal=ድምጺ
+Reset=ሪሰት
+Enable=ኢኳላይዘር ኣብርህ
+Save=ዓቅብ
+Delete=ደምስስ
+Ready=ድሉው
+; Buttons and actions
+SavePreset=ፕሪሰት ዓቅብ
+DeletePreset=ፕሪሰት ደምስስ
+SavePresetTitle=ፕሪሰት ዓቅብ
+PresetNamePrompt=ስም ፕሪሰት:
+EnterPresetName=በጃኻ ስም ፕሪሰት ኣእቱ።
+OverwritePresetTitle=ፕሪሰት ዳግማይ ጽሓፍ
+OverwritePresetConfirm=ብዛዕብ ዝተባህለ ስም ፕሪሰት ድሮ ኣሎ። ዳግማይ ክጽሓፍ?
+PresetUpdated=ፕሪሰት ተሓዲሱ: %s
+PresetSaved=ፕሪሰት ተዓቂቡ: %s
+SelectPresetToDelete=በጃኻ ንምድምሳስ ፕሪሰት ምረጽ።
+CannotDeleteDefault=ናይ ነባር ፕሪሰትስ ክድምሰሱ ኣይከኣሉን።
+DeletePresetTitle=ፕሪሰት ደምስስ
+DeletePresetConfirm=እዚ ፕሪሰት ክትድምስስ ርግጸኛ ዲኻ?
+PresetDeleted=ፕሪሰት ተደምሲሱ
+ResetToFlat=ኢኳላይዘር ናብ ጠፍጣፍ ሪሰት ኮይኑ
+PresetApplied=ፕሪሰት ተተግቢሩ: %s
+
+[Options]
+Title=ኣማራጽታት
+General=ሓፈሻዊ
+Video=ቪድዮ
+Audio=ድምጺ
+Subtitles=ትርጉም
+Cache=ካሽ
+Language=ቋንቋ:
+RestartRequired=ለውጥታት ንክሰርሑ ዳግማይ ምጅማር የድሊ
+
+; General tab - Behavior
+Behavior=ኣካይዳ
+SingleInstance=ሓደ ኣጋጣሚ ጥራይ ፍቐድ
+AutoPlay=ምስ ተኸፈተ ኦቶማቲክ ጻወት
+AutoResume=ናይ ምጽዋት ቦታ መልስ
+MinimizeToTray=ናብ ስስተም ትረይ ጸብብ
+AutoSavePlaylist=ምስ ወጻእካ ፕሌይሊስት ዓቅብ
+
+; General tab - OSD
+OSD=ኣብ ስክሪን ዝርኣይ
+ShowOSD=ኣብ ስክሪን መልእኽትታት ኣርኢ
+ShowTrayIcon=ናይ ትረይ ኣይኮን ኣርኢ
+OSDDuration=OSD ግዜ (ms):
+
+; General tab - Screenshots
+Screenshots=ስክሪንሾትስ
+ScreenshotPath=ዓቅብ ፎልደር:
+ScreenshotFormat=ፎርማት:
+
+; General tab - History
+HistorySettings=ታሪኽ
+HistoryEnabled=ናይ ምጽዋት ታሪኽ ኣብርህ
+HistoryMaxItems=ዝበዝሐ ነገራት:
+
+; General tab - Language
+LanguageGroup=ቋንቋ
+RestartNote=(ንለውጥታት ዳግማይ ምጅማር የድሊ)
+
+; Video tab
+VideoAdjust=ናይ ቪድዮ ምስትኽኻል
+Brightness=ብርሃን:
+Contrast=ኮንትራስት:
+Saturation=ሳቱረሽን:
+Hue=ሂው:
+Gamma=ጋማ:
+VideoOutput=ናይ ቪድዮ ውጽኢት
+Output=ውጽኢት:
+HWAccel=ሃርድዌር ምቅልጣፍ ኣብርህ
+Deinterlacing=ዲኢንተርለይሲንግ
+Mode=ሞድ:
+
+; Audio tab
+AudioOutput=ናይ ድምጺ ውጽኢት
+OutputDriver=ናይ ውጽኢት ድራይቨር:
+Device=መሳርሒ:
+AudioOptions=ናይ ድምጺ ኣማራጽታት
+NormalizeAudio=ድምጺ ኖርማላይዝ ግበር
+Channels=ቻነላት:
+
+; Subtitles tab
+UseDefaultSubtitles=ናይ ነባር ትርጉም ሴቲንግስ ተጠቐም
+Font=ፎንት
+FontName=ፎንት:
+FontSize=ዓቐን:
+FontColor=ሕብሪ:
+Bold=ቦልድ
+Italic=ኢታሊክ
+Outline=ኣውትላይን
+OutlineColor=ሕብሪ:
+OutlineSize=ዓቐን:
+Position=ቦታ
+VerticalPosition=ቁልቁል ቦታ:
+SubOptions=ኣማራጽታት
+Encoding=ኢንኮዲንግ:
+AutoLoadSubs=ናይ ትርጉም ፋይላት ኦቶማቲክ ጽዓን
+
+; Video output warnings
+VOWarningX11=ማስጠንቀቂያ: x11 ናይ ቪድዮ ምስትኽኻል (ብርሃን፣ ኮንትራስት፣ ወዘተ) ኣይድግፍን
+VOWarningWayland=ማስጠንቀቂያ: Wayland ሴሽን የድሊ። ናይ ቪድዮ ምስትኽኻል ይድገፍ።
+
+; Cache tab
+CacheSettings=ናይ ካሽ ባፈር ዓቐን (KB)
+CacheDefault=ናይ ነባር ካሽ:
+CacheLocal=ናይ ውሽጢ ፋይላት:
+CacheNetwork=ናይ ነትወርክ ፋይላት:
+CacheInternet=ናይ ኢንተርነት ስትሪምስ:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=ብዛዕባ
+Version=ቨርዥን
+Engine=ኢንጂን
+Technology=ቴክኖሎጂ
+BuildInfo=ናይ ምህናጽ ሓበሬታ
+SystemInfo=ሲስተም
+Credits=ክረዲትስ
+Developer=ኣማዕብሊ:
+Author=ደራሲ
+License=ፍቓድ
+Website=ዌብሳይት
+GitHub=GitHub
+Description=ሓድሽ፣ ቀሊል ሚድያ ፕሌየር
+LicenseText=3nity Media ብ GPL-2.0 ፍቓድ ተዋሂቡ\n\nእዚ ማለት ናጻ ኢኻ:\n  • ሶፍትዌር ንዝኾነ ዓላማ ክትጥቀመሉ\n  • ሶርስ ኮድ ክትመሃረሉን ክትቕይሮን\n  • ናይ ሶፍትዌር ቅዳሓት ክትዝርግሕ\n  • ናትካ ለውጥታት ክትዝርግሕ\n\nዝተዝርገሑ ለውጥታት ብ GPL-2.0 ፍቓድ\nክውሃቦም ኣለዎም ዝብል ቅድመ ኩነት ምስ።
+BuildDate=ዕለት:
+Target=ዕላማ:
+Kernel=ከርነል:
+
+[Shortcuts]
+Title=ናይ ኪቦርድ ሾርትካትስ
+Description=ንተግባራት ናይ ኪቦርድ ሾርትካትስ ኣወቅር
+Search=ድለ:
+PressKey=መፍትሕ ጽቐጥ...
+ColCategory=ምድብ
+ColAction=ተግባር
+ColShortcut=ሾርትካት
+Assign=ኣሰሊፍ
+Clear=ጽረግ
+Reset=ሪሰት
+ResetAll=ኩሉ ሪሰት
+CurrentShortcut=ሕጂ: %s
+NoKeyPressed=በጃኻ ቅድም መፍትሕ ጽሓፍ።
+Conflict=ግጭት: ድሮ ናብ "%s" ተሰሊፉ
+ConfirmReplace=ሾርትካት ቀይር
+ReplaceMessage=እዚ ሾርትካት ድሮ ናብ "%s" ተሰሊፉ። ክቕየር?
+ConfirmResetAll=ኩሎም ሾርትካትስ ሪሰት ግበር
+ResetAllMessage=ኩሎም ሾርትካትስ ናብ ነባር ክትመልሶም ርግጸኛ ዲኻ?
+; Action names
+ActPlayPause=ጻወት / ደው
+ActStop=ደው ኣብል
+ActPrevious=ቀዳማይ
+ActNext=ዝቕጽል
+ActSeekForward=ንቕድሚት ድለ (10s)
+ActSeekBackward=ንድሕሪት ድለ (10s)
+ActSeekForward5=ንቕድሚት ድለ (1 ደቒቕ)
+ActSeekBackward5=ንድሕሪት ድለ (1 ደቒቕ)
+ActSpeedUp=ፍጥነት ወስኽ
+ActSpeedDown=ፍጥነት ቀንስ
+ActSpeedReset=ፍጥነት ሪሰት
+ActSetLoopA=ሉፕ ነጥቢ A ኣቐምጥ
+ActSetLoopB=ሉፕ ነጥቢ B ኣቐምጥ
+ActClearLoop=A-B ሉፕ ጽረግ
+ActFrameForward=ፍሬም ንቕድሚት
+ActFrameBackward=ፍሬም ንድሕሪት
+ActPrevChapter=ቀዳማይ ምዕራፍ
+ActNextChapter=ዝቕጽል ምዕራፍ
+ActGotoTime=ናብ ግዜ ኪድ
+ActVolumeUp=ድምጺ ወስኽ
+ActVolumeDown=ድምጺ ቀንስ
+ActMute=ኣጥፊእ / ድምጺ ኣውጽእ
+ActAudioDelayPlus=ናይ ድምጺ ምድንጓይ +
+ActAudioDelayMinus=ናይ ድምጺ ምድንጓይ -
+ActAudioDelayReset=ናይ ድምጺ ምድንጓይ ሪሰት
+ActFullscreen=ምሉእ ስክሪን
+ActRotate=ቪድዮ ኣዙር
+ActDeinterlace=ዲኢንተርለይስ
+ActZoomIn=ዙም ኣእቱ
+ActZoomOut=ዙም ኣውጽእ
+ActZoomReset=ዙም ሪሰት
+ActAlwaysOnTop=ኩሉ ግዜ ኣብ ላዕሊ
+ActFitToVideo=ንቪድዮ ኣጣጥም
+ActScreenshot=ስክሪንሾት
+ActVideoAdjust=ናይ ቪድዮ ምስትኽኻል
+ActVisNextMode=ዝቕጽል ቪዝዋላይዘሽን ሞድ
+ActVisNextColor=ዝቕጽል ሕብሪ ስኪም
+ActSubDelayPlus=ናይ ትርጉም ምድንጓይ +
+ActSubDelayMinus=ናይ ትርጉም ምድንጓይ -
+ActSubDelayReset=ናይ ትርጉም ምድንጓይ ሪሰት
+ActDVDMenu=DVD ሜኑ
+ActDVDUp=DVD ንላዕሊ ንቓሕ
+ActDVDDown=DVD ንታሕቲ ንቓሕ
+ActDVDLeft=DVD ንጸጋም ንቓሕ
+ActDVDRight=DVD ንየማን ንቓሕ
+ActDVDSelect=DVD ምረጽ
+ActOpenFile=ፋይል ክፈት
+ActOpenURL=URL ክፈት
+ActPlaylist=ፕሌይሊስት ኣርኢ
+ActQuit=ውጻእ
+
+[Log]
+; Phase 25: Log Window
+Title=MPV ሎግ
+Command=ኣዘዝ:
+Clear=ጽረግ
+Save=ዓቅብ...
+Copy=&ቅዳሕ
+SelectAll=ኩሉ &ምረጽ
+SaveTitle=ሎግ ዓቅብ
+SaveFilter=ጽሑፍ ፋይላት (*.txt)|*.txt|ኩሎም ፋይላት (*.*)|*.*
+ErrorTitle=ጌጋ
+SaveError=ሎግ ምዕቃብ ወዲቑ: %s
+
+[MediaInfo]
+Title=ሚድያ ሓበሬታ
+FileTab=ፋይል
+VideoTab=ቪድዮ
+AudioTab=ድምጺ
+MetadataTab=ሜታዳታ
+FileName=ስም ፋይል:
+FilePath=መገዲ:
+FileSize=ዓቐን:
+Duration=ግዜ:
+Format=ፎርማት:
+Bitrate=ቢትሬት:
+Codec=ኮዴክ:
+Resolution=ሪዝልዩሽን:
+FrameRate=ፍሬም ሬት:
+PixelFormat=ፒክሰል ፎርማት:
+AspectRatio=መጠን ምስሊ:
+Channels=ቻነላት:
+SampleRate=ሳምፕል ሬት:
+Language=ቋንቋ:
+Property=ባህርያት
+Value=ዋጋ
+CopyAll=ኩሉ ቅዳሕ
+CopiedToClipboard=ሚድያ ሓበሬታ ናብ ክሊፕቦርድ ተቐዲሑ።
+NA=የለን
+NAStream=የለን (ስትሪም)
+NALive=የለን (ብቐጥታ)
+ChannelMono=1 (ሞኖ)
+ChannelStereo=2 (ስቴሪዮ)
+Channel51=6 (5.1 ሰራውንድ)
+Channel71=8 (7.1 ሰራውንድ)
+Unknown=ኣይፍለጥን
+NoMetadata=(ሜታዳታ የለን)
+
+[Bookmarks]
+Title=ቡክማርክታት
+Goto=ኪድ
+Remove=ኣወግድ
+Clear=ኩሉ ጽረግ
+Refresh=ሓድሽ
+OpenFolder=ፎልደር ክፈት
+CopyPath=መገዲ ቅዳሕ
+; Columns
+ColName=ስም
+ColFile=ፋይል
+ColPosition=ቦታ
+ColCreated=ዝተፈጥረ
+; Dialogs
+ClearTitle=ቡክማርክታት ጽረግ
+ClearConfirm=ኩሎም ቡክማርክታት ክትጽርግ ርግጸኛ ዲኻ?
+Count=%d ቡክማርክ(ታት)
+
+[Favorites]
+Title=ፍቱዋት
+Play=ጻወት
+Remove=ኣወግድ
+Clear=ኩሉ ጽረግ
+Refresh=ሓድሽ
+OpenFolder=ፎልደር ክፈት
+CopyPath=መገዲ ቅዳሕ
+; Columns
+ColName=ስም
+ColType=ዓይነት
+ColPath=መገዲ
+; Types
+TypeFile=ፋይል
+TypeURL=URL
+TypeRadio=ረድዮ
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=ኣይፍለጥን
+; Dialogs
+ClearTitle=ፍቱዋት ጽረግ
+ClearConfirm=ኩሎም ፍቱዋት ክትጽርግ ርግጸኛ ዲኻ?
+Count=%d ፍቱው(ዋት)
+
+[History]
+Title=ናይ ምጽዋት ታሪኽ
+Play=ጻወት
+Remove=ኣወግድ
+Clear=ኩሉ ጽረግ
+Refresh=ሓድሽ
+OpenFolder=ፎልደር ክፈት
+CopyPath=መገዲ ቅዳሕ
+; Columns
+ColFileName=ፋይል
+ColPath=መገዲ
+; Dialogs
+ClearTitle=ታሪኽ ጽረግ
+ClearConfirm=ኩሉ ታሪኽ ክትጽርግ ርግጸኛ ዲኻ?
+Count=%d ነገር(ታት)
+
+[SleepTimer]
+Title=ስሊፕ ታይመር
+Description=ምጽዋት ብኦቶማቲክ ንምዕጻው ታይመር ኣቐምጥ
+Hours=ሰዓታት:
+Minutes=ደቒቕ:
+Action=ታይመር ምስ ተወድአ:
+StopPlayback=ምጽዋት ደው ኣብል
+CloseApp=ኣፕሊከሽን ዕጸው
+Shutdown=ኮምፕዩተር ኣጥፍእ
+QuickSet=ቅልጡፍ ምቕማጥ:
+15Min=15 ደቒቕ
+30Min=30 ደቒቕ
+1Hour=1 ሰዓት
+2Hours=2 ሰዓታት
+
+[Radios]
+Title=ኢንተርነት ረድዮታት
+Play=ጻወት
+Add=ወስኽ
+Edit=ኣርም
+Delete=ደምስስ
+Remove=ኣወግድ
+Import=ኣእቱ
+Export=ኣውጽእ
+Refresh=ሓድሽ
+Favorite=ፍቱው
+ShowFavorites=ፍቱዋት
+ShowAll=ኩሉ
+; Filter
+Genre=ዓይነት:
+Search=ድለ:
+SearchBtn=ድለ
+ClearSearch=ጽረግ
+AllGenres=(ኩሎም ዓይነታት)
+; Context menu
+AddFavorite=ናብ ፍቱዋት ወስኽ
+RemoveFavorite=ካብ ፍቱዋት ኣወግድ
+AddCustom=ናይ ባዕልኻ ስቴሽን ወስኽ...
+EditCustom=ስቴሽን ኣርም...
+DeleteCustom=ስቴሽን ደምስስ
+OpenWebsite=ዌብሳይት ክፈት
+CopyURL=URL ቅዳሕ
+; Columns
+ColName=ስም
+ColGenre=ዓይነት
+ColBitrate=ቢትሬት
+ColCountry=ሃገር
+ColCodec=ኮዴክ
+; Dialogs
+AddTitle=ናይ ባዕልኻ ስቴሽን ወስኽ
+EditTitle=ስቴሽን ኣርም
+DeleteTitle=ስቴሽን ደምስስ
+DeleteConfirm=እዚ ስቴሽን ክትድምስስ ርግጸኛ ዲኻ?
+StationName=ስም ስቴሽን:
+StreamURL=ስትሪም URL:
+GenrePrompt=ዓይነት:
+NameURLRequired=ስምን URLን የድሊ።
+; Status messages
+LoadingIcecast=ካብ Icecast ዳይረክተሪ ስቴሽንስ ይጸዓኑ...
+IcecastError=Icecast ዳይረክተሪ ምጽዓን ወዲቑ። ናይ ነባር ስቴሽንስ ይጥቀም።
+NoStationsLoaded=ስቴሽንስ ኣይጸዓኑን
+StationCount=%d ስቴሽንስ
+LoadedStations=%d ስቴሽንስ ጸዓኑ
+ErrorPrefix=ጌጋ:
+; Legacy keys
+Name=ስም
+URL=URL
+Bitrate=ቢትሬት
+Description=መግለጺ
+Country=ሃገር
+
+[OpenURL]
+Title=URL ክፈት
+Prompt=ሚድያ URL ኣእቱ:
+
+[GotoTime]
+Title=ናብ ግዜ ኪድ
+EnterTime=ንምኻድ ግዜ ኣእቱ:
+Hours=ሰ
+Minutes=ደ
+Seconds=ካ
+Current=ሕጂ:
+Duration=ግዜ:
+
+[VideoAdjust]
+Title=ናይ ቪድዮ ምስትኽኻል
+Brightness=ብርሃን:
+Contrast=ኮንትራስት:
+Saturation=ሳቱረሽን:
+Hue=ሂው:
+Gamma=ጋማ:
+ResetAll=ኩሎም ሕብርታት ሪሰት
+
+[CLI]
+; መልእኽትታት ናይ ትእዛዝ መስመር
+Usage=ኣጠቓቕማ
+Arguments=[ኣማራጺታት] [ፋይል|URL|ፎልደር]
+Description=ኣብ ብዙሕ ፕላትፎርማት ዝሰርሕ ማልቲሚድያ ተጻዋቲ libmpv ዝጥቀም።
+Options=ኣማራጺታት
+Examples=ኣብነታት
+MoreInfo=ንዝያዳ ሓበሬታ፣ ብጽሑ
+EnqueuedTo=ኣብ ተርታ ናይ ዝነበረ ኢንስታንስ ተወሲኹ: %s
+SentTo=ናብ ዝነበረ ኢንስታንስ ተላኢኹ: %s
+AlreadyRunning=3nity Media ድሮ ይሰርሕ ኣሎ።
+ErrorFileNotFound=ጌጋ: ፋይል ወይ ዳይረክቶሪ ኣይተረኽበን: %s
+ErrorSubNotFound=ጌጋ: ናይ ትርጉም ፋይል ኣይተረኽበን: %s

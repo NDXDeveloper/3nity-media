@@ -1,0 +1,892 @@
+[Language]
+Name=Sinhala - සිංහල
+Code=si
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&ගොනුව
+FileOpen=&ගොනුව විවෘත කරන්න...
+FileOpenURL=&URL විවෘත කරන්න...
+FileOpenClipboard=&ක්ලිප්බෝඩ් එකෙන් විවෘත කරන්න
+FileRecent=&මෑත ගොනු
+ClearRecentFiles=මෑත ගොනු ඉවත් කරන්න
+FileExit=&පිටවන්න
+
+; Playback menu
+Playback=&ප්ලේබැක්
+PlaybackPlayPause=&ධාවනය/විරාමය
+PlaybackStop=&නවත්වන්න
+PlaybackPrevious=&පෙර
+PlaybackNext=&ඊළඟ
+PlaybackSeekForward=ඉදිරියට &සෙවීම
+PlaybackSeekBackward=පසුපසට &සෙවීම
+PlaybackSpeed=&වේගය
+PlaybackABLoop=A-&B ලූපය
+PlaybackSetA=&A සකසන්න
+PlaybackSetB=&B සකසන්න
+PlaybackClearAB=A-B &ඉවත් කරන්න
+PlaybackChapters=&පරිච්ඡේද
+PlaybackPrevChapter=පෙර පරිච්ඡේදය
+PlaybackNextChapter=ඊළඟ පරිච්ඡේදය
+PlaybackFrameStep=රාමුව ඉදිරියට &යන්න
+PlaybackFrameBack=රාමුව පසුපසට &යන්න
+
+; DVD Navigation
+PlaybackDVD=DVD &නැවිගේෂන්
+DVDMenu=&මෙනුව
+DVDUp=&ඉහළට
+DVDDown=&පහළට
+DVDLeft=&වමට
+DVDRight=&දකුණට
+DVDSelect=&තෝරන්න
+PlaybackDVDTitles=DVD &මාතෘකා
+
+; Phase 21: Open Folder
+FileOpenFolder=&ෆෝල්ඩරය විවෘත කරන්න...
+
+; File menu DVD/Bluray
+FileOpenDVD=&DVD විවෘත කරන්න...
+FileOpenBluray=&Blu-ray විවෘත කරන්න...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&කාලයට යන්න...
+ToolsHistory=&ඉතිහාසය
+
+; Phase 14: System Tray
+TrayShow=&පෙන්වන්න/සඟවන්න
+TrayPlayPause=&ධාවනය/විරාමය
+TrayStop=&නවත්වන්න
+TrayPrevious=&පෙර
+TrayNext=&ඊළඟ
+TrayMute=&නිහඬ
+TrayExit=&පිටවන්න
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=&පොත් සලකුණ එක් කරන්න...
+PlaybackBookmarks=පොත් &සලකුණු
+BookmarksTitle=පොත් සලකුණු
+BookmarksGoto=පොත් සලකුණට &යන්න
+BookmarksRemove=පොත් සලකුණ &ඉවත් කරන්න
+BookmarksClear=සියලු පොත් සලකුණු &ඉවත් කරන්න
+BookmarksOpenFolder=&ෆෝල්ඩරය විවෘත කරන්න
+BookmarksCopyPath=මාර්ගය &පිටපත් කරන්න
+BookmarksCount=පොත් සලකුණු %d
+NoBookmarks=(පොත් සලකුණු නැත)
+NoFileLoaded=(ගොනුවක් පූරණය කර නැත)
+BookmarkAdded=%s හි පොත් සලකුණ එකතු කරන ලදී
+BookmarkJumped=%s හි පොත් සලකුණට පැනියා
+AddBookmarkTitle=පොත් සලකුණ එක් කරන්න
+AddBookmarkPrompt=පොත් සලකුණේ නම ඇතුළත් කරන්න:
+ShowAllBookmarks=සියලු පොත් සලකුණු පෙන්වන්න...
+
+; Phase 16: Favorites
+ToolsFavorites=&ප්‍රියතම
+ToolsAddFavorite=ප්‍රියතමයට &එක් කරන්න
+FavoritesTitle=ප්‍රියතම
+FavoritesPlay=&ධාවනය
+FavoritesRemove=ප්‍රියතමයෙන් &ඉවත් කරන්න
+FavoritesClear=සියලු ප්‍රියතම &ඉවත් කරන්න
+FavoritesOpenFolder=&ෆෝල්ඩරය විවෘත කරන්න
+FavoritesCopyPath=මාර්ගය &පිටපත් කරන්න
+FavoritesCount=ප්‍රියතම %d
+NoFavorites=(ප්‍රියතම නැත)
+AddFavoriteTitle=ප්‍රියතමයට එක් කරන්න
+AddFavoritePrompt=ප්‍රියතමය සඳහා නම ඇතුළත් කරන්න:
+AlreadyFavorite=දැනටමත් ප්‍රියතමයේ
+AddedToFavorites=ප්‍රියතමයට එකතු කරන ලදී: %s
+NoFileToFavorite=ප්‍රියතමයට එක් කිරීමට ගොනුවක් පූරණය කර නැත
+FavoriteTypeFile=ගොනුව
+FavoriteTypeURL=URL
+FavoriteTypeRadio=රේඩියෝ
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=ට්‍රැක් %d: %s
+TrackWithLang=ට්‍රැක් %d (%s)
+TrackNumber=ට්‍රැක් %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=අක්‍රිය කරන්න
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&නිදා ටයිමරය...
+ToolsSleepTimerActive=&නිදා ටයිමරය [%s]
+ToolsCancelTimer=ටයිමරය &අවලංගු කරන්න
+
+; Audio menu
+Audio=&ශ්‍රව්‍ය
+AudioTrack=ශ්‍රව්‍ය &ට්‍රැක්
+AudioVolumeUp=ශබ්දය &වැඩි කරන්න
+AudioVolumeDown=ශබ්දය &අඩු කරන්න
+AudioMute=&නිහඬ
+AudioEqualizer=&ඊක්වලයිසරය
+AudioDelay=ශ්‍රව්‍ය &ප්‍රමාදය
+AudioDelayPlus=ප්‍රමාදය +0.1s
+AudioDelayMinus=ප්‍රමාදය -0.1s
+AudioDelayReset=ප්‍රමාදය යළි සකසන්න
+AudioNormalize=ශබ්දය &සාමාන්‍යකරණය
+
+; Video menu
+Video=&වීඩියෝ
+VideoFullscreen=&පූර්ණ තිරය
+VideoAspect=&දර්ශන අනුපාතය
+VideoAspectAuto=&ස්වයංක්‍රිය
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&තිර රූපය
+VideoScreenshotAs=තිර රූපය &ලෙස...
+VideoRotation=&කරකවන්න
+VideoRotate0=&0° (සාමාන්‍ය)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&පෙරළන්න
+VideoFlipH=&තිරස් පෙරළීම
+VideoFlipV=&සිරස් පෙරළීම
+VideoDeinterlace=&ඩීඉන්ටර්ලේස්
+VideoZoom=&විශාලනය
+VideoZoomIn=විශාලනය &ඇතුළට
+VideoZoomOut=විශාලනය &පිටට
+VideoZoomReset=විශාලනය &යළි සකසන්න
+VideoPan=&පැන්
+VideoPanLeft=&වමට පැන්
+VideoPanRight=&දකුණට පැන්
+VideoPanUp=&ඉහළට පැන්
+VideoPanDown=&පහළට පැන්
+VideoPanReset=පැන් &යළි සකසන්න
+VideoTrack=වීඩියෝ &ට්‍රැක්
+VideoColors=වර්ණ &සකසන්න
+VideoBrightness=&දීප්තිය
+VideoContrast=&වෙනස
+VideoSaturation=&සන්තෘප්තිය
+VideoHue=&හියු
+VideoGamma=&ගැමා
+VideoColorsReset=සියලු වර්ණ &යළි සකසන්න
+VideoIncrease=වැඩි කරන්න (+5)
+VideoDecrease=අඩු කරන්න (-5)
+VideoReset=යළි සකසන්න
+VideoAdjustDialog=වීඩියෝ &සැකසුම්...
+
+; View menu
+View=&දැක්ම
+ViewAlwaysOnTop=&සෑම විටම ඉහළින්
+ViewFitToVideo=කවුළුව &වීඩියෝවට ගැලපෙන්න
+ViewScale=කවුළු &පරිමාණය
+
+; Phase 26: Visualization menu
+ViewVisualization=&දෘශ්‍යකරණය
+VisNone=&කිසිවක් නැත
+VisSpectrum=&ස්පෙක්ට්‍රම් විශ්ලේෂකය
+VisWaveform=&තරංග ආකෘතිය
+VisVector=&දෛශික විෂය පථය
+VisVolume=&VU මීටරය
+VisNextMode=ඊළඟ &මාදිලිය
+VisNextColor=ඊළඟ &වර්ණ යෝජනා ක්‍රමය
+
+; Subtitles menu
+Subtitles=&උපසිරසි
+SubtitleTrack=උපසිරසි &ට්‍රැක්
+SubtitleLoad=උපසිරසි &පූරණය...
+SubtitleDelay=උපසිරසි &ප්‍රමාදය
+SubtitleDelayPlus=ප්‍රමාදය +0.1s
+SubtitleDelayMinus=ප්‍රමාදය -0.1s
+SubtitleDelayReset=ප්‍රමාදය යළි සකසන්න
+
+; Tools menu
+Tools=&මෙවලම්
+ToolsPlaylist=&ධාවන ලැයිස්තුව
+ToolsRadios=&රේඩියෝ
+ToolsShortcuts=&යතුරුපුවරු කෙටිමං...
+ToolsOptions=&විකල්ප
+
+; Phase 27: Recording menu
+ToolsRecord=&ප්‍රවාහය පටිගත කරන්න...
+ToolsStopRecord=පටිගත කිරීම &නවත්වන්න
+ToolsRecording=&පටිගත වෙමින්...
+
+; Help menu
+Help=&උදව්
+HelpMediaInfo=&මාධ්‍ය තොරතුරු
+HelpLog=&ලොග් කවුළුව
+HelpAbout=&ගැන
+
+[Dialog]
+OpenFile=ගොනුව විවෘත කරන්න
+OpenURL=URL විවෘත කරන්න
+SaveScreenshot=තිර රූපය සුරකින්න
+LoadSubtitle=උපසිරසි ගොනුව පූරණය කරන්න
+EnterURL=URL ඇතුළත් කරන්න:
+ResumePlayback=ප්ලේබැක් නැවත ආරම්භ කරන්න
+ResumeFrom=%s සිට නැවත ආරම්භ කරන්නද?
+ClearRecentFiles=මෑත ගොනු ඉවත් කරන්න
+NoRecentFiles=(මෑත ගොනු නැත)
+NoAudioTracks=(ශ්‍රව්‍ය ට්‍රැක් නැත)
+NoVideoTracks=(වීඩියෝ ට්‍රැක් නැත)
+NoSubtitleTracks=(උපසිරසි ට්‍රැක් නැත)
+NoChapters=(පරිච්ඡේද නැත)
+OpenDVD=DVD විවෘත කරන්න
+OpenBluray=Blu-ray විවෘත කරන්න
+OpenFolder=ෆෝල්ඩරය විවෘත කරන්න
+
+; File filters
+ScreenshotFilter=PNG රූපය|*.png|JPEG රූපය|*.jpg|WebP රූපය|*.webp
+DVDFilter=DVD ෆෝල්ඩරය|*.;*.iso|සියලු ගොනු (*.*)|*.*
+BlurayFilter=Blu-ray ෆෝල්ඩරය|*.;*.iso|සියලු ගොනු (*.*)|*.*
+NoDVD=(DVD පූරණය කර නැත)
+DVDTitle=මාතෘකාව %d
+GotoTime=කාලයට යන්න
+EnterTime=යාමට කාලය ඇතුළත් කරන්න:
+Hours=පැය
+Minutes=මිනිත්තු
+Seconds=තත්පර
+Current=වත්මන්:
+HistoryTitle=ප්ලේබැක් ඉතිහාසය
+HistoryItems=ඉතිහාසයේ අයිතම %d
+HistoryPlay=&ධාවනය
+HistoryRemove=ඉතිහාසයෙන් &ඉවත් කරන්න
+HistoryClear=සියලු ඉතිහාසය &ඉවත් කරන්න
+HistoryOpenFolder=&ෆෝල්ඩරය විවෘත කරන්න
+HistoryCopyPath=මාර්ගය &පිටපත් කරන්න
+ClearHistory=ඉතිහාසය ඉවත් කරන්න
+ClearHistoryConfirm=ඔබට සියලු ඉතිහාසය ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?
+SleepTimerTitle=නිදා ටයිමරය
+SleepTimerDescription=ස්වයංක්‍රියව ප්ලේබැක් නැවැත්වීමට ටයිමරය සකසන්න
+SleepTimerHours=පැය
+SleepTimerMinutes=මිනිත්තු
+SleepTimerQuickSet=ඉක්මන් සැකසුම
+SleepTimerAction=ටයිමරය අවසන් වන විට
+SleepTimerStopPlayback=ප්ලේබැක් නවත්වන්න
+SleepTimerCloseApp=යෙදුම වසන්න
+SleepTimerShutdown=පරිගණකය වසන්න
+SleepTimerStart=ටයිමරය ආරම්භ කරන්න
+
+[Status]
+Ready=සූදානම්
+Opening=විවෘත වෙමින්...
+Playing=ධාවනය වෙමින්
+Paused=විරාමයේ
+Stopped=නවතා ඇත
+Error=දෝෂය
+Buffering=බෆරය වෙමින්...
+Seeking=සෙවීම...
+Recording=පටිගත වෙමින්
+
+[Message]
+SpeedFormat=වේගය: %.2fx
+VolumeFormat=ශබ්දය: %d%%
+BrightnessFormat=දීප්තිය: %d
+ContrastFormat=වෙනස: %d
+SaturationFormat=සන්තෘප්තිය: %d
+HueFormat=හියු: %d
+GammaFormat=ගැමා: %d
+ColorsReset=වීඩියෝ වර්ණ යළි සකසන ලදී
+LoopASet=A ලූපය %s හි සකසන ලදී
+LoopBSet=B ලූපය %s හි සකසන ලදී - ලූපය සක්‍රියයි
+LoopCleared=A-B ලූපය ඉවත් කරන ලදී
+SetAFirst=පළමුව A ලක්ෂ්‍යය සකසන්න (L ඔබන්න)
+RotationFormat=කරකැවීම: %d°
+FlipHOn=තිරස් පෙරළීම: ක්‍රියාත්මක
+FlipHOff=තිරස් පෙරළීම: අක්‍රිය
+FlipVOn=සිරස් පෙරළීම: ක්‍රියාත්මක
+FlipVOff=සිරස් පෙරළීම: අක්‍රිය
+DeinterlaceOn=ඩීඉන්ටර්ලේස්: ක්‍රියාත්මක
+DeinterlaceOff=ඩීඉන්ටර්ලේස්: අක්‍රිය
+AlwaysOnTopOn=සෑම විටම ඉහළින්: ක්‍රියාත්මක
+AlwaysOnTopOff=සෑම විටම ඉහළින්: අක්‍රිය
+WindowFitted=කවුළුව %dx%d ට ගැලපෙන ලදී
+WindowScale=කවුළු පරිමාණය: %.0f%%
+ScreenshotSaved=තිර රූපය සුරකින ලදී: %s
+AudioNormalizeOn=ශ්‍රව්‍ය සාමාන්‍යකරණය: ක්‍රියාත්මක
+AudioNormalizeOff=ශ්‍රව්‍ය සාමාන්‍යකරණය: අක්‍රිය
+AudioDelayFormat=ශ්‍රව්‍ය ප්‍රමාදය: %.1f s
+SubtitleDelayFormat=උපසිරසි ප්‍රමාදය: %.1f s
+ZoomFormat=විශාලනය: %.0f%%
+PanCenter=පැන්: මධ්‍යය
+PanFormat=පැන්: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=වීඩියෝ පූරණය කර නැත
+PlayingFromClipboard=ක්ලිප්බෝඩ් එකෙන් ධාවනය: %s
+ClipboardInvalid=ක්ලිප්බෝඩ් එකේ වලංගු URL හෝ මාර්ගයක් නැත
+ClipboardEmpty=ක්ලිප්බෝඩ් එක හිස් හෝ පෙළ නැත
+ResumedAt=%s සිට නැවත ආරම්භ කරන ලදී
+FrameStepForward=රාමුව ඉදිරියට
+FrameStepBackward=රාමුව පසුපසට
+PreviousChapter=පෙර පරිච්ඡේදය
+NextChapter=ඊළඟ පරිච්ඡේදය
+PlayingRadio=රේඩියෝ ධාවනය: %s
+PlayingDVD=DVD ධාවනය: %s
+PlayingBluray=Blu-ray ධාවනය: %s
+DVDTitlePlaying=DVD මාතෘකාව %d
+SeekTo=%s වෙත සෙවීම
+MinimizedToTray=ට්‍රේ එකට කුඩා කරන ලදී. ප්‍රතිස්ථාපනය කිරීමට දෙවරක් ක්ලික් කරන්න.
+SleepTimerSet=නිදා ටයිමරය සකසන ලදී: %s
+SleepTimerCancelled=නිදා ටයිමරය අවලංගු කරන ලදී
+SleepTimerWarning=නිදා ටයිමරය: 1 මිනිත්තුව ඉතිරියි
+SleepTimerFinal=නිදා ටයිමරය: තත්පර 10 ඉතිරියි
+SleepTimerStopped=නිදා ටයිමරය: ප්ලේබැක් නැවතුණි
+SleepTimerClosing=නිදා ටයිමරය: යෙදුම වැසෙමින්
+SleepTimerShutdown=නිදා ටයිමරය: පරිගණකය වැසෙමින්
+SleepTimerExpired=නිදා ටයිමරය කල් ඉකුත් විය
+ShutdownManual=කරුණාකර ඔබේ පරිගණකය අතින් වසන්න.
+
+; Phase 21: Open Folder
+FolderOpened=ෆෝල්ඩරය විවෘත කරන ලදී: ගොනු %d
+NoMediaFound=මාධ්‍ය ගොනු හමු නොවීය
+FilesAdded=ධාවන ලැයිස්තුවට ගොනු %d එකතු කරන ලදී
+
+; Phase 27: Recording messages
+RecordNeedPlayback=පටිගත කිරීමට පෙර ප්ලේබැක් ආරම්භ කරන්න.
+RecordingStarted=පටිගත කිරීම ආරම්භ විය
+RecordingStopped=පටිගත කිරීම නැවතුණි
+
+; Additional status messages
+EndOfPlaylist=ධාවන ලැයිස්තුවේ අවසානය
+NoMediaLoaded=දැනට මාධ්‍ය ගොනුවක් පූරණය කර නැත.
+JumpedToNamed=පැන්නා: %s
+ChapterFormat=පරිච්ඡේදය %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%s හි පොත් සලකුණ
+
+[Label]
+Muted=නිහඬ කරන ලදී
+
+[Button]
+Play=ධාවනය
+Pause=විරාමය
+Stop=නවත්වන්න
+Previous=පෙර
+Next=ඊළඟ
+Mute=නිහඬ
+Unmute=නිහඬ නොකරන්න
+Fullscreen=පූර්ණ තිරය
+OK=හරි
+Cancel=අවලංගු කරන්න
+Apply=යොදන්න
+Close=වසන්න
+Yes=ඔව්
+No=නැත
+
+[Tooltip]
+Play=ධාවනය/විරාමය
+Stop=ප්ලේබැක් නවත්වන්න
+Previous=පෙර ට්‍රැක්
+Next=ඊළඟ ට්‍රැක්
+Mute=නිහඬ මාරු කරන්න
+Volume=ශබ්දය
+Seek=සෙවුම් ස්ථානය
+Fullscreen=පූර්ණ තිරය මාරු කරන්න
+
+[Playlist]
+Title=ධාවන ලැයිස්තුව
+Add=එකතු කරන්න
+Remove=ඉවත් කරන්න
+Clear=ඉවත් කරන්න
+MoveUp=ඉහළට ගෙනයන්න
+MoveDown=පහළට ගෙනයන්න
+Shuffle=මිශ්‍ර කරන්න
+Repeat=නැවත කරන්න
+Play=ධාවනය
+ShuffleOn=මිශ්‍ර: ක්‍රියාත්මක
+ShuffleOff=මිශ්‍ර: අක්‍රිය
+RepeatOff=නැවත: අක්‍රිය
+RepeatOne=නැවත: එකක්
+RepeatAll=නැවත: සියල්ල
+SavePlaylist=සුරකින්න
+LoadPlaylist=පූරණය
+TotalDuration=මුළු: %s
+ItemCount=අයිතම %d
+
+; Phase 22: Playlist Enhancements
+Search=සොයන්න:
+FilterPlaceholder=ධාවන ලැයිස්තුව පෙරන්න...
+ClearSearch=ඉවත් කරන්න
+FilterCount=%d/%d
+RemoveDuplicates=&අනුපිටපත් ඉවත් කරන්න
+Properties=&ගුණාංග...
+NoDuplicates=අනුපිටපත් හමු නොවීය.
+DuplicatesFound=අනුපිටපත් %d හමු විය. ඉවත් කරන්නද?
+RemoveDuplicatesTitle=අනුපිටපත් ඉවත් කරන්න
+PropertiesTitle=ධාවන ලැයිස්තු ගුණාංග
+PropTotalItems=මුළු අයිතම: %d
+PropTotalDuration=මුළු කාලය: %s
+PropPlayed=ධාවනය කළ: %d
+PropUnplayed=ධාවනය නොකළ: %d
+PropTotalSize=මුළු ප්‍රමාණය: %.2f MB
+PropShuffle=මිශ්‍ර: %s
+PropRepeat=නැවත: %s
+On=ක්‍රියාත්මක
+Off=අක්‍රිය
+
+; New keys for ApplyLocale
+ClearTitle=ධාවන ලැයිස්තුව ඉවත් කරන්න
+ClearConfirm=ඔබට ධාවන ලැයිස්තුව ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?
+NoPlaylist=ධාවන ලැයිස්තුවක් නැත
+StatusFormat=අයිතම %d | මුළු: %s
+RepeatOne=නැ. 1
+RepeatAll=නැ. සියල්ල
+HintRepeatEnable=සියල්ල නැවත කිරීම සක්‍රිය කිරීමට ක්ලික් කරන්න
+HintRepeatOne=එකක් නැවත - අක්‍රිය කිරීමට ක්ලික් කරන්න
+HintRepeatAll=සියල්ල නැවත - එකක් නැවත කිරීමට ක්ලික් කරන්න
+HintShuffleRepeat=මිශ්‍ර + සියල්ල නැවත - නැවත අක්‍රිය කිරීමට ක්ලික් කරන්න
+RemoveDuplicatesTitle=අනුපිටපත් ඉවත් කරන්න
+NoDuplicates=අනුපිටපත් හමු නොවීය.
+SelectAll=සියල්ල තෝරන්න
+SelectNone=කිසිවක් නොතෝරන්න
+SelectInvert=තේරීම ප්‍රතිවර්තනය
+Sort=වර්ග කරන්න
+SortByName=නමින්
+SortByTitle=මාතෘකාවෙන්
+SortByArtist=කලාකරුවාගෙන්
+SortByDuration=කාලයෙන්
+SortReverse=ප්‍රතිවර්තනය
+SortRandom=අහඹු
+ColTitle=මාතෘකාව
+ColDuration=කාලය
+ColArtist=කලාකරුවා
+ColAlbum=ඇල්බමය
+PlaylistFilter=M3U ධාවන ලැයිස්තුව|*.m3u|M3U8 ධාවන ලැයිස්තුව|*.m3u8|PLS ධාවන ලැයිස්තුව|*.pls
+
+[Equalizer]
+Title=ඊක්වලයිසරය
+Presets=පෙරසැකසුම්:
+Preamp=ප්‍රීඇම්ප්:
+Flat=පැතලි
+Rock=රොක්
+Pop=පොප්
+Jazz=ජෑස්
+Classical=සම්භාව්‍ය
+BassBoost=බේස් බූස්ට්
+TrebleBoost=ට්‍රෙබල් බූස්ට්
+Vocal=හඬ
+Reset=යළි සකසන්න
+Enable=ඊක්වලයිසරය සක්‍රිය
+Save=සුරකින්න
+Delete=මකන්න
+Ready=සූදානම්
+; Buttons and actions
+SavePreset=පෙරසැකසුම සුරකින්න
+DeletePreset=පෙරසැකසුම මකන්න
+SavePresetTitle=පෙරසැකසුම සුරකින්න
+PresetNamePrompt=පෙරසැකසුම් නම:
+EnterPresetName=කරුණාකර පෙරසැකසුම් නමක් ඇතුළත් කරන්න.
+OverwritePresetTitle=පෙරසැකසුම උඩින් ලියන්න
+OverwritePresetConfirm=මෙම නමේ පෙරසැකසුමක් දැනටමත් පවතී. උඩින් ලියන්නද?
+PresetUpdated=පෙරසැකසුම යාවත්කාලීන කරන ලදී: %s
+PresetSaved=පෙරසැකසුම සුරකින ලදී: %s
+SelectPresetToDelete=කරුණාකර මකන්න පෙරසැකසුමක් තෝරන්න.
+CannotDeleteDefault=පෙරනිමි පෙරසැකසුම් මැකිය නොහැක.
+DeletePresetTitle=පෙරසැකසුම මකන්න
+DeletePresetConfirm=ඔබට මෙම පෙරසැකසුම මැකීමට අවශ්‍ය බව විශ්වාසද?
+PresetDeleted=පෙරසැකසුම මකන ලදී
+ResetToFlat=ඊක්වලයිසරය පැතලියට යළි සකසන ලදී
+PresetApplied=පෙරසැකසුම යොදන ලදී: %s
+
+[Options]
+Title=විකල්ප
+General=සාමාන්‍ය
+Video=වීඩියෝ
+Audio=ශ්‍රව්‍ය
+Subtitles=උපසිරසි
+Cache=හැඹිලි
+Language=භාෂාව:
+RestartRequired=වෙනස්කම් බලපැවැත්වීමට නැවත ආරම්භ කිරීම අවශ්‍යයි
+
+; General tab - Behavior
+Behavior=හැසිරීම
+SingleInstance=එක් අවස්ථාවකට පමණක් ඉඩ දෙන්න
+AutoPlay=විවෘත කිරීමේදී ස්වයංක්‍රිය ධාවනය
+AutoResume=ප්ලේබැක් ස්ථානය ප්‍රතිස්ථාපනය
+MinimizeToTray=පද්ධති ට්‍රේ එකට කුඩා කරන්න
+AutoSavePlaylist=පිටවීමේදී ධාවන ලැයිස්තුව සුරකින්න
+
+; General tab - OSD
+OSD=තිර සංදර්ශනය
+ShowOSD=තිර පණිවිඩ පෙන්වන්න
+ShowTrayIcon=ට්‍රේ අයිකනය පෙන්වන්න
+OSDDuration=OSD කාලය (ms):
+
+; General tab - Screenshots
+Screenshots=තිර රූප
+ScreenshotPath=සුරකින ෆෝල්ඩරය:
+ScreenshotFormat=ආකෘතිය:
+
+; General tab - History
+HistorySettings=ඉතිහාසය
+HistoryEnabled=ප්ලේබැක් ඉතිහාසය සක්‍රිය
+HistoryMaxItems=උපරිම අයිතම:
+
+; General tab - Language
+LanguageGroup=භාෂාව
+RestartNote=(වෙනස්කම් සඳහා නැවත ආරම්භ කිරීම අවශ්‍යයි)
+
+; Video tab
+VideoAdjust=වීඩියෝ සැකසුම්
+Brightness=දීප්තිය:
+Contrast=වෙනස:
+Saturation=සන්තෘප්තිය:
+Hue=හියු:
+Gamma=ගැමා:
+VideoOutput=වීඩියෝ ප්‍රතිදානය
+Output=ප්‍රතිදානය:
+HWAccel=දෘඪාංග ත්වරණය සක්‍රිය
+Deinterlacing=ඩීඉන්ටර්ලේසිං
+Mode=මාදිලිය:
+
+; Audio tab
+AudioOutput=ශ්‍රව්‍ය ප්‍රතිදානය
+OutputDriver=ප්‍රතිදාන ධාවකය:
+Device=උපාංගය:
+AudioOptions=ශ්‍රව්‍ය විකල්ප
+NormalizeAudio=ශ්‍රව්‍ය ශබ්දය සාමාන්‍යකරණය
+Channels=නාලිකා:
+
+; Subtitles tab
+UseDefaultSubtitles=පෙරනිමි උපසිරසි සැකසුම් භාවිතා කරන්න
+Font=අකුරු
+FontName=අකුරු:
+FontSize=ප්‍රමාණය:
+FontColor=වර්ණය:
+Bold=තද
+Italic=ඇල
+Outline=දළ සටහන
+OutlineColor=වර්ණය:
+OutlineSize=ප්‍රමාණය:
+Position=ස්ථානය
+VerticalPosition=සිරස් ස්ථානය:
+SubOptions=විකල්ප
+Encoding=සංකේතනය:
+AutoLoadSubs=උපසිරසි ගොනු ස්වයංක්‍රියව පූරණය
+
+; Video output warnings
+VOWarningX11=අවවාදය: x11 වීඩියෝ සැකසුම් (දීප්තිය, වෙනස, ආදිය) සහාය නොදක්වයි
+VOWarningWayland=අවවාදය: Wayland සැසිය අවශ්‍යයි. වීඩියෝ සැකසුම් සහාය දක්වයි.
+
+; Cache tab
+CacheSettings=හැඹිලි බෆර ප්‍රමාණ (KB)
+CacheDefault=පෙරනිමි හැඹිලි:
+CacheLocal=ස්ථානික ගොනු:
+CacheNetwork=ජාල ගොනු:
+CacheInternet=අන්තර්ජාල ප්‍රවාහ:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=ගැන
+Version=අනුවාදය
+Engine=එන්ජිම
+Technology=තාක්ෂණය
+BuildInfo=ගොඩනැගීමේ තොරතුරු
+SystemInfo=පද්ධතිය
+Credits=ණය පිළිගැනීම්
+Developer=සංවර්ධකයා:
+Author=කතෘ
+License=බලපත්‍රය
+Website=වෙබ් අඩවිය
+GitHub=GitHub
+Description=නවීන, සැහැල්ලු මාධ්‍ය ධාවකය
+LicenseText=3nity Media GPL-2.0 යටතේ බලපත්‍ර ලබා ඇත\n\nමෙයින් අදහස් කරන්නේ ඔබට නිදහසේ:\n  • ඕනෑම කාර්යයක් සඳහා මෘදුකාංගය භාවිතා කිරීමට\n  • මූලාශ්‍ර කේතය අධ්‍යයනය කිරීමට සහ වෙනස් කිරීමට\n  • මෘදුකාංගයේ පිටපත් බෙදා හැරීමට\n  • ඔබේ වෙනස්කම් බෙදා හැරීමට\n\nබෙදා හරින වෙනස්කම් ද GPL-2.0 යටතේ\nබලපත්‍ර ලබා ගත යුතු බවට කොන්දේසිය යටතේ.
+BuildDate=දිනය:
+Target=ඉලක්කය:
+Kernel=කර්නලය:
+
+[Shortcuts]
+Title=යතුරුපුවරු කෙටිමං
+Description=ක්‍රියාවන් සඳහා යතුරුපුවරු කෙටිමං සකසන්න
+Search=සොයන්න:
+PressKey=යතුරක් ඔබන්න...
+ColCategory=වර්ගය
+ColAction=ක්‍රියාව
+ColShortcut=කෙටිමඟ
+Assign=පවරන්න
+Clear=ඉවත් කරන්න
+Reset=යළි සකසන්න
+ResetAll=සියල්ල යළි සකසන්න
+CurrentShortcut=වත්මන්: %s
+NoKeyPressed=කරුණාකර පළමුව යතුරු සංයෝජනයක් ඔබන්න.
+Conflict=ගැටුම: දැනටමත් "%s" වෙත පවරා ඇත
+ConfirmReplace=කෙටිමඟ ප්‍රතිස්ථාපනය කරන්න
+ReplaceMessage=මෙම කෙටිමඟ දැනටමත් "%s" වෙත පවරා ඇත. ප්‍රතිස්ථාපනය කරන්නද?
+ConfirmResetAll=සියලු කෙටිමං යළි සකසන්න
+ResetAllMessage=ඔබට සියලු කෙටිමං පෙරනිමියට යළි සැකසීමට අවශ්‍ය බව විශ්වාසද?
+; Action names
+ActPlayPause=ධාවනය / විරාමය
+ActStop=නවත්වන්න
+ActPrevious=පෙර
+ActNext=ඊළඟ
+ActSeekForward=ඉදිරියට සෙවීම (10s)
+ActSeekBackward=පසුපසට සෙවීම (10s)
+ActSeekForward5=ඉදිරියට සෙවීම (1 min)
+ActSeekBackward5=පසුපසට සෙවීම (1 min)
+ActSpeedUp=වේගය වැඩි කරන්න
+ActSpeedDown=වේගය අඩු කරන්න
+ActSpeedReset=වේගය යළි සකසන්න
+ActSetLoopA=ලූප ලක්ෂ්‍යය A සකසන්න
+ActSetLoopB=ලූප ලක්ෂ්‍යය B සකසන්න
+ActClearLoop=A-B ලූපය ඉවත් කරන්න
+ActFrameForward=රාමුව ඉදිරියට
+ActFrameBackward=රාමුව පසුපසට
+ActPrevChapter=පෙර පරිච්ඡේදය
+ActNextChapter=ඊළඟ පරිච්ඡේදය
+ActGotoTime=කාලයට යන්න
+ActVolumeUp=ශබ්දය වැඩි කරන්න
+ActVolumeDown=ශබ්දය අඩු කරන්න
+ActMute=නිහඬ / නිහඬ නොකරන්න
+ActAudioDelayPlus=ශ්‍රව්‍ය ප්‍රමාදය +
+ActAudioDelayMinus=ශ්‍රව්‍ය ප්‍රමාදය -
+ActAudioDelayReset=ශ්‍රව්‍ය ප්‍රමාදය යළි සකසන්න
+ActFullscreen=පූර්ණ තිරය
+ActRotate=වීඩියෝ කරකවන්න
+ActDeinterlace=ඩීඉන්ටර්ලේස්
+ActZoomIn=විශාලනය ඇතුළට
+ActZoomOut=විශාලනය පිටට
+ActZoomReset=විශාලනය යළි සකසන්න
+ActAlwaysOnTop=සෑම විටම ඉහළින්
+ActFitToVideo=වීඩියෝවට ගැලපෙන්න
+ActScreenshot=තිර රූපය
+ActVideoAdjust=වීඩියෝ සැකසුම්
+ActVisNextMode=ඊළඟ දෘශ්‍යකරණ මාදිලිය
+ActVisNextColor=ඊළඟ වර්ණ යෝජනා ක්‍රමය
+ActSubDelayPlus=උපසිරසි ප්‍රමාදය +
+ActSubDelayMinus=උපසිරසි ප්‍රමාදය -
+ActSubDelayReset=උපසිරසි ප්‍රමාදය යළි සකසන්න
+ActDVDMenu=DVD මෙනුව
+ActDVDUp=DVD ඉහළට නැවිගේට්
+ActDVDDown=DVD පහළට නැවිගේට්
+ActDVDLeft=DVD වමට නැවිගේට්
+ActDVDRight=DVD දකුණට නැවිගේට්
+ActDVDSelect=DVD තෝරන්න
+ActOpenFile=ගොනුව විවෘත කරන්න
+ActOpenURL=URL විවෘත කරන්න
+ActPlaylist=ධාවන ලැයිස්තුව පෙන්වන්න
+ActQuit=පිටවන්න
+
+[Log]
+; Phase 25: Log Window
+Title=MPV ලොගය
+Command=විධානය:
+Clear=ඉවත් කරන්න
+Save=සුරකින්න...
+Copy=&පිටපත් කරන්න
+SelectAll=සියල්ල &තෝරන්න
+SaveTitle=ලොගය සුරකින්න
+SaveFilter=පෙළ ගොනු (*.txt)|*.txt|සියලු ගොනු (*.*)|*.*
+ErrorTitle=දෝෂය
+SaveError=ලොගය සුරැකීමට අසමත් විය: %s
+
+[MediaInfo]
+Title=මාධ්‍ය තොරතුරු
+FileTab=ගොනුව
+VideoTab=වීඩියෝ
+AudioTab=ශ්‍රව්‍ය
+MetadataTab=පාර-දත්ත
+FileName=ගොනු නම:
+FilePath=මාර්ගය:
+FileSize=ප්‍රමාණය:
+Duration=කාලය:
+Format=ආකෘතිය:
+Bitrate=බිට්රේට්:
+Codec=කොඩෙක්:
+Resolution=විභේදනය:
+FrameRate=රාමු අනුපාතය:
+PixelFormat=පික්සල් ආකෘතිය:
+AspectRatio=දර්ශන අනුපාතය:
+Channels=නාලිකා:
+SampleRate=සාම්පල් අනුපාතය:
+Language=භාෂාව:
+Property=ගුණාංගය
+Value=අගය
+CopyAll=සියල්ල පිටපත් කරන්න
+CopiedToClipboard=මාධ්‍ය තොරතුරු ක්ලිප්බෝඩ් එකට පිටපත් කරන ලදී.
+NA=නොමැත
+NAStream=නොමැත (ප්‍රවාහය)
+NALive=නොමැත (සජීවී)
+ChannelMono=1 (මොනෝ)
+ChannelStereo=2 (ස්ටීරියෝ)
+Channel51=6 (5.1 සරවුන්ඩ්)
+Channel71=8 (7.1 සරවුන්ඩ්)
+Unknown=නොදන්නා
+NoMetadata=(පාර-දත්ත නැත)
+
+[Bookmarks]
+Title=පොත් සලකුණු
+Goto=යන්න
+Remove=ඉවත් කරන්න
+Clear=සියල්ල ඉවත් කරන්න
+Refresh=නැවුම් කරන්න
+OpenFolder=ෆෝල්ඩරය විවෘත කරන්න
+CopyPath=මාර්ගය පිටපත් කරන්න
+; Columns
+ColName=නම
+ColFile=ගොනුව
+ColPosition=ස්ථානය
+ColCreated=සෑදූ දිනය
+; Dialogs
+ClearTitle=පොත් සලකුණු ඉවත් කරන්න
+ClearConfirm=ඔබට සියලු පොත් සලකුණු ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?
+Count=පොත් සලකුණු %d
+
+[Favorites]
+Title=ප්‍රියතම
+Play=ධාවනය
+Remove=ඉවත් කරන්න
+Clear=සියල්ල ඉවත් කරන්න
+Refresh=නැවුම් කරන්න
+OpenFolder=ෆෝල්ඩරය විවෘත කරන්න
+CopyPath=මාර්ගය පිටපත් කරන්න
+; Columns
+ColName=නම
+ColType=වර්ගය
+ColPath=මාර්ගය
+; Types
+TypeFile=ගොනුව
+TypeURL=URL
+TypeRadio=රේඩියෝ
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=නොදන්නා
+; Dialogs
+ClearTitle=ප්‍රියතම ඉවත් කරන්න
+ClearConfirm=ඔබට සියලු ප්‍රියතම ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?
+Count=ප්‍රියතම %d
+
+[History]
+Title=ප්ලේබැක් ඉතිහාසය
+Play=ධාවනය
+Remove=ඉවත් කරන්න
+Clear=සියල්ල ඉවත් කරන්න
+Refresh=නැවුම් කරන්න
+OpenFolder=ෆෝල්ඩරය විවෘත කරන්න
+CopyPath=මාර්ගය පිටපත් කරන්න
+; Columns
+ColFileName=ගොනුව
+ColPath=මාර්ගය
+; Dialogs
+ClearTitle=ඉතිහාසය ඉවත් කරන්න
+ClearConfirm=ඔබට සියලු ඉතිහාසය ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?
+Count=අයිතම %d
+
+[SleepTimer]
+Title=නිදා ටයිමරය
+Description=ස්වයංක්‍රියව ප්ලේබැක් නැවැත්වීමට ටයිමරයක් සකසන්න
+Hours=පැය:
+Minutes=මිනිත්තු:
+Action=ටයිමරය අවසන් වන විට:
+StopPlayback=ප්ලේබැක් නවත්වන්න
+CloseApp=යෙදුම වසන්න
+Shutdown=පරිගණකය වසන්න
+QuickSet=ඉක්මන් සැකසුම:
+15Min=මිනිත්තු 15
+30Min=මිනිත්තු 30
+1Hour=පැය 1
+2Hours=පැය 2
+
+[Radios]
+Title=අන්තර්ජාල රේඩියෝ
+Play=ධාවනය
+Add=එකතු කරන්න
+Edit=සංස්කරණය
+Delete=මකන්න
+Remove=ඉවත් කරන්න
+Import=ආයාත කරන්න
+Export=අපනයනය
+Refresh=නැවුම් කරන්න
+Favorite=ප්‍රියතම
+ShowFavorites=ප්‍රියතම
+ShowAll=සියල්ල
+; Filter
+Genre=ප්‍රභේදය:
+Search=සොයන්න:
+SearchBtn=සොයන්න
+ClearSearch=ඉවත් කරන්න
+AllGenres=(සියලු ප්‍රභේද)
+; Context menu
+AddFavorite=ප්‍රියතමයට එක් කරන්න
+RemoveFavorite=ප්‍රියතමයෙන් ඉවත් කරන්න
+AddCustom=අභිරුචි ස්ථානය එක් කරන්න...
+EditCustom=ස්ථානය සංස්කරණය...
+DeleteCustom=ස්ථානය මකන්න
+OpenWebsite=වෙබ් අඩවිය විවෘත කරන්න
+CopyURL=URL පිටපත් කරන්න
+; Columns
+ColName=නම
+ColGenre=ප්‍රභේදය
+ColBitrate=බිට්රේට්
+ColCountry=රට
+ColCodec=කොඩෙක්
+; Dialogs
+AddTitle=අභිරුචි ස්ථානය එක් කරන්න
+EditTitle=ස්ථානය සංස්කරණය
+DeleteTitle=ස්ථානය මකන්න
+DeleteConfirm=ඔබට මෙම ස්ථානය මැකීමට අවශ්‍ය බව විශ්වාසද?
+StationName=ස්ථාන නම:
+StreamURL=ප්‍රවාහ URL:
+GenrePrompt=ප්‍රභේදය:
+NameURLRequired=නම සහ URL අවශ්‍යයි.
+; Status messages
+LoadingIcecast=Icecast නාමාවලියෙන් ස්ථාන පූරණය වෙමින්...
+IcecastError=Icecast නාමාවලිය පූරණය කළ නොහැකි විය. පෙරනිමි ස්ථාන භාවිතා කරමින්.
+NoStationsLoaded=ස්ථාන පූරණය කර නැත
+StationCount=ස්ථාන %d
+LoadedStations=ස්ථාන %d පූරණය කරන ලදී
+ErrorPrefix=දෝෂය:
+; Legacy keys
+Name=නම
+URL=URL
+Bitrate=බිට්රේට්
+Description=විස්තරය
+Country=රට
+
+[OpenURL]
+Title=URL විවෘත කරන්න
+Prompt=මාධ්‍ය URL ඇතුළත් කරන්න:
+
+[GotoTime]
+Title=කාලයට යන්න
+EnterTime=යාමට කාලය ඇතුළත් කරන්න:
+Hours=පැ
+Minutes=මි
+Seconds=ත
+Current=වත්මන්:
+Duration=කාලය:
+
+[VideoAdjust]
+Title=වීඩියෝ සැකසුම්
+Brightness=දීප්තිය:
+Contrast=වෙනස:
+Saturation=සන්තෘප්තිය:
+Hue=හියු:
+Gamma=ගැමා:
+ResetAll=සියලු වර්ණ යළි සකසන්න
+
+[CLI]
+; විධාන රේඛා පණිවිඩ
+Usage=භාවිතය
+Arguments=[විකල්ප] [ගොනුව|URL|ෆෝල්ඩරය]
+Description=libmpv පසුපෙළ ලෙස භාවිතා කරන හරස් වේදිකා බහුමාධ්‍ය වාදකය.
+Options=විකල්ප
+Examples=උදාහරණ
+MoreInfo=වැඩි විස්තර සඳහා, පිවිසෙන්න
+EnqueuedTo=පවතින අවස්ථාවේ පෝලිමට එකතු කළා: %s
+SentTo=පවතින අවස්ථාවට යවන ලදී: %s
+AlreadyRunning=3nity Media දැනටමත් ක්‍රියාත්මක වේ.
+ErrorFileNotFound=දෝෂය: ගොනුව හෝ නාමාවලිය සොයා ගත නොහැක: %s
+ErrorSubNotFound=දෝෂය: උපසිරසි ගොනුව සොයා ගත නොහැක: %s

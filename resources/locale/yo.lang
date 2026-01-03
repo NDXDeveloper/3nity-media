@@ -1,0 +1,892 @@
+[Language]
+Name=Yoruba - Yorùbá
+Code=yo
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Àkójọ fáìlì
+File=&Fáìlì
+FileOpen=&Ṣí Fáìlì...
+FileOpenURL=Ṣí &URL...
+FileOpenClipboard=Ṣí láti &Clipboard
+FileRecent=Àwọn Fáìlì &Àìpẹ́
+ClearRecentFiles=Pa Àwọn Fáìlì Àìpẹ́ rẹ́
+FileExit=J&áde
+
+; Àkójọ ìṣàmúlò
+Playback=Ì&ṣàmúlò
+PlaybackPlayPause=&Ṣe/Dúró
+PlaybackStop=&Dá dúró
+PlaybackPrevious=&Tẹ́lẹ̀
+PlaybackNext=&Tókàn
+PlaybackSeekForward=Wá &Síwájú
+PlaybackSeekBackward=Wá &Sẹ́yìn
+PlaybackSpeed=&Ìyára
+PlaybackABLoop=Yípo A-&B
+PlaybackSetA=Ṣètò &A
+PlaybackSetB=Ṣètò &B
+PlaybackClearAB=&Pa A-B rẹ́
+PlaybackChapters=Àwọn &Orí
+PlaybackPrevChapter=Orí Tẹ́lẹ̀
+PlaybackNextChapter=Orí Tókàn
+PlaybackFrameStep=Ìgbésẹ̀ Fréèmù &Síwájú
+PlaybackFrameBack=Ìgbésẹ̀ Fréèmù &Sẹ́yìn
+
+; Ìlọsíwájú DVD
+PlaybackDVD=Ì&lọsíwájú DVD
+DVDMenu=&Àkójọ
+DVDUp=&Òkè
+DVDDown=&Ìsàlẹ̀
+DVDLeft=&Òsì
+DVDRight=&Ọ̀tún
+DVDSelect=&Yan
+PlaybackDVDTitles=Àwọn &Àkọlé DVD
+
+; Ìgbésẹ̀ 21: Ṣí Fódà
+FileOpenFolder=Ṣí F&ódà...
+
+; Àkójọ Fáìlì DVD/Bluray
+FileOpenDVD=Ṣí &DVD...
+FileOpenBluray=Ṣí &Blu-ray...
+
+; Ìgbésẹ̀ 13: Lọ sí Àkókò àti Ìtàn
+PlaybackGotoTime=&Lọ sí Àkókò...
+ToolsHistory=Ì&tàn
+
+; Ìgbésẹ̀ 14: Tréè Ètò
+TrayShow=&Fi hàn/Bò
+TrayPlayPause=&Ṣe/Dúró
+TrayStop=&Dá dúró
+TrayPrevious=Tẹ́&lẹ̀
+TrayNext=Tó&kàn
+TrayMute=&Dákẹ́
+TrayExit=J&áde
+
+; Ìgbésẹ̀ 15: Àwọn Àmì ìwé
+PlaybackAddBookmark=Fi &Àmì ìwé kún...
+PlaybackBookmarks=Àwọn Àmì &ìwé
+BookmarksTitle=Àwọn Àmì ìwé
+BookmarksGoto=&Lọ sí Àmì ìwé
+BookmarksRemove=&Yọ Àmì ìwé kúrò
+BookmarksClear=&Pa Gbogbo Àmì ìwé rẹ́
+BookmarksOpenFolder=Ṣí &Fódà
+BookmarksCopyPath=&Dà Ọ̀nà
+BookmarksCount=Àwọn àmì ìwé %d
+NoBookmarks=(Kò sí àmì ìwé)
+NoFileLoaded=(Kò sí fáìlì tí a gbé)
+BookmarkAdded=A fi àmì ìwé kún ní %s
+BookmarkJumped=A fò sí àmì ìwé ní %s
+AddBookmarkTitle=Fi Àmì ìwé kún
+AddBookmarkPrompt=Tẹ orúkọ àmì ìwé:
+ShowAllBookmarks=Fi Gbogbo Àmì ìwé hàn...
+
+; Ìgbésẹ̀ 16: Àwọn Àyànfẹ́
+ToolsFavorites=Àwọn À&yànfẹ́
+ToolsAddFavorite=Fi kún Àwọn Àyàn&fẹ́
+FavoritesTitle=Àwọn Àyànfẹ́
+FavoritesPlay=&Ṣe
+FavoritesRemove=&Yọ kúrò nínú Àwọn Àyànfẹ́
+FavoritesClear=&Pa Gbogbo Àyànfẹ́ rẹ́
+FavoritesOpenFolder=Ṣí &Fódà
+FavoritesCopyPath=&Dà Ọ̀nà
+FavoritesCount=%d àwọn àyànfẹ́
+NoFavorites=(Kò sí àyànfẹ́)
+AddFavoriteTitle=Fi kún Àwọn Àyànfẹ́
+AddFavoritePrompt=Tẹ orúkọ fún àyànfẹ́:
+AlreadyFavorite=Ó ti wà nínú àwọn àyànfẹ́ tẹ́lẹ̀
+AddedToFavorites=A fi kún àwọn àyànfẹ́: %s
+NoFileToFavorite=Kò sí fáìlì tí a gbé láti fi kún àwọn àyànfẹ́
+FavoriteTypeFile=Fáìlì
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Rédíò
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Àwọn ọ̀nà orin
+TrackWithTitle=Orin %d: %s
+TrackWithLang=Orin %d (%s)
+TrackNumber=Orin %d
+
+; Àwọn ohun àkójọ ìyára
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Àwọn ohun àkójọ ìwọ̀n
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Orin àkọsílẹ̀
+SubtitleDisable=Dá dúró
+
+; Ìgbésẹ̀ 17: Àkókò Orun
+ToolsSleepTimer=&Àkókò Orun...
+ToolsSleepTimerActive=&Àkókò Orun [%s]
+ToolsCancelTimer=Fagilé &Àkókò
+
+; Àkójọ Ohùn
+Audio=&Ohùn
+AudioTrack=&Orin Ohùn
+AudioVolumeUp=Mú Ohùn &Ga
+AudioVolumeDown=Sọ Ohùn &Dì
+AudioMute=&Dákẹ́
+AudioEqualizer=&Equalizer
+AudioDelay=Ì&dádúró Ohùn
+AudioDelayPlus=Ìdádúró +0.1s
+AudioDelayMinus=Ìdádúró -0.1s
+AudioDelayReset=Tún Ìdádúró Ṣe
+AudioNormalize=&Ṣe Deede Ohùn
+
+; Àkójọ Fídíò
+Video=&Fídíò
+VideoFullscreen=&Ojú Kíkún
+VideoAspect=&Ìwọ̀n Ojú
+VideoAspectAuto=&Àìfọwọ́yí
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Àwòrán Ojú
+VideoScreenshotAs=Àwòrán Ojú &Gẹ́gẹ́...
+VideoRotation=&Yíyí
+VideoRotate0=&0° (Déédé)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Yí
+VideoFlipH=Yí &Pẹ̀tẹ́lẹ̀
+VideoFlipV=Yí &Gégé
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Fààyè
+VideoZoomIn=Fààyè &Sínú
+VideoZoomOut=Fààyè &Síta
+VideoZoomReset=&Tún Fààyè Ṣe
+VideoPan=&Pan
+VideoPanLeft=Pan &Sòsì
+VideoPanRight=Pan &Sọ́tún
+VideoPanUp=Pan &Sókè
+VideoPanDown=Pan &Sísàlẹ̀
+VideoPanReset=T&ún Pan Ṣe
+VideoTrack=&Orin Fídíò
+VideoColors=Ṣíṣàtúnṣe &Àwọ̀
+VideoBrightness=&Ìmọ́lẹ̀
+VideoContrast=&Ìyàtọ̀
+VideoSaturation=&Ìkún Àwọ̀
+VideoHue=&Àwọ̀
+VideoGamma=&Gamma
+VideoColorsReset=Tún &Gbogbo Àwọ̀ Ṣe
+VideoIncrease=Mú ga (+5)
+VideoDecrease=Sọ dì (-5)
+VideoReset=Tún Ṣe
+VideoAdjustDialog=Ṣíṣàtúnṣe &Fídíò...
+
+; Àkójọ Wíwo
+View=Wí&wo
+ViewAlwaysOnTop=&Máa Wà Lókè
+ViewFitToVideo=&Ṣe Ojú-fèrèsé Bá Fídíò mu
+ViewScale=Ìwọ̀n &Ojú-fèrèsé
+
+; Ìgbésẹ̀ 26: Àkójọ Ìríran
+ViewVisualization=Ì&ríran
+VisNone=&Kò sí
+VisSpectrum=&Àtúpalẹ̀ Spectrum
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=Ìwọ̀n &VU
+VisNextMode=&Ìpele Tókàn
+VisNextColor=Ètò &Àwọ̀ Tókàn
+
+; Àkójọ Àkọsílẹ̀
+Subtitles=Àkọ&sílẹ̀
+SubtitleTrack=&Orin Àkọsílẹ̀
+SubtitleLoad=&Gbé Àkọsílẹ̀...
+SubtitleDelay=Ì&dádúró Àkọsílẹ̀
+SubtitleDelayPlus=Ìdádúró +0.1s
+SubtitleDelayMinus=Ìdádúró -0.1s
+SubtitleDelayReset=Tún Ìdádúró Ṣe
+
+; Àkójọ Àwọn Irinṣẹ́
+Tools=Àwọn &Irinṣẹ́
+ToolsPlaylist=&Àtọ́jọ Orin
+ToolsRadios=&Rédíò
+ToolsShortcuts=Àwọn &Ọ̀nà Àbùdá...
+ToolsOptions=&Àwọn Àṣàyàn
+
+; Ìgbésẹ̀ 27: Àkójọ Ìgbasilẹ̀
+ToolsRecord=&Ṣe Ìgbasilẹ̀ Ṣíṣàn...
+ToolsStopRecord=&Dá Ìgbasilẹ̀ Dúró
+ToolsRecording=Ì&gbasilẹ̀...
+
+; Àkójọ Ìrànlọ́wọ́
+Help=Ì&rànlọ́wọ́
+HelpMediaInfo=&Ìròyìn Mídíà
+HelpLog=&Ojú-fèrèsé Log
+HelpAbout=&Nípa
+
+[Dialog]
+OpenFile=Ṣí Fáìlì
+OpenURL=Ṣí URL
+SaveScreenshot=Fi Àwòrán Ojú pamọ́
+LoadSubtitle=Gbé Fáìlì Àkọsílẹ̀
+EnterURL=Tẹ URL:
+ResumePlayback=Bẹ̀rẹ̀ Ìṣàmúlò
+ResumeFrom=Bẹ̀rẹ̀ láti %s?
+ClearRecentFiles=Pa Àwọn Fáìlì Àìpẹ́ rẹ́
+NoRecentFiles=(Kò sí fáìlì àìpẹ́)
+NoAudioTracks=(Kò sí orin ohùn)
+NoVideoTracks=(Kò sí orin fídíò)
+NoSubtitleTracks=(Kò sí orin àkọsílẹ̀)
+NoChapters=(Kò sí orí)
+OpenDVD=Ṣí DVD
+OpenBluray=Ṣí Blu-ray
+OpenFolder=Ṣí Fódà
+
+; Àwọn àṣàájú fáìlì
+ScreenshotFilter=Àwòrán PNG|*.png|Àwòrán JPEG|*.jpg|Àwòrán WebP|*.webp
+DVDFilter=Fódà DVD|*.;*.iso|Gbogbo fáìlì (*.*)|*.*
+BlurayFilter=Fódà Blu-ray|*.;*.iso|Gbogbo fáìlì (*.*)|*.*
+NoDVD=(Kò sí DVD tí a gbé)
+DVDTitle=Àkọlé %d
+GotoTime=Lọ sí Àkókò
+EnterTime=Tẹ àkókò láti fò sí:
+Hours=Wákàtí
+Minutes=Ìṣẹ́jú
+Seconds=Àáyá
+Current=Lọ́wọ́lọ́wọ́:
+HistoryTitle=Ìtàn Ìṣàmúlò
+HistoryItems=%d àwọn ohun nínú ìtàn
+HistoryPlay=&Ṣe
+HistoryRemove=&Yọ kúrò nínú Ìtàn
+HistoryClear=&Pa Gbogbo Ìtàn rẹ́
+HistoryOpenFolder=Ṣí &Fódà
+HistoryCopyPath=&Dà Ọ̀nà
+ClearHistory=Pa Ìtàn rẹ́
+ClearHistoryConfirm=Ǹjẹ́ o dá a lójú pé o fẹ́ pa gbogbo ìtàn rẹ́?
+SleepTimerTitle=Àkókò Orun
+SleepTimerDescription=Ṣètò àkókò láti dá ìṣàmúlò dúró láìfọwọ́yí
+SleepTimerHours=Wákàtí
+SleepTimerMinutes=Ìṣẹ́jú
+SleepTimerQuickSet=Ṣètò Kíá
+SleepTimerAction=Nígbà tí àkókò bá parí
+SleepTimerStopPlayback=Dá ìṣàmúlò dúró
+SleepTimerCloseApp=Pa ètò dé
+SleepTimerShutdown=Pa kọ̀mpútà dé
+SleepTimerStart=Bẹ̀rẹ̀ Àkókò
+
+[Status]
+Ready=Ṣetán
+Opening=Ń ṣí...
+Playing=Ń ṣe
+Paused=Dúró
+Stopped=Ti dá dúró
+Error=Àṣìṣe
+Buffering=Ń kójọpọ̀...
+Seeking=Ń wá...
+Recording=Ń ṣe ìgbasilẹ̀
+
+[Message]
+SpeedFormat=Ìyára: %.2fx
+VolumeFormat=Ohùn: %d%%
+BrightnessFormat=Ìmọ́lẹ̀: %d
+ContrastFormat=Ìyàtọ̀: %d
+SaturationFormat=Ìkún Àwọ̀: %d
+HueFormat=Àwọ̀: %d
+GammaFormat=Gamma: %d
+ColorsReset=A ti tún àwọ̀ fídíò ṣe
+LoopASet=A ti ṣètò yípo A ní %s
+LoopBSet=A ti ṣètò yípo B ní %s - Yípo ń ṣiṣẹ́
+LoopCleared=A ti pa yípo A-B rẹ́
+SetAFirst=Ṣètò àyè A kọ́kọ́ (tẹ L)
+RotationFormat=Yíyí: %d°
+FlipHOn=Yíyí pẹ̀tẹ́lẹ̀: TAN
+FlipHOff=Yíyí pẹ̀tẹ́lẹ̀: PAÀDÉ
+FlipVOn=Yíyí gégé: TAN
+FlipVOff=Yíyí gégé: PAÀDÉ
+DeinterlaceOn=Deinterlace: TAN
+DeinterlaceOff=Deinterlace: PAÀDÉ
+AlwaysOnTopOn=Máa wà lókè: TAN
+AlwaysOnTopOff=Máa wà lókè: PAÀDÉ
+WindowFitted=A ti ṣe ojú-fèrèsé bá %dx%d mu
+WindowScale=Ìwọ̀n ojú-fèrèsé: %.0f%%
+ScreenshotSaved=A ti fi àwòrán ojú pamọ́: %s
+AudioNormalizeOn=Ṣíṣe deede ohùn: TAN
+AudioNormalizeOff=Ṣíṣe deede ohùn: PAÀDÉ
+AudioDelayFormat=Ìdádúró ohùn: %.1f s
+SubtitleDelayFormat=Ìdádúró àkọsílẹ̀: %.1f s
+ZoomFormat=Fààyè: %.0f%%
+PanCenter=Pan: Àárín
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Kò sí fídíò tí a gbé
+PlayingFromClipboard=Ń ṣe láti clipboard: %s
+ClipboardInvalid=Clipboard kò ní URL tàbí ọ̀nà tó tọ́
+ClipboardEmpty=Clipboard ṣófo tàbí kò ní ọ̀rọ̀
+ResumedAt=A bẹ̀rẹ̀ ní %s
+FrameStepForward=Ìgbésẹ̀ fréèmù síwájú
+FrameStepBackward=Ìgbésẹ̀ fréèmù sẹ́yìn
+PreviousChapter=Orí tẹ́lẹ̀
+NextChapter=Orí tókàn
+PlayingRadio=Ń ṣe rédíò: %s
+PlayingDVD=Ń ṣe DVD: %s
+PlayingBluray=Ń ṣe Blu-ray: %s
+DVDTitlePlaying=Àkọlé DVD %d
+SeekTo=Ń wá sí %s
+MinimizedToTray=A ti sọ dì sí tréè. Tẹ lẹ́ẹ̀mejì láti mú padà.
+SleepTimerSet=A ti ṣètò àkókò orun: %s
+SleepTimerCancelled=A ti fagilé àkókò orun
+SleepTimerWarning=Àkókò orun: Ìṣẹ́jú 1 kù
+SleepTimerFinal=Àkókò orun: Àáyá 10 kù
+SleepTimerStopped=Àkókò orun: A ti dá ìṣàmúlò dúró
+SleepTimerClosing=Àkókò orun: Ń pa ètò dé
+SleepTimerShutdown=Àkókò orun: Ń pa kọ̀mpútà dé
+SleepTimerExpired=Àkókò Orun Ti Parí
+ShutdownManual=Jọ̀wọ́ pa kọ̀mpútà rẹ dé lọ́wọ́.
+
+; Ìgbésẹ̀ 21: Ṣí Fódà
+FolderOpened=A ti ṣí fódà: %d fáìlì
+NoMediaFound=Kò rí fáìlì mídíà
+FilesAdded=A ti fi %d fáìlì kún àtọ́jọ orin
+
+; Ìgbésẹ̀ 27: Àwọn ìfiránṣẹ́ ìgbasilẹ̀
+RecordNeedPlayback=Bẹ̀rẹ̀ ìṣàmúlò kí o tó ṣe ìgbasilẹ̀.
+RecordingStarted=Ìgbasilẹ̀ ti bẹ̀rẹ̀
+RecordingStopped=A ti dá ìgbasilẹ̀ dúró
+
+; Àwọn ìfiránṣẹ́ ipò míràn
+EndOfPlaylist=Òpin àtọ́jọ orin
+NoMediaLoaded=Kò sí fáìlì mídíà tí a gbé lọ́wọ́lọ́wọ́.
+JumpedToNamed=A fò sí: %s
+ChapterFormat=Orí %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Àmì ìwé ní %s
+
+[Label]
+Muted=A ti dákẹ́
+
+[Button]
+Play=Ṣe
+Pause=Dúró
+Stop=Dá dúró
+Previous=Tẹ́lẹ̀
+Next=Tókàn
+Mute=Dákẹ́
+Unmute=Mú Ohùn padà
+Fullscreen=Ojú Kíkún
+OK=Ó dára
+Cancel=Fagilé
+Apply=Lo
+Close=Pa dé
+Yes=Bẹ́ẹ̀ ni
+No=Rárá
+
+[Tooltip]
+Play=Ṣe/Dúró
+Stop=Dá ìṣàmúlò dúró
+Previous=Orin tẹ́lẹ̀
+Next=Orin tókàn
+Mute=Yí dákẹ́ padà
+Volume=Ohùn
+Seek=Ipò wíwá
+Fullscreen=Yí ojú kíkún padà
+
+[Playlist]
+Title=Àtọ́jọ Orin
+Add=Fi kún
+Remove=Yọ kúrò
+Clear=Pa rẹ́
+MoveUp=Gbe Sókè
+MoveDown=Gbe Sísàlẹ̀
+Shuffle=Dàpọ̀
+Repeat=Tún ṣe
+Play=Ṣe
+ShuffleOn=Dàpọ̀: Tan
+ShuffleOff=Dàpọ̀: Paàdé
+RepeatOff=Tún ṣe: Paàdé
+RepeatOne=Tún ṣe: Ọ̀kan
+RepeatAll=Tún ṣe: Gbogbo
+SavePlaylist=Fi pamọ́
+LoadPlaylist=Gbé
+TotalDuration=Àpapọ̀: %s
+ItemCount=%d àwọn ohun
+
+; Ìgbésẹ̀ 22: Ìmúdára Àtọ́jọ Orin
+Search=Wá:
+FilterPlaceholder=Ṣàwárí àtọ́jọ orin...
+ClearSearch=Pa rẹ́
+FilterCount=%d/%d
+RemoveDuplicates=Yọ &Àdákọ
+Properties=&Àwọn Ohun Ìní...
+NoDuplicates=Kò rí àdákọ.
+DuplicatesFound=A rí %d àdákọ. Yọ wọ́n?
+RemoveDuplicatesTitle=Yọ Àdákọ
+PropertiesTitle=Àwọn Ohun Ìní Àtọ́jọ Orin
+PropTotalItems=Àpapọ̀ àwọn ohun: %d
+PropTotalDuration=Àpapọ̀ ìgbà: %s
+PropPlayed=A ti ṣe: %d
+PropUnplayed=A kò tí ṣe: %d
+PropTotalSize=Àpapọ̀ ìwọ̀n: %.2f MB
+PropShuffle=Dàpọ̀: %s
+PropRepeat=Tún ṣe: %s
+On=Tan
+Off=Paàdé
+
+; Àwọn kókó tuntun fún ApplyLocale
+ClearTitle=Pa Àtọ́jọ Orin rẹ́
+ClearConfirm=Ǹjẹ́ o dá a lójú pé o fẹ́ pa àtọ́jọ orin rẹ́?
+NoPlaylist=Kò sí àtọ́jọ orin
+StatusFormat=%d àwọn ohun | Àpapọ̀: %s
+RepeatOne=Tún 1
+RepeatAll=Tún Gbogbo
+HintRepeatEnable=Tẹ láti tan Tún ṣe Gbogbo
+HintRepeatOne=Tún ṣe Ọ̀kan - Tẹ láti pa
+HintRepeatAll=Tún ṣe Gbogbo - Tẹ fún Tún ṣe Ọ̀kan
+HintShuffleRepeat=Dàpọ̀ + Tún ṣe Gbogbo - Tẹ láti pa tún ṣe
+RemoveDuplicatesTitle=Yọ Àdákọ
+NoDuplicates=Kò rí àdákọ.
+SelectAll=Yan Gbogbo
+SelectNone=Yọ Àyànfẹ́
+SelectInvert=Yí Àyànfẹ́ padà
+Sort=Tò lẹ́sẹẹsẹ
+SortByName=Nípa Orúkọ
+SortByTitle=Nípa Àkọlé
+SortByArtist=Nípa Olórin
+SortByDuration=Nípa Ìgbà
+SortReverse=Yí padà
+SortRandom=Dàpọ̀
+ColTitle=Àkọlé
+ColDuration=Ìgbà
+ColArtist=Olórin
+ColAlbum=Àkópọ̀ Orin
+PlaylistFilter=Àtọ́jọ Orin M3U|*.m3u|Àtọ́jọ Orin M3U8|*.m3u8|Àtọ́jọ Orin PLS|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Àwọn Ìṣàjúṣe:
+Preamp=Preamp:
+Flat=Pẹ́pẹ́
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Àtijọ́
+BassBoost=Mú Bass Ga
+TrebleBoost=Mú Treble Ga
+Vocal=Ohùn
+Reset=Tún Ṣe
+Enable=Tan Equalizer
+Save=Fi pamọ́
+Delete=Pa rẹ́
+Ready=Ṣetán
+; Àwọn bọ́tìnì àti àwọn iṣẹ́
+SavePreset=Fi Ìṣàjúṣe pamọ́
+DeletePreset=Pa Ìṣàjúṣe rẹ́
+SavePresetTitle=Fi Ìṣàjúṣe pamọ́
+PresetNamePrompt=Orúkọ ìṣàjúṣe:
+EnterPresetName=Jọ̀wọ́ tẹ orúkọ ìṣàjúṣe.
+OverwritePresetTitle=Kọ Lórí Ìṣàjúṣe
+OverwritePresetConfirm=Ìṣàjúṣe pẹ̀lú orúkọ yìí ti wà tẹ́lẹ̀. Kọ lórí rẹ̀?
+PresetUpdated=A ti ṣe àtúnṣe ìṣàjúṣe: %s
+PresetSaved=A ti fi ìṣàjúṣe pamọ́: %s
+SelectPresetToDelete=Jọ̀wọ́ yan ìṣàjúṣe láti pa.
+CannotDeleteDefault=Kò lè pa àwọn ìṣàjúṣe àkọ́kọ́.
+DeletePresetTitle=Pa Ìṣàjúṣe
+DeletePresetConfirm=Ǹjẹ́ o dá a lójú pé o fẹ́ pa ìṣàjúṣe yìí?
+PresetDeleted=A ti pa ìṣàjúṣe
+ResetToFlat=A ti tún equalizer ṣe sí pẹ́pẹ́
+PresetApplied=A ti lo ìṣàjúṣe: %s
+
+[Options]
+Title=Àwọn Àṣàyàn
+General=Gbogbogbò
+Video=Fídíò
+Audio=Ohùn
+Subtitles=Àkọsílẹ̀
+Cache=Cache
+Language=Èdè:
+RestartRequired=A nílò ìtúnbẹ̀rẹ̀ kí àwọn àyípadà bàa lè ṣiṣẹ́
+
+; Táàbù Gbogbogbò - Ìhùwàsí
+Behavior=Ìhùwàsí
+SingleInstance=Gbà àpẹẹrẹ kan ṣoṣo
+AutoPlay=Ṣe àwọn fáìlì láìfọwọ́yí lẹ́yìn títí
+AutoResume=Bẹ̀rẹ̀ ipò ìṣàmúlò
+MinimizeToTray=Sọ dì sí tréè ètò
+AutoSavePlaylist=Fi àtọ́jọ orin pamọ́ lẹ́yìn jíjáde
+
+; Táàbù Gbogbogbò - OSD
+OSD=Ìfihàn Lórí Ojú
+ShowOSD=Fi àwọn ìfiránṣẹ́ lórí ojú hàn
+ShowTrayIcon=Fi àmì tréè hàn
+OSDDuration=Ìgbà OSD (ms):
+
+; Táàbù Gbogbogbò - Àwọn Àwòrán Ojú
+Screenshots=Àwọn Àwòrán Ojú
+ScreenshotPath=Fódà ìfipamọ́:
+ScreenshotFormat=Ọ̀nà:
+
+; Táàbù Gbogbogbò - Ìtàn
+HistorySettings=Ìtàn
+HistoryEnabled=Tan ìtàn ìṣàmúlò
+HistoryMaxItems=Àwọn ohun púpọ̀ jùlọ:
+
+; Táàbù Gbogbogbò - Èdè
+LanguageGroup=Èdè
+RestartNote=(A nílò ìtúnbẹ̀rẹ̀ fún àwọn àyípadà)
+
+; Táàbù Fídíò
+VideoAdjust=Ṣíṣàtúnṣe Fídíò
+Brightness=Ìmọ́lẹ̀:
+Contrast=Ìyàtọ̀:
+Saturation=Ìkún Àwọ̀:
+Hue=Àwọ̀:
+Gamma=Gamma:
+VideoOutput=Ìjáde Fídíò
+Output=Ìjáde:
+HWAccel=Tan ìmúṣiṣẹ́ ohun ìjẹ́
+Deinterlacing=Deinterlacing
+Mode=Ìpele:
+
+; Táàbù Ohùn
+AudioOutput=Ìjáde Ohùn
+OutputDriver=Awakọ̀ ìjáde:
+Device=Ẹ̀rọ:
+AudioOptions=Àwọn Àṣàyàn Ohùn
+NormalizeAudio=Ṣe deede ohùn
+Channels=Àwọn Ọ̀nà:
+
+; Táàbù Àkọsílẹ̀
+UseDefaultSubtitles=Lo àwọn ètò àkọsílẹ̀ àkọ́kọ́
+Font=Fọ́ntì
+FontName=Fọ́ntì:
+FontSize=Ìwọ̀n:
+FontColor=Àwọ̀:
+Bold=Nípa
+Italic=Tẹríba
+Outline=Ètè
+OutlineColor=Àwọ̀:
+OutlineSize=Ìwọ̀n:
+Position=Ipò
+VerticalPosition=Ipò gígùn:
+SubOptions=Àwọn Àṣàyàn
+Encoding=Encoding:
+AutoLoadSubs=Gbé àwọn fáìlì àkọsílẹ̀ láìfọwọ́yí
+
+; Àwọn ìkìlọ̀ ìjáde fídíò
+VOWarningX11=Ìkìlọ̀: x11 kò ṣe àtìlẹ́yìn fún àwọn ṣíṣàtúnṣe fídíò (ìmọ́lẹ̀, ìyàtọ̀, àti bẹ́ẹ̀ bẹ́ẹ̀ lọ.)
+VOWarningWayland=Ìkìlọ̀: Ó nílò ìgbà Wayland. A ṣe àtìlẹ́yìn àwọn ṣíṣàtúnṣe fídíò.
+
+; Táàbù Cache
+CacheSettings=Àwọn Ìwọ̀n Buffer Cache (KB)
+CacheDefault=Cache àkọ́kọ́:
+CacheLocal=Àwọn fáìlì àdúgbò:
+CacheNetwork=Àwọn fáìlì nẹ́tíwọ́kì:
+CacheInternet=Àwọn ṣíṣàn Íntánẹ́ẹ̀tì:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Nípa
+Version=Ẹ̀yà
+Engine=Ẹnjínì
+Technology=Tẹknọ́lọ́jì
+BuildInfo=Ìròyìn Ìkọ́
+SystemInfo=Ètò
+Credits=Àwọn Ìdúpẹ́
+Developer=Olùgbéjáde:
+Author=Olùkọ́
+License=Ìwé-àṣẹ
+Website=Ojú-ìwé Wẹ́ẹ̀bù
+GitHub=GitHub
+Description=Olùṣàmúlò mídíà ìgbàlódé, tó fẹ́ẹ́rẹ́
+LicenseText=3nity Media wà lábẹ́ ìwé-àṣẹ GPL-2.0\n\nÈyí túmọ̀ sí pé o ní òmìnira láti:\n  • Lo software fún ohunkóhun\n  • Kẹ́kọ̀ọ́ àti yí koodu àbùdá padà\n  • Pín àwọn ẹ̀dà software\n  • Pín àwọn àyípadà rẹ\n\nLábẹ́ ìpèsè pé àwọn àyípadà tí a pín\nní láti wà lábẹ́ ìwé-àṣẹ GPL-2.0 pẹ̀lú.
+BuildDate=Ọjọ́:
+Target=Àfojúsùn:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Àwọn Ọ̀nà Àbùdá Keyboard
+Description=Ṣètò àwọn ọ̀nà àbùdá fún àwọn iṣẹ́
+Search=Wá:
+PressKey=Tẹ bọ́tìnì...
+ColCategory=Ẹ̀ka
+ColAction=Iṣẹ́
+ColShortcut=Ọ̀nà Àbùdá
+Assign=Sọ
+Clear=Pa rẹ́
+Reset=Tún Ṣe
+ResetAll=Tún Gbogbo Ṣe
+CurrentShortcut=Lọ́wọ́lọ́wọ́: %s
+NoKeyPressed=Jọ̀wọ́ tẹ àpapọ̀ bọ́tìnì kọ́kọ́.
+Conflict=Ìjà: A ti sọ tẹ́lẹ̀ fún "%s"
+ConfirmReplace=Rọ́pò Ọ̀nà Àbùdá
+ReplaceMessage=A ti sọ ọ̀nà àbùdá yìí tẹ́lẹ̀ fún "%s". Ṣé o fẹ́ rọ́pò rẹ̀?
+ConfirmResetAll=Tún Gbogbo Àwọn Ọ̀nà Àbùdá Ṣe
+ResetAllMessage=Ǹjẹ́ o dá a lójú pé o fẹ́ tún gbogbo àwọn ọ̀nà àbùdá ṣe sí àkọ́kọ́?
+; Àwọn orúkọ iṣẹ́
+ActPlayPause=Ṣe / Dúró
+ActStop=Dá dúró
+ActPrevious=Tẹ́lẹ̀
+ActNext=Tókàn
+ActSeekForward=Wá Síwájú (10s)
+ActSeekBackward=Wá Sẹ́yìn (10s)
+ActSeekForward5=Wá Síwájú (ìṣẹ́jú 1)
+ActSeekBackward5=Wá Sẹ́yìn (ìṣẹ́jú 1)
+ActSpeedUp=Mú Ìyára Ga
+ActSpeedDown=Sọ Ìyára Dì
+ActSpeedReset=Tún Ìyára Ṣe
+ActSetLoopA=Ṣètò Àyè Yípo A
+ActSetLoopB=Ṣètò Àyè Yípo B
+ActClearLoop=Pa Yípo A-B rẹ́
+ActFrameForward=Fréèmù Síwájú
+ActFrameBackward=Fréèmù Sẹ́yìn
+ActPrevChapter=Orí Tẹ́lẹ̀
+ActNextChapter=Orí Tókàn
+ActGotoTime=Lọ sí Àkókò
+ActVolumeUp=Mú Ohùn Ga
+ActVolumeDown=Sọ Ohùn Dì
+ActMute=Dákẹ́ / Mú padà
+ActAudioDelayPlus=Ìdádúró Ohùn +
+ActAudioDelayMinus=Ìdádúró Ohùn -
+ActAudioDelayReset=Tún Ìdádúró Ohùn Ṣe
+ActFullscreen=Ojú Kíkún
+ActRotate=Yí Fídíò
+ActDeinterlace=Deinterlace
+ActZoomIn=Fààyè Sínú
+ActZoomOut=Fààyè Síta
+ActZoomReset=Tún Fààyè Ṣe
+ActAlwaysOnTop=Máa Wà Lókè
+ActFitToVideo=Bá Fídíò mu
+ActScreenshot=Àwòrán Ojú
+ActVideoAdjust=Ṣíṣàtúnṣe Fídíò
+ActVisNextMode=Ìpele Ìríran Tókàn
+ActVisNextColor=Ètò Àwọ̀ Tókàn
+ActSubDelayPlus=Ìdádúró Àkọsílẹ̀ +
+ActSubDelayMinus=Ìdádúró Àkọsílẹ̀ -
+ActSubDelayReset=Tún Ìdádúró Àkọsílẹ̀ Ṣe
+ActDVDMenu=Àkójọ DVD
+ActDVDUp=Lọ Sókè ní DVD
+ActDVDDown=Lọ Sísàlẹ̀ ní DVD
+ActDVDLeft=Lọ Sòsì ní DVD
+ActDVDRight=Lọ Sọ́tún ní DVD
+ActDVDSelect=Yan ní DVD
+ActOpenFile=Ṣí Fáìlì
+ActOpenURL=Ṣí URL
+ActPlaylist=Fi Àtọ́jọ Orin hàn
+ActQuit=Jáde
+
+[Log]
+; Ìgbésẹ̀ 25: Ojú-fèrèsé Log
+Title=Log MPV
+Command=Àṣẹ:
+Clear=Pa rẹ́
+Save=Fi pamọ́...
+Copy=&Dà
+SelectAll=Yan &Gbogbo
+SaveTitle=Fi Log pamọ́
+SaveFilter=Àwọn fáìlì ọ̀rọ̀ (*.txt)|*.txt|Gbogbo fáìlì (*.*)|*.*
+ErrorTitle=Àṣìṣe
+SaveError=Kò lè fi log pamọ́: %s
+
+[MediaInfo]
+Title=Ìròyìn Mídíà
+FileTab=Fáìlì
+VideoTab=Fídíò
+AudioTab=Ohùn
+MetadataTab=Metadata
+FileName=Orúkọ Fáìlì:
+FilePath=Ọ̀nà:
+FileSize=Ìwọ̀n:
+Duration=Ìgbà:
+Format=Ọ̀nà:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Ìgéga:
+FrameRate=Iye Fréèmù:
+PixelFormat=Ọ̀nà Pixel:
+AspectRatio=Ìwọ̀n Ojú:
+Channels=Àwọn Ọ̀nà:
+SampleRate=Iye Àwòṣe:
+Language=Èdè:
+Property=Ohun ìní
+Value=Iye
+CopyAll=Dà Gbogbo
+CopiedToClipboard=A ti dà ìròyìn mídíà sí clipboard.
+NA=Kò sí
+NAStream=Kò sí (ṣíṣàn)
+NALive=Kò sí (ní tààrà)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Àìmọ̀
+NoMetadata=(Kò sí metadata)
+
+[Bookmarks]
+Title=Àwọn Àmì ìwé
+Goto=Lọ sí
+Remove=Yọ kúrò
+Clear=Pa Gbogbo rẹ́
+Refresh=Tún ṣe
+OpenFolder=Ṣí Fódà
+CopyPath=Dà Ọ̀nà
+; Àwọn ìlà
+ColName=Orúkọ
+ColFile=Fáìlì
+ColPosition=Ipò
+ColCreated=A Dá
+; Àwọn Ìjíròrò
+ClearTitle=Pa Àwọn Àmì ìwé rẹ́
+ClearConfirm=Ǹjẹ́ o dá a lójú pé o fẹ́ pa gbogbo àmì ìwé rẹ́?
+Count=àmì ìwé %d
+
+[Favorites]
+Title=Àwọn Àyànfẹ́
+Play=Ṣe
+Remove=Yọ kúrò
+Clear=Pa Gbogbo rẹ́
+Refresh=Tún ṣe
+OpenFolder=Ṣí Fódà
+CopyPath=Dà Ọ̀nà
+; Àwọn ìlà
+ColName=Orúkọ
+ColType=Irú
+ColPath=Ọ̀nà
+; Àwọn Irú
+TypeFile=Fáìlì
+TypeURL=URL
+TypeRadio=Rédíò
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Àìmọ̀
+; Àwọn Ìjíròrò
+ClearTitle=Pa Àwọn Àyànfẹ́ rẹ́
+ClearConfirm=Ǹjẹ́ o dá a lójú pé o fẹ́ pa gbogbo àyànfẹ́ rẹ́?
+Count=%d àyànfẹ́
+
+[History]
+Title=Ìtàn Ìṣàmúlò
+Play=Ṣe
+Remove=Yọ kúrò
+Clear=Pa Gbogbo rẹ́
+Refresh=Tún ṣe
+OpenFolder=Ṣí Fódà
+CopyPath=Dà Ọ̀nà
+; Àwọn ìlà
+ColFileName=Fáìlì
+ColPath=Ọ̀nà
+; Àwọn Ìjíròrò
+ClearTitle=Pa Ìtàn rẹ́
+ClearConfirm=Ǹjẹ́ o dá a lójú pé o fẹ́ pa gbogbo ìtàn rẹ́?
+Count=%d ohun
+
+[SleepTimer]
+Title=Àkókò Orun
+Description=Ṣètò àkókò láti dá ìṣàmúlò dúró láìfọwọ́yí
+Hours=Wákàtí:
+Minutes=Ìṣẹ́jú:
+Action=Nígbà tí àkókò bá parí:
+StopPlayback=Dá ìṣàmúlò dúró
+CloseApp=Pa ètò dé
+Shutdown=Pa kọ̀mpútà dé
+QuickSet=Ṣètò kíákíá:
+15Min=Ìṣẹ́jú 15
+30Min=Ìṣẹ́jú 30
+1Hour=Wákàtí 1
+2Hours=Wákàtí 2
+
+[Radios]
+Title=Àwọn Rédíò Íntánẹ́ẹ̀tì
+Play=Ṣe
+Add=Fi kún
+Edit=Ṣàtúnṣe
+Delete=Pa rẹ́
+Remove=Yọ kúrò
+Import=Gbé wọlé
+Export=Gbé jáde
+Refresh=Tún ṣe
+Favorite=Àyànfẹ́
+ShowFavorites=Àwọn Àyànfẹ́
+ShowAll=Gbogbo
+; Àṣàájú
+Genre=Irú:
+Search=Wá:
+SearchBtn=Wá
+ClearSearch=Pa rẹ́
+AllGenres=(Gbogbo Irú)
+; Àkójọ àlàyé
+AddFavorite=Fi kún Àwọn Àyànfẹ́
+RemoveFavorite=Yọ kúrò nínú Àwọn Àyànfẹ́
+AddCustom=Fi Ìbùdó Tìrẹ kún...
+EditCustom=Ṣàtúnṣe Ìbùdó...
+DeleteCustom=Pa Ìbùdó rẹ́
+OpenWebsite=Ṣí Ojú-ìwé Wẹ́ẹ̀bù
+CopyURL=Dà URL
+; Àwọn ìlà
+ColName=Orúkọ
+ColGenre=Irú
+ColBitrate=Bitrate
+ColCountry=Orílẹ̀-èdè
+ColCodec=Codec
+; Àwọn Ìjíròrò
+AddTitle=Fi Ìbùdó Tìrẹ kún
+EditTitle=Ṣàtúnṣe Ìbùdó
+DeleteTitle=Pa Ìbùdó rẹ́
+DeleteConfirm=Ǹjẹ́ o dá a lójú pé o fẹ́ pa ìbùdó yìí?
+StationName=Orúkọ Ìbùdó:
+StreamURL=URL Ṣíṣàn:
+GenrePrompt=Irú:
+NameURLRequired=A nílò orúkọ àti URL.
+; Àwọn ìfiránṣẹ́ ipò
+LoadingIcecast=Ń gbé àwọn ìbùdó láti ìtọ́sọ́nà Icecast...
+IcecastError=Kò lè gbé ìtọ́sọ́nà Icecast. Ń lo àwọn ìbùdó àkọ́kọ́.
+NoStationsLoaded=Kò sí ìbùdó tí a gbé
+StationCount=%d àwọn ìbùdó
+LoadedStations=A ti gbé %d ìbùdó
+ErrorPrefix=Àṣìṣe:
+; Àwọn kókó àtijọ́
+Name=Orúkọ
+URL=URL
+Bitrate=Bitrate
+Description=Àpèjúwe
+Country=Orílẹ̀-èdè
+
+[OpenURL]
+Title=Ṣí URL
+Prompt=Tẹ URL mídíà:
+
+[GotoTime]
+Title=Lọ sí Àkókò
+EnterTime=Tẹ àkókò láti fò sí:
+Hours=W
+Minutes=Ì
+Seconds=À
+Current=Lọ́wọ́lọ́wọ́:
+Duration=Ìgbà:
+
+[VideoAdjust]
+Title=Ṣíṣàtúnṣe Fídíò
+Brightness=Ìmọ́lẹ̀:
+Contrast=Ìyàtọ̀:
+Saturation=Ìkún Àwọ̀:
+Hue=Àwọ̀:
+Gamma=Gamma:
+ResetAll=Tún Gbogbo Àwọ̀ Ṣe
+
+[CLI]
+; Ìròyìn ìlà àṣẹ
+Usage=Lílo
+Arguments=[ÀṢÀYÀN] [FÁÌLÌ|URL|FÓDÀ]
+Description=Ẹ̀rọ orin multimedia tí ó ń ṣiṣẹ́ lórí àwọn ètò púpọ̀ tí ó ń lo libmpv.
+Options=ÀṢÀYÀN
+Examples=ÀPẸẸRẸ
+MoreInfo=Fún àlàyé síi, ṣàbẹ̀wò
+EnqueuedTo=Ti fi sí ìlà ti àpẹẹrẹ tí ó wà: %s
+SentTo=Ti rán sí àpẹẹrẹ tí ó wà: %s
+AlreadyRunning=3nity Media ti ń ṣiṣẹ́ tẹ́lẹ̀.
+ErrorFileNotFound=Àṣìṣe: Fáìlì tàbí ìkọ̀wé kò rí: %s
+ErrorSubNotFound=Àṣìṣe: Fáìlì àkọlé kò rí: %s

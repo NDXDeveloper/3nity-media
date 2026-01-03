@@ -1,0 +1,892 @@
+[Language]
+Name=Chichewa - Chichewa
+Code=ny
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Fayilo
+FileOpen=&Tsegula Fayilo...
+FileOpenURL=Tsegula &URL...
+FileOpenClipboard=Tsegula kuchokera &Clipboard
+FileRecent=Ma&fayilo Amposachedwa
+ClearRecentFiles=Chotsani Mafayilo Amposachedwa
+FileExit=&Tulukani
+
+; Playback menu
+Playback=&Sewera
+PlaybackPlayPause=&Sewera/Ima
+PlaybackStop=&Siya
+PlaybackPrevious=Ya&pitayi
+PlaybackNext=Yo&tsatira
+PlaybackSeekForward=Fufuzani &Kutsogolo
+PlaybackSeekBackward=Fufuzani &Kumbuyo
+PlaybackSpeed=&Liwiro
+PlaybackABLoop=Loop ya A-&B
+PlaybackSetA=Ikani &A
+PlaybackSetB=Ikani &B
+PlaybackClearAB=&Chotsani A-B
+PlaybackChapters=&Machaputala
+PlaybackPrevChapter=Chaputala Chapitayi
+PlaybackNextChapter=Chaputala Chotsatira
+PlaybackFrameStep=Sitepe ya Freemu Kutsogolo
+PlaybackFrameBack=Sitepe ya Freemu Kumbuyo
+
+; DVD Navigation
+PlaybackDVD=Kutsogoledwa kwa &DVD
+DVDMenu=&Menu
+DVDUp=&Pamwamba
+DVDDown=&Pansi
+DVDLeft=Ku&manzere
+DVDRight=Ku&manja
+DVDSelect=&Sankhani
+PlaybackDVDTitles=&Maina a DVD
+
+; Phase 21: Open Folder
+FileOpenFolder=Tsegula &Foldala...
+
+; File menu DVD/Bluray
+FileOpenDVD=Tsegula &DVD...
+FileOpenBluray=Tsegula &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Pitani ku Nthawi...
+ToolsHistory=&Mbiri
+
+; Phase 14: System Tray
+TrayShow=&Onetsani/Bisirani
+TrayPlayPause=&Sewera/Ima
+TrayStop=&Siya
+TrayPrevious=Ya&pitayi
+TrayNext=Yo&tsatira
+TrayMute=&Letsa
+TrayExit=&Tulukani
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Onjezani &Chizindikiro...
+PlaybackBookmarks=Zi&zindikiro
+BookmarksTitle=Zizindikiro
+BookmarksGoto=&Pitani ku Chizindikiro
+BookmarksRemove=&Chotsani Chizindikiro
+BookmarksClear=&Chotsani Zizindikiro Zonse
+BookmarksOpenFolder=Tsegula &Foldala
+BookmarksCopyPath=&Koperani Njira
+BookmarksCount=zizindikiro %d
+NoBookmarks=(Palibe zizindikiro)
+NoFileLoaded=(Palibe fayilo yoikidwa)
+BookmarkAdded=Chizindikiro chawonjezedwa pa %s
+BookmarkJumped=Mwadumphira ku chizindikiro pa %s
+AddBookmarkTitle=Onjezani Chizindikiro
+AddBookmarkPrompt=Lembani dzina la chizindikiro:
+ShowAllBookmarks=Onetsani Zizindikiro Zonse...
+
+; Phase 16: Favorites
+ToolsFavorites=Zoko&ndedwa
+ToolsAddFavorite=Onjezani ku Zoko&ndedwa
+FavoritesTitle=Zokondedwa
+FavoritesPlay=&Sewera
+FavoritesRemove=&Chotsani ku Zokondedwa
+FavoritesClear=&Chotsani Zokondedwa Zonse
+FavoritesOpenFolder=Tsegula &Foldala
+FavoritesCopyPath=&Koperani Njira
+FavoritesCount=zokondedwa %d
+NoFavorites=(Palibe zokondedwa)
+AddFavoriteTitle=Onjezani ku Zokondedwa
+AddFavoritePrompt=Lembani dzina la chokondedwa:
+AlreadyFavorite=Zili kale mu zokondedwa
+AddedToFavorites=Zawonjezedwa ku zokondedwa: %s
+NoFileToFavorite=Palibe fayilo yoikidwa yowonjezera ku zokondedwa
+FavoriteTypeFile=Fayilo
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Wailesi
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Nyimbo %d: %s
+TrackWithLang=Nyimbo %d (%s)
+TrackNumber=Nyimbo %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Zimitsani
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=Nthawi yo&gona...
+ToolsSleepTimerActive=Nthawi yo&gona [%s]
+ToolsCancelTimer=Chotsani &Nthawi
+
+; Audio menu
+Audio=&Mawu
+AudioTrack=Nyimbo ya &Mawu
+AudioVolumeUp=Kuliritsa &Mawu
+AudioVolumeDown=Chepetsani &Mawu
+AudioMute=&Letsa
+AudioEqualizer=&Equalizer
+AudioDelay=&Kuchedwa kwa Mawu
+AudioDelayPlus=Chedwa +0.1s
+AudioDelayMinus=Chedwa -0.1s
+AudioDelayReset=Bwezerani Kuchedwa
+AudioNormalize=&Fananizani Mawu
+
+; Video menu
+Video=&Kanema
+VideoFullscreen=Skrini &Yonse
+VideoAspect=&Muyeso
+VideoAspectAuto=&Otomaki
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Chithunzi cha Skrini
+VideoScreenshotAs=Chithunzi cha Skrini &Monga...
+VideoRotation=&Zungulizani
+VideoRotate0=&0° (Zomwe zimachitika)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Tembenuzani
+VideoFlipH=Tembenuzani &Horizontale
+VideoFlipV=Tembenuzani &Vertikale
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Mkati
+VideoZoomOut=Zoom &Kunja
+VideoZoomReset=&Bwezerani Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan Ku&manzere
+VideoPanRight=Pan Ku&manja
+VideoPanUp=Pan &Pamwamba
+VideoPanDown=Pan &Pansi
+VideoPanReset=Bwe&zerani Pan
+VideoTrack=Nyimbo ya &Kanema
+VideoColors=Kusintha kwa &Makalala
+VideoBrightness=&Kuwala
+VideoContrast=&Kusiyana
+VideoSaturation=&Saturation
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Bwezerani &Makalala Onse
+VideoIncrease=Wonjezerani (+5)
+VideoDecrease=Chepetsani (-5)
+VideoReset=Bwezerani
+VideoAdjustDialog=Kusintha kwa &Kanema...
+
+; View menu
+View=&Onani
+ViewAlwaysOnTop=&Nthawi Zonse Pamwamba
+ViewFitToVideo=&Yetsani Windo ku Kanema
+ViewScale=&Muyeso wa Windo
+
+; Phase 26: Visualization menu
+ViewVisualization=&Kuonetsa
+VisNone=&Chilichonse
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=V&U Meter
+VisNextMode=Njira &Yotsatira
+VisNextColor=Mtundu &Wotsatira
+
+; Subtitles menu
+Subtitles=&Subtitle
+SubtitleTrack=Nyimbo ya &Subtitle
+SubtitleLoad=&Ikani Subtitle...
+SubtitleDelay=&Kuchedwa kwa Subtitle
+SubtitleDelayPlus=Chedwa +0.1s
+SubtitleDelayMinus=Chedwa -0.1s
+SubtitleDelayReset=Bwezerani Kuchedwa
+
+; Tools menu
+Tools=Zi&pogwedera
+ToolsPlaylist=&Mndandanda wa Nyimbo
+ToolsRadios=&Wailesi
+ToolsShortcuts=Zi&fupikitso za Kibodi...
+ToolsOptions=&Zosankha
+
+; Phase 27: Recording menu
+ToolsRecord=&Sungani...
+ToolsStopRecord=I&mitsani Kusungitsa
+ToolsRecording=&Sungani...
+
+; Help menu
+Help=&Thandizo
+HelpMediaInfo=Zambiri za &Media
+HelpLog=Windo la &Log
+HelpAbout=&Zokhudza
+
+[Dialog]
+OpenFile=Tsegula Fayilo
+OpenURL=Tsegula URL
+SaveScreenshot=Sungani Chithunzi cha Skrini
+LoadSubtitle=Ikani Fayilo ya Subtitle
+EnterURL=Lembani URL:
+ResumePlayback=Pitirizani Kusewera
+ResumeFrom=Pitirizani kuchokera %s?
+ClearRecentFiles=Chotsani Mafayilo Amposachedwa
+NoRecentFiles=(Palibe mafayilo amposachedwa)
+NoAudioTracks=(Palibe manyimbo a mawu)
+NoVideoTracks=(Palibe manyimbo a kanema)
+NoSubtitleTracks=(Palibe manyimbo a subtitle)
+NoChapters=(Palibe machaputala)
+OpenDVD=Tsegula DVD
+OpenBluray=Tsegula Blu-ray
+OpenFolder=Tsegula Foldala
+
+; File filters
+ScreenshotFilter=Chithunzi cha PNG|*.png|Chithunzi cha JPEG|*.jpg|Chithunzi cha WebP|*.webp
+DVDFilter=Foldala ya DVD|*.;*.iso|Mafayilo onse (*.*)|*.*
+BlurayFilter=Foldala ya Blu-ray|*.;*.iso|Mafayilo onse (*.*)|*.*
+NoDVD=(Palibe DVD yoikidwa)
+DVDTitle=Mutu %d
+GotoTime=Pitani ku Nthawi
+EnterTime=Lembani nthawi yomwe mukufuna kupitako:
+Hours=Maola
+Minutes=Maminitsi
+Seconds=Masekondi
+Current=Pano:
+HistoryTitle=Mbiri ya Kusewera
+HistoryItems=zinthu %d mu mbiri
+HistoryPlay=&Sewera
+HistoryRemove=&Chotsani ku Mbiri
+HistoryClear=&Chotsani Mbiri Yonse
+HistoryOpenFolder=Tsegula &Foldala
+HistoryCopyPath=&Koperani Njira
+ClearHistory=Chotsani Mbiri
+ClearHistoryConfirm=Mukutsimikiza kuti mukufuna kuchotsa mbiri yonse?
+SleepTimerTitle=Nthawi yogona
+SleepTimerDescription=Ikani nthawi yoimitsira kusewera mwadongosolo
+SleepTimerHours=Maola
+SleepTimerMinutes=Maminitsi
+SleepTimerQuickSet=Ikani Mwachangu
+SleepTimerAction=Nthawi ikatha
+SleepTimerStopPlayback=Siya kusewera
+SleepTimerCloseApp=Tseka pulogalamu
+SleepTimerShutdown=Zimitsani kompyuta
+SleepTimerStart=Yambani Nthawi
+
+[Status]
+Ready=Yolongosoka
+Opening=Kutsegula...
+Playing=Kusewera
+Paused=Yaima
+Stopped=Yasiya
+Error=Vuto
+Buffering=Kukonzekera...
+Seeking=Kufufuza...
+Recording=Kusungitsa
+
+[Message]
+SpeedFormat=Liwiro: %.2fx
+VolumeFormat=Mawu: %d%%
+BrightnessFormat=Kuwala: %d
+ContrastFormat=Kusiyana: %d
+SaturationFormat=Saturation: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Makalala a kanema abwezeretsa
+LoopASet=Loop A yaikidwa pa %s
+LoopBSet=Loop B yaikidwa pa %s - Loop ikugwira ntchito
+LoopCleared=Loop A-B yachotsedwa
+SetAFirst=Ikani poyinti A koyamba (dinani L)
+RotationFormat=Kuzunguliza: %d°
+FlipHOn=Tembenuzani horizontale: YATSEGULIDWA
+FlipHOff=Tembenuzani horizontale: YATSEKEDWA
+FlipVOn=Tembenuzani vertikale: YATSEGULIDWA
+FlipVOff=Tembenuzani vertikale: YATSEKEDWA
+DeinterlaceOn=Deinterlace: YATSEGULIDWA
+DeinterlaceOff=Deinterlace: YATSEKEDWA
+AlwaysOnTopOn=Nthawi zonse pamwamba: YATSEGULIDWA
+AlwaysOnTopOff=Nthawi zonse pamwamba: YATSEKEDWA
+WindowFitted=Windo layikidwa ku %dx%d
+WindowScale=Muyeso wa windo: %.0f%%
+ScreenshotSaved=Chithunzi cha skrini chasungidwa: %s
+AudioNormalizeOn=Fananizani mawu: YATSEGULIDWA
+AudioNormalizeOff=Fananizani mawu: YATSEKEDWA
+AudioDelayFormat=Kuchedwa kwa mawu: %.1f s
+SubtitleDelayFormat=Kuchedwa kwa subtitle: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Pakati
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Palibe kanema yoikidwa
+PlayingFromClipboard=Kusewera kuchokera clipboard: %s
+ClipboardInvalid=Clipboard ilibe URL kapena njira yoyenera
+ClipboardEmpty=Clipboard ilibe kanthu kapena ilibe mawu
+ResumedAt=Yapitilizidwa pa %s
+FrameStepForward=Sitepe ya freemu kutsogolo
+FrameStepBackward=Sitepe ya freemu kumbuyo
+PreviousChapter=Chaputala chapitayi
+NextChapter=Chaputala chotsatira
+PlayingRadio=Kusewera wailesi: %s
+PlayingDVD=Kusewera DVD: %s
+PlayingBluray=Kusewera Blu-ray: %s
+DVDTitlePlaying=Mutu wa DVD %d
+SeekTo=Kupita ku %s
+MinimizedToTray=Yacheperetsedwa ku tray. Dinani kawiri kubweretsa.
+SleepTimerSet=Nthawi yogona yaikidwa: %s
+SleepTimerCancelled=Nthawi yogona yachotsedwa
+SleepTimerWarning=Nthawi yogona: mphindi 1 yasala
+SleepTimerFinal=Nthawi yogona: masekondi 10 asala
+SleepTimerStopped=Nthawi yogona: Kusewera kwasiya
+SleepTimerClosing=Nthawi yogona: Kutseka pulogalamu
+SleepTimerShutdown=Nthawi yogona: Kuzimitsa kompyuta
+SleepTimerExpired=Nthawi yogona Yatha
+ShutdownManual=Chonde zimitsani kompyuta yanu pamanja.
+
+; Phase 21: Open Folder
+FolderOpened=Foldala yatsegulidwa: mafayilo %d
+NoMediaFound=Palibe mafayilo a media omwe apezeka
+FilesAdded=Mafayilo %d awonjezeredwa ku mndandanda
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Yambani kusewera musanasunge.
+RecordingStarted=Kusungitsa kwayamba
+RecordingStopped=Kusungitsa kwasiya
+
+; Additional status messages
+EndOfPlaylist=Kumathero kwa mndandanda
+NoMediaLoaded=Palibe fayilo ya media yoikidwa.
+JumpedToNamed=Mwadumphira ku: %s
+ChapterFormat=Chaputala %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Chizindikiro pa %s
+
+[Label]
+Muted=Yaletsa
+
+[Button]
+Play=Sewera
+Pause=Ima
+Stop=Siya
+Previous=Yapitayi
+Next=Yotsatira
+Mute=Letsa
+Unmute=Tsegulani Mawu
+Fullscreen=Skrini Yonse
+OK=Chabwino
+Cancel=Chotsani
+Apply=Gwiritsani ntchito
+Close=Tseka
+Yes=Inde
+No=Ayi
+
+[Tooltip]
+Play=Sewera/Ima
+Stop=Siya kusewera
+Previous=Nyimbo yapitayi
+Next=Nyimbo yotsatira
+Mute=Sinthani kuletsa
+Volume=Mawu
+Seek=Malo ofufuzira
+Fullscreen=Sinthani skrini yonse
+
+[Playlist]
+Title=Mndandanda wa Nyimbo
+Add=Onjezani
+Remove=Chotsani
+Clear=Chotsani
+MoveUp=Pititsani Pamwamba
+MoveDown=Pititsani Pansi
+Shuffle=Sanganizani
+Repeat=Bwerezani
+Play=Sewera
+ShuffleOn=Sanganizani: Yatsegulidwa
+ShuffleOff=Sanganizani: Yatsekedwa
+RepeatOff=Bwerezani: Yatsekedwa
+RepeatOne=Bwerezani: Imodzi
+RepeatAll=Bwerezani: Zonse
+SavePlaylist=Sungani
+LoadPlaylist=Ikani
+TotalDuration=Zonse: %s
+ItemCount=zinthu %d
+
+; Phase 22: Playlist Enhancements
+Search=Fufuzani:
+FilterPlaceholder=Sefani mndandanda...
+ClearSearch=Chotsani
+FilterCount=%d/%d
+RemoveDuplicates=Chotsani &Zofanana
+Properties=Zo&mwe...
+NoDuplicates=Palibe zofanana zomwe zapezeka.
+DuplicatesFound=Zofanana %d zapezeka. Muzichotsa?
+RemoveDuplicatesTitle=Chotsani Zofanana
+PropertiesTitle=Zomwe za Mndandanda
+PropTotalItems=Zinthu zonse: %d
+PropTotalDuration=Nthawi yonse: %s
+PropPlayed=Zosewereredwa: %d
+PropUnplayed=Zosasewereredwa: %d
+PropTotalSize=Kukula konse: %.2f MB
+PropShuffle=Sanganizani: %s
+PropRepeat=Bwerezani: %s
+On=Yatsegulidwa
+Off=Yatsekedwa
+
+; New keys for ApplyLocale
+ClearTitle=Chotsani Mndandanda
+ClearConfirm=Mukutsimikiza kuti mukufuna kuchotsa mndandanda?
+NoPlaylist=Palibe mndandanda
+StatusFormat=zinthu %d | Zonse: %s
+RepeatOne=Bwer. 1
+RepeatAll=Bwer. Zonse
+HintRepeatEnable=Dinani kuyambitsa Bwerezani Zonse
+HintRepeatOne=Bwerezani Imodzi - Dinani kuimitsa
+HintRepeatAll=Bwerezani Zonse - Dinani ku Bwerezani Imodzi
+HintShuffleRepeat=Sanganizani + Bwerezani Zonse - Dinani kuimitsa bwerezani
+RemoveDuplicatesTitle=Chotsani Zofanana
+NoDuplicates=Palibe zofanana zomwe zapezeka.
+SelectAll=Sankhani Zonse
+SelectNone=Sankhani Chilichonse
+SelectInvert=Sinthani Kusankha
+Sort=Konzekerani
+SortByName=Mwa Dzina
+SortByTitle=Mwa Mutu
+SortByArtist=Mwa Wojambula
+SortByDuration=Mwa Nthawi
+SortReverse=Tembenuzani
+SortRandom=Sanganizani
+ColTitle=Mutu
+ColDuration=Nthawi
+ColArtist=Wojambula
+ColAlbum=Albamu
+PlaylistFilter=M3U Mndandanda|*.m3u|M3U8 Mndandanda|*.m3u8|PLS Mndandanda|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Zokonzedwa:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Chakale
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Mawu
+Reset=Bwezerani
+Enable=Lolani Equalizer
+Save=Sungani
+Delete=Chotsani
+Ready=Yolongosoka
+; Buttons and actions
+SavePreset=Sungani Chokonzedwa
+DeletePreset=Chotsani Chokonzedwa
+SavePresetTitle=Sungani Chokonzedwa
+PresetNamePrompt=Dzina la chokonzedwa:
+EnterPresetName=Chonde lembani dzina la chokonzedwa.
+OverwritePresetTitle=Lembani Pamwamba pa Chokonzedwa
+OverwritePresetConfirm=Chokonzedwa chokhala ndi dzina ili chilipo kale. Lembani pamwamba?
+PresetUpdated=Chokonzedwa chakonzedwanso: %s
+PresetSaved=Chokonzedwa chasungidwa: %s
+SelectPresetToDelete=Chonde sankhani chokonzedwa chomwe mukufuna kuchotsa.
+CannotDeleteDefault=Simungathe kuchotsa zokonzedwa zoyambirira.
+DeletePresetTitle=Chotsani Chokonzedwa
+DeletePresetConfirm=Mukutsimikiza kuti mukufuna kuchotsa chokonzedwa ichi?
+PresetDeleted=Chokonzedwa chachotsedwa
+ResetToFlat=Equalizer yabwezeretsa flat
+PresetApplied=Chokonzedwa chagwiritsidwa ntchito: %s
+
+[Options]
+Title=Zosankha
+General=Zonse
+Video=Kanema
+Audio=Mawu
+Subtitles=Subtitle
+Cache=Cache
+Language=Chilankhulo:
+RestartRequired=Kuyambitsanso kumafunika kuti zosintha zigwire ntchito
+
+; General tab - Behavior
+Behavior=Khalidwe
+SingleInstance=Lolani chimodzi chokha
+AutoPlay=Sewerani mwadongosolo mukatsegula
+AutoResume=Pitirizani malo osewera
+MinimizeToTray=Chepetsani ku tray
+AutoSavePlaylist=Sungani mndandanda mukatuluka
+
+; General tab - OSD
+OSD=Kuonetsa pa Skrini
+ShowOSD=Onetsani mauthenga a skrini
+ShowTrayIcon=Onetsani chithunzi cha tray
+OSDDuration=Nthawi ya OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Zithunzi za Skrini
+ScreenshotPath=Foldala yosungira:
+ScreenshotFormat=Mtundu:
+
+; General tab - History
+HistorySettings=Mbiri
+HistoryEnabled=Lolani mbiri yosewera
+HistoryMaxItems=Chiwerengero chachikulu:
+
+; General tab - Language
+LanguageGroup=Chilankhulo
+RestartNote=(Kuyambitsanso kumafunika pa zosintha)
+
+; Video tab
+VideoAdjust=Kusintha kwa Kanema
+Brightness=Kuwala:
+Contrast=Kusiyana:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Kanema Yotuluka
+Output=Yotuluka:
+HWAccel=Lolani hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Njira:
+
+; Audio tab
+AudioOutput=Mawu Otuluka
+OutputDriver=Dalaivala yotuluka:
+Device=Chipangizo:
+AudioOptions=Zosankha za Mawu
+NormalizeAudio=Fananizani mawu
+Channels=Njira:
+
+; Subtitles tab
+UseDefaultSubtitles=Gwiritsani ntchito zokonzedwa za subtitle zoyambirira
+Font=Fonti
+FontName=Fonti:
+FontSize=Kukula:
+FontColor=Mtundu:
+Bold=Bold
+Italic=Italic
+Outline=Mzere
+OutlineColor=Mtundu:
+OutlineSize=Kukula:
+Position=Malo
+VerticalPosition=Malo a vertikale:
+SubOptions=Zosankha
+Encoding=Encoding:
+AutoLoadSubs=Ikani mafayilo a subtitle mwadongosolo
+
+; Video output warnings
+VOWarningX11=Chenjezo: x11 siikugwirizana ndi kusintha kwa kanema (kuwala, kusiyana, ndi zina.)
+VOWarningWayland=Chenjezo: Imafuna Wayland session. Kusintha kwa kanema kumatsigiriridwa.
+
+; Cache tab
+CacheSettings=Kukula kwa Cache Buffer (KB)
+CacheDefault=Cache yoyambirira:
+CacheLocal=Mafayilo apakhomo:
+CacheNetwork=Mafayilo a netiweki:
+CacheInternet=Mitsinje ya Internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Zokhudza
+Version=Mtundu
+Engine=Injini
+Technology=Tekinoloji
+BuildInfo=Zambiri za Kumanga
+SystemInfo=Sisitemu
+Credits=Kuthokoza
+Developer=Wopanga:
+Author=Wolemba
+License=Chilolezo
+Website=Tsamba
+GitHub=GitHub
+Description=Wosewera wa media wabwino, wopepuka
+LicenseText=3nity Media ili ndi chilolezo cha GPL-2.0\n\nIzi zikutanthauza kuti muli ndi ufulu woti:\n  - Gwiritsani ntchito pulogalamu pa cholinga chilichonse\n  - Phunzirani ndi kusintha kodi ya chiyambi\n  - Gawani makopi a pulogalamu\n  - Gawani zosintha zanu\n\nPotsata lamulo lakuti zosintha zonse zogawika\nziri ndi chilolezo cha GPL-2.0.
+BuildDate=Tsiku:
+Target=Cholinga:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Zifupikitso za Kibodi
+Description=Konzekerani zifupikitso za kibodi za ntchito
+Search=Fufuzani:
+PressKey=Dinani batani...
+ColCategory=Gulu
+ColAction=Ntchito
+ColShortcut=Chifupikitso
+Assign=Ikani
+Clear=Chotsani
+Reset=Bwezerani
+ResetAll=Bwezerani Zonse
+CurrentShortcut=Pano: %s
+NoKeyPressed=Chonde dinani batani koyamba.
+Conflict=Kusemphana: Yaikidwa kale ku "%s"
+ConfirmReplace=Sinthani Chifupikitso
+ReplaceMessage=Chifupikitso ichi chaikidwa kale ku "%s". Mukufuna kuchisinthitsa?
+ConfirmResetAll=Bwezerani Zifupikitso Zonse
+ResetAllMessage=Mukutsimikiza kuti mukufuna kubwezeretsa zifupikitso zonse zoyambirira?
+; Action names
+ActPlayPause=Sewera / Ima
+ActStop=Siya
+ActPrevious=Yapitayi
+ActNext=Yotsatira
+ActSeekForward=Fufuzani Kutsogolo (10s)
+ActSeekBackward=Fufuzani Kumbuyo (10s)
+ActSeekForward5=Fufuzani Kutsogolo (1 min)
+ActSeekBackward5=Fufuzani Kumbuyo (1 min)
+ActSpeedUp=Kulitsani Liwiro
+ActSpeedDown=Chepetsani Liwiro
+ActSpeedReset=Bwezerani Liwiro
+ActSetLoopA=Ikani Loop A
+ActSetLoopB=Ikani Loop B
+ActClearLoop=Chotsani Loop A-B
+ActFrameForward=Freemu Kutsogolo
+ActFrameBackward=Freemu Kumbuyo
+ActPrevChapter=Chaputala Chapitayi
+ActNextChapter=Chaputala Chotsatira
+ActGotoTime=Pitani ku Nthawi
+ActVolumeUp=Kulitsani Mawu
+ActVolumeDown=Chepetsani Mawu
+ActMute=Letsa / Tsegulani
+ActAudioDelayPlus=Kuchedwa kwa Mawu +
+ActAudioDelayMinus=Kuchedwa kwa Mawu -
+ActAudioDelayReset=Bwezerani Kuchedwa kwa Mawu
+ActFullscreen=Skrini Yonse
+ActRotate=Zungulizani Kanema
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom Mkati
+ActZoomOut=Zoom Kunja
+ActZoomReset=Bwezerani Zoom
+ActAlwaysOnTop=Nthawi Zonse Pamwamba
+ActFitToVideo=Yetsani ku Kanema
+ActScreenshot=Chithunzi cha Skrini
+ActVideoAdjust=Kusintha kwa Kanema
+ActVisNextMode=Njira ya Kuonetsa Yotsatira
+ActVisNextColor=Mtundu Wotsatira
+ActSubDelayPlus=Kuchedwa kwa Subtitle +
+ActSubDelayMinus=Kuchedwa kwa Subtitle -
+ActSubDelayReset=Bwezerani Kuchedwa kwa Subtitle
+ActDVDMenu=Menu ya DVD
+ActDVDUp=DVD Pamwamba
+ActDVDDown=DVD Pansi
+ActDVDLeft=DVD Kumanzere
+ActDVDRight=DVD Kumanja
+ActDVDSelect=DVD Sankhani
+ActOpenFile=Tsegula Fayilo
+ActOpenURL=Tsegula URL
+ActPlaylist=Onetsani Mndandanda
+ActQuit=Tulukani
+
+[Log]
+; Phase 25: Log Window
+Title=Log ya MPV
+Command=Lamulo:
+Clear=Chotsani
+Save=Sungani...
+Copy=&Koperani
+SelectAll=Sankhani &Zonse
+SaveTitle=Sungani Log
+SaveFilter=Mafayilo a mawu (*.txt)|*.txt|Mafayilo onse (*.*)|*.*
+ErrorTitle=Vuto
+SaveError=Kusungitsa log kwalephera: %s
+
+[MediaInfo]
+Title=Zambiri za Media
+FileTab=Fayilo
+VideoTab=Kanema
+AudioTab=Mawu
+MetadataTab=Metadata
+FileName=Dzina la Fayilo:
+FilePath=Njira:
+FileSize=Kukula:
+Duration=Nthawi:
+Format=Mtundu:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Mtundu wa Pixel:
+AspectRatio=Muyeso:
+Channels=Njira:
+SampleRate=Sample Rate:
+Language=Chilankhulo:
+Property=Chizindikiro
+Value=Mtengo
+CopyAll=Koperani Zonse
+CopiedToClipboard=Zambiri za media zakopedwa ku clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Sikudziwika
+NoMetadata=(Palibe metadata)
+
+[Bookmarks]
+Title=Zizindikiro
+Goto=Pitani ku
+Remove=Chotsani
+Clear=Chotsani Zonse
+Refresh=Konzekeranso
+OpenFolder=Tsegula Foldala
+CopyPath=Koperani Njira
+; Columns
+ColName=Dzina
+ColFile=Fayilo
+ColPosition=Malo
+ColCreated=Yalengidwa
+; Dialogs
+ClearTitle=Chotsani Zizindikiro
+ClearConfirm=Mukutsimikiza kuti mukufuna kuchotsa zizindikiro zonse?
+Count=zizindikiro %d
+
+[Favorites]
+Title=Zokondedwa
+Play=Sewera
+Remove=Chotsani
+Clear=Chotsani Zonse
+Refresh=Konzekeranso
+OpenFolder=Tsegula Foldala
+CopyPath=Koperani Njira
+; Columns
+ColName=Dzina
+ColType=Mtundu
+ColPath=Njira
+; Types
+TypeFile=Fayilo
+TypeURL=URL
+TypeRadio=Wailesi
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Sikudziwika
+; Dialogs
+ClearTitle=Chotsani Zokondedwa
+ClearConfirm=Mukutsimikiza kuti mukufuna kuchotsa zokondedwa zonse?
+Count=zokondedwa %d
+
+[History]
+Title=Mbiri ya Kusewera
+Play=Sewera
+Remove=Chotsani
+Clear=Chotsani Zonse
+Refresh=Konzekeranso
+OpenFolder=Tsegula Foldala
+CopyPath=Koperani Njira
+; Columns
+ColFileName=Fayilo
+ColPath=Njira
+; Dialogs
+ClearTitle=Chotsani Mbiri
+ClearConfirm=Mukutsimikiza kuti mukufuna kuchotsa mbiri yonse?
+Count=zinthu %d
+
+[SleepTimer]
+Title=Nthawi yogona
+Description=Ikani nthawi yoimitsira kusewera mwadongosolo
+Hours=Maola:
+Minutes=Maminitsi:
+Action=Nthawi ikatha:
+StopPlayback=Siya kusewera
+CloseApp=Tseka pulogalamu
+Shutdown=Zimitsani kompyuta
+QuickSet=Ikani mwachangu:
+15Min=15 min
+30Min=30 min
+1Hour=1 ola
+2Hours=2 maola
+
+[Radios]
+Title=Mawailesi a Internet
+Play=Sewera
+Add=Onjezani
+Edit=Sinthani
+Delete=Chotsani
+Remove=Chotsani
+Import=Lowetsani
+Export=Tulutsani
+Refresh=Konzekeranso
+Favorite=Chokondedwa
+ShowFavorites=Zokondedwa
+ShowAll=Zonse
+; Filter
+Genre=Mtundu:
+Search=Fufuzani:
+SearchBtn=Fufuzani
+ClearSearch=Chotsani
+AllGenres=(Mitundu Yonse)
+; Context menu
+AddFavorite=Onjezani ku Zokondedwa
+RemoveFavorite=Chotsani ku Zokondedwa
+AddCustom=Onjezani Siteshoni...
+EditCustom=Sinthani Siteshoni...
+DeleteCustom=Chotsani Siteshoni
+OpenWebsite=Tsegula Tsamba
+CopyURL=Koperani URL
+; Columns
+ColName=Dzina
+ColGenre=Mtundu
+ColBitrate=Bitrate
+ColCountry=Dziko
+ColCodec=Codec
+; Dialogs
+AddTitle=Onjezani Siteshoni
+EditTitle=Sinthani Siteshoni
+DeleteTitle=Chotsani Siteshoni
+DeleteConfirm=Mukutsimikiza kuti mukufuna kuchotsa siteshoni iyi?
+StationName=Dzina la Siteshoni:
+StreamURL=URL ya Stream:
+GenrePrompt=Mtundu:
+NameURLRequired=Dzina ndi URL zimafunika.
+; Status messages
+LoadingIcecast=Kuika siteshoni kuchokera Icecast...
+IcecastError=Sikutheka kuika Icecast. Kugwiritsa ntchito siteshoni zoyambirira.
+NoStationsLoaded=Palibe siteshoni zoikidwa
+StationCount=siteshoni %d
+LoadedStations=Siteshoni %d zaikidwa
+ErrorPrefix=Vuto:
+; Legacy keys
+Name=Dzina
+URL=URL
+Bitrate=Bitrate
+Description=Tanthauzo
+Country=Dziko
+
+[OpenURL]
+Title=Tsegula URL
+Prompt=Lembani URL ya media:
+
+[GotoTime]
+Title=Pitani ku Nthawi
+EnterTime=Lembani nthawi yomwe mukufuna kupitako:
+Hours=O
+Minutes=M
+Seconds=S
+Current=Pano:
+Duration=Nthawi:
+
+[VideoAdjust]
+Title=Kusintha kwa Kanema
+Brightness=Kuwala:
+Contrast=Kusiyana:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Bwezerani Makalala Onse
+
+[CLI]
+; Mauthenga a mzere wa malamulo
+Usage=Kugwiritsa ntchito
+Arguments=[ZOSANKHA] [FAYILO|URL|FOLODA]
+Description=Wosewerera wa multimedia wopitilira mapulatifolomu pogwiritsa ntchito libmpv ngati injini.
+Options=ZOSANKHA
+Examples=ZITSANZO
+MoreInfo=Kuti mudziwe zambiri, pitani ku
+EnqueuedTo=Yaikidwa mu mzere wa chitsanzo cholipo: %s
+SentTo=Yatumizidwa ku chitsanzo cholipo: %s
+AlreadyRunning=3nity Media ikugwira ntchito kale.
+ErrorFileNotFound=Cholakwika: Fayilo kapena foloda sinapezeke: %s
+ErrorSubNotFound=Cholakwika: Fayilo ya mawu otsatira sinapezeke: %s

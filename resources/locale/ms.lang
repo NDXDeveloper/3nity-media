@@ -1,0 +1,892 @@
+[Language]
+Name=Malay - Bahasa Melayu
+Code=ms
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menu Fail
+File=&Fail
+FileOpen=&Buka Fail...
+FileOpenURL=Buka &URL...
+FileOpenClipboard=Buka dari &Papan Keratan
+FileRecent=Fail &Terbaru
+ClearRecentFiles=Kosongkan Fail Terbaru
+FileExit=K&eluar
+
+; Menu Main Balik
+Playback=&Main Balik
+PlaybackPlayPause=&Main/Jeda
+PlaybackStop=&Berhenti
+PlaybackPrevious=Sebe&lumnya
+PlaybackNext=&Seterusnya
+PlaybackSeekForward=Cari ke &Hadapan
+PlaybackSeekBackward=Cari ke &Belakang
+PlaybackSpeed=&Kelajuan
+PlaybackABLoop=Gelung A-&B
+PlaybackSetA=Tetapkan &A
+PlaybackSetB=Tetapkan &B
+PlaybackClearAB=&Kosongkan A-B
+PlaybackChapters=&Bab
+PlaybackPrevChapter=Bab Sebelumnya
+PlaybackNextChapter=Bab Seterusnya
+PlaybackFrameStep=Langkah Bingkai ke &Hadapan
+PlaybackFrameBack=Langkah Bingkai ke &Belakang
+
+; Navigasi DVD
+PlaybackDVD=&Navigasi DVD
+DVDMenu=&Menu
+DVDUp=&Atas
+DVDDown=&Bawah
+DVDLeft=&Kiri
+DVDRight=&Kanan
+DVDSelect=&Pilih
+PlaybackDVDTitles=&Tajuk DVD
+
+; Fasa 21: Buka Folder
+FileOpenFolder=Buka F&older...
+
+; Menu Fail DVD/Bluray
+FileOpenDVD=Buka &DVD...
+FileOpenBluray=Buka &Blu-ray...
+
+; Fasa 13: Pergi ke Masa dan Sejarah
+PlaybackGotoTime=&Pergi ke Masa...
+ToolsHistory=&Sejarah
+
+; Fasa 14: Dulang Sistem
+TrayShow=&Tunjuk/Sembunyi
+TrayPlayPause=&Main/Jeda
+TrayStop=&Berhenti
+TrayPrevious=Sebe&lumnya
+TrayNext=&Seterusnya
+TrayMute=&Bisu
+TrayExit=K&eluar
+
+; Fasa 15: Penanda Buku
+PlaybackAddBookmark=Tambah &Penanda Buku...
+PlaybackBookmarks=Penanda &Buku
+BookmarksTitle=Penanda Buku
+BookmarksGoto=&Pergi ke Penanda Buku
+BookmarksRemove=&Buang Penanda Buku
+BookmarksClear=&Kosongkan Semua Penanda Buku
+BookmarksOpenFolder=Buka &Folder
+BookmarksCopyPath=&Salin Laluan
+BookmarksCount=%d penanda buku
+NoBookmarks=(Tiada penanda buku)
+NoFileLoaded=(Tiada fail dimuatkan)
+BookmarkAdded=Penanda buku ditambah pada %s
+BookmarkJumped=Melompat ke penanda buku pada %s
+AddBookmarkTitle=Tambah Penanda Buku
+AddBookmarkPrompt=Masukkan nama penanda buku:
+ShowAllBookmarks=Tunjuk Semua Penanda Buku...
+
+; Fasa 16: Kegemaran
+ToolsFavorites=&Kegemaran
+ToolsAddFavorite=Tambah ke Kegema&ran
+FavoritesTitle=Kegemaran
+FavoritesPlay=&Main
+FavoritesRemove=&Buang dari Kegemaran
+FavoritesClear=&Kosongkan Semua Kegemaran
+FavoritesOpenFolder=Buka &Folder
+FavoritesCopyPath=&Salin Laluan
+FavoritesCount=%d kegemaran
+NoFavorites=(Tiada kegemaran)
+AddFavoriteTitle=Tambah ke Kegemaran
+AddFavoritePrompt=Masukkan nama untuk kegemaran:
+AlreadyFavorite=Sudah dalam kegemaran
+AddedToFavorites=Ditambah ke kegemaran: %s
+NoFileToFavorite=Tiada fail dimuatkan untuk ditambah ke kegemaran
+FavoriteTypeFile=Fail
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Rentetan format trek
+TrackWithTitle=Trek %d: %s
+TrackWithLang=Trek %d (%s)
+TrackNumber=Trek %d
+
+; Item menu kelajuan
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Item menu skala
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Trek sari kata
+SubtitleDisable=Nyahaktif
+
+; Fasa 17: Pemasa Tidur
+ToolsSleepTimer=&Pemasa Tidur...
+ToolsSleepTimerActive=&Pemasa Tidur [%s]
+ToolsCancelTimer=Batal &Pemasa
+
+; Menu Audio
+Audio=&Audio
+AudioTrack=&Trek Audio
+AudioVolumeUp=Kelantangan &Naik
+AudioVolumeDown=Kelantangan &Turun
+AudioMute=&Bisu
+AudioEqualizer=&Penyamaan
+AudioDelay=&Lengah Audio
+AudioDelayPlus=Lengah +0.1s
+AudioDelayMinus=Lengah -0.1s
+AudioDelayReset=Tetap Semula Lengah
+AudioNormalize=&Normalkan Kelantangan
+
+; Menu Video
+Video=&Video
+VideoFullscreen=&Skrin Penuh
+VideoAspect=&Nisbah Aspek
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Tangkap Skrin
+VideoScreenshotAs=Tangkap Skrin &Sebagai...
+VideoRotation=&Putaran
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Balik
+VideoFlipH=Balik &Mendatar
+VideoFlipV=Balik &Menegak
+VideoDeinterlace=&Nyahjalin
+VideoZoom=&Zum
+VideoZoomIn=Zum &Masuk
+VideoZoomOut=Zum &Keluar
+VideoZoomReset=&Tetap Semula Zum
+VideoPan=&Pan
+VideoPanLeft=Pan &Kiri
+VideoPanRight=Pan &Kanan
+VideoPanUp=Pan &Atas
+VideoPanDown=Pan &Bawah
+VideoPanReset=T&etap Semula Pan
+VideoTrack=&Trek Video
+VideoColors=Pelarasan &Warna
+VideoBrightness=&Kecerahan
+VideoContrast=&Kontras
+VideoSaturation=&Ketepuan
+VideoHue=&Rona
+VideoGamma=&Gamma
+VideoColorsReset=Tetap Semula &Semua Warna
+VideoIncrease=Tingkatkan (+5)
+VideoDecrease=Kurangkan (-5)
+VideoReset=Tetap Semula
+VideoAdjustDialog=&Pelarasan Video...
+
+; Menu Lihat
+View=Li&hat
+ViewAlwaysOnTop=&Sentiasa di Atas
+ViewFitToVideo=&Sesuaikan Tetingkap ke Video
+ViewScale=&Skala Tetingkap
+
+; Fasa 26: Menu Visualisasi
+ViewVisualization=&Visualisasi
+VisNone=&Tiada
+VisSpectrum=Penganalisis &Spektrum
+VisWaveform=&Gelombang
+VisVector=Skop &Vektor
+VisVolume=Meter &VU
+VisNextMode=&Mod Seterusnya
+VisNextColor=Skema &Warna Seterusnya
+
+; Menu Sari Kata
+Subtitles=&Sari Kata
+SubtitleTrack=&Trek Sari Kata
+SubtitleLoad=&Muat Sari Kata...
+SubtitleDelay=&Lengah Sari Kata
+SubtitleDelayPlus=Lengah +0.1s
+SubtitleDelayMinus=Lengah -0.1s
+SubtitleDelayReset=Tetap Semula Lengah
+
+; Menu Alatan
+Tools=&Alatan
+ToolsPlaylist=&Senarai Main
+ToolsRadios=&Radio
+ToolsShortcuts=&Pintasan Papan Kekunci...
+ToolsOptions=&Tetapan
+
+; Fasa 27: Menu Rakaman
+ToolsRecord=&Rakam Strim...
+ToolsStopRecord=&Berhenti Rakam
+ToolsRecording=&Rakaman...
+
+; Menu Bantuan
+Help=&Bantuan
+HelpMediaInfo=&Maklumat Media
+HelpLog=Tetingkap &Log
+HelpAbout=&Tentang
+
+[Dialog]
+OpenFile=Buka Fail
+OpenURL=Buka URL
+SaveScreenshot=Simpan Tangkap Skrin
+LoadSubtitle=Muat Fail Sari Kata
+EnterURL=Masukkan URL:
+ResumePlayback=Sambung Main Balik
+ResumeFrom=Sambung dari %s?
+ClearRecentFiles=Kosongkan Fail Terbaru
+NoRecentFiles=(Tiada fail terbaru)
+NoAudioTracks=(Tiada trek audio)
+NoVideoTracks=(Tiada trek video)
+NoSubtitleTracks=(Tiada trek sari kata)
+NoChapters=(Tiada bab)
+OpenDVD=Buka DVD
+OpenBluray=Buka Blu-ray
+OpenFolder=Buka Folder
+
+; Penapis fail
+ScreenshotFilter=Imej PNG|*.png|Imej JPEG|*.jpg|Imej WebP|*.webp
+DVDFilter=Folder DVD|*.;*.iso|Semua fail (*.*)|*.*
+BlurayFilter=Folder Blu-ray|*.;*.iso|Semua fail (*.*)|*.*
+NoDVD=(Tiada DVD dimuatkan)
+DVDTitle=Tajuk %d
+GotoTime=Pergi ke Masa
+EnterTime=Masukkan masa untuk melompat ke:
+Hours=Jam
+Minutes=Minit
+Seconds=Saat
+Current=Semasa:
+HistoryTitle=Sejarah Main Balik
+HistoryItems=%d item dalam sejarah
+HistoryPlay=&Main
+HistoryRemove=&Buang dari Sejarah
+HistoryClear=&Kosongkan Semua Sejarah
+HistoryOpenFolder=Buka &Folder
+HistoryCopyPath=&Salin Laluan
+ClearHistory=Kosongkan Sejarah
+ClearHistoryConfirm=Adakah anda pasti mahu mengosongkan semua sejarah?
+SleepTimerTitle=Pemasa Tidur
+SleepTimerDescription=Tetapkan pemasa untuk menghentikan main balik secara automatik
+SleepTimerHours=Jam
+SleepTimerMinutes=Minit
+SleepTimerQuickSet=Tetapan Pantas
+SleepTimerAction=Apabila pemasa tamat
+SleepTimerStopPlayback=Hentikan main balik
+SleepTimerCloseApp=Tutup aplikasi
+SleepTimerShutdown=Matikan komputer
+SleepTimerStart=Mulakan Pemasa
+
+[Status]
+Ready=Sedia
+Opening=Membuka...
+Playing=Sedang Main
+Paused=Dijeda
+Stopped=Dihentikan
+Error=Ralat
+Buffering=Penimbalan...
+Seeking=Mencari...
+Recording=Merakam
+
+[Message]
+SpeedFormat=Kelajuan: %.2fx
+VolumeFormat=Kelantangan: %d%%
+BrightnessFormat=Kecerahan: %d
+ContrastFormat=Kontras: %d
+SaturationFormat=Ketepuan: %d
+HueFormat=Rona: %d
+GammaFormat=Gamma: %d
+ColorsReset=Warna video ditetapkan semula
+LoopASet=Gelung A ditetapkan pada %s
+LoopBSet=Gelung B ditetapkan pada %s - Gelung aktif
+LoopCleared=Gelung A-B dikosongkan
+SetAFirst=Tetapkan titik A dahulu (tekan L)
+RotationFormat=Putaran: %d°
+FlipHOn=Balik mendatar: HIDUP
+FlipHOff=Balik mendatar: MATI
+FlipVOn=Balik menegak: HIDUP
+FlipVOff=Balik menegak: MATI
+DeinterlaceOn=Nyahjalin: HIDUP
+DeinterlaceOff=Nyahjalin: MATI
+AlwaysOnTopOn=Sentiasa di atas: HIDUP
+AlwaysOnTopOff=Sentiasa di atas: MATI
+WindowFitted=Tetingkap disesuaikan ke %dx%d
+WindowScale=Skala tetingkap: %.0f%%
+ScreenshotSaved=Tangkap skrin disimpan: %s
+AudioNormalizeOn=Normalisasi audio: HIDUP
+AudioNormalizeOff=Normalisasi audio: MATI
+AudioDelayFormat=Lengah audio: %.1f s
+SubtitleDelayFormat=Lengah sari kata: %.1f s
+ZoomFormat=Zum: %.0f%%
+PanCenter=Pan: Tengah
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Tiada video dimuatkan
+PlayingFromClipboard=Memainkan dari papan keratan: %s
+ClipboardInvalid=Papan keratan tidak mengandungi URL atau laluan yang sah
+ClipboardEmpty=Papan keratan kosong atau tidak mengandungi teks
+ResumedAt=Disambung pada %s
+FrameStepForward=Langkah bingkai ke hadapan
+FrameStepBackward=Langkah bingkai ke belakang
+PreviousChapter=Bab sebelumnya
+NextChapter=Bab seterusnya
+PlayingRadio=Memainkan radio: %s
+PlayingDVD=Memainkan DVD: %s
+PlayingBluray=Memainkan Blu-ray: %s
+DVDTitlePlaying=Tajuk DVD %d
+SeekTo=Mencari ke %s
+MinimizedToTray=Diminimumkan ke dulang. Klik dua kali untuk memulihkan.
+SleepTimerSet=Pemasa tidur ditetapkan: %s
+SleepTimerCancelled=Pemasa tidur dibatalkan
+SleepTimerWarning=Pemasa tidur: 1 minit lagi
+SleepTimerFinal=Pemasa tidur: 10 saat lagi
+SleepTimerStopped=Pemasa tidur: Main balik dihentikan
+SleepTimerClosing=Pemasa tidur: Menutup aplikasi
+SleepTimerShutdown=Pemasa tidur: Mematikan komputer
+SleepTimerExpired=Pemasa Tidur Tamat
+ShutdownManual=Sila matikan komputer anda secara manual.
+
+; Fasa 21: Buka Folder
+FolderOpened=Folder dibuka: %d fail
+NoMediaFound=Tiada fail media dijumpai
+FilesAdded=Ditambah %d fail ke senarai main
+
+; Fasa 27: Mesej rakaman
+RecordNeedPlayback=Mulakan main balik sebelum merakam.
+RecordingStarted=Rakaman dimulakan
+RecordingStopped=Rakaman dihentikan
+
+; Mesej status tambahan
+EndOfPlaylist=Akhir senarai main
+NoMediaLoaded=Tiada fail media sedang dimuatkan.
+JumpedToNamed=Melompat ke: %s
+ChapterFormat=Bab %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Penanda buku pada %s
+
+[Label]
+Muted=Dibisukan
+
+[Button]
+Play=Main
+Pause=Jeda
+Stop=Berhenti
+Previous=Sebelumnya
+Next=Seterusnya
+Mute=Bisu
+Unmute=Nyahbisu
+Fullscreen=Skrin Penuh
+OK=OK
+Cancel=Batal
+Apply=Guna
+Close=Tutup
+Yes=Ya
+No=Tidak
+
+[Tooltip]
+Play=Main/Jeda
+Stop=Hentikan main balik
+Previous=Trek sebelumnya
+Next=Trek seterusnya
+Mute=Togol bisu
+Volume=Kelantangan
+Seek=Kedudukan carian
+Fullscreen=Togol skrin penuh
+
+[Playlist]
+Title=Senarai Main
+Add=Tambah
+Remove=Buang
+Clear=Kosongkan
+MoveUp=Gerak Ke Atas
+MoveDown=Gerak Ke Bawah
+Shuffle=Rambang
+Repeat=Ulang
+Play=Main
+ShuffleOn=Rambang: Hidup
+ShuffleOff=Rambang: Mati
+RepeatOff=Ulang: Mati
+RepeatOne=Ulang: Satu
+RepeatAll=Ulang: Semua
+SavePlaylist=Simpan
+LoadPlaylist=Muat
+TotalDuration=Jumlah: %s
+ItemCount=%d item
+
+; Fasa 22: Penambahbaikan Senarai Main
+Search=Cari:
+FilterPlaceholder=Tapis senarai main...
+ClearSearch=Kosongkan
+FilterCount=%d/%d
+RemoveDuplicates=Buang &Pendua
+Properties=&Sifat...
+NoDuplicates=Tiada pendua dijumpai.
+DuplicatesFound=Dijumpai %d pendua. Buangkan?
+RemoveDuplicatesTitle=Buang Pendua
+PropertiesTitle=Sifat Senarai Main
+PropTotalItems=Jumlah item: %d
+PropTotalDuration=Jumlah tempoh: %s
+PropPlayed=Dimainkan: %d
+PropUnplayed=Belum dimainkan: %d
+PropTotalSize=Jumlah saiz: %.2f MB
+PropShuffle=Rambang: %s
+PropRepeat=Ulang: %s
+On=Hidup
+Off=Mati
+
+; Kunci baharu untuk ApplyLocale
+ClearTitle=Kosongkan Senarai Main
+ClearConfirm=Adakah anda pasti mahu mengosongkan senarai main?
+NoPlaylist=Tiada senarai main
+StatusFormat=%d item | Jumlah: %s
+RepeatOne=Ulang 1
+RepeatAll=Ulang Semua
+HintRepeatEnable=Klik untuk mengaktifkan Ulang Semua
+HintRepeatOne=Ulang Satu - Klik untuk menyahaktifkan
+HintRepeatAll=Ulang Semua - Klik untuk Ulang Satu
+HintShuffleRepeat=Rambang + Ulang Semua - Klik untuk menyahaktifkan ulang
+RemoveDuplicatesTitle=Buang Pendua
+NoDuplicates=Tiada pendua dijumpai.
+SelectAll=Pilih Semua
+SelectNone=Nyahpilih Semua
+SelectInvert=Songsang Pilihan
+Sort=Isih
+SortByName=Mengikut Nama
+SortByTitle=Mengikut Tajuk
+SortByArtist=Mengikut Artis
+SortByDuration=Mengikut Tempoh
+SortReverse=Terbalik
+SortRandom=Rawak
+ColTitle=Tajuk
+ColDuration=Tempoh
+ColArtist=Artis
+ColAlbum=Album
+PlaylistFilter=Senarai Main M3U|*.m3u|Senarai Main M3U8|*.m3u8|Senarai Main PLS|*.pls
+
+[Equalizer]
+Title=Penyamaan
+Presets=Pratetap:
+Preamp=Praamplifikasi:
+Flat=Rata
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klasikal
+BassBoost=Penggalak Bes
+TrebleBoost=Penggalak Treble
+Vocal=Vokal
+Reset=Tetap Semula
+Enable=Aktifkan Penyamaan
+Save=Simpan
+Delete=Padam
+Ready=Sedia
+; Butang dan tindakan
+SavePreset=Simpan Pratetap
+DeletePreset=Padam Pratetap
+SavePresetTitle=Simpan Pratetap
+PresetNamePrompt=Nama pratetap:
+EnterPresetName=Sila masukkan nama pratetap.
+OverwritePresetTitle=Tulis Ganti Pratetap
+OverwritePresetConfirm=Pratetap dengan nama ini sudah wujud. Tulis ganti?
+PresetUpdated=Pratetap dikemas kini: %s
+PresetSaved=Pratetap disimpan: %s
+SelectPresetToDelete=Sila pilih pratetap untuk dipadam.
+CannotDeleteDefault=Tidak boleh memadam pratetap lalai.
+DeletePresetTitle=Padam Pratetap
+DeletePresetConfirm=Adakah anda pasti mahu memadam pratetap ini?
+PresetDeleted=Pratetap dipadam
+ResetToFlat=Penyamaan ditetapkan semula ke rata
+PresetApplied=Pratetap digunakan: %s
+
+[Options]
+Title=Tetapan
+General=Umum
+Video=Video
+Audio=Audio
+Subtitles=Sari Kata
+Cache=Cache
+Language=Bahasa:
+RestartRequired=Mula semula diperlukan untuk perubahan berkuat kuasa
+
+; Tab Umum - Tingkah Laku
+Behavior=Tingkah Laku
+SingleInstance=Benarkan hanya satu contoh
+AutoPlay=Main automatik fail semasa dibuka
+AutoResume=Sambung kedudukan main balik
+MinimizeToTray=Minimumkan ke dulang sistem
+AutoSavePlaylist=Simpan senarai main semasa keluar
+
+; Tab Umum - OSD
+OSD=Paparan Atas Skrin
+ShowOSD=Tunjukkan mesej atas skrin
+ShowTrayIcon=Tunjukkan ikon dulang
+OSDDuration=Tempoh OSD (ms):
+
+; Tab Umum - Tangkap Skrin
+Screenshots=Tangkap Skrin
+ScreenshotPath=Folder simpan:
+ScreenshotFormat=Format:
+
+; Tab Umum - Sejarah
+HistorySettings=Sejarah
+HistoryEnabled=Aktifkan sejarah main balik
+HistoryMaxItems=Item maksimum:
+
+; Tab Umum - Bahasa
+LanguageGroup=Bahasa
+RestartNote=(Mula semula diperlukan untuk perubahan)
+
+; Tab Video
+VideoAdjust=Pelarasan Video
+Brightness=Kecerahan:
+Contrast=Kontras:
+Saturation=Ketepuan:
+Hue=Rona:
+Gamma=Gamma:
+VideoOutput=Output Video
+Output=Output:
+HWAccel=Aktifkan pecutan perkakasan
+Deinterlacing=Nyahjalin
+Mode=Mod:
+
+; Tab Audio
+AudioOutput=Output Audio
+OutputDriver=Pemacu output:
+Device=Peranti:
+AudioOptions=Pilihan Audio
+NormalizeAudio=Normalkan kelantangan audio
+Channels=Saluran:
+
+; Tab Sari Kata
+UseDefaultSubtitles=Gunakan tetapan sari kata lalai
+Font=Fon
+FontName=Fon:
+FontSize=Saiz:
+FontColor=Warna:
+Bold=Tebal
+Italic=Italik
+Outline=Garis Luar
+OutlineColor=Warna:
+OutlineSize=Saiz:
+Position=Kedudukan
+VerticalPosition=Kedudukan menegak:
+SubOptions=Pilihan
+Encoding=Pengekodan:
+AutoLoadSubs=Muat fail sari kata secara automatik
+
+; Amaran output video
+VOWarningX11=Amaran: x11 tidak menyokong pelarasan video (kecerahan, kontras, dll.)
+VOWarningWayland=Amaran: Memerlukan sesi Wayland. Pelarasan video disokong.
+
+; Tab Cache
+CacheSettings=Saiz Penimbal Cache (KB)
+CacheDefault=Cache lalai:
+CacheLocal=Fail tempatan:
+CacheNetwork=Fail rangkaian:
+CacheInternet=Strim internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Tentang
+Version=Versi
+Engine=Enjin
+Technology=Teknologi
+BuildInfo=Maklumat Binaan
+SystemInfo=Sistem
+Credits=Kredit
+Developer=Pembangun:
+Author=Pengarang
+License=Lesen
+Website=Laman Web
+GitHub=GitHub
+Description=Pemain media moden dan ringan
+LicenseText=3nity Media dilesenkan di bawah GPL-2.0\n\nIni bermakna anda bebas untuk:\n  - Menggunakan perisian untuk sebarang tujuan\n  - Mengkaji dan mengubah suai kod sumber\n  - Mengedarkan salinan perisian\n  - Mengedarkan pengubahsuaian anda\n\nDengan syarat bahawa sebarang pengubahsuaian yang diedarkan\njuga dilesenkan di bawah GPL-2.0.
+BuildDate=Tarikh:
+Target=Sasaran:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Pintasan Papan Kekunci
+Description=Konfigurasikan pintasan papan kekunci untuk tindakan
+Search=Cari:
+PressKey=Tekan kekunci...
+ColCategory=Kategori
+ColAction=Tindakan
+ColShortcut=Pintasan
+Assign=Tetapkan
+Clear=Kosongkan
+Reset=Tetap Semula
+ResetAll=Tetap Semula Semua
+CurrentShortcut=Semasa: %s
+NoKeyPressed=Sila tekan kombinasi kekunci dahulu.
+Conflict=Konflik: Sudah ditetapkan kepada "%s"
+ConfirmReplace=Ganti Pintasan
+ReplaceMessage=Pintasan ini sudah ditetapkan kepada "%s". Adakah anda mahu menggantikannya?
+ConfirmResetAll=Tetap Semula Semua Pintasan
+ResetAllMessage=Adakah anda pasti mahu menetapkan semula semua pintasan ke lalai?
+; Nama tindakan
+ActPlayPause=Main / Jeda
+ActStop=Berhenti
+ActPrevious=Sebelumnya
+ActNext=Seterusnya
+ActSeekForward=Cari ke Hadapan (10s)
+ActSeekBackward=Cari ke Belakang (10s)
+ActSeekForward5=Cari ke Hadapan (1 min)
+ActSeekBackward5=Cari ke Belakang (1 min)
+ActSpeedUp=Tingkatkan Kelajuan
+ActSpeedDown=Kurangkan Kelajuan
+ActSpeedReset=Tetap Semula Kelajuan
+ActSetLoopA=Tetapkan Titik Gelung A
+ActSetLoopB=Tetapkan Titik Gelung B
+ActClearLoop=Kosongkan Gelung A-B
+ActFrameForward=Bingkai ke Hadapan
+ActFrameBackward=Bingkai ke Belakang
+ActPrevChapter=Bab Sebelumnya
+ActNextChapter=Bab Seterusnya
+ActGotoTime=Pergi ke Masa
+ActVolumeUp=Kelantangan Naik
+ActVolumeDown=Kelantangan Turun
+ActMute=Bisu / Nyahbisu
+ActAudioDelayPlus=Lengah Audio +
+ActAudioDelayMinus=Lengah Audio -
+ActAudioDelayReset=Tetap Semula Lengah Audio
+ActFullscreen=Skrin Penuh
+ActRotate=Putar Video
+ActDeinterlace=Nyahjalin
+ActZoomIn=Zum Masuk
+ActZoomOut=Zum Keluar
+ActZoomReset=Tetap Semula Zum
+ActAlwaysOnTop=Sentiasa di Atas
+ActFitToVideo=Sesuaikan ke Video
+ActScreenshot=Tangkap Skrin
+ActVideoAdjust=Pelarasan Video
+ActVisNextMode=Mod Visualisasi Seterusnya
+ActVisNextColor=Skema Warna Seterusnya
+ActSubDelayPlus=Lengah Sari Kata +
+ActSubDelayMinus=Lengah Sari Kata -
+ActSubDelayReset=Tetap Semula Lengah Sari Kata
+ActDVDMenu=Menu DVD
+ActDVDUp=Navigasi DVD Atas
+ActDVDDown=Navigasi DVD Bawah
+ActDVDLeft=Navigasi DVD Kiri
+ActDVDRight=Navigasi DVD Kanan
+ActDVDSelect=Pilih DVD
+ActOpenFile=Buka Fail
+ActOpenURL=Buka URL
+ActPlaylist=Tunjuk Senarai Main
+ActQuit=Keluar
+
+[Log]
+; Fasa 25: Tetingkap Log
+Title=Log MPV
+Command=Perintah:
+Clear=Kosongkan
+Save=Simpan...
+Copy=&Salin
+SelectAll=Pilih &Semua
+SaveTitle=Simpan Log
+SaveFilter=Fail teks (*.txt)|*.txt|Semua fail (*.*)|*.*
+ErrorTitle=Ralat
+SaveError=Gagal menyimpan log: %s
+
+[MediaInfo]
+Title=Maklumat Media
+FileTab=Fail
+VideoTab=Video
+AudioTab=Audio
+MetadataTab=Metadata
+FileName=Nama Fail:
+FilePath=Laluan:
+FileSize=Saiz:
+Duration=Tempoh:
+Format=Format:
+Bitrate=Kadar Bit:
+Codec=Kodek:
+Resolution=Resolusi:
+FrameRate=Kadar Bingkai:
+PixelFormat=Format Piksel:
+AspectRatio=Nisbah Aspek:
+Channels=Saluran:
+SampleRate=Kadar Sampel:
+Language=Bahasa:
+Property=Sifat
+Value=Nilai
+CopyAll=Salin Semua
+CopiedToClipboard=Maklumat media disalin ke papan keratan.
+NA=T/B
+NAStream=T/B (strim)
+NALive=T/B (langsung)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (Keliling 5.1)
+Channel71=8 (Keliling 7.1)
+Unknown=Tidak Diketahui
+NoMetadata=(Tiada metadata)
+
+[Bookmarks]
+Title=Penanda Buku
+Goto=Pergi ke
+Remove=Buang
+Clear=Kosongkan Semua
+Refresh=Muat Semula
+OpenFolder=Buka Folder
+CopyPath=Salin Laluan
+; Lajur
+ColName=Nama
+ColFile=Fail
+ColPosition=Kedudukan
+ColCreated=Dicipta
+; Dialog
+ClearTitle=Kosongkan Penanda Buku
+ClearConfirm=Adakah anda pasti mahu mengosongkan semua penanda buku?
+Count=%d penanda buku
+
+[Favorites]
+Title=Kegemaran
+Play=Main
+Remove=Buang
+Clear=Kosongkan Semua
+Refresh=Muat Semula
+OpenFolder=Buka Folder
+CopyPath=Salin Laluan
+; Lajur
+ColName=Nama
+ColType=Jenis
+ColPath=Laluan
+; Jenis
+TypeFile=Fail
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Tidak Diketahui
+; Dialog
+ClearTitle=Kosongkan Kegemaran
+ClearConfirm=Adakah anda pasti mahu mengosongkan semua kegemaran?
+Count=%d kegemaran
+
+[History]
+Title=Sejarah Main Balik
+Play=Main
+Remove=Buang
+Clear=Kosongkan Semua
+Refresh=Muat Semula
+OpenFolder=Buka Folder
+CopyPath=Salin Laluan
+; Lajur
+ColFileName=Fail
+ColPath=Laluan
+; Dialog
+ClearTitle=Kosongkan Sejarah
+ClearConfirm=Adakah anda pasti mahu mengosongkan semua sejarah?
+Count=%d item
+
+[SleepTimer]
+Title=Pemasa Tidur
+Description=Tetapkan pemasa untuk menghentikan main balik secara automatik
+Hours=Jam:
+Minutes=Minit:
+Action=Apabila pemasa tamat:
+StopPlayback=Hentikan main balik
+CloseApp=Tutup aplikasi
+Shutdown=Matikan komputer
+QuickSet=Tetapan pantas:
+15Min=15 min
+30Min=30 min
+1Hour=1 jam
+2Hours=2 jam
+
+[Radios]
+Title=Radio Internet
+Play=Main
+Add=Tambah
+Edit=Edit
+Delete=Padam
+Remove=Buang
+Import=Import
+Export=Eksport
+Refresh=Muat Semula
+Favorite=Kegemaran
+ShowFavorites=Kegemaran
+ShowAll=Semua
+; Penapis
+Genre=Genre:
+Search=Cari:
+SearchBtn=Cari
+ClearSearch=Kosongkan
+AllGenres=(Semua Genre)
+; Menu konteks
+AddFavorite=Tambah ke Kegemaran
+RemoveFavorite=Buang dari Kegemaran
+AddCustom=Tambah Stesen Tersuai...
+EditCustom=Edit Stesen...
+DeleteCustom=Padam Stesen
+OpenWebsite=Buka Laman Web
+CopyURL=Salin URL
+; Lajur
+ColName=Nama
+ColGenre=Genre
+ColBitrate=Kadar Bit
+ColCountry=Negara
+ColCodec=Kodek
+; Dialog
+AddTitle=Tambah Stesen Tersuai
+EditTitle=Edit Stesen
+DeleteTitle=Padam Stesen
+DeleteConfirm=Adakah anda pasti mahu memadam stesen ini?
+StationName=Nama Stesen:
+StreamURL=URL Strim:
+GenrePrompt=Genre:
+NameURLRequired=Nama dan URL diperlukan.
+; Mesej status
+LoadingIcecast=Memuatkan stesen dari direktori Icecast...
+IcecastError=Tidak dapat memuatkan direktori Icecast. Menggunakan stesen lalai.
+NoStationsLoaded=Tiada stesen dimuatkan
+StationCount=%d stesen
+LoadedStations=Dimuatkan %d stesen
+ErrorPrefix=Ralat:
+; Kunci legasi
+Name=Nama
+URL=URL
+Bitrate=Kadar Bit
+Description=Penerangan
+Country=Negara
+
+[OpenURL]
+Title=Buka URL
+Prompt=Masukkan URL media:
+
+[GotoTime]
+Title=Pergi ke Masa
+EnterTime=Masukkan masa untuk melompat ke:
+Hours=J
+Minutes=M
+Seconds=S
+Current=Semasa:
+Duration=Tempoh:
+
+[VideoAdjust]
+Title=Pelarasan Video
+Brightness=Kecerahan:
+Contrast=Kontras:
+Saturation=Ketepuan:
+Hue=Rona:
+Gamma=Gamma:
+ResetAll=Tetap Semula Semua Warna
+
+[CLI]
+; Mesej baris arahan
+Usage=Penggunaan
+Arguments=[PILIHAN] [FAIL|URL|FOLDER]
+Description=Pemain multimedia merentas platform menggunakan libmpv sebagai enjin.
+Options=PILIHAN
+Examples=CONTOH
+MoreInfo=Untuk maklumat lanjut, layari
+EnqueuedTo=Ditambah ke baris gilir contoh sedia ada: %s
+SentTo=Dihantar ke contoh sedia ada: %s
+AlreadyRunning=3nity Media sudah berjalan.
+ErrorFileNotFound=Ralat: Fail atau direktori tidak dijumpai: %s
+ErrorSubNotFound=Ralat: Fail sari kata tidak dijumpai: %s

@@ -1,0 +1,892 @@
+[Language]
+Name=Somali - Soomaali
+Code=so
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Fayl
+FileOpen=&Fur Fayl...
+FileOpenURL=Fur &URL...
+FileOpenClipboard=Ka fur &Clipboard
+FileRecent=Faylasha &Dhowaan
+ClearRecentFiles=Tirtir Faylasha Dhowaan
+FileExit=Ka &bax
+
+; Playback menu
+Playback=&Ciyaarid
+PlaybackPlayPause=&Ciyaar/Hakad
+PlaybackStop=&Jooji
+PlaybackPrevious=&Hore
+PlaybackNext=&Xiga
+PlaybackSeekForward=Raadi &Hore
+PlaybackSeekBackward=Raadi &Dib
+PlaybackSpeed=&Xawaare
+PlaybackABLoop=A-&B Loop
+PlaybackSetA=Dhig &A
+PlaybackSetB=Dhig &B
+PlaybackClearAB=&Tirtir A-B
+PlaybackChapters=&Cutubyo
+PlaybackPrevChapter=Cutubka Hore
+PlaybackNextChapter=Cutubka Xiga
+PlaybackFrameStep=Frame &Hore
+PlaybackFrameBack=Frame &Dib
+
+; DVD Navigation
+PlaybackDVD=DVD &Hagid
+DVDMenu=&Menu
+DVDUp=&Kor
+DVDDown=&Hoos
+DVDLeft=&Bidix
+DVDRight=&Midig
+DVDSelect=&Dooro
+PlaybackDVDTitles=DVD &Cinwaanno
+
+; Phase 21: Open Folder
+FileOpenFolder=Fur F&older...
+
+; File menu DVD/Bluray
+FileOpenDVD=Fur &DVD...
+FileOpenBluray=Fur &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Aad Wakhti...
+ToolsHistory=&Taariikhda
+
+; Phase 14: System Tray
+TrayShow=&Tus/Qari
+TrayPlayPause=&Ciyaar/Hakad
+TrayStop=&Jooji
+TrayPrevious=&Hore
+TrayNext=&Xiga
+TrayMute=&Aamusnaw
+TrayExit=Ka &bax
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Ku dar &Calaamad...
+PlaybackBookmarks=Calaa&madyo
+BookmarksTitle=Calaamadyo
+BookmarksGoto=&Aad Calaamadda
+BookmarksRemove=&Ka saar Calaamadda
+BookmarksClear=&Tirtir Dhammaan Calaamadaha
+BookmarksOpenFolder=Fur &Folder
+BookmarksCopyPath=&Koobiye Waddada
+BookmarksCount=%d calaamadyo
+NoBookmarks=(Calaamad ma jiro)
+NoFileLoaded=(Fayl lama rarin)
+BookmarkAdded=Calaamad lagu daray %s
+BookmarkJumped=Loo booday calaamadda %s
+AddBookmarkTitle=Ku dar Calaamad
+AddBookmarkPrompt=Geli magaca calaamadda:
+ShowAllBookmarks=Tus Dhammaan Calaamadaha...
+
+; Phase 16: Favorites
+ToolsFavorites=&Jeclaanshaha
+ToolsAddFavorite=Ku &dar Jeclaanshaha
+FavoritesTitle=Jeclaanshaha
+FavoritesPlay=&Ciyaar
+FavoritesRemove=Ka &saar Jeclaanshaha
+FavoritesClear=&Tirtir Dhammaan Jeclaanshaha
+FavoritesOpenFolder=Fur &Folder
+FavoritesCopyPath=&Koobiye Waddada
+FavoritesCount=%d jeclaansho
+NoFavorites=(Jeclaansho ma jiro)
+AddFavoriteTitle=Ku dar Jeclaanshaha
+AddFavoritePrompt=Geli magaca jeclaanshaha:
+AlreadyFavorite=Horey ugu jiray jeclaanshaha
+AddedToFavorites=Lagu daray jeclaanshaha: %s
+NoFileToFavorite=Fayl lama rarin si loo ku daro jeclaanshaha
+FavoriteTypeFile=Fayl
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Raadiye
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Track %d: %s
+TrackWithLang=Track %d (%s)
+TrackNumber=Track %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Dami
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&Xilliga Hurda...
+ToolsSleepTimerActive=&Xilliga Hurda [%s]
+ToolsCancelTimer=Tirtir &Timer
+
+; Audio menu
+Audio=&Codka
+AudioTrack=&Track Codka
+AudioVolumeUp=Codka &kor u qaad
+AudioVolumeDown=Codka &hoos u dhig
+AudioMute=&Aamusnaw
+AudioEqualizer=&Equalizer
+AudioDelay=&Dib u dhac Codka
+AudioDelayPlus=Dib u dhac +0.1s
+AudioDelayMinus=Dib u dhac -0.1s
+AudioDelayReset=Dib u soo celi
+AudioNormalize=&Normalize Codka
+
+; Video menu
+Video=&Fiidiyow
+VideoFullscreen=&Shaashadda buuxda
+VideoAspect=&Samaynta Muuqaalka
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Sawir qaado
+VideoScreenshotAs=Sawir qaado &sida...
+VideoRotation=&Wareejin
+VideoRotate0=&0° (Caadi)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Rogid
+VideoFlipH=Rogid &Toosan
+VideoFlipV=Rogid &Sara-hoos
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &gudaha
+VideoZoomOut=Zoom &dibadda
+VideoZoomReset=&Dib u soo celi Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan &Bidix
+VideoPanRight=Pan &Midig
+VideoPanUp=Pan &Kor
+VideoPanDown=Pan &Hoos
+VideoPanReset=Dib u soo ce&li Pan
+VideoTrack=&Track Fiidiyow
+VideoColors=Hagaajin &Midabka
+VideoBrightness=&Iftiinimo
+VideoContrast=&Kala duwanaansho
+VideoSaturation=&Buuxin
+VideoHue=&Midab
+VideoGamma=&Gamma
+VideoColorsReset=Dib u soo celi &Dhammaan Midabka
+VideoIncrease=Kordhi (+5)
+VideoDecrease=Dhimi (-5)
+VideoReset=Dib u soo celi
+VideoAdjustDialog=&Hagaajinta Fiidiyow...
+
+; View menu
+View=&Muuqaal
+ViewAlwaysOnTop=&Had iyo jeer korka
+ViewFitToVideo=&Daaqadda u ekaysiiso Fiidiyow
+ViewScale=&Cabbirka Daaqadda
+
+; Phase 26: Visualization menu
+ViewVisualization=&Muuqaal-samayn
+VisNone=&Maya
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=&Mode xiga
+VisNextColor=&Midab scheme xiga
+
+; Subtitles menu
+Subtitles=&Qoraalka
+SubtitleTrack=&Track Qoraalka
+SubtitleLoad=&Rar Qoraalka...
+SubtitleDelay=&Dib u dhac Qoraalka
+SubtitleDelayPlus=Dib u dhac +0.1s
+SubtitleDelayMinus=Dib u dhac -0.1s
+SubtitleDelayReset=Dib u soo celi
+
+; Tools menu
+Tools=&Qalabka
+ToolsPlaylist=&Playlist
+ToolsRadios=&Raadiyeyaasha
+ToolsShortcuts=&Furayaasha Keyboard...
+ToolsOptions=&Dejinta
+
+; Phase 27: Recording menu
+ToolsRecord=&Duub Stream...
+ToolsStopRecord=&Jooji Duubaanshaha
+ToolsRecording=Waa la &duubayaa...
+
+; Help menu
+Help=&Caawin
+HelpMediaInfo=&Macluumaadka Media
+HelpLog=&Daaqadda Log
+HelpAbout=&Ku saabsan
+
+[Dialog]
+OpenFile=Fur Fayl
+OpenURL=Fur URL
+SaveScreenshot=Kaydi Sawir
+LoadSubtitle=Rar Faylka Qoraalka
+EnterURL=Geli URL:
+ResumePlayback=Sii wad Ciyaarida
+ResumeFrom=Ka sii wad %s?
+ClearRecentFiles=Tirtir Faylasha Dhowaan
+NoRecentFiles=(Fayl dhowaan ma jiro)
+NoAudioTracks=(Track codka ma jiro)
+NoVideoTracks=(Track fiidiyow ma jiro)
+NoSubtitleTracks=(Track qoraal ma jiro)
+NoChapters=(Cutub ma jiro)
+OpenDVD=Fur DVD
+OpenBluray=Fur Blu-ray
+OpenFolder=Fur Folder
+
+; File filters
+ScreenshotFilter=PNG sawir|*.png|JPEG sawir|*.jpg|WebP sawir|*.webp
+DVDFilter=DVD folder|*.;*.iso|Dhammaan faylasha (*.*)|*.*
+BlurayFilter=Blu-ray folder|*.;*.iso|Dhammaan faylasha (*.*)|*.*
+NoDVD=(DVD lama rarin)
+DVDTitle=Cinwaan %d
+GotoTime=Aad Wakhti
+EnterTime=Geli wakhtiga aadid:
+Hours=Saac
+Minutes=Daqiiqad
+Seconds=Ilbiriqsi
+Current=Hadda:
+HistoryTitle=Taariikhda Ciyaarida
+HistoryItems=%d shay taariikhda
+HistoryPlay=&Ciyaar
+HistoryRemove=Ka &saar Taariikhda
+HistoryClear=&Tirtir Dhammaan Taariikhda
+HistoryOpenFolder=Fur &Folder
+HistoryCopyPath=&Koobiye Waddada
+ClearHistory=Tirtir Taariikhda
+ClearHistoryConfirm=Ma hubtaa inaad tirtirto dhammaan taariikhda?
+SleepTimerTitle=Xilliga Hurda
+SleepTimerDescription=Dhig timer si toos ah loo joojiyo ciyaarida
+SleepTimerHours=Saac
+SleepTimerMinutes=Daqiiqad
+SleepTimerQuickSet=Dhaqso dhig
+SleepTimerAction=Marka timer dhammaato
+SleepTimerStopPlayback=Jooji ciyaarida
+SleepTimerCloseApp=Xidh application
+SleepTimerShutdown=Dami kombuyuutarka
+SleepTimerStart=Bilow Timer
+
+[Status]
+Ready=Diyaar
+Opening=Waa la furayaa...
+Playing=Waa la ciyaarayaa
+Paused=Wuu hakad galiyay
+Stopped=Wuu joojiyay
+Error=Khalad
+Buffering=Waa la bufferayaa...
+Seeking=Waa la raadiyaa...
+Recording=Waa la duubayaa
+
+[Message]
+SpeedFormat=Xawaare: %.2fx
+VolumeFormat=Codka: %d%%
+BrightnessFormat=Iftiinimo: %d
+ContrastFormat=Kala duwanaansho: %d
+SaturationFormat=Buuxin: %d
+HueFormat=Midab: %d
+GammaFormat=Gamma: %d
+ColorsReset=Midabada fiidiyow waa la dib u soo celiyay
+LoopASet=A loop waxaa lagu dhigay %s
+LoopBSet=B loop waxaa lagu dhigay %s - Loop waa firfircoon
+LoopCleared=A-B loop waa la tirtiray
+SetAFirst=Marka hore A barta dhig (taabo L)
+RotationFormat=Wareejin: %d°
+FlipHOn=Rogid toosan: ON
+FlipHOff=Rogid toosan: OFF
+FlipVOn=Rogid sara-hoos: ON
+FlipVOff=Rogid sara-hoos: OFF
+DeinterlaceOn=Deinterlace: ON
+DeinterlaceOff=Deinterlace: OFF
+AlwaysOnTopOn=Had iyo jeer korka: ON
+AlwaysOnTopOff=Had iyo jeer korka: OFF
+WindowFitted=Daaqadda waxay ku ekaatay %dx%d
+WindowScale=Cabbirka daaqadda: %.0f%%
+ScreenshotSaved=Sawir waa la kaydiyay: %s
+AudioNormalizeOn=Normalize codka: ON
+AudioNormalizeOff=Normalize codka: OFF
+AudioDelayFormat=Dib u dhac codka: %.1f s
+SubtitleDelayFormat=Dib u dhac qoraalka: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Bartamaha
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Fiidiyow lama rarin
+PlayingFromClipboard=Waxaa laga ciyaarayaa clipboard: %s
+ClipboardInvalid=Clipboard kuma jiro URL ama waddo sax ah
+ClipboardEmpty=Clipboard waa madhan yahay ama qoraal ma leh
+ResumedAt=Waxaa laga sii waday %s
+FrameStepForward=Frame hore
+FrameStepBackward=Frame dib
+PreviousChapter=Cutubka hore
+NextChapter=Cutubka xiga
+PlayingRadio=Raadiye waa la ciyaarayaa: %s
+PlayingDVD=DVD waa la ciyaarayaa: %s
+PlayingBluray=Blu-ray waa la ciyaarayaa: %s
+DVDTitlePlaying=DVD Cinwaan %d
+SeekTo=Waxaa loo socdaa %s
+MinimizedToTray=Waxaa loo yareeyay tray. Si aad u soo celiso laba jeer guji.
+SleepTimerSet=Xilliga hurda waa la dhigay: %s
+SleepTimerCancelled=Xilliga hurda waa la tirtiray
+SleepTimerWarning=Xilliga hurda: 1 daqiiqad ayaa hadhay
+SleepTimerFinal=Xilliga hurda: 10 ilbiriqsi ayaa hadhay
+SleepTimerStopped=Xilliga hurda: Ciyaaridu waa joogsatay
+SleepTimerClosing=Xilliga hurda: Application waa la xirayaa
+SleepTimerShutdown=Xilliga hurda: Kombuyuutarka waa la damiyaa
+SleepTimerExpired=Xilliga hurda wuu dhamaaday
+ShutdownManual=Fadlan kombuyuutarkaaga gacanta ku dami.
+
+; Phase 21: Open Folder
+FolderOpened=Folder waa la furay: %d fayl
+NoMediaFound=Media faylal lama helin
+FilesAdded=%d fayl ayaa lagu daray playlist
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Bilow ciyaarida ka hor inta aan la duubin.
+RecordingStarted=Duubaanshahu wuu bilaabmay
+RecordingStopped=Duubaanshahu wuu joojiyay
+
+; Additional status messages
+EndOfPlaylist=Dhammaadka playlist
+NoMediaLoaded=Hadda media fayl lama rarin.
+JumpedToNamed=Loo booday: %s
+ChapterFormat=Cutub %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Calaamad %s
+
+[Label]
+Muted=Waa la aamusinay
+
+[Button]
+Play=Ciyaar
+Pause=Hakad
+Stop=Jooji
+Previous=Hore
+Next=Xiga
+Mute=Aamusnaw
+Unmute=Cod ka dhig
+Fullscreen=Shaashad buuxda
+OK=Hagaag
+Cancel=Kansal
+Apply=Isticmaal
+Close=Xidh
+Yes=Haa
+No=Maya
+
+[Tooltip]
+Play=Ciyaar/Hakad
+Stop=Jooji ciyaarida
+Previous=Track hore
+Next=Track xiga
+Mute=Aamusnaw bedel
+Volume=Codka
+Seek=Barta raadinta
+Fullscreen=Shaashad buuxda bedel
+
+[Playlist]
+Title=Playlist
+Add=Ku dar
+Remove=Ka saar
+Clear=Tirtir
+MoveUp=Kor u qaad
+MoveDown=Hoos u dhig
+Shuffle=Isku qas
+Repeat=Ku celi
+Play=Ciyaar
+ShuffleOn=Isku qas: ON
+ShuffleOff=Isku qas: OFF
+RepeatOff=Ku celinta: OFF
+RepeatOne=Ku celinta: Hal
+RepeatAll=Ku celinta: Dhammaantood
+SavePlaylist=Kaydi
+LoadPlaylist=Rar
+TotalDuration=Wadarta: %s
+ItemCount=%d shay
+
+; Phase 22: Playlist Enhancements
+Search=Raadi:
+FilterPlaceholder=Filter playlist...
+ClearSearch=Tirtir
+FilterCount=%d/%d
+RemoveDuplicates=Ka saar &kuwa labanlaabmay
+Properties=&Astaamaha...
+NoDuplicates=Kuwa labanlaabmay lama helin.
+DuplicatesFound=%d kuwa labanlaabmay la helay. Ma tirtirsaa?
+RemoveDuplicatesTitle=Ka saar kuwa labanlaabmay
+PropertiesTitle=Astaamaha Playlist
+PropTotalItems=Wadarta shayalka: %d
+PropTotalDuration=Wadarta wakhtiga: %s
+PropPlayed=La ciyaaray: %d
+PropUnplayed=Aan la ciyaarin: %d
+PropTotalSize=Wadarta cabbirka: %.2f MB
+PropShuffle=Isku qas: %s
+PropRepeat=Ku celinta: %s
+On=ON
+Off=OFF
+
+; New keys for ApplyLocale
+ClearTitle=Tirtir Playlist
+ClearConfirm=Ma hubtaa inaad tirtirto playlist?
+NoPlaylist=Playlist ma jiro
+StatusFormat=%d shay | Wadarta: %s
+RepeatOne=K. 1
+RepeatAll=K. Dh.
+HintRepeatEnable=Guji si aad u shiddo ku celinta dhammaantood
+HintRepeatOne=Ku celi hal - Guji si aad u damiso
+HintRepeatAll=Ku celi dhammaantood - Guji ku celi hal
+HintShuffleRepeat=Isku qas + Ku celi dhammaantood - Guji si aad u damiso ku celinta
+RemoveDuplicatesTitle=Ka saar kuwa labanlaabmay
+NoDuplicates=Kuwa labanlaabmay lama helin.
+SelectAll=Dooro dhammaantood
+SelectNone=Ha doorin waxba
+SelectInvert=Doorashada rogso
+Sort=Kala sooc
+SortByName=Magaca
+SortByTitle=Cinwaanka
+SortByArtist=Fanaanka
+SortByDuration=Wakhtiga
+SortReverse=Rogso
+SortRandom=Random
+ColTitle=Cinwaan
+ColDuration=Wakhti
+ColArtist=Fanaan
+ColAlbum=Album
+PlaylistFilter=M3U playlist|*.m3u|M3U8 playlist|*.m3u8|PLS playlist|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Presets:
+Preamp=Preamp:
+Flat=Simman
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Classical
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Cod
+Reset=Dib u soo celi
+Enable=Shid Equalizer
+Save=Kaydi
+Delete=Tirtir
+Ready=Diyaar
+; Buttons and actions
+SavePreset=Kaydi Preset
+DeletePreset=Tirtir Preset
+SavePresetTitle=Kaydi Preset
+PresetNamePrompt=Magaca preset:
+EnterPresetName=Fadlan geli magaca preset.
+OverwritePresetTitle=Ku qor Preset
+OverwritePresetConfirm=Preset leh magacaan horey buu u jiray. Ma ku qoraa?
+PresetUpdated=Preset waa la cusboonaysiiyay: %s
+PresetSaved=Preset waa la kaydiyay: %s
+SelectPresetToDelete=Fadlan dooro preset aad tirtirto.
+CannotDeleteDefault=Presetada caadiga ah lama tirtiri karo.
+DeletePresetTitle=Tirtir Preset
+DeletePresetConfirm=Ma hubtaa inaad tirtirto preset?
+PresetDeleted=Preset waa la tirtiray
+ResetToFlat=Equalizer waxaa loo dib u soo celiyay simman
+PresetApplied=Preset waa la isticmaalay: %s
+
+[Options]
+Title=Dejinta
+General=Guud
+Video=Fiidiyow
+Audio=Codka
+Subtitles=Qoraalka
+Cache=Cache
+Language=Luuqadda:
+RestartRequired=Dib u bilowga ayaa loo baahan yahay isbeddelada si ay u shaqeeyaan
+
+; General tab - Behavior
+Behavior=Habdhaqanka
+SingleInstance=U oggolow hal xaalad
+AutoPlay=Toos u ciyaar marka la furo
+AutoResume=Soo celi barta ciyaarida
+MinimizeToTray=U yareey system tray
+AutoSavePlaylist=Kaydi playlist marka la baxayo
+
+; General tab - OSD
+OSD=Muuqaalka shaashadda
+ShowOSD=Tus fariimaha shaashadda
+ShowTrayIcon=Tus icon-ka tray
+OSDDuration=Wakhtiga OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Sawirada
+ScreenshotPath=Folderka keydinta:
+ScreenshotFormat=Qaabka:
+
+; General tab - History
+HistorySettings=Taariikhda
+HistoryEnabled=Shid taariikhda ciyaarida
+HistoryMaxItems=Ugu badan shayalka:
+
+; General tab - Language
+LanguageGroup=Luuqadda
+RestartNote=(Dib u bilowga ayaa loo baahan yahay isbeddelada)
+
+; Video tab
+VideoAdjust=Hagaajinta Fiidiyow
+Brightness=Iftiinimo:
+Contrast=Kala duwanaansho:
+Saturation=Buuxin:
+Hue=Midab:
+Gamma=Gamma:
+VideoOutput=Soo saarista Fiidiyow
+Output=Soo saar:
+HWAccel=Shid xawaaraha hardware
+Deinterlacing=Deinterlacing
+Mode=Habka:
+
+; Audio tab
+AudioOutput=Soo saarista Codka
+OutputDriver=Driver soo saarista:
+Device=Qalabka:
+AudioOptions=Doorashooyinka Codka
+NormalizeAudio=Normalize codka
+Channels=Channels:
+
+; Subtitles tab
+UseDefaultSubtitles=Isticmaal dejinta caadiga ah qoraalka
+Font=Font
+FontName=Font:
+FontSize=Cabbirka:
+FontColor=Midab:
+Bold=Bold
+Italic=Italic
+Outline=Outline
+OutlineColor=Midab:
+OutlineSize=Cabbirka:
+Position=Barta
+VerticalPosition=Barta sara-hoos:
+SubOptions=Doorashooyinka
+Encoding=Encoding:
+AutoLoadSubs=Toos u rar faylasha qoraalka
+
+; Video output warnings
+VOWarningX11=Digniin: x11 ma taageero hagaajinta fiidiyow (iftiinimo, kala duwanaansho, iwm.)
+VOWarningWayland=Digniin: Wayland session ayaa loo baahan yahay. Hagaajinta fiidiyow waa la taageeraa.
+
+; Cache tab
+CacheSettings=Cabbirka Buffer Cache (KB)
+CacheDefault=Cache caadiga ah:
+CacheLocal=Faylasha gudaha:
+CacheNetwork=Faylasha shabakadda:
+CacheInternet=Internet streams:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Ku saabsan
+Version=Nooca
+Engine=Engine
+Technology=Technology
+BuildInfo=Macluumaadka dhisidda
+SystemInfo=System
+Credits=Credits
+Developer=Horumariye:
+Author=Qoraaga
+License=License
+Website=Website
+GitHub=GitHub
+Description=Media player casri ah, fudud
+LicenseText=3nity Media waxaa lagu siiyay license GPL-2.0\n\nTaasi waxay la macno tahay inaad xor u tahay:\n  * Isticmaalka software ujeedo kasta\n  * Barasho iyo beddelka source code\n  * Qaybin nuqulaha software\n  * Qaybin isbeddellada\n\nIyadoo ay shuruud tahay in isbeddelada la qaybiyo\nay sidoo kale leeyihiin license GPL-2.0.
+BuildDate=Taariikhda:
+Target=Bartilmaameedka:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Furayaasha Keyboard
+Description=Habeyn furayaasha keyboard ee ficillada
+Search=Raadi:
+PressKey=Taabo furaha...
+ColCategory=Qeybta
+ColAction=Ficilka
+ColShortcut=Shortcut
+Assign=U dhig
+Clear=Tirtir
+Reset=Dib u soo celi
+ResetAll=Dib u soo celi dhammaantood
+CurrentShortcut=Hadda: %s
+NoKeyPressed=Fadlan marka hore taabo isku dhafka furayaasha.
+Conflict=Khilaaf: Horey loo u dhigay "%s"
+ConfirmReplace=Badel Shortcut
+ReplaceMessage=Shortcut horeyba loo u dhigay "%s". Ma badelaysaa?
+ConfirmResetAll=Dib u soo celi dhammaan Shortcuts
+ResetAllMessage=Ma hubtaa inaad dhammaan shortcuts u dib u soo celinayso caadiga?
+; Action names
+ActPlayPause=Ciyaar / Hakad
+ActStop=Jooji
+ActPrevious=Hore
+ActNext=Xiga
+ActSeekForward=Raadi hore (10s)
+ActSeekBackward=Raadi dib (10s)
+ActSeekForward5=Raadi hore (1 daqiiqad)
+ActSeekBackward5=Raadi dib (1 daqiiqad)
+ActSpeedUp=Xawaare kordhi
+ActSpeedDown=Xawaare dhimi
+ActSpeedReset=Dib u soo celi xawaare
+ActSetLoopA=Dhig loop barta A
+ActSetLoopB=Dhig loop barta B
+ActClearLoop=Tirtir A-B loop
+ActFrameForward=Frame hore
+ActFrameBackward=Frame dib
+ActPrevChapter=Cutubka hore
+ActNextChapter=Cutubka xiga
+ActGotoTime=Aad wakhti
+ActVolumeUp=Codka kor u qaad
+ActVolumeDown=Codka hoos u dhig
+ActMute=Aamusnaw / Cod ka dhig
+ActAudioDelayPlus=Dib u dhac codka +
+ActAudioDelayMinus=Dib u dhac codka -
+ActAudioDelayReset=Dib u soo celi dib u dhac codka
+ActFullscreen=Shaashad buuxda
+ActRotate=Wareejin fiidiyow
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom gudaha
+ActZoomOut=Zoom dibadda
+ActZoomReset=Dib u soo celi zoom
+ActAlwaysOnTop=Had iyo jeer korka
+ActFitToVideo=Fiidiyow u ekaysiiso
+ActScreenshot=Sawir qaado
+ActVideoAdjust=Hagaajinta fiidiyow
+ActVisNextMode=Mode-ka visualization xiga
+ActVisNextColor=Midab scheme xiga
+ActSubDelayPlus=Dib u dhac qoraalka +
+ActSubDelayMinus=Dib u dhac qoraalka -
+ActSubDelayReset=Dib u soo celi dib u dhac qoraalka
+ActDVDMenu=DVD menu
+ActDVDUp=DVD kor u hagid
+ActDVDDown=DVD hoos u hagid
+ActDVDLeft=DVD bidix u hagid
+ActDVDRight=DVD midig u hagid
+ActDVDSelect=DVD dooro
+ActOpenFile=Fur fayl
+ActOpenURL=Fur URL
+ActPlaylist=Tus playlist
+ActQuit=Ka bax
+
+[Log]
+; Phase 25: Log Window
+Title=MPV Log
+Command=Amar:
+Clear=Tirtir
+Save=Kaydi...
+Copy=&Koobiye
+SelectAll=Dooro &dhammaantood
+SaveTitle=Kaydi Log
+SaveFilter=Faylasha qoraalka (*.txt)|*.txt|Dhammaan faylasha (*.*)|*.*
+ErrorTitle=Khalad
+SaveError=Keydinta log wey ku guul darraysatay: %s
+
+[MediaInfo]
+Title=Macluumaadka Media
+FileTab=Fayl
+VideoTab=Fiidiyow
+AudioTab=Codka
+MetadataTab=Metadata
+FileName=Magaca fayl:
+FilePath=Waddada:
+FileSize=Cabbirka:
+Duration=Wakhtiga:
+Format=Qaabka:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame rate:
+PixelFormat=Pixel format:
+AspectRatio=Samaynta muuqaalka:
+Channels=Channels:
+SampleRate=Sample rate:
+Language=Luuqadda:
+Property=Astaan
+Value=Qiimo
+CopyAll=Koobiye dhammaantood
+CopiedToClipboard=Macluumaadka media waxaa loo koobiyay clipboard.
+NA=Lama hayo
+NAStream=Lama hayo (stream)
+NALive=Lama hayo (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Lama yaqaan
+NoMetadata=(Metadata ma jiro)
+
+[Bookmarks]
+Title=Calaamadyo
+Goto=Aad
+Remove=Ka saar
+Clear=Tirtir dhammaantood
+Refresh=Cusboonaysiiye
+OpenFolder=Fur folder
+CopyPath=Koobiye waddada
+; Columns
+ColName=Magaca
+ColFile=Fayl
+ColPosition=Barta
+ColCreated=La sameeyay
+; Dialogs
+ClearTitle=Tirtir Calaamadaha
+ClearConfirm=Ma hubtaa inaad tirtirto dhammaan calaamadaha?
+Count=%d calaamad(yo)
+
+[Favorites]
+Title=Jeclaanshaha
+Play=Ciyaar
+Remove=Ka saar
+Clear=Tirtir dhammaantood
+Refresh=Cusboonaysiiye
+OpenFolder=Fur folder
+CopyPath=Koobiye waddada
+; Columns
+ColName=Magaca
+ColType=Nooca
+ColPath=Waddada
+; Types
+TypeFile=Fayl
+TypeURL=URL
+TypeRadio=Raadiye
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Lama yaqaan
+; Dialogs
+ClearTitle=Tirtir Jeclaanshaha
+ClearConfirm=Ma hubtaa inaad tirtirto dhammaan jeclaanshaha?
+Count=%d jeclaansho(yo)
+
+[History]
+Title=Taariikhda Ciyaarida
+Play=Ciyaar
+Remove=Ka saar
+Clear=Tirtir dhammaantood
+Refresh=Cusboonaysiiye
+OpenFolder=Fur folder
+CopyPath=Koobiye waddada
+; Columns
+ColFileName=Fayl
+ColPath=Waddada
+; Dialogs
+ClearTitle=Tirtir Taariikhda
+ClearConfirm=Ma hubtaa inaad tirtirto dhammaan taariikhda?
+Count=%d shay(al)
+
+[SleepTimer]
+Title=Xilliga Hurda
+Description=Dhig timer si toos ah loo joojiyo ciyaarida
+Hours=Saac:
+Minutes=Daqiiqad:
+Action=Marka timer dhammaato:
+StopPlayback=Jooji ciyaarida
+CloseApp=Xidh application
+Shutdown=Dami kombuyuutarka
+QuickSet=Dhaqso dhig:
+15Min=15 daqiiqad
+30Min=30 daqiiqad
+1Hour=1 saac
+2Hours=2 saac
+
+[Radios]
+Title=Raadiyeyaasha Internet
+Play=Ciyaar
+Add=Ku dar
+Edit=Habeyn
+Delete=Tirtir
+Remove=Ka saar
+Import=Soo dejin
+Export=Dhoofin
+Refresh=Cusboonaysiiye
+Favorite=Jeclaansho
+ShowFavorites=Jeclaanshaha
+ShowAll=Dhammaantood
+; Filter
+Genre=Nooca:
+Search=Raadi:
+SearchBtn=Raadi
+ClearSearch=Tirtir
+AllGenres=(Dhammaan noocyada)
+; Context menu
+AddFavorite=Ku dar jeclaanshaha
+RemoveFavorite=Ka saar jeclaanshaha
+AddCustom=Ku dar station gaarka ah...
+EditCustom=Habeyn station...
+DeleteCustom=Tirtir station
+OpenWebsite=Fur website
+CopyURL=Koobiye URL
+; Columns
+ColName=Magaca
+ColGenre=Nooca
+ColBitrate=Bitrate
+ColCountry=Dalka
+ColCodec=Codec
+; Dialogs
+AddTitle=Ku dar Station gaarka ah
+EditTitle=Habeyn Station
+DeleteTitle=Tirtir Station
+DeleteConfirm=Ma hubtaa inaad tirtirto station?
+StationName=Magaca station:
+StreamURL=Stream URL:
+GenrePrompt=Nooca:
+NameURLRequired=Magaca iyo URL waa loo baahan yahay.
+; Status messages
+LoadingIcecast=Waxaa laga rarayaa stations Icecast directory...
+IcecastError=Ma rari karin Icecast directory. Waxaa la isticmaalayaa stations caadiga ah.
+NoStationsLoaded=Stations lama rarin
+StationCount=%d stations
+LoadedStations=%d stations la raray
+ErrorPrefix=Khalad:
+; Legacy keys
+Name=Magaca
+URL=URL
+Bitrate=Bitrate
+Description=Sharaxaad
+Country=Dalka
+
+[OpenURL]
+Title=Fur URL
+Prompt=Geli media URL:
+
+[GotoTime]
+Title=Aad Wakhti
+EnterTime=Geli wakhtiga aadid:
+Hours=S
+Minutes=D
+Seconds=I
+Current=Hadda:
+Duration=Wakhtiga:
+
+[VideoAdjust]
+Title=Hagaajinta Fiidiyow
+Brightness=Iftiinimo:
+Contrast=Kala duwanaansho:
+Saturation=Buuxin:
+Hue=Midab:
+Gamma=Gamma:
+ResetAll=Dib u soo celi dhammaan midabka
+
+[CLI]
+; Fariimaha khadka amarka
+Usage=Isticmaalka
+Arguments=[DOORASHOOYIN] [FAYL|URL|GALKA]
+Description=Ciyaare multimedia oo ka shaqaysa barnaamijyo badan oo adeegsada libmpv.
+Options=DOORASHOOYIN
+Examples=TUSAALOOYIN
+MoreInfo=Si aad macluumaad dheeraad ah u hesho, booqo
+EnqueuedTo=Waxaa lagu daray safka habka jira: %s
+SentTo=Waxaa loo diray habka jira: %s
+AlreadyRunning=3nity Media ayaa horey u socota.
+ErrorFileNotFound=Khalad: Faylka ama hagaha lama helin: %s
+ErrorSubNotFound=Khalad: Faylka qoraalka hoose lama helin: %s

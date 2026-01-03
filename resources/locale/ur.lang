@@ -1,0 +1,892 @@
+[Language]
+Name=Urdu - اردو
+Code=ur
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; فائل مینو
+File=&فائل
+FileOpen=&فائل کھولیں...
+FileOpenURL=یو آر &ایل کھولیں...
+FileOpenClipboard=&کلپ بورڈ سے کھولیں
+FileRecent=&حالیہ فائلیں
+ClearRecentFiles=حالیہ فائلیں صاف کریں
+FileExit=با&ہر
+
+; پلے بیک مینو
+Playback=&پلے بیک
+PlaybackPlayPause=&چلائیں/روکیں
+PlaybackStop=&رکیں
+PlaybackPrevious=پچھ&لا
+PlaybackNext=&اگلا
+PlaybackSeekForward=&آگے جائیں
+PlaybackSeekBackward=&پیچھے جائیں
+PlaybackSpeed=&رفتار
+PlaybackABLoop=اے-&بی لوپ
+PlaybackSetA=&اے سیٹ کریں
+PlaybackSetB=&بی سیٹ کریں
+PlaybackClearAB=اے-بی &صاف کریں
+PlaybackChapters=&ابواب
+PlaybackPrevChapter=پچھلا باب
+PlaybackNextChapter=اگلا باب
+PlaybackFrameStep=فریم &آگے
+PlaybackFrameBack=فریم &پیچھے
+
+; ڈی وی ڈی نیویگیشن
+PlaybackDVD=ڈی وی ڈی &نیویگیشن
+DVDMenu=&مینو
+DVDUp=&اوپر
+DVDDown=&نیچے
+DVDLeft=&بائیں
+DVDRight=&دائیں
+DVDSelect=&منتخب کریں
+PlaybackDVDTitles=ڈی وی ڈی &ٹائٹلز
+
+; مرحلہ 21: فولڈر کھولیں
+FileOpenFolder=فو&لڈر کھولیں...
+
+; فائل مینو ڈی وی ڈی/بلو رے
+FileOpenDVD=&ڈی وی ڈی کھولیں...
+FileOpenBluray=&بلو رے کھولیں...
+
+; مرحلہ 13: وقت پر جائیں اور تاریخ
+PlaybackGotoTime=وقت پر &جائیں...
+ToolsHistory=&تاریخ
+
+; مرحلہ 14: سسٹم ٹرے
+TrayShow=&دکھائیں/چھپائیں
+TrayPlayPause=&چلائیں/روکیں
+TrayStop=&رکیں
+TrayPrevious=پچھ&لا
+TrayNext=&اگلا
+TrayMute=&خاموش
+TrayExit=با&ہر
+
+; مرحلہ 15: بُک مارکس
+PlaybackAddBookmark=بُک مارک &شامل کریں...
+PlaybackBookmarks=بُک ما&رکس
+BookmarksTitle=بُک مارکس
+BookmarksGoto=بُک مارک پر &جائیں
+BookmarksRemove=بُک مارک &ہٹائیں
+BookmarksClear=تمام بُک مارکس &صاف کریں
+BookmarksOpenFolder=&فولڈر کھولیں
+BookmarksCopyPath=&پاتھ کاپی کریں
+BookmarksCount=%d بُک مارکس
+NoBookmarks=(کوئی بُک مارک نہیں)
+NoFileLoaded=(کوئی فائل لوڈ نہیں)
+BookmarkAdded=بُک مارک %s پر شامل کیا گیا
+BookmarkJumped=%s پر بُک مارک پر گئے
+AddBookmarkTitle=بُک مارک شامل کریں
+AddBookmarkPrompt=بُک مارک کا نام درج کریں:
+ShowAllBookmarks=تمام بُک مارکس دکھائیں...
+
+; مرحلہ 16: پسندیدہ
+ToolsFavorites=&پسندیدہ
+ToolsAddFavorite=پسندیدہ میں &شامل کریں
+FavoritesTitle=پسندیدہ
+FavoritesPlay=&چلائیں
+FavoritesRemove=پسندیدہ سے &ہٹائیں
+FavoritesClear=تمام پسندیدہ &صاف کریں
+FavoritesOpenFolder=&فولڈر کھولیں
+FavoritesCopyPath=&پاتھ کاپی کریں
+FavoritesCount=%d پسندیدہ
+NoFavorites=(کوئی پسندیدہ نہیں)
+AddFavoriteTitle=پسندیدہ میں شامل کریں
+AddFavoritePrompt=پسندیدہ کا نام درج کریں:
+AlreadyFavorite=پہلے سے پسندیدہ میں ہے
+AddedToFavorites=پسندیدہ میں شامل کیا گیا: %s
+NoFileToFavorite=پسندیدہ میں شامل کرنے کے لیے کوئی فائل لوڈ نہیں
+FavoriteTypeFile=فائل
+FavoriteTypeURL=یو آر ایل
+FavoriteTypeRadio=ریڈیو
+FavoriteTypeDVD=ڈی وی ڈی
+FavoriteTypeBluray=بلو رے
+
+; ٹریک فارمیٹ سٹرنگز
+TrackWithTitle=ٹریک %d: %s
+TrackWithLang=ٹریک %d (%s)
+TrackNumber=ٹریک %d
+
+; رفتار مینو آئٹمز
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; سکیل مینو آئٹمز
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; سب ٹائٹل ٹریک
+SubtitleDisable=غیر فعال
+
+; مرحلہ 17: سلیپ ٹائمر
+ToolsSleepTimer=&سلیپ ٹائمر...
+ToolsSleepTimerActive=&سلیپ ٹائمر [%s]
+ToolsCancelTimer=&ٹائمر منسوخ کریں
+
+; آڈیو مینو
+Audio=&آڈیو
+AudioTrack=آڈیو &ٹریک
+AudioVolumeUp=آواز &بڑھائیں
+AudioVolumeDown=آواز &کم کریں
+AudioMute=&خاموش
+AudioEqualizer=&ایکویلائزر
+AudioDelay=آڈیو &تاخیر
+AudioDelayPlus=تاخیر +0.1 سیکنڈ
+AudioDelayMinus=تاخیر -0.1 سیکنڈ
+AudioDelayReset=تاخیر ری سیٹ
+AudioNormalize=آواز &نارملائز کریں
+
+; ویڈیو مینو
+Video=&ویڈیو
+VideoFullscreen=&فل سکرین
+VideoAspect=&تناسب
+VideoAspectAuto=&خودکار
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&سکرین شاٹ
+VideoScreenshotAs=سکرین شاٹ &بطور...
+VideoRotation=&گھمائیں
+VideoRotate0=&0° (عام)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&پلٹائیں
+VideoFlipH=&افقی پلٹائیں
+VideoFlipV=&عمودی پلٹائیں
+VideoDeinterlace=&ڈی انٹرلیس
+VideoZoom=&زوم
+VideoZoomIn=زوم &ان
+VideoZoomOut=زوم &آؤٹ
+VideoZoomReset=زوم &ری سیٹ
+VideoPan=&پین
+VideoPanLeft=&بائیں پین
+VideoPanRight=&دائیں پین
+VideoPanUp=&اوپر پین
+VideoPanDown=&نیچے پین
+VideoPanReset=پین ری &سیٹ
+VideoTrack=ویڈیو &ٹریک
+VideoColors=رنگ &ایڈجسٹمنٹ
+VideoBrightness=&روشنی
+VideoContrast=&کنٹراسٹ
+VideoSaturation=&سیچوریشن
+VideoHue=&ہیو
+VideoGamma=&گاما
+VideoColorsReset=تمام رنگ &ری سیٹ کریں
+VideoIncrease=بڑھائیں (+5)
+VideoDecrease=کم کریں (-5)
+VideoReset=ری سیٹ
+VideoAdjustDialog=ویڈیو &ایڈجسٹمنٹس...
+
+; ویو مینو
+View=&دیکھیں
+ViewAlwaysOnTop=&ہمیشہ اوپر
+ViewFitToVideo=&ویڈیو کے مطابق ونڈو
+ViewScale=ونڈو &سکیل
+
+; مرحلہ 26: ویژولائزیشن مینو
+ViewVisualization=&ویژولائزیشن
+VisNone=&کوئی نہیں
+VisSpectrum=&سپیکٹرم اینالائزر
+VisWaveform=&ویوفارم
+VisVector=&ویکٹر سکوپ
+VisVolume=وی&یو میٹر
+VisNextMode=اگلا &موڈ
+VisNextColor=اگلی رنگ &سکیم
+
+; سب ٹائٹلز مینو
+Subtitles=&سب ٹائٹلز
+SubtitleTrack=سب ٹائٹل &ٹریک
+SubtitleLoad=سب ٹائٹل &لوڈ کریں...
+SubtitleDelay=سب ٹائٹل &تاخیر
+SubtitleDelayPlus=تاخیر +0.1 سیکنڈ
+SubtitleDelayMinus=تاخیر -0.1 سیکنڈ
+SubtitleDelayReset=تاخیر ری سیٹ
+
+; ٹولز مینو
+Tools=&ٹولز
+ToolsPlaylist=&پلے لسٹ
+ToolsRadios=&ریڈیوز
+ToolsShortcuts=&کی بورڈ شارٹ کٹس...
+ToolsOptions=&آپشنز
+
+; مرحلہ 27: ریکارڈنگ مینو
+ToolsRecord=&سٹریم ریکارڈ کریں...
+ToolsStopRecord=ریکارڈنگ &روکیں
+ToolsRecording=&ریکارڈنگ...
+
+; مدد مینو
+Help=&مدد
+HelpMediaInfo=&میڈیا معلومات
+HelpLog=&لاگ ونڈو
+HelpAbout=&کے بارے میں
+
+[Dialog]
+OpenFile=فائل کھولیں
+OpenURL=یو آر ایل کھولیں
+SaveScreenshot=سکرین شاٹ محفوظ کریں
+LoadSubtitle=سب ٹائٹل فائل لوڈ کریں
+EnterURL=یو آر ایل درج کریں:
+ResumePlayback=پلے بیک جاری رکھیں
+ResumeFrom=%s سے جاری رکھیں؟
+ClearRecentFiles=حالیہ فائلیں صاف کریں
+NoRecentFiles=(کوئی حالیہ فائلیں نہیں)
+NoAudioTracks=(کوئی آڈیو ٹریک نہیں)
+NoVideoTracks=(کوئی ویڈیو ٹریک نہیں)
+NoSubtitleTracks=(کوئی سب ٹائٹل ٹریک نہیں)
+NoChapters=(کوئی ابواب نہیں)
+OpenDVD=ڈی وی ڈی کھولیں
+OpenBluray=بلو رے کھولیں
+OpenFolder=فولڈر کھولیں
+
+; فائل فلٹرز
+ScreenshotFilter=PNG تصویر|*.png|JPEG تصویر|*.jpg|WebP تصویر|*.webp
+DVDFilter=ڈی وی ڈی فولڈر|*.;*.iso|تمام فائلیں (*.*)|*.*
+BlurayFilter=بلو رے فولڈر|*.;*.iso|تمام فائلیں (*.*)|*.*
+NoDVD=(کوئی ڈی وی ڈی لوڈ نہیں)
+DVDTitle=ٹائٹل %d
+GotoTime=وقت پر جائیں
+EnterTime=جس وقت پر جانا ہے درج کریں:
+Hours=گھنٹے
+Minutes=منٹ
+Seconds=سیکنڈ
+Current=موجودہ:
+HistoryTitle=پلے بیک تاریخ
+HistoryItems=تاریخ میں %d آئٹمز
+HistoryPlay=&چلائیں
+HistoryRemove=تاریخ سے &ہٹائیں
+HistoryClear=تمام تاریخ &صاف کریں
+HistoryOpenFolder=&فولڈر کھولیں
+HistoryCopyPath=&پاتھ کاپی کریں
+ClearHistory=تاریخ صاف کریں
+ClearHistoryConfirm=کیا آپ واقعی تمام تاریخ صاف کرنا چاہتے ہیں؟
+SleepTimerTitle=سلیپ ٹائمر
+SleepTimerDescription=پلے بیک خودکار بند کرنے کے لیے ٹائمر سیٹ کریں
+SleepTimerHours=گھنٹے
+SleepTimerMinutes=منٹ
+SleepTimerQuickSet=فوری سیٹ
+SleepTimerAction=جب ٹائمر ختم ہو
+SleepTimerStopPlayback=پلے بیک روکیں
+SleepTimerCloseApp=ایپلیکیشن بند کریں
+SleepTimerShutdown=کمپیوٹر بند کریں
+SleepTimerStart=ٹائمر شروع کریں
+
+[Status]
+Ready=تیار
+Opening=کھل رہا ہے...
+Playing=چل رہا ہے
+Paused=موقوف
+Stopped=رکا ہوا
+Error=خرابی
+Buffering=بفرنگ...
+Seeking=تلاش...
+Recording=ریکارڈنگ
+
+[Message]
+SpeedFormat=رفتار: %.2fx
+VolumeFormat=آواز: %d%%
+BrightnessFormat=روشنی: %d
+ContrastFormat=کنٹراسٹ: %d
+SaturationFormat=سیچوریشن: %d
+HueFormat=ہیو: %d
+GammaFormat=گاما: %d
+ColorsReset=ویڈیو رنگ ری سیٹ
+LoopASet=لوپ اے %s پر سیٹ
+LoopBSet=لوپ بی %s پر سیٹ - لوپ فعال
+LoopCleared=اے-بی لوپ صاف
+SetAFirst=پہلے نقطہ اے سیٹ کریں (L دبائیں)
+RotationFormat=گھماؤ: %d°
+FlipHOn=افقی پلٹ: آن
+FlipHOff=افقی پلٹ: آف
+FlipVOn=عمودی پلٹ: آن
+FlipVOff=عمودی پلٹ: آف
+DeinterlaceOn=ڈی انٹرلیس: آن
+DeinterlaceOff=ڈی انٹرلیس: آف
+AlwaysOnTopOn=ہمیشہ اوپر: آن
+AlwaysOnTopOff=ہمیشہ اوپر: آف
+WindowFitted=ونڈو %dx%d پر فٹ
+WindowScale=ونڈو سکیل: %.0f%%
+ScreenshotSaved=سکرین شاٹ محفوظ: %s
+AudioNormalizeOn=آڈیو نارملائزیشن: آن
+AudioNormalizeOff=آڈیو نارملائزیشن: آف
+AudioDelayFormat=آڈیو تاخیر: %.1f سیکنڈ
+SubtitleDelayFormat=سب ٹائٹل تاخیر: %.1f سیکنڈ
+ZoomFormat=زوم: %.0f%%
+PanCenter=پین: مرکز
+PanFormat=پین: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=کوئی ویڈیو لوڈ نہیں
+PlayingFromClipboard=کلپ بورڈ سے چل رہا ہے: %s
+ClipboardInvalid=کلپ بورڈ میں درست یو آر ایل یا پاتھ نہیں ہے
+ClipboardEmpty=کلپ بورڈ خالی ہے یا متن نہیں ہے
+ResumedAt=%s پر جاری
+FrameStepForward=فریم آگے
+FrameStepBackward=فریم پیچھے
+PreviousChapter=پچھلا باب
+NextChapter=اگلا باب
+PlayingRadio=ریڈیو چل رہا ہے: %s
+PlayingDVD=ڈی وی ڈی چل رہا ہے: %s
+PlayingBluray=بلو رے چل رہا ہے: %s
+DVDTitlePlaying=ڈی وی ڈی ٹائٹل %d
+SeekTo=%s پر جا رہا ہے
+MinimizedToTray=ٹرے میں چھوٹا۔ بحال کرنے کے لیے ڈبل کلک کریں۔
+SleepTimerSet=سلیپ ٹائمر سیٹ: %s
+SleepTimerCancelled=سلیپ ٹائمر منسوخ
+SleepTimerWarning=سلیپ ٹائمر: 1 منٹ باقی
+SleepTimerFinal=سلیپ ٹائمر: 10 سیکنڈ باقی
+SleepTimerStopped=سلیپ ٹائمر: پلے بیک رکا
+SleepTimerClosing=سلیپ ٹائمر: ایپلیکیشن بند ہو رہی ہے
+SleepTimerShutdown=سلیپ ٹائمر: کمپیوٹر بند ہو رہا ہے
+SleepTimerExpired=سلیپ ٹائمر ختم
+ShutdownManual=براہ کرم اپنا کمپیوٹر دستی طور پر بند کریں۔
+
+; مرحلہ 21: فولڈر کھولیں
+FolderOpened=فولڈر کھولا: %d فائلیں
+NoMediaFound=کوئی میڈیا فائلیں نہیں ملیں
+FilesAdded=پلے لسٹ میں %d فائلیں شامل کی گئیں
+
+; مرحلہ 27: ریکارڈنگ پیغامات
+RecordNeedPlayback=ریکارڈنگ سے پہلے پلے بیک شروع کریں۔
+RecordingStarted=ریکارڈنگ شروع
+RecordingStopped=ریکارڈنگ رکی
+
+; اضافی اسٹیٹس پیغامات
+EndOfPlaylist=پلے لسٹ کا اختتام
+NoMediaLoaded=ابھی کوئی میڈیا فائل لوڈ نہیں ہے۔
+JumpedToNamed=پر گئے: %s
+ChapterFormat=باب %d (%s)
+ChapterWithTitle=%d۔ %s (%s)
+BookmarkDefaultName=%s پر بُک مارک
+
+[Label]
+Muted=خاموش
+
+[Button]
+Play=چلائیں
+Pause=موقوف
+Stop=رکیں
+Previous=پچھلا
+Next=اگلا
+Mute=خاموش
+Unmute=آواز
+Fullscreen=فل سکرین
+OK=ٹھیک ہے
+Cancel=منسوخ
+Apply=لاگو کریں
+Close=بند کریں
+Yes=ہاں
+No=نہیں
+
+[Tooltip]
+Play=چلائیں/روکیں
+Stop=پلے بیک روکیں
+Previous=پچھلا ٹریک
+Next=اگلا ٹریک
+Mute=خاموش ٹوگل کریں
+Volume=آواز
+Seek=پوزیشن تلاش کریں
+Fullscreen=فل سکرین ٹوگل کریں
+
+[Playlist]
+Title=پلے لسٹ
+Add=شامل کریں
+Remove=ہٹائیں
+Clear=صاف کریں
+MoveUp=اوپر لے جائیں
+MoveDown=نیچے لے جائیں
+Shuffle=شفل
+Repeat=دہرائیں
+Play=چلائیں
+ShuffleOn=شفل: آن
+ShuffleOff=شفل: آف
+RepeatOff=دہراؤ: آف
+RepeatOne=دہراؤ: ایک
+RepeatAll=دہراؤ: تمام
+SavePlaylist=محفوظ کریں
+LoadPlaylist=لوڈ کریں
+TotalDuration=کل: %s
+ItemCount=%d آئٹمز
+
+; مرحلہ 22: پلے لسٹ اضافات
+Search=تلاش:
+FilterPlaceholder=پلے لسٹ فلٹر کریں...
+ClearSearch=صاف کریں
+FilterCount=%d/%d
+RemoveDuplicates=&ڈپلیکیٹس ہٹائیں
+Properties=خصوصیات...
+NoDuplicates=کوئی ڈپلیکیٹس نہیں ملے۔
+DuplicatesFound=%d ڈپلیکیٹ(ز) ملے۔ ہٹائیں؟
+RemoveDuplicatesTitle=ڈپلیکیٹس ہٹائیں
+PropertiesTitle=پلے لسٹ خصوصیات
+PropTotalItems=کل آئٹمز: %d
+PropTotalDuration=کل دورانیہ: %s
+PropPlayed=چلائے گئے: %d
+PropUnplayed=نہیں چلائے گئے: %d
+PropTotalSize=کل سائز: %.2f MB
+PropShuffle=شفل: %s
+PropRepeat=دہراؤ: %s
+On=آن
+Off=آف
+
+; ApplyLocale کے لیے نئی کیز
+ClearTitle=پلے لسٹ صاف کریں
+ClearConfirm=کیا آپ واقعی پلے لسٹ صاف کرنا چاہتے ہیں؟
+NoPlaylist=کوئی پلے لسٹ نہیں
+StatusFormat=%d آئٹمز | کل: %s
+RepeatOne=دہ۔ 1
+RepeatAll=دہ۔ تمام
+HintRepeatEnable=تمام دہراؤ فعال کرنے کے لیے کلک کریں
+HintRepeatOne=ایک دہراؤ - غیر فعال کرنے کے لیے کلک کریں
+HintRepeatAll=تمام دہراؤ - ایک دہراؤ کے لیے کلک کریں
+HintShuffleRepeat=شفل + تمام دہراؤ - دہراؤ غیر فعال کرنے کے لیے کلک کریں
+RemoveDuplicatesTitle=ڈپلیکیٹس ہٹائیں
+NoDuplicates=کوئی ڈپلیکیٹس نہیں ملے۔
+SelectAll=سب منتخب کریں
+SelectNone=کوئی نہیں منتخب
+SelectInvert=انتخاب الٹ کریں
+Sort=ترتیب
+SortByName=نام سے
+SortByTitle=ٹائٹل سے
+SortByArtist=فنکار سے
+SortByDuration=دورانیے سے
+SortReverse=الٹا
+SortRandom=بے ترتیب
+ColTitle=ٹائٹل
+ColDuration=دورانیہ
+ColArtist=فنکار
+ColAlbum=البم
+PlaylistFilter=M3U پلے لسٹ|*.m3u|M3U8 پلے لسٹ|*.m3u8|PLS پلے لسٹ|*.pls
+
+[Equalizer]
+Title=ایکویلائزر
+Presets=پری سیٹس:
+Preamp=پری ایمپ:
+Flat=فلیٹ
+Rock=راک
+Pop=پاپ
+Jazz=جاز
+Classical=کلاسیکل
+BassBoost=باس بوسٹ
+TrebleBoost=ٹریبل بوسٹ
+Vocal=وکال
+Reset=ری سیٹ
+Enable=ایکویلائزر فعال کریں
+Save=محفوظ کریں
+Delete=حذف کریں
+Ready=تیار
+; بٹن اور اعمال
+SavePreset=پری سیٹ محفوظ کریں
+DeletePreset=پری سیٹ حذف کریں
+SavePresetTitle=پری سیٹ محفوظ کریں
+PresetNamePrompt=پری سیٹ کا نام:
+EnterPresetName=براہ کرم پری سیٹ کا نام درج کریں۔
+OverwritePresetTitle=پری سیٹ اوور رائٹ کریں
+OverwritePresetConfirm=اس نام کا پری سیٹ پہلے سے موجود ہے۔ اوور رائٹ کریں؟
+PresetUpdated=پری سیٹ اپڈیٹ: %s
+PresetSaved=پری سیٹ محفوظ: %s
+SelectPresetToDelete=براہ کرم حذف کرنے کے لیے پری سیٹ منتخب کریں۔
+CannotDeleteDefault=ڈیفالٹ پری سیٹس حذف نہیں ہو سکتے۔
+DeletePresetTitle=پری سیٹ حذف کریں
+DeletePresetConfirm=کیا آپ واقعی یہ پری سیٹ حذف کرنا چاہتے ہیں؟
+PresetDeleted=پری سیٹ حذف ہو گیا
+ResetToFlat=ایکویلائزر فلیٹ پر ری سیٹ
+PresetApplied=پری سیٹ لاگو: %s
+
+[Options]
+Title=آپشنز
+General=عمومی
+Video=ویڈیو
+Audio=آڈیو
+Subtitles=سب ٹائٹلز
+Cache=کیش
+Language=زبان:
+RestartRequired=تبدیلیوں کے اثر کے لیے دوبارہ شروع کرنا ضروری ہے
+
+; عمومی ٹیب - رویہ
+Behavior=رویہ
+SingleInstance=صرف ایک مثال کی اجازت دیں
+AutoPlay=کھولنے پر خودکار چلائیں
+AutoResume=پلے بیک پوزیشن جاری رکھیں
+MinimizeToTray=سسٹم ٹرے میں چھوٹا کریں
+AutoSavePlaylist=باہر جاتے وقت پلے لسٹ محفوظ کریں
+
+; عمومی ٹیب - او ایس ڈی
+OSD=آن سکرین ڈسپلے
+ShowOSD=آن سکرین پیغامات دکھائیں
+ShowTrayIcon=ٹرے آئیکن دکھائیں
+OSDDuration=او ایس ڈی دورانیہ (ملی سیکنڈ):
+
+; عمومی ٹیب - سکرین شاٹس
+Screenshots=سکرین شاٹس
+ScreenshotPath=محفوظ کرنے کا فولڈر:
+ScreenshotFormat=فارمیٹ:
+
+; عمومی ٹیب - تاریخ
+HistorySettings=تاریخ
+HistoryEnabled=پلے بیک تاریخ فعال کریں
+HistoryMaxItems=زیادہ سے زیادہ آئٹمز:
+
+; عمومی ٹیب - زبان
+LanguageGroup=زبان
+RestartNote=(تبدیلیوں کے لیے دوبارہ شروع ضروری ہے)
+
+; ویڈیو ٹیب
+VideoAdjust=ویڈیو ایڈجسٹمنٹس
+Brightness=روشنی:
+Contrast=کنٹراسٹ:
+Saturation=سیچوریشن:
+Hue=ہیو:
+Gamma=گاما:
+VideoOutput=ویڈیو آؤٹ پٹ
+Output=آؤٹ پٹ:
+HWAccel=ہارڈویئر ایکسلریشن فعال کریں
+Deinterlacing=ڈی انٹرلیسنگ
+Mode=موڈ:
+
+; آڈیو ٹیب
+AudioOutput=آڈیو آؤٹ پٹ
+OutputDriver=آؤٹ پٹ ڈرائیور:
+Device=ڈیوائس:
+AudioOptions=آڈیو آپشنز
+NormalizeAudio=آڈیو والیوم نارملائز کریں
+Channels=چینلز:
+
+; سب ٹائٹلز ٹیب
+UseDefaultSubtitles=ڈیفالٹ سب ٹائٹل سیٹنگز استعمال کریں
+Font=فونٹ
+FontName=فونٹ:
+FontSize=سائز:
+FontColor=رنگ:
+Bold=بولڈ
+Italic=اٹالک
+Outline=آؤٹ لائن
+OutlineColor=رنگ:
+OutlineSize=سائز:
+Position=پوزیشن
+VerticalPosition=عمودی پوزیشن:
+SubOptions=آپشنز
+Encoding=انکوڈنگ:
+AutoLoadSubs=سب ٹائٹل فائلیں خودکار لوڈ کریں
+
+; ویڈیو آؤٹ پٹ وارننگز
+VOWarningX11=انتباہ: x11 ویڈیو ایڈجسٹمنٹس (روشنی، کنٹراسٹ وغیرہ) کو سپورٹ نہیں کرتا
+VOWarningWayland=انتباہ: Wayland سیشن درکار ہے۔ ویڈیو ایڈجسٹمنٹس سپورٹڈ ہیں۔
+
+; کیش ٹیب
+CacheSettings=کیش بفر سائز (KB)
+CacheDefault=ڈیفالٹ کیش:
+CacheLocal=مقامی فائلیں:
+CacheNetwork=نیٹ ورک فائلیں:
+CacheInternet=انٹرنیٹ سٹریمز:
+CacheDVD=ڈی وی ڈی:
+CacheCDROM=سی ڈی روم:
+
+[About]
+Title=کے بارے میں
+Version=ورژن
+Engine=انجن
+Technology=ٹیکنالوجی
+BuildInfo=بلڈ معلومات
+SystemInfo=سسٹم
+Credits=کریڈٹس
+Developer=ڈویلپر:
+Author=مصنف
+License=لائسنس
+Website=ویب سائٹ
+GitHub=گٹ ہب
+Description=ایک جدید، ہلکا میڈیا پلیئر
+LicenseText=3nity Media GPL-2.0 کے تحت لائسنس یافتہ ہے\n\nاس کا مطلب ہے کہ آپ آزاد ہیں:\n  • سافٹ ویئر کو کسی بھی مقصد کے لیے استعمال کریں\n  • سورس کوڈ کا مطالعہ اور ترمیم کریں\n  • سافٹ ویئر کی کاپیاں تقسیم کریں\n  • اپنی ترامیم تقسیم کریں\n\nاس شرط کے ساتھ کہ کوئی بھی تقسیم شدہ ترامیم\nبھی GPL-2.0 کے تحت لائسنس یافتہ ہوں۔
+BuildDate=تاریخ:
+Target=ہدف:
+Kernel=کرنل:
+
+[Shortcuts]
+Title=کی بورڈ شارٹ کٹس
+Description=اعمال کے لیے کی بورڈ شارٹ کٹس کنفیگر کریں
+Search=تلاش:
+PressKey=کوئی کلید دبائیں...
+ColCategory=زمرہ
+ColAction=عمل
+ColShortcut=شارٹ کٹ
+Assign=تفویض کریں
+Clear=صاف کریں
+Reset=ری سیٹ
+ResetAll=سب ری سیٹ
+CurrentShortcut=موجودہ: %s
+NoKeyPressed=براہ کرم پہلے کوئی کلید کا مجموعہ دبائیں۔
+Conflict=تنازعہ: پہلے سے "%s" کو تفویض
+ConfirmReplace=شارٹ کٹ بدلیں
+ReplaceMessage=یہ شارٹ کٹ پہلے سے "%s" کو تفویض ہے۔ کیا آپ بدلنا چاہتے ہیں؟
+ConfirmResetAll=تمام شارٹ کٹس ری سیٹ کریں
+ResetAllMessage=کیا آپ واقعی تمام شارٹ کٹس کو ڈیفالٹ پر ری سیٹ کرنا چاہتے ہیں؟
+; اعمال کے نام
+ActPlayPause=چلائیں / روکیں
+ActStop=رکیں
+ActPrevious=پچھلا
+ActNext=اگلا
+ActSeekForward=آگے جائیں (10 سیکنڈ)
+ActSeekBackward=پیچھے جائیں (10 سیکنڈ)
+ActSeekForward5=آگے جائیں (1 منٹ)
+ActSeekBackward5=پیچھے جائیں (1 منٹ)
+ActSpeedUp=رفتار بڑھائیں
+ActSpeedDown=رفتار کم کریں
+ActSpeedReset=رفتار ری سیٹ
+ActSetLoopA=لوپ نقطہ اے سیٹ کریں
+ActSetLoopB=لوپ نقطہ بی سیٹ کریں
+ActClearLoop=اے-بی لوپ صاف کریں
+ActFrameForward=فریم آگے
+ActFrameBackward=فریم پیچھے
+ActPrevChapter=پچھلا باب
+ActNextChapter=اگلا باب
+ActGotoTime=وقت پر جائیں
+ActVolumeUp=آواز بڑھائیں
+ActVolumeDown=آواز کم کریں
+ActMute=خاموش / آواز
+ActAudioDelayPlus=آڈیو تاخیر +
+ActAudioDelayMinus=آڈیو تاخیر -
+ActAudioDelayReset=آڈیو تاخیر ری سیٹ
+ActFullscreen=فل سکرین
+ActRotate=ویڈیو گھمائیں
+ActDeinterlace=ڈی انٹرلیس
+ActZoomIn=زوم ان
+ActZoomOut=زوم آؤٹ
+ActZoomReset=زوم ری سیٹ
+ActAlwaysOnTop=ہمیشہ اوپر
+ActFitToVideo=ویڈیو کے مطابق
+ActScreenshot=سکرین شاٹ
+ActVideoAdjust=ویڈیو ایڈجسٹمنٹس
+ActVisNextMode=اگلا ویژولائزیشن موڈ
+ActVisNextColor=اگلی رنگ سکیم
+ActSubDelayPlus=سب ٹائٹل تاخیر +
+ActSubDelayMinus=سب ٹائٹل تاخیر -
+ActSubDelayReset=سب ٹائٹل تاخیر ری سیٹ
+ActDVDMenu=ڈی وی ڈی مینو
+ActDVDUp=ڈی وی ڈی اوپر جائیں
+ActDVDDown=ڈی وی ڈی نیچے جائیں
+ActDVDLeft=ڈی وی ڈی بائیں جائیں
+ActDVDRight=ڈی وی ڈی دائیں جائیں
+ActDVDSelect=ڈی وی ڈی منتخب کریں
+ActOpenFile=فائل کھولیں
+ActOpenURL=یو آر ایل کھولیں
+ActPlaylist=پلے لسٹ دکھائیں
+ActQuit=باہر
+
+[Log]
+; مرحلہ 25: لاگ ونڈو
+Title=MPV لاگ
+Command=کمانڈ:
+Clear=صاف کریں
+Save=محفوظ کریں...
+Copy=&کاپی کریں
+SelectAll=سب &منتخب کریں
+SaveTitle=لاگ محفوظ کریں
+SaveFilter=متن فائلیں (*.txt)|*.txt|تمام فائلیں (*.*)|*.*
+ErrorTitle=خرابی
+SaveError=لاگ محفوظ کرنے میں ناکام: %s
+
+[MediaInfo]
+Title=میڈیا معلومات
+FileTab=فائل
+VideoTab=ویڈیو
+AudioTab=آڈیو
+MetadataTab=میٹا ڈیٹا
+FileName=فائل کا نام:
+FilePath=پاتھ:
+FileSize=سائز:
+Duration=دورانیہ:
+Format=فارمیٹ:
+Bitrate=بٹ ریٹ:
+Codec=کوڈیک:
+Resolution=ریزولوشن:
+FrameRate=فریم ریٹ:
+PixelFormat=پکسل فارمیٹ:
+AspectRatio=تناسب:
+Channels=چینلز:
+SampleRate=سیمپل ریٹ:
+Language=زبان:
+Property=خصوصیت
+Value=قدر
+CopyAll=سب کاپی کریں
+CopiedToClipboard=میڈیا معلومات کلپ بورڈ پر کاپی ہو گئیں۔
+NA=نامعلوم
+NAStream=نامعلوم (سٹریم)
+NALive=نامعلوم (لائیو)
+ChannelMono=1 (مونو)
+ChannelStereo=2 (سٹیریو)
+Channel51=6 (5.1 سراؤنڈ)
+Channel71=8 (7.1 سراؤنڈ)
+Unknown=نامعلوم
+NoMetadata=(کوئی میٹا ڈیٹا نہیں)
+
+[Bookmarks]
+Title=بُک مارکس
+Goto=جائیں
+Remove=ہٹائیں
+Clear=سب صاف کریں
+Refresh=تازہ کریں
+OpenFolder=فولڈر کھولیں
+CopyPath=پاتھ کاپی کریں
+; کالمز
+ColName=نام
+ColFile=فائل
+ColPosition=پوزیشن
+ColCreated=بنایا گیا
+; ڈائیلاگز
+ClearTitle=بُک مارکس صاف کریں
+ClearConfirm=کیا آپ واقعی تمام بُک مارکس صاف کرنا چاہتے ہیں؟
+Count=%d بُک مارک(ز)
+
+[Favorites]
+Title=پسندیدہ
+Play=چلائیں
+Remove=ہٹائیں
+Clear=سب صاف کریں
+Refresh=تازہ کریں
+OpenFolder=فولڈر کھولیں
+CopyPath=پاتھ کاپی کریں
+; کالمز
+ColName=نام
+ColType=قسم
+ColPath=پاتھ
+; اقسام
+TypeFile=فائل
+TypeURL=یو آر ایل
+TypeRadio=ریڈیو
+TypeDVD=ڈی وی ڈی
+TypeBluray=بلو رے
+TypeUnknown=نامعلوم
+; ڈائیلاگز
+ClearTitle=پسندیدہ صاف کریں
+ClearConfirm=کیا آپ واقعی تمام پسندیدہ صاف کرنا چاہتے ہیں؟
+Count=%d پسندیدہ
+
+[History]
+Title=پلے بیک تاریخ
+Play=چلائیں
+Remove=ہٹائیں
+Clear=سب صاف کریں
+Refresh=تازہ کریں
+OpenFolder=فولڈر کھولیں
+CopyPath=پاتھ کاپی کریں
+; کالمز
+ColFileName=فائل
+ColPath=پاتھ
+; ڈائیلاگز
+ClearTitle=تاریخ صاف کریں
+ClearConfirm=کیا آپ واقعی تمام تاریخ صاف کرنا چاہتے ہیں؟
+Count=%d آئٹم(ز)
+
+[SleepTimer]
+Title=سلیپ ٹائمر
+Description=پلے بیک خودکار بند کرنے کے لیے ٹائمر سیٹ کریں
+Hours=گھنٹے:
+Minutes=منٹ:
+Action=جب ٹائمر ختم ہو:
+StopPlayback=پلے بیک روکیں
+CloseApp=ایپلیکیشن بند کریں
+Shutdown=کمپیوٹر بند کریں
+QuickSet=فوری سیٹ:
+15Min=15 منٹ
+30Min=30 منٹ
+1Hour=1 گھنٹہ
+2Hours=2 گھنٹے
+
+[Radios]
+Title=انٹرنیٹ ریڈیوز
+Play=چلائیں
+Add=شامل کریں
+Edit=ترمیم کریں
+Delete=حذف کریں
+Remove=ہٹائیں
+Import=درآمد کریں
+Export=برآمد کریں
+Refresh=تازہ کریں
+Favorite=پسندیدہ
+ShowFavorites=پسندیدہ
+ShowAll=تمام
+; فلٹر
+Genre=صنف:
+Search=تلاش:
+SearchBtn=تلاش
+ClearSearch=صاف کریں
+AllGenres=(تمام اصناف)
+; سیاق و سباق مینو
+AddFavorite=پسندیدہ میں شامل کریں
+RemoveFavorite=پسندیدہ سے ہٹائیں
+AddCustom=اپنا سٹیشن شامل کریں...
+EditCustom=سٹیشن میں ترمیم کریں...
+DeleteCustom=سٹیشن حذف کریں
+OpenWebsite=ویب سائٹ کھولیں
+CopyURL=یو آر ایل کاپی کریں
+; کالمز
+ColName=نام
+ColGenre=صنف
+ColBitrate=بٹ ریٹ
+ColCountry=ملک
+ColCodec=کوڈیک
+; ڈائیلاگز
+AddTitle=اپنا سٹیشن شامل کریں
+EditTitle=سٹیشن میں ترمیم کریں
+DeleteTitle=سٹیشن حذف کریں
+DeleteConfirm=کیا آپ واقعی یہ سٹیشن حذف کرنا چاہتے ہیں؟
+StationName=سٹیشن کا نام:
+StreamURL=سٹریم یو آر ایل:
+GenrePrompt=صنف:
+NameURLRequired=نام اور یو آر ایل درکار ہیں۔
+; اسٹیٹس پیغامات
+LoadingIcecast=Icecast ڈائریکٹری سے سٹیشنز لوڈ ہو رہے ہیں...
+IcecastError=Icecast ڈائریکٹری لوڈ نہیں ہو سکی۔ ڈیفالٹ سٹیشنز استعمال ہو رہے ہیں۔
+NoStationsLoaded=کوئی سٹیشنز لوڈ نہیں ہوئے
+StationCount=%d سٹیشنز
+LoadedStations=%d سٹیشنز لوڈ ہوئے
+ErrorPrefix=خرابی:
+; پرانی کیز
+Name=نام
+URL=یو آر ایل
+Bitrate=بٹ ریٹ
+Description=تفصیل
+Country=ملک
+
+[OpenURL]
+Title=یو آر ایل کھولیں
+Prompt=میڈیا یو آر ایل درج کریں:
+
+[GotoTime]
+Title=وقت پر جائیں
+EnterTime=جس وقت پر جانا ہے درج کریں:
+Hours=گھ
+Minutes=م
+Seconds=س
+Current=موجودہ:
+Duration=دورانیہ:
+
+[VideoAdjust]
+Title=ویڈیو ایڈجسٹمنٹس
+Brightness=روشنی:
+Contrast=کنٹراسٹ:
+Saturation=سیچوریشن:
+Hue=ہیو:
+Gamma=گاما:
+ResetAll=تمام رنگ ری سیٹ کریں
+
+[CLI]
+; کمانڈ لائن پیغامات
+Usage=استعمال
+Arguments=[اختیارات] [فائل|URL|فولڈر]
+Description=libmpv بیک اینڈ استعمال کرنے والا کراس پلیٹ فارم ملٹی میڈیا پلیئر۔
+Options=اختیارات
+Examples=مثالیں
+MoreInfo=مزید معلومات کے لیے، ملاحظہ کریں
+EnqueuedTo=موجودہ مثال کی قطار میں شامل کیا گیا: %s
+SentTo=موجودہ مثال کو بھیجا گیا: %s
+AlreadyRunning=3nity Media پہلے سے چل رہا ہے۔
+ErrorFileNotFound=خرابی: فائل یا ڈائریکٹری نہیں ملی: %s
+ErrorSubNotFound=خرابی: سب ٹائٹل فائل نہیں ملی: %s

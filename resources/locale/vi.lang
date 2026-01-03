@@ -1,0 +1,892 @@
+[Language]
+Name=Vietnamese - Tiếng Việt
+Code=vi
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menu Tệp
+File=&Tệp
+FileOpen=&Mở Tệp...
+FileOpenURL=Mở &URL...
+FileOpenClipboard=Mở từ &Bộ nhớ tạm
+FileRecent=Tệp &Gần đây
+ClearRecentFiles=Xóa Tệp Gần đây
+FileExit=&Thoát
+
+; Menu Phát lại
+Playback=&Phát lại
+PlaybackPlayPause=&Phát/Tạm dừng
+PlaybackStop=&Dừng
+PlaybackPrevious=&Trước
+PlaybackNext=&Tiếp
+PlaybackSeekForward=Tua &Tiến
+PlaybackSeekBackward=Tua &Lùi
+PlaybackSpeed=Tốc &Độ
+PlaybackABLoop=Lặp A-&B
+PlaybackSetA=Đặt &A
+PlaybackSetB=Đặt &B
+PlaybackClearAB=&Xóa A-B
+PlaybackChapters=&Chương
+PlaybackPrevChapter=Chương Trước
+PlaybackNextChapter=Chương Tiếp
+PlaybackFrameStep=Bước Khung &Tiến
+PlaybackFrameBack=Bước Khung &Lùi
+
+; Điều hướng DVD
+PlaybackDVD=Điều &Hướng DVD
+DVDMenu=&Menu
+DVDUp=&Lên
+DVDDown=&Xuống
+DVDLeft=&Trái
+DVDRight=&Phải
+DVDSelect=&Chọn
+PlaybackDVDTitles=&Tiêu đề DVD
+
+; Giai đoạn 21: Mở Thư mục
+FileOpenFolder=Mở &Thư mục...
+
+; Menu Tệp DVD/Bluray
+FileOpenDVD=Mở &DVD...
+FileOpenBluray=Mở &Blu-ray...
+
+; Giai đoạn 13: Đi tới Thời gian và Lịch sử
+PlaybackGotoTime=&Đi tới Thời gian...
+ToolsHistory=&Lịch sử
+
+; Giai đoạn 14: Khay Hệ thống
+TrayShow=&Hiện/Ẩn
+TrayPlayPause=&Phát/Tạm dừng
+TrayStop=&Dừng
+TrayPrevious=&Trước
+TrayNext=&Tiếp
+TrayMute=&Tắt tiếng
+TrayExit=&Thoát
+
+; Giai đoạn 15: Đánh dấu
+PlaybackAddBookmark=Thêm Đánh &Dấu...
+PlaybackBookmarks=Đánh &Dấu
+BookmarksTitle=Đánh dấu
+BookmarksGoto=&Đi tới Đánh dấu
+BookmarksRemove=&Xóa Đánh dấu
+BookmarksClear=&Xóa Tất cả Đánh dấu
+BookmarksOpenFolder=Mở &Thư mục
+BookmarksCopyPath=&Sao chép Đường dẫn
+BookmarksCount=%d đánh dấu
+NoBookmarks=(Không có đánh dấu)
+NoFileLoaded=(Chưa tải tệp)
+BookmarkAdded=Đã thêm đánh dấu tại %s
+BookmarkJumped=Đã nhảy tới đánh dấu tại %s
+AddBookmarkTitle=Thêm Đánh dấu
+AddBookmarkPrompt=Nhập tên đánh dấu:
+ShowAllBookmarks=Hiện Tất cả Đánh dấu...
+
+; Giai đoạn 16: Yêu thích
+ToolsFavorites=&Yêu thích
+ToolsAddFavorite=Thêm vào &Yêu thích
+FavoritesTitle=Yêu thích
+FavoritesPlay=&Phát
+FavoritesRemove=&Xóa khỏi Yêu thích
+FavoritesClear=&Xóa Tất cả Yêu thích
+FavoritesOpenFolder=Mở &Thư mục
+FavoritesCopyPath=&Sao chép Đường dẫn
+FavoritesCount=%d yêu thích
+NoFavorites=(Không có yêu thích)
+AddFavoriteTitle=Thêm vào Yêu thích
+AddFavoritePrompt=Nhập tên cho yêu thích:
+AlreadyFavorite=Đã có trong yêu thích
+AddedToFavorites=Đã thêm vào yêu thích: %s
+NoFileToFavorite=Chưa tải tệp để thêm vào yêu thích
+FavoriteTypeFile=Tệp
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Đài
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Chuỗi định dạng bản nhạc
+TrackWithTitle=Bản nhạc %d: %s
+TrackWithLang=Bản nhạc %d (%s)
+TrackNumber=Bản nhạc %d
+
+; Mục menu Tốc độ
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Mục menu Tỉ lệ
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Bản phụ đề
+SubtitleDisable=Tắt
+
+; Giai đoạn 17: Hẹn giờ Ngủ
+ToolsSleepTimer=&Hẹn giờ Ngủ...
+ToolsSleepTimerActive=&Hẹn giờ Ngủ [%s]
+ToolsCancelTimer=Hủy &Hẹn giờ
+
+; Menu Âm thanh
+Audio=&Âm thanh
+AudioTrack=&Bản Âm thanh
+AudioVolumeUp=Tăng &Âm lượng
+AudioVolumeDown=Giảm Â&m lượng
+AudioMute=&Tắt tiếng
+AudioEqualizer=&Bộ cân bằng
+AudioDelay=&Độ trễ Âm thanh
+AudioDelayPlus=Trễ +0.1s
+AudioDelayMinus=Trễ -0.1s
+AudioDelayReset=Đặt lại Độ trễ
+AudioNormalize=&Chuẩn hóa Âm lượng
+
+; Menu Video
+Video=&Video
+VideoFullscreen=Toàn &Màn hình
+VideoAspect=Tỉ &Lệ Khung hình
+VideoAspectAuto=&Tự động
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=Chụp &Màn hình
+VideoScreenshotAs=Chụp Màn hình &Thành...
+VideoRotation=&Xoay
+VideoRotate0=&0° (Bình thường)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Lật
+VideoFlipH=Lật &Ngang
+VideoFlipV=Lật &Dọc
+VideoDeinterlace=&Khử xen kẽ
+VideoZoom=&Thu phóng
+VideoZoomIn=Phóng &To
+VideoZoomOut=Thu &Nhỏ
+VideoZoomReset=&Đặt lại Thu phóng
+VideoPan=&Kéo
+VideoPanLeft=Kéo &Trái
+VideoPanRight=Kéo &Phải
+VideoPanUp=Kéo &Lên
+VideoPanDown=Kéo &Xuống
+VideoPanReset=Đ&ặt lại Kéo
+VideoTrack=&Bản Video
+VideoColors=Điều &Chỉnh Màu
+VideoBrightness=Độ &Sáng
+VideoContrast=Độ Tương &Phản
+VideoSaturation=Độ Bão &Hòa
+VideoHue=&Sắc độ
+VideoGamma=&Gamma
+VideoColorsReset=Đặt lại &Tất cả Màu
+VideoIncrease=Tăng (+5)
+VideoDecrease=Giảm (-5)
+VideoReset=Đặt lại
+VideoAdjustDialog=Điều &Chỉnh Video...
+
+; Menu Xem
+View=&Xem
+ViewAlwaysOnTop=&Luôn ở Trên cùng
+ViewFitToVideo=&Vừa Cửa sổ với Video
+ViewScale=&Tỉ lệ Cửa sổ
+
+; Giai đoạn 26: Menu Hiệu ứng hình ảnh
+ViewVisualization=&Hiệu ứng Hình ảnh
+VisNone=&Không có
+VisSpectrum=Phân Tích &Phổ
+VisWaveform=&Dạng Sóng
+VisVector=&Phạm vi Vector
+VisVolume=Đồng hồ &VU
+VisNextMode=&Chế độ Tiếp theo
+VisNextColor=&Bảng Màu Tiếp theo
+
+; Menu Phụ đề
+Subtitles=&Phụ đề
+SubtitleTrack=Bản &Phụ đề
+SubtitleLoad=&Tải Phụ đề...
+SubtitleDelay=&Độ trễ Phụ đề
+SubtitleDelayPlus=Trễ +0.1s
+SubtitleDelayMinus=Trễ -0.1s
+SubtitleDelayReset=Đặt lại Độ trễ
+
+; Menu Công cụ
+Tools=&Công cụ
+ToolsPlaylist=&Danh sách Phát
+ToolsRadios=&Đài Phát thanh
+ToolsShortcuts=Phím &Tắt...
+ToolsOptions=&Tùy chọn
+
+; Giai đoạn 27: Menu Ghi
+ToolsRecord=&Ghi Luồng...
+ToolsStopRecord=&Dừng Ghi
+ToolsRecording=Đang &Ghi...
+
+; Menu Trợ giúp
+Help=Trợ &Giúp
+HelpMediaInfo=Thông &Tin Đa phương tiện
+HelpLog=Cửa sổ &Nhật ký
+HelpAbout=&Giới thiệu
+
+[Dialog]
+OpenFile=Mở Tệp
+OpenURL=Mở URL
+SaveScreenshot=Lưu Ảnh chụp Màn hình
+LoadSubtitle=Tải Tệp Phụ đề
+EnterURL=Nhập URL:
+ResumePlayback=Tiếp tục Phát lại
+ResumeFrom=Tiếp tục từ %s?
+ClearRecentFiles=Xóa Tệp Gần đây
+NoRecentFiles=(Không có tệp gần đây)
+NoAudioTracks=(Không có bản âm thanh)
+NoVideoTracks=(Không có bản video)
+NoSubtitleTracks=(Không có bản phụ đề)
+NoChapters=(Không có chương)
+OpenDVD=Mở DVD
+OpenBluray=Mở Blu-ray
+OpenFolder=Mở Thư mục
+
+; Bộ lọc Tệp
+ScreenshotFilter=Ảnh PNG|*.png|Ảnh JPEG|*.jpg|Ảnh WebP|*.webp
+DVDFilter=Thư mục DVD|*.;*.iso|Tất cả tệp (*.*)|*.*
+BlurayFilter=Thư mục Blu-ray|*.;*.iso|Tất cả tệp (*.*)|*.*
+NoDVD=(Chưa tải DVD)
+DVDTitle=Tiêu đề %d
+GotoTime=Đi tới Thời gian
+EnterTime=Nhập thời gian để nhảy tới:
+Hours=Giờ
+Minutes=Phút
+Seconds=Giây
+Current=Hiện tại:
+HistoryTitle=Lịch sử Phát lại
+HistoryItems=%d mục trong lịch sử
+HistoryPlay=&Phát
+HistoryRemove=&Xóa khỏi Lịch sử
+HistoryClear=&Xóa Tất cả Lịch sử
+HistoryOpenFolder=Mở &Thư mục
+HistoryCopyPath=&Sao chép Đường dẫn
+ClearHistory=Xóa Lịch sử
+ClearHistoryConfirm=Bạn có chắc muốn xóa tất cả lịch sử không?
+SleepTimerTitle=Hẹn giờ Ngủ
+SleepTimerDescription=Đặt hẹn giờ tự động dừng phát lại
+SleepTimerHours=Giờ
+SleepTimerMinutes=Phút
+SleepTimerQuickSet=Đặt nhanh
+SleepTimerAction=Khi hẹn giờ hết
+SleepTimerStopPlayback=Dừng phát lại
+SleepTimerCloseApp=Đóng ứng dụng
+SleepTimerShutdown=Tắt máy tính
+SleepTimerStart=Bắt đầu Hẹn giờ
+
+[Status]
+Ready=Sẵn sàng
+Opening=Đang mở...
+Playing=Đang phát
+Paused=Tạm dừng
+Stopped=Đã dừng
+Error=Lỗi
+Buffering=Đang tải bộ đệm...
+Seeking=Đang tua...
+Recording=Đang ghi
+
+[Message]
+SpeedFormat=Tốc độ: %.2fx
+VolumeFormat=Âm lượng: %d%%
+BrightnessFormat=Độ sáng: %d
+ContrastFormat=Độ tương phản: %d
+SaturationFormat=Độ bão hòa: %d
+HueFormat=Sắc độ: %d
+GammaFormat=Gamma: %d
+ColorsReset=Đã đặt lại màu video
+LoopASet=Đã đặt điểm lặp A tại %s
+LoopBSet=Đã đặt điểm lặp B tại %s - Đang lặp
+LoopCleared=Đã xóa vòng lặp A-B
+SetAFirst=Đặt điểm A trước (nhấn L)
+RotationFormat=Xoay: %d°
+FlipHOn=Lật ngang: BẬT
+FlipHOff=Lật ngang: TẮT
+FlipVOn=Lật dọc: BẬT
+FlipVOff=Lật dọc: TẮT
+DeinterlaceOn=Khử xen kẽ: BẬT
+DeinterlaceOff=Khử xen kẽ: TẮT
+AlwaysOnTopOn=Luôn ở trên cùng: BẬT
+AlwaysOnTopOff=Luôn ở trên cùng: TẮT
+WindowFitted=Cửa sổ vừa với %dx%d
+WindowScale=Tỉ lệ cửa sổ: %.0f%%
+ScreenshotSaved=Đã lưu ảnh chụp: %s
+AudioNormalizeOn=Chuẩn hóa âm thanh: BẬT
+AudioNormalizeOff=Chuẩn hóa âm thanh: TẮT
+AudioDelayFormat=Độ trễ âm thanh: %.1f s
+SubtitleDelayFormat=Độ trễ phụ đề: %.1f s
+ZoomFormat=Thu phóng: %.0f%%
+PanCenter=Kéo: Giữa
+PanFormat=Kéo: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Chưa tải video
+PlayingFromClipboard=Đang phát từ bộ nhớ tạm: %s
+ClipboardInvalid=Bộ nhớ tạm không chứa URL hoặc đường dẫn hợp lệ
+ClipboardEmpty=Bộ nhớ tạm trống hoặc không chứa văn bản
+ResumedAt=Đã tiếp tục tại %s
+FrameStepForward=Bước khung tiến
+FrameStepBackward=Bước khung lùi
+PreviousChapter=Chương trước
+NextChapter=Chương tiếp
+PlayingRadio=Đang phát đài: %s
+PlayingDVD=Đang phát DVD: %s
+PlayingBluray=Đang phát Blu-ray: %s
+DVDTitlePlaying=Tiêu đề DVD %d
+SeekTo=Đang tua tới %s
+MinimizedToTray=Đã thu nhỏ vào khay. Nhấp đúp để khôi phục.
+SleepTimerSet=Đã đặt hẹn giờ ngủ: %s
+SleepTimerCancelled=Đã hủy hẹn giờ ngủ
+SleepTimerWarning=Hẹn giờ ngủ: Còn 1 phút
+SleepTimerFinal=Hẹn giờ ngủ: Còn 10 giây
+SleepTimerStopped=Hẹn giờ ngủ: Đã dừng phát lại
+SleepTimerClosing=Hẹn giờ ngủ: Đang đóng ứng dụng
+SleepTimerShutdown=Hẹn giờ ngủ: Đang tắt máy tính
+SleepTimerExpired=Hẹn giờ Ngủ Đã Hết
+ShutdownManual=Vui lòng tắt máy tính thủ công.
+
+; Giai đoạn 21: Mở Thư mục
+FolderOpened=Đã mở thư mục: %d tệp
+NoMediaFound=Không tìm thấy tệp đa phương tiện
+FilesAdded=Đã thêm %d tệp vào danh sách phát
+
+; Giai đoạn 27: Thông báo Ghi
+RecordNeedPlayback=Bắt đầu phát lại trước khi ghi.
+RecordingStarted=Đã bắt đầu ghi
+RecordingStopped=Đã dừng ghi
+
+; Thông báo trạng thái bổ sung
+EndOfPlaylist=Kết thúc danh sách phát
+NoMediaLoaded=Chưa tải tệp đa phương tiện.
+JumpedToNamed=Đã nhảy tới: %s
+ChapterFormat=Chương %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Đánh dấu tại %s
+
+[Label]
+Muted=Đã tắt tiếng
+
+[Button]
+Play=Phát
+Pause=Tạm dừng
+Stop=Dừng
+Previous=Trước
+Next=Tiếp
+Mute=Tắt tiếng
+Unmute=Bật tiếng
+Fullscreen=Toàn màn hình
+OK=OK
+Cancel=Hủy
+Apply=Áp dụng
+Close=Đóng
+Yes=Có
+No=Không
+
+[Tooltip]
+Play=Phát/Tạm dừng
+Stop=Dừng phát lại
+Previous=Bản nhạc trước
+Next=Bản nhạc tiếp
+Mute=Bật/Tắt tiếng
+Volume=Âm lượng
+Seek=Vị trí tua
+Fullscreen=Bật/Tắt toàn màn hình
+
+[Playlist]
+Title=Danh sách Phát
+Add=Thêm
+Remove=Xóa
+Clear=Xóa hết
+MoveUp=Di chuyển Lên
+MoveDown=Di chuyển Xuống
+Shuffle=Trộn
+Repeat=Lặp lại
+Play=Phát
+ShuffleOn=Trộn: Bật
+ShuffleOff=Trộn: Tắt
+RepeatOff=Lặp: Tắt
+RepeatOne=Lặp: Một
+RepeatAll=Lặp: Tất cả
+SavePlaylist=Lưu
+LoadPlaylist=Tải
+TotalDuration=Tổng: %s
+ItemCount=%d mục
+
+; Giai đoạn 22: Cải tiến Danh sách Phát
+Search=Tìm kiếm:
+FilterPlaceholder=Lọc danh sách phát...
+ClearSearch=Xóa
+FilterCount=%d/%d
+RemoveDuplicates=Xóa bản &Trùng
+Properties=&Thuộc tính...
+NoDuplicates=Không tìm thấy bản trùng.
+DuplicatesFound=Tìm thấy %d bản trùng. Xóa chúng?
+RemoveDuplicatesTitle=Xóa Bản Trùng
+PropertiesTitle=Thuộc tính Danh sách Phát
+PropTotalItems=Tổng mục: %d
+PropTotalDuration=Tổng thời lượng: %s
+PropPlayed=Đã phát: %d
+PropUnplayed=Chưa phát: %d
+PropTotalSize=Tổng kích thước: %.2f MB
+PropShuffle=Trộn: %s
+PropRepeat=Lặp: %s
+On=Bật
+Off=Tắt
+
+; Khóa mới cho ApplyLocale
+ClearTitle=Xóa Danh sách Phát
+ClearConfirm=Bạn có chắc muốn xóa danh sách phát không?
+NoPlaylist=Không có danh sách phát
+StatusFormat=%d mục | Tổng: %s
+RepeatOne=Lặp 1
+RepeatAll=Lặp Tất cả
+HintRepeatEnable=Nhấp để bật Lặp Tất cả
+HintRepeatOne=Lặp Một - Nhấp để tắt
+HintRepeatAll=Lặp Tất cả - Nhấp để Lặp Một
+HintShuffleRepeat=Trộn + Lặp Tất cả - Nhấp để tắt lặp
+RemoveDuplicatesTitle=Xóa Bản Trùng
+NoDuplicates=Không tìm thấy bản trùng.
+SelectAll=Chọn Tất cả
+SelectNone=Bỏ Chọn
+SelectInvert=Đảo Chọn
+Sort=Sắp xếp
+SortByName=Theo Tên
+SortByTitle=Theo Tiêu đề
+SortByArtist=Theo Nghệ sĩ
+SortByDuration=Theo Thời lượng
+SortReverse=Đảo ngược
+SortRandom=Ngẫu nhiên
+ColTitle=Tiêu đề
+ColDuration=Thời lượng
+ColArtist=Nghệ sĩ
+ColAlbum=Album
+PlaylistFilter=Danh sách Phát M3U|*.m3u|Danh sách Phát M3U8|*.m3u8|Danh sách Phát PLS|*.pls
+
+[Equalizer]
+Title=Bộ Cân Bằng
+Presets=Cài đặt sẵn:
+Preamp=Khuếch đại:
+Flat=Phẳng
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Cổ điển
+BassBoost=Tăng Bass
+TrebleBoost=Tăng Treble
+Vocal=Giọng hát
+Reset=Đặt lại
+Enable=Bật Bộ Cân Bằng
+Save=Lưu
+Delete=Xóa
+Ready=Sẵn sàng
+; Nút và hành động
+SavePreset=Lưu Cài đặt sẵn
+DeletePreset=Xóa Cài đặt sẵn
+SavePresetTitle=Lưu Cài đặt sẵn
+PresetNamePrompt=Tên cài đặt sẵn:
+EnterPresetName=Vui lòng nhập tên cài đặt sẵn.
+OverwritePresetTitle=Ghi đè Cài đặt sẵn
+OverwritePresetConfirm=Cài đặt sẵn với tên này đã tồn tại. Ghi đè?
+PresetUpdated=Đã cập nhật cài đặt sẵn: %s
+PresetSaved=Đã lưu cài đặt sẵn: %s
+SelectPresetToDelete=Vui lòng chọn cài đặt sẵn để xóa.
+CannotDeleteDefault=Không thể xóa cài đặt sẵn mặc định.
+DeletePresetTitle=Xóa Cài đặt sẵn
+DeletePresetConfirm=Bạn có chắc muốn xóa cài đặt sẵn này không?
+PresetDeleted=Đã xóa cài đặt sẵn
+ResetToFlat=Đã đặt lại bộ cân bằng về phẳng
+PresetApplied=Đã áp dụng cài đặt sẵn: %s
+
+[Options]
+Title=Tùy chọn
+General=Chung
+Video=Video
+Audio=Âm thanh
+Subtitles=Phụ đề
+Cache=Bộ nhớ đệm
+Language=Ngôn ngữ:
+RestartRequired=Cần khởi động lại để áp dụng thay đổi
+
+; Tab Chung - Hành vi
+Behavior=Hành vi
+SingleInstance=Chỉ cho phép một phiên bản
+AutoPlay=Tự động phát khi mở tệp
+AutoResume=Tiếp tục vị trí phát lại
+MinimizeToTray=Thu nhỏ vào khay hệ thống
+AutoSavePlaylist=Lưu danh sách phát khi thoát
+
+; Tab Chung - OSD
+OSD=Hiển thị Trên Màn hình
+ShowOSD=Hiện thông báo trên màn hình
+ShowTrayIcon=Hiện biểu tượng khay
+OSDDuration=Thời gian OSD (ms):
+
+; Tab Chung - Ảnh chụp
+Screenshots=Ảnh chụp Màn hình
+ScreenshotPath=Thư mục lưu:
+ScreenshotFormat=Định dạng:
+
+; Tab Chung - Lịch sử
+HistorySettings=Lịch sử
+HistoryEnabled=Bật lịch sử phát lại
+HistoryMaxItems=Số mục tối đa:
+
+; Tab Chung - Ngôn ngữ
+LanguageGroup=Ngôn ngữ
+RestartNote=(Cần khởi động lại để áp dụng)
+
+; Tab Video
+VideoAdjust=Điều chỉnh Video
+Brightness=Độ sáng:
+Contrast=Độ tương phản:
+Saturation=Độ bão hòa:
+Hue=Sắc độ:
+Gamma=Gamma:
+VideoOutput=Đầu ra Video
+Output=Đầu ra:
+HWAccel=Bật tăng tốc phần cứng
+Deinterlacing=Khử xen kẽ
+Mode=Chế độ:
+
+; Tab Âm thanh
+AudioOutput=Đầu ra Âm thanh
+OutputDriver=Trình điều khiển:
+Device=Thiết bị:
+AudioOptions=Tùy chọn Âm thanh
+NormalizeAudio=Chuẩn hóa âm lượng
+Channels=Kênh:
+
+; Tab Phụ đề
+UseDefaultSubtitles=Sử dụng cài đặt phụ đề mặc định
+Font=Phông chữ
+FontName=Phông:
+FontSize=Kích thước:
+FontColor=Màu:
+Bold=Đậm
+Italic=Nghiêng
+Outline=Viền
+OutlineColor=Màu:
+OutlineSize=Kích thước:
+Position=Vị trí
+VerticalPosition=Vị trí dọc:
+SubOptions=Tùy chọn
+Encoding=Mã hóa:
+AutoLoadSubs=Tự động tải tệp phụ đề
+
+; Cảnh báo đầu ra video
+VOWarningX11=Cảnh báo: x11 không hỗ trợ điều chỉnh video (độ sáng, tương phản, v.v.)
+VOWarningWayland=Cảnh báo: Yêu cầu phiên Wayland. Hỗ trợ điều chỉnh video.
+
+; Tab Bộ nhớ đệm
+CacheSettings=Kích thước Bộ nhớ đệm (KB)
+CacheDefault=Bộ đệm mặc định:
+CacheLocal=Tệp cục bộ:
+CacheNetwork=Tệp mạng:
+CacheInternet=Luồng Internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Giới thiệu
+Version=Phiên bản
+Engine=Công cụ
+Technology=Công nghệ
+BuildInfo=Thông tin Bản dựng
+SystemInfo=Hệ thống
+Credits=Ghi công
+Developer=Nhà phát triển:
+Author=Tác giả
+License=Giấy phép
+Website=Trang web
+GitHub=GitHub
+Description=Trình phát đa phương tiện hiện đại, nhẹ
+LicenseText=3nity Media được cấp phép theo GPL-2.0\n\nĐiều này có nghĩa bạn được tự do:\n  • Sử dụng phần mềm cho bất kỳ mục đích nào\n  • Nghiên cứu và sửa đổi mã nguồn\n  • Phân phối bản sao phần mềm\n  • Phân phối các sửa đổi của bạn\n\nVới điều kiện bất kỳ sửa đổi nào được phân phối\ncũng phải được cấp phép theo GPL-2.0.
+BuildDate=Ngày:
+Target=Mục tiêu:
+Kernel=Nhân:
+
+[Shortcuts]
+Title=Phím Tắt
+Description=Cấu hình phím tắt cho các hành động
+Search=Tìm kiếm:
+PressKey=Nhấn một phím...
+ColCategory=Danh mục
+ColAction=Hành động
+ColShortcut=Phím tắt
+Assign=Gán
+Clear=Xóa
+Reset=Đặt lại
+ResetAll=Đặt lại Tất cả
+CurrentShortcut=Hiện tại: %s
+NoKeyPressed=Vui lòng nhấn tổ hợp phím trước.
+Conflict=Xung đột: Đã gán cho "%s"
+ConfirmReplace=Thay thế Phím tắt
+ReplaceMessage=Phím tắt này đã được gán cho "%s". Bạn có muốn thay thế không?
+ConfirmResetAll=Đặt lại Tất cả Phím tắt
+ResetAllMessage=Bạn có chắc muốn đặt lại tất cả phím tắt về mặc định không?
+; Tên hành động
+ActPlayPause=Phát / Tạm dừng
+ActStop=Dừng
+ActPrevious=Trước
+ActNext=Tiếp
+ActSeekForward=Tua Tiến (10 giây)
+ActSeekBackward=Tua Lùi (10 giây)
+ActSeekForward5=Tua Tiến (1 phút)
+ActSeekBackward5=Tua Lùi (1 phút)
+ActSpeedUp=Tăng Tốc độ
+ActSpeedDown=Giảm Tốc độ
+ActSpeedReset=Đặt lại Tốc độ
+ActSetLoopA=Đặt Điểm Lặp A
+ActSetLoopB=Đặt Điểm Lặp B
+ActClearLoop=Xóa Vòng lặp A-B
+ActFrameForward=Khung Tiếp theo
+ActFrameBackward=Khung Trước
+ActPrevChapter=Chương Trước
+ActNextChapter=Chương Tiếp
+ActGotoTime=Đi tới Thời gian
+ActVolumeUp=Tăng Âm lượng
+ActVolumeDown=Giảm Âm lượng
+ActMute=Tắt / Bật tiếng
+ActAudioDelayPlus=Tăng Độ trễ Âm thanh
+ActAudioDelayMinus=Giảm Độ trễ Âm thanh
+ActAudioDelayReset=Đặt lại Độ trễ Âm thanh
+ActFullscreen=Toàn màn hình
+ActRotate=Xoay Video
+ActDeinterlace=Khử xen kẽ
+ActZoomIn=Phóng To
+ActZoomOut=Thu Nhỏ
+ActZoomReset=Đặt lại Thu phóng
+ActAlwaysOnTop=Luôn ở Trên cùng
+ActFitToVideo=Vừa với Video
+ActScreenshot=Chụp Màn hình
+ActVideoAdjust=Điều chỉnh Video
+ActVisNextMode=Chế độ Hiệu ứng Tiếp theo
+ActVisNextColor=Bảng Màu Tiếp theo
+ActSubDelayPlus=Tăng Độ trễ Phụ đề
+ActSubDelayMinus=Giảm Độ trễ Phụ đề
+ActSubDelayReset=Đặt lại Độ trễ Phụ đề
+ActDVDMenu=Menu DVD
+ActDVDUp=Điều hướng DVD Lên
+ActDVDDown=Điều hướng DVD Xuống
+ActDVDLeft=Điều hướng DVD Trái
+ActDVDRight=Điều hướng DVD Phải
+ActDVDSelect=Chọn DVD
+ActOpenFile=Mở Tệp
+ActOpenURL=Mở URL
+ActPlaylist=Hiện Danh sách Phát
+ActQuit=Thoát
+
+[Log]
+; Giai đoạn 25: Cửa sổ Nhật ký
+Title=Nhật ký MPV
+Command=Lệnh:
+Clear=Xóa
+Save=Lưu...
+Copy=&Sao chép
+SelectAll=Chọn &Tất cả
+SaveTitle=Lưu Nhật ký
+SaveFilter=Tệp văn bản (*.txt)|*.txt|Tất cả tệp (*.*)|*.*
+ErrorTitle=Lỗi
+SaveError=Không thể lưu nhật ký: %s
+
+[MediaInfo]
+Title=Thông tin Đa phương tiện
+FileTab=Tệp
+VideoTab=Video
+AudioTab=Âm thanh
+MetadataTab=Siêu dữ liệu
+FileName=Tên Tệp:
+FilePath=Đường dẫn:
+FileSize=Kích thước:
+Duration=Thời lượng:
+Format=Định dạng:
+Bitrate=Tốc độ bit:
+Codec=Codec:
+Resolution=Độ phân giải:
+FrameRate=Tốc độ khung:
+PixelFormat=Định dạng điểm ảnh:
+AspectRatio=Tỉ lệ Khung hình:
+Channels=Kênh:
+SampleRate=Tần số lấy mẫu:
+Language=Ngôn ngữ:
+Property=Thuộc tính
+Value=Giá trị
+CopyAll=Sao chép Tất cả
+CopiedToClipboard=Đã sao chép thông tin đa phương tiện vào bộ nhớ tạm.
+NA=N/A
+NAStream=N/A (luồng)
+NALive=N/A (trực tiếp)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (Âm thanh vòm 5.1)
+Channel71=8 (Âm thanh vòm 7.1)
+Unknown=Không xác định
+NoMetadata=(Không có siêu dữ liệu)
+
+[Bookmarks]
+Title=Đánh dấu
+Goto=Đi tới
+Remove=Xóa
+Clear=Xóa Tất cả
+Refresh=Làm mới
+OpenFolder=Mở Thư mục
+CopyPath=Sao chép Đường dẫn
+; Cột
+ColName=Tên
+ColFile=Tệp
+ColPosition=Vị trí
+ColCreated=Ngày tạo
+; Hộp thoại
+ClearTitle=Xóa Đánh dấu
+ClearConfirm=Bạn có chắc muốn xóa tất cả đánh dấu không?
+Count=%d đánh dấu
+
+[Favorites]
+Title=Yêu thích
+Play=Phát
+Remove=Xóa
+Clear=Xóa Tất cả
+Refresh=Làm mới
+OpenFolder=Mở Thư mục
+CopyPath=Sao chép Đường dẫn
+; Cột
+ColName=Tên
+ColType=Loại
+ColPath=Đường dẫn
+; Loại
+TypeFile=Tệp
+TypeURL=URL
+TypeRadio=Đài
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Không xác định
+; Hộp thoại
+ClearTitle=Xóa Yêu thích
+ClearConfirm=Bạn có chắc muốn xóa tất cả yêu thích không?
+Count=%d yêu thích
+
+[History]
+Title=Lịch sử Phát lại
+Play=Phát
+Remove=Xóa
+Clear=Xóa Tất cả
+Refresh=Làm mới
+OpenFolder=Mở Thư mục
+CopyPath=Sao chép Đường dẫn
+; Cột
+ColFileName=Tệp
+ColPath=Đường dẫn
+; Hộp thoại
+ClearTitle=Xóa Lịch sử
+ClearConfirm=Bạn có chắc muốn xóa tất cả lịch sử không?
+Count=%d mục
+
+[SleepTimer]
+Title=Hẹn giờ Ngủ
+Description=Đặt hẹn giờ tự động dừng phát lại
+Hours=Giờ:
+Minutes=Phút:
+Action=Khi hẹn giờ hết:
+StopPlayback=Dừng phát lại
+CloseApp=Đóng ứng dụng
+Shutdown=Tắt máy tính
+QuickSet=Đặt nhanh:
+15Min=15 phút
+30Min=30 phút
+1Hour=1 giờ
+2Hours=2 giờ
+
+[Radios]
+Title=Đài Phát thanh Internet
+Play=Phát
+Add=Thêm
+Edit=Sửa
+Delete=Xóa
+Remove=Xóa
+Import=Nhập
+Export=Xuất
+Refresh=Làm mới
+Favorite=Yêu thích
+ShowFavorites=Yêu thích
+ShowAll=Tất cả
+; Bộ lọc
+Genre=Thể loại:
+Search=Tìm kiếm:
+SearchBtn=Tìm
+ClearSearch=Xóa
+AllGenres=(Tất cả Thể loại)
+; Menu ngữ cảnh
+AddFavorite=Thêm vào Yêu thích
+RemoveFavorite=Xóa khỏi Yêu thích
+AddCustom=Thêm Đài Tùy chỉnh...
+EditCustom=Sửa Đài...
+DeleteCustom=Xóa Đài
+OpenWebsite=Mở Trang web
+CopyURL=Sao chép URL
+; Cột
+ColName=Tên
+ColGenre=Thể loại
+ColBitrate=Tốc độ bit
+ColCountry=Quốc gia
+ColCodec=Codec
+; Hộp thoại
+AddTitle=Thêm Đài Tùy chỉnh
+EditTitle=Sửa Đài
+DeleteTitle=Xóa Đài
+DeleteConfirm=Bạn có chắc muốn xóa đài này không?
+StationName=Tên Đài:
+StreamURL=URL Luồng:
+GenrePrompt=Thể loại:
+NameURLRequired=Cần có Tên và URL.
+; Thông báo trạng thái
+LoadingIcecast=Đang tải đài từ thư mục Icecast...
+IcecastError=Không thể tải thư mục Icecast. Sử dụng đài mặc định.
+NoStationsLoaded=Chưa tải đài nào
+StationCount=%d đài
+LoadedStations=Đã tải %d đài
+ErrorPrefix=Lỗi:
+; Khóa cũ
+Name=Tên
+URL=URL
+Bitrate=Tốc độ bit
+Description=Mô tả
+Country=Quốc gia
+
+[OpenURL]
+Title=Mở URL
+Prompt=Nhập URL đa phương tiện:
+
+[GotoTime]
+Title=Đi tới Thời gian
+EnterTime=Nhập thời gian để nhảy tới:
+Hours=G
+Minutes=P
+Seconds=S
+Current=Hiện tại:
+Duration=Thời lượng:
+
+[VideoAdjust]
+Title=Điều chỉnh Video
+Brightness=Độ sáng:
+Contrast=Độ tương phản:
+Saturation=Độ bão hòa:
+Hue=Sắc độ:
+Gamma=Gamma:
+ResetAll=Đặt lại Tất cả Màu
+
+[CLI]
+; Thông báo dòng lệnh
+Usage=Cách dùng
+Arguments=[TÙY CHỌN] [TẬP TIN|URL|THƯ MỤC]
+Description=Trình phát đa phương tiện đa nền tảng sử dụng libmpv làm backend.
+Options=TÙY CHỌN
+Examples=VÍ DỤ
+MoreInfo=Để biết thêm thông tin, truy cập
+EnqueuedTo=Đã thêm vào hàng đợi của phiên bản hiện tại: %s
+SentTo=Đã gửi đến phiên bản hiện tại: %s
+AlreadyRunning=3nity Media đang chạy.
+ErrorFileNotFound=Lỗi: Không tìm thấy tập tin hoặc thư mục: %s
+ErrorSubNotFound=Lỗi: Không tìm thấy tập tin phụ đề: %s

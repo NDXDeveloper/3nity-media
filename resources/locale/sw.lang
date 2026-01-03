@@ -1,0 +1,892 @@
+[Language]
+Name=Swahili - Kiswahili
+Code=sw
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Menyu ya Faili
+File=&Faili
+FileOpen=&Fungua Faili...
+FileOpenURL=Fungua &URL...
+FileOpenClipboard=Fungua kutoka &Ubao wa Kunakili
+FileRecent=Faili za &Hivi Karibuni
+ClearRecentFiles=Futa Faili za Hivi Karibuni
+FileExit=&Toka
+
+; Menyu ya Uchezaji
+Playback=&Uchezaji
+PlaybackPlayPause=&Cheza/Simamisha
+PlaybackStop=&Simama
+PlaybackPrevious=&Iliyotangulia
+PlaybackNext=&Inayofuata
+PlaybackSeekForward=Tafuta &Mbele
+PlaybackSeekBackward=Tafuta &Nyuma
+PlaybackSpeed=&Kasi
+PlaybackABLoop=Kitanzi A-&B
+PlaybackSetA=Weka &A
+PlaybackSetB=Weka &B
+PlaybackClearAB=&Futa A-B
+PlaybackChapters=&Sura
+PlaybackPrevChapter=Sura Iliyotangulia
+PlaybackNextChapter=Sura Inayofuata
+PlaybackFrameStep=Hatua ya Fremu &Mbele
+PlaybackFrameBack=Hatua ya Fremu &Nyuma
+
+; Uabiri wa DVD
+PlaybackDVD=&Uabiri wa DVD
+DVDMenu=&Menyu
+DVDUp=&Juu
+DVDDown=&Chini
+DVDLeft=&Kushoto
+DVDRight=&Kulia
+DVDSelect=&Chagua
+PlaybackDVDTitles=&Vichwa vya DVD
+
+; Awamu ya 21: Fungua Folda
+FileOpenFolder=Fungua F&olda...
+
+; Menyu ya Faili DVD/Bluray
+FileOpenDVD=Fungua &DVD...
+FileOpenBluray=Fungua &Blu-ray...
+
+; Awamu ya 13: Nenda kwa Wakati na Historia
+PlaybackGotoTime=&Nenda kwa Wakati...
+ToolsHistory=&Historia
+
+; Awamu ya 14: Trei ya Mfumo
+TrayShow=&Onyesha/Ficha
+TrayPlayPause=&Cheza/Simamisha
+TrayStop=&Simama
+TrayPrevious=&Iliyotangulia
+TrayNext=&Inayofuata
+TrayMute=&Nyamazisha
+TrayExit=&Toka
+
+; Awamu ya 15: Alama za Vitabu
+PlaybackAddBookmark=Ongeza &Alama ya Kitabu...
+PlaybackBookmarks=Alama &za Vitabu
+BookmarksTitle=Alama za Vitabu
+BookmarksGoto=&Nenda kwa Alama ya Kitabu
+BookmarksRemove=&Ondoa Alama ya Kitabu
+BookmarksClear=&Futa Alama Zote za Vitabu
+BookmarksOpenFolder=Fungua &Folda
+BookmarksCopyPath=&Nakili Njia
+BookmarksCount=alama za vitabu %d
+NoBookmarks=(Hakuna alama za vitabu)
+NoFileLoaded=(Hakuna faili iliyopakiwa)
+BookmarkAdded=Alama ya kitabu imeongezwa saa %s
+BookmarkJumped=Imeruka kwenye alama ya kitabu saa %s
+AddBookmarkTitle=Ongeza Alama ya Kitabu
+AddBookmarkPrompt=Ingiza jina la alama ya kitabu:
+ShowAllBookmarks=Onyesha Alama Zote za Vitabu...
+
+; Awamu ya 16: Vipendwa
+ToolsFavorites=&Vipendwa
+ToolsAddFavorite=Ongeza kwenye Vipe&ndwa
+FavoritesTitle=Vipendwa
+FavoritesPlay=&Cheza
+FavoritesRemove=&Ondoa kutoka Vipendwa
+FavoritesClear=&Futa Vipendwa Vyote
+FavoritesOpenFolder=Fungua &Folda
+FavoritesCopyPath=&Nakili Njia
+FavoritesCount=vipendwa %d
+NoFavorites=(Hakuna vipendwa)
+AddFavoriteTitle=Ongeza kwenye Vipendwa
+AddFavoritePrompt=Ingiza jina la kipendwa:
+AlreadyFavorite=Tayari ipo kwenye vipendwa
+AddedToFavorites=Imeongezwa kwenye vipendwa: %s
+NoFileToFavorite=Hakuna faili iliyopakiwa kuongeza kwenye vipendwa
+FavoriteTypeFile=Faili
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Redio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Mifuatano ya umbizo la wimbo
+TrackWithTitle=Wimbo %d: %s
+TrackWithLang=Wimbo %d (%s)
+TrackNumber=Wimbo %d
+
+; Vipengele vya menyu ya kasi
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Vipengele vya menyu ya kipimo
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Wimbo wa manukuu
+SubtitleDisable=Zima
+
+; Awamu ya 17: Kipima Wakati wa Kulala
+ToolsSleepTimer=&Kipima Wakati wa Kulala...
+ToolsSleepTimerActive=&Kipima Wakati wa Kulala [%s]
+ToolsCancelTimer=Ghairi &Kipima Wakati
+
+; Menyu ya Sauti
+Audio=&Sauti
+AudioTrack=&Wimbo wa Sauti
+AudioVolumeUp=Sauti &Juu
+AudioVolumeDown=Sauti &Chini
+AudioMute=&Nyamazisha
+AudioEqualizer=&Kisawazishaji
+AudioDelay=&Kuchelewa kwa Sauti
+AudioDelayPlus=Chelewa +0.1s
+AudioDelayMinus=Chelewa -0.1s
+AudioDelayReset=Rudisha Kuchelewa
+AudioNormalize=&Sawazisha Sauti
+
+; Menyu ya Video
+Video=&Video
+VideoFullscreen=&Skrini Kamili
+VideoAspect=&Uwiano wa Pande
+VideoAspectAuto=&Kiotomatiki
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Picha ya Skrini
+VideoScreenshotAs=Picha ya Skrini &Kama...
+VideoRotation=&Kuzunguka
+VideoRotate0=&0° (Kawaida)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Geuza
+VideoFlipH=Geuza &Usawa
+VideoFlipV=Geuza &Wima
+VideoDeinterlace=&Ondoa Muunganiko
+VideoZoom=&Kuza
+VideoZoomIn=Kuza &Ndani
+VideoZoomOut=Kuza &Nje
+VideoZoomReset=&Rudisha Ukuzaji
+VideoPan=&Pana
+VideoPanLeft=Pana &Kushoto
+VideoPanRight=Pana &Kulia
+VideoPanUp=Pana &Juu
+VideoPanDown=Pana &Chini
+VideoPanReset=R&udisha Pana
+VideoTrack=&Wimbo wa Video
+VideoColors=&Marekebisho ya Rangi
+VideoBrightness=&Mwangaza
+VideoContrast=&Tofauti
+VideoSaturation=&Ujazo wa Rangi
+VideoHue=&Rangi
+VideoGamma=&Gama
+VideoColorsReset=Rudisha Rangi &Zote
+VideoIncrease=Ongeza (+5)
+VideoDecrease=Punguza (-5)
+VideoReset=Rudisha
+VideoAdjustDialog=&Marekebisho ya Video...
+
+; Menyu ya Mtazamo
+View=Mt&azamo
+ViewAlwaysOnTop=&Daima Juu
+ViewFitToVideo=&Linganisha Dirisha na Video
+ViewScale=&Kipimo cha Dirisha
+
+; Awamu ya 26: Menyu ya Uonyeshaji
+ViewVisualization=&Uonyeshaji
+VisNone=&Hakuna
+VisSpectrum=Kichambuzi cha &Wigo
+VisWaveform=&Mawimbi
+VisVector=Kiwango cha &Vekta
+VisVolume=Kipimo cha &VU
+VisNextMode=&Hali Inayofuata
+VisNextColor=&Mpango wa Rangi Unaofuata
+
+; Menyu ya Manukuu
+Subtitles=&Manukuu
+SubtitleTrack=&Wimbo wa Manukuu
+SubtitleLoad=&Pakia Manukuu...
+SubtitleDelay=&Kuchelewa kwa Manukuu
+SubtitleDelayPlus=Chelewa +0.1s
+SubtitleDelayMinus=Chelewa -0.1s
+SubtitleDelayReset=Rudisha Kuchelewa
+
+; Menyu ya Zana
+Tools=&Zana
+ToolsPlaylist=&Orodha ya Kucheza
+ToolsRadios=&Redio
+ToolsShortcuts=&Njia za Mkato za Kibodi...
+ToolsOptions=&Chaguzi
+
+; Awamu ya 27: Menyu ya Kurekodi
+ToolsRecord=&Rekodi Mkondo...
+ToolsStopRecord=&Simamisha Kurekodi
+ToolsRecording=&Kurekodi...
+
+; Menyu ya Msaada
+Help=&Msaada
+HelpMediaInfo=&Maelezo ya Media
+HelpLog=Dirisha la &Kumbukumbu
+HelpAbout=&Kuhusu
+
+[Dialog]
+OpenFile=Fungua Faili
+OpenURL=Fungua URL
+SaveScreenshot=Hifadhi Picha ya Skrini
+LoadSubtitle=Pakia Faili ya Manukuu
+EnterURL=Ingiza URL:
+ResumePlayback=Endelea Uchezaji
+ResumeFrom=Endelea kutoka %s?
+ClearRecentFiles=Futa Faili za Hivi Karibuni
+NoRecentFiles=(Hakuna faili za hivi karibuni)
+NoAudioTracks=(Hakuna nyimbo za sauti)
+NoVideoTracks=(Hakuna nyimbo za video)
+NoSubtitleTracks=(Hakuna nyimbo za manukuu)
+NoChapters=(Hakuna sura)
+OpenDVD=Fungua DVD
+OpenBluray=Fungua Blu-ray
+OpenFolder=Fungua Folda
+
+; Vichungi vya faili
+ScreenshotFilter=Picha ya PNG|*.png|Picha ya JPEG|*.jpg|Picha ya WebP|*.webp
+DVDFilter=Folda ya DVD|*.;*.iso|Faili zote (*.*)|*.*
+BlurayFilter=Folda ya Blu-ray|*.;*.iso|Faili zote (*.*)|*.*
+NoDVD=(Hakuna DVD iliyopakiwa)
+DVDTitle=Kichwa %d
+GotoTime=Nenda kwa Wakati
+EnterTime=Ingiza wakati wa kuruka:
+Hours=Masaa
+Minutes=Dakika
+Seconds=Sekunde
+Current=Sasa:
+HistoryTitle=Historia ya Uchezaji
+HistoryItems=vipengele %d katika historia
+HistoryPlay=&Cheza
+HistoryRemove=&Ondoa kutoka Historia
+HistoryClear=&Futa Historia Yote
+HistoryOpenFolder=Fungua &Folda
+HistoryCopyPath=&Nakili Njia
+ClearHistory=Futa Historia
+ClearHistoryConfirm=Una uhakika unataka kufuta historia yote?
+SleepTimerTitle=Kipima Wakati wa Kulala
+SleepTimerDescription=Weka kipima wakati kusimamisha uchezaji kiotomatiki
+SleepTimerHours=Masaa
+SleepTimerMinutes=Dakika
+SleepTimerQuickSet=Weka Haraka
+SleepTimerAction=Kipima wakati kinapoisha
+SleepTimerStopPlayback=Simamisha uchezaji
+SleepTimerCloseApp=Funga programu
+SleepTimerShutdown=Zima kompyuta
+SleepTimerStart=Anza Kipima Wakati
+
+[Status]
+Ready=Tayari
+Opening=Inafungua...
+Playing=Inacheza
+Paused=Imesimamishwa
+Stopped=Imesimama
+Error=Hitilafu
+Buffering=Inahifadhi...
+Seeking=Inatafuta...
+Recording=Inarekodi
+
+[Message]
+SpeedFormat=Kasi: %.2fx
+VolumeFormat=Sauti: %d%%
+BrightnessFormat=Mwangaza: %d
+ContrastFormat=Tofauti: %d
+SaturationFormat=Ujazo wa Rangi: %d
+HueFormat=Rangi: %d
+GammaFormat=Gama: %d
+ColorsReset=Rangi za video zimerudishwa
+LoopASet=Kitanzi A kimewekwa saa %s
+LoopBSet=Kitanzi B kimewekwa saa %s - Kitanzi kinatumika
+LoopCleared=Kitanzi A-B kimefutwa
+SetAFirst=Weka hatua A kwanza (bonyeza L)
+RotationFormat=Kuzunguka: %d°
+FlipHOn=Kugeuza usawa: IMEWASHWA
+FlipHOff=Kugeuza usawa: IMEZIMWA
+FlipVOn=Kugeuza wima: IMEWASHWA
+FlipVOff=Kugeuza wima: IMEZIMWA
+DeinterlaceOn=Ondoa muunganiko: IMEWASHWA
+DeinterlaceOff=Ondoa muunganiko: IMEZIMWA
+AlwaysOnTopOn=Daima juu: IMEWASHWA
+AlwaysOnTopOff=Daima juu: IMEZIMWA
+WindowFitted=Dirisha limelingana na %dx%d
+WindowScale=Kipimo cha dirisha: %.0f%%
+ScreenshotSaved=Picha ya skrini imehifadhiwa: %s
+AudioNormalizeOn=Kusawazisha sauti: IMEWASHWA
+AudioNormalizeOff=Kusawazisha sauti: IMEZIMWA
+AudioDelayFormat=Kuchelewa kwa sauti: %.1f s
+SubtitleDelayFormat=Kuchelewa kwa manukuu: %.1f s
+ZoomFormat=Ukuzaji: %.0f%%
+PanCenter=Pana: Katikati
+PanFormat=Pana: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Hakuna video iliyopakiwa
+PlayingFromClipboard=Inacheza kutoka ubao wa kunakili: %s
+ClipboardInvalid=Ubao wa kunakili hauna URL au njia halali
+ClipboardEmpty=Ubao wa kunakili ni tupu au hauna maandishi
+ResumedAt=Imeendelea saa %s
+FrameStepForward=Hatua ya fremu mbele
+FrameStepBackward=Hatua ya fremu nyuma
+PreviousChapter=Sura iliyotangulia
+NextChapter=Sura inayofuata
+PlayingRadio=Inacheza redio: %s
+PlayingDVD=Inacheza DVD: %s
+PlayingBluray=Inacheza Blu-ray: %s
+DVDTitlePlaying=Kichwa cha DVD %d
+SeekTo=Inatafuta hadi %s
+MinimizedToTray=Imepunguzwa kwenye trei. Bonyeza mara mbili kurudisha.
+SleepTimerSet=Kipima wakati wa kulala kimewekwa: %s
+SleepTimerCancelled=Kipima wakati wa kulala kimeghairiwa
+SleepTimerWarning=Kipima wakati wa kulala: dakika 1 imebaki
+SleepTimerFinal=Kipima wakati wa kulala: sekunde 10 zimebaki
+SleepTimerStopped=Kipima wakati wa kulala: Uchezaji umesimama
+SleepTimerClosing=Kipima wakati wa kulala: Inafunga programu
+SleepTimerShutdown=Kipima wakati wa kulala: Inazima kompyuta
+SleepTimerExpired=Kipima Wakati wa Kulala Kimeisha
+ShutdownManual=Tafadhali zima kompyuta yako mwenyewe.
+
+; Awamu ya 21: Fungua Folda
+FolderOpened=Folda imefunguliwa: faili %d
+NoMediaFound=Hakuna faili za media zilizopatikana
+FilesAdded=Faili %d zimeongezwa kwenye orodha ya kucheza
+
+; Awamu ya 27: Ujumbe wa kurekodi
+RecordNeedPlayback=Anza uchezaji kabla ya kurekodi.
+RecordingStarted=Kurekodi kumeanza
+RecordingStopped=Kurekodi kumesimama
+
+; Ujumbe wa ziada wa hali
+EndOfPlaylist=Mwisho wa orodha ya kucheza
+NoMediaLoaded=Hakuna faili ya media iliyopakiwa sasa hivi.
+JumpedToNamed=Imeruka kwenda: %s
+ChapterFormat=Sura %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Alama ya kitabu saa %s
+
+[Label]
+Muted=Imenyamazishwa
+
+[Button]
+Play=Cheza
+Pause=Simamisha
+Stop=Simama
+Previous=Iliyotangulia
+Next=Inayofuata
+Mute=Nyamazisha
+Unmute=Rejesha Sauti
+Fullscreen=Skrini Kamili
+OK=Sawa
+Cancel=Ghairi
+Apply=Tumia
+Close=Funga
+Yes=Ndiyo
+No=Hapana
+
+[Tooltip]
+Play=Cheza/Simamisha
+Stop=Simamisha uchezaji
+Previous=Wimbo uliotangulia
+Next=Wimbo unaofuata
+Mute=Geuza kunyamazisha
+Volume=Sauti
+Seek=Nafasi ya kutafuta
+Fullscreen=Geuza skrini kamili
+
+[Playlist]
+Title=Orodha ya Kucheza
+Add=Ongeza
+Remove=Ondoa
+Clear=Futa
+MoveUp=Sogeza Juu
+MoveDown=Sogeza Chini
+Shuffle=Changanya
+Repeat=Rudia
+Play=Cheza
+ShuffleOn=Changanya: Imewashwa
+ShuffleOff=Changanya: Imezimwa
+RepeatOff=Rudia: Imezimwa
+RepeatOne=Rudia: Moja
+RepeatAll=Rudia: Zote
+SavePlaylist=Hifadhi
+LoadPlaylist=Pakia
+TotalDuration=Jumla: %s
+ItemCount=vipengele %d
+
+; Awamu ya 22: Uboreshaji wa Orodha ya Kucheza
+Search=Tafuta:
+FilterPlaceholder=Chuja orodha ya kucheza...
+ClearSearch=Futa
+FilterCount=%d/%d
+RemoveDuplicates=Ondoa &Nakala
+Properties=&Mali...
+NoDuplicates=Hakuna nakala zilizopatikana.
+DuplicatesFound=Nakala %d zimepatikana. Ziondoe?
+RemoveDuplicatesTitle=Ondoa Nakala
+PropertiesTitle=Mali ya Orodha ya Kucheza
+PropTotalItems=Vipengele vyote: %d
+PropTotalDuration=Muda wote: %s
+PropPlayed=Vilichochezwa: %d
+PropUnplayed=Visivyochezwa: %d
+PropTotalSize=Ukubwa wote: %.2f MB
+PropShuffle=Changanya: %s
+PropRepeat=Rudia: %s
+On=Imewashwa
+Off=Imezimwa
+
+; Funguo mpya za ApplyLocale
+ClearTitle=Futa Orodha ya Kucheza
+ClearConfirm=Una uhakika unataka kufuta orodha ya kucheza?
+NoPlaylist=Hakuna orodha ya kucheza
+StatusFormat=vipengele %d | Jumla: %s
+RepeatOne=Rud. 1
+RepeatAll=Rud. Zote
+HintRepeatEnable=Bonyeza kuwezesha Rudia Zote
+HintRepeatOne=Rudia Moja - Bonyeza kuzima
+HintRepeatAll=Rudia Zote - Bonyeza kwa Rudia Moja
+HintShuffleRepeat=Changanya + Rudia Zote - Bonyeza kuzima kurudia
+RemoveDuplicatesTitle=Ondoa Nakala
+NoDuplicates=Hakuna nakala zilizopatikana.
+SelectAll=Chagua Zote
+SelectNone=Usichague Chochote
+SelectInvert=Geuza Uchaguzi
+Sort=Panga
+SortByName=Kwa Jina
+SortByTitle=Kwa Kichwa
+SortByArtist=Kwa Msanii
+SortByDuration=Kwa Muda
+SortReverse=Kinyume
+SortRandom=Changanya Nasibu
+ColTitle=Kichwa
+ColDuration=Muda
+ColArtist=Msanii
+ColAlbum=Albamu
+PlaylistFilter=Orodha ya M3U|*.m3u|Orodha ya M3U8|*.m3u8|Orodha ya PLS|*.pls
+
+[Equalizer]
+Title=Kisawazishaji
+Presets=Mipangilio:
+Preamp=Kikuzaji Awali:
+Flat=Sawa
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Muziki wa Zamani
+BassBoost=Ongeza Besi
+TrebleBoost=Ongeza Treble
+Vocal=Sauti
+Reset=Rudisha
+Enable=Wezesha Kisawazishaji
+Save=Hifadhi
+Delete=Futa
+Ready=Tayari
+; Vitufe na vitendo
+SavePreset=Hifadhi Mpangilio
+DeletePreset=Futa Mpangilio
+SavePresetTitle=Hifadhi Mpangilio
+PresetNamePrompt=Jina la mpangilio:
+EnterPresetName=Tafadhali ingiza jina la mpangilio.
+OverwritePresetTitle=Andika Juu ya Mpangilio
+OverwritePresetConfirm=Mpangilio wenye jina hili tayari upo. Andika juu yake?
+PresetUpdated=Mpangilio umesasishwa: %s
+PresetSaved=Mpangilio umehifadhiwa: %s
+SelectPresetToDelete=Tafadhali chagua mpangilio wa kufuta.
+CannotDeleteDefault=Haiwezekani kufuta mipangilio ya msingi.
+DeletePresetTitle=Futa Mpangilio
+DeletePresetConfirm=Una uhakika unataka kufuta mpangilio huu?
+PresetDeleted=Mpangilio umefutwa
+ResetToFlat=Kisawazishaji kimerudishwa sawa
+PresetApplied=Mpangilio umetumika: %s
+
+[Options]
+Title=Chaguzi
+General=Jumla
+Video=Video
+Audio=Sauti
+Subtitles=Manukuu
+Cache=Kache
+Language=Lugha:
+RestartRequired=Kuanzisha upya kunahitajika ili mabadiliko yafanye kazi
+
+; Kichupo cha Jumla - Tabia
+Behavior=Tabia
+SingleInstance=Ruhusu mfano mmoja tu
+AutoPlay=Cheza kiotomatiki faili zinapofunguliwa
+AutoResume=Endelea nafasi ya uchezaji
+MinimizeToTray=Punguza kwenye trei ya mfumo
+AutoSavePlaylist=Hifadhi orodha ya kucheza unapotoka
+
+; Kichupo cha Jumla - OSD
+OSD=Onyesho la Skrini
+ShowOSD=Onyesha ujumbe wa skrini
+ShowTrayIcon=Onyesha ikoni ya trei
+OSDDuration=Muda wa OSD (ms):
+
+; Kichupo cha Jumla - Picha za Skrini
+Screenshots=Picha za Skrini
+ScreenshotPath=Folda ya kuhifadhi:
+ScreenshotFormat=Umbizo:
+
+; Kichupo cha Jumla - Historia
+HistorySettings=Historia
+HistoryEnabled=Wezesha historia ya uchezaji
+HistoryMaxItems=Vipengele vya juu:
+
+; Kichupo cha Jumla - Lugha
+LanguageGroup=Lugha
+RestartNote=(Kuanzisha upya kunahitajika kwa mabadiliko)
+
+; Kichupo cha Video
+VideoAdjust=Marekebisho ya Video
+Brightness=Mwangaza:
+Contrast=Tofauti:
+Saturation=Ujazo wa Rangi:
+Hue=Rangi:
+Gamma=Gama:
+VideoOutput=Pato la Video
+Output=Pato:
+HWAccel=Wezesha uharakishaji wa maunzi
+Deinterlacing=Kuondoa Muunganiko
+Mode=Hali:
+
+; Kichupo cha Sauti
+AudioOutput=Pato la Sauti
+OutputDriver=Dereva wa pato:
+Device=Kifaa:
+AudioOptions=Chaguzi za Sauti
+NormalizeAudio=Sawazisha sauti
+Channels=Chaneli:
+
+; Kichupo cha Manukuu
+UseDefaultSubtitles=Tumia mipangilio ya msingi ya manukuu
+Font=Fonti
+FontName=Fonti:
+FontSize=Ukubwa:
+FontColor=Rangi:
+Bold=Nene
+Italic=Italiki
+Outline=Mstari wa Nje
+OutlineColor=Rangi:
+OutlineSize=Ukubwa:
+Position=Nafasi
+VerticalPosition=Nafasi ya wima:
+SubOptions=Chaguzi
+Encoding=Usimbaji:
+AutoLoadSubs=Pakia faili za manukuu kiotomatiki
+
+; Onyo za pato la video
+VOWarningX11=Onyo: x11 haiauni marekebisho ya video (mwangaza, tofauti, n.k.)
+VOWarningWayland=Onyo: Inahitaji kikao cha Wayland. Marekebisho ya video yanaaauniwa.
+
+; Kichupo cha Kache
+CacheSettings=Ukubwa wa Bafa ya Kache (KB)
+CacheDefault=Kache ya msingi:
+CacheLocal=Faili za ndani:
+CacheNetwork=Faili za mtandao:
+CacheInternet=Mikondo ya mtandao:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Kuhusu
+Version=Toleo
+Engine=Injini
+Technology=Teknolojia
+BuildInfo=Maelezo ya Ujenzi
+SystemInfo=Mfumo
+Credits=Shukrani
+Developer=Mtengenezaji:
+Author=Mwandishi
+License=Leseni
+Website=Tovuti
+GitHub=GitHub
+Description=Kicheza media cha kisasa, chepesi
+LicenseText=3nity Media imepewa leseni chini ya GPL-2.0\n\nHii inamaanisha uko huru:\n  * Kutumia programu kwa madhumuni yoyote\n  * Kusoma na kurekebisha msimbo wa chanzo\n  * Kusambaza nakala za programu\n  * Kusambaza marekebisho yako\n\nChini ya sharti kwamba marekebisho yoyote yanayosambazwa\npia yapate leseni chini ya GPL-2.0.
+BuildDate=Tarehe:
+Target=Lengo:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Njia za Mkato za Kibodi
+Description=Sanidi njia za mkato za kibodi kwa vitendo
+Search=Tafuta:
+PressKey=Bonyeza kitufe...
+ColCategory=Kategoria
+ColAction=Kitendo
+ColShortcut=Njia ya Mkato
+Assign=Weka
+Clear=Futa
+Reset=Rudisha
+ResetAll=Rudisha Zote
+CurrentShortcut=Sasa: %s
+NoKeyPressed=Tafadhali bonyeza mchanganyiko wa vitufe kwanza.
+Conflict=Mgongano: Tayari imewekwa kwa "%s"
+ConfirmReplace=Badilisha Njia ya Mkato
+ReplaceMessage=Njia hii ya mkato tayari imewekwa kwa "%s". Je, unataka kuibadilisha?
+ConfirmResetAll=Rudisha Njia Zote za Mkato
+ResetAllMessage=Una uhakika unataka kurudisha njia zote za mkato kwenye mipangilio ya msingi?
+; Majina ya vitendo
+ActPlayPause=Cheza / Simamisha
+ActStop=Simama
+ActPrevious=Iliyotangulia
+ActNext=Inayofuata
+ActSeekForward=Tafuta Mbele (10s)
+ActSeekBackward=Tafuta Nyuma (10s)
+ActSeekForward5=Tafuta Mbele (dakika 1)
+ActSeekBackward5=Tafuta Nyuma (dakika 1)
+ActSpeedUp=Ongeza Kasi
+ActSpeedDown=Punguza Kasi
+ActSpeedReset=Rudisha Kasi
+ActSetLoopA=Weka Hatua A ya Kitanzi
+ActSetLoopB=Weka Hatua B ya Kitanzi
+ActClearLoop=Futa Kitanzi A-B
+ActFrameForward=Fremu Mbele
+ActFrameBackward=Fremu Nyuma
+ActPrevChapter=Sura Iliyotangulia
+ActNextChapter=Sura Inayofuata
+ActGotoTime=Nenda kwa Wakati
+ActVolumeUp=Sauti Juu
+ActVolumeDown=Sauti Chini
+ActMute=Nyamazisha / Rejesha
+ActAudioDelayPlus=Kuchelewa kwa Sauti +
+ActAudioDelayMinus=Kuchelewa kwa Sauti -
+ActAudioDelayReset=Rudisha Kuchelewa kwa Sauti
+ActFullscreen=Skrini Kamili
+ActRotate=Zungusha Video
+ActDeinterlace=Ondoa Muunganiko
+ActZoomIn=Kuza Ndani
+ActZoomOut=Kuza Nje
+ActZoomReset=Rudisha Ukuzaji
+ActAlwaysOnTop=Daima Juu
+ActFitToVideo=Linganisha na Video
+ActScreenshot=Picha ya Skrini
+ActVideoAdjust=Marekebisho ya Video
+ActVisNextMode=Hali ya Uonyeshaji Inayofuata
+ActVisNextColor=Mpango wa Rangi Unaofuata
+ActSubDelayPlus=Kuchelewa kwa Manukuu +
+ActSubDelayMinus=Kuchelewa kwa Manukuu -
+ActSubDelayReset=Rudisha Kuchelewa kwa Manukuu
+ActDVDMenu=Menyu ya DVD
+ActDVDUp=Abiri Juu kwenye DVD
+ActDVDDown=Abiri Chini kwenye DVD
+ActDVDLeft=Abiri Kushoto kwenye DVD
+ActDVDRight=Abiri Kulia kwenye DVD
+ActDVDSelect=Chagua kwenye DVD
+ActOpenFile=Fungua Faili
+ActOpenURL=Fungua URL
+ActPlaylist=Onyesha Orodha ya Kucheza
+ActQuit=Toka
+
+[Log]
+; Awamu ya 25: Dirisha la Kumbukumbu
+Title=Kumbukumbu ya MPV
+Command=Amri:
+Clear=Futa
+Save=Hifadhi...
+Copy=&Nakili
+SelectAll=Chagua &Zote
+SaveTitle=Hifadhi Kumbukumbu
+SaveFilter=Faili za maandishi (*.txt)|*.txt|Faili zote (*.*)|*.*
+ErrorTitle=Hitilafu
+SaveError=Imeshindwa kuhifadhi kumbukumbu: %s
+
+[MediaInfo]
+Title=Maelezo ya Media
+FileTab=Faili
+VideoTab=Video
+AudioTab=Sauti
+MetadataTab=Metadata
+FileName=Jina la Faili:
+FilePath=Njia:
+FileSize=Ukubwa:
+Duration=Muda:
+Format=Umbizo:
+Bitrate=Kiwango cha Biti:
+Codec=Kodeki:
+Resolution=Azimio:
+FrameRate=Kiwango cha Fremu:
+PixelFormat=Umbizo la Pikseli:
+AspectRatio=Uwiano wa Pande:
+Channels=Chaneli:
+SampleRate=Kiwango cha Sampuli:
+Language=Lugha:
+Property=Mali
+Value=Thamani
+CopyAll=Nakili Zote
+CopiedToClipboard=Maelezo ya media yamenakiliwa kwenye ubao wa kunakili.
+NA=Haijulikani
+NAStream=Haijulikani (mkondo)
+NALive=Haijulikani (moja kwa moja)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (Sauti ya Kuzunguka 5.1)
+Channel71=8 (Sauti ya Kuzunguka 7.1)
+Unknown=Haijulikani
+NoMetadata=(Hakuna metadata)
+
+[Bookmarks]
+Title=Alama za Vitabu
+Goto=Nenda
+Remove=Ondoa
+Clear=Futa Zote
+Refresh=Sasisha
+OpenFolder=Fungua Folda
+CopyPath=Nakili Njia
+; Safu wima
+ColName=Jina
+ColFile=Faili
+ColPosition=Nafasi
+ColCreated=Iliundwa
+; Mazungumzo
+ClearTitle=Futa Alama za Vitabu
+ClearConfirm=Una uhakika unataka kufuta alama zote za vitabu?
+Count=alama za vitabu %d
+
+[Favorites]
+Title=Vipendwa
+Play=Cheza
+Remove=Ondoa
+Clear=Futa Zote
+Refresh=Sasisha
+OpenFolder=Fungua Folda
+CopyPath=Nakili Njia
+; Safu wima
+ColName=Jina
+ColType=Aina
+ColPath=Njia
+; Aina
+TypeFile=Faili
+TypeURL=URL
+TypeRadio=Redio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Haijulikani
+; Mazungumzo
+ClearTitle=Futa Vipendwa
+ClearConfirm=Una uhakika unataka kufuta vipendwa vyote?
+Count=vipendwa %d
+
+[History]
+Title=Historia ya Uchezaji
+Play=Cheza
+Remove=Ondoa
+Clear=Futa Zote
+Refresh=Sasisha
+OpenFolder=Fungua Folda
+CopyPath=Nakili Njia
+; Safu wima
+ColFileName=Faili
+ColPath=Njia
+; Mazungumzo
+ClearTitle=Futa Historia
+ClearConfirm=Una uhakika unataka kufuta historia yote?
+Count=vipengele %d
+
+[SleepTimer]
+Title=Kipima Wakati wa Kulala
+Description=Weka kipima wakati kusimamisha uchezaji kiotomatiki
+Hours=Masaa:
+Minutes=Dakika:
+Action=Kipima wakati kinapoisha:
+StopPlayback=Simamisha uchezaji
+CloseApp=Funga programu
+Shutdown=Zima kompyuta
+QuickSet=Weka haraka:
+15Min=dakika 15
+30Min=dakika 30
+1Hour=saa 1
+2Hours=masaa 2
+
+[Radios]
+Title=Redio za Mtandao
+Play=Cheza
+Add=Ongeza
+Edit=Hariri
+Delete=Futa
+Remove=Ondoa
+Import=Ingiza
+Export=Hamisha
+Refresh=Sasisha
+Favorite=Kipendwa
+ShowFavorites=Vipendwa
+ShowAll=Zote
+; Kichujio
+Genre=Aina:
+Search=Tafuta:
+SearchBtn=Tafuta
+ClearSearch=Futa
+AllGenres=(Aina Zote)
+; Menyu ya muktadha
+AddFavorite=Ongeza kwenye Vipendwa
+RemoveFavorite=Ondoa kutoka Vipendwa
+AddCustom=Ongeza Kituo Maalum...
+EditCustom=Hariri Kituo...
+DeleteCustom=Futa Kituo
+OpenWebsite=Fungua Tovuti
+CopyURL=Nakili URL
+; Safu wima
+ColName=Jina
+ColGenre=Aina
+ColBitrate=Kiwango cha Biti
+ColCountry=Nchi
+ColCodec=Kodeki
+; Mazungumzo
+AddTitle=Ongeza Kituo Maalum
+EditTitle=Hariri Kituo
+DeleteTitle=Futa Kituo
+DeleteConfirm=Una uhakika unataka kufuta kituo hiki?
+StationName=Jina la Kituo:
+StreamURL=URL ya Mkondo:
+GenrePrompt=Aina:
+NameURLRequired=Jina na URL zinahitajika.
+; Ujumbe wa hali
+LoadingIcecast=Inapakia vituo kutoka saraka ya Icecast...
+IcecastError=Imeshindwa kupakia saraka ya Icecast. Inatumia vituo vya msingi.
+NoStationsLoaded=Hakuna vituo vilivyopakiwa
+StationCount=vituo %d
+LoadedStations=Vituo %d vimepakiwa
+ErrorPrefix=Hitilafu:
+; Funguo za zamani
+Name=Jina
+URL=URL
+Bitrate=Kiwango cha Biti
+Description=Maelezo
+Country=Nchi
+
+[OpenURL]
+Title=Fungua URL
+Prompt=Ingiza URL ya media:
+
+[GotoTime]
+Title=Nenda kwa Wakati
+EnterTime=Ingiza wakati wa kuruka:
+Hours=M
+Minutes=D
+Seconds=S
+Current=Sasa:
+Duration=Muda:
+
+[VideoAdjust]
+Title=Marekebisho ya Video
+Brightness=Mwangaza:
+Contrast=Tofauti:
+Saturation=Ujazo wa Rangi:
+Hue=Rangi:
+Gamma=Gama:
+ResetAll=Rudisha Rangi Zote
+
+[CLI]
+; Ujumbe wa mstari wa amri
+Usage=Matumizi
+Arguments=[CHAGUZI] [FAILI|URL|FOLDA]
+Description=Kichezaji cha multimedia cha majukwaa mengi kinachotumia libmpv kama injini.
+Options=CHAGUZI
+Examples=MIFANO
+MoreInfo=Kwa maelezo zaidi, tembelea
+EnqueuedTo=Imeongezwa kwenye foleni ya mfano uliopo: %s
+SentTo=Imetumwa kwa mfano uliopo: %s
+AlreadyRunning=3nity Media tayari inafanya kazi.
+ErrorFileNotFound=Hitilafu: Faili au saraka haikupatikana: %s
+ErrorSubNotFound=Hitilafu: Faili ya manukuu haikupatikana: %s

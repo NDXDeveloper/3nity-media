@@ -1,0 +1,892 @@
+[Language]
+Name=Slovenian - Slovenščina
+Code=sl
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Meni Datoteka
+File=&Datoteka
+FileOpen=&Odpri datoteko...
+FileOpenURL=Odpri &URL...
+FileOpenClipboard=Odpri iz &odložišča
+FileRecent=&Nedavne datoteke
+ClearRecentFiles=Počisti nedavne datoteke
+FileExit=I&zhod
+
+; Meni Predvajanje
+Playback=&Predvajanje
+PlaybackPlayPause=&Predvajaj/Premor
+PlaybackStop=&Ustavi
+PlaybackPrevious=Pre&jšnji
+PlaybackNext=&Naslednji
+PlaybackSeekForward=Preskoči &naprej
+PlaybackSeekBackward=Preskoči na&zaj
+PlaybackSpeed=&Hitrost
+PlaybackABLoop=A-&B zanke
+PlaybackSetA=Nastavi &A
+PlaybackSetB=Nastavi &B
+PlaybackClearAB=&Počisti A-B
+PlaybackChapters=&Poglavja
+PlaybackPrevChapter=Prejšnje poglavje
+PlaybackNextChapter=Naslednje poglavje
+PlaybackFrameStep=Korak sličice &naprej
+PlaybackFrameBack=Korak sličice na&zaj
+
+; DVD navigacija
+PlaybackDVD=DVD &navigacija
+DVDMenu=&Meni
+DVDUp=&Gor
+DVDDown=&Dol
+DVDLeft=&Levo
+DVDRight=&Desno
+DVDSelect=&Izberi
+PlaybackDVDTitles=DVD &naslovi
+
+; Faza 21: Odpri mapo
+FileOpenFolder=Odpri m&apo...
+
+; Meni Datoteka DVD/Bluray
+FileOpenDVD=Odpri &DVD...
+FileOpenBluray=Odpri &Blu-ray...
+
+; Faza 13: Pojdi na čas in zgodovina
+PlaybackGotoTime=&Pojdi na čas...
+ToolsHistory=&Zgodovina
+
+; Faza 14: Sistemska vrstica
+TrayShow=&Pokaži/Skrij
+TrayPlayPause=&Predvajaj/Premor
+TrayStop=&Ustavi
+TrayPrevious=Pre&jšnji
+TrayNext=&Naslednji
+TrayMute=&Utišaj
+TrayExit=I&zhod
+
+; Faza 15: Zaznamki
+PlaybackAddBookmark=Dodaj &zaznamek...
+PlaybackBookmarks=Zaznam&ki
+BookmarksTitle=Zaznamki
+BookmarksGoto=&Pojdi na zaznamek
+BookmarksRemove=&Odstrani zaznamek
+BookmarksClear=&Počisti vse zaznamke
+BookmarksOpenFolder=Odpri &mapo
+BookmarksCopyPath=&Kopiraj pot
+BookmarksCount=%d zaznamkov
+NoBookmarks=(Ni zaznamkov)
+NoFileLoaded=(Nobena datoteka ni naložena)
+BookmarkAdded=Zaznamek dodan ob %s
+BookmarkJumped=Skok na zaznamek ob %s
+AddBookmarkTitle=Dodaj zaznamek
+AddBookmarkPrompt=Vnesite ime zaznamka:
+ShowAllBookmarks=Pokaži vse zaznamke...
+
+; Faza 16: Priljubljeni
+ToolsFavorites=&Priljubljeni
+ToolsAddFavorite=Dodaj med pri&ljubljene
+FavoritesTitle=Priljubljeni
+FavoritesPlay=&Predvajaj
+FavoritesRemove=&Odstrani iz priljubljenih
+FavoritesClear=&Počisti vse priljubljene
+FavoritesOpenFolder=Odpri &mapo
+FavoritesCopyPath=&Kopiraj pot
+FavoritesCount=%d priljubljenih
+NoFavorites=(Ni priljubljenih)
+AddFavoriteTitle=Dodaj med priljubljene
+AddFavoritePrompt=Vnesite ime za priljubljenega:
+AlreadyFavorite=Že med priljubljenimi
+AddedToFavorites=Dodano med priljubljene: %s
+NoFileToFavorite=Nobena datoteka ni naložena za dodajanje med priljubljene
+FavoriteTypeFile=Datoteka
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Nizi oblike sledi
+TrackWithTitle=Sled %d: %s
+TrackWithLang=Sled %d (%s)
+TrackNumber=Sled %d
+
+; Elementi menija hitrosti
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Elementi menija velikosti
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Podnapisna sled
+SubtitleDisable=Onemogoči
+
+; Faza 17: Časovnik za spanje
+ToolsSleepTimer=Časovnik za &spanje...
+ToolsSleepTimerActive=Časovnik za &spanje [%s]
+ToolsCancelTimer=Prekliči &časovnik
+
+; Meni Zvok
+Audio=&Zvok
+AudioTrack=Zvočna &sled
+AudioVolumeUp=Glasnost &gor
+AudioVolumeDown=Glasnost &dol
+AudioMute=&Utišaj
+AudioEqualizer=&Izenačevalnik
+AudioDelay=Zakasnitev &zvoka
+AudioDelayPlus=Zakasnitev +0,1s
+AudioDelayMinus=Zakasnitev -0,1s
+AudioDelayReset=Ponastavi zakasnitev
+AudioNormalize=&Normaliziraj glasnost
+
+; Meni Video
+Video=&Video
+VideoFullscreen=&Celozaslonski način
+VideoAspect=&Razmerje stranic
+VideoAspectAuto=&Samodejno
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Posnetek zaslona
+VideoScreenshotAs=Posnetek zaslona &kot...
+VideoRotation=&Rotacija
+VideoRotate0=&0° (Normalno)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Obrni
+VideoFlipH=Obrni &vodoravno
+VideoFlipV=Obrni &navpično
+VideoDeinterlace=&Razpletanje
+VideoZoom=&Povečava
+VideoZoomIn=Povečaj &noter
+VideoZoomOut=Pomanjšaj &ven
+VideoZoomReset=&Ponastavi povečavo
+VideoPan=&Premik
+VideoPanLeft=Premik &levo
+VideoPanRight=Premik &desno
+VideoPanUp=Premik &gor
+VideoPanDown=Premik &dol
+VideoPanReset=Po&nastavi premik
+VideoTrack=Video &sled
+VideoColors=Barvne &prilagoditve
+VideoBrightness=&Svetlost
+VideoContrast=&Kontrast
+VideoSaturation=&Nasičenost
+VideoHue=&Odtenek
+VideoGamma=&Gama
+VideoColorsReset=Ponastavi &vse barve
+VideoIncrease=Povečaj (+5)
+VideoDecrease=Zmanjšaj (-5)
+VideoReset=Ponastavi
+VideoAdjustDialog=Video &prilagoditve...
+
+; Meni Pogled
+View=Po&gled
+ViewAlwaysOnTop=&Vedno na vrhu
+ViewFitToVideo=&Prilagodi okno videu
+ViewScale=&Velikost okna
+
+; Faza 26: Meni Vizualizacija
+ViewVisualization=&Vizualizacija
+VisNone=&Brez
+VisSpectrum=&Spektralni analizator
+VisWaveform=&Valovna oblika
+VisVector=&Vektorski prikaz
+VisVolume=VU &merilnik
+VisNextMode=Naslednji &način
+VisNextColor=Naslednja &barvna shema
+
+; Meni Podnapisi
+Subtitles=&Podnapisi
+SubtitleTrack=Podnapisna &sled
+SubtitleLoad=&Naloži podnapise...
+SubtitleDelay=&Zakasnitev podnapisov
+SubtitleDelayPlus=Zakasnitev +0,1s
+SubtitleDelayMinus=Zakasnitev -0,1s
+SubtitleDelayReset=Ponastavi zakasnitev
+
+; Meni Orodja
+Tools=&Orodja
+ToolsPlaylist=&Seznam predvajanja
+ToolsRadios=&Radii
+ToolsShortcuts=&Bližnjice tipkovnice...
+ToolsOptions=&Možnosti
+
+; Faza 27: Meni Snemanje
+ToolsRecord=&Snemaj pretok...
+ToolsStopRecord=Us&tavi snemanje
+ToolsRecording=&Snemanje...
+
+; Meni Pomoč
+Help=&Pomoč
+HelpMediaInfo=Podatki o &mediju
+HelpLog=&Okno dnevnika
+HelpAbout=&O programu
+
+[Dialog]
+OpenFile=Odpri datoteko
+OpenURL=Odpri URL
+SaveScreenshot=Shrani posnetek zaslona
+LoadSubtitle=Naloži datoteko podnapisov
+EnterURL=Vnesite URL:
+ResumePlayback=Nadaljuj predvajanje
+ResumeFrom=Nadaljuj od %s?
+ClearRecentFiles=Počisti nedavne datoteke
+NoRecentFiles=(Ni nedavnih datotek)
+NoAudioTracks=(Ni zvočnih sledi)
+NoVideoTracks=(Ni video sledi)
+NoSubtitleTracks=(Ni podnapisnih sledi)
+NoChapters=(Ni poglavij)
+OpenDVD=Odpri DVD
+OpenBluray=Odpri Blu-ray
+OpenFolder=Odpri mapo
+
+; Datotečni filtri
+ScreenshotFilter=PNG slika|*.png|JPEG slika|*.jpg|WebP slika|*.webp
+DVDFilter=DVD mapa|*.;*.iso|Vse datoteke (*.*)|*.*
+BlurayFilter=Blu-ray mapa|*.;*.iso|Vse datoteke (*.*)|*.*
+NoDVD=(DVD ni naložen)
+DVDTitle=Naslov %d
+GotoTime=Pojdi na čas
+EnterTime=Vnesite čas za skok:
+Hours=Ure
+Minutes=Minute
+Seconds=Sekunde
+Current=Trenutno:
+HistoryTitle=Zgodovina predvajanja
+HistoryItems=%d elementov v zgodovini
+HistoryPlay=&Predvajaj
+HistoryRemove=&Odstrani iz zgodovine
+HistoryClear=&Počisti vso zgodovino
+HistoryOpenFolder=Odpri &mapo
+HistoryCopyPath=&Kopiraj pot
+ClearHistory=Počisti zgodovino
+ClearHistoryConfirm=Ali ste prepričani, da želite počistiti vso zgodovino?
+SleepTimerTitle=Časovnik za spanje
+SleepTimerDescription=Nastavi časovnik za samodejno ustavitev predvajanja
+SleepTimerHours=Ure
+SleepTimerMinutes=Minute
+SleepTimerQuickSet=Hitra nastavitev
+SleepTimerAction=Ko časovnik poteče
+SleepTimerStopPlayback=Ustavi predvajanje
+SleepTimerCloseApp=Zapri aplikacijo
+SleepTimerShutdown=Izklopi računalnik
+SleepTimerStart=Zaženi časovnik
+
+[Status]
+Ready=Pripravljen
+Opening=Odpiranje...
+Playing=Predvajanje
+Paused=Premor
+Stopped=Ustavljeno
+Error=Napaka
+Buffering=Medpomnjenje...
+Seeking=Iskanje...
+Recording=Snemanje
+
+[Message]
+SpeedFormat=Hitrost: %.2fx
+VolumeFormat=Glasnost: %d%%
+BrightnessFormat=Svetlost: %d
+ContrastFormat=Kontrast: %d
+SaturationFormat=Nasičenost: %d
+HueFormat=Odtenek: %d
+GammaFormat=Gama: %d
+ColorsReset=Video barve ponastavljene
+LoopASet=Zanka A nastavljena ob %s
+LoopBSet=Zanka B nastavljena ob %s - Zanka aktivna
+LoopCleared=A-B zanka počiščena
+SetAFirst=Najprej nastavite točko A (pritisnite L)
+RotationFormat=Rotacija: %d°
+FlipHOn=Vodoravno obračanje: VKLOPLJENO
+FlipHOff=Vodoravno obračanje: IZKLOPLJENO
+FlipVOn=Navpično obračanje: VKLOPLJENO
+FlipVOff=Navpično obračanje: IZKLOPLJENO
+DeinterlaceOn=Razpletanje: VKLOPLJENO
+DeinterlaceOff=Razpletanje: IZKLOPLJENO
+AlwaysOnTopOn=Vedno na vrhu: VKLOPLJENO
+AlwaysOnTopOff=Vedno na vrhu: IZKLOPLJENO
+WindowFitted=Okno prilagojeno na %dx%d
+WindowScale=Velikost okna: %.0f%%
+ScreenshotSaved=Posnetek zaslona shranjen: %s
+AudioNormalizeOn=Normalizacija zvoka: VKLOPLJENA
+AudioNormalizeOff=Normalizacija zvoka: IZKLOPLJENA
+AudioDelayFormat=Zakasnitev zvoka: %.1f s
+SubtitleDelayFormat=Zakasnitev podnapisov: %.1f s
+ZoomFormat=Povečava: %.0f%%
+PanCenter=Premik: Sredina
+PanFormat=Premik: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Video ni naložen
+PlayingFromClipboard=Predvajanje iz odložišča: %s
+ClipboardInvalid=Odložišče ne vsebuje veljavnega URL-ja ali poti
+ClipboardEmpty=Odložišče je prazno ali ne vsebuje besedila
+ResumedAt=Nadaljevanje ob %s
+FrameStepForward=Korak sličice naprej
+FrameStepBackward=Korak sličice nazaj
+PreviousChapter=Prejšnje poglavje
+NextChapter=Naslednje poglavje
+PlayingRadio=Predvajanje radia: %s
+PlayingDVD=Predvajanje DVD-ja: %s
+PlayingBluray=Predvajanje Blu-ray-a: %s
+DVDTitlePlaying=DVD naslov %d
+SeekTo=Iskanje na %s
+MinimizedToTray=Minimizirano v vrstico. Dvokliknite za obnovitev.
+SleepTimerSet=Časovnik za spanje nastavljen: %s
+SleepTimerCancelled=Časovnik za spanje preklican
+SleepTimerWarning=Časovnik za spanje: ostaja 1 minuta
+SleepTimerFinal=Časovnik za spanje: ostaja 10 sekund
+SleepTimerStopped=Časovnik za spanje: Predvajanje ustavljeno
+SleepTimerClosing=Časovnik za spanje: Zapiranje aplikacije
+SleepTimerShutdown=Časovnik za spanje: Izklop računalnika
+SleepTimerExpired=Časovnik za spanje je potekel
+ShutdownManual=Prosimo, ročno izklopite računalnik.
+
+; Faza 21: Odpri mapo
+FolderOpened=Mapa odprta: %d datotek
+NoMediaFound=Ni najdenih medijskih datotek
+FilesAdded=Dodanih %d datotek na seznam predvajanja
+
+; Faza 27: Sporočila o snemanju
+RecordNeedPlayback=Začnite predvajanje pred snemanjem.
+RecordingStarted=Snemanje začeto
+RecordingStopped=Snemanje ustavljeno
+
+; Dodatna statusna sporočila
+EndOfPlaylist=Konec seznama predvajanja
+NoMediaLoaded=Nobena medijska datoteka ni trenutno naložena.
+JumpedToNamed=Skok na: %s
+ChapterFormat=Poglavje %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Zaznamek ob %s
+
+[Label]
+Muted=Utišano
+
+[Button]
+Play=Predvajaj
+Pause=Premor
+Stop=Ustavi
+Previous=Prejšnji
+Next=Naslednji
+Mute=Utišaj
+Unmute=Povrni zvok
+Fullscreen=Celozaslonski način
+OK=V redu
+Cancel=Prekliči
+Apply=Uporabi
+Close=Zapri
+Yes=Da
+No=Ne
+
+[Tooltip]
+Play=Predvajaj/Premor
+Stop=Ustavi predvajanje
+Previous=Prejšnja sled
+Next=Naslednja sled
+Mute=Preklopi utišanje
+Volume=Glasnost
+Seek=Položaj iskanja
+Fullscreen=Preklopi celozaslonski način
+
+[Playlist]
+Title=Seznam predvajanja
+Add=Dodaj
+Remove=Odstrani
+Clear=Počisti
+MoveUp=Premakni gor
+MoveDown=Premakni dol
+Shuffle=Premešaj
+Repeat=Ponovi
+Play=Predvajaj
+ShuffleOn=Mešanje: Vklopljeno
+ShuffleOff=Mešanje: Izklopljeno
+RepeatOff=Ponavljanje: Izklopljeno
+RepeatOne=Ponavljanje: Eno
+RepeatAll=Ponavljanje: Vse
+SavePlaylist=Shrani
+LoadPlaylist=Naloži
+TotalDuration=Skupaj: %s
+ItemCount=%d elementov
+
+; Faza 22: Izboljšave seznama predvajanja
+Search=Iskanje:
+FilterPlaceholder=Filtriraj seznam predvajanja...
+ClearSearch=Počisti
+FilterCount=%d/%d
+RemoveDuplicates=Odstrani &podvojene
+Properties=L&astnosti...
+NoDuplicates=Podvojenih ni najdeno.
+DuplicatesFound=Najdenih %d podvojenih. Jih odstranimo?
+RemoveDuplicatesTitle=Odstrani podvojene
+PropertiesTitle=Lastnosti seznama predvajanja
+PropTotalItems=Skupno elementov: %d
+PropTotalDuration=Skupno trajanje: %s
+PropPlayed=Predvajanih: %d
+PropUnplayed=Nepredvajanih: %d
+PropTotalSize=Skupna velikost: %.2f MB
+PropShuffle=Mešanje: %s
+PropRepeat=Ponavljanje: %s
+On=Vklopljeno
+Off=Izklopljeno
+
+; Novi ključi za ApplyLocale
+ClearTitle=Počisti seznam predvajanja
+ClearConfirm=Ali ste prepričani, da želite počistiti seznam predvajanja?
+NoPlaylist=Ni seznama predvajanja
+StatusFormat=%d elementov | Skupaj: %s
+RepeatOne=Pon. 1
+RepeatAll=Pon. vse
+HintRepeatEnable=Kliknite za vklop ponavljanja vseh
+HintRepeatOne=Ponavljanje enega - Kliknite za izklop
+HintRepeatAll=Ponavljanje vseh - Kliknite za ponavljanje enega
+HintShuffleRepeat=Mešanje + Ponavljanje vseh - Kliknite za izklop ponavljanja
+RemoveDuplicatesTitle=Odstrani podvojene
+NoDuplicates=Podvojenih ni najdeno.
+SelectAll=Izberi vse
+SelectNone=Počisti izbor
+SelectInvert=Obrni izbor
+Sort=Razvrsti
+SortByName=Po imenu
+SortByTitle=Po naslovu
+SortByArtist=Po izvajalcu
+SortByDuration=Po trajanju
+SortReverse=Obratno
+SortRandom=Naključno
+ColTitle=Naslov
+ColDuration=Trajanje
+ColArtist=Izvajalec
+ColAlbum=Album
+PlaylistFilter=M3U seznam predvajanja|*.m3u|M3U8 seznam predvajanja|*.m3u8|PLS seznam predvajanja|*.pls
+
+[Equalizer]
+Title=Izenačevalnik
+Presets=Prednastavitve:
+Preamp=Predojačanje:
+Flat=Ravno
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klasika
+BassBoost=Ojačanje basov
+TrebleBoost=Ojačanje visokih tonov
+Vocal=Vokali
+Reset=Ponastavi
+Enable=Omogoči izenačevalnik
+Save=Shrani
+Delete=Izbriši
+Ready=Pripravljen
+; Gumbi in dejanja
+SavePreset=Shrani prednastavitev
+DeletePreset=Izbriši prednastavitev
+SavePresetTitle=Shrani prednastavitev
+PresetNamePrompt=Ime prednastavitve:
+EnterPresetName=Prosimo, vnesite ime prednastavitve.
+OverwritePresetTitle=Prepiši prednastavitev
+OverwritePresetConfirm=Prednastavitev s tem imenom že obstaja. Prepišemo?
+PresetUpdated=Prednastavitev posodobljena: %s
+PresetSaved=Prednastavitev shranjena: %s
+SelectPresetToDelete=Prosimo, izberite prednastavitev za brisanje.
+CannotDeleteDefault=Privzetih prednastavitev ni mogoče izbrisati.
+DeletePresetTitle=Izbriši prednastavitev
+DeletePresetConfirm=Ali ste prepričani, da želite izbrisati to prednastavitev?
+PresetDeleted=Prednastavitev izbrisana
+ResetToFlat=Izenačevalnik ponastavljen na ravno
+PresetApplied=Prednastavitev uporabljena: %s
+
+[Options]
+Title=Možnosti
+General=Splošno
+Video=Video
+Audio=Zvok
+Subtitles=Podnapisi
+Cache=Predpomnilnik
+Language=Jezik:
+RestartRequired=Za uveljavitev sprememb je potreben ponovni zagon
+
+; Zavihek Splošno - Obnašanje
+Behavior=Obnašanje
+SingleInstance=Dovoli samo en primerek
+AutoPlay=Samodejno predvajaj datoteke ob odprtju
+AutoResume=Nadaljuj položaj predvajanja
+MinimizeToTray=Minimiziraj v sistemsko vrstico
+AutoSavePlaylist=Shrani seznam predvajanja ob izhodu
+
+; Zavihek Splošno - OSD
+OSD=Prikaz na zaslonu
+ShowOSD=Prikaži sporočila na zaslonu
+ShowTrayIcon=Prikaži ikono v vrstici
+OSDDuration=Trajanje OSD (ms):
+
+; Zavihek Splošno - Posnetki zaslona
+Screenshots=Posnetki zaslona
+ScreenshotPath=Mapa za shranjevanje:
+ScreenshotFormat=Format:
+
+; Zavihek Splošno - Zgodovina
+HistorySettings=Zgodovina
+HistoryEnabled=Omogoči zgodovino predvajanja
+HistoryMaxItems=Največ elementov:
+
+; Zavihek Splošno - Jezik
+LanguageGroup=Jezik
+RestartNote=(Za uveljavitev sprememb je potreben ponovni zagon)
+
+; Zavihek Video
+VideoAdjust=Video prilagoditve
+Brightness=Svetlost:
+Contrast=Kontrast:
+Saturation=Nasičenost:
+Hue=Odtenek:
+Gamma=Gama:
+VideoOutput=Video izhod
+Output=Izhod:
+HWAccel=Omogoči strojno pospeševanje
+Deinterlacing=Razpletanje
+Mode=Način:
+
+; Zavihek Zvok
+AudioOutput=Zvočni izhod
+OutputDriver=Izhodni gonilnik:
+Device=Naprava:
+AudioOptions=Možnosti zvoka
+NormalizeAudio=Normaliziraj glasnost zvoka
+Channels=Kanali:
+
+; Zavihek Podnapisi
+UseDefaultSubtitles=Uporabi privzete nastavitve podnapisov
+Font=Pisava
+FontName=Pisava:
+FontSize=Velikost:
+FontColor=Barva:
+Bold=Krepko
+Italic=Ležeče
+Outline=Obroba
+OutlineColor=Barva:
+OutlineSize=Velikost:
+Position=Položaj
+VerticalPosition=Navpični položaj:
+SubOptions=Možnosti
+Encoding=Kodiranje:
+AutoLoadSubs=Samodejno naloži datoteke podnapisov
+
+; Opozorila video izhoda
+VOWarningX11=Opozorilo: x11 ne podpira video prilagoditev (svetlost, kontrast, itd.)
+VOWarningWayland=Opozorilo: Zahteva Wayland sejo. Video prilagoditve podprte.
+
+; Zavihek Predpomnilnik
+CacheSettings=Velikosti predpomnilnika (KB)
+CacheDefault=Privzeti predpomnilnik:
+CacheLocal=Lokalne datoteke:
+CacheNetwork=Omrežne datoteke:
+CacheInternet=Internetni pretoki:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=O programu
+Version=Različica
+Engine=Pogon
+Technology=Tehnologija
+BuildInfo=Podatki o gradnji
+SystemInfo=Sistem
+Credits=Zasluge
+Developer=Razvijalec:
+Author=Avtor
+License=Licenca
+Website=Spletna stran
+GitHub=GitHub
+Description=Sodoben, lahek predvajalnik medijev
+LicenseText=3nity Media je licenciran pod GPL-2.0\n\nTo pomeni, da lahko prosto:\n  • Uporabljate programsko opremo za katerikoli namen\n  • Proučujete in spreminjate izvorno kodo\n  • Razširjate kopije programske opreme\n  • Razširjate svoje spremembe\n\nPod pogojem, da so vse razširjene spremembe\nprav tako licencirane pod GPL-2.0.
+BuildDate=Datum:
+Target=Cilj:
+Kernel=Jedro:
+
+[Shortcuts]
+Title=Bližnjice tipkovnice
+Description=Konfiguriraj bližnjice tipkovnice za dejanja
+Search=Iskanje:
+PressKey=Pritisnite tipko...
+ColCategory=Kategorija
+ColAction=Dejanje
+ColShortcut=Bližnjica
+Assign=Dodeli
+Clear=Počisti
+Reset=Ponastavi
+ResetAll=Ponastavi vse
+CurrentShortcut=Trenutno: %s
+NoKeyPressed=Prosimo, najprej pritisnite kombinacijo tipk.
+Conflict=Konflikt: Že dodeljeno dejanju "%s"
+ConfirmReplace=Zamenjaj bližnjico
+ReplaceMessage=Ta bližnjica je že dodeljena dejanju "%s". Želite jo zamenjati?
+ConfirmResetAll=Ponastavi vse bližnjice
+ResetAllMessage=Ali ste prepričani, da želite ponastaviti vse bližnjice na privzete vrednosti?
+; Imena dejanj
+ActPlayPause=Predvajaj / Premor
+ActStop=Ustavi
+ActPrevious=Prejšnji
+ActNext=Naslednji
+ActSeekForward=Preskoči naprej (10s)
+ActSeekBackward=Preskoči nazaj (10s)
+ActSeekForward5=Preskoči naprej (1 min)
+ActSeekBackward5=Preskoči nazaj (1 min)
+ActSpeedUp=Povečaj hitrost
+ActSpeedDown=Zmanjšaj hitrost
+ActSpeedReset=Ponastavi hitrost
+ActSetLoopA=Nastavi točko zanke A
+ActSetLoopB=Nastavi točko zanke B
+ActClearLoop=Počisti A-B zanko
+ActFrameForward=Sličica naprej
+ActFrameBackward=Sličica nazaj
+ActPrevChapter=Prejšnje poglavje
+ActNextChapter=Naslednje poglavje
+ActGotoTime=Pojdi na čas
+ActVolumeUp=Glasnost gor
+ActVolumeDown=Glasnost dol
+ActMute=Utišaj / Povrni zvok
+ActAudioDelayPlus=Zakasnitev zvoka +
+ActAudioDelayMinus=Zakasnitev zvoka -
+ActAudioDelayReset=Ponastavi zakasnitev zvoka
+ActFullscreen=Celozaslonski način
+ActRotate=Rotiraj video
+ActDeinterlace=Razpletanje
+ActZoomIn=Povečaj
+ActZoomOut=Pomanjšaj
+ActZoomReset=Ponastavi povečavo
+ActAlwaysOnTop=Vedno na vrhu
+ActFitToVideo=Prilagodi videu
+ActScreenshot=Posnetek zaslona
+ActVideoAdjust=Video prilagoditve
+ActVisNextMode=Naslednji način vizualizacije
+ActVisNextColor=Naslednja barvna shema
+ActSubDelayPlus=Zakasnitev podnapisov +
+ActSubDelayMinus=Zakasnitev podnapisov -
+ActSubDelayReset=Ponastavi zakasnitev podnapisov
+ActDVDMenu=DVD meni
+ActDVDUp=DVD navigacija gor
+ActDVDDown=DVD navigacija dol
+ActDVDLeft=DVD navigacija levo
+ActDVDRight=DVD navigacija desno
+ActDVDSelect=DVD izberi
+ActOpenFile=Odpri datoteko
+ActOpenURL=Odpri URL
+ActPlaylist=Prikaži seznam predvajanja
+ActQuit=Izhod
+
+[Log]
+; Faza 25: Okno dnevnika
+Title=MPV dnevnik
+Command=Ukaz:
+Clear=Počisti
+Save=Shrani...
+Copy=&Kopiraj
+SelectAll=Izberi &vse
+SaveTitle=Shrani dnevnik
+SaveFilter=Besedilne datoteke (*.txt)|*.txt|Vse datoteke (*.*)|*.*
+ErrorTitle=Napaka
+SaveError=Shranjevanje dnevnika ni uspelo: %s
+
+[MediaInfo]
+Title=Podatki o mediju
+FileTab=Datoteka
+VideoTab=Video
+AudioTab=Zvok
+MetadataTab=Metapodatki
+FileName=Ime datoteke:
+FilePath=Pot:
+FileSize=Velikost:
+Duration=Trajanje:
+Format=Format:
+Bitrate=Bitna hitrost:
+Codec=Kodek:
+Resolution=Ločljivost:
+FrameRate=Hitrost sličic:
+PixelFormat=Format pikslov:
+AspectRatio=Razmerje stranic:
+Channels=Kanali:
+SampleRate=Frekvenca vzorčenja:
+Language=Jezik:
+Property=Lastnost
+Value=Vrednost
+CopyAll=Kopiraj vse
+CopiedToClipboard=Podatki o mediju kopirani v odložišče.
+NA=Ni na voljo
+NAStream=Ni na voljo (pretok)
+NALive=Ni na voljo (v živo)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 prostorski)
+Channel71=8 (7.1 prostorski)
+Unknown=Neznano
+NoMetadata=(Ni metapodatkov)
+
+[Bookmarks]
+Title=Zaznamki
+Goto=Pojdi na
+Remove=Odstrani
+Clear=Počisti vse
+Refresh=Osveži
+OpenFolder=Odpri mapo
+CopyPath=Kopiraj pot
+; Stolpci
+ColName=Ime
+ColFile=Datoteka
+ColPosition=Položaj
+ColCreated=Ustvarjeno
+; Pogovorna okna
+ClearTitle=Počisti zaznamke
+ClearConfirm=Ali ste prepričani, da želite počistiti vse zaznamke?
+Count=%d zaznamkov
+
+[Favorites]
+Title=Priljubljeni
+Play=Predvajaj
+Remove=Odstrani
+Clear=Počisti vse
+Refresh=Osveži
+OpenFolder=Odpri mapo
+CopyPath=Kopiraj pot
+; Stolpci
+ColName=Ime
+ColType=Vrsta
+ColPath=Pot
+; Vrste
+TypeFile=Datoteka
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Neznano
+; Pogovorna okna
+ClearTitle=Počisti priljubljene
+ClearConfirm=Ali ste prepričani, da želite počistiti vse priljubljene?
+Count=%d priljubljenih
+
+[History]
+Title=Zgodovina predvajanja
+Play=Predvajaj
+Remove=Odstrani
+Clear=Počisti vse
+Refresh=Osveži
+OpenFolder=Odpri mapo
+CopyPath=Kopiraj pot
+; Stolpci
+ColFileName=Datoteka
+ColPath=Pot
+; Pogovorna okna
+ClearTitle=Počisti zgodovino
+ClearConfirm=Ali ste prepričani, da želite počistiti vso zgodovino?
+Count=%d elementov
+
+[SleepTimer]
+Title=Časovnik za spanje
+Description=Nastavi časovnik za samodejno ustavitev predvajanja
+Hours=Ure:
+Minutes=Minute:
+Action=Ko časovnik poteče:
+StopPlayback=Ustavi predvajanje
+CloseApp=Zapri aplikacijo
+Shutdown=Izklopi računalnik
+QuickSet=Hitra nastavitev:
+15Min=15 min
+30Min=30 min
+1Hour=1 ura
+2Hours=2 uri
+
+[Radios]
+Title=Internetni radii
+Play=Predvajaj
+Add=Dodaj
+Edit=Uredi
+Delete=Izbriši
+Remove=Odstrani
+Import=Uvozi
+Export=Izvozi
+Refresh=Osveži
+Favorite=Priljubljeno
+ShowFavorites=Priljubljeni
+ShowAll=Vsi
+; Filter
+Genre=Zvrst:
+Search=Iskanje:
+SearchBtn=Išči
+ClearSearch=Počisti
+AllGenres=(Vse zvrsti)
+; Kontekstni meni
+AddFavorite=Dodaj med priljubljene
+RemoveFavorite=Odstrani iz priljubljenih
+AddCustom=Dodaj postajo po meri...
+EditCustom=Uredi postajo...
+DeleteCustom=Izbriši postajo
+OpenWebsite=Odpri spletno stran
+CopyURL=Kopiraj URL
+; Stolpci
+ColName=Ime
+ColGenre=Zvrst
+ColBitrate=Bitna hitrost
+ColCountry=Država
+ColCodec=Kodek
+; Pogovorna okna
+AddTitle=Dodaj postajo po meri
+EditTitle=Uredi postajo
+DeleteTitle=Izbriši postajo
+DeleteConfirm=Ali ste prepričani, da želite izbrisati to postajo?
+StationName=Ime postaje:
+StreamURL=URL pretoka:
+GenrePrompt=Zvrst:
+NameURLRequired=Ime in URL sta obvezna.
+; Statusna sporočila
+LoadingIcecast=Nalaganje postaj iz imenika Icecast...
+IcecastError=Ni bilo mogoče naložiti imenika Icecast. Uporaba privzetih postaj.
+NoStationsLoaded=Nobena postaja ni naložena
+StationCount=%d postaj
+LoadedStations=Naloženih %d postaj
+ErrorPrefix=Napaka:
+; Podedovani ključi
+Name=Ime
+URL=URL
+Bitrate=Bitna hitrost
+Description=Opis
+Country=Država
+
+[OpenURL]
+Title=Odpri URL
+Prompt=Vnesite URL medija:
+
+[GotoTime]
+Title=Pojdi na čas
+EnterTime=Vnesite čas za skok:
+Hours=U
+Minutes=M
+Seconds=S
+Current=Trenutno:
+Duration=Trajanje:
+
+[VideoAdjust]
+Title=Video prilagoditve
+Brightness=Svetlost:
+Contrast=Kontrast:
+Saturation=Nasičenost:
+Hue=Odtenek:
+Gamma=Gama:
+ResetAll=Ponastavi vse barve
+
+[CLI]
+; Sporočila ukazne vrstice
+Usage=Uporaba
+Arguments=[MOŽNOSTI] [DATOTEKA|URL|MAPA]
+Description=Večplatformski večpredstavnostni predvajalnik, ki uporablja libmpv kot motor.
+Options=MOŽNOSTI
+Examples=PRIMERI
+MoreInfo=Za več informacij obiščite
+EnqueuedTo=Dodano v vrsto obstoječe instance: %s
+SentTo=Poslano obstoječi instanci: %s
+AlreadyRunning=3nity Media že deluje.
+ErrorFileNotFound=Napaka: Datoteka ali imenik ni najden: %s
+ErrorSubNotFound=Napaka: Datoteka podnapisov ni najdena: %s

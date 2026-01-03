@@ -1,0 +1,892 @@
+[Language]
+Name=Samoan - Gagana Samoa
+Code=sm
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Faila
+FileOpen=&Tatala Faila...
+FileOpenURL=Tatala &URL...
+FileOpenClipboard=Tatala mai le &Clipboard
+FileRecent=Faila &Talu ai nei
+ClearRecentFiles=Tapeese Faila Talu ai nei
+FileExit=&Alu ese
+
+; Playback menu
+Playback=&Ta'alo
+PlaybackPlayPause=&Ta'alo/Taofi
+PlaybackStop=&Taofi
+PlaybackPrevious=&Muamua
+PlaybackNext=&Sosoo
+PlaybackSeekForward=Su'e i &Luma
+PlaybackSeekBackward=Su'e i &Tua
+PlaybackSpeed=&Saoasaoa
+PlaybackABLoop=Loop A-&B
+PlaybackSetA=Fa'atulaga &A
+PlaybackSetB=Fa'atulaga &B
+PlaybackClearAB=&Tapeese A-B
+PlaybackChapters=&Mataupu
+PlaybackPrevChapter=Mataupu Muamua
+PlaybackNextChapter=Mataupu Sosoo
+PlaybackFrameStep=Laasaga Ata i &Luma
+PlaybackFrameBack=Laasaga Ata i &Tua
+
+; DVD Navigation
+PlaybackDVD=Fa'afoeina &DVD
+DVDMenu=&Menu
+DVDUp=&Luga
+DVDDown=&Lalo
+DVDLeft=Aga&vau
+DVDRight=Aga&taumatau
+DVDSelect=&Filifili
+PlaybackDVDTitles=&Ulutala DVD
+
+; Phase 21: Open Folder
+FileOpenFolder=Tatala &Faila...
+
+; File menu DVD/Bluray
+FileOpenDVD=Tatala &DVD...
+FileOpenBluray=Tatala &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Alu i le Taimi...
+ToolsHistory=&Talafaasolopito
+
+; Phase 14: System Tray
+TrayShow=&Fa'aali/Lalafi
+TrayPlayPause=&Ta'alo/Taofi
+TrayStop=&Taofi
+TrayPrevious=&Muamua
+TrayNext=&Sosoo
+TrayMute=&Filemu
+TrayExit=&Alu ese
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Fa'aopoopo &Fa'ailoga...
+PlaybackBookmarks=Fa'a&iloga
+BookmarksTitle=Fa'ailoga
+BookmarksGoto=&Alu i le Fa'ailoga
+BookmarksRemove=&Aveese le Fa'ailoga
+BookmarksClear=&Tapeese Fa'ailoga Uma
+BookmarksOpenFolder=Tatala &Faila
+BookmarksCopyPath=&Kopi le Ala
+BookmarksCount=fa'ailoga %d
+NoBookmarks=(Leai ni Fa'ailoga)
+NoFileLoaded=(Leai se Faila ua Utaina)
+BookmarkAdded=Ua fa'aopoopo le fa'ailoga i le %s
+BookmarkJumped=Ua oso i le fa'ailoga i le %s
+AddBookmarkTitle=Fa'aopoopo Fa'ailoga
+AddBookmarkPrompt=Tu'u i le igoa o le fa'ailoga:
+ShowAllBookmarks=Fa'aali Fa'ailoga Uma...
+
+; Phase 16: Favorites
+ToolsFavorites=&Mea Sili
+ToolsAddFavorite=Fa'aopoopo i &Mea Sili
+FavoritesTitle=Mea Sili
+FavoritesPlay=&Ta'alo
+FavoritesRemove=&Aveese mai Mea Sili
+FavoritesClear=&Tapeese Mea Sili Uma
+FavoritesOpenFolder=Tatala &Faila
+FavoritesCopyPath=&Kopi le Ala
+FavoritesCount=mea sili %d
+NoFavorites=(Leai ni Mea Sili)
+AddFavoriteTitle=Fa'aopoopo i Mea Sili
+AddFavoritePrompt=Tu'u i le igoa mo le mea sili:
+AlreadyFavorite=Ua i ai i mea sili
+AddedToFavorites=Ua fa'aopoopo i mea sili: %s
+NoFileToFavorite=Leai se faila ua utaina e fa'aopoopo i mea sili
+FavoriteTypeFile=Faila
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Leitio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Pese %d: %s
+TrackWithLang=Pese %d (%s)
+TrackNumber=Pese %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Tape
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=Uati o le &Moe...
+ToolsSleepTimerActive=Uati o le &Moe [%s]
+ToolsCancelTimer=Fa'aleaogaina le &Uati
+
+; Audio menu
+Audio=&Leo
+AudioTrack=Pese &Leo
+AudioVolumeUp=Fa'ateleina le &Leo
+AudioVolumeDown=Fa'aitiitia le &Leo
+AudioMute=&Filemu
+AudioEqualizer=&Equalizer
+AudioDelay=&Tuai o le Leo
+AudioDelayPlus=Tuai +0.1s
+AudioDelayMinus=Tuai -0.1s
+AudioDelayReset=Toe Fa'atulaga le Tuai
+AudioNormalize=&Fa'apaleni le Leo
+
+; Video menu
+Video=&Vitio
+VideoFullscreen=Fa'atumu le &Lau
+VideoAspect=&Fua o le Lautele
+VideoAspectAuto=&Otometi
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Ata o le Lau
+VideoScreenshotAs=Ata o le Lau &E...
+VideoRotation=&Fa'ata'amilomilo
+VideoRotate0=&0° (Masani)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Liliu
+VideoFlipH=Liliu &Fa'alava
+VideoFlipV=Liliu &Fa'atuloto
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom i &Totonu
+VideoZoomOut=Zoom i &Fafo
+VideoZoomReset=&Toe Fa'atulaga Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan Aga&vau
+VideoPanRight=Pan Aga&taumatau
+VideoPanUp=Pan &Luga
+VideoPanDown=Pan &Lalo
+VideoPanReset=Toe &Fa'atulaga Pan
+VideoTrack=Pese &Vitio
+VideoColors=Sui &Lanu
+VideoBrightness=&Susulu
+VideoContrast=&Eseesega
+VideoSaturation=&Malosi o Lanu
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Toe Fa'atulaga &Lanu Uma
+VideoIncrease=Fa'ateleina (+5)
+VideoDecrease=Fa'aitiitia (-5)
+VideoReset=Toe Fa'atulaga
+VideoAdjustDialog=Suiga o le &Vitio...
+
+; View menu
+View=&Va'ai
+ViewAlwaysOnTop=I &Luga Pea
+ViewFitToVideo=Fa'a&fetaui le Fa'amalama i le Vitio
+ViewScale=&Fua o le Fa'amalama
+
+; Phase 26: Visualization menu
+ViewVisualization=&Fa'aaliga
+VisNone=&Leai
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=V&U Meter
+VisNextMode=Auala &Sosoo
+VisNextColor=Lanu &Sosoo
+
+; Subtitles menu
+Subtitles=&Fa'aliliuga
+SubtitleTrack=Pese o le &Fa'aliliuga
+SubtitleLoad=&Utaina le Fa'aliliuga...
+SubtitleDelay=&Tuai o le Fa'aliliuga
+SubtitleDelayPlus=Tuai +0.1s
+SubtitleDelayMinus=Tuai -0.1s
+SubtitleDelayReset=Toe Fa'atulaga le Tuai
+
+; Tools menu
+Tools=&Meafaigaluega
+ToolsPlaylist=&Lisi o Pese
+ToolsRadios=&Leitio
+ToolsShortcuts=Auala &Puupuu...
+ToolsOptions=&Filifiliga
+
+; Phase 27: Recording menu
+ToolsRecord=&Pue...
+ToolsStopRecord=&Taofi le Pue
+ToolsRecording=O &Pue...
+
+; Help menu
+Help=&Fesoasoani
+HelpMediaInfo=Fa'amatalaga o le &Media
+HelpLog=Fa'amalama o le &Log
+HelpAbout=E &Uiga
+
+[Dialog]
+OpenFile=Tatala Faila
+OpenURL=Tatala URL
+SaveScreenshot=Sefe le Ata o le Lau
+LoadSubtitle=Utaina le Faila Fa'aliliuga
+EnterURL=Tu'u i le URL:
+ResumePlayback=Fa'aauau le Ta'alo
+ResumeFrom=Fa'aauau mai le %s?
+ClearRecentFiles=Tapeese Faila Talu ai nei
+NoRecentFiles=(Leai ni faila talu ai nei)
+NoAudioTracks=(Leai ni pese leo)
+NoVideoTracks=(Leai ni pese vitio)
+NoSubtitleTracks=(Leai ni pese fa'aliliuga)
+NoChapters=(Leai ni mataupu)
+OpenDVD=Tatala DVD
+OpenBluray=Tatala Blu-ray
+OpenFolder=Tatala Faila
+
+; File filters
+ScreenshotFilter=Ata PNG|*.png|Ata JPEG|*.jpg|Ata WebP|*.webp
+DVDFilter=Faila DVD|*.;*.iso|Faila uma (*.*)|*.*
+BlurayFilter=Faila Blu-ray|*.;*.iso|Faila uma (*.*)|*.*
+NoDVD=(Leai se DVD ua utaina)
+DVDTitle=Ulutala %d
+GotoTime=Alu i le Taimi
+EnterTime=Tu'u i le taimi e te mana'o e alu i ai:
+Hours=Itula
+Minutes=Minute
+Seconds=Sekone
+Current=I le Taimi Nei:
+HistoryTitle=Talafaasolopito o le Ta'alo
+HistoryItems=mea %d i le talafaasolopito
+HistoryPlay=&Ta'alo
+HistoryRemove=&Aveese mai le Talafaasolopito
+HistoryClear=&Tapeese le Talafaasolopito Uma
+HistoryOpenFolder=Tatala &Faila
+HistoryCopyPath=&Kopi le Ala
+ClearHistory=Tapeese le Talafaasolopito
+ClearHistoryConfirm=E te mautinoa e te mana'o e tapeese le talafaasolopito uma?
+SleepTimerTitle=Uati o le Moe
+SleepTimerDescription=Fa'atulaga le uati e taofi otometi ai le ta'alo
+SleepTimerHours=Itula
+SleepTimerMinutes=Minute
+SleepTimerQuickSet=Fa'atulaga Vave
+SleepTimerAction=Pe a uma le uati
+SleepTimerStopPlayback=Taofi le ta'alo
+SleepTimerCloseApp=Tapuni le polokalama
+SleepTimerShutdown=Tape le komipiuta
+SleepTimerStart=Amata le Uati
+
+[Status]
+Ready=Ua Sauni
+Opening=O Tatala...
+Playing=O Ta'alo
+Paused=Ua Taofi
+Stopped=Ua Taofi
+Error=Sese
+Buffering=O Fa'apipi'i...
+Seeking=O Su'e...
+Recording=O Pue
+
+[Message]
+SpeedFormat=Saoasaoa: %.2fx
+VolumeFormat=Leo: %d%%
+BrightnessFormat=Susulu: %d
+ContrastFormat=Eseesega: %d
+SaturationFormat=Malosi o Lanu: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Ua toe fa'atulaga lanu o le vitio
+LoopASet=Loop A ua fa'atulaga i le %s
+LoopBSet=Loop B ua fa'atulaga i le %s - Loop o galue
+LoopCleared=Ua tapeese le Loop A-B
+SetAFirst=Fa'atulaga le A muamua (oomi L)
+RotationFormat=Fa'ata'amilomilo: %d°
+FlipHOn=Liliu fa'alava: UA TATALA
+FlipHOff=Liliu fa'alava: UA TAPUNI
+FlipVOn=Liliu fa'atuloto: UA TATALA
+FlipVOff=Liliu fa'atuloto: UA TAPUNI
+DeinterlaceOn=Deinterlace: UA TATALA
+DeinterlaceOff=Deinterlace: UA TAPUNI
+AlwaysOnTopOn=I luga pea: UA TATALA
+AlwaysOnTopOff=I luga pea: UA TAPUNI
+WindowFitted=Fa'amalama ua fa'afetaui i le %dx%d
+WindowScale=Fua o le fa'amalama: %.0f%%
+ScreenshotSaved=Ata o le lau ua sefe: %s
+AudioNormalizeOn=Fa'apaleni le leo: UA TATALA
+AudioNormalizeOff=Fa'apaleni le leo: UA TAPUNI
+AudioDelayFormat=Tuai o le leo: %.1f s
+SubtitleDelayFormat=Tuai o le fa'aliliuga: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Ogatotonu
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Leai se vitio ua utaina
+PlayingFromClipboard=O ta'alo mai le clipboard: %s
+ClipboardInvalid=E leai se URL pe ala talafeagai i le clipboard
+ClipboardEmpty=E gaogao le clipboard pe leai ni upu
+ResumedAt=Ua fa'aauau i le %s
+FrameStepForward=Laasaga ata i luma
+FrameStepBackward=Laasaga ata i tua
+PreviousChapter=Mataupu muamua
+NextChapter=Mataupu sosoo
+PlayingRadio=O ta'alo le leitio: %s
+PlayingDVD=O ta'alo le DVD: %s
+PlayingBluray=O ta'alo le Blu-ray: %s
+DVDTitlePlaying=Ulutala DVD %d
+SeekTo=O alu i le %s
+MinimizedToTray=Ua fa'aitiitia i le tray. Kiliki faalua e toe fa'afo'i.
+SleepTimerSet=Uati o le moe ua fa'atulaga: %s
+SleepTimerCancelled=Uati o le moe ua fa'aleaogaina
+SleepTimerWarning=Uati o le moe: 1 minute o totoe
+SleepTimerFinal=Uati o le moe: 10 sekone o totoe
+SleepTimerStopped=Uati o le moe: Ua taofi le ta'alo
+SleepTimerClosing=Uati o le moe: O tapuni le polokalama
+SleepTimerShutdown=Uati o le moe: O tape le komipiuta
+SleepTimerExpired=Ua Uma le Uati o le Moe
+ShutdownManual=Fa'amolemole tape au lava lou komipiuta.
+
+; Phase 21: Open Folder
+FolderOpened=Faila ua tatala: faila %d
+NoMediaFound=Leai ni faila media ua maua
+FilesAdded=Faila %d ua fa'aopoopo i le lisi
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Amata le ta'alo ae le'i pue.
+RecordingStarted=Ua amata le pue
+RecordingStopped=Ua taofi le pue
+
+; Additional status messages
+EndOfPlaylist=Fa'ai'uga o le lisi
+NoMediaLoaded=Leai se faila media ua utaina.
+JumpedToNamed=Ua oso i le: %s
+ChapterFormat=Mataupu %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Fa'ailoga i le %s
+
+[Label]
+Muted=Filemu
+
+[Button]
+Play=Ta'alo
+Pause=Taofi
+Stop=Taofi
+Previous=Muamua
+Next=Sosoo
+Mute=Filemu
+Unmute=Tatala le Leo
+Fullscreen=Fa'atumu le Lau
+OK=Lelei
+Cancel=Fa'aleaogaina
+Apply=Fa'aaoga
+Close=Tapuni
+Yes=Ioe
+No=Leai
+
+[Tooltip]
+Play=Ta'alo/Taofi
+Stop=Taofi le ta'alo
+Previous=Pese muamua
+Next=Pese sosoo
+Mute=Sui le filemu
+Volume=Leo
+Seek=Nofoaga su'e
+Fullscreen=Sui le fa'atumu lau
+
+[Playlist]
+Title=Lisi o Pese
+Add=Fa'aopoopo
+Remove=Aveese
+Clear=Tapeese
+MoveUp=Ave i Luga
+MoveDown=Ave i Lalo
+Shuffle=Fa'afesuia'i
+Repeat=Toe fai
+Play=Ta'alo
+ShuffleOn=Fa'afesuia'i: Ua Tatala
+ShuffleOff=Fa'afesuia'i: Ua Tapuni
+RepeatOff=Toe fai: Ua Tapuni
+RepeatOne=Toe fai: Tasi
+RepeatAll=Toe fai: Uma
+SavePlaylist=Sefe
+LoadPlaylist=Utaina
+TotalDuration=Aofa'i: %s
+ItemCount=mea %d
+
+; Phase 22: Playlist Enhancements
+Search=Su'e:
+FilterPlaceholder=Fa'amama le lisi...
+ClearSearch=Tapeese
+FilterCount=%d/%d
+RemoveDuplicates=Aveese &Fa'ailoga Lua
+Properties=&Fa'amatalaga...
+NoDuplicates=Leai ni fa'ailoga lua ua maua.
+DuplicatesFound=Fa'ailoga lua %d ua maua. Aveese?
+RemoveDuplicatesTitle=Aveese Fa'ailoga Lua
+PropertiesTitle=Fa'amatalaga o le Lisi
+PropTotalItems=Mea uma: %d
+PropTotalDuration=Taimi uma: %s
+PropPlayed=Ua ta'alo: %d
+PropUnplayed=Le'i ta'alo: %d
+PropTotalSize=Tele uma: %.2f MB
+PropShuffle=Fa'afesuia'i: %s
+PropRepeat=Toe fai: %s
+On=Ua Tatala
+Off=Ua Tapuni
+
+; New keys for ApplyLocale
+ClearTitle=Tapeese le Lisi
+ClearConfirm=E te mautinoa e te mana'o e tapeese le lisi?
+NoPlaylist=Leai se lisi
+StatusFormat=mea %d | Aofa'i: %s
+RepeatOne=Toe 1
+RepeatAll=Toe Uma
+HintRepeatEnable=Kiliki e amata le Toe fai Uma
+HintRepeatOne=Toe fai Tasi - Kiliki e taofi
+HintRepeatAll=Toe fai Uma - Kiliki i le Toe fai Tasi
+HintShuffleRepeat=Fa'afesuia'i + Toe fai Uma - Kiliki e taofi toe fai
+RemoveDuplicatesTitle=Aveese Fa'ailoga Lua
+NoDuplicates=Leai ni fa'ailoga lua ua maua.
+SelectAll=Filifili Uma
+SelectNone=Filifili Leai
+SelectInvert=Sui le Filifili
+Sort=Fa'avasega
+SortByName=I le Igoa
+SortByTitle=I le Ulutala
+SortByArtist=I le Tusipese
+SortByDuration=I le Taimi
+SortReverse=Sui
+SortRandom=Fa'afesuia'i
+ColTitle=Ulutala
+ColDuration=Taimi
+ColArtist=Tusipese
+ColAlbum=Albuma
+PlaylistFilter=M3U Lisi|*.m3u|M3U8 Lisi|*.m3u8|PLS Lisi|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Fa'atulaga:
+Preamp=Preamp:
+Flat=Fa'alaugatasi
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Tuai
+BassBoost=Fa'ateleina Bass
+TrebleBoost=Fa'ateleina Treble
+Vocal=Leo
+Reset=Toe Fa'atulaga
+Enable=Fa'aaoga le Equalizer
+Save=Sefe
+Delete=Tapeese
+Ready=Ua Sauni
+; Buttons and actions
+SavePreset=Sefe le Fa'atulaga
+DeletePreset=Tapeese le Fa'atulaga
+SavePresetTitle=Sefe le Fa'atulaga
+PresetNamePrompt=Igoa o le fa'atulaga:
+EnterPresetName=Fa'amolemole tu'u i le igoa o le fa'atulaga.
+OverwritePresetTitle=Tusi Fa'asolo le Fa'atulaga
+OverwritePresetConfirm=O le fa'atulaga ua iai le igoa lea. Tusi fa'asolo?
+PresetUpdated=Fa'atulaga ua fa'afouga: %s
+PresetSaved=Fa'atulaga ua sefe: %s
+SelectPresetToDelete=Fa'amolemole filifili le fa'atulaga e te mana'o e tapeese.
+CannotDeleteDefault=E le mafai ona tapeese fa'atulaga masani.
+DeletePresetTitle=Tapeese le Fa'atulaga
+DeletePresetConfirm=E te mautinoa e te mana'o e tapeese lenei fa'atulaga?
+PresetDeleted=Fa'atulaga ua tapeese
+ResetToFlat=Equalizer ua toe fa'atulaga fa'alaugatasi
+PresetApplied=Fa'atulaga ua fa'aaoga: %s
+
+[Options]
+Title=Filifiliga
+General=Lautele
+Video=Vitio
+Audio=Leo
+Subtitles=Fa'aliliuga
+Cache=Pu'ega
+Language=Gagana:
+RestartRequired=E mana'omia le toe amata e maua ai suiga
+
+; General tab - Behavior
+Behavior=Amio
+SingleInstance=Fa'atagaina le tasi
+AutoPlay=Ta'alo otometi pe a tatala
+AutoResume=Fa'aauau le nofoaga ta'alo
+MinimizeToTray=Fa'aitiitia i le tray
+AutoSavePlaylist=Sefe le lisi pe a te alu ese
+
+; General tab - OSD
+OSD=Fa'aaliga i le Lau
+ShowOSD=Fa'aali feau i le lau
+ShowTrayIcon=Fa'aali le ata tray
+OSDDuration=Taimi o le OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Ata o le Lau
+ScreenshotPath=Faila sefe:
+ScreenshotFormat=Faiga:
+
+; General tab - History
+HistorySettings=Talafaasolopito
+HistoryEnabled=Fa'aaoga le talafaasolopito ta'alo
+HistoryMaxItems=Aofa'i tele:
+
+; General tab - Language
+LanguageGroup=Gagana
+RestartNote=(E mana'omia le toe amata mo suiga)
+
+; Video tab
+VideoAdjust=Suiga o le Vitio
+Brightness=Susulu:
+Contrast=Eseesega:
+Saturation=Malosi o Lanu:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Vitio Alu ese
+Output=Alu ese:
+HWAccel=Fa'aaoga le fa'avave masini
+Deinterlacing=Deinterlacing
+Mode=Auala:
+
+; Audio tab
+AudioOutput=Leo Alu ese
+OutputDriver=Ta'avale alu ese:
+Device=Masini:
+AudioOptions=Filifiliga o le Leo
+NormalizeAudio=Fa'apaleni le leo
+Channels=Ala:
+
+; Subtitles tab
+UseDefaultSubtitles=Fa'aaoga fa'atulaga masani fa'aliliuga
+Font=Fa'ailoga Tusi
+FontName=Fa'ailoga Tusi:
+FontSize=Tele:
+FontColor=Lanu:
+Bold=Mau'oa
+Italic=Fa'ataugata
+Outline=Laina
+OutlineColor=Lanu:
+OutlineSize=Tele:
+Position=Nofoaga
+VerticalPosition=Nofoaga fa'atuloto:
+SubOptions=Filifiliga
+Encoding=Encoding:
+AutoLoadSubs=Utaina otometi faila fa'aliliuga
+
+; Video output warnings
+VOWarningX11=Lapata'iga: e le lagolagoina e le x11 suiga vitio (susulu, eseesega, ma isi.)
+VOWarningWayland=Lapata'iga: E mana'omia le Wayland session. Ua lagolagoina suiga vitio.
+
+; Cache tab
+CacheSettings=Tele o le Pu'ega (KB)
+CacheDefault=Pu'ega masani:
+CacheLocal=Faila fale:
+CacheNetwork=Faila fesoota'iga:
+CacheInternet=Tafe Initaneti:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=E Uiga
+Version=Fa'ailoga
+Engine=Afi
+Technology=Tekinolosi
+BuildInfo=Fa'amatalaga o le Fausia
+SystemInfo=Faiga
+Credits=Fa'afetai
+Developer=Fausia:
+Author=Tusitala
+License=Laisene
+Website=Upega Tafa'ilagi
+GitHub=GitHub
+Description=Tagata ta'alo media mama, lelei
+LicenseText=3nity Media ua iai le laisene o le GPL-2.0\n\nO lona uiga o e saoloto e:\n  - Fa'aaoga le polokalama mo so'o se fa'amoemoega\n  - A'oa'o ma sui le code muamua\n  - Fa'asoa kopi o le polokalama\n  - Fa'asoa ou suiga\n\nI lalo o le tulafono o suiga uma fa'asoa\ne iai fo'i le laisene GPL-2.0.
+BuildDate=Aso:
+Target=Sini:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Auala Puupuu
+Description=Fa'atulaga auala puupuu mo galuega
+Search=Su'e:
+PressKey=Oomi le ki...
+ColCategory=Vaega
+ColAction=Galuega
+ColShortcut=Auala Puupuu
+Assign=Fa'atulaga
+Clear=Tapeese
+Reset=Toe Fa'atulaga
+ResetAll=Toe Fa'atulaga Uma
+CurrentShortcut=I le Taimi Nei: %s
+NoKeyPressed=Fa'amolemole oomi le ki muamua.
+Conflict=Fete'ena'i: Ua fa'atulaga i le "%s"
+ConfirmReplace=Sui le Auala Puupuu
+ReplaceMessage=O le auala puupuu lea ua fa'atulaga i le "%s". E te mana'o e sui?
+ConfirmResetAll=Toe Fa'atulaga Auala Puupuu Uma
+ResetAllMessage=E te mautinoa e te mana'o e toe fa'atulaga auala puupuu uma masani?
+; Action names
+ActPlayPause=Ta'alo / Taofi
+ActStop=Taofi
+ActPrevious=Muamua
+ActNext=Sosoo
+ActSeekForward=Su'e i Luma (10s)
+ActSeekBackward=Su'e i Tua (10s)
+ActSeekForward5=Su'e i Luma (1 min)
+ActSeekBackward5=Su'e i Tua (1 min)
+ActSpeedUp=Fa'ateleina le Saoasaoa
+ActSpeedDown=Fa'aitiitia le Saoasaoa
+ActSpeedReset=Toe Fa'atulaga le Saoasaoa
+ActSetLoopA=Fa'atulaga Loop A
+ActSetLoopB=Fa'atulaga Loop B
+ActClearLoop=Tapeese Loop A-B
+ActFrameForward=Ata i Luma
+ActFrameBackward=Ata i Tua
+ActPrevChapter=Mataupu Muamua
+ActNextChapter=Mataupu Sosoo
+ActGotoTime=Alu i le Taimi
+ActVolumeUp=Fa'ateleina le Leo
+ActVolumeDown=Fa'aitiitia le Leo
+ActMute=Filemu / Tatala
+ActAudioDelayPlus=Tuai o le Leo +
+ActAudioDelayMinus=Tuai o le Leo -
+ActAudioDelayReset=Toe Fa'atulaga Tuai o le Leo
+ActFullscreen=Fa'atumu le Lau
+ActRotate=Fa'ata'amilomilo le Vitio
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom i Totonu
+ActZoomOut=Zoom i Fafo
+ActZoomReset=Toe Fa'atulaga Zoom
+ActAlwaysOnTop=I Luga Pea
+ActFitToVideo=Fa'afetaui i le Vitio
+ActScreenshot=Ata o le Lau
+ActVideoAdjust=Suiga o le Vitio
+ActVisNextMode=Auala Fa'aaliga Sosoo
+ActVisNextColor=Lanu Sosoo
+ActSubDelayPlus=Tuai o le Fa'aliliuga +
+ActSubDelayMinus=Tuai o le Fa'aliliuga -
+ActSubDelayReset=Toe Fa'atulaga Tuai o le Fa'aliliuga
+ActDVDMenu=Menu DVD
+ActDVDUp=DVD Luga
+ActDVDDown=DVD Lalo
+ActDVDLeft=DVD Agavau
+ActDVDRight=DVD Agataumatau
+ActDVDSelect=DVD Filifili
+ActOpenFile=Tatala Faila
+ActOpenURL=Tatala URL
+ActPlaylist=Fa'aali le Lisi
+ActQuit=Alu ese
+
+[Log]
+; Phase 25: Log Window
+Title=Log o le MPV
+Command=Fa'atonuga:
+Clear=Tapeese
+Save=Sefe...
+Copy=&Kopi
+SelectAll=Filifili &Uma
+SaveTitle=Sefe le Log
+SaveFilter=Faila upu (*.txt)|*.txt|Faila uma (*.*)|*.*
+ErrorTitle=Sese
+SaveError=Sese i le sefe o le log: %s
+
+[MediaInfo]
+Title=Fa'amatalaga o le Media
+FileTab=Faila
+VideoTab=Vitio
+AudioTab=Leo
+MetadataTab=Metadata
+FileName=Igoa o le Faila:
+FilePath=Ala:
+FileSize=Tele:
+Duration=Taimi:
+Format=Faiga:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Faiga Pixel:
+AspectRatio=Fua o le Lautele:
+Channels=Ala:
+SampleRate=Sample Rate:
+Language=Gagana:
+Property=Uiga
+Value=Tau
+CopyAll=Kopi Uma
+CopiedToClipboard=Fa'amatalaga media ua kopi i le clipboard.
+NA=N/A
+NAStream=N/A (tafe)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=E Le Iloa
+NoMetadata=(Leai ni metadata)
+
+[Bookmarks]
+Title=Fa'ailoga
+Goto=Alu i
+Remove=Aveese
+Clear=Tapeese Uma
+Refresh=Fa'afouga
+OpenFolder=Tatala Faila
+CopyPath=Kopi le Ala
+; Columns
+ColName=Igoa
+ColFile=Faila
+ColPosition=Nofoaga
+ColCreated=Faia
+; Dialogs
+ClearTitle=Tapeese Fa'ailoga
+ClearConfirm=E te mautinoa e te mana'o e tapeese fa'ailoga uma?
+Count=fa'ailoga %d
+
+[Favorites]
+Title=Mea Sili
+Play=Ta'alo
+Remove=Aveese
+Clear=Tapeese Uma
+Refresh=Fa'afouga
+OpenFolder=Tatala Faila
+CopyPath=Kopi le Ala
+; Columns
+ColName=Igoa
+ColType=Ituaiga
+ColPath=Ala
+; Types
+TypeFile=Faila
+TypeURL=URL
+TypeRadio=Leitio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=E Le Iloa
+; Dialogs
+ClearTitle=Tapeese Mea Sili
+ClearConfirm=E te mautinoa e te mana'o e tapeese mea sili uma?
+Count=mea sili %d
+
+[History]
+Title=Talafaasolopito o le Ta'alo
+Play=Ta'alo
+Remove=Aveese
+Clear=Tapeese Uma
+Refresh=Fa'afouga
+OpenFolder=Tatala Faila
+CopyPath=Kopi le Ala
+; Columns
+ColFileName=Faila
+ColPath=Ala
+; Dialogs
+ClearTitle=Tapeese le Talafaasolopito
+ClearConfirm=E te mautinoa e te mana'o e tapeese le talafaasolopito uma?
+Count=mea %d
+
+[SleepTimer]
+Title=Uati o le Moe
+Description=Fa'atulaga le uati e taofi otometi ai le ta'alo
+Hours=Itula:
+Minutes=Minute:
+Action=Pe a uma le uati:
+StopPlayback=Taofi le ta'alo
+CloseApp=Tapuni le polokalama
+Shutdown=Tape le komipiuta
+QuickSet=Fa'atulaga vave:
+15Min=15 min
+30Min=30 min
+1Hour=1 itula
+2Hours=2 itula
+
+[Radios]
+Title=Leitio Initaneti
+Play=Ta'alo
+Add=Fa'aopoopo
+Edit=Sui
+Delete=Tapeese
+Remove=Aveese
+Import=Ulufale
+Export=Alu ese
+Refresh=Fa'afouga
+Favorite=Mea Sili
+ShowFavorites=Mea Sili
+ShowAll=Uma
+; Filter
+Genre=Ituaiga:
+Search=Su'e:
+SearchBtn=Su'e
+ClearSearch=Tapeese
+AllGenres=(Ituaiga Uma)
+; Context menu
+AddFavorite=Fa'aopoopo i Mea Sili
+RemoveFavorite=Aveese mai Mea Sili
+AddCustom=Fa'aopoopo Siteseni...
+EditCustom=Sui Siteseni...
+DeleteCustom=Tapeese Siteseni
+OpenWebsite=Tatala Upega Tafa'ilagi
+CopyURL=Kopi URL
+; Columns
+ColName=Igoa
+ColGenre=Ituaiga
+ColBitrate=Bitrate
+ColCountry=Atunu'u
+ColCodec=Codec
+; Dialogs
+AddTitle=Fa'aopoopo Siteseni
+EditTitle=Sui Siteseni
+DeleteTitle=Tapeese Siteseni
+DeleteConfirm=E te mautinoa e te mana'o e aveese le siteseni lenei?
+StationName=Igoa o le Siteseni:
+StreamURL=URL o le Tafe:
+GenrePrompt=Ituaiga:
+NameURLRequired=E mana'omia le igoa ma le URL.
+; Status messages
+LoadingIcecast=O utaina siteseni mai Icecast...
+IcecastError=E le mafai ona utaina le Icecast. O fa'aaoga siteseni masani.
+NoStationsLoaded=Leai ni siteseni ua utaina
+StationCount=siteseni %d
+LoadedStations=Siteseni %d ua utaina
+ErrorPrefix=Sese:
+; Legacy keys
+Name=Igoa
+URL=URL
+Bitrate=Bitrate
+Description=Fa'amatalaga
+Country=Atunu'u
+
+[OpenURL]
+Title=Tatala URL
+Prompt=Tu'u i le URL media:
+
+[GotoTime]
+Title=Alu i le Taimi
+EnterTime=Tu'u i le taimi e te mana'o e alu i ai:
+Hours=I
+Minutes=M
+Seconds=S
+Current=I le Taimi Nei:
+Duration=Taimi:
+
+[VideoAdjust]
+Title=Suiga o le Vitio
+Brightness=Susulu:
+Contrast=Eseesega:
+Saturation=Malosi o Lanu:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Toe Fa'atulaga Lanu Uma
+
+[CLI]
+; Fe'au o le laina fa'atonuina
+Usage=Fa'aaogaina
+Arguments=[FILIFILIGA] [FAILA|URL|FOLDA]
+Description=Se tagata tā'alo multimedia e feoa'i i luga o fa'amaumauga eseese e fa'aaoga ai le libmpv.
+Options=FILIFILIGA
+Examples=FA'ATA'ITA'IGA
+MoreInfo=Mo fa'amatalaga atili, asiasi
+EnqueuedTo=Ua fa'aopoopo i le laina o le fa'atinoga o lo'o iai: %s
+SentTo=Ua lafo atu i le fa'atinoga o lo'o iai: %s
+AlreadyRunning=Ua mae'a ona fa'agaioi le 3nity Media.
+ErrorFileNotFound=Sese: E le maua le faila po'o le lisi: %s
+ErrorSubNotFound=Sese: E le maua le faila o fa'aliliuga: %s

@@ -1,0 +1,892 @@
+[Language]
+Name=Malagasy - Malagasy
+Code=mg
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Rakitra
+FileOpen=&Sokafy Rakitra...
+FileOpenURL=Sokafy &URL...
+FileOpenClipboard=Sokafy avy amin'ny &Clipboard
+FileRecent=Rakitra &Vao Haingana
+ClearRecentFiles=Esory ny Rakitra Vao Haingana
+FileExit=Mi&voaka
+
+; Playback menu
+Playback=&Fampisehoana
+PlaybackPlayPause=&Alefaso/Ajanony
+PlaybackStop=&Ajanony
+PlaybackPrevious=Teo &Aloha
+PlaybackNext=Ma&naraka
+PlaybackSeekForward=Tadiavo &Aloha
+PlaybackSeekBackward=Tadiavo &Aoriana
+PlaybackSpeed=&Hafainganana
+PlaybackABLoop=Toerana A-&B
+PlaybackSetA=Apetraho &A
+PlaybackSetB=Apetraho &B
+PlaybackClearAB=&Esory A-B
+PlaybackChapters=&Toko
+PlaybackPrevChapter=Toko Teo Aloha
+PlaybackNextChapter=Toko Manaraka
+PlaybackFrameStep=Dingana &Aloha
+PlaybackFrameBack=Dingana &Aoriana
+
+; DVD Navigation
+PlaybackDVD=&Fitantanana DVD
+DVDMenu=&Menu
+DVDUp=&Ambony
+DVDDown=&Ambany
+DVDLeft=A&nkavia
+DVDRight=Anka&vanana
+DVDSelect=&Safidio
+PlaybackDVDTitles=&Lohateny DVD
+
+; Phase 21: Open Folder
+FileOpenFolder=Sokafy &Lahatahiry...
+
+; File menu DVD/Bluray
+FileOpenDVD=Sokafy &DVD...
+FileOpenBluray=Sokafy &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Mandehana any amin'ny Fotoana...
+ToolsHistory=&Tantara
+
+; Phase 14: System Tray
+TrayShow=&Aseho/Afeno
+TrayPlayPause=&Alefaso/Ajanony
+TrayStop=&Ajanony
+TrayPrevious=Teo &Aloha
+TrayNext=Ma&naraka
+TrayMute=&Mangina
+TrayExit=Mi&voaka
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Ampio &Marika...
+PlaybackBookmarks=&Marika
+BookmarksTitle=Marika
+BookmarksGoto=&Mandehana any amin'ny Marika
+BookmarksRemove=&Esory Marika
+BookmarksClear=&Esory ny Marika Rehetra
+BookmarksOpenFolder=Sokafy &Lahatahiry
+BookmarksCopyPath=&Adikao ny Lalana
+BookmarksCount=%d marika
+NoBookmarks=(Tsy misy marika)
+NoFileLoaded=(Tsy misy rakitra napetraka)
+BookmarkAdded=Marika nampiana tamin'ny %s
+BookmarkJumped=Nitsambikina tamin'ny marika tamin'ny %s
+AddBookmarkTitle=Ampio Marika
+AddBookmarkPrompt=Ampidiro ny anaran'ny marika:
+ShowAllBookmarks=Aseho ny Marika Rehetra...
+
+; Phase 16: Favorites
+ToolsFavorites=&Ankafizina
+ToolsAddFavorite=Ampio amin'ny An&kafizina
+FavoritesTitle=Ankafizina
+FavoritesPlay=&Alefaso
+FavoritesRemove=&Esory amin'ny Ankafizina
+FavoritesClear=&Esory ny Ankafizina Rehetra
+FavoritesOpenFolder=Sokafy &Lahatahiry
+FavoritesCopyPath=&Adikao ny Lalana
+FavoritesCount=%d ankafizina
+NoFavorites=(Tsy misy ankafizina)
+AddFavoriteTitle=Ampio amin'ny Ankafizina
+AddFavoritePrompt=Ampidiro ny anaran'ny ankafizina:
+AlreadyFavorite=Efa ao amin'ny ankafizina
+AddedToFavorites=Nampiana amin'ny ankafizina: %s
+NoFileToFavorite=Tsy misy rakitra napetraka hampiana amin'ny ankafizina
+FavoriteTypeFile=Rakitra
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Laharana %d: %s
+TrackWithLang=Laharana %d (%s)
+TrackNumber=Laharana %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Alemy
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&Famantaran'ora Hatoriana...
+ToolsSleepTimerActive=&Famantaran'ora Hatoriana [%s]
+ToolsCancelTimer=Ajanony ny &Famantaran'ora
+
+; Audio menu
+Audio=&Feo
+AudioTrack=Laharana &Feo
+AudioVolumeUp=Ampitomboy ny &Feo
+AudioVolumeDown=Ahena ny &Feo
+AudioMute=&Mangina
+AudioEqualizer=&Equalizer
+AudioDelay=Fiatoana &Feo
+AudioDelayPlus=Fiatoana +0.1s
+AudioDelayMinus=Fiatoana -0.1s
+AudioDelayReset=Avereno ny Fiatoana
+AudioNormalize=&Hamarino ny Feo
+
+; Video menu
+Video=&Horonan-tsary
+VideoFullscreen=&Sehatra Feno
+VideoAspect=&Ampitahana
+VideoAspectAuto=&Automatika
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Sarin-tsehatra
+VideoScreenshotAs=Sarin-tsehatra &Ho...
+VideoRotation=&Fihodirana
+VideoRotate0=&0° (Mahazatra)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Fiovana
+VideoFlipH=Fiovana &Horizontale
+VideoFlipV=Fiovana &Verticale
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Miditra
+VideoZoomOut=Zoom &Mivoaka
+VideoZoomReset=&Avereno ny Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan A&nkavia
+VideoPanRight=Pan Anka&vanana
+VideoPanUp=Pan &Ambony
+VideoPanDown=Pan &Ambany
+VideoPanReset=Ave&reno ny Pan
+VideoTrack=Laharana &Horonan-tsary
+VideoColors=Fanitsiana &Loko
+VideoBrightness=&Hazavana
+VideoContrast=&Fahasamihafana
+VideoSaturation=&Fahafenoan-doko
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Avereno ny &Loko Rehetra
+VideoIncrease=Ampitomboy (+5)
+VideoDecrease=Ahena (-5)
+VideoReset=Avereno
+VideoAdjustDialog=Fanitsiana &Horonan-tsary...
+
+; View menu
+View=&Fahitana
+ViewAlwaysOnTop=&Ambony Foana
+ViewFitToVideo=&Ampifanaraho amin'ny Horonan-tsary
+ViewScale=&Haben'ny Varavarankely
+
+; Phase 26: Visualization menu
+ViewVisualization=&Fampisehoana
+VisNone=&Tsy misy
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=V&U Meter
+VisNextMode=&Mode Manaraka
+VisNextColor=&Loko Manaraka
+
+; Subtitles menu
+Subtitles=&Dikan-teny
+SubtitleTrack=Laharana &Dikan-teny
+SubtitleLoad=&Apetrao Dikan-teny...
+SubtitleDelay=Fiatoana &Dikan-teny
+SubtitleDelayPlus=Fiatoana +0.1s
+SubtitleDelayMinus=Fiatoana -0.1s
+SubtitleDelayReset=Avereno ny Fiatoana
+
+; Tools menu
+Tools=&Fitaovana
+ToolsPlaylist=&Lisitra Fampisehoana
+ToolsRadios=&Radio
+ToolsShortcuts=&Fanalahidy Fohy...
+ToolsOptions=&Safidy
+
+; Phase 27: Recording menu
+ToolsRecord=&Firaketana...
+ToolsStopRecord=&Ajanony ny Firaketana
+ToolsRecording=&Firaketana...
+
+; Help menu
+Help=&Fanampiana
+HelpMediaInfo=Fampahalalana &Media
+HelpLog=Varavarankely &Log
+HelpAbout=&Momba
+
+[Dialog]
+OpenFile=Sokafy Rakitra
+OpenURL=Sokafy URL
+SaveScreenshot=Tehirizo Sarin-tsehatra
+LoadSubtitle=Apetrao Rakitra Dikan-teny
+EnterURL=Ampidiro URL:
+ResumePlayback=Tohizo ny Fampisehoana
+ResumeFrom=Tohizo avy amin'ny %s?
+ClearRecentFiles=Esory ny Rakitra Vao Haingana
+NoRecentFiles=(Tsy misy rakitra vao haingana)
+NoAudioTracks=(Tsy misy laharana feo)
+NoVideoTracks=(Tsy misy laharana horonan-tsary)
+NoSubtitleTracks=(Tsy misy laharana dikan-teny)
+NoChapters=(Tsy misy toko)
+OpenDVD=Sokafy DVD
+OpenBluray=Sokafy Blu-ray
+OpenFolder=Sokafy Lahatahiry
+
+; File filters
+ScreenshotFilter=Sary PNG|*.png|Sary JPEG|*.jpg|Sary WebP|*.webp
+DVDFilter=Lahatahiry DVD|*.;*.iso|Rakitra rehetra (*.*)|*.*
+BlurayFilter=Lahatahiry Blu-ray|*.;*.iso|Rakitra rehetra (*.*)|*.*
+NoDVD=(Tsy misy DVD napetraka)
+DVDTitle=Lohateny %d
+GotoTime=Mandehana any amin'ny Fotoana
+EnterTime=Ampidiro ny fotoana hitsambikina:
+Hours=Ora
+Minutes=Minitra
+Seconds=Segondra
+Current=Ankehitriny:
+HistoryTitle=Tantaran'ny Fampisehoana
+HistoryItems=%d singa ao amin'ny tantara
+HistoryPlay=&Alefaso
+HistoryRemove=&Esory amin'ny Tantara
+HistoryClear=&Esory ny Tantara Rehetra
+HistoryOpenFolder=Sokafy &Lahatahiry
+HistoryCopyPath=&Adikao ny Lalana
+ClearHistory=Esory ny Tantara
+ClearHistoryConfirm=Azonao antoka ve fa te-hanala ny tantara rehetra ianao?
+SleepTimerTitle=Famantaran'ora Hatoriana
+SleepTimerDescription=Apetraho ny famantaran'ora hijanona automatika
+SleepTimerHours=Ora
+SleepTimerMinutes=Minitra
+SleepTimerQuickSet=Famaritana Haingana
+SleepTimerAction=Rehefa tapitra ny famantaran'ora
+SleepTimerStopPlayback=Ajanony ny fampisehoana
+SleepTimerCloseApp=Akatona ny rindrambaiko
+SleepTimerShutdown=Vonoy ny solosaina
+SleepTimerStart=Atombohy ny Famantaran'ora
+
+[Status]
+Ready=Vonona
+Opening=Manokatra...
+Playing=Malefa
+Paused=Nijanona
+Stopped=Natsahatra
+Error=Hadisoana
+Buffering=Miandry...
+Seeking=Mitady...
+Recording=Mirakitra
+
+[Message]
+SpeedFormat=Hafainganana: %.2fx
+VolumeFormat=Feo: %d%%
+BrightnessFormat=Hazavana: %d
+ContrastFormat=Fahasamihafana: %d
+SaturationFormat=Fahafenoan-doko: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Loko horonan-tsary naverina
+LoopASet=Toerana A napetraka tamin'ny %s
+LoopBSet=Toerana B napetraka tamin'ny %s - Toerana mandeha
+LoopCleared=Toerana A-B voafafa
+SetAFirst=Apetraho aloha ny A (tsindrio L)
+RotationFormat=Fihodirana: %d°
+FlipHOn=Fiovana horizontale: ALEFA
+FlipHOff=Fiovana horizontale: MATY
+FlipVOn=Fiovana verticale: ALEFA
+FlipVOff=Fiovana verticale: MATY
+DeinterlaceOn=Deinterlace: ALEFA
+DeinterlaceOff=Deinterlace: MATY
+AlwaysOnTopOn=Ambony foana: ALEFA
+AlwaysOnTopOff=Ambony foana: MATY
+WindowFitted=Varavarankely nampifanarahana %dx%d
+WindowScale=Haben'ny varavarankely: %.0f%%
+ScreenshotSaved=Sarin-tsehatra voatehirizo: %s
+AudioNormalizeOn=Fanamarinan-deo: ALEFA
+AudioNormalizeOff=Fanamarinan-deo: MATY
+AudioDelayFormat=Fiatoan-deo: %.1f s
+SubtitleDelayFormat=Fiatoana dikan-teny: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Afovoany
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Tsy misy horonan-tsary napetraka
+PlayingFromClipboard=Malefa avy amin'ny clipboard: %s
+ClipboardInvalid=Ny clipboard tsy misy URL na lalana mety
+ClipboardEmpty=Ny clipboard dia banga na tsy misy lahatsoratra
+ResumedAt=Notohizana tamin'ny %s
+FrameStepForward=Dingana aloha
+FrameStepBackward=Dingana aoriana
+PreviousChapter=Toko teo aloha
+NextChapter=Toko manaraka
+PlayingRadio=Malefa radio: %s
+PlayingDVD=Malefa DVD: %s
+PlayingBluray=Malefa Blu-ray: %s
+DVDTitlePlaying=Lohateny DVD %d
+SeekTo=Mitsambikina any amin'ny %s
+MinimizedToTray=Nampihena any amin'ny tray. Tsindrio indroa hamerenana.
+SleepTimerSet=Famantaran'ora hatoriana napetraka: %s
+SleepTimerCancelled=Famantaran'ora hatoriana nofoanana
+SleepTimerWarning=Famantaran'ora hatoriana: 1 minitra sisa
+SleepTimerFinal=Famantaran'ora hatoriana: 10 segondra sisa
+SleepTimerStopped=Famantaran'ora hatoriana: Fampisehoana nijanona
+SleepTimerClosing=Famantaran'ora hatoriana: Manaraka ny rindrambaiko
+SleepTimerShutdown=Famantaran'ora hatoriana: Mamono ny solosaina
+SleepTimerExpired=Famantaran'ora Hatoriana Tapitra
+ShutdownManual=Vonoy amin'ny tanana ny solosainao azafady.
+
+; Phase 21: Open Folder
+FolderOpened=Lahatahiry nisokatra: %d rakitra
+NoMediaFound=Tsy nahita rakitra media
+FilesAdded=Rakitra %d nampiana tamin'ny lisitra
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Atombohy ny fampisehoana alohan'ny firaketana.
+RecordingStarted=Firaketana nanomboka
+RecordingStopped=Firaketana nijanona
+
+; Additional status messages
+EndOfPlaylist=Faran'ny lisitra
+NoMediaLoaded=Tsy misy rakitra media napetraka.
+JumpedToNamed=Nitsambikina tany amin'ny: %s
+ChapterFormat=Toko %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Marika tamin'ny %s
+
+[Label]
+Muted=Mangina
+
+[Button]
+Play=Alefaso
+Pause=Ajanony
+Stop=Ajanony
+Previous=Teo Aloha
+Next=Manaraka
+Mute=Mangina
+Unmute=Misy Feo
+Fullscreen=Sehatra Feno
+OK=Eny
+Cancel=Hanafoana
+Apply=Ampiharo
+Close=Akatona
+Yes=Eny
+No=Tsia
+
+[Tooltip]
+Play=Alefaso/Ajanony
+Stop=Ajanony ny fampisehoana
+Previous=Laharana teo aloha
+Next=Laharana manaraka
+Mute=Ovay ny mangina
+Volume=Feo
+Seek=Toerana hitadiavana
+Fullscreen=Ovay ny sehatra feno
+
+[Playlist]
+Title=Lisitra Fampisehoana
+Add=Ampio
+Remove=Esory
+Clear=Esory
+MoveUp=Akarina Ambony
+MoveDown=Ampidinina Ambany
+Shuffle=Afangaro
+Repeat=Avereno
+Play=Alefaso
+ShuffleOn=Afangaro: Alefa
+ShuffleOff=Afangaro: Maty
+RepeatOff=Avereno: Maty
+RepeatOne=Avereno: Iray
+RepeatAll=Avereno: Rehetra
+SavePlaylist=Tehirizo
+LoadPlaylist=Apetrao
+TotalDuration=Fitambaran'ny: %s
+ItemCount=%d singa
+
+; Phase 22: Playlist Enhancements
+Search=Tadiavo:
+FilterPlaceholder=Sivana ny lisitra...
+ClearSearch=Esory
+FilterCount=%d/%d
+RemoveDuplicates=Esory ny &Mitovy
+Properties=&Toetry...
+NoDuplicates=Tsy misy mitovy hita.
+DuplicatesFound=Mitovy %d hita. Esorina ve?
+RemoveDuplicatesTitle=Esory ny Mitovy
+PropertiesTitle=Toetry ny Lisitra
+PropTotalItems=Singa rehetra: %d
+PropTotalDuration=Faharetan'ny rehetra: %s
+PropPlayed=Nalefa: %d
+PropUnplayed=Tsy nalefa: %d
+PropTotalSize=Habeny rehetra: %.2f MB
+PropShuffle=Afangaro: %s
+PropRepeat=Avereno: %s
+On=Alefa
+Off=Maty
+
+; New keys for ApplyLocale
+ClearTitle=Esory ny Lisitra
+ClearConfirm=Azonao antoka ve fa te-hanala ny lisitra rehetra ianao?
+NoPlaylist=Tsy misy lisitra
+StatusFormat=%d singa | Fitambaran'ny: %s
+RepeatOne=Av. 1
+RepeatAll=Av. Rehetra
+HintRepeatEnable=Tsindrio hanombohana ny Avereno Rehetra
+HintRepeatOne=Avereno Iray - Tsindrio hijanona
+HintRepeatAll=Avereno Rehetra - Tsindrio ho Avereno Iray
+HintShuffleRepeat=Afangaro + Avereno Rehetra - Tsindrio hijanona avereno
+RemoveDuplicatesTitle=Esory ny Mitovy
+NoDuplicates=Tsy misy mitovy hita.
+SelectAll=Safidio Rehetra
+SelectNone=Tsy misy safidy
+SelectInvert=Avadiky ny Safidy
+Sort=Alamino
+SortByName=Amin'ny Anarana
+SortByTitle=Amin'ny Lohateny
+SortByArtist=Amin'ny Mpanakanto
+SortByDuration=Amin'ny Faharetana
+SortReverse=Avadiky
+SortRandom=Afangaro
+ColTitle=Lohateny
+ColDuration=Faharetana
+ColArtist=Mpanakanto
+ColAlbum=Album
+PlaylistFilter=M3U Lisitra|*.m3u|M3U8 Lisitra|*.m3u8|PLS Lisitra|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Fisafidianana:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klassika
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Feo
+Reset=Avereno
+Enable=Alefao ny Equalizer
+Save=Tehirizo
+Delete=Esory
+Ready=Vonona
+; Buttons and actions
+SavePreset=Tehirizo Fisafidianana
+DeletePreset=Esory Fisafidianana
+SavePresetTitle=Tehirizo Fisafidianana
+PresetNamePrompt=Anaran'ny fisafidianana:
+EnterPresetName=Ampidiro ny anaran'ny fisafidianana azafady.
+OverwritePresetTitle=Ovay ny Fisafidianana
+OverwritePresetConfirm=Fisafidianana mitovy anarana efa misy. Ovay ve?
+PresetUpdated=Fisafidianana voavaozina: %s
+PresetSaved=Fisafidianana voatehirizo: %s
+SelectPresetToDelete=Safidio ny fisafidianana hesorina azafady.
+CannotDeleteDefault=Tsy afaka manala ny fisafidianana tany am-boalohany.
+DeletePresetTitle=Esory Fisafidianana
+DeletePresetConfirm=Azonao antoka ve fa te-hanala ity fisafidianana ity ianao?
+PresetDeleted=Fisafidianana voasorina
+ResetToFlat=Equalizer naverina flat
+PresetApplied=Fisafidianana nampiharina: %s
+
+[Options]
+Title=Safidy
+General=Ankapobeny
+Video=Horonan-tsary
+Audio=Feo
+Subtitles=Dikan-teny
+Cache=Cache
+Language=Fiteny:
+RestartRequired=Mila averina atomboka vao manan-kery ny fiovana
+
+; General tab - Behavior
+Behavior=Fitondran-tena
+SingleInstance=Avela iray ihany
+AutoPlay=Alefaso automatika rehefa misokatra
+AutoResume=Tohizo ny toerana fampisehoana
+MinimizeToTray=Ahena any amin'ny tray
+AutoSavePlaylist=Tehirizo ny lisitra rehefa mivoaka
+
+; General tab - OSD
+OSD=Fampisehoana amin'ny Sehatra
+ShowOSD=Aseho ny hafatra amin'ny sehatra
+ShowTrayIcon=Aseho ny sary tray
+OSDDuration=Faharetan'ny OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Sarin-tsehatra
+ScreenshotPath=Lahatahiry fitehirizana:
+ScreenshotFormat=Endrika:
+
+; General tab - History
+HistorySettings=Tantara
+HistoryEnabled=Alefao ny tantaran'ny fampisehoana
+HistoryMaxItems=Isa faran'ny:
+
+; General tab - Language
+LanguageGroup=Fiteny
+RestartNote=(Mila averina atomboka vao manan-kery ny fiovana)
+
+; Video tab
+VideoAdjust=Fanitsiana Horonan-tsary
+Brightness=Hazavana:
+Contrast=Fahasamihafana:
+Saturation=Fahafenoan-doko:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Horonan-tsary Mivoaka
+Output=Mivoaka:
+HWAccel=Alefao ny hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Mode:
+
+; Audio tab
+AudioOutput=Feo Mivoaka
+OutputDriver=Driver mivoaka:
+Device=Fitaovana:
+AudioOptions=Safidin'ny Feo
+NormalizeAudio=Hamarino ny feo
+Channels=Fantsona:
+
+; Subtitles tab
+UseDefaultSubtitles=Ampiasao ny safidin'ny dikan-teny tany am-boalohany
+Font=Endrika
+FontName=Endrika:
+FontSize=Haben'ny:
+FontColor=Loko:
+Bold=Bold
+Italic=Italic
+Outline=Sisiny
+OutlineColor=Loko:
+OutlineSize=Haben'ny:
+Position=Toerana
+VerticalPosition=Toerana mitsangana:
+SubOptions=Safidy
+Encoding=Encoding:
+AutoLoadSubs=Apetrao automatika ny rakitra dikan-teny
+
+; Video output warnings
+VOWarningX11=Fampitandremana: x11 tsy manohana ny fanitsiana horonan-tsary (hazavana, fahasamihafana, sns.)
+VOWarningWayland=Fampitandremana: Mila fandoavam-piteny Wayland. Fanitsiana horonan-tsary tohanana.
+
+; Cache tab
+CacheSettings=Haben'ny Cache Buffer (KB)
+CacheDefault=Cache tany am-boalohany:
+CacheLocal=Rakitra eo an-toerana:
+CacheNetwork=Rakitra network:
+CacheInternet=Rano Internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Momba
+Version=Kinova
+Engine=Milina
+Technology=Teknolojia
+BuildInfo=Fampahalalana Fanamboarana
+SystemInfo=Rafitra
+Credits=Fisaorana
+Developer=Mpamorona:
+Author=Mpanoratra
+License=Fahazoan-dalana
+Website=Tranokala
+GitHub=GitHub
+Description=Mpamaky media maoderina, maivana
+LicenseText=3nity Media dia miasa amin'ny fahazoan-dalana GPL-2.0\n\nIzany dia midika fa azonao atao ny:\n  - Mampiasa ny rindrambaiko amin'ny antony rehetra\n  - Mianatra sy manova ny code loharano\n  - Mizara ny kopia amin'ny rindrambaiko\n  - Mizara ny fanovana ataonao\n\nAmin'ny fepetra fa ny fanovana rehetra zaraina\ndia miasa amin'ny fahazoan-dalana GPL-2.0 koa.
+BuildDate=Daty:
+Target=Tanjona:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Fanalahidy Fohy
+Description=Amboary ny fanalahidy fohy ho an'ny asa
+Search=Tadiavo:
+PressKey=Tsindrio fanalahidy...
+ColCategory=Sokajy
+ColAction=Asa
+ColShortcut=Fanalahidy Fohy
+Assign=Apetraho
+Clear=Esory
+Reset=Avereno
+ResetAll=Avereno Rehetra
+CurrentShortcut=Ankehitriny: %s
+NoKeyPressed=Tsindrio fanalahidy aloha azafady.
+Conflict=Fifandonana: Efa voatendry amin'ny "%s"
+ConfirmReplace=Ovay ny Fanalahidy Fohy
+ReplaceMessage=Ity fanalahidy fohy ity dia efa voatendry amin'ny "%s". Te-hanova ve ianao?
+ConfirmResetAll=Avereno ny Fanalahidy Fohy Rehetra
+ResetAllMessage=Azonao antoka ve fa te-hamerina ny fanalahidy fohy rehetra amin'ny tany am-boalohany ianao?
+; Action names
+ActPlayPause=Alefaso / Ajanony
+ActStop=Ajanony
+ActPrevious=Teo Aloha
+ActNext=Manaraka
+ActSeekForward=Tadiavo Aloha (10s)
+ActSeekBackward=Tadiavo Aoriana (10s)
+ActSeekForward5=Tadiavo Aloha (1 min)
+ActSeekBackward5=Tadiavo Aoriana (1 min)
+ActSpeedUp=Ampitomboy ny Hafainganana
+ActSpeedDown=Ahena ny Hafainganana
+ActSpeedReset=Avereno ny Hafainganana
+ActSetLoopA=Apetraho ny Toerana A
+ActSetLoopB=Apetraho ny Toerana B
+ActClearLoop=Esory ny Toerana A-B
+ActFrameForward=Dingana Aloha
+ActFrameBackward=Dingana Aoriana
+ActPrevChapter=Toko Teo Aloha
+ActNextChapter=Toko Manaraka
+ActGotoTime=Mandehana any amin'ny Fotoana
+ActVolumeUp=Ampitomboy ny Feo
+ActVolumeDown=Ahena ny Feo
+ActMute=Mangina / Misy Feo
+ActAudioDelayPlus=Fiatoan-deo +
+ActAudioDelayMinus=Fiatoan-deo -
+ActAudioDelayReset=Avereno ny Fiatoan-deo
+ActFullscreen=Sehatra Feno
+ActRotate=Ahodino ny Horonan-tsary
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom Miditra
+ActZoomOut=Zoom Mivoaka
+ActZoomReset=Avereno ny Zoom
+ActAlwaysOnTop=Ambony Foana
+ActFitToVideo=Ampifanaraho amin'ny Horonan-tsary
+ActScreenshot=Sarin-tsehatra
+ActVideoAdjust=Fanitsiana Horonan-tsary
+ActVisNextMode=Mode Fampisehoana Manaraka
+ActVisNextColor=Loko Manaraka
+ActSubDelayPlus=Fiatoana Dikan-teny +
+ActSubDelayMinus=Fiatoana Dikan-teny -
+ActSubDelayReset=Avereno ny Fiatoana Dikan-teny
+ActDVDMenu=Menu DVD
+ActDVDUp=DVD Ambony
+ActDVDDown=DVD Ambany
+ActDVDLeft=DVD Ankavia
+ActDVDRight=DVD Ankavanana
+ActDVDSelect=DVD Safidio
+ActOpenFile=Sokafy Rakitra
+ActOpenURL=Sokafy URL
+ActPlaylist=Aseho ny Lisitra
+ActQuit=Mivoaka
+
+[Log]
+; Phase 25: Log Window
+Title=Log MPV
+Command=Baiko:
+Clear=Esory
+Save=Tehirizo...
+Copy=&Adikao
+SelectAll=Safidio &Rehetra
+SaveTitle=Tehirizo ny Log
+SaveFilter=Rakitra lahatsoratra (*.txt)|*.txt|Rakitra rehetra (*.*)|*.*
+ErrorTitle=Hadisoana
+SaveError=Tsy nahomby ny fitehirizana log: %s
+
+[MediaInfo]
+Title=Fampahalalana Media
+FileTab=Rakitra
+VideoTab=Horonan-tsary
+AudioTab=Feo
+MetadataTab=Metadata
+FileName=Anaran'ny Rakitra:
+FilePath=Lalana:
+FileSize=Haben'ny:
+Duration=Faharetana:
+Format=Endrika:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Endrika Pixel:
+AspectRatio=Ampitahana:
+Channels=Fantsona:
+SampleRate=Sample Rate:
+Language=Fiteny:
+Property=Toetry
+Value=Soatoavina
+CopyAll=Adikao Rehetra
+CopiedToClipboard=Fampahalalana media voatehirizo amin'ny clipboard.
+NA=T/M
+NAStream=T/M (stream)
+NALive=T/M (mivantana)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Tsy fantatra
+NoMetadata=(Tsy misy metadata)
+
+[Bookmarks]
+Title=Marika
+Goto=Mandehana any
+Remove=Esory
+Clear=Esory Rehetra
+Refresh=Havaozina
+OpenFolder=Sokafy Lahatahiry
+CopyPath=Adikao ny Lalana
+; Columns
+ColName=Anarana
+ColFile=Rakitra
+ColPosition=Toerana
+ColCreated=Noforonina
+; Dialogs
+ClearTitle=Esory ny Marika
+ClearConfirm=Azonao antoka ve fa te-hanala ny marika rehetra ianao?
+Count=%d marika
+
+[Favorites]
+Title=Ankafizina
+Play=Alefaso
+Remove=Esory
+Clear=Esory Rehetra
+Refresh=Havaozina
+OpenFolder=Sokafy Lahatahiry
+CopyPath=Adikao ny Lalana
+; Columns
+ColName=Anarana
+ColType=Karazana
+ColPath=Lalana
+; Types
+TypeFile=Rakitra
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Tsy fantatra
+; Dialogs
+ClearTitle=Esory ny Ankafizina
+ClearConfirm=Azonao antoka ve fa te-hanala ny ankafizina rehetra ianao?
+Count=%d ankafizina
+
+[History]
+Title=Tantaran'ny Fampisehoana
+Play=Alefaso
+Remove=Esory
+Clear=Esory Rehetra
+Refresh=Havaozina
+OpenFolder=Sokafy Lahatahiry
+CopyPath=Adikao ny Lalana
+; Columns
+ColFileName=Rakitra
+ColPath=Lalana
+; Dialogs
+ClearTitle=Esory ny Tantara
+ClearConfirm=Azonao antoka ve fa te-hanala ny tantara rehetra ianao?
+Count=%d singa
+
+[SleepTimer]
+Title=Famantaran'ora Hatoriana
+Description=Apetraho ny famantaran'ora hijanona automatika
+Hours=Ora:
+Minutes=Minitra:
+Action=Rehefa tapitra ny famantaran'ora:
+StopPlayback=Ajanony ny fampisehoana
+CloseApp=Akatona ny rindrambaiko
+Shutdown=Vonoy ny solosaina
+QuickSet=Famaritana haingana:
+15Min=15 min
+30Min=30 min
+1Hour=1 ora
+2Hours=2 ora
+
+[Radios]
+Title=Radio Internet
+Play=Alefaso
+Add=Ampio
+Edit=Ovay
+Delete=Esory
+Remove=Esory
+Import=Ampidiro
+Export=Avoahy
+Refresh=Havaozina
+Favorite=Ankafizina
+ShowFavorites=Ankafizina
+ShowAll=Rehetra
+; Filter
+Genre=Sokajy:
+Search=Tadiavo:
+SearchBtn=Tadiavo
+ClearSearch=Esory
+AllGenres=(Sokajy Rehetra)
+; Context menu
+AddFavorite=Ampio amin'ny Ankafizina
+RemoveFavorite=Esory amin'ny Ankafizina
+AddCustom=Ampio Stasiona...
+EditCustom=Ovay ny Stasiona...
+DeleteCustom=Esory ny Stasiona
+OpenWebsite=Sokafy ny Tranokala
+CopyURL=Adikao ny URL
+; Columns
+ColName=Anarana
+ColGenre=Sokajy
+ColBitrate=Bitrate
+ColCountry=Firenena
+ColCodec=Codec
+; Dialogs
+AddTitle=Ampio Stasiona
+EditTitle=Ovay ny Stasiona
+DeleteTitle=Esory ny Stasiona
+DeleteConfirm=Azonao antoka ve fa te-hanala ity stasiona ity ianao?
+StationName=Anaran'ny Stasiona:
+StreamURL=URL Stream:
+GenrePrompt=Sokajy:
+NameURLRequired=Ilaina ny anarana sy URL.
+; Status messages
+LoadingIcecast=Mampiditra stasiona avy amin'ny Icecast...
+IcecastError=Tsy afaka mampiditra ny Icecast. Mampiasa stasiona tany am-boalohany.
+NoStationsLoaded=Tsy misy stasiona napetraka
+StationCount=%d stasiona
+LoadedStations=Stasiona %d voapetraka
+ErrorPrefix=Hadisoana:
+; Legacy keys
+Name=Anarana
+URL=URL
+Bitrate=Bitrate
+Description=Famaritana
+Country=Firenena
+
+[OpenURL]
+Title=Sokafy URL
+Prompt=Ampidiro URL media:
+
+[GotoTime]
+Title=Mandehana any amin'ny Fotoana
+EnterTime=Ampidiro ny fotoana hitsambikina:
+Hours=O
+Minutes=M
+Seconds=S
+Current=Ankehitriny:
+Duration=Faharetana:
+
+[VideoAdjust]
+Title=Fanitsiana Horonan-tsary
+Brightness=Hazavana:
+Contrast=Fahasamihafana:
+Saturation=Fahafenoan-doko:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Avereno ny Loko Rehetra
+
+[CLI]
+; Hafatra andalana baiko
+Usage=Fampiasana
+Arguments=[SAFIDY] [RAKITRA|URL|LAHATAHIRY]
+Description=Mpilalao haino aman-jery maro sehatra mampiasa libmpv ho backend.
+Options=SAFIDY
+Examples=OHATRA
+MoreInfo=Raha mila fanazavana fanampiny, tsidiho
+EnqueuedTo=Nampidirina tao amin'ny filaharana misy: %s
+SentTo=Nalefa tamin'ny tranga misy: %s
+AlreadyRunning=Efa mandeha ny 3nity Media.
+ErrorFileNotFound=Hadisoana: Tsy hita ny rakitra na lahatahiry: %s
+ErrorSubNotFound=Hadisoana: Tsy hita ny rakitra dikanteny: %s

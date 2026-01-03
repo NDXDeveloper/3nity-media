@@ -1,0 +1,892 @@
+[Language]
+Name=Romanian - Română
+Code=ro
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Meniul Fișier
+File=&Fișier
+FileOpen=&Deschide fișier...
+FileOpenURL=Deschide &URL...
+FileOpenClipboard=Deschide din &Clipboard
+FileRecent=Fișiere &recente
+ClearRecentFiles=Șterge fișierele recente
+FileExit=&Ieșire
+
+; Meniul Redare
+Playback=&Redare
+PlaybackPlayPause=&Redare/Pauză
+PlaybackStop=&Oprire
+PlaybackPrevious=&Anterior
+PlaybackNext=&Următor
+PlaybackSeekForward=Salt î&nainte
+PlaybackSeekBackward=Salt îna&poi
+PlaybackSpeed=&Viteză
+PlaybackABLoop=Buclă A-&B
+PlaybackSetA=Setează &A
+PlaybackSetB=Setează &B
+PlaybackClearAB=&Șterge A-B
+PlaybackChapters=&Capitole
+PlaybackPrevChapter=Capitolul anterior
+PlaybackNextChapter=Capitolul următor
+PlaybackFrameStep=Cadru î&nainte
+PlaybackFrameBack=Cadru îna&poi
+
+; Navigare DVD
+PlaybackDVD=&Navigare DVD
+DVDMenu=&Meniu
+DVDUp=&Sus
+DVDDown=&Jos
+DVDLeft=&Stânga
+DVDRight=&Dreapta
+DVDSelect=&Selectare
+PlaybackDVDTitles=&Titluri DVD
+
+; Fază 21: Deschide folder
+FileOpenFolder=Deschide &folder...
+
+; Meniul Fișier DVD/Blu-ray
+FileOpenDVD=Deschide &DVD...
+FileOpenBluray=Deschide &Blu-ray...
+
+; Fază 13: Salt la timp și Istoric
+PlaybackGotoTime=&Salt la timp...
+ToolsHistory=&Istoric
+
+; Fază 14: Zonă de notificări
+TrayShow=&Afișare/Ascundere
+TrayPlayPause=&Redare/Pauză
+TrayStop=&Oprire
+TrayPrevious=&Anterior
+TrayNext=&Următor
+TrayMute=&Mut
+TrayExit=&Ieșire
+
+; Fază 15: Marcaje
+PlaybackAddBookmark=Adaugă &marcaj...
+PlaybackBookmarks=Ma&rcaje
+BookmarksTitle=Marcaje
+BookmarksGoto=&Salt la marcaj
+BookmarksRemove=&Elimină marcaj
+BookmarksClear=&Șterge toate marcajele
+BookmarksOpenFolder=Deschide &folder
+BookmarksCopyPath=&Copiază calea
+BookmarksCount=%d marcaje
+NoBookmarks=(Fără marcaje)
+NoFileLoaded=(Niciun fișier încărcat)
+BookmarkAdded=Marcaj adăugat la %s
+BookmarkJumped=Salt la marcajul de la %s
+AddBookmarkTitle=Adaugă marcaj
+AddBookmarkPrompt=Introduceți numele marcajului:
+ShowAllBookmarks=Afișează toate marcajele...
+
+; Fază 16: Favorite
+ToolsFavorites=&Favorite
+ToolsAddFavorite=Adaugă la &Favorite
+FavoritesTitle=Favorite
+FavoritesPlay=&Redare
+FavoritesRemove=&Elimină din favorite
+FavoritesClear=&Șterge toate favoritele
+FavoritesOpenFolder=Deschide &folder
+FavoritesCopyPath=&Copiază calea
+FavoritesCount=%d favorite
+NoFavorites=(Fără favorite)
+AddFavoriteTitle=Adaugă la favorite
+AddFavoritePrompt=Introduceți numele pentru favorit:
+AlreadyFavorite=Este deja în favorite
+AddedToFavorites=Adăugat la favorite: %s
+NoFileToFavorite=Niciun fișier încărcat pentru a fi adăugat la favorite
+FavoriteTypeFile=Fișier
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Șiruri de formatare pistă
+TrackWithTitle=Pistă %d: %s
+TrackWithLang=Pistă %d (%s)
+TrackNumber=Pistă %d
+
+; Elemente meniu viteză
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Elemente meniu scală
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Pistă subtitrări
+SubtitleDisable=Dezactivare
+
+; Fază 17: Temporizator somn
+ToolsSleepTimer=&Temporizator somn...
+ToolsSleepTimerActive=&Temporizator somn [%s]
+ToolsCancelTimer=Anulează &temporizator
+
+; Meniul Audio
+Audio=&Audio
+AudioTrack=Pistă &audio
+AudioVolumeUp=&Mărește volumul
+AudioVolumeDown=&Micșorează volumul
+AudioMute=&Mut
+AudioEqualizer=&Egalizator
+AudioDelay=Întârziere &audio
+AudioDelayPlus=Întârziere +0.1s
+AudioDelayMinus=Întârziere -0.1s
+AudioDelayReset=Resetare întârziere
+AudioNormalize=&Normalizare volum
+
+; Meniul Video
+Video=&Video
+VideoFullscreen=&Ecran complet
+VideoAspect=&Raport aspect
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Captură ecran
+VideoScreenshotAs=Captură ecran &ca...
+VideoRotation=&Rotație
+VideoRotate0=&0 (Normal)
+VideoRotate90=&90
+VideoRotate180=&180
+VideoRotate270=&270
+VideoFlip=&Oglindire
+VideoFlipH=Oglindire &orizontală
+VideoFlipV=Oglindire &verticală
+VideoDeinterlace=&Deinterlacing
+VideoZoom=&Zoom
+VideoZoomIn=&Mărire
+VideoZoomOut=Mi&cșorare
+VideoZoomReset=&Resetare zoom
+VideoPan=&Pan
+VideoPanLeft=Pan &stânga
+VideoPanRight=Pan &dreapta
+VideoPanUp=Pan &sus
+VideoPanDown=Pan &jos
+VideoPanReset=Re&setare pan
+VideoTrack=Pistă &video
+VideoColors=Ajustări &culoare
+VideoBrightness=&Luminozitate
+VideoContrast=&Contrast
+VideoSaturation=&Saturație
+VideoHue=&Nuanță
+VideoGamma=&Gamma
+VideoColorsReset=Resetare &toate culorile
+VideoIncrease=Mărire (+5)
+VideoDecrease=Micșorare (-5)
+VideoReset=Resetare
+VideoAdjustDialog=&Ajustări video...
+
+; Meniul Vizualizare
+View=&Vizualizare
+ViewAlwaysOnTop=&Întotdeauna deasupra
+ViewFitToVideo=&Potrivire fereastră la video
+ViewScale=&Scală fereastră
+
+; Fază 26: Meniul vizualizare
+ViewVisualization=Vi&zualizare
+VisNone=&Niciunul
+VisSpectrum=Analizor &spectru
+VisWaveform=&Formă de undă
+VisVector=&Vectorscop
+VisVolume=&Indicator VU
+VisNextMode=&Mod următor
+VisNextColor=Schemă &culori următoare
+
+; Meniul Subtitrări
+Subtitles=&Subtitrări
+SubtitleTrack=Pistă &subtitrări
+SubtitleLoad=&Încarcă subtitrări...
+SubtitleDelay=Întârziere &subtitrări
+SubtitleDelayPlus=Întârziere +0.1s
+SubtitleDelayMinus=Întârziere -0.1s
+SubtitleDelayReset=Resetare întârziere
+
+; Meniul Instrumente
+Tools=&Instrumente
+ToolsPlaylist=&Listă redare
+ToolsRadios=&Radiouri
+ToolsShortcuts=Comenzi rapide &tastatură...
+ToolsOptions=&Opțiuni
+
+; Fază 27: Meniul înregistrare
+ToolsRecord=&Înregistrare flux...
+ToolsStopRecord=&Oprire înregistrare
+ToolsRecording=&Înregistrare...
+
+; Meniul Ajutor
+Help=&Ajutor
+HelpMediaInfo=&Informații media
+HelpLog=&Fereastră jurnal
+HelpAbout=&Despre
+
+[Dialog]
+OpenFile=Deschide fișier
+OpenURL=Deschide URL
+SaveScreenshot=Salvare captură ecran
+LoadSubtitle=Încarcă fișier subtitrări
+EnterURL=Introduceți URL:
+ResumePlayback=Reluare redare
+ResumeFrom=Reluare de la %s?
+ClearRecentFiles=Șterge fișierele recente
+NoRecentFiles=(Fără fișiere recente)
+NoAudioTracks=(Fără piste audio)
+NoVideoTracks=(Fără piste video)
+NoSubtitleTracks=(Fără piste subtitrări)
+NoChapters=(Fără capitole)
+OpenDVD=Deschide DVD
+OpenBluray=Deschide Blu-ray
+OpenFolder=Deschide folder
+
+; Filtre fișiere
+ScreenshotFilter=Imagine PNG|*.png|Imagine JPEG|*.jpg|Imagine WebP|*.webp
+DVDFilter=Folder DVD|*.;*.iso|Toate fișierele (*.*)|*.*
+BlurayFilter=Folder Blu-ray|*.;*.iso|Toate fișierele (*.*)|*.*
+NoDVD=(Niciun DVD încărcat)
+DVDTitle=Titlu %d
+GotoTime=Salt la timp
+EnterTime=Introduceți timpul pentru salt:
+Hours=Ore
+Minutes=Minute
+Seconds=Secunde
+Current=Curent:
+HistoryTitle=Istoric redare
+HistoryItems=%d elemente în istoric
+HistoryPlay=&Redare
+HistoryRemove=&Elimină din istoric
+HistoryClear=&Șterge tot istoricul
+HistoryOpenFolder=Deschide &folder
+HistoryCopyPath=&Copiază calea
+ClearHistory=Șterge istoricul
+ClearHistoryConfirm=Sigur doriți să ștergeți tot istoricul?
+SleepTimerTitle=Temporizator somn
+SleepTimerDescription=Setează temporizator pentru oprire automată a redării
+SleepTimerHours=Ore
+SleepTimerMinutes=Minute
+SleepTimerQuickSet=Setare rapidă
+SleepTimerAction=La expirarea temporizatorului
+SleepTimerStopPlayback=Oprire redare
+SleepTimerCloseApp=Închidere aplicație
+SleepTimerShutdown=Oprire calculator
+SleepTimerStart=Pornire temporizator
+
+[Status]
+Ready=Pregătit
+Opening=Deschidere...
+Playing=Redare
+Paused=Pauză
+Stopped=Oprit
+Error=Eroare
+Buffering=Preîncărcare...
+Seeking=Căutare...
+Recording=Înregistrare
+
+[Message]
+SpeedFormat=Viteză: %.2fx
+VolumeFormat=Volum: %d%%
+BrightnessFormat=Luminozitate: %d
+ContrastFormat=Contrast: %d
+SaturationFormat=Saturație: %d
+HueFormat=Nuanță: %d
+GammaFormat=Gamma: %d
+ColorsReset=Culorile video au fost resetate
+LoopASet=Punctul A setat la %s
+LoopBSet=Punctul B setat la %s - Buclă activă
+LoopCleared=Buclă A-B ștearsă
+SetAFirst=Setați mai întâi punctul A (apăsați L)
+RotationFormat=Rotație: %d
+FlipHOn=Oglindire orizontală: PORNIT
+FlipHOff=Oglindire orizontală: OPRIT
+FlipVOn=Oglindire verticală: PORNIT
+FlipVOff=Oglindire verticală: OPRIT
+DeinterlaceOn=Deinterlacing: PORNIT
+DeinterlaceOff=Deinterlacing: OPRIT
+AlwaysOnTopOn=Întotdeauna deasupra: PORNIT
+AlwaysOnTopOff=Întotdeauna deasupra: OPRIT
+WindowFitted=Fereastră potrivită la %dx%d
+WindowScale=Scală fereastră: %.0f%%
+ScreenshotSaved=Captură ecran salvată: %s
+AudioNormalizeOn=Normalizare audio: PORNIT
+AudioNormalizeOff=Normalizare audio: OPRIT
+AudioDelayFormat=Întârziere audio: %.1f s
+SubtitleDelayFormat=Întârziere subtitrări: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Centru
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Niciun video încărcat
+PlayingFromClipboard=Redare din clipboard: %s
+ClipboardInvalid=Clipboard-ul nu conține URL sau cale validă
+ClipboardEmpty=Clipboard-ul este gol sau nu conține text
+ResumedAt=Reluat la %s
+FrameStepForward=Cadru înainte
+FrameStepBackward=Cadru înapoi
+PreviousChapter=Capitolul anterior
+NextChapter=Capitolul următor
+PlayingRadio=Redare radio: %s
+PlayingDVD=Redare DVD: %s
+PlayingBluray=Redare Blu-ray: %s
+DVDTitlePlaying=Titlu DVD %d
+SeekTo=Salt la %s
+MinimizedToTray=Minimizat în zona de notificări. Dublu clic pentru restaurare.
+SleepTimerSet=Temporizator somn setat: %s
+SleepTimerCancelled=Temporizator somn anulat
+SleepTimerWarning=Temporizator somn: a rămas 1 minut
+SleepTimerFinal=Temporizator somn: au rămas 10 secunde
+SleepTimerStopped=Temporizator somn: Redare oprită
+SleepTimerClosing=Temporizator somn: Închidere aplicație
+SleepTimerShutdown=Temporizator somn: Oprire calculator
+SleepTimerExpired=Temporizator somn expirat
+ShutdownManual=Vă rugăm să opriți calculatorul manual.
+
+; Fază 21: Deschide folder
+FolderOpened=Folder deschis: %d fișiere
+NoMediaFound=Nu s-au găsit fișiere media
+FilesAdded=%d fișiere adăugate în lista de redare
+
+; Fază 27: Mesaje înregistrare
+RecordNeedPlayback=Porniți redarea înainte de înregistrare.
+RecordingStarted=Înregistrare pornită
+RecordingStopped=Înregistrare oprită
+
+; Mesaje de stare suplimentare
+EndOfPlaylist=Sfârșitul listei de redare
+NoMediaLoaded=Niciun fișier media încărcat.
+JumpedToNamed=Salt la: %s
+ChapterFormat=Capitolul %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Marcaj la %s
+
+[Label]
+Muted=Mut
+
+[Button]
+Play=Redare
+Pause=Pauză
+Stop=Oprire
+Previous=Anterior
+Next=Următor
+Mute=Mut
+Unmute=Activare sunet
+Fullscreen=Ecran complet
+OK=OK
+Cancel=Anulare
+Apply=Aplică
+Close=Închide
+Yes=Da
+No=Nu
+
+[Tooltip]
+Play=Redare/Pauză
+Stop=Oprire redare
+Previous=Pistă anterioară
+Next=Pistă următoare
+Mute=Comutare mut
+Volume=Volum
+Seek=Poziție căutare
+Fullscreen=Comutare ecran complet
+
+[Playlist]
+Title=Listă redare
+Add=Adaugă
+Remove=Elimină
+Clear=Șterge
+MoveUp=Mută sus
+MoveDown=Mută jos
+Shuffle=Amestecare
+Repeat=Repetare
+Play=Redare
+ShuffleOn=Amestecare: Pornit
+ShuffleOff=Amestecare: Oprit
+RepeatOff=Repetare: Oprit
+RepeatOne=Repetare: Unul
+RepeatAll=Repetare: Toate
+SavePlaylist=Salvare
+LoadPlaylist=Încărcare
+TotalDuration=Total: %s
+ItemCount=%d elemente
+
+; Fază 22: Îmbunătățiri listă redare
+Search=Căutare:
+FilterPlaceholder=Filtrare listă redare...
+ClearSearch=Șterge
+FilterCount=%d/%d
+RemoveDuplicates=Elimină &duplicatele
+Properties=&Proprietăți...
+NoDuplicates=Nu s-au găsit duplicate.
+DuplicatesFound=S-au găsit %d duplicate. Eliminați?
+RemoveDuplicatesTitle=Elimină duplicatele
+PropertiesTitle=Proprietăți listă redare
+PropTotalItems=Total elemente: %d
+PropTotalDuration=Durată totală: %s
+PropPlayed=Redate: %d
+PropUnplayed=Neredate: %d
+PropTotalSize=Dimensiune totală: %.2f MB
+PropShuffle=Amestecare: %s
+PropRepeat=Repetare: %s
+On=Pornit
+Off=Oprit
+
+; Chei noi pentru ApplyLocale
+ClearTitle=Șterge lista de redare
+ClearConfirm=Sigur doriți să ștergeți lista de redare?
+NoPlaylist=Fără listă de redare
+StatusFormat=%d elemente | Total: %s
+RepeatOne=Rep. 1
+RepeatAll=Rep. toate
+HintRepeatEnable=Clic pentru activare repetare toate
+HintRepeatOne=Repetare unul - Clic pentru dezactivare
+HintRepeatAll=Repetare toate - Clic pentru repetare unul
+HintShuffleRepeat=Amestecare + Repetare toate - Clic pentru dezactivare repetare
+RemoveDuplicatesTitle=Elimină duplicatele
+NoDuplicates=Nu s-au găsit duplicate.
+SelectAll=Selectează tot
+SelectNone=Deselectează tot
+SelectInvert=Inversare selecție
+Sort=Sortare
+SortByName=După nume
+SortByTitle=După titlu
+SortByArtist=După artist
+SortByDuration=După durată
+SortReverse=Inversare
+SortRandom=Aleatoriu
+ColTitle=Titlu
+ColDuration=Durată
+ColArtist=Artist
+ColAlbum=Album
+PlaylistFilter=Listă redare M3U|*.m3u|Listă redare M3U8|*.m3u8|Listă redare PLS|*.pls
+
+[Equalizer]
+Title=Egalizator
+Presets=Presetări:
+Preamp=Preamplificare:
+Flat=Plat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Clasic
+BassBoost=Amplificare bas
+TrebleBoost=Amplificare înalte
+Vocal=Vocal
+Reset=Resetare
+Enable=Activare egalizator
+Save=Salvare
+Delete=Ștergere
+Ready=Pregătit
+; Butoane și acțiuni
+SavePreset=Salvare presetare
+DeletePreset=Ștergere presetare
+SavePresetTitle=Salvare presetare
+PresetNamePrompt=Nume presetare:
+EnterPresetName=Vă rugăm introduceți un nume pentru presetare.
+OverwritePresetTitle=Suprascriere presetare
+OverwritePresetConfirm=O presetare cu acest nume există deja. Suprascrieți?
+PresetUpdated=Presetare actualizată: %s
+PresetSaved=Presetare salvată: %s
+SelectPresetToDelete=Vă rugăm selectați o presetare pentru ștergere.
+CannotDeleteDefault=Nu se pot șterge presetările implicite.
+DeletePresetTitle=Ștergere presetare
+DeletePresetConfirm=Sigur doriți să ștergeți această presetare?
+PresetDeleted=Presetare ștearsă
+ResetToFlat=Egalizator resetat la plat
+PresetApplied=Presetare aplicată: %s
+
+[Options]
+Title=Opțiuni
+General=General
+Video=Video
+Audio=Audio
+Subtitles=Subtitrări
+Cache=Cache
+Language=Limbă:
+RestartRequired=Este necesară repornirea pentru aplicarea modificărilor
+
+; Tab General - Comportament
+Behavior=Comportament
+SingleInstance=Permite o singură instanță
+AutoPlay=Redare automată la deschidere
+AutoResume=Reluare poziție redare
+MinimizeToTray=Minimizare în zona de notificări
+AutoSavePlaylist=Salvare listă redare la ieșire
+
+; Tab General - OSD
+OSD=Afișare pe ecran
+ShowOSD=Afișare mesaje pe ecran
+ShowTrayIcon=Afișare pictogramă în zona notificări
+OSDDuration=Durată OSD (ms):
+
+; Tab General - Capturi ecran
+Screenshots=Capturi ecran
+ScreenshotPath=Folder salvare:
+ScreenshotFormat=Format:
+
+; Tab General - Istoric
+HistorySettings=Istoric
+HistoryEnabled=Activare istoric redare
+HistoryMaxItems=Număr maxim elemente:
+
+; Tab General - Limbă
+LanguageGroup=Limbă
+RestartNote=(Este necesară repornirea pentru modificări)
+
+; Tab Video
+VideoAdjust=Ajustări video
+Brightness=Luminozitate:
+Contrast=Contrast:
+Saturation=Saturație:
+Hue=Nuanță:
+Gamma=Gamma:
+VideoOutput=Ieșire video
+Output=Ieșire:
+HWAccel=Activare accelerare hardware
+Deinterlacing=Deinterlacing
+Mode=Mod:
+
+; Tab Audio
+AudioOutput=Ieșire audio
+OutputDriver=Driver ieșire:
+Device=Dispozitiv:
+AudioOptions=Opțiuni audio
+NormalizeAudio=Normalizare volum audio
+Channels=Canale:
+
+; Tab Subtitrări
+UseDefaultSubtitles=Utilizare setări implicite subtitrări
+Font=Font
+FontName=Font:
+FontSize=Dimensiune:
+FontColor=Culoare:
+Bold=Îngroșat
+Italic=Italic
+Outline=Contur
+OutlineColor=Culoare:
+OutlineSize=Dimensiune:
+Position=Poziție
+VerticalPosition=Poziție verticală:
+SubOptions=Opțiuni
+Encoding=Codare:
+AutoLoadSubs=Încărcare automată fișiere subtitrări
+
+; Avertismente ieșire video
+VOWarningX11=Avertisment: x11 nu suportă ajustări video (luminozitate, contrast etc.)
+VOWarningWayland=Avertisment: Necesită sesiune Wayland. Ajustări video suportate.
+
+; Tab Cache
+CacheSettings=Dimensiuni buffer cache (KB)
+CacheDefault=Cache implicit:
+CacheLocal=Fișiere locale:
+CacheNetwork=Fișiere rețea:
+CacheInternet=Fluxuri internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Despre
+Version=Versiune
+Engine=Motor
+Technology=Tehnologie
+BuildInfo=Informații compilare
+SystemInfo=Sistem
+Credits=Credite
+Developer=Dezvoltator:
+Author=Autor
+License=Licență
+Website=Site web
+GitHub=GitHub
+Description=Un player media modern și ușor
+LicenseText=3nity Media este licențiat sub GPL-2.0\n\nAceasta înseamnă că sunteți liber să:\n  - Utilizați software-ul în orice scop\n  - Studiați și modificați codul sursă\n  - Distribuiți copii ale software-ului\n  - Distribuiți modificările dvs.\n\nCu condiția ca modificările distribuite\nsă fie licențiate sub GPL-2.0.
+BuildDate=Dată:
+Target=Țintă:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Comenzi rapide tastatură
+Description=Configurare comenzi rapide pentru acțiuni
+Search=Căutare:
+PressKey=Apăsați o tastă...
+ColCategory=Categorie
+ColAction=Acțiune
+ColShortcut=Comandă rapidă
+Assign=Atribuire
+Clear=Șterge
+Reset=Resetare
+ResetAll=Resetare toate
+CurrentShortcut=Curent: %s
+NoKeyPressed=Apăsați mai întâi o combinație de taste.
+Conflict=Conflict: Deja atribuită la "%s"
+ConfirmReplace=Înlocuire comandă rapidă
+ReplaceMessage=Această comandă rapidă este deja atribuită la "%s". Doriți să o înlocuiți?
+ConfirmResetAll=Resetare toate comenzile rapide
+ResetAllMessage=Sigur doriți să resetați toate comenzile rapide la valorile implicite?
+; Nume acțiuni
+ActPlayPause=Redare / Pauză
+ActStop=Oprire
+ActPrevious=Anterior
+ActNext=Următor
+ActSeekForward=Salt înainte (10s)
+ActSeekBackward=Salt înapoi (10s)
+ActSeekForward5=Salt înainte (1 min)
+ActSeekBackward5=Salt înapoi (1 min)
+ActSpeedUp=Mărire viteză
+ActSpeedDown=Micșorare viteză
+ActSpeedReset=Resetare viteză
+ActSetLoopA=Setare punct buclă A
+ActSetLoopB=Setare punct buclă B
+ActClearLoop=Ștergere buclă A-B
+ActFrameForward=Cadru înainte
+ActFrameBackward=Cadru înapoi
+ActPrevChapter=Capitolul anterior
+ActNextChapter=Capitolul următor
+ActGotoTime=Salt la timp
+ActVolumeUp=Mărire volum
+ActVolumeDown=Micșorare volum
+ActMute=Mut / Activare sunet
+ActAudioDelayPlus=Întârziere audio +
+ActAudioDelayMinus=Întârziere audio -
+ActAudioDelayReset=Resetare întârziere audio
+ActFullscreen=Ecran complet
+ActRotate=Rotire video
+ActDeinterlace=Deinterlacing
+ActZoomIn=Mărire
+ActZoomOut=Micșorare
+ActZoomReset=Resetare zoom
+ActAlwaysOnTop=Întotdeauna deasupra
+ActFitToVideo=Potrivire la video
+ActScreenshot=Captură ecran
+ActVideoAdjust=Ajustări video
+ActVisNextMode=Mod vizualizare următor
+ActVisNextColor=Schemă culori următoare
+ActSubDelayPlus=Întârziere subtitrări +
+ActSubDelayMinus=Întârziere subtitrări -
+ActSubDelayReset=Resetare întârziere subtitrări
+ActDVDMenu=Meniu DVD
+ActDVDUp=Navigare DVD sus
+ActDVDDown=Navigare DVD jos
+ActDVDLeft=Navigare DVD stânga
+ActDVDRight=Navigare DVD dreapta
+ActDVDSelect=Selectare DVD
+ActOpenFile=Deschide fișier
+ActOpenURL=Deschide URL
+ActPlaylist=Afișare listă redare
+ActQuit=Ieșire
+
+[Log]
+; Fază 25: Fereastră jurnal
+Title=Jurnal MPV
+Command=Comandă:
+Clear=Șterge
+Save=Salvare...
+Copy=&Copiere
+SelectAll=Selectează &tot
+SaveTitle=Salvare jurnal
+SaveFilter=Fișiere text (*.txt)|*.txt|Toate fișierele (*.*)|*.*
+ErrorTitle=Eroare
+SaveError=Nu s-a putut salva jurnalul: %s
+
+[MediaInfo]
+Title=Informații media
+FileTab=Fișier
+VideoTab=Video
+AudioTab=Audio
+MetadataTab=Metadate
+FileName=Nume fișier:
+FilePath=Cale:
+FileSize=Dimensiune:
+Duration=Durată:
+Format=Format:
+Bitrate=Rată de biți:
+Codec=Codec:
+Resolution=Rezoluție:
+FrameRate=Rată cadre:
+PixelFormat=Format pixeli:
+AspectRatio=Raport aspect:
+Channels=Canale:
+SampleRate=Rată de eșantionare:
+Language=Limbă:
+Property=Proprietate
+Value=Valoare
+CopyAll=Copiază tot
+CopiedToClipboard=Informațiile media au fost copiate în clipboard.
+NA=N/D
+NAStream=N/D (flux)
+NALive=N/D (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Necunoscut
+NoMetadata=(Fără metadate)
+
+[Bookmarks]
+Title=Marcaje
+Goto=Salt la
+Remove=Elimină
+Clear=Șterge tot
+Refresh=Reîmprospătare
+OpenFolder=Deschide folder
+CopyPath=Copiază calea
+; Coloane
+ColName=Nume
+ColFile=Fișier
+ColPosition=Poziție
+ColCreated=Creat
+; Dialoguri
+ClearTitle=Șterge marcajele
+ClearConfirm=Sigur doriți să ștergeți toate marcajele?
+Count=%d marcaje
+
+[Favorites]
+Title=Favorite
+Play=Redare
+Remove=Elimină
+Clear=Șterge tot
+Refresh=Reîmprospătare
+OpenFolder=Deschide folder
+CopyPath=Copiază calea
+; Coloane
+ColName=Nume
+ColType=Tip
+ColPath=Cale
+; Tipuri
+TypeFile=Fișier
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Necunoscut
+; Dialoguri
+ClearTitle=Șterge favoritele
+ClearConfirm=Sigur doriți să ștergeți toate favoritele?
+Count=%d favorite
+
+[History]
+Title=Istoric redare
+Play=Redare
+Remove=Elimină
+Clear=Șterge tot
+Refresh=Reîmprospătare
+OpenFolder=Deschide folder
+CopyPath=Copiază calea
+; Coloane
+ColFileName=Fișier
+ColPath=Cale
+; Dialoguri
+ClearTitle=Șterge istoricul
+ClearConfirm=Sigur doriți să ștergeți tot istoricul?
+Count=%d elemente
+
+[SleepTimer]
+Title=Temporizator somn
+Description=Setează temporizator pentru oprire automată a redării
+Hours=Ore:
+Minutes=Minute:
+Action=La expirarea temporizatorului:
+StopPlayback=Oprire redare
+CloseApp=Închidere aplicație
+Shutdown=Oprire calculator
+QuickSet=Setare rapidă:
+15Min=15 min
+30Min=30 min
+1Hour=1 oră
+2Hours=2 ore
+
+[Radios]
+Title=Radiouri internet
+Play=Redare
+Add=Adaugă
+Edit=Editare
+Delete=Ștergere
+Remove=Elimină
+Import=Import
+Export=Export
+Refresh=Reîmprospătare
+Favorite=Favorit
+ShowFavorites=Favorite
+ShowAll=Toate
+; Filtru
+Genre=Gen:
+Search=Căutare:
+SearchBtn=Căutare
+ClearSearch=Șterge
+AllGenres=(Toate genurile)
+; Meniu contextual
+AddFavorite=Adaugă la favorite
+RemoveFavorite=Elimină din favorite
+AddCustom=Adaugă stație personalizată...
+EditCustom=Editare stație...
+DeleteCustom=Ștergere stație
+OpenWebsite=Deschide site web
+CopyURL=Copiază URL
+; Coloane
+ColName=Nume
+ColGenre=Gen
+ColBitrate=Rată biți
+ColCountry=Țară
+ColCodec=Codec
+; Dialoguri
+AddTitle=Adaugă stație personalizată
+EditTitle=Editare stație
+DeleteTitle=Ștergere stație
+DeleteConfirm=Sigur doriți să ștergeți această stație?
+StationName=Nume stație:
+StreamURL=URL flux:
+GenrePrompt=Gen:
+NameURLRequired=Numele și URL-ul sunt obligatorii.
+; Mesaje stare
+LoadingIcecast=Se încarcă stațiile din directorul Icecast...
+IcecastError=Nu s-a putut încărca directorul Icecast. Se folosesc stațiile implicite.
+NoStationsLoaded=Nu s-au încărcat stații
+StationCount=%d stații
+LoadedStations=S-au încărcat %d stații
+ErrorPrefix=Eroare:
+; Chei vechi
+Name=Nume
+URL=URL
+Bitrate=Rată biți
+Description=Descriere
+Country=Țară
+
+[OpenURL]
+Title=Deschide URL
+Prompt=Introduceți URL-ul media:
+
+[GotoTime]
+Title=Salt la timp
+EnterTime=Introduceți timpul pentru salt:
+Hours=O
+Minutes=M
+Seconds=S
+Current=Curent:
+Duration=Durată:
+
+[VideoAdjust]
+Title=Ajustări video
+Brightness=Luminozitate:
+Contrast=Contrast:
+Saturation=Saturație:
+Hue=Nuanță:
+Gamma=Gamma:
+ResetAll=Resetare toate culorile
+
+[CLI]
+; Mesaje linia de comandă
+Usage=Utilizare
+Arguments=[OPȚIUNI] [FIȘIER|URL|DOSAR]
+Description=Un player multimedia cross-platform care folosește libmpv ca motor.
+Options=OPȚIUNI
+Examples=EXEMPLE
+MoreInfo=Pentru mai multe informații, vizitați
+EnqueuedTo=Adăugat la coada instanței existente: %s
+SentTo=Trimis la instanța existentă: %s
+AlreadyRunning=3nity Media rulează deja.
+ErrorFileNotFound=Eroare: Fișierul sau directorul nu a fost găsit: %s
+ErrorSubNotFound=Eroare: Fișierul de subtitrare nu a fost găsit: %s

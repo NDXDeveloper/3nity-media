@@ -1,0 +1,892 @@
+[Language]
+Name=Mongolian - Монгол
+Code=mn
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Файлын цэс
+File=&Файл
+FileOpen=&Файл нээх...
+FileOpenURL=&URL нээх...
+FileOpenClipboard=&Clipboard-аас нээх
+FileRecent=&Сүүлийн файлууд
+ClearRecentFiles=Сүүлийн файлуудыг цэвэрлэх
+FileExit=&Гарах
+
+; Тоглуулах цэс
+Playback=&Тоглуулах
+PlaybackPlayPause=&Тоглуулах/Түр зогсоох
+PlaybackStop=&Зогсоох
+PlaybackPrevious=&Өмнөх
+PlaybackNext=&Дараах
+PlaybackSeekForward=&Урагш хайх
+PlaybackSeekBackward=&Хойш хайх
+PlaybackSpeed=&Хурд
+PlaybackABLoop=A-&B давталт
+PlaybackSetA=&A тохируулах
+PlaybackSetB=&B тохируулах
+PlaybackClearAB=A-B &цэвэрлэх
+PlaybackChapters=&Бүлгүүд
+PlaybackPrevChapter=Өмнөх бүлэг
+PlaybackNextChapter=Дараах бүлэг
+PlaybackFrameStep=&Фрейм урагш
+PlaybackFrameBack=&Фрейм хойш
+
+; DVD удирдлага
+PlaybackDVD=DVD &удирдлага
+DVDMenu=&Цэс
+DVDUp=&Дээш
+DVDDown=&Доош
+DVDLeft=&Зүүн
+DVDRight=&Баруун
+DVDSelect=&Сонгох
+PlaybackDVDTitles=DVD &гарчигууд
+
+; Үе 21: Хавтас нээх
+FileOpenFolder=&Хавтас нээх...
+
+; Файлын цэс DVD/Bluray
+FileOpenDVD=&DVD нээх...
+FileOpenBluray=&Blu-ray нээх...
+
+; Үе 13: Цаг руу очих ба түүх
+PlaybackGotoTime=&Цаг руу очих...
+ToolsHistory=&Түүх
+
+; Үе 14: Системийн тавиур
+TrayShow=&Харуулах/Нуух
+TrayPlayPause=&Тоглуулах/Түр зогсоох
+TrayStop=&Зогсоох
+TrayPrevious=&Өмнөх
+TrayNext=&Дараах
+TrayMute=&Дуугүй
+TrayExit=&Гарах
+
+; Үе 15: Хавчуургууд
+PlaybackAddBookmark=&Хавчуурга нэмэх...
+PlaybackBookmarks=&Хавчуургууд
+BookmarksTitle=Хавчуургууд
+BookmarksGoto=Хавчуурга руу &очих
+BookmarksRemove=Хавчуурга &устгах
+BookmarksClear=Бүх хавчуурга &цэвэрлэх
+BookmarksOpenFolder=&Хавтас нээх
+BookmarksCopyPath=&Зам хуулах
+BookmarksCount=%d хавчуурга
+NoBookmarks=(Хавчуурга байхгүй)
+NoFileLoaded=(Файл ачаалаагүй)
+BookmarkAdded=Хавчуурга %s-д нэмэгдсэн
+BookmarkJumped=%s дахь хавчуурга руу үсэрсэн
+AddBookmarkTitle=Хавчуурга нэмэх
+AddBookmarkPrompt=Хавчуургын нэр оруулна уу:
+ShowAllBookmarks=Бүх хавчуурга харуулах...
+
+; Үе 16: Дуртай
+ToolsFavorites=&Дуртай
+ToolsAddFavorite=&Дуртайд нэмэх
+FavoritesTitle=Дуртай
+FavoritesPlay=&Тоглуулах
+FavoritesRemove=Дуртайгаас &устгах
+FavoritesClear=Бүх дуртай &цэвэрлэх
+FavoritesOpenFolder=&Хавтас нээх
+FavoritesCopyPath=&Зам хуулах
+FavoritesCount=%d дуртай
+NoFavorites=(Дуртай байхгүй)
+AddFavoriteTitle=Дуртайд нэмэх
+AddFavoritePrompt=Дуртайн нэр оруулна уу:
+AlreadyFavorite=Аль хэдийн дуртайд байна
+AddedToFavorites=Дуртайд нэмэгдсэн: %s
+NoFileToFavorite=Дуртайд нэмэх файл ачаалаагүй
+FavoriteTypeFile=Файл
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Радио
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Трекийн форматын мөр
+TrackWithTitle=Трек %d: %s
+TrackWithLang=Трек %d (%s)
+TrackNumber=Трек %d
+
+; Хурдны цэсийн зүйлүүд
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Масштабын цэсийн зүйлүүд
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Хадмал трек
+SubtitleDisable=Идэвхгүй
+
+; Үе 17: Унтах цагийн тоолуур
+ToolsSleepTimer=&Унтах цагийн тоолуур...
+ToolsSleepTimerActive=&Унтах цагийн тоолуур [%s]
+ToolsCancelTimer=&Тоолуур цуцлах
+
+; Аудио цэс
+Audio=&Аудио
+AudioTrack=Аудио &трек
+AudioVolumeUp=Дуу &чангалах
+AudioVolumeDown=Дуу &багасгах
+AudioMute=&Дуугүй
+AudioEqualizer=&Эквалайзер
+AudioDelay=Аудио &хоцролт
+AudioDelayPlus=Хоцролт +0.1с
+AudioDelayMinus=Хоцролт -0.1с
+AudioDelayReset=Хоцролт шинэчлэх
+AudioNormalize=Дуу &хэвийн болгох
+
+; Видео цэс
+Video=&Видео
+VideoFullscreen=&Бүтэн дэлгэц
+VideoAspect=&Харьцаа
+VideoAspectAuto=&Автомат
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Дэлгэцийн зураг
+VideoScreenshotAs=Дэлгэцийн зураг &болгон...
+VideoRotation=&Эргүүлэх
+VideoRotate0=&0° (Хэвийн)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Хөрвүүлэх
+VideoFlipH=&Хэвтээ хөрвүүлэх
+VideoFlipV=&Босоо хөрвүүлэх
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Томруулах
+VideoZoomIn=&Томруулах
+VideoZoomOut=&Жижигрүүлэх
+VideoZoomReset=Томруулалт &шинэчлэх
+VideoPan=&Панорам
+VideoPanLeft=Панорам &зүүн
+VideoPanRight=Панорам &баруун
+VideoPanUp=Панорам &дээш
+VideoPanDown=Панорам &доош
+VideoPanReset=Панорам &шинэчлэх
+VideoTrack=Видео &трек
+VideoColors=Өнгөний &тохиргоо
+VideoBrightness=&Тод байдал
+VideoContrast=&Контраст
+VideoSaturation=&Ханалт
+VideoHue=&Өнгө
+VideoGamma=&Гамма
+VideoColorsReset=Бүх өнгө &шинэчлэх
+VideoIncrease=Нэмэх (+5)
+VideoDecrease=Хасах (-5)
+VideoReset=Шинэчлэх
+VideoAdjustDialog=Видео &тохиргоо...
+
+; Харах цэс
+View=&Харах
+ViewAlwaysOnTop=&Үргэлж дээр
+ViewFitToVideo=Видеонд &тохируулах
+ViewScale=Цонхны &масштаб
+
+; Үе 26: Визуалчлалын цэс
+ViewVisualization=&Визуалчлал
+VisNone=&Байхгүй
+VisSpectrum=&Спектр анализатор
+VisWaveform=&Долгионы хэлбэр
+VisVector=&Вектор хүрээ
+VisVolume=&VU хэмжигч
+VisNextMode=Дараах &горим
+VisNextColor=Дараах &өнгөний схем
+
+; Хадмал цэс
+Subtitles=&Хадмал
+SubtitleTrack=Хадмал &трек
+SubtitleLoad=Хадмал &ачаалах...
+SubtitleDelay=Хадмал &хоцролт
+SubtitleDelayPlus=Хоцролт +0.1с
+SubtitleDelayMinus=Хоцролт -0.1с
+SubtitleDelayReset=Хоцролт шинэчлэх
+
+; Хэрэгслийн цэс
+Tools=&Хэрэгсэл
+ToolsPlaylist=&Тоглуулах жагсаалт
+ToolsRadios=&Радио
+ToolsShortcuts=&Товчлуурын товчлол...
+ToolsOptions=&Тохиргоо
+
+; Үе 27: Бичлэгийн цэс
+ToolsRecord=&Урсгал бичих...
+ToolsStopRecord=Бичлэг &зогсоох
+ToolsRecording=&Бичлэг...
+
+; Тусламжийн цэс
+Help=&Тусламж
+HelpMediaInfo=&Медиа мэдээлэл
+HelpLog=&Лог цонх
+HelpAbout=&Тухай
+
+[Dialog]
+OpenFile=Файл нээх
+OpenURL=URL нээх
+SaveScreenshot=Дэлгэцийн зураг хадгалах
+LoadSubtitle=Хадмал файл ачаалах
+EnterURL=URL оруулна уу:
+ResumePlayback=Тоглуулалт үргэлжлүүлэх
+ResumeFrom=%s-аас үргэлжлүүлэх үү?
+ClearRecentFiles=Сүүлийн файлуудыг цэвэрлэх
+NoRecentFiles=(Сүүлийн файл байхгүй)
+NoAudioTracks=(Аудио трек байхгүй)
+NoVideoTracks=(Видео трек байхгүй)
+NoSubtitleTracks=(Хадмал трек байхгүй)
+NoChapters=(Бүлэг байхгүй)
+OpenDVD=DVD нээх
+OpenBluray=Blu-ray нээх
+OpenFolder=Хавтас нээх
+
+; Файлын шүүлтүүр
+ScreenshotFilter=PNG зураг|*.png|JPEG зураг|*.jpg|WebP зураг|*.webp
+DVDFilter=DVD хавтас|*.;*.iso|Бүх файлууд (*.*)|*.*
+BlurayFilter=Blu-ray хавтас|*.;*.iso|Бүх файлууд (*.*)|*.*
+NoDVD=(DVD ачаалаагүй)
+DVDTitle=Гарчиг %d
+GotoTime=Цаг руу очих
+EnterTime=Очих цаг оруулна уу:
+Hours=Цаг
+Minutes=Минут
+Seconds=Секунд
+Current=Одоогийн:
+HistoryTitle=Тоглуулалтын түүх
+HistoryItems=Түүхэнд %d зүйл
+HistoryPlay=&Тоглуулах
+HistoryRemove=Түүхээс &устгах
+HistoryClear=Бүх түүх &цэвэрлэх
+HistoryOpenFolder=&Хавтас нээх
+HistoryCopyPath=&Зам хуулах
+ClearHistory=Түүх цэвэрлэх
+ClearHistoryConfirm=Бүх түүхийг цэвэрлэх үү?
+SleepTimerTitle=Унтах цагийн тоолуур
+SleepTimerDescription=Тоглуулалтыг автоматаар зогсоох тоолуур тохируулах
+SleepTimerHours=Цаг
+SleepTimerMinutes=Минут
+SleepTimerQuickSet=Хурдан тохиргоо
+SleepTimerAction=Тоолуур дуусахад
+SleepTimerStopPlayback=Тоглуулалт зогсоох
+SleepTimerCloseApp=Програм хаах
+SleepTimerShutdown=Компьютер унтраах
+SleepTimerStart=Тоолуур эхлүүлэх
+
+[Status]
+Ready=Бэлэн
+Opening=Нээж байна...
+Playing=Тоглуулж байна
+Paused=Түр зогссон
+Stopped=Зогссон
+Error=Алдаа
+Buffering=Буферлэж байна...
+Seeking=Хайж байна...
+Recording=Бичиж байна
+
+[Message]
+SpeedFormat=Хурд: %.2fx
+VolumeFormat=Дуу: %d%%
+BrightnessFormat=Тод байдал: %d
+ContrastFormat=Контраст: %d
+SaturationFormat=Ханалт: %d
+HueFormat=Өнгө: %d
+GammaFormat=Гамма: %d
+ColorsReset=Видео өнгө шинэчлэгдсэн
+LoopASet=Давталт A %s-д тохируулсан
+LoopBSet=Давталт B %s-д тохируулсан - Давталт идэвхтэй
+LoopCleared=A-B давталт цэвэрлэгдсэн
+SetAFirst=Эхлээд A цэгийг тохируулна уу (L дарах)
+RotationFormat=Эргүүлэлт: %d°
+FlipHOn=Хэвтээ хөрвүүлэлт: АСААЛТТАЙ
+FlipHOff=Хэвтээ хөрвүүлэлт: УНТРААЛТТАЙ
+FlipVOn=Босоо хөрвүүлэлт: АСААЛТТАЙ
+FlipVOff=Босоо хөрвүүлэлт: УНТРААЛТТАЙ
+DeinterlaceOn=Deinterlace: АСААЛТТАЙ
+DeinterlaceOff=Deinterlace: УНТРААЛТТАЙ
+AlwaysOnTopOn=Үргэлж дээр: АСААЛТТАЙ
+AlwaysOnTopOff=Үргэлж дээр: УНТРААЛТТАЙ
+WindowFitted=Цонх %dx%d-д тохирсон
+WindowScale=Цонхны масштаб: %.0f%%
+ScreenshotSaved=Дэлгэцийн зураг хадгалсан: %s
+AudioNormalizeOn=Аудио хэвийн болгох: АСААЛТТАЙ
+AudioNormalizeOff=Аудио хэвийн болгох: УНТРААЛТТАЙ
+AudioDelayFormat=Аудио хоцролт: %.1f с
+SubtitleDelayFormat=Хадмал хоцролт: %.1f с
+ZoomFormat=Томруулалт: %.0f%%
+PanCenter=Панорам: Төв
+PanFormat=Панорам: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Видео ачаалаагүй
+PlayingFromClipboard=Clipboard-аас тоглуулж байна: %s
+ClipboardInvalid=Clipboard-д хүчинтэй URL эсвэл зам байхгүй
+ClipboardEmpty=Clipboard хоосон эсвэл текст байхгүй
+ResumedAt=%s-аас үргэлжлүүлсэн
+FrameStepForward=Фрейм урагш
+FrameStepBackward=Фрейм хойш
+PreviousChapter=Өмнөх бүлэг
+NextChapter=Дараах бүлэг
+PlayingRadio=Радио тоглуулж байна: %s
+PlayingDVD=DVD тоглуулж байна: %s
+PlayingBluray=Blu-ray тоглуулж байна: %s
+DVDTitlePlaying=DVD гарчиг %d
+SeekTo=%s руу хайж байна
+MinimizedToTray=Тавиур руу жижигрүүлсэн. Сэргээхийн тулд давхар товшино уу.
+SleepTimerSet=Унтах тоолуур тохируулсан: %s
+SleepTimerCancelled=Унтах тоолуур цуцлагдсан
+SleepTimerWarning=Унтах тоолуур: 1 минут үлдсэн
+SleepTimerFinal=Унтах тоолуур: 10 секунд үлдсэн
+SleepTimerStopped=Унтах тоолуур: Тоглуулалт зогссон
+SleepTimerClosing=Унтах тоолуур: Програм хааж байна
+SleepTimerShutdown=Унтах тоолуур: Компьютер унтраж байна
+SleepTimerExpired=Унтах тоолуур дууссан
+ShutdownManual=Компьютерийг гараар унтраана уу.
+
+; Үе 21: Хавтас нээх
+FolderOpened=Хавтас нээгдсэн: %d файл
+NoMediaFound=Медиа файл олдсонгүй
+FilesAdded=%d файл жагсаалтад нэмэгдсэн
+
+; Үе 27: Бичлэгийн мессеж
+RecordNeedPlayback=Бичихээс өмнө тоглуулалт эхлүүлнэ үү.
+RecordingStarted=Бичлэг эхэлсэн
+RecordingStopped=Бичлэг зогссон
+
+; Нэмэлт төлөвийн мессежүүд
+EndOfPlaylist=Тоглуулах жагсаалтын төгсгөл
+NoMediaLoaded=Медиа файл ачаалаагүй байна.
+JumpedToNamed=Руу үсэрсэн: %s
+ChapterFormat=Бүлэг %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%s дахь хавчуурга
+
+[Label]
+Muted=Дуугүй
+
+[Button]
+Play=Тоглуулах
+Pause=Түр зогсоох
+Stop=Зогсоох
+Previous=Өмнөх
+Next=Дараах
+Mute=Дуугүй
+Unmute=Дуутай
+Fullscreen=Бүтэн дэлгэц
+OK=OK
+Cancel=Цуцлах
+Apply=Хэрэгжүүлэх
+Close=Хаах
+Yes=Тийм
+No=Үгүй
+
+[Tooltip]
+Play=Тоглуулах/Түр зогсоох
+Stop=Тоглуулалт зогсоох
+Previous=Өмнөх трек
+Next=Дараах трек
+Mute=Дуугүй сэлгэх
+Volume=Дуу
+Seek=Хайх байрлал
+Fullscreen=Бүтэн дэлгэц сэлгэх
+
+[Playlist]
+Title=Тоглуулах жагсаалт
+Add=Нэмэх
+Remove=Устгах
+Clear=Цэвэрлэх
+MoveUp=Дээш зөөх
+MoveDown=Доош зөөх
+Shuffle=Холих
+Repeat=Давтах
+Play=Тоглуулах
+ShuffleOn=Холих: Асаалттай
+ShuffleOff=Холих: Унтраалттай
+RepeatOff=Давтах: Унтраалттай
+RepeatOne=Давтах: Нэг
+RepeatAll=Давтах: Бүгд
+SavePlaylist=Хадгалах
+LoadPlaylist=Ачаалах
+TotalDuration=Нийт: %s
+ItemCount=%d зүйл
+
+; Үе 22: Тоглуулах жагсаалтын сайжруулалт
+Search=Хайх:
+FilterPlaceholder=Жагсаалт шүүх...
+ClearSearch=Цэвэрлэх
+FilterCount=%d/%d
+RemoveDuplicates=&Давхардал устгах
+Properties=&Шинж чанар...
+NoDuplicates=Давхардал олдсонгүй.
+DuplicatesFound=%d давхардал олдсон. Устгах уу?
+RemoveDuplicatesTitle=Давхардал устгах
+PropertiesTitle=Жагсаалтын шинж чанар
+PropTotalItems=Нийт зүйл: %d
+PropTotalDuration=Нийт хугацаа: %s
+PropPlayed=Тоглуулсан: %d
+PropUnplayed=Тоглуулаагүй: %d
+PropTotalSize=Нийт хэмжээ: %.2f MB
+PropShuffle=Холих: %s
+PropRepeat=Давтах: %s
+On=Асаалттай
+Off=Унтраалттай
+
+; ApplyLocale-ийн шинэ түлхүүрүүд
+ClearTitle=Жагсаалт цэвэрлэх
+ClearConfirm=Жагсаалтыг цэвэрлэх үү?
+NoPlaylist=Жагсаалт байхгүй
+StatusFormat=%d зүйл | Нийт: %s
+RepeatOne=Давт. 1
+RepeatAll=Давт. Бүгд
+HintRepeatEnable=Бүгдийг давтах идэвхжүүлэхийн тулд товшино уу
+HintRepeatOne=Нэгийг давтах - Идэвхгүй болгохын тулд товшино уу
+HintRepeatAll=Бүгдийг давтах - Нэгийг давтахын тулд товшино уу
+HintShuffleRepeat=Холих + Бүгдийг давтах - Давтахыг идэвхгүй болгохын тулд товшино уу
+RemoveDuplicatesTitle=Давхардал устгах
+NoDuplicates=Давхардал олдсонгүй.
+SelectAll=Бүгдийг сонгох
+SelectNone=Сонгохгүй
+SelectInvert=Сонголт эргүүлэх
+Sort=Эрэмбэлэх
+SortByName=Нэрээр
+SortByTitle=Гарчигаар
+SortByArtist=Уран бүтээлчээр
+SortByDuration=Хугацаагаар
+SortReverse=Эргүүлэх
+SortRandom=Санамсаргүй
+ColTitle=Гарчиг
+ColDuration=Хугацаа
+ColArtist=Уран бүтээлч
+ColAlbum=Альбом
+PlaylistFilter=M3U жагсаалт|*.m3u|M3U8 жагсаалт|*.m3u8|PLS жагсаалт|*.pls
+
+[Equalizer]
+Title=Эквалайзер
+Presets=Урьдчилсан тохиргоо:
+Preamp=Урьдчилсан хүчдэл:
+Flat=Тэгш
+Rock=Рок
+Pop=Поп
+Jazz=Жазз
+Classical=Сонгодог
+BassBoost=Басс хүчдэл
+TrebleBoost=Өндөр давтамж хүчдэл
+Vocal=Дуу хоолой
+Reset=Шинэчлэх
+Enable=Эквалайзер идэвхжүүлэх
+Save=Хадгалах
+Delete=Устгах
+Ready=Бэлэн
+; Товчлуур ба үйлдлүүд
+SavePreset=Урьдчилсан тохиргоо хадгалах
+DeletePreset=Урьдчилсан тохиргоо устгах
+SavePresetTitle=Урьдчилсан тохиргоо хадгалах
+PresetNamePrompt=Урьдчилсан тохиргооны нэр:
+EnterPresetName=Урьдчилсан тохиргооны нэр оруулна уу.
+OverwritePresetTitle=Урьдчилсан тохиргоо дарж бичих
+OverwritePresetConfirm=Энэ нэртэй урьдчилсан тохиргоо байна. Дарж бичих үү?
+PresetUpdated=Урьдчилсан тохиргоо шинэчлэгдсэн: %s
+PresetSaved=Урьдчилсан тохиргоо хадгалагдсан: %s
+SelectPresetToDelete=Устгах урьдчилсан тохиргоо сонгоно уу.
+CannotDeleteDefault=Анхдагч урьдчилсан тохиргоо устгах боломжгүй.
+DeletePresetTitle=Урьдчилсан тохиргоо устгах
+DeletePresetConfirm=Энэ урьдчилсан тохиргоог устгах уу?
+PresetDeleted=Урьдчилсан тохиргоо устгагдсан
+ResetToFlat=Эквалайзер тэгш болгон шинэчлэгдсэн
+PresetApplied=Урьдчилсан тохиргоо хэрэгжсэн: %s
+
+[Options]
+Title=Тохиргоо
+General=Ерөнхий
+Video=Видео
+Audio=Аудио
+Subtitles=Хадмал
+Cache=Кэш
+Language=Хэл:
+RestartRequired=Өөрчлөлтийг хэрэгжүүлэхэд дахин эхлүүлэх шаардлагатай
+
+; Ерөнхий таб - Зан төлөв
+Behavior=Зан төлөв
+SingleInstance=Зөвхөн нэг instance зөвшөөрөх
+AutoPlay=Нээхэд автоматаар тоглуулах
+AutoResume=Тоглуулах байрлал үргэлжлүүлэх
+MinimizeToTray=Системийн тавиур руу жижигрүүлэх
+AutoSavePlaylist=Гарахдаа жагсаалт хадгалах
+
+; Ерөнхий таб - OSD
+OSD=Дэлгэц дээрх мэдээлэл
+ShowOSD=Дэлгэц дээрх мессеж харуулах
+ShowTrayIcon=Тавиурын дүрс харуулах
+OSDDuration=OSD хугацаа (мс):
+
+; Ерөнхий таб - Дэлгэцийн зураг
+Screenshots=Дэлгэцийн зураг
+ScreenshotPath=Хадгалах хавтас:
+ScreenshotFormat=Формат:
+
+; Ерөнхий таб - Түүх
+HistorySettings=Түүх
+HistoryEnabled=Тоглуулалтын түүх идэвхжүүлэх
+HistoryMaxItems=Хамгийн их зүйл:
+
+; Ерөнхий таб - Хэл
+LanguageGroup=Хэл
+RestartNote=(Өөрчлөлтөд дахин эхлүүлэх шаардлагатай)
+
+; Видео таб
+VideoAdjust=Видео тохиргоо
+Brightness=Тод байдал:
+Contrast=Контраст:
+Saturation=Ханалт:
+Hue=Өнгө:
+Gamma=Гамма:
+VideoOutput=Видео гаралт
+Output=Гаралт:
+HWAccel=Тоног төхөөрөмжийн хурдасгуур идэвхжүүлэх
+Deinterlacing=Deinterlacing
+Mode=Горим:
+
+; Аудио таб
+AudioOutput=Аудио гаралт
+OutputDriver=Гаралтын драйвер:
+Device=Төхөөрөмж:
+AudioOptions=Аудио тохиргоо
+NormalizeAudio=Аудио дуу хэвийн болгох
+Channels=Сувгууд:
+
+; Хадмал таб
+UseDefaultSubtitles=Анхдагч хадмал тохиргоо ашиглах
+Font=Фонт
+FontName=Фонт:
+FontSize=Хэмжээ:
+FontColor=Өнгө:
+Bold=Тод
+Italic=Налуу
+Outline=Хүрээ
+OutlineColor=Өнгө:
+OutlineSize=Хэмжээ:
+Position=Байрлал
+VerticalPosition=Босоо байрлал:
+SubOptions=Тохиргоо
+Encoding=Кодчилол:
+AutoLoadSubs=Хадмал файлуудыг автоматаар ачаалах
+
+; Видео гаралтын анхааруулга
+VOWarningX11=Анхааруулга: x11 видео тохиргоог дэмждэггүй (тод байдал, контраст гэх мэт.)
+VOWarningWayland=Анхааруулга: Wayland сешн шаардлагатай. Видео тохиргоо дэмжигдсэн.
+
+; Кэш таб
+CacheSettings=Кэш буферийн хэмжээ (KB)
+CacheDefault=Анхдагч кэш:
+CacheLocal=Орон нутгийн файлууд:
+CacheNetwork=Сүлжээний файлууд:
+CacheInternet=Интернет урсгал:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Тухай
+Version=Хувилбар
+Engine=Хөдөлгүүр
+Technology=Технологи
+BuildInfo=Бүтээлтийн мэдээлэл
+SystemInfo=Систем
+Credits=Гавьяа
+Developer=Хөгжүүлэгч:
+Author=Зохиогч
+License=Лиценз
+Website=Вэб сайт
+GitHub=GitHub
+Description=Орчин үеийн, хөнгөн медиа тоглуулагч
+LicenseText=3nity Media нь GPL-2.0 лицензтэй\n\nЭнэ нь таныг:\n  • Програмыг ямар ч зорилгоор ашиглах\n  • Эх кодыг судалж, өөрчлөх\n  • Програмын хуулбарыг түгээх\n  • Өөрчлөлтөө түгээх эрхтэй гэсэн үг\n\nТүгээсэн өөрчлөлтүүд мөн\nGPL-2.0 лицензтэй байх нөхцөлтэй.
+BuildDate=Огноо:
+Target=Зорилт:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Гарын товчлол
+Description=Үйлдлүүдэд гарын товчлол тохируулах
+Search=Хайх:
+PressKey=Товчлуур дарна уу...
+ColCategory=Ангилал
+ColAction=Үйлдэл
+ColShortcut=Товчлол
+Assign=Оноох
+Clear=Цэвэрлэх
+Reset=Шинэчлэх
+ResetAll=Бүгдийг шинэчлэх
+CurrentShortcut=Одоогийн: %s
+NoKeyPressed=Эхлээд товчлуур дарна уу.
+Conflict=Зөрчил: "%s"-д аль хэдийн оноогдсон
+ConfirmReplace=Товчлол солих
+ReplaceMessage=Энэ товчлол аль хэдийн "%s"-д оноогдсон. Солих уу?
+ConfirmResetAll=Бүх товчлол шинэчлэх
+ResetAllMessage=Бүх товчлолыг анхдагч болгон шинэчлэх үү?
+; Үйлдлийн нэрс
+ActPlayPause=Тоглуулах / Түр зогсоох
+ActStop=Зогсоох
+ActPrevious=Өмнөх
+ActNext=Дараах
+ActSeekForward=Урагш хайх (10с)
+ActSeekBackward=Хойш хайх (10с)
+ActSeekForward5=Урагш хайх (1 мин)
+ActSeekBackward5=Хойш хайх (1 мин)
+ActSpeedUp=Хурдасгах
+ActSpeedDown=Удаасгах
+ActSpeedReset=Хурд шинэчлэх
+ActSetLoopA=Давталт A цэг тохируулах
+ActSetLoopB=Давталт B цэг тохируулах
+ActClearLoop=A-B давталт цэвэрлэх
+ActFrameForward=Фрейм урагш
+ActFrameBackward=Фрейм хойш
+ActPrevChapter=Өмнөх бүлэг
+ActNextChapter=Дараах бүлэг
+ActGotoTime=Цаг руу очих
+ActVolumeUp=Дуу чангалах
+ActVolumeDown=Дуу багасгах
+ActMute=Дуугүй / Дуутай
+ActAudioDelayPlus=Аудио хоцролт +
+ActAudioDelayMinus=Аудио хоцролт -
+ActAudioDelayReset=Аудио хоцролт шинэчлэх
+ActFullscreen=Бүтэн дэлгэц
+ActRotate=Видео эргүүлэх
+ActDeinterlace=Deinterlace
+ActZoomIn=Томруулах
+ActZoomOut=Жижигрүүлэх
+ActZoomReset=Томруулалт шинэчлэх
+ActAlwaysOnTop=Үргэлж дээр
+ActFitToVideo=Видеонд тохируулах
+ActScreenshot=Дэлгэцийн зураг
+ActVideoAdjust=Видео тохиргоо
+ActVisNextMode=Дараах визуалчлалын горим
+ActVisNextColor=Дараах өнгөний схем
+ActSubDelayPlus=Хадмал хоцролт +
+ActSubDelayMinus=Хадмал хоцролт -
+ActSubDelayReset=Хадмал хоцролт шинэчлэх
+ActDVDMenu=DVD цэс
+ActDVDUp=DVD дээш удирдах
+ActDVDDown=DVD доош удирдах
+ActDVDLeft=DVD зүүн удирдах
+ActDVDRight=DVD баруун удирдах
+ActDVDSelect=DVD сонгох
+ActOpenFile=Файл нээх
+ActOpenURL=URL нээх
+ActPlaylist=Жагсаалт харуулах
+ActQuit=Гарах
+
+[Log]
+; Үе 25: Лог цонх
+Title=MPV лог
+Command=Команд:
+Clear=Цэвэрлэх
+Save=Хадгалах...
+Copy=&Хуулах
+SelectAll=Бүгдийг &сонгох
+SaveTitle=Лог хадгалах
+SaveFilter=Текст файлууд (*.txt)|*.txt|Бүх файлууд (*.*)|*.*
+ErrorTitle=Алдаа
+SaveError=Лог хадгалж чадсангүй: %s
+
+[MediaInfo]
+Title=Медиа мэдээлэл
+FileTab=Файл
+VideoTab=Видео
+AudioTab=Аудио
+MetadataTab=Мета өгөгдөл
+FileName=Файлын нэр:
+FilePath=Зам:
+FileSize=Хэмжээ:
+Duration=Хугацаа:
+Format=Формат:
+Bitrate=Битийн хурд:
+Codec=Кодек:
+Resolution=Нягтаршил:
+FrameRate=Фреймийн хурд:
+PixelFormat=Пикселийн формат:
+AspectRatio=Харьцаа:
+Channels=Сувгууд:
+SampleRate=Түүврийн хурд:
+Language=Хэл:
+Property=Шинж чанар
+Value=Утга
+CopyAll=Бүгдийг хуулах
+CopiedToClipboard=Медиа мэдээлэл clipboard руу хуулагдсан.
+NA=N/A
+NAStream=N/A (урсгал)
+NALive=N/A (шууд)
+ChannelMono=1 (Моно)
+ChannelStereo=2 (Стерео)
+Channel51=6 (5.1 тойрсон)
+Channel71=8 (7.1 тойрсон)
+Unknown=Тодорхойгүй
+NoMetadata=(Мета өгөгдөл байхгүй)
+
+[Bookmarks]
+Title=Хавчуургууд
+Goto=Руу очих
+Remove=Устгах
+Clear=Бүгдийг цэвэрлэх
+Refresh=Шинэчлэх
+OpenFolder=Хавтас нээх
+CopyPath=Зам хуулах
+; Баганууд
+ColName=Нэр
+ColFile=Файл
+ColPosition=Байрлал
+ColCreated=Үүсгэсэн
+; Харилцах цонх
+ClearTitle=Хавчуургууд цэвэрлэх
+ClearConfirm=Бүх хавчуургуудыг цэвэрлэх үү?
+Count=%d хавчуурга
+
+[Favorites]
+Title=Дуртай
+Play=Тоглуулах
+Remove=Устгах
+Clear=Бүгдийг цэвэрлэх
+Refresh=Шинэчлэх
+OpenFolder=Хавтас нээх
+CopyPath=Зам хуулах
+; Баганууд
+ColName=Нэр
+ColType=Төрөл
+ColPath=Зам
+; Төрлүүд
+TypeFile=Файл
+TypeURL=URL
+TypeRadio=Радио
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Тодорхойгүй
+; Харилцах цонх
+ClearTitle=Дуртай цэвэрлэх
+ClearConfirm=Бүх дуртайг цэвэрлэх үү?
+Count=%d дуртай
+
+[History]
+Title=Тоглуулалтын түүх
+Play=Тоглуулах
+Remove=Устгах
+Clear=Бүгдийг цэвэрлэх
+Refresh=Шинэчлэх
+OpenFolder=Хавтас нээх
+CopyPath=Зам хуулах
+; Баганууд
+ColFileName=Файл
+ColPath=Зам
+; Харилцах цонх
+ClearTitle=Түүх цэвэрлэх
+ClearConfirm=Бүх түүхийг цэвэрлэх үү?
+Count=%d зүйл
+
+[SleepTimer]
+Title=Унтах цагийн тоолуур
+Description=Тоглуулалтыг автоматаар зогсоох тоолуур тохируулах
+Hours=Цаг:
+Minutes=Минут:
+Action=Тоолуур дуусахад:
+StopPlayback=Тоглуулалт зогсоох
+CloseApp=Програм хаах
+Shutdown=Компьютер унтраах
+QuickSet=Хурдан тохиргоо:
+15Min=15 мин
+30Min=30 мин
+1Hour=1 цаг
+2Hours=2 цаг
+
+[Radios]
+Title=Интернет радио
+Play=Тоглуулах
+Add=Нэмэх
+Edit=Засах
+Delete=Устгах
+Remove=Устгах
+Import=Импорт
+Export=Экспорт
+Refresh=Шинэчлэх
+Favorite=Дуртай
+ShowFavorites=Дуртай
+ShowAll=Бүгд
+; Шүүлтүүр
+Genre=Төрөл:
+Search=Хайх:
+SearchBtn=Хайх
+ClearSearch=Цэвэрлэх
+AllGenres=(Бүх төрөл)
+; Контекст цэс
+AddFavorite=Дуртайд нэмэх
+RemoveFavorite=Дуртайгаас устгах
+AddCustom=Өөрийн станц нэмэх...
+EditCustom=Станц засах...
+DeleteCustom=Станц устгах
+OpenWebsite=Вэб сайт нээх
+CopyURL=URL хуулах
+; Баганууд
+ColName=Нэр
+ColGenre=Төрөл
+ColBitrate=Битийн хурд
+ColCountry=Улс
+ColCodec=Кодек
+; Харилцах цонх
+AddTitle=Өөрийн станц нэмэх
+EditTitle=Станц засах
+DeleteTitle=Станц устгах
+DeleteConfirm=Энэ станцыг устгах уу?
+StationName=Станцын нэр:
+StreamURL=Урсгалын URL:
+GenrePrompt=Төрөл:
+NameURLRequired=Нэр болон URL шаардлагатай.
+; Төлөвийн мессежүүд
+LoadingIcecast=Icecast лавлахаас станцуудыг ачаалж байна...
+IcecastError=Icecast лавлах ачаалж чадсангүй. Анхдагч станцуудыг ашиглаж байна.
+NoStationsLoaded=Станц ачаалаагүй
+StationCount=%d станц
+LoadedStations=%d станц ачаалсан
+ErrorPrefix=Алдаа:
+; Хуучин түлхүүрүүд
+Name=Нэр
+URL=URL
+Bitrate=Битийн хурд
+Description=Тайлбар
+Country=Улс
+
+[OpenURL]
+Title=URL нээх
+Prompt=Медиа URL оруулна уу:
+
+[GotoTime]
+Title=Цаг руу очих
+EnterTime=Очих цаг оруулна уу:
+Hours=Ц
+Minutes=М
+Seconds=С
+Current=Одоогийн:
+Duration=Хугацаа:
+
+[VideoAdjust]
+Title=Видео тохиргоо
+Brightness=Тод байдал:
+Contrast=Контраст:
+Saturation=Ханалт:
+Hue=Өнгө:
+Gamma=Гамма:
+ResetAll=Бүх өнгө шинэчлэх
+
+[CLI]
+; Командын мөрийн мэдэгдлүүд
+Usage=Хэрэглээ
+Arguments=[СОНГОЛТУУД] [ФАЙЛ|URL|ХАВТАС]
+Description=libmpv хөдөлгүүр ашигладаг олон платформ мультимедиа тоглуулагч.
+Options=СОНГОЛТУУД
+Examples=ЖИШЭЭНҮҮД
+MoreInfo=Дэлгэрэнгүй мэдээлэл авахыг хүсвэл зочилно уу
+EnqueuedTo=Одоо байгаа instance-д дараалалд нэмэгдлээ: %s
+SentTo=Одоо байгаа instance руу илгээлээ: %s
+AlreadyRunning=3nity Media аль хэдийн ажиллаж байна.
+ErrorFileNotFound=Алдаа: Файл эсвэл хавтас олдсонгүй: %s
+ErrorSubNotFound=Алдаа: Хадмал орчуулгын файл олдсонгүй: %s

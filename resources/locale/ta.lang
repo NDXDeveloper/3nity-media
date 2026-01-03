@@ -1,0 +1,892 @@
+[Language]
+Name=Tamil - தமிழ்
+Code=ta
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; கோப்பு மெனு
+File=&கோப்பு
+FileOpen=&கோப்பை திற...
+FileOpenURL=&URL திற...
+FileOpenClipboard=&கிளிப்போர்டிலிருந்து திற
+FileRecent=&சமீபத்திய கோப்புகள்
+ClearRecentFiles=சமீபத்திய கோப்புகளை அழி
+FileExit=&வெளியேறு
+
+; பிளேபேக் மெனு
+Playback=&பிளேபேக்
+PlaybackPlayPause=&இயக்கு/இடைநிறுத்து
+PlaybackStop=&நிறுத்து
+PlaybackPrevious=&முந்தைய
+PlaybackNext=&அடுத்த
+PlaybackSeekForward=&முன்னோக்கி தேடு
+PlaybackSeekBackward=&பின்னோக்கி தேடு
+PlaybackSpeed=&வேகம்
+PlaybackABLoop=A-&B லூப்
+PlaybackSetA=&A அமை
+PlaybackSetB=&B அமை
+PlaybackClearAB=&A-B அழி
+PlaybackChapters=&அத்தியாயங்கள்
+PlaybackPrevChapter=முந்தைய அத்தியாயம்
+PlaybackNextChapter=அடுத்த அத்தியாயம்
+PlaybackFrameStep=பிரேம் &முன்னோக்கி
+PlaybackFrameBack=பிரேம் &பின்னோக்கி
+
+; DVD வழிசெலுத்தல்
+PlaybackDVD=DVD &வழிசெலுத்தல்
+DVDMenu=&மெனு
+DVDUp=&மேலே
+DVDDown=&கீழே
+DVDLeft=&இடது
+DVDRight=&வலது
+DVDSelect=&தேர்வு
+PlaybackDVDTitles=DVD &தலைப்புகள்
+
+; கட்டம் 21: கோப்புறை திற
+FileOpenFolder=கோ&ப்புறை திற...
+
+; கோப்பு மெனு DVD/Bluray
+FileOpenDVD=&DVD திற...
+FileOpenBluray=&Blu-ray திற...
+
+; கட்டம் 13: நேரத்திற்கு செல் மற்றும் வரலாறு
+PlaybackGotoTime=&நேரத்திற்கு செல்...
+ToolsHistory=&வரலாறு
+
+; கட்டம் 14: சிஸ்டம் ட்ரே
+TrayShow=&காட்டு/மறை
+TrayPlayPause=&இயக்கு/இடைநிறுத்து
+TrayStop=&நிறுத்து
+TrayPrevious=&முந்தைய
+TrayNext=&அடுத்த
+TrayMute=&ஒலியடக்கு
+TrayExit=&வெளியேறு
+
+; கட்டம் 15: புக்மார்க்குகள்
+PlaybackAddBookmark=&புக்மார்க் சேர்...
+PlaybackBookmarks=புக்&மார்க்குகள்
+BookmarksTitle=புக்மார்க்குகள்
+BookmarksGoto=புக்மார்க்கிற்கு &செல்
+BookmarksRemove=புக்மார்க் &நீக்கு
+BookmarksClear=அனைத்து புக்மார்க்குகளையும் &அழி
+BookmarksOpenFolder=&கோப்புறை திற
+BookmarksCopyPath=பாதையை &நகலெடு
+BookmarksCount=%d புக்மார்க்குகள்
+NoBookmarks=(புக்மார்க்குகள் இல்லை)
+NoFileLoaded=(கோப்பு ஏற்றப்படவில்லை)
+BookmarkAdded=%s இல் புக்மார்க் சேர்க்கப்பட்டது
+BookmarkJumped=%s இல் புக்மார்க்கிற்கு சென்றது
+AddBookmarkTitle=புக்மார்க் சேர்
+AddBookmarkPrompt=புக்மார்க் பெயரை உள்ளிடுக:
+ShowAllBookmarks=அனைத்து புக்மார்க்குகளையும் காட்டு...
+
+; கட்டம் 16: பிடித்தவை
+ToolsFavorites=&பிடித்தவை
+ToolsAddFavorite=பிடித்தவைக்கு &சேர்
+FavoritesTitle=பிடித்தவை
+FavoritesPlay=&இயக்கு
+FavoritesRemove=பிடித்தவையிலிருந்து &நீக்கு
+FavoritesClear=அனைத்து பிடித்தவைகளையும் &அழி
+FavoritesOpenFolder=&கோப்புறை திற
+FavoritesCopyPath=பாதையை &நகலெடு
+FavoritesCount=%d பிடித்தவை
+NoFavorites=(பிடித்தவை இல்லை)
+AddFavoriteTitle=பிடித்தவைக்கு சேர்
+AddFavoritePrompt=பிடித்ததற்கு பெயர் உள்ளிடுக:
+AlreadyFavorite=ஏற்கனவே பிடித்தவையில் உள்ளது
+AddedToFavorites=பிடித்தவைக்கு சேர்க்கப்பட்டது: %s
+NoFileToFavorite=பிடித்தவைக்கு சேர்க்க கோப்பு ஏற்றப்படவில்லை
+FavoriteTypeFile=கோப்பு
+FavoriteTypeURL=URL
+FavoriteTypeRadio=வானொலி
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; டிராக் வடிவமைப்பு சரங்கள்
+TrackWithTitle=டிராக் %d: %s
+TrackWithLang=டிராக் %d (%s)
+TrackNumber=டிராக் %d
+
+; வேகம் மெனு உருப்படிகள்
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; அளவு மெனு உருப்படிகள்
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; வசன டிராக்
+SubtitleDisable=முடக்கு
+
+; கட்டம் 17: தூக்க டைமர்
+ToolsSleepTimer=&தூக்க டைமர்...
+ToolsSleepTimerActive=&தூக்க டைமர் [%s]
+ToolsCancelTimer=&டைமர் ரத்து
+
+; ஆடியோ மெனு
+Audio=&ஆடியோ
+AudioTrack=ஆடியோ &டிராக்
+AudioVolumeUp=ஒலி &அதிகரி
+AudioVolumeDown=ஒலி &குறை
+AudioMute=&ஒலியடக்கு
+AudioEqualizer=&ஈக்வலைசர்
+AudioDelay=ஆடியோ &தாமதம்
+AudioDelayPlus=தாமதம் +0.1s
+AudioDelayMinus=தாமதம் -0.1s
+AudioDelayReset=தாமதம் மீட்டமை
+AudioNormalize=ஒலியை &இயல்பாக்கு
+
+; வீடியோ மெனு
+Video=&வீடியோ
+VideoFullscreen=&முழு திரை
+VideoAspect=&விகிதம்
+VideoAspectAuto=&தானியங்கி
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&திரைப்பிடிப்பு
+VideoScreenshotAs=திரைப்பிடிப்பு &ஆக...
+VideoRotation=&சுழற்சி
+VideoRotate0=&0° (இயல்பு)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&புரட்டு
+VideoFlipH=&கிடைமட்ட புரட்டு
+VideoFlipV=&செங்குத்து புரட்டு
+VideoDeinterlace=&டீஇன்டர்லேஸ்
+VideoZoom=&பெரிதாக்கு
+VideoZoomIn=பெரிதாக்கு &உள்
+VideoZoomOut=பெரிதாக்கு &வெளி
+VideoZoomReset=பெரிதாக்கு &மீட்டமை
+VideoPan=&பான்
+VideoPanLeft=பான் &இடது
+VideoPanRight=பான் &வலது
+VideoPanUp=பான் &மேலே
+VideoPanDown=பான் &கீழே
+VideoPanReset=பான் &மீட்டமை
+VideoTrack=வீடியோ &டிராக்
+VideoColors=நிற &சரிசெய்தல்கள்
+VideoBrightness=&பிரகாசம்
+VideoContrast=&மாறுபாடு
+VideoSaturation=&செறிவு
+VideoHue=&நிறத்தொனி
+VideoGamma=&காமா
+VideoColorsReset=அனைத்து நிறங்களையும் &மீட்டமை
+VideoIncrease=அதிகரி (+5)
+VideoDecrease=குறை (-5)
+VideoReset=மீட்டமை
+VideoAdjustDialog=வீடியோ &சரிசெய்தல்கள்...
+
+; காட்சி மெனு
+View=கா&ட்சி
+ViewAlwaysOnTop=&எப்போதும் மேலே
+ViewFitToVideo=வீடியோவுக்கு &பொருத்து
+ViewScale=சாளர &அளவு
+
+; கட்டம் 26: காட்சிப்படுத்தல் மெனு
+ViewVisualization=&காட்சிப்படுத்தல்
+VisNone=&ஏதுமில்லை
+VisSpectrum=&ஸ்பெக்ட்ரம் பகுப்பாய்வி
+VisWaveform=&அலைவடிவம்
+VisVector=&வெக்டர் ஸ்கோப்
+VisVolume=&VU மீட்டர்
+VisNextMode=அடுத்த &முறை
+VisNextColor=அடுத்த &நிறத் திட்டம்
+
+; வசன மெனு
+Subtitles=&வசனங்கள்
+SubtitleTrack=வசன &டிராக்
+SubtitleLoad=வசனம் &ஏற்று...
+SubtitleDelay=வசன &தாமதம்
+SubtitleDelayPlus=தாமதம் +0.1s
+SubtitleDelayMinus=தாமதம் -0.1s
+SubtitleDelayReset=தாமதம் மீட்டமை
+
+; கருவிகள் மெனு
+Tools=&கருவிகள்
+ToolsPlaylist=&பிளேலிஸ்ட்
+ToolsRadios=&வானொலிகள்
+ToolsShortcuts=&விசைப்பலகை குறுக்குவழிகள்...
+ToolsOptions=&விருப்பங்கள்
+
+; கட்டம் 27: பதிவு மெனு
+ToolsRecord=&ஸ்ட்ரீம் பதிவு...
+ToolsStopRecord=பதிவை &நிறுத்து
+ToolsRecording=&பதிவு...
+
+; உதவி மெனு
+Help=&உதவி
+HelpMediaInfo=&மீடியா தகவல்
+HelpLog=&பதிவு சாளரம்
+HelpAbout=&பற்றி
+
+[Dialog]
+OpenFile=கோப்பை திற
+OpenURL=URL திற
+SaveScreenshot=திரைப்பிடிப்பை சேமி
+LoadSubtitle=வசன கோப்பை ஏற்று
+EnterURL=URL உள்ளிடுக:
+ResumePlayback=பிளேபேக் தொடர்
+ResumeFrom=%s இலிருந்து தொடரவா?
+ClearRecentFiles=சமீபத்திய கோப்புகளை அழி
+NoRecentFiles=(சமீபத்திய கோப்புகள் இல்லை)
+NoAudioTracks=(ஆடியோ டிராக்குகள் இல்லை)
+NoVideoTracks=(வீடியோ டிராக்குகள் இல்லை)
+NoSubtitleTracks=(வசன டிராக்குகள் இல்லை)
+NoChapters=(அத்தியாயங்கள் இல்லை)
+OpenDVD=DVD திற
+OpenBluray=Blu-ray திற
+OpenFolder=கோப்புறை திற
+
+; கோப்பு வடிகட்டிகள்
+ScreenshotFilter=PNG படம்|*.png|JPEG படம்|*.jpg|WebP படம்|*.webp
+DVDFilter=DVD கோப்புறை|*.;*.iso|அனைத்து கோப்புகள் (*.*)|*.*
+BlurayFilter=Blu-ray கோப்புறை|*.;*.iso|அனைத்து கோப்புகள் (*.*)|*.*
+NoDVD=(DVD ஏற்றப்படவில்லை)
+DVDTitle=தலைப்பு %d
+GotoTime=நேரத்திற்கு செல்
+EnterTime=செல்ல நேரத்தை உள்ளிடுக:
+Hours=மணி
+Minutes=நிமிடம்
+Seconds=வினாடி
+Current=தற்போதைய:
+HistoryTitle=பிளேபேக் வரலாறு
+HistoryItems=வரலாற்றில் %d உருப்படிகள்
+HistoryPlay=&இயக்கு
+HistoryRemove=வரலாற்றிலிருந்து &நீக்கு
+HistoryClear=அனைத்து வரலாற்றையும் &அழி
+HistoryOpenFolder=&கோப்புறை திற
+HistoryCopyPath=பாதையை &நகலெடு
+ClearHistory=வரலாற்றை அழி
+ClearHistoryConfirm=அனைத்து வரலாற்றையும் அழிக்க விரும்புகிறீர்களா?
+SleepTimerTitle=தூக்க டைமர்
+SleepTimerDescription=பிளேபேக்கை தானாக நிறுத்த டைமர் அமை
+SleepTimerHours=மணி
+SleepTimerMinutes=நிமிடம்
+SleepTimerQuickSet=விரைவு அமைப்பு
+SleepTimerAction=டைமர் முடிவடையும்போது
+SleepTimerStopPlayback=பிளேபேக் நிறுத்து
+SleepTimerCloseApp=பயன்பாட்டை மூடு
+SleepTimerShutdown=கணினியை நிறுத்து
+SleepTimerStart=டைமர் தொடங்கு
+
+[Status]
+Ready=தயார்
+Opening=திறக்கிறது...
+Playing=இயக்குகிறது
+Paused=இடைநிறுத்தப்பட்டது
+Stopped=நிறுத்தப்பட்டது
+Error=பிழை
+Buffering=இடையகப்படுத்துகிறது...
+Seeking=தேடுகிறது...
+Recording=பதிவு செய்கிறது
+
+[Message]
+SpeedFormat=வேகம்: %.2fx
+VolumeFormat=ஒலி: %d%%
+BrightnessFormat=பிரகாசம்: %d
+ContrastFormat=மாறுபாடு: %d
+SaturationFormat=செறிவு: %d
+HueFormat=நிறத்தொனி: %d
+GammaFormat=காமா: %d
+ColorsReset=வீடியோ நிறங்கள் மீட்டமைக்கப்பட்டன
+LoopASet=%s இல் லூப் A அமைக்கப்பட்டது
+LoopBSet=%s இல் லூப் B அமைக்கப்பட்டது - லூப் செயலில்
+LoopCleared=A-B லூப் அழிக்கப்பட்டது
+SetAFirst=முதலில் புள்ளி A அமைக்கவும் (L அழுத்துக)
+RotationFormat=சுழற்சி: %d°
+FlipHOn=கிடைமட்ட புரட்டு: ஆன்
+FlipHOff=கிடைமட்ட புரட்டு: ஆஃப்
+FlipVOn=செங்குத்து புரட்டு: ஆன்
+FlipVOff=செங்குத்து புரட்டு: ஆஃப்
+DeinterlaceOn=டீஇன்டர்லேஸ்: ஆன்
+DeinterlaceOff=டீஇன்டர்லேஸ்: ஆஃப்
+AlwaysOnTopOn=எப்போதும் மேலே: ஆன்
+AlwaysOnTopOff=எப்போதும் மேலே: ஆஃப்
+WindowFitted=சாளரம் %dx%d க்கு பொருத்தப்பட்டது
+WindowScale=சாளர அளவு: %.0f%%
+ScreenshotSaved=திரைப்பிடிப்பு சேமிக்கப்பட்டது: %s
+AudioNormalizeOn=ஆடியோ இயல்பாக்கம்: ஆன்
+AudioNormalizeOff=ஆடியோ இயல்பாக்கம்: ஆஃப்
+AudioDelayFormat=ஆடியோ தாமதம்: %.1f s
+SubtitleDelayFormat=வசன தாமதம்: %.1f s
+ZoomFormat=பெரிதாக்கம்: %.0f%%
+PanCenter=பான்: மையம்
+PanFormat=பான்: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=வீடியோ ஏற்றப்படவில்லை
+PlayingFromClipboard=கிளிப்போர்டிலிருந்து இயக்குகிறது: %s
+ClipboardInvalid=கிளிப்போர்டில் சரியான URL அல்லது பாதை இல்லை
+ClipboardEmpty=கிளிப்போர்டு காலியாக உள்ளது அல்லது உரை இல்லை
+ResumedAt=%s இல் தொடர்ந்தது
+FrameStepForward=பிரேம் முன்னோக்கி
+FrameStepBackward=பிரேம் பின்னோக்கி
+PreviousChapter=முந்தைய அத்தியாயம்
+NextChapter=அடுத்த அத்தியாயம்
+PlayingRadio=வானொலி இயக்குகிறது: %s
+PlayingDVD=DVD இயக்குகிறது: %s
+PlayingBluray=Blu-ray இயக்குகிறது: %s
+DVDTitlePlaying=DVD தலைப்பு %d
+SeekTo=%s க்கு செல்கிறது
+MinimizedToTray=ட்ரேயில் சிறிதாக்கப்பட்டது. மீட்டமைக்க இருமுறை கிளிக் செய்க.
+SleepTimerSet=தூக்க டைமர் அமைக்கப்பட்டது: %s
+SleepTimerCancelled=தூக்க டைமர் ரத்து
+SleepTimerWarning=தூக்க டைமர்: 1 நிமிடம் மீதம்
+SleepTimerFinal=தூக்க டைமர்: 10 வினாடிகள் மீதம்
+SleepTimerStopped=தூக்க டைமர்: பிளேபேக் நிறுத்தப்பட்டது
+SleepTimerClosing=தூக்க டைமர்: பயன்பாடு மூடப்படுகிறது
+SleepTimerShutdown=தூக்க டைமர்: கணினி நிறுத்தப்படுகிறது
+SleepTimerExpired=தூக்க டைமர் முடிந்தது
+ShutdownManual=உங்கள் கணினியை கைமுறையாக நிறுத்துக.
+
+; கட்டம் 21: கோப்புறை திற
+FolderOpened=கோப்புறை திறக்கப்பட்டது: %d கோப்புகள்
+NoMediaFound=மீடியா கோப்புகள் இல்லை
+FilesAdded=பிளேலிஸ்ட்டில் %d கோப்புகள் சேர்க்கப்பட்டன
+
+; கட்டம் 27: பதிவு செய்திகள்
+RecordNeedPlayback=பதிவுக்கு முன் பிளேபேக் தொடங்குக.
+RecordingStarted=பதிவு தொடங்கியது
+RecordingStopped=பதிவு நிறுத்தப்பட்டது
+
+; கூடுதல் நிலை செய்திகள்
+EndOfPlaylist=பிளேலிஸ்ட் முடிவு
+NoMediaLoaded=தற்போது மீடியா கோப்பு ஏற்றப்படவில்லை.
+JumpedToNamed=இதற்கு சென்றது: %s
+ChapterFormat=அத்தியாயம் %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%s இல் புக்மார்க்
+
+[Label]
+Muted=ஒலியடக்கப்பட்டது
+
+[Button]
+Play=இயக்கு
+Pause=இடைநிறுத்து
+Stop=நிறுத்து
+Previous=முந்தைய
+Next=அடுத்த
+Mute=ஒலியடக்கு
+Unmute=ஒலிநீக்கு
+Fullscreen=முழு திரை
+OK=சரி
+Cancel=ரத்து
+Apply=பயன்படுத்து
+Close=மூடு
+Yes=ஆம்
+No=இல்லை
+
+[Tooltip]
+Play=இயக்கு/இடைநிறுத்து
+Stop=பிளேபேக் நிறுத்து
+Previous=முந்தைய டிராக்
+Next=அடுத்த டிராக்
+Mute=ஒலியடக்கு மாற்று
+Volume=ஒலி
+Seek=தேடல் நிலை
+Fullscreen=முழு திரை மாற்று
+
+[Playlist]
+Title=பிளேலிஸ்ட்
+Add=சேர்
+Remove=நீக்கு
+Clear=அழி
+MoveUp=மேலே நகர்த்து
+MoveDown=கீழே நகர்த்து
+Shuffle=கலக்கு
+Repeat=மீண்டும்
+Play=இயக்கு
+ShuffleOn=கலக்கு: ஆன்
+ShuffleOff=கலக்கு: ஆஃப்
+RepeatOff=மீண்டும்: ஆஃப்
+RepeatOne=மீண்டும்: ஒன்று
+RepeatAll=மீண்டும்: அனைத்து
+SavePlaylist=சேமி
+LoadPlaylist=ஏற்று
+TotalDuration=மொத்தம்: %s
+ItemCount=%d உருப்படிகள்
+
+; கட்டம் 22: பிளேலிஸ்ட் மேம்பாடுகள்
+Search=தேடு:
+FilterPlaceholder=பிளேலிஸ்ட் வடிகட்டு...
+ClearSearch=அழி
+FilterCount=%d/%d
+RemoveDuplicates=நகல்களை &நீக்கு
+Properties=&பண்புகள்...
+NoDuplicates=நகல்கள் இல்லை.
+DuplicatesFound=%d நகல்(கள்) கண்டுபிடிக்கப்பட்டன. நீக்கவா?
+RemoveDuplicatesTitle=நகல்களை நீக்கு
+PropertiesTitle=பிளேலிஸ்ட் பண்புகள்
+PropTotalItems=மொத்த உருப்படிகள்: %d
+PropTotalDuration=மொத்த நேரம்: %s
+PropPlayed=இயக்கப்பட்டவை: %d
+PropUnplayed=இயக்கப்படாதவை: %d
+PropTotalSize=மொத்த அளவு: %.2f MB
+PropShuffle=கலக்கு: %s
+PropRepeat=மீண்டும்: %s
+On=ஆன்
+Off=ஆஃப்
+
+; ApplyLocale க்கான புதிய விசைகள்
+ClearTitle=பிளேலிஸ்ட் அழி
+ClearConfirm=பிளேலிஸ்ட்டை அழிக்க விரும்புகிறீர்களா?
+NoPlaylist=பிளேலிஸ்ட் இல்லை
+StatusFormat=%d உருப்படிகள் | மொத்தம்: %s
+RepeatOne=மீ. 1
+RepeatAll=மீ. அனை
+HintRepeatEnable=அனைத்தையும் மீண்டும் இயக்க கிளிக் செய்க
+HintRepeatOne=ஒன்றை மீண்டும் - முடக்க கிளிக் செய்க
+HintRepeatAll=அனைத்தையும் மீண்டும் - ஒன்றை மீண்டும் கிளிக் செய்க
+HintShuffleRepeat=கலக்கு + அனைத்தையும் மீண்டும் - மீண்டும் முடக்க கிளிக் செய்க
+RemoveDuplicatesTitle=நகல்களை நீக்கு
+NoDuplicates=நகல்கள் இல்லை.
+SelectAll=அனைத்தையும் தேர்
+SelectNone=எதையும் தேர்வேண்டாம்
+SelectInvert=தேர்வை புரட்டு
+Sort=வரிசைப்படுத்து
+SortByName=பெயரால்
+SortByTitle=தலைப்பால்
+SortByArtist=கலைஞரால்
+SortByDuration=நேரத்தால்
+SortReverse=தலைகீழ்
+SortRandom=சீரற்று
+ColTitle=தலைப்பு
+ColDuration=நேரம்
+ColArtist=கலைஞர்
+ColAlbum=ஆல்பம்
+PlaylistFilter=M3U பிளேலிஸ்ட்|*.m3u|M3U8 பிளேலிஸ்ட்|*.m3u8|PLS பிளேலிஸ்ட்|*.pls
+
+[Equalizer]
+Title=ஈக்வலைசர்
+Presets=முன்னமைவுகள்:
+Preamp=ப்ரீஆம்ப்:
+Flat=தட்டையான
+Rock=ராக்
+Pop=பாப்
+Jazz=ஜாஸ்
+Classical=கிளாசிக்கல்
+BassBoost=பாஸ் பூஸ்ட்
+TrebleBoost=ட்ரெபிள் பூஸ்ட்
+Vocal=குரல்
+Reset=மீட்டமை
+Enable=ஈக்வலைசர் இயக்கு
+Save=சேமி
+Delete=நீக்கு
+Ready=தயார்
+; பொத்தான்கள் மற்றும் செயல்கள்
+SavePreset=முன்னமைவு சேமி
+DeletePreset=முன்னமைவு நீக்கு
+SavePresetTitle=முன்னமைவு சேமி
+PresetNamePrompt=முன்னமைவு பெயர்:
+EnterPresetName=முன்னமைவு பெயரை உள்ளிடுக.
+OverwritePresetTitle=முன்னமைவு மேலெழுது
+OverwritePresetConfirm=இந்த பெயரில் முன்னமைவு உள்ளது. மேலெழுதவா?
+PresetUpdated=முன்னமைவு புதுப்பிக்கப்பட்டது: %s
+PresetSaved=முன்னமைவு சேமிக்கப்பட்டது: %s
+SelectPresetToDelete=நீக்க முன்னமைவை தேர்க.
+CannotDeleteDefault=இயல்புநிலை முன்னமைவுகளை நீக்க முடியாது.
+DeletePresetTitle=முன்னமைவு நீக்கு
+DeletePresetConfirm=இந்த முன்னமைவை நீக்க விரும்புகிறீர்களா?
+PresetDeleted=முன்னமைவு நீக்கப்பட்டது
+ResetToFlat=ஈக்வலைசர் தட்டையாக மீட்டமைக்கப்பட்டது
+PresetApplied=முன்னமைவு பயன்படுத்தப்பட்டது: %s
+
+[Options]
+Title=விருப்பங்கள்
+General=பொது
+Video=வீடியோ
+Audio=ஆடியோ
+Subtitles=வசனங்கள்
+Cache=கேச்
+Language=மொழி:
+RestartRequired=மாற்றங்கள் செயல்பட மறுதொடக்கம் தேவை
+
+; பொது தாவல் - நடத்தை
+Behavior=நடத்தை
+SingleInstance=ஒரே நிகழ்வு மட்டும் அனுமதி
+AutoPlay=திறக்கும்போது தானாக இயக்கு
+AutoResume=பிளேபேக் நிலையை தொடர்
+MinimizeToTray=சிஸ்டம் ட்ரேயில் சிறிதாக்கு
+AutoSavePlaylist=வெளியேறும்போது பிளேலிஸ்ட் சேமி
+
+; பொது தாவல் - OSD
+OSD=திரை காட்சி
+ShowOSD=திரை செய்திகளை காட்டு
+ShowTrayIcon=ட்ரே ஐகான் காட்டு
+OSDDuration=OSD நேரம் (ms):
+
+; பொது தாவல் - திரைப்பிடிப்புகள்
+Screenshots=திரைப்பிடிப்புகள்
+ScreenshotPath=சேமிக்கும் கோப்புறை:
+ScreenshotFormat=வடிவம்:
+
+; பொது தாவல் - வரலாறு
+HistorySettings=வரலாறு
+HistoryEnabled=பிளேபேக் வரலாறு இயக்கு
+HistoryMaxItems=அதிகபட்ச உருப்படிகள்:
+
+; பொது தாவல் - மொழி
+LanguageGroup=மொழி
+RestartNote=(மாற்றங்களுக்கு மறுதொடக்கம் தேவை)
+
+; வீடியோ தாவல்
+VideoAdjust=வீடியோ சரிசெய்தல்கள்
+Brightness=பிரகாசம்:
+Contrast=மாறுபாடு:
+Saturation=செறிவு:
+Hue=நிறத்தொனி:
+Gamma=காமா:
+VideoOutput=வீடியோ வெளியீடு
+Output=வெளியீடு:
+HWAccel=வன்பொருள் முடுக்கம் இயக்கு
+Deinterlacing=டீஇன்டர்லேசிங்
+Mode=முறை:
+
+; ஆடியோ தாவல்
+AudioOutput=ஆடியோ வெளியீடு
+OutputDriver=வெளியீட்டு இயக்கி:
+Device=சாதனம்:
+AudioOptions=ஆடியோ விருப்பங்கள்
+NormalizeAudio=ஆடியோ ஒலியை இயல்பாக்கு
+Channels=சேனல்கள்:
+
+; வசனங்கள் தாவல்
+UseDefaultSubtitles=இயல்புநிலை வசன அமைப்புகளைப் பயன்படுத்து
+Font=எழுத்துரு
+FontName=எழுத்துரு:
+FontSize=அளவு:
+FontColor=நிறம்:
+Bold=தடிப்பு
+Italic=சாய்வு
+Outline=விளிம்பு
+OutlineColor=நிறம்:
+OutlineSize=அளவு:
+Position=நிலை
+VerticalPosition=செங்குத்து நிலை:
+SubOptions=விருப்பங்கள்
+Encoding=குறியாக்கம்:
+AutoLoadSubs=வசன கோப்புகளை தானாக ஏற்று
+
+; வீடியோ வெளியீடு எச்சரிக்கைகள்
+VOWarningX11=எச்சரிக்கை: x11 வீடியோ சரிசெய்தல்களை (பிரகாசம், மாறுபாடு, போன்றவை) ஆதரிக்காது
+VOWarningWayland=எச்சரிக்கை: Wayland அமர்வு தேவை. வீடியோ சரிசெய்தல்கள் ஆதரிக்கப்படுகின்றன.
+
+; கேச் தாவல்
+CacheSettings=கேச் இடையக அளவுகள் (KB)
+CacheDefault=இயல்புநிலை கேச்:
+CacheLocal=உள்ளூர் கோப்புகள்:
+CacheNetwork=நெட்வொர்க் கோப்புகள்:
+CacheInternet=இணைய ஸ்ட்ரீம்கள்:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=பற்றி
+Version=பதிப்பு
+Engine=இயந்திரம்
+Technology=தொழில்நுட்பம்
+BuildInfo=உருவாக்க தகவல்
+SystemInfo=சிஸ்டம்
+Credits=நன்றிகள்
+Developer=உருவாக்குநர்:
+Author=ஆசிரியர்
+License=உரிமம்
+Website=இணையதளம்
+GitHub=GitHub
+Description=நவீன, இலகுவான மீடியா பிளேயர்
+LicenseText=3nity Media GPL-2.0 உரிமத்தின் கீழ் உரிமம் பெற்றது\n\nநீங்கள் சுதந்திரமாக:\n  • எந்த நோக்கத்திற்கும் மென்பொருளைப் பயன்படுத்தலாம்\n  • மூலக் குறியீட்டை படிக்கலாம் மற்றும் மாற்றலாம்\n  • மென்பொருளின் நகல்களை விநியோகிக்கலாம்\n  • உங்கள் மாற்றங்களை விநியோகிக்கலாம்\n\nவிநியோகிக்கப்படும் எந்த மாற்றமும்\nGPL-2.0 கீழ் உரிமம் பெற்றிருக்க வேண்டும் என்ற நிபந்தனையுடன்.
+BuildDate=தேதி:
+Target=இலக்கு:
+Kernel=கர்னல்:
+
+[Shortcuts]
+Title=விசைப்பலகை குறுக்குவழிகள்
+Description=செயல்களுக்கான விசைப்பலகை குறுக்குவழிகளை கட்டமை
+Search=தேடு:
+PressKey=விசை அழுத்துக...
+ColCategory=வகை
+ColAction=செயல்
+ColShortcut=குறுக்குவழி
+Assign=ஒதுக்கு
+Clear=அழி
+Reset=மீட்டமை
+ResetAll=அனைத்தையும் மீட்டமை
+CurrentShortcut=தற்போதைய: %s
+NoKeyPressed=முதலில் விசை கலவையை அழுத்துக.
+Conflict=முரண்பாடு: ஏற்கனவே "%s" க்கு ஒதுக்கப்பட்டுள்ளது
+ConfirmReplace=குறுக்குவழி மாற்று
+ReplaceMessage=இந்த குறுக்குவழி ஏற்கனவே "%s" க்கு ஒதுக்கப்பட்டுள்ளது. மாற்ற விரும்புகிறீர்களா?
+ConfirmResetAll=அனைத்து குறுக்குவழிகளையும் மீட்டமை
+ResetAllMessage=அனைத்து குறுக்குவழிகளையும் இயல்புநிலைக்கு மீட்டமைக்க விரும்புகிறீர்களா?
+; செயல் பெயர்கள்
+ActPlayPause=இயக்கு / இடைநிறுத்து
+ActStop=நிறுத்து
+ActPrevious=முந்தைய
+ActNext=அடுத்த
+ActSeekForward=முன்னோக்கி தேடு (10s)
+ActSeekBackward=பின்னோக்கி தேடு (10s)
+ActSeekForward5=முன்னோக்கி தேடு (1 நிமிடம்)
+ActSeekBackward5=பின்னோக்கி தேடு (1 நிமிடம்)
+ActSpeedUp=வேகம் அதிகரி
+ActSpeedDown=வேகம் குறை
+ActSpeedReset=வேகம் மீட்டமை
+ActSetLoopA=லூப் புள்ளி A அமை
+ActSetLoopB=லூப் புள்ளி B அமை
+ActClearLoop=A-B லூப் அழி
+ActFrameForward=பிரேம் முன்னோக்கி
+ActFrameBackward=பிரேம் பின்னோக்கி
+ActPrevChapter=முந்தைய அத்தியாயம்
+ActNextChapter=அடுத்த அத்தியாயம்
+ActGotoTime=நேரத்திற்கு செல்
+ActVolumeUp=ஒலி அதிகரி
+ActVolumeDown=ஒலி குறை
+ActMute=ஒலியடக்கு / ஒலிநீக்கு
+ActAudioDelayPlus=ஆடியோ தாமதம் +
+ActAudioDelayMinus=ஆடியோ தாமதம் -
+ActAudioDelayReset=ஆடியோ தாமதம் மீட்டமை
+ActFullscreen=முழு திரை
+ActRotate=வீடியோ சுழற்று
+ActDeinterlace=டீஇன்டர்லேஸ்
+ActZoomIn=பெரிதாக்கு உள்
+ActZoomOut=பெரிதாக்கு வெளி
+ActZoomReset=பெரிதாக்கு மீட்டமை
+ActAlwaysOnTop=எப்போதும் மேலே
+ActFitToVideo=வீடியோவுக்கு பொருத்து
+ActScreenshot=திரைப்பிடிப்பு
+ActVideoAdjust=வீடியோ சரிசெய்தல்கள்
+ActVisNextMode=அடுத்த காட்சிப்படுத்தல் முறை
+ActVisNextColor=அடுத்த நிறத் திட்டம்
+ActSubDelayPlus=வசன தாமதம் +
+ActSubDelayMinus=வசன தாமதம் -
+ActSubDelayReset=வசன தாமதம் மீட்டமை
+ActDVDMenu=DVD மெனு
+ActDVDUp=DVD மேலே செல்
+ActDVDDown=DVD கீழே செல்
+ActDVDLeft=DVD இடது செல்
+ActDVDRight=DVD வலது செல்
+ActDVDSelect=DVD தேர்வு
+ActOpenFile=கோப்பை திற
+ActOpenURL=URL திற
+ActPlaylist=பிளேலிஸ்ட் காட்டு
+ActQuit=வெளியேறு
+
+[Log]
+; கட்டம் 25: பதிவு சாளரம்
+Title=MPV பதிவு
+Command=கட்டளை:
+Clear=அழி
+Save=சேமி...
+Copy=&நகலெடு
+SelectAll=&அனைத்தையும் தேர்
+SaveTitle=பதிவை சேமி
+SaveFilter=உரை கோப்புகள் (*.txt)|*.txt|அனைத்து கோப்புகள் (*.*)|*.*
+ErrorTitle=பிழை
+SaveError=பதிவை சேமிக்க முடியவில்லை: %s
+
+[MediaInfo]
+Title=மீடியா தகவல்
+FileTab=கோப்பு
+VideoTab=வீடியோ
+AudioTab=ஆடியோ
+MetadataTab=மெட்டாடேட்டா
+FileName=கோப்பு பெயர்:
+FilePath=பாதை:
+FileSize=அளவு:
+Duration=நேரம்:
+Format=வடிவம்:
+Bitrate=பிட்ரேட்:
+Codec=கோடெக்:
+Resolution=தெளிவு:
+FrameRate=பிரேம் வீதம்:
+PixelFormat=பிக்சல் வடிவம்:
+AspectRatio=விகிதம்:
+Channels=சேனல்கள்:
+SampleRate=மாதிரி வீதம்:
+Language=மொழி:
+Property=பண்பு
+Value=மதிப்பு
+CopyAll=அனைத்தையும் நகலெடு
+CopiedToClipboard=மீடியா தகவல் கிளிப்போர்டில் நகலெடுக்கப்பட்டது.
+NA=கிடைக்கவில்லை
+NAStream=கிடைக்கவில்லை (ஸ்ட்ரீம்)
+NALive=கிடைக்கவில்லை (நேரடி)
+ChannelMono=1 (மோனோ)
+ChannelStereo=2 (ஸ்டீரியோ)
+Channel51=6 (5.1 சரவுண்ட்)
+Channel71=8 (7.1 சரவுண்ட்)
+Unknown=தெரியாது
+NoMetadata=(மெட்டாடேட்டா இல்லை)
+
+[Bookmarks]
+Title=புக்மார்க்குகள்
+Goto=செல்
+Remove=நீக்கு
+Clear=அனைத்தையும் அழி
+Refresh=புதுப்பி
+OpenFolder=கோப்புறை திற
+CopyPath=பாதையை நகலெடு
+; நெடுவரிசைகள்
+ColName=பெயர்
+ColFile=கோப்பு
+ColPosition=நிலை
+ColCreated=உருவாக்கப்பட்டது
+; உரையாடல்கள்
+ClearTitle=புக்மார்க்குகளை அழி
+ClearConfirm=அனைத்து புக்மார்க்குகளையும் அழிக்க விரும்புகிறீர்களா?
+Count=%d புக்மார்க்(கள்)
+
+[Favorites]
+Title=பிடித்தவை
+Play=இயக்கு
+Remove=நீக்கு
+Clear=அனைத்தையும் அழி
+Refresh=புதுப்பி
+OpenFolder=கோப்புறை திற
+CopyPath=பாதையை நகலெடு
+; நெடுவரிசைகள்
+ColName=பெயர்
+ColType=வகை
+ColPath=பாதை
+; வகைகள்
+TypeFile=கோப்பு
+TypeURL=URL
+TypeRadio=வானொலி
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=தெரியாது
+; உரையாடல்கள்
+ClearTitle=பிடித்தவைகளை அழி
+ClearConfirm=அனைத்து பிடித்தவைகளையும் அழிக்க விரும்புகிறீர்களா?
+Count=%d பிடித்த(வை)
+
+[History]
+Title=பிளேபேக் வரலாறு
+Play=இயக்கு
+Remove=நீக்கு
+Clear=அனைத்தையும் அழி
+Refresh=புதுப்பி
+OpenFolder=கோப்புறை திற
+CopyPath=பாதையை நகலெடு
+; நெடுவரிசைகள்
+ColFileName=கோப்பு
+ColPath=பாதை
+; உரையாடல்கள்
+ClearTitle=வரலாற்றை அழி
+ClearConfirm=அனைத்து வரலாற்றையும் அழிக்க விரும்புகிறீர்களா?
+Count=%d உருப்படி(கள்)
+
+[SleepTimer]
+Title=தூக்க டைமர்
+Description=பிளேபேக்கை தானாக நிறுத்த டைமர் அமை
+Hours=மணி:
+Minutes=நிமிடம்:
+Action=டைமர் முடிவடையும்போது:
+StopPlayback=பிளேபேக் நிறுத்து
+CloseApp=பயன்பாட்டை மூடு
+Shutdown=கணினியை நிறுத்து
+QuickSet=விரைவு அமைப்பு:
+15Min=15 நிமிடம்
+30Min=30 நிமிடம்
+1Hour=1 மணி
+2Hours=2 மணி
+
+[Radios]
+Title=இணைய வானொலிகள்
+Play=இயக்கு
+Add=சேர்
+Edit=திருத்து
+Delete=நீக்கு
+Remove=நீக்கு
+Import=இறக்குமதி
+Export=ஏற்றுமதி
+Refresh=புதுப்பி
+Favorite=பிடித்தது
+ShowFavorites=பிடித்தவை
+ShowAll=அனைத்து
+; வடிகட்டி
+Genre=வகை:
+Search=தேடு:
+SearchBtn=தேடு
+ClearSearch=அழி
+AllGenres=(அனைத்து வகைகள்)
+; சூழல் மெனு
+AddFavorite=பிடித்தவைக்கு சேர்
+RemoveFavorite=பிடித்தவையிலிருந்து நீக்கு
+AddCustom=தனிப்பயன் நிலையம் சேர்...
+EditCustom=நிலையத்தை திருத்து...
+DeleteCustom=நிலையத்தை நீக்கு
+OpenWebsite=இணையதளம் திற
+CopyURL=URL நகலெடு
+; நெடுவரிசைகள்
+ColName=பெயர்
+ColGenre=வகை
+ColBitrate=பிட்ரேட்
+ColCountry=நாடு
+ColCodec=கோடெக்
+; உரையாடல்கள்
+AddTitle=தனிப்பயன் நிலையம் சேர்
+EditTitle=நிலையத்தை திருத்து
+DeleteTitle=நிலையத்தை நீக்கு
+DeleteConfirm=இந்த நிலையத்தை நீக்க விரும்புகிறீர்களா?
+StationName=நிலைய பெயர்:
+StreamURL=ஸ்ட்ரீம் URL:
+GenrePrompt=வகை:
+NameURLRequired=பெயர் மற்றும் URL தேவை.
+; நிலை செய்திகள்
+LoadingIcecast=Icecast கோப்பகத்திலிருந்து நிலையங்கள் ஏற்றப்படுகின்றன...
+IcecastError=Icecast கோப்பகத்தை ஏற்ற முடியவில்லை. இயல்புநிலை நிலையங்கள் பயன்படுத்தப்படுகின்றன.
+NoStationsLoaded=நிலையங்கள் ஏற்றப்படவில்லை
+StationCount=%d நிலையங்கள்
+LoadedStations=%d நிலையங்கள் ஏற்றப்பட்டன
+ErrorPrefix=பிழை:
+; மரபு விசைகள்
+Name=பெயர்
+URL=URL
+Bitrate=பிட்ரேட்
+Description=விளக்கம்
+Country=நாடு
+
+[OpenURL]
+Title=URL திற
+Prompt=மீடியா URL உள்ளிடுக:
+
+[GotoTime]
+Title=நேரத்திற்கு செல்
+EnterTime=செல்ல நேரத்தை உள்ளிடுக:
+Hours=ம
+Minutes=நி
+Seconds=வி
+Current=தற்போதைய:
+Duration=நேரம்:
+
+[VideoAdjust]
+Title=வீடியோ சரிசெய்தல்கள்
+Brightness=பிரகாசம்:
+Contrast=மாறுபாடு:
+Saturation=செறிவு:
+Hue=நிறத்தொனி:
+Gamma=காமா:
+ResetAll=அனைத்து நிறங்களையும் மீட்டமை
+
+[CLI]
+; கட்டளை வரி செய்திகள்
+Usage=பயன்பாடு
+Arguments=[விருப்பங்கள்] [கோப்பு|URL|கோப்புறை]
+Description=libmpv பின்தளத்தைப் பயன்படுத்தும் குறுக்கு-தளம் மல்டிமீடியா இயக்கி.
+Options=விருப்பங்கள்
+Examples=எடுத்துக்காட்டுகள்
+MoreInfo=மேலும் தகவலுக்கு, பார்வையிடவும்
+EnqueuedTo=ஏற்கனவே உள்ள நிகழ்வின் வரிசையில் சேர்க்கப்பட்டது: %s
+SentTo=ஏற்கனவே உள்ள நிகழ்விற்கு அனுப்பப்பட்டது: %s
+AlreadyRunning=3nity Media ஏற்கனவே இயங்குகிறது.
+ErrorFileNotFound=பிழை: கோப்பு அல்லது அடைவு காணப்படவில்லை: %s
+ErrorSubNotFound=பிழை: வசன கோப்பு காணப்படவில்லை: %s

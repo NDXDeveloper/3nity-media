@@ -1,0 +1,892 @@
+[Language]
+Name=Southern Sotho - Sesotho
+Code=st
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Faele
+FileOpen=&Bula Faele...
+FileOpenURL=Bula &URL...
+FileOpenClipboard=Bula ho tswa &Clipboard
+FileRecent=Li&faele tsa Morao
+ClearRecentFiles=Hlakola Lifaele tsa Morao
+FileExit=Tso&a
+
+; Playback menu
+Playback=&Bapala
+PlaybackPlayPause=&Bapala/Emisa
+PlaybackStop=&Emisa
+PlaybackPrevious=E &Fetileng
+PlaybackNext=E &Latelang
+PlaybackSeekForward=Batla &Pele
+PlaybackSeekBackward=Batla &Morao
+PlaybackSpeed=&Lebelo
+PlaybackABLoop=Loop ea A-&B
+PlaybackSetA=Beha &A
+PlaybackSetB=Beha &B
+PlaybackClearAB=&Hlakola A-B
+PlaybackChapters=&Likhaolo
+PlaybackPrevChapter=Khaolo e Fetileng
+PlaybackNextChapter=Khaolo e Latelang
+PlaybackFrameStep=Mohato oa Foreimi Pele
+PlaybackFrameBack=Mohato oa Foreimi Morao
+
+; DVD Navigation
+PlaybackDVD=Tsamaiso ea &DVD
+DVDMenu=&Menu
+DVDUp=&Holimo
+DVDDown=&Tlase
+DVDLeft=Ho &Letsoho le Letona
+DVDRight=Ho &Letsoho le Letshehali
+DVDSelect=&Khetha
+PlaybackDVDTitles=&Mabitso a DVD
+
+; Phase 21: Open Folder
+FileOpenFolder=Bula &Foldara...
+
+; File menu DVD/Bluray
+FileOpenDVD=Bula &DVD...
+FileOpenBluray=Bula &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Eea ho Nako...
+ToolsHistory=&Nalane
+
+; Phase 14: System Tray
+TrayShow=&Bontsha/Pata
+TrayPlayPause=&Bapala/Emisa
+TrayStop=&Emisa
+TrayPrevious=E &Fetileng
+TrayNext=E &Latelang
+TrayMute=&Tima Modumo
+TrayExit=Tso&a
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Kenya &Letshwao...
+PlaybackBookmarks=Li&tshwao
+BookmarksTitle=Litshwao
+BookmarksGoto=&Eea ho Letshwao
+BookmarksRemove=&Tlosa Letshwao
+BookmarksClear=&Hlakola Litshwao Tsohle
+BookmarksOpenFolder=Bula &Foldara
+BookmarksCopyPath=&Kopa Tsela
+BookmarksCount=litshwao %d
+NoBookmarks=(Ha ho na litshwao)
+NoFileLoaded=(Ha ho faele e kentsoeng)
+BookmarkAdded=Letshwao le kentsoe ho %s
+BookmarkJumped=Ho tloheletsoe ho letshwao ho %s
+AddBookmarkTitle=Kenya Letshwao
+AddBookmarkPrompt=Kenya lebitso la letshwao:
+ShowAllBookmarks=Bontsha Litshwao Tsohle...
+
+; Phase 16: Favorites
+ToolsFavorites=Tse &Ratoang
+ToolsAddFavorite=Kenya ho Tse &Ratoang
+FavoritesTitle=Tse Ratoang
+FavoritesPlay=&Bapala
+FavoritesRemove=&Tlosa ho Tse Ratoang
+FavoritesClear=&Hlakola Tse Ratoang Tsohle
+FavoritesOpenFolder=Bula &Foldara
+FavoritesCopyPath=&Kopa Tsela
+FavoritesCount=tse ratoang %d
+NoFavorites=(Ha ho na tse ratoang)
+AddFavoriteTitle=Kenya ho Tse Ratoang
+AddFavoritePrompt=Kenya lebitso la se ratoang:
+AlreadyFavorite=E se ntse e le ho tse ratoang
+AddedToFavorites=E kentsoe ho tse ratoang: %s
+NoFileToFavorite=Ha ho faele e kentsoeng ho e kenya ho tse ratoang
+FavoriteTypeFile=Faele
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Threkhe %d: %s
+TrackWithLang=Threkhe %d (%s)
+TrackNumber=Threkhe %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Tima
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=Thaimara ea &Boroko...
+ToolsSleepTimerActive=Thaimara ea &Boroko [%s]
+ToolsCancelTimer=Hlakola &Thaimara
+
+; Audio menu
+Audio=&Modumo
+AudioTrack=Threkhe ea &Modumo
+AudioVolumeUp=Eketsa &Modumo
+AudioVolumeDown=Fokotsa &Modumo
+AudioMute=&Tima Modumo
+AudioEqualizer=&Equalizer
+AudioDelay=&Liyeha la Modumo
+AudioDelayPlus=Liyeha +0.1s
+AudioDelayMinus=Liyeha -0.1s
+AudioDelayReset=Seta Liyeha Bocha
+AudioNormalize=&Lekanya Modumo
+
+; Video menu
+Video=&Video
+VideoFullscreen=&Skrini e Tletseng
+VideoAspect=&Tekanyo
+VideoAspectAuto=&Otomatiki
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Setshwantsho sa Skrini
+VideoScreenshotAs=Setshwantsho sa Skrini &Joalo ka...
+VideoRotation=&Potoloha
+VideoRotate0=&0° (Tlwaelo)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Fetola
+VideoFlipH=Fetola &Horizontale
+VideoFlipV=Fetola &Vertikale
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Ka Hare
+VideoZoomOut=Zoom &Ka Ntle
+VideoZoomReset=&Seta Zoom Bocha
+VideoPan=&Pan
+VideoPanLeft=Pan &Letsoho le Letona
+VideoPanRight=Pan &Letsoho le Letshehali
+VideoPanUp=Pan &Holimo
+VideoPanDown=Pan &Tlase
+VideoPanReset=Se&ta Pan Bocha
+VideoTrack=Threkhe ea &Video
+VideoColors=Liphetoho tsa &Mebala
+VideoBrightness=&Khanya
+VideoContrast=&Phapano
+VideoSaturation=&Saturation
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Seta &Mebala Eohle Bocha
+VideoIncrease=Eketsa (+5)
+VideoDecrease=Fokotsa (-5)
+VideoReset=Seta Bocha
+VideoAdjustDialog=Liphetoho tsa &Video...
+
+; View menu
+View=&Bona
+ViewAlwaysOnTop=&Ka Mehla Holimo
+ViewFitToVideo=&Lokisetsa Fensetere ho Video
+ViewScale=&Tekanyo ea Fensetere
+
+; Phase 26: Visualization menu
+ViewVisualization=&Ponahatso
+VisNone=&Ha ho Letho
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=V&U Meter
+VisNextMode=Mochini o &Latelang
+VisNextColor=Mebala e &Latelang
+
+; Subtitles menu
+Subtitles=&Lisubtitle
+SubtitleTrack=Threkhe ea &Subtitle
+SubtitleLoad=&Kenya Subtitle...
+SubtitleDelay=&Liyeha la Subtitle
+SubtitleDelayPlus=Liyeha +0.1s
+SubtitleDelayMinus=Liyeha -0.1s
+SubtitleDelayReset=Seta Liyeha Bocha
+
+; Tools menu
+Tools=Li&sebelisoa
+ToolsPlaylist=&Lethathamo la Lipina
+ToolsRadios=&Radio
+ToolsShortcuts=&Likhutsufatso tsa Kiboto...
+ToolsOptions=Li&khetho
+
+; Phase 27: Recording menu
+ToolsRecord=&Hatisa...
+ToolsStopRecord=E&misa Hatisa
+ToolsRecording=&Hatisa...
+
+; Help menu
+Help=&Thuso
+HelpMediaInfo=Tlhahisoleseling ea &Media
+HelpLog=Fensetere ea &Log
+HelpAbout=&Ka
+
+[Dialog]
+OpenFile=Bula Faele
+OpenURL=Bula URL
+SaveScreenshot=Boloka Setshwantsho sa Skrini
+LoadSubtitle=Kenya Faele ea Subtitle
+EnterURL=Kenya URL:
+ResumePlayback=Tsoela Pele ho Bapala
+ResumeFrom=Tsoela pele ho tloha %s?
+ClearRecentFiles=Hlakola Lifaele tsa Morao
+NoRecentFiles=(Ha ho lifaele tsa morao)
+NoAudioTracks=(Ha ho na lithrekhe tsa modumo)
+NoVideoTracks=(Ha ho na lithrekhe tsa video)
+NoSubtitleTracks=(Ha ho na lithrekhe tsa subtitle)
+NoChapters=(Ha ho na likhaolo)
+OpenDVD=Bula DVD
+OpenBluray=Bula Blu-ray
+OpenFolder=Bula Foldara
+
+; File filters
+ScreenshotFilter=Setshwantsho sa PNG|*.png|Setshwantsho sa JPEG|*.jpg|Setshwantsho sa WebP|*.webp
+DVDFilter=Foldara ea DVD|*.;*.iso|Lifaele tsohle (*.*)|*.*
+BlurayFilter=Foldara ea Blu-ray|*.;*.iso|Lifaele tsohle (*.*)|*.*
+NoDVD=(Ha ho DVD e kentsoeng)
+DVDTitle=Sehlooho %d
+GotoTime=Eea ho Nako
+EnterTime=Kenya nako eo u batlang ho eea ho eona:
+Hours=Lihora
+Minutes=Metsotso
+Seconds=Metsotsoana
+Current=Hona Joale:
+HistoryTitle=Nalane ea Lipapali
+HistoryItems=lintho %d nalaneng
+HistoryPlay=&Bapala
+HistoryRemove=&Tlosa ho Nalane
+HistoryClear=&Hlakola Nalane Eohle
+HistoryOpenFolder=Bula &Foldara
+HistoryCopyPath=&Kopa Tsela
+ClearHistory=Hlakola Nalane
+ClearHistoryConfirm=Na u na le bonnete ba hore u batla ho hlakola nalane eohle?
+SleepTimerTitle=Thaimara ea Boroko
+SleepTimerDescription=Beha thaimara ho emisa ho bapala ka ho iketsetsa
+SleepTimerHours=Lihora
+SleepTimerMinutes=Metsotso
+SleepTimerQuickSet=Beha Ka Potlako
+SleepTimerAction=Ha thaimara e fela
+SleepTimerStopPlayback=Emisa ho bapala
+SleepTimerCloseApp=Kwala porokeramo
+SleepTimerShutdown=Tima komporo
+SleepTimerStart=Qala Thaimara
+
+[Status]
+Ready=E Lokile
+Opening=E Bula...
+Playing=E Bapala
+Paused=E Emisitsoe
+Stopped=E Emisitsoe
+Error=Phoso
+Buffering=E Lokisa...
+Seeking=E Batla...
+Recording=E Hatisa
+
+[Message]
+SpeedFormat=Lebelo: %.2fx
+VolumeFormat=Modumo: %d%%
+BrightnessFormat=Khanya: %d
+ContrastFormat=Phapano: %d
+SaturationFormat=Saturation: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Mebala ea video e setiloe bocha
+LoopASet=Loop A e behuoe ho %s
+LoopBSet=Loop B e behuoe ho %s - Loop e sebetsa
+LoopCleared=Loop A-B e hlakotsoe
+SetAFirst=Beha ntlha A pele (tobetsa L)
+RotationFormat=Potoloho: %d°
+FlipHOn=Fetola horizontale: E BUTSOE
+FlipHOff=Fetola horizontale: E KOETSOE
+FlipVOn=Fetola vertikale: E BUTSOE
+FlipVOff=Fetola vertikale: E KOETSOE
+DeinterlaceOn=Deinterlace: E BUTSOE
+DeinterlaceOff=Deinterlace: E KOETSOE
+AlwaysOnTopOn=Ka mehla holimo: E BUTSOE
+AlwaysOnTopOff=Ka mehla holimo: E KOETSOE
+WindowFitted=Fensetere e lokisitsoe ho %dx%d
+WindowScale=Tekanyo ea fensetere: %.0f%%
+ScreenshotSaved=Setshwantsho sa skrini se bolokitsoe: %s
+AudioNormalizeOn=Lekanya modumo: E BUTSOE
+AudioNormalizeOff=Lekanya modumo: E KOETSOE
+AudioDelayFormat=Liyeha la modumo: %.1f s
+SubtitleDelayFormat=Liyeha la subtitle: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Bohareng
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Ha ho video e kentsoeng
+PlayingFromClipboard=E bapala ho tswa clipboard: %s
+ClipboardInvalid=Clipboard ha e na URL kapa tsela e nepahetseng
+ClipboardEmpty=Clipboard ha e na letho kapa ha e na mongolo
+ResumedAt=E tsoetse pele ho %s
+FrameStepForward=Mohato oa foreimi pele
+FrameStepBackward=Mohato oa foreimi morao
+PreviousChapter=Khaolo e fetileng
+NextChapter=Khaolo e latelang
+PlayingRadio=E bapala radio: %s
+PlayingDVD=E bapala DVD: %s
+PlayingBluray=E bapala Blu-ray: %s
+DVDTitlePlaying=Sehlooho sa DVD %d
+SeekTo=E eea ho %s
+MinimizedToTray=E nyenyefatsoe ho tray. Tobetsa habeli ho khutlisetsa.
+SleepTimerSet=Thaimara ea boroko e behuoe: %s
+SleepTimerCancelled=Thaimara ea boroko e hlakotsoe
+SleepTimerWarning=Thaimara ea boroko: metsotso 1 e saletseng
+SleepTimerFinal=Thaimara ea boroko: metsotsoana 10 e saletseng
+SleepTimerStopped=Thaimara ea boroko: Ho bapala ho emisitsoe
+SleepTimerClosing=Thaimara ea boroko: E kwala porokeramo
+SleepTimerShutdown=Thaimara ea boroko: E tima komporo
+SleepTimerExpired=Thaimara ea Boroko e Felile
+ShutdownManual=Ka kopo tima komporo ea hau ka letsoho.
+
+; Phase 21: Open Folder
+FolderOpened=Foldara e butsoe: lifaele %d
+NoMediaFound=Ha ho na lifaele tsa media tse fumanoeng
+FilesAdded=Lifaele %d li kentsoe lethathamong
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Qala ho bapala pele u hatisa.
+RecordingStarted=Ho hatisa ho qalile
+RecordingStopped=Ho hatisa ho emisitsoe
+
+; Additional status messages
+EndOfPlaylist=Qetello ea lethathamo
+NoMediaLoaded=Ha ho faele ea media e kentsoeng.
+JumpedToNamed=Ho tloheletsoe ho: %s
+ChapterFormat=Khaolo %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Letshwao ho %s
+
+[Label]
+Muted=Modumo o Timuoe
+
+[Button]
+Play=Bapala
+Pause=Emisa
+Stop=Emisa
+Previous=E Fetileng
+Next=E Latelang
+Mute=Tima Modumo
+Unmute=Kutla Modumo
+Fullscreen=Skrini e Tletseng
+OK=Ho lokile
+Cancel=Hlakola
+Apply=Sebelisa
+Close=Kwala
+Yes=E
+No=Tjhe
+
+[Tooltip]
+Play=Bapala/Emisa
+Stop=Emisa ho bapala
+Previous=Threkhe e fetileng
+Next=Threkhe e latelang
+Mute=Fetola modumo o timuoeng
+Volume=Modumo
+Seek=Sebaka sa ho batla
+Fullscreen=Fetola skrini e tletseng
+
+[Playlist]
+Title=Lethathamo la Lipina
+Add=Kenya
+Remove=Tlosa
+Clear=Hlakola
+MoveUp=Nyolosa
+MoveDown=Theolosa
+Shuffle=Tsoaka
+Repeat=Boeletsa
+Play=Bapala
+ShuffleOn=Tsoaka: E Butsoe
+ShuffleOff=Tsoaka: E Koetsoe
+RepeatOff=Boeletsa: E Koetsoe
+RepeatOne=Boeletsa: E le 'Ngoe
+RepeatAll=Boeletsa: Tsohle
+SavePlaylist=Boloka
+LoadPlaylist=Kenya
+TotalDuration=Kakaretso: %s
+ItemCount=lintho %d
+
+; Phase 22: Playlist Enhancements
+Search=Batla:
+FilterPlaceholder=Sefa lethathamo...
+ClearSearch=Hlakola
+FilterCount=%d/%d
+RemoveDuplicates=Tlosa &Tse Phetileng
+Properties=&Litlhahiso...
+NoDuplicates=Ha ho tse phetileng tse fumanoeng.
+DuplicatesFound=Ho fumanoeng tse phetileng %d. U li tlosa?
+RemoveDuplicatesTitle=Tlosa Tse Phetileng
+PropertiesTitle=Litlhahiso tsa Lethathamo
+PropTotalItems=Lintho tsohle: %d
+PropTotalDuration=Nako eohle: %s
+PropPlayed=Tse bapetsoeng: %d
+PropUnplayed=Tse sa bapaloang: %d
+PropTotalSize=Boholo bohle: %.2f MB
+PropShuffle=Tsoaka: %s
+PropRepeat=Boeletsa: %s
+On=E Butsoe
+Off=E Koetsoe
+
+; New keys for ApplyLocale
+ClearTitle=Hlakola Lethathamo
+ClearConfirm=Na u na le bonnete ba hore u batla ho hlakola lethathamo?
+NoPlaylist=Ha ho na lethathamo
+StatusFormat=lintho %d | Kakaretso: %s
+RepeatOne=Boel. 1
+RepeatAll=Boel. Tsohle
+HintRepeatEnable=Tobetsa ho qalisa Boeletsa Tsohle
+HintRepeatOne=Boeletsa e le 'Ngoe - Tobetsa ho emisa
+HintRepeatAll=Boeletsa Tsohle - Tobetsa ho Boeletsa e le 'Ngoe
+HintShuffleRepeat=Tsoaka + Boeletsa Tsohle - Tobetsa ho emisa boeletsa
+RemoveDuplicatesTitle=Tlosa Tse Phetileng
+NoDuplicates=Ha ho tse phetileng tse fumanoeng.
+SelectAll=Khetha Tsohle
+SelectNone=Khetha Ha ho Letho
+SelectInvert=Fetola Khetho
+Sort=Hlophisa
+SortByName=Ka Lebitso
+SortByTitle=Ka Sehlooho
+SortByArtist=Ka Sebapali
+SortByDuration=Ka Nako
+SortReverse=Fetola
+SortRandom=Tsoaka
+ColTitle=Sehlooho
+ColDuration=Nako
+ColArtist=Sebapali
+ColAlbum=Albamo
+PlaylistFilter=M3U Lethathamo|*.m3u|M3U8 Lethathamo|*.m3u8|PLS Lethathamo|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Lipehelo:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Setso
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Lentsoe
+Reset=Seta Bocha
+Enable=Lumella Equalizer
+Save=Boloka
+Delete=Hlakola
+Ready=E Lokile
+; Buttons and actions
+SavePreset=Boloka Pehelo
+DeletePreset=Hlakola Pehelo
+SavePresetTitle=Boloka Pehelo
+PresetNamePrompt=Lebitso la pehelo:
+EnterPresetName=Ka kopo kenya lebitso la pehelo.
+OverwritePresetTitle=Ngola Holimo Pehelo
+OverwritePresetConfirm=Pehelo e nang le lebitso lena e se e le teng. Ngola holimo?
+PresetUpdated=Pehelo e nchafatsoe: %s
+PresetSaved=Pehelo e bolokitsoe: %s
+SelectPresetToDelete=Ka kopo khetha pehelo eo u batlang ho e hlakola.
+CannotDeleteDefault=Ha ho khonehe ho hlakola lipehelo tsa pele.
+DeletePresetTitle=Hlakola Pehelo
+DeletePresetConfirm=Na u na le bonnete ba hore u batla ho hlakola pehelo ena?
+PresetDeleted=Pehelo e hlakotsoe
+ResetToFlat=Equalizer e setiloe flat
+PresetApplied=Pehelo e sebelisitsoe: %s
+
+[Options]
+Title=Likhetho
+General=Kakaretso
+Video=Video
+Audio=Modumo
+Subtitles=Lisubtitle
+Cache=Cache
+Language=Puo:
+RestartRequired=Ho hlokahala hore u qale bocha hore liphetoho li sebetse
+
+; General tab - Behavior
+Behavior=Boitshwaro
+SingleInstance=Lumella ntho e le 'ngoe feela
+AutoPlay=Bapala ka ho iketsetsa ha u bula
+AutoResume=Tsoela pele sebaka sa ho bapala
+MinimizeToTray=Nyenyefatsa ho tray
+AutoSavePlaylist=Boloka lethathamo ha u tsoa
+
+; General tab - OSD
+OSD=Pontšo ea Skrini
+ShowOSD=Bontsha melaetsa ea skrini
+ShowTrayIcon=Bontsha aekhone ea tray
+OSDDuration=Nako ea OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Litshwantsho tsa Skrini
+ScreenshotPath=Foldara ea ho boloka:
+ScreenshotFormat=Sebopeho:
+
+; General tab - History
+HistorySettings=Nalane
+HistoryEnabled=Lumella nalane ea lipapali
+HistoryMaxItems=Palo e phahameng:
+
+; General tab - Language
+LanguageGroup=Puo
+RestartNote=(Ho hlokahala ho qala bocha bakeng sa liphetoho)
+
+; Video tab
+VideoAdjust=Liphetoho tsa Video
+Brightness=Khanya:
+Contrast=Phapano:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Tlhahiso ea Video
+Output=Tlhahiso:
+HWAccel=Lumella hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Mochini:
+
+; Audio tab
+AudioOutput=Tlhahiso ea Modumo
+OutputDriver=Motshwari oa tlhahiso:
+Device=Sesebelisoa:
+AudioOptions=Likhetho tsa Modumo
+NormalizeAudio=Lekanya modumo
+Channels=Litsela:
+
+; Subtitles tab
+UseDefaultSubtitles=Sebelisa litlhophiso tsa subtitle tsa pele
+Font=Fonte
+FontName=Fonte:
+FontSize=Boholo:
+FontColor=Mmala:
+Bold=Bold
+Italic=Italic
+Outline=Moeli
+OutlineColor=Mmala:
+OutlineSize=Boholo:
+Position=Sebaka
+VerticalPosition=Sebaka sa vertikale:
+SubOptions=Likhetho
+Encoding=Encoding:
+AutoLoadSubs=Kenya lifaele tsa subtitle ka ho iketsetsa
+
+; Video output warnings
+VOWarningX11=Temoso: x11 ha e tshehetse liphetoho tsa video (khanya, phapano, joalo-joalo.)
+VOWarningWayland=Temoso: E hloka Wayland session. Liphetoho tsa video li tshehetsoe.
+
+; Cache tab
+CacheSettings=Boholo ba Cache Buffer (KB)
+CacheDefault=Cache ea pele:
+CacheLocal=Lifaele tsa lehae:
+CacheNetwork=Lifaele tsa marang-rang:
+CacheInternet=Listream tsa Internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Ka
+Version=Mofuta
+Engine=Injini
+Technology=Thekenoloji
+BuildInfo=Tlhahisoleseling ea Ho Aha
+SystemInfo=Sistimi
+Credits=Liteboho
+Developer=Moqapi:
+Author=Mongoli
+License=Laesense
+Website=Websaete
+GitHub=GitHub
+Description=Sebapali sa media se setle, se bobebe
+LicenseText=3nity Media e na le laesense ea GPL-2.0\n\nSena se bolela hore u lokolohile ho:\n  - Sebelisa softwere bakeng sa morero ofe kapa ofe\n  - Ithuta le ho fetola khoutu ea mohloli\n  - Abela likopi tsa softwere\n  - Abela liphetoho tsa hau\n\nKa tlhophiso ea hore liphetoho tsohle tse abiloeng\nli bile li na le laesense ea GPL-2.0.
+BuildDate=Letsatsi:
+Target=Sepheo:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Likhutsufatso tsa Kiboto
+Description=Lokisa likhutsufatso tsa kiboto bakeng sa liketso
+Search=Batla:
+PressKey=Tobetsa senotlolo...
+ColCategory=Sehlopha
+ColAction=Ketso
+ColShortcut=Khutsufatso
+Assign=Abela
+Clear=Hlakola
+Reset=Seta Bocha
+ResetAll=Seta Tsohle Bocha
+CurrentShortcut=Hona Joale: %s
+NoKeyPressed=Ka kopo tobetsa senotlolo pele.
+Conflict=Phapang: E se e abiloe ho "%s"
+ConfirmReplace=Nkelana Khutsufatso
+ReplaceMessage=Khutsufatso ena e se e abiloe ho "%s". Na u batla ho e nkelana?
+ConfirmResetAll=Seta Likhutsufatso Tsohle Bocha
+ResetAllMessage=Na u na le bonnete ba hore u batla ho seta likhutsufatso tsohle tsa pele?
+; Action names
+ActPlayPause=Bapala / Emisa
+ActStop=Emisa
+ActPrevious=E Fetileng
+ActNext=E Latelang
+ActSeekForward=Batla Pele (10s)
+ActSeekBackward=Batla Morao (10s)
+ActSeekForward5=Batla Pele (1 min)
+ActSeekBackward5=Batla Morao (1 min)
+ActSpeedUp=Eketsa Lebelo
+ActSpeedDown=Fokotsa Lebelo
+ActSpeedReset=Seta Lebelo Bocha
+ActSetLoopA=Beha Loop A
+ActSetLoopB=Beha Loop B
+ActClearLoop=Hlakola Loop A-B
+ActFrameForward=Foreimi Pele
+ActFrameBackward=Foreimi Morao
+ActPrevChapter=Khaolo e Fetileng
+ActNextChapter=Khaolo e Latelang
+ActGotoTime=Eea ho Nako
+ActVolumeUp=Eketsa Modumo
+ActVolumeDown=Fokotsa Modumo
+ActMute=Tima / Kutla Modumo
+ActAudioDelayPlus=Liyeha la Modumo +
+ActAudioDelayMinus=Liyeha la Modumo -
+ActAudioDelayReset=Seta Liyeha la Modumo Bocha
+ActFullscreen=Skrini e Tletseng
+ActRotate=Potoloha Video
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom Ka Hare
+ActZoomOut=Zoom Ka Ntle
+ActZoomReset=Seta Zoom Bocha
+ActAlwaysOnTop=Ka Mehla Holimo
+ActFitToVideo=Lokisetsa ho Video
+ActScreenshot=Setshwantsho sa Skrini
+ActVideoAdjust=Liphetoho tsa Video
+ActVisNextMode=Mochini oa Ponahatso o Latelang
+ActVisNextColor=Mebala e Latelang
+ActSubDelayPlus=Liyeha la Subtitle +
+ActSubDelayMinus=Liyeha la Subtitle -
+ActSubDelayReset=Seta Liyeha la Subtitle Bocha
+ActDVDMenu=Menu ea DVD
+ActDVDUp=DVD Holimo
+ActDVDDown=DVD Tlase
+ActDVDLeft=DVD Letsoho le Letona
+ActDVDRight=DVD Letsoho le Letshehali
+ActDVDSelect=DVD Khetha
+ActOpenFile=Bula Faele
+ActOpenURL=Bula URL
+ActPlaylist=Bontsha Lethathamo
+ActQuit=Tsoa
+
+[Log]
+; Phase 25: Log Window
+Title=Log ea MPV
+Command=Taelo:
+Clear=Hlakola
+Save=Boloka...
+Copy=&Kopa
+SelectAll=Khetha &Tsohle
+SaveTitle=Boloka Log
+SaveFilter=Lifaele tsa mongolo (*.txt)|*.txt|Lifaele tsohle (*.*)|*.*
+ErrorTitle=Phoso
+SaveError=Ho boloka log ho hlolehile: %s
+
+[MediaInfo]
+Title=Tlhahisoleseling ea Media
+FileTab=Faele
+VideoTab=Video
+AudioTab=Modumo
+MetadataTab=Metadata
+FileName=Lebitso la Faele:
+FilePath=Tsela:
+FileSize=Boholo:
+Duration=Nako:
+Format=Sebopeho:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Sebopeho sa Pixel:
+AspectRatio=Tekanyo:
+Channels=Litsela:
+SampleRate=Sample Rate:
+Language=Puo:
+Property=Thahiso
+Value=Boleng
+CopyAll=Kopa Tsohle
+CopiedToClipboard=Tlhahisoleseling ea media e kopiloe ho clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Ha e Tsejoe
+NoMetadata=(Ha ho metadata)
+
+[Bookmarks]
+Title=Litshwao
+Goto=Eea ho
+Remove=Tlosa
+Clear=Hlakola Tsohle
+Refresh=Nchafatsa
+OpenFolder=Bula Foldara
+CopyPath=Kopa Tsela
+; Columns
+ColName=Lebitso
+ColFile=Faele
+ColPosition=Sebaka
+ColCreated=E Entsoe
+; Dialogs
+ClearTitle=Hlakola Litshwao
+ClearConfirm=Na u na le bonnete ba hore u batla ho hlakola litshwao tsohle?
+Count=litshwao %d
+
+[Favorites]
+Title=Tse Ratoang
+Play=Bapala
+Remove=Tlosa
+Clear=Hlakola Tsohle
+Refresh=Nchafatsa
+OpenFolder=Bula Foldara
+CopyPath=Kopa Tsela
+; Columns
+ColName=Lebitso
+ColType=Mofuta
+ColPath=Tsela
+; Types
+TypeFile=Faele
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Ha e Tsejoe
+; Dialogs
+ClearTitle=Hlakola Tse Ratoang
+ClearConfirm=Na u na le bonnete ba hore u batla ho hlakola tse ratoang tsohle?
+Count=tse ratoang %d
+
+[History]
+Title=Nalane ea Lipapali
+Play=Bapala
+Remove=Tlosa
+Clear=Hlakola Tsohle
+Refresh=Nchafatsa
+OpenFolder=Bula Foldara
+CopyPath=Kopa Tsela
+; Columns
+ColFileName=Faele
+ColPath=Tsela
+; Dialogs
+ClearTitle=Hlakola Nalane
+ClearConfirm=Na u na le bonnete ba hore u batla ho hlakola nalane eohle?
+Count=lintho %d
+
+[SleepTimer]
+Title=Thaimara ea Boroko
+Description=Beha thaimara ho emisa ho bapala ka ho iketsetsa
+Hours=Lihora:
+Minutes=Metsotso:
+Action=Ha thaimara e fela:
+StopPlayback=Emisa ho bapala
+CloseApp=Kwala porokeramo
+Shutdown=Tima komporo
+QuickSet=Beha ka potlako:
+15Min=15 min
+30Min=30 min
+1Hour=1 hora
+2Hours=2 hora
+
+[Radios]
+Title=Liradio tsa Internet
+Play=Bapala
+Add=Kenya
+Edit=Fetola
+Delete=Hlakola
+Remove=Tlosa
+Import=Kenya
+Export=Ntsha
+Refresh=Nchafatsa
+Favorite=Se Ratoang
+ShowFavorites=Tse Ratoang
+ShowAll=Tsohle
+; Filter
+Genre=Mofuta:
+Search=Batla:
+SearchBtn=Batla
+ClearSearch=Hlakola
+AllGenres=(Mefuta Eohle)
+; Context menu
+AddFavorite=Kenya ho Tse Ratoang
+RemoveFavorite=Tlosa ho Tse Ratoang
+AddCustom=Kenya Seteishene...
+EditCustom=Fetola Seteishene...
+DeleteCustom=Hlakola Seteishene
+OpenWebsite=Bula Websaete
+CopyURL=Kopa URL
+; Columns
+ColName=Lebitso
+ColGenre=Mofuta
+ColBitrate=Bitrate
+ColCountry=Naha
+ColCodec=Codec
+; Dialogs
+AddTitle=Kenya Seteishene
+EditTitle=Fetola Seteishene
+DeleteTitle=Hlakola Seteishene
+DeleteConfirm=Na u na le bonnete ba hore u batla ho hlakola seteishene sena?
+StationName=Lebitso la Seteishene:
+StreamURL=URL ea Stream:
+GenrePrompt=Mofuta:
+NameURLRequired=Lebitso le URL lia hlokahala.
+; Status messages
+LoadingIcecast=E kenya liteishene ho tsoa Icecast...
+IcecastError=Ha ho khoneha ho kenya Icecast. E sebelisa liteishene tsa pele.
+NoStationsLoaded=Ha ho na liteishene tse kentsoeng
+StationCount=liteishene %d
+LoadedStations=Liteishene %d li kentsoe
+ErrorPrefix=Phoso:
+; Legacy keys
+Name=Lebitso
+URL=URL
+Bitrate=Bitrate
+Description=Tlhaloso
+Country=Naha
+
+[OpenURL]
+Title=Bula URL
+Prompt=Kenya URL ea media:
+
+[GotoTime]
+Title=Eea ho Nako
+EnterTime=Kenya nako eo u batlang ho eea ho eona:
+Hours=H
+Minutes=M
+Seconds=S
+Current=Hona Joale:
+Duration=Nako:
+
+[VideoAdjust]
+Title=Liphetoho tsa Video
+Brightness=Khanya:
+Contrast=Phapano:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Seta Mebala Eohle Bocha
+
+[CLI]
+; Melaetsa ea mola oa taelo
+Usage=Tšebeliso
+Arguments=[LIKHETHO] [FAELE|URL|FOLDA]
+Description=Sebapali sa multimedia se sebetsang maemong a fapaneng se sebelisang libmpv.
+Options=LIKHETHO
+Examples=MEHLALA
+MoreInfo=Bakeng sa tlhahisoleseding e eketsehileng, etela
+EnqueuedTo=E kentsoe moleng oa mohlala o teng: %s
+SentTo=E rometsoe ho mohlala o teng: %s
+AlreadyRunning=3nity Media e se e ntse e sebetsa.
+ErrorFileNotFound=Phoso: Faele kapa sekgoele ha li a fumanoa: %s
+ErrorSubNotFound=Phoso: Faele ea lihlooho ha e a fumanoa: %s

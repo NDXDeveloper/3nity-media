@@ -1,0 +1,892 @@
+[Language]
+Name=Swedish - Svenska
+Code=sv
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Arkiv-meny
+File=&Arkiv
+FileOpen=&Oppna fil...
+FileOpenURL=Oppna &URL...
+FileOpenClipboard=Oppna fran &urklipp
+FileRecent=&Senaste filer
+ClearRecentFiles=Rensa senaste filer
+FileExit=A&vsluta
+
+; Uppspelning-meny
+Playback=&Uppspelning
+PlaybackPlayPause=&Spela/Pausa
+PlaybackStop=&Stoppa
+PlaybackPrevious=&Foregaende
+PlaybackNext=&Nasta
+PlaybackSeekForward=Sök &framat
+PlaybackSeekBackward=Sök &bakat
+PlaybackSpeed=&Hastighet
+PlaybackABLoop=A-&B-slinga
+PlaybackSetA=Sätt &A
+PlaybackSetB=Sätt &B
+PlaybackClearAB=&Rensa A-B
+PlaybackChapters=&Kapitel
+PlaybackPrevChapter=Foregaende kapitel
+PlaybackNextChapter=Nasta kapitel
+PlaybackFrameStep=Bildruta &framat
+PlaybackFrameBack=Bildruta &bakat
+
+; DVD-navigering
+PlaybackDVD=DVD-&navigering
+DVDMenu=&Meny
+DVDUp=&Upp
+DVDDown=&Ner
+DVDLeft=&Vanster
+DVDRight=&Höger
+DVDSelect=&Valj
+PlaybackDVDTitles=DVD-&titlar
+
+; Fas 21: Oppna mapp
+FileOpenFolder=Oppna m&app...
+
+; Arkiv-meny DVD/Bluray
+FileOpenDVD=Oppna &DVD...
+FileOpenBluray=Oppna &Blu-ray...
+
+; Fas 13: Ga till tid och historik
+PlaybackGotoTime=&Ga till tid...
+ToolsHistory=&Historik
+
+; Fas 14: Systemfalt
+TrayShow=&Visa/Dölj
+TrayPlayPause=&Spela/Pausa
+TrayStop=&Stoppa
+TrayPrevious=&Foregaende
+TrayNext=&Nasta
+TrayMute=&Ljud av
+TrayExit=A&vsluta
+
+; Fas 15: Bokmarken
+PlaybackAddBookmark=Lagg till &bokmarke...
+PlaybackBookmarks=Bok&marken
+BookmarksTitle=Bokmarken
+BookmarksGoto=&Ga till bokmarke
+BookmarksRemove=&Ta bort bokmarke
+BookmarksClear=&Rensa alla bokmarken
+BookmarksOpenFolder=Oppna &mapp
+BookmarksCopyPath=&Kopiera sökväg
+BookmarksCount=%d bokmarken
+NoBookmarks=(Inga bokmarken)
+NoFileLoaded=(Ingen fil laddad)
+BookmarkAdded=Bokmarke tillagt vid %s
+BookmarkJumped=Hoppade till bokmarke vid %s
+AddBookmarkTitle=Lagg till bokmarke
+AddBookmarkPrompt=Ange bokmarkesnamn:
+ShowAllBookmarks=Visa alla bokmarken...
+
+; Fas 16: Favoriter
+ToolsFavorites=&Favoriter
+ToolsAddFavorite=Lagg till i favo&riter
+FavoritesTitle=Favoriter
+FavoritesPlay=&Spela
+FavoritesRemove=&Ta bort fran favoriter
+FavoritesClear=&Rensa alla favoriter
+FavoritesOpenFolder=Oppna &mapp
+FavoritesCopyPath=&Kopiera sökväg
+FavoritesCount=%d favoriter
+NoFavorites=(Inga favoriter)
+AddFavoriteTitle=Lagg till i favoriter
+AddFavoritePrompt=Ange namn för favorit:
+AlreadyFavorite=Redan i favoriter
+AddedToFavorites=Tillagd i favoriter: %s
+NoFileToFavorite=Ingen fil laddad att lagga till i favoriter
+FavoriteTypeFile=Fil
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Sparformat för strang
+TrackWithTitle=Spar %d: %s
+TrackWithLang=Spar %d (%s)
+TrackNumber=Spar %d
+
+; Hastighetsmenyalternativ
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Skalningsalternativ
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Undertextspar
+SubtitleDisable=Inaktivera
+
+; Fas 17: Sömntimer
+ToolsSleepTimer=&Sömntimer...
+ToolsSleepTimerActive=&Sömntimer [%s]
+ToolsCancelTimer=Avbryt &timer
+
+; Ljud-meny
+Audio=&Ljud
+AudioTrack=Ljud&spar
+AudioVolumeUp=Volym &upp
+AudioVolumeDown=Volym &ner
+AudioMute=&Ljud av
+AudioEqualizer=&Equalizer
+AudioDelay=Ljud&fördröjning
+AudioDelayPlus=Fördröjning +0,1s
+AudioDelayMinus=Fördröjning -0,1s
+AudioDelayReset=Aterstall fördröjning
+AudioNormalize=&Normalisera volym
+
+; Video-meny
+Video=&Video
+VideoFullscreen=&Helskarm
+VideoAspect=&Bildförhallande
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Skarmbild
+VideoScreenshotAs=Skarmbild &som...
+VideoRotation=&Rotation
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Vand
+VideoFlipH=Vand &horisontellt
+VideoFlipV=Vand &vertikalt
+VideoDeinterlace=&Avflata
+VideoZoom=&Zoom
+VideoZoomIn=Zooma &in
+VideoZoomOut=Zooma &ut
+VideoZoomReset=&Aterstall zoom
+VideoPan=&Panorera
+VideoPanLeft=Panorera &vanster
+VideoPanRight=Panorera &höger
+VideoPanUp=Panorera &upp
+VideoPanDown=Panorera &ner
+VideoPanReset=At&erstall panorering
+VideoTrack=Video&spar
+VideoColors=Farg&justeringar
+VideoBrightness=&Ljusstyrka
+VideoContrast=&Kontrast
+VideoSaturation=&Mattnad
+VideoHue=&Nyans
+VideoGamma=&Gamma
+VideoColorsReset=Aterstall &alla farger
+VideoIncrease=Öka (+5)
+VideoDecrease=Minska (-5)
+VideoReset=Aterstall
+VideoAdjustDialog=Video&justeringar...
+
+; Visa-meny
+View=V&isa
+ViewAlwaysOnTop=&Alltid överst
+ViewFitToVideo=&Anpassa fönster till video
+ViewScale=Fönster&skala
+
+; Fas 26: Visualisering-meny
+ViewVisualization=&Visualisering
+VisNone=&Ingen
+VisSpectrum=&Spektrumanalysator
+VisWaveform=&Vagform
+VisVector=&Vektorskop
+VisVolume=V&U-matare
+VisNextMode=Nasta &lage
+VisNextColor=Nasta &fargschema
+
+; Undertexter-meny
+Subtitles=&Undertexter
+SubtitleTrack=Undertext&spar
+SubtitleLoad=&Ladda undertext...
+SubtitleDelay=Undertext&fördröjning
+SubtitleDelayPlus=Fördröjning +0,1s
+SubtitleDelayMinus=Fördröjning -0,1s
+SubtitleDelayReset=Aterstall fördröjning
+
+; Verktyg-meny
+Tools=&Verktyg
+ToolsPlaylist=&Spellista
+ToolsRadios=&Radiostationer
+ToolsShortcuts=&Tangentbordsgenvägar...
+ToolsOptions=&Alternativ
+
+; Fas 27: Inspelning-meny
+ToolsRecord=&Spela in ström...
+ToolsStopRecord=St&oppa inspelning
+ToolsRecording=&Inspelning...
+
+; Hjalp-meny
+Help=&Hjalp
+HelpMediaInfo=&Mediainformation
+HelpLog=&Loggfönster
+HelpAbout=&Om
+
+[Dialog]
+OpenFile=Oppna fil
+OpenURL=Oppna URL
+SaveScreenshot=Spara skarmbild
+LoadSubtitle=Ladda undertextfil
+EnterURL=Ange URL:
+ResumePlayback=Aterpta uppspelning
+ResumeFrom=Aterpta fran %s?
+ClearRecentFiles=Rensa senaste filer
+NoRecentFiles=(Inga senaste filer)
+NoAudioTracks=(Inga ljudspar)
+NoVideoTracks=(Inga videospar)
+NoSubtitleTracks=(Inga undertextspar)
+NoChapters=(Inga kapitel)
+OpenDVD=Oppna DVD
+OpenBluray=Oppna Blu-ray
+OpenFolder=Oppna mapp
+
+; Filfilter
+ScreenshotFilter=PNG-bild|*.png|JPEG-bild|*.jpg|WebP-bild|*.webp
+DVDFilter=DVD-mapp|*.;*.iso|Alla filer (*.*)|*.*
+BlurayFilter=Blu-ray-mapp|*.;*.iso|Alla filer (*.*)|*.*
+NoDVD=(Ingen DVD laddad)
+DVDTitle=Titel %d
+GotoTime=Ga till tid
+EnterTime=Ange tid att hoppa till:
+Hours=Timmar
+Minutes=Minuter
+Seconds=Sekunder
+Current=Aktuell:
+HistoryTitle=Uppspelningshistorik
+HistoryItems=%d objekt i historiken
+HistoryPlay=&Spela
+HistoryRemove=&Ta bort fran historik
+HistoryClear=&Rensa all historik
+HistoryOpenFolder=Oppna &mapp
+HistoryCopyPath=&Kopiera sökväg
+ClearHistory=Rensa historik
+ClearHistoryConfirm=Ar du saker pa att du vill rensa all historik?
+SleepTimerTitle=Sömntimer
+SleepTimerDescription=Stall in timer för att automatiskt stoppa uppspelning
+SleepTimerHours=Timmar
+SleepTimerMinutes=Minuter
+SleepTimerQuickSet=Snabbval
+SleepTimerAction=Nar timern gar ut
+SleepTimerStopPlayback=Stoppa uppspelning
+SleepTimerCloseApp=Stang applikation
+SleepTimerShutdown=Stang av dator
+SleepTimerStart=Starta timer
+
+[Status]
+Ready=Redo
+Opening=Oppnar...
+Playing=Spelar
+Paused=Pausad
+Stopped=Stoppad
+Error=Fel
+Buffering=Buffrar...
+Seeking=Söker...
+Recording=Spelar in
+
+[Message]
+SpeedFormat=Hastighet: %.2fx
+VolumeFormat=Volym: %d%%
+BrightnessFormat=Ljusstyrka: %d
+ContrastFormat=Kontrast: %d
+SaturationFormat=Mattnad: %d
+HueFormat=Nyans: %d
+GammaFormat=Gamma: %d
+ColorsReset=Videofarger aterstallda
+LoopASet=Slinga A satt vid %s
+LoopBSet=Slinga B satt vid %s - Slinga aktiv
+LoopCleared=A-B-slinga rensad
+SetAFirst=Satt punkt A först (tryck L)
+RotationFormat=Rotation: %d°
+FlipHOn=Horisontell vandning: PA
+FlipHOff=Horisontell vandning: AV
+FlipVOn=Vertikal vandning: PA
+FlipVOff=Vertikal vandning: AV
+DeinterlaceOn=Avflatning: PA
+DeinterlaceOff=Avflatning: AV
+AlwaysOnTopOn=Alltid överst: PA
+AlwaysOnTopOff=Alltid överst: AV
+WindowFitted=Fönster anpassat till %dx%d
+WindowScale=Fönsterskala: %.0f%%
+ScreenshotSaved=Skarmbild sparad: %s
+AudioNormalizeOn=Ljudnormalisering: PA
+AudioNormalizeOff=Ljudnormalisering: AV
+AudioDelayFormat=Ljudfördröjning: %.1f s
+SubtitleDelayFormat=Undertextfördröjning: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Panorering: Centrerad
+PanFormat=Panorering: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Ingen video laddad
+PlayingFromClipboard=Spelar fran urklipp: %s
+ClipboardInvalid=Urklipp innehaller inte en giltig URL eller sökväg
+ClipboardEmpty=Urklipp ar tomt eller innehaller inte text
+ResumedAt=Aterptat vid %s
+FrameStepForward=Bildruta framat
+FrameStepBackward=Bildruta bakat
+PreviousChapter=Foregaende kapitel
+NextChapter=Nasta kapitel
+PlayingRadio=Spelar radio: %s
+PlayingDVD=Spelar DVD: %s
+PlayingBluray=Spelar Blu-ray: %s
+DVDTitlePlaying=DVD-titel %d
+SeekTo=Söker till %s
+MinimizedToTray=Minimerad till systemfalt. Dubbelklicka för att aterstalla.
+SleepTimerSet=Sömntimer inställd: %s
+SleepTimerCancelled=Sömntimer avbruten
+SleepTimerWarning=Sömntimer: 1 minut kvar
+SleepTimerFinal=Sömntimer: 10 sekunder kvar
+SleepTimerStopped=Sömntimer: Uppspelning stoppad
+SleepTimerClosing=Sömntimer: Stanger applikation
+SleepTimerShutdown=Sömntimer: Stanger av dator
+SleepTimerExpired=Sömntimer har gatt ut
+ShutdownManual=Var god stang av din dator manuellt.
+
+; Fas 21: Oppna mapp
+FolderOpened=Oppnade mapp: %d filer
+NoMediaFound=Inga mediefiler hittades
+FilesAdded=Lade till %d filer i spellistan
+
+; Fas 27: Inspelningsmeddelanden
+RecordNeedPlayback=Starta uppspelning före inspelning.
+RecordingStarted=Inspelning startad
+RecordingStopped=Inspelning stoppad
+
+; Ytterligare statusmeddelanden
+EndOfPlaylist=Slut pa spellista
+NoMediaLoaded=Ingen mediefil ar för narvarande laddad.
+JumpedToNamed=Hoppade till: %s
+ChapterFormat=Kapitel %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Bokmarke vid %s
+
+[Label]
+Muted=Ljud av
+
+[Button]
+Play=Spela
+Pause=Pausa
+Stop=Stoppa
+Previous=Foregaende
+Next=Nasta
+Mute=Ljud av
+Unmute=Ljud pa
+Fullscreen=Helskarm
+OK=OK
+Cancel=Avbryt
+Apply=Tillämpa
+Close=Stang
+Yes=Ja
+No=Nej
+
+[Tooltip]
+Play=Spela/Pausa
+Stop=Stoppa uppspelning
+Previous=Foregaende spar
+Next=Nasta spar
+Mute=Vaxla ljud av
+Volume=Volym
+Seek=Sökposition
+Fullscreen=Vaxla helskarm
+
+[Playlist]
+Title=Spellista
+Add=Lagg till
+Remove=Ta bort
+Clear=Rensa
+MoveUp=Flytta upp
+MoveDown=Flytta ner
+Shuffle=Blanda
+Repeat=Upprepa
+Play=Spela
+ShuffleOn=Blanda: Pa
+ShuffleOff=Blanda: Av
+RepeatOff=Upprepa: Av
+RepeatOne=Upprepa: En
+RepeatAll=Upprepa: Alla
+SavePlaylist=Spara
+LoadPlaylist=Ladda
+TotalDuration=Totalt: %s
+ItemCount=%d objekt
+
+; Fas 22: Spellisteförbattringar
+Search=Sök:
+FilterPlaceholder=Filtrera spellista...
+ClearSearch=Rensa
+FilterCount=%d/%d
+RemoveDuplicates=Ta bort &dubbletter
+Properties=E&genskaper...
+NoDuplicates=Inga dubbletter hittades.
+DuplicatesFound=Hittade %d dubblett(er). Ta bort dem?
+RemoveDuplicatesTitle=Ta bort dubbletter
+PropertiesTitle=Spellisteegenskaper
+PropTotalItems=Totalt antal objekt: %d
+PropTotalDuration=Total langd: %s
+PropPlayed=Spelade: %d
+PropUnplayed=Ospelade: %d
+PropTotalSize=Total storlek: %.2f MB
+PropShuffle=Blanda: %s
+PropRepeat=Upprepa: %s
+On=Pa
+Off=Av
+
+; Nya nycklar för ApplyLocale
+ClearTitle=Rensa spellista
+ClearConfirm=Ar du saker pa att du vill rensa spellistan?
+NoPlaylist=Ingen spellista
+StatusFormat=%d objekt | Totalt: %s
+RepeatOne=Upp. 1
+RepeatAll=Upp. alla
+HintRepeatEnable=Klicka för att aktivera Upprepa alla
+HintRepeatOne=Upprepa en - Klicka för att inaktivera
+HintRepeatAll=Upprepa alla - Klicka för Upprepa en
+HintShuffleRepeat=Blanda + Upprepa alla - Klicka för att inaktivera upprepa
+RemoveDuplicatesTitle=Ta bort dubbletter
+NoDuplicates=Inga dubbletter hittades.
+SelectAll=Valj alla
+SelectNone=Valj ingen
+SelectInvert=Invertera markering
+Sort=Sortera
+SortByName=Efter namn
+SortByTitle=Efter titel
+SortByArtist=Efter artist
+SortByDuration=Efter langd
+SortReverse=Vand
+SortRandom=Slumpa
+ColTitle=Titel
+ColDuration=Langd
+ColArtist=Artist
+ColAlbum=Album
+PlaylistFilter=M3U-spellista|*.m3u|M3U8-spellista|*.m3u8|PLS-spellista|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Förinställningar:
+Preamp=Förförstarkare:
+Flat=Platt
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klassiskt
+BassBoost=Basförstärkning
+TrebleBoost=Diskantförstärkning
+Vocal=Vokal
+Reset=Aterstall
+Enable=Aktivera equalizer
+Save=Spara
+Delete=Ta bort
+Ready=Redo
+; Knappar och atgarder
+SavePreset=Spara förinställning
+DeletePreset=Ta bort förinställning
+SavePresetTitle=Spara förinställning
+PresetNamePrompt=Förinställningsnamn:
+EnterPresetName=Var god ange ett förinställningsnamn.
+OverwritePresetTitle=Skriv över förinställning
+OverwritePresetConfirm=En förinställning med detta namn finns redan. Skriv över?
+PresetUpdated=Förinställning uppdaterad: %s
+PresetSaved=Förinställning sparad: %s
+SelectPresetToDelete=Var god valj en förinställning att ta bort.
+CannotDeleteDefault=Kan inte ta bort standardförinställningar.
+DeletePresetTitle=Ta bort förinställning
+DeletePresetConfirm=Ar du saker pa att du vill ta bort denna förinställning?
+PresetDeleted=Förinställning borttagen
+ResetToFlat=Equalizer aterställd till platt
+PresetApplied=Förinställning tillämpad: %s
+
+[Options]
+Title=Alternativ
+General=Allmant
+Video=Video
+Audio=Ljud
+Subtitles=Undertexter
+Cache=Cache
+Language=Sprak:
+RestartRequired=Omstart kravs för att andringarna ska börja galla
+
+; Allmant-flik - Beteende
+Behavior=Beteende
+SingleInstance=Tillat endast en instans
+AutoPlay=Spela upp filer automatiskt vid öppning
+AutoResume=Aterpta uppspelningsposition
+MinimizeToTray=Minimera till systemfalt
+AutoSavePlaylist=Spara spellista vid avslut
+
+; Allmant-flik - OSD
+OSD=Skarmmeddelanden
+ShowOSD=Visa skarmmeddelanden
+ShowTrayIcon=Visa systemfaltsikon
+OSDDuration=OSD-varaktighet (ms):
+
+; Allmant-flik - Skarmbilder
+Screenshots=Skarmbilder
+ScreenshotPath=Spara i mapp:
+ScreenshotFormat=Format:
+
+; Allmant-flik - Historik
+HistorySettings=Historik
+HistoryEnabled=Aktivera uppspelningshistorik
+HistoryMaxItems=Max antal objekt:
+
+; Allmant-flik - Sprak
+LanguageGroup=Sprak
+RestartNote=(Omstart kravs för andringar)
+
+; Video-flik
+VideoAdjust=Videojusteringar
+Brightness=Ljusstyrka:
+Contrast=Kontrast:
+Saturation=Mattnad:
+Hue=Nyans:
+Gamma=Gamma:
+VideoOutput=Videoutgang
+Output=Utgang:
+HWAccel=Aktivera hardvaruacceleration
+Deinterlacing=Avflatning
+Mode=Lage:
+
+; Ljud-flik
+AudioOutput=Ljudutgang
+OutputDriver=Utgangsdriver:
+Device=Enhet:
+AudioOptions=Ljudalternativ
+NormalizeAudio=Normalisera ljudvolym
+Channels=Kanaler:
+
+; Undertexter-flik
+UseDefaultSubtitles=Anvand standardundertextinstallningar
+Font=Typsnitt
+FontName=Typsnitt:
+FontSize=Storlek:
+FontColor=Farg:
+Bold=Fetstil
+Italic=Kursiv
+Outline=Kontur
+OutlineColor=Farg:
+OutlineSize=Storlek:
+Position=Position
+VerticalPosition=Vertikal position:
+SubOptions=Alternativ
+Encoding=Teckenkodning:
+AutoLoadSubs=Ladda undertextfiler automatiskt
+
+; Videoutgangsvarningar
+VOWarningX11=Varning: x11 stöder inte videojusteringar (ljusstyrka, kontrast, etc.)
+VOWarningWayland=Varning: Kraver en Wayland-session. Videojusteringar stöds.
+
+; Cache-flik
+CacheSettings=Cachebuffertstorlekar (KB)
+CacheDefault=Standardcache:
+CacheLocal=Lokala filer:
+CacheNetwork=Nätverksfiler:
+CacheInternet=Internetströmmar:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Om
+Version=Version
+Engine=Motor
+Technology=Teknologi
+BuildInfo=Byggnadsinformation
+SystemInfo=System
+Credits=Medverkande
+Developer=Utvecklare:
+Author=Författare
+License=Licens
+Website=Webbplats
+GitHub=GitHub
+Description=En modern, lattanvand mediespelare
+LicenseText=3nity Media ar licensierad under GPL-2.0\n\nDetta innebar att du ar fri att:\n  • Anvanda programvaran för alla ändamal\n  • Studera och modifiera källkoden\n  • Distribuera kopior av programvaran\n  • Distribuera dina modifieringar\n\nUnder förutsattning att alla distribuerade modifieringar\nocksafar ar licensierade under GPL-2.0.
+BuildDate=Datum:
+Target=Mal:
+Kernel=Karna:
+
+[Shortcuts]
+Title=Tangentbordsgenvägar
+Description=Konfigurera tangentbordsgenvägar för atgarder
+Search=Sök:
+PressKey=Tryck en tangent...
+ColCategory=Kategori
+ColAction=Atgard
+ColShortcut=Genvag
+Assign=Tilldela
+Clear=Rensa
+Reset=Aterstall
+ResetAll=Aterstall alla
+CurrentShortcut=Aktuell: %s
+NoKeyPressed=Var god tryck en tangentkombination först.
+Conflict=Konflikt: Redan tilldelad till "%s"
+ConfirmReplace=Ersatt genvag
+ReplaceMessage=Denna genvag ar redan tilldelad till "%s". Vill du ersatta den?
+ConfirmResetAll=Aterstall alla genvägar
+ResetAllMessage=Ar du saker pa att du vill aterstalla alla genvägar till standardvarden?
+; Atgardsnamn
+ActPlayPause=Spela / Pausa
+ActStop=Stoppa
+ActPrevious=Foregaende
+ActNext=Nasta
+ActSeekForward=Sök framat (10s)
+ActSeekBackward=Sök bakat (10s)
+ActSeekForward5=Sök framat (1 min)
+ActSeekBackward5=Sök bakat (1 min)
+ActSpeedUp=Öka hastighet
+ActSpeedDown=Minska hastighet
+ActSpeedReset=Aterstall hastighet
+ActSetLoopA=Satt slingpunkt A
+ActSetLoopB=Satt slingpunkt B
+ActClearLoop=Rensa A-B-slinga
+ActFrameForward=Bildruta framat
+ActFrameBackward=Bildruta bakat
+ActPrevChapter=Foregaende kapitel
+ActNextChapter=Nasta kapitel
+ActGotoTime=Ga till tid
+ActVolumeUp=Volym upp
+ActVolumeDown=Volym ner
+ActMute=Ljud av / Ljud pa
+ActAudioDelayPlus=Ljudfördröjning +
+ActAudioDelayMinus=Ljudfördröjning -
+ActAudioDelayReset=Aterstall ljudfördröjning
+ActFullscreen=Helskarm
+ActRotate=Rotera video
+ActDeinterlace=Avflata
+ActZoomIn=Zooma in
+ActZoomOut=Zooma ut
+ActZoomReset=Aterstall zoom
+ActAlwaysOnTop=Alltid överst
+ActFitToVideo=Anpassa till video
+ActScreenshot=Skarmbild
+ActVideoAdjust=Videojusteringar
+ActVisNextMode=Nasta visualiseringslage
+ActVisNextColor=Nasta fargschema
+ActSubDelayPlus=Undertextfördröjning +
+ActSubDelayMinus=Undertextfördröjning -
+ActSubDelayReset=Aterstall undertextfördröjning
+ActDVDMenu=DVD-meny
+ActDVDUp=DVD navigera upp
+ActDVDDown=DVD navigera ner
+ActDVDLeft=DVD navigera vanster
+ActDVDRight=DVD navigera höger
+ActDVDSelect=DVD valj
+ActOpenFile=Oppna fil
+ActOpenURL=Oppna URL
+ActPlaylist=Visa spellista
+ActQuit=Avsluta
+
+[Log]
+; Fas 25: Loggfönster
+Title=MPV-logg
+Command=Kommando:
+Clear=Rensa
+Save=Spara...
+Copy=&Kopiera
+SelectAll=Valj &alla
+SaveTitle=Spara logg
+SaveFilter=Textfiler (*.txt)|*.txt|Alla filer (*.*)|*.*
+ErrorTitle=Fel
+SaveError=Kunde inte spara logg: %s
+
+[MediaInfo]
+Title=Mediainformation
+FileTab=Fil
+VideoTab=Video
+AudioTab=Ljud
+MetadataTab=Metadata
+FileName=Filnamn:
+FilePath=Sökväg:
+FileSize=Storlek:
+Duration=Langd:
+Format=Format:
+Bitrate=Bithastighet:
+Codec=Kodek:
+Resolution=Upplösning:
+FrameRate=Bildfrekvens:
+PixelFormat=Pixelformat:
+AspectRatio=Bildförhallande:
+Channels=Kanaler:
+SampleRate=Samplingsfrekvens:
+Language=Sprak:
+Property=Egenskap
+Value=Varde
+CopyAll=Kopiera allt
+CopiedToClipboard=Mediainformation kopierad till urklipp.
+NA=Ej tillganglig
+NAStream=Ej tillganglig (ström)
+NALive=Ej tillganglig (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Okant
+NoMetadata=(Ingen metadata)
+
+[Bookmarks]
+Title=Bokmarken
+Goto=Ga till
+Remove=Ta bort
+Clear=Rensa alla
+Refresh=Uppdatera
+OpenFolder=Oppna mapp
+CopyPath=Kopiera sökväg
+; Kolumner
+ColName=Namn
+ColFile=Fil
+ColPosition=Position
+ColCreated=Skapad
+; Dialoger
+ClearTitle=Rensa bokmarken
+ClearConfirm=Ar du saker pa att du vill rensa alla bokmarken?
+Count=%d bokmarke(n)
+
+[Favorites]
+Title=Favoriter
+Play=Spela
+Remove=Ta bort
+Clear=Rensa alla
+Refresh=Uppdatera
+OpenFolder=Oppna mapp
+CopyPath=Kopiera sökväg
+; Kolumner
+ColName=Namn
+ColType=Typ
+ColPath=Sökväg
+; Typer
+TypeFile=Fil
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Okant
+; Dialoger
+ClearTitle=Rensa favoriter
+ClearConfirm=Ar du saker pa att du vill rensa alla favoriter?
+Count=%d favorit(er)
+
+[History]
+Title=Uppspelningshistorik
+Play=Spela
+Remove=Ta bort
+Clear=Rensa alla
+Refresh=Uppdatera
+OpenFolder=Oppna mapp
+CopyPath=Kopiera sökväg
+; Kolumner
+ColFileName=Fil
+ColPath=Sökväg
+; Dialoger
+ClearTitle=Rensa historik
+ClearConfirm=Ar du saker pa att du vill rensa all historik?
+Count=%d objekt
+
+[SleepTimer]
+Title=Sömntimer
+Description=Stall in en timer för att automatiskt stoppa uppspelning
+Hours=Timmar:
+Minutes=Minuter:
+Action=Nar timern gar ut:
+StopPlayback=Stoppa uppspelning
+CloseApp=Stang applikation
+Shutdown=Stang av dator
+QuickSet=Snabbval:
+15Min=15 min
+30Min=30 min
+1Hour=1 timme
+2Hours=2 timmar
+
+[Radios]
+Title=Internetradio
+Play=Spela
+Add=Lagg till
+Edit=Redigera
+Delete=Ta bort
+Remove=Ta bort
+Import=Importera
+Export=Exportera
+Refresh=Uppdatera
+Favorite=Favorit
+ShowFavorites=Favoriter
+ShowAll=Alla
+; Filter
+Genre=Genre:
+Search=Sök:
+SearchBtn=Sök
+ClearSearch=Rensa
+AllGenres=(Alla genrer)
+; Snabbmeny
+AddFavorite=Lagg till i favoriter
+RemoveFavorite=Ta bort fran favoriter
+AddCustom=Lagg till egen station...
+EditCustom=Redigera station...
+DeleteCustom=Ta bort station
+OpenWebsite=Oppna webbplats
+CopyURL=Kopiera URL
+; Kolumner
+ColName=Namn
+ColGenre=Genre
+ColBitrate=Bithastighet
+ColCountry=Land
+ColCodec=Kodek
+; Dialoger
+AddTitle=Lagg till egen station
+EditTitle=Redigera station
+DeleteTitle=Ta bort station
+DeleteConfirm=Ar du saker pa att du vill ta bort denna station?
+StationName=Stationsnamn:
+StreamURL=Ström-URL:
+GenrePrompt=Genre:
+NameURLRequired=Namn och URL ar obligatoriska.
+; Statusmeddelanden
+LoadingIcecast=Laddar stationer fran Icecast-katalog...
+IcecastError=Kunde inte ladda Icecast-katalog. Använder standardstationer.
+NoStationsLoaded=Inga stationer laddade
+StationCount=%d stationer
+LoadedStations=Laddade %d stationer
+ErrorPrefix=Fel:
+; Aldre nycklar
+Name=Namn
+URL=URL
+Bitrate=Bithastighet
+Description=Beskrivning
+Country=Land
+
+[OpenURL]
+Title=Oppna URL
+Prompt=Ange medie-URL:
+
+[GotoTime]
+Title=Ga till tid
+EnterTime=Ange tid att hoppa till:
+Hours=T
+Minutes=M
+Seconds=S
+Current=Aktuell:
+Duration=Langd:
+
+[VideoAdjust]
+Title=Videojusteringar
+Brightness=Ljusstyrka:
+Contrast=Kontrast:
+Saturation=Mattnad:
+Hue=Nyans:
+Gamma=Gamma:
+ResetAll=Aterstall alla farger
+
+[CLI]
+; Kommandoradsmeddelanden
+Usage=Användning
+Arguments=[ALTERNATIV] [FIL|URL|MAPP]
+Description=En plattformsoberoende multimediaspelare som använder libmpv som motor.
+Options=ALTERNATIV
+Examples=EXEMPEL
+MoreInfo=För mer information, besök
+EnqueuedTo=Lagd i kön för befintlig instans: %s
+SentTo=Skickad till befintlig instans: %s
+AlreadyRunning=3nity Media körs redan.
+ErrorFileNotFound=Fel: Fil eller katalog hittades inte: %s
+ErrorSubNotFound=Fel: Undertextfil hittades inte: %s

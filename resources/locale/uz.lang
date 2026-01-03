@@ -1,0 +1,892 @@
+[Language]
+Name=Uzbek - O'zbek tili
+Code=uz
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Fayl menyusi
+File=&Fayl
+FileOpen=&Faylni ochish...
+FileOpenURL=&URL ochish...
+FileOpenClipboard=&Vaqtinchalik xotiradan ochish
+FileRecent=&So'nggi fayllar
+ClearRecentFiles=So'nggi fayllarni tozalash
+FileExit=&Chiqish
+
+; Ijro menyusi
+Playback=&Ijro
+PlaybackPlayPause=&Ijro/To'xtatish
+PlaybackStop=&To'xtatish
+PlaybackPrevious=&Oldingi
+PlaybackNext=&Keyingi
+PlaybackSeekForward=&Oldinga o'tish
+PlaybackSeekBackward=&Orqaga o'tish
+PlaybackSpeed=&Tezlik
+PlaybackABLoop=A-&B takrorlash
+PlaybackSetA=&A nuqtasini belgilash
+PlaybackSetB=&B nuqtasini belgilash
+PlaybackClearAB=A-B &tozalash
+PlaybackChapters=&Boblar
+PlaybackPrevChapter=Oldingi bob
+PlaybackNextChapter=Keyingi bob
+PlaybackFrameStep=&Kadr oldinga
+PlaybackFrameBack=&Kadr orqaga
+
+; DVD navigatsiyasi
+PlaybackDVD=DVD &navigatsiyasi
+DVDMenu=&Menyu
+DVDUp=&Yuqoriga
+DVDDown=&Pastga
+DVDLeft=&Chapga
+DVDRight=&O'ngga
+DVDSelect=&Tanlash
+PlaybackDVDTitles=DVD &sarlavhalari
+
+; 21-bosqich: Papkani ochish
+FileOpenFolder=&Papkani ochish...
+
+; Fayl menyusi DVD/Bluray
+FileOpenDVD=&DVD ochish...
+FileOpenBluray=&Blu-ray ochish...
+
+; 13-bosqich: Vaqtga o'tish va tarix
+PlaybackGotoTime=&Vaqtga o'tish...
+ToolsHistory=&Tarix
+
+; 14-bosqich: Tizim latkasi
+TrayShow=&Ko'rsatish/Yashirish
+TrayPlayPause=&Ijro/To'xtatish
+TrayStop=&To'xtatish
+TrayPrevious=&Oldingi
+TrayNext=&Keyingi
+TrayMute=&Ovozni o'chirish
+TrayExit=&Chiqish
+
+; 15-bosqich: Xatcho'plar
+PlaybackAddBookmark=&Xatcho'p qo'shish...
+PlaybackBookmarks=&Xatcho'plar
+BookmarksTitle=Xatcho'plar
+BookmarksGoto=&Xatcho'pga o'tish
+BookmarksRemove=&Xatcho'pni o'chirish
+BookmarksClear=&Hammasini tozalash
+BookmarksOpenFolder=&Papkani ochish
+BookmarksCopyPath=&Yo'lni nusxalash
+BookmarksCount=%d xatcho'p
+NoBookmarks=(Xatcho'plar yo'q)
+NoFileLoaded=(Fayl yuklanmagan)
+BookmarkAdded=Xatcho'p qo'shildi: %s
+BookmarkJumped=Xatcho'pga o'tildi: %s
+AddBookmarkTitle=Xatcho'p qo'shish
+AddBookmarkPrompt=Xatcho'p nomini kiriting:
+ShowAllBookmarks=Barcha xatcho'plarni ko'rsatish...
+
+; 16-bosqich: Tanlanganlar
+ToolsFavorites=&Tanlanganlar
+ToolsAddFavorite=&Tanlanganlarga qo'shish
+FavoritesTitle=Tanlanganlar
+FavoritesPlay=&Ijro
+FavoritesRemove=&Tanlanganlardan o'chirish
+FavoritesClear=&Hammasini tozalash
+FavoritesOpenFolder=&Papkani ochish
+FavoritesCopyPath=&Yo'lni nusxalash
+FavoritesCount=%d tanlangan
+NoFavorites=(Tanlanganlar yo'q)
+AddFavoriteTitle=Tanlanganlarga qo'shish
+AddFavoritePrompt=Tanlangan nomini kiriting:
+AlreadyFavorite=Allaqachon tanlanganlarda
+AddedToFavorites=Tanlanganlarga qo'shildi: %s
+NoFileToFavorite=Qo'shish uchun fayl yuklanmagan
+FavoriteTypeFile=Fayl
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Trek formatlari
+TrackWithTitle=Trek %d: %s
+TrackWithLang=Trek %d (%s)
+TrackNumber=Trek %d
+
+; Tezlik menyusi
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Masshtab menyusi
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitr treki
+SubtitleDisable=O'chirish
+
+; 17-bosqich: Uyqu taymeri
+ToolsSleepTimer=&Uyqu taymeri...
+ToolsSleepTimerActive=&Uyqu taymeri [%s]
+ToolsCancelTimer=&Taymerni bekor qilish
+
+; Audio menyusi
+Audio=&Audio
+AudioTrack=Audio &trek
+AudioVolumeUp=Ovozni &ko'tarish
+AudioVolumeDown=Ovozni &pasaytirish
+AudioMute=&Ovozni o'chirish
+AudioEqualizer=&Ekvalaizer
+AudioDelay=Audio &kechikish
+AudioDelayPlus=Kechikish +0.1s
+AudioDelayMinus=Kechikish -0.1s
+AudioDelayReset=Kechikishni tiklash
+AudioNormalize=Ovozni &normallashtirish
+
+; Video menyusi
+Video=&Video
+VideoFullscreen=&To'liq ekran
+VideoAspect=&Nisbat
+VideoAspectAuto=&Avtomatik
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Skrinshot
+VideoScreenshotAs=Skrinshot &sifatida...
+VideoRotation=&Aylantirish
+VideoRotate0=&0° (Normal)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Ag'darish
+VideoFlipH=&Gorizontal ag'darish
+VideoFlipV=&Vertikal ag'darish
+VideoDeinterlace=&Deinterleys
+VideoZoom=&Masshtab
+VideoZoomIn=&Kattalashtirish
+VideoZoomOut=&Kichiklashtirish
+VideoZoomReset=Masshtabni &tiklash
+VideoPan=&Surish
+VideoPanLeft=&Chapga surish
+VideoPanRight=&O'ngga surish
+VideoPanUp=&Yuqoriga surish
+VideoPanDown=&Pastga surish
+VideoPanReset=&Surishni tiklash
+VideoTrack=Video &trek
+VideoColors=&Rang sozlamalari
+VideoBrightness=&Yorug'lik
+VideoContrast=&Kontrast
+VideoSaturation=&To'yinganlik
+VideoHue=&Rang tusi
+VideoGamma=&Gamma
+VideoColorsReset=Barcha &ranglarni tiklash
+VideoIncrease=Oshirish (+5)
+VideoDecrease=Kamaytirish (-5)
+VideoReset=Tiklash
+VideoAdjustDialog=Video &sozlamalari...
+
+; Ko'rinish menyusi
+View=&Ko'rinish
+ViewAlwaysOnTop=&Doim ustida
+ViewFitToVideo=&Oynani videoga moslashtirish
+ViewScale=Oyna &masshtabi
+
+; 26-bosqich: Vizualizatsiya menyusi
+ViewVisualization=&Vizualizatsiya
+VisNone=&Yo'q
+VisSpectrum=&Spektr analizatori
+VisWaveform=&To'lqin shakli
+VisVector=&Vektor ko'rinishi
+VisVolume=&VU metr
+VisNextMode=Keyingi &rejim
+VisNextColor=Keyingi &rang sxemasi
+
+; Subtitrlar menyusi
+Subtitles=&Subtitrlar
+SubtitleTrack=Subtitr &treki
+SubtitleLoad=&Subtitr yuklash...
+SubtitleDelay=Subtitr &kechikishi
+SubtitleDelayPlus=Kechikish +0.1s
+SubtitleDelayMinus=Kechikish -0.1s
+SubtitleDelayReset=Kechikishni tiklash
+
+; Asboblar menyusi
+Tools=&Asboblar
+ToolsPlaylist=&Pleylist
+ToolsRadios=&Radiolar
+ToolsShortcuts=&Klaviatura yorliqlari...
+ToolsOptions=&Sozlamalar
+
+; 27-bosqich: Yozish menyusi
+ToolsRecord=&Oqimni yozish...
+ToolsStopRecord=&Yozishni to'xtatish
+ToolsRecording=&Yozish...
+
+; Yordam menyusi
+Help=&Yordam
+HelpMediaInfo=&Media ma'lumoti
+HelpLog=&Jurnal oynasi
+HelpAbout=&Dastur haqida
+
+[Dialog]
+OpenFile=Faylni ochish
+OpenURL=URL ochish
+SaveScreenshot=Skrinshotni saqlash
+LoadSubtitle=Subtitr faylini yuklash
+EnterURL=URL kiriting:
+ResumePlayback=Ijroni davom ettirish
+ResumeFrom=%s dan davom ettirilsinmi?
+ClearRecentFiles=So'nggi fayllarni tozalash
+NoRecentFiles=(So'nggi fayllar yo'q)
+NoAudioTracks=(Audio treklar yo'q)
+NoVideoTracks=(Video treklar yo'q)
+NoSubtitleTracks=(Subtitr treklari yo'q)
+NoChapters=(Boblar yo'q)
+OpenDVD=DVD ochish
+OpenBluray=Blu-ray ochish
+OpenFolder=Papkani ochish
+
+; File filters
+ScreenshotFilter=PNG rasm|*.png|JPEG rasm|*.jpg|WebP rasm|*.webp
+DVDFilter=DVD papkasi|*.;*.iso|Barcha fayllar (*.*)|*.*
+BlurayFilter=Blu-ray papkasi|*.;*.iso|Barcha fayllar (*.*)|*.*
+NoDVD=(DVD yuklanmagan)
+DVDTitle=Sarlavha %d
+GotoTime=Vaqtga o'tish
+EnterTime=O'tish vaqtini kiriting:
+Hours=Soat
+Minutes=Daqiqa
+Seconds=Soniya
+Current=Joriy:
+HistoryTitle=Ijro tarixi
+HistoryItems=Tarixda %d element
+HistoryPlay=&Ijro
+HistoryRemove=&Tarixdan o'chirish
+HistoryClear=&Barcha tarixni tozalash
+HistoryOpenFolder=&Papkani ochish
+HistoryCopyPath=&Yo'lni nusxalash
+ClearHistory=Tarixni tozalash
+ClearHistoryConfirm=Barcha tarixni tozalashni xohlaysizmi?
+SleepTimerTitle=Uyqu taymeri
+SleepTimerDescription=Ijroni avtomatik to'xtatish taymerini o'rnating
+SleepTimerHours=Soat
+SleepTimerMinutes=Daqiqa
+SleepTimerQuickSet=Tez o'rnatish
+SleepTimerAction=Taymer tugaganda
+SleepTimerStopPlayback=Ijroni to'xtatish
+SleepTimerCloseApp=Dasturni yopish
+SleepTimerShutdown=Kompyuterni o'chirish
+SleepTimerStart=Taymerni boshlash
+
+[Status]
+Ready=Tayyor
+Opening=Ochilmoqda...
+Playing=Ijro etilmoqda
+Paused=To'xtatilgan
+Stopped=To'xtatildi
+Error=Xato
+Buffering=Buferlash...
+Seeking=Qidirish...
+Recording=Yozish
+
+[Message]
+SpeedFormat=Tezlik: %.2fx
+VolumeFormat=Ovoz balandligi: %d%%
+BrightnessFormat=Yorug'lik: %d
+ContrastFormat=Kontrast: %d
+SaturationFormat=To'yinganlik: %d
+HueFormat=Rang tusi: %d
+GammaFormat=Gamma: %d
+ColorsReset=Video ranglari tiklandi
+LoopASet=A takrorlash o'rnatildi: %s
+LoopBSet=B takrorlash o'rnatildi: %s - Takrorlash faol
+LoopCleared=A-B takrorlash tozalandi
+SetAFirst=Avval A nuqtasini o'rnating (L bosing)
+RotationFormat=Aylantirish: %d°
+FlipHOn=Gorizontal ag'darish: YOQILGAN
+FlipHOff=Gorizontal ag'darish: O'CHIRILGAN
+FlipVOn=Vertikal ag'darish: YOQILGAN
+FlipVOff=Vertikal ag'darish: O'CHIRILGAN
+DeinterlaceOn=Deinterleys: YOQILGAN
+DeinterlaceOff=Deinterleys: O'CHIRILGAN
+AlwaysOnTopOn=Doim ustida: YOQILGAN
+AlwaysOnTopOff=Doim ustida: O'CHIRILGAN
+WindowFitted=Oyna %dx%d o'lchamiga moslashtirildi
+WindowScale=Oyna masshtabi: %.0f%%
+ScreenshotSaved=Skrinshot saqlandi: %s
+AudioNormalizeOn=Audio normallashtirish: YOQILGAN
+AudioNormalizeOff=Audio normallashtirish: O'CHIRILGAN
+AudioDelayFormat=Audio kechikish: %.1f s
+SubtitleDelayFormat=Subtitr kechikishi: %.1f s
+ZoomFormat=Masshtab: %.0f%%
+PanCenter=Surish: Markaz
+PanFormat=Surish: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Video yuklanmagan
+PlayingFromClipboard=Vaqtinchalik xotiradan ijro: %s
+ClipboardInvalid=Vaqtinchalik xotirada yaroqli URL yo'q
+ClipboardEmpty=Vaqtinchalik xotira bo'sh
+ResumedAt=%s da davom ettirildi
+FrameStepForward=Kadr oldinga
+FrameStepBackward=Kadr orqaga
+PreviousChapter=Oldingi bob
+NextChapter=Keyingi bob
+PlayingRadio=Radio ijro etilmoqda: %s
+PlayingDVD=DVD ijro etilmoqda: %s
+PlayingBluray=Blu-ray ijro etilmoqda: %s
+DVDTitlePlaying=DVD sarlavhasi %d
+SeekTo=%s ga o'tish
+MinimizedToTray=Latkaga yashirildi. Qayta tiklash uchun ikki marta bosing.
+SleepTimerSet=Uyqu taymeri o'rnatildi: %s
+SleepTimerCancelled=Uyqu taymeri bekor qilindi
+SleepTimerWarning=Uyqu taymeri: 1 daqiqa qoldi
+SleepTimerFinal=Uyqu taymeri: 10 soniya qoldi
+SleepTimerStopped=Uyqu taymeri: Ijro to'xtatildi
+SleepTimerClosing=Uyqu taymeri: Dastur yopilmoqda
+SleepTimerShutdown=Uyqu taymeri: Kompyuter o'chirilmoqda
+SleepTimerExpired=Uyqu taymeri tugadi
+ShutdownManual=Kompyuterni qo'lda o'chiring.
+
+; 21-bosqich: Papkani ochish
+FolderOpened=Papka ochildi: %d fayl
+NoMediaFound=Media fayllar topilmadi
+FilesAdded=Pleylistga %d fayl qo'shildi
+
+; 27-bosqich: Yozish xabarlari
+RecordNeedPlayback=Yozishdan oldin ijroni boshlang.
+RecordingStarted=Yozish boshlandi
+RecordingStopped=Yozish to'xtatildi
+
+; Qo'shimcha holat xabarlari
+EndOfPlaylist=Pleylist oxiri
+NoMediaLoaded=Media fayl yuklanmagan.
+JumpedToNamed=O'tildi: %s
+ChapterFormat=Bob %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Xatcho'p: %s
+
+[Label]
+Muted=Ovoz o'chirilgan
+
+[Button]
+Play=Ijro
+Pause=To'xtatish
+Stop=To'xtatish
+Previous=Oldingi
+Next=Keyingi
+Mute=Ovozni o'chirish
+Unmute=Ovozni yoqish
+Fullscreen=To'liq ekran
+OK=OK
+Cancel=Bekor qilish
+Apply=Qo'llash
+Close=Yopish
+Yes=Ha
+No=Yo'q
+
+[Tooltip]
+Play=Ijro/To'xtatish
+Stop=Ijroni to'xtatish
+Previous=Oldingi trek
+Next=Keyingi trek
+Mute=Ovozni o'chirish/yoqish
+Volume=Ovoz balandligi
+Seek=Qidirish pozitsiyasi
+Fullscreen=To'liq ekranni almashtirish
+
+[Playlist]
+Title=Pleylist
+Add=Qo'shish
+Remove=O'chirish
+Clear=Tozalash
+MoveUp=Yuqoriga ko'chirish
+MoveDown=Pastga ko'chirish
+Shuffle=Aralashtirish
+Repeat=Takrorlash
+Play=Ijro
+ShuffleOn=Aralashtirish: Yoqilgan
+ShuffleOff=Aralashtirish: O'chirilgan
+RepeatOff=Takrorlash: O'chirilgan
+RepeatOne=Takrorlash: Bitta
+RepeatAll=Takrorlash: Hammasi
+SavePlaylist=Saqlash
+LoadPlaylist=Yuklash
+TotalDuration=Jami: %s
+ItemCount=%d element
+
+; 22-bosqich: Pleylist yaxshilanishlari
+Search=Qidirish:
+FilterPlaceholder=Pleylistni filtrlash...
+ClearSearch=Tozalash
+FilterCount=%d/%d
+RemoveDuplicates=&Dublikatlarni o'chirish
+Properties=&Xususiyatlar...
+NoDuplicates=Dublikatlar topilmadi.
+DuplicatesFound=%d dublikat topildi. O'chirilsinmi?
+RemoveDuplicatesTitle=Dublikatlarni o'chirish
+PropertiesTitle=Pleylist xususiyatlari
+PropTotalItems=Jami elementlar: %d
+PropTotalDuration=Jami davomiylik: %s
+PropPlayed=Ijro etilgan: %d
+PropUnplayed=Ijro etilmagan: %d
+PropTotalSize=Jami hajm: %.2f MB
+PropShuffle=Aralashtirish: %s
+PropRepeat=Takrorlash: %s
+On=Yoqilgan
+Off=O'chirilgan
+
+; Qo'shimcha kalitlar
+ClearTitle=Pleylistni tozalash
+ClearConfirm=Pleylistni tozalashni xohlaysizmi?
+NoPlaylist=Pleylist yo'q
+StatusFormat=%d element | Jami: %s
+RepeatOne=Tak. 1
+RepeatAll=Tak. Ham.
+HintRepeatEnable=Hammasini takrorlashni yoqish uchun bosing
+HintRepeatOne=Bittani takrorlash - O'chirish uchun bosing
+HintRepeatAll=Hammasini takrorlash - Bittani takrorlash uchun bosing
+HintShuffleRepeat=Aralashtirish + Hammasini takrorlash - Takrorlashni o'chirish uchun bosing
+RemoveDuplicatesTitle=Dublikatlarni o'chirish
+NoDuplicates=Dublikatlar topilmadi.
+SelectAll=Hammasini tanlash
+SelectNone=Hech birini tanlamaslik
+SelectInvert=Tanlashni teskari qilish
+Sort=Saralash
+SortByName=Nom bo'yicha
+SortByTitle=Sarlavha bo'yicha
+SortByArtist=Ijrochi bo'yicha
+SortByDuration=Davomiylik bo'yicha
+SortReverse=Teskari
+SortRandom=Tasodifiy
+ColTitle=Sarlavha
+ColDuration=Davomiylik
+ColArtist=Ijrochi
+ColAlbum=Albom
+PlaylistFilter=M3U pleylist|*.m3u|M3U8 pleylist|*.m3u8|PLS pleylist|*.pls
+
+[Equalizer]
+Title=Ekvalaizer
+Presets=Oldindan sozlamalar:
+Preamp=Oldindan kuchaytirgich:
+Flat=Tekis
+Rock=Rok
+Pop=Pop
+Jazz=Jazz
+Classical=Klassik
+BassBoost=Bass kuchaytirgich
+TrebleBoost=Yuqori chastota kuchaytirgich
+Vocal=Vokal
+Reset=Tiklash
+Enable=Ekvalaizererni yoqish
+Save=Saqlash
+Delete=O'chirish
+Ready=Tayyor
+; Tugmalar va harakatlar
+SavePreset=Oldindan sozlamani saqlash
+DeletePreset=Oldindan sozlamani o'chirish
+SavePresetTitle=Oldindan sozlamani saqlash
+PresetNamePrompt=Oldindan sozlama nomi:
+EnterPresetName=Oldindan sozlama nomini kiriting.
+OverwritePresetTitle=Oldindan sozlamani qayta yozish
+OverwritePresetConfirm=Bu nomli oldindan sozlama mavjud. Qayta yozilsinmi?
+PresetUpdated=Oldindan sozlama yangilandi: %s
+PresetSaved=Oldindan sozlama saqlandi: %s
+SelectPresetToDelete=O'chirish uchun oldindan sozlamani tanlang.
+CannotDeleteDefault=Standart oldindan sozlamalarni o'chirib bo'lmaydi.
+DeletePresetTitle=Oldindan sozlamani o'chirish
+DeletePresetConfirm=Bu oldindan sozlamani o'chirmoqchimisiz?
+PresetDeleted=Oldindan sozlama o'chirildi
+ResetToFlat=Ekvalaizer tekis holatga tiklandi
+PresetApplied=Oldindan sozlama qo'llandi: %s
+
+[Options]
+Title=Sozlamalar
+General=Umumiy
+Video=Video
+Audio=Audio
+Subtitles=Subtitrlar
+Cache=Kesh
+Language=Til:
+RestartRequired=O'zgarishlarni qo'llash uchun qayta ishga tushirish kerak
+
+; Umumiy yorlig'i - Xulq-atvor
+Behavior=Xulq-atvor
+SingleInstance=Faqat bitta nusxaga ruxsat berish
+AutoPlay=Ochganda avtomatik ijro
+AutoResume=Ijro pozitsiyasini davom ettirish
+MinimizeToTray=Tizim latkasiga yashirish
+AutoSavePlaylist=Chiqishda pleylistni saqlash
+
+; Umumiy yorlig'i - OSD
+OSD=Ekrandagi displey
+ShowOSD=Ekrandagi xabarlarni ko'rsatish
+ShowTrayIcon=Latka belgisini ko'rsatish
+OSDDuration=OSD davomiyligi (ms):
+
+; Umumiy yorlig'i - Skrinshotlar
+Screenshots=Skrinshotlar
+ScreenshotPath=Saqlash papkasi:
+ScreenshotFormat=Format:
+
+; Umumiy yorlig'i - Tarix
+HistorySettings=Tarix
+HistoryEnabled=Ijro tarixini yoqish
+HistoryMaxItems=Maks. elementlar:
+
+; Umumiy yorlig'i - Til
+LanguageGroup=Til
+RestartNote=(O'zgarishlar uchun qayta ishga tushirish kerak)
+
+; Video yorlig'i
+VideoAdjust=Video sozlamalari
+Brightness=Yorug'lik:
+Contrast=Kontrast:
+Saturation=To'yinganlik:
+Hue=Rang tusi:
+Gamma=Gamma:
+VideoOutput=Video chiqishi
+Output=Chiqish:
+HWAccel=Apparat tezlashtirishni yoqish
+Deinterlacing=Deinterleys
+Mode=Rejim:
+
+; Audio yorlig'i
+AudioOutput=Audio chiqishi
+OutputDriver=Chiqish drayveri:
+Device=Qurilma:
+AudioOptions=Audio sozlamalari
+NormalizeAudio=Audio ovozini normallashtirish
+Channels=Kanallar:
+
+; Subtitrlar yorlig'i
+UseDefaultSubtitles=Standart subtitr sozlamalarini ishlatish
+Font=Shrift
+FontName=Shrift:
+FontSize=Hajmi:
+FontColor=Rangi:
+Bold=Qalin
+Italic=Kursiv
+Outline=Kontur
+OutlineColor=Rangi:
+OutlineSize=Hajmi:
+Position=Pozitsiya
+VerticalPosition=Vertikal pozitsiya:
+SubOptions=Sozlamalar
+Encoding=Kodlash:
+AutoLoadSubs=Subtitr fayllarini avtomatik yuklash
+
+; Video chiqish ogohlantirishlari
+VOWarningX11=Ogohlantirish: x11 video sozlamalarini qo'llab-quvvatlamaydi (yorug'lik, kontrast va h.k.)
+VOWarningWayland=Ogohlantirish: Wayland sessiyasi talab qilinadi. Video sozlamalari qo'llab-quvvatlanadi.
+
+; Kesh yorlig'i
+CacheSettings=Kesh bufer hajmlari (KB)
+CacheDefault=Standart kesh:
+CacheLocal=Mahalliy fayllar:
+CacheNetwork=Tarmoq fayllari:
+CacheInternet=Internet oqimlari:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Dastur haqida
+Version=Versiya
+Engine=Dvigatel
+Technology=Texnologiya
+BuildInfo=Qurilma ma'lumoti
+SystemInfo=Tizim
+Credits=Minnatdorchilik
+Developer=Dasturchi:
+Author=Muallif
+License=Litsenziya
+Website=Veb-sayt
+GitHub=GitHub
+Description=Zamonaviy, engil media pleyer
+LicenseText=3nity Media GPL-2.0 litsenziyasi ostida\n\nBu sizga imkon beradi:\n  • Dasturni istalgan maqsadda ishlatish\n  • Manba kodini o'rganish va o'zgartirish\n  • Dastur nusxalarini tarqatish\n  • O'zgarishlarni tarqatish\n\nSharti: tarqatilgan o'zgarishlar\nGPL-2.0 litsenziyalangan bo'lishi kerak.
+BuildDate=Sana:
+Target=Maqsad:
+Kernel=Yadro:
+
+[Shortcuts]
+Title=Klaviatura yorliqlari
+Description=Harakatlar uchun klaviatura yorliqlarini sozlash
+Search=Qidirish:
+PressKey=Tugma bosing...
+ColCategory=Kategoriya
+ColAction=Harakat
+ColShortcut=Yorliq
+Assign=Belgilash
+Clear=Tozalash
+Reset=Tiklash
+ResetAll=Hammasini tiklash
+CurrentShortcut=Joriy: %s
+NoKeyPressed=Avval tugma kombinatsiyasini bosing.
+Conflict=Ziddiyat: Allaqachon "%s" ga belgilangan
+ConfirmReplace=Yorliqni almashtirish
+ReplaceMessage=Bu yorliq allaqachon "%s" ga belgilangan. Almashtirilsinmi?
+ConfirmResetAll=Barcha yorliqlarni tiklash
+ResetAllMessage=Barcha yorliqlarni standart qiymatlarga tiklashni xohlaysizmi?
+; Harakat nomlari
+ActPlayPause=Ijro / To'xtatish
+ActStop=To'xtatish
+ActPrevious=Oldingi
+ActNext=Keyingi
+ActSeekForward=Oldinga qidirish (10s)
+ActSeekBackward=Orqaga qidirish (10s)
+ActSeekForward5=Oldinga qidirish (1 daq)
+ActSeekBackward5=Orqaga qidirish (1 daq)
+ActSpeedUp=Tezlashtirish
+ActSpeedDown=Sekinlashtirish
+ActSpeedReset=Tezlikni tiklash
+ActSetLoopA=A takrorlash nuqtasini o'rnatish
+ActSetLoopB=B takrorlash nuqtasini o'rnatish
+ActClearLoop=A-B takrorlashni tozalash
+ActFrameForward=Kadr oldinga
+ActFrameBackward=Kadr orqaga
+ActPrevChapter=Oldingi bob
+ActNextChapter=Keyingi bob
+ActGotoTime=Vaqtga o'tish
+ActVolumeUp=Ovozni ko'tarish
+ActVolumeDown=Ovozni pasaytirish
+ActMute=Ovozni o'chirish / Yoqish
+ActAudioDelayPlus=Audio kechikish +
+ActAudioDelayMinus=Audio kechikish -
+ActAudioDelayReset=Audio kechikishni tiklash
+ActFullscreen=To'liq ekran
+ActRotate=Videoni aylantirish
+ActDeinterlace=Deinterleys
+ActZoomIn=Kattalashtirish
+ActZoomOut=Kichiklashtirish
+ActZoomReset=Masshtabni tiklash
+ActAlwaysOnTop=Doim ustida
+ActFitToVideo=Videoga moslashtirish
+ActScreenshot=Skrinshot
+ActVideoAdjust=Video sozlamalari
+ActVisNextMode=Keyingi vizualizatsiya rejimi
+ActVisNextColor=Keyingi rang sxemasi
+ActSubDelayPlus=Subtitr kechikishi +
+ActSubDelayMinus=Subtitr kechikishi -
+ActSubDelayReset=Subtitr kechikishini tiklash
+ActDVDMenu=DVD menyusi
+ActDVDUp=DVD yuqoriga
+ActDVDDown=DVD pastga
+ActDVDLeft=DVD chapga
+ActDVDRight=DVD o'ngga
+ActDVDSelect=DVD tanlash
+ActOpenFile=Faylni ochish
+ActOpenURL=URL ochish
+ActPlaylist=Pleylistni ko'rsatish
+ActQuit=Chiqish
+
+[Log]
+; 25-bosqich: Jurnal oynasi
+Title=MPV jurnali
+Command=Buyruq:
+Clear=Tozalash
+Save=Saqlash...
+Copy=&Nusxalash
+SelectAll=Hammasini &tanlash
+SaveTitle=Jurnalni saqlash
+SaveFilter=Matn fayllari (*.txt)|*.txt|Barcha fayllar (*.*)|*.*
+ErrorTitle=Xato
+SaveError=Jurnalni saqlash muvaffaqiyatsiz: %s
+
+[MediaInfo]
+Title=Media ma'lumoti
+FileTab=Fayl
+VideoTab=Video
+AudioTab=Audio
+MetadataTab=Metadata
+FileName=Fayl nomi:
+FilePath=Yo'l:
+FileSize=Hajmi:
+Duration=Davomiyligi:
+Format=Format:
+Bitrate=Bitreyt:
+Codec=Kodek:
+Resolution=Ruxsat:
+FrameRate=Kadr tezligi:
+PixelFormat=Piksel formati:
+AspectRatio=Nisbat:
+Channels=Kanallar:
+SampleRate=Namuna tezligi:
+Language=Til:
+Property=Xususiyat
+Value=Qiymat
+CopyAll=Hammasini nusxalash
+CopiedToClipboard=Media ma'lumoti vaqtinchalik xotiraga nusxalandi.
+NA=Mavjud emas
+NAStream=Mavjud emas (oqim)
+NALive=Mavjud emas (jonli)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Noma'lum
+NoMetadata=(Metadata yo'q)
+
+[Bookmarks]
+Title=Xatcho'plar
+Goto=O'tish
+Remove=O'chirish
+Clear=Hammasini tozalash
+Refresh=Yangilash
+OpenFolder=Papkani ochish
+CopyPath=Yo'lni nusxalash
+; Ustunlar
+ColName=Nomi
+ColFile=Fayl
+ColPosition=Pozitsiya
+ColCreated=Yaratilgan
+; Dialoglar
+ClearTitle=Xatcho'plarni tozalash
+ClearConfirm=Barcha xatcho'plarni tozalashni xohlaysizmi?
+Count=%d xatcho'p
+
+[Favorites]
+Title=Tanlanganlar
+Play=Ijro
+Remove=O'chirish
+Clear=Hammasini tozalash
+Refresh=Yangilash
+OpenFolder=Papkani ochish
+CopyPath=Yo'lni nusxalash
+; Ustunlar
+ColName=Nomi
+ColType=Turi
+ColPath=Yo'l
+; Turlar
+TypeFile=Fayl
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Noma'lum
+; Dialoglar
+ClearTitle=Tanlanganlarni tozalash
+ClearConfirm=Barcha tanlanganlarni tozalashni xohlaysizmi?
+Count=%d tanlangan
+
+[History]
+Title=Ijro tarixi
+Play=Ijro
+Remove=O'chirish
+Clear=Hammasini tozalash
+Refresh=Yangilash
+OpenFolder=Papkani ochish
+CopyPath=Yo'lni nusxalash
+; Ustunlar
+ColFileName=Fayl
+ColPath=Yo'l
+; Dialoglar
+ClearTitle=Tarixni tozalash
+ClearConfirm=Barcha tarixni tozalashni xohlaysizmi?
+Count=%d element
+
+[SleepTimer]
+Title=Uyqu taymeri
+Description=Ijroni avtomatik to'xtatish taymerini o'rnating
+Hours=Soat:
+Minutes=Daqiqa:
+Action=Taymer tugaganda:
+StopPlayback=Ijroni to'xtatish
+CloseApp=Dasturni yopish
+Shutdown=Kompyuterni o'chirish
+QuickSet=Tez o'rnatish:
+15Min=15 daq
+30Min=30 daq
+1Hour=1 soat
+2Hours=2 soat
+
+[Radios]
+Title=Internet radiolari
+Play=Ijro
+Add=Qo'shish
+Edit=Tahrirlash
+Delete=O'chirish
+Remove=O'chirish
+Import=Import
+Export=Eksport
+Refresh=Yangilash
+Favorite=Tanlangan
+ShowFavorites=Tanlanganlar
+ShowAll=Hammasi
+; Filtr
+Genre=Janr:
+Search=Qidirish:
+SearchBtn=Qidirish
+ClearSearch=Tozalash
+AllGenres=(Barcha janrlar)
+; Kontekst menyusi
+AddFavorite=Tanlanganlarga qo'shish
+RemoveFavorite=Tanlanganlardan o'chirish
+AddCustom=Maxsus stansiya qo'shish...
+EditCustom=Stansiyani tahrirlash...
+DeleteCustom=Stansiyani o'chirish
+OpenWebsite=Veb-saytni ochish
+CopyURL=URL nusxalash
+; Ustunlar
+ColName=Nomi
+ColGenre=Janr
+ColBitrate=Bitreyt
+ColCountry=Mamlakat
+ColCodec=Kodek
+; Dialoglar
+AddTitle=Maxsus stansiya qo'shish
+EditTitle=Stansiyani tahrirlash
+DeleteTitle=Stansiyani o'chirish
+DeleteConfirm=Bu stansiyani o'chirmoqchimisiz?
+StationName=Stansiya nomi:
+StreamURL=Oqim URL:
+GenrePrompt=Janr:
+NameURLRequired=Nom va URL talab qilinadi.
+; Holat xabarlari
+LoadingIcecast=Icecast katalogidan stansiyalar yuklanmoqda...
+IcecastError=Icecast katalogini yuklab bo'lmadi. Standart stansiyalar ishlatilmoqda.
+NoStationsLoaded=Stansiyalar yuklanmadi
+StationCount=%d stansiya
+LoadedStations=%d stansiya yuklandi
+ErrorPrefix=Xato:
+; Eski kalitlar
+Name=Nomi
+URL=URL
+Bitrate=Bitreyt
+Description=Tavsif
+Country=Mamlakat
+
+[OpenURL]
+Title=URL ochish
+Prompt=Media URL kiriting:
+
+[GotoTime]
+Title=Vaqtga o'tish
+EnterTime=O'tish vaqtini kiriting:
+Hours=S
+Minutes=D
+Seconds=Son
+Current=Joriy:
+Duration=Davomiyligi:
+
+[VideoAdjust]
+Title=Video sozlamalari
+Brightness=Yorug'lik:
+Contrast=Kontrast:
+Saturation=To'yinganlik:
+Hue=Rang tusi:
+Gamma=Gamma:
+ResetAll=Barcha ranglarni tiklash
+
+[CLI]
+; Buyruq qatori xabarlari
+Usage=Foydalanish
+Arguments=[TANLOVLAR] [FAYL|URL|PAPKA]
+Description=libmpv dvigateliga asoslangan ko'p platformali multimedia pleyeri.
+Options=TANLOVLAR
+Examples=MISOLLAR
+MoreInfo=Batafsil ma'lumot uchun tashrif buyuring
+EnqueuedTo=Mavjud nusxaning navbatiga qo'shildi: %s
+SentTo=Mavjud nusxaga yuborildi: %s
+AlreadyRunning=3nity Media allaqachon ishlamoqda.
+ErrorFileNotFound=Xato: Fayl yoki katalog topilmadi: %s
+ErrorSubNotFound=Xato: Subtitr fayli topilmadi: %s

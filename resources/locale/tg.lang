@@ -1,0 +1,892 @@
+[Language]
+Name=Tajik - Тоҷикӣ
+Code=tg
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Менюи файл
+File=&Файл
+FileOpen=&Кушодани файл...
+FileOpenURL=&Кушодани URL...
+FileOpenClipboard=&Кушодан аз буфер
+FileRecent=&Файлҳои охирин
+ClearRecentFiles=Тозакунии файлҳои охирин
+FileExit=&Баромадан
+
+; Менюи пахш
+Playback=&Пахш
+PlaybackPlayPause=&Пахш/Таваққуф
+PlaybackStop=&Истодан
+PlaybackPrevious=&Пештара
+PlaybackNext=&Оянда
+PlaybackSeekForward=&Пеш рафтан
+PlaybackSeekBackward=&Ақиб рафтан
+PlaybackSpeed=&Суръат
+PlaybackABLoop=A-&B такрор
+PlaybackSetA=Гузоштани нуқтаи &A
+PlaybackSetB=Гузоштани нуқтаи &B
+PlaybackClearAB=&Тозакунии A-B
+PlaybackChapters=&Бобҳо
+PlaybackPrevChapter=Боби пештара
+PlaybackNextChapter=Боби оянда
+PlaybackFrameStep=&Кадр пеш
+PlaybackFrameBack=&Кадр ақиб
+
+; Навигатсияи DVD
+PlaybackDVD=&Навигатсияи DVD
+DVDMenu=&Меню
+DVDUp=&Боло
+DVDDown=&Поён
+DVDLeft=&Чап
+DVDRight=&Рост
+DVDSelect=&Интихоб
+PlaybackDVDTitles=&Сарлавҳаҳои DVD
+
+; Марҳилаи 21: Кушодани ҷузвдон
+FileOpenFolder=Кушодани &ҷузвдон...
+
+; Менюи файл DVD/Bluray
+FileOpenDVD=Кушодани &DVD...
+FileOpenBluray=Кушодани &Blu-ray...
+
+; Марҳилаи 13: Гузаштан ба вақт ва таърих
+PlaybackGotoTime=&Гузаштан ба вақт...
+ToolsHistory=&Таърих
+
+; Марҳилаи 14: Панели система
+TrayShow=&Намоиш/Пинҳон
+TrayPlayPause=&Пахш/Таваққуф
+TrayStop=&Истодан
+TrayPrevious=&Пештара
+TrayNext=&Оянда
+TrayMute=&Хомӯш
+TrayExit=&Баромадан
+
+; Марҳилаи 15: Хатбаракҳо
+PlaybackAddBookmark=Илова кардани &хатбарак...
+PlaybackBookmarks=&Хатбаракҳо
+BookmarksTitle=Хатбаракҳо
+BookmarksGoto=&Гузаштан ба хатбарак
+BookmarksRemove=&Нест кардани хатбарак
+BookmarksClear=&Тоза кардани ҳама
+BookmarksOpenFolder=Кушодани &ҷузвдон
+BookmarksCopyPath=&Нусхабардории роҳ
+BookmarksCount=%d хатбарак
+NoBookmarks=(Хатбаракҳо нест)
+NoFileLoaded=(Файл бор карда нашуд)
+BookmarkAdded=Хатбарак илова шуд: %s
+BookmarkJumped=Ба хатбарак гузашт: %s
+AddBookmarkTitle=Илова кардани хатбарак
+AddBookmarkPrompt=Номи хатбаракро ворид кунед:
+ShowAllBookmarks=Намоиши ҳамаи хатбаракҳо...
+
+; Марҳилаи 16: Дӯстдоштаҳо
+ToolsFavorites=&Дӯстдоштаҳо
+ToolsAddFavorite=Илова ба &дӯстдоштаҳо
+FavoritesTitle=Дӯстдоштаҳо
+FavoritesPlay=&Пахш
+FavoritesRemove=&Нест кардан аз дӯстдоштаҳо
+FavoritesClear=&Тоза кардани ҳама
+FavoritesOpenFolder=Кушодани &ҷузвдон
+FavoritesCopyPath=&Нусхабардории роҳ
+FavoritesCount=%d дӯстдошта
+NoFavorites=(Дӯстдоштаҳо нест)
+AddFavoriteTitle=Илова ба дӯстдоштаҳо
+AddFavoritePrompt=Номи дӯстдоштаро ворид кунед:
+AlreadyFavorite=Аллакай дар дӯстдоштаҳо аст
+AddedToFavorites=Ба дӯстдоштаҳо илова шуд: %s
+NoFileToFavorite=Файл барои илова бор нашуд
+FavoriteTypeFile=Файл
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Радио
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Формати трек
+TrackWithTitle=Трек %d: %s
+TrackWithLang=Трек %d (%s)
+TrackNumber=Трек %d
+
+; Менюи суръат
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Менюи андоза
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Треки субтитр
+SubtitleDisable=Хомӯш кардан
+
+; Марҳилаи 17: Таймери хоб
+ToolsSleepTimer=&Таймери хоб...
+ToolsSleepTimerActive=&Таймери хоб [%s]
+ToolsCancelTimer=Бекор кардани &таймер
+
+; Менюи аудио
+Audio=&Аудио
+AudioTrack=&Треки аудио
+AudioVolumeUp=&Баланд кардани садо
+AudioVolumeDown=&Паст кардани садо
+AudioMute=&Хомӯш
+AudioEqualizer=&Эквалайзер
+AudioDelay=&Таъхири аудио
+AudioDelayPlus=Таъхир +0.1с
+AudioDelayMinus=Таъхир -0.1с
+AudioDelayReset=Барқарор кардани таъхир
+AudioNormalize=&Нормализатсияи садо
+
+; Менюи видео
+Video=&Видео
+VideoFullscreen=&Экрани пурра
+VideoAspect=&Таносуб
+VideoAspectAuto=&Автоматӣ
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Скриншот
+VideoScreenshotAs=Скриншот &ҳамчун...
+VideoRotation=&Гардонидан
+VideoRotate0=&0° (Муқаррарӣ)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Гардондан
+VideoFlipH=Гардондани &уфуқӣ
+VideoFlipV=Гардондани &амудӣ
+VideoDeinterlace=&Деинтерлейс
+VideoZoom=&Андоза
+VideoZoomIn=&Калон кардан
+VideoZoomOut=&Хурд кардан
+VideoZoomReset=Барқарор кардани &андоза
+VideoPan=&Ҳаракат
+VideoPanLeft=Ҳаракат ба &чап
+VideoPanRight=Ҳаракат ба &рост
+VideoPanUp=Ҳаракат ба &боло
+VideoPanDown=Ҳаракат ба &поён
+VideoPanReset=Барқарор кардани &ҳаракат
+VideoTrack=&Треки видео
+VideoColors=&Танзимоти ранг
+VideoBrightness=&Равшанӣ
+VideoContrast=&Контраст
+VideoSaturation=&Серӣ
+VideoHue=&Ранг
+VideoGamma=&Гамма
+VideoColorsReset=Барқарор кардани ҳамаи &рангҳо
+VideoIncrease=Зиёд кардан (+5)
+VideoDecrease=Кам кардан (-5)
+VideoReset=Барқарор кардан
+VideoAdjustDialog=&Танзимоти видео...
+
+; Менюи намоиш
+View=&Намоиш
+ViewAlwaysOnTop=&Ҳамеша дар боло
+ViewFitToVideo=&Мувофиқ кардани тиреза ба видео
+ViewScale=&Андозаи тиреза
+
+; Марҳилаи 26: Менюи визуализатсия
+ViewVisualization=&Визуализатсия
+VisNone=&Нест
+VisSpectrum=&Анализатори спектр
+VisWaveform=&Шакли мавҷ
+VisVector=&Намоиши вектор
+VisVolume=&VU метр
+VisNextMode=&Режими оянда
+VisNextColor=&Нақшаи рангии оянда
+
+; Менюи субтитрҳо
+Subtitles=&Субтитрҳо
+SubtitleTrack=&Треки субтитр
+SubtitleLoad=&Бор кардани субтитр...
+SubtitleDelay=&Таъхири субтитр
+SubtitleDelayPlus=Таъхир +0.1с
+SubtitleDelayMinus=Таъхир -0.1с
+SubtitleDelayReset=Барқарор кардани таъхир
+
+; Менюи асбобҳо
+Tools=&Асбобҳо
+ToolsPlaylist=&Рӯйхати пахш
+ToolsRadios=&Радиоҳо
+ToolsShortcuts=&Миёнбурҳои клавиатура...
+ToolsOptions=&Танзимот
+
+; Марҳилаи 27: Менюи сабт
+ToolsRecord=&Сабти ҷараён...
+ToolsStopRecord=&Истонидани сабт
+ToolsRecording=&Сабт...
+
+; Менюи кӯмак
+Help=&Кӯмак
+HelpMediaInfo=&Маълумоти медиа
+HelpLog=&Равзанаи журнал
+HelpAbout=&Дар бораи барнома
+
+[Dialog]
+OpenFile=Кушодани файл
+OpenURL=Кушодани URL
+SaveScreenshot=Захира кардани скриншот
+LoadSubtitle=Бор кардани файли субтитр
+EnterURL=URL-ро ворид кунед:
+ResumePlayback=Идома додани пахш
+ResumeFrom=Аз %s идома дода шавад?
+ClearRecentFiles=Тоза кардани файлҳои охирин
+NoRecentFiles=(Файлҳои охирин нест)
+NoAudioTracks=(Тректҳои аудио нест)
+NoVideoTracks=(Тректҳои видео нест)
+NoSubtitleTracks=(Тректҳои субтитр нест)
+NoChapters=(Бобҳо нест)
+OpenDVD=Кушодани DVD
+OpenBluray=Кушодани Blu-ray
+OpenFolder=Кушодани ҷузвдон
+
+; File filters
+ScreenshotFilter=Расми PNG|*.png|Расми JPEG|*.jpg|Расми WebP|*.webp
+DVDFilter=Ҷузвдони DVD|*.;*.iso|Ҳамаи файлҳо (*.*)|*.*
+BlurayFilter=Ҷузвдони Blu-ray|*.;*.iso|Ҳамаи файлҳо (*.*)|*.*
+NoDVD=(DVD бор нашуд)
+DVDTitle=Сарлавҳа %d
+GotoTime=Гузаштан ба вақт
+EnterTime=Вақти гузаштанро ворид кунед:
+Hours=Соат
+Minutes=Дақиқа
+Seconds=Сония
+Current=Ҷорӣ:
+HistoryTitle=Таърихи пахш
+HistoryItems=%d унсур дар таърих
+HistoryPlay=&Пахш
+HistoryRemove=&Нест кардан аз таърих
+HistoryClear=&Тоза кардани ҳамаи таърих
+HistoryOpenFolder=Кушодани &ҷузвдон
+HistoryCopyPath=&Нусхабардории роҳ
+ClearHistory=Тоза кардани таърих
+ClearHistoryConfirm=Мехоҳед ҳамаи таърихро тоза кунед?
+SleepTimerTitle=Таймери хоб
+SleepTimerDescription=Таймерро барои истонидани автоматикии пахш танзим кунед
+SleepTimerHours=Соат
+SleepTimerMinutes=Дақиқа
+SleepTimerQuickSet=Танзими зуд
+SleepTimerAction=Вақте таймер тамом мешавад
+SleepTimerStopPlayback=Истонидани пахш
+SleepTimerCloseApp=Пӯшидани барнома
+SleepTimerShutdown=Хомӯш кардани компютер
+SleepTimerStart=Оғоз кардани таймер
+
+[Status]
+Ready=Тайёр
+Opening=Кушода истодааст...
+Playing=Пахш мешавад
+Paused=Таваққуф
+Stopped=Истода
+Error=Хато
+Buffering=Буферкунӣ...
+Seeking=Ҷустуҷӯ...
+Recording=Сабт
+
+[Message]
+SpeedFormat=Суръат: %.2fx
+VolumeFormat=Сатҳи садо: %d%%
+BrightnessFormat=Равшанӣ: %d
+ContrastFormat=Контраст: %d
+SaturationFormat=Серӣ: %d
+HueFormat=Ранг: %d
+GammaFormat=Гамма: %d
+ColorsReset=Рангҳои видео барқарор шуданд
+LoopASet=Такрори A гузошта шуд: %s
+LoopBSet=Такрори B гузошта шуд: %s - Такрор фаъол аст
+LoopCleared=Такрори A-B тоза шуд
+SetAFirst=Аввал нуқтаи A-ро гузоред (L-ро пахш кунед)
+RotationFormat=Гардиш: %d°
+FlipHOn=Гардондани уфуқӣ: ФАЪОЛ
+FlipHOff=Гардондани уфуқӣ: ҒАЙРИФАЪОЛ
+FlipVOn=Гардондани амудӣ: ФАЪОЛ
+FlipVOff=Гардондани амудӣ: ҒАЙРИФАЪОЛ
+DeinterlaceOn=Деинтерлейс: ФАЪОЛ
+DeinterlaceOff=Деинтерлейс: ҒАЙРИФАЪОЛ
+AlwaysOnTopOn=Ҳамеша дар боло: ФАЪОЛ
+AlwaysOnTopOff=Ҳамеша дар боло: ҒАЙРИФАЪОЛ
+WindowFitted=Тиреза ба %dx%d мувофиқ карда шуд
+WindowScale=Андозаи тиреза: %.0f%%
+ScreenshotSaved=Скриншот захира шуд: %s
+AudioNormalizeOn=Нормализатсияи аудио: ФАЪОЛ
+AudioNormalizeOff=Нормализатсияи аудио: ҒАЙРИФАЪОЛ
+AudioDelayFormat=Таъхири аудио: %.1f с
+SubtitleDelayFormat=Таъхири субтитр: %.1f с
+ZoomFormat=Андоза: %.0f%%
+PanCenter=Ҳаракат: Марказ
+PanFormat=Ҳаракат: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Видео бор нашуд
+PlayingFromClipboard=Аз буфер пахш мешавад: %s
+ClipboardInvalid=Дар буфер URL-и дуруст нест
+ClipboardEmpty=Буфер холӣ аст
+ResumedAt=Дар %s идома дода шуд
+FrameStepForward=Кадр пеш
+FrameStepBackward=Кадр ақиб
+PreviousChapter=Боби пештара
+NextChapter=Боби оянда
+PlayingRadio=Радио пахш мешавад: %s
+PlayingDVD=DVD пахш мешавад: %s
+PlayingBluray=Blu-ray пахш мешавад: %s
+DVDTitlePlaying=Сарлавҳаи DVD %d
+SeekTo=Гузаштан ба %s
+MinimizedToTray=Ба панел пинҳон шуд. Барои барқарор кардан ду маротиба пахш кунед.
+SleepTimerSet=Таймери хоб гузошта шуд: %s
+SleepTimerCancelled=Таймери хоб бекор шуд
+SleepTimerWarning=Таймери хоб: 1 дақиқа монд
+SleepTimerFinal=Таймери хоб: 10 сония монд
+SleepTimerStopped=Таймери хоб: Пахш истод
+SleepTimerClosing=Таймери хоб: Барнома пӯшида мешавад
+SleepTimerShutdown=Таймери хоб: Компютер хомӯш мешавад
+SleepTimerExpired=Таймери хоб тамом шуд
+ShutdownManual=Компютерро дастӣ хомӯш кунед.
+
+; Марҳилаи 21: Кушодани ҷузвдон
+FolderOpened=Ҷузвдон кушода шуд: %d файл
+NoMediaFound=Файлҳои медиа ёфт нашуданд
+FilesAdded=Ба рӯйхати пахш %d файл илова шуд
+
+; Марҳилаи 27: Паёмҳои сабт
+RecordNeedPlayback=Пеш аз сабт пахшро оғоз кунед.
+RecordingStarted=Сабт оғоз шуд
+RecordingStopped=Сабт истод
+
+; Паёмҳои иловагии ҳолат
+EndOfPlaylist=Охири рӯйхати пахш
+NoMediaLoaded=Файли медиа бор нашуд.
+JumpedToNamed=Гузашт: %s
+ChapterFormat=Боб %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Хатбарак: %s
+
+[Label]
+Muted=Садо хомӯш
+
+[Button]
+Play=Пахш
+Pause=Таваққуф
+Stop=Истодан
+Previous=Пештара
+Next=Оянда
+Mute=Хомӯш
+Unmute=Садо
+Fullscreen=Экрани пурра
+OK=Хуб
+Cancel=Бекор кардан
+Apply=Татбиқ кардан
+Close=Пӯшидан
+Yes=Ҳа
+No=Не
+
+[Tooltip]
+Play=Пахш/Таваққуф
+Stop=Истонидани пахш
+Previous=Треки пештара
+Next=Треки оянда
+Mute=Хомӯш/садо
+Volume=Сатҳи садо
+Seek=Мавқеъи ҷустуҷӯ
+Fullscreen=Иваз кардани экрани пурра
+
+[Playlist]
+Title=Рӯйхати пахш
+Add=Илова кардан
+Remove=Нест кардан
+Clear=Тоза кардан
+MoveUp=Боло бурдан
+MoveDown=Поён овардан
+Shuffle=Омехтан
+Repeat=Такрор
+Play=Пахш
+ShuffleOn=Омехтан: Фаъол
+ShuffleOff=Омехтан: Ғайрифаъол
+RepeatOff=Такрор: Ғайрифаъол
+RepeatOne=Такрор: Як
+RepeatAll=Такрор: Ҳама
+SavePlaylist=Захира кардан
+LoadPlaylist=Бор кардан
+TotalDuration=Ҷамъ: %s
+ItemCount=%d унсур
+
+; Марҳилаи 22: Беҳбудиҳои рӯйхати пахш
+Search=Ҷустуҷӯ:
+FilterPlaceholder=Филтр кардани рӯйхати пахш...
+ClearSearch=Тоза кардан
+FilterCount=%d/%d
+RemoveDuplicates=Нест кардани &такрорҳо
+Properties=&Хусусиятҳо...
+NoDuplicates=Такрорҳо ёфт нашуданд.
+DuplicatesFound=%d такрор ёфт шуд. Нест карда шаванд?
+RemoveDuplicatesTitle=Нест кардани такрорҳо
+PropertiesTitle=Хусусиятҳои рӯйхати пахш
+PropTotalItems=Ҷамъи унсурҳо: %d
+PropTotalDuration=Ҷамъи давомнокӣ: %s
+PropPlayed=Пахш шуда: %d
+PropUnplayed=Пахш нашуда: %d
+PropTotalSize=Ҷамъи андоза: %.2f MB
+PropShuffle=Омехтан: %s
+PropRepeat=Такрор: %s
+On=Фаъол
+Off=Ғайрифаъол
+
+; Калидҳои иловагӣ
+ClearTitle=Тоза кардани рӯйхати пахш
+ClearConfirm=Мехоҳед рӯйхати пахшро тоза кунед?
+NoPlaylist=Рӯйхати пахш нест
+StatusFormat=%d унсур | Ҷамъ: %s
+RepeatOne=Такр. 1
+RepeatAll=Такр. Ҳама
+HintRepeatEnable=Барои фаъол кардани такрори ҳама пахш кунед
+HintRepeatOne=Такрори як - Барои ғайрифаъол кардан пахш кунед
+HintRepeatAll=Такрори ҳама - Барои такрори як пахш кунед
+HintShuffleRepeat=Омехтан + Такрори ҳама - Барои ғайрифаъол кардани такрор пахш кунед
+RemoveDuplicatesTitle=Нест кардани такрорҳо
+NoDuplicates=Такрорҳо ёфт нашуданд.
+SelectAll=Интихоби ҳама
+SelectNone=Интихоб накардан
+SelectInvert=Баръакс кардани интихоб
+Sort=Мураттаб кардан
+SortByName=Аз рӯи ном
+SortByTitle=Аз рӯи сарлавҳа
+SortByArtist=Аз рӯи санъаткор
+SortByDuration=Аз рӯи давомнокӣ
+SortReverse=Баръакс
+SortRandom=Тасодуфӣ
+ColTitle=Сарлавҳа
+ColDuration=Давомнокӣ
+ColArtist=Санъаткор
+ColAlbum=Албом
+PlaylistFilter=Рӯйхати пахши M3U|*.m3u|Рӯйхати пахши M3U8|*.m3u8|Рӯйхати пахши PLS|*.pls
+
+[Equalizer]
+Title=Эквалайзер
+Presets=Танзимоти пешакӣ:
+Preamp=Пешкучайтиргар:
+Flat=Ҳамвор
+Rock=Рок
+Pop=Поп
+Jazz=Ҷаз
+Classical=Классикӣ
+BassBoost=Кучайтиргари бас
+TrebleBoost=Кучайтиргари баланд
+Vocal=Вокал
+Reset=Барқарор кардан
+Enable=Фаъол кардани эквалайзер
+Save=Захира кардан
+Delete=Нест кардан
+Ready=Тайёр
+; Тугмаҳо ва амалҳо
+SavePreset=Захира кардани танзими пешакӣ
+DeletePreset=Нест кардани танзими пешакӣ
+SavePresetTitle=Захира кардани танзими пешакӣ
+PresetNamePrompt=Номи танзими пешакӣ:
+EnterPresetName=Номи танзими пешакиро ворид кунед.
+OverwritePresetTitle=Азнавнависии танзими пешакӣ
+OverwritePresetConfirm=Танзими пешакӣ бо ин ном вуҷуд дорад. Азнав навишта шавад?
+PresetUpdated=Танзими пешакӣ нав шуд: %s
+PresetSaved=Танзими пешакӣ захира шуд: %s
+SelectPresetToDelete=Танзими пешакиро барои нест кардан интихоб кунед.
+CannotDeleteDefault=Танзимоти пешакии муқаррариро нест кардан мумкин нест.
+DeletePresetTitle=Нест кардани танзими пешакӣ
+DeletePresetConfirm=Мехоҳед ин танзими пешакиро нест кунед?
+PresetDeleted=Танзими пешакӣ нест шуд
+ResetToFlat=Эквалайзер ба ҳолати ҳамвор барқарор шуд
+PresetApplied=Танзими пешакӣ татбиқ шуд: %s
+
+[Options]
+Title=Танзимот
+General=Умумӣ
+Video=Видео
+Audio=Аудио
+Subtitles=Субтитрҳо
+Cache=Кэш
+Language=Забон:
+RestartRequired=Барои татбиқи тағйирот азнавоғозкунӣ лозим аст
+
+; Варақаи умумӣ - Рафтор
+Behavior=Рафтор
+SingleInstance=Танҳо як нусха иҷозат дода шавад
+AutoPlay=Пахши автоматикӣ вақти кушодан
+AutoResume=Идомаи мавқеъи пахш
+MinimizeToTray=Хурд кардан ба панели система
+AutoSavePlaylist=Захираи рӯйхати пахш вақти баромадан
+
+; Варақаи умумӣ - OSD
+OSD=Намоиши экранӣ
+ShowOSD=Намоиши паёмҳои экранӣ
+ShowTrayIcon=Намоиши нишонаи панел
+OSDDuration=Давомнокии OSD (мс):
+
+; Варақаи умумӣ - Скриншотҳо
+Screenshots=Скриншотҳо
+ScreenshotPath=Ҷузвдони захира:
+ScreenshotFormat=Формат:
+
+; Варақаи умумӣ - Таърих
+HistorySettings=Таърих
+HistoryEnabled=Фаъол кардани таърихи пахш
+HistoryMaxItems=Ҳадди аксари унсурҳо:
+
+; Варақаи умумӣ - Забон
+LanguageGroup=Забон
+RestartNote=(Барои тағйирот азнавоғозкунӣ лозим аст)
+
+; Варақаи видео
+VideoAdjust=Танзимоти видео
+Brightness=Равшанӣ:
+Contrast=Контраст:
+Saturation=Серӣ:
+Hue=Ранг:
+Gamma=Гамма:
+VideoOutput=Баромади видео
+Output=Баромад:
+HWAccel=Фаъол кардани тезкунии сахтафзорӣ
+Deinterlacing=Деинтерлейс
+Mode=Режим:
+
+; Варақаи аудио
+AudioOutput=Баромади аудио
+OutputDriver=Драйвери баромад:
+Device=Дастгоҳ:
+AudioOptions=Танзимоти аудио
+NormalizeAudio=Нормализатсияи садои аудио
+Channels=Каналҳо:
+
+; Варақаи субтитрҳо
+UseDefaultSubtitles=Истифодаи танзимоти муқаррарии субтитр
+Font=Ҳуруф
+FontName=Ҳуруф:
+FontSize=Андоза:
+FontColor=Ранг:
+Bold=Ғафс
+Italic=Хам
+Outline=Контур
+OutlineColor=Ранг:
+OutlineSize=Андоза:
+Position=Мавқеъ
+VerticalPosition=Мавқеъи амудӣ:
+SubOptions=Танзимот
+Encoding=Рамзгузорӣ:
+AutoLoadSubs=Бор кардани автоматикии файлҳои субтитр
+
+; Огоҳиҳои баромади видео
+VOWarningX11=Огоҳӣ: x11 танзимоти видеоро дастгирӣ намекунад (равшанӣ, контраст ва ғ.)
+VOWarningWayland=Огоҳӣ: Сессияи Wayland лозим аст. Танзимоти видео дастгирӣ мешавад.
+
+; Варақаи кэш
+CacheSettings=Андозаҳои буфери кэш (KB)
+CacheDefault=Кэши муқаррарӣ:
+CacheLocal=Файлҳои маҳаллӣ:
+CacheNetwork=Файлҳои шабака:
+CacheInternet=Ҷараёнҳои интернет:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Дар бораи барнома
+Version=Версия
+Engine=Муҳаррик
+Technology=Технология
+BuildInfo=Маълумоти сохт
+SystemInfo=Система
+Credits=Сипос
+Developer=Барномасоз:
+Author=Муаллиф
+License=Иҷозатнома
+Website=Вебсайт
+GitHub=GitHub
+Description=Плеери медиаи муосир ва сабук
+LicenseText=3nity Media дар зери иҷозатномаи GPL-2.0 аст\n\nИн ба шумо иҷозат медиҳад:\n  • Барномаро барои ҳар гуна мақсад истифода баред\n  • Рамзи манбаъро омӯзед ва тағйир диҳед\n  • Нусхаҳои барномаро паҳн кунед\n  • Тағйироти худро паҳн кунед\n\nБо шарте ки ҳар гуна тағйироти паҳншуда\nниз дар зери GPL-2.0 бошанд.
+BuildDate=Сана:
+Target=Ҳадаф:
+Kernel=Ядро:
+
+[Shortcuts]
+Title=Миёнбурҳои клавиатура
+Description=Танзими миёнбурҳои клавиатура барои амалҳо
+Search=Ҷустуҷӯ:
+PressKey=Тугмаро пахш кунед...
+ColCategory=Категория
+ColAction=Амал
+ColShortcut=Миёнбур
+Assign=Таъйин кардан
+Clear=Тоза кардан
+Reset=Барқарор кардан
+ResetAll=Барқарор кардани ҳама
+CurrentShortcut=Ҷорӣ: %s
+NoKeyPressed=Аввал комбинатсияи тугмаро пахш кунед.
+Conflict=Зиддият: Аллакай ба "%s" таъйин шудааст
+ConfirmReplace=Иваз кардани миёнбур
+ReplaceMessage=Ин миёнбур аллакай ба "%s" таъйин шудааст. Иваз карда шавад?
+ConfirmResetAll=Барқарор кардани ҳамаи миёнбурҳо
+ResetAllMessage=Мехоҳед ҳамаи миёнбурҳоро ба қиматҳои муқаррарӣ барқарор кунед?
+; Номҳои амал
+ActPlayPause=Пахш / Таваққуф
+ActStop=Истодан
+ActPrevious=Пештара
+ActNext=Оянда
+ActSeekForward=Ҷустуҷӯ пеш (10с)
+ActSeekBackward=Ҷустуҷӯ ақиб (10с)
+ActSeekForward5=Ҷустуҷӯ пеш (1 дақ)
+ActSeekBackward5=Ҷустуҷӯ ақиб (1 дақ)
+ActSpeedUp=Тезтар
+ActSpeedDown=Оҳистатар
+ActSpeedReset=Барқарор кардани суръат
+ActSetLoopA=Гузоштани нуқтаи такрори A
+ActSetLoopB=Гузоштани нуқтаи такрори B
+ActClearLoop=Тоза кардани такрори A-B
+ActFrameForward=Кадр пеш
+ActFrameBackward=Кадр ақиб
+ActPrevChapter=Боби пештара
+ActNextChapter=Боби оянда
+ActGotoTime=Гузаштан ба вақт
+ActVolumeUp=Баланд кардани садо
+ActVolumeDown=Паст кардани садо
+ActMute=Хомӯш / Садо
+ActAudioDelayPlus=Таъхири аудио +
+ActAudioDelayMinus=Таъхири аудио -
+ActAudioDelayReset=Барқарор кардани таъхири аудио
+ActFullscreen=Экрани пурра
+ActRotate=Гардонидани видео
+ActDeinterlace=Деинтерлейс
+ActZoomIn=Калон кардан
+ActZoomOut=Хурд кардан
+ActZoomReset=Барқарор кардани андоза
+ActAlwaysOnTop=Ҳамеша дар боло
+ActFitToVideo=Мувофиқ ба видео
+ActScreenshot=Скриншот
+ActVideoAdjust=Танзимоти видео
+ActVisNextMode=Режими оянда визуализатсия
+ActVisNextColor=Нақшаи рангии оянда
+ActSubDelayPlus=Таъхири субтитр +
+ActSubDelayMinus=Таъхири субтитр -
+ActSubDelayReset=Барқарор кардани таъхири субтитр
+ActDVDMenu=Менюи DVD
+ActDVDUp=DVD боло
+ActDVDDown=DVD поён
+ActDVDLeft=DVD чап
+ActDVDRight=DVD рост
+ActDVDSelect=Интихоби DVD
+ActOpenFile=Кушодани файл
+ActOpenURL=Кушодани URL
+ActPlaylist=Намоиши рӯйхати пахш
+ActQuit=Баромадан
+
+[Log]
+; Марҳилаи 25: Равзанаи журнал
+Title=Журнали MPV
+Command=Фармон:
+Clear=Тоза кардан
+Save=Захира кардан...
+Copy=&Нусхабардорӣ
+SelectAll=Интихоби &ҳама
+SaveTitle=Захира кардани журнал
+SaveFilter=Файлҳои матнӣ (*.txt)|*.txt|Ҳамаи файлҳо (*.*)|*.*
+ErrorTitle=Хато
+SaveError=Захира кардани журнал ноком шуд: %s
+
+[MediaInfo]
+Title=Маълумоти медиа
+FileTab=Файл
+VideoTab=Видео
+AudioTab=Аудио
+MetadataTab=Метамаълумот
+FileName=Номи файл:
+FilePath=Роҳ:
+FileSize=Андоза:
+Duration=Давомнокӣ:
+Format=Формат:
+Bitrate=Битрейт:
+Codec=Кодек:
+Resolution=Таҳлилпазирӣ:
+FrameRate=Суръати кадр:
+PixelFormat=Формати пиксел:
+AspectRatio=Таносуб:
+Channels=Каналҳо:
+SampleRate=Суръати намунагирӣ:
+Language=Забон:
+Property=Хусусият
+Value=Қимат
+CopyAll=Нусхабардории ҳама
+CopiedToClipboard=Маълумоти медиа ба буфер нусхабардорӣ шуд.
+NA=Дастнорас
+NAStream=Дастнорас (ҷараён)
+NALive=Дастнорас (мустақим)
+ChannelMono=1 (Моно)
+ChannelStereo=2 (Стерео)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Номаълум
+NoMetadata=(Метамаълумот нест)
+
+[Bookmarks]
+Title=Хатбаракҳо
+Goto=Гузаштан
+Remove=Нест кардан
+Clear=Тоза кардани ҳама
+Refresh=Навсозӣ
+OpenFolder=Кушодани ҷузвдон
+CopyPath=Нусхабардории роҳ
+; Сутунҳо
+ColName=Ном
+ColFile=Файл
+ColPosition=Мавқеъ
+ColCreated=Сохта шуда
+; Диалогҳо
+ClearTitle=Тоза кардани хатбаракҳо
+ClearConfirm=Мехоҳед ҳамаи хатбаракҳоро тоза кунед?
+Count=%d хатбарак
+
+[Favorites]
+Title=Дӯстдоштаҳо
+Play=Пахш
+Remove=Нест кардан
+Clear=Тоза кардани ҳама
+Refresh=Навсозӣ
+OpenFolder=Кушодани ҷузвдон
+CopyPath=Нусхабардории роҳ
+; Сутунҳо
+ColName=Ном
+ColType=Навъ
+ColPath=Роҳ
+; Навъҳо
+TypeFile=Файл
+TypeURL=URL
+TypeRadio=Радио
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Номаълум
+; Диалогҳо
+ClearTitle=Тоза кардани дӯстдоштаҳо
+ClearConfirm=Мехоҳед ҳамаи дӯстдоштаҳоро тоза кунед?
+Count=%d дӯстдошта
+
+[History]
+Title=Таърихи пахш
+Play=Пахш
+Remove=Нест кардан
+Clear=Тоза кардани ҳама
+Refresh=Навсозӣ
+OpenFolder=Кушодани ҷузвдон
+CopyPath=Нусхабардории роҳ
+; Сутунҳо
+ColFileName=Файл
+ColPath=Роҳ
+; Диалогҳо
+ClearTitle=Тоза кардани таърих
+ClearConfirm=Мехоҳед ҳамаи таърихро тоза кунед?
+Count=%d унсур
+
+[SleepTimer]
+Title=Таймери хоб
+Description=Таймерро барои истонидани автоматикии пахш танзим кунед
+Hours=Соат:
+Minutes=Дақиқа:
+Action=Вақте таймер тамом мешавад:
+StopPlayback=Истонидани пахш
+CloseApp=Пӯшидани барнома
+Shutdown=Хомӯш кардани компютер
+QuickSet=Танзими зуд:
+15Min=15 дақ
+30Min=30 дақ
+1Hour=1 соат
+2Hours=2 соат
+
+[Radios]
+Title=Радиоҳои интернетӣ
+Play=Пахш
+Add=Илова кардан
+Edit=Таҳрир
+Delete=Нест кардан
+Remove=Нест кардан
+Import=Воридот
+Export=Содирот
+Refresh=Навсозӣ
+Favorite=Дӯстдошта
+ShowFavorites=Дӯстдоштаҳо
+ShowAll=Ҳама
+; Филтр
+Genre=Жанр:
+Search=Ҷустуҷӯ:
+SearchBtn=Ҷустуҷӯ
+ClearSearch=Тоза кардан
+AllGenres=(Ҳамаи жанрҳо)
+; Менюи контекстӣ
+AddFavorite=Илова ба дӯстдоштаҳо
+RemoveFavorite=Нест кардан аз дӯстдоштаҳо
+AddCustom=Илова кардани станцияи фармоишӣ...
+EditCustom=Таҳрири станция...
+DeleteCustom=Нест кардани станция
+OpenWebsite=Кушодани вебсайт
+CopyURL=Нусхабардории URL
+; Сутунҳо
+ColName=Ном
+ColGenre=Жанр
+ColBitrate=Битрейт
+ColCountry=Кишвар
+ColCodec=Кодек
+; Диалогҳо
+AddTitle=Илова кардани станцияи фармоишӣ
+EditTitle=Таҳрири станция
+DeleteTitle=Нест кардани станция
+DeleteConfirm=Мехоҳед ин станцияро нест кунед?
+StationName=Номи станция:
+StreamURL=URL ҷараён:
+GenrePrompt=Жанр:
+NameURLRequired=Ном ва URL лозиманд.
+; Паёмҳои ҳолат
+LoadingIcecast=Бор кардани станцияҳо аз каталоги Icecast...
+IcecastError=Бор кардани каталоги Icecast муяссар нашуд. Станцияҳои муқаррарӣ истифода мешаванд.
+NoStationsLoaded=Станцияҳо бор нашуданд
+StationCount=%d станция
+LoadedStations=%d станция бор шуд
+ErrorPrefix=Хато:
+; Калидҳои кӯҳна
+Name=Ном
+URL=URL
+Bitrate=Битрейт
+Description=Тавсиф
+Country=Кишвар
+
+[OpenURL]
+Title=Кушодани URL
+Prompt=URL медиаро ворид кунед:
+
+[GotoTime]
+Title=Гузаштан ба вақт
+EnterTime=Вақти гузаштанро ворид кунед:
+Hours=С
+Minutes=Д
+Seconds=Сон
+Current=Ҷорӣ:
+Duration=Давомнокӣ:
+
+[VideoAdjust]
+Title=Танзимоти видео
+Brightness=Равшанӣ:
+Contrast=Контраст:
+Saturation=Серӣ:
+Hue=Ранг:
+Gamma=Гамма:
+ResetAll=Барқарор кардани ҳамаи рангҳо
+
+[CLI]
+; Паёмҳои сатри фармон
+Usage=Истифода
+Arguments=[ИМКОНОТҲО] [ФАЙЛ|URL|ҶУЗВДОН]
+Description=Плейери мултимедиаи аз платформа гузаранда, ки libmpv-ро истифода мебарад.
+Options=ИМКОНОТҲО
+Examples=МИСОЛҲО
+MoreInfo=Барои маълумоти бештар, ташриф оваред
+EnqueuedTo=Ба навбати нусхаи мавҷуда илова шуд: %s
+SentTo=Ба нусхаи мавҷуда ирсол шуд: %s
+AlreadyRunning=3nity Media аллакай кор мекунад.
+ErrorFileNotFound=Хато: Файл ё феҳрист ёфт нашуд: %s
+ErrorSubNotFound=Хато: Файли зернавишт ёфт нашуд: %s

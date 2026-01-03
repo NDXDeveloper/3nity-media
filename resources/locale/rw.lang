@@ -1,0 +1,892 @@
+[Language]
+Name=Kinyarwanda - Ikinyarwanda
+Code=rw
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Dosiye
+FileOpen=&Fungura Dosiye...
+FileOpenURL=Fungura &URL...
+FileOpenClipboard=Fungura kuva kuri &Clipboard
+FileRecent=Amadosiye &Yaheruka
+ClearRecentFiles=Siba Amadosiye Yaheruka
+FileExit=&Sohoka
+
+; Playback menu
+Playback=&Gukina
+PlaybackPlayPause=&Kina/Hagarara
+PlaybackStop=&Hagarika
+PlaybackPrevious=&Ibanziriza
+PlaybackNext=&Ikurikira
+PlaybackSeekForward=Jya &Imbere
+PlaybackSeekBackward=Subira &Inyuma
+PlaybackSpeed=&Umuvuduko
+PlaybackABLoop=A-&B Loop
+PlaybackSetA=Shyira &A
+PlaybackSetB=Shyira &B
+PlaybackClearAB=&Siba A-B
+PlaybackChapters=&Ibice
+PlaybackPrevChapter=Igice Kibanziriza
+PlaybackNextChapter=Igice Gikurikira
+PlaybackFrameStep=Frame &Imbere
+PlaybackFrameBack=Frame &Inyuma
+
+; DVD Navigation
+PlaybackDVD=Kuyobora &DVD
+DVDMenu=&Menu
+DVDUp=&Hejuru
+DVDDown=&Hasi
+DVDLeft=I&bumoso
+DVDRight=I&buryo
+DVDSelect=&Hitamo
+PlaybackDVDTitles=&Amazina ya DVD
+
+; Phase 21: Open Folder
+FileOpenFolder=Fungura &Ububiko...
+
+; File menu DVD/Bluray
+FileOpenDVD=Fungura &DVD...
+FileOpenBluray=Fungura &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=Jya ku &Gihe...
+ToolsHistory=&Amateka
+
+; Phase 14: System Tray
+TrayShow=&Erekana/Hisha
+TrayPlayPause=&Kina/Hagarara
+TrayStop=&Hagarika
+TrayPrevious=&Ibanziriza
+TrayNext=&Ikurikira
+TrayMute=&Ceceka
+TrayExit=&Sohoka
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Ongeramo &Isimbura...
+PlaybackBookmarks=&Isimbura
+BookmarksTitle=Isimbura
+BookmarksGoto=&Jya ku Isimbura
+BookmarksRemove=&Kura Isimbura
+BookmarksClear=Siba Isimbura &Zose
+BookmarksOpenFolder=Fungura &Ububiko
+BookmarksCopyPath=&Koporora Inzira
+BookmarksCount=%d isimbura
+NoBookmarks=(Nta simbura)
+NoFileLoaded=(Nta dosiye yapakiye)
+BookmarkAdded=Isimbura yongeyeho kuri %s
+BookmarkJumped=Yasize kuri isimbura %s
+AddBookmarkTitle=Ongeramo Isimbura
+AddBookmarkPrompt=Injiza izina ry'isimbura:
+ShowAllBookmarks=Erekana Isimbura Zose...
+
+; Phase 16: Favorites
+ToolsFavorites=&Ibikunzwe
+ToolsAddFavorite=Ongeramo mu &Bikunzwe
+FavoritesTitle=Ibikunzwe
+FavoritesPlay=&Kina
+FavoritesRemove=&Kura mu Bikunzwe
+FavoritesClear=Siba Ibikunzwe &Byose
+FavoritesOpenFolder=Fungura &Ububiko
+FavoritesCopyPath=&Koporora Inzira
+FavoritesCount=%d ibikunzwe
+NoFavorites=(Nta bikunzwe)
+AddFavoriteTitle=Ongeramo mu Bikunzwe
+AddFavoritePrompt=Injiza izina ry'ikikunzwe:
+AlreadyFavorite=Bimaze kuba mu bikunzwe
+AddedToFavorites=Byongeyeho mu bikunzwe: %s
+NoFileToFavorite=Nta dosiye yapakiye yo kongeramo mu bikunzwe
+FavoriteTypeFile=Dosiye
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radiyo
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Umurongo %d: %s
+TrackWithLang=Umurongo %d (%s)
+TrackNumber=Umurongo %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Hagarika
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&Isaha yo Gusinzira...
+ToolsSleepTimerActive=&Isaha yo Gusinzira [%s]
+ToolsCancelTimer=Kuraho &Isaha
+
+; Audio menu
+Audio=&Amajwi
+AudioTrack=Umurongo w'&Amajwi
+AudioVolumeUp=&Uzamura Ijwi
+AudioVolumeDown=&Gabanya Ijwi
+AudioMute=&Ceceka
+AudioEqualizer=&Equalizer
+AudioDelay=&Gutinda kw'Ijwi
+AudioDelayPlus=Gutinda +0.1s
+AudioDelayMinus=Gutinda -0.1s
+AudioDelayReset=Subiza Gutinda
+AudioNormalize=&Gukora Ijwi Neza
+
+; Video menu
+Video=&Amashusho
+VideoFullscreen=&Ecran Yuzuye
+VideoAspect=&Imiterere y'Ishusho
+VideoAspectAuto=&Bikora Ubwabyo
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Ifoto y'Ecran
+VideoScreenshotAs=Ifoto y'Ecran &Bika...
+VideoRotation=&Kuzunguruka
+VideoRotate0=&0 (Bisanzwe)
+VideoRotate90=&90
+VideoRotate180=&180
+VideoRotate270=&270
+VideoFlip=&Guhindukiza
+VideoFlipH=Guhindukiza &Uburinganire
+VideoFlipV=Guhindukiza &Ubugororotse
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Kuguzaguza
+VideoZoomIn=Kuzamura &Ishusho
+VideoZoomOut=Kugabanya &Ishusho
+VideoZoomReset=Subiza &Kuzamura
+VideoPan=&Gusunika
+VideoPanLeft=Gusunika &Ibumoso
+VideoPanRight=Gusunika &Iburyo
+VideoPanUp=Gusunika &Hejuru
+VideoPanDown=Gusunika &Hasi
+VideoPanReset=Subiza &Gusunika
+VideoTrack=Umurongo w'&Ishusho
+VideoColors=Guhindura &Amabara
+VideoBrightness=&Urumuri
+VideoContrast=&Itandukaniro
+VideoSaturation=&Saturation
+VideoHue=&Ibara
+VideoGamma=&Gamma
+VideoColorsReset=Subiza &Amabara Yose
+VideoIncrease=Ongerera (+5)
+VideoDecrease=Gabanya (-5)
+VideoReset=Subiza
+VideoAdjustDialog=&Guhindura Amashusho...
+
+; View menu
+View=&Kureba
+ViewAlwaysOnTop=&Buri Gihe Hejuru
+ViewFitToVideo=Idirishya &Gikurikirana Ishusho
+ViewScale=&Ingano y'Idirishya
+
+; Phase 26: Visualization menu
+ViewVisualization=&Kwerekana
+VisNone=&Nta kintu
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=Mode &Ikurikira
+VisNextColor=Amabara &Akurikira
+
+; Subtitles menu
+Subtitles=&Ibisobanuro
+SubtitleTrack=Umurongo w'&Ibisobanuro
+SubtitleLoad=&Pakira Ibisobanuro...
+SubtitleDelay=&Gutinda kw'Ibisobanuro
+SubtitleDelayPlus=Gutinda +0.1s
+SubtitleDelayMinus=Gutinda -0.1s
+SubtitleDelayReset=Subiza Gutinda
+
+; Tools menu
+Tools=&Ibikoresho
+ToolsPlaylist=&Urutonde
+ToolsRadios=&Radiyo
+ToolsShortcuts=&Amahire ya Keyboard...
+ToolsOptions=&Amahitamo
+
+; Phase 27: Recording menu
+ToolsRecord=&Gufata Stream...
+ToolsStopRecord=Hagarika &Gufata
+ToolsRecording=&Iri Gufatwa...
+
+; Help menu
+Help=&Ubufasha
+HelpMediaInfo=&Amakuru ya Media
+HelpLog=&Idirishya rya Log
+HelpAbout=&Ibirebana
+
+[Dialog]
+OpenFile=Fungura Dosiye
+OpenURL=Fungura URL
+SaveScreenshot=Bika Ifoto y'Ecran
+LoadSubtitle=Pakira Dosiye y'Ibisobanuro
+EnterURL=Injiza URL:
+ResumePlayback=Komeza Gukina
+ResumeFrom=Gukomeza kuva %s?
+ClearRecentFiles=Siba Amadosiye Yaheruka
+NoRecentFiles=(Nta dosiye yaheruka)
+NoAudioTracks=(Nta murongo w'amajwi)
+NoVideoTracks=(Nta murongo w'ishusho)
+NoSubtitleTracks=(Nta murongo w'ibisobanuro)
+NoChapters=(Nta bice)
+OpenDVD=Fungura DVD
+OpenBluray=Fungura Blu-ray
+OpenFolder=Fungura Ububiko
+
+; File filters
+ScreenshotFilter=Ishusho ya PNG|*.png|Ishusho ya JPEG|*.jpg|Ishusho ya WebP|*.webp
+DVDFilter=Ububiko bwa DVD|*.;*.iso|Amadosiye yose (*.*)|*.*
+BlurayFilter=Ububiko bwa Blu-ray|*.;*.iso|Amadosiye yose (*.*)|*.*
+NoDVD=(Nta DVD yapakiye)
+DVDTitle=Umutwe %d
+GotoTime=Jya ku Gihe
+EnterTime=Injiza igihe uza kujya:
+Hours=Amasaha
+Minutes=Iminota
+Seconds=Amasegonda
+Current=Ubu:
+HistoryTitle=Amateka yo Gukina
+HistoryItems=%d ibintu mu mateka
+HistoryPlay=&Kina
+HistoryRemove=Kura mu &Mateka
+HistoryClear=Siba &Amateka Yose
+HistoryOpenFolder=Fungura &Ububiko
+HistoryCopyPath=&Koporora Inzira
+ClearHistory=Siba Amateka
+ClearHistoryConfirm=Urashaka koko gusiba amateka yose?
+SleepTimerTitle=Isaha yo Gusinzira
+SleepTimerDescription=Shyira isaha kugira ngo ukine bihagarare byikora
+SleepTimerHours=Amasaha
+SleepTimerMinutes=Iminota
+SleepTimerQuickSet=Gushyira Vuba
+SleepTimerAction=Igihe Isaha Irangiye
+SleepTimerStopPlayback=Hagarika Gukina
+SleepTimerCloseApp=Funga Porogaramu
+SleepTimerShutdown=Zima Mudasobwa
+SleepTimerStart=Tangira Isaha
+
+[Status]
+Ready=Biteguye
+Opening=Ifungura...
+Playing=Irakina
+Paused=Irahagaritse
+Stopped=Yahagaritse
+Error=Ikosa
+Buffering=Irapakira...
+Seeking=Irashakisha...
+Recording=Irafata
+
+[Message]
+SpeedFormat=Umuvuduko: %.2fx
+VolumeFormat=Ijwi: %d%%
+BrightnessFormat=Urumuri: %d
+ContrastFormat=Itandukaniro: %d
+SaturationFormat=Saturation: %d
+HueFormat=Ibara: %d
+GammaFormat=Gamma: %d
+ColorsReset=Amabara y'ishusho yasubijwe
+LoopASet=Loop A yashyizwe kuri %s
+LoopBSet=Loop B yashyizwe kuri %s - Loop irakora
+LoopCleared=A-B loop yasibwe
+SetAFirst=Banza ushyire A (Kanda L)
+RotationFormat=Kuzunguruka: %d
+FlipHOn=Guhindukiza uburinganire: ON
+FlipHOff=Guhindukiza uburinganire: OFF
+FlipVOn=Guhindukiza ubugororotse: ON
+FlipVOff=Guhindukiza ubugororotse: OFF
+DeinterlaceOn=Deinterlace: ON
+DeinterlaceOff=Deinterlace: OFF
+AlwaysOnTopOn=Buri gihe hejuru: ON
+AlwaysOnTopOff=Buri gihe hejuru: OFF
+WindowFitted=Idirishya rigezwe kuri %dx%d
+WindowScale=Ingano y'idirishya: %.0f%%
+ScreenshotSaved=Ifoto y'ecran yabitswe: %s
+AudioNormalizeOn=Gukora ijwi neza: ON
+AudioNormalizeOff=Gukora ijwi neza: OFF
+AudioDelayFormat=Gutinda kw'ijwi: %.1f s
+SubtitleDelayFormat=Gutinda kw'ibisobanuro: %.1f s
+ZoomFormat=Kuzamura: %.0f%%
+PanCenter=Gusunika: Hagati
+PanFormat=Gusunika: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Nta shusho yapakiye
+PlayingFromClipboard=Ikina kuva kuri clipboard: %s
+ClipboardInvalid=Clipboard ntabwo ifite URL cyangwa inzira nziza
+ClipboardEmpty=Clipboard ni ubusa cyangwa ntabwo ifite inyandiko
+ResumedAt=Byakomeje kuva kuri %s
+FrameStepForward=Frame imbere
+FrameStepBackward=Frame inyuma
+PreviousChapter=Igice kibanziriza
+NextChapter=Igice gikurikira
+PlayingRadio=Radiyo irakina: %s
+PlayingDVD=DVD irakina: %s
+PlayingBluray=Blu-ray irakina: %s
+DVDTitlePlaying=Umutwe wa DVD %d
+SeekTo=Ijya kuri %s
+MinimizedToTray=Byagabanyijwe kuri tray. Kanda kabiri kugira ngo bigarure.
+SleepTimerSet=Isaha yo gusinzira yashyizwe: %s
+SleepTimerCancelled=Isaha yo gusinzira yakuweho
+SleepTimerWarning=Isaha yo gusinzira: Hasigaye umunota 1
+SleepTimerFinal=Isaha yo gusinzira: Hasigaye amasegonda 10
+SleepTimerStopped=Isaha yo gusinzira: Gukina byahagaritse
+SleepTimerClosing=Isaha yo gusinzira: Porogaramu irafungwa
+SleepTimerShutdown=Isaha yo gusinzira: Mudasobwa irazimwa
+SleepTimerExpired=Isaha yo Gusinzira Yarangiye
+ShutdownManual=Nyamuneka uzime mudasobwa yawe ukoresha amaboko.
+
+; Phase 21: Open Folder
+FolderOpened=Ububiko bwafunguwe: %d amadosiye
+NoMediaFound=Nta madosiye ya media yabonetse
+FilesAdded=%d amadosiye yongeyeho ku rutonde
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Tangira gukina mbere yo gufata.
+RecordingStarted=Gufata byatangiye
+RecordingStopped=Gufata byahagaritse
+
+; Additional status messages
+EndOfPlaylist=Iherezo ry'urutonde
+NoMediaLoaded=Nta dosiye ya media yapakiye ubu.
+JumpedToNamed=Byasimbuye kuri: %s
+ChapterFormat=Igice %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Isimbura kuri %s
+
+[Label]
+Muted=Byacecetse
+
+[Button]
+Play=Kina
+Pause=Hagarara
+Stop=Hagarika
+Previous=Ibanziriza
+Next=Ikurikira
+Mute=Ceceka
+Unmute=Kura Ceceka
+Fullscreen=Ecran Yuzuye
+OK=Yego
+Cancel=Hagarika
+Apply=Shyira mu Bikorwa
+Close=Funga
+Yes=Yego
+No=Oya
+
+[Tooltip]
+Play=Kina/Hagarara
+Stop=Hagarika gukina
+Previous=Umurongo ubanziriza
+Next=Umurongo ukurikira
+Mute=Hindura ceceka
+Volume=Ijwi
+Seek=Ahantu ho gushakisha
+Fullscreen=Hindura ecran yuzuye
+
+[Playlist]
+Title=Urutonde
+Add=Ongeramo
+Remove=Kuraho
+Clear=Siba
+MoveUp=Zamura
+MoveDown=Manura
+Shuffle=Vanga
+Repeat=Subiramo
+Play=Kina
+ShuffleOn=Guvanga: ON
+ShuffleOff=Guvanga: OFF
+RepeatOff=Gusubiramo: OFF
+RepeatOne=Gusubiramo: Kimwe
+RepeatAll=Gusubiramo: Byose
+SavePlaylist=Bika
+LoadPlaylist=Pakira
+TotalDuration=Igiteranyo: %s
+ItemCount=%d ibintu
+
+; Phase 22: Playlist Enhancements
+Search=Shakisha:
+FilterPlaceholder=Shungura urutonde...
+ClearSearch=Siba
+FilterCount=%d/%d
+RemoveDuplicates=Kuraho &Bingana
+Properties=&Ibimenyetso...
+NoDuplicates=Nta bingana byabonetse.
+DuplicatesFound=Byabonetse %d bingana. Ubishaka gusiba?
+RemoveDuplicatesTitle=Kuraho Bingana
+PropertiesTitle=Ibimenyetso by'Urutonde
+PropTotalItems=Igiteranyo cy'ibintu: %d
+PropTotalDuration=Igiteranyo cy'igihe: %s
+PropPlayed=Byakinwe: %d
+PropUnplayed=Bitarakinwa: %d
+PropTotalSize=Ingano yose: %.2f MB
+PropShuffle=Guvanga: %s
+PropRepeat=Gusubiramo: %s
+On=ON
+Off=OFF
+
+; New keys for ApplyLocale
+ClearTitle=Siba Urutonde
+ClearConfirm=Urashaka koko gusiba urutonde?
+NoPlaylist=Nta rutonde
+StatusFormat=%d ibintu | Igiteranyo: %s
+RepeatOne=Sub. 1
+RepeatAll=Sub. Byose
+HintRepeatEnable=Kanda kugira ngo ukore gusubiramo byose
+HintRepeatOne=Subiramo kimwe - Kanda kugira ngo uhagarike
+HintRepeatAll=Subiramo byose - Kanda kugira ngo usubiremo kimwe
+HintShuffleRepeat=Vanga + Subiramo byose - Kanda kugira ngo uhagarike gusubiramo
+RemoveDuplicatesTitle=Kuraho Bingana
+NoDuplicates=Nta bingana byabonetse.
+SelectAll=Hitamo Byose
+SelectNone=Ntihitemo
+SelectInvert=Hindura Guhitamo
+Sort=Tegura
+SortByName=Ku Izina
+SortByTitle=Ku Mutwe
+SortByArtist=Ku Mukinnyi
+SortByDuration=Ku Gihe
+SortReverse=Hindura
+SortRandom=Bitateganijwe
+ColTitle=Umutwe
+ColDuration=Igihe
+ColArtist=Umukinnyi
+ColAlbum=Album
+PlaylistFilter=M3U urutonde|*.m3u|M3U8 urutonde|*.m3u8|PLS urutonde|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Ibisanzwe:
+Preamp=Preamp:
+Flat=Ringaniye
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Classical
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Ijwi
+Reset=Subiza
+Enable=Kora Equalizer
+Save=Bika
+Delete=Siba
+Ready=Biteguye
+; Buttons and actions
+SavePreset=Bika Preset
+DeletePreset=Siba Preset
+SavePresetTitle=Bika Preset
+PresetNamePrompt=Izina rya preset:
+EnterPresetName=Nyamuneka injiza izina rya preset.
+OverwritePresetTitle=Andika Hejuru
+OverwritePresetConfirm=Preset ifite iri zina imaze kubaho. Ushaka kwandika hejuru?
+PresetUpdated=Preset yahinduwe: %s
+PresetSaved=Preset yabitswe: %s
+SelectPresetToDelete=Nyamuneka hitamo preset yo gusiba.
+CannotDeleteDefault=Presets z'ibanze ntizishobora gusibwa.
+DeletePresetTitle=Siba Preset
+DeletePresetConfirm=Urashaka koko gusiba iyi preset?
+PresetDeleted=Preset yasibwe
+ResetToFlat=Equalizer yasubijwe kuri ringaniye
+PresetApplied=Preset yashyizwe mu bikorwa: %s
+
+[Options]
+Title=Amahitamo
+General=Rusange
+Video=Amashusho
+Audio=Amajwi
+Subtitles=Ibisobanuro
+Cache=Cache
+Language=Ururimi:
+RestartRequired=Gutangira bushya birakenewe kugira ngo impinduka zikore
+
+; General tab - Behavior
+Behavior=Imyitwarire
+SingleInstance=Emera gusa instance imwe
+AutoPlay=Kina byikora iyo ufunguye
+AutoResume=Garura ahantu ho gukina
+MinimizeToTray=Gabanya kuri system tray
+AutoSavePlaylist=Bika urutonde iyo usohoka
+
+; General tab - OSD
+OSD=Kwerekana ku Ecran
+ShowOSD=Erekana ubutumwa buri ku ecran
+ShowTrayIcon=Erekana icon ya tray
+OSDDuration=Igihe cya OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Amafoto y'Ecran
+ScreenshotPath=Ububiko bwo kubika:
+ScreenshotFormat=Imiterere:
+
+; General tab - History
+HistorySettings=Amateka
+HistoryEnabled=Kora amateka yo gukina
+HistoryMaxItems=Umubare ntarengwa w'ibintu:
+
+; General tab - Language
+LanguageGroup=Ururimi
+RestartNote=(Gutangira bushya birakenewe ku mpinduka)
+
+; Video tab
+VideoAdjust=Guhindura Amashusho
+Brightness=Urumuri:
+Contrast=Itandukaniro:
+Saturation=Saturation:
+Hue=Ibara:
+Gamma=Gamma:
+VideoOutput=Isohoka ry'Ishusho
+Output=Isohoka:
+HWAccel=Kora hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Uburyo:
+
+; Audio tab
+AudioOutput=Isohoka ry'Ijwi
+OutputDriver=Driver y'isohoka:
+Device=Igikoresho:
+AudioOptions=Amahitamo y'Amajwi
+NormalizeAudio=Kora ijwi neza
+Channels=Channels:
+
+; Subtitles tab
+UseDefaultSubtitles=Koresha igenamiterere ry'ibisobanuro
+Font=Imyandikire
+FontName=Imyandikire:
+FontSize=Ingano:
+FontColor=Ibara:
+Bold=Bold
+Italic=Italic
+Outline=Urugero
+OutlineColor=Ibara:
+OutlineSize=Ingano:
+Position=Ahantu
+VerticalPosition=Ahantu ubugororotse:
+SubOptions=Amahitamo
+Encoding=Encoding:
+AutoLoadSubs=Pakira amadosiye y'ibisobanuro byikora
+
+; Video output warnings
+VOWarningX11=Umuburo: x11 ntabwo ishyigikira guhindura amashusho (urumuri, itandukaniro, nibindi)
+VOWarningWayland=Umuburo: Wayland session irakenewe. Guhindura amashusho birashyigikiwe.
+
+; Cache tab
+CacheSettings=Ingano ya Cache Buffer (KB)
+CacheDefault=Cache isanzwe:
+CacheLocal=Amadosiye yo hafi:
+CacheNetwork=Amadosiye ya network:
+CacheInternet=Streams za Internet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Ibirebana
+Version=Verisiyo
+Engine=Injini
+Technology=Ikoranabuhanga
+BuildInfo=Amakuru y'Ubwubatsi
+SystemInfo=Sisitemu
+Credits=Ishimwe
+Developer=Umunyabwenge:
+Author=Umwanditsi
+License=Uruhushya
+Website=Urubuga
+GitHub=GitHub
+Description=Ikina media inoze, yoroheje
+LicenseText=3nity Media ifite uruhushya rwa GPL-2.0\n\nIbi bisobanura ko wigenga:\n  - Gukoresha porogaramu ku mpamvu iyo ari yo yose\n  - Kwiga no guhindura kode y'inkomoko\n  - Gukwirakwiza kopi za porogaramu\n  - Gukwirakwiza impinduka zawe\n\nKu mwanya w'impinduka zikwirakwijwe\nnazabone uruhushya rwa GPL-2.0.
+BuildDate=Itariki:
+Target=Intego:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Amahire ya Keyboard
+Description=Tegura amahire ya keyboard ku bikorwa
+Search=Shakisha:
+PressKey=Kanda urufunguzo...
+ColCategory=Icyiciro
+ColAction=Igikorwa
+ColShortcut=Inzira Ngufi
+Assign=Shyiraho
+Clear=Siba
+Reset=Subiza
+ResetAll=Subiza Byose
+CurrentShortcut=Ubu: %s
+NoKeyPressed=Nyamuneka banza ukande urusobe rw'imfunguzo.
+Conflict=Amakimbirane: Bimaze gushyirwaho "%s"
+ConfirmReplace=Hindura Inzira Ngufi
+ReplaceMessage=Iyi nzira ngufi imaze gushyirwaho "%s". Ushaka guhindura?
+ConfirmResetAll=Subiza Amahire Yose
+ResetAllMessage=Urashaka koko gusubiza amahire yose ku bisanzwe?
+; Action names
+ActPlayPause=Kina / Hagarara
+ActStop=Hagarika
+ActPrevious=Ibanziriza
+ActNext=Ikurikira
+ActSeekForward=Jya Imbere (10s)
+ActSeekBackward=Subira Inyuma (10s)
+ActSeekForward5=Jya Imbere (1 min)
+ActSeekBackward5=Subira Inyuma (1 min)
+ActSpeedUp=Ongera Umuvuduko
+ActSpeedDown=Gabanya Umuvuduko
+ActSpeedReset=Subiza Umuvuduko
+ActSetLoopA=Shyira Loop A
+ActSetLoopB=Shyira Loop B
+ActClearLoop=Siba A-B Loop
+ActFrameForward=Frame Imbere
+ActFrameBackward=Frame Inyuma
+ActPrevChapter=Igice Kibanziriza
+ActNextChapter=Igice Gikurikira
+ActGotoTime=Jya ku Gihe
+ActVolumeUp=Uzamura Ijwi
+ActVolumeDown=Gabanya Ijwi
+ActMute=Ceceka / Kura Ceceka
+ActAudioDelayPlus=Gutinda kw'Ijwi +
+ActAudioDelayMinus=Gutinda kw'Ijwi -
+ActAudioDelayReset=Subiza Gutinda kw'Ijwi
+ActFullscreen=Ecran Yuzuye
+ActRotate=Zunguruza Ishusho
+ActDeinterlace=Deinterlace
+ActZoomIn=Zamura
+ActZoomOut=Gabanya
+ActZoomReset=Subiza Kuzamura
+ActAlwaysOnTop=Buri Gihe Hejuru
+ActFitToVideo=Gukurikirana Ishusho
+ActScreenshot=Ifoto y'Ecran
+ActVideoAdjust=Guhindura Amashusho
+ActVisNextMode=Mode Ikurikira ya Kwerekana
+ActVisNextColor=Amabara Akurikira
+ActSubDelayPlus=Gutinda kw'Ibisobanuro +
+ActSubDelayMinus=Gutinda kw'Ibisobanuro -
+ActSubDelayReset=Subiza Gutinda kw'Ibisobanuro
+ActDVDMenu=Menu ya DVD
+ActDVDUp=DVD Hejuru
+ActDVDDown=DVD Hasi
+ActDVDLeft=DVD Ibumoso
+ActDVDRight=DVD Iburyo
+ActDVDSelect=DVD Hitamo
+ActOpenFile=Fungura Dosiye
+ActOpenURL=Fungura URL
+ActPlaylist=Erekana Urutonde
+ActQuit=Sohoka
+
+[Log]
+; Phase 25: Log Window
+Title=Log ya MPV
+Command=Itegeko:
+Clear=Siba
+Save=Bika...
+Copy=&Koporora
+SelectAll=Hitamo &Byose
+SaveTitle=Bika Log
+SaveFilter=Amadosiye y'inyandiko (*.txt)|*.txt|Amadosiye yose (*.*)|*.*
+ErrorTitle=Ikosa
+SaveError=Kubika log byanze: %s
+
+[MediaInfo]
+Title=Amakuru ya Media
+FileTab=Dosiye
+VideoTab=Amashusho
+AudioTab=Amajwi
+MetadataTab=Metadata
+FileName=Izina ry'Idosiye:
+FilePath=Inzira:
+FileSize=Ingano:
+Duration=Igihe:
+Format=Imiterere:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Pixel Format:
+AspectRatio=Imiterere y'Ishusho:
+Channels=Channels:
+SampleRate=Sample Rate:
+Language=Ururimi:
+Property=Ikintu
+Value=Agaciro
+CopyAll=Koporora Byose
+CopiedToClipboard=Amakuru ya media yakoporoye kuri clipboard.
+NA=Ntibiboneka
+NAStream=Ntibiboneka (stream)
+NALive=Ntibiboneka (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Ntabimenyekana
+NoMetadata=(Nta metadata)
+
+[Bookmarks]
+Title=Isimbura
+Goto=Jyayo
+Remove=Kuraho
+Clear=Siba Byose
+Refresh=Ongera Pakira
+OpenFolder=Fungura Ububiko
+CopyPath=Koporora Inzira
+; Columns
+ColName=Izina
+ColFile=Dosiye
+ColPosition=Ahantu
+ColCreated=Byakozwe
+; Dialogs
+ClearTitle=Siba Isimbura
+ClearConfirm=Urashaka koko gusiba isimbura zose?
+Count=%d isimbura
+
+[Favorites]
+Title=Ibikunzwe
+Play=Kina
+Remove=Kuraho
+Clear=Siba Byose
+Refresh=Ongera Pakira
+OpenFolder=Fungura Ububiko
+CopyPath=Koporora Inzira
+; Columns
+ColName=Izina
+ColType=Ubwoko
+ColPath=Inzira
+; Types
+TypeFile=Dosiye
+TypeURL=URL
+TypeRadio=Radiyo
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Ntabimenyekana
+; Dialogs
+ClearTitle=Siba Ibikunzwe
+ClearConfirm=Urashaka koko gusiba ibikunzwe byose?
+Count=%d ibikunzwe
+
+[History]
+Title=Amateka yo Gukina
+Play=Kina
+Remove=Kuraho
+Clear=Siba Byose
+Refresh=Ongera Pakira
+OpenFolder=Fungura Ububiko
+CopyPath=Koporora Inzira
+; Columns
+ColFileName=Dosiye
+ColPath=Inzira
+; Dialogs
+ClearTitle=Siba Amateka
+ClearConfirm=Urashaka koko gusiba amateka yose?
+Count=%d ibintu
+
+[SleepTimer]
+Title=Isaha yo Gusinzira
+Description=Shyira isaha kugira ngo ukine bihagarare byikora
+Hours=Amasaha:
+Minutes=Iminota:
+Action=Igihe Isaha Irangiye:
+StopPlayback=Hagarika Gukina
+CloseApp=Funga Porogaramu
+Shutdown=Zima Mudasobwa
+QuickSet=Gushyira Vuba:
+15Min=15 min
+30Min=30 min
+1Hour=1 isaha
+2Hours=2 amasaha
+
+[Radios]
+Title=Radiyo zo kuri Internet
+Play=Kina
+Add=Ongeramo
+Edit=Hindura
+Delete=Siba
+Remove=Kuraho
+Import=Injiza
+Export=Sohora
+Refresh=Ongera Pakira
+Favorite=Ikikunzwe
+ShowFavorites=Ibikunzwe
+ShowAll=Byose
+; Filter
+Genre=Ubwoko:
+Search=Shakisha:
+SearchBtn=Shakisha
+ClearSearch=Siba
+AllGenres=(Ubwoko Bwose)
+; Context menu
+AddFavorite=Ongeramo mu Bikunzwe
+RemoveFavorite=Kura mu Bikunzwe
+AddCustom=Ongeramo Station Yawe...
+EditCustom=Hindura Station...
+DeleteCustom=Siba Station
+OpenWebsite=Fungura Urubuga
+CopyURL=Koporora URL
+; Columns
+ColName=Izina
+ColGenre=Ubwoko
+ColBitrate=Bitrate
+ColCountry=Igihugu
+ColCodec=Codec
+; Dialogs
+AddTitle=Ongeramo Station Yawe
+EditTitle=Hindura Station
+DeleteTitle=Siba Station
+DeleteConfirm=Urashaka koko gusiba iyi station?
+StationName=Izina rya Station:
+StreamURL=URL ya Stream:
+GenrePrompt=Ubwoko:
+NameURLRequired=Izina na URL birakenewe.
+; Status messages
+LoadingIcecast=Iri gupakira stations kuva muri Icecast directory...
+IcecastError=Ntibyashobotse gupakira Icecast directory. Iri gukoresha stations z'ibanze.
+NoStationsLoaded=Nta stations zapakiye
+StationCount=%d stations
+LoadedStations=%d stations zapakiye
+ErrorPrefix=Ikosa:
+; Legacy keys
+Name=Izina
+URL=URL
+Bitrate=Bitrate
+Description=Ibisobanuro
+Country=Igihugu
+
+[OpenURL]
+Title=Fungura URL
+Prompt=Injiza URL ya media:
+
+[GotoTime]
+Title=Jya ku Gihe
+EnterTime=Injiza igihe uza kujya:
+Hours=As
+Minutes=Im
+Seconds=As
+Current=Ubu:
+Duration=Igihe:
+
+[VideoAdjust]
+Title=Guhindura Amashusho
+Brightness=Urumuri:
+Contrast=Itandukaniro:
+Saturation=Saturation:
+Hue=Ibara:
+Gamma=Gamma:
+ResetAll=Subiza Amabara Yose
+
+[CLI]
+; Ubutumwa bw'umurongo w'amabwiriza
+Usage=Ikoreshwa
+Arguments=[AMAHITAMO] [DOSIYE|URL|UBUBIKO]
+Description=Umusomeri wa multimedia ukora kuri platifome nyinshi ukoresheje libmpv.
+Options=AMAHITAMO
+Examples=INGERO
+MoreInfo=Kugira ngo ubone amakuru menshi, sura
+EnqueuedTo=Byongewe mu murongo wa instance iriho: %s
+SentTo=Byoherejwe kuri instance iriho: %s
+AlreadyRunning=3nity Media irakorwa kare.
+ErrorFileNotFound=Ikosa: Dosiye cyangwa ububiko ntibyabonetse: %s
+ErrorSubNotFound=Ikosa: Dosiye y'amagambo munsi ntibyabonetse: %s

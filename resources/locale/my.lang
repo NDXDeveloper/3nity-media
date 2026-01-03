@@ -1,0 +1,892 @@
+[Language]
+Name=Burmese - မြန်မာစာ
+Code=my
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; ဖိုင်မီနူး
+File=&ဖိုင်
+FileOpen=ဖိုင်&ဖွင့်ပါ...
+FileOpenURL=&URL ဖွင့်ပါ...
+FileOpenClipboard=&Clipboard မှဖွင့်ပါ
+FileRecent=မကြာသေးမီ &ဖိုင်များ
+ClearRecentFiles=မကြာသေးမီဖိုင်များရှင်းပါ
+FileExit=&ထွက်မည်
+
+; ဖွင့်ခြင်းမီနူး
+Playback=ဖွင့်&ခြင်း
+PlaybackPlayPause=&ဖွင့်/ရပ်တန့်
+PlaybackStop=&ရပ်မည်
+PlaybackPrevious=&ယခင်
+PlaybackNext=&နောက်တစ်ခု
+PlaybackSeekForward=&ရှေ့သို့ရှာ
+PlaybackSeekBackward=&နောက်သို့ရှာ
+PlaybackSpeed=&အမြန်နှုန်း
+PlaybackABLoop=A-&B ကွင်း
+PlaybackSetA=&A သတ်မှတ်
+PlaybackSetB=&B သတ်မှတ်
+PlaybackClearAB=A-B &ရှင်းပါ
+PlaybackChapters=&အခန်းများ
+PlaybackPrevChapter=ယခင်အခန်း
+PlaybackNextChapter=နောက်အခန်း
+PlaybackFrameStep=ဖရိန်အဆင့် &ရှေ့သို့
+PlaybackFrameBack=ဖရိန်အဆင့် &နောက်သို့
+
+; DVD သွားလာခြင်း
+PlaybackDVD=DVD &သွားလာခြင်း
+DVDMenu=&မီနူး
+DVDUp=&အပေါ်
+DVDDown=&အောက်
+DVDLeft=&ဘယ်
+DVDRight=&ညာ
+DVDSelect=&ရွေးချယ်
+PlaybackDVDTitles=DVD &ခေါင်းစဉ်များ
+
+; အဆင့် 21: ဖိုဒါဖွင့်ပါ
+FileOpenFolder=ဖိုဒါ&ဖွင့်ပါ...
+
+; ဖိုင်မီနူး DVD/Bluray
+FileOpenDVD=&DVD ဖွင့်ပါ...
+FileOpenBluray=&Blu-ray ဖွင့်ပါ...
+
+; အဆင့် 13: အချိန်သို့သွားပါ နှင့် မှတ်တမ်း
+PlaybackGotoTime=အချိန်သို့&သွားပါ...
+ToolsHistory=မှတ်&တမ်း
+
+; အဆင့် 14: စနစ်ထရေး
+TrayShow=&ပြ/ဖျောက်
+TrayPlayPause=&ဖွင့်/ရပ်တန့်
+TrayStop=&ရပ်မည်
+TrayPrevious=&ယခင်
+TrayNext=&နောက်တစ်ခု
+TrayMute=&အသံတိတ်
+TrayExit=&ထွက်မည်
+
+; အဆင့် 15: စာညှပ်များ
+PlaybackAddBookmark=စာညှပ်&ထည့်ပါ...
+PlaybackBookmarks=စာ&ညှပ်များ
+BookmarksTitle=စာညှပ်များ
+BookmarksGoto=စာညှပ်သို့&သွားပါ
+BookmarksRemove=စာညှပ်&ဖယ်ပါ
+BookmarksClear=စာညှပ်အားလုံး&ရှင်းပါ
+BookmarksOpenFolder=ဖိုဒါ&ဖွင့်ပါ
+BookmarksCopyPath=လမ်းကြောင်း&ကူးယူပါ
+BookmarksCount=စာညှပ် %d ခု
+NoBookmarks=(စာညှပ်မရှိပါ)
+NoFileLoaded=(ဖိုင်မထည့်ရသေးပါ)
+BookmarkAdded=%s တွင်စာညှပ်ထည့်ပြီး
+BookmarkJumped=%s ရှိစာညှပ်သို့ခုန်ပြီး
+AddBookmarkTitle=စာညှပ်ထည့်ပါ
+AddBookmarkPrompt=စာညှပ်အမည်ထည့်ပါ:
+ShowAllBookmarks=စာညှပ်အားလုံးပြပါ...
+
+; အဆင့် 16: အကြိုက်များ
+ToolsFavorites=အ&ကြိုက်များ
+ToolsAddFavorite=အကြိုက်များသို့&ထည့်ပါ
+FavoritesTitle=အကြိုက်များ
+FavoritesPlay=&ဖွင့်ပါ
+FavoritesRemove=အကြိုက်များမှ&ဖယ်ပါ
+FavoritesClear=အကြိုက်အားလုံး&ရှင်းပါ
+FavoritesOpenFolder=ဖိုဒါ&ဖွင့်ပါ
+FavoritesCopyPath=လမ်းကြောင်း&ကူးယူပါ
+FavoritesCount=အကြိုက် %d ခု
+NoFavorites=(အကြိုက်မရှိပါ)
+AddFavoriteTitle=အကြိုက်များသို့ထည့်ပါ
+AddFavoritePrompt=အကြိုက်အတွက်အမည်ထည့်ပါ:
+AlreadyFavorite=အကြိုက်များတွင်ရှိပြီးသား
+AddedToFavorites=အကြိုက်များသို့ထည့်ပြီး: %s
+NoFileToFavorite=အကြိုက်များသို့ထည့်ရန်ဖိုင်မရှိပါ
+FavoriteTypeFile=ဖိုင်
+FavoriteTypeURL=URL
+FavoriteTypeRadio=ရေဒီယို
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; တေးသွား format strings
+TrackWithTitle=တေးသွား %d: %s
+TrackWithLang=တေးသွား %d (%s)
+TrackNumber=တေးသွား %d
+
+; အမြန်နှုန်းမီနူးအရာများ
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; အတိုင်းအတာမီနူးအရာများ
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; စာတန်းထိုးတေးသွား
+SubtitleDisable=ပိတ်ထားပါ
+
+; အဆင့် 17: အိပ်ချိန်သတ်မှတ်
+ToolsSleepTimer=အိပ်ချိန်&သတ်မှတ်...
+ToolsSleepTimerActive=အိပ်ချိန်&သတ်မှတ် [%s]
+ToolsCancelTimer=အချိန်&ပယ်ဖျက်
+
+; အသံမီနူး
+Audio=&အသံ
+AudioTrack=အသံ&တေးသွား
+AudioVolumeUp=အသံ&တိုး
+AudioVolumeDown=အသံ&လျှော့
+AudioMute=&အသံတိတ်
+AudioEqualizer=&Equalizer
+AudioDelay=အသံ&နှောင့်နှေး
+AudioDelayPlus=နှောင့်နှေး +0.1s
+AudioDelayMinus=နှောင့်နှေး -0.1s
+AudioDelayReset=နှောင့်နှေးပြန်သတ်မှတ်
+AudioNormalize=အသံ&ညှိပါ
+
+; ဗီဒီယိုမီနူး
+Video=&ဗီဒီယို
+VideoFullscreen=&မျက်နှာပြင်အပြည့်
+VideoAspect=မျက်နှာပြင်&အချိုး
+VideoAspectAuto=&အလိုအလျောက်
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Screenshot
+VideoScreenshotAs=Screenshot &သိမ်းရန်...
+VideoRotation=&လှည့်ခြင်း
+VideoRotate0=&0° (ပုံမှန်)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&လှန်ပါ
+VideoFlipH=&အလျားလိုက်လှန်
+VideoFlipV=&ဒေါင်လိုက်လှန်
+VideoDeinterlace=&Deinterlace
+VideoZoom=&ချုံ့ချဲ့
+VideoZoomIn=&ချဲ့ပါ
+VideoZoomOut=&ချုံ့ပါ
+VideoZoomReset=ချုံ့ချဲ့&ပြန်သတ်မှတ်
+VideoPan=&Pan
+VideoPanLeft=Pan &ဘယ်
+VideoPanRight=Pan &ညာ
+VideoPanUp=Pan &အပေါ်
+VideoPanDown=Pan &အောက်
+VideoPanReset=Pan &ပြန်သတ်မှတ်
+VideoTrack=ဗီဒီယို&တေးသွား
+VideoColors=&အရောင်ညှိခြင်း
+VideoBrightness=&တောက်ပမှု
+VideoContrast=&ခြားနားချက်
+VideoSaturation=&အရောင်ပြည့်ဝမှု
+VideoHue=&အရောင်သဏ္ဍာန်
+VideoGamma=&Gamma
+VideoColorsReset=အရောင်အားလုံး&ပြန်သတ်မှတ်
+VideoIncrease=တိုး (+5)
+VideoDecrease=လျှော့ (-5)
+VideoReset=ပြန်သတ်မှတ်
+VideoAdjustDialog=ဗီဒီယို&ညှိခြင်း...
+
+; ကြည့်ရှုမီနူး
+View=ကြည့်&ရှု
+ViewAlwaysOnTop=&အမြဲထိပ်တွင်
+ViewFitToVideo=&ဗီဒီယိုနှင့်ကိုက်ညီအောင်
+ViewScale=ဝင်းဒိုး&အတိုင်းအတာ
+
+; အဆင့် 26: ရုပ်ပုံပြမီနူး
+ViewVisualization=ရုပ်ပုံ&ပြ
+VisNone=&မရှိ
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=&နောက်ပုံစံ
+VisNextColor=&နောက်အရောင်အစီအစဉ်
+
+; စာတန်းထိုးမီနူး
+Subtitles=စာတန်း&ထိုး
+SubtitleTrack=စာတန်းထိုး&တေးသွား
+SubtitleLoad=စာတန်းထိုး&ထည့်ပါ...
+SubtitleDelay=စာတန်းထိုး&နှောင့်နှေး
+SubtitleDelayPlus=နှောင့်နှေး +0.1s
+SubtitleDelayMinus=နှောင့်နှေး -0.1s
+SubtitleDelayReset=နှောင့်နှေးပြန်သတ်မှတ်
+
+; ကိရိယာမီနူး
+Tools=ကိ&ရိယာ
+ToolsPlaylist=&သီချင်းစာရင်း
+ToolsRadios=&ရေဒီယိုများ
+ToolsShortcuts=&အတိုကောက်လမ်းများ...
+ToolsOptions=&ရွေးချယ်စရာများ
+
+; အဆင့် 27: အသံသွင်းမီနူး
+ToolsRecord=&အသံသွင်းပါ...
+ToolsStopRecord=အသံသွင်း&ရပ်ပါ
+ToolsRecording=အသံ&သွင်းခြင်း...
+
+; အကူအညီမီနူး
+Help=အကူ&အညီ
+HelpMediaInfo=မီဒီယာ&အချက်အလက်
+HelpLog=&Log ဝင်းဒိုး
+HelpAbout=&အကြောင်း
+
+[Dialog]
+OpenFile=ဖိုင်ဖွင့်ပါ
+OpenURL=URL ဖွင့်ပါ
+SaveScreenshot=Screenshot သိမ်းပါ
+LoadSubtitle=စာတန်းထိုးဖိုင်ထည့်ပါ
+EnterURL=URL ထည့်ပါ:
+ResumePlayback=ဖွင့်ခြင်းဆက်လက်
+ResumeFrom=%s မှဆက်လက်မည်လား?
+ClearRecentFiles=မကြာသေးမီဖိုင်များရှင်းပါ
+NoRecentFiles=(မကြာသေးမီဖိုင်မရှိပါ)
+NoAudioTracks=(အသံတေးသွားမရှိပါ)
+NoVideoTracks=(ဗီဒီယိုတေးသွားမရှိပါ)
+NoSubtitleTracks=(စာတန်းထိုးတေးသွားမရှိပါ)
+NoChapters=(အခန်းမရှိပါ)
+OpenDVD=DVD ဖွင့်ပါ
+OpenBluray=Blu-ray ဖွင့်ပါ
+OpenFolder=ဖိုဒါဖွင့်ပါ
+
+; ဖိုင်စစ်ထုတ်မှု
+ScreenshotFilter=PNG ရုပ်ပုံ|*.png|JPEG ရုပ်ပုံ|*.jpg|WebP ရုပ်ပုံ|*.webp
+DVDFilter=DVD ဖိုဒါ|*.;*.iso|ဖိုင်အားလုံး (*.*)|*.*
+BlurayFilter=Blu-ray ဖိုဒါ|*.;*.iso|ဖိုင်အားလုံး (*.*)|*.*
+NoDVD=(DVD မထည့်ရသေးပါ)
+DVDTitle=ခေါင်းစဉ် %d
+GotoTime=အချိန်သို့သွားပါ
+EnterTime=ခုန်ရန်အချိန်ထည့်ပါ:
+Hours=နာရီ
+Minutes=မိနစ်
+Seconds=စက္ကန့်
+Current=လက်ရှိ:
+HistoryTitle=ဖွင့်ခြင်းမှတ်တမ်း
+HistoryItems=မှတ်တမ်းတွင်အရာ %d ခု
+HistoryPlay=&ဖွင့်ပါ
+HistoryRemove=မှတ်တမ်းမှ&ဖယ်ပါ
+HistoryClear=မှတ်တမ်းအားလုံး&ရှင်းပါ
+HistoryOpenFolder=ဖိုဒါ&ဖွင့်ပါ
+HistoryCopyPath=လမ်းကြောင်း&ကူးယူပါ
+ClearHistory=မှတ်တမ်းရှင်းပါ
+ClearHistoryConfirm=မှတ်တမ်းအားလုံးရှင်းရန်သေချာပါသလား?
+SleepTimerTitle=အိပ်ချိန်သတ်မှတ်
+SleepTimerDescription=ဖွင့်ခြင်းအလိုအလျောက်ရပ်ရန်အချိန်သတ်မှတ်ပါ
+SleepTimerHours=နာရီ
+SleepTimerMinutes=မိနစ်
+SleepTimerQuickSet=အမြန်သတ်မှတ်
+SleepTimerAction=အချိန်ပြည့်သောအခါ
+SleepTimerStopPlayback=ဖွင့်ခြင်းရပ်ပါ
+SleepTimerCloseApp=အပလီကေးရှင်းပိတ်ပါ
+SleepTimerShutdown=ကွန်ပျူတာပိတ်ပါ
+SleepTimerStart=အချိန်စတင်ပါ
+
+[Status]
+Ready=အဆင်သင့်
+Opening=ဖွင့်နေသည်...
+Playing=ဖွင့်နေသည်
+Paused=ရပ်တန့်ထား
+Stopped=ရပ်ထားသည်
+Error=အမှား
+Buffering=Buffer လုပ်နေသည်...
+Seeking=ရှာနေသည်...
+Recording=အသံသွင်းနေသည်
+
+[Message]
+SpeedFormat=အမြန်နှုန်း: %.2fx
+VolumeFormat=အသံ: %d%%
+BrightnessFormat=တောက်ပမှု: %d
+ContrastFormat=ခြားနားချက်: %d
+SaturationFormat=အရောင်ပြည့်ဝမှု: %d
+HueFormat=အရောင်သဏ္ဍာန်: %d
+GammaFormat=Gamma: %d
+ColorsReset=ဗီဒီယိုအရောင်ပြန်သတ်မှတ်ပြီး
+LoopASet=%s တွင် A ကွင်းသတ်မှတ်ပြီး
+LoopBSet=%s တွင် B ကွင်းသတ်မှတ်ပြီး - ကွင်းအသက်ဝင်သည်
+LoopCleared=A-B ကွင်းရှင်းပြီး
+SetAFirst=A အမှတ်ကိုအရင်သတ်မှတ်ပါ (L နှိပ်ပါ)
+RotationFormat=လှည့်ခြင်း: %d°
+FlipHOn=အလျားလိုက်လှန်: ဖွင့်
+FlipHOff=အလျားလိုက်လှန်: ပိတ်
+FlipVOn=ဒေါင်လိုက်လှန်: ဖွင့်
+FlipVOff=ဒေါင်လိုက်လှန်: ပိတ်
+DeinterlaceOn=Deinterlace: ဖွင့်
+DeinterlaceOff=Deinterlace: ပိတ်
+AlwaysOnTopOn=အမြဲထိပ်တွင်: ဖွင့်
+AlwaysOnTopOff=အမြဲထိပ်တွင်: ပိတ်
+WindowFitted=ဝင်းဒိုးကို %dx%d သို့ကိုက်ညီအောင်ပြင်ပြီး
+WindowScale=ဝင်းဒိုးအတိုင်းအတာ: %.0f%%
+ScreenshotSaved=Screenshot သိမ်းပြီး: %s
+AudioNormalizeOn=အသံညှိခြင်း: ဖွင့်
+AudioNormalizeOff=အသံညှိခြင်း: ပိတ်
+AudioDelayFormat=အသံနှောင့်နှေး: %.1f s
+SubtitleDelayFormat=စာတန်းထိုးနှောင့်နှေး: %.1f s
+ZoomFormat=ချုံ့ချဲ့: %.0f%%
+PanCenter=Pan: အလယ်
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=ဗီဒီယိုမထည့်ရသေးပါ
+PlayingFromClipboard=Clipboard မှဖွင့်နေသည်: %s
+ClipboardInvalid=Clipboard တွင်မှန်ကန်သော URL သို့မဟုတ် လမ်းကြောင်းမရှိပါ
+ClipboardEmpty=Clipboard ဗလာဖြစ်သည် သို့မဟုတ် စာသားမရှိပါ
+ResumedAt=%s တွင်ဆက်လက်ပြီး
+FrameStepForward=ဖရိန်အဆင့်ရှေ့သို့
+FrameStepBackward=ဖရိန်အဆင့်နောက်သို့
+PreviousChapter=ယခင်အခန်း
+NextChapter=နောက်အခန်း
+PlayingRadio=ရေဒီယိုဖွင့်နေသည်: %s
+PlayingDVD=DVD ဖွင့်နေသည်: %s
+PlayingBluray=Blu-ray ဖွင့်နေသည်: %s
+DVDTitlePlaying=DVD ခေါင်းစဉ် %d
+SeekTo=%s သို့ရှာနေသည်
+MinimizedToTray=ထရေးသို့ချုံ့ထားသည်။ ပြန်ဖေါ်ရန်နှစ်ချက်နှိပ်ပါ။
+SleepTimerSet=အိပ်ချိန်သတ်မှတ်ပြီး: %s
+SleepTimerCancelled=အိပ်ချိန်ပယ်ဖျက်ပြီး
+SleepTimerWarning=အိပ်ချိန်: ၁ မိနစ်ကျန်သည်
+SleepTimerFinal=အိပ်ချိန်: ၁၀ စက္ကန့်ကျန်သည်
+SleepTimerStopped=အိပ်ချိန်: ဖွင့်ခြင်းရပ်ပြီး
+SleepTimerClosing=အိပ်ချိန်: အပလီကေးရှင်းပိတ်နေသည်
+SleepTimerShutdown=အိပ်ချိန်: ကွန်ပျူတာပိတ်နေသည်
+SleepTimerExpired=အိပ်ချိန်ပြည့်သွားပြီ
+ShutdownManual=ကျေးဇူးပြု၍ သင့်ကွန်ပျူတာကိုလက်ဖြင့်ပိတ်ပါ။
+
+; အဆင့် 21: ဖိုဒါဖွင့်ပါ
+FolderOpened=ဖိုဒါဖွင့်ပြီး: ဖိုင် %d ခု
+NoMediaFound=မီဒီယာဖိုင်မတွေ့ပါ
+FilesAdded=ဖိုင် %d ခုကိုသီချင်းစာရင်းသို့ထည့်ပြီး
+
+; အဆင့် 27: အသံသွင်းသတင်းစကားများ
+RecordNeedPlayback=အသံသွင်းခြင်းမပြုမီဖွင့်ပါ။
+RecordingStarted=အသံသွင်းခြင်းစတင်ပြီ
+RecordingStopped=အသံသွင်းခြင်းရပ်ပြီ
+
+; နောက်ထပ်အခြေအနေသတင်းစကားများ
+EndOfPlaylist=သီချင်းစာရင်းအဆုံး
+NoMediaLoaded=လက်ရှိမီဒီယာဖိုင်မထည့်ရသေးပါ။
+JumpedToNamed=ခုန်ပြီး: %s
+ChapterFormat=အခန်း %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=%s တွင်စာညှပ်
+
+[Label]
+Muted=အသံတိတ်ထား
+
+[Button]
+Play=ဖွင့်
+Pause=ရပ်တန့်
+Stop=ရပ်
+Previous=ယခင်
+Next=နောက်
+Mute=အသံတိတ်
+Unmute=အသံဖွင့်
+Fullscreen=မျက်နှာပြင်အပြည့်
+OK=အိုကေ
+Cancel=မလုပ်တော့
+Apply=အသုံးပြု
+Close=ပိတ်
+Yes=ဟုတ်
+No=မဟုတ်
+
+[Tooltip]
+Play=ဖွင့်/ရပ်တန့်
+Stop=ဖွင့်ခြင်းရပ်
+Previous=ယခင်တေးသွား
+Next=နောက်တေးသွား
+Mute=အသံတိတ်ပြောင်း
+Volume=အသံ
+Seek=ရှာရန်နေရာ
+Fullscreen=မျက်နှာပြင်အပြည့်ပြောင်း
+
+[Playlist]
+Title=သီချင်းစာရင်း
+Add=ထည့်
+Remove=ဖယ်
+Clear=ရှင်း
+MoveUp=အပေါ်ရွှေ့
+MoveDown=အောက်ရွှေ့
+Shuffle=ရောမွှေ
+Repeat=ထပ်ခါထပ်ခါ
+Play=ဖွင့်
+ShuffleOn=ရောမွှေ: ဖွင့်
+ShuffleOff=ရောမွှေ: ပိတ်
+RepeatOff=ထပ်ခါထပ်ခါ: ပိတ်
+RepeatOne=ထပ်ခါထပ်ခါ: တစ်ခု
+RepeatAll=ထပ်ခါထပ်ခါ: အားလုံး
+SavePlaylist=သိမ်း
+LoadPlaylist=ထည့်
+TotalDuration=စုစုပေါင်း: %s
+ItemCount=အရာ %d ခု
+
+; အဆင့် 22: သီချင်းစာရင်းတိုးတက်မှု
+Search=ရှာ:
+FilterPlaceholder=သီချင်းစာရင်းစစ်ထုတ်...
+ClearSearch=ရှင်း
+FilterCount=%d/%d
+RemoveDuplicates=ထပ်တူ&ဖယ်
+Properties=&ဂုဏ်သတ္တိများ...
+NoDuplicates=ထပ်တူမတွေ့ပါ။
+DuplicatesFound=ထပ်တူ %d ခုတွေ့သည်။ ဖယ်မည်လား?
+RemoveDuplicatesTitle=ထပ်တူဖယ်ပါ
+PropertiesTitle=သီချင်းစာရင်းဂုဏ်သတ္တိများ
+PropTotalItems=စုစုပေါင်းအရာများ: %d
+PropTotalDuration=စုစုပေါင်းကြာချိန်: %s
+PropPlayed=ဖွင့်ပြီး: %d
+PropUnplayed=မဖွင့်ရသေး: %d
+PropTotalSize=စုစုပေါင်းအရွယ်အစား: %.2f MB
+PropShuffle=ရောမွှေ: %s
+PropRepeat=ထပ်ခါထပ်ခါ: %s
+On=ဖွင့်
+Off=ပိတ်
+
+; ApplyLocale အတွက်သော့သစ်များ
+ClearTitle=သီချင်းစာရင်းရှင်းပါ
+ClearConfirm=သီချင်းစာရင်းရှင်းရန်သေချာပါသလား?
+NoPlaylist=သီချင်းစာရင်းမရှိပါ
+StatusFormat=အရာ %d ခု | စုစုပေါင်း: %s
+RepeatOne=ထပ် ၁
+RepeatAll=ထပ် အားလုံး
+HintRepeatEnable=ထပ်ခါထပ်ခါအားလုံးဖွင့်ရန်နှိပ်ပါ
+HintRepeatOne=ထပ်ခါထပ်ခါတစ်ခု - ပိတ်ရန်နှိပ်ပါ
+HintRepeatAll=ထပ်ခါထပ်ခါအားလုံး - ထပ်ခါထပ်ခါတစ်ခုအတွက်နှိပ်ပါ
+HintShuffleRepeat=ရောမွှေ + ထပ်ခါထပ်ခါအားလုံး - ထပ်ခါထပ်ခါပိတ်ရန်နှိပ်ပါ
+RemoveDuplicatesTitle=ထပ်တူဖယ်ပါ
+NoDuplicates=ထပ်တူမတွေ့ပါ။
+SelectAll=အားလုံးရွေး
+SelectNone=တစ်ခုမှမရွေး
+SelectInvert=ရွေးချယ်မှုပြောင်း
+Sort=စီ
+SortByName=အမည်အလိုက်
+SortByTitle=ခေါင်းစဉ်အလိုက်
+SortByArtist=အနုပညာရှင်အလိုက်
+SortByDuration=ကြာချိန်အလိုက်
+SortReverse=ပြောင်းပြန်
+SortRandom=ရောမွှေ
+ColTitle=ခေါင်းစဉ်
+ColDuration=ကြာချိန်
+ColArtist=အနုပညာရှင်
+ColAlbum=အယ်လ်ဘမ်
+PlaylistFilter=M3U သီချင်းစာရင်း|*.m3u|M3U8 သီချင်းစာရင်း|*.m3u8|PLS သီချင်းစာရင်း|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=ကြိုတင်သတ်မှတ်:
+Preamp=Preamp:
+Flat=ညီညာ
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=ဂန္တဝင်
+BassBoost=Bass တိုး
+TrebleBoost=Treble တိုး
+Vocal=အသံ
+Reset=ပြန်သတ်မှတ်
+Enable=Equalizer ဖွင့်
+Save=သိမ်း
+Delete=ဖျက်
+Ready=အဆင်သင့်
+; ခလုတ်များနှင့်လုပ်ဆောင်ချက်များ
+SavePreset=ကြိုတင်သတ်မှတ်သိမ်း
+DeletePreset=ကြိုတင်သတ်မှတ်ဖျက်
+SavePresetTitle=ကြိုတင်သတ်မှတ်သိမ်းပါ
+PresetNamePrompt=ကြိုတင်သတ်မှတ်အမည်:
+EnterPresetName=ကြိုတင်သတ်မှတ်အမည်ထည့်ပါ။
+OverwritePresetTitle=ကြိုတင်သတ်မှတ်အစားထိုး
+OverwritePresetConfirm=ဤအမည်ဖြင့်ကြိုတင်သတ်မှတ်ရှိပြီးသား။ အစားထိုးမည်လား?
+PresetUpdated=ကြိုတင်သတ်မှတ်မွမ်းမံပြီး: %s
+PresetSaved=ကြိုတင်သတ်မှတ်သိမ်းပြီး: %s
+SelectPresetToDelete=ဖျက်ရန်ကြိုတင်သတ်မှတ်ရွေးပါ။
+CannotDeleteDefault=မူရင်းကြိုတင်သတ်မှတ်များမဖျက်နိုင်ပါ။
+DeletePresetTitle=ကြိုတင်သတ်မှတ်ဖျက်ပါ
+DeletePresetConfirm=ဤကြိုတင်သတ်မှတ်ဖျက်ရန်သေချာပါသလား?
+PresetDeleted=ကြိုတင်သတ်မှတ်ဖျက်ပြီး
+ResetToFlat=Equalizer ကိုညီညာသို့ပြန်သတ်မှတ်ပြီး
+PresetApplied=ကြိုတင်သတ်မှတ်အသုံးပြုပြီး: %s
+
+[Options]
+Title=ရွေးချယ်စရာများ
+General=အထွေထွေ
+Video=ဗီဒီယို
+Audio=အသံ
+Subtitles=စာတန်းထိုး
+Cache=Cache
+Language=ဘာသာစကား:
+RestartRequired=ပြောင်းလဲမှုများအကျိုးသက်ရောက်ရန်ပြန်စတင်ရန်လိုအပ်သည်
+
+; အထွေထွေတဘ် - အပြုအမူ
+Behavior=အပြုအမူ
+SingleInstance=တစ်ခုတည်းသာခွင့်ပြု
+AutoPlay=ဖွင့်သောအခါဖိုင်များအလိုအလျောက်ဖွင့်
+AutoResume=ဖွင့်ခြင်းနေရာဆက်လက်
+MinimizeToTray=စနစ်ထရေးသို့ချုံ့
+AutoSavePlaylist=ထွက်သောအခါသီချင်းစာရင်းသိမ်း
+
+; အထွေထွေတဘ် - OSD
+OSD=မျက်နှာပြင်ပေါ်ပြသခြင်း
+ShowOSD=မျက်နှာပြင်ပေါ်သတင်းစကားများပြ
+ShowTrayIcon=ထရေးအိုင်ကွန်ပြ
+OSDDuration=OSD ကြာချိန် (ms):
+
+; အထွေထွေတဘ် - Screenshots
+Screenshots=Screenshots
+ScreenshotPath=သိမ်းဆည်းရန်ဖိုဒါ:
+ScreenshotFormat=Format:
+
+; အထွေထွေတဘ် - မှတ်တမ်း
+HistorySettings=မှတ်တမ်း
+HistoryEnabled=ဖွင့်ခြင်းမှတ်တမ်းဖွင့်
+HistoryMaxItems=အများဆုံးအရာများ:
+
+; အထွေထွေတဘ် - ဘာသာစကား
+LanguageGroup=ဘာသာစကား
+RestartNote=(ပြောင်းလဲမှုများအတွက်ပြန်စတင်ရန်လိုအပ်သည်)
+
+; ဗီဒီယိုတဘ်
+VideoAdjust=ဗီဒီယိုညှိခြင်း
+Brightness=တောက်ပမှု:
+Contrast=ခြားနားချက်:
+Saturation=အရောင်ပြည့်ဝမှု:
+Hue=အရောင်သဏ္ဍာန်:
+Gamma=Gamma:
+VideoOutput=ဗီဒီယိုထုတ်ပေးခြင်း
+Output=ထုတ်ပေးခြင်း:
+HWAccel=Hardware အရှိန်မြှင့်ခြင်းဖွင့်
+Deinterlacing=Deinterlacing
+Mode=ပုံစံ:
+
+; အသံတဘ်
+AudioOutput=အသံထုတ်ပေးခြင်း
+OutputDriver=ထုတ်ပေးခြင်း driver:
+Device=စက်:
+AudioOptions=အသံရွေးချယ်စရာများ
+NormalizeAudio=အသံညှိ
+Channels=ချန်နယ်များ:
+
+; စာတန်းထိုးတဘ်
+UseDefaultSubtitles=မူရင်းစာတန်းထိုးဆက်တင်များအသုံးပြု
+Font=ဖောင့်
+FontName=ဖောင့်:
+FontSize=အရွယ်အစား:
+FontColor=အရောင်:
+Bold=စာလုံးမဲ
+Italic=စာလုံးစောင်း
+Outline=အနားသတ်
+OutlineColor=အရောင်:
+OutlineSize=အရွယ်အစား:
+Position=တည်နေရာ
+VerticalPosition=ဒေါင်လိုက်တည်နေရာ:
+SubOptions=ရွေးချယ်စရာများ
+Encoding=Encoding:
+AutoLoadSubs=စာတန်းထိုးဖိုင်များအလိုအလျောက်ထည့်
+
+; ဗီဒီယိုထုတ်ပေးခြင်းသတိပေးချက်များ
+VOWarningX11=သတိပေးချက်: x11 သည်ဗီဒီယိုညှိခြင်းများကိုမပံ့ပိုးပါ (တောက်ပမှု၊ ခြားနားချက် စသည်)
+VOWarningWayland=သတိပေးချက်: Wayland session လိုအပ်သည်။ ဗီဒီယိုညှိခြင်းများပံ့ပိုးသည်။
+
+; Cache တဘ်
+CacheSettings=Cache Buffer အရွယ်အစားများ (KB)
+CacheDefault=မူရင်း cache:
+CacheLocal=ဒေသဆိုင်ရာဖိုင်များ:
+CacheNetwork=ကွန်ရက်ဖိုင်များ:
+CacheInternet=အင်တာနက် streams:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=အကြောင်း
+Version=ဗားရှင်း
+Engine=Engine
+Technology=နည်းပညာ
+BuildInfo=တည်ဆောက်မှုအချက်အလက်
+SystemInfo=စနစ်
+Credits=အသိအမှတ်ပြုချက်များ
+Developer=ဖန်တီးသူ:
+Author=စာရေးသူ
+License=လိုင်စင်
+Website=ဝဘ်ဆိုက်
+GitHub=GitHub
+Description=ခေတ်မီ၊ ပေါ့ပါးသောမီဒီယာပလေယာ
+LicenseText=3nity Media သည် GPL-2.0 လိုင်စင်အောက်တွင်ရှိသည်\n\nဆိုလိုသည်မှာ သင့်တွင်လွတ်လပ်ခွင့်ရှိသည်:\n  • မည်သည့်ရည်ရွယ်ချက်အတွက်မဆို software ကိုအသုံးပြု\n  • source code ကိုလေ့လာပြီးပြင်ဆင်\n  • software မိတ္တူများဖြန့်ဝေ\n  • သင့်ပြင်ဆင်မှုများဖြန့်ဝေ\n\nဖြန့်ဝေသောပြင်ဆင်မှုများသည်လည်း\nGPL-2.0 လိုင်စင်အောက်တွင်ရှိရမည်ဟူသောအခြေအနေအောက်တွင်။
+BuildDate=ရက်စွဲ:
+Target=ပစ်မှတ်:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=ကီးဘုတ်အတိုကောက်လမ်းများ
+Description=လုပ်ဆောင်ချက်များအတွက်အတိုကောက်လမ်းများပြင်ဆင်ပါ
+Search=ရှာ:
+PressKey=ခလုတ်နှိပ်ပါ...
+ColCategory=အမျိုးအစား
+ColAction=လုပ်ဆောင်ချက်
+ColShortcut=အတိုကောက်လမ်း
+Assign=သတ်မှတ်
+Clear=ရှင်း
+Reset=ပြန်သတ်မှတ်
+ResetAll=အားလုံးပြန်သတ်မှတ်
+CurrentShortcut=လက်ရှိ: %s
+NoKeyPressed=ကျေးဇူးပြု၍ ခလုတ်ပေါင်းစပ်မှုကိုအရင်နှိပ်ပါ။
+Conflict=ပဋိပက္ခ: "%s" သို့ပြီးသားသတ်မှတ်ထားသည်
+ConfirmReplace=အတိုကောက်လမ်းအစားထိုး
+ReplaceMessage=ဤအတိုကောက်လမ်းကို "%s" သို့ပြီးသားသတ်မှတ်ထားသည်။ အစားထိုးလိုပါသလား?
+ConfirmResetAll=အတိုကောက်လမ်းအားလုံးပြန်သတ်မှတ်
+ResetAllMessage=အတိုကောက်လမ်းအားလုံးကိုမူရင်းသို့ပြန်သတ်မှတ်ရန်သေချာပါသလား?
+; လုပ်ဆောင်ချက်အမည်များ
+ActPlayPause=ဖွင့် / ရပ်တန့်
+ActStop=ရပ်
+ActPrevious=ယခင်
+ActNext=နောက်
+ActSeekForward=ရှေ့သို့ရှာ (10s)
+ActSeekBackward=နောက်သို့ရှာ (10s)
+ActSeekForward5=ရှေ့သို့ရှာ (1 min)
+ActSeekBackward5=နောက်သို့ရှာ (1 min)
+ActSpeedUp=အမြန်နှုန်းတိုး
+ActSpeedDown=အမြန်နှုန်းလျှော့
+ActSpeedReset=အမြန်နှုန်းပြန်သတ်မှတ်
+ActSetLoopA=A ကွင်းအမှတ်သတ်မှတ်
+ActSetLoopB=B ကွင်းအမှတ်သတ်မှတ်
+ActClearLoop=A-B ကွင်းရှင်း
+ActFrameForward=ဖရိန်ရှေ့သို့
+ActFrameBackward=ဖရိန်နောက်သို့
+ActPrevChapter=ယခင်အခန်း
+ActNextChapter=နောက်အခန်း
+ActGotoTime=အချိန်သို့သွား
+ActVolumeUp=အသံတိုး
+ActVolumeDown=အသံလျှော့
+ActMute=အသံတိတ် / ဖွင့်
+ActAudioDelayPlus=အသံနှောင့်နှေး +
+ActAudioDelayMinus=အသံနှောင့်နှေး -
+ActAudioDelayReset=အသံနှောင့်နှေးပြန်သတ်မှတ်
+ActFullscreen=မျက်နှာပြင်အပြည့်
+ActRotate=ဗီဒီယိုလှည့်
+ActDeinterlace=Deinterlace
+ActZoomIn=ချဲ့
+ActZoomOut=ချုံ့
+ActZoomReset=ချုံ့ချဲ့ပြန်သတ်မှတ်
+ActAlwaysOnTop=အမြဲထိပ်တွင်
+ActFitToVideo=ဗီဒီယိုနှင့်ကိုက်ညီအောင်
+ActScreenshot=Screenshot
+ActVideoAdjust=ဗီဒီယိုညှိခြင်း
+ActVisNextMode=နောက်ရုပ်ပုံပြပုံစံ
+ActVisNextColor=နောက်အရောင်အစီအစဉ်
+ActSubDelayPlus=စာတန်းထိုးနှောင့်နှေး +
+ActSubDelayMinus=စာတန်းထိုးနှောင့်နှေး -
+ActSubDelayReset=စာတန်းထိုးနှောင့်နှေးပြန်သတ်မှတ်
+ActDVDMenu=DVD မီနူး
+ActDVDUp=DVD အပေါ်သွား
+ActDVDDown=DVD အောက်သွား
+ActDVDLeft=DVD ဘယ်သွား
+ActDVDRight=DVD ညာသွား
+ActDVDSelect=DVD ရွေးချယ်
+ActOpenFile=ဖိုင်ဖွင့်
+ActOpenURL=URL ဖွင့်
+ActPlaylist=သီချင်းစာရင်းပြ
+ActQuit=ထွက်
+
+[Log]
+; အဆင့် 25: Log ဝင်းဒိုး
+Title=MPV Log
+Command=Command:
+Clear=ရှင်း
+Save=သိမ်း...
+Copy=&ကူးယူ
+SelectAll=အားလုံး&ရွေး
+SaveTitle=Log သိမ်းပါ
+SaveFilter=စာသားဖိုင်များ (*.txt)|*.txt|ဖိုင်အားလုံး (*.*)|*.*
+ErrorTitle=အမှား
+SaveError=Log သိမ်းရန်မအောင်မြင်ပါ: %s
+
+[MediaInfo]
+Title=မီဒီယာအချက်အလက်
+FileTab=ဖိုင်
+VideoTab=ဗီဒီယို
+AudioTab=အသံ
+MetadataTab=Metadata
+FileName=ဖိုင်အမည်:
+FilePath=လမ်းကြောင်း:
+FileSize=အရွယ်အစား:
+Duration=ကြာချိန်:
+Format=Format:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Pixel Format:
+AspectRatio=မျက်နှာပြင်အချိုး:
+Channels=ချန်နယ်များ:
+SampleRate=Sample Rate:
+Language=ဘာသာစကား:
+Property=ဂုဏ်သတ္တိ
+Value=တန်ဖိုး
+CopyAll=အားလုံးကူးယူ
+CopiedToClipboard=မီဒီယာအချက်အလက်ကို clipboard သို့ကူးယူပြီး။
+NA=မရှိ
+NAStream=မရှိ (stream)
+NALive=မရှိ (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=မသိ
+NoMetadata=(Metadata မရှိပါ)
+
+[Bookmarks]
+Title=စာညှပ်များ
+Goto=သွား
+Remove=ဖယ်
+Clear=အားလုံးရှင်း
+Refresh=ပြန်ဆန်းသစ်
+OpenFolder=ဖိုဒါဖွင့်
+CopyPath=လမ်းကြောင်းကူးယူ
+; ကော်လံများ
+ColName=အမည်
+ColFile=ဖိုင်
+ColPosition=တည်နေရာ
+ColCreated=ဖန်တီးခဲ့သော
+; Dialog များ
+ClearTitle=စာညှပ်များရှင်းပါ
+ClearConfirm=စာညှပ်အားလုံးရှင်းရန်သေချာပါသလား?
+Count=စာညှပ် %d ခု
+
+[Favorites]
+Title=အကြိုက်များ
+Play=ဖွင့်
+Remove=ဖယ်
+Clear=အားလုံးရှင်း
+Refresh=ပြန်ဆန်းသစ်
+OpenFolder=ဖိုဒါဖွင့်
+CopyPath=လမ်းကြောင်းကူးယူ
+; ကော်လံများ
+ColName=အမည်
+ColType=အမျိုးအစား
+ColPath=လမ်းကြောင်း
+; အမျိုးအစားများ
+TypeFile=ဖိုင်
+TypeURL=URL
+TypeRadio=ရေဒီယို
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=မသိ
+; Dialog များ
+ClearTitle=အကြိုက်များရှင်းပါ
+ClearConfirm=အကြိုက်အားလုံးရှင်းရန်သေချာပါသလား?
+Count=အကြိုက် %d ခု
+
+[History]
+Title=ဖွင့်ခြင်းမှတ်တမ်း
+Play=ဖွင့်
+Remove=ဖယ်
+Clear=အားလုံးရှင်း
+Refresh=ပြန်ဆန်းသစ်
+OpenFolder=ဖိုဒါဖွင့်
+CopyPath=လမ်းကြောင်းကူးယူ
+; ကော်လံများ
+ColFileName=ဖိုင်
+ColPath=လမ်းကြောင်း
+; Dialog များ
+ClearTitle=မှတ်တမ်းရှင်းပါ
+ClearConfirm=မှတ်တမ်းအားလုံးရှင်းရန်သေချာပါသလား?
+Count=အရာ %d ခု
+
+[SleepTimer]
+Title=အိပ်ချိန်သတ်မှတ်
+Description=ဖွင့်ခြင်းအလိုအလျောက်ရပ်ရန်အချိန်သတ်မှတ်ပါ
+Hours=နာရီ:
+Minutes=မိနစ်:
+Action=အချိန်ပြည့်သောအခါ:
+StopPlayback=ဖွင့်ခြင်းရပ်
+CloseApp=အပလီကေးရှင်းပိတ်
+Shutdown=ကွန်ပျူတာပိတ်
+QuickSet=အမြန်သတ်မှတ်:
+15Min=၁၅ မိနစ်
+30Min=၃၀ မိနစ်
+1Hour=၁ နာရီ
+2Hours=၂ နာရီ
+
+[Radios]
+Title=အင်တာနက်ရေဒီယိုများ
+Play=ဖွင့်
+Add=ထည့်
+Edit=တည်းဖြတ်
+Delete=ဖျက်
+Remove=ဖယ်
+Import=သွင်းယူ
+Export=ထုတ်ပေး
+Refresh=ပြန်ဆန်းသစ်
+Favorite=အကြိုက်
+ShowFavorites=အကြိုက်များ
+ShowAll=အားလုံး
+; စစ်ထုတ်
+Genre=အမျိုးအစား:
+Search=ရှာ:
+SearchBtn=ရှာ
+ClearSearch=ရှင်း
+AllGenres=(အမျိုးအစားအားလုံး)
+; Context menu
+AddFavorite=အကြိုက်များသို့ထည့်
+RemoveFavorite=အကြိုက်များမှဖယ်
+AddCustom=စိတ်ကြိုက်စတေးရှင်းထည့်...
+EditCustom=စတေးရှင်းတည်းဖြတ်...
+DeleteCustom=စတေးရှင်းဖျက်
+OpenWebsite=ဝဘ်ဆိုက်ဖွင့်
+CopyURL=URL ကူးယူ
+; ကော်လံများ
+ColName=အမည်
+ColGenre=အမျိုးအစား
+ColBitrate=Bitrate
+ColCountry=နိုင်ငံ
+ColCodec=Codec
+; Dialog များ
+AddTitle=စိတ်ကြိုက်စတေးရှင်းထည့်
+EditTitle=စတေးရှင်းတည်းဖြတ်
+DeleteTitle=စတေးရှင်းဖျက်
+DeleteConfirm=ဤစတေးရှင်းဖျက်ရန်သေချာပါသလား?
+StationName=စတေးရှင်းအမည်:
+StreamURL=Stream URL:
+GenrePrompt=အမျိုးအစား:
+NameURLRequired=အမည်နှင့် URL လိုအပ်သည်။
+; အခြေအနေသတင်းစကားများ
+LoadingIcecast=Icecast directory မှစတေးရှင်းများထည့်နေသည်...
+IcecastError=Icecast directory မထည့်နိုင်ပါ။ မူရင်းစတေးရှင်းများအသုံးပြုနေသည်။
+NoStationsLoaded=စတေးရှင်းမထည့်ရသေးပါ
+StationCount=စတေးရှင်း %d ခု
+LoadedStations=စတေးရှင်း %d ခုထည့်ပြီး
+ErrorPrefix=အမှား:
+; Legacy keys
+Name=အမည်
+URL=URL
+Bitrate=Bitrate
+Description=ဖော်ပြချက်
+Country=နိုင်ငံ
+
+[OpenURL]
+Title=URL ဖွင့်ပါ
+Prompt=မီဒီယာ URL ထည့်ပါ:
+
+[GotoTime]
+Title=အချိန်သို့သွားပါ
+EnterTime=ခုန်ရန်အချိန်ထည့်ပါ:
+Hours=န
+Minutes=မ
+Seconds=စ
+Current=လက်ရှိ:
+Duration=ကြာချိန်:
+
+[VideoAdjust]
+Title=ဗီဒီယိုညှိခြင်း
+Brightness=တောက်ပမှု:
+Contrast=ခြားနားချက်:
+Saturation=အရောင်ပြည့်ဝမှု:
+Hue=အရောင်သဏ္ဍာန်:
+Gamma=Gamma:
+ResetAll=အရောင်အားလုံးပြန်သတ်မှတ်
+
+[CLI]
+; Command line မက်ဆေ့ခ်ျများ
+Usage=အသုံးပြုပုံ
+Arguments=[ရွေးချယ်မှုများ] [ဖိုင်|URL|ဖိုဒါ]
+Description=libmpv backend ကိုအသုံးပြုသော cross-platform မာလ်တီမီဒီယာ ပလေယာ။
+Options=ရွေးချယ်မှုများ
+Examples=ဥပမာများ
+MoreInfo=အချက်အလက်ပိုမိုရယူရန် ဝင်ကြည့်ပါ
+EnqueuedTo=ရှိပြီးသား instance တွင် queue သို့ထည့်ပြီး: %s
+SentTo=ရှိပြီးသား instance သို့ပို့ပြီး: %s
+AlreadyRunning=3nity Media သည် လည်ပတ်နေပြီဖြစ်သည်။
+ErrorFileNotFound=အမှား: ဖိုင် သို့မဟုတ် ဖိုဒါ မတွေ့ပါ: %s
+ErrorSubNotFound=အမှား: စာတန်းထိုးဖိုင် မတွေ့ပါ: %s

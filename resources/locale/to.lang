@@ -1,0 +1,892 @@
+[Language]
+Name=Tongan - Lea Fakatonga
+Code=to
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Faile
+FileOpen=&Fakaava Faile...
+FileOpenURL=Fakaava &URL...
+FileOpenClipboard=Fakaava mei he &Clipboard
+FileRecent=&Faile Toki Ngaue
+ClearRecentFiles=Fakamaa Faile Toki Ngaue
+FileExit=&Hu
+
+; Playback menu
+Playback=&Ta
+PlaybackPlayPause=&Ta/Tuku
+PlaybackStop=&Taofi
+PlaybackPrevious=Ki&mu'a
+PlaybackNext=&Hoko
+PlaybackSeekForward=Kumi ki &Mu'a
+PlaybackSeekBackward=Kumi ki &Tua
+PlaybackSpeed=&Vave
+PlaybackABLoop=Lu A-&B
+PlaybackSetA=Fokotu'u &A
+PlaybackSetB=Fokotu'u &B
+PlaybackClearAB=&Fakamaa A-B
+PlaybackChapters=&Vahe
+PlaybackPrevChapter=Vahe Kimu'a
+PlaybackNextChapter=Vahe Hoko
+PlaybackFrameStep=Sitepu Felemi ki &Mu'a
+PlaybackFrameBack=Sitepu Felemi ki &Tua
+
+; DVD Navigation
+PlaybackDVD=Fakafuofua &DVD
+DVDMenu=&Menu
+DVDUp=&Hake
+DVDDown=&Hifo
+DVDLeft=To&hema
+DVDRight=To&mata'u
+DVDSelect=&Fili
+PlaybackDVDTitles=&Hingoa DVD
+
+; Phase 21: Open Folder
+FileOpenFolder=Fakaava F&oleta...
+
+; File menu DVD/Bluray
+FileOpenDVD=Fakaava &DVD...
+FileOpenBluray=Fakaava &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Alu ki he Taimi...
+ToolsHistory=&Hisitolia
+
+; Phase 14: System Tray
+TrayShow=&Fakaha/Fufu
+TrayPlayPause=&Ta/Tuku
+TrayStop=&Taofi
+TrayPrevious=Ki&mu'a
+TrayNext=&Hoko
+TrayMute=&Fakalongo
+TrayExit=&Hu
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Fakaaofi &Fakamaaka...
+PlaybackBookmarks=Faka&maaka
+BookmarksTitle=Fakamaaka
+BookmarksGoto=&Alu ki he Fakamaaka
+BookmarksRemove=&Toho Fakamaaka
+BookmarksClear=&Fakamaa Fakamaaka Kotoa
+BookmarksOpenFolder=Fakaava &Foleta
+BookmarksCopyPath=&Hiki Hala
+BookmarksCount=fakamaaka %d
+NoBookmarks=('Ikai ha fakamaaka)
+NoFileLoaded=('Ikai ha faile kuo uta)
+BookmarkAdded=Kuo fakaaofi fakamaaka 'i he %s
+BookmarkJumped=Kuo hopo ki he fakamaaka 'i he %s
+AddBookmarkTitle=Fakaaofi Fakamaaka
+AddBookmarkPrompt=Huhu'i hingoa fakamaaka:
+ShowAllBookmarks=Fakaha Fakamaaka Kotoa...
+
+; Phase 16: Favorites
+ToolsFavorites=&Manako
+ToolsAddFavorite=Fakaaofi ki Mana&ko
+FavoritesTitle=Manako
+FavoritesPlay=&Ta
+FavoritesRemove=&Toho mei he Manako
+FavoritesClear=&Fakamaa Manako Kotoa
+FavoritesOpenFolder=Fakaava &Foleta
+FavoritesCopyPath=&Hiki Hala
+FavoritesCount=manako %d
+NoFavorites=('Ikai ha manako)
+AddFavoriteTitle=Fakaaofi ki Manako
+AddFavoritePrompt=Huhu'i hingoa ki manako:
+AlreadyFavorite='Oku 'osi 'i he manako
+AddedToFavorites=Kuo fakaaofi ki manako: %s
+NoFileToFavorite='Ikai ha faile kuo uta ke fakaaofi ki manako
+FavoriteTypeFile=Faile
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Letio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Hiva %d: %s
+TrackWithLang=Hiva %d (%s)
+TrackNumber=Hiva %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Tamate'i
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=Taimi &Mohe...
+ToolsSleepTimerActive=Taimi &Mohe [%s]
+ToolsCancelTimer=Kaniseli &Taimi
+
+; Audio menu
+Audio=&Le'o
+AudioTrack=Hiva &Le'o
+AudioVolumeUp=Le'o &Hake
+AudioVolumeDown=Le'o &Hifo
+AudioMute=&Fakalongo
+AudioEqualizer=&Equalizer
+AudioDelay=&Tuai Le'o
+AudioDelayPlus=Tuai +0.1s
+AudioDelayMinus=Tuai -0.1s
+AudioDelayReset=Toe Fokotu'u Tuai
+AudioNormalize=Fakatatau &Le'o
+
+; Video menu
+Video=&Vitio
+VideoFullscreen=&Faka'aufuli
+VideoAspect=&Tatau
+VideoAspectAuto=&'Otometi
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Fakatata
+VideoScreenshotAs=Fakatata &Ko e...
+VideoRotation=&Taka
+VideoRotate0=&0° (Angamaheni)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Liliu
+VideoFlipH=Liliu &Fakamaau
+VideoFlipV=Liliu &Fakatuu
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom ki &Loto
+VideoZoomOut=Zoom ki &Tu'a
+VideoZoomReset=Toe &Fokotu'u Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan To&hema
+VideoPanRight=Pan To&mata'u
+VideoPanUp=Pan &Hake
+VideoPanDown=Pan &Hifo
+VideoPanReset=To&e Fokotu'u Pan
+VideoTrack=Hiva &Vitio
+VideoColors=Fakato&nuhia Lanu
+VideoBrightness=&Maama
+VideoContrast=&Kehekehe
+VideoSaturation=&Saturation
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Toe Fokotu'u Lanu &Kotoa
+VideoIncrease=Fakalahi (+5)
+VideoDecrease=Fakasi'i (-5)
+VideoReset=Toe Fokotu'u
+VideoAdjustDialog=Fakatonuhia &Vitio...
+
+; View menu
+View=&Sio
+ViewAlwaysOnTop=&Ma'u pe 'i 'Olunga
+ViewFitToVideo=&Fakatatau Matapa ki Vitio
+ViewScale=&Fua Matapa
+
+; Phase 26: Visualization menu
+ViewVisualization=Faka&haa
+VisNone=&'Ikai ha taha
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=V&U Meter
+VisNextMode=Founga &Hoko
+VisNextColor=Lanu &Hoko
+
+; Subtitles menu
+Subtitles=&Tohinoa
+SubtitleTrack=Hiva &Tohinoa
+SubtitleLoad=&Uta Tohinoa...
+SubtitleDelay=&Tuai Tohinoa
+SubtitleDelayPlus=Tuai +0.1s
+SubtitleDelayMinus=Tuai -0.1s
+SubtitleDelayReset=Toe Fokotu'u Tuai
+
+; Tools menu
+Tools=Ngaahi &Me'angaue
+ToolsPlaylist=&Lisi Ta
+ToolsRadios=&Letio
+ToolsShortcuts=Hala &Nounou...
+ToolsOptions=&Fili
+
+; Phase 27: Recording menu
+ToolsRecord=&Lekooti...
+ToolsStopRecord=Ta&ofi Lekooti
+ToolsRecording=&Lekooti...
+
+; Help menu
+Help=&Tokoni
+HelpMediaInfo=Fakamatala &Media
+HelpLog=Matapa &Log
+HelpAbout=Fe&kau'aki
+
+[Dialog]
+OpenFile=Fakaava Faile
+OpenURL=Fakaava URL
+SaveScreenshot=Hiki Fakatata
+LoadSubtitle=Uta Faile Tohinoa
+EnterURL=Huhu'i URL:
+ResumePlayback=Hokohoko Ta
+ResumeFrom=Hokohoko mei he %s?
+ClearRecentFiles=Fakamaa Faile Toki Ngaue
+NoRecentFiles=('Ikai ha faile toki ngaue)
+NoAudioTracks=('Ikai ha hiva le'o)
+NoVideoTracks=('Ikai ha hiva vitio)
+NoSubtitleTracks=('Ikai ha hiva tohinoa)
+NoChapters=('Ikai ha vahe)
+OpenDVD=Fakaava DVD
+OpenBluray=Fakaava Blu-ray
+OpenFolder=Fakaava Foleta
+
+; File filters
+ScreenshotFilter=Fakatata PNG|*.png|Fakatata JPEG|*.jpg|Fakatata WebP|*.webp
+DVDFilter=Foleta DVD|*.;*.iso|Faile kotoa (*.*)|*.*
+BlurayFilter=Foleta Blu-ray|*.;*.iso|Faile kotoa (*.*)|*.*
+NoDVD=('Ikai ha DVD kuo uta)
+DVDTitle=Hingoa %d
+GotoTime=Alu ki he Taimi
+EnterTime=Huhu'i taimi ke hopo ki ai:
+Hours=Houa
+Minutes=Miniti
+Seconds=Sekoni
+Current=Taimi ni:
+HistoryTitle=Hisitolia Ta
+HistoryItems=me'a %d 'i he hisitolia
+HistoryPlay=&Ta
+HistoryRemove=&Toho mei he Hisitolia
+HistoryClear=&Fakamaa Hisitolia Kotoa
+HistoryOpenFolder=Fakaava &Foleta
+HistoryCopyPath=&Hiki Hala
+ClearHistory=Fakamaa Hisitolia
+ClearHistoryConfirm='Oku ke faka'amu ke fakamaa hisitolia kotoa?
+SleepTimerTitle=Taimi Mohe
+SleepTimerDescription=Fokotu'u taimi ke taofi 'otometi 'a e ta
+SleepTimerHours=Houa
+SleepTimerMinutes=Miniti
+SleepTimerQuickSet=Fokotu'u Vave
+SleepTimerAction='Oka 'osi 'a e taimi
+SleepTimerStopPlayback=Taofi ta
+SleepTimerCloseApp=Tapuni polokalama
+SleepTimerShutdown=Tamate'i komipiuta
+SleepTimerStart=Kamata Taimi
+
+[Status]
+Ready='Oku Teuteu
+Opening='Oku Fakaava...
+Playing='Oku Ta
+Paused='Oku Tuku
+Stopped='Oku Taofi
+Error=Hala
+Buffering='Oku Teuteu...
+Seeking='Oku Kumi...
+Recording='Oku Lekooti
+
+[Message]
+SpeedFormat=Vave: %.2fx
+VolumeFormat=Le'o: %d%%
+BrightnessFormat=Maama: %d
+ContrastFormat=Kehekehe: %d
+SaturationFormat=Saturation: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Kuo toe fokotu'u lanu vitio
+LoopASet=Lu A kuo fokotu'u 'i he %s
+LoopBSet=Lu B kuo fokotu'u 'i he %s - Lu 'oku ngaue
+LoopCleared=Kuo fakamaa Lu A-B
+SetAFirst=Fokotu'u mu'a 'a e A (lomi L)
+RotationFormat=Taka: %d°
+FlipHOn=Liliu fakamaau: KUO FAKAAVA
+FlipHOff=Liliu fakamaau: KUO TAPUNI
+FlipVOn=Liliu fakatuu: KUO FAKAAVA
+FlipVOff=Liliu fakatuu: KUO TAPUNI
+DeinterlaceOn=Deinterlace: KUO FAKAAVA
+DeinterlaceOff=Deinterlace: KUO TAPUNI
+AlwaysOnTopOn=Ma'u pe 'i 'olunga: KUO FAKAAVA
+AlwaysOnTopOff=Ma'u pe 'i 'olunga: KUO TAPUNI
+WindowFitted=Kuo fakatatau matapa ki he %dx%d
+WindowScale=Fua matapa: %.0f%%
+ScreenshotSaved=Kuo hiki fakatata: %s
+AudioNormalizeOn=Fakatatau le'o: KUO FAKAAVA
+AudioNormalizeOff=Fakatatau le'o: KUO TAPUNI
+AudioDelayFormat=Tuai le'o: %.1f s
+SubtitleDelayFormat=Tuai tohinoa: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Loto
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded='Ikai ha vitio kuo uta
+PlayingFromClipboard='Oku ta mei he clipboard: %s
+ClipboardInvalid='Oku 'ikai ha URL pe hala totonu 'i he clipboard
+ClipboardEmpty='Oku maha 'a e clipboard pe 'oku 'ikai ha tohi
+ResumedAt=Kuo hokohoko 'i he %s
+FrameStepForward=Sitepu felemi ki mu'a
+FrameStepBackward=Sitepu felemi ki tua
+PreviousChapter=Vahe kimu'a
+NextChapter=Vahe hoko
+PlayingRadio='Oku ta letio: %s
+PlayingDVD='Oku ta DVD: %s
+PlayingBluray='Oku ta Blu-ray: %s
+DVDTitlePlaying=Hingoa DVD %d
+SeekTo='Oku kumi ki he %s
+MinimizedToTray=Kuo fakasi'isi'i ki he tray. Lomi tu'o ua ke toe foki.
+SleepTimerSet=Kuo fokotu'u taimi mohe: %s
+SleepTimerCancelled=Kuo kaniseli taimi mohe
+SleepTimerWarning=Taimi mohe: Miniti 1 kei toe
+SleepTimerFinal=Taimi mohe: Sekoni 10 kei toe
+SleepTimerStopped=Taimi mohe: Kuo taofi ta
+SleepTimerClosing=Taimi mohe: 'Oku tapuni polokalama
+SleepTimerShutdown=Taimi mohe: 'Oku tamate'i komipiuta
+SleepTimerExpired=Kuo 'osi Taimi Mohe
+ShutdownManual=Kataki tamate'i ho'o komipiuta.
+
+; Phase 21: Open Folder
+FolderOpened=Kuo fakaava foleta: faile %d
+NoMediaFound='Ikai ha faile media kuo 'ilo
+FilesAdded=Faile %d kuo fakaaofi ki he lisi
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Kamata ta kimu'a pea lekooti.
+RecordingStarted=Kuo kamata lekooti
+RecordingStopped=Kuo taofi lekooti
+
+; Additional status messages
+EndOfPlaylist=Ngata'anga 'o e lisi
+NoMediaLoaded='Ikai ha faile media kuo uta.
+JumpedToNamed=Kuo hopo ki: %s
+ChapterFormat=Vahe %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Fakamaaka 'i he %s
+
+[Label]
+Muted=Fakalongo
+
+[Button]
+Play=Ta
+Pause=Tuku
+Stop=Taofi
+Previous=Kimu'a
+Next=Hoko
+Mute=Fakalongo
+Unmute=Fakaava Le'o
+Fullscreen=Faka'aufuli
+OK=Sai
+Cancel=Kaniseli
+Apply=Ngaue'aki
+Close=Tapuni
+Yes='Io
+No='Ikai
+
+[Tooltip]
+Play=Ta/Tuku
+Stop=Taofi ta
+Previous=Hiva kimu'a
+Next=Hiva hoko
+Mute=Liliu fakalongo
+Volume=Le'o
+Seek=Feitu'u kumi
+Fullscreen=Liliu faka'aufuli
+
+[Playlist]
+Title=Lisi Ta
+Add=Fakaaofi
+Remove=Toho
+Clear=Fakamaa
+MoveUp=Hiki Hake
+MoveDown=Hiki Hifo
+Shuffle=Fefeka
+Repeat=Toe Fai
+Play=Ta
+ShuffleOn=Fefeka: Kuo Fakaava
+ShuffleOff=Fefeka: Kuo Tapuni
+RepeatOff=Toe Fai: Kuo Tapuni
+RepeatOne=Toe Fai: Taha
+RepeatAll=Toe Fai: Kotoa
+SavePlaylist=Hiki
+LoadPlaylist=Uta
+TotalDuration=Katoa: %s
+ItemCount=me'a %d
+
+; Phase 22: Playlist Enhancements
+Search=Kumi:
+FilterPlaceholder=Sivi lisi...
+ClearSearch=Fakamaa
+FilterCount=%d/%d
+RemoveDuplicates=Toho &Tatau
+Properties=Faka&matala...
+NoDuplicates='Ikai ha tatau kuo 'ilo.
+DuplicatesFound=Kuo 'ilo tatau %d. Toho?
+RemoveDuplicatesTitle=Toho Tatau
+PropertiesTitle=Fakamatala Lisi
+PropTotalItems=Me'a kotoa: %d
+PropTotalDuration=Taimi kotoa: %s
+PropPlayed=Kuo ta: %d
+PropUnplayed='Oku te'eki ta: %d
+PropTotalSize=Lahi kotoa: %.2f MB
+PropShuffle=Fefeka: %s
+PropRepeat=Toe Fai: %s
+On=Kuo Fakaava
+Off=Kuo Tapuni
+
+; New keys for ApplyLocale
+ClearTitle=Fakamaa Lisi
+ClearConfirm='Oku ke faka'amu ke fakamaa 'a e lisi?
+NoPlaylist='Ikai ha lisi
+StatusFormat=me'a %d | Katoa: %s
+RepeatOne=Toe 1
+RepeatAll=Toe Kotoa
+HintRepeatEnable=Lomi ke fakaava Toe Fai Kotoa
+HintRepeatOne=Toe Fai Taha - Lomi ke tamate'i
+HintRepeatAll=Toe Fai Kotoa - Lomi ki Toe Fai Taha
+HintShuffleRepeat=Fefeka + Toe Fai Kotoa - Lomi ke tamate'i toe fai
+RemoveDuplicatesTitle=Toho Tatau
+NoDuplicates='Ikai ha tatau kuo 'ilo.
+SelectAll=Fili Kotoa
+SelectNone=Fili 'Ikai ha taha
+SelectInvert=Liliu Fili
+Sort=Fokotu'u
+SortByName='i he Hingoa
+SortByTitle='i he Hingoa
+SortByArtist='i he Tokotaha Fa'u
+SortByDuration='i he Taimi
+SortReverse=Liliu
+SortRandom=Fefeka
+ColTitle=Hingoa
+ColDuration=Taimi
+ColArtist=Tokotaha Fa'u
+ColAlbum=Alipemi
+PlaylistFilter=Lisi M3U|*.m3u|Lisi M3U8|*.m3u8|Lisi PLS|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Fokotu'u:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Kuohili
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Le'o
+Reset=Toe Fokotu'u
+Enable=Fakaava Equalizer
+Save=Hiki
+Delete=Fakamaa
+Ready='Oku Teuteu
+; Buttons and actions
+SavePreset=Hiki Fokotu'u
+DeletePreset=Fakamaa Fokotu'u
+SavePresetTitle=Hiki Fokotu'u
+PresetNamePrompt=Hingoa fokotu'u:
+EnterPresetName=Kataki huhu'i hingoa fokotu'u.
+OverwritePresetTitle=Tohi Fakafo'ou Fokotu'u
+OverwritePresetConfirm='Oku 'osi 'i ai fokotu'u 'oku tatau hono hingoa. Tohi fakafo'ou?
+PresetUpdated=Kuo fakafo'ou fokotu'u: %s
+PresetSaved=Kuo hiki fokotu'u: %s
+SelectPresetToDelete=Kataki fili fokotu'u ke toho.
+CannotDeleteDefault='Oku 'ikai lava ke toho fokotu'u angamaheni.
+DeletePresetTitle=Fakamaa Fokotu'u
+DeletePresetConfirm='Oku ke faka'amu ke toho 'a e fokotu'u ni?
+PresetDeleted=Kuo toho fokotu'u
+ResetToFlat=Kuo toe fokotu'u equalizer ki flat
+PresetApplied=Kuo ngaue'aki fokotu'u: %s
+
+[Options]
+Title=Fili
+General=Kotoa
+Video=Vitio
+Audio=Le'o
+Subtitles=Tohinoa
+Cache=Cache
+Language=Lea:
+RestartRequired='Oku fiema'u toe kamata ke ma'u 'a e liliu
+
+; General tab - Behavior
+Behavior='Ulungaanga
+SingleInstance=Fakaava taha pe
+AutoPlay=Ta 'otometi 'oka fakaava
+AutoResume=Hokohoko feitu'u ta
+MinimizeToTray=Fakasi'isi'i ki he tray
+AutoSavePlaylist=Hiki lisi 'oka hu
+
+; General tab - OSD
+OSD=Fakaha 'i he Pepa
+ShowOSD=Fakaha popoaki 'i he pepa
+ShowTrayIcon=Fakaha fakatata tray
+OSDDuration=Taimi OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Fakatata
+ScreenshotPath=Foleta hiki:
+ScreenshotFormat='Eniti:
+
+; General tab - History
+HistorySettings=Hisitolia
+HistoryEnabled=Fakaava hisitolia ta
+HistoryMaxItems=Lahi taha:
+
+; General tab - Language
+LanguageGroup=Lea
+RestartNote=('Oku fiema'u toe kamata ki he liliu)
+
+; Video tab
+VideoAdjust=Fakatonuhia Vitio
+Brightness=Maama:
+Contrast=Kehekehe:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Hulu Vitio
+Output=Hulu:
+HWAccel=Fakaava fakavavevave hardware
+Deinterlacing=Deinterlacing
+Mode=Founga:
+
+; Audio tab
+AudioOutput=Hulu Le'o
+OutputDriver=Fakalave hulu:
+Device=Me'angaue:
+AudioOptions=Fili Le'o
+NormalizeAudio=Fakatatau le'o
+Channels=Ngaahi hala:
+
+; Subtitles tab
+UseDefaultSubtitles=Ngaue'aki fokotu'u tohinoa angamaheni
+Font=Foniti
+FontName=Foniti:
+FontSize=Lahi:
+FontColor=Lanu:
+Bold=Bold
+Italic=Italic
+Outline=Kapa
+OutlineColor=Lanu:
+OutlineSize=Lahi:
+Position=Tu'unga
+VerticalPosition=Tu'unga fakatuu:
+SubOptions=Fili
+Encoding=Encoding:
+AutoLoadSubs=Uta 'otometi faile tohinoa
+
+; Video output warnings
+VOWarningX11=Fakatokanga: x11 'oku 'ikai poupou'i fakatonuhia vitio (maama, kehekehe, moe hano)
+VOWarningWayland=Fakatokanga: 'Oku fiema'u session Wayland. 'Oku poupou'i fakatonuhia vitio.
+
+; Cache tab
+CacheSettings=Lahi Buffer Cache (KB)
+CacheDefault=Cache angamaheni:
+CacheLocal=Faile lokolo:
+CacheNetwork=Faile network:
+CacheInternet=Tafe 'Initaneti:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Fekau'aki
+Version=Veesoni
+Engine=Misini
+Technology=Tekinolosi
+BuildInfo=Fakamatala Langa
+SystemInfo=Sisitemi
+Credits=Fakamalo
+Developer=Tokotaha Fa'u:
+Author=Tokotaha Tohi
+License=Laiseni
+Website=Uepisaiti
+GitHub=GitHub
+Description=Tokotaha ta media ma'ama'a, fo'ou
+LicenseText=3nity Media 'oku 'i ai hono laiseni GPL-2.0\n\nKo hono 'uhinga 'oku ke tau'ataina ke:\n  - Ngaue'aki 'a e software ki ha taumu'a pe\n  - Ako mo liliu 'a e kouti tefito\n  - Vahevahe hiki 'o e software\n  - Vahevahe ho'o ngaahi liliu\n\n'I he tu'utu'uni ko e ngaahi liliu vahevahe\n'oku 'i ai foki laiseni GPL-2.0.
+BuildDate='Aho:
+Target=Taumu'a:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Hala Nounou
+Description=Fokotu'u hala nounou ki he ngaahi ngaue
+Search=Kumi:
+PressKey=Lomi ha ki...
+ColCategory=Fa'ahinga
+ColAction=Ngaue
+ColShortcut=Hala Nounou
+Assign=Fokotu'u
+Clear=Fakamaa
+Reset=Toe Fokotu'u
+ResetAll=Toe Fokotu'u Kotoa
+CurrentShortcut=Taimi ni: %s
+NoKeyPressed=Kataki lomi mu'a ha ki.
+Conflict=Fepaki: Kuo 'osi fokotu'u ki "%s"
+ConfirmReplace=Fetongi Hala Nounou
+ReplaceMessage=Kuo 'osi fokotu'u 'a e hala nounou ni ki "%s". 'Oku ke faka'amu ke fetongi?
+ConfirmResetAll=Toe Fokotu'u Hala Nounou Kotoa
+ResetAllMessage='Oku ke faka'amu ke toe fokotu'u hala nounou kotoa ki he angamaheni?
+; Action names
+ActPlayPause=Ta / Tuku
+ActStop=Taofi
+ActPrevious=Kimu'a
+ActNext=Hoko
+ActSeekForward=Kumi ki Mu'a (10s)
+ActSeekBackward=Kumi ki Tua (10s)
+ActSeekForward5=Kumi ki Mu'a (1 min)
+ActSeekBackward5=Kumi ki Tua (1 min)
+ActSpeedUp=Fakalahi Vave
+ActSpeedDown=Fakasi'i Vave
+ActSpeedReset=Toe Fokotu'u Vave
+ActSetLoopA=Fokotu'u Lu A
+ActSetLoopB=Fokotu'u Lu B
+ActClearLoop=Fakamaa Lu A-B
+ActFrameForward=Felemi ki Mu'a
+ActFrameBackward=Felemi ki Tua
+ActPrevChapter=Vahe Kimu'a
+ActNextChapter=Vahe Hoko
+ActGotoTime=Alu ki he Taimi
+ActVolumeUp=Le'o Hake
+ActVolumeDown=Le'o Hifo
+ActMute=Fakalongo / Fakaava
+ActAudioDelayPlus=Tuai Le'o +
+ActAudioDelayMinus=Tuai Le'o -
+ActAudioDelayReset=Toe Fokotu'u Tuai Le'o
+ActFullscreen=Faka'aufuli
+ActRotate=Taka Vitio
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom ki Loto
+ActZoomOut=Zoom ki Tu'a
+ActZoomReset=Toe Fokotu'u Zoom
+ActAlwaysOnTop=Ma'u pe 'i 'Olunga
+ActFitToVideo=Fakatatau ki Vitio
+ActScreenshot=Fakatata
+ActVideoAdjust=Fakatonuhia Vitio
+ActVisNextMode=Founga Fakahaa Hoko
+ActVisNextColor=Lanu Hoko
+ActSubDelayPlus=Tuai Tohinoa +
+ActSubDelayMinus=Tuai Tohinoa -
+ActSubDelayReset=Toe Fokotu'u Tuai Tohinoa
+ActDVDMenu=Menu DVD
+ActDVDUp=DVD Hake
+ActDVDDown=DVD Hifo
+ActDVDLeft=DVD Tohema
+ActDVDRight=DVD Tomata'u
+ActDVDSelect=DVD Fili
+ActOpenFile=Fakaava Faile
+ActOpenURL=Fakaava URL
+ActPlaylist=Fakaha Lisi
+ActQuit=Hu
+
+[Log]
+; Phase 25: Log Window
+Title=Log MPV
+Command=Fekau:
+Clear=Fakamaa
+Save=Hiki...
+Copy=&Hiki
+SelectAll=Fili &Kotoa
+SaveTitle=Hiki Log
+SaveFilter=Faile tohi (*.txt)|*.txt|Faile kotoa (*.*)|*.*
+ErrorTitle=Hala
+SaveError=Kuo 'ikai lava hiki log: %s
+
+[MediaInfo]
+Title=Fakamatala Media
+FileTab=Faile
+VideoTab=Vitio
+AudioTab=Le'o
+MetadataTab=Metadata
+FileName=Hingoa Faile:
+FilePath=Hala:
+FileSize=Lahi:
+Duration=Taimi:
+Format='Eniti:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Vave Felemi:
+PixelFormat='Eniti Pixel:
+AspectRatio=Fua Tatau:
+Channels=Ngaahi hala:
+SampleRate=Vave Sample:
+Language=Lea:
+Property=Me'a
+Value=Mahu
+CopyAll=Hiki Kotoa
+CopiedToClipboard=Kuo hiki fakamatala media ki clipboard.
+NA='Ikai
+NAStream='Ikai (tafe)
+NALive='Ikai (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown='Ikai 'ilo
+NoMetadata=('Ikai ha metadata)
+
+[Bookmarks]
+Title=Fakamaaka
+Goto=Alu ki
+Remove=Toho
+Clear=Fakamaa Kotoa
+Refresh=Fakafo'ou
+OpenFolder=Fakaava Foleta
+CopyPath=Hiki Hala
+; Columns
+ColName=Hingoa
+ColFile=Faile
+ColPosition=Tu'unga
+ColCreated=Fa'u
+; Dialogs
+ClearTitle=Fakamaa Fakamaaka
+ClearConfirm='Oku ke faka'amu ke fakamaa fakamaaka kotoa?
+Count=fakamaaka %d
+
+[Favorites]
+Title=Manako
+Play=Ta
+Remove=Toho
+Clear=Fakamaa Kotoa
+Refresh=Fakafo'ou
+OpenFolder=Fakaava Foleta
+CopyPath=Hiki Hala
+; Columns
+ColName=Hingoa
+ColType=Fa'ahinga
+ColPath=Hala
+; Types
+TypeFile=Faile
+TypeURL=URL
+TypeRadio=Letio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown='Ikai 'ilo
+; Dialogs
+ClearTitle=Fakamaa Manako
+ClearConfirm='Oku ke faka'amu ke fakamaa manako kotoa?
+Count=manako %d
+
+[History]
+Title=Hisitolia Ta
+Play=Ta
+Remove=Toho
+Clear=Fakamaa Kotoa
+Refresh=Fakafo'ou
+OpenFolder=Fakaava Foleta
+CopyPath=Hiki Hala
+; Columns
+ColFileName=Faile
+ColPath=Hala
+; Dialogs
+ClearTitle=Fakamaa Hisitolia
+ClearConfirm='Oku ke faka'amu ke fakamaa hisitolia kotoa?
+Count=me'a %d
+
+[SleepTimer]
+Title=Taimi Mohe
+Description=Fokotu'u taimi ke taofi 'otometi ta
+Hours=Houa:
+Minutes=Miniti:
+Action='Oka 'osi taimi:
+StopPlayback=Taofi ta
+CloseApp=Tapuni polokalama
+Shutdown=Tamate'i komipiuta
+QuickSet=Fokotu'u vave:
+15Min=15 min
+30Min=30 min
+1Hour=1 houa
+2Hours=2 houa
+
+[Radios]
+Title=Letio 'Initaneti
+Play=Ta
+Add=Fakaaofi
+Edit=Liliu
+Delete=Fakamaa
+Remove=Toho
+Import=Uta mai
+Export=Uta atu
+Refresh=Fakafo'ou
+Favorite=Manako
+ShowFavorites=Manako
+ShowAll=Kotoa
+; Filter
+Genre=Fa'ahinga:
+Search=Kumi:
+SearchBtn=Kumi
+ClearSearch=Fakamaa
+AllGenres=(Fa'ahinga Kotoa)
+; Context menu
+AddFavorite=Fakaaofi ki Manako
+RemoveFavorite=Toho mei he Manako
+AddCustom=Fakaaofi Sitesoni...
+EditCustom=Liliu Sitesoni...
+DeleteCustom=Fakamaa Sitesoni
+OpenWebsite=Fakaava Uepisaiti
+CopyURL=Hiki URL
+; Columns
+ColName=Hingoa
+ColGenre=Fa'ahinga
+ColBitrate=Bitrate
+ColCountry=Fonua
+ColCodec=Codec
+; Dialogs
+AddTitle=Fakaaofi Sitesoni
+EditTitle=Liliu Sitesoni
+DeleteTitle=Fakamaa Sitesoni
+DeleteConfirm='Oku ke faka'amu ke toho 'a e sitesoni ni?
+StationName=Hingoa Sitesoni:
+StreamURL=URL Tafe:
+GenrePrompt=Fa'ahinga:
+NameURLRequired='Oku fiema'u hingoa mo URL.
+; Status messages
+LoadingIcecast='Oku uta sitesoni mei he Icecast...
+IcecastError='Oku 'ikai lava uta Icecast. Ngaue'aki sitesoni angamaheni.
+NoStationsLoaded='Ikai ha sitesoni kuo uta
+StationCount=sitesoni %d
+LoadedStations=Kuo uta sitesoni %d
+ErrorPrefix=Hala:
+; Legacy keys
+Name=Hingoa
+URL=URL
+Bitrate=Bitrate
+Description=Fakamatala
+Country=Fonua
+
+[OpenURL]
+Title=Fakaava URL
+Prompt=Huhu'i URL media:
+
+[GotoTime]
+Title=Alu ki he Taimi
+EnterTime=Huhu'i taimi ke hopo ki ai:
+Hours=H
+Minutes=M
+Seconds=S
+Current=Taimi ni:
+Duration=Taimi:
+
+[VideoAdjust]
+Title=Fakatonuhia Vitio
+Brightness=Maama:
+Contrast=Kehekehe:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Toe Fokotu'u Lanu Kotoa
+
+[CLI]
+; Ngaahi fekau 'o e laine 'oku fekau
+Usage=Ngāue'aki
+Arguments=[NGAAHI FILI] [FAILE|URL|FOLITA]
+Description=Ko ha va'inga fakamitiā 'oku ngāue 'i he ngaahi polokalama kehekehe 'oku ngāue'aki 'a e libmpv.
+Options=NGAAHI FILI
+Examples=NGAAHI FAKATĀTĀ
+MoreInfo=Ki ha fakamatala lahi ange, 'a'ahi ki he
+EnqueuedTo=Kuo tānaki ki he laine 'o e fakatātā 'oku 'i ai: %s
+SentTo=Kuo 'ave ki he fakatātā 'oku 'i ai: %s
+AlreadyRunning='Oku lele 'a e 3nity Media.
+ErrorFileNotFound=Hala: Na'e 'ikai ma'u 'a e faile pe folita: %s
+ErrorSubNotFound=Hala: Na'e 'ikai ma'u 'a e faile subtitles: %s

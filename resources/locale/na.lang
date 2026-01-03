@@ -1,0 +1,892 @@
+[Language]
+Name=Nauruan - Dorerin Naoero
+Code=na
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Eimwi
+FileOpen=&Anga Eimwi...
+FileOpenURL=Anga &URL...
+FileOpenClipboard=Anga pan &Clipboard
+FileRecent=Eimwi &Ibibida
+ClearRecentFiles=Oreit Eimwi Ibibida
+FileExit=&Eidu
+
+; Playback menu
+Playback=&Amen
+PlaybackPlayPause=&Amen/Ekada
+PlaybackStop=&Ekadok
+PlaybackPrevious=&Animweon
+PlaybackNext=&Animwemak
+PlaybackSeekForward=Eaen &Animwemak
+PlaybackSeekBackward=Eaen &Animweon
+PlaybackSpeed=&Ituga
+PlaybackABLoop=A-&B Abiñ
+PlaybackSetA=Obodan &A
+PlaybackSetB=Obodan &B
+PlaybackClearAB=&Oreit A-B
+PlaybackChapters=&Ekewor ko
+PlaybackPrevChapter=Ekewor Animweon
+PlaybackNextChapter=Ekewor Animwemak
+PlaybackFrameStep=Frame &Animwemak
+PlaybackFrameBack=Frame &Animweon
+
+; DVD Navigation
+PlaybackDVD=DVD &Anit
+DVDMenu=&Menu
+DVDUp=&Iju
+DVDDown=&Ado
+DVDLeft=&Eiy
+DVDRight=&Eor
+DVDSelect=&Otubuge
+PlaybackDVDTitles=DVD &Ita ko
+
+; Phase 21: Open Folder
+FileOpenFolder=Anga &Folder...
+
+; File menu DVD/Bluray
+FileOpenDVD=Anga &DVD...
+FileOpenBluray=Anga &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Omo ñan Awa...
+ToolsHistory=&Ibibok ko Ibibida
+
+; Phase 14: System Tray
+TrayShow=&Ata/Ememak
+TrayPlayPause=&Amen/Ekada
+TrayStop=&Ekadok
+TrayPrevious=&Animweon
+TrayNext=&Animwemak
+TrayMute=&Ememak eñ
+TrayExit=&Eidu
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Ibiboki &Bookmark...
+PlaybackBookmarks=&Bookmark ko
+BookmarksTitle=Bookmark ko
+BookmarksGoto=&Omo ñan Bookmark
+BookmarksRemove=&Kamwemwer Bookmark
+BookmarksClear=&Oreit Aö Bookmark
+BookmarksOpenFolder=Anga &Folder
+BookmarksCopyPath=&Kakopi Eñan
+BookmarksCount=%d bookmark ko
+NoBookmarks=(Eaow bookmark)
+NoFileLoaded=(Eaow eimwi eibibok)
+BookmarkAdded=Bookmark ibibokida ngaö %s
+BookmarkJumped=Omoda ñan bookmark ngaö %s
+AddBookmarkTitle=Ibiboki Bookmark
+AddBookmarkPrompt=Tomon ita bookmark:
+ShowAllBookmarks=Ata Aö Bookmark...
+
+; Phase 16: Favorites
+ToolsFavorites=&Anidogorin ko
+ToolsAddFavorite=Ibiboki ñan &Anidogorin
+FavoritesTitle=Anidogorin ko
+FavoritesPlay=&Amen
+FavoritesRemove=&Kamwemwer pan Anidogorin
+FavoritesClear=&Oreit Aö Anidogorin
+FavoritesOpenFolder=Anga &Folder
+FavoritesCopyPath=&Kakopi Eñan
+FavoritesCount=%d anidogorin ko
+NoFavorites=(Eaow anidogorin)
+AddFavoriteTitle=Ibiboki ñan Anidogorin
+AddFavoritePrompt=Tomon ita anidogorin:
+AlreadyFavorite=Ngada ibibokida ñan anidogorin
+AddedToFavorites=Ibibokida ñan anidogorin: %s
+NoFileToFavorite=Eaow eimwi ñan ibiboki ñan anidogorin
+FavoriteTypeFile=Eimwi
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Track %d: %s
+TrackWithLang=Track %d (%s)
+TrackNumber=Track %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Ekadok
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=&Omo in Maet...
+ToolsSleepTimerActive=&Omo in Maet [%s]
+ToolsCancelTimer=Oreit &Omo
+
+; Audio menu
+Audio=&Eñ
+AudioTrack=Eñ &Track
+AudioVolumeUp=Eñ &Iju
+AudioVolumeDown=Eñ &Ado
+AudioMute=&Ememak
+AudioEqualizer=&Equalizer
+AudioDelay=Eñ &Anemeage
+AudioDelayPlus=Anemeage +0.1s
+AudioDelayMinus=Anemeage -0.1s
+AudioDelayReset=Ibibok Anemeage
+AudioNormalize=&Normalize Eñ
+
+; Video menu
+Video=&Video
+VideoFullscreen=&Aö Orubwa
+VideoAspect=&Aspect Ratio
+VideoAspectAuto=&Auto
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Ebubua
+VideoScreenshotAs=Ebubua &Ebwak...
+VideoRotation=&Rotation
+VideoRotate0=&0° (Eaow)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Flip
+VideoFlipH=Flip &Horizontal
+VideoFlipV=Flip &Vertical
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Ilam
+VideoZoomOut=Zoom &Iturin
+VideoZoomReset=&Ibibok Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan &Eiy
+VideoPanRight=Pan &Eor
+VideoPanUp=Pan &Iju
+VideoPanDown=Pan &Ado
+VideoPanReset=&Ibibok Pan
+VideoTrack=Video &Track
+VideoColors=&Ekamarar ko
+VideoBrightness=&Emiraman
+VideoContrast=&Contrast
+VideoSaturation=&Saturation
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Ibibok &Aö Ekamarar
+VideoIncrease=Ibibok iju (+5)
+VideoDecrease=Ibibok ado (-5)
+VideoReset=Ibibok
+VideoAdjustDialog=Video &Anememagen...
+
+; View menu
+View=&Ata
+ViewAlwaysOnTop=&Innem ngaö Iju
+ViewFitToVideo=&Ibiboki Orubwa ñan Video
+ViewScale=Orubwa &Oredañ
+
+; Phase 26: Visualization menu
+ViewVisualization=&Ata Anin
+VisNone=&Eaow
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=&VU Meter
+VisNextMode=Mode &Animwemak
+VisNextColor=Ekamarar Scheme &Animwemak
+
+; Subtitles menu
+Subtitles=&Subtitle ko
+SubtitleTrack=Subtitle &Track
+SubtitleLoad=&Anga Subtitle...
+SubtitleDelay=Subtitle &Anemeage
+SubtitleDelayPlus=Anemeage +0.1s
+SubtitleDelayMinus=Anemeage -0.1s
+SubtitleDelayReset=Ibibok Anemeage
+
+; Tools menu
+Tools=&Anin ko
+ToolsPlaylist=&Playlist
+ToolsRadios=&Radio ko
+ToolsShortcuts=&Keyboard Shortcuts...
+ToolsOptions=&Options
+
+; Phase 27: Recording menu
+ToolsRecord=&Record Stream...
+ToolsStopRecord=&Ekadok Recording
+ToolsRecording=&Recording...
+
+; Help menu
+Help=&Ibuw
+HelpMediaInfo=&Media Ibibok
+HelpLog=&Log Orubwa
+HelpAbout=&Ibibok ngari
+
+[Dialog]
+OpenFile=Anga Eimwi
+OpenURL=Anga URL
+SaveScreenshot=Obodan Ebubua
+LoadSubtitle=Anga Subtitle Eimwi
+EnterURL=Tomon URL:
+ResumePlayback=Omo Amen
+ResumeFrom=Omo pan %s?
+ClearRecentFiles=Oreit Eimwi Ibibida
+NoRecentFiles=(Eaow eimwi ibibida)
+NoAudioTracks=(Eaow eñ track ko)
+NoVideoTracks=(Eaow video track ko)
+NoSubtitleTracks=(Eaow subtitle track ko)
+NoChapters=(Eaow ekewor ko)
+OpenDVD=Anga DVD
+OpenBluray=Anga Blu-ray
+OpenFolder=Anga Folder
+
+; File filters
+ScreenshotFilter=PNG Ebubua|*.png|JPEG Ebubua|*.jpg|WebP Ebubua|*.webp
+DVDFilter=DVD Folder|*.;*.iso|Aö eimwi (*.*)|*.*
+BlurayFilter=Blu-ray Folder|*.;*.iso|Aö eimwi (*.*)|*.*
+NoDVD=(Eaow DVD eibibok)
+DVDTitle=Ita %d
+GotoTime=Omo ñan Awa
+EnterTime=Tomon awa ñan omo:
+Hours=Awa
+Minutes=Minit
+Seconds=Jeken
+Current=Ngada:
+HistoryTitle=Ibibok ko Ibibida
+HistoryItems=%d anin ko ilo ibibok
+HistoryPlay=&Amen
+HistoryRemove=&Kamwemwer pan Ibibok
+HistoryClear=&Oreit Aö Ibibok
+HistoryOpenFolder=Anga &Folder
+HistoryCopyPath=&Kakopi Eñan
+ClearHistory=Oreit Ibibok ko
+ClearHistoryConfirm=Ko ngada oreit aö ibibok ko?
+SleepTimerTitle=Omo in Maet
+SleepTimerDescription=Obodan omo ñan ekadok amen
+SleepTimerHours=Awa
+SleepTimerMinutes=Minit
+SleepTimerQuickSet=Obodan Ituga
+SleepTimerAction=Ñe omo emwamwa
+SleepTimerStopPlayback=Ekadok amen
+SleepTimerCloseApp=Atsinok app
+SleepTimerShutdown=Ekadok computer
+SleepTimerStart=Ibiboke Omo
+
+[Status]
+Ready=Ngada Emwamwa
+Opening=Ngada anganga...
+Playing=Ngada amen
+Paused=Ekada
+Stopped=Ekadok
+Error=Togorogo
+Buffering=Ngada buffering...
+Seeking=Ngada eaen...
+Recording=Ngada recording
+
+[Message]
+SpeedFormat=Ituga: %.2fx
+VolumeFormat=Eñ: %d%%
+BrightnessFormat=Emiraman: %d
+ContrastFormat=Contrast: %d
+SaturationFormat=Saturation: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Video ekamarar ibibokida
+LoopASet=Abiñ A obodanda ngaö %s
+LoopBSet=Abiñ B obodanda ngaö %s - Abiñ ngada anin
+LoopCleared=A-B Abiñ oreitda
+SetAFirst=Obodan ijo A omago (tobuge L)
+RotationFormat=Rotation: %d°
+FlipHOn=Horizontal flip: ON
+FlipHOff=Horizontal flip: OFF
+FlipVOn=Vertical flip: ON
+FlipVOff=Vertical flip: OFF
+DeinterlaceOn=Deinterlace: ON
+DeinterlaceOff=Deinterlace: OFF
+AlwaysOnTopOn=Innem ngaö iju: ON
+AlwaysOnTopOff=Innem ngaö iju: OFF
+WindowFitted=Orubwa ibibokida ñan %dx%d
+WindowScale=Orubwa oredañ: %.0f%%
+ScreenshotSaved=Ebubua obodanda: %s
+AudioNormalizeOn=Eñ normalize: ON
+AudioNormalizeOff=Eñ normalize: OFF
+AudioDelayFormat=Eñ anemeage: %.1f s
+SubtitleDelayFormat=Subtitle anemeage: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Oröuragen
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Eaow video eibibok
+PlayingFromClipboard=Ngada amen pan clipboard: %s
+ClipboardInvalid=Clipboard eaow URL bwe eñan emwamwa
+ClipboardEmpty=Clipboard eaow bwe eaow text
+ResumedAt=Omoda ngaö %s
+FrameStepForward=Frame step animwemak
+FrameStepBackward=Frame step animweon
+PreviousChapter=Ekewor animweon
+NextChapter=Ekewor animwemak
+PlayingRadio=Ngada amen radio: %s
+PlayingDVD=Ngada amen DVD: %s
+PlayingBluray=Ngada amen Blu-ray: %s
+DVDTitlePlaying=DVD Ita %d
+SeekTo=Ngada eaen ñan %s
+MinimizedToTray=Ibibokida ñan tray. Tobuge ruo ñan omo.
+SleepTimerSet=Omo in maet obodanda: %s
+SleepTimerCancelled=Omo in maet oreitda
+SleepTimerWarning=Omo in maet: 1 minit eñea
+SleepTimerFinal=Omo in maet: 10 jeken eñea
+SleepTimerStopped=Omo in maet: Amen ekadokda
+SleepTimerClosing=Omo in maet: Ngada atsinok app
+SleepTimerShutdown=Omo in maet: Ngada ekadok computer
+SleepTimerExpired=Omo in Maet Emwamwada
+ShutdownManual=Tomogea ekadok om computer.
+
+; Phase 21: Open Folder
+FolderOpened=Angada folder: %d eimwi
+NoMediaFound=Eaow media eimwi eloe
+FilesAdded=Ibibokida %d eimwi ñan playlist
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Ibiboke amen omago pan recording.
+RecordingStarted=Recording ibibokida
+RecordingStopped=Recording ekadokda
+
+; Additional status messages
+EndOfPlaylist=Mwemwerin playlist
+NoMediaLoaded=Eaow media eimwi eibibok ngada.
+JumpedToNamed=Omoda ñan: %s
+ChapterFormat=Ekewor %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Bookmark ngaö %s
+
+[Label]
+Muted=Ememak
+
+[Button]
+Play=Amen
+Pause=Ekada
+Stop=Ekadok
+Previous=Animweon
+Next=Animwemak
+Mute=Ememak
+Unmute=Ata eñ
+Fullscreen=Aö Orubwa
+OK=OK
+Cancel=Oreit
+Apply=Ibiboki
+Close=Atsinok
+Yes=Io
+No=Aeok
+
+[Tooltip]
+Play=Amen/Ekada
+Stop=Ekadok amen
+Previous=Track animweon
+Next=Track animwemak
+Mute=Ememak/Ata eñ
+Volume=Eñ
+Seek=Eaen ijo
+Fullscreen=Aö orubwa
+
+[Playlist]
+Title=Playlist
+Add=Ibiboki
+Remove=Kamwemwer
+Clear=Oreit
+MoveUp=Anememagen Iju
+MoveDown=Anememagen Ado
+Shuffle=Anemebuñ
+Repeat=Omo
+Play=Amen
+ShuffleOn=Anemebuñ: On
+ShuffleOff=Anemebuñ: Off
+RepeatOff=Omo: Off
+RepeatOne=Omo: Ao
+RepeatAll=Omo: Aö
+SavePlaylist=Obodan
+LoadPlaylist=Anga
+TotalDuration=Aö: %s
+ItemCount=%d anin ko
+
+; Phase 22: Playlist Enhancements
+Search=Eaen:
+FilterPlaceholder=Filter playlist...
+ClearSearch=Oreit
+FilterCount=%d/%d
+RemoveDuplicates=Kamwemwer &Ruo ko
+Properties=&Oredañ...
+NoDuplicates=Eaow ruo ko eloe.
+DuplicatesFound=Eloe %d ruo ko. Kamwemwer?
+RemoveDuplicatesTitle=Kamwemwer Ruo ko
+PropertiesTitle=Oredañ in Playlist
+PropTotalItems=Aö anin: %d
+PropTotalDuration=Aö awa: %s
+PropPlayed=Amenda: %d
+PropUnplayed=Eaow amen: %d
+PropTotalSize=Aö oredañ: %.2f MB
+PropShuffle=Anemebuñ: %s
+PropRepeat=Omo: %s
+On=On
+Off=Off
+
+; New keys for ApplyLocale
+ClearTitle=Oreit Playlist
+ClearConfirm=Ko ngada oreit playlist?
+NoPlaylist=Eaow playlist
+StatusFormat=%d anin | Aö: %s
+RepeatOne=Omo 1
+RepeatAll=Omo Aö
+HintRepeatEnable=Tobuge ñan ibiboke Omo Aö
+HintRepeatOne=Omo Ao - Tobuge ñan ekadok
+HintRepeatAll=Omo Aö - Tobuge ñan Omo Ao
+HintShuffleRepeat=Anemebuñ + Omo Aö - Tobuge ñan ekadok omo
+RemoveDuplicatesTitle=Kamwemwer Ruo ko
+NoDuplicates=Eaow ruo ko eloe.
+SelectAll=Otubuge Aö
+SelectNone=Otubuge Eaow
+SelectInvert=Anin Otubuge
+Sort=Anemenae
+SortByName=Ngaki Ita
+SortByTitle=Ngaki Ita
+SortByArtist=Ngaki Ri-amen
+SortByDuration=Ngaki Awa
+SortReverse=Anemenae Omo
+SortRandom=Anemebuñ
+ColTitle=Ita
+ColDuration=Awa
+ColArtist=Ri-amen
+ColAlbum=Album
+PlaylistFilter=M3U Playlist|*.m3u|M3U8 Playlist|*.m3u8|PLS Playlist|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Preset ko:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Classical
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Vocal
+Reset=Ibibok
+Enable=Ibiboke Equalizer
+Save=Obodan
+Delete=Kamwemwer
+Ready=Ngada Emwamwa
+; Buttons and actions
+SavePreset=Obodan Preset
+DeletePreset=Kamwemwer Preset
+SavePresetTitle=Obodan Preset
+PresetNamePrompt=Ita preset:
+EnterPresetName=Tomogea tomon ita preset.
+OverwritePresetTitle=Obodan Orakin Preset
+OverwritePresetConfirm=Preset kain ita ngada eibibok. Obodan orakin?
+PresetUpdated=Preset obodanda orakin: %s
+PresetSaved=Preset obodanda: %s
+SelectPresetToDelete=Tomogea otubuge preset ñan kamwemwer.
+CannotDeleteDefault=Eaow anememagen kamwemwer default preset ko.
+DeletePresetTitle=Kamwemwer Preset
+DeletePresetConfirm=Ko ngada kamwemwer preset in?
+PresetDeleted=Preset kamwemwerda
+ResetToFlat=Equalizer ibibokida ñan flat
+PresetApplied=Preset ibibokida: %s
+
+[Options]
+Title=Options
+General=Aö
+Video=Video
+Audio=Eñ
+Subtitles=Subtitle ko
+Cache=Cache
+Language=Dorerin:
+RestartRequired=Ibibok orik aikuj ñan kepaak
+
+; General tab - Behavior
+Behavior=Anememagen
+SingleInstance=Kelet ao wöt instance
+AutoPlay=Auto-amen eimwi ko ñe eibibok
+AutoResume=Omo ijo in amen
+MinimizeToTray=Ibiboki ado ñan tray
+AutoSavePlaylist=Obodan playlist ñe eidu
+
+; General tab - OSD
+OSD=On-Screen Display
+ShowOSD=Ata on-screen omagen ko
+ShowTrayIcon=Ata tray icon
+OSDDuration=OSD awa (ms):
+
+; General tab - Screenshots
+Screenshots=Ebubua ko
+ScreenshotPath=Obodan folder:
+ScreenshotFormat=Format:
+
+; General tab - History
+HistorySettings=Ibibok ko
+HistoryEnabled=Ibiboke ibibok in amen
+HistoryMaxItems=Aölöñ anin:
+
+; General tab - Language
+LanguageGroup=Dorerin
+RestartNote=(Ibibok orik aikuj ñan kepaak)
+
+; Video tab
+VideoAdjust=Video Anememagen
+Brightness=Emiraman:
+Contrast=Contrast:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Video Output
+Output=Output:
+HWAccel=Ibiboke hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Mode:
+
+; Audio tab
+AudioOutput=Eñ Output
+OutputDriver=Output driver:
+Device=Device:
+AudioOptions=Eñ Options
+NormalizeAudio=Normalize eñ
+Channels=Channel ko:
+
+; Subtitles tab
+UseDefaultSubtitles=Anememagen default subtitle anememagen
+Font=Font
+FontName=Font:
+FontSize=Oredañ:
+FontColor=Ekamarar:
+Bold=Bold
+Italic=Italic
+Outline=Outline
+OutlineColor=Ekamarar:
+OutlineSize=Oredañ:
+Position=Ijo
+VerticalPosition=Vertical ijo:
+SubOptions=Options
+Encoding=Encoding:
+AutoLoadSubs=Auto anga subtitle eimwi ko
+
+; Video output warnings
+VOWarningX11=Ibuw: x11 eaow anememagen video anememagen (emiraman, contrast, etc.)
+VOWarningWayland=Ibuw: Aikuj Wayland session. Video anememagen emwamwa.
+
+; Cache tab
+CacheSettings=Cache Buffer Oredañ (KB)
+CacheDefault=Default cache:
+CacheLocal=Local eimwi:
+CacheNetwork=Network eimwi:
+CacheInternet=Internet stream ko:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Ibibok ngari
+Version=Version
+Engine=Engine
+Technology=Technology
+BuildInfo=Build Ibibok
+SystemInfo=System
+Credits=Credits
+Developer=Ri-anin:
+Author=Ri-ibibok
+License=License
+Website=Website
+GitHub=GitHub
+Description=Ao media player eo ngada emwamwa
+LicenseText=3nity Media elicense iuṃwin GPL-2.0\n\nIn mean ko anememagen:\n  * Anememagen software eo ñan jabdewöt anememagen\n  * Katak im anememagen source code eo\n  * Anemebuñ copy ko an software eo\n  * Anemebuñ om anememagen ko\n\nIuṃwin condition eo ke jabdewöt anememagen ko anemebuñ\nalike elicense iuṃwin GPL-2.0.
+BuildDate=Aran:
+Target=Target:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Keyboard Shortcuts
+Description=Anememagen keyboard shortcuts ñan anin ko
+Search=Eaen:
+PressKey=Tobuge ao ki...
+ColCategory=Category
+ColAction=Anin
+ColShortcut=Shortcut
+Assign=Obodan
+Clear=Oreit
+Reset=Ibibok
+ResetAll=Ibibok Aö
+CurrentShortcut=Ngada: %s
+NoKeyPressed=Tomogea tobuge ki ko omago.
+Conflict=Ekōṇaan: Ngada obodanda ñan "%s"
+ConfirmReplace=Obodan Orakin Shortcut
+ReplaceMessage=Shortcut in ngada obodanda ñan "%s". Ko ngada obodan orakin?
+ConfirmResetAll=Ibibok Aö Shortcuts
+ResetAllMessage=Ko ngada ibibok aö shortcuts ñan defaults?
+; Action names
+ActPlayPause=Amen / Ekada
+ActStop=Ekadok
+ActPrevious=Animweon
+ActNext=Animwemak
+ActSeekForward=Eaen Animwemak (10s)
+ActSeekBackward=Eaen Animweon (10s)
+ActSeekForward5=Eaen Animwemak (1 min)
+ActSeekBackward5=Eaen Animweon (1 min)
+ActSpeedUp=Ituga Iju
+ActSpeedDown=Ituga Ado
+ActSpeedReset=Ibibok Ituga
+ActSetLoopA=Obodan Abiñ Ijo A
+ActSetLoopB=Obodan Abiñ Ijo B
+ActClearLoop=Oreit A-B Abiñ
+ActFrameForward=Frame Animwemak
+ActFrameBackward=Frame Animweon
+ActPrevChapter=Ekewor Animweon
+ActNextChapter=Ekewor Animwemak
+ActGotoTime=Omo ñan Awa
+ActVolumeUp=Eñ Iju
+ActVolumeDown=Eñ Ado
+ActMute=Ememak / Ata eñ
+ActAudioDelayPlus=Eñ Anemeage +
+ActAudioDelayMinus=Eñ Anemeage -
+ActAudioDelayReset=Ibibok Eñ Anemeage
+ActFullscreen=Aö Orubwa
+ActRotate=Rotate Video
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom Ilam
+ActZoomOut=Zoom Iturin
+ActZoomReset=Ibibok Zoom
+ActAlwaysOnTop=Innem ngaö Iju
+ActFitToVideo=Ibiboki ñan Video
+ActScreenshot=Ebubua
+ActVideoAdjust=Video Anememagen
+ActVisNextMode=Ata Anin Mode Animwemak
+ActVisNextColor=Ekamarar Scheme Animwemak
+ActSubDelayPlus=Subtitle Anemeage +
+ActSubDelayMinus=Subtitle Anemeage -
+ActSubDelayReset=Ibibok Subtitle Anemeage
+ActDVDMenu=DVD Menu
+ActDVDUp=DVD Anit Iju
+ActDVDDown=DVD Anit Ado
+ActDVDLeft=DVD Anit Eiy
+ActDVDRight=DVD Anit Eor
+ActDVDSelect=DVD Otubuge
+ActOpenFile=Anga Eimwi
+ActOpenURL=Anga URL
+ActPlaylist=Ata Playlist
+ActQuit=Eidu
+
+[Log]
+; Phase 25: Log Window
+Title=MPV Log
+Command=Command:
+Clear=Oreit
+Save=Obodan...
+Copy=&Kakopi
+SelectAll=Otubuge &Aö
+SaveTitle=Obodan Log
+SaveFilter=Text eimwi (*.txt)|*.txt|Aö eimwi (*.*)|*.*
+ErrorTitle=Togorogo
+SaveError=Eaow anememagen obodan log: %s
+
+[MediaInfo]
+Title=Media Ibibok
+FileTab=Eimwi
+VideoTab=Video
+AudioTab=Eñ
+MetadataTab=Metadata
+FileName=Ita Eimwi:
+FilePath=Eñan:
+FileSize=Oredañ:
+Duration=Awa:
+Format=Format:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Pixel Format:
+AspectRatio=Aspect Ratio:
+Channels=Channel ko:
+SampleRate=Sample Rate:
+Language=Dorerin:
+Property=Property
+Value=Value
+CopyAll=Kakopi Aö
+CopiedToClipboard=Media ibibok kakopida ñan clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Eaow jela
+NoMetadata=(Eaow metadata)
+
+[Bookmarks]
+Title=Bookmark ko
+Goto=Omo ñan
+Remove=Kamwemwer
+Clear=Oreit Aö
+Refresh=Ibiboke
+OpenFolder=Anga Folder
+CopyPath=Kakopi Eñan
+; Columns
+ColName=Ita
+ColFile=Eimwi
+ColPosition=Ijo
+ColCreated=Anin
+; Dialogs
+ClearTitle=Oreit Bookmark ko
+ClearConfirm=Ko ngada oreit aö bookmark ko?
+Count=%d bookmark(s)
+
+[Favorites]
+Title=Anidogorin ko
+Play=Amen
+Remove=Kamwemwer
+Clear=Oreit Aö
+Refresh=Ibiboke
+OpenFolder=Anga Folder
+CopyPath=Kakopi Eñan
+; Columns
+ColName=Ita
+ColType=Type
+ColPath=Eñan
+; Types
+TypeFile=Eimwi
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Eaow jela
+; Dialogs
+ClearTitle=Oreit Anidogorin ko
+ClearConfirm=Ko ngada oreit aö anidogorin ko?
+Count=%d anidogorin(s)
+
+[History]
+Title=Ibibok ko in Amen
+Play=Amen
+Remove=Kamwemwer
+Clear=Oreit Aö
+Refresh=Ibiboke
+OpenFolder=Anga Folder
+CopyPath=Kakopi Eñan
+; Columns
+ColFileName=Eimwi
+ColPath=Eñan
+; Dialogs
+ClearTitle=Oreit Ibibok ko
+ClearConfirm=Ko ngada oreit aö ibibok ko?
+Count=%d anin(s)
+
+[SleepTimer]
+Title=Omo in Maet
+Description=Obodan omo ñan ekadok amen
+Hours=Awa:
+Minutes=Minit:
+Action=Ñe omo emwamwa:
+StopPlayback=Ekadok amen
+CloseApp=Atsinok app
+Shutdown=Ekadok computer
+QuickSet=Obodan ituga:
+15Min=15 min
+30Min=30 min
+1Hour=1 awa
+2Hours=2 awa
+
+[Radios]
+Title=Internet Radio ko
+Play=Amen
+Add=Ibiboki
+Edit=Anememagen
+Delete=Kamwemwer
+Remove=Kamwemwer
+Import=Import
+Export=Export
+Refresh=Ibiboke
+Favorite=Anidogorin
+ShowFavorites=Anidogorin
+ShowAll=Aö
+; Filter
+Genre=Genre:
+Search=Eaen:
+SearchBtn=Eaen
+ClearSearch=Oreit
+AllGenres=(Aö Genre)
+; Context menu
+AddFavorite=Ibiboki ñan Anidogorin
+RemoveFavorite=Kamwemwer pan Anidogorin
+AddCustom=Ibiboki Custom Station...
+EditCustom=Anememagen Station...
+DeleteCustom=Kamwemwer Station
+OpenWebsite=Anga Website
+CopyURL=Kakopi URL
+; Columns
+ColName=Ita
+ColGenre=Genre
+ColBitrate=Bitrate
+ColCountry=Aner
+ColCodec=Codec
+; Dialogs
+AddTitle=Ibiboki Custom Station
+EditTitle=Anememagen Station
+DeleteTitle=Kamwemwer Station
+DeleteConfirm=Ko ngada kamwemwer station in?
+StationName=Ita Station:
+StreamURL=Stream URL:
+GenrePrompt=Genre:
+NameURLRequired=Ita im URL aikuj.
+; Status messages
+LoadingIcecast=Ngada anganga station ko pan Icecast directory...
+IcecastError=Eaow anememagen anga Icecast directory. Ngada anememagen default station ko.
+NoStationsLoaded=Eaow station ko eibibok
+StationCount=%d station ko
+LoadedStations=Angada %d station ko
+ErrorPrefix=Togorogo:
+; Legacy keys
+Name=Ita
+URL=URL
+Bitrate=Bitrate
+Description=Ibibok
+Country=Aner
+
+[OpenURL]
+Title=Anga URL
+Prompt=Tomon media URL:
+
+[GotoTime]
+Title=Omo ñan Awa
+EnterTime=Tomon awa ñan omo:
+Hours=A
+Minutes=M
+Seconds=J
+Current=Ngada:
+Duration=Awa:
+
+[VideoAdjust]
+Title=Video Anememagen
+Brightness=Emiraman:
+Contrast=Contrast:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Ibibok Aö Ekamarar
+
+[CLI]
+; Command line ekakairũ
+Usage=Ibibok
+Arguments=[ANEMEMAGEN] [FILE|URL|FOLDER]
+Description=Multimedia player ñaga platform aö ekwan libmpv backend.
+Options=ANEMEMAGEN
+Examples=EKAKAIRŨ
+MoreInfo=Ñaga oñea ekwakwi, eko
+EnqueuedTo=Ibibok queue imin instance eitsiok: %s
+SentTo=Ekamarar imin instance eitsiok: %s
+AlreadyRunning=3nity Media eitsiok ibibok.
+ErrorFileNotFound=Ibibok: File me folder imin eok: %s
+ErrorSubNotFound=Ibibok: Subtitle file imin eok: %s

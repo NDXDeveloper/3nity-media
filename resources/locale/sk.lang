@@ -1,0 +1,892 @@
+[Language]
+Name=Slovak - Slovenčina
+Code=sk
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; Ponuka Subor
+File=&Subor
+FileOpen=&Otvorit subor...
+FileOpenURL=Otvorit &URL...
+FileOpenClipboard=Otvorit zo &schranky
+FileRecent=&Posledne subory
+ClearRecentFiles=Vymazat posledne subory
+FileExit=U&koncit
+
+; Ponuka Prehravanie
+Playback=&Prehravanie
+PlaybackPlayPause=&Prehrat/Pozastavit
+PlaybackStop=&Zastavit
+PlaybackPrevious=Pre&dosle
+PlaybackNext=&Dalsie
+PlaybackSeekForward=Posun &dopredu
+PlaybackSeekBackward=Posun do&zadu
+PlaybackSpeed=&Rychlost
+PlaybackABLoop=A-&B slucka
+PlaybackSetA=Nastavit &A
+PlaybackSetB=Nastavit &B
+PlaybackClearAB=&Vymazat A-B
+PlaybackChapters=&Kapitoly
+PlaybackPrevChapter=Predchadzajuca kapitola
+PlaybackNextChapter=Nasledujuca kapitola
+PlaybackFrameStep=Krok o snimku &dopredu
+PlaybackFrameBack=Krok o snimku do&zadu
+
+; Navigacia DVD
+PlaybackDVD=&Navigacia DVD
+DVDMenu=&Menu
+DVDUp=&Hore
+DVDDown=&Dole
+DVDLeft=&Vlavo
+DVDRight=V&pravo
+DVDSelect=&Vybrat
+PlaybackDVDTitles=DVD &Tituly
+
+; Faza 21: Otvorenie priecinka
+FileOpenFolder=Otvorit prie&cinok...
+
+; Ponuka Subor DVD/Bluray
+FileOpenDVD=Otvorit &DVD...
+FileOpenBluray=Otvorit &Blu-ray...
+
+; Faza 13: Prechod na cas a historia
+PlaybackGotoTime=&Prejst na cas...
+ToolsHistory=&Historia
+
+; Faza 14: Systemova lista
+TrayShow=&Zobrazit/Skryt
+TrayPlayPause=&Prehrat/Pozastavit
+TrayStop=&Zastavit
+TrayPrevious=Pre&dosle
+TrayNext=&Dalsie
+TrayMute=&Stlmit
+TrayExit=U&koncit
+
+; Faza 15: Zalozky
+PlaybackAddBookmark=Pridat &zalozku...
+PlaybackBookmarks=Zalo&zky
+BookmarksTitle=Zalozky
+BookmarksGoto=&Prejst na zalozku
+BookmarksRemove=&Odstranit zalozku
+BookmarksClear=&Vymazat vsetky zalozky
+BookmarksOpenFolder=Otvorit &priecinok
+BookmarksCopyPath=&Kopirovat cestu
+BookmarksCount=%d zaloziek
+NoBookmarks=(Ziadne zalozky)
+NoFileLoaded=(Ziadny subor nie je nacitany)
+BookmarkAdded=Zalozka pridana na %s
+BookmarkJumped=Skok na zalozku na %s
+AddBookmarkTitle=Pridat zalozku
+AddBookmarkPrompt=Zadajte nazov zalozky:
+ShowAllBookmarks=Zobrazit vsetky zalozky...
+
+; Faza 16: Oblubene
+ToolsFavorites=&Oblubene
+ToolsAddFavorite=Pridat do oblu&benych
+FavoritesTitle=Oblubene
+FavoritesPlay=&Prehrat
+FavoritesRemove=&Odstranit z oblubenych
+FavoritesClear=&Vymazat vsetky oblubene
+FavoritesOpenFolder=Otvorit &priecinok
+FavoritesCopyPath=&Kopirovat cestu
+FavoritesCount=%d oblubenych
+NoFavorites=(Ziadne oblubene)
+AddFavoriteTitle=Pridat do oblubenych
+AddFavoritePrompt=Zadajte nazov oblubeneho:
+AlreadyFavorite=Uz je v oblubenych
+AddedToFavorites=Pridane do oblubenych: %s
+NoFileToFavorite=Ziadny subor nie je nacitany na pridanie do oblubenych
+FavoriteTypeFile=Subor
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Radio
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Formatovanie stop
+TrackWithTitle=Stopa %d: %s
+TrackWithLang=Stopa %d (%s)
+TrackNumber=Stopa %d
+
+; Polozky menu rychlosti
+Speed050=0,5x
+Speed075=0,75x
+Speed100=1,0x
+Speed125=1,25x
+Speed150=1,5x
+Speed175=1,75x
+Speed200=2,0x
+
+; Polozky menu mierky
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Stopa titulkov
+SubtitleDisable=Vypnut
+
+; Faza 17: Casovac uspania
+ToolsSleepTimer=&Casovac uspania...
+ToolsSleepTimerActive=&Casovac uspania [%s]
+ToolsCancelTimer=Zrusit &casovac
+
+; Ponuka zvuku
+Audio=&Zvuk
+AudioTrack=Zvukova &stopa
+AudioVolumeUp=Zvysit &hlasitost
+AudioVolumeDown=Znizit &hlasitost
+AudioMute=&Stlmit
+AudioEqualizer=&Ekvalizator
+AudioDelay=Zvukove &oneskorenie
+AudioDelayPlus=Oneskorenie +0,1s
+AudioDelayMinus=Oneskorenie -0,1s
+AudioDelayReset=Resetovat oneskorenie
+AudioNormalize=&Normalizovat hlasitost
+
+; Ponuka videa
+Video=&Video
+VideoFullscreen=&Cela obrazovka
+VideoAspect=&Pomer stran
+VideoAspectAuto=&Automaticky
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2,35:1
+VideoScreenshot=&Snimka obrazovky
+VideoScreenshotAs=Snimka obrazovky &ako...
+VideoRotation=&Otocenie
+VideoRotate0=&0 stupnov (Normalne)
+VideoRotate90=&90 stupnov
+VideoRotate180=&180 stupnov
+VideoRotate270=&270 stupnov
+VideoFlip=&Preklopit
+VideoFlipH=Preklopit &horizontalne
+VideoFlipV=Preklopit &vertikalne
+VideoDeinterlace=&Odstranenie prekladania
+VideoZoom=&Priblizenie
+VideoZoomIn=&Priblizit
+VideoZoomOut=&Oddalit
+VideoZoomReset=&Resetovat priblizenie
+VideoPan=&Posun
+VideoPanLeft=Posun v&lavo
+VideoPanRight=Posun vp&ravo
+VideoPanUp=Posun &hore
+VideoPanDown=Posun &dole
+VideoPanReset=R&esetovat posun
+VideoTrack=Video &stopa
+VideoColors=Nastavenie &farieb
+VideoBrightness=&Jas
+VideoContrast=&Kontrast
+VideoSaturation=&Saturacia
+VideoHue=&Odtien
+VideoGamma=&Gama
+VideoColorsReset=Resetovat &vsetky farby
+VideoIncrease=Zvysit (+5)
+VideoDecrease=Znizit (-5)
+VideoReset=Resetovat
+VideoAdjustDialog=Nastavenia &videa...
+
+; Ponuka zobrazenia
+View=Zo&brazenie
+ViewAlwaysOnTop=&Vzdy navrchu
+ViewFitToVideo=&Prisposobit okno videu
+ViewScale=&Mierka okna
+
+; Faza 26: Ponuka vizualizacie
+ViewVisualization=&Vizualizacia
+VisNone=&Ziadna
+VisSpectrum=&Spektralny analyzator
+VisWaveform=&Vlnova forma
+VisVector=&Vektorovy rozsah
+VisVolume=&VU meter
+VisNextMode=Dalsi &rezim
+VisNextColor=Dalsia &farebna schema
+
+; Ponuka titulkov
+Subtitles=&Titulky
+SubtitleTrack=&Stopa titulkov
+SubtitleLoad=&Nacitat titulky...
+SubtitleDelay=&Oneskorenie titulkov
+SubtitleDelayPlus=Oneskorenie +0,1s
+SubtitleDelayMinus=Oneskorenie -0,1s
+SubtitleDelayReset=Resetovat oneskorenie
+
+; Ponuka nastrojov
+Tools=&Nastroje
+ToolsPlaylist=&Zoznam skladieb
+ToolsRadios=&Radia
+ToolsShortcuts=&Klavesove skratky...
+ToolsOptions=&Moznosti
+
+; Faza 27: Ponuka nahravania
+ToolsRecord=&Nahravat stream...
+ToolsStopRecord=Z&astavit nahravanie
+ToolsRecording=&Nahravanie...
+
+; Ponuka pomoci
+Help=&Pomocnik
+HelpMediaInfo=&Informacie o mediu
+HelpLog=&Okno dennika
+HelpAbout=&O programe
+
+[Dialog]
+OpenFile=Otvorit subor
+OpenURL=Otvorit URL
+SaveScreenshot=Ulozit snimku obrazovky
+LoadSubtitle=Nacitat subor titulkov
+EnterURL=Zadajte URL:
+ResumePlayback=Pokracovat v prehravani
+ResumeFrom=Pokracovat od %s?
+ClearRecentFiles=Vymazat posledne subory
+NoRecentFiles=(Ziadne posledne subory)
+NoAudioTracks=(Ziadne zvukove stopy)
+NoVideoTracks=(Ziadne video stopy)
+NoSubtitleTracks=(Ziadne stopy titulkov)
+NoChapters=(Ziadne kapitoly)
+OpenDVD=Otvorit DVD
+OpenBluray=Otvorit Blu-ray
+OpenFolder=Otvorit priecinok
+
+; Filtre suborov
+ScreenshotFilter=PNG obrazok|*.png|JPEG obrazok|*.jpg|WebP obrazok|*.webp
+DVDFilter=Priecinok DVD|*.;*.iso|Vsetky subory (*.*)|*.*
+BlurayFilter=Priecinok Blu-ray|*.;*.iso|Vsetky subory (*.*)|*.*
+NoDVD=(Ziadne DVD nie je nacitane)
+DVDTitle=Titul %d
+GotoTime=Prejst na cas
+EnterTime=Zadajte cas, na ktory chcete skocit:
+Hours=Hodiny
+Minutes=Minuty
+Seconds=Sekundy
+Current=Aktualny:
+HistoryTitle=Historia prehravania
+HistoryItems=%d poloziek v historii
+HistoryPlay=&Prehrat
+HistoryRemove=&Odstranit z historie
+HistoryClear=&Vymazat celu historiu
+HistoryOpenFolder=Otvorit &priecinok
+HistoryCopyPath=&Kopirovat cestu
+ClearHistory=Vymazat historiu
+ClearHistoryConfirm=Naozaj chcete vymazat celu historiu?
+SleepTimerTitle=Casovac uspania
+SleepTimerDescription=Nastavte casovac na automaticke zastavenie prehravania
+SleepTimerHours=Hodiny
+SleepTimerMinutes=Minuty
+SleepTimerQuickSet=Rychle nastavenie
+SleepTimerAction=Po uplynuti casovaca
+SleepTimerStopPlayback=Zastavit prehravanie
+SleepTimerCloseApp=Zatvorit aplikaciu
+SleepTimerShutdown=Vypnut pocitac
+SleepTimerStart=Spustit casovac
+
+[Status]
+Ready=Pripravene
+Opening=Otvara sa...
+Playing=Prehrava sa
+Paused=Pozastavene
+Stopped=Zastavene
+Error=Chyba
+Buffering=Nacitava sa...
+Seeking=Vykonavanie posunu...
+Recording=Nahrava sa
+
+[Message]
+SpeedFormat=Rychlost: %.2fx
+VolumeFormat=Hlasitost: %d%%
+BrightnessFormat=Jas: %d
+ContrastFormat=Kontrast: %d
+SaturationFormat=Saturacia: %d
+HueFormat=Odtien: %d
+GammaFormat=Gama: %d
+ColorsReset=Farby videa boli resetovane
+LoopASet=Slucka A nastavena na %s
+LoopBSet=Slucka B nastavena na %s - Slucka aktivna
+LoopCleared=A-B slucka vymazana
+SetAFirst=Najprv nastavte bod A (stlacte L)
+RotationFormat=Otocenie: %d stupnov
+FlipHOn=Horizontalne preklaptanie: ZAP
+FlipHOff=Horizontalne preklaptanie: VYP
+FlipVOn=Vertikalne preklaptanie: ZAP
+FlipVOff=Vertikalne preklaptanie: VYP
+DeinterlaceOn=Odstranenie prekladania: ZAP
+DeinterlaceOff=Odstranenie prekladania: VYP
+AlwaysOnTopOn=Vzdy navrchu: ZAP
+AlwaysOnTopOff=Vzdy navrchu: VYP
+WindowFitted=Okno prisposobene na %dx%d
+WindowScale=Mierka okna: %.0f%%
+ScreenshotSaved=Snimka obrazovky ulozena: %s
+AudioNormalizeOn=Normalizacia zvuku: ZAP
+AudioNormalizeOff=Normalizacia zvuku: VYP
+AudioDelayFormat=Zvukove oneskorenie: %.1f s
+SubtitleDelayFormat=Oneskorenie titulkov: %.1f s
+ZoomFormat=Priblizenie: %.0f%%
+PanCenter=Posun: Stred
+PanFormat=Posun: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Ziadne video nie je nacitane
+PlayingFromClipboard=Prehravam zo schranky: %s
+ClipboardInvalid=Schranka neobsahuje platnu URL alebo cestu
+ClipboardEmpty=Schranka je prazdna alebo neobsahuje text
+ResumedAt=Pokracovanie na %s
+FrameStepForward=Krok o snimku dopredu
+FrameStepBackward=Krok o snimku dozadu
+PreviousChapter=Predchadzajuca kapitola
+NextChapter=Nasledujuca kapitola
+PlayingRadio=Prehravam radio: %s
+PlayingDVD=Prehravam DVD: %s
+PlayingBluray=Prehravam Blu-ray: %s
+DVDTitlePlaying=DVD Titul %d
+SeekTo=Posun na %s
+MinimizedToTray=Minimalizovane do systémovej listy. Dvojklikom obnovite.
+SleepTimerSet=Casovac uspania nastaveny: %s
+SleepTimerCancelled=Casovac uspania zruseny
+SleepTimerWarning=Casovac uspania: zostava 1 minuta
+SleepTimerFinal=Casovac uspania: zostava 10 sekund
+SleepTimerStopped=Casovac uspania: Prehravanie zastavene
+SleepTimerClosing=Casovac uspania: Zatvaranie aplikacie
+SleepTimerShutdown=Casovac uspania: Vypinanie pocitaca
+SleepTimerExpired=Casovac uspania vyprsal
+ShutdownManual=Prosim, vypnite pocitac manualne.
+
+; Faza 21: Otvorenie priecinka
+FolderOpened=Priecinok otvoreny: %d suborov
+NoMediaFound=Ziadne medialne subory neboli najdene
+FilesAdded=%d suborov pridanych do zoznamu skladieb
+
+; Faza 27: Spravy o nahravani
+RecordNeedPlayback=Pred nahraovanim spustite prehravanie.
+RecordingStarted=Nahravanie zacalo
+RecordingStopped=Nahravanie zastavene
+
+; Doplnkove stavove spravy
+EndOfPlaylist=Koniec zoznamu skladieb
+NoMediaLoaded=Ziadny medialny subor nie je aktualne nacitany.
+JumpedToNamed=Skok na: %s
+ChapterFormat=Kapitola %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Zalozka na %s
+
+[Label]
+Muted=Stlmene
+
+[Button]
+Play=Prehrat
+Pause=Pozastavit
+Stop=Zastavit
+Previous=Predosle
+Next=Dalsie
+Mute=Stlmit
+Unmute=Zrusit stlmenie
+Fullscreen=Cela obrazovka
+OK=OK
+Cancel=Zrusit
+Apply=Pouzit
+Close=Zatvorit
+Yes=Ano
+No=Nie
+
+[Tooltip]
+Play=Prehrat/Pozastavit
+Stop=Zastavit prehravanie
+Previous=Predchadzajuca stopa
+Next=Nasledujuca stopa
+Mute=Prepnut stlmenie
+Volume=Hlasitost
+Seek=Pozicia posunu
+Fullscreen=Prepnut celu obrazovku
+
+[Playlist]
+Title=Zoznam skladieb
+Add=Pridat
+Remove=Odstranit
+Clear=Vymazat
+MoveUp=Posun hore
+MoveDown=Posun dole
+Shuffle=Zamiesat
+Repeat=Opakovat
+Play=Prehrat
+ShuffleOn=Zamiechanie: Zap
+ShuffleOff=Zamiechanie: Vyp
+RepeatOff=Opakovanie: Vyp
+RepeatOne=Opakovanie: Jedno
+RepeatAll=Opakovanie: Vsetko
+SavePlaylist=Ulozit
+LoadPlaylist=Nacitat
+TotalDuration=Celkom: %s
+ItemCount=%d poloziek
+
+; Faza 22: Vylepsenia zoznamu skladieb
+Search=Hladat:
+FilterPlaceholder=Filtrovat zoznam skladieb...
+ClearSearch=Vymazat
+FilterCount=%d/%d
+RemoveDuplicates=Odstranit &duplikaty
+Properties=V&lastnosti...
+NoDuplicates=Ziadne duplikaty neboli najdene.
+DuplicatesFound=Najdenych %d duplikatov. Odstranit ich?
+RemoveDuplicatesTitle=Odstranit duplikaty
+PropertiesTitle=Vlastnosti zoznamu skladieb
+PropTotalItems=Celkovy pocet poloziek: %d
+PropTotalDuration=Celkova dlzka: %s
+PropPlayed=Prehrane: %d
+PropUnplayed=Neprehrane: %d
+PropTotalSize=Celkova velkost: %.2f MB
+PropShuffle=Zamiechanie: %s
+PropRepeat=Opakovanie: %s
+On=Zap
+Off=Vyp
+
+; Nove kluce pre ApplyLocale
+ClearTitle=Vymazat zoznam skladieb
+ClearConfirm=Naozaj chcete vymazat zoznam skladieb?
+NoPlaylist=Ziadny zoznam skladieb
+StatusFormat=%d poloziek | Celkom: %s
+RepeatOne=Opak. 1
+RepeatAll=Opak. vsetko
+HintRepeatEnable=Kliknite na povolenie Opakovat vsetko
+HintRepeatOne=Opakovat jedno - Kliknite na vypnutie
+HintRepeatAll=Opakovat vsetko - Kliknite na Opakovat jedno
+HintShuffleRepeat=Zamiesat + Opakovat vsetko - Kliknite na vypnutie opakovania
+RemoveDuplicatesTitle=Odstranit duplikaty
+NoDuplicates=Ziadne duplikaty neboli najdene.
+SelectAll=Vybrat vsetko
+SelectNone=Zrusit vyber
+SelectInvert=Invertovat vyber
+Sort=Zoradit
+SortByName=Podla nazvu
+SortByTitle=Podla titulu
+SortByArtist=Podla interpreta
+SortByDuration=Podla dlzky
+SortReverse=Obratit
+SortRandom=Nahodne
+ColTitle=Nazov
+ColDuration=Dlzka
+ColArtist=Interpret
+ColAlbum=Album
+PlaylistFilter=M3U zoznam skladieb|*.m3u|M3U8 zoznam skladieb|*.m3u8|PLS zoznam skladieb|*.pls
+
+[Equalizer]
+Title=Ekvalizator
+Presets=Prednastavenia:
+Preamp=Predzosilnenie:
+Flat=Plochy
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Klasika
+BassBoost=Zosilnenie basov
+TrebleBoost=Zosilnenie vyskych
+Vocal=Vokal
+Reset=Resetovat
+Enable=Povolit ekvalizator
+Save=Ulozit
+Delete=Vymazat
+Ready=Pripravene
+; Tlacidla a akcie
+SavePreset=Ulozit prednastavenie
+DeletePreset=Vymazat prednastavenie
+SavePresetTitle=Ulozit prednastavenie
+PresetNamePrompt=Nazov prednastavenia:
+EnterPresetName=Prosim, zadajte nazov prednastavenia.
+OverwritePresetTitle=Prepisat prednastavenie
+OverwritePresetConfirm=Prednastavenie s tymto nazvom uz existuje. Prepisat?
+PresetUpdated=Prednastavenie aktualizovane: %s
+PresetSaved=Prednastavenie ulozene: %s
+SelectPresetToDelete=Prosim, vyberte prednastavenie na vymazanie.
+CannotDeleteDefault=Nie je mozne vymazat predvolene prednastavenia.
+DeletePresetTitle=Vymazat prednastavenie
+DeletePresetConfirm=Naozaj chcete vymazat toto prednastavenie?
+PresetDeleted=Prednastavenie vymazane
+ResetToFlat=Ekvalizator resetovany na plochy
+PresetApplied=Prednastavenie pouzite: %s
+
+[Options]
+Title=Moznosti
+General=Vseobecne
+Video=Video
+Audio=Zvuk
+Subtitles=Titulky
+Cache=Vyrovnavacia pamat
+Language=Jazyk:
+RestartRequired=Pre uplatnenie zmien je potrebny restart
+
+; Karta Vseobecne - Spravanie
+Behavior=Spravanie
+SingleInstance=Povolit len jednu instanciu
+AutoPlay=Automaticky prehrat subory po otvoreni
+AutoResume=Pokracovat od poslednej pozicie
+MinimizeToTray=Minimalizovat do systémovej listy
+AutoSavePlaylist=Ulozit zoznam skladieb pri ukonceni
+
+; Karta Vseobecne - OSD
+OSD=Zobrazenie na obrazovke
+ShowOSD=Zobrazovat spravy na obrazovke
+ShowTrayIcon=Zobrazovat ikonu v systémovej liste
+OSDDuration=Trvanie OSD (ms):
+
+; Karta Vseobecne - Snimky obrazovky
+Screenshots=Snimky obrazovky
+ScreenshotPath=Priecinok na ulozenie:
+ScreenshotFormat=Format:
+
+; Karta Vseobecne - Historia
+HistorySettings=Historia
+HistoryEnabled=Povolit historiu prehravania
+HistoryMaxItems=Max. poloziek:
+
+; Karta Vseobecne - Jazyk
+LanguageGroup=Jazyk
+RestartNote=(Pre uplatnenie zmien je potrebny restart)
+
+; Karta Video
+VideoAdjust=Nastavenia videa
+Brightness=Jas:
+Contrast=Kontrast:
+Saturation=Saturacia:
+Hue=Odtien:
+Gamma=Gama:
+VideoOutput=Video vystup
+Output=Vystup:
+HWAccel=Povolit hardverovu akceleraciu
+Deinterlacing=Odstranenie prekladania
+Mode=Rezim:
+
+; Karta Zvuk
+AudioOutput=Zvukovy vystup
+OutputDriver=Vystupny ovladac:
+Device=Zariadenie:
+AudioOptions=Moznosti zvuku
+NormalizeAudio=Normalizovat hlasitost zvuku
+Channels=Kanaly:
+
+; Karta Titulky
+UseDefaultSubtitles=Pouzit predvolene nastavenia titulkov
+Font=Pismo
+FontName=Pismo:
+FontSize=Velkost:
+FontColor=Farba:
+Bold=Tucne
+Italic=Kurziva
+Outline=Obrys
+OutlineColor=Farba:
+OutlineSize=Velkost:
+Position=Pozicia
+VerticalPosition=Vertikalna pozicia:
+SubOptions=Moznosti
+Encoding=Kodovanie:
+AutoLoadSubs=Automaticky nacitat subory titulkov
+
+; Varovania video vystupu
+VOWarningX11=Varovanie: x11 nepodporuje nastavenia videa (jas, kontrast, atd.)
+VOWarningWayland=Varovanie: Vyzaduje relciu Wayland. Nastavenia videa su podporovane.
+
+; Karta Vyrovnavacia pamat
+CacheSettings=Velkosti vyrovnavacej pamate (KB)
+CacheDefault=Predvolena vyrovnavacia pamat:
+CacheLocal=Lokalne subory:
+CacheNetwork=Sietove subory:
+CacheInternet=Internetove streamy:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=O programe
+Version=Verzia
+Engine=Jadro
+Technology=Technologia
+BuildInfo=Informacie o zostave
+SystemInfo=System
+Credits=Autori
+Developer=Vyvojar:
+Author=Autor
+License=Licencia
+Website=Webova stranka
+GitHub=GitHub
+Description=Moderny, lahky prehrávac medii
+LicenseText=3nity Media je licencovany pod GPL-2.0\n\nTo znamena, ze ste volni:\n  • Pouzivat software na akykolvek ucel\n  • Studovat a upravovat zdrojovy kod\n  • Distribuovat kopie softveru\n  • Distribuovat vase upravy\n\nPod podmienkou, ze akekolvek distribuovane upravy\nsu tiez licencovane pod GPL-2.0.
+BuildDate=Datum:
+Target=Ciel:
+Kernel=Jadro:
+
+[Shortcuts]
+Title=Klavesove skratky
+Description=Konfigurovat klavesove skratky pre akcie
+Search=Hladat:
+PressKey=Stlacte klavesu...
+ColCategory=Kategoria
+ColAction=Akcia
+ColShortcut=Skratka
+Assign=Priradit
+Clear=Vymazat
+Reset=Resetovat
+ResetAll=Resetovat vsetko
+CurrentShortcut=Aktualna: %s
+NoKeyPressed=Prosim, najprv stlacte kombinaciu klaves.
+Conflict=Konflikt: Uz priradene k "%s"
+ConfirmReplace=Nahradit skratku
+ReplaceMessage=Tato skratka je uz priradena k "%s". Chcete ju nahradit?
+ConfirmResetAll=Resetovat vsetky skratky
+ResetAllMessage=Naozaj chcete resetovat vsetky skratky na predvolene hodnoty?
+; Nazvy akcii
+ActPlayPause=Prehrat / Pozastavit
+ActStop=Zastavit
+ActPrevious=Predosle
+ActNext=Dalsie
+ActSeekForward=Posun dopredu (10s)
+ActSeekBackward=Posun dozadu (10s)
+ActSeekForward5=Posun dopredu (1 min)
+ActSeekBackward5=Posun dozadu (1 min)
+ActSpeedUp=Zvysit rychlost
+ActSpeedDown=Znizit rychlost
+ActSpeedReset=Resetovat rychlost
+ActSetLoopA=Nastavit bod slucky A
+ActSetLoopB=Nastavit bod slucky B
+ActClearLoop=Vymazat A-B slucku
+ActFrameForward=Snimok dopredu
+ActFrameBackward=Snimok dozadu
+ActPrevChapter=Predchadzajuca kapitola
+ActNextChapter=Nasledujuca kapitola
+ActGotoTime=Prejst na cas
+ActVolumeUp=Zvysit hlasitost
+ActVolumeDown=Znizit hlasitost
+ActMute=Stlmit / Zrusit stlmenie
+ActAudioDelayPlus=Zvukove oneskorenie +
+ActAudioDelayMinus=Zvukove oneskorenie -
+ActAudioDelayReset=Resetovat zvukove oneskorenie
+ActFullscreen=Cela obrazovka
+ActRotate=Otocit video
+ActDeinterlace=Odstranenie prekladania
+ActZoomIn=Priblizit
+ActZoomOut=Oddalit
+ActZoomReset=Resetovat priblizenie
+ActAlwaysOnTop=Vzdy navrchu
+ActFitToVideo=Prisposobit videu
+ActScreenshot=Snimka obrazovky
+ActVideoAdjust=Nastavenia videa
+ActVisNextMode=Dalsi rezim vizualizacie
+ActVisNextColor=Dalsia farebna schema
+ActSubDelayPlus=Oneskorenie titulkov +
+ActSubDelayMinus=Oneskorenie titulkov -
+ActSubDelayReset=Resetovat oneskorenie titulkov
+ActDVDMenu=Menu DVD
+ActDVDUp=DVD navigacia hore
+ActDVDDown=DVD navigacia dole
+ActDVDLeft=DVD navigacia vlavo
+ActDVDRight=DVD navigacia vpravo
+ActDVDSelect=DVD vyber
+ActOpenFile=Otvorit subor
+ActOpenURL=Otvorit URL
+ActPlaylist=Zobrazit zoznam skladieb
+ActQuit=Ukoncit
+
+[Log]
+; Faza 25: Okno denniku
+Title=MPV dennik
+Command=Prikaz:
+Clear=Vymazat
+Save=Ulozit...
+Copy=&Kopirovat
+SelectAll=Vybrat &vsetko
+SaveTitle=Ulozit dennik
+SaveFilter=Textove subory (*.txt)|*.txt|Vsetky subory (*.*)|*.*
+ErrorTitle=Chyba
+SaveError=Nepodarilo sa ulozit dennik: %s
+
+[MediaInfo]
+Title=Informacie o mediu
+FileTab=Subor
+VideoTab=Video
+AudioTab=Zvuk
+MetadataTab=Metadata
+FileName=Nazov suboru:
+FilePath=Cesta:
+FileSize=Velkost:
+Duration=Trvanie:
+Format=Format:
+Bitrate=Bitrate:
+Codec=Kodek:
+Resolution=Rozlisenie:
+FrameRate=Snimkova frekvencia:
+PixelFormat=Format pixelov:
+AspectRatio=Pomer stran:
+Channels=Kanaly:
+SampleRate=Vzorkovacia frekvencia:
+Language=Jazyk:
+Property=Vlastnost
+Value=Hodnota
+CopyAll=Kopirovat vsetko
+CopiedToClipboard=Informacie o mediu boli skopirovane do schranky.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (zivo)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Neznamy
+NoMetadata=(Ziadne metadata)
+
+[Bookmarks]
+Title=Zalozky
+Goto=Prejst na
+Remove=Odstranit
+Clear=Vymazat vsetko
+Refresh=Obnovit
+OpenFolder=Otvorit priecinok
+CopyPath=Kopirovat cestu
+; Stlpce
+ColName=Nazov
+ColFile=Subor
+ColPosition=Pozicia
+ColCreated=Vytvorene
+; Dialogy
+ClearTitle=Vymazat zalozky
+ClearConfirm=Naozaj chcete vymazat vsetky zalozky?
+Count=%d zaloziek
+
+[Favorites]
+Title=Oblubene
+Play=Prehrat
+Remove=Odstranit
+Clear=Vymazat vsetko
+Refresh=Obnovit
+OpenFolder=Otvorit priecinok
+CopyPath=Kopirovat cestu
+; Stlpce
+ColName=Nazov
+ColType=Typ
+ColPath=Cesta
+; Typy
+TypeFile=Subor
+TypeURL=URL
+TypeRadio=Radio
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Neznamy
+; Dialogy
+ClearTitle=Vymazat oblubene
+ClearConfirm=Naozaj chcete vymazat vsetky oblubene?
+Count=%d oblubenych
+
+[History]
+Title=Historia prehravania
+Play=Prehrat
+Remove=Odstranit
+Clear=Vymazat vsetko
+Refresh=Obnovit
+OpenFolder=Otvorit priecinok
+CopyPath=Kopirovat cestu
+; Stlpce
+ColFileName=Subor
+ColPath=Cesta
+; Dialogy
+ClearTitle=Vymazat historiu
+ClearConfirm=Naozaj chcete vymazat celu historiu?
+Count=%d poloziek
+
+[SleepTimer]
+Title=Casovac uspania
+Description=Nastavte casovac na automaticke zastavenie prehravania
+Hours=Hodiny:
+Minutes=Minuty:
+Action=Po uplynuti casovaca:
+StopPlayback=Zastavit prehravanie
+CloseApp=Zatvorit aplikaciu
+Shutdown=Vypnut pocitac
+QuickSet=Rychle nastavenie:
+15Min=15 min
+30Min=30 min
+1Hour=1 hodina
+2Hours=2 hodiny
+
+[Radios]
+Title=Internetove radia
+Play=Prehrat
+Add=Pridat
+Edit=Upravit
+Delete=Vymazat
+Remove=Odstranit
+Import=Importovat
+Export=Exportovat
+Refresh=Obnovit
+Favorite=Oblubene
+ShowFavorites=Oblubene
+ShowAll=Vsetky
+; Filter
+Genre=Zaner:
+Search=Hladat:
+SearchBtn=Hladat
+ClearSearch=Vymazat
+AllGenres=(Vsetky zanre)
+; Kontextove menu
+AddFavorite=Pridat do oblubenych
+RemoveFavorite=Odstranit z oblubenych
+AddCustom=Pridat vlastnu stanicu...
+EditCustom=Upravit stanicu...
+DeleteCustom=Vymazat stanicu
+OpenWebsite=Otvorit webovu stranku
+CopyURL=Kopirovat URL
+; Stlpce
+ColName=Nazov
+ColGenre=Zaner
+ColBitrate=Bitrate
+ColCountry=Krajina
+ColCodec=Kodek
+; Dialogy
+AddTitle=Pridat vlastnu stanicu
+EditTitle=Upravit stanicu
+DeleteTitle=Vymazat stanicu
+DeleteConfirm=Naozaj chcete vymazat tuto stanicu?
+StationName=Nazov stanice:
+StreamURL=URL streamu:
+GenrePrompt=Zaner:
+NameURLRequired=Nazov a URL su povinne.
+; Stavove spravy
+LoadingIcecast=Nacitavam stanice z adresara Icecast...
+IcecastError=Nepodarilo sa nacitat adresar Icecast. Pouzivam predvolene stanice.
+NoStationsLoaded=Ziadne stanice neboli nacitane
+StationCount=%d stanic
+LoadedStations=Nacitanych %d stanic
+ErrorPrefix=Chyba:
+; Starsie kluce
+Name=Nazov
+URL=URL
+Bitrate=Bitrate
+Description=Popis
+Country=Krajina
+
+[OpenURL]
+Title=Otvorit URL
+Prompt=Zadajte URL media:
+
+[GotoTime]
+Title=Prejst na cas
+EnterTime=Zadajte cas, na ktory chcete skocit:
+Hours=H
+Minutes=M
+Seconds=S
+Current=Aktualny:
+Duration=Trvanie:
+
+[VideoAdjust]
+Title=Nastavenia videa
+Brightness=Jas:
+Contrast=Kontrast:
+Saturation=Saturacia:
+Hue=Odtien:
+Gamma=Gama:
+ResetAll=Resetovat vsetky farby
+
+[CLI]
+; Správy príkazového riadku
+Usage=Použitie
+Arguments=[MOŽNOSTI] [SÚBOR|URL|PRIEČINOK]
+Description=Multiplatformový multimediálny prehrávač využívajúci libmpv ako engine.
+Options=MOŽNOSTI
+Examples=PRÍKLADY
+MoreInfo=Pre viac informácií navštívte
+EnqueuedTo=Pridané do fronty existujúcej inštancie: %s
+SentTo=Odoslané existujúcej inštancii: %s
+AlreadyRunning=3nity Media už beží.
+ErrorFileNotFound=Chyba: Súbor alebo adresár sa nenašiel: %s
+ErrorSubNotFound=Chyba: Súbor titulkov sa nenašiel: %s

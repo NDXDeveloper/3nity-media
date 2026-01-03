@@ -1,0 +1,892 @@
+[Language]
+Name=Shona - ChiShona
+Code=sn
+Author=Nicolas DEOUX ( NDXDev@gmail.com )
+
+[Menu]
+; File menu
+File=&Faira
+FileOpen=&Vhura Faira...
+FileOpenURL=Vhura &URL...
+FileOpenClipboard=Vhura kubva &Clipboard
+FileRecent=Ma&faira Achangoburwa
+ClearRecentFiles=Dzima Mafaira Achangoburwa
+FileExit=&Buda
+
+; Playback menu
+Playback=&Ridza
+PlaybackPlayPause=&Ridza/Mira
+PlaybackStop=&Misa
+PlaybackPrevious=Ya&pfuura
+PlaybackNext=Ino&tevera
+PlaybackSeekForward=Tsvaka &Mberi
+PlaybackSeekBackward=Tsvaka &Shure
+PlaybackSpeed=&Kumhanya
+PlaybackABLoop=Loop ye A-&B
+PlaybackSetA=Isa &A
+PlaybackSetB=Isa &B
+PlaybackClearAB=&Dzima A-B
+PlaybackChapters=&Zvitsauko
+PlaybackPrevChapter=Chitsauko Chapfuura
+PlaybackNextChapter=Chitsauko Chinotevera
+PlaybackFrameStep=Nhanho yeFremu Mberi
+PlaybackFrameBack=Nhanho yeFremu Shure
+
+; DVD Navigation
+PlaybackDVD=Kutungamira kwe &DVD
+DVDMenu=&Menu
+DVDUp=&Kumusoro
+DVDDown=&Pasi
+DVDLeft=Kure&boshwe
+DVDRight=Kuru&dyi
+DVDSelect=&Sarudza
+PlaybackDVDTitles=&Mazita e DVD
+
+; Phase 21: Open Folder
+FileOpenFolder=Vhura &Foldha...
+
+; File menu DVD/Bluray
+FileOpenDVD=Vhura &DVD...
+FileOpenBluray=Vhura &Blu-ray...
+
+; Phase 13: Go to Time and History
+PlaybackGotoTime=&Enda kuNguva...
+ToolsHistory=&Nhoroondo
+
+; Phase 14: System Tray
+TrayShow=&Ratidza/Viga
+TrayPlayPause=&Ridza/Mira
+TrayStop=&Misa
+TrayPrevious=Ya&pfuura
+TrayNext=Ino&tevera
+TrayMute=&Nyararidza
+TrayExit=&Buda
+
+; Phase 15: Bookmarks
+PlaybackAddBookmark=Wedzera &Chiratidzo...
+PlaybackBookmarks=Zvi&ratidzo
+BookmarksTitle=Zviratidzo
+BookmarksGoto=&Enda kuChiratidzo
+BookmarksRemove=&Bvisa Chiratidzo
+BookmarksClear=&Dzima Zviratidzo Zvese
+BookmarksOpenFolder=Vhura &Foldha
+BookmarksCopyPath=&Kopira Nzira
+BookmarksCount=zviratidzo %d
+NoBookmarks=(Hapana zviratidzo)
+NoFileLoaded=(Hapana faira rakaiswa)
+BookmarkAdded=Chiratidzo chawedzerwa pa %s
+BookmarkJumped=Wasvetukira kuchiratidzo pa %s
+AddBookmarkTitle=Wedzera Chiratidzo
+AddBookmarkPrompt=Pinda zita rechiratidzo:
+ShowAllBookmarks=Ratidza Zviratidzo Zvese...
+
+; Phase 16: Favorites
+ToolsFavorites=Zvino&farirwa
+ToolsAddFavorite=Wedzera kuZvino&farirwa
+FavoritesTitle=Zvinofarirwa
+FavoritesPlay=&Ridza
+FavoritesRemove=&Bvisa kuZvinofarirwa
+FavoritesClear=&Dzima Zvinofarirwa Zvese
+FavoritesOpenFolder=Vhura &Foldha
+FavoritesCopyPath=&Kopira Nzira
+FavoritesCount=zvinofarirwa %d
+NoFavorites=(Hapana zvinofarirwa)
+AddFavoriteTitle=Wedzera kuZvinofarirwa
+AddFavoritePrompt=Pinda zita rezvinofarirwa:
+AlreadyFavorite=Yatove muzvinofarirwa
+AddedToFavorites=Yawedzerwa kuzvinofarirwa: %s
+NoFileToFavorite=Hapana faira rakaiswa rekuwedzera kuzvinofarirwa
+FavoriteTypeFile=Faira
+FavoriteTypeURL=URL
+FavoriteTypeRadio=Redhiyo
+FavoriteTypeDVD=DVD
+FavoriteTypeBluray=Blu-ray
+
+; Track format strings
+TrackWithTitle=Tirekhi %d: %s
+TrackWithLang=Tirekhi %d (%s)
+TrackNumber=Tirekhi %d
+
+; Speed menu items
+Speed050=0.5x
+Speed075=0.75x
+Speed100=1.0x
+Speed125=1.25x
+Speed150=1.5x
+Speed175=1.75x
+Speed200=2.0x
+
+; Scale menu items
+Scale50=50%
+Scale75=75%
+Scale100=100%
+Scale125=125%
+Scale150=150%
+Scale200=200%
+
+; Subtitle track
+SubtitleDisable=Dzima
+
+; Phase 17: Sleep Timer
+ToolsSleepTimer=Nguva ye&Kurara...
+ToolsSleepTimerActive=Nguva ye&Kurara [%s]
+ToolsCancelTimer=Kanzura &Nguva
+
+; Audio menu
+Audio=&Rwiyo
+AudioTrack=Tirekhi ye&Rwiyo
+AudioVolumeUp=Wedzerai &Inzwi
+AudioVolumeDown=Deredza &Inzwi
+AudioMute=&Nyararidza
+AudioEqualizer=&Equalizer
+AudioDelay=&Kunonoka kweRwiyo
+AudioDelayPlus=Nonoka +0.1s
+AudioDelayMinus=Nonoka -0.1s
+AudioDelayReset=Dzosera Kunonoka
+AudioNormalize=&Enzanisa Inzwi
+
+; Video menu
+Video=&Vhidhiyo
+VideoFullscreen=&Sikirini Yakazara
+VideoAspect=&Chiyero
+VideoAspectAuto=&Otomatiki
+VideoAspect169=&16:9
+VideoAspect43=&4:3
+VideoAspect235=&2.35:1
+VideoScreenshot=&Mufananidzo weSikirini
+VideoScreenshotAs=Mufananidzo weSikirini &Se...
+VideoRotation=&Tenderedza
+VideoRotate0=&0° (Yakajairika)
+VideoRotate90=&90°
+VideoRotate180=&180°
+VideoRotate270=&270°
+VideoFlip=&Shandura
+VideoFlipH=Shandura &Horizontale
+VideoFlipV=Shandura &Vertikale
+VideoDeinterlace=&Deinterlace
+VideoZoom=&Zoom
+VideoZoomIn=Zoom &Mukati
+VideoZoomOut=Zoom &Kunze
+VideoZoomReset=&Dzosera Zoom
+VideoPan=&Pan
+VideoPanLeft=Pan Kure&boshwe
+VideoPanRight=Pan Kuru&dyi
+VideoPanUp=Pan &Kumusoro
+VideoPanDown=Pan &Pasi
+VideoPanReset=Dzo&sera Pan
+VideoTrack=Tirekhi ye&Vhidhiyo
+VideoColors=Kushanduka kwe&Mavara
+VideoBrightness=&Kujeka
+VideoContrast=&Musiyano
+VideoSaturation=&Saturation
+VideoHue=&Hue
+VideoGamma=&Gamma
+VideoColorsReset=Dzosera &Mavara Ese
+VideoIncrease=Wedzera (+5)
+VideoDecrease=Deredza (-5)
+VideoReset=Dzosera
+VideoAdjustDialog=Kushanduka kwe&Vhidhiyo...
+
+; View menu
+View=&Ona
+ViewAlwaysOnTop=&Nguva Dzese Pamusoro
+ViewFitToVideo=&Isa Windo kuVhidhiyo
+ViewScale=&Chiyero cheWindo
+
+; Phase 26: Visualization menu
+ViewVisualization=&Kuratidza
+VisNone=&Hapana
+VisSpectrum=&Spectrum Analyzer
+VisWaveform=&Waveform
+VisVector=&Vector Scope
+VisVolume=V&U Meter
+VisNextMode=Nzira &Inotevera
+VisNextColor=Mavara &Anotevera
+
+; Subtitles menu
+Subtitles=&Subtitle
+SubtitleTrack=Tirekhi ye&Subtitle
+SubtitleLoad=&Isa Subtitle...
+SubtitleDelay=&Kunonoka kweSubtitle
+SubtitleDelayPlus=Nonoka +0.1s
+SubtitleDelayMinus=Nonoka -0.1s
+SubtitleDelayReset=Dzosera Kunonoka
+
+; Tools menu
+Tools=Zvi&shandiso
+ToolsPlaylist=&Rondedzero yeNziyo
+ToolsRadios=&Redhiyo
+ToolsShortcuts=Zvi&pfupiso zveKibhodhi...
+ToolsOptions=&Sarudzo
+
+; Phase 27: Recording menu
+ToolsRecord=&Rekodha...
+ToolsStopRecord=M&isa Kurekodha
+ToolsRecording=&Rekodha...
+
+; Help menu
+Help=&Rubatsiro
+HelpMediaInfo=Ruzivo rwe&Media
+HelpLog=Windo re&Log
+HelpAbout=&Nezvekuti
+
+[Dialog]
+OpenFile=Vhura Faira
+OpenURL=Vhura URL
+SaveScreenshot=Chengetedza Mufananidzo weSikirini
+LoadSubtitle=Isa Faira reSubtitle
+EnterURL=Pinda URL:
+ResumePlayback=Enderera Kuridza
+ResumeFrom=Enderera kubva %s?
+ClearRecentFiles=Dzima Mafaira Achangoburwa
+NoRecentFiles=(Hapana mafaira achangoburwa)
+NoAudioTracks=(Hapana matirekhi erwiyo)
+NoVideoTracks=(Hapana matirekhi evhidhiyo)
+NoSubtitleTracks=(Hapana matirekhi esubtitle)
+NoChapters=(Hapana zvitsauko)
+OpenDVD=Vhura DVD
+OpenBluray=Vhura Blu-ray
+OpenFolder=Vhura Foldha
+
+; File filters
+ScreenshotFilter=Mufananidzo we PNG|*.png|Mufananidzo we JPEG|*.jpg|Mufananidzo we WebP|*.webp
+DVDFilter=Foldha ye DVD|*.;*.iso|Mafaira ese (*.*)|*.*
+BlurayFilter=Foldha ye Blu-ray|*.;*.iso|Mafaira ese (*.*)|*.*
+NoDVD=(Hapana DVD yakaiswa)
+DVDTitle=Musoro %d
+GotoTime=Enda kuNguva
+EnterTime=Pinda nguva yaunoda kuenda:
+Hours=Maawa
+Minutes=Maminetsi
+Seconds=Masekondi
+Current=Parizvino:
+HistoryTitle=Nhoroondo yeKuridza
+HistoryItems=zvinhu %d munhoroondo
+HistoryPlay=&Ridza
+HistoryRemove=&Bvisa muNhoroondo
+HistoryClear=&Dzima Nhoroondo Yese
+HistoryOpenFolder=Vhura &Foldha
+HistoryCopyPath=&Kopira Nzira
+ClearHistory=Dzima Nhoroondo
+ClearHistoryConfirm=Une chokwadi chekuti unoda kudzima nhoroondo yese?
+SleepTimerTitle=Nguva yeKurara
+SleepTimerDescription=Isa nguva yekumisa kuridza zvega
+SleepTimerHours=Maawa
+SleepTimerMinutes=Maminetsi
+SleepTimerQuickSet=Isa Nekukurumidza
+SleepTimerAction=Kana nguva yapera
+SleepTimerStopPlayback=Misa kuridza
+SleepTimerCloseApp=Vhara chirongwa
+SleepTimerShutdown=Dzima komputa
+SleepTimerStart=Tanga Nguva
+
+[Status]
+Ready=Yakagadzirwa
+Opening=Kuvhura...
+Playing=Kuridza
+Paused=Yamira
+Stopped=Yamira
+Error=Zvikanganiso
+Buffering=Kugadzira...
+Seeking=Kutsvaka...
+Recording=Kurekodha
+
+[Message]
+SpeedFormat=Kumhanya: %.2fx
+VolumeFormat=Inzwi: %d%%
+BrightnessFormat=Kujeka: %d
+ContrastFormat=Musiyano: %d
+SaturationFormat=Saturation: %d
+HueFormat=Hue: %d
+GammaFormat=Gamma: %d
+ColorsReset=Mavara evhidhiyo adzoswa
+LoopASet=Loop A yaiswa pa %s
+LoopBSet=Loop B yaiswa pa %s - Loop iri kushanda
+LoopCleared=Loop A-B yadzimwa
+SetAFirst=Isa poyindi A kutanga (dzvanya L)
+RotationFormat=Kutenderera: %d°
+FlipHOn=Shandura horizontale: YAKAVHURIWA
+FlipHOff=Shandura horizontale: YAKAVHARWA
+FlipVOn=Shandura vertikale: YAKAVHURIWA
+FlipVOff=Shandura vertikale: YAKAVHARWA
+DeinterlaceOn=Deinterlace: YAKAVHURIWA
+DeinterlaceOff=Deinterlace: YAKAVHARWA
+AlwaysOnTopOn=Nguva dzese pamusoro: YAKAVHURIWA
+AlwaysOnTopOff=Nguva dzese pamusoro: YAKAVHARWA
+WindowFitted=Windo rakaiswa ku %dx%d
+WindowScale=Chiyero chewindo: %.0f%%
+ScreenshotSaved=Mufananidzo wesikirini wachengetedzwa: %s
+AudioNormalizeOn=Enzanisa rwiyo: YAKAVHURIWA
+AudioNormalizeOff=Enzanisa rwiyo: YAKAVHARWA
+AudioDelayFormat=Kunonoka kwerwiyo: %.1f s
+SubtitleDelayFormat=Kunonoka kwesubtitle: %.1f s
+ZoomFormat=Zoom: %.0f%%
+PanCenter=Pan: Pakati
+PanFormat=Pan: X=%.0f%% Y=%.0f%%
+NoVideoLoaded=Hapana vhidhiyo yakaiswa
+PlayingFromClipboard=Kuridza kubva clipboard: %s
+ClipboardInvalid=Clipboard haina URL kana nzira yakakodzera
+ClipboardEmpty=Clipboard haina chinhu kana haina mavara
+ResumedAt=Yaenderera pa %s
+FrameStepForward=Nhanho yefremu mberi
+FrameStepBackward=Nhanho yefremu shure
+PreviousChapter=Chitsauko chapfuura
+NextChapter=Chitsauko chinotevera
+PlayingRadio=Kuridza redhiyo: %s
+PlayingDVD=Kuridza DVD: %s
+PlayingBluray=Kuridza Blu-ray: %s
+DVDTitlePlaying=Musoro we DVD %d
+SeekTo=Kuenda ku %s
+MinimizedToTray=Yaderedzwa ku tray. Dzvanya kaviri kudzosera.
+SleepTimerSet=Nguva yekurara yaiswa: %s
+SleepTimerCancelled=Nguva yekurara yakanzurwa
+SleepTimerWarning=Nguva yekurara: mineti 1 yasara
+SleepTimerFinal=Nguva yekurara: masekondi 10 asara
+SleepTimerStopped=Nguva yekurara: Kuridza kwamira
+SleepTimerClosing=Nguva yekurara: Kuvhara chirongwa
+SleepTimerShutdown=Nguva yekurara: Kudzima komputa
+SleepTimerExpired=Nguva yeKurara Yapera
+ShutdownManual=Ndapota dzima komputa yako nemaoko.
+
+; Phase 21: Open Folder
+FolderOpened=Foldha yavhurwa: mafaira %d
+NoMediaFound=Hapana mafaira emedia akawanikwa
+FilesAdded=Mafaira %d awedzerwa kurondedzero
+
+; Phase 27: Recording messages
+RecordNeedPlayback=Tanga kuridza usati warekodha.
+RecordingStarted=Kurekodha kwatanga
+RecordingStopped=Kurekodha kwamira
+
+; Additional status messages
+EndOfPlaylist=Kupera kwerondedzero
+NoMediaLoaded=Hapana faira remedia rakaiswa.
+JumpedToNamed=Wasvetukira ku: %s
+ChapterFormat=Chitsauko %d (%s)
+ChapterWithTitle=%d. %s (%s)
+BookmarkDefaultName=Chiratidzo pa %s
+
+[Label]
+Muted=Yanyararadzwa
+
+[Button]
+Play=Ridza
+Pause=Mira
+Stop=Misa
+Previous=Yapfuura
+Next=Inotevera
+Mute=Nyararidza
+Unmute=Vhura Inzwi
+Fullscreen=Sikirini Yakazara
+OK=Zvakanaka
+Cancel=Kanzura
+Apply=Shandisa
+Close=Vhara
+Yes=Hongu
+No=Kwete
+
+[Tooltip]
+Play=Ridza/Mira
+Stop=Misa kuridza
+Previous=Tirekhi yapfuura
+Next=Tirekhi inotevera
+Mute=Chinja nyararidza
+Volume=Inzwi
+Seek=Nzvimbo yekutsvaka
+Fullscreen=Chinja sikirini yakazara
+
+[Playlist]
+Title=Rondedzero yeNziyo
+Add=Wedzera
+Remove=Bvisa
+Clear=Dzima
+MoveUp=Enda Kumusoro
+MoveDown=Enda Pasi
+Shuffle=Sanganisa
+Repeat=Dzokorora
+Play=Ridza
+ShuffleOn=Sanganisa: Yakavhuriwa
+ShuffleOff=Sanganisa: Yakavharwa
+RepeatOff=Dzokorora: Yakavharwa
+RepeatOne=Dzokorora: Imwe
+RepeatAll=Dzokorora: Dzese
+SavePlaylist=Chengetedza
+LoadPlaylist=Isa
+TotalDuration=Zvese: %s
+ItemCount=zvinhu %d
+
+; Phase 22: Playlist Enhancements
+Search=Tsvaka:
+FilterPlaceholder=Sefa rondedzero...
+ClearSearch=Dzima
+FilterCount=%d/%d
+RemoveDuplicates=Bvisa &Zvakafanana
+Properties=Zvi&miro...
+NoDuplicates=Hapana zvakafanana zvakawanikwa.
+DuplicatesFound=Zvakafanana %d zvakawanikwa. Zvibvise?
+RemoveDuplicatesTitle=Bvisa Zvakafanana
+PropertiesTitle=Zvimiro zveRondedzero
+PropTotalItems=Zvinhu zvese: %d
+PropTotalDuration=Nguva yese: %s
+PropPlayed=Zvakaridzwa: %d
+PropUnplayed=Zvisina kuridzwa: %d
+PropTotalSize=Hukuru hwese: %.2f MB
+PropShuffle=Sanganisa: %s
+PropRepeat=Dzokorora: %s
+On=Yakavhuriwa
+Off=Yakavharwa
+
+; New keys for ApplyLocale
+ClearTitle=Dzima Rondedzero
+ClearConfirm=Une chokwadi chekuti unoda kudzima rondedzero?
+NoPlaylist=Hapana rondedzero
+StatusFormat=zvinhu %d | Zvese: %s
+RepeatOne=Dzok. 1
+RepeatAll=Dzok. Dzese
+HintRepeatEnable=Dzvanya kutanga Dzokorora Dzese
+HintRepeatOne=Dzokorora Imwe - Dzvanya kumisa
+HintRepeatAll=Dzokorora Dzese - Dzvanya ku Dzokorora Imwe
+HintShuffleRepeat=Sanganisa + Dzokorora Dzese - Dzvanya kumisa dzokorora
+RemoveDuplicatesTitle=Bvisa Zvakafanana
+NoDuplicates=Hapana zvakafanana zvakawanikwa.
+SelectAll=Sarudza Zvese
+SelectNone=Sarudza Hapana
+SelectInvert=Shandura Kusarudza
+Sort=Ronga
+SortByName=NeZita
+SortByTitle=NeMusoro
+SortByArtist=NeMusiki
+SortByDuration=NeNguva
+SortReverse=Shandura
+SortRandom=Sanganisa
+ColTitle=Musoro
+ColDuration=Nguva
+ColArtist=Musiki
+ColAlbum=Albamu
+PlaylistFilter=M3U Rondedzero|*.m3u|M3U8 Rondedzero|*.m3u8|PLS Rondedzero|*.pls
+
+[Equalizer]
+Title=Equalizer
+Presets=Zvagadzirirwa:
+Preamp=Preamp:
+Flat=Flat
+Rock=Rock
+Pop=Pop
+Jazz=Jazz
+Classical=Chekare
+BassBoost=Bass Boost
+TrebleBoost=Treble Boost
+Vocal=Inzwi
+Reset=Dzosera
+Enable=Bvumira Equalizer
+Save=Chengetedza
+Delete=Dzima
+Ready=Yakagadzirwa
+; Buttons and actions
+SavePreset=Chengetedza Chagadzirirwa
+DeletePreset=Dzima Chagadzirirwa
+SavePresetTitle=Chengetedza Chagadzirirwa
+PresetNamePrompt=Zita rechagadzirirwa:
+EnterPresetName=Ndapota pinda zita rechagadzirirwa.
+OverwritePresetTitle=Nyora Pamusoro peChagadzirirwa
+OverwritePresetConfirm=Chagadzirirwa chine zita iri chatove. Nyora pamusoro?
+PresetUpdated=Chagadzirirwa chavandudzwa: %s
+PresetSaved=Chagadzirirwa chachengetedzwa: %s
+SelectPresetToDelete=Ndapota sarudza chagadzirirwa chaunoda kubvisa.
+CannotDeleteDefault=Haukwanisi kubvisa zvagadzirirwa zvekutanga.
+DeletePresetTitle=Dzima Chagadzirirwa
+DeletePresetConfirm=Une chokwadi chekuti unoda kubvisa chagadzirirwa ichi?
+PresetDeleted=Chagadzirirwa chabviswa
+ResetToFlat=Equalizer yadzoswa flat
+PresetApplied=Chagadzirirwa chashandiswa: %s
+
+[Options]
+Title=Sarudzo
+General=Zvese
+Video=Vhidhiyo
+Audio=Rwiyo
+Subtitles=Subtitle
+Cache=Cache
+Language=Mutauro:
+RestartRequired=Kutanga patsva kunodiwa kuti shanduko dzishande
+
+; General tab - Behavior
+Behavior=Maitiro
+SingleInstance=Bvumira imwe chete
+AutoPlay=Ridza zvega kana uchivhura
+AutoResume=Enderera nzvimbo yekuridza
+MinimizeToTray=Deredza ku tray
+AutoSavePlaylist=Chengetedza rondedzero kana uchibuda
+
+; General tab - OSD
+OSD=Kuratidza paSikirini
+ShowOSD=Ratidza mashoko esikirini
+ShowTrayIcon=Ratidza mufananidzo wetray
+OSDDuration=Nguva ye OSD (ms):
+
+; General tab - Screenshots
+Screenshots=Mifananidzo yeSikirini
+ScreenshotPath=Foldha yekuchengetedza:
+ScreenshotFormat=Fomu:
+
+; General tab - History
+HistorySettings=Nhoroondo
+HistoryEnabled=Bvumira nhoroondo yekuridza
+HistoryMaxItems=Nhamba huru:
+
+; General tab - Language
+LanguageGroup=Mutauro
+RestartNote=(Kutanga patsva kunodiwa neshanduko)
+
+; Video tab
+VideoAdjust=Kushanduka kweVhidhiyo
+Brightness=Kujeka:
+Contrast=Musiyano:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+VideoOutput=Vhidhiyo Inobuda
+Output=Inobuda:
+HWAccel=Bvumira hardware acceleration
+Deinterlacing=Deinterlacing
+Mode=Nzira:
+
+; Audio tab
+AudioOutput=Rwiyo Rinobuda
+OutputDriver=Mudhiraivha anobuda:
+Device=Mudziyo:
+AudioOptions=Sarudzo dzeRwiyo
+NormalizeAudio=Enzanisa inzwi rerwiyo
+Channels=Zviteshi:
+
+; Subtitles tab
+UseDefaultSubtitles=Shandisa zvagadzirirwa zvesubtitle zvekutanga
+Font=Fonti
+FontName=Fonti:
+FontSize=Hukuru:
+FontColor=Vhara:
+Bold=Bold
+Italic=Italic
+Outline=Muganhu
+OutlineColor=Vhara:
+OutlineSize=Hukuru:
+Position=Nzvimbo
+VerticalPosition=Nzvimbo yevertikale:
+SubOptions=Sarudzo
+Encoding=Encoding:
+AutoLoadSubs=Isa mafaira esubtitle zvega
+
+; Video output warnings
+VOWarningX11=Yambiro: x11 haitsigire kushanduka kwevhidhiyo (kujeka, musiyano, nezvimwe.)
+VOWarningWayland=Yambiro: Inoda Wayland session. Kushanduka kwevhidhiyo kunotsigirwa.
+
+; Cache tab
+CacheSettings=Hukuru hwe Cache Buffer (KB)
+CacheDefault=Cache yekutanga:
+CacheLocal=Mafaira ekumusha:
+CacheNetwork=Mafaira enetiweki:
+CacheInternet=Zvirefu zveInternet:
+CacheDVD=DVD:
+CacheCDROM=CD-ROM:
+
+[About]
+Title=Nezvekuti
+Version=Shanduro
+Engine=Injini
+Technology=Tekinoroji
+BuildInfo=Ruzivo rwekuVaka
+SystemInfo=Sisitimu
+Credits=Kutenda
+Developer=Mugadziri:
+Author=Munyori
+License=Raisenzi
+Website=Webhusaiti
+GitHub=GitHub
+Description=Muridzi wemedia akanaka, akareruka
+LicenseText=3nity Media ine raisenzi ye GPL-2.0\n\nIzvi zvinoreva kuti unekodzero yeku:\n  - Shandisa sofuwea nechinangwa chipi zvacho\n  - Dzidza uye shandura kodhi yemavambo\n  - Govera makopi esofuwea\n  - Govera shanduko dzako\n\nNemutemo wekuti shanduko dzese dzinogorerwa\ndzine raisenzi ye GPL-2.0.
+BuildDate=Zuva:
+Target=Chinangwa:
+Kernel=Kernel:
+
+[Shortcuts]
+Title=Zvipfupiso zveKibhodhi
+Description=Ronga zvipfupiso zvekibhodhi zvezviito
+Search=Tsvaka:
+PressKey=Dzvanya kiyi...
+ColCategory=Chikwata
+ColAction=Chiito
+ColShortcut=Chipfupiso
+Assign=Isa
+Clear=Dzima
+Reset=Dzosera
+ResetAll=Dzosera Zvese
+CurrentShortcut=Parizvino: %s
+NoKeyPressed=Ndapota dzvanya kiyi kutanga.
+Conflict=Kupesana: Yatoiswa ku "%s"
+ConfirmReplace=Shandura Chipfupiso
+ReplaceMessage=Chipfupiso ichi chatoiswa ku "%s". Unoda kuchishandura?
+ConfirmResetAll=Dzosera Zvipfupiso Zvese
+ResetAllMessage=Une chokwadi chekuti unoda kudzosera zvipfupiso zvese zvekutanga?
+; Action names
+ActPlayPause=Ridza / Mira
+ActStop=Misa
+ActPrevious=Yapfuura
+ActNext=Inotevera
+ActSeekForward=Tsvaka Mberi (10s)
+ActSeekBackward=Tsvaka Shure (10s)
+ActSeekForward5=Tsvaka Mberi (1 min)
+ActSeekBackward5=Tsvaka Shure (1 min)
+ActSpeedUp=Wedzera Kumhanya
+ActSpeedDown=Deredza Kumhanya
+ActSpeedReset=Dzosera Kumhanya
+ActSetLoopA=Isa Loop A
+ActSetLoopB=Isa Loop B
+ActClearLoop=Dzima Loop A-B
+ActFrameForward=Fremu Mberi
+ActFrameBackward=Fremu Shure
+ActPrevChapter=Chitsauko Chapfuura
+ActNextChapter=Chitsauko Chinotevera
+ActGotoTime=Enda kuNguva
+ActVolumeUp=Wedzera Inzwi
+ActVolumeDown=Deredza Inzwi
+ActMute=Nyararidza / Vhura
+ActAudioDelayPlus=Kunonoka kweRwiyo +
+ActAudioDelayMinus=Kunonoka kweRwiyo -
+ActAudioDelayReset=Dzosera Kunonoka kweRwiyo
+ActFullscreen=Sikirini Yakazara
+ActRotate=Tenderedza Vhidhiyo
+ActDeinterlace=Deinterlace
+ActZoomIn=Zoom Mukati
+ActZoomOut=Zoom Kunze
+ActZoomReset=Dzosera Zoom
+ActAlwaysOnTop=Nguva Dzese Pamusoro
+ActFitToVideo=Isa ku Vhidhiyo
+ActScreenshot=Mufananidzo weSikirini
+ActVideoAdjust=Kushanduka kweVhidhiyo
+ActVisNextMode=Nzira yeKuratidza Inotevera
+ActVisNextColor=Mavara Anotevera
+ActSubDelayPlus=Kunonoka kweSubtitle +
+ActSubDelayMinus=Kunonoka kweSubtitle -
+ActSubDelayReset=Dzosera Kunonoka kweSubtitle
+ActDVDMenu=Menu ye DVD
+ActDVDUp=DVD Kumusoro
+ActDVDDown=DVD Pasi
+ActDVDLeft=DVD Kuruboshwe
+ActDVDRight=DVD Kurudyi
+ActDVDSelect=DVD Sarudza
+ActOpenFile=Vhura Faira
+ActOpenURL=Vhura URL
+ActPlaylist=Ratidza Rondedzero
+ActQuit=Buda
+
+[Log]
+; Phase 25: Log Window
+Title=Log ye MPV
+Command=Murairo:
+Clear=Dzima
+Save=Chengetedza...
+Copy=&Kopira
+SelectAll=Sarudza &Zvese
+SaveTitle=Chengetedza Log
+SaveFilter=Mafaira emavara (*.txt)|*.txt|Mafaira ese (*.*)|*.*
+ErrorTitle=Zvikanganiso
+SaveError=Kuchengetedza log kwakundikana: %s
+
+[MediaInfo]
+Title=Ruzivo rweMedia
+FileTab=Faira
+VideoTab=Vhidhiyo
+AudioTab=Rwiyo
+MetadataTab=Metadata
+FileName=Zita reFaira:
+FilePath=Nzira:
+FileSize=Hukuru:
+Duration=Nguva:
+Format=Fomu:
+Bitrate=Bitrate:
+Codec=Codec:
+Resolution=Resolution:
+FrameRate=Frame Rate:
+PixelFormat=Fomu yePixel:
+AspectRatio=Chiyero:
+Channels=Zviteshi:
+SampleRate=Sample Rate:
+Language=Mutauro:
+Property=Chimiro
+Value=Kukosha
+CopyAll=Kopira Zvese
+CopiedToClipboard=Ruzivo rwemedia rwakopirwa ku clipboard.
+NA=N/A
+NAStream=N/A (stream)
+NALive=N/A (live)
+ChannelMono=1 (Mono)
+ChannelStereo=2 (Stereo)
+Channel51=6 (5.1 Surround)
+Channel71=8 (7.1 Surround)
+Unknown=Haizivikanwi
+NoMetadata=(Hapana metadata)
+
+[Bookmarks]
+Title=Zviratidzo
+Goto=Enda ku
+Remove=Bvisa
+Clear=Dzima Zvese
+Refresh=Shandudza
+OpenFolder=Vhura Foldha
+CopyPath=Kopira Nzira
+; Columns
+ColName=Zita
+ColFile=Faira
+ColPosition=Nzvimbo
+ColCreated=Yakagadzirwa
+; Dialogs
+ClearTitle=Dzima Zviratidzo
+ClearConfirm=Une chokwadi chekuti unoda kudzima zviratidzo zvese?
+Count=zviratidzo %d
+
+[Favorites]
+Title=Zvinofarirwa
+Play=Ridza
+Remove=Bvisa
+Clear=Dzima Zvese
+Refresh=Shandudza
+OpenFolder=Vhura Foldha
+CopyPath=Kopira Nzira
+; Columns
+ColName=Zita
+ColType=Mhando
+ColPath=Nzira
+; Types
+TypeFile=Faira
+TypeURL=URL
+TypeRadio=Redhiyo
+TypeDVD=DVD
+TypeBluray=Blu-ray
+TypeUnknown=Haizivikanwi
+; Dialogs
+ClearTitle=Dzima Zvinofarirwa
+ClearConfirm=Une chokwadi chekuti unoda kudzima zvinofarirwa zvese?
+Count=zvinofarirwa %d
+
+[History]
+Title=Nhoroondo yeKuridza
+Play=Ridza
+Remove=Bvisa
+Clear=Dzima Zvese
+Refresh=Shandudza
+OpenFolder=Vhura Foldha
+CopyPath=Kopira Nzira
+; Columns
+ColFileName=Faira
+ColPath=Nzira
+; Dialogs
+ClearTitle=Dzima Nhoroondo
+ClearConfirm=Une chokwadi chekuti unoda kudzima nhoroondo yese?
+Count=zvinhu %d
+
+[SleepTimer]
+Title=Nguva yeKurara
+Description=Isa nguva yekumisa kuridza zvega
+Hours=Maawa:
+Minutes=Maminetsi:
+Action=Kana nguva yapera:
+StopPlayback=Misa kuridza
+CloseApp=Vhara chirongwa
+Shutdown=Dzima komputa
+QuickSet=Isa nekukurumidza:
+15Min=15 min
+30Min=30 min
+1Hour=1 awa
+2Hours=2 maawa
+
+[Radios]
+Title=Maredhi ye Internet
+Play=Ridza
+Add=Wedzera
+Edit=Shandura
+Delete=Dzima
+Remove=Bvisa
+Import=Isa
+Export=Budisa
+Refresh=Shandudza
+Favorite=Inofarirwa
+ShowFavorites=Zvinofarirwa
+ShowAll=Zvese
+; Filter
+Genre=Mhando:
+Search=Tsvaka:
+SearchBtn=Tsvaka
+ClearSearch=Dzima
+AllGenres=(Mhando Dzese)
+; Context menu
+AddFavorite=Wedzera ku Zvinofarirwa
+RemoveFavorite=Bvisa ku Zvinofarirwa
+AddCustom=Wedzera Chiteshi...
+EditCustom=Shandura Chiteshi...
+DeleteCustom=Dzima Chiteshi
+OpenWebsite=Vhura Webhusaiti
+CopyURL=Kopira URL
+; Columns
+ColName=Zita
+ColGenre=Mhando
+ColBitrate=Bitrate
+ColCountry=Nyika
+ColCodec=Codec
+; Dialogs
+AddTitle=Wedzera Chiteshi
+EditTitle=Shandura Chiteshi
+DeleteTitle=Dzima Chiteshi
+DeleteConfirm=Une chokwadi chekuti unoda kubvisa chiteshi ichi?
+StationName=Zita reChiteshi:
+StreamURL=URL yeStream:
+GenrePrompt=Mhando:
+NameURLRequired=Zita ne URL zvinodiwa.
+; Status messages
+LoadingIcecast=Kuisa zviteshi kubva Icecast...
+IcecastError=Hakukwanisiki kuisa Icecast. Kushandisa zviteshi zvekutanga.
+NoStationsLoaded=Hapana zviteshi zvakaiswa
+StationCount=zviteshi %d
+LoadedStations=Zviteshi %d zvakaiswa
+ErrorPrefix=Zvikanganiso:
+; Legacy keys
+Name=Zita
+URL=URL
+Bitrate=Bitrate
+Description=Tsananguro
+Country=Nyika
+
+[OpenURL]
+Title=Vhura URL
+Prompt=Pinda URL yemedia:
+
+[GotoTime]
+Title=Enda kuNguva
+EnterTime=Pinda nguva yaunoda kuenda:
+Hours=A
+Minutes=M
+Seconds=S
+Current=Parizvino:
+Duration=Nguva:
+
+[VideoAdjust]
+Title=Kushanduka kweVhidhiyo
+Brightness=Kujeka:
+Contrast=Musiyano:
+Saturation=Saturation:
+Hue=Hue:
+Gamma=Gamma:
+ResetAll=Dzosera Mavara Ese
+
+[CLI]
+; Mashoko eraini remurayiro
+Usage=Kushandiswa
+Arguments=[SARUDZO] [FAIRA|URL|FOLDA]
+Description=Mutambi wemamedia anoshanda pamaplatform akasiyana achishandisa libmpv.
+Options=SARUDZO
+Examples=MIENZANISO
+MoreInfo=Kuti uwane rumwe ruzivo, shanyira
+EnqueuedTo=Yakawedzerwa kumutsetse wechiitiko chiripo: %s
+SentTo=Yakatumirwa kuchiitiko chiripo: %s
+AlreadyRunning=3nity Media irikutoshanda.
+ErrorFileNotFound=Kukanganisa: Faira kana dhairekitori haina kuwanikwa: %s
+ErrorSubNotFound=Kukanganisa: Faira yemazwi pasi haina kuwanikwa: %s
