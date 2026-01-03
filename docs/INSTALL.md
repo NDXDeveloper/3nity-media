@@ -1,0 +1,538 @@
+# Installation Guide - 3nity Media
+
+This guide covers all installation methods for 3nity Media on Linux and Windows.
+
+## Table of Contents
+
+- [System Requirements](#system-requirements)
+- [Dependencies](#dependencies)
+- [Package Installation](#package-installation)
+  - [DEB (Ubuntu/Debian)](#deb-ubuntudebian)
+  - [RPM (Fedora/openSUSE)](#rpm-fedoraopensuse)
+  - [AppImage (Universal)](#appimage-universal)
+  - [Snap](#snap)
+  - [Flatpak](#flatpak)
+  - [Windows](#windows-1)
+- [Building from Source](#building-from-source)
+  - [Linux](#linux-build)
+  - [Windows](#windows-build)
+- [Post-Installation](#post-installation)
+- [Troubleshooting](#troubleshooting)
+- [Uninstallation](#uninstallation)
+
+---
+
+## System Requirements
+
+### Minimum
+- **OS**: Linux (kernel 4.15+) or Windows 10
+- **CPU**: x86_64 (64-bit)
+- **RAM**: 512 MB
+- **Disk**: 50 MB free space
+- **Display**: X11 or Wayland (Linux), DirectX 11 (Windows)
+
+### Recommended
+- **RAM**: 2 GB or more
+- **GPU**: Hardware video acceleration support (VA-API, VDPAU, or Vulkan)
+- **Audio**: PulseAudio, PipeWire, or ALSA (Linux)
+
+---
+
+## Dependencies
+
+### Linux - Debian/Ubuntu-based
+
+| Package | Purpose | Required |
+|---------|---------|----------|
+| `libmpv2` or `libmpv1` | Media playback engine | Yes |
+| `libqt5pas1` | Qt5 bindings for Pascal | Yes |
+| `ffmpeg` | Metadata extraction (ffprobe) | Yes |
+| `yt-dlp` | YouTube/streaming support | Recommended |
+
+Install all dependencies:
+```bash
+sudo apt update
+sudo apt install libmpv2 libqt5pas1 ffmpeg yt-dlp
+```
+
+If `libmpv2` is not available:
+```bash
+sudo apt install libmpv1 libqt5pas1 ffmpeg yt-dlp
+```
+
+### Linux - Fedora/RHEL-based
+
+| Package | Purpose | Required |
+|---------|---------|----------|
+| `mpv-libs` | Media playback engine | Yes |
+| `qt5-qtbase` | Qt5 framework | Yes |
+| `ffmpeg` | Metadata extraction (ffprobe) | Yes |
+| `yt-dlp` | YouTube/streaming support | Recommended |
+
+Install all dependencies:
+```bash
+# Enable RPM Fusion for ffmpeg
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+
+sudo dnf install mpv-libs qt5-qtbase ffmpeg yt-dlp
+```
+
+### Linux - openSUSE
+
+```bash
+sudo zypper install libmpv2 libQt5Core5 ffmpeg yt-dlp
+```
+
+### Windows
+
+Windows dependencies are bundled with the installer:
+- `libmpv-2.dll` - Media playback engine
+- `ffprobe.exe` - Metadata extraction
+
+Optional: Install [yt-dlp](https://github.com/yt-dlp/yt-dlp/releases) for YouTube support.
+
+---
+
+## Package Installation
+
+### DEB (Ubuntu/Debian)
+
+Supported distributions: Ubuntu 20.04+, Debian 11+, Linux Mint 20+, Pop!_OS, elementary OS
+
+**Method 1: Download and install**
+```bash
+# Download the package
+wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media_VERSION_amd64.deb
+
+# Install with dependencies
+sudo apt install ./3nity-media_VERSION_amd64.deb
+```
+
+**Method 2: Using dpkg**
+```bash
+# Install dependencies first
+sudo apt install libmpv2 libqt5pas1 ffmpeg
+
+# Install the package
+sudo dpkg -i 3nity-media_VERSION_amd64.deb
+
+# Fix any missing dependencies
+sudo apt install -f
+```
+
+### RPM (Fedora/openSUSE)
+
+Supported distributions: Fedora 38+, openSUSE Leap 15.5+, openSUSE Tumbleweed, RHEL 9+, CentOS Stream 9+
+
+**Fedora:**
+```bash
+# Download the package
+wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION-1.x86_64.rpm
+
+# Install with dependencies
+sudo dnf install ./3nity-media-VERSION-1.x86_64.rpm
+```
+
+**openSUSE:**
+```bash
+# Download the package
+wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION-1.x86_64.rpm
+
+# Install with dependencies
+sudo zypper install ./3nity-media-VERSION-1.x86_64.rpm
+```
+
+### AppImage (Universal)
+
+Works on any Linux distribution with FUSE support.
+
+```bash
+# Download
+wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-Media-VERSION-x86_64.AppImage
+
+# Make executable
+chmod +x 3nity-Media-VERSION-x86_64.AppImage
+
+# Run
+./3nity-Media-VERSION-x86_64.AppImage
+```
+
+**Optional: Desktop integration**
+```bash
+# Using AppImageLauncher (recommended)
+sudo apt install appimagelauncher  # Ubuntu/Debian
+sudo dnf install appimagelauncher  # Fedora
+
+# Or manually create a desktop entry
+mkdir -p ~/.local/share/applications
+cat > ~/.local/share/applications/3nity-media.desktop << 'EOF'
+[Desktop Entry]
+Type=Application
+Name=3nity Media
+Exec=/path/to/3nity-Media-VERSION-x86_64.AppImage %F
+Icon=3nity-media
+Categories=AudioVideo;Audio;Video;Player;
+MimeType=audio/*;video/*;
+EOF
+```
+
+### Snap
+
+```bash
+# From Snap Store (when published)
+sudo snap install 3nity-media
+
+# From downloaded file
+wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media_VERSION_amd64.snap
+sudo snap install --dangerous 3nity-media_VERSION_amd64.snap
+```
+
+### Flatpak
+
+```bash
+# Add Flathub (if not already done)
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# From downloaded file
+wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION.flatpak
+flatpak install 3nity-media-VERSION.flatpak
+```
+
+### Windows
+
+**Method 1: System installer (recommended)**
+
+Download and run `3nity-Media-Setup-VERSION.exe`
+- Requires administrator privileges
+- Installs to `C:\Program Files\3nity Media`
+- Creates Start Menu shortcuts
+- Optional desktop shortcut
+
+**Method 2: User installer (no admin required)**
+
+Download and run `3nity-Media-Setup-User-VERSION.exe`
+- No administrator privileges needed
+- Installs to `%LOCALAPPDATA%\Programs\3nity Media`
+- Creates user-specific shortcuts
+
+**Method 3: Portable**
+
+Download and extract `3nity-media-windows-portable-VERSION.zip`
+- No installation required
+- Run `3nity.exe` directly
+- Settings stored in the same folder
+
+---
+
+## Building from Source
+
+### Linux Build
+
+#### Prerequisites
+
+Install the Lazarus IDE and development dependencies:
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install \
+  lazarus-ide-qt5 \
+  lazarus-src \
+  lcl-qt5 \
+  lcl-utils \
+  fpc \
+  libqt5pas1 \
+  libqt5pas-dev \
+  libmpv-dev \
+  ffmpeg \
+  git \
+  make
+```
+
+**Fedora:**
+```bash
+sudo dnf install \
+  lazarus \
+  fpc \
+  fpc-src \
+  qt5-qtbase-devel \
+  mpv-libs-devel \
+  ffmpeg \
+  git \
+  make
+```
+
+**Arch Linux:**
+```bash
+sudo pacman -S lazarus fpc qt5pas mpv ffmpeg git make
+```
+
+#### Clone and Build
+
+```bash
+# Clone the repository
+git clone https://github.com/NDXDeveloper/3nity-media.git
+cd 3nity-media
+
+# Build using Makefile (recommended)
+make build-release
+
+# Or build using lazbuild directly
+cd src
+lazbuild --build-mode=Release TrinityMedia.lpi
+```
+
+The binary will be created at `bin/x86_64-linux/3nity-media`
+
+#### Build Options
+
+```bash
+# Debug build (with debug symbols)
+make build-app
+
+# Release build (optimized)
+make build-release
+
+# Clean and rebuild
+make rebuild
+
+# Build with specific version
+make release V=0.1.0
+
+# Show all available targets
+make help
+```
+
+### Windows Build
+
+#### Prerequisites
+
+1. **Install Lazarus**
+   - Download from [lazarus-ide.org](https://www.lazarus-ide.org/index.php?page=downloads)
+   - Or use Chocolatey: `choco install lazarus`
+
+2. **Install Git** (optional, for cloning)
+   - Download from [git-scm.com](https://git-scm.com/download/win)
+   - Or use Chocolatey: `choco install git`
+
+#### Build Steps
+
+```powershell
+# Clone the repository
+git clone https://github.com/NDXDeveloper/3nity-media.git
+cd 3nity-media\src
+
+# Build with lazbuild
+& "C:\lazarus\lazbuild.exe" --build-mode=Release TrinityMedia.lpi
+```
+
+The binary will be created at `bin\x86_64-win64\3nity.exe`
+
+#### Required DLLs
+
+Copy these files to the same folder as `3nity.exe`:
+
+1. **libmpv-2.dll**
+   - Download from [SourceForge mpv-player-windows](https://sourceforge.net/projects/mpv-player-windows/files/libmpv/)
+   - Extract and copy `libmpv-2.dll`
+
+2. **ffprobe.exe**
+   - Download from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/)
+   - Extract `ffprobe.exe` from the archive
+
+---
+
+## Post-Installation
+
+### First Launch
+
+1. Launch 3nity Media from your applications menu or command line
+2. On first run, default settings are created
+3. The application will detect your language from system settings
+
+### Configuration Location
+
+| Platform | Location |
+|----------|----------|
+| Linux | `~/.config/3nity-media/` |
+| Windows | `%APPDATA%\3nity-media\` |
+| Flatpak | `~/.var/app/com.ndxdev.3nity-media/config/` |
+| Snap | `~/snap/3nity-media/current/.config/` |
+
+Configuration files:
+- `config.ini` - General settings
+- `shortcuts.ini` - Custom keyboard shortcuts
+- `favorites.ini` - Favorite stations/files
+- `history.ini` - Playback history
+
+### File Associations
+
+**Linux (DEB/RPM):**
+File associations are automatically configured during installation.
+
+**Linux (AppImage/Portable):**
+```bash
+# Create MIME associations
+xdg-mime default 3nity-media.desktop audio/mpeg
+xdg-mime default 3nity-media.desktop video/mp4
+# Add more types as needed
+```
+
+**Windows:**
+Right-click a media file → Open with → Choose another app → Select 3nity → Check "Always use this app"
+
+### GPU Acceleration
+
+**Linux - VA-API (Intel/AMD):**
+```bash
+# Install VA-API drivers
+sudo apt install va-driver-all vainfo  # Ubuntu/Debian
+sudo dnf install libva-utils           # Fedora
+```
+
+**Linux - VDPAU (NVIDIA):**
+```bash
+# Install VDPAU drivers
+sudo apt install vdpau-driver-all vdpauinfo  # Ubuntu/Debian
+```
+
+---
+
+## Troubleshooting
+
+### "libmpv.so not found"
+
+The mpv library is missing. Install it:
+```bash
+# Ubuntu/Debian
+sudo apt install libmpv2
+
+# Fedora
+sudo dnf install mpv-libs
+```
+
+### "libQt5Pas.so not found"
+
+The Qt5 Pascal bindings are missing. Install them:
+```bash
+# Ubuntu/Debian
+sudo apt install libqt5pas1
+
+# Fedora - you may need to build from source or use AppImage
+```
+
+### No sound
+
+1. Check that PulseAudio/PipeWire is running:
+   ```bash
+   pactl info
+   ```
+
+2. Check volume levels:
+   ```bash
+   pavucontrol  # Install: apt install pavucontrol
+   ```
+
+3. Verify ALSA devices:
+   ```bash
+   aplay -l
+   ```
+
+### Video playback issues
+
+1. Check GPU acceleration:
+   ```bash
+   vainfo      # VA-API
+   vdpauinfo   # VDPAU
+   vulkaninfo  # Vulkan
+   ```
+
+2. Try software rendering:
+   - Options → Video → Hardware Decoding → Off
+
+### AppImage won't run
+
+Install FUSE:
+```bash
+# Ubuntu/Debian
+sudo apt install libfuse2
+
+# Fedora
+sudo dnf install fuse-libs
+```
+
+### Flatpak permission issues
+
+Grant additional permissions:
+```bash
+# Access to external drives
+flatpak override --user --filesystem=/media com.ndxdev.3nity-media
+
+# Access to network shares
+flatpak override --user --filesystem=/mnt com.ndxdev.3nity-media
+```
+
+---
+
+## Uninstallation
+
+### DEB
+```bash
+sudo apt remove 3nity-media
+sudo apt autoremove  # Remove unused dependencies
+```
+
+### RPM
+```bash
+# Fedora
+sudo dnf remove 3nity-media
+
+# openSUSE
+sudo zypper remove 3nity-media
+```
+
+### AppImage
+```bash
+rm ~/Applications/3nity-Media-*.AppImage
+rm ~/.local/share/applications/3nity-media.desktop
+```
+
+### Snap
+```bash
+sudo snap remove 3nity-media
+```
+
+### Flatpak
+```bash
+flatpak uninstall com.ndxdev.3nity-media
+```
+
+### Windows
+- **Installer version**: Control Panel → Programs → Uninstall "3nity Media"
+- **Portable version**: Delete the folder
+
+### Remove configuration (all platforms)
+
+```bash
+# Linux
+rm -rf ~/.config/3nity-media/
+
+# Windows (PowerShell)
+Remove-Item -Recurse "$env:APPDATA\3nity-media"
+```
+
+---
+
+## See Also
+
+- [User Guide](USER_GUIDE.md)
+- [CLI Parameters](CLI_PARAMETERS.md)
+- [Keyboard Shortcuts](SHORTCUTS.md)
+- [Configuration Guide](CONFIG.md)
+
+---
+
+## Version Information
+
+- **Last updated:** 2026-01-02
+- **Applies to:** 3nity Media v0.x and later
