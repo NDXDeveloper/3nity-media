@@ -421,12 +421,15 @@ jobs:
         # Copy RPM to current directory
         find ~/rpmbuild/RPMS -name "*.rpm" -exec cp {} . \;
 
-        # Rename to consistent format
+        # Rename to consistent format (only if different)
         RPM_FILE=$(ls *.rpm 2>/dev/null | head -1)
+        TARGET_NAME="3nity-media-${RPM_VERSION}-1.x86_64.rpm"
         if [ -n "$RPM_FILE" ]; then
-          mv "$RPM_FILE" "3nity-media-${RPM_VERSION}-1.x86_64.rpm"
+          if [ "$RPM_FILE" != "$TARGET_NAME" ]; then
+            mv "$RPM_FILE" "$TARGET_NAME"
+          fi
           echo "=== RPM package info ==="
-          rpm -qip "3nity-media-${RPM_VERSION}-1.x86_64.rpm" || true
+          rpm -qip "$TARGET_NAME" || true
         else
           echo "RPM build may have failed"
         fi
