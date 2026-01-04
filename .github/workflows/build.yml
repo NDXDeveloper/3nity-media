@@ -910,7 +910,7 @@ jobs:
 
         grade: stable
         confinement: strict
-        base: core22
+        base: core24
         architectures:
           - build-on: amd64
 
@@ -966,7 +966,7 @@ jobs:
               - libqt5core5t64
               - libqt5gui5t64
               - libqt5widgets5t64
-              - libqt5x11extras5
+              - libqt5x11extras5t64
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
