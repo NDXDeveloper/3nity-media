@@ -3,6 +3,7 @@
 ## Documentation
 
 - [README.md](/README.md) - Project overview and quick start
+- [INSTALL](/INSTALL) - Quick installation guide (included in releases)
 - [LICENSE](/LICENSE) - GPL-2.0 License
 - [SOMMAIRE.md](/SOMMAIRE.md) - This file
 

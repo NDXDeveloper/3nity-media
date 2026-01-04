@@ -1567,7 +1567,7 @@ jobs:
         cp windows-builds/*.zip release-assets/ || true
 
         # Documentation
-        cp INSTALL.txt release-assets/ || true
+        cp INSTALL release-assets/ || true
 
         # Create checksums
         cd release-assets
@@ -1678,7 +1678,7 @@ jobs:
           > **Note:** AppImage, Snap and Flatpak bundle their dependencies (including ffprobe).
 
           ### 📖 Full Installation Guide
-          See `INSTALL.txt` for detailed installation instructions including how to install prerequisites (sudo, snapd, flatpak) on all Linux distributions.
+          See `INSTALL` for detailed installation instructions including how to install prerequisites (sudo, snapd, flatpak) on all Linux distributions.
 
           ### ✅ Verification
           SHA256 checksums are available in `checksums.txt`.

@@ -86,6 +86,8 @@ On Linux, install dependencies with:
 sudo apt install libmpv2 libqt5pas1
 ```
 
+> **📖 Full Installation Guide:** See [docs/INSTALL.md](docs/INSTALL.md) for complete instructions including all Linux distributions, prerequisites (sudo, snapd, flatpak), and troubleshooting. Each release also includes an `INSTALL` file with quick reference commands.
+
 ---
 
 ## Building from Source
