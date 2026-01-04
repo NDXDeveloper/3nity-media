@@ -421,7 +421,7 @@ English is the default fallback language. It must always be present.
 | Package type | Locale path |
 |--------------|-------------|
 | Portable | `locale/` (next to exe) |
-| .deb / .rpm | `/usr/share/3nity-media/locale/` |
+| .deb | `/usr/share/3nity-media/locale/` |
 | Snap | `share/3nity-media/locale/` (relative to `$SNAP`) |
 | Flatpak | `/app/share/3nity-media/locale/` |
 | AppImage | `usr/share/3nity-media/locale/` (in AppDir) |

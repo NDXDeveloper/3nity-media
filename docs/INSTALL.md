@@ -9,7 +9,6 @@ This guide covers all installation methods for 3nity Media on Linux and Windows.
 - [Dependencies](#dependencies)
 - [Package Installation](#package-installation)
   - [DEB (Ubuntu/Debian)](#deb-ubuntudebian)
-  - [RPM (Fedora/openSUSE)](#rpm-fedoraopensuse)
   - [AppImage (Universal)](#appimage-universal)
   - [Snap](#snap)
   - [Flatpak](#flatpak)
@@ -95,29 +94,6 @@ If `libmpv2` is not available:
 sudo apt install libmpv1 libqt5pas1 ffmpeg yt-dlp
 ```
 
-### Linux - Fedora/RHEL-based
-
-| Package | Purpose | Required |
-|---------|---------|----------|
-| `mpv-libs` | Media playback engine | Yes |
-| `qt5-qtbase` | Qt5 framework | Yes |
-| `ffmpeg` | Metadata extraction (ffprobe) | Yes |
-| `yt-dlp` | YouTube/streaming support | Recommended |
-
-Install all dependencies:
-```bash
-# Enable RPM Fusion for ffmpeg
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-
-sudo dnf install mpv-libs qt5-qtbase ffmpeg yt-dlp
-```
-
-### Linux - openSUSE
-
-```bash
-sudo zypper install libmpv2 libQt5Core5 ffmpeg yt-dlp
-```
-
 ### Windows
 
 Windows dependencies are bundled with the installer:
@@ -153,56 +129,6 @@ sudo dpkg -i 3nity-media_VERSION_amd64.deb
 
 # Fix any missing dependencies
 sudo apt install -f
-```
-
-### RPM (Fedora/openSUSE)
-
-Supported distributions: Fedora 38+, openSUSE Leap 15.5+, openSUSE Tumbleweed, RHEL 9+, CentOS Stream 9+
-
-**Fedora:**
-```bash
-# Download the package
-wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION-1.x86_64.rpm
-
-# Install with dependencies
-sudo dnf install ./3nity-media-VERSION-1.x86_64.rpm
-```
-
-> **Note:** The package accepts both `ffmpeg` (from RPM Fusion) or `ffmpeg-free` (Fedora default). For full codec support, you can optionally install ffmpeg from RPM Fusion.
-
-**openSUSE:**
-
-> **Important:** FFmpeg is not in standard repos. Enable Packman first:
-> ```bash
-> # Leap
-> sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.5/ packman
-> # Tumbleweed
-> sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
-> sudo zypper dup --from packman --allow-vendor-change
-> ```
-
-```bash
-# Download the package
-wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION-1.x86_64.rpm
-
-# Install with dependencies
-sudo zypper install ./3nity-media-VERSION-1.x86_64.rpm
-```
-
-**RHEL/CentOS/Rocky/Alma:**
-
-> **Important:** FFmpeg is not in standard repos. Enable EPEL and RPM Fusion first:
-> ```bash
-> sudo dnf install epel-release
-> sudo dnf install --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm
-> ```
-
-```bash
-# Download the package
-wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION-1.x86_64.rpm
-
-# Install with dependencies
-sudo dnf install ./3nity-media-VERSION-1.x86_64.rpm
 ```
 
 ### AppImage (Universal)
@@ -476,7 +402,7 @@ Configuration files:
 
 ### File Associations
 
-**Linux (DEB/RPM):**
+**Linux (DEB):**
 File associations are automatically configured during installation.
 
 **Linux (AppImage/Portable):**
@@ -533,21 +459,6 @@ apt-cache depends 3nity-media
 sudo apt install --reinstall ./3nity-media_*_amd64.deb
 ```
 
-### RPM package issues
-
-```bash
-# Fedora - Fix dependency errors
-sudo dnf check
-sudo dnf distro-sync
-
-# openSUSE - Fix dependency errors
-sudo zypper verify
-sudo zypper install -f
-
-# Check installed dependencies
-rpm -qa | grep -E "mpv|qt5"
-```
-
 ### "libmpv.so not found"
 
 The mpv library is missing. Install it:
@@ -571,9 +482,9 @@ sudo apt install libqt5pas1
 
 # Check installation
 ldconfig -p | grep qt5pas
-
-# Fedora - you may need to build from source or use AppImage
 ```
+
+> **Note:** libQt5Pas is not available on Fedora/RHEL/openSUSE. Use AppImage or Flatpak instead.
 
 ### No sound
 
@@ -679,15 +590,6 @@ eventvwr.msc
 ```bash
 sudo apt remove 3nity-media
 sudo apt autoremove  # Remove unused dependencies
-```
-
-### RPM
-```bash
-# Fedora
-sudo dnf remove 3nity-media
-
-# openSUSE
-sudo zypper remove 3nity-media
 ```
 
 ### AppImage

@@ -39,27 +39,6 @@ sudo apt install ./3nity-media_*_amd64.deb
 
 
 # =============================================================================
-# LINUX - Install from RPM (Fedora/openSUSE/RHEL)
-# =============================================================================
-
-# Fedora (works out-of-box, accepts ffmpeg or ffmpeg-free)
-sudo dnf install ./3nity-media-*-1.x86_64.rpm
-
-# openSUSE - Enable Packman first (ffmpeg required)
-# Leap:
-sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.5/ packman
-# Tumbleweed:
-sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
-sudo zypper dup --from packman --allow-vendor-change
-sudo zypper install ./3nity-media-*-1.x86_64.rpm
-
-# RHEL/CentOS/Rocky/Alma - Enable EPEL + RPM Fusion first
-sudo dnf install epel-release
-sudo dnf install --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm
-sudo dnf install ./3nity-media-*-1.x86_64.rpm
-
-
-# =============================================================================
 # LINUX - AppImage
 # =============================================================================
 
@@ -190,12 +169,6 @@ sudo dnf install mpv-libs qt5-qtbase ffmpeg
 # DEB
 sudo apt remove 3nity-media
 
-# RPM (Fedora)
-sudo dnf remove 3nity-media
-
-# RPM (openSUSE)
-sudo zypper remove 3nity-media
-
 # Snap
 sudo snap remove 3nity-media
 
@@ -226,19 +199,6 @@ apt-cache depends 3nity-media
 
 ## DEB: Reinstall package
 sudo apt install --reinstall ./3nity-media_*_amd64.deb
-
-## RPM (Fedora): Fix dependency errors
-sudo dnf install -f
-# or
-sudo dnf check
-sudo dnf distro-sync
-
-## RPM (openSUSE): Fix dependency errors
-sudo zypper verify
-sudo zypper install -f
-
-## RPM: Check installed dependencies
-rpm -qa | grep -E "mpv|qt5"
 
 ## AppImage: Install FUSE if "AppImage not starting"
 # Ubuntu/Debian

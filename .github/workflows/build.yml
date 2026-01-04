@@ -264,178 +264,6 @@ jobs:
         echo "=== DEB package info ==="
         dpkg-deb --info "$DEB_FILE"
 
-    # =========================================================================
-    # RPM PACKAGE
-    # =========================================================================
-    - name: Build RPM package
-      run: |
-        VERSION="${{ steps.version.outputs.version }}"
-
-        # Install RPM build tools
-        sudo apt-get install -y rpm rpmbuild 2>/dev/null || sudo apt-get install -y rpm
-
-        # Sanitize version for RPM (no hyphens allowed)
-        RPM_VERSION=$(echo "${VERSION}" | tr '-' '.')
-
-        # Create RPM build structure
-        mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
-        mkdir -p ~/rpmbuild/BUILDROOT/3nity-media-${RPM_VERSION}-1.x86_64
-
-        # Create tarball for RPM source (including locale files)
-        mkdir -p 3nity-media-${RPM_VERSION}
-        mkdir -p 3nity-media-${RPM_VERSION}/locale
-        cp bin/x86_64-linux/${{ env.BINARY_NAME }} 3nity-media-${RPM_VERSION}/
-        cp README.md 3nity-media-${RPM_VERSION}/ 2>/dev/null || true
-        cp LICENSE* 3nity-media-${RPM_VERSION}/ 2>/dev/null || true
-        # Copy locale files
-        if [ -d "resources/locale" ]; then
-          cp resources/locale/*.lang 3nity-media-${RPM_VERSION}/locale/ 2>/dev/null || true
-        fi
-        tar -czf ~/rpmbuild/SOURCES/3nity-media-${RPM_VERSION}.tar.gz 3nity-media-${RPM_VERSION}
-
-        # Copy icons to SOURCES (all sizes)
-        for size in 16 24 32 48 64 128 256; do
-          if [ -f "resources/icons/${size}x${size}.png" ]; then
-            cp "resources/icons/${size}x${size}.png" "$HOME/rpmbuild/SOURCES/3nity-media-${size}.png"
-          fi
-        done
-
-        # Create desktop file for RPM
-        cat > ~/rpmbuild/SOURCES/3nity-media.desktop << 'EOF'
-        [Desktop Entry]
-        Version=1.0
-        Type=Application
-        Name=3nity Media
-        GenericName=Media Player
-        Comment=Modern multimedia player powered by libmpv
-        Exec=3nity-media %F
-        Icon=3nity-media
-        Terminal=false
-        Categories=AudioVideo;Audio;Video;Player;
-        MimeType=audio/*;video/*;
-        Keywords=media;player;audio;video;music;movie;stream;radio;
-        EOF
-
-        # Create RPM spec file
-        cat > ~/rpmbuild/SPECS/3nity-media.spec << EOF
-        Name:           3nity-media
-        Version:        ${RPM_VERSION}
-        Release:        1%{?dist}
-        Summary:        Modern multimedia player powered by libmpv
-        License:        GPL-2.0
-        URL:            https://github.com/NDXDeveloper/3nity-media
-        Source0:        %{name}-%{version}.tar.gz
-        Source1:        3nity-media.desktop
-        Source2:        3nity-media-16.png
-        Source3:        3nity-media-24.png
-        Source4:        3nity-media-32.png
-        Source5:        3nity-media-48.png
-        Source6:        3nity-media-64.png
-        Source7:        3nity-media-128.png
-        Source8:        3nity-media-256.png
-
-        BuildArch:      x86_64
-        AutoReqProv:    no
-
-        Requires:       mpv-libs >= 0.32
-        Requires:       qt5-qtbase >= 5.12
-        Requires:       (ffmpeg or ffmpeg-free)
-        Recommends:     yt-dlp
-
-        %description
-        3nity Media is a modern, lightweight media player built with
-        Lazarus/Free Pascal and powered by the libmpv engine.
-
-        Features include:
-        - Audio and video playback with libmpv
-        - Playlist management (M3U, PLS, XSPF)
-        - Internet radio streaming
-        - Audio equalizer
-        - Video adjustments
-        - Keyboard shortcuts
-        - Multi-language support (100+ languages)
-
-        %prep
-        %setup -q
-
-        %install
-        mkdir -p %{buildroot}%{_bindir}
-        mkdir -p %{buildroot}%{_datadir}/applications
-        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/16x16/apps
-        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/24x24/apps
-        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/32x32/apps
-        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/48x48/apps
-        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/64x64/apps
-        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/128x128/apps
-        mkdir -p %{buildroot}%{_datadir}/icons/hicolor/256x256/apps
-        mkdir -p %{buildroot}%{_datadir}/doc/%{name}
-        mkdir -p %{buildroot}%{_datadir}/%{name}/locale
-
-        install -m 755 3nity-media %{buildroot}%{_bindir}/3nity-media
-        ln -s 3nity-media %{buildroot}%{_bindir}/3nity
-        install -m 644 %{SOURCE1} %{buildroot}%{_datadir}/applications/3nity-media.desktop
-        install -m 644 %{SOURCE2} %{buildroot}%{_datadir}/icons/hicolor/16x16/apps/3nity-media.png 2>/dev/null || true
-        install -m 644 %{SOURCE3} %{buildroot}%{_datadir}/icons/hicolor/24x24/apps/3nity-media.png 2>/dev/null || true
-        install -m 644 %{SOURCE4} %{buildroot}%{_datadir}/icons/hicolor/32x32/apps/3nity-media.png 2>/dev/null || true
-        install -m 644 %{SOURCE5} %{buildroot}%{_datadir}/icons/hicolor/48x48/apps/3nity-media.png 2>/dev/null || true
-        install -m 644 %{SOURCE6} %{buildroot}%{_datadir}/icons/hicolor/64x64/apps/3nity-media.png 2>/dev/null || true
-        install -m 644 %{SOURCE7} %{buildroot}%{_datadir}/icons/hicolor/128x128/apps/3nity-media.png 2>/dev/null || true
-        install -m 644 %{SOURCE8} %{buildroot}%{_datadir}/icons/hicolor/256x256/apps/3nity-media.png 2>/dev/null || true
-
-        # Install locale files
-        if [ -d "locale" ]; then
-          install -m 644 locale/*.lang %{buildroot}%{_datadir}/%{name}/locale/ 2>/dev/null || true
-        fi
-
-        # Install documentation
-        install -m 644 README.md %{buildroot}%{_datadir}/doc/%{name}/ 2>/dev/null || true
-
-        %files
-        %{_bindir}/3nity-media
-        %{_bindir}/3nity
-        %{_datadir}/applications/3nity-media.desktop
-        %{_datadir}/icons/hicolor/16x16/apps/3nity-media.png
-        %{_datadir}/icons/hicolor/24x24/apps/3nity-media.png
-        %{_datadir}/icons/hicolor/32x32/apps/3nity-media.png
-        %{_datadir}/icons/hicolor/48x48/apps/3nity-media.png
-        %{_datadir}/icons/hicolor/64x64/apps/3nity-media.png
-        %{_datadir}/icons/hicolor/128x128/apps/3nity-media.png
-        %{_datadir}/icons/hicolor/256x256/apps/3nity-media.png
-        %dir %{_datadir}/%{name}
-        %dir %{_datadir}/%{name}/locale
-        %{_datadir}/%{name}/locale/*
-        %dir %{_datadir}/doc/%{name}
-        %doc %{_datadir}/doc/%{name}/*
-
-        %changelog
-        * $(date "+%a %b %d %Y") Nicolas DEOUX <NDXDev@gmail.com> - ${RPM_VERSION}-1
-        - Release ${RPM_VERSION}
-        EOF
-
-        # Build RPM
-        rpmbuild -bb ~/rpmbuild/SPECS/3nity-media.spec || {
-          echo "Standard rpmbuild failed, trying with --nodeps..."
-          rpmbuild -bb --nodeps ~/rpmbuild/SPECS/3nity-media.spec
-        }
-
-        # Copy RPM to current directory
-        find ~/rpmbuild/RPMS -name "*.rpm" -exec cp {} . \;
-
-        # Rename to consistent format (only if different)
-        RPM_FILE=$(ls *.rpm 2>/dev/null | head -1)
-        TARGET_NAME="3nity-media-${RPM_VERSION}-1.x86_64.rpm"
-        if [ -n "$RPM_FILE" ]; then
-          if [ "$RPM_FILE" != "$TARGET_NAME" ]; then
-            mv "$RPM_FILE" "$TARGET_NAME"
-          fi
-          echo "=== RPM package info ==="
-          rpm -qip "$TARGET_NAME" || true
-        else
-          echo "RPM build may have failed"
-        fi
-
-        ls -la *.rpm 2>/dev/null || echo "No RPM files found"
-
     - name: Create portable Linux archive
       run: |
         mkdir -p 3nity-media-linux-portable
@@ -1207,7 +1035,6 @@ jobs:
         name: linux-builds
         path: |
           3nity-media_*.deb
-          3nity-media-*.rpm
           3nity-media-linux-portable-*.tar.gz
           3nity-Media-*-x86_64.AppImage
           3nity-media_*_amd64.snap
@@ -1556,7 +1383,6 @@ jobs:
 
         # Linux builds
         cp linux-builds/*.deb release-assets/ || true
-        cp linux-builds/*.rpm release-assets/ || true
         cp linux-builds/*.tar.gz release-assets/ || true
         cp linux-builds/*.AppImage release-assets/ || true
         cp linux-builds/*.snap release-assets/ || true
@@ -1594,7 +1420,6 @@ jobs:
           | Format | File | Description |
           |--------|------|-------------|
           | **DEB** | `3nity-media_${{ needs.build-linux.outputs.version }}_amd64.deb` | Ubuntu, Debian, Linux Mint |
-          | **RPM** | `3nity-media-${{ needs.build-linux.outputs.version }}-1.x86_64.rpm` | Fedora, openSUSE, RHEL, CentOS |
           | **AppImage** | `3nity-Media-${{ needs.build-linux.outputs.version }}-x86_64.AppImage` | Universal, portable |
           | **Snap** | `3nity-media_${{ needs.build-linux.outputs.version }}_amd64.snap` | Snap Store compatible |
           | **Flatpak** | `3nity-media-${{ needs.build-linux.outputs.version }}.flatpak` | Flathub compatible |
@@ -1615,16 +1440,6 @@ jobs:
           ```bash
           wget https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/3nity-media_${{ needs.build-linux.outputs.version }}_amd64.deb
           sudo apt install ./3nity-media_${{ needs.build-linux.outputs.version }}_amd64.deb
-          ```
-
-          #### Linux - RPM (Fedora/openSUSE/RHEL)
-          ```bash
-          # Fedora
-          wget https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/3nity-media-${{ needs.build-linux.outputs.version }}-1.x86_64.rpm
-          sudo dnf install ./3nity-media-${{ needs.build-linux.outputs.version }}-1.x86_64.rpm
-
-          # openSUSE
-          sudo zypper install ./3nity-media-${{ needs.build-linux.outputs.version }}-1.x86_64.rpm
           ```
 
           #### Linux - AppImage
@@ -1670,12 +1485,8 @@ jobs:
           - `libmpv2` or `libmpv1` - Playback engine
           - `ffmpeg` - Metadata extraction (ffprobe)
 
-          #### RPM (Fedora/openSUSE)
-          - `qt5-qtbase` - Qt5 framework
-          - `mpv-libs` - Playback engine
-          - `ffmpeg` - Metadata extraction (ffprobe)
-
           > **Note:** AppImage, Snap and Flatpak bundle their dependencies (including ffprobe).
+          > For Fedora/openSUSE users, please use the AppImage or Flatpak version.
 
           ### 📖 Full Installation Guide
           See `INSTALL` for detailed installation instructions including how to install prerequisites (sudo, snapd, flatpak) on all Linux distributions.
