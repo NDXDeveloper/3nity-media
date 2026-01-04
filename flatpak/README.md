@@ -10,8 +10,8 @@ Install Flatpak and flatpak-builder on your system:
 # Ubuntu/Debian
 sudo apt install flatpak flatpak-builder
 
-# Fedora
-sudo dnf install flatpak flatpak-builder
+# Fedora (flatpak pre-installed, just add flatpak-builder)
+sudo dnf install flatpak-builder
 
 # Arch Linux
 sudo pacman -S flatpak flatpak-builder
@@ -19,6 +19,8 @@ sudo pacman -S flatpak flatpak-builder
 # openSUSE
 sudo zypper install flatpak flatpak-builder
 ```
+
+**Note:** After installing Flatpak for the first time, restart your session (log out and log in) or reboot.
 
 Add the Flathub repository and install the KDE SDK:
 

@@ -4,7 +4,30 @@ This directory contains the Snapcraft configuration for building the 3nity Media
 
 ## Prerequisites
 
-Install snapcraft:
+### Install snapd
+
+```bash
+# Ubuntu (pre-installed)
+
+# Debian
+sudo apt install snapd
+
+# Fedora
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+sudo systemctl enable --now snapd.socket
+
+# openSUSE
+sudo zypper install snapd
+sudo systemctl enable --now snapd
+
+# Arch Linux
+sudo pacman -S snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+```
+
+### Install snapcraft
 
 ```bash
 sudo snap install snapcraft --classic
