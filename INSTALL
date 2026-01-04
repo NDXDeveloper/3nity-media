@@ -42,7 +42,10 @@ sudo apt install ./3nity-media_*_amd64.deb
 # LINUX - Install from RPM (Fedora/openSUSE/RHEL)
 # =============================================================================
 
-# Fedora
+# Fedora - IMPORTANT: Enable RPM Fusion first (ffmpeg is required)
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+
+# Then install 3nity Media
 sudo dnf install ./3nity-media-*-1.x86_64.rpm
 
 # openSUSE
