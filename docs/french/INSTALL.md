@@ -171,12 +171,38 @@ sudo dnf install ./3nity-media-VERSION-1.x86_64.rpm
 > **Note :** Le paquet accepte `ffmpeg` (de RPM Fusion) ou `ffmpeg-free` (par défaut sur Fedora). Pour un support complet des codecs, vous pouvez optionnellement installer ffmpeg depuis RPM Fusion.
 
 **openSUSE :**
+
+> **Important :** FFmpeg n'est pas dans les dépôts standards. Activez Packman d'abord :
+> ```bash
+> # Leap
+> sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.5/ packman
+> # Tumbleweed
+> sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+> sudo zypper dup --from packman --allow-vendor-change
+> ```
+
 ```bash
 # Télécharger le paquet
 wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION-1.x86_64.rpm
 
 # Installer avec les dépendances
 sudo zypper install ./3nity-media-VERSION-1.x86_64.rpm
+```
+
+**RHEL/CentOS/Rocky/Alma :**
+
+> **Important :** FFmpeg n'est pas dans les dépôts standards. Activez EPEL et RPM Fusion d'abord :
+> ```bash
+> sudo dnf install epel-release
+> sudo dnf install --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm
+> ```
+
+```bash
+# Télécharger le paquet
+wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION-1.x86_64.rpm
+
+# Installer avec les dépendances
+sudo dnf install ./3nity-media-VERSION-1.x86_64.rpm
 ```
 
 ### AppImage (Universel)

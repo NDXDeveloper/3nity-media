@@ -42,12 +42,21 @@ sudo apt install ./3nity-media_*_amd64.deb
 # LINUX - Install from RPM (Fedora/openSUSE/RHEL)
 # =============================================================================
 
-# Fedora
+# Fedora (works out-of-box, accepts ffmpeg or ffmpeg-free)
 sudo dnf install ./3nity-media-*-1.x86_64.rpm
-# Note: Accepts both ffmpeg (RPM Fusion) or ffmpeg-free (Fedora default)
 
-# openSUSE
+# openSUSE - Enable Packman first (ffmpeg required)
+# Leap:
+sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.5/ packman
+# Tumbleweed:
+sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
+sudo zypper dup --from packman --allow-vendor-change
 sudo zypper install ./3nity-media-*-1.x86_64.rpm
+
+# RHEL/CentOS/Rocky/Alma - Enable EPEL + RPM Fusion first
+sudo dnf install epel-release
+sudo dnf install --nogpgcheck https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$(rpm -E %rhel).noarch.rpm
+sudo dnf install ./3nity-media-*-1.x86_64.rpm
 
 
 # =============================================================================
