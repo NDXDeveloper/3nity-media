@@ -1276,101 +1276,90 @@ jobs:
         Get-Item "3nity.exe" | Format-List Name, Length
 
     - name: Download Windows dependencies
+      shell: bash
       run: |
         # Create deps directory
-        New-Item -ItemType Directory -Force -Path "deps"
+        mkdir -p deps
 
-        Write-Host "=== Downloading libmpv ==="
-        # Download libmpv from SourceForge mpv-player-windows project
-        # We scrape the directory listing to find the latest mpv-dev-x86_64 build
-        $sfBaseUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/"
-        $mpvArchive = "deps\libmpv.7z"
+        echo "=== Downloading libmpv ==="
+        # Download libmpv from GitHub (shinchiro/mpv-winbuild-cmake releases)
+        # This is more reliable than SourceForge which has Cloudflare protection
 
-        try {
-          # Get directory listing to find latest version
-          Write-Host "Fetching SourceForge directory listing..."
-          $page = Invoke-WebRequest -Uri $sfBaseUrl -UserAgent "Mozilla/5.0"
+        # Get latest release info from GitHub API
+        RELEASE_INFO=$(curl -s "https://api.github.com/repos/shinchiro/mpv-winbuild-cmake/releases/latest")
 
-          # Find the latest mpv-dev-x86_64 file (not v3 for broader compatibility)
-          $pattern = 'mpv-dev-x86_64-\d{8}-git-[a-f0-9]+\.7z'
-          $matches = [regex]::Matches($page.Content, $pattern)
+        # Find mpv-dev-x86_64 asset (not v3 for broader compatibility)
+        MPV_URL=$(echo "$RELEASE_INFO" | grep -o '"browser_download_url": "[^"]*mpv-dev-x86_64-[^v][^"]*\.7z"' | head -1 | cut -d'"' -f4)
 
-          if ($matches.Count -gt 0) {
-            $latestFile = $matches[0].Value
-            $mpvUrl = "${sfBaseUrl}${latestFile}/download"
-            Write-Host "Found latest libmpv: $latestFile"
-          } else {
-            # Fallback to a known working version
-            $mpvUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/mpv-dev-x86_64-20251228-git-a58dd8a.7z/download"
-            Write-Host "Using fallback URL"
-          }
+        if [ -z "$MPV_URL" ]; then
+          # Try v3 version if standard not found
+          MPV_URL=$(echo "$RELEASE_INFO" | grep -o '"browser_download_url": "[^"]*mpv-dev-x86_64[^"]*\.7z"' | head -1 | cut -d'"' -f4)
+        fi
 
-          Write-Host "Downloading from: $mpvUrl"
-          Invoke-WebRequest -Uri $mpvUrl -OutFile $mpvArchive -UserAgent "Mozilla/5.0" -MaximumRedirection 10
-        } catch {
-          Write-Host "SourceForge download failed: $($_.Exception.Message)"
-          Write-Host "Trying fallback URL..."
-          $mpvUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/mpv-dev-x86_64-20251228-git-a58dd8a.7z/download"
-          Invoke-WebRequest -Uri $mpvUrl -OutFile $mpvArchive -UserAgent "Mozilla/5.0" -MaximumRedirection 10
-        }
+        if [ -z "$MPV_URL" ]; then
+          echo "ERROR: Could not find libmpv download URL"
+          echo "Available assets:"
+          echo "$RELEASE_INFO" | grep browser_download_url
+          exit 1
+        fi
+
+        echo "Downloading from: $MPV_URL"
+        curl -L -o deps/libmpv.7z "$MPV_URL"
 
         # Extract libmpv
-        7z x $mpvArchive -odeps\libmpv -y
+        7z x deps/libmpv.7z -odeps/libmpv -y
 
-        # Find and copy the DLL (should be libmpv-2.dll)
-        $mpvDll = Get-ChildItem -Path "deps\libmpv" -Recurse -Filter "libmpv*.dll" | Select-Object -First 1
-        if ($mpvDll) {
-          Copy-Item $mpvDll.FullName "." -Force
-          Write-Host "Copied: $($mpvDll.Name)"
-        } else {
-          Write-Host "ERROR: libmpv DLL not found in archive!"
-          Get-ChildItem -Path "deps\libmpv" -Recurse | Format-Table Name
+        # Find and copy the DLL
+        MPV_DLL=$(find deps/libmpv -name "libmpv*.dll" | head -1)
+        if [ -n "$MPV_DLL" ]; then
+          cp "$MPV_DLL" .
+          echo "Copied: $(basename $MPV_DLL)"
+        else
+          echo "ERROR: libmpv DLL not found in archive!"
+          find deps/libmpv -type f
           exit 1
-        }
+        fi
 
-        Write-Host "=== Downloading FFmpeg (ffprobe) ==="
+        echo "=== Downloading FFmpeg (ffprobe) ==="
         # Download FFmpeg essentials from gyan.dev (reliable source, includes ffprobe)
-        $ffmpegUrl = "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
-        $ffmpegArchive = "deps\ffmpeg.zip"
-
-        Invoke-WebRequest -Uri $ffmpegUrl -OutFile $ffmpegArchive
+        curl -L -o deps/ffmpeg.zip "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
 
         # Extract FFmpeg
-        Expand-Archive -Path $ffmpegArchive -DestinationPath "deps\ffmpeg" -Force
+        unzip -q deps/ffmpeg.zip -d deps/ffmpeg
 
         # Find and copy ffprobe.exe
-        $ffprobe = Get-ChildItem -Path "deps\ffmpeg" -Recurse -Filter "ffprobe.exe" | Select-Object -First 1
-        if ($ffprobe) {
-          Copy-Item $ffprobe.FullName "ffprobe.exe" -Force
-          Write-Host "ffprobe.exe copied from: $($ffprobe.FullName)"
-        } else {
-          Write-Host "ERROR: ffprobe.exe not found in archive!"
+        FFPROBE=$(find deps/ffmpeg -name "ffprobe.exe" | head -1)
+        if [ -n "$FFPROBE" ]; then
+          cp "$FFPROBE" ffprobe.exe
+          echo "ffprobe.exe copied from: $FFPROBE"
+        else
+          echo "ERROR: ffprobe.exe not found in archive!"
           exit 1
-        }
+        fi
 
-        Write-Host "=== Dependencies ready ==="
-        Get-ChildItem -Filter "*.dll" | Format-Table Name, Length
-        Get-ChildItem -Filter "*.exe" | Format-Table Name, Length
+        echo "=== Dependencies ready ==="
+        ls -la *.dll 2>/dev/null || echo "No DLLs found"
+        ls -la *.exe 2>/dev/null || echo "No EXEs found"
 
         # Copy locale files
-        Write-Host "=== Copying locale files ==="
-        if (Test-Path "resources\locale") {
-          New-Item -ItemType Directory -Force -Path "locale" | Out-Null
-          Copy-Item "resources\locale\*.lang" "locale\" -ErrorAction SilentlyContinue
-          $localeCount = (Get-ChildItem "locale\*.lang" -ErrorAction SilentlyContinue | Measure-Object).Count
-          Write-Host "Copied $localeCount locale files"
-        } else {
-          Write-Host "No locale directory found at resources\locale"
-        }
+        echo "=== Copying locale files ==="
+        if [ -d "resources/locale" ]; then
+          mkdir -p locale
+          cp resources/locale/*.lang locale/ 2>/dev/null || true
+          LOCALE_COUNT=$(ls locale/*.lang 2>/dev/null | wc -l)
+          echo "Copied $LOCALE_COUNT locale files"
+        else
+          echo "No locale directory found at resources/locale"
+        fi
 
         # Copy application icon
-        Write-Host "=== Copying application icon ==="
-        if (Test-Path "resources\icons\3nity-media.ico") {
-          Copy-Item "resources\icons\3nity-media.ico" "3nity-media.ico"
-          Write-Host "Copied 3nity-media.ico"
-        } else {
-          Write-Host "Warning: No .ico file found at resources\icons\3nity-media.ico"
-        }
+        echo "=== Copying application icon ==="
+        if [ -f "resources/icons/3nity-media.ico" ]; then
+          cp resources/icons/3nity-media.ico 3nity-media.ico
+          echo "Copied 3nity-media.ico"
+        else
+          echo "Warning: No .ico file found at resources/icons/3nity-media.ico"
+        fi
 
     - name: Create Windows installer script (Inno Setup)
       run: |
