@@ -803,6 +803,10 @@ jobs:
               - libmpv2
               - libqt5pas1
               - ffmpeg
+              - libpulse0
+              - libpulse-mainloop-glib0
+              - libblas3
+              - liblapack3
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
