@@ -4,6 +4,7 @@ Ce guide couvre toutes les méthodes d'installation de 3nity Media sur Linux et 
 
 ## Table des Matières
 
+- [Prérequis](#pr%C3%A9requis)
 - [Configuration Requise](#configuration-requise)
 - [Dépendances](#d%C3%A9pendances)
 - [Installation par Paquet](#installation-par-paquet)
@@ -19,6 +20,40 @@ Ce guide couvre toutes les méthodes d'installation de 3nity Media sur Linux et 
 - [Post-Installation](#post-installation)
 - [Dépannage](#d%C3%A9pannage)
 - [Désinstallation](#d%C3%A9sinstallation)
+
+---
+
+## Prérequis
+
+### Installer sudo (si non disponible)
+
+Certaines installations minimales n'incluent pas sudo. L'installer en tant que root :
+
+```bash
+# Debian (en tant que root)
+su -
+apt install sudo
+usermod -aG sudo votre_utilisateur
+# Déconnexion puis reconnexion
+
+# Arch Linux (en tant que root)
+su -
+pacman -S sudo
+echo "votre_utilisateur ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/votre_utilisateur
+# Déconnexion puis reconnexion
+
+# Fedora (en tant que root, si installation minimale)
+su -
+dnf install sudo
+usermod -aG wheel votre_utilisateur
+# Déconnexion puis reconnexion
+
+# openSUSE (en tant que root, si installation minimale)
+su -
+zypper install sudo
+usermod -aG wheel votre_utilisateur
+# Déconnexion puis reconnexion
+```
 
 ---
 
@@ -178,6 +213,31 @@ EOF
 
 ### Snap
 
+**Installer snapd d'abord (si non disponible) :**
+
+```bash
+# Ubuntu (pré-installé)
+
+# Debian
+sudo apt install snapd
+
+# Fedora
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+sudo systemctl enable --now snapd.socket
+
+# openSUSE
+sudo zypper install snapd
+sudo systemctl enable --now snapd
+
+# Arch Linux
+sudo pacman -S snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+```
+
+**Installer 3nity Media :**
+
 ```bash
 # Depuis le Snap Store (quand publié)
 sudo snap install 3nity-media
@@ -189,13 +249,34 @@ sudo snap install --dangerous 3nity-media_VERSION_amd64.snap
 
 ### Flatpak
 
-```bash
-# Ajouter Flathub (si pas déjà fait)
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+**Installer Flatpak d'abord (si non disponible) :**
 
-# Depuis un fichier téléchargé
+```bash
+# Ubuntu/Debian
+sudo apt install flatpak
+
+# Fedora (pré-installé)
+
+# Arch Linux
+sudo pacman -S flatpak
+
+# openSUSE
+sudo zypper install flatpak
+```
+
+> **Note :** Après avoir installé Flatpak pour la première fois, redémarrez votre session (déconnexion puis reconnexion) ou redémarrez le système.
+
+**Ajouter le dépôt Flathub :**
+
+```bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+**Installer 3nity Media :**
+
+```bash
 wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION.flatpak
-flatpak install 3nity-media-VERSION.flatpak
+flatpak install --user 3nity-media-VERSION.flatpak
 ```
 
 ### Windows
@@ -400,6 +481,45 @@ sudo apt install vdpau-driver-all vdpauinfo  # Ubuntu/Debian
 
 ## Dépannage
 
+### Général
+
+```bash
+# Vérifier si l'application est en cours d'exécution
+pgrep -a 3nity
+
+# Voir les logs
+journalctl -f | grep 3nity
+```
+
+### Problèmes de paquet DEB
+
+```bash
+# Corriger les erreurs de dépendances
+sudo apt-get install -f
+
+# Vérifier les dépendances installées
+dpkg -l | grep -E "libmpv|libqt5pas"
+apt-cache depends 3nity-media
+
+# Réinstaller le paquet
+sudo apt install --reinstall ./3nity-media_*_amd64.deb
+```
+
+### Problèmes de paquet RPM
+
+```bash
+# Fedora - Corriger les erreurs de dépendances
+sudo dnf check
+sudo dnf distro-sync
+
+# openSUSE - Corriger les erreurs de dépendances
+sudo zypper verify
+sudo zypper install -f
+
+# Vérifier les dépendances installées
+rpm -qa | grep -E "mpv|qt5"
+```
+
 ### "libmpv.so not found"
 
 La bibliothèque mpv est manquante. L'installer :
@@ -409,6 +529,9 @@ sudo apt install libmpv2
 
 # Fedora
 sudo dnf install mpv-libs
+
+# Vérifier l'installation
+ldconfig -p | grep mpv
 ```
 
 ### "libQt5Pas.so not found"
@@ -417,6 +540,9 @@ Les bindings Qt5 Pascal sont manquants. Les installer :
 ```bash
 # Ubuntu/Debian
 sudo apt install libqt5pas1
+
+# Vérifier l'installation
+ldconfig -p | grep qt5pas
 
 # Fedora - vous devrez peut-être compiler depuis les sources ou utiliser AppImage
 ```
@@ -455,21 +581,66 @@ sudo apt install libqt5pas1
 Installer FUSE :
 ```bash
 # Ubuntu/Debian
-sudo apt install libfuse2
+sudo apt install fuse libfuse2
 
 # Fedora
-sudo dnf install fuse-libs
+sudo dnf install fuse fuse-libs
+
+# Arch Linux
+sudo pacman -S fuse2
+
+# Alternative : exécuter avec extraction
+./3nity-Media-*-x86_64.AppImage --appimage-extract-and-run
 ```
 
-### Problèmes de permissions Flatpak
+### Problèmes Snap
 
-Accorder des permissions supplémentaires :
 ```bash
-# Accès aux disques externes
-flatpak override --user --filesystem=/media com.ndxdev.3nity-media
+# Vérifier les permissions
+snap connections 3nity-media
 
-# Accès aux partages réseau
-flatpak override --user --filesystem=/mnt com.ndxdev.3nity-media
+# Connecter les permissions manquantes
+sudo snap connect 3nity-media:audio-playback
+sudo snap connect 3nity-media:pulseaudio
+sudo snap connect 3nity-media:removable-media
+sudo snap connect 3nity-media:optical-drive
+
+# Voir les logs
+snap logs 3nity-media
+
+# Vérifier les problèmes de confinement
+journalctl -f | grep -i apparmor
+```
+
+### Problèmes Flatpak
+
+```bash
+# Installer le runtime manquant
+flatpak install flathub org.kde.Platform//6.8
+
+# Exécuter avec sortie de débogage
+flatpak run --verbose com.ndxdev.trinitymedia
+
+# Accorder l'accès aux disques externes
+flatpak override --user --filesystem=/media com.ndxdev.trinitymedia
+flatpak override --user --filesystem=/run/media com.ndxdev.trinitymedia
+
+# Entrer dans le shell pour débogage
+flatpak run --command=sh com.ndxdev.trinitymedia
+```
+
+### Problèmes Windows
+
+```powershell
+# Vérifier la présence des DLLs
+dir "C:\Program Files\3nity Media\*.dll"
+
+# Exécuter depuis la ligne de commande pour voir les erreurs
+cd "C:\Program Files\3nity Media"
+.\3nity-media.exe
+
+# Vérifier l'Observateur d'événements Windows
+eventvwr.msc
 ```
 
 ---

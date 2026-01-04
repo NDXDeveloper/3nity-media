@@ -4,6 +4,7 @@ This guide covers all installation methods for 3nity Media on Linux and Windows.
 
 ## Table of Contents
 
+- [Prerequisites](#prerequisites)
 - [System Requirements](#system-requirements)
 - [Dependencies](#dependencies)
 - [Package Installation](#package-installation)
@@ -19,6 +20,40 @@ This guide covers all installation methods for 3nity Media on Linux and Windows.
 - [Post-Installation](#post-installation)
 - [Troubleshooting](#troubleshooting)
 - [Uninstallation](#uninstallation)
+
+---
+
+## Prerequisites
+
+### Install sudo (if not available)
+
+Some minimal installations don't include sudo. Install it as root:
+
+```bash
+# Debian (as root)
+su -
+apt install sudo
+usermod -aG sudo your_username
+# Log out and log in
+
+# Arch Linux (as root)
+su -
+pacman -S sudo
+echo "your_username ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/your_username
+# Log out and log in
+
+# Fedora (as root, if minimal install)
+su -
+dnf install sudo
+usermod -aG wheel your_username
+# Log out and log in
+
+# openSUSE (as root, if minimal install)
+su -
+zypper install sudo
+usermod -aG wheel your_username
+# Log out and log in
+```
 
 ---
 
@@ -178,6 +213,31 @@ EOF
 
 ### Snap
 
+**Install snapd first (if not available):**
+
+```bash
+# Ubuntu (pre-installed)
+
+# Debian
+sudo apt install snapd
+
+# Fedora
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+sudo systemctl enable --now snapd.socket
+
+# openSUSE
+sudo zypper install snapd
+sudo systemctl enable --now snapd
+
+# Arch Linux
+sudo pacman -S snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+```
+
+**Install 3nity Media:**
+
 ```bash
 # From Snap Store (when published)
 sudo snap install 3nity-media
@@ -189,13 +249,34 @@ sudo snap install --dangerous 3nity-media_VERSION_amd64.snap
 
 ### Flatpak
 
-```bash
-# Add Flathub (if not already done)
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+**Install Flatpak first (if not available):**
 
-# From downloaded file
+```bash
+# Ubuntu/Debian
+sudo apt install flatpak
+
+# Fedora (pre-installed)
+
+# Arch Linux
+sudo pacman -S flatpak
+
+# openSUSE
+sudo zypper install flatpak
+```
+
+> **Note:** After installing Flatpak for the first time, restart your session (log out and log in) or reboot.
+
+**Add Flathub repository:**
+
+```bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+**Install 3nity Media:**
+
+```bash
 wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION.flatpak
-flatpak install 3nity-media-VERSION.flatpak
+flatpak install --user 3nity-media-VERSION.flatpak
 ```
 
 ### Windows
@@ -400,6 +481,45 @@ sudo apt install vdpau-driver-all vdpauinfo  # Ubuntu/Debian
 
 ## Troubleshooting
 
+### General
+
+```bash
+# Check if application is running
+pgrep -a 3nity
+
+# View logs
+journalctl -f | grep 3nity
+```
+
+### DEB package issues
+
+```bash
+# Fix dependency errors
+sudo apt-get install -f
+
+# Check installed dependencies
+dpkg -l | grep -E "libmpv|libqt5pas"
+apt-cache depends 3nity-media
+
+# Reinstall package
+sudo apt install --reinstall ./3nity-media_*_amd64.deb
+```
+
+### RPM package issues
+
+```bash
+# Fedora - Fix dependency errors
+sudo dnf check
+sudo dnf distro-sync
+
+# openSUSE - Fix dependency errors
+sudo zypper verify
+sudo zypper install -f
+
+# Check installed dependencies
+rpm -qa | grep -E "mpv|qt5"
+```
+
 ### "libmpv.so not found"
 
 The mpv library is missing. Install it:
@@ -409,6 +529,9 @@ sudo apt install libmpv2
 
 # Fedora
 sudo dnf install mpv-libs
+
+# Check installation
+ldconfig -p | grep mpv
 ```
 
 ### "libQt5Pas.so not found"
@@ -417,6 +540,9 @@ The Qt5 Pascal bindings are missing. Install them:
 ```bash
 # Ubuntu/Debian
 sudo apt install libqt5pas1
+
+# Check installation
+ldconfig -p | grep qt5pas
 
 # Fedora - you may need to build from source or use AppImage
 ```
@@ -455,21 +581,66 @@ sudo apt install libqt5pas1
 Install FUSE:
 ```bash
 # Ubuntu/Debian
-sudo apt install libfuse2
+sudo apt install fuse libfuse2
 
 # Fedora
-sudo dnf install fuse-libs
+sudo dnf install fuse fuse-libs
+
+# Arch Linux
+sudo pacman -S fuse2
+
+# Alternative: run with extraction
+./3nity-Media-*-x86_64.AppImage --appimage-extract-and-run
 ```
 
-### Flatpak permission issues
+### Snap issues
 
-Grant additional permissions:
 ```bash
-# Access to external drives
-flatpak override --user --filesystem=/media com.ndxdev.3nity-media
+# Check permissions
+snap connections 3nity-media
 
-# Access to network shares
-flatpak override --user --filesystem=/mnt com.ndxdev.3nity-media
+# Connect missing permissions
+sudo snap connect 3nity-media:audio-playback
+sudo snap connect 3nity-media:pulseaudio
+sudo snap connect 3nity-media:removable-media
+sudo snap connect 3nity-media:optical-drive
+
+# View logs
+snap logs 3nity-media
+
+# Check confinement issues
+journalctl -f | grep -i apparmor
+```
+
+### Flatpak issues
+
+```bash
+# Install missing runtime
+flatpak install flathub org.kde.Platform//6.8
+
+# Run with debug output
+flatpak run --verbose com.ndxdev.trinitymedia
+
+# Grant access to external drives
+flatpak override --user --filesystem=/media com.ndxdev.trinitymedia
+flatpak override --user --filesystem=/run/media com.ndxdev.trinitymedia
+
+# Enter shell for debugging
+flatpak run --command=sh com.ndxdev.trinitymedia
+```
+
+### Windows issues
+
+```powershell
+# Check DLLs present
+dir "C:\Program Files\3nity Media\*.dll"
+
+# Run from command line to see errors
+cd "C:\Program Files\3nity Media"
+.\3nity-media.exe
+
+# Check Windows Event Viewer
+eventvwr.msc
 ```
 
 ---
