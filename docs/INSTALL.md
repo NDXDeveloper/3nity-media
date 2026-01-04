@@ -170,8 +170,8 @@ Supported distributions: Fedora 38+, openSUSE Leap 15.5+, openSUSE Tumbleweed, R
 # Download the package
 wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION-1.x86_64.rpm
 
-# Install with dependencies
-sudo dnf install ./3nity-media-VERSION-1.x86_64.rpm
+# Install with dependencies (--allowerasing replaces ffmpeg-free with full ffmpeg)
+sudo dnf install --allowerasing ./3nity-media-VERSION-1.x86_64.rpm
 ```
 
 **openSUSE:**
