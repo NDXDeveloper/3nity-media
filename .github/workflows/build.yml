@@ -911,8 +911,10 @@ jobs:
         grade: stable
         confinement: strict
         base: core24
-        architectures:
-          - build-on: amd64
+        platforms:
+          amd64:
+            build-on: [amd64]
+            build-for: [amd64]
 
         layout:
           /usr/lib/\$SNAPCRAFT_ARCH_TRIPLET/libQt5Pas.so.1:
