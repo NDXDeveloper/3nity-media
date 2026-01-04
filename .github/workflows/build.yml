@@ -987,12 +987,23 @@ jobs:
           - --talk-name=org.freedesktop.Notifications
 
         modules:
+          - name: libqt5pas
+            buildsystem: simple
+            build-commands:
+              - mkdir -p /app/lib
+              - cp -v flatpak-libs/libQt5Pas.so* /app/lib/ || true
+              - cp -v flatpak-libs/libmpv.so* /app/lib/ || true
+              - ls -la /app/lib/
+            sources:
+              - type: dir
+                path: flatpak-libs
+                dest: flatpak-libs
+
           - name: 3nity-media
             buildsystem: simple
             build-commands:
               - install -Dm755 3nity-media /app/bin/3nity-media
               - ln -sf 3nity-media /app/bin/3nity
-              - install -Dm755 flatpak-libs/* /app/lib/ 2>/dev/null || true
               - |
                 cat > /app/bin/3nity-media-wrapper << 'WRAPPER'
                 #!/bin/bash
@@ -1001,15 +1012,12 @@ jobs:
                 WRAPPER
               - chmod +x /app/bin/3nity-media-wrapper
               - install -Dm644 3nity-media.desktop /app/share/applications/com.ndxdev.trinitymedia.desktop
-              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/\${size}x\${size}.png" ]; then install -Dm644 "icons/\${size}x\${size}.png" "/app/share/icons/hicolor/\${size}x\${size}/apps/com.ndxdev.trinitymedia.png"; fi; done
+              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/${size}x${size}.png" ]; then install -Dm644 "icons/${size}x${size}.png" "/app/share/icons/hicolor/${size}x${size}/apps/com.ndxdev.trinitymedia.png"; fi; done
               - mkdir -p /app/share/3nity-media/locale
               - cp -r locale/*.lang /app/share/3nity-media/locale/ 2>/dev/null || true
             sources:
               - type: file
                 path: bin/x86_64-linux/3nity-media
-              - type: dir
-                path: flatpak-libs
-                dest: flatpak-libs
               - type: file
                 path: 3nity-media.desktop
               - type: dir
