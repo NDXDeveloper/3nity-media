@@ -750,6 +750,8 @@ jobs:
             desktop: usr/share/applications/3nity-media.desktop
             environment:
               LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\${LD_LIBRARY_PATH:+:\$LD_LIBRARY_PATH}
+              QT_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins
+              QT_QPA_PLATFORM_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms
             plugs:
               - home
               - audio-playback
