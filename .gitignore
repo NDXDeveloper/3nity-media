@@ -61,6 +61,7 @@ tests/TestData/video/*.avi
 
 # CI/CD test output
 *.xml
+!flatpak/*.xml
 test-results.xml
 
 # === Backup Directories ===

@@ -1,6 +1,6 @@
-app-id: com.ndxdev.3nity-media
+app-id: com.ndxdev.trinitymedia
 runtime: org.kde.Platform
-runtime-version: '5.15-23.08'
+runtime-version: '6.7'
 sdk: org.kde.Sdk
 command: 3nity-media
 finish-args:
@@ -89,12 +89,12 @@ modules:
     build-commands:
       - install -Dm755 3nity-media /app/bin/3nity-media
       - ln -sf 3nity-media /app/bin/3nity
-      - install -Dm644 com.ndxdev.3nity-media.desktop /app/share/applications/com.ndxdev.3nity-media.desktop
-      - install -Dm644 com.ndxdev.3nity-media.metainfo.xml /app/share/metainfo/com.ndxdev.3nity-media.metainfo.xml
+      - install -Dm644 com.ndxdev.trinitymedia.desktop /app/share/applications/com.ndxdev.trinitymedia.desktop
+      - install -Dm644 com.ndxdev.trinitymedia.metainfo.xml /app/share/metainfo/com.ndxdev.trinitymedia.metainfo.xml
       - |
         for size in 16 24 32 48 64 128 256; do
           if [ -f "icons/${size}x${size}.png" ]; then
-            install -Dm644 "icons/${size}x${size}.png" "/app/share/icons/hicolor/${size}x${size}/apps/com.ndxdev.3nity-media.png"
+            install -Dm644 "icons/${size}x${size}.png" "/app/share/icons/hicolor/${size}x${size}/apps/com.ndxdev.trinitymedia.png"
           fi
         done
       - install -Dm644 LICENSE /app/share/doc/3nity-media/LICENSE
@@ -105,9 +105,9 @@ modules:
       - type: file
         path: ../bin/x86_64-linux/3nity-media
       - type: file
-        path: com.ndxdev.3nity-media.desktop
+        path: com.ndxdev.trinitymedia.desktop
       - type: file
-        path: com.ndxdev.3nity-media.metainfo.xml
+        path: com.ndxdev.trinitymedia.metainfo.xml
       - type: file
         path: ../LICENSE
       - type: file
