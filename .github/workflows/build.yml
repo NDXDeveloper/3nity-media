@@ -916,18 +916,12 @@ jobs:
             build-on: [amd64]
             build-for: [amd64]
 
-        layout:
-          /usr/lib/\$SNAPCRAFT_ARCH_TRIPLET/libQt5Pas.so.1:
-            symlink: \$SNAP/usr/lib/\$SNAPCRAFT_ARCH_TRIPLET/libQt5Pas.so.1
-          /usr/lib/\$SNAPCRAFT_ARCH_TRIPLET/libmpv.so.2:
-            symlink: \$SNAP/usr/lib/\$SNAPCRAFT_ARCH_TRIPLET/libmpv.so.2
-
         apps:
           3nity-media:
             command: usr/bin/3nity-media
             desktop: usr/share/applications/3nity-media.desktop
             environment:
-              LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/\$SNAPCRAFT_ARCH_TRIPLET:\$LD_LIBRARY_PATH
+              LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\${LD_LIBRARY_PATH:+:\$LD_LIBRARY_PATH}
             plugs:
               - home
               - audio-playback
