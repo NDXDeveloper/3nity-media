@@ -1566,6 +1566,9 @@ jobs:
         cp windows-builds/*.exe release-assets/ || true
         cp windows-builds/*.zip release-assets/ || true
 
+        # Documentation
+        cp INSTALL.txt release-assets/ || true
+
         # Create checksums
         cd release-assets
         sha256sum * > checksums.txt
@@ -1673,6 +1676,9 @@ jobs:
           - `ffmpeg` - Metadata extraction (ffprobe)
 
           > **Note:** AppImage, Snap and Flatpak bundle their dependencies (including ffprobe).
+
+          ### 📖 Full Installation Guide
+          See `INSTALL.txt` for detailed installation instructions including how to install prerequisites (sudo, snapd, flatpak) on all Linux distributions.
 
           ### ✅ Verification
           SHA256 checksums are available in `checksums.txt`.

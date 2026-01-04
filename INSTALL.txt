@@ -1,0 +1,289 @@
+# =============================================================================
+# 3nity Media - Installation Guide
+# =============================================================================
+
+# =============================================================================
+# PREREQUISITES - Install sudo (if not available)
+# =============================================================================
+
+# Debian (as root)
+su -
+apt install sudo
+usermod -aG sudo your_username
+# Then log out and log in
+
+# Arch Linux (as root)
+su -
+pacman -S sudo
+echo "your_username ALL=(ALL:ALL) ALL" >> /etc/sudoers.d/your_username
+# Then log out and log in
+
+# Fedora (as root, if minimal install)
+su -
+dnf install sudo
+usermod -aG wheel your_username
+# Then log out and log in
+
+# openSUSE (as root, if minimal install)
+su -
+zypper install sudo
+usermod -aG wheel your_username
+# Then log out and log in
+
+
+# =============================================================================
+# LINUX - Install from DEB (Ubuntu/Debian/Linux Mint)
+# =============================================================================
+
+sudo apt install ./3nity-media_*_amd64.deb
+
+
+# =============================================================================
+# LINUX - Install from RPM (Fedora/openSUSE/RHEL)
+# =============================================================================
+
+# Fedora
+sudo dnf install ./3nity-media-*-1.x86_64.rpm
+
+# openSUSE
+sudo zypper install ./3nity-media-*-1.x86_64.rpm
+
+
+# =============================================================================
+# LINUX - AppImage
+# =============================================================================
+
+chmod +x 3nity-Media-*-x86_64.AppImage
+./3nity-Media-*-x86_64.AppImage
+
+# Install FUSE if needed:
+# Ubuntu/Debian
+sudo apt install fuse libfuse2
+
+# Fedora
+sudo dnf install fuse fuse-libs
+
+# openSUSE
+sudo zypper install fuse
+
+
+# =============================================================================
+# LINUX - Snap
+# =============================================================================
+
+## Install snapd first
+
+# Ubuntu (pre-installed)
+
+# Debian
+sudo apt install snapd
+
+# Fedora
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+sudo systemctl enable --now snapd.socket
+
+# openSUSE
+sudo zypper install snapd
+sudo systemctl enable --now snapd
+
+# Arch Linux
+sudo pacman -S snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+
+## Install the snap package
+sudo snap install --dangerous 3nity-media_*_amd64.snap
+
+## Run
+3nity-media
+# or
+snap run 3nity-media
+
+
+# =============================================================================
+# LINUX - Flatpak
+# =============================================================================
+
+## Install Flatpak first
+
+# Ubuntu/Debian
+sudo apt install flatpak
+
+# Fedora (pre-installed)
+
+# Arch Linux
+sudo pacman -S flatpak
+
+# openSUSE
+sudo zypper install flatpak
+
+# Note: After installing Flatpak for the first time, restart your session
+# (log out and log in) or reboot.
+
+## Add Flathub repository (for runtime)
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+## Install the flatpak package
+flatpak install --user 3nity-media-*.flatpak
+
+## Run
+flatpak run com.ndxdev.trinitymedia
+
+
+# =============================================================================
+# LINUX - Portable (tar.gz)
+# =============================================================================
+
+tar xzf 3nity-media-linux-portable-*.tar.gz
+cd 3nity-media-linux-portable-*
+
+# Install dependencies:
+# Ubuntu/Debian
+sudo apt install libmpv2 libqt5pas1 ffmpeg
+
+# Fedora
+sudo dnf install mpv-libs qt5-qtbase ffmpeg
+
+# Run
+./3nity-media
+
+
+# =============================================================================
+# WINDOWS - System Installer (Admin required)
+# =============================================================================
+
+# Download and run: 3nity-Media-Setup-*.exe
+# Default install path: C:\Program Files\3nity Media\
+
+
+# =============================================================================
+# WINDOWS - User Installer (No admin required)
+# =============================================================================
+
+# Download and run: 3nity-Media-Setup-User-*.exe
+# Default install path: %LOCALAPPDATA%\Programs\3nity Media\
+
+
+# =============================================================================
+# WINDOWS - Portable (ZIP)
+# =============================================================================
+
+# Extract 3nity-media-windows-portable-*.zip to any folder
+# Run 3nity-media.exe
+
+
+# =============================================================================
+# UNINSTALL
+# =============================================================================
+
+# DEB
+sudo apt remove 3nity-media
+
+# RPM (Fedora)
+sudo dnf remove 3nity-media
+
+# RPM (openSUSE)
+sudo zypper remove 3nity-media
+
+# Snap
+sudo snap remove 3nity-media
+
+# Flatpak
+flatpak uninstall com.ndxdev.trinitymedia
+
+# Windows
+# Use Control Panel > Programs > Uninstall
+# Or: Settings > Apps > 3nity Media > Uninstall
+
+
+# =============================================================================
+# TROUBLESHOOTING
+# =============================================================================
+
+## Check if application is running
+pgrep -a 3nity
+
+## View logs (Linux)
+journalctl -f | grep 3nity
+
+## DEB: Fix dependency errors
+sudo apt-get install -f
+
+## DEB: Check installed dependencies
+dpkg -l | grep -E "libmpv|libqt5pas"
+apt-cache depends 3nity-media
+
+## DEB: Reinstall package
+sudo apt install --reinstall ./3nity-media_*_amd64.deb
+
+## RPM (Fedora): Fix dependency errors
+sudo dnf install -f
+# or
+sudo dnf check
+sudo dnf distro-sync
+
+## RPM (openSUSE): Fix dependency errors
+sudo zypper verify
+sudo zypper install -f
+
+## RPM: Check installed dependencies
+rpm -qa | grep -E "mpv|qt5"
+
+## AppImage: Install FUSE if "AppImage not starting"
+# Ubuntu/Debian
+sudo apt install fuse libfuse2
+# Fedora
+sudo dnf install fuse fuse-libs
+# Arch
+sudo pacman -S fuse2
+
+## AppImage: Run with extraction (if FUSE fails)
+./3nity-Media-*-x86_64.AppImage --appimage-extract-and-run
+
+## Snap: Check permissions
+snap connections 3nity-media
+
+## Snap: Connect missing permissions
+sudo snap connect 3nity-media:audio-playback
+sudo snap connect 3nity-media:pulseaudio
+sudo snap connect 3nity-media:removable-media
+sudo snap connect 3nity-media:optical-drive
+
+## Snap: View logs
+snap logs 3nity-media
+
+## Snap: Check confinement issues
+journalctl -f | grep -i apparmor
+
+## Flatpak: Install missing runtime
+flatpak install flathub org.kde.Platform//6.8
+
+## Flatpak: Run with debug
+flatpak run --verbose com.ndxdev.trinitymedia
+
+## Flatpak: Override permissions for external drives
+flatpak override --user --filesystem=/media com.ndxdev.trinitymedia
+flatpak override --user --filesystem=/run/media com.ndxdev.trinitymedia
+
+## Flatpak: Enter shell for debugging
+flatpak run --command=sh com.ndxdev.trinitymedia
+
+## Check missing libraries (portable/AppImage)
+ldd 3nity-media | grep "not found"
+
+## Check libmpv installation
+ldconfig -p | grep mpv
+
+## Check Qt5Pas installation
+ldconfig -p | grep qt5pas
+
+## Windows: Check DLLs present
+dir "C:\Program Files\3nity Media\*.dll"
+
+## Windows: Run from command line to see errors
+cd "C:\Program Files\3nity Media"
+3nity-media.exe
+
+## Windows: Check Windows Event Viewer
+eventvwr.msc
