@@ -9,51 +9,49 @@ on:
 
 jobs:
   # ==========================================================================
-  # CHECK WITH BASH (Linux runner)
+  # CHECK DEPENDENCIES (using bash for reliability)
   # ==========================================================================
-  check-bash:
-    name: Check with Bash
+  check-deps:
+    name: Check Windows Dependencies
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check libmpv on SourceForge
-      id: check-libmpv-bash
+    - name: Check libmpv on GitHub (shinchiro/mpv-winbuild-cmake)
+      id: check-libmpv
       run: |
-        echo "=== Checking libmpv on SourceForge ==="
-        SF_URL="https://sourceforge.net/projects/mpv-player-windows/files/libmpv/"
+        echo "=== Checking libmpv on GitHub ==="
 
-        # Get directory listing
-        echo "Fetching directory listing..."
-        PAGE=$(curl -sL "$SF_URL" --max-time 30)
+        # Get latest release info from GitHub API
+        RELEASE_INFO=$(curl -s "https://api.github.com/repos/shinchiro/mpv-winbuild-cmake/releases/latest")
 
-        # Find latest mpv-dev-x86_64 file
-        LATEST=$(echo "$PAGE" | grep -oP 'mpv-dev-x86_64-\d{8}-git-[a-f0-9]+\.7z' | head -1)
+        # Find mpv-dev-x86_64 asset
+        MPV_URL=$(echo "$RELEASE_INFO" | grep -o '"browser_download_url": "[^"]*mpv-dev-x86_64[^"]*\.7z"' | head -1 | cut -d'"' -f4)
 
-        if [ -n "$LATEST" ]; then
-          echo "Found: $LATEST"
-          DOWNLOAD_URL="${SF_URL}${LATEST}/download"
-          echo "Testing download URL: $DOWNLOAD_URL"
+        if [ -n "$MPV_URL" ]; then
+          echo "Found libmpv: $MPV_URL"
 
           # Test if downloadable
-          HTTP_CODE=$(curl -sIL "$DOWNLOAD_URL" -o /dev/null -w "%{http_code}" --max-time 30)
+          HTTP_CODE=$(curl -sIL "$MPV_URL" -o /dev/null -w "%{http_code}" --max-time 30)
 
           if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "302" ]; then
             echo "libmpv: OK (HTTP $HTTP_CODE)"
             echo "status=ok" >> $GITHUB_OUTPUT
-            echo "file=$LATEST" >> $GITHUB_OUTPUT
+            echo "url=$MPV_URL" >> $GITHUB_OUTPUT
           else
             echo "libmpv: FAILED (HTTP $HTTP_CODE)"
             echo "status=failed" >> $GITHUB_OUTPUT
             exit 1
           fi
         else
-          echo "ERROR: Could not find libmpv file in directory listing"
+          echo "ERROR: Could not find libmpv download URL"
+          echo "Available assets:"
+          echo "$RELEASE_INFO" | grep browser_download_url || echo "No assets found"
           echo "status=failed" >> $GITHUB_OUTPUT
           exit 1
         fi
 
     - name: Check ffprobe on gyan.dev
-      id: check-ffprobe-bash
+      id: check-ffprobe
       run: |
         echo "=== Checking FFmpeg (ffprobe) on gyan.dev ==="
         FFMPEG_URL="https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
@@ -70,152 +68,65 @@ jobs:
           exit 1
         fi
 
-    - name: Summary (Bash)
-      if: always()
-      run: |
-        echo "=== Bash Check Summary ==="
-        echo "libmpv: ${{ steps.check-libmpv-bash.outputs.status || 'unknown' }}"
-        echo "libmpv file: ${{ steps.check-libmpv-bash.outputs.file || 'N/A' }}"
-        echo "ffprobe: ${{ steps.check-ffprobe-bash.outputs.status || 'unknown' }}"
-
-  # ==========================================================================
-  # CHECK WITH POWERSHELL (Windows runner)
-  # ==========================================================================
-  check-powershell:
-    name: Check with PowerShell
-    runs-on: windows-latest
-
-    steps:
-    - name: Check libmpv on SourceForge
-      id: check-libmpv-ps
-      shell: pwsh
-      run: |
-        Write-Host "=== Checking libmpv on SourceForge ===" -ForegroundColor Cyan
-        $sfBaseUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/"
-
-        try {
-          Write-Host "Fetching directory listing..."
-          $page = Invoke-WebRequest -Uri $sfBaseUrl -UserAgent "Mozilla/5.0" -TimeoutSec 30
-
-          # Find latest mpv-dev-x86_64 file
-          $pattern = 'mpv-dev-x86_64-\d{8}-git-[a-f0-9]+\.7z'
-          $matches = [regex]::Matches($page.Content, $pattern)
-
-          if ($matches.Count -gt 0) {
-            $latestFile = $matches[0].Value
-            Write-Host "Found: $latestFile" -ForegroundColor Green
-
-            $downloadUrl = "${sfBaseUrl}${latestFile}/download"
-            Write-Host "Testing download URL: $downloadUrl"
-
-            # Test if downloadable
-            $response = Invoke-WebRequest -Uri $downloadUrl -Method Head -UserAgent "Mozilla/5.0" -MaximumRedirection 10 -TimeoutSec 30
-
-            if ($response.StatusCode -eq 200) {
-              Write-Host "libmpv: OK (Status: $($response.StatusCode))" -ForegroundColor Green
-              "status=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-              "file=$latestFile" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-            } else {
-              Write-Host "libmpv: FAILED (Status: $($response.StatusCode))" -ForegroundColor Red
-              "status=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-              exit 1
-            }
-          } else {
-            Write-Host "ERROR: Could not find libmpv file in directory listing" -ForegroundColor Red
-            "status=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-            exit 1
-          }
-        } catch {
-          Write-Host "ERROR: $($_.Exception.Message)" -ForegroundColor Red
-          "status=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-          exit 1
-        }
-
-    - name: Check ffprobe on gyan.dev
-      id: check-ffprobe-ps
-      shell: pwsh
-      run: |
-        Write-Host "=== Checking FFmpeg (ffprobe) on gyan.dev ===" -ForegroundColor Cyan
-        $ffmpegUrl = "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
-
-        try {
-          Write-Host "Testing: $ffmpegUrl"
-          $response = Invoke-WebRequest -Uri $ffmpegUrl -Method Head -TimeoutSec 30
-
-          if ($response.StatusCode -eq 200) {
-            Write-Host "ffprobe: OK (Status: $($response.StatusCode))" -ForegroundColor Green
-            "status=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-          } else {
-            Write-Host "ffprobe: FAILED (Status: $($response.StatusCode))" -ForegroundColor Red
-            "status=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-            exit 1
-          }
-        } catch {
-          Write-Host "ERROR: $($_.Exception.Message)" -ForegroundColor Red
-          "status=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-          exit 1
-        }
-
     - name: Test actual download and extraction
       id: test-download
-      shell: pwsh
       run: |
-        Write-Host "=== Testing actual download and extraction ===" -ForegroundColor Cyan
+        echo "=== Testing actual download and extraction ==="
 
-        New-Item -ItemType Directory -Force -Path "deps" | Out-Null
+        mkdir -p deps
 
-        # Download libmpv
-        Write-Host "Downloading libmpv..."
-        $sfBaseUrl = "https://sourceforge.net/projects/mpv-player-windows/files/libmpv/"
-        $page = Invoke-WebRequest -Uri $sfBaseUrl -UserAgent "Mozilla/5.0"
-        $pattern = 'mpv-dev-x86_64-\d{8}-git-[a-f0-9]+\.7z'
-        $latestFile = ([regex]::Matches($page.Content, $pattern))[0].Value
-        $mpvUrl = "${sfBaseUrl}${latestFile}/download"
+        # Download libmpv from GitHub
+        echo "Downloading libmpv..."
+        RELEASE_INFO=$(curl -s "https://api.github.com/repos/shinchiro/mpv-winbuild-cmake/releases/latest")
+        MPV_URL=$(echo "$RELEASE_INFO" | grep -o '"browser_download_url": "[^"]*mpv-dev-x86_64[^"]*\.7z"' | head -1 | cut -d'"' -f4)
 
-        Invoke-WebRequest -Uri $mpvUrl -OutFile "deps\libmpv.7z" -UserAgent "Mozilla/5.0" -MaximumRedirection 10
+        curl -L -o deps/libmpv.7z "$MPV_URL"
 
         # Extract and verify
-        7z x "deps\libmpv.7z" -odeps\libmpv -y
+        sudo apt-get install -y p7zip-full
+        7z x deps/libmpv.7z -odeps/libmpv -y
 
-        $mpvDll = Get-ChildItem -Path "deps\libmpv" -Recurse -Filter "libmpv*.dll" | Select-Object -First 1
-        if ($mpvDll) {
-          Write-Host "libmpv-2.dll found: $($mpvDll.FullName) ($($mpvDll.Length) bytes)" -ForegroundColor Green
-          "libmpv_extracted=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-        } else {
-          Write-Host "ERROR: libmpv DLL not found in archive!" -ForegroundColor Red
-          Get-ChildItem -Path "deps\libmpv" -Recurse | Format-Table Name
-          "libmpv_extracted=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        # Check for DLL
+        MPV_DLL=$(find deps/libmpv -name "libmpv*.dll" | head -1)
+        if [ -n "$MPV_DLL" ]; then
+          echo "libmpv DLL found: $MPV_DLL"
+          ls -la "$MPV_DLL"
+          echo "libmpv_extracted=ok" >> $GITHUB_OUTPUT
+        else
+          echo "ERROR: libmpv DLL not found in archive!"
+          find deps/libmpv -type f
+          echo "libmpv_extracted=failed" >> $GITHUB_OUTPUT
           exit 1
-        }
+        fi
 
         # Download ffprobe
-        Write-Host "Downloading ffprobe..."
-        Invoke-WebRequest -Uri "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip" -OutFile "deps\ffmpeg.zip"
+        echo "Downloading ffprobe..."
+        curl -L -o deps/ffmpeg.zip "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip"
 
-        Expand-Archive -Path "deps\ffmpeg.zip" -DestinationPath "deps\ffmpeg" -Force
+        unzip -q deps/ffmpeg.zip -d deps/ffmpeg
 
-        $ffprobe = Get-ChildItem -Path "deps\ffmpeg" -Recurse -Filter "ffprobe.exe" | Select-Object -First 1
-        if ($ffprobe) {
-          Write-Host "ffprobe.exe found: $($ffprobe.FullName) ($($ffprobe.Length) bytes)" -ForegroundColor Green
-          "ffprobe_extracted=ok" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-        } else {
-          Write-Host "ERROR: ffprobe.exe not found in archive!" -ForegroundColor Red
-          "ffprobe_extracted=failed" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+        FFPROBE=$(find deps/ffmpeg -name "ffprobe.exe" | head -1)
+        if [ -n "$FFPROBE" ]; then
+          echo "ffprobe.exe found: $FFPROBE"
+          ls -la "$FFPROBE"
+          echo "ffprobe_extracted=ok" >> $GITHUB_OUTPUT
+        else
+          echo "ERROR: ffprobe.exe not found in archive!"
+          echo "ffprobe_extracted=failed" >> $GITHUB_OUTPUT
           exit 1
-        }
+        fi
 
-        Write-Host "=== All downloads and extractions successful ===" -ForegroundColor Green
+        echo "=== All downloads and extractions successful ==="
 
-    - name: Summary (PowerShell)
+    - name: Summary
       if: always()
-      shell: pwsh
       run: |
-        Write-Host "=== PowerShell Check Summary ===" -ForegroundColor Cyan
-        Write-Host "libmpv URL: ${{ steps.check-libmpv-ps.outputs.status }}"
-        Write-Host "libmpv file: ${{ steps.check-libmpv-ps.outputs.file }}"
-        Write-Host "ffprobe URL: ${{ steps.check-ffprobe-ps.outputs.status }}"
-        Write-Host "libmpv extracted: ${{ steps.test-download.outputs.libmpv_extracted }}"
-        Write-Host "ffprobe extracted: ${{ steps.test-download.outputs.ffprobe_extracted }}"
+        echo "=== Windows Dependencies Check Summary ==="
+        echo "libmpv URL check: ${{ steps.check-libmpv.outputs.status || 'unknown' }}"
+        echo "libmpv URL: ${{ steps.check-libmpv.outputs.url || 'N/A' }}"
+        echo "ffprobe URL check: ${{ steps.check-ffprobe.outputs.status || 'unknown' }}"
+        echo "libmpv extracted: ${{ steps.test-download.outputs.libmpv_extracted || 'unknown' }}"
+        echo "ffprobe extracted: ${{ steps.test-download.outputs.ffprobe_extracted || 'unknown' }}"
 
   # ==========================================================================
   # CREATE ISSUE ON FAILURE
@@ -223,7 +134,7 @@ jobs:
   notify-failure:
     name: Notify on Failure
     runs-on: ubuntu-latest
-    needs: [check-bash, check-powershell]
+    needs: [check-deps]
     if: failure()
 
     steps:
@@ -241,9 +152,9 @@ jobs:
           **Run:** ${context.runNumber}
 
           ### Action Required
-          - Check SourceForge libmpv availability
+          - Check GitHub shinchiro/mpv-winbuild-cmake releases for libmpv
           - Check gyan.dev ffprobe availability
-          - Update fallback URLs if necessary
+          - Update download URLs if necessary
 
           [View workflow run](${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})
           `;

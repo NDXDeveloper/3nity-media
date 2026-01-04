@@ -1575,26 +1575,26 @@ jobs:
         body: |
           ## 🎵 3nity Media ${{ github.ref_name }}
 
-          Lecteur multimédia moderne propulsé par libmpv.
+          Modern cross-platform media player powered by libmpv.
 
-          ### 📦 Téléchargements
+          ### 📦 Downloads
 
           #### Linux
-          | Format | Fichier | Description |
-          |--------|---------|-------------|
+          | Format | File | Description |
+          |--------|------|-------------|
           | **DEB** | `3nity-media_${{ needs.build-linux.outputs.version }}_amd64.deb` | Ubuntu, Debian, Linux Mint |
           | **RPM** | `3nity-media-${{ needs.build-linux.outputs.version }}-1.x86_64.rpm` | Fedora, openSUSE, RHEL, CentOS |
-          | **AppImage** | `3nity-Media-${{ needs.build-linux.outputs.version }}-x86_64.AppImage` | Universel, portable |
+          | **AppImage** | `3nity-Media-${{ needs.build-linux.outputs.version }}-x86_64.AppImage` | Universal, portable |
           | **Snap** | `3nity-media_${{ needs.build-linux.outputs.version }}_amd64.snap` | Snap Store compatible |
           | **Flatpak** | `3nity-media-${{ needs.build-linux.outputs.version }}.flatpak` | Flathub compatible |
-          | **Portable** | `3nity-media-linux-portable-${{ needs.build-linux.outputs.version }}.tar.gz` | Archive tar.gz |
+          | **Portable** | `3nity-media-linux-portable-${{ needs.build-linux.outputs.version }}.tar.gz` | tar.gz archive |
 
           #### Windows
-          | Format | Fichier | Description |
-          |--------|---------|-------------|
-          | **Installateur** | `3nity-Media-Setup-${{ needs.build-linux.outputs.version }}.exe` | Installation système (Admin) |
-          | **Installateur User** | `3nity-Media-Setup-User-${{ needs.build-linux.outputs.version }}.exe` | Sans droits admin |
-          | **Portable** | `3nity-media-windows-portable-${{ needs.build-linux.outputs.version }}.zip` | Archive ZIP |
+          | Format | File | Description |
+          |--------|------|-------------|
+          | **Installer** | `3nity-Media-Setup-${{ needs.build-linux.outputs.version }}.exe` | System install (Admin) |
+          | **User Installer** | `3nity-Media-Setup-User-${{ needs.build-linux.outputs.version }}.exe` | No admin required |
+          | **Portable** | `3nity-media-windows-portable-${{ needs.build-linux.outputs.version }}.zip` | ZIP archive |
 
           ---
 
@@ -1636,37 +1636,37 @@ jobs:
           ```
 
           #### Windows
-          - **Installateur système:** Télécharger et exécuter `3nity-Media-Setup-${{ needs.build-linux.outputs.version }}.exe`
-          - **Installateur utilisateur:** Télécharger et exécuter `3nity-Media-Setup-User-${{ needs.build-linux.outputs.version }}.exe` (aucun droit admin requis)
-          - **Portable:** Extraire `3nity-media-windows-portable-${{ needs.build-linux.outputs.version }}.zip`
+          - **System installer:** Download and run `3nity-Media-Setup-${{ needs.build-linux.outputs.version }}.exe`
+          - **User installer:** Download and run `3nity-Media-Setup-User-${{ needs.build-linux.outputs.version }}.exe` (no admin required)
+          - **Portable:** Extract `3nity-media-windows-portable-${{ needs.build-linux.outputs.version }}.zip`
 
           ---
 
-          ### ✨ Fonctionnalités
+          ### ✨ Features
 
-          - 🎬 Lecture audio/vidéo avec libmpv
-          - 📋 Gestion de playlists (M3U, PLS, XSPF)
-          - 📻 Radio internet / streaming
-          - 🎛️ Égaliseur audio
-          - 🎨 Effets visuels
-          - ⌨️ Raccourcis clavier personnalisables
-          - 🌍 Support multilingue
+          - 🎬 Audio/video playback with libmpv
+          - 📋 Playlist management (M3U, PLS, XSPF)
+          - 📻 Internet radio / streaming
+          - 🎛️ Audio equalizer
+          - 🎨 Visual effects
+          - ⌨️ Customizable keyboard shortcuts
+          - 🌍 Multi-language support
 
-          ### 📋 Dépendances Linux
+          ### 📋 Linux Dependencies
 
           #### DEB (Ubuntu/Debian)
-          - `libqt5pas1` - Bindings Qt5 pour Pascal
-          - `libmpv2` ou `libmpv1` - Moteur de lecture
-          - `ffmpeg` - Extraction des métadonnées (ffprobe)
+          - `libqt5pas1` - Qt5 Pascal bindings
+          - `libmpv2` or `libmpv1` - Playback engine
+          - `ffmpeg` - Metadata extraction (ffprobe)
 
           #### RPM (Fedora/openSUSE)
-          - `qt5-qtbase` - Framework Qt5
-          - `mpv-libs` - Moteur de lecture
-          - `ffmpeg` - Extraction des métadonnées (ffprobe)
+          - `qt5-qtbase` - Qt5 framework
+          - `mpv-libs` - Playback engine
+          - `ffmpeg` - Metadata extraction (ffprobe)
 
-          > **Note:** AppImage, Snap et Flatpak incluent leurs dépendances (dont ffprobe).
+          > **Note:** AppImage, Snap and Flatpak bundle their dependencies (including ffprobe).
 
-          ### ✅ Vérification
-          Les checksums SHA256 sont disponibles dans `checksums.txt`.
+          ### ✅ Verification
+          SHA256 checksums are available in `checksums.txt`.
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
