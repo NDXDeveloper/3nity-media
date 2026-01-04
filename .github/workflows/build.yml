@@ -339,7 +339,7 @@ jobs:
 
         Requires:       mpv-libs >= 0.32
         Requires:       qt5-qtbase >= 5.12
-        Requires:       ffmpeg
+        Requires:       (ffmpeg or ffmpeg-free)
         Recommends:     yt-dlp
 
         %description

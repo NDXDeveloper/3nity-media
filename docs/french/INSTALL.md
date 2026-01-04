@@ -160,19 +160,15 @@ sudo apt install -f
 Distributions supportées : Fedora 38+, openSUSE Leap 15.5+, openSUSE Tumbleweed, RHEL 9+, CentOS Stream 9+
 
 **Fedora :**
-
-> **Important :** FFmpeg est requis mais n'est pas disponible dans les dépôts Fedora standards. Activez RPM Fusion d'abord :
-> ```bash
-> sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-> ```
-
 ```bash
 # Télécharger le paquet
 wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION-1.x86_64.rpm
 
-# Installer avec les dépendances (--allowerasing remplace ffmpeg-free par ffmpeg complet)
-sudo dnf install --allowerasing ./3nity-media-VERSION-1.x86_64.rpm
+# Installer avec les dépendances
+sudo dnf install ./3nity-media-VERSION-1.x86_64.rpm
 ```
+
+> **Note :** Le paquet accepte `ffmpeg` (de RPM Fusion) ou `ffmpeg-free` (par défaut sur Fedora). Pour un support complet des codecs, vous pouvez optionnellement installer ffmpeg depuis RPM Fusion.
 
 **openSUSE :**
 ```bash
