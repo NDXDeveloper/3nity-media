@@ -104,9 +104,7 @@ flatpak-build/
 flatpak-libs/
 .flatpak-builder/
 
-# Snap (built by CI/CD, local snapcraft.yaml is generated)
-snap/snapcraft.yaml
-snap/gui/*.png
+# Snap (keep source files, ignore built packages)
 *.snap
 
 # AppImage
