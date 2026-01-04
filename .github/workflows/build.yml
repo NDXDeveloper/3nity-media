@@ -770,21 +770,35 @@ jobs:
 
         parts:
           3nity-media:
-            plugin: dump
+            plugin: nil
             source: .
-            organize:
-              bin/x86_64-linux/3nity-media: usr/bin/3nity-media
-              LICENSE: usr/share/doc/3nity-media/LICENSE
-              README.md: usr/share/doc/3nity-media/README.md
-              snap/gui/3nity-media.desktop: usr/share/applications/3nity-media.desktop
-              snap/gui/3nity-media-16.png: usr/share/icons/hicolor/16x16/apps/3nity-media.png
-              snap/gui/3nity-media-24.png: usr/share/icons/hicolor/24x24/apps/3nity-media.png
-              snap/gui/3nity-media-32.png: usr/share/icons/hicolor/32x32/apps/3nity-media.png
-              snap/gui/3nity-media-48.png: usr/share/icons/hicolor/48x48/apps/3nity-media.png
-              snap/gui/3nity-media-64.png: usr/share/icons/hicolor/64x64/apps/3nity-media.png
-              snap/gui/3nity-media-128.png: usr/share/icons/hicolor/128x128/apps/3nity-media.png
-              snap/gui/3nity-media-256.png: usr/share/icons/hicolor/256x256/apps/3nity-media.png
-              resources/locale: usr/share/3nity-media/locale
+            override-build: |
+              # Copy binary
+              mkdir -p \$SNAPCRAFT_PART_INSTALL/usr/bin
+              cp bin/x86_64-linux/3nity-media \$SNAPCRAFT_PART_INSTALL/usr/bin/
+              chmod +x \$SNAPCRAFT_PART_INSTALL/usr/bin/3nity-media
+
+              # Copy locale files
+              mkdir -p \$SNAPCRAFT_PART_INSTALL/usr/share/3nity-media/locale
+              cp resources/locale/*.lang \$SNAPCRAFT_PART_INSTALL/usr/share/3nity-media/locale/ || true
+
+              # Copy documentation
+              mkdir -p \$SNAPCRAFT_PART_INSTALL/usr/share/doc/3nity-media
+              cp LICENSE \$SNAPCRAFT_PART_INSTALL/usr/share/doc/3nity-media/ || true
+              cp README.md \$SNAPCRAFT_PART_INSTALL/usr/share/doc/3nity-media/ || true
+
+              # Copy desktop file
+              mkdir -p \$SNAPCRAFT_PART_INSTALL/usr/share/applications
+              cp snap/gui/3nity-media.desktop \$SNAPCRAFT_PART_INSTALL/usr/share/applications/
+
+              # Copy icons
+              for size in 16 24 32 48 64 128 256; do
+                mkdir -p \$SNAPCRAFT_PART_INSTALL/usr/share/icons/hicolor/\${size}x\${size}/apps
+                cp snap/gui/3nity-media-\${size}.png \$SNAPCRAFT_PART_INSTALL/usr/share/icons/hicolor/\${size}x\${size}/apps/3nity-media.png || true
+              done
+
+              echo "=== Snap build contents ==="
+              ls -la \$SNAPCRAFT_PART_INSTALL/usr/bin/
             stage-packages:
               - libmpv2
               - libqt5pas1
