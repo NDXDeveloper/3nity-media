@@ -749,7 +749,7 @@ jobs:
             command: usr/bin/3nity-media
             desktop: usr/share/applications/3nity-media.desktop
             environment:
-              LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\${LD_LIBRARY_PATH:+:\$LD_LIBRARY_PATH}
+              LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio
               QT_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins
               QT_QPA_PLATFORM_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms
             plugs:
@@ -805,7 +805,7 @@ jobs:
               - ffmpeg
               - libpulse0
               - libpulse-mainloop-glib0
-              - libblas3
+              - libopenblas0
               - liblapack3
         EOF
 
