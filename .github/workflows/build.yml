@@ -965,10 +965,6 @@ jobs:
               - libmpv2
               - libqt5pas1
               - ffmpeg
-              - libqt5core5t64
-              - libqt5gui5t64
-              - libqt5widgets5t64
-              - libqt5x11extras5t64
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
