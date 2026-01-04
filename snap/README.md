@@ -46,20 +46,41 @@ convert src/logo.png -gravity center -background transparent -extent 512x512 sna
 
 ## Publishing to Snap Store
 
-1. Register the snap name:
-   ```bash
-   snapcraft register 3nity-media
-   ```
+### Snapcraft Authentication
 
-2. Login to your Snapcraft account:
+1. **Create Ubuntu One account**: Register at https://login.ubuntu.com
+
+2. **Login via CLI**:
    ```bash
    snapcraft login
    ```
+   This opens a browser for OAuth authentication (no SSH key needed).
 
-3. Upload and release:
+3. **For CI/CD (GitHub Actions)**: Generate an export token:
    ```bash
-   snapcraft upload 3nity-media_0.1.0_amd64.snap --release=stable
+   snapcraft export-login --snaps=3nity-media --acls=package_upload snapcraft-credentials.txt
    ```
+   Then add the file contents as a GitHub secret named `SNAPCRAFT_STORE_CREDENTIALS`.
+
+### Register the snap name
+
+Before the first publication:
+
+```bash
+snapcraft register 3nity-media
+```
+
+### Publish
+
+```bash
+snapcraft upload 3nity-media_*.snap --release=stable
+```
+
+Or to a specific channel:
+
+```bash
+snapcraft upload 3nity-media_*.snap --release=edge
+```
 
 ## Snap Channels
 
