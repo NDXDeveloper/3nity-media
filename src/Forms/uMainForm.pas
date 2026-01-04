@@ -1629,8 +1629,10 @@ begin
     if (Duration > 0) and (PositionSec >= Duration - 0.3) then
     begin
       FWatchdogTriggered := True;  { Prevent multiple triggers }
+      {$IFDEF DEBUG}
       WriteLn('[DEBUG] Watchdog triggered: PositionSec=', PositionSec:0:2, ' Duration=', Duration:0:2,
               ' Mode=', Ord(FVisualEffects.Mode));
+      {$ENDIF}
       { Post message to play next to avoid calling from position callback }
       Application.QueueAsyncCall(@AsyncPlayNextInPlaylist, 0);
     end;
@@ -1673,15 +1675,19 @@ var
   VisEnabled: Boolean;
 begin
   VisEnabled := (FVisualEffects <> nil) and FVisualEffects.Enabled and (FVisualEffects.Mode <> vmNone);
+  {$IFDEF DEBUG}
   WriteLn('[DEBUG] OnMPVEndFile: Reason=', Reason, ' VisEnabled=', VisEnabled,
           ' IgnoreNext=', FIgnoreNextEndFile, ' Changing=', FChangingVisualization,
           ' WatchdogTriggered=', FWatchdogTriggered);
+  {$ENDIF}
 
   { Ignore EndFile event that arrives immediately after PlayFile call }
   { This prevents cascade issue where old file's duration causes false NearEnd }
   if FIgnoreNextEndFile then
   begin
+    {$IFDEF DEBUG}
     WriteLn('[DEBUG] Ignoring (FIgnoreNextEndFile)');
+    {$ENDIF}
     FIgnoreNextEndFile := False;
     Exit;
   end;
@@ -1689,14 +1695,18 @@ begin
   { Ignore EOF events caused by visualization filter changes }
   if FChangingVisualization then
   begin
+    {$IFDEF DEBUG}
     WriteLn('[DEBUG] Ignoring (FChangingVisualization)');
+    {$ENDIF}
     Exit;
   end;
 
   { Ignore EOF if watchdog already triggered - it will handle the transition }
   if FWatchdogTriggered and VisEnabled then
   begin
+    {$IFDEF DEBUG}
     WriteLn('[DEBUG] Ignoring (FWatchdogTriggered - watchdog handles transition)');
+    {$ENDIF}
     Exit;
   end;
 
@@ -1707,19 +1717,27 @@ begin
   begin
     FileDuration := FMPVEngine.Duration;
     CurrentPos := FMPVEngine.Position;
+    {$IFDEF DEBUG}
     WriteLn('[DEBUG] Duration=', FileDuration:0:2, ' Position=', CurrentPos:0:2);
+    {$ENDIF}
     { Consider "near end" if within last 2 seconds or 98% of duration }
     NearEnd := (FileDuration <= 0) or (CurrentPos <= 0) or
                ((FileDuration - CurrentPos) < 2.0) or
                ((CurrentPos / FileDuration) > 0.98);
+    {$IFDEF DEBUG}
     WriteLn('[DEBUG] NearEnd=', NearEnd);
+    {$ENDIF}
     if (Reason = MPV_END_FILE_REASON_EOF) and not NearEnd then
     begin
+      {$IFDEF DEBUG}
       WriteLn('[DEBUG] Ignoring false EOF (not near end)');
+      {$ENDIF}
       Exit;  { False EOF from filter change, ignore it }
     end;
   end;
+  {$IFDEF DEBUG}
   WriteLn('[DEBUG] Proceeding with EndFile handling');
+  {$ENDIF}
 
   FSeekBar.Position := 0;
   UpdateTimeDisplay;
@@ -1845,7 +1863,9 @@ begin
   { Restore visualization if it was disabled by watchdog for showwaves EOF handling }
   if FRestoreVisAfterLoad and (FVisualEffects <> nil) then
   begin
+    {$IFDEF DEBUG}
     WriteLn('[DEBUG] Restoring visualization mode: ', Ord(FRestoreVisMode));
+    {$ENDIF}
     FRestoreVisAfterLoad := False;
 
     { Restore visualization settings }
@@ -3448,14 +3468,18 @@ end;
 procedure TfrmMain.AsyncPlayNextInPlaylist(Data: PtrInt);
 begin
   { Called from watchdog when any visualization reaches end of track }
+  {$IFDEF DEBUG}
   WriteLn('[DEBUG] AsyncPlayNextInPlaylist called');
+  {$ENDIF}
 
   { For all visualization modes, we must completely disable visualization before loading next file }
   { because lavfi-complex filters can leave MPV in a state where it can't load new files }
   if (FVisualEffects <> nil) and FVisualEffects.Enabled and
      (FVisualEffects.Mode <> vmNone) then
   begin
+    {$IFDEF DEBUG}
     WriteLn('[DEBUG] Disabling visualization (mode=', Ord(FVisualEffects.Mode), ') before next track');
+    {$ENDIF}
     { Save current mode to restore later }
     FRestoreVisMode := FVisualEffects.Mode;
     FRestoreVisAfterLoad := True;

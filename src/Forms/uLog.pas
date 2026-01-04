@@ -133,8 +133,10 @@ end;
 
 procedure WriteToFileLog(const Line: string);
 begin
-  { Always write to stderr for debugging }
+  {$IFDEF DEBUG}
+  { Write to stderr only in debug mode }
   WriteLn(StdErr, Line);
+  {$ENDIF}
 
   { Write to file if open }
   if LogFileOpen then

@@ -302,7 +302,7 @@
       </Options>
     </Linking>
     <Other>
-      <CustomOptions Value="-dLCLQT5"/>
+      <CustomOptions Value="-dLCLQT5 -dDEBUG"/>
     </Other>
   </CompilerOptions>
   <Debugging>
