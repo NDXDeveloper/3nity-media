@@ -857,14 +857,11 @@ jobs:
     # =========================================================================
     # SNAP
     # =========================================================================
-    - name: Create Snap package
+    - name: Prepare Snap package files
       run: |
         VERSION="${{ steps.version.outputs.version }}"
 
-        # Install snapcraft
-        sudo snap install snapcraft --classic
-
-        # Create snap directory and gui directory for desktop/icon
+        # Create snap directory structure
         mkdir -p snap/gui
 
         # Create desktop file for Snap
@@ -889,7 +886,6 @@ jobs:
             cp "resources/icons/${size}x${size}.png" "snap/gui/3nity-media-${size}.png"
           fi
         done
-        # Also copy 256x256 as main icon
         if [ -f "resources/icons/256x256.png" ]; then
           cp resources/icons/256x256.png snap/gui/3nity-media.png
         fi
@@ -973,14 +969,21 @@ jobs:
               - libqt5x11extras5
         EOF
 
-        # Build snap (local only, not pushed to store)
-        snapcraft --destructive-mode || echo "Snap build requires more setup - skipping"
+        # Move README.md out of snap/ to avoid snapcraft warning
+        mv snap/README.md snap/local/README.md 2>/dev/null || true
 
-        # Move snap if created
+    - name: Build Snap package
+      uses: snapcore/action-build@v1
+      id: snap-build
+      continue-on-error: true
+
+    - name: Rename Snap package
+      if: steps.snap-build.outcome == 'success'
+      run: |
+        VERSION="${{ steps.version.outputs.version }}"
         mv *.snap "3nity-media_${VERSION}_amd64.snap" 2>/dev/null || true
-
         echo "=== Snap package ==="
-        ls -la *.snap 2>/dev/null || echo "Snap not created (requires snapcraft login for some features)"
+        ls -la *.snap 2>/dev/null || echo "Snap not created"
 
     # =========================================================================
     # FLATPAK
@@ -1012,8 +1015,8 @@ jobs:
         ls -la flatpak-libs/
 
         # Create Flatpak manifest with KDE runtime and bundled libraries
-        cat > com.ndxdev.3nity-media.yml << 'MANIFEST_EOF'
-        app-id: com.ndxdev.3nity-media
+        cat > com.ndxdev.trinitymedia.yml << 'MANIFEST_EOF'
+        app-id: com.ndxdev.trinitymedia
         runtime: org.kde.Platform
         runtime-version: '6.7'
         sdk: org.kde.Sdk
@@ -1094,8 +1097,8 @@ jobs:
             build-commands:
               - install -Dm755 3nity-media /app/bin/3nity-media
               - ln -sf 3nity-media /app/bin/3nity
-              - install -Dm644 3nity-media.desktop /app/share/applications/com.ndxdev.3nity-media.desktop
-              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/\${size}x\${size}.png" ]; then install -Dm644 "icons/\${size}x\${size}.png" "/app/share/icons/hicolor/\${size}x\${size}/apps/com.ndxdev.3nity-media.png"; fi; done
+              - install -Dm644 3nity-media.desktop /app/share/applications/com.ndxdev.trinitymedia.desktop
+              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/\${size}x\${size}.png" ]; then install -Dm644 "icons/\${size}x\${size}.png" "/app/share/icons/hicolor/\${size}x\${size}/apps/com.ndxdev.trinitymedia.png"; fi; done
               - install -Dm644 LICENSE /app/share/doc/3nity-media/LICENSE
               - install -Dm644 README.md /app/share/doc/3nity-media/README.md 2>/dev/null || true
               - mkdir -p /app/share/3nity-media/locale
@@ -1126,7 +1129,7 @@ jobs:
         GenericName=Media Player
         Comment=Modern multimedia player powered by libmpv
         Exec=3nity-media %F
-        Icon=com.ndxdev.3nity-media
+        Icon=com.ndxdev.trinitymedia
         Terminal=false
         Categories=AudioVideo;Audio;Video;Player;
         MimeType=audio/*;video/*;
@@ -1141,12 +1144,12 @@ jobs:
 
         # Build Flatpak
         mkdir -p flatpak-build repo
-        flatpak-builder --user --force-clean --repo=repo flatpak-build com.ndxdev.3nity-media.yml || {
+        flatpak-builder --user --force-clean --repo=repo flatpak-build com.ndxdev.trinitymedia.yml || {
           echo "Full Flatpak build failed, trying simplified version..."
 
           # Simplified manifest without building ffmpeg/mpv from source
-          cat > com.ndxdev.3nity-media-simple.yml << 'SIMPLE_EOF'
-        app-id: com.ndxdev.3nity-media
+          cat > com.ndxdev.trinitymedia-simple.yml << 'SIMPLE_EOF'
+        app-id: com.ndxdev.trinitymedia
         runtime: org.kde.Platform
         runtime-version: '6.7'
         sdk: org.kde.Sdk
@@ -1177,8 +1180,8 @@ jobs:
                 exec /app/bin/3nity-media "$@"
                 WRAPPER
               - chmod +x /app/bin/3nity-media-wrapper
-              - install -Dm644 3nity-media.desktop /app/share/applications/com.ndxdev.3nity-media.desktop
-              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/\${size}x\${size}.png" ]; then install -Dm644 "icons/\${size}x\${size}.png" "/app/share/icons/hicolor/\${size}x\${size}/apps/com.ndxdev.3nity-media.png"; fi; done
+              - install -Dm644 3nity-media.desktop /app/share/applications/com.ndxdev.trinitymedia.desktop
+              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/\${size}x\${size}.png" ]; then install -Dm644 "icons/\${size}x\${size}.png" "/app/share/icons/hicolor/\${size}x\${size}/apps/com.ndxdev.trinitymedia.png"; fi; done
               - mkdir -p /app/share/3nity-media/locale
               - cp -r locale/*.lang /app/share/3nity-media/locale/ 2>/dev/null || true
             sources:
@@ -1197,11 +1200,11 @@ jobs:
                 dest: locale
         SIMPLE_EOF
 
-          flatpak-builder --user --force-clean --repo=repo flatpak-build com.ndxdev.3nity-media-simple.yml || echo "Flatpak build requires additional setup"
+          flatpak-builder --user --force-clean --repo=repo flatpak-build com.ndxdev.trinitymedia-simple.yml || echo "Flatpak build requires additional setup"
         }
 
         # Create single-file bundle
-        flatpak build-bundle repo "3nity-media-${VERSION}.flatpak" com.ndxdev.3nity-media 2>/dev/null || true
+        flatpak build-bundle repo "3nity-media-${VERSION}.flatpak" com.ndxdev.trinitymedia 2>/dev/null || true
 
         echo "=== Flatpak package ==="
         ls -la *.flatpak 2>/dev/null || echo "Flatpak bundle not created"
