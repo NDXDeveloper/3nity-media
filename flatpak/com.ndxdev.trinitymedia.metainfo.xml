@@ -78,16 +78,18 @@
   <content_rating type="oars-1.1" />
 
   <releases>
-    <release version="0.1.3" date="2026-01-04">
+    <!-- Update version and date before building -->
+    <release version="x.x.x" date="YYYY-MM-DD">
       <description>
-        <p>First stable release with full CI/CD</p>
-        <ul>
-          <li>Full audio and video playback support</li>
-          <li>Playlist management</li>
+        <p>Release description here</p>
+        <p>First stable release with full CI/CD</p>  
+        <ul> 
+          <li>Full audio and video playback support</li> 
+          <li>Playlist management</li> 
           <li>Internet radio streaming</li>
-          <li>Audio equalizer and video adjustments</li>
-          <li>Multi-language support</li>
-        </ul>
+          <li>Audio equalizer and video adjustments</li> 
+          <li>Multi-language support</li>    
+        </ul>                 
       </description>
     </release>
   </releases>

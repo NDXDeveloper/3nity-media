@@ -93,6 +93,24 @@ sha256sum qt5pas.tar.gz
 
 Then update the `sha256:` value in `com.ndxdev.trinitymedia.yml`.
 
+## Updating version before building
+
+Unlike Snap (which supports `version: git`), Flatpak requires manual version updates in the metainfo file.
+
+**Before building**, edit `com.ndxdev.trinitymedia.metainfo.xml` and update the `<release>` entry:
+
+```xml
+<releases>
+  <release version="X.Y.Z" date="YYYY-MM-DD">
+    <description>
+      <p>Release description here</p>
+    </description>
+  </release>
+</releases>
+```
+
+Replace `x.x.x` with your version number (e.g., `0.1.3`) and `YYYY-MM-DD` with the release date.
+
 ## Troubleshooting
 
 ### Runtime not found
