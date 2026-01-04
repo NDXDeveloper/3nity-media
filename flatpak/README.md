@@ -111,6 +111,74 @@ Unlike Snap (which supports `version: git`), Flatpak requires manual version upd
 
 Replace `x.x.x` with your version number (e.g., `0.1.3`) and `YYYY-MM-DD` with the release date.
 
+## Publishing to Flathub
+
+### Prerequisites
+
+1. **GitHub account**: Required for submitting to Flathub
+2. **Tested Flatpak**: Make sure your app builds and runs correctly locally
+
+### Submission Process
+
+1. **Fork the Flathub repository**:
+   - Go to https://github.com/flathub/flathub
+   - Click "Fork" to create your own copy
+
+2. **Create a new repository for your app**:
+   ```bash
+   # Clone your fork
+   git clone git@github.com:YOUR_USERNAME/flathub.git
+   cd flathub
+
+   # Create a branch with your app-id
+   git checkout -b com.ndxdev.trinitymedia
+   ```
+
+3. **Add your manifest files**:
+   - Copy `com.ndxdev.trinitymedia.yml` to the repository
+   - The manifest must fetch sources from URLs (not local paths)
+   - Include `metainfo.xml` and `desktop` files as sources
+
+4. **Submit a Pull Request**:
+   - Push your branch to your fork
+   - Create a PR to https://github.com/flathub/flathub
+   - Fill in the submission checklist
+
+5. **Review Process**:
+   - Flathub maintainers will review your submission
+   - Address any feedback or requested changes
+   - Once approved, a dedicated repo is created at `github.com/flathub/com.ndxdev.trinitymedia`
+
+### After Acceptance
+
+Once accepted, your app will have its own repository:
+- https://github.com/flathub/com.ndxdev.trinitymedia
+
+To publish updates:
+```bash
+# Clone your Flathub app repo
+git clone git@github.com:flathub/com.ndxdev.trinitymedia.git
+cd com.ndxdev.trinitymedia
+
+# Update manifest with new version/sources
+# Update metainfo.xml with new release entry
+git add .
+git commit -m "Update to version X.Y.Z"
+git push
+```
+
+Flathub will automatically build and publish the new version.
+
+### Flathub Guidelines
+
+- App must have valid AppStream metainfo (`metainfo.xml`)
+- App must have a desktop file
+- App must have an icon (at least 128x128)
+- All sources must be fetchable via URLs
+- No bundled dependencies that are in the runtime
+
+See: https://docs.flathub.org/docs/for-app-authors/submission
+
 ## Troubleshooting
 
 ### Runtime not found
