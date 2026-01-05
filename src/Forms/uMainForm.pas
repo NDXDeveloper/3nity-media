@@ -19,7 +19,7 @@ interface
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Menus,
   StdCtrls, ComCtrls, Buttons, LCLType, LCLIntf, LMessages, Math, Clipbrd,
-  {$IFDEF WINDOWS}Windows, ShellApi,{$ENDIF}
+  {$IFDEF WINDOWS}ShellApi,{$ENDIF}
   {$IFDEF LCLQt5}qt5, qtwidgets,{$ENDIF}
   uLibMPV, uMPVConst, uMPVEngine, uPlaylistManager, uRadioManager, uTypes, uConstants, uConfig,
   uPlaylist, uRadios, uEqualizer, uOptions, uMediaInfo, uAbout, uVideoAdjust, uLocale,
@@ -4001,8 +4001,8 @@ end;
 procedure TfrmMain.ToggleAlwaysOnTop;
 {$IFDEF WINDOWS}
 const
-  HWND_TOPMOST = -1;
-  HWND_NOTOPMOST = -2;
+  HWND_TOPMOST: HWND = HWND(-1);
+  HWND_NOTOPMOST: HWND = HWND(-2);
   SWP_NOMOVE = $0002;
   SWP_NOSIZE = $0001;
 {$ENDIF}
