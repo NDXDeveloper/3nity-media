@@ -33,7 +33,7 @@ uses
 
 const
   {$IFDEF WINDOWS}
-  LIBMPV_DLL = 'mpv-2.dll';
+  LIBMPV_DLL = 'libmpv-2.dll';
   {$ELSE}
     {$IFDEF DARWIN}
     LIBMPV_DLL = 'libmpv.2.dylib';

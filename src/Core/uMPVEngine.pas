@@ -945,7 +945,7 @@ begin
 
   if not LoadLibMPV then
   begin
-    FLastError := 'Failed to load libmpv library (libmpv.so.2)';
+    FLastError := 'Failed to load libmpv library (' + LIBMPV_DLL + ')';
     DoLog('Error: ' + FLastError);
     Exit;
   end;
