@@ -1425,8 +1425,8 @@ jobs:
         cp linux-builds/*.snap release-assets/ || true
         cp linux-builds/*.flatpak release-assets/ || true
 
-        # Windows builds
-        cp windows-builds/*.exe release-assets/ || true
+        # Windows builds (only installers, not raw binaries)
+        cp windows-builds/3nity-Media-Setup*.exe release-assets/ || true
         cp windows-builds/*.zip release-assets/ || true
 
         # Documentation
