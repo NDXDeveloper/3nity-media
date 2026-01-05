@@ -20,6 +20,7 @@ uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Menus,
   StdCtrls, ComCtrls, Buttons, LCLType, LCLIntf, LMessages, Math, Clipbrd,
   {$IFDEF WINDOWS}ShellApi,{$ENDIF}
+  {$IFDEF LCLQt5}qt5, qtwidgets,{$ENDIF}
   uLibMPV, uMPVConst, uMPVEngine, uPlaylistManager, uRadioManager, uTypes, uConstants, uConfig,
   uPlaylist, uRadios, uEqualizer, uOptions, uMediaInfo, uAbout, uVideoAdjust, uLocale,
   uGotoTime, uHistory, uBookmarks, uFavorites, uSleepTimer, uShortcuts, uShortcutsEditor,
@@ -750,6 +751,43 @@ implementation
 
 {$R *.lfm}
 
+{$IFDEF LCLQt5}
+{ Fix menu bar background color for Qt5 in Snap/sandboxed environments }
+procedure FixMenuBarPalette(AMainMenu: TMainMenu);
+var
+  QtMenuBar: TQtMenuBar;
+  Palette: QPaletteH;
+  BgColor, FgColor: TQColor;
+begin
+  if not Assigned(AMainMenu) then Exit;
+  if not AMainMenu.HandleAllocated then Exit;
+
+  QtMenuBar := TQtMenuBar(AMainMenu.Handle);
+  if QtMenuBar = nil then Exit;
+
+  { Create palette with explicit colors }
+  Palette := QPalette_create();
+  try
+    { Light gray background (standard menu color) }
+    QColor_fromRgb(@BgColor, 239, 239, 239);  { #EFEFEF }
+    QColor_fromRgb(@FgColor, 0, 0, 0);        { Black text }
+
+    QPalette_setColor(Palette, QPaletteWindow, @BgColor);
+    QPalette_setColor(Palette, QPaletteButton, @BgColor);
+    QPalette_setColor(Palette, QPaletteBase, @BgColor);
+    QPalette_setColor(Palette, QPaletteWindowText, @FgColor);
+    QPalette_setColor(Palette, QPaletteButtonText, @FgColor);
+    QPalette_setColor(Palette, QPaletteText, @FgColor);
+
+    { Apply palette to menu bar widget }
+    QWidget_setPalette(QtMenuBar.Widget, Palette);
+    QWidget_setAutoFillBackground(QtMenuBar.Widget, True);
+  finally
+    QPalette_destroy(Palette);
+  end;
+end;
+{$ENDIF}
+
 { TfrmMain }
 
 procedure TfrmMain.FormCreate(Sender: TObject);
@@ -806,6 +844,11 @@ begin
 
   { Set window title }
   Caption := APP_NAME;
+
+  { Fix menu bar background color for Qt5 in Snap environment }
+  {$IFDEF LCLQt5}
+  FixMenuBarPalette(MainMenu);
+  {$ENDIF}
 
   { Set minimum size }
   Constraints.MinWidth := DEF_MAIN_MIN_WIDTH;
@@ -1009,6 +1052,11 @@ begin
   begin
     { Force layout update to ensure pnlVideo has correct size }
     Application.ProcessMessages;
+
+    { Fix menu bar background color for Qt5 in Snap environment (retry after widgets realized) }
+    {$IFDEF LCLQt5}
+    FixMenuBarPalette(MainMenu);
+    {$ENDIF}
 
     { Fix Qt5 TTrackBar vertical offset - Qt5 theme adds ~2px internal margin }
     tbVolume.Top := 12;  { LFM has 10, but Qt5 needs +2 to align visually }
