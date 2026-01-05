@@ -34,6 +34,7 @@ platforms:
 
 apps:
   3nity-media:
+    extensions: [kde-neon]
     command: bin/3nity-media
     desktop: share/applications/3nity-media.desktop
     plugs:
@@ -54,10 +55,11 @@ apps:
       - desktop-legacy
       - gsettings
       - mount-observe
+      - udisks2
     environment:
-      LD_LIBRARY_PATH: $SNAP/usr/lib:$SNAP/usr/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio
-      LIBVA_DRIVER_NAME: ""
-      __EGL_VENDOR_LIBRARY_DIRS: $SNAP/usr/share/glvnd/egl_vendor.d
+      LD_LIBRARY_PATH: $SNAP/usr/lib:$SNAP/usr/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio:$SNAP/usr/lib/x86_64-linux-gnu/blas:$SNAP/usr/lib/x86_64-linux-gnu/lapack:$LD_LIBRARY_PATH
+      UBUNTU_MENUPROXY: ""
+      QT_QPA_PLATFORM: xcb
 
 layout:
   /usr/share/libdrm:
@@ -109,6 +111,7 @@ parts:
       - libglx0
       - libglvnd0
       - libpulse0
+      - libpulse-mainloop-glib0
       - libasound2
       - liblua5.1-0
       - libass9
@@ -126,6 +129,12 @@ parts:
       - libxkbcommon0
       - libxss1
       - libzimg2
+      - libblas3
+      - liblapack3
+      - plasma-integration
+      - qt5-style-plugins
+      - breeze-icon-theme
+      - kde-style-breeze
       - yt-dlp
     override-build: |
       # Generate version file
