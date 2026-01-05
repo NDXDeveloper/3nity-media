@@ -876,11 +876,13 @@ jobs:
           - --socket=x11
           - --socket=wayland
           - --socket=pulseaudio
-          - --device=dri
+          - --device=all
           - --filesystem=home
           - --filesystem=/media
           - --filesystem=/run/media
           - --talk-name=org.freedesktop.Notifications
+          - --talk-name=org.freedesktop.ScreenSaver
+          - --system-talk-name=org.freedesktop.UDisks2
 
         modules:
           # Build libmpv from source (includes all codecs)
@@ -1009,11 +1011,13 @@ jobs:
           - --socket=x11
           - --socket=wayland
           - --socket=pulseaudio
-          - --device=dri
+          - --device=all
           - --filesystem=home
           - --filesystem=/media
           - --filesystem=/run/media
           - --talk-name=org.freedesktop.Notifications
+          - --talk-name=org.freedesktop.ScreenSaver
+          - --system-talk-name=org.freedesktop.UDisks2
 
         modules:
           - name: libqt5pas

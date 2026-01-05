@@ -8,7 +8,7 @@ finish-args:
   - --share=ipc
   - --socket=x11
   - --socket=wayland
-  - --device=dri
+  - --device=all
   # Audio
   - --socket=pulseaudio
   # Network (for streaming)
@@ -19,6 +19,8 @@ finish-args:
   - --filesystem=/run/media
   # Desktop integration
   - --talk-name=org.freedesktop.Notifications
+  - --talk-name=org.freedesktop.ScreenSaver
+  - --system-talk-name=org.freedesktop.UDisks2
 
 modules:
   # FFmpeg with common codecs
