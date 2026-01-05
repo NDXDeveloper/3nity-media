@@ -809,6 +809,8 @@ jobs:
               - libpulse-mainloop-glib0
               - libblas3
               - liblapack3
+              - breeze
+              - kde-style-breeze
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
