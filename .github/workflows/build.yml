@@ -1123,8 +1123,9 @@ jobs:
       run: |
         cd src
 
-        # Build with Lazarus (Windows uses default widget set)
-        & "C:\lazarus\lazbuild.exe" --build-mode=Release TrinityMedia.lpi
+        # Build with Lazarus using native win32 widgetset (no Qt5 DLLs needed)
+        # The project uses Qt5 for Linux, but we use win32 for Windows for simpler deployment
+        & "C:\lazarus\lazbuild.exe" --build-mode=Release --widgetset=win32 TrinityMedia.lpi
 
         # Find and copy binary
         $binaryPath = $null
@@ -1214,6 +1215,8 @@ jobs:
         fi
 
         echo "=== Dependencies ready ==="
+        # Note: Windows build uses win32 widgetset (--widgetset=win32), so no Qt5 DLLs are needed
+        # The win32 widgetset uses native Windows controls
         ls -la *.dll 2>/dev/null || echo "No DLLs found"
         ls -la *.exe 2>/dev/null || echo "No EXEs found"
 
