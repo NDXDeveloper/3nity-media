@@ -75,6 +75,23 @@ flatpak run com.ndxdev.trinitymedia
 | `com.ndxdev.trinitymedia.desktop` | Desktop entry file |
 | `com.ndxdev.trinitymedia.metainfo.xml` | AppStream metadata for software centers |
 
+## Permissions
+
+The Flatpak requests the following permissions (defined in `finish-args`):
+
+| Permission | Purpose |
+|------------|---------|
+| `--socket=x11` / `--socket=wayland` | Display access |
+| `--socket=pulseaudio` | Audio playback |
+| `--device=all` | Hardware access (GPU, CD/DVD drives) |
+| `--share=network` | Internet streaming |
+| `--filesystem=home` | Access to home directory |
+| `--filesystem=/media` | Access to mounted drives |
+| `--filesystem=/run/media` | Access to removable media |
+| `--talk-name=org.freedesktop.Notifications` | Desktop notifications |
+| `--talk-name=org.freedesktop.ScreenSaver` | Prevent screen sleep during playback |
+| `--system-talk-name=org.freedesktop.UDisks2` | Disk enumeration |
+
 ## Notes
 
 - The manifest uses KDE Platform 6.8 runtime
