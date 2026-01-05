@@ -805,8 +805,8 @@ jobs:
               - ffmpeg
               - libpulse0
               - libpulse-mainloop-glib0
-              - libopenblas0t64
-              - liblapack3t64
+              - libopenblas-dev
+              - liblapack-dev
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
