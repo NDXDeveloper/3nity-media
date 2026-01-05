@@ -129,6 +129,29 @@ The snap uses `strict` confinement with the following plugs:
 | `optical-drive` | DVD/CD playback |
 | `opengl` | Hardware acceleration |
 | `x11` / `wayland` | Display server access |
+| `udisks2` | Disk information access |
+| `screen-inhibit-control` | Prevent screen sleep during playback |
+| `mount-observe` | Monitor mount events |
+
+## Creating an Alias
+
+To use the short command `3nity` instead of `3nity-media`:
+
+```bash
+sudo snap alias 3nity-media 3nity
+```
+
+## Known Issues
+
+### locale-gen Error
+
+When running the snap, you may see:
+```
+locale-gen: No such file or directory
+ERROR: locale-gen exited abnormally with status 127
+```
+
+This is a cosmetic error from the kde-neon extension and does not prevent the application from working.
 
 ## Troubleshooting
 
@@ -153,6 +176,12 @@ sudo snap connect 3nity-media:removable-media
 
 ```bash
 sudo snap connect 3nity-media:optical-drive
+```
+
+### UDisks2 errors (disk enumeration)
+
+```bash
+sudo snap connect 3nity-media:udisks2
 ```
 
 ### Hardware acceleration issues

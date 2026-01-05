@@ -201,6 +201,13 @@ wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-
 sudo snap install --dangerous 3nity-media_VERSION_amd64.snap
 ```
 
+**Create short alias (optional):**
+
+```bash
+sudo snap alias 3nity-media 3nity
+# Then you can run with just: 3nity
+```
+
 ### Flatpak
 
 **Install Flatpak first (if not available):**
@@ -543,6 +550,7 @@ sudo snap connect 3nity-media:audio-playback
 sudo snap connect 3nity-media:pulseaudio
 sudo snap connect 3nity-media:removable-media
 sudo snap connect 3nity-media:optical-drive
+sudo snap connect 3nity-media:udisks2
 
 # View logs
 snap logs 3nity-media
@@ -550,6 +558,16 @@ snap logs 3nity-media
 # Check confinement issues
 journalctl -f | grep -i apparmor
 ```
+
+**Known issue - locale-gen error:**
+
+When running the snap, you may see:
+```
+locale-gen: No such file or directory
+ERROR: locale-gen exited abnormally with status 127
+```
+
+This is a cosmetic error from the kde-neon extension and does not prevent the application from working.
 
 ### Flatpak issues
 

@@ -45,7 +45,7 @@ snap/
 
 ```yaml
 name: 3nity-media
-base: core22
+base: core24
 version: '0.1.0'
 summary: Modern multimedia player based on libmpv
 description: |
@@ -100,6 +100,7 @@ apps:
       - desktop-legacy
       - gsettings
       - mount-observe
+      - udisks2
     environment:
       LD_LIBRARY_PATH: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET:$SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/pulseaudio:$LD_LIBRARY_PATH
       LIBVA_DRIVER_NAME: ""
@@ -482,6 +483,37 @@ snapcraft close 3nity-media edge
 | `desktop-legacy` | Legacy desktop integration |
 | `gsettings` | GNOME/GTK settings access |
 | `mount-observe` | Monitor mount events |
+| `udisks2` | Disk information access (prevents enumeration errors) |
+
+---
+
+## Creating an Alias
+
+To use the short command `3nity` instead of `3nity-media`:
+
+```bash
+sudo snap alias 3nity-media 3nity
+```
+
+After this, you can run the application with either `3nity-media` or `3nity`.
+
+---
+
+## Known Issues
+
+### locale-gen Error (kde-neon extension)
+
+When running the snap, you may see:
+```
+locale-gen: No such file or directory
+ERROR: locale-gen exited abnormally with status 127
+```
+
+This is a cosmetic error from the kde-neon extension and **does not prevent the application from working**.
+
+### Qt5 Menu Bar Fix
+
+The application includes a code-level fix (`FixMenuBarPalette`) to resolve black menu bar rendering issues in sandboxed environments (Snap). This fix is automatically applied at startup.
 
 ---
 

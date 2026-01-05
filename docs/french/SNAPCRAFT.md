@@ -45,7 +45,7 @@ snap/
 
 ```yaml
 name: 3nity-media
-base: core22
+base: core24
 version: '0.1.0'
 summary: Modern multimedia player based on libmpv
 description: |
@@ -100,6 +100,7 @@ apps:
       - desktop-legacy
       - gsettings
       - mount-observe
+      - udisks2
     environment:
       LD_LIBRARY_PATH: $SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET:$SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/pulseaudio:$LD_LIBRARY_PATH
       LIBVA_DRIVER_NAME: ""
@@ -482,6 +483,37 @@ snapcraft close 3nity-media edge
 | `desktop-legacy` | Intégration desktop legacy |
 | `gsettings` | Accès aux paramètres GNOME/GTK |
 | `mount-observe` | Surveiller les événements de montage |
+| `udisks2` | Accès aux informations des disques (évite les erreurs d'énumération) |
+
+---
+
+## Créer un alias
+
+Pour utiliser la commande courte `3nity` au lieu de `3nity-media` :
+
+```bash
+sudo snap alias 3nity-media 3nity
+```
+
+Après cela, vous pouvez lancer l'application avec `3nity-media` ou `3nity`.
+
+---
+
+## Problèmes connus
+
+### Erreur locale-gen (extension kde-neon)
+
+Au lancement du snap, vous pouvez voir :
+```
+locale-gen: No such file or directory
+ERROR: locale-gen exited abnormally with status 127
+```
+
+C'est une erreur cosmétique de l'extension kde-neon qui **n'empêche pas l'application de fonctionner**.
+
+### Correctif menu Qt5
+
+L'application inclut un correctif au niveau du code (`FixMenuBarPalette`) pour résoudre les problèmes de rendu du menu noir dans les environnements sandboxés (Snap). Ce correctif est appliqué automatiquement au démarrage.
 
 ---
 

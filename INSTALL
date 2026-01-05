@@ -89,6 +89,10 @@ sudo snap install --dangerous 3nity-media_*_amd64.snap
 # or
 snap run 3nity-media
 
+## Create short alias (optional)
+sudo snap alias 3nity-media 3nity
+# Then you can run with just: 3nity
+
 
 # =============================================================================
 # LINUX - Flatpak
@@ -219,6 +223,7 @@ sudo snap connect 3nity-media:audio-playback
 sudo snap connect 3nity-media:pulseaudio
 sudo snap connect 3nity-media:removable-media
 sudo snap connect 3nity-media:optical-drive
+sudo snap connect 3nity-media:udisks2
 
 ## Snap: View logs
 snap logs 3nity-media
