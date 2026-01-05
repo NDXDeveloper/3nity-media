@@ -26,7 +26,7 @@ unit uMPVEngine;
 interface
 
 uses
-  Classes, SysUtils, LCLType, LCLIntf, Forms, ExtCtrls,
+  Classes, SysUtils, Math, LCLType, LCLIntf, Forms, ExtCtrls,
   {$IFDEF WINDOWS}Windows,{$ENDIF}
   {$IFDEF UNIX}initc, ctypes, x, xlib, xutil,{$ENDIF}
   {$IFDEF LCLQT5}qt5, qtwidgets,{$ENDIF}
@@ -929,6 +929,12 @@ begin
     Result := True;
     Exit;
   end;
+
+  {$IFDEF WINDOWS}
+  { Mask FPU exceptions - libmpv can trigger invalid floating point operations.
+    We keep them masked for the entire session as mpv/ffmpeg may trigger them during playback. }
+  SetExceptionMask([exInvalidOp, exDenormalized, exZeroDivide, exOverflow, exUnderflow, exPrecision]);
+  {$ENDIF}
 
   { Store dimensions }
   FVideoWindowWidth := AWidth;
