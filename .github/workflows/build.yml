@@ -1125,7 +1125,8 @@ jobs:
 
         # Build with Lazarus using native win32 widgetset (no Qt5 DLLs needed)
         # The project uses Qt5 for Linux, but we use win32 for Windows for simpler deployment
-        & "C:\lazarus\lazbuild.exe" --build-mode=Release --widgetset=win32 TrinityMedia.lpi
+        # -uLCLQT5 undefines the Qt5 symbol that's hardcoded in project CustomOptions
+        & "C:\lazarus\lazbuild.exe" --build-mode=Release --widgetset=win32 --compiler-option=-uLCLQT5 TrinityMedia.lpi
 
         # Find and copy binary
         $binaryPath = $null
