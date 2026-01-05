@@ -60,7 +60,7 @@
             </Options>
           </Linking>
           <Other>
-            <CustomOptions Value="-dLCLQT5"/>
+            <CustomOptions Value=""/>
           </Other>
         </CompilerOptions>
       </Item>
@@ -302,7 +302,7 @@
       </Options>
     </Linking>
     <Other>
-      <CustomOptions Value="-dLCLQT5 -dDEBUG"/>
+      <CustomOptions Value="-dDEBUG"/>
     </Other>
   </CompilerOptions>
   <Debugging>
