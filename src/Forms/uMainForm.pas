@@ -19,7 +19,7 @@ interface
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, Menus,
   StdCtrls, ComCtrls, Buttons, LCLType, LCLIntf, LMessages, Math, Clipbrd,
-  {$IFDEF WINDOWS}ShellApi,{$ENDIF}
+  {$IFDEF WINDOWS}Windows, ShellApi,{$ENDIF}
   {$IFDEF LCLQt5}qt5, qtwidgets,{$ENDIF}
   uLibMPV, uMPVConst, uMPVEngine, uPlaylistManager, uRadioManager, uTypes, uConstants, uConfig,
   uPlaylist, uRadios, uEqualizer, uOptions, uMediaInfo, uAbout, uVideoAdjust, uLocale,
@@ -3999,13 +3999,28 @@ begin
 end;
 
 procedure TfrmMain.ToggleAlwaysOnTop;
+{$IFDEF WINDOWS}
+const
+  HWND_TOPMOST = -1;
+  HWND_NOTOPMOST = -2;
+  SWP_NOMOVE = $0002;
+  SWP_NOSIZE = $0001;
+{$ENDIF}
 begin
   FAlwaysOnTop := not FAlwaysOnTop;
 
+  {$IFDEF WINDOWS}
+  { Use Windows API directly for reliable always-on-top behavior }
+  if FAlwaysOnTop then
+    SetWindowPos(Self.Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE or SWP_NOSIZE)
+  else
+    SetWindowPos(Self.Handle, HWND_NOTOPMOST, 0, 0, 0, 0, SWP_NOMOVE or SWP_NOSIZE);
+  {$ELSE}
   if FAlwaysOnTop then
     FormStyle := fsStayOnTop
   else
     FormStyle := fsNormal;
+  {$ENDIF}
 
   mnuViewAlwaysOnTop.Checked := FAlwaysOnTop;
   mnuCtxAlwaysOnTop.Checked := FAlwaysOnTop;
