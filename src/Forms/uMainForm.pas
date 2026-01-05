@@ -521,6 +521,7 @@ type
     FBoundsToRestore: TRect;
     FRestoreBoundsRetries: Integer;
     FSeekBar: TVssScrollbar;
+    FLastSeekPosition: Integer;  { Track last seeked position to prevent double-seek }
     FLastMouseMove: TDateTime;
     FLastMousePos: TPoint;
     FControlsVisible: Boolean;
@@ -881,6 +882,7 @@ begin
   FSeekBar.OnChange := @SeekBarChange;
   FSeekBar.OnScrollEnd := @SeekBarScrollEnd;
   FSeekBar.OnMouseWheel := @pnlSeekMouseWheel;
+  FLastSeekPosition := -1;  { Initialize seek position tracking }
 
   { Set panel colors }
   pnlVideo.Color := clBlack;
@@ -1885,6 +1887,8 @@ begin
 
   { Reset the ignore flag - file is now properly loaded }
   FIgnoreNextEndFile := False;
+  { Reset seek position tracking for new file }
+  FLastSeekPosition := -1;
   { Reset watchdog flag for new track }
   FWatchdogTriggered := False;
 
@@ -2275,10 +2279,21 @@ end;
 procedure TfrmMain.SeekBarChange(Sender: TObject);
 var
   HasVisualization: Boolean;
+  NewPos: Integer;
 begin
   { During scrolling, seek immediately for live feedback }
   if FSeekBar.Scrolling and (FMPVEngine <> nil) then
   begin
+    NewPos := FSeekBar.Position;
+
+    { Prevent double-seek: only seek if position changed significantly (> 5 out of 1000) }
+    { This prevents the MouseDown+MouseUp double-seek on simple clicks }
+    if Abs(NewPos - FLastSeekPosition) <= 5 then
+    begin
+      UpdateTimeDisplay;
+      Exit;
+    end;
+
     HasVisualization := (FVisualEffects <> nil) and FVisualEffects.Enabled and
                         (FVisualEffects.Mode <> vmNone);
 
@@ -2292,7 +2307,8 @@ begin
     else
     begin
       { No visualization: seek immediately for live feedback }
-      FMPVEngine.SeekPercent(FSeekBar.Position / 10.0);
+      FLastSeekPosition := NewPos;
+      FMPVEngine.SeekPercent(NewPos / 10.0);
       UpdateTimeDisplay;
     end;
   end;
@@ -2319,12 +2335,9 @@ begin
       FVisualReapplyNeeded := True;  { Timer should apply visualization }
       FVisualReapplyTimer.Enabled := False;
       FVisualReapplyTimer.Enabled := True;
-    end
-    else
-    begin
-      { No visualization: just seek }
-      FMPVEngine.SeekPercent(FSeekBar.Position / 10.0);
     end;
+    { Note: No seek needed here when no visualization - SeekBarChange already }
+    { handled the seek during MouseUp (while Scrolling was still true) }
   end;
 end;
 
