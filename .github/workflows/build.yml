@@ -757,6 +757,7 @@ jobs:
               - home
               - audio-playback
               - audio-record
+              - pulseaudio
               - network
               - network-bind
               - opengl
@@ -768,6 +769,9 @@ jobs:
               - optical-drive
               - unity7
               - gsettings
+              - udisks2
+              - screen-inhibit-control
+              - mount-observe
 
         parts:
           3nity-media:
