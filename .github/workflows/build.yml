@@ -811,6 +811,7 @@ jobs:
               - plasma-integration
               - qt5-style-plugins
               - breeze-icon-theme
+              - kde-style-breeze
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
