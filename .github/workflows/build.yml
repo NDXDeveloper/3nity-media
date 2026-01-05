@@ -752,6 +752,8 @@ jobs:
               LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio:\$SNAP/usr/lib/x86_64-linux-gnu/blas:\$SNAP/usr/lib/x86_64-linux-gnu/lapack
               QT_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins
               QT_QPA_PLATFORM_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms
+              UBUNTU_MENUPROXY: ""
+              QT_QPA_PLATFORMTHEME: ""
             plugs:
               - home
               - audio-playback
