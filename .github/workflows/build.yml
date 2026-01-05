@@ -837,6 +837,21 @@ jobs:
     # =========================================================================
     # FLATPAK
     # =========================================================================
+    - name: Free disk space for Flatpak
+      run: |
+        echo "=== Disk space before cleanup ==="
+        df -h /
+
+        # Remove unnecessary large packages to free space for Flatpak build
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /usr/local/lib/android
+        sudo rm -rf /opt/ghc
+        sudo rm -rf /opt/hostedtoolcache/CodeQL
+        sudo docker image prune --all --force || true
+
+        echo "=== Disk space after cleanup ==="
+        df -h /
+
     - name: Create Flatpak package
       run: |
         VERSION="${{ steps.version.outputs.version }}"
