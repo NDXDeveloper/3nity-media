@@ -746,15 +746,12 @@ jobs:
 
         apps:
           3nity-media:
+            extensions: [kde-neon]
             command: usr/bin/3nity-media
             desktop: usr/share/applications/3nity-media.desktop
             environment:
-              LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio:\$SNAP/usr/lib/x86_64-linux-gnu/blas:\$SNAP/usr/lib/x86_64-linux-gnu/lapack
-              QT_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins
-              QT_QPA_PLATFORM_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms
+              LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio:\$SNAP/usr/lib/x86_64-linux-gnu/blas:\$SNAP/usr/lib/x86_64-linux-gnu/lapack:\$LD_LIBRARY_PATH
               UBUNTU_MENUPROXY: ""
-              QT_QPA_PLATFORMTHEME: ""
-              QT_STYLE_OVERRIDE: Adwaita
             plugs:
               - home
               - audio-playback
@@ -810,7 +807,6 @@ jobs:
               - libpulse-mainloop-glib0
               - libblas3
               - liblapack3
-              - adwaita-qt
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
