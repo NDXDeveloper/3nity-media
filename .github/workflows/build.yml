@@ -754,7 +754,7 @@ jobs:
               QT_QPA_PLATFORM_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms
               UBUNTU_MENUPROXY: ""
               QT_QPA_PLATFORMTHEME: ""
-              QT_STYLE_OVERRIDE: Fusion
+              QT_STYLE_OVERRIDE: Adwaita
             plugs:
               - home
               - audio-playback
@@ -810,6 +810,7 @@ jobs:
               - libpulse-mainloop-glib0
               - libblas3
               - liblapack3
+              - adwaita-qt
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
