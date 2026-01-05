@@ -749,7 +749,7 @@ jobs:
             command: usr/bin/3nity-media
             desktop: usr/share/applications/3nity-media.desktop
             environment:
-              LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio
+              LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio:\$SNAP/usr/lib/x86_64-linux-gnu/blas:\$SNAP/usr/lib/x86_64-linux-gnu/lapack
               QT_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins
               QT_QPA_PLATFORM_PLUGIN_PATH: \$SNAP/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms
             plugs:
@@ -805,8 +805,8 @@ jobs:
               - ffmpeg
               - libpulse0
               - libpulse-mainloop-glib0
-              - libopenblas-dev
-              - liblapack-dev
+              - libblas3
+              - liblapack3
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
