@@ -4009,7 +4009,7 @@ const
   GWL_EXSTYLE = -20;
   WS_EX_TOPMOST = $00000008;
 var
-  ExStyle: LONG_PTR;
+  ExStyle: LongInt;
 {$ENDIF}
 var
   i: Integer;
@@ -4019,12 +4019,12 @@ begin
 
   {$IFDEF WINDOWS}
   { Use SetWindowLong to set/clear WS_EX_TOPMOST extended style }
-  ExStyle := GetWindowLongPtr(Self.Handle, GWL_EXSTYLE);
+  ExStyle := GetWindowLong(Self.Handle, GWL_EXSTYLE);
   if FAlwaysOnTop then
     ExStyle := ExStyle or WS_EX_TOPMOST
   else
-    ExStyle := ExStyle and not WS_EX_TOPMOST;
-  SetWindowLongPtr(Self.Handle, GWL_EXSTYLE, ExStyle);
+    ExStyle := ExStyle and (not WS_EX_TOPMOST);
+  SetWindowLong(Self.Handle, GWL_EXSTYLE, ExStyle);
 
   { Also use SetWindowPos to force z-order update }
   if FAlwaysOnTop then
@@ -4041,12 +4041,12 @@ begin
       F := Application.Components[i] as TForm;
       if F <> Self then
       begin
-        ExStyle := GetWindowLongPtr(F.Handle, GWL_EXSTYLE);
+        ExStyle := GetWindowLong(F.Handle, GWL_EXSTYLE);
         if FAlwaysOnTop then
           ExStyle := ExStyle or WS_EX_TOPMOST
         else
-          ExStyle := ExStyle and not WS_EX_TOPMOST;
-        SetWindowLongPtr(F.Handle, GWL_EXSTYLE, ExStyle);
+          ExStyle := ExStyle and (not WS_EX_TOPMOST);
+        SetWindowLong(F.Handle, GWL_EXSTYLE, ExStyle);
       end;
     end;
 
