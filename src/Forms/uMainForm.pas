@@ -4005,16 +4005,45 @@ const
   HWND_NOTOPMOST: HWND = HWND(-2);
   SWP_NOMOVE = $0002;
   SWP_NOSIZE = $0001;
+  SWP_NOACTIVATE = $0010;
 {$ENDIF}
+var
+  i: Integer;
+  F: TForm;
 begin
   FAlwaysOnTop := not FAlwaysOnTop;
 
   {$IFDEF WINDOWS}
-  { Use Windows API directly for reliable always-on-top behavior }
+  { Apply to all application forms and use Application.Handle for topmost }
+  if not FAlwaysOnTop then
+  begin
+    Self.FormStyle := fsNormal;
+    SetWindowPos(Application.Handle, HWND_NOTOPMOST, 0, 0, 0, 0,
+      SWP_NOACTIVATE or SWP_NOMOVE or SWP_NOSIZE);
+  end;
+
+  { Apply FormStyle to all forms }
+  for i := 0 to Application.ComponentCount - 1 do
+    if Application.Components[i] is TForm then
+    begin
+      F := Application.Components[i] as TForm;
+      if F <> Self then
+      begin
+        if FAlwaysOnTop then
+          F.FormStyle := fsStayOnTop
+        else
+          F.FormStyle := fsNormal;
+      end;
+    end;
+
   if FAlwaysOnTop then
-    SetWindowPos(Self.Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE or SWP_NOSIZE)
-  else
-    SetWindowPos(Self.Handle, HWND_NOTOPMOST, 0, 0, 0, 0, SWP_NOMOVE or SWP_NOSIZE);
+  begin
+    Self.FormStyle := fsStayOnTop;
+    SetWindowPos(Application.Handle, HWND_TOPMOST, 0, 0, 0, 0,
+      SWP_NOACTIVATE or SWP_NOMOVE or SWP_NOSIZE);
+  end;
+
+  Self.BringToFront;
   {$ELSE}
   if FAlwaysOnTop then
     FormStyle := fsStayOnTop

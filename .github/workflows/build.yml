@@ -1245,6 +1245,17 @@ jobs:
           exit 1
         fi
 
+        echo "=== Downloading OpenSSL (for HTTPS support) ==="
+        # Download OpenSSL DLLs from curl for Windows (includes OpenSSL 3.x)
+        curl -f -L -o deps/curl-win64.zip "https://curl.se/windows/dl-8.11.1_1/curl-8.11.1_1-win64-mingw.zip"
+        unzip -q deps/curl-win64.zip -d deps/curl-win64
+
+        # Copy OpenSSL DLLs (libssl and libcrypto)
+        find deps/curl-win64 -name "libssl*.dll" -exec cp {} . \;
+        find deps/curl-win64 -name "libcrypto*.dll" -exec cp {} . \;
+        echo "OpenSSL DLLs copied:"
+        ls -la libssl*.dll libcrypto*.dll 2>/dev/null || echo "Warning: OpenSSL DLLs not found"
+
         echo "=== Dependencies ready ==="
         # Note: Windows build uses win32 widgetset (--widgetset=win32), so no Qt5 DLLs are needed
         # The win32 widgetset uses native Windows controls
