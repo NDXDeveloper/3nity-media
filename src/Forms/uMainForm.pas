@@ -527,7 +527,10 @@ type
     FControlsVisible: Boolean;
     FSavedBounds: TRect;
     FSavedWindowState: TWindowState;
-    FSavedBorderStyle: TFormBorderStyle;
+    {$IFDEF WINDOWS}
+    FSavedStyle: LongInt;
+    FSavedExStyle: LongInt;
+    {$ENDIF}
     FPlaybackSpeed: Double;
     FABLoopA: Double;
     FABLoopB: Double;
@@ -2610,6 +2613,24 @@ begin
 end;
 
 procedure TfrmMain.SetFullscreen(AFullscreen: Boolean);
+{$IFDEF WINDOWS}
+const
+  GWL_STYLE = -16;
+  GWL_EXSTYLE = -20;
+  WS_CAPTION = $00C00000;
+  WS_THICKFRAME = $00040000;
+  WS_BORDER = $00800000;
+  WS_EX_DLGMODALFRAME = $00000001;
+  WS_EX_WINDOWEDGE = $00000100;
+  WS_EX_CLIENTEDGE = $00000200;
+  WS_EX_STATICEDGE = $00020000;
+  SWP_FRAMECHANGED = $0020;
+  SWP_NOZORDER = $0004;
+  HWND_TOP = 0;
+var
+  Style, ExStyle: LongInt;
+  MonitorRect: TRect;
+{$ENDIF}
 begin
   if AFullscreen = FFullscreen then Exit;
 
@@ -2619,7 +2640,6 @@ begin
   begin
     { Save current state - FSavedBounds is already updated by FormResize }
     FSavedWindowState := WindowState;
-    FSavedBorderStyle := BorderStyle;
 
     { Save playlist position before fullscreen }
     if (FPlaylistForm <> nil) and FPlaylistForm.Visible then
@@ -2640,9 +2660,23 @@ begin
     Menu := nil;
 
     {$IFDEF WINDOWS}
-    { On Windows, wsFullScreen doesn't hide taskbar - use bsNone + wsMaximized }
-    BorderStyle := bsNone;
-    WindowState := wsMaximized;
+    { Save current window styles }
+    FSavedStyle := GetWindowLong(Handle, GWL_STYLE);
+    FSavedExStyle := GetWindowLong(Handle, GWL_EXSTYLE);
+
+    { Remove caption, borders and frame }
+    Style := FSavedStyle and not (WS_CAPTION or WS_THICKFRAME or WS_BORDER);
+    ExStyle := FSavedExStyle and not (WS_EX_DLGMODALFRAME or WS_EX_WINDOWEDGE or WS_EX_CLIENTEDGE or WS_EX_STATICEDGE);
+    SetWindowLong(Handle, GWL_STYLE, Style);
+    SetWindowLong(Handle, GWL_EXSTYLE, ExStyle);
+
+    { Get current monitor bounds and cover entire screen }
+    MonitorRect := Monitor.BoundsRect;
+    SetWindowPos(Handle, HWND_TOP,
+      MonitorRect.Left, MonitorRect.Top,
+      MonitorRect.Right - MonitorRect.Left,
+      MonitorRect.Bottom - MonitorRect.Top,
+      SWP_FRAMECHANGED or SWP_NOZORDER);
     {$ELSE}
     { On Linux/GTK, wsFullScreen works correctly }
     WindowState := wsFullScreen;
@@ -2663,7 +2697,11 @@ begin
 
     { Exit fullscreen }
     {$IFDEF WINDOWS}
-    BorderStyle := FSavedBorderStyle;
+    { Restore original window styles }
+    SetWindowLong(Handle, GWL_STYLE, FSavedStyle);
+    SetWindowLong(Handle, GWL_EXSTYLE, FSavedExStyle);
+    SetWindowPos(Handle, 0, 0, 0, 0, 0,
+      SWP_FRAMECHANGED or SWP_NOZORDER or $0001 or $0002 or $0010); { SWP_NOSIZE or SWP_NOMOVE or SWP_NOACTIVATE }
     {$ENDIF}
     WindowState := wsNormal;
 
