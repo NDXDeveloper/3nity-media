@@ -527,6 +527,7 @@ type
     FControlsVisible: Boolean;
     FSavedBounds: TRect;
     FSavedWindowState: TWindowState;
+    FSavedBorderStyle: TFormBorderStyle;
     FPlaybackSpeed: Double;
     FABLoopA: Double;
     FABLoopB: Double;
@@ -2618,6 +2619,7 @@ begin
   begin
     { Save current state - FSavedBounds is already updated by FormResize }
     FSavedWindowState := WindowState;
+    FSavedBorderStyle := BorderStyle;
 
     { Save playlist position before fullscreen }
     if (FPlaylistForm <> nil) and FPlaylistForm.Visible then
@@ -2637,8 +2639,14 @@ begin
     { Hide menu }
     Menu := nil;
 
-    { Use wsFullScreen for true fullscreen }
+    {$IFDEF WINDOWS}
+    { On Windows, wsFullScreen doesn't hide taskbar - use bsNone + wsMaximized }
+    BorderStyle := bsNone;
+    WindowState := wsMaximized;
+    {$ELSE}
+    { On Linux/GTK, wsFullScreen works correctly }
     WindowState := wsFullScreen;
+    {$ENDIF}
 
     { Initialize mouse tracking for auto-hide }
     FLastMousePos := Mouse.CursorPos;
@@ -2654,6 +2662,9 @@ begin
     FRestoreBoundsRetries := 15;
 
     { Exit fullscreen }
+    {$IFDEF WINDOWS}
+    BorderStyle := FSavedBorderStyle;
+    {$ENDIF}
     WindowState := wsNormal;
 
     { Start timer to restore bounds using GTK functions }
