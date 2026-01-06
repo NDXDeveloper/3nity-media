@@ -57,7 +57,6 @@ The application handles shortcuts at **3 levels**:
 - **When**: Intercepts ALL keystrokes, even with focus on MPV
 - **Handled Shortcuts** (essential during playback):
   - `Ctrl+M` → Mute
-  - `Ctrl+T` → Always on Top
   - `Ctrl+S` → Screenshot
   - `Ctrl+G` → Go to Time
   - `Ctrl+L` → Clear A-B Loop
@@ -138,7 +137,6 @@ The application handles shortcuts at **3 levels**:
 | Num + | Zoom In | saZoomIn |
 | Num - | Zoom Out | saZoomOut |
 | Num * | Zoom Reset | saZoomReset |
-| **Ctrl+T** | **Always on Top** | saAlwaysOnTop |
 | W | Fit to Video | saFitToVideo |
 | Ctrl+S | Screenshot | saScreenshot |
 

@@ -485,7 +485,6 @@ Go to `Tools` → `Options` to access settings:
 
 **Interface:**
 - Show/hide elements
-- Always on top
 - System tray behavior
 
 **Paths:**
@@ -554,7 +553,6 @@ Go to `Tools` → `Options` to access settings:
 | Zoom in | `Ctrl+Plus` |
 | Zoom out | `Ctrl+Minus` |
 | Reset zoom | `Ctrl+0` |
-| Always on top | `T` |
 | Fit to video | `Ctrl+F` |
 
 ### Subtitles

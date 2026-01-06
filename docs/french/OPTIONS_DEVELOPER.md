@@ -115,7 +115,6 @@ MainTop=100
 MainWidth=800
 MainHeight=600
 MainMaximized=0
-AlwaysOnTop=0
 PlaylistLeft=0
 PlaylistTop=0
 PlaylistWidth=350

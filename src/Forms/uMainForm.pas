@@ -825,12 +825,10 @@ begin
   FVideoPanX := 0;
   FVideoPanY := 0;
   FAlwaysOnTop := False;
-  {$IFNDEF WINDOWS}
-  { Always On Top only works reliably on Windows - Qt5 widgetset recreates window }
+  { Always On Top disabled - Qt5 recreates window on Linux, unreliable on Windows }
   mnuViewAlwaysOnTop.Visible := False;
   mnuViewAlwaysOnTop.ShortCut := 0;
   mnuCtxAlwaysOnTop.Visible := False;
-  {$ENDIF}
   FAudioNormalize := False;
   FClosingToTray := False;
   FForceClose := False;
