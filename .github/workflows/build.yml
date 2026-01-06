@@ -1247,13 +1247,16 @@ jobs:
 
         echo "=== Downloading OpenSSL (for HTTPS support) ==="
         # Download OpenSSL DLLs from curl for Windows (includes OpenSSL 3.x)
-        curl -f -L -o deps/curl-win64.zip "https://curl.se/windows/dl-8.11.1_1/curl-8.11.1_1-win64-mingw.zip"
+        # Using latest.cgi for automatic latest version
+        curl -f -L -o deps/curl-win64.zip "https://curl.se/windows/latest.cgi?p=win64-mingw.zip"
         unzip -q deps/curl-win64.zip -d deps/curl-win64
 
         # Copy OpenSSL DLLs (libssl and libcrypto)
-        find deps/curl-win64 -name "libssl*.dll" -exec cp {} . \;
-        find deps/curl-win64 -name "libcrypto*.dll" -exec cp {} . \;
-        echo "OpenSSL DLLs copied:"
+        echo "Searching for OpenSSL DLLs..."
+        find deps/curl-win64 -name "*.dll" -type f
+        find deps/curl-win64 -name "libssl*.dll" -exec cp -v {} . \;
+        find deps/curl-win64 -name "libcrypto*.dll" -exec cp -v {} . \;
+        echo "OpenSSL DLLs in current directory:"
         ls -la libssl*.dll libcrypto*.dll 2>/dev/null || echo "Warning: OpenSSL DLLs not found"
 
         echo "=== Dependencies ready ==="

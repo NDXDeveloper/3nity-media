@@ -4006,6 +4006,10 @@ const
   SWP_NOMOVE = $0002;
   SWP_NOSIZE = $0001;
   SWP_NOACTIVATE = $0010;
+  GWL_EXSTYLE = -20;
+  WS_EX_TOPMOST = $00000008;
+var
+  ExStyle: LONG_PTR;
 {$ENDIF}
 var
   i: Integer;
@@ -4014,34 +4018,37 @@ begin
   FAlwaysOnTop := not FAlwaysOnTop;
 
   {$IFDEF WINDOWS}
-  { Apply to all application forms and use Application.Handle for topmost }
-  if not FAlwaysOnTop then
-  begin
-    Self.FormStyle := fsNormal;
-    SetWindowPos(Application.Handle, HWND_NOTOPMOST, 0, 0, 0, 0,
-      SWP_NOACTIVATE or SWP_NOMOVE or SWP_NOSIZE);
-  end;
+  { Use SetWindowLong to set/clear WS_EX_TOPMOST extended style }
+  ExStyle := GetWindowLongPtr(Self.Handle, GWL_EXSTYLE);
+  if FAlwaysOnTop then
+    ExStyle := ExStyle or WS_EX_TOPMOST
+  else
+    ExStyle := ExStyle and not WS_EX_TOPMOST;
+  SetWindowLongPtr(Self.Handle, GWL_EXSTYLE, ExStyle);
 
-  { Apply FormStyle to all forms }
+  { Also use SetWindowPos to force z-order update }
+  if FAlwaysOnTop then
+    SetWindowPos(Self.Handle, HWND_TOPMOST, 0, 0, 0, 0,
+      SWP_NOMOVE or SWP_NOSIZE or SWP_NOACTIVATE)
+  else
+    SetWindowPos(Self.Handle, HWND_NOTOPMOST, 0, 0, 0, 0,
+      SWP_NOMOVE or SWP_NOSIZE or SWP_NOACTIVATE);
+
+  { Apply to all child forms }
   for i := 0 to Application.ComponentCount - 1 do
     if Application.Components[i] is TForm then
     begin
       F := Application.Components[i] as TForm;
       if F <> Self then
       begin
+        ExStyle := GetWindowLongPtr(F.Handle, GWL_EXSTYLE);
         if FAlwaysOnTop then
-          F.FormStyle := fsStayOnTop
+          ExStyle := ExStyle or WS_EX_TOPMOST
         else
-          F.FormStyle := fsNormal;
+          ExStyle := ExStyle and not WS_EX_TOPMOST;
+        SetWindowLongPtr(F.Handle, GWL_EXSTYLE, ExStyle);
       end;
     end;
-
-  if FAlwaysOnTop then
-  begin
-    Self.FormStyle := fsStayOnTop;
-    SetWindowPos(Application.Handle, HWND_TOPMOST, 0, 0, 0, 0,
-      SWP_NOACTIVATE or SWP_NOMOVE or SWP_NOSIZE);
-  end;
 
   Self.BringToFront;
   {$ELSE}
