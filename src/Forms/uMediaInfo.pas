@@ -445,11 +445,32 @@ begin
       AProcess.Parameters.Add('-of');
       AProcess.Parameters.Add('flat');
       AProcess.Parameters.Add(FFileName);
+      {$IFDEF WINDOWS}
+      { On Windows, don't use poWaitOnExit - it causes deadlock when pipe buffer fills }
+      AProcess.Options := [poUsePipes, poNoConsole, poStderrToOutPut];
+      {$ELSE}
       AProcess.Options := [poUsePipes, poNoConsole, poWaitOnExit];
+      {$ENDIF}
 
       try
         AProcess.Execute;
+
+        {$IFDEF WINDOWS}
+        { On Windows, read output incrementally to avoid deadlock }
+        while AProcess.Running or (AProcess.Output.NumBytesAvailable > 0) do
+        begin
+          while AProcess.Output.NumBytesAvailable > 0 do
+          begin
+            SetLength(Line, AProcess.Output.NumBytesAvailable);
+            AProcess.Output.Read(Line[1], Length(Line));
+            Output.Text := Output.Text + Line;
+          end;
+          if AProcess.Running then
+            Sleep(10);
+        end;
+        {$ELSE}
         Output.LoadFromStream(AProcess.Output);
+        {$ENDIF}
 
         { Parse output - handles both format.tags.key and streams.stream.N.tags.key }
         for I := 0 to Output.Count - 1 do
