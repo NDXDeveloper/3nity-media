@@ -1972,10 +1972,14 @@ procedure TMPVEngine.SeekAbsolute(Seconds: Double);
 var
   Args: array[0..3] of PAnsiChar;
   SecStr: string;
+  FmtSettings: TFormatSettings;
 begin
   if FHandle = nil then Exit;
 
-  SecStr := FloatToStr(Seconds);
+  { Use dot as decimal separator for MPV compatibility (locale-independent) }
+  FmtSettings := DefaultFormatSettings;
+  FmtSettings.DecimalSeparator := '.';
+  SecStr := FloatToStr(Seconds, FmtSettings);
   Args[0] := 'seek';
   Args[1] := PAnsiChar(AnsiString(SecStr));
   Args[2] := 'absolute';
@@ -1987,10 +1991,14 @@ procedure TMPVEngine.SeekRelative(Seconds: Double);
 var
   Args: array[0..3] of PAnsiChar;
   SecStr: string;
+  FmtSettings: TFormatSettings;
 begin
   if FHandle = nil then Exit;
 
-  SecStr := FloatToStr(Seconds);
+  { Use dot as decimal separator for MPV compatibility (locale-independent) }
+  FmtSettings := DefaultFormatSettings;
+  FmtSettings.DecimalSeparator := '.';
+  SecStr := FloatToStr(Seconds, FmtSettings);
   Args[0] := 'seek';
   Args[1] := PAnsiChar(AnsiString(SecStr));
   Args[2] := 'relative';
@@ -2002,10 +2010,14 @@ procedure TMPVEngine.SeekPercent(Percent: Double);
 var
   Args: array[0..3] of PAnsiChar;
   PctStr: string;
+  FmtSettings: TFormatSettings;
 begin
   if FHandle = nil then Exit;
 
-  PctStr := FloatToStr(Percent);
+  { Use dot as decimal separator for MPV compatibility (locale-independent) }
+  FmtSettings := DefaultFormatSettings;
+  FmtSettings.DecimalSeparator := '.';
+  PctStr := FloatToStr(Percent, FmtSettings);
   Args[0] := 'seek';
   Args[1] := PAnsiChar(AnsiString(PctStr));
   Args[2] := 'absolute-percent';
