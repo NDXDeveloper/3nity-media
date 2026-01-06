@@ -2186,7 +2186,12 @@ const
 var
   I: Integer;
   Filters: string;
+  FmtSettings: TFormatSettings;
 begin
+  { Use dot as decimal separator for FFmpeg compatibility (locale-independent) }
+  FmtSettings := DefaultFormatSettings;
+  FmtSettings.DecimalSeparator := '.';
+
   { Build chain of FFmpeg equalizer filters }
   { Format: equalizer=f=freq:t=o:w=1:g=gain (octave-based bandwidth) }
   Filters := '';
@@ -2195,12 +2200,12 @@ begin
     if I > 0 then
       Filters := Filters + ',';
     Filters := Filters + Format('equalizer=f=%d:t=o:w=1:g=%.1f',
-      [FREQ[I], FEqualizerBands[I]]);
+      [FREQ[I], FEqualizerBands[I]], FmtSettings);
   end;
 
   { Add preamp (volume) at the end if not zero }
   if Abs(FPreamp) > 0.01 then
-    Filters := Filters + Format(',volume=%.1fdB', [FPreamp]);
+    Filters := Filters + Format(',volume=%.1fdB', [FPreamp], FmtSettings);
 
   Result := 'lavfi=[' + Filters + ']';
 end;
@@ -2221,6 +2226,7 @@ const
   FREQ: array[0..9] of Integer = (31, 62, 125, 250, 500, 1000, 2000, 4000, 8000, 16000);
 var
   I: Integer;
+  FmtSettings: TFormatSettings;
 begin
   { Returns equalizer filter string for lavfi-complex integration }
   { Returns just the filter chain without lavfi=[] wrapper }
@@ -2230,18 +2236,22 @@ begin
     Exit;
   end;
 
+  { Use dot as decimal separator for FFmpeg compatibility (locale-independent) }
+  FmtSettings := DefaultFormatSettings;
+  FmtSettings.DecimalSeparator := '.';
+
   Result := '';
   for I := 0 to EQ_BANDS - 1 do
   begin
     if I > 0 then
       Result := Result + ',';
     Result := Result + Format('equalizer=f=%d:t=o:w=1:g=%.1f',
-      [FREQ[I], FEqualizerBands[I]]);
+      [FREQ[I], FEqualizerBands[I]], FmtSettings);
   end;
 
   { Add preamp (volume) at the end if not zero }
   if Abs(FPreamp) > 0.01 then
-    Result := Result + Format(',volume=%.1fdB', [FPreamp]);
+    Result := Result + Format(',volume=%.1fdB', [FPreamp], FmtSettings);
 end;
 
 procedure TMPVEngine.SetPreamp(dB: Double);
