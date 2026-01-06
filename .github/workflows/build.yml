@@ -1177,8 +1177,14 @@ jobs:
         # Download libmpv from GitHub (shinchiro/mpv-winbuild-cmake releases)
         # This is more reliable than SourceForge which has Cloudflare protection
 
-        # Get latest release info from GitHub API
-        RELEASE_INFO=$(curl -s "https://api.github.com/repos/shinchiro/mpv-winbuild-cmake/releases/latest")
+        # Get latest release info from GitHub API (use GitHub token to avoid rate limiting)
+        RELEASE_INFO=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/shinchiro/mpv-winbuild-cmake/releases/latest")
+
+        # Check if API returned an error
+        if echo "$RELEASE_INFO" | grep -q '"message"'; then
+          echo "GitHub API response:"
+          echo "$RELEASE_INFO"
+        fi
 
         # Find mpv-dev-x86_64 asset (not v3 for broader compatibility)
         MPV_URL=$(echo "$RELEASE_INFO" | grep -o '"browser_download_url": "[^"]*mpv-dev-x86_64-[^v][^"]*\.7z"' | head -1 | cut -d'"' -f4)
@@ -1189,14 +1195,24 @@ jobs:
         fi
 
         if [ -z "$MPV_URL" ]; then
-          echo "ERROR: Could not find libmpv download URL"
+          echo "ERROR: Could not find libmpv download URL from API"
           echo "Available assets:"
           echo "$RELEASE_INFO" | grep browser_download_url
-          exit 1
+          # Fallback to known working release
+          echo "Using fallback URL..."
+          MPV_URL="https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260105/mpv-dev-x86_64-20260105-git-0035bb7.7z"
         fi
 
         echo "Downloading from: $MPV_URL"
-        curl -L -o deps/libmpv.7z "$MPV_URL"
+        if ! curl -f -L -o deps/libmpv.7z "$MPV_URL"; then
+          echo "WARNING: Failed to download libmpv from $MPV_URL"
+          echo "Trying fallback URL..."
+          FALLBACK_URL="https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260105/mpv-dev-x86_64-20260105-git-0035bb7.7z"
+          if ! curl -f -L -o deps/libmpv.7z "$FALLBACK_URL"; then
+            echo "ERROR: Failed to download libmpv from fallback URL"
+            exit 1
+          fi
+        fi
 
         # Extract libmpv
         7z x deps/libmpv.7z -odeps/libmpv -y
