@@ -1246,16 +1246,15 @@ jobs:
         fi
 
         echo "=== Downloading OpenSSL (for HTTPS support) ==="
-        # Download OpenSSL DLLs from curl for Windows (includes OpenSSL 3.x)
-        # Using latest.cgi for automatic latest version
-        curl -f -L -o deps/curl-win64.zip "https://curl.se/windows/latest.cgi?p=win64-mingw.zip"
-        unzip -q deps/curl-win64.zip -d deps/curl-win64
+        # Download OpenSSL DLLs from FireDaemon (trusted source with signed binaries)
+        curl -f -L -o deps/openssl.zip "https://download.firedaemon.com/FireDaemon-OpenSSL/openssl-3.5.4.zip"
+        unzip -q deps/openssl.zip -d deps/openssl
 
-        # Copy OpenSSL DLLs (libssl and libcrypto)
+        # Copy OpenSSL x64 DLLs
         echo "Searching for OpenSSL DLLs..."
-        find deps/curl-win64 -name "*.dll" -type f
-        find deps/curl-win64 -name "libssl*.dll" -exec cp -v {} . \;
-        find deps/curl-win64 -name "libcrypto*.dll" -exec cp -v {} . \;
+        find deps/openssl -name "libssl-3-x64.dll" -o -name "libcrypto-3-x64.dll" | head -10
+        find deps/openssl -name "libssl-3-x64.dll" -exec cp -v {} . \;
+        find deps/openssl -name "libcrypto-3-x64.dll" -exec cp -v {} . \;
         echo "OpenSSL DLLs in current directory:"
         ls -la libssl*.dll libcrypto*.dll 2>/dev/null || echo "Warning: OpenSSL DLLs not found"
 
