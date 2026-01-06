@@ -1247,8 +1247,8 @@ jobs:
 
         echo "=== Downloading OpenSSL 1.1.x (for HTTPS support) ==="
         # FPC 3.2.2 requires OpenSSL 1.1.x (not 3.x) - looks for libssl-1_1-x64.dll
-        # Download from FireDaemon (trusted source with signed binaries)
-        curl -f -L -o deps/openssl.zip "https://download.firedaemon.com/FireDaemon-OpenSSL/openssl-1.1.1.zip"
+        # Download from ICS/Overbyte (François Piette) - code signed binaries
+        curl -f -L -o deps/openssl.zip "https://wiki.overbyte.eu/arch/openssl-1.1.1w-win64.zip"
         unzip -q deps/openssl.zip -d deps/openssl
 
         # Copy OpenSSL 1.1.x x64 DLLs
