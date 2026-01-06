@@ -1245,16 +1245,17 @@ jobs:
           exit 1
         fi
 
-        echo "=== Downloading OpenSSL (for HTTPS support) ==="
-        # Download OpenSSL DLLs from FireDaemon (trusted source with signed binaries)
-        curl -f -L -o deps/openssl.zip "https://download.firedaemon.com/FireDaemon-OpenSSL/openssl-3.5.4.zip"
+        echo "=== Downloading OpenSSL 1.1.x (for HTTPS support) ==="
+        # FPC 3.2.2 requires OpenSSL 1.1.x (not 3.x) - looks for libssl-1_1-x64.dll
+        # Download from FireDaemon (trusted source with signed binaries)
+        curl -f -L -o deps/openssl.zip "https://download.firedaemon.com/FireDaemon-OpenSSL/openssl-1.1.1.zip"
         unzip -q deps/openssl.zip -d deps/openssl
 
-        # Copy OpenSSL x64 DLLs
-        echo "Searching for OpenSSL DLLs..."
-        find deps/openssl -name "libssl-3-x64.dll" -o -name "libcrypto-3-x64.dll" | head -10
-        find deps/openssl -name "libssl-3-x64.dll" -exec cp -v {} . \;
-        find deps/openssl -name "libcrypto-3-x64.dll" -exec cp -v {} . \;
+        # Copy OpenSSL 1.1.x x64 DLLs
+        echo "Searching for OpenSSL 1.1.x DLLs..."
+        find deps/openssl -name "*.dll" -type f | head -20
+        find deps/openssl -name "libssl-1_1-x64.dll" -exec cp -v {} . \;
+        find deps/openssl -name "libcrypto-1_1-x64.dll" -exec cp -v {} . \;
         echo "OpenSSL DLLs in current directory:"
         ls -la libssl*.dll libcrypto*.dll 2>/dev/null || echo "Warning: OpenSSL DLLs not found"
 

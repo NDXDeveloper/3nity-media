@@ -4006,56 +4006,24 @@ const
   SWP_NOMOVE = $0002;
   SWP_NOSIZE = $0001;
   SWP_NOACTIVATE = $0010;
-  GWL_EXSTYLE = -20;
-  WS_EX_TOPMOST = $00000008;
-var
-  ExStyle: LongInt;
 {$ENDIF}
-var
-  i: Integer;
-  F: TForm;
 begin
   FAlwaysOnTop := not FAlwaysOnTop;
 
-  {$IFDEF WINDOWS}
-  { Use SetWindowLong to set/clear WS_EX_TOPMOST extended style }
-  ExStyle := GetWindowLong(Self.Handle, GWL_EXSTYLE);
+  { Set FormStyle first - LCL handles this properly on Win32 widgetset }
   if FAlwaysOnTop then
-    ExStyle := ExStyle or WS_EX_TOPMOST
+    FormStyle := fsStayOnTop
   else
-    ExStyle := ExStyle and (not WS_EX_TOPMOST);
-  SetWindowLong(Self.Handle, GWL_EXSTYLE, ExStyle);
+    FormStyle := fsNormal;
 
-  { Also use SetWindowPos to force z-order update }
+  {$IFDEF WINDOWS}
+  { Reinforce with SetWindowPos to ensure z-order is applied immediately }
   if FAlwaysOnTop then
     SetWindowPos(Self.Handle, HWND_TOPMOST, 0, 0, 0, 0,
       SWP_NOMOVE or SWP_NOSIZE or SWP_NOACTIVATE)
   else
     SetWindowPos(Self.Handle, HWND_NOTOPMOST, 0, 0, 0, 0,
       SWP_NOMOVE or SWP_NOSIZE or SWP_NOACTIVATE);
-
-  { Apply to all child forms }
-  for i := 0 to Application.ComponentCount - 1 do
-    if Application.Components[i] is TForm then
-    begin
-      F := Application.Components[i] as TForm;
-      if F <> Self then
-      begin
-        ExStyle := GetWindowLong(F.Handle, GWL_EXSTYLE);
-        if FAlwaysOnTop then
-          ExStyle := ExStyle or WS_EX_TOPMOST
-        else
-          ExStyle := ExStyle and (not WS_EX_TOPMOST);
-        SetWindowLong(F.Handle, GWL_EXSTYLE, ExStyle);
-      end;
-    end;
-
-  Self.BringToFront;
-  {$ELSE}
-  if FAlwaysOnTop then
-    FormStyle := fsStayOnTop
-  else
-    FormStyle := fsNormal;
   {$ENDIF}
 
   mnuViewAlwaysOnTop.Checked := FAlwaysOnTop;
