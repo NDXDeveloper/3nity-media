@@ -90,6 +90,8 @@ type
     procedure BandSliderEnter(Sender: TObject);
     procedure BandSliderMouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
+    procedure BandSliderMouseWheel(Sender: TObject; Shift: TShiftState;
+      WheelDelta: Integer; MousePos: TPoint; var Handled: Boolean);
     procedure UpdateBandValueLabel(BandIndex: Integer);
     procedure ApplyCurrentSettings;
     procedure ApplyTimerEvent(Sender: TObject);
@@ -564,6 +566,7 @@ begin
     FBandSliders[I].OnChange := @BandSliderChange;
     FBandSliders[I].OnEnter := @BandSliderEnter;
     FBandSliders[I].OnMouseDown := @BandSliderMouseDown;
+    FBandSliders[I].OnMouseWheel := @BandSliderMouseWheel;
 
     { Value label at bottom }
     FBandValueLabels[I] := TLabel.Create(SliderPanel);
@@ -618,6 +621,28 @@ begin
   { Force focus to the slider when clicked - use ActiveControl assignment }
   if Slider.CanFocus then
     Self.ActiveControl := Slider;
+end;
+
+procedure TfrmEqualizer.BandSliderMouseWheel(Sender: TObject; Shift: TShiftState;
+  WheelDelta: Integer; MousePos: TPoint; var Handled: Boolean);
+var
+  Slider: TTrackBar;
+  Step: Integer;
+begin
+  Slider := Sender as TTrackBar;
+  Step := 5;  { 0.5 dB per wheel notch }
+  if ssShift in Shift then
+    Step := 20;  { 2 dB with Shift held }
+
+  { For vertical TTrackBar: Min is at TOP, Max is at BOTTOM
+    Wheel UP (positive delta) should increase dB = move slider UP = DECREASE Position
+    Wheel DOWN (negative delta) should decrease dB = move slider DOWN = INCREASE Position }
+  if WheelDelta > 0 then
+    Slider.Position := Max(Slider.Min, Slider.Position - Step)
+  else
+    Slider.Position := Min(Slider.Max, Slider.Position + Step);
+
+  Handled := True;
 end;
 
 procedure TfrmEqualizer.UpdateBandValueLabel(BandIndex: Integer);
