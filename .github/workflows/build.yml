@@ -850,26 +850,6 @@ jobs:
               - qt5-style-plugins
               - breeze-icon-theme
               - kde-style-breeze
-            prime:
-              - usr/bin/3nity-media
-              - usr/share/3nity-media/
-              - usr/share/doc/3nity-media/
-              - usr/share/applications/
-              - usr/share/icons/
-              - usr/lib/*/libmpv*
-              - usr/lib/*/libQt5Pas*
-              - usr/lib/*/libass*
-              - usr/lib/*/libbluray*
-              - usr/lib/*/libdvd*
-              - usr/lib/*/libva*
-              - usr/lib/*/libvdpau*
-              - usr/lib/*/libplacebo*
-              - usr/lib/*/librubberband*
-              - usr/lib/*/libpulse*
-              - usr/lib/*/libasound*
-              - usr/lib/*/dri/
-              - usr/bin/ffprobe
-              - usr/share/libdrm/
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning

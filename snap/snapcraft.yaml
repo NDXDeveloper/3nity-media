@@ -175,25 +175,6 @@ parts:
       mkdir -p $SNAPCRAFT_PART_INSTALL/share/doc/3nity-media
       cp ../LICENSE $SNAPCRAFT_PART_INSTALL/share/doc/3nity-media/ || true
       cp ../README.md $SNAPCRAFT_PART_INSTALL/share/doc/3nity-media/ || true
-    prime:
-      - bin/3nity-media
-      - share/3nity-media/
-      - share/doc/3nity-media/
-      - usr/lib/*/libmpv*
-      - usr/lib/*/libQt5Pas*
-      - usr/lib/*/libass*
-      - usr/lib/*/libbluray*
-      - usr/lib/*/libdvd*
-      - usr/lib/*/libva*
-      - usr/lib/*/libvdpau*
-      - usr/lib/*/libplacebo*
-      - usr/lib/*/librubberband*
-      - usr/lib/*/libpulse*
-      - usr/lib/*/libasound*
-      - usr/lib/*/dri/
-      - usr/bin/ffprobe
-      - usr/bin/yt-dlp
-      - usr/share/libdrm/
 
   # Desktop integration files
   desktop-files:
