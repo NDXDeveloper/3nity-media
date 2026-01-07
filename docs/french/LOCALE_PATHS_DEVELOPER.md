@@ -18,7 +18,7 @@ L'application recherche les fichiers de langue dans l'ordre suivant :
 | 2 | Portable (alternatif) | `[ExePath]/lang/` |
 | 3 | macOS App Bundle | `[ExePath]/../Resources/locale/` |
 | 4 | Linux standard | `[ExePath]/../share/3nity-media/locale/` |
-| 5 | Snap package | `$SNAP/share/3nity-media/locale/` |
+| 5 | Snap package | `$SNAP/usr/share/3nity-media/locale/` |
 | 6 | Système (global) | `/usr/share/3nity-media/locale/` |
 | 7 | Système (local) | `/usr/local/share/3nity-media/locale/` |
 | 8 | Fallback | `[ExePath]/locale/` |
@@ -154,7 +154,7 @@ share/icons/3nity-media.png              usr/share/icons/hicolor/256x256/apps
 
 **Variable d'environnement :** `$SNAP=/snap/3nity-media/current`
 
-**Chemin détecté :** `/snap/3nity-media/current/share/3nity-media/locale/`
+**Chemin détecté :** `/snap/3nity-media/current/usr/share/3nity-media/locale/`
 
 ##### snapcraft.yaml (exemple)
 
@@ -271,7 +271,7 @@ begin
   { 4. Snap package }
   else if GetEnvironmentVariable('SNAP') <> '' then
   begin
-    SnapPath := GetEnvironmentVariable('SNAP') + '/share/3nity-media/locale';
+    SnapPath := GetEnvironmentVariable('SNAP') + '/usr/share/3nity-media/locale';
     if DirectoryExists(SnapPath) then
       FLangPath := SnapPath + '/'
   end
@@ -379,7 +379,7 @@ L'anglais est la langue de fallback par défaut. Il doit toujours être présent
 |-----------------|-------------------|
 | Portable | `locale/` (à côté de l'exe) |
 | .deb | `/usr/share/3nity-media/locale/` |
-| Snap | `share/3nity-media/locale/` (relatif à `$SNAP`) |
+| Snap | `usr/share/3nity-media/locale/` (relatif à `$SNAP`) |
 | AppImage | `usr/share/3nity-media/locale/` (dans AppDir) |
 | macOS .app | `Contents/Resources/locale/` |
 
@@ -410,5 +410,5 @@ Avant de publier, vérifiez que :
 | macOS Homebrew | `/usr/local/bin/3nity-media` | `/usr/local/share/3nity-media/locale/` | ✅ |
 | Linux Portable | `./3nity-media` | `./locale/` | ✅ |
 | Debian/Ubuntu | `/usr/bin/3nity-media` | `/usr/share/3nity-media/locale/` | ✅ |
-| Snap | `$SNAP/bin/3nity-media` | `$SNAP/share/3nity-media/locale/` | ✅ |
+| Snap | `$SNAP/usr/bin/3nity-media` | `$SNAP/usr/share/3nity-media/locale/` | ✅ |
 | AppImage | `.mount.../usr/bin/3nity-media` | `.mount.../usr/share/3nity-media/locale/` | ✅ |

@@ -78,8 +78,8 @@ architectures:
 
 apps:
   3nity-media:
-    command: bin/3nity-media
-    desktop: share/applications/3nity-media.desktop
+    command: usr/bin/3nity-media
+    desktop: usr/share/applications/3nity-media.desktop
     extensions:
       - kde-neon
     plugs:
@@ -200,23 +200,23 @@ parts:
       lazbuild --build-mode=Release TrinityMedia.lpi
 
       # Installer le binaire
-      mkdir -p $SNAPCRAFT_PART_INSTALL/bin
-      cp ../bin/x86_64-linux/3nity-media $SNAPCRAFT_PART_INSTALL/bin/
+      mkdir -p $SNAPCRAFT_PART_INSTALL/usr/bin
+      cp ../bin/x86_64-linux/3nity-media $SNAPCRAFT_PART_INSTALL/usr/bin/
 
       # Installer les fichiers de locale depuis resources/locale/
-      mkdir -p $SNAPCRAFT_PART_INSTALL/share/3nity-media/locale
+      mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/3nity-media/locale
       if [ -d "../resources/locale" ]; then
-        cp ../resources/locale/*.lang $SNAPCRAFT_PART_INSTALL/share/3nity-media/locale/
+        cp ../resources/locale/*.lang $SNAPCRAFT_PART_INSTALL/usr/share/3nity-media/locale/
       fi
 
       # Installer LICENSE et documentation
-      mkdir -p $SNAPCRAFT_PART_INSTALL/share/doc/3nity-media
-      cp ../LICENSE $SNAPCRAFT_PART_INSTALL/share/doc/3nity-media/ || true
-      cp ../README.md $SNAPCRAFT_PART_INSTALL/share/doc/3nity-media/ || true
+      mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/doc/3nity-media
+      cp ../LICENSE $SNAPCRAFT_PART_INSTALL/usr/share/doc/3nity-media/ || true
+      cp ../README.md $SNAPCRAFT_PART_INSTALL/usr/share/doc/3nity-media/ || true
     prime:
-      - bin/3nity-media
-      - share/3nity-media/
-      - share/doc/3nity-media/
+      - usr/bin/3nity-media
+      - usr/share/3nity-media/
+      - usr/share/doc/3nity-media/
       - usr/lib/*/libmpv*
       - usr/lib/*/libQt5Pas*
       - usr/lib/*/libass*

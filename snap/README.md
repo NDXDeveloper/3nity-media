@@ -199,10 +199,10 @@ vdpauinfo
 
 | Content | Path in Snap |
 |---------|--------------|
-| Binary | `$SNAP/bin/3nity-media` |
-| Locale files | `$SNAP/share/3nity-media/locale/` |
-| Desktop file | `$SNAP/share/applications/3nity-media.desktop` |
-| Icon | `$SNAP/share/icons/hicolor/256x256/apps/3nity-media.png` |
+| Binary | `$SNAP/usr/bin/3nity-media` |
+| Locale files | `$SNAP/usr/share/3nity-media/locale/` |
+| Desktop file | `$SNAP/usr/share/applications/3nity-media.desktop` |
+| Icon | `$SNAP/usr/share/icons/hicolor/256x256/apps/3nity-media.png` |
 
 ## Configuration Storage
 
