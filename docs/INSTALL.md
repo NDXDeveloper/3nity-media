@@ -11,7 +11,6 @@ This guide covers all installation methods for 3nity Media on Linux and Windows.
   - [DEB (Ubuntu/Debian)](#deb-ubuntudebian)
   - [AppImage (Universal)](#appimage-universal)
   - [Snap](#snap)
-  - [Flatpak](#flatpak)
   - [Windows](#windows-1)
 - [Building from Source](#building-from-source)
   - [Linux](#linux-build)
@@ -208,38 +207,6 @@ sudo snap alias 3nity-media 3nity
 # Then you can run with just: 3nity
 ```
 
-### Flatpak
-
-**Install Flatpak first (if not available):**
-
-```bash
-# Ubuntu/Debian
-sudo apt install flatpak
-
-# Fedora (pre-installed)
-
-# Arch Linux
-sudo pacman -S flatpak
-
-# openSUSE
-sudo zypper install flatpak
-```
-
-> **Note:** After installing Flatpak for the first time, restart your session (log out and log in) or reboot.
-
-**Add Flathub repository:**
-
-```bash
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-```
-
-**Install 3nity Media:**
-
-```bash
-wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media-VERSION.flatpak
-flatpak install --user 3nity-media-VERSION.flatpak
-```
-
 ### Windows
 
 **Method 1: System installer (recommended)**
@@ -398,7 +365,6 @@ Copy these files to the same folder as `3nity.exe`:
 |----------|----------|
 | Linux | `~/.config/3nity-media/` |
 | Windows | `%APPDATA%\3nity-media\` |
-| Flatpak | `~/.var/app/com.ndxdev.3nity-media/config/` |
 | Snap | `~/snap/3nity-media/current/.config/` |
 
 Configuration files:
@@ -491,7 +457,7 @@ sudo apt install libqt5pas1
 ldconfig -p | grep qt5pas
 ```
 
-> **Note:** libQt5Pas is not available on Fedora/RHEL/openSUSE. Use AppImage or Flatpak instead.
+> **Note:** libQt5Pas is not available on Fedora/RHEL/openSUSE. Use AppImage or Snap instead.
 
 ### No sound
 
@@ -569,23 +535,6 @@ ERROR: locale-gen exited abnormally with status 127
 
 This is a cosmetic error from the kde-neon extension and does not prevent the application from working.
 
-### Flatpak issues
-
-```bash
-# Install missing runtime
-flatpak install flathub org.kde.Platform//6.8
-
-# Run with debug output
-flatpak run --verbose com.ndxdev.trinitymedia
-
-# Grant access to external drives
-flatpak override --user --filesystem=/media com.ndxdev.trinitymedia
-flatpak override --user --filesystem=/run/media com.ndxdev.trinitymedia
-
-# Enter shell for debugging
-flatpak run --command=sh com.ndxdev.trinitymedia
-```
-
 ### Windows issues
 
 ```powershell
@@ -619,11 +568,6 @@ rm ~/.local/share/applications/3nity-media.desktop
 ### Snap
 ```bash
 sudo snap remove 3nity-media
-```
-
-### Flatpak
-```bash
-flatpak uninstall com.ndxdev.3nity-media
 ```
 
 ### Windows

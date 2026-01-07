@@ -62,13 +62,6 @@ wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-
 sudo snap install --dangerous 3nity-media_amd64.snap
 ```
 
-#### From Flatpak
-
-```bash
-wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media.flatpak
-flatpak install 3nity-media.flatpak
-```
-
 ### Windows
 
 Download the installer from the [Releases](https://github.com/NDXDeveloper/3nity-media/releases) page:
@@ -87,7 +80,7 @@ On Linux, install dependencies with:
 sudo apt install libmpv2 libqt5pas1
 ```
 
-> **📖 Full Installation Guide:** See [docs/INSTALL.md](docs/INSTALL.md) for complete instructions including all Linux distributions, prerequisites (sudo, snapd, flatpak), and troubleshooting. Each release also includes an `INSTALL` file with quick reference commands.
+> **📖 Full Installation Guide:** See [docs/INSTALL.md](docs/INSTALL.md) for complete instructions including all Linux distributions, prerequisites (sudo, snapd), and troubleshooting. Each release also includes an `INSTALL` file with quick reference commands.
 
 ---
 

@@ -38,7 +38,7 @@ The primary CI/CD workflow that builds, tests, and packages 3nity Media.
 
 | Platform | Artifacts |
 |----------|-----------|
-| Linux | AppImage, DEB, Snap, Flatpak, tar.gz |
+| Linux | AppImage, DEB, Snap, tar.gz |
 | Windows | Portable ZIP, Installer (NSIS) |
 
 ### Environment Variables

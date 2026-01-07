@@ -8,7 +8,6 @@ Ce guide fournit des outils et techniques pour déboguer 3nity Media selon les d
 
 - [Dépendances des Bibliothèques](#dépendances-des-bibliothèques)
 - [Débogage Snap](#débogage-snap)
-- [Débogage Flatpak](#débogage-flatpak)
 - [Débogage AppImage](#débogage-appimage)
 - [Variables d'Environnement](#variables-denvironnement)
 - [Erreurs Courantes](#erreurs-courantes)
@@ -119,47 +118,6 @@ sudo snap connect 3nity-media:removable-media
 snap logs 3nity-media
 journalctl -f | grep -i 3nity
 journalctl -f | grep -i apparmor
-```
-
----
-
-## Débogage Flatpak
-
-### Entrer dans le Shell Flatpak
-
-```bash
-flatpak run --command=sh com.github.nicod3v.3nity-media
-```
-
-### Vérifier l'Environnement dans Flatpak
-
-```bash
-flatpak run --command=sh com.github.nicod3v.3nity-media -c 'echo $LD_LIBRARY_PATH'
-flatpak run --command=sh com.github.nicod3v.3nity-media -c 'ls -la /app/lib/'
-```
-
-### Déboguer le Chargement des Bibliothèques
-
-```bash
-flatpak run --command=sh com.github.nicod3v.3nity-media -c 'ldd /app/bin/3nity-media | grep "not found"'
-flatpak run --command=sh com.github.nicod3v.3nity-media -c 'LD_DEBUG=libs /app/bin/3nity-media 2>&1 | head -50'
-```
-
-### Exécuter avec Sortie Verbeuse
-
-```bash
-flatpak run --verbose com.github.nicod3v.3nity-media
-```
-
-### Vérifier les Permissions Flatpak
-
-```bash
-# Accorder l'accès au système de fichiers
-flatpak override --user --filesystem=/media com.github.nicod3v.3nity-media
-flatpak override --user --filesystem=/run/media com.github.nicod3v.3nity-media
-
-# Afficher les overrides actuels
-flatpak override --user --show com.github.nicod3v.3nity-media
 ```
 
 ---
@@ -315,7 +273,7 @@ sudo snap connect 3nity-media:pulseaudio
 Lors du signalement de bugs, inclure :
 
 1. **Version :** `3nity-media --version`
-2. **Méthode d'installation :** DEB, Snap, Flatpak, AppImage, ou source
+2. **Méthode d'installation :** DEB, Snap, AppImage, ou source
 3. **Distribution :** `cat /etc/os-release`
 4. **Message d'erreur :** Sortie complète du terminal
 5. **Vérification des bibliothèques :** `ldd /chemin/vers/3nity-media | grep "not found"`

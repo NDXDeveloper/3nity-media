@@ -38,7 +38,7 @@ The primary CI/CD workflow that builds, tests, and packages 3nity Media.
 
 | Platform | Artifacts |
 |----------|-----------|
-| Linux | AppImage, DEB, Snap, Flatpak, tar.gz |
+| Linux | AppImage, DEB, Snap, tar.gz |
 | Windows | Portable ZIP, Installer (NSIS) |
 
 ### Environment Variables
@@ -181,4 +181,3 @@ The preflight check should catch this. If it passes but build fails:
 ## See Also
 
 - [Snapcraft Documentation](SNAPCRAFT.md) - Publishing to Snap Store
-- [Flathub Documentation](FLATHUB.md) - Publishing to Flathub

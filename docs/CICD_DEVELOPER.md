@@ -92,7 +92,6 @@ https://sourceforge.net/projects/mpv-player-windows/files/libmpv/mpv-dev-x86_64-
 | DEB | `3nity-media_VERSION_amd64.deb` | Debian, Ubuntu, Mint |
 | AppImage | `3nity-Media-VERSION-x86_64.AppImage` | Universal portable |
 | Snap | `3nity-media_VERSION_amd64.snap` | Snap Store |
-| Flatpak | `3nity-media-VERSION.flatpak` | Flathub |
 | Portable | `3nity-media-linux-portable-VERSION.tar.gz` | Generic Linux |
 
 ### Windows Packages
@@ -120,7 +119,6 @@ Runs weekly to verify:
 **Bash checks:**
 - APT package availability (libmpv, libqt5pas1, ffmpeg)
 - Actual installation test
-- Flatpak runtime availability
 - Source URLs (FFmpeg, MPV)
 
 **PowerShell checks:**
@@ -157,8 +155,6 @@ If any health check fails:
 |-----|--------|---------|
 | `https://sourceforge.net/projects/mpv-player-windows/files/libmpv/` | Active | libmpv directory |
 | `https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip` | Active | FFmpeg/ffprobe |
-| `https://ffmpeg.org/releases/ffmpeg-6.1.tar.xz` | Active | FFmpeg source (Flatpak) |
-| `https://github.com/mpv-player/mpv/archive/refs/tags/v0.37.0.tar.gz` | Active | MPV source (Flatpak) |
 | `https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage` | Active | AppImage builder |
 | `https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage` | Active | Qt plugin for AppImage |
 | `https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage` | Active | AppImage tool |

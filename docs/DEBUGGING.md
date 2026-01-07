@@ -8,7 +8,6 @@ This guide provides tools and techniques for debugging 3nity Media across differ
 
 - [Library Dependencies](#library-dependencies)
 - [Snap Debugging](#snap-debugging)
-- [Flatpak Debugging](#flatpak-debugging)
 - [AppImage Debugging](#appimage-debugging)
 - [Environment Variables](#environment-variables)
 - [Common Errors](#common-errors)
@@ -119,47 +118,6 @@ sudo snap connect 3nity-media:removable-media
 snap logs 3nity-media
 journalctl -f | grep -i 3nity
 journalctl -f | grep -i apparmor
-```
-
----
-
-## Flatpak Debugging
-
-### Enter Flatpak Shell
-
-```bash
-flatpak run --command=sh com.github.nicod3v.3nity-media
-```
-
-### Check Environment Inside Flatpak
-
-```bash
-flatpak run --command=sh com.github.nicod3v.3nity-media -c 'echo $LD_LIBRARY_PATH'
-flatpak run --command=sh com.github.nicod3v.3nity-media -c 'ls -la /app/lib/'
-```
-
-### Debug Library Loading
-
-```bash
-flatpak run --command=sh com.github.nicod3v.3nity-media -c 'ldd /app/bin/3nity-media | grep "not found"'
-flatpak run --command=sh com.github.nicod3v.3nity-media -c 'LD_DEBUG=libs /app/bin/3nity-media 2>&1 | head -50'
-```
-
-### Run with Verbose Output
-
-```bash
-flatpak run --verbose com.github.nicod3v.3nity-media
-```
-
-### Check Flatpak Permissions
-
-```bash
-# Grant filesystem access
-flatpak override --user --filesystem=/media com.github.nicod3v.3nity-media
-flatpak override --user --filesystem=/run/media com.github.nicod3v.3nity-media
-
-# Show current overrides
-flatpak override --user --show com.github.nicod3v.3nity-media
 ```
 
 ---
@@ -315,7 +273,7 @@ sudo snap connect 3nity-media:pulseaudio
 When reporting bugs, include:
 
 1. **Version:** `3nity-media --version`
-2. **Installation method:** DEB, Snap, Flatpak, AppImage, or source
+2. **Installation method:** DEB, Snap, AppImage, or source
 3. **Distribution:** `cat /etc/os-release`
 4. **Error message:** Full terminal output
 5. **Library check:** `ldd /path/to/3nity-media | grep "not found"`

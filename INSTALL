@@ -95,36 +95,6 @@ sudo snap alias 3nity-media 3nity
 
 
 # =============================================================================
-# LINUX - Flatpak
-# =============================================================================
-
-## Install Flatpak first
-
-# Ubuntu/Debian
-sudo apt install flatpak
-
-# Fedora (pre-installed)
-
-# Arch Linux
-sudo pacman -S flatpak
-
-# openSUSE
-sudo zypper install flatpak
-
-# Note: After installing Flatpak for the first time, restart your session
-# (log out and log in) or reboot.
-
-## Add Flathub repository (for runtime)
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-## Install the flatpak package
-flatpak install --user 3nity-media-*.flatpak
-
-## Run
-flatpak run com.ndxdev.trinitymedia
-
-
-# =============================================================================
 # LINUX - Portable (tar.gz)
 # =============================================================================
 
@@ -175,9 +145,6 @@ sudo apt remove 3nity-media
 
 # Snap
 sudo snap remove 3nity-media
-
-# Flatpak
-flatpak uninstall com.ndxdev.trinitymedia
 
 # Windows
 # Use Control Panel > Programs > Uninstall
@@ -230,19 +197,6 @@ snap logs 3nity-media
 
 ## Snap: Check confinement issues
 journalctl -f | grep -i apparmor
-
-## Flatpak: Install missing runtime
-flatpak install flathub org.kde.Platform//6.8
-
-## Flatpak: Run with debug
-flatpak run --verbose com.ndxdev.trinitymedia
-
-## Flatpak: Override permissions for external drives
-flatpak override --user --filesystem=/media com.ndxdev.trinitymedia
-flatpak override --user --filesystem=/run/media com.ndxdev.trinitymedia
-
-## Flatpak: Enter shell for debugging
-flatpak run --command=sh com.ndxdev.trinitymedia
 
 ## Check missing libraries (portable/AppImage)
 ldd 3nity-media | grep "not found"

@@ -834,257 +834,6 @@ jobs:
         echo "=== Snap package ==="
         ls -la *.snap 2>/dev/null || echo "Snap not created"
 
-    # =========================================================================
-    # FLATPAK
-    # =========================================================================
-    - name: Free disk space for Flatpak
-      run: |
-        echo "=== Disk space before cleanup ==="
-        df -h /
-
-        # Remove unnecessary large packages to free space for Flatpak build
-        sudo rm -rf /usr/share/dotnet
-        sudo rm -rf /usr/local/lib/android
-        sudo rm -rf /opt/ghc
-        sudo rm -rf /opt/hostedtoolcache/CodeQL
-        sudo docker image prune --all --force || true
-
-        echo "=== Disk space after cleanup ==="
-        df -h /
-
-    - name: Create Flatpak package
-      run: |
-        VERSION="${{ steps.version.outputs.version }}"
-
-        # Install Flatpak and flatpak-builder
-        sudo apt-get install -y flatpak flatpak-builder
-        flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-        # Install KDE Platform (Qt5) and SDK - using 5.15-23.08 (Qt5 based, required for LCL-Qt5 apps)
-        flatpak install --user -y flathub org.kde.Platform//5.15-23.08 org.kde.Sdk//5.15-23.08 || \
-        flatpak install --user -y flathub org.kde.Platform//5.15-22.08 org.kde.Sdk//5.15-22.08 || true
-
-        # Copy libqt5pas to be bundled with the app
-        mkdir -p flatpak-libs
-        for lib in /usr/lib/x86_64-linux-gnu/libQt5Pas.so* /usr/lib/libQt5Pas.so*; do
-          [ -f "$lib" ] && cp -L "$lib" flatpak-libs/ 2>/dev/null || true
-        done
-
-        # Copy libmpv libraries
-        for lib in /usr/lib/x86_64-linux-gnu/libmpv.so*; do
-          [ -f "$lib" ] && cp -L "$lib" flatpak-libs/ 2>/dev/null || true
-        done
-
-        echo "=== Libraries to bundle ==="
-        ls -la flatpak-libs/
-
-        # Create Flatpak manifest with KDE runtime and bundled libraries
-        cat > com.ndxdev.trinitymedia.yml << 'MANIFEST_EOF'
-        app-id: com.ndxdev.trinitymedia
-        runtime: org.kde.Platform
-        runtime-version: '5.15-23.08'
-        sdk: org.kde.Sdk
-        command: 3nity-media
-        finish-args:
-          - --share=ipc
-          - --share=network
-          - --socket=x11
-          - --socket=wayland
-          - --socket=pulseaudio
-          - --device=all
-          - --filesystem=home
-          - --filesystem=/media
-          - --filesystem=/run/media
-          - --talk-name=org.freedesktop.Notifications
-          - --talk-name=org.freedesktop.ScreenSaver
-          - --system-talk-name=org.freedesktop.UDisks2
-
-        modules:
-          # Build libmpv from source (includes all codecs)
-          - name: ffmpeg
-            buildsystem: autotools
-            config-opts:
-              - --enable-shared
-              - --disable-static
-              - --disable-doc
-              - --disable-programs
-              - --enable-ffprobe
-              - --enable-gpl
-              - --enable-version3
-              - --enable-libass
-              - --enable-libfreetype
-              - --enable-libmp3lame
-              - --enable-libopus
-              - --enable-libvorbis
-              - --enable-libvpx
-              - --enable-libx264
-              - --enable-libx265
-            sources:
-              - type: archive
-                url: https://ffmpeg.org/releases/ffmpeg-6.1.tar.xz
-                sha256: 488c76e57dd9b3bee901f71d5c95eaf1db4a5a31fe46a28654e837144207c270
-            cleanup:
-              - /include
-              - /lib/pkgconfig
-
-          - name: libmpv
-            buildsystem: meson
-            config-opts:
-              - -Dlibmpv=true
-              - -Dcplayer=false
-              - -Dbuild-date=false
-              - -Dalsa=enabled
-              - -Dpulse=enabled
-              - -Dwayland=enabled
-              - -Dx11=enabled
-              - -Dgl=enabled
-              - -Dvulkan=enabled
-            sources:
-              - type: archive
-                url: https://github.com/mpv-player/mpv/archive/refs/tags/v0.37.0.tar.gz
-                sha256: 1d2d4adbaf048a2fa6ee134575032c4b2dad9a7efafd5b3e69b88db935afaddf
-            cleanup:
-              - /include
-              - /lib/pkgconfig
-
-          # Bundle libQt5Pas (Pascal Qt5 bindings)
-          - name: libqt5pas
-            buildsystem: simple
-            build-commands:
-              - install -Dm755 libQt5Pas.so.1 /app/lib/libQt5Pas.so.1
-              - ln -sf libQt5Pas.so.1 /app/lib/libQt5Pas.so
-            sources:
-              - type: dir
-                path: flatpak-libs
-
-          # Install the main application
-          - name: 3nity-media
-            buildsystem: simple
-            build-commands:
-              - install -Dm755 3nity-media /app/bin/3nity-media
-              - ln -sf 3nity-media /app/bin/3nity
-              - install -Dm644 3nity-media.desktop /app/share/applications/com.ndxdev.trinitymedia.desktop
-              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/\${size}x\${size}.png" ]; then install -Dm644 "icons/\${size}x\${size}.png" "/app/share/icons/hicolor/\${size}x\${size}/apps/com.ndxdev.trinitymedia.png"; fi; done
-              - install -Dm644 LICENSE /app/share/doc/3nity-media/LICENSE
-              - install -Dm644 README.md /app/share/doc/3nity-media/README.md 2>/dev/null || true
-              - mkdir -p /app/share/3nity-media/locale
-              - cp -r locale/*.lang /app/share/3nity-media/locale/ 2>/dev/null || true
-            sources:
-              - type: file
-                path: bin/x86_64-linux/3nity-media
-              - type: file
-                path: 3nity-media.desktop
-              - type: file
-                path: LICENSE
-              - type: file
-                path: README.md
-              - type: dir
-                path: resources/icons
-                dest: icons
-              - type: dir
-                path: resources/locale
-                dest: locale
-        MANIFEST_EOF
-
-        # Create desktop file for Flatpak
-        cat > 3nity-media.desktop << 'EOF'
-        [Desktop Entry]
-        Version=1.0
-        Type=Application
-        Name=3nity Media
-        GenericName=Media Player
-        Comment=Modern multimedia player powered by libmpv
-        Exec=3nity-media %F
-        Icon=com.ndxdev.trinitymedia
-        Terminal=false
-        Categories=AudioVideo;Audio;Video;Player;
-        MimeType=audio/*;video/*;
-        EOF
-
-        # Create icon placeholder (fallback, icons are now installed from resources/icons/)
-        if [ -f "resources/icons/256x256.png" ]; then
-          cp resources/icons/256x256.png 3nity-media.png
-        elif [ -f "resources/icon.png" ]; then
-          cp resources/icon.png 3nity-media.png
-        fi
-
-        # Build Flatpak
-        mkdir -p flatpak-build repo
-        flatpak-builder --user --force-clean --repo=repo flatpak-build com.ndxdev.trinitymedia.yml || {
-          echo "Full Flatpak build failed, trying simplified version..."
-
-          # Simplified manifest without building ffmpeg/mpv from source
-          cat > com.ndxdev.trinitymedia-simple.yml << 'SIMPLE_EOF'
-        app-id: com.ndxdev.trinitymedia
-        runtime: org.kde.Platform
-        runtime-version: '5.15-23.08'
-        sdk: org.kde.Sdk
-        command: 3nity-media-wrapper
-        finish-args:
-          - --share=ipc
-          - --share=network
-          - --socket=x11
-          - --socket=wayland
-          - --socket=pulseaudio
-          - --device=all
-          - --filesystem=home
-          - --filesystem=/media
-          - --filesystem=/run/media
-          - --talk-name=org.freedesktop.Notifications
-          - --talk-name=org.freedesktop.ScreenSaver
-          - --system-talk-name=org.freedesktop.UDisks2
-
-        modules:
-          - name: libqt5pas
-            buildsystem: simple
-            build-commands:
-              - mkdir -p /app/lib
-              - cp -v flatpak-libs/libQt5Pas.so* /app/lib/ || true
-              - cp -v flatpak-libs/libmpv.so* /app/lib/ || true
-              - ls -la /app/lib/
-            sources:
-              - type: dir
-                path: flatpak-libs
-                dest: flatpak-libs
-
-          - name: 3nity-media
-            buildsystem: simple
-            build-commands:
-              - install -Dm755 3nity-media /app/bin/3nity-media
-              - ln -sf 3nity-media /app/bin/3nity
-              - |
-                cat > /app/bin/3nity-media-wrapper << 'WRAPPER'
-                #!/bin/bash
-                export LD_LIBRARY_PATH="/app/lib:${LD_LIBRARY_PATH}"
-                exec /app/bin/3nity-media "$@"
-                WRAPPER
-              - chmod +x /app/bin/3nity-media-wrapper
-              - install -Dm644 3nity-media.desktop /app/share/applications/com.ndxdev.trinitymedia.desktop
-              - for size in 16 24 32 48 64 128 256; do if [ -f "icons/${size}x${size}.png" ]; then install -Dm644 "icons/${size}x${size}.png" "/app/share/icons/hicolor/${size}x${size}/apps/com.ndxdev.trinitymedia.png"; fi; done
-              - mkdir -p /app/share/3nity-media/locale
-              - cp -r locale/*.lang /app/share/3nity-media/locale/ 2>/dev/null || true
-            sources:
-              - type: file
-                path: bin/x86_64-linux/3nity-media
-              - type: file
-                path: 3nity-media.desktop
-              - type: dir
-                path: resources/icons
-                dest: icons
-              - type: dir
-                path: resources/locale
-                dest: locale
-        SIMPLE_EOF
-
-          flatpak-builder --user --force-clean --repo=repo flatpak-build com.ndxdev.trinitymedia-simple.yml || echo "Flatpak build requires additional setup"
-        }
-
-        # Create single-file bundle
-        flatpak build-bundle repo "3nity-media-${VERSION}.flatpak" com.ndxdev.trinitymedia 2>/dev/null || true
-
-        echo "=== Flatpak package ==="
-        ls -la *.flatpak 2>/dev/null || echo "Flatpak bundle not created"
-
     - name: Upload Linux artifacts
       uses: actions/upload-artifact@v4
       with:
@@ -1094,7 +843,6 @@ jobs:
           3nity-media-linux-portable-*.tar.gz
           3nity-Media-*-x86_64.AppImage
           3nity-media_*_amd64.snap
-          3nity-media-*.flatpak
           bin/x86_64-linux/${{ env.BINARY_NAME }}
         retention-days: 30
 
@@ -1475,7 +1223,6 @@ jobs:
         cp linux-builds/*.tar.gz release-assets/ || true
         cp linux-builds/*.AppImage release-assets/ || true
         cp linux-builds/*.snap release-assets/ || true
-        cp linux-builds/*.flatpak release-assets/ || true
 
         # Windows builds (only installers, not raw binaries)
         cp windows-builds/3nity-Media-Setup*.exe release-assets/ || true
@@ -1511,7 +1258,6 @@ jobs:
           | **DEB** | `3nity-media_${{ needs.build-linux.outputs.version }}_amd64.deb` | Ubuntu, Debian, Linux Mint |
           | **AppImage** | `3nity-Media-${{ needs.build-linux.outputs.version }}-x86_64.AppImage` | Universal, portable |
           | **Snap** | `3nity-media_${{ needs.build-linux.outputs.version }}_amd64.snap` | Snap Store compatible |
-          | **Flatpak** | `3nity-media-${{ needs.build-linux.outputs.version }}.flatpak` | Flathub compatible |
           | **Portable** | `3nity-media-linux-portable-${{ needs.build-linux.outputs.version }}.tar.gz` | tar.gz archive |
 
           #### Windows
@@ -1544,12 +1290,6 @@ jobs:
           sudo snap install --dangerous 3nity-media_${{ needs.build-linux.outputs.version }}_amd64.snap
           ```
 
-          #### Linux - Flatpak
-          ```bash
-          wget https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/3nity-media-${{ needs.build-linux.outputs.version }}.flatpak
-          flatpak install 3nity-media-${{ needs.build-linux.outputs.version }}.flatpak
-          ```
-
           #### Windows
           - **System installer:** Download and run `3nity-Media-Setup-${{ needs.build-linux.outputs.version }}.exe`
           - **User installer:** Download and run `3nity-Media-Setup-User-${{ needs.build-linux.outputs.version }}.exe` (no admin required)
@@ -1574,11 +1314,11 @@ jobs:
           - `libmpv2` or `libmpv1` - Playback engine
           - `ffmpeg` - Metadata extraction (ffprobe)
 
-          > **Note:** AppImage, Snap and Flatpak bundle their dependencies (including ffprobe).
-          > For Fedora/openSUSE users, please use the AppImage or Flatpak version.
+          > **Note:** AppImage and Snap bundle their dependencies (including ffprobe).
+          > For Fedora/openSUSE users, please use the AppImage or Snap version.
 
           ### 📖 Full Installation Guide
-          See `INSTALL` for detailed installation instructions including how to install prerequisites (sudo, snapd, flatpak) on all Linux distributions.
+          See `INSTALL` for detailed installation instructions including how to install prerequisites (sudo, snapd) on all Linux distributions.
 
           ### ✅ Verification
           SHA256 checksums are available in `checksums.txt`.

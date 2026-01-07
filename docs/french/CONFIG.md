@@ -29,7 +29,6 @@ Ce guide couvre toutes les options de configuration de 3nity Media, y compris le
 |------------|----------------------------|
 | Linux | `~/.config/3nity-media/` |
 | Windows | `%APPDATA%\3nity-media\` |
-| Flatpak | `~/.var/app/com.ndxdev.3nity-media/config/` |
 | Snap | `~/snap/3nity-media/current/.config/` |
 
 ### Fichiers de Configuration

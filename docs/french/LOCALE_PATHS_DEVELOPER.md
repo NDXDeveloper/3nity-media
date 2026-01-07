@@ -19,10 +19,9 @@ L'application recherche les fichiers de langue dans l'ordre suivant :
 | 3 | macOS App Bundle | `[ExePath]/../Resources/locale/` |
 | 4 | Linux standard | `[ExePath]/../share/3nity-media/locale/` |
 | 5 | Snap package | `$SNAP/share/3nity-media/locale/` |
-| 6 | Flatpak | `/app/share/3nity-media/locale/` |
-| 7 | Système (global) | `/usr/share/3nity-media/locale/` |
-| 8 | Système (local) | `/usr/local/share/3nity-media/locale/` |
-| 9 | Fallback | `[ExePath]/locale/` |
+| 6 | Système (global) | `/usr/share/3nity-media/locale/` |
+| 7 | Système (local) | `/usr/local/share/3nity-media/locale/` |
+| 8 | Fallback | `[ExePath]/locale/` |
 
 > **Note :** `[ExePath]` représente le dossier contenant l'exécutable de l'application.
 
@@ -188,48 +187,6 @@ parts:
       locale/*.lang: share/3nity-media/locale/
     stage-packages:
       - libmpv2
-```
-
-#### Flatpak
-
-```
-/app/
-├── bin/
-│   └── 3nity-media              ← Exécutable
-├── lib/
-│   └── libmpv.so.2
-└── share/
-    └── 3nity-media/
-        └── locale/
-            ├── en.lang
-            └── fr.lang
-```
-
-**Chemin détecté :** `/app/share/3nity-media/locale/`
-
-##### Manifest Flatpak (exemple)
-
-```yaml
-app-id: com.github.3nity-media
-runtime: org.freedesktop.Platform
-runtime-version: '23.08'
-sdk: org.freedesktop.Sdk
-
-command: 3nity-media
-
-finish-args:
-  - --share=ipc
-  - --socket=x11
-  - --socket=pulseaudio
-  - --device=dri
-  - --filesystem=home
-
-modules:
-  - name: 3nity-media
-    buildsystem: simple
-    build-commands:
-      - install -D bin/3nity-media /app/bin/3nity-media
-      - install -D -t /app/share/3nity-media/locale/ locale/*.lang
 ```
 
 #### AppImage
@@ -423,7 +380,6 @@ L'anglais est la langue de fallback par défaut. Il doit toujours être présent
 | Portable | `locale/` (à côté de l'exe) |
 | .deb | `/usr/share/3nity-media/locale/` |
 | Snap | `share/3nity-media/locale/` (relatif à `$SNAP`) |
-| Flatpak | `/app/share/3nity-media/locale/` |
 | AppImage | `usr/share/3nity-media/locale/` (dans AppDir) |
 | macOS .app | `Contents/Resources/locale/` |
 
@@ -455,5 +411,4 @@ Avant de publier, vérifiez que :
 | Linux Portable | `./3nity-media` | `./locale/` | ✅ |
 | Debian/Ubuntu | `/usr/bin/3nity-media` | `/usr/share/3nity-media/locale/` | ✅ |
 | Snap | `$SNAP/bin/3nity-media` | `$SNAP/share/3nity-media/locale/` | ✅ |
-| Flatpak | `/app/bin/3nity-media` | `/app/share/3nity-media/locale/` | ✅ |
 | AppImage | `.mount.../usr/bin/3nity-media` | `.mount.../usr/share/3nity-media/locale/` | ✅ |

@@ -179,7 +179,6 @@ Tous les paquets incluent la version dans leur nom de fichier :
 | Linux DEB | `3nity-media_VERSION_amd64.deb` |
 | AppImage | `3nity-Media-VERSION-x86_64.AppImage` |
 | Snap | `3nity-media_VERSION_amd64.snap` |
-| Flatpak | `3nity-media-VERSION.flatpak` |
 | Windows Installeur | `3nity-Media-Setup-VERSION.exe` |
 | Windows Portable | `3nity-media-windows-portable-VERSION.zip` |
 
