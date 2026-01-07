@@ -244,8 +244,8 @@ NoAudioTracks=(Nera garso takeliu)
 NoVideoTracks=(Nera vaizdo takeliu)
 NoSubtitleTracks=(Nera subtitru takeliu)
 NoChapters=(Nera skyriu)
-OpenDVD=Atidaryti DVD
-OpenBluray=Atidaryti Blu-ray
+OpenDVD=Pasirinkite DVD aplanką (su VIDEO_TS)
+OpenBluray=Pasirinkite Blu-ray aplanką (su BDMV)
 OpenFolder=Atidaryti aplanka
 
 ; Failu filtrai

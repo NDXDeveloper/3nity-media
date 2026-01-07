@@ -244,8 +244,8 @@ NoAudioTracks=(Tsy misy laharana feo)
 NoVideoTracks=(Tsy misy laharana horonan-tsary)
 NoSubtitleTracks=(Tsy misy laharana dikan-teny)
 NoChapters=(Tsy misy toko)
-OpenDVD=Sokafy DVD
-OpenBluray=Sokafy Blu-ray
+OpenDVD=Misafidiana ny lahatahiry DVD (misy VIDEO_TS)
+OpenBluray=Misafidiana ny lahatahiry Blu-ray (misy BDMV)
 OpenFolder=Sokafy Lahatahiry
 
 ; File filters

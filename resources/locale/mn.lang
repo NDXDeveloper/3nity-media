@@ -244,8 +244,8 @@ NoAudioTracks=(Аудио трек байхгүй)
 NoVideoTracks=(Видео трек байхгүй)
 NoSubtitleTracks=(Хадмал трек байхгүй)
 NoChapters=(Бүлэг байхгүй)
-OpenDVD=DVD нээх
-OpenBluray=Blu-ray нээх
+OpenDVD=DVD хавтас сонгох (VIDEO_TS агуулсан)
+OpenBluray=Blu-ray хавтас сонгох (BDMV агуулсан)
 OpenFolder=Хавтас нээх
 
 ; Файлын шүүлтүүр

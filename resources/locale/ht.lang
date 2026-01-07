@@ -244,8 +244,8 @@ NoAudioTracks=(Pa gen trak odyo)
 NoVideoTracks=(Pa gen trak videyo)
 NoSubtitleTracks=(Pa gen trak soutit)
 NoChapters=(Pa gen chapit)
-OpenDVD=Ouvri DVD
-OpenBluray=Ouvri Blu-ray
+OpenDVD=Chwazi dosye DVD (ki gen VIDEO_TS)
+OpenBluray=Chwazi dosye Blu-ray (ki gen BDMV)
 OpenFolder=Ouvri Dosye
 
 ; Filt fichye

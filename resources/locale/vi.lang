@@ -244,8 +244,8 @@ NoAudioTracks=(Không có bản âm thanh)
 NoVideoTracks=(Không có bản video)
 NoSubtitleTracks=(Không có bản phụ đề)
 NoChapters=(Không có chương)
-OpenDVD=Mở DVD
-OpenBluray=Mở Blu-ray
+OpenDVD=Chọn thư mục DVD (chứa VIDEO_TS)
+OpenBluray=Chọn thư mục Blu-ray (chứa BDMV)
 OpenFolder=Mở Thư mục
 
 ; Bộ lọc Tệp

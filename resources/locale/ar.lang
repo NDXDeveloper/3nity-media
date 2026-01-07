@@ -244,8 +244,8 @@ NoAudioTracks=(لا توجد مسارات صوتية)
 NoVideoTracks=(لا توجد مسارات فيديو)
 NoSubtitleTracks=(لا توجد مسارات ترجمة)
 NoChapters=(لا توجد فصول)
-OpenDVD=فتح DVD
-OpenBluray=فتح Blu-ray
+OpenDVD=حدد مجلد DVD (يحتوي على VIDEO_TS)
+OpenBluray=حدد مجلد Blu-ray (يحتوي على BDMV)
 OpenFolder=فتح مجلد
 
 ; مرشحات الملفات

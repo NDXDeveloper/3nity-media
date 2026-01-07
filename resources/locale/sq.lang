@@ -244,8 +244,8 @@ NoAudioTracks=(Asnjë pistë audio)
 NoVideoTracks=(Asnjë pistë video)
 NoSubtitleTracks=(Asnjë pistë titrash)
 NoChapters=(Asnjë kapitull)
-OpenDVD=Hap DVD
-OpenBluray=Hap Blu-ray
+OpenDVD=Zgjidhni dosjen DVD (përmban VIDEO_TS)
+OpenBluray=Zgjidhni dosjen Blu-ray (përmban BDMV)
 OpenFolder=Hap Dosjen
 
 ; Filtrat e skedarëve

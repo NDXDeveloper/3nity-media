@@ -244,8 +244,8 @@ NoAudioTracks=(L-ebda tracks tal-awdjo)
 NoVideoTracks=(L-ebda tracks tal-vidjo)
 NoSubtitleTracks=(L-ebda tracks tas-sottotitli)
 NoChapters=(L-ebda kapitli)
-OpenDVD=Iftah DVD
-OpenBluray=Iftah Blu-ray
+OpenDVD=Agħżel folder DVD (fih VIDEO_TS)
+OpenBluray=Agħżel folder Blu-ray (fih BDMV)
 OpenFolder=Iftah Folder
 
 ; Filtri tal-fajls

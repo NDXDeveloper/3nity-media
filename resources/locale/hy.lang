@@ -244,8 +244,8 @@ NoAudioTracks=(Ոչ audio tracks)
 NoVideoTracks=(Ոչ video tracks)
 NoSubtitleTracks=(Ոչ subtitle tracks)
 NoChapters=(Ոչ chapters)
-OpenDVD=Բացել DVD
-OpenBluray=Բացել Blu-ray
+OpenDVD=Ընտրեք DVD թղթապանակը (պարունակում է VIDEO_TS)
+OpenBluray=Ընտրեք Blu-ray պանակ (պարունակում է BDMV)
 OpenFolder=Բացել թղթապանակ
 
 ; File filters

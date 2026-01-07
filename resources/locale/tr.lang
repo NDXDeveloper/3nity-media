@@ -244,8 +244,8 @@ NoAudioTracks=(Ses parçası yok)
 NoVideoTracks=(Video parçası yok)
 NoSubtitleTracks=(Altyazı parçası yok)
 NoChapters=(Bölüm yok)
-OpenDVD=DVD Aç
-OpenBluray=Blu-ray Aç
+OpenDVD=DVD klasörünü seçin (VIDEO_TS içeren)
+OpenBluray=Blu-ray klasörünü seçin (BDMV içeren)
 OpenFolder=Klasör Aç
 
 ; Dosya filtreleri

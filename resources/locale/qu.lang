@@ -244,8 +244,8 @@ NoAudioTracks=(Mana uyarina trakakuna kanchu)
 NoVideoTracks=(Mana rikuchiy trakakuna kanchu)
 NoSubtitleTracks=(Mana uray qillqa trakakuna kanchu)
 NoChapters=(Mana umalliqkuna kanchu)
-OpenDVD=Kichay DVD
-OpenBluray=Kichay Blu-ray
+OpenDVD=Akllay DVD qillqana mayta (VIDEO_TS kaqwan)
+OpenBluray=Akllay Blu-ray qillqana mayta (BDMV kaqwan)
 OpenFolder=Kichay Carpeta
 
 ; Qillqa filtrokuna

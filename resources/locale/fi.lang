@@ -244,8 +244,8 @@ NoAudioTracks=(Ei ääniraitoja)
 NoVideoTracks=(Ei videoraitoja)
 NoSubtitleTracks=(Ei tekstitysraitoja)
 NoChapters=(Ei lukuja)
-OpenDVD=Avaa DVD
-OpenBluray=Avaa Blu-ray
+OpenDVD=Valitse DVD-kansio (sisältää VIDEO_TS)
+OpenBluray=Valitse Blu-ray-kansio (sisältää BDMV)
 OpenFolder=Avaa kansio
 
 ; Tiedostosuodattimet

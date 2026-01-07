@@ -244,8 +244,8 @@ NoAudioTracks=(Kute imculo yemsindvo)
 NoVideoTracks=(Kute imculo yevidiyo)
 NoSubtitleTracks=(Kute imculo yesubthithili)
 NoChapters=(Kute tinhloko)
-OpenDVD=Vula DVD
-OpenBluray=Vula Blu-ray
+OpenDVD=Khetsa folda ya DVD (lene VIDEO_TS)
+OpenBluray=Khetsa folda ya Blu-ray (lene BDMV)
 OpenFolder=Vula Lifoldara
 
 ; File filters

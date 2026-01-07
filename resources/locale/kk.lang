@@ -244,8 +244,8 @@ NoAudioTracks=(Аудио тректер жоқ)
 NoVideoTracks=(Бейне тректер жоқ)
 NoSubtitleTracks=(Субтитр тректері жоқ)
 NoChapters=(Тараулар жоқ)
-OpenDVD=DVD ашу
-OpenBluray=Blu-ray ашу
+OpenDVD=DVD қалтасын таңдаңыз (VIDEO_TS бар)
+OpenBluray=Blu-ray қалтасын таңдаңыз (BDMV бар)
 OpenFolder=Қалтаны ашу
 
 ; File filters

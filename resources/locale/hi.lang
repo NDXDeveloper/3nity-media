@@ -244,8 +244,8 @@ NoAudioTracks=(कोई ऑडियो ट्रैक नहीं)
 NoVideoTracks=(कोई वीडियो ट्रैक नहीं)
 NoSubtitleTracks=(कोई उपशीर्षक ट्रैक नहीं)
 NoChapters=(कोई अध्याय नहीं)
-OpenDVD=DVD खोलें
-OpenBluray=Blu-ray खोलें
+OpenDVD=DVD फ़ोल्डर चुनें (VIDEO_TS युक्त)
+OpenBluray=Blu-ray फ़ोल्डर चुनें (BDMV युक्त)
 OpenFolder=फ़ोल्डर खोलें
 
 ; फ़ाइल फ़िल्टर

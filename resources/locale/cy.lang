@@ -244,8 +244,8 @@ NoAudioTracks=(Dim traciau sain)
 NoVideoTracks=(Dim traciau fideo)
 NoSubtitleTracks=(Dim traciau isdeitl)
 NoChapters=(Dim penodau)
-OpenDVD=Agor DVD
-OpenBluray=Agor Blu-ray
+OpenDVD=Dewiswch ffolder DVD (yn cynnwys VIDEO_TS)
+OpenBluray=Dewiswch ffolder Blu-ray (yn cynnwys BDMV)
 OpenFolder=Agor Ffolder
 
 ; Hidlwyr ffeiliau

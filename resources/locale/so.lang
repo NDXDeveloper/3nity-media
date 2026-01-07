@@ -244,8 +244,8 @@ NoAudioTracks=(Track codka ma jiro)
 NoVideoTracks=(Track fiidiyow ma jiro)
 NoSubtitleTracks=(Track qoraal ma jiro)
 NoChapters=(Cutub ma jiro)
-OpenDVD=Fur DVD
-OpenBluray=Fur Blu-ray
+OpenDVD=Dooro galka DVD (ka kooban VIDEO_TS)
+OpenBluray=Dooro galka Blu-ray (ka kooban BDMV)
 OpenFolder=Fur Folder
 
 ; File filters

@@ -244,8 +244,8 @@ NoAudioTracks=(គ្មានបទសំឡេង)
 NoVideoTracks=(គ្មានបទវីដេអូ)
 NoSubtitleTracks=(គ្មានបទអក្សររត់)
 NoChapters=(គ្មានជំពូក)
-OpenDVD=បើក DVD
-OpenBluray=បើក Blu-ray
+OpenDVD=ជ្រើសរើសថត DVD (មាន VIDEO_TS)
+OpenBluray=ជ្រើសរើសថត Blu-ray (មាន BDMV)
 OpenFolder=បើកថត
 
 ; តម្រងឯកសារ

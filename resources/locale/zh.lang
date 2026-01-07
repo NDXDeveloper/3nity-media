@@ -244,8 +244,8 @@ NoAudioTracks=(没有音轨)
 NoVideoTracks=(没有视频轨道)
 NoSubtitleTracks=(没有字幕轨道)
 NoChapters=(没有章节)
-OpenDVD=打开DVD
-OpenBluray=打开蓝光
+OpenDVD=选择 DVD 文件夹（包含 VIDEO_TS）
+OpenBluray=选择 Blu-ray 文件夹（包含 BDMV）
 OpenFolder=打开文件夹
 
 ; 文件过滤器

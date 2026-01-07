@@ -4911,21 +4911,102 @@ end;
 
 procedure TfrmMain.OpenDVD;
 var
-  DVDPath: string;
+  DVDPath, VideoTSPath: string;
+  SearchRec: TSearchRec;
+  TitleNum, PartNum, BestTitle, I: Integer;
+  TitleSizes: array[0..99] of Int64;
+  TitleFiles: array[0..99] of TStringList;
+  BestSize: Int64;
+  ConcatURL: string;
 begin
-  { Open DVD dialog to select DVD drive or folder }
-  OpenDialog.Title := Locale.Dialog('OpenDVD', 'Open DVD');
-  OpenDialog.Filter := Locale.Dialog('DVDFilter', 'DVD Folder|VIDEO_TS|All Files|*.*');
-  OpenDialog.FileName := '';
-
-  if OpenDialog.Execute then
+  { Open DVD dialog to select DVD folder }
+  DVDPath := '';
+  if SelectDirectory(Locale.Dialog('OpenDVD', 'Select DVD Folder (containing VIDEO_TS)'),
+                     '', DVDPath) then
   begin
-    DVDPath := OpenDialog.FileName;
     { If VIDEO_TS folder was selected, use its parent }
     if ExtractFileName(DVDPath) = 'VIDEO_TS' then
       DVDPath := ExtractFileDir(DVDPath);
 
-    { Play DVD using dvdnav:// protocol }
+    { Check if VIDEO_TS folder exists for fallback mode }
+    VideoTSPath := IncludeTrailingPathDelimiter(DVDPath) + 'VIDEO_TS';
+
+    if DirectoryExists(VideoTSPath) then
+    begin
+      { Fallback: Find VOB files and play the main title }
+      { Initialize arrays }
+      for I := 0 to 99 do
+      begin
+        TitleSizes[I] := 0;
+        TitleFiles[I] := nil;
+      end;
+
+      { Scan for VTS_XX_Y.VOB files (main movie content) }
+      if FindFirst(IncludeTrailingPathDelimiter(VideoTSPath) + 'VTS_*.VOB', faAnyFile, SearchRec) = 0 then
+      begin
+        try
+          repeat
+            if (SearchRec.Attr and faDirectory) = 0 then
+            begin
+              { Parse VTS_XX_Y.VOB format }
+              if (Length(SearchRec.Name) >= 12) and
+                 (Copy(SearchRec.Name, 1, 4) = 'VTS_') then
+              begin
+                TitleNum := StrToIntDef(Copy(SearchRec.Name, 5, 2), -1);
+                PartNum := StrToIntDef(Copy(SearchRec.Name, 8, 1), -1);
+                { Skip VTS_XX_0.VOB (menu/navigation data) }
+                if (TitleNum >= 0) and (TitleNum <= 99) and (PartNum > 0) then
+                begin
+                  TitleSizes[TitleNum] := TitleSizes[TitleNum] + SearchRec.Size;
+                  if TitleFiles[TitleNum] = nil then
+                    TitleFiles[TitleNum] := TStringList.Create;
+                  TitleFiles[TitleNum].Add(IncludeTrailingPathDelimiter(VideoTSPath) + SearchRec.Name);
+                end;
+              end;
+            end;
+          until FindNext(SearchRec) <> 0;
+        finally
+          FindClose(SearchRec);
+        end;
+      end;
+
+      { Find the title with the largest total size (main movie) }
+      BestTitle := -1;
+      BestSize := 0;
+      for I := 0 to 99 do
+      begin
+        if TitleSizes[I] > BestSize then
+        begin
+          BestSize := TitleSizes[I];
+          BestTitle := I;
+        end;
+      end;
+
+      { Build concat URL and play }
+      if (BestTitle >= 0) and (TitleFiles[BestTitle] <> nil) and
+         (TitleFiles[BestTitle].Count > 0) then
+      begin
+        TitleFiles[BestTitle].Sort;
+        ConcatURL := 'concat:';
+        for I := 0 to TitleFiles[BestTitle].Count - 1 do
+        begin
+          if I > 0 then
+            ConcatURL := ConcatURL + '|';
+          ConcatURL := ConcatURL + TitleFiles[BestTitle][I];
+        end;
+        PlayFile(ConcatURL);
+        StatusBar.SimpleText := Format(Locale.Message('PlayingDVD', 'Playing DVD: %s'), [ExtractFileName(DVDPath)]);
+      end;
+
+      { Free string lists }
+      for I := 0 to 99 do
+        if TitleFiles[I] <> nil then
+          TitleFiles[I].Free;
+
+      Exit;
+    end;
+
+    { Standard: Try dvdnav:// protocol }
     PlayFile('dvdnav://' + DVDPath);
     StatusBar.SimpleText := Format(Locale.Message('PlayingDVD', 'Playing DVD: %s'), [ExtractFileName(DVDPath)]);
   end;
@@ -4933,21 +5014,56 @@ end;
 
 procedure TfrmMain.OpenBluray;
 var
-  BDPath: string;
+  BDPath, StreamPath, MainFile: string;
+  SearchRec: TSearchRec;
+  LargestSize: Int64;
 begin
   { Open Bluray dialog to select Bluray folder }
-  OpenDialog.Title := Locale.Dialog('OpenBluray', 'Open Blu-ray');
-  OpenDialog.Filter := Locale.Dialog('BlurayFilter', 'Bluray Folder|BDMV|All Files|*.*');
-  OpenDialog.FileName := '';
-
-  if OpenDialog.Execute then
+  BDPath := '';
+  if SelectDirectory(Locale.Dialog('OpenBluray', 'Select Blu-ray Folder (containing BDMV)'),
+                     '', BDPath) then
   begin
-    BDPath := OpenDialog.FileName;
     { If BDMV folder was selected, use its parent }
     if ExtractFileName(BDPath) = 'BDMV' then
       BDPath := ExtractFileDir(BDPath);
 
-    { Play Bluray using bd:// protocol }
+    { Check if BDMV/STREAM folder exists for fallback mode }
+    StreamPath := IncludeTrailingPathDelimiter(BDPath) + 'BDMV' + PathDelim + 'STREAM';
+
+    if DirectoryExists(StreamPath) then
+    begin
+      { Fallback: Find the largest .m2ts file (main movie) }
+      MainFile := '';
+      LargestSize := 0;
+
+      if FindFirst(IncludeTrailingPathDelimiter(StreamPath) + '*.m2ts', faAnyFile, SearchRec) = 0 then
+      begin
+        try
+          repeat
+            if (SearchRec.Attr and faDirectory) = 0 then
+            begin
+              if SearchRec.Size > LargestSize then
+              begin
+                LargestSize := SearchRec.Size;
+                MainFile := IncludeTrailingPathDelimiter(StreamPath) + SearchRec.Name;
+              end;
+            end;
+          until FindNext(SearchRec) <> 0;
+        finally
+          FindClose(SearchRec);
+        end;
+      end;
+
+      if MainFile <> '' then
+      begin
+        { Play the main .m2ts file directly }
+        PlayFile(MainFile);
+        StatusBar.SimpleText := Format(Locale.Message('PlayingBluray', 'Playing Blu-ray: %s'), [ExtractFileName(BDPath)]);
+        Exit;
+      end;
+    end;
+
+    { Standard: Try bd:// protocol (requires libbluray support in mpv) }
     PlayFile('bd://' + BDPath);
     StatusBar.SimpleText := Format(Locale.Message('PlayingBluray', 'Playing Blu-ray: %s'), [ExtractFileName(BDPath)]);
   end;

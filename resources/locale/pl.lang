@@ -244,8 +244,8 @@ NoAudioTracks=(Brak ścieżek audio)
 NoVideoTracks=(Brak ścieżek wideo)
 NoSubtitleTracks=(Brak ścieżek napisów)
 NoChapters=(Brak rozdziałów)
-OpenDVD=Otwórz DVD
-OpenBluray=Otwórz Blu-ray
+OpenDVD=Wybierz folder DVD (zawiera VIDEO_TS)
+OpenBluray=Wybierz folder Blu-ray (zawiera BDMV)
 OpenFolder=Otwórz folder
 
 ; Filtry plików

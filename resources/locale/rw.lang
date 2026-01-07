@@ -244,8 +244,8 @@ NoAudioTracks=(Nta murongo w'amajwi)
 NoVideoTracks=(Nta murongo w'ishusho)
 NoSubtitleTracks=(Nta murongo w'ibisobanuro)
 NoChapters=(Nta bice)
-OpenDVD=Fungura DVD
-OpenBluray=Fungura Blu-ray
+OpenDVD=Hitamo ububiko bwa DVD (burimo VIDEO_TS)
+OpenBluray=Hitamo ububiko bwa Blu-ray (burimo BDMV)
 OpenFolder=Fungura Ububiko
 
 ; File filters

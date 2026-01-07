@@ -244,8 +244,8 @@ NoAudioTracks=(Enweghị egwu ụda)
 NoVideoTracks=(Enweghị egwu vidio)
 NoSubtitleTracks=(Enweghị egwu nkwurịta okwu)
 NoChapters=(Enweghị isi)
-OpenDVD=Mepee DVD
-OpenBluray=Mepee Blu-ray
+OpenDVD=Họrọ folda DVD (nwere VIDEO_TS)
+OpenBluray=Họrọ folda Blu-ray (nwere BDMV)
 OpenFolder=Mepee Folder
 
 ; Nzacha faịlụ

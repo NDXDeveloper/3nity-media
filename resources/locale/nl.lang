@@ -244,8 +244,8 @@ NoAudioTracks=(Geen audiotracks)
 NoVideoTracks=(Geen videotracks)
 NoSubtitleTracks=(Geen ondertitelsporen)
 NoChapters=(Geen hoofdstukken)
-OpenDVD=DVD openen
-OpenBluray=Blu-ray openen
+OpenDVD=Selecteer DVD-map (bevat VIDEO_TS)
+OpenBluray=Selecteer Blu-ray-map (bevat BDMV)
 OpenFolder=Map openen
 
 ; Bestandsfilters

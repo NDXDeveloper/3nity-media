@@ -244,8 +244,8 @@ NoAudioTracks=(Eaow eñ track ko)
 NoVideoTracks=(Eaow video track ko)
 NoSubtitleTracks=(Eaow subtitle track ko)
 NoChapters=(Eaow ekewor ko)
-OpenDVD=Anga DVD
-OpenBluray=Anga Blu-ray
+OpenDVD=Tiki DVD folder (omo VIDEO_TS)
+OpenBluray=Tiki Blu-ray folder (omo BDMV)
 OpenFolder=Anga Folder
 
 ; File filters

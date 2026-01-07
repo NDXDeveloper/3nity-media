@@ -244,8 +244,8 @@ NoAudioTracks=(Ha ho na lithrekhe tsa modumo)
 NoVideoTracks=(Ha ho na lithrekhe tsa video)
 NoSubtitleTracks=(Ha ho na lithrekhe tsa subtitle)
 NoChapters=(Ha ho na likhaolo)
-OpenDVD=Bula DVD
-OpenBluray=Bula Blu-ray
+OpenDVD=Khetha foldara ea DVD (e nang le VIDEO_TS)
+OpenBluray=Khetha foldara ea Blu-ray (e nang le BDMV)
 OpenFolder=Bula Foldara
 
 ; File filters

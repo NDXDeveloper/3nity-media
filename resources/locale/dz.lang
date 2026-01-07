@@ -244,8 +244,8 @@ NoAudioTracks=(སྒྲ་ཁ་སྐད་མེད)
 NoVideoTracks=(བརྙན་ཁ་སྐད་མེད)
 NoSubtitleTracks=(འོག་ཡིག་ཁ་སྐད་མེད)
 NoChapters=(ལེའུ་མེད)
-OpenDVD=DVD་ཁ་ཕྱེ
-OpenBluray=Blu-ray་ཁ་ཕྱེ
+OpenDVD=ཌི་ཝི་ཌི་ཡིག་ཁུག་གདམ་ (VIDEO_TS ཡོད་པ)
+OpenBluray=བླུ་རེ་ཡིག་ཁུག་གདམ་ (BDMV ཡོད་པ)
 OpenFolder=ཡིག་ཁུག་ཁ་ཕྱེ
 
 ; ཡིག་སྣོད་བཤགས་མ

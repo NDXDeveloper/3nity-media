@@ -244,8 +244,8 @@ NoAudioTracks=(オーディオトラックなし)
 NoVideoTracks=(ビデオトラックなし)
 NoSubtitleTracks=(字幕トラックなし)
 NoChapters=(チャプターなし)
-OpenDVD=DVDを開く
-OpenBluray=Blu-rayを開く
+OpenDVD=DVDフォルダを選択 (VIDEO_TSを含む)
+OpenBluray=Blu-rayフォルダを選択 (BDMVを含む)
 OpenFolder=フォルダを開く
 
 ; ファイルフィルター

@@ -244,8 +244,8 @@ NoAudioTracks=(Hakuna nyimbo za sauti)
 NoVideoTracks=(Hakuna nyimbo za video)
 NoSubtitleTracks=(Hakuna nyimbo za manukuu)
 NoChapters=(Hakuna sura)
-OpenDVD=Fungua DVD
-OpenBluray=Fungua Blu-ray
+OpenDVD=Chagua folda ya DVD (ina VIDEO_TS)
+OpenBluray=Chagua folda ya Blu-ray (ina BDMV)
 OpenFolder=Fungua Folda
 
 ; Vichungi vya faili

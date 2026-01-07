@@ -244,8 +244,8 @@ NoAudioTracks=(Fără piste audio)
 NoVideoTracks=(Fără piste video)
 NoSubtitleTracks=(Fără piste subtitrări)
 NoChapters=(Fără capitole)
-OpenDVD=Deschide DVD
-OpenBluray=Deschide Blu-ray
+OpenDVD=Selectați folderul DVD (conține VIDEO_TS)
+OpenBluray=Selectați folderul Blu-ray (conține BDMV)
 OpenFolder=Deschide folder
 
 ; Filtre fișiere

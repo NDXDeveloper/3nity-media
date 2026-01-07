@@ -244,8 +244,8 @@ NoAudioTracks=(Ni zvočnih sledi)
 NoVideoTracks=(Ni video sledi)
 NoSubtitleTracks=(Ni podnapisnih sledi)
 NoChapters=(Ni poglavij)
-OpenDVD=Odpri DVD
-OpenBluray=Odpri Blu-ray
+OpenDVD=Izberite mapo DVD (vsebuje VIDEO_TS)
+OpenBluray=Izberite mapo Blu-ray (vsebuje BDMV)
 OpenFolder=Odpri mapo
 
 ; Datotečni filtri

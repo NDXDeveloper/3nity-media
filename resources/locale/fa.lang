@@ -244,8 +244,8 @@ NoAudioTracks=(بدون تراک صوتی)
 NoVideoTracks=(بدون تراک ویدیویی)
 NoSubtitleTracks=(بدون تراک زیرنویس)
 NoChapters=(بدون فصل)
-OpenDVD=باز کردن DVD
-OpenBluray=باز کردن Blu-ray
+OpenDVD=پوشه DVD را انتخاب کنید (حاوی VIDEO_TS)
+OpenBluray=پوشه Blu-ray را انتخاب کنید (حاوی BDMV)
 OpenFolder=باز کردن پوشه
 
 ; فیلترهای فایل

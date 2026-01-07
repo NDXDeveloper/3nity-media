@@ -244,8 +244,8 @@ NoAudioTracks=(Κανένα κομμάτι ήχου)
 NoVideoTracks=(Κανένα κομμάτι βίντεο)
 NoSubtitleTracks=(Κανένα κομμάτι υποτίτλων)
 NoChapters=(Κανένα κεφάλαιο)
-OpenDVD=Άνοιγμα DVD
-OpenBluray=Άνοιγμα Blu-ray
+OpenDVD=Επιλογή φακέλου DVD (περιέχει VIDEO_TS)
+OpenBluray=Επιλογή φακέλου Blu-ray (περιέχει BDMV)
 OpenFolder=Άνοιγμα φακέλου
 
 ; Φίλτρα αρχείων

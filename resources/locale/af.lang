@@ -244,8 +244,8 @@ NoAudioTracks=(Geen oudiosnitte)
 NoVideoTracks=(Geen videosnitte)
 NoSubtitleTracks=(Geen onderskriftsnitte)
 NoChapters=(Geen hoofstukke)
-OpenDVD=Maak DVD Oop
-OpenBluray=Maak Blu-ray Oop
+OpenDVD=Kies DVD-vouer (bevat VIDEO_TS)
+OpenBluray=Kies Blu-ray-vouer (bevat BDMV)
 OpenFolder=Maak Gids Oop
 
 ; Leerfilters

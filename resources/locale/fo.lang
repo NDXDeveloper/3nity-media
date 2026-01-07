@@ -244,8 +244,8 @@ NoAudioTracks=(Ongin ljóð spor)
 NoVideoTracks=(Ongin video spor)
 NoSubtitleTracks=(Ongin undirtekst spor)
 NoChapters=(Ongin kapittlar)
-OpenDVD=Opna DVD
-OpenBluray=Opna Blu-ray
+OpenDVD=Vel DVD mappu (inniheldur VIDEO_TS)
+OpenBluray=Vel Blu-ray mappu (inniheldur BDMV)
 OpenFolder=Opna Mappu
 
 ; Fílu filtrar

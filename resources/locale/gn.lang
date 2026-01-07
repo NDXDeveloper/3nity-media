@@ -244,8 +244,8 @@ NoAudioTracks=(Ndaipóri pu pista)
 NoVideoTracks=(Ndaipóri ta'ãnga pista)
 NoSubtitleTracks=(Ndaipóri kuatiahaipyre pista)
 NoChapters=(Ndaipóri tapicha)
-OpenDVD=Jepe'a DVD
-OpenBluray=Jepe'a Blu-ray
+OpenDVD=Eiporavo DVD ñe'ẽmby (oguereko VIDEO_TS)
+OpenBluray=Eiporavo Blu-ray ñe'ẽmby (oguereko BDMV)
 OpenFolder=Jepe'a Ñongatuha
 
 ; Marandurenda jeporavo

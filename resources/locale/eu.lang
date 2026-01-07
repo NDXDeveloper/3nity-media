@@ -244,8 +244,8 @@ NoAudioTracks=(Audio pistarik ez)
 NoVideoTracks=(Bideo pistarik ez)
 NoSubtitleTracks=(Azpititulu pistarik ez)
 NoChapters=(Kapitulutik ez)
-OpenDVD=Ireki DVDa
-OpenBluray=Ireki Blu-raya
+OpenDVD=Hautatu DVD karpeta (VIDEO_TS duena)
+OpenBluray=Hautatu Blu-ray karpeta (BDMV duena)
 OpenFolder=Ireki karpeta
 
 ; Fitxategi-iragazkiak

@@ -244,8 +244,8 @@ NoAudioTracks=(Leai ni pese leo)
 NoVideoTracks=(Leai ni pese vitio)
 NoSubtitleTracks=(Leai ni pese fa'aliliuga)
 NoChapters=(Leai ni mataupu)
-OpenDVD=Tatala DVD
-OpenBluray=Tatala Blu-ray
+OpenDVD=Filifili le faila DVD (o lo'o i ai VIDEO_TS)
+OpenBluray=Filifili le faila Blu-ray (o lo'o i ai BDMV)
 OpenFolder=Tatala Faila
 
 ; File filters

@@ -244,8 +244,8 @@ NoAudioTracks=(ශ්‍රව්‍ය ට්‍රැක් නැත)
 NoVideoTracks=(වීඩියෝ ට්‍රැක් නැත)
 NoSubtitleTracks=(උපසිරසි ට්‍රැක් නැත)
 NoChapters=(පරිච්ඡේද නැත)
-OpenDVD=DVD විවෘත කරන්න
-OpenBluray=Blu-ray විවෘත කරන්න
+OpenDVD=DVD ෆෝල්ඩරය තෝරන්න (VIDEO_TS අඩංගු)
+OpenBluray=Blu-ray ෆෝල්ඩරය තෝරන්න (BDMV අඩංගු)
 OpenFolder=ෆෝල්ඩරය විවෘත කරන්න
 
 ; File filters

@@ -244,8 +244,8 @@ NoAudioTracks=(Hapana matirekhi erwiyo)
 NoVideoTracks=(Hapana matirekhi evhidhiyo)
 NoSubtitleTracks=(Hapana matirekhi esubtitle)
 NoChapters=(Hapana zvitsauko)
-OpenDVD=Vhura DVD
-OpenBluray=Vhura Blu-ray
+OpenDVD=Sarudza folda yeDVD (ine VIDEO_TS)
+OpenBluray=Sarudza folda yeBlu-ray (ine BDMV)
 OpenFolder=Vhura Foldha
 
 ; File filters

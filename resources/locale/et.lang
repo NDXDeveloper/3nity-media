@@ -244,8 +244,8 @@ NoAudioTracks=(Helirajad puuduvad)
 NoVideoTracks=(Videorajad puuduvad)
 NoSubtitleTracks=(Subtiitrirajad puuduvad)
 NoChapters=(Peatükid puuduvad)
-OpenDVD=Ava DVD
-OpenBluray=Ava Blu-ray
+OpenDVD=Valige DVD kaust (sisaldab VIDEO_TS)
+OpenBluray=Valige Blu-ray kaust (sisaldab BDMV)
 OpenFolder=Ava kaust
 
 ; Failifiltrid

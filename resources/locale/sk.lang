@@ -244,8 +244,8 @@ NoAudioTracks=(Ziadne zvukove stopy)
 NoVideoTracks=(Ziadne video stopy)
 NoSubtitleTracks=(Ziadne stopy titulkov)
 NoChapters=(Ziadne kapitoly)
-OpenDVD=Otvorit DVD
-OpenBluray=Otvorit Blu-ray
+OpenDVD=Vyberte priečinok DVD (obsahuje VIDEO_TS)
+OpenBluray=Vyberte priečinok Blu-ray (obsahuje BDMV)
 OpenFolder=Otvorit priecinok
 
 ; Filtre suborov

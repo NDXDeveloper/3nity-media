@@ -244,8 +244,8 @@ NoAudioTracks=(Ejjeļọk ainikien track ko)
 NoVideoTracks=(Ejjeļọk video track ko)
 NoSubtitleTracks=(Ejjeļọk likao track ko)
 NoChapters=(Ejjeļọk beba ko)
-OpenDVD=Kōļļap DVD
-OpenBluray=Kōļļap Blu-ray
+OpenDVD=Kōjela DVD folder (ej lōl VIDEO_TS)
+OpenBluray=Kōjela Blu-ray folder (ej lōl BDMV)
 OpenFolder=Kōļļap Folder
 
 ; File filters

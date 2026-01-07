@@ -244,8 +244,8 @@ NoAudioTracks=(Gan rianta fuaime)
 NoVideoTracks=(Gan rianta físeáin)
 NoSubtitleTracks=(Gan rianta fotheidil)
 NoChapters=(Gan caibidlí)
-OpenDVD=Oscail DVD
-OpenBluray=Oscail Blu-ray
+OpenDVD=Roghnaigh fillteán DVD (ina bhfuil VIDEO_TS)
+OpenBluray=Roghnaigh fillteán Blu-ray (ina bhfuil BDMV)
 OpenFolder=Oscail Fillteán
 
 ; Scagairí comhaid

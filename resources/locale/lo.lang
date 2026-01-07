@@ -244,8 +244,8 @@ NoAudioTracks=(ບໍ່ມີແທຣັກສຽງ)
 NoVideoTracks=(ບໍ່ມີແທຣັກວິດີໂອ)
 NoSubtitleTracks=(ບໍ່ມີແທຣັກຄຳບັນຍາຍ)
 NoChapters=(ບໍ່ມີບົດ)
-OpenDVD=ເປີດ DVD
-OpenBluray=ເປີດ Blu-ray
+OpenDVD=ເລືອກໂຟນເດີ DVD (ມີ VIDEO_TS)
+OpenBluray=ເລືອກໂຟນເດີ Blu-ray (ມີ BDMV)
 OpenFolder=ເປີດໂຟນເດີ
 
 ; ຕົວກັ່ນຕອງໄຟລ໌

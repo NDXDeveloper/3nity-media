@@ -244,8 +244,8 @@ NoAudioTracks=(Tidak ada trek audio)
 NoVideoTracks=(Tidak ada trek video)
 NoSubtitleTracks=(Tidak ada trek teks)
 NoChapters=(Tidak ada bab)
-OpenDVD=Buka DVD
-OpenBluray=Buka Blu-ray
+OpenDVD=Pilih folder DVD (berisi VIDEO_TS)
+OpenBluray=Pilih folder Blu-ray (berisi BDMV)
 OpenFolder=Buka Folder
 
 ; Filter berkas

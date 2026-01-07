@@ -244,8 +244,8 @@ NoAudioTracks=(އޯޑިއޯ ޓްރެކް ނެތް)
 NoVideoTracks=(ވީޑިއޯ ޓްރެކް ނެތް)
 NoSubtitleTracks=(ސަބްޓައިޓަލް ޓްރެކް ނެތް)
 NoChapters=(ޗެޕްޓަރު ނެތް)
-OpenDVD=DVD ހުޅުވާ
-OpenBluray=Blu-ray ހުޅުވާ
+OpenDVD=ޑީވީޑީ ފޯލްޑަރު ހޮވާ (VIDEO_TS ހިމެނޭ)
+OpenBluray=ބްލޫ-ރޭ ފޯލްޑަރު ހޮވާ (BDMV ހިމެނޭ)
 OpenFolder=ފޯލްޑަރު ހުޅުވާ
 
 ; File filters

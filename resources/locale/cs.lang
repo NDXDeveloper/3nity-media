@@ -244,8 +244,8 @@ NoAudioTracks=(Žádné zvukové stopy)
 NoVideoTracks=(Žádné video stopy)
 NoSubtitleTracks=(Žádné stopy titulků)
 NoChapters=(Žádné kapitoly)
-OpenDVD=Otevřít DVD
-OpenBluray=Otevřít Blu-ray
+OpenDVD=Vyberte složku DVD (obsahující VIDEO_TS)
+OpenBluray=Vyberte složku Blu-ray (obsahující BDMV)
 OpenFolder=Otevřít složku
 
 ; Filtry souborů

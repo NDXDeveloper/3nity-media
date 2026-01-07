@@ -244,8 +244,8 @@ NoAudioTracks=(Audio treklar yo'q)
 NoVideoTracks=(Video treklar yo'q)
 NoSubtitleTracks=(Subtitr treklari yo'q)
 NoChapters=(Boblar yo'q)
-OpenDVD=DVD ochish
-OpenBluray=Blu-ray ochish
+OpenDVD=DVD jildini tanlang (VIDEO_TS mavjud)
+OpenBluray=Blu-ray jildini tanlang (BDMV mavjud)
 OpenFolder=Papkani ochish
 
 ; File filters

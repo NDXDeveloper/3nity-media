@@ -244,8 +244,8 @@ NoAudioTracks=(Palibe manyimbo a mawu)
 NoVideoTracks=(Palibe manyimbo a kanema)
 NoSubtitleTracks=(Palibe manyimbo a subtitle)
 NoChapters=(Palibe machaputala)
-OpenDVD=Tsegula DVD
-OpenBluray=Tsegula Blu-ray
+OpenDVD=Sankhani foda ya DVD (yokhala ndi VIDEO_TS)
+OpenBluray=Sankhani foda ya Blu-ray (yokhala ndi BDMV)
 OpenFolder=Tsegula Foldala
 
 ; File filters

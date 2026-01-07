@@ -1891,6 +1891,7 @@ procedure TMPVEngine.PlayMedia(const URL: string);
 var
   Args: array[0..3] of PAnsiChar;
   CacheStr: string;
+  FileExt: string;
 begin
   if (FHandle = nil) or (URL = '') then Exit;
 
@@ -1902,6 +1903,13 @@ begin
   { Set cache based on source type }
   CacheStr := IntToStr(GetCacheForSource(URL));
   mpv_set_property_string(FHandle, 'cache-secs', PAnsiChar(AnsiString(CacheStr)));
+
+  { Enable hr-seek for m2ts/vob files (Blu-ray/DVD fallback) for better seek accuracy }
+  FileExt := LowerCase(ExtractFileExt(URL));
+  if (FileExt = '.m2ts') or (FileExt = '.mts') or (FileExt = '.vob') then
+    mpv_set_property_string(FHandle, 'hr-seek', 'yes')
+  else
+    mpv_set_property_string(FHandle, 'hr-seek', 'absolute');  { Default: exact for absolute, keyframe for relative }
 
   { Build loadfile command }
   Args[0] := 'loadfile';

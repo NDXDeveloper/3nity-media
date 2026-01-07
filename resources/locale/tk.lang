@@ -244,8 +244,8 @@ NoAudioTracks=(Audio trekler ýok)
 NoVideoTracks=(Wideo trekler ýok)
 NoSubtitleTracks=(Subtitr trekleri ýok)
 NoChapters=(Bölümler ýok)
-OpenDVD=DVD açmak
-OpenBluray=Blu-ray açmak
+OpenDVD=DVD bukjasyny saýlaň (VIDEO_TS saklaýar)
+OpenBluray=Blu-ray bukjasyny saýlaň (BDMV saklaýar)
 OpenFolder=Papkany açmak
 
 ; File filters

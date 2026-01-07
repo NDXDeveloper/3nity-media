@@ -244,8 +244,8 @@ NoAudioTracks=(Kò sí orin ohùn)
 NoVideoTracks=(Kò sí orin fídíò)
 NoSubtitleTracks=(Kò sí orin àkọsílẹ̀)
 NoChapters=(Kò sí orí)
-OpenDVD=Ṣí DVD
-OpenBluray=Ṣí Blu-ray
+OpenDVD=Yan foda DVD (to ni VIDEO_TS)
+OpenBluray=Yan foda Blu-ray (to ni BDMV)
 OpenFolder=Ṣí Fódà
 
 ; Àwọn àṣàájú fáìlì

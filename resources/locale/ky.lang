@@ -244,8 +244,8 @@ NoAudioTracks=(Аудио тректер жок)
 NoVideoTracks=(Видео тректер жок)
 NoSubtitleTracks=(Субтитр тректери жок)
 NoChapters=(Бөлүмдөр жок)
-OpenDVD=DVD ачуу
-OpenBluray=Blu-ray ачуу
+OpenDVD=DVD папкасын тандаңыз (VIDEO_TS камтыйт)
+OpenBluray=Blu-ray папкасын тандаңыз (BDMV камтыйт)
 OpenFolder=Папканы ачуу
 
 ; File filters

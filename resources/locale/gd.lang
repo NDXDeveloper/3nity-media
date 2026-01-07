@@ -244,8 +244,8 @@ NoAudioTracks=(Gun tràcan fuaime)
 NoVideoTracks=(Gun tràcan bhidio)
 NoSubtitleTracks=(Gun tràcan fo-thiotalan)
 NoChapters=(Gun chaibideilean)
-OpenDVD=Fosgail DVD
-OpenBluray=Fosgail Blu-ray
+OpenDVD=Tagh pasgan DVD (anns a bheil VIDEO_TS)
+OpenBluray=Tagh pasgan Blu-ray (anns a bheil BDMV)
 OpenFolder=Fosgail Pasgan
 
 ; Criathragan faidhle

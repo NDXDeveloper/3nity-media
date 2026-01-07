@@ -244,8 +244,8 @@ NoAudioTracks=(အသံတေးသွားမရှိပါ)
 NoVideoTracks=(ဗီဒီယိုတေးသွားမရှိပါ)
 NoSubtitleTracks=(စာတန်းထိုးတေးသွားမရှိပါ)
 NoChapters=(အခန်းမရှိပါ)
-OpenDVD=DVD ဖွင့်ပါ
-OpenBluray=Blu-ray ဖွင့်ပါ
+OpenDVD=DVD ဖိုင်တွဲရွေးချယ်ပါ (VIDEO_TS ပါဝင်သော)
+OpenBluray=Blu-ray ဖိုင်တွဲရွေးချယ်ပါ (BDMV ပါဝင်သော)
 OpenFolder=ဖိုဒါဖွင့်ပါ
 
 ; ဖိုင်စစ်ထုတ်မှု

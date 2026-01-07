@@ -244,8 +244,8 @@ NoAudioTracks=(ऑडिओ ट्रॅक्स नाहीत)
 NoVideoTracks=(व्हिडिओ ट्रॅक्स नाहीत)
 NoSubtitleTracks=(सबटायटल ट्रॅक्स नाहीत)
 NoChapters=(अध्याय नाहीत)
-OpenDVD=DVD उघडा
-OpenBluray=Blu-ray उघडा
+OpenDVD=DVD फोल्डर निवडा (VIDEO_TS असलेले)
+OpenBluray=Blu-ray फोल्डर निवडा (BDMV असलेले)
 OpenFolder=फोल्डर उघडा
 
 ; फाइल फिल्टर्स

@@ -244,8 +244,8 @@ NoAudioTracks=(Nav audio celiņu)
 NoVideoTracks=(Nav video celiņu)
 NoSubtitleTracks=(Nav subtitru celiņu)
 NoChapters=(Nav nodaļu)
-OpenDVD=Atvērt DVD
-OpenBluray=Atvērt Blu-ray
+OpenDVD=Atlasiet DVD mapi (satur VIDEO_TS)
+OpenBluray=Atlasiet Blu-ray mapi (satur BDMV)
 OpenFolder=Atvērt mapi
 
 ; Failu filtri

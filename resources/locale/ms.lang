@@ -244,8 +244,8 @@ NoAudioTracks=(Tiada trek audio)
 NoVideoTracks=(Tiada trek video)
 NoSubtitleTracks=(Tiada trek sari kata)
 NoChapters=(Tiada bab)
-OpenDVD=Buka DVD
-OpenBluray=Buka Blu-ray
+OpenDVD=Pilih folder DVD (mengandungi VIDEO_TS)
+OpenBluray=Pilih folder Blu-ray (mengandungi BDMV)
 OpenFolder=Buka Folder
 
 ; Penapis fail

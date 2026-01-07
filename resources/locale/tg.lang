@@ -244,8 +244,8 @@ NoAudioTracks=(Тректҳои аудио нест)
 NoVideoTracks=(Тректҳои видео нест)
 NoSubtitleTracks=(Тректҳои субтитр нест)
 NoChapters=(Бобҳо нест)
-OpenDVD=Кушодани DVD
-OpenBluray=Кушодани Blu-ray
+OpenDVD=Ҷузвдони DVD-ро интихоб кунед (VIDEO_TS дорад)
+OpenBluray=Ҷузвдони Blu-ray-ро интихоб кунед (BDMV дорад)
 OpenFolder=Кушодани ҷузвдон
 
 ; File filters

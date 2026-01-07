@@ -244,8 +244,8 @@ NoAudioTracks=(오디오 트랙 없음)
 NoVideoTracks=(비디오 트랙 없음)
 NoSubtitleTracks=(자막 트랙 없음)
 NoChapters=(챕터 없음)
-OpenDVD=DVD 열기
-OpenBluray=블루레이 열기
+OpenDVD=DVD 폴더 선택 (VIDEO_TS 포함)
+OpenBluray=Blu-ray 폴더 선택 (BDMV 포함)
 OpenFolder=폴더 열기
 
 ; 파일 필터

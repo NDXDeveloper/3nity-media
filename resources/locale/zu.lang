@@ -244,8 +244,8 @@ NoAudioTracks=(Azikho izithrekhi zomsindo)
 NoVideoTracks=(Azikho izithrekhi zevidiyo)
 NoSubtitleTracks=(Azikho izithrekhi zamazwi angaphansi)
 NoChapters=(Azikho izahluko)
-OpenDVD=Vula DVD
-OpenBluray=Vula Blu-ray
+OpenDVD=Khetha ifolda ye-DVD (equkethe VIDEO_TS)
+OpenBluray=Khetha ifolda ye-Blu-ray (equkethe BDMV)
 OpenFolder=Vula Ifolda
 
 ; Amafilitha amafayela

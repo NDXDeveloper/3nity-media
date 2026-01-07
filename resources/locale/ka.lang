@@ -244,8 +244,8 @@ NoAudioTracks=(აუდიო ტრეკები არ არის)
 NoVideoTracks=(ვიდეო ტრეკები არ არის)
 NoSubtitleTracks=(სუბტიტრების ტრეკები არ არის)
 NoChapters=(თავები არ არის)
-OpenDVD=DVD გახსნა
-OpenBluray=Blu-ray გახსნა
+OpenDVD=აირჩიეთ DVD საქაღალდე (შეიცავს VIDEO_TS)
+OpenBluray=აირჩიეთ Blu-ray საქაღალდე (შეიცავს BDMV)
 OpenFolder=საქაღალდის გახსნა
 
 ; ფაილის ფილტრები

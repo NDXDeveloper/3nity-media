@@ -244,8 +244,8 @@ NoAudioTracks=(ናይ ድምጺ ትራክ የለን)
 NoVideoTracks=(ናይ ቪድዮ ትራክ የለን)
 NoSubtitleTracks=(ናይ ትርጉም ትራክ የለን)
 NoChapters=(ምዕራፍ የለን)
-OpenDVD=DVD ክፈት
-OpenBluray=Blu-ray ክፈት
+OpenDVD=ናይ DVD ፎልደር ምረጽ (VIDEO_TS ዘለዎ)
+OpenBluray=ናይ Blu-ray ፎልደር ምረጽ (BDMV ዘለዎ)
 OpenFolder=ፎልደር ክፈት
 
 ; File filters

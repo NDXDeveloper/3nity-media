@@ -244,8 +244,8 @@ NoAudioTracks=(Nincsenek hangsávok)
 NoVideoTracks=(Nincsenek videósávok)
 NoSubtitleTracks=(Nincsenek feliratsávok)
 NoChapters=(Nincsenek fejezetek)
-OpenDVD=DVD megnyitása
-OpenBluray=Blu-ray megnyitása
+OpenDVD=DVD mappa kiválasztása (VIDEO_TS-t tartalmaz)
+OpenBluray=Blu-ray mappa kiválasztása (BDMV-t tartalmaz)
 OpenFolder=Mappa megnyitása
 
 ; Fájlszűrők

@@ -244,8 +244,8 @@ NoAudioTracks=(אין רצועות שמע)
 NoVideoTracks=(אין רצועות וידאו)
 NoSubtitleTracks=(אין רצועות כתוביות)
 NoChapters=(אין פרקים)
-OpenDVD=פתח DVD
-OpenBluray=פתח Blu-ray
+OpenDVD=בחר תיקיית DVD (מכילה VIDEO_TS)
+OpenBluray=בחר תיקיית Blu-ray (מכילה BDMV)
 OpenFolder=פתח תיקייה
 
 ; מסנני קבצים

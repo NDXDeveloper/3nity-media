@@ -244,8 +244,8 @@ NoAudioTracks=(Səs yolu yoxdur)
 NoVideoTracks=(Video yolu yoxdur)
 NoSubtitleTracks=(Altyazı yolu yoxdur)
 NoChapters=(Bölüm yoxdur)
-OpenDVD=DVD aç
-OpenBluray=Blu-ray aç
+OpenDVD=DVD qovluğunu seçin (VIDEO_TS olan)
+OpenBluray=Blu-ray qovluğunu seçin (BDMV olan)
 OpenFolder=Qovluq aç
 
 ; File filters

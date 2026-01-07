@@ -244,8 +244,8 @@ NoAudioTracks=('Ikai ha hiva le'o)
 NoVideoTracks=('Ikai ha hiva vitio)
 NoSubtitleTracks=('Ikai ha hiva tohinoa)
 NoChapters=('Ikai ha vahe)
-OpenDVD=Fakaava DVD
-OpenBluray=Fakaava Blu-ray
+OpenDVD=Fili ha fōlutiā DVD ('oku kau ai 'a e VIDEO_TS)
+OpenBluray=Fili ha fōlutiā Blu-ray ('oku kau ai 'a e BDMV)
 OpenFolder=Fakaava Foleta
 
 ; File filters

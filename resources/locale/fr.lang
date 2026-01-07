@@ -244,8 +244,8 @@ NoAudioTracks=(Aucune piste audio)
 NoVideoTracks=(Aucune piste vidéo)
 NoSubtitleTracks=(Aucune piste de sous-titres)
 NoChapters=(Aucun chapitre)
-OpenDVD=Ouvrir un DVD
-OpenBluray=Ouvrir un Blu-ray
+OpenDVD=Sélectionner le dossier DVD (contenant VIDEO_TS)
+OpenBluray=Sélectionner le dossier Blu-ray (contenant BDMV)
 OpenFolder=Ouvrir un dossier
 
 ; Filtres de fichiers

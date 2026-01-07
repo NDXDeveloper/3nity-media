@@ -244,8 +244,8 @@ NoAudioTracks=(Keng Audio Tracks)
 NoVideoTracks=(Keng Video Tracks)
 NoSubtitleTracks=(Keng Ënnertitelen Tracks)
 NoChapters=(Keng Kapitelen)
-OpenDVD=DVD opmaachen
-OpenBluray=Blu-ray opmaachen
+OpenDVD=DVD Dossier auswielen (enthält VIDEO_TS)
+OpenBluray=Blu-ray Dossier auswielen (enthält BDMV)
 OpenFolder=Dossier opmaachen
 
 ; Datei Filteren

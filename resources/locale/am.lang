@@ -244,8 +244,8 @@ NoAudioTracks=(የድምጽ ትራኮች የሉም)
 NoVideoTracks=(የቪዲዮ ትራኮች የሉም)
 NoSubtitleTracks=(የግርጌ ጽሁፍ ትራኮች የሉም)
 NoChapters=(ምዕራፎች የሉም)
-OpenDVD=DVD ክፈት
-OpenBluray=Blu-ray ክፈት
+OpenDVD=የዲቪዲ አቃፊ ይምረጡ (VIDEO_TS የያዘ)
+OpenBluray=የብሉ-ሬይ አቃፊ ይምረጡ (BDMV የያዘ)
 OpenFolder=ማህደር ክፈት
 
 ; የፋይል ማጣሪያዎች

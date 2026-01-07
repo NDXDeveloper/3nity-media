@@ -244,8 +244,8 @@ NoAudioTracks=(Sega ni sere ni domo)
 NoVideoTracks=(Sega ni sere ni vidio)
 NoSubtitleTracks=(Sega ni sere ni subtitle)
 NoChapters=(Sega ni mataveilawa)
-OpenDVD=Dola DVD
-OpenBluray=Dola Blu-ray
+OpenDVD=Digitaka na DVD folder (kei roto VIDEO_TS)
+OpenBluray=Digitaka na Blu-ray folder (kei roto BDMV)
 OpenFolder=Dola Fola
 
 ; File filters

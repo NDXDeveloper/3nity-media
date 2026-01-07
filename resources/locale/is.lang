@@ -244,8 +244,8 @@ NoAudioTracks=(Engin hljóðlög)
 NoVideoTracks=(Engin myndbandslög)
 NoSubtitleTracks=(Engin textalög)
 NoChapters=(Engir kaflar)
-OpenDVD=Opna DVD
-OpenBluray=Opna Blu-ray
+OpenDVD=Veldu DVD möppu (inniheldur VIDEO_TS)
+OpenBluray=Veldu Blu-ray möppu (inniheldur BDMV)
 OpenFolder=Opna möppu
 
 ; Skráarsíur

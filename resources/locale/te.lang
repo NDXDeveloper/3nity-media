@@ -244,8 +244,8 @@ NoAudioTracks=(ఆడియో ట్రాక్‌లు లేవు)
 NoVideoTracks=(వీడియో ట్రాక్‌లు లేవు)
 NoSubtitleTracks=(సబ్‌టైటిల్ ట్రాక్‌లు లేవు)
 NoChapters=(అధ్యాయాలు లేవు)
-OpenDVD=DVD తెరవండి
-OpenBluray=Blu-ray తెరవండి
+OpenDVD=DVD ఫోల్డర్ ఎంచుకోండి (VIDEO_TS కలిగి ఉన్న)
+OpenBluray=Blu-ray ఫోల్డర్ ఎంచుకోండి (BDMV కలిగి ఉన్న)
 OpenFolder=ఫోల్డర్ తెరవండి
 
 ; ఫైల్ ఫిల్టర్లు

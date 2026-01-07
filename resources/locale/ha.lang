@@ -244,8 +244,8 @@ NoAudioTracks=(Babu waƙoƙin sauti)
 NoVideoTracks=(Babu waƙoƙin bidiyo)
 NoSubtitleTracks=(Babu waƙoƙin bayanin hoto)
 NoChapters=(Babu babuka)
-OpenDVD=Buɗe DVD
-OpenBluray=Buɗe Blu-ray
+OpenDVD=Zaɓi babban fayil na DVD (dauke da VIDEO_TS)
+OpenBluray=Zaɓi babban fayil na Blu-ray (dauke da BDMV)
 OpenFolder=Buɗe Babban Fayil
 
 ; Tacewa fayiloli

@@ -244,8 +244,8 @@ NoAudioTracks=(Inga ljudspar)
 NoVideoTracks=(Inga videospar)
 NoSubtitleTracks=(Inga undertextspar)
 NoChapters=(Inga kapitel)
-OpenDVD=Oppna DVD
-OpenBluray=Oppna Blu-ray
+OpenDVD=Välj DVD-mapp (innehåller VIDEO_TS)
+OpenBluray=Välj Blu-ray-mapp (innehåller BDMV)
 OpenFolder=Oppna mapp
 
 ; Filfilter

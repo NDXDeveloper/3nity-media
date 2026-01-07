@@ -244,8 +244,8 @@ NoAudioTracks=(Нема аудио нумера)
 NoVideoTracks=(Нема видео нумера)
 NoSubtitleTracks=(Нема нумера титлова)
 NoChapters=(Нема поглавља)
-OpenDVD=Отвори ДВД
-OpenBluray=Отвори Блу-реј
+OpenDVD=Изаберите DVD фасциклу (садржи VIDEO_TS)
+OpenBluray=Изаберите Blu-ray фасциклу (садржи BDMV)
 OpenFolder=Отвори фасциклу
 
 ; Филтери датотека

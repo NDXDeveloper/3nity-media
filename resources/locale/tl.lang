@@ -244,8 +244,8 @@ NoAudioTracks=(Walang mga audio track)
 NoVideoTracks=(Walang mga video track)
 NoSubtitleTracks=(Walang mga subtitle track)
 NoChapters=(Walang mga kabanata)
-OpenDVD=Buksan ang DVD
-OpenBluray=Buksan ang Blu-ray
+OpenDVD=Pumili ng DVD folder (naglalaman ng VIDEO_TS)
+OpenBluray=Pumili ng Blu-ray folder (naglalaman ng BDMV)
 OpenFolder=Buksan ang Folder
 
 ; Mga filter ng file

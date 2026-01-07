@@ -244,8 +244,8 @@ NoAudioTracks=(Нет аудиодорожек)
 NoVideoTracks=(Нет видеодорожек)
 NoSubtitleTracks=(Нет дорожек субтитров)
 NoChapters=(Нет глав)
-OpenDVD=Открыть DVD
-OpenBluray=Открыть Blu-ray
+OpenDVD=Выберите папку DVD (содержит VIDEO_TS)
+OpenBluray=Выберите папку Blu-ray (содержит BDMV)
 OpenFolder=Открыть папку
 
 ; Фильтры файлов
