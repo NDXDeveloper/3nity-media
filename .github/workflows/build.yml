@@ -1135,7 +1135,7 @@ jobs:
         Name: "french"; MessagesFile: "compiler:Languages\French.isl"
 
         [Tasks]
-        Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+        Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
         [Files]
         Source: "3nity-media.exe"; DestDir: "{app}"; Flags: ignoreversion
@@ -1189,7 +1189,7 @@ jobs:
         Name: "french"; MessagesFile: "compiler:Languages\French.isl"
 
         [Tasks]
-        Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+        Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
         [Files]
         Source: "3nity-media.exe"; DestDir: "{app}"; Flags: ignoreversion
