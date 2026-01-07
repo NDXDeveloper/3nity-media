@@ -744,6 +744,8 @@ jobs:
             build-on: [amd64]
             build-for: [amd64]
 
+        icon: snap/gui/3nity-media.png
+
         layout:
           /usr/share/libdrm:
             bind: \$SNAP/usr/share/libdrm

@@ -1,67 +1,28 @@
 name: 3nity-media
-base: core24
 version: git
-summary: Modern multimedia player based on libmpv
+summary: Modern multimedia player powered by libmpv
 description: |
-  3nity Media is a powerful and elegant multimedia player for Linux,
-  built with Lazarus/Free Pascal and powered by libmpv.
+  3nity Media is a modern, lightweight media player built with
+  Lazarus/Free Pascal and powered by the libmpv engine.
 
   Features:
-  - Video playback with hardware acceleration (VA-API, VDPAU)
-  - Audio playback with 10-band equalizer
-  - DVD and Blu-ray navigation support
-  - Internet radio with Icecast directory
-  - Playlist management (M3U, M3U8, PLS)
-  - Customizable keyboard shortcuts
-  - Multi-language interface (100+ languages)
-  - Stream recording
-  - Audio visualizations
-  - Bookmarks and favorites
-  - Session restore
-
-  Supported formats: AVI, MKV, MP4, MOV, WMV, FLV, WebM, MP3, FLAC,
-  OGG, Opus, AAC, WAV, and many more via libmpv/ffmpeg.
+  - Audio and video playback with libmpv
+  - Playlist management (M3U, PLS, XSPF)
+  - Internet radio streaming
+  - Audio equalizer
+  - Video adjustments
+  - Keyboard shortcuts
+  - Multi-language support (100+ languages)
 
 grade: stable
 confinement: strict
-
-icon: snap/gui/3nity-media.png
-
+base: core24
 platforms:
   amd64:
     build-on: [amd64]
     build-for: [amd64]
 
-apps:
-  3nity-media:
-    extensions: [kde-neon]
-    command: bin/3nity-media
-    desktop: share/applications/3nity-media.desktop
-    plugs:
-      - home
-      - audio-playback
-      - audio-record
-      - pulseaudio
-      - network
-      - network-bind
-      - removable-media
-      - optical-drive
-      - screen-inhibit-control
-      - unity7
-      - x11
-      - wayland
-      - opengl
-      - desktop
-      - desktop-legacy
-      - gsettings
-      - mount-observe
-      - udisks2
-    environment:
-      LD_LIBRARY_PATH: $SNAP/usr/lib:$SNAP/usr/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio:$SNAP/usr/lib/x86_64-linux-gnu/blas:$SNAP/usr/lib/x86_64-linux-gnu/lapack:$LD_LIBRARY_PATH
-      UBUNTU_MENUPROXY: ""
-      QT_QPA_PLATFORM: xcb
-      SSL_CERT_DIR: $SNAP/etc/ssl/certs
-      SSL_CERT_FILE: $SNAP/etc/ssl/certs/ca-certificates.crt
+icon: snap/gui/3nity-media.png
 
 layout:
   /usr/share/libdrm:
@@ -69,33 +30,68 @@ layout:
   /usr/lib/x86_64-linux-gnu/dri:
     bind: $SNAP/usr/lib/x86_64-linux-gnu/dri
 
-parts:
-  # Build dependencies - Lazarus IDE
-  lazarus:
-    plugin: nil
-    build-packages:
-      - lazarus-ide-qt5
-      - lazarus-src
-      - lcl-qt5
-      - lcl-utils
-      - fpc
-      - fpc-source
-    stage-packages:
-      - libqt5pas1
-    prime:
-      - usr/lib/*/libQt5Pas*
-
-  # Main application
+apps:
   3nity-media:
-    after: [lazarus]
+    extensions: [kde-neon]
+    command: usr/bin/3nity-media
+    desktop: usr/share/applications/3nity-media.desktop
+    environment:
+      LD_LIBRARY_PATH: $SNAP/usr/lib:$SNAP/usr/lib/x86_64-linux-gnu:$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio:$SNAP/usr/lib/x86_64-linux-gnu/blas:$SNAP/usr/lib/x86_64-linux-gnu/lapack:$LD_LIBRARY_PATH
+      UBUNTU_MENUPROXY: ""
+      QT_QPA_PLATFORM: xcb
+      SSL_CERT_DIR: $SNAP/etc/ssl/certs
+      SSL_CERT_FILE: $SNAP/etc/ssl/certs/ca-certificates.crt
+    plugs:
+      - home
+      - audio-playback
+      - audio-record
+      - pulseaudio
+      - network
+      - network-bind
+      - opengl
+      - x11
+      - wayland
+      - desktop
+      - desktop-legacy
+      - removable-media
+      - optical-drive
+      - unity7
+      - gsettings
+      - udisks2
+      - screen-inhibit-control
+      - mount-observe
+
+parts:
+  3nity-media:
     plugin: nil
     source: .
-    build-packages:
-      - lazarus-ide-qt5
-      - lcl-qt5
-      - fpc
-      - libmpv-dev
-      - libqt5pas-dev
+    override-build: |
+      # Copy binary
+      mkdir -p $SNAPCRAFT_PART_INSTALL/usr/bin
+      cp bin/x86_64-linux/3nity-media $SNAPCRAFT_PART_INSTALL/usr/bin/
+      chmod +x $SNAPCRAFT_PART_INSTALL/usr/bin/3nity-media
+
+      # Copy locale files
+      mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/3nity-media/locale
+      cp resources/locale/*.lang $SNAPCRAFT_PART_INSTALL/usr/share/3nity-media/locale/ || true
+
+      # Copy documentation
+      mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/doc/3nity-media
+      cp LICENSE $SNAPCRAFT_PART_INSTALL/usr/share/doc/3nity-media/ || true
+      cp README.md $SNAPCRAFT_PART_INSTALL/usr/share/doc/3nity-media/ || true
+
+      # Copy desktop file
+      mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/applications
+      cp snap/gui/3nity-media.desktop $SNAPCRAFT_PART_INSTALL/usr/share/applications/
+
+      # Copy icons
+      for size in 16 24 32 48 64 128 256; do
+        mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/icons/hicolor/${size}x${size}/apps
+        cp snap/gui/3nity-media-${size}.png $SNAPCRAFT_PART_INSTALL/usr/share/icons/hicolor/${size}x${size}/apps/3nity-media.png || true
+      done
+
+      echo "=== Snap build contents ==="
+      ls -la $SNAPCRAFT_PART_INSTALL/usr/bin/
     stage-packages:
       - libmpv2
       - libqt5pas1
@@ -139,65 +135,10 @@ parts:
       - qt5-style-plugins
       - breeze-icon-theme
       - kde-style-breeze
-      - yt-dlp
-    override-build: |
-      # Generate version file
-      VERSION="${SNAPCRAFT_PROJECT_VERSION}"
-      BUILD_DATE=$(date -u +%Y-%m-%d)
-      BUILD_TIME=$(date -u +%H:%M:%S)
-      GIT_COMMIT=$(git rev-parse --short HEAD 2>/dev/null || echo "snap")
-      GIT_BRANCH="snap"
 
-      mkdir -p src/Core
-      cat > src/Core/uVersion.inc << EOF
-      { Auto-generated by snapcraft - DO NOT EDIT }
-      { Generated: ${BUILD_DATE} ${BUILD_TIME} }
-
-      const
-        APP_VERSION = '${VERSION}';
-        APP_BUILD_DATE = '${BUILD_DATE}';
-        APP_BUILD_TIME = '${BUILD_TIME}';
-        APP_GIT_COMMIT = '${GIT_COMMIT}';
-        APP_GIT_BRANCH = '${GIT_BRANCH}';
-      EOF
-
-      # Build the application in Release mode
-      cd src
-      lazbuild --build-mode=Release TrinityMedia.lpi
-
-      # Install binary
-      mkdir -p $SNAPCRAFT_PART_INSTALL/bin
-      cp ../bin/x86_64-linux/3nity-media $SNAPCRAFT_PART_INSTALL/bin/
-
-      # Install locale files from resources/locale/
-      mkdir -p $SNAPCRAFT_PART_INSTALL/share/3nity-media/locale
-      if [ -d "../resources/locale" ]; then
-        cp ../resources/locale/*.lang $SNAPCRAFT_PART_INSTALL/share/3nity-media/locale/
-        echo "Copied $(ls -1 $SNAPCRAFT_PART_INSTALL/share/3nity-media/locale/*.lang | wc -l) locale files"
-      fi
-
-      # Install LICENSE and documentation
-      mkdir -p $SNAPCRAFT_PART_INSTALL/share/doc/3nity-media
-      cp ../LICENSE $SNAPCRAFT_PART_INSTALL/share/doc/3nity-media/ || true
-      cp ../README.md $SNAPCRAFT_PART_INSTALL/share/doc/3nity-media/ || true
-
-  # Desktop integration files
-  desktop-files:
-    plugin: dump
-    source: snap/gui
-    organize:
-      3nity-media.desktop: share/applications/3nity-media.desktop
-      3nity-media-16.png: share/icons/hicolor/16x16/apps/3nity-media.png
-      3nity-media-24.png: share/icons/hicolor/24x24/apps/3nity-media.png
-      3nity-media-32.png: share/icons/hicolor/32x32/apps/3nity-media.png
-      3nity-media-48.png: share/icons/hicolor/48x48/apps/3nity-media.png
-      3nity-media-64.png: share/icons/hicolor/64x64/apps/3nity-media.png
-      3nity-media-128.png: share/icons/hicolor/128x128/apps/3nity-media.png
-      3nity-media-256.png: share/icons/hicolor/256x256/apps/3nity-media.png
-
-  # Cleanup
+  # Cleanup to reduce snap size
   cleanup:
-    after: [3nity-media, desktop-files]
+    after: [3nity-media]
     plugin: nil
     override-prime: |
       set -eux
