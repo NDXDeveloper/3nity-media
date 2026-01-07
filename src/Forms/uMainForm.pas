@@ -4916,8 +4916,8 @@ var
   TitleNum, PartNum, BestTitle, I: Integer;
   TitleSizes: array[0..99] of Int64;
   TitleFiles: array[0..99] of TStringList;
+  VOBArray: array of string;
   BestSize: Int64;
-  ConcatURL: string;
 begin
   { Open DVD dialog to select DVD folder }
   DVDPath := '';
@@ -4982,19 +4982,17 @@ begin
         end;
       end;
 
-      { Build concat URL and play }
+      { Play VOB files }
       if (BestTitle >= 0) and (TitleFiles[BestTitle] <> nil) and
          (TitleFiles[BestTitle].Count > 0) then
       begin
         TitleFiles[BestTitle].Sort;
-        ConcatURL := 'concat:';
+        { Convert TStringList to array for AddFilesToPlaylist }
+        SetLength(VOBArray, TitleFiles[BestTitle].Count);
         for I := 0 to TitleFiles[BestTitle].Count - 1 do
-        begin
-          if I > 0 then
-            ConcatURL := ConcatURL + '|';
-          ConcatURL := ConcatURL + TitleFiles[BestTitle][I];
-        end;
-        PlayFile(ConcatURL);
+          VOBArray[I] := TitleFiles[BestTitle][I];
+        { Add all VOB files to playlist (clears first) and play }
+        AddFilesToPlaylist(VOBArray, True);
         StatusBar.SimpleText := Format(Locale.Message('PlayingDVD', 'Playing DVD: %s'), [ExtractFileName(DVDPath)]);
       end;
 
