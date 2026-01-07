@@ -759,6 +759,8 @@ jobs:
               LD_LIBRARY_PATH: \$SNAP/usr/lib:\$SNAP/usr/lib/x86_64-linux-gnu:\$SNAP/usr/lib/x86_64-linux-gnu/pulseaudio:\$SNAP/usr/lib/x86_64-linux-gnu/blas:\$SNAP/usr/lib/x86_64-linux-gnu/lapack:\$LD_LIBRARY_PATH
               UBUNTU_MENUPROXY: ""
               QT_QPA_PLATFORM: xcb
+              SSL_CERT_DIR: \$SNAP/etc/ssl/certs
+              SSL_CERT_FILE: \$SNAP/etc/ssl/certs/ca-certificates.crt
             plugs:
               - home
               - audio-playback
