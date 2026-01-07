@@ -120,7 +120,6 @@ parts:
       - libdvdnav4
       - libdvdread8
       - libjpeg8
-      - libplacebo192
       - librubberband2
       - libsdl2-2.0-0
       - libsixel1

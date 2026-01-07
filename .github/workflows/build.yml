@@ -744,6 +744,12 @@ jobs:
             build-on: [amd64]
             build-for: [amd64]
 
+        layout:
+          /usr/share/libdrm:
+            bind: \$SNAP/usr/share/libdrm
+          /usr/lib/x86_64-linux-gnu/dri:
+            bind: \$SNAP/usr/lib/x86_64-linux-gnu/dri
+
         apps:
           3nity-media:
             extensions: [kde-neon]
@@ -808,14 +814,62 @@ jobs:
               - libmpv2
               - libqt5pas1
               - ffmpeg
+              - libva2
+              - libva-drm2
+              - libva-x11-2
+              - libvdpau1
+              - mesa-va-drivers
+              - mesa-vdpau-drivers
+              - libdrm2
+              - libdrm-common
+              - libegl1
+              - libgl1
+              - libglx0
+              - libglvnd0
               - libpulse0
               - libpulse-mainloop-glib0
+              - libasound2
+              - liblua5.1-0
+              - libass9
+              - libbluray2
+              - libcdio-paranoia2
+              - libdvdnav4
+              - libdvdread8
+              - libjpeg8
+              - librubberband2
+              - libsdl2-2.0-0
+              - libsixel1
+              - libsmbclient
+              - libuchardet0
+              - libxkbcommon0
+              - libxss1
+              - libzimg2
               - libblas3
               - liblapack3
               - plasma-integration
               - qt5-style-plugins
               - breeze-icon-theme
               - kde-style-breeze
+            prime:
+              - usr/bin/3nity-media
+              - usr/share/3nity-media/
+              - usr/share/doc/3nity-media/
+              - usr/share/applications/
+              - usr/share/icons/
+              - usr/lib/*/libmpv*
+              - usr/lib/*/libQt5Pas*
+              - usr/lib/*/libass*
+              - usr/lib/*/libbluray*
+              - usr/lib/*/libdvd*
+              - usr/lib/*/libva*
+              - usr/lib/*/libvdpau*
+              - usr/lib/*/libplacebo*
+              - usr/lib/*/librubberband*
+              - usr/lib/*/libpulse*
+              - usr/lib/*/libasound*
+              - usr/lib/*/dri/
+              - usr/bin/ffprobe
+              - usr/share/libdrm/
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
