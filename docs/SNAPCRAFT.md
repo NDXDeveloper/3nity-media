@@ -307,11 +307,14 @@ cp resources/icons/256x256.png snap/gui/3nity-media.png
 ### 6. Build the snap locally
 
 ```bash
-# Build with LXD (recommended)
-snapcraft
+# Using make (recommended - handles iptables and cache automatically)
+make snap
 
-# Or destructive build (modifies host system)
-snapcraft --destructive-mode
+# Clean previous build artifacts and rebuild
+make snap-clean
+
+# Or manually with snapcraft
+snapcraft --use-lxd
 ```
 
 ### 7. Test the snap locally

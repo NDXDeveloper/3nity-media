@@ -38,10 +38,13 @@ sudo snap install snapcraft --classic
 From the project root directory:
 
 ```bash
-# Build the snap
-snapcraft
+# Using make (recommended - handles iptables and cache automatically)
+make snap
 
-# Or use LXD for clean builds (recommended)
+# Clean previous build artifacts and rebuild
+make snap-clean
+
+# Or manually with snapcraft
 snapcraft --use-lxd
 ```
 
