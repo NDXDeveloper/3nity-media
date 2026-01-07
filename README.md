@@ -32,7 +32,17 @@ This is a personal project, shared in the hope it might be useful to others. It'
 
 ## Screenshots
 
-*Coming soon*
+| Video Playback | Playlist |
+|:--------------:|:--------:|
+| ![Video Playback](store-assets/screenshots/01-video-playback.png) | ![Playlist](store-assets/screenshots/02-playlist.png) |
+
+| Equalizer | Internet Radio |
+|:---------:|:--------------:|
+| ![Equalizer](store-assets/screenshots/03-equalizer.png) | ![Internet Radio](store-assets/screenshots/04-internet-radio.png) |
+
+| Audio Visualization |
+|:-------------------:|
+| ![Visualization](store-assets/screenshots/05-audio-visualization.png) |
 
 ---
 
