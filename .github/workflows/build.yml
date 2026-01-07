@@ -554,6 +554,15 @@ jobs:
         ln -s ${{ env.BINARY_NAME }} AppDir/usr/bin/3nity
 
         # === BUNDLE DEPENDENCIES ===
+        # Download and bundle OpenSSL 1.1.x (required by FPC for HTTPS)
+        echo "Bundling OpenSSL 1.1.x..."
+        wget -q http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+        dpkg-deb -x libssl1.1_1.1.1f-1ubuntu2_amd64.deb openssl-tmp/
+        cp openssl-tmp/usr/lib/x86_64-linux-gnu/libssl.so.1.1 AppDir/usr/lib/
+        cp openssl-tmp/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1 AppDir/usr/lib/
+        rm -rf openssl-tmp libssl1.1_*.deb
+        echo "OpenSSL 1.1.x bundled"
+
         # Copy libmpv and its dependencies
         echo "Bundling libmpv..."
         LIBMPV_PATH=$(ldconfig -p | grep libmpv.so | head -1 | awk '{print $NF}')
