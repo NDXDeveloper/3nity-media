@@ -192,6 +192,11 @@
 
 | File | Description |
 |------|-------------|
+| [docs/QUICKSTART_DEVELOPER.md](/docs/QUICKSTART_DEVELOPER.md) | Quick start guide for developers |
+| [docs/COOKBOOK.md](/docs/COOKBOOK.md) | Step-by-step recipes for common tasks |
+| [docs/DEPENDENCIES.md](/docs/DEPENDENCIES.md) | Build and runtime dependencies |
+| [docs/TROUBLESHOOTING_DEV.md](/docs/TROUBLESHOOTING_DEV.md) | Developer troubleshooting guide |
+| [docs/CHANGELOG.md](/docs/CHANGELOG.md) | Version history and changes |
 | [docs/CICD_DEVELOPER.md](/docs/CICD_DEVELOPER.md) | CI/CD pipeline documentation |
 | [docs/LOCALIZATION_DEVELOPER.md](/docs/LOCALIZATION_DEVELOPER.md) | Localization system |
 | [docs/SHORTCUTS_DEVELOPER.md](/docs/SHORTCUTS_DEVELOPER.md) | Shortcuts system |

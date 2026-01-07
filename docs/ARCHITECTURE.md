@@ -9,6 +9,7 @@ This document provides a technical overview of the 3nity Media architecture, inc
 - [Layer Description](#layer-description)
 - [Core Modules](#core-modules)
 - [Data Flow](#data-flow)
+- [DVD and Blu-ray Support](#dvd-and-blu-ray-support)
 - [MPV Integration](#mpv-integration)
 - [Event System](#event-system)
 - [Configuration System](#configuration-system)
@@ -377,6 +378,129 @@ Handles internet radio station management.
 │ SaveSettings │                    │              │
 └──────────────┘                    └──────────────┘
 ```
+
+---
+
+## DVD and Blu-ray Support
+
+3nity Media supports DVD and Blu-ray folder playback with a two-tier approach: native protocol and fallback mode.
+
+### Disc Structure Detection
+
+```
+DVD Structure:                    Blu-ray Structure:
+───────────────                   ─────────────────
+VIDEO_TS/                         BDMV/
+├── VIDEO_TS.IFO                  ├── index.bdmv
+├── VIDEO_TS.VOB                  ├── MovieObject.bdmv
+├── VTS_01_0.IFO                  ├── PLAYLIST/
+├── VTS_01_0.VOB                  │   └── *.mpls
+├── VTS_01_1.VOB                  ├── CLIPINF/
+├── VTS_01_2.VOB                  │   └── *.clpi
+├── VTS_02_0.IFO                  └── STREAM/
+├── VTS_02_1.VOB                      ├── 00000.m2ts
+└── ...                               ├── 00001.m2ts
+                                      └── ...
+```
+
+### Playback Strategy
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                  DVD/Blu-ray Playback Flow                   │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  1. User selects folder                                     │
+│     │                                                       │
+│     ▼                                                       │
+│  2. Detect disc type                                        │
+│     ├── VIDEO_TS exists? ──► DVD                           │
+│     └── BDMV exists? ──────► Blu-ray                       │
+│     │                                                       │
+│     ▼                                                       │
+│  3. Try native protocol                                     │
+│     ├── DVD: dvd://path/to/VIDEO_TS                        │
+│     └── Blu-ray: bd://path/to/BDMV                         │
+│     │                                                       │
+│     ▼                                                       │
+│  4. If native fails ──► Fallback mode                      │
+│     │                                                       │
+│     ▼                                                       │
+│  5. Fallback: Find and play content files                  │
+│     ├── DVD: Detect main title, queue VOB files            │
+│     └── Blu-ray: Play largest M2TS file                    │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### DVD Fallback Algorithm
+
+When the native `dvd://` protocol fails (no libdvdnav), the fallback mode:
+
+1. **Scans VIDEO_TS folder** for all VOB files
+2. **Groups by title number** - VTS_XX_Y.VOB where XX = title
+3. **Selects main title** - Title with largest total size
+4. **Queues all parts** - VTS_XX_1.VOB, VTS_XX_2.VOB, etc. to playlist
+5. **Plays sequentially** via playlist manager
+
+```pascal
+// DVD title detection pseudocode
+for each .VOB file in VIDEO_TS:
+  if filename matches VTS_XX_Y.VOB pattern:
+    extract title number (XX)
+    add to TitleFiles[XX]
+    accumulate TitleSizes[XX]
+
+BestTitle := title with max TitleSizes[XX]
+AddFilesToPlaylist(TitleFiles[BestTitle])
+```
+
+**Important:** MPV does not support the `concat:` protocol (unlike ffmpeg). Files must be played sequentially via the playlist.
+
+### Blu-ray Fallback Algorithm
+
+When the native `bd://` protocol fails (no libbluray):
+
+1. **Scans BDMV/STREAM** folder for all M2TS files
+2. **Finds largest file** - Typically the main movie
+3. **Plays single file** directly
+
+```pascal
+// Blu-ray fallback pseudocode
+LargestFile := ''
+LargestSize := 0
+
+for each .m2ts file in BDMV/STREAM:
+  if FileSize > LargestSize:
+    LargestFile := filename
+    LargestSize := FileSize
+
+PlayFile(LargestFile)
+```
+
+### Seeking Configuration
+
+MPEG-2 based formats (VOB, M2TS) require precise seeking:
+
+```pascal
+// In TMPVEngine, set hr-seek for disc formats
+FileExt := LowerCase(ExtractFileExt(URL));
+if (FileExt = '.vob') or (FileExt = '.m2ts') then
+  mpv_set_property_string(FHandle, 'hr-seek', 'yes');
+```
+
+| Property | Value | Purpose |
+|----------|-------|---------|
+| `hr-seek` | `yes` | Accurate frame-level seeking for MPEG-2 |
+
+### Related Code Locations
+
+| File | Procedure | Purpose |
+|------|-----------|---------|
+| `uMainForm.pas` | `OpenDVD` | DVD folder detection and playback |
+| `uMainForm.pas` | `OpenBluray` | Blu-ray folder detection and playback |
+| `uMPVEngine.pas` | `SetupDVDNavigation` | DVD menu navigation support |
+| `uMPVEngine.pas` | `Play` | hr-seek configuration |
 
 ---
 
@@ -751,5 +875,5 @@ end;
 
 ## Version Information
 
-- **Last updated:** 2026-01-02
+- **Last updated:** 2026-01-07
 - **Applies to:** 3nity Media v0.x and later
