@@ -13,17 +13,17 @@ TESTDATA_DIR := $(TEST_DIR)/TestData
 BIN_DIR := bin/x86_64-linux
 BINARY_NAME := 3nity-media
 
-# Version (depuis git ou définie manuellement)
+# Version (from git or manually defined)
 VERSION ?= $(shell git describe --tags --always --dirty 2>/dev/null || echo "dev")
 BUILD_DATE := $(shell date -u +%Y-%m-%d)
 BUILD_TIME := $(shell date -u +%H:%M:%S)
 GIT_COMMIT := $(shell git rev-parse --short HEAD 2>/dev/null || echo "unknown")
 GIT_BRANCH := $(shell git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "unknown")
 
-# Fichier version généré
+# Generated version file
 VERSION_FILE := $(SRC_DIR)/Core/uVersion.inc
 
-# Couleurs pour l'affichage
+# Colors for display
 GREEN := \033[0;32m
 RED := \033[0;31m
 YELLOW := \033[0;33m
@@ -35,78 +35,78 @@ NC := \033[0m # No Color
         test-mpv test-playlist test-visual test-config test-radio \
         version version-file release release-all snap snap-clean
 
-# Cible par défaut
+# Default target
 all: build-app
 
-# Aide
+# Help
 help:
 	@echo "$(GREEN)3nity Media - Makefile$(NC)"
 	@echo ""
-	@echo "$(YELLOW)Compilation:$(NC)"
-	@echo "  make                - Compiler l'application (par défaut)"
-	@echo "  make build-app      - Compiler l'application principale (Debug)"
-	@echo "  make build-release  - Compiler en mode Release (optimisé)"
-	@echo "  make build-tests    - Compiler le TestRunner"
-	@echo "  make build          - Compiler app + tests"
-	@echo "  make run            - Compiler et lancer l'application"
-	@echo "  make rebuild        - Nettoyer et recompiler tout"
-	@echo "  make clean          - Nettoyer les tests"
-	@echo "  make clean-all      - Nettoyer tout (app + tests + résultats)"
-	@echo "  make clean-backups  - Supprimer les dossiers backup"
-	@echo "  make clean-testdata - Supprimer les fichiers de test générés"
-	@echo "  make clean-dist     - Nettoyage complet avant distribution"
+	@echo "$(YELLOW)Build:$(NC)"
+	@echo "  make                - Build the application (default)"
+	@echo "  make build-app      - Build the main application (Debug)"
+	@echo "  make build-release  - Build in Release mode (optimized)"
+	@echo "  make build-tests    - Build the TestRunner"
+	@echo "  make build          - Build app + tests"
+	@echo "  make run            - Build and run the application"
+	@echo "  make rebuild        - Clean and rebuild everything"
+	@echo "  make clean          - Clean tests"
+	@echo "  make clean-all      - Clean everything (app + tests + results)"
+	@echo "  make clean-backups  - Remove backup folders"
+	@echo "  make clean-testdata - Remove generated test files"
+	@echo "  make clean-dist     - Full cleanup before distribution"
 	@echo ""
 	@echo "$(YELLOW)Tests:$(NC)"
-	@echo "  make test           - Exécuter tous les tests"
-	@echo "  make quick          - Tests rapides (unitaires uniquement)"
-	@echo "  make test-unit      - Tests unitaires"
-	@echo "  make test-integration - Tests d'intégration"
-	@echo "  make test-functional  - Tests fonctionnels (GUI)"
-	@echo "  make test-performance - Tests de performance"
-	@echo "  make test-robustness  - Tests de robustesse"
+	@echo "  make test           - Run all tests"
+	@echo "  make quick          - Quick tests (unit tests only)"
+	@echo "  make test-unit      - Unit tests"
+	@echo "  make test-integration - Integration tests"
+	@echo "  make test-functional  - Functional tests (GUI)"
+	@echo "  make test-performance - Performance tests"
+	@echo "  make test-robustness  - Robustness tests"
 	@echo ""
-	@echo "$(YELLOW)Tests spécifiques:$(NC)"
-	@echo "  make test-mpv       - Tests MPVEngine"
-	@echo "  make test-playlist  - Tests Playlist"
-	@echo "  make test-visual    - Tests Visualisations"
-	@echo "  make test-config    - Tests Configuration"
-	@echo "  make test-radio     - Tests Radio/Streaming"
+	@echo "$(YELLOW)Specific tests:$(NC)"
+	@echo "  make test-mpv       - MPVEngine tests"
+	@echo "  make test-playlist  - Playlist tests"
+	@echo "  make test-visual    - Visualizations tests"
+	@echo "  make test-config    - Configuration tests"
+	@echo "  make test-radio     - Radio/Streaming tests"
 	@echo ""
-	@echo "$(YELLOW)Rapports:$(NC)"
-	@echo "  make report         - Générer rapport HTML"
-	@echo "  make coverage       - Rapport de couverture"
+	@echo "$(YELLOW)Reports:$(NC)"
+	@echo "  make report         - Generate HTML report"
+	@echo "  make coverage       - Coverage report"
 	@echo ""
-	@echo "$(YELLOW)Données de test:$(NC)"
-	@echo "  make generate-testdata - Générer les fichiers de test"
-	@echo "  make check-testdata    - Vérifier les fichiers de test"
+	@echo "$(YELLOW)Test data:$(NC)"
+	@echo "  make generate-testdata - Generate test files"
+	@echo "  make check-testdata    - Check test files"
 	@echo ""
-	@echo "$(YELLOW)Développement:$(NC)"
-	@echo "  make watch          - Relancer tests auto à chaque modif"
-	@echo "  make ci             - Tests pour CI/CD"
+	@echo "$(YELLOW)Development:$(NC)"
+	@echo "  make watch          - Auto-rerun tests on changes"
+	@echo "  make ci             - Tests for CI/CD"
 	@echo ""
 	@echo "$(YELLOW)Version:$(NC)"
-	@echo "  make version        - Afficher la version actuelle"
-	@echo "  make version-file   - Générer le fichier uVersion.inc"
-	@echo "  make release V=x.y.z - Compiler une release avec version"
+	@echo "  make version        - Show current version"
+	@echo "  make version-file   - Generate uVersion.inc file"
+	@echo "  make release V=x.y.z - Build a release with version"
 	@echo ""
 	@echo "$(YELLOW)Snap:$(NC)"
-	@echo "  make snap           - Construire le package Snap (avec LXD)"
-	@echo "  make snap-clean     - Nettoyer l'environnement Snap"
+	@echo "  make snap           - Build Snap package (with LXD)"
+	@echo "  make snap-clean     - Clean Snap environment"
 
 # === VERSION ===
 
-# Afficher la version
+# Show version
 version:
-	@echo "$(GREEN)3nity Media - Informations de version$(NC)"
+	@echo "$(GREEN)3nity Media - Version information$(NC)"
 	@echo "  Version:    $(VERSION)"
 	@echo "  Date:       $(BUILD_DATE)"
-	@echo "  Heure:      $(BUILD_TIME)"
+	@echo "  Time:       $(BUILD_TIME)"
 	@echo "  Commit:     $(GIT_COMMIT)"
-	@echo "  Branche:    $(GIT_BRANCH)"
+	@echo "  Branch:     $(GIT_BRANCH)"
 
-# Générer le fichier uVersion.inc
+# Generate uVersion.inc file
 version-file:
-	@echo "$(GREEN)Génération de $(VERSION_FILE)...$(NC)"
+	@echo "$(GREEN)Generating $(VERSION_FILE)...$(NC)"
 	@mkdir -p $(dir $(VERSION_FILE))
 	@echo "{ Auto-generated by Makefile - DO NOT EDIT }" > $(VERSION_FILE)
 	@echo "{ Generated: $(BUILD_DATE) $(BUILD_TIME) }" >> $(VERSION_FILE)
@@ -117,291 +117,291 @@ version-file:
 	@echo "  APP_BUILD_TIME = '$(BUILD_TIME)';" >> $(VERSION_FILE)
 	@echo "  APP_GIT_COMMIT = '$(GIT_COMMIT)';" >> $(VERSION_FILE)
 	@echo "  APP_GIT_BRANCH = '$(GIT_BRANCH)';" >> $(VERSION_FILE)
-	@echo "$(GREEN)Fichier généré: $(VERSION_FILE)$(NC)"
+	@echo "$(GREEN)File generated: $(VERSION_FILE)$(NC)"
 
-# === COMPILATION ===
+# === BUILD ===
 
-# Compilation avec injection de version (mode Debug)
+# Build with version injection (Debug mode)
 build-app: version-file
-	@echo "$(GREEN)Compilation de 3nity Media $(VERSION) (Debug)...$(NC)"
+	@echo "$(GREEN)Building 3nity Media $(VERSION) (Debug)...$(NC)"
 	@$(LAZBUILD) $(MAIN_PROJECT)
-	@echo "$(GREEN)Compilation terminée.$(NC)"
+	@echo "$(GREEN)Build complete.$(NC)"
 
-# Compilation en mode Release (optimisé, sans debug)
+# Build in Release mode (optimized, no debug)
 build-release: version-file
-	@echo "$(GREEN)Compilation de 3nity Media $(VERSION) (Release)...$(NC)"
+	@echo "$(GREEN)Building 3nity Media $(VERSION) (Release)...$(NC)"
 	@$(LAZBUILD) --build-mode=Release $(MAIN_PROJECT)
-	@echo "$(GREEN)Compilation terminée.$(NC)"
+	@echo "$(GREEN)Build complete.$(NC)"
 
-# Compilation tests
+# Build tests
 build-tests:
-	@echo "$(GREEN)Compilation du TestRunner...$(NC)"
+	@echo "$(GREEN)Building TestRunner...$(NC)"
 	@$(LAZBUILD) $(TEST_PROJECT)
-	@echo "$(GREEN)Compilation terminée.$(NC)"
+	@echo "$(GREEN)Build complete.$(NC)"
 
-# Compilation complète
+# Full build
 build: build-app build-tests
 
-# === NETTOYAGE ===
+# === CLEANUP ===
 
-# Nettoyage tests
+# Clean tests
 clean:
-	@echo "$(YELLOW)Nettoyage des tests...$(NC)"
+	@echo "$(YELLOW)Cleaning tests...$(NC)"
 	@rm -f $(TEST_RUNNER) $(TEST_DIR)/*.o $(TEST_DIR)/*.res
 	@rm -rf $(RESULTS_DIR)
 	@rm -f $(TEST_DIR)/*.xml $(TEST_DIR)/*.html
 	@find $(TEST_DIR) -name "*.ppu" -delete 2>/dev/null || true
 	@find $(TEST_DIR) -name "*.o" -delete 2>/dev/null || true
-	@echo "$(GREEN)Nettoyage terminé.$(NC)"
+	@echo "$(GREEN)Cleanup complete.$(NC)"
 
-# Nettoyage complet
+# Full cleanup
 clean-all: clean
-	@echo "$(YELLOW)Nettoyage complet...$(NC)"
+	@echo "$(YELLOW)Full cleanup...$(NC)"
 	@rm -f $(BIN_DIR)/$(BINARY_NAME)
 	@rm -f $(SRC_DIR)/*.o $(SRC_DIR)/*.res
 	@find $(SRC_DIR) -name "*.ppu" -delete 2>/dev/null || true
 	@find $(SRC_DIR) -name "*.o" -delete 2>/dev/null || true
 	@find lib -name "*.ppu" -delete 2>/dev/null || true
 	@find lib -name "*.o" -delete 2>/dev/null || true
-	@echo "$(GREEN)Nettoyage complet terminé.$(NC)"
+	@echo "$(GREEN)Full cleanup complete.$(NC)"
 
-# Supprimer les dossiers backup
+# Remove backup folders
 clean-backups:
-	@echo "$(YELLOW)Suppression des dossiers backup...$(NC)"
+	@echo "$(YELLOW)Removing backup folders...$(NC)"
 	@rm -rf $(SRC_DIR)/backup/
 	@rm -rf $(SRC_DIR)/Common/backup/
 	@rm -rf $(SRC_DIR)/Locale/backup/
 	@rm -rf $(SRC_DIR)/Forms/backup/
-	@echo "$(GREEN)Dossiers backup supprimés.$(NC)"
+	@echo "$(GREEN)Backup folders removed.$(NC)"
 
-# Supprimer les fichiers de test générés
+# Remove generated test files
 clean-testdata:
-	@echo "$(YELLOW)Suppression des fichiers de test générés...$(NC)"
+	@echo "$(YELLOW)Removing generated test files...$(NC)"
 	@rm -f $(TESTDATA_DIR)/audio/*.mp3 $(TESTDATA_DIR)/audio/*.ogg $(TESTDATA_DIR)/audio/*.flac
 	@rm -f $(TESTDATA_DIR)/audio/*.wav $(TESTDATA_DIR)/audio/*.m4a $(TESTDATA_DIR)/audio/*.opus
 	@rm -f $(TESTDATA_DIR)/video/*.mp4 $(TESTDATA_DIR)/video/*.mkv $(TESTDATA_DIR)/video/*.webm
 	@rm -f $(TESTDATA_DIR)/video/*.avi
-	@echo "$(GREEN)Fichiers de test supprimés.$(NC)"
+	@echo "$(GREEN)Test files removed.$(NC)"
 
-# Nettoyage complet avant distribution (GitHub)
+# Full cleanup before distribution (GitHub)
 clean-dist: clean-all clean-backups clean-testdata
-	@echo "$(YELLOW)Nettoyage pour distribution...$(NC)"
+	@echo "$(YELLOW)Cleanup for distribution...$(NC)"
 	@rm -rf bin/ lib/ tests/bin/ tests/lib/
 	@rm -f $(SRC_DIR)/TrinityMedia.lps
-	@echo "$(GREEN)Projet prêt pour distribution.$(NC)"
+	@echo "$(GREEN)Project ready for distribution.$(NC)"
 	@echo ""
-	@echo "Taille du projet:"
+	@echo "Project size:"
 	@du -sh .
 
-# Créer le dossier de résultats
+# Create results folder
 $(RESULTS_DIR):
 	@mkdir -p $(RESULTS_DIR)
 
 # === TESTS ===
 
-# Tous les tests
+# All tests
 test: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Exécution de tous les tests...$(NC)"
+	@echo "$(GREEN)Running all tests...$(NC)"
 	@$(TEST_RUNNER) --all --format=xml --output=$(RESULTS_DIR)/all-results.xml
-	@echo "$(GREEN)Tests terminés. Résultats: $(RESULTS_DIR)/all-results.xml$(NC)"
+	@echo "$(GREEN)Tests complete. Results: $(RESULTS_DIR)/all-results.xml$(NC)"
 
-# Tests rapides (unitaires seulement, sans dépendances externes)
+# Quick tests (unit tests only, no external dependencies)
 quick: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests rapides (unitaires)...$(NC)"
+	@echo "$(GREEN)Quick tests (unit tests)...$(NC)"
 	@$(TEST_RUNNER) --suite=Unit --format=xml --output=$(RESULTS_DIR)/quick-results.xml
 
-# Tests unitaires
+# Unit tests
 test-unit: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests unitaires...$(NC)"
+	@echo "$(GREEN)Unit tests...$(NC)"
 	@$(TEST_RUNNER) --suite=Unit --format=xml --output=$(RESULTS_DIR)/unit-results.xml
 
-# Tests d'intégration
+# Integration tests
 test-integration: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests d'intégration...$(NC)"
+	@echo "$(GREEN)Integration tests...$(NC)"
 	@$(TEST_RUNNER) --suite=Integration --format=xml --output=$(RESULTS_DIR)/integration-results.xml
 
-# Tests fonctionnels (GUI)
+# Functional tests (GUI)
 test-functional: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests fonctionnels (GUI)...$(NC)"
+	@echo "$(GREEN)Functional tests (GUI)...$(NC)"
 	@$(TEST_RUNNER) --suite=Functional --format=xml --output=$(RESULTS_DIR)/functional-results.xml
 
-# Tests de performance
+# Performance tests
 test-performance: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests de performance...$(NC)"
+	@echo "$(GREEN)Performance tests...$(NC)"
 	@$(TEST_RUNNER) --suite=Performance --format=xml --output=$(RESULTS_DIR)/performance-results.xml
 
-# Tests de robustesse
+# Robustness tests
 test-robustness: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests de robustesse...$(NC)"
+	@echo "$(GREEN)Robustness tests...$(NC)"
 	@$(TEST_RUNNER) --suite=Robustness --format=xml --output=$(RESULTS_DIR)/robustness-results.xml
 
-# === TESTS SPÉCIFIQUES ===
+# === SPECIFIC TESTS ===
 
 test-mpv: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests MPVEngine...$(NC)"
+	@echo "$(GREEN)MPVEngine tests...$(NC)"
 	@$(TEST_RUNNER) --suite=TTestLibMPV --suite=TTestMPVEngine --format=xml --output=$(RESULTS_DIR)/mpv-results.xml
 
 test-playlist: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests Playlist...$(NC)"
+	@echo "$(GREEN)Playlist tests...$(NC)"
 	@$(TEST_RUNNER) --suite=TTestPlaylist --format=xml --output=$(RESULTS_DIR)/playlist-results.xml
 
 test-visual: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests Visualisations...$(NC)"
+	@echo "$(GREEN)Visualizations tests...$(NC)"
 	@$(TEST_RUNNER) --suite=TTestVisualEffects --format=xml --output=$(RESULTS_DIR)/visual-results.xml
 
 test-config: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests Configuration...$(NC)"
+	@echo "$(GREEN)Configuration tests...$(NC)"
 	@$(TEST_RUNNER) --suite=TTestConfig --format=xml --output=$(RESULTS_DIR)/config-results.xml
 
 test-radio: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Tests Radio/Streaming...$(NC)"
+	@echo "$(GREEN)Radio/Streaming tests...$(NC)"
 	@$(TEST_RUNNER) --suite=TTestRadioManager --suite=TTestStreaming --format=xml --output=$(RESULTS_DIR)/radio-results.xml
 
-# === RAPPORTS ===
+# === REPORTS ===
 
 report: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Génération du rapport HTML...$(NC)"
+	@echo "$(GREEN)Generating HTML report...$(NC)"
 	@$(TEST_RUNNER) --all --format=html --output=$(RESULTS_DIR)/report.html
-	@echo "$(GREEN)Rapport généré: $(RESULTS_DIR)/report.html$(NC)"
+	@echo "$(GREEN)Report generated: $(RESULTS_DIR)/report.html$(NC)"
 
 coverage: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Génération du rapport de couverture...$(NC)"
+	@echo "$(GREEN)Generating coverage report...$(NC)"
 	@$(TEST_RUNNER) --all --coverage --format=html --output=$(RESULTS_DIR)/coverage.html
-	@echo "$(GREEN)Rapport de couverture: $(RESULTS_DIR)/coverage.html$(NC)"
+	@echo "$(GREEN)Coverage report: $(RESULTS_DIR)/coverage.html$(NC)"
 
-# === DONNÉES DE TEST ===
+# === TEST DATA ===
 
 generate-testdata:
-	@echo "$(GREEN)Génération des fichiers de test...$(NC)"
+	@echo "$(GREEN)Generating test files...$(NC)"
 	@chmod +x $(TEST_DIR)/generate_test_files.sh
 	@cd $(TEST_DIR) && ./generate_test_files.sh
-	@echo "$(GREEN)Fichiers de test générés.$(NC)"
+	@echo "$(GREEN)Test files generated.$(NC)"
 
 check-testdata:
-	@echo "$(YELLOW)Vérification des fichiers de test...$(NC)"
+	@echo "$(YELLOW)Checking test files...$(NC)"
 	@echo ""
 	@echo "Audio:"
-	@ls -la $(TESTDATA_DIR)/audio/ 2>/dev/null || echo "  $(RED)Dossier audio manquant$(NC)"
+	@ls -la $(TESTDATA_DIR)/audio/ 2>/dev/null || echo "  $(RED)Audio folder missing$(NC)"
 	@echo ""
 	@echo "Video:"
-	@ls -la $(TESTDATA_DIR)/video/ 2>/dev/null || echo "  $(RED)Dossier video manquant$(NC)"
+	@ls -la $(TESTDATA_DIR)/video/ 2>/dev/null || echo "  $(RED)Video folder missing$(NC)"
 	@echo ""
 	@echo "Subtitles:"
-	@ls -la $(TESTDATA_DIR)/subtitles/ 2>/dev/null || echo "  $(RED)Dossier subtitles manquant$(NC)"
+	@ls -la $(TESTDATA_DIR)/subtitles/ 2>/dev/null || echo "  $(RED)Subtitles folder missing$(NC)"
 	@echo ""
 	@echo "Playlists:"
-	@ls -la $(TESTDATA_DIR)/playlists/ 2>/dev/null || echo "  $(RED)Dossier playlists manquant$(NC)"
+	@ls -la $(TESTDATA_DIR)/playlists/ 2>/dev/null || echo "  $(RED)Playlists folder missing$(NC)"
 
-# === MODE VERBOSE ===
+# === VERBOSE MODE ===
 
 test-verbose: build-tests
-	@echo "$(GREEN)Tests en mode verbose...$(NC)"
+	@echo "$(GREEN)Tests in verbose mode...$(NC)"
 	@$(TEST_RUNNER) --all --verbose
 
 # === CI/CD ===
 
 ci: build-tests $(RESULTS_DIR)
-	@echo "$(GREEN)Exécution CI...$(NC)"
+	@echo "$(GREEN)Running CI...$(NC)"
 	@$(TEST_RUNNER) --suite=Unit --format=xml --output=$(RESULTS_DIR)/ci-unit.xml
 	@$(TEST_RUNNER) --suite=Integration --format=xml --output=$(RESULTS_DIR)/ci-integration.xml
-	@echo "$(GREEN)CI terminée.$(NC)"
+	@echo "$(GREEN)CI complete.$(NC)"
 
-# === WATCH MODE (nécessite inotify-tools) ===
+# === WATCH MODE (requires inotify-tools) ===
 
 watch:
-	@echo "$(GREEN)Mode watch activé. Ctrl+C pour arrêter.$(NC)"
+	@echo "$(GREEN)Watch mode enabled. Ctrl+C to stop.$(NC)"
 	@while true; do \
 		inotifywait -q -e modify -r $(SRC_DIR)/; \
-		echo "$(YELLOW)Changement détecté, relancement des tests...$(NC)"; \
+		echo "$(YELLOW)Change detected, rerunning tests...$(NC)"; \
 		make quick; \
 	done
 
-# === RACCOURCIS ===
+# === SHORTCUTS ===
 
-# Compiler et lancer
+# Build and run
 run: build-app
-	@echo "$(GREEN)Lancement de 3nity Media...$(NC)"
+	@echo "$(GREEN)Launching 3nity Media...$(NC)"
 	@$(BIN_DIR)/$(BINARY_NAME)
 
-# Rebuild complet
+# Full rebuild
 rebuild: clean-all build
 
 # === RELEASES ===
 
-# Release avec version spécifique
+# Release with specific version
 # Usage: make release V=1.0.0
 release:
 ifndef V
-	$(error Version requise. Usage: make release V=1.0.0)
+	$(error Version required. Usage: make release V=1.0.0)
 endif
-	@echo "$(GREEN)Création de la release $(V)...$(NC)"
+	@echo "$(GREEN)Creating release $(V)...$(NC)"
 	$(MAKE) VERSION=$(V) clean-all build-release
 	@mkdir -p releases
 	@cp $(BIN_DIR)/$(BINARY_NAME) releases/3nity-$(V)-linux-x64
-	@echo "$(GREEN)Release créée: releases/3nity-$(V)-linux-x64$(NC)"
+	@echo "$(GREEN)Release created: releases/3nity-$(V)-linux-x64$(NC)"
 
-# Release pour toutes les plateformes (si cross-compilation configurée)
+# Release for all platforms (if cross-compilation configured)
 release-all:
 ifndef V
-	$(error Version requise. Usage: make release-all V=1.0.0)
+	$(error Version required. Usage: make release-all V=1.0.0)
 endif
-	@echo "$(GREEN)Création des releases $(V) pour toutes les plateformes...$(NC)"
+	@echo "$(GREEN)Creating releases $(V) for all platforms...$(NC)"
 	@mkdir -p releases
 	# Linux x64
 	$(MAKE) VERSION=$(V) build-release
 	@cp $(BIN_DIR)/$(BINARY_NAME) releases/3nity-$(V)-linux-x64
-	# Ajouter ici d'autres plateformes si cross-compilation disponible
-	@echo "$(GREEN)Releases créées dans releases/$(NC)"
+	# Add other platforms here if cross-compilation available
+	@echo "$(GREEN)Releases created in releases/$(NC)"
 	@ls -la releases/
 
 # === SNAP ===
 
-# Construire le package Snap (avec LXD)
+# Build Snap package (with LXD)
 snap: build-release
-	@echo "$(GREEN)=== Construction du package Snap ===$(NC)"
-	@# Sauvegarder l'état iptables FORWARD et activer si nécessaire
+	@echo "$(GREEN)=== Building Snap package ===$(NC)"
+	@# Save iptables FORWARD state and enable if necessary
 	@FORWARD_POLICY=$$(sudo iptables -L FORWARD 2>/dev/null | head -1 | grep -oP '(?<=policy )\w+' || echo "ACCEPT"); \
 	if [ "$$FORWARD_POLICY" = "DROP" ]; then \
-		echo "$(YELLOW)Activation iptables FORWARD pour LXD...$(NC)"; \
+		echo "$(YELLOW)Enabling iptables FORWARD for LXD...$(NC)"; \
 		sudo iptables -P FORWARD ACCEPT; \
 		RESTORE_IPTABLES=1; \
 	else \
 		RESTORE_IPTABLES=0; \
 	fi; \
 	\
-	echo "$(YELLOW)Nettoyage du cache snapcraft...$(NC)"; \
+	echo "$(YELLOW)Clearing snapcraft cache...$(NC)"; \
 	sudo rm -rf /root/.cache/snapcraft 2>/dev/null || true; \
 	rm -rf ~/.cache/snapcraft 2>/dev/null || true; \
 	\
-	echo "$(YELLOW)Suppression de l'instance LXD...$(NC)"; \
+	echo "$(YELLOW)Removing LXD instance...$(NC)"; \
 	lxc delete snapcraft-3nity-media --force 2>/dev/null || true; \
 	\
-	echo "$(YELLOW)Nettoyage snapcraft...$(NC)"; \
+	echo "$(YELLOW)Cleaning snapcraft...$(NC)"; \
 	snapcraft clean 2>/dev/null || true; \
 	\
-	echo "$(GREEN)Construction du snap...$(NC)"; \
+	echo "$(GREEN)Building snap...$(NC)"; \
 	snapcraft; \
 	BUILD_STATUS=$$?; \
 	\
 	if [ "$$RESTORE_IPTABLES" = "1" ]; then \
-		echo "$(YELLOW)Restauration iptables FORWARD à DROP...$(NC)"; \
+		echo "$(YELLOW)Restoring iptables FORWARD to DROP...$(NC)"; \
 		sudo iptables -P FORWARD DROP; \
 	fi; \
 	\
 	if [ $$BUILD_STATUS -eq 0 ]; then \
-		echo "$(GREEN)=== Package Snap créé avec succès ===$(NC)"; \
+		echo "$(GREEN)=== Snap package created successfully ===$(NC)"; \
 		ls -la *.snap 2>/dev/null || true; \
 	else \
-		echo "$(RED)=== Échec de la construction du snap ===$(NC)"; \
+		echo "$(RED)=== Snap build failed ===$(NC)"; \
 		exit 1; \
 	fi
 
-# Nettoyer l'environnement Snap
+# Clean Snap environment
 snap-clean:
-	@echo "$(YELLOW)Nettoyage de l'environnement Snap...$(NC)"
+	@echo "$(YELLOW)Cleaning Snap environment...$(NC)"
 	@sudo rm -rf /root/.cache/snapcraft 2>/dev/null || true
 	@rm -rf ~/.cache/snapcraft 2>/dev/null || true
 	@lxc delete snapcraft-3nity-media --force 2>/dev/null || true
 	@snapcraft clean 2>/dev/null || true
 	@rm -f *.snap 2>/dev/null || true
-	@echo "$(GREEN)Environnement Snap nettoyé.$(NC)"
+	@echo "$(GREEN)Snap environment cleaned.$(NC)"
