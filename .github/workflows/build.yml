@@ -858,21 +858,6 @@ jobs:
               - breeze-icon-theme
               - kde-style-breeze
 
-          # Cleanup to reduce snap size
-          cleanup:
-            after: [3nity-media]
-            plugin: nil
-            override-prime: |
-              set -eux
-              # Remove unnecessary files to reduce snap size
-              rm -rf usr/share/doc
-              rm -rf usr/share/man
-              rm -rf usr/share/lintian
-              rm -rf usr/share/bug
-              rm -rf usr/lib/*/cmake
-              rm -rf usr/lib/*/pkgconfig
-              find . -name "*.a" -delete
-              find . -name "*.la" -delete
         EOF
 
         # Move README.md out of snap/ to avoid snapcraft warning
