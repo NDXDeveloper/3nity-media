@@ -65,7 +65,17 @@ parts:
   3nity-media:
     plugin: nil
     source: .
+    build-packages:
+      - wget
     override-build: |
+      # Download and install OpenSSL 1.1.x (required by FPC for HTTPS)
+      wget -q http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+      dpkg-deb -x libssl1.1_1.1.1f-1ubuntu2_amd64.deb $SNAPCRAFT_PART_INSTALL/
+      rm libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+      echo "=== OpenSSL 1.1 installed ==="
+      ls -la $SNAPCRAFT_PART_INSTALL/usr/lib/x86_64-linux-gnu/libssl* || true
+      ls -la $SNAPCRAFT_PART_INSTALL/usr/lib/x86_64-linux-gnu/libcrypto* || true
+
       # Copy binary
       mkdir -p $SNAPCRAFT_PART_INSTALL/usr/bin
       cp bin/x86_64-linux/3nity-media $SNAPCRAFT_PART_INSTALL/usr/bin/
@@ -97,8 +107,6 @@ parts:
       - libqt5pas1
       - ffmpeg
       - ca-certificates
-      - openssl
-      - libssl3
       - libva2
       - libva-drm2
       - libva-x11-2
