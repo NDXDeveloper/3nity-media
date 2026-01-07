@@ -21,9 +21,9 @@ unit uPlaylist;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, Menus,
+  Classes, SysUtils, Types, Forms, Controls, Graphics, Dialogs, ComCtrls, Menus,
   ExtCtrls, StdCtrls, Buttons, ActnList, LCLType, StrUtils,
-  uTypes, uConstants, uPlaylistManager, uLocale, uConfig;
+  uTypes, uConstants, uPlaylistManager, uLocale, uConfig, uFileUtils;
 
 type
   { TfrmPlaylist }
@@ -96,6 +96,7 @@ type
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure FormDropFiles(Sender: TObject; const FileNames: array of string);
 
     procedure lvPlaylistDblClick(Sender: TObject);
     procedure lvPlaylistMouseDown(Sender: TObject; Button: TMouseButton;
@@ -157,6 +158,11 @@ type
     function GetRealIndex(ListIndex: Integer): Integer;
     procedure ShowPropertiesDialog;
 
+    { Drag & drop helpers }
+    procedure ScanFolderForDrop(const FolderPath: string; FileList: TStrings; CurrentDepth, MaxDepth: Integer);
+    procedure ProcessDroppedItems(const FileNames: array of string; FileList: TStrings);
+    function IsDropOnListView: Boolean;
+
     { Playlist manager event handlers }
     procedure OnPlaylistChange(Sender: TObject);
     procedure OnPlaylistItemAdded(Sender: TObject; Index: Integer);
@@ -207,6 +213,10 @@ begin
 
   { Qt5 workaround: track actual window position via OnChangeBounds }
   OnChangeBounds := @FormChangeBounds;
+
+  { Enable drag & drop from OS file manager }
+  AllowDropFiles := True;
+  OnDropFiles := @FormDropFiles;
 
   { Setup open dialog }
   OpenDialog.Filter := 'All Supported Files|*.mp3;*.m4a;*.aac;*.ogg;*.opus;*.flac;*.wav;*.wma;' +
@@ -1239,6 +1249,146 @@ end;
 procedure TfrmPlaylist.mnuPropertiesClick(Sender: TObject);
 begin
   ShowPropertiesDialog;
+end;
+
+{ ═══════════════════════════════════════════════════════════════════════════════
+  DRAG & DROP SUPPORT
+  ═══════════════════════════════════════════════════════════════════════════════ }
+
+{ ───────────────────────────────────────────────────────────────────────────
+  ScanFolderForDrop - Recursively scan folder for media files with depth limit
+  CurrentDepth: current recursion level (starts at 0)
+  MaxDepth: maximum recursion depth (default 10)
+  ─────────────────────────────────────────────────────────────────────────── }
+procedure TfrmPlaylist.ScanFolderForDrop(const FolderPath: string; FileList: TStrings;
+  CurrentDepth, MaxDepth: Integer);
+var
+  SearchRec: TSearchRec;
+  FullPath: string;
+begin
+  if not DirectoryExists(FolderPath) then Exit;
+  if CurrentDepth > MaxDepth then Exit;
+
+  if FindFirst(IncludeTrailingPathDelimiter(FolderPath) + '*', faAnyFile, SearchRec) = 0 then
+  begin
+    try
+      repeat
+        if (SearchRec.Name = '.') or (SearchRec.Name = '..') then
+          Continue;
+
+        FullPath := IncludeTrailingPathDelimiter(FolderPath) + SearchRec.Name;
+
+        if (SearchRec.Attr and faDirectory) <> 0 then
+        begin
+          { Recursively scan subdirectories if within depth limit }
+          ScanFolderForDrop(FullPath, FileList, CurrentDepth + 1, MaxDepth);
+        end
+        else
+        begin
+          { Add media files only (not playlist files) }
+          if IsMediaFileExt(SearchRec.Name) then
+            FileList.Add(FullPath);
+        end;
+      until FindNext(SearchRec) <> 0;
+    finally
+      FindClose(SearchRec);
+    end;
+  end;
+end;
+
+{ ───────────────────────────────────────────────────────────────────────────
+  ProcessDroppedItems - Process array of dropped files/folders
+  Handles both individual files and folders (with recursive scan)
+  ─────────────────────────────────────────────────────────────────────────── }
+procedure TfrmPlaylist.ProcessDroppedItems(const FileNames: array of string; FileList: TStrings);
+const
+  MAX_SCAN_DEPTH = 10;
+var
+  I: Integer;
+  Path: string;
+begin
+  for I := Low(FileNames) to High(FileNames) do
+  begin
+    Path := FileNames[I];
+
+    if DirectoryExists(Path) then
+    begin
+      { Folder: scan recursively with depth limit }
+      ScanFolderForDrop(Path, FileList, 0, MAX_SCAN_DEPTH);
+    end
+    else if FileExists(Path) then
+    begin
+      { File: add if it's a media file }
+      if IsMediaFileExt(Path) then
+        FileList.Add(Path);
+    end;
+  end;
+end;
+
+{ ───────────────────────────────────────────────────────────────────────────
+  IsDropOnListView - Check if drop is on the ListView
+  Returns True if mouse is over lvPlaylist (where drops conflict with reordering)
+  ─────────────────────────────────────────────────────────────────────────── }
+function TfrmPlaylist.IsDropOnListView: Boolean;
+var
+  MousePos: TPoint;
+  ListViewRect: TRect;
+begin
+  Result := False;
+  if lvPlaylist = nil then Exit;
+
+  { Get current mouse position in screen coordinates }
+  MousePos := Mouse.CursorPos;
+
+  { Get ListView bounds in screen coordinates }
+  ListViewRect.TopLeft := lvPlaylist.ClientToScreen(Point(0, 0));
+  ListViewRect.BottomRight := lvPlaylist.ClientToScreen(Point(lvPlaylist.Width, lvPlaylist.Height));
+
+  { Check if mouse is within ListView }
+  Result := PtInRect(ListViewRect, MousePos);
+end;
+
+{ ───────────────────────────────────────────────────────────────────────────
+  FormDropFiles - Handle files/folders dropped on the playlist window
+  Adds files to playlist WITHOUT starting playback
+  Note: Drops on ListView are ignored (conflicts with internal reordering)
+        Drops on Toolbar, StatusBar, pnlSearch are accepted
+  ─────────────────────────────────────────────────────────────────────────── }
+procedure TfrmPlaylist.FormDropFiles(Sender: TObject; const FileNames: array of string);
+var
+  FileList: TStringList;
+  I: Integer;
+begin
+  if Length(FileNames) = 0 then Exit;
+  if FPlaylistManager = nil then Exit;
+
+  { Ignore drops on ListView (conflicts with internal drag reordering) }
+  //if IsDropOnListView then Exit;
+
+  { Collect all media files from dropped items }
+  FileList := TStringList.Create;
+  try
+    ProcessDroppedItems(FileNames, FileList);
+
+    if FileList.Count = 0 then
+    begin
+      StatusBar.SimpleText := _T('Playlist', 'NoMediaFound', 'No media files found');
+      Exit;
+    end;
+
+    { Sort alphabetically }
+    FileList.Sort;
+
+    { Add all files to end of playlist (no playback) }
+    for I := 0 to FileList.Count - 1 do
+      FPlaylistManager.Add(FileList[I]);
+
+    { Update status }
+    StatusBar.SimpleText := Format(_T('Playlist', 'FilesAdded', 'Added %d files'), [FileList.Count]);
+
+  finally
+    FileList.Free;
+  end;
 end;
 
 end.

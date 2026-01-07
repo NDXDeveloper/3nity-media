@@ -711,9 +711,12 @@ type
     { Phase 21: Open Folder and Enhanced Drag & Drop }
     function IsMediaFile(const FileName: string): Boolean;
     procedure ScanFolderForMedia(const FolderPath: string; FileList: TStrings; Recursive: Boolean);
+    procedure ScanFolderForDrop(const FolderPath: string; FileList: TStrings; CurrentDepth, MaxDepth: Integer);
+    procedure ProcessDroppedItems(const FileNames: array of string; FileList: TStrings);
     procedure AddFilesToPlaylist(const FileNames: array of string; ClearFirst: Boolean);
     procedure OpenFolder;
     function GetCacheSizeForMedia(const FileName: string): Integer;
+    function IsDropOnVideoPanel: Boolean;
 
     { Phase 24: Session Playlist Save/Restore }
     procedure SaveSessionPlaylist;
@@ -1402,45 +1405,53 @@ end;
 
 procedure TfrmMain.FormDropFiles(Sender: TObject; const FileNames: array of string);
 var
-  FolderPath: string;
   FileList: TStringList;
   I: Integer;
-  FileArray: array of string;
+  FirstNewIndex: Integer;
+  PlayFirst: Boolean;
 begin
   if Length(FileNames) = 0 then Exit;
+  if FPlaylistManager = nil then Exit;
 
-  { Check if a single folder was dropped }
-  if (Length(FileNames) = 1) and DirectoryExists(FileNames[0]) then
-  begin
-    FolderPath := FileNames[0];
-    FileList := TStringList.Create;
-    try
-      ScanFolderForMedia(FolderPath, FileList, True);
-      FileList.Sort;
-      if FileList.Count > 0 then
-      begin
-        SetLength(FileArray, FileList.Count);
-        for I := 0 to FileList.Count - 1 do
-          FileArray[I] := FileList[I];
-        AddFilesToPlaylist(FileArray, True);
-        StatusBar.SimpleText := Format(Locale.Message('FolderOpened', 'Opened folder: %d files'), [FileList.Count]);
-      end
-      else
-        StatusBar.SimpleText := Locale.Message('NoMediaFound', 'No media files found');
-    finally
-      FileList.Free;
+  { Determine if drop is on video panel (play first) or elsewhere (add only) }
+  PlayFirst := IsDropOnVideoPanel;
+
+  { Collect all media files from dropped items }
+  FileList := TStringList.Create;
+  try
+    ProcessDroppedItems(FileNames, FileList);
+
+    if FileList.Count = 0 then
+    begin
+      StatusBar.SimpleText := Locale.Message('NoMediaFound', 'No media files found');
+      Exit;
     end;
-  end
-  else if Length(FileNames) = 1 then
-  begin
-    { Single file - just play it }
-    PlayFile(FileNames[0]);
-  end
-  else
-  begin
-    { Multiple files - add all to playlist }
-    AddFilesToPlaylist(FileNames, True);
-    StatusBar.SimpleText := Format(Locale.Message('FilesAdded', 'Added %d files to playlist'), [Length(FileNames)]);
+
+    { Sort alphabetically }
+    FileList.Sort;
+
+    { Remember where new items start }
+    FirstNewIndex := FPlaylistManager.Count;
+
+    { Add all files to end of playlist }
+    for I := 0 to FileList.Count - 1 do
+      FPlaylistManager.Add(FileList[I]);
+
+    { Play first added item if dropped on video panel }
+    if PlayFirst and (FPlaylistManager.Count > FirstNewIndex) then
+    begin
+      FPlaylistManager.CurrentIndex := FirstNewIndex;
+      PlayFile(FPlaylistManager.Items[FirstNewIndex].FileName);
+    end;
+
+    { Update status }
+    if PlayFirst then
+      StatusBar.SimpleText := Format(Locale.Message('FilesAddedPlaying', 'Added %d files, playing first'), [FileList.Count])
+    else
+      StatusBar.SimpleText := Format(Locale.Message('FilesAdded', 'Added %d files to playlist'), [FileList.Count]);
+
+  finally
+    FileList.Free;
   end;
 end;
 
@@ -5742,6 +5753,100 @@ begin
     begin
       Result := True;
       Exit;
+    end;
+  end;
+end;
+
+{ ───────────────────────────────────────────────────────────────────────────
+  IsDropOnVideoPanel - Check if mouse cursor is over the video panel
+  Used to determine if dropped files should auto-play (video panel) or
+  just be added to playlist (elsewhere on form)
+  ─────────────────────────────────────────────────────────────────────────── }
+function TfrmMain.IsDropOnVideoPanel: Boolean;
+var
+  MousePos: TPoint;
+  PanelRect: TRect;
+begin
+  Result := False;
+  if pnlVideo = nil then Exit;
+
+  { Get current mouse position in screen coordinates }
+  MousePos := Mouse.CursorPos;
+
+  { Get video panel bounds in screen coordinates }
+  PanelRect.TopLeft := pnlVideo.ClientToScreen(Point(0, 0));
+  PanelRect.BottomRight := pnlVideo.ClientToScreen(Point(pnlVideo.Width, pnlVideo.Height));
+
+  { Check if mouse is within video panel }
+  Result := PtInRect(PanelRect, MousePos);
+end;
+
+{ ───────────────────────────────────────────────────────────────────────────
+  ScanFolderForDrop - Recursively scan folder for media files with depth limit
+  CurrentDepth: current recursion level (starts at 0)
+  MaxDepth: maximum recursion depth (default 10)
+  ─────────────────────────────────────────────────────────────────────────── }
+procedure TfrmMain.ScanFolderForDrop(const FolderPath: string; FileList: TStrings;
+  CurrentDepth, MaxDepth: Integer);
+var
+  SearchRec: TSearchRec;
+  FullPath: string;
+begin
+  if not DirectoryExists(FolderPath) then Exit;
+  if CurrentDepth > MaxDepth then Exit;
+
+  if FindFirst(IncludeTrailingPathDelimiter(FolderPath) + '*', faAnyFile, SearchRec) = 0 then
+  begin
+    try
+      repeat
+        if (SearchRec.Name = '.') or (SearchRec.Name = '..') then
+          Continue;
+
+        FullPath := IncludeTrailingPathDelimiter(FolderPath) + SearchRec.Name;
+
+        if (SearchRec.Attr and faDirectory) <> 0 then
+        begin
+          { Recursively scan subdirectories if within depth limit }
+          ScanFolderForDrop(FullPath, FileList, CurrentDepth + 1, MaxDepth);
+        end
+        else
+        begin
+          { Add media files only (not playlist files) }
+          if IsMediaFile(SearchRec.Name) then
+            FileList.Add(FullPath);
+        end;
+      until FindNext(SearchRec) <> 0;
+    finally
+      FindClose(SearchRec);
+    end;
+  end;
+end;
+
+{ ───────────────────────────────────────────────────────────────────────────
+  ProcessDroppedItems - Process array of dropped files/folders
+  Handles both individual files and folders (with recursive scan)
+  ─────────────────────────────────────────────────────────────────────────── }
+procedure TfrmMain.ProcessDroppedItems(const FileNames: array of string; FileList: TStrings);
+const
+  MAX_SCAN_DEPTH = 10;
+var
+  I: Integer;
+  Path: string;
+begin
+  for I := Low(FileNames) to High(FileNames) do
+  begin
+    Path := FileNames[I];
+
+    if DirectoryExists(Path) then
+    begin
+      { Folder: scan recursively with depth limit }
+      ScanFolderForDrop(Path, FileList, 0, MAX_SCAN_DEPTH);
+    end
+    else if FileExists(Path) then
+    begin
+      { File: add if it's a media file }
+      if IsMediaFile(Path) then
+        FileList.Add(Path);
     end;
   end;
 end;
