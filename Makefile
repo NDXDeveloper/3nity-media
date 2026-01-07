@@ -33,7 +33,7 @@ NC := \033[0m # No Color
         test-performance test-robustness clean clean-all clean-backups clean-testdata clean-dist \
         generate-testdata help report coverage quick run rebuild watch ci test-verbose check-testdata \
         test-mpv test-playlist test-visual test-config test-radio \
-        version version-file release release-all
+        version version-file release release-all snap snap-clean
 
 # Cible par défaut
 all: build-app
@@ -88,6 +88,10 @@ help:
 	@echo "  make version        - Afficher la version actuelle"
 	@echo "  make version-file   - Générer le fichier uVersion.inc"
 	@echo "  make release V=x.y.z - Compiler une release avec version"
+	@echo ""
+	@echo "$(YELLOW)Snap:$(NC)"
+	@echo "  make snap           - Construire le package Snap (avec LXD)"
+	@echo "  make snap-clean     - Nettoyer l'environnement Snap"
 
 # === VERSION ===
 
@@ -349,3 +353,55 @@ endif
 	# Ajouter ici d'autres plateformes si cross-compilation disponible
 	@echo "$(GREEN)Releases créées dans releases/$(NC)"
 	@ls -la releases/
+
+# === SNAP ===
+
+# Construire le package Snap (avec LXD)
+snap: build-release
+	@echo "$(GREEN)=== Construction du package Snap ===$(NC)"
+	@# Sauvegarder l'état iptables FORWARD et activer si nécessaire
+	@FORWARD_POLICY=$$(sudo iptables -L FORWARD 2>/dev/null | head -1 | grep -oP '(?<=policy )\w+' || echo "ACCEPT"); \
+	if [ "$$FORWARD_POLICY" = "DROP" ]; then \
+		echo "$(YELLOW)Activation iptables FORWARD pour LXD...$(NC)"; \
+		sudo iptables -P FORWARD ACCEPT; \
+		RESTORE_IPTABLES=1; \
+	else \
+		RESTORE_IPTABLES=0; \
+	fi; \
+	\
+	echo "$(YELLOW)Nettoyage du cache snapcraft...$(NC)"; \
+	sudo rm -rf /root/.cache/snapcraft 2>/dev/null || true; \
+	rm -rf ~/.cache/snapcraft 2>/dev/null || true; \
+	\
+	echo "$(YELLOW)Suppression de l'instance LXD...$(NC)"; \
+	lxc delete snapcraft-3nity-media --force 2>/dev/null || true; \
+	\
+	echo "$(YELLOW)Nettoyage snapcraft...$(NC)"; \
+	snapcraft clean 2>/dev/null || true; \
+	\
+	echo "$(GREEN)Construction du snap...$(NC)"; \
+	snapcraft; \
+	BUILD_STATUS=$$?; \
+	\
+	if [ "$$RESTORE_IPTABLES" = "1" ]; then \
+		echo "$(YELLOW)Restauration iptables FORWARD à DROP...$(NC)"; \
+		sudo iptables -P FORWARD DROP; \
+	fi; \
+	\
+	if [ $$BUILD_STATUS -eq 0 ]; then \
+		echo "$(GREEN)=== Package Snap créé avec succès ===$(NC)"; \
+		ls -la *.snap 2>/dev/null || true; \
+	else \
+		echo "$(RED)=== Échec de la construction du snap ===$(NC)"; \
+		exit 1; \
+	fi
+
+# Nettoyer l'environnement Snap
+snap-clean:
+	@echo "$(YELLOW)Nettoyage de l'environnement Snap...$(NC)"
+	@sudo rm -rf /root/.cache/snapcraft 2>/dev/null || true
+	@rm -rf ~/.cache/snapcraft 2>/dev/null || true
+	@lxc delete snapcraft-3nity-media --force 2>/dev/null || true
+	@snapcraft clean 2>/dev/null || true
+	@rm -f *.snap 2>/dev/null || true
+	@echo "$(GREEN)Environnement Snap nettoyé.$(NC)"
