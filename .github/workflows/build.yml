@@ -878,6 +878,12 @@ jobs:
         # Move README.md out of snap/ to avoid snapcraft warning
         mv snap/README.md snap/local/README.md 2>/dev/null || true
 
+    - name: Clear snapcraft cache
+      run: |
+        sudo rm -rf /root/.cache/snapcraft || true
+        rm -rf ~/.cache/snapcraft || true
+        echo "Snapcraft cache cleared"
+
     - name: Build Snap package
       uses: snapcore/action-build@v1
       id: snap-build
