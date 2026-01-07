@@ -1,6 +1,6 @@
 app-id: com.ndxdev.trinitymedia
 runtime: org.kde.Platform
-runtime-version: '6.8'
+runtime-version: '5.15-23.08'
 sdk: org.kde.Sdk
 command: 3nity-media
 finish-args:

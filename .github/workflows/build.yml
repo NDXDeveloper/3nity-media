@@ -860,9 +860,9 @@ jobs:
         sudo apt-get install -y flatpak flatpak-builder
         flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-        # Install KDE Platform (includes Qt5) and SDK - using 6.7 (current stable)
-        flatpak install --user -y flathub org.kde.Platform//6.7 org.kde.Sdk//6.7 || \
-        flatpak install --user -y flathub org.kde.Platform//6.6 org.kde.Sdk//6.6 || true
+        # Install KDE Platform (Qt5) and SDK - using 5.15-23.08 (Qt5 based, required for LCL-Qt5 apps)
+        flatpak install --user -y flathub org.kde.Platform//5.15-23.08 org.kde.Sdk//5.15-23.08 || \
+        flatpak install --user -y flathub org.kde.Platform//5.15-22.08 org.kde.Sdk//5.15-22.08 || true
 
         # Copy libqt5pas to be bundled with the app
         mkdir -p flatpak-libs
@@ -882,7 +882,7 @@ jobs:
         cat > com.ndxdev.trinitymedia.yml << 'MANIFEST_EOF'
         app-id: com.ndxdev.trinitymedia
         runtime: org.kde.Platform
-        runtime-version: '6.7'
+        runtime-version: '5.15-23.08'
         sdk: org.kde.Sdk
         command: 3nity-media
         finish-args:
@@ -1017,7 +1017,7 @@ jobs:
           cat > com.ndxdev.trinitymedia-simple.yml << 'SIMPLE_EOF'
         app-id: com.ndxdev.trinitymedia
         runtime: org.kde.Platform
-        runtime-version: '6.7'
+        runtime-version: '5.15-23.08'
         sdk: org.kde.Sdk
         command: 3nity-media-wrapper
         finish-args:
