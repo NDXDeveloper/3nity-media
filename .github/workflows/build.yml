@@ -814,6 +814,9 @@ jobs:
               - libmpv2
               - libqt5pas1
               - ffmpeg
+              - ca-certificates
+              - openssl
+              - libssl3
               - libva2
               - libva-drm2
               - libva-x11-2
