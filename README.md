@@ -16,6 +16,7 @@
 **What it offers:**
 
 - Audio and video playback via libmpv
+- DVD and Blu-ray folder playback (with automatic fallback mode)
 - Playlist management (M3U, M3U8, PLS, XSPF)
 - Internet radio streaming with ICY metadata
 - 10-band audio equalizer

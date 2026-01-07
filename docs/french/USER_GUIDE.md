@@ -12,6 +12,7 @@ Guide complet pour utiliser 3nity Media, un lecteur multimédia léger et multip
    - [Vue d'ensemble de l'interface](#vue-densemble-de-linterface)
 2. [Lecture de médias](#lecture-de-médias)
    - [Ouvrir des fichiers](#ouvrir-des-fichiers)
+   - [Ouvrir un DVD ou Blu-ray](#ouvrir-un-dvd-ou-blu-ray)
    - [Ouvrir des URLs et flux](#ouvrir-des-urls-et-flux)
    - [Glisser-déposer](#glisser-déposer)
    - [Contrôles de lecture](#contrôles-de-lecture)
@@ -42,7 +43,7 @@ Guide complet pour utiliser 3nity Media, un lecteur multimédia léger et multip
    - [Boucle A-B](#boucle-a-b)
    - [Image par image](#image-par-image)
    - [Chapitres](#chapitres)
-   - [Navigation DVD](#navigation-dvd)
+   - [Navigation DVD et Blu-ray](#navigation-dvd-et-blu-ray)
 8. [Favoris et signets](#favoris-et-signets)
    - [Gérer les favoris](#gérer-les-favoris)
    - [Créer des signets](#créer-des-signets)
@@ -131,6 +132,28 @@ Lors du premier lancement de 3nity Media, vous verrez la fenêtre principale du 
 - **Vidéo :** MP4, MKV, AVI, MOV, WMV, FLV, WebM, et plus
 - **Audio :** MP3, FLAC, OGG, WAV, AAC, M4A, WMA, et plus
 - **Playlists :** M3U, M3U8, PLS, XSPF
+- **Formats disque :** DVD (VIDEO_TS/VOB), Blu-ray (BDMV/M2TS)
+
+### Ouvrir un DVD ou Blu-ray
+
+3nity Media prend en charge la lecture de contenu DVD et Blu-ray depuis des dossiers (disques rippés ou images ISO montées).
+
+**Ouvrir un DVD :**
+1. Allez dans `Fichier` → `Ouvrir DVD`
+2. Sélectionnez le dossier du DVD (celui contenant le sous-dossier `VIDEO_TS`)
+3. Le film principal (titre le plus volumineux) sera lu automatiquement
+
+**Ouvrir un Blu-ray :**
+1. Allez dans `Fichier` → `Ouvrir Blu-ray`
+2. Sélectionnez le dossier du Blu-ray (celui contenant le sous-dossier `BDMV`)
+3. Le film principal (fichier .m2ts le plus volumineux) sera lu automatiquement
+
+**Mode de repli :**
+Si les protocoles natifs DVD/Blu-ray (dvdnav://, bluray://) ne sont pas disponibles sur votre système, 3nity Media utilise automatiquement le mode de repli :
+- **DVD :** Tous les fichiers VOB du titre principal sont ajoutés à la playlist et lus séquentiellement
+- **Blu-ray :** Le fichier .m2ts le plus volumineux du dossier STREAM est lu directement
+
+Cela garantit la lecture même sans libbluray ou libdvdnav installés.
 
 ### Ouvrir des URLs et flux
 
@@ -410,18 +433,25 @@ Pour les médias avec chapitres (DVDs, fichiers MKV) :
 - Appuyez sur `Page Bas` pour le chapitre suivant
 - Allez dans `Lecture` → `Chapitres` pour voir la liste des chapitres
 
-### Navigation DVD
+### Navigation DVD et Blu-ray
 
-Lors de la lecture d'un DVD :
+**Navigation dans les menus (avec les protocoles natifs) :**
 
 | Action | Raccourci |
 |--------|-----------|
-| Menu DVD | `Ctrl+M` |
+| Menu DVD/Blu-ray | `Ctrl+M` |
 | Naviguer Haut | `Flèche Haut` |
 | Naviguer Bas | `Flèche Bas` |
 | Naviguer Gauche | `Flèche Gauche` |
 | Naviguer Droite | `Flèche Droite` |
 | Sélectionner | `Entrée` |
+
+**Note :** La navigation dans les menus n'est disponible qu'avec les protocoles natifs (dvdnav://, bluray://). En mode de repli, le contenu est lu directement sans support des menus.
+
+**Lecture en mode de repli :**
+- Pour les DVD, tous les fichiers VOB du titre principal sont mis en file d'attente dans la playlist
+- Utilisez `N` (Suivant) et `P` (Précédent) pour passer d'un segment VOB à l'autre
+- La navigation temporelle fonctionne normalement dans chaque segment
 
 ---
 

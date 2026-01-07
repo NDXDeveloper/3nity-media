@@ -12,6 +12,7 @@ A complete guide to using 3nity Media, a lightweight cross-platform multimedia p
    - [Interface Overview](#interface-overview)
 2. [Playing Media](#playing-media)
    - [Opening Files](#opening-files)
+   - [Opening DVD and Blu-ray](#opening-dvd-and-blu-ray)
    - [Opening URLs and Streams](#opening-urls-and-streams)
    - [Drag and Drop](#drag-and-drop)
    - [Playback Controls](#playback-controls)
@@ -42,7 +43,7 @@ A complete guide to using 3nity Media, a lightweight cross-platform multimedia p
    - [A-B Loop](#a-b-loop)
    - [Frame-by-Frame](#frame-by-frame)
    - [Chapters](#chapters)
-   - [DVD Navigation](#dvd-navigation)
+   - [DVD and Blu-ray Navigation](#dvd-and-blu-ray-navigation)
 8. [Favorites and Bookmarks](#favorites-and-bookmarks)
    - [Managing Favorites](#managing-favorites)
    - [Creating Bookmarks](#creating-bookmarks)
@@ -131,6 +132,28 @@ When you first launch 3nity Media, you'll see the main player window. The interf
 - **Video:** MP4, MKV, AVI, MOV, WMV, FLV, WebM, and more
 - **Audio:** MP3, FLAC, OGG, WAV, AAC, M4A, WMA, and more
 - **Playlists:** M3U, M3U8, PLS, XSPF
+- **Disc formats:** DVD (VIDEO_TS/VOB), Blu-ray (BDMV/M2TS)
+
+### Opening DVD and Blu-ray
+
+3nity Media supports playing DVD and Blu-ray content from folders (ripped discs or mounted ISO images).
+
+**Opening a DVD:**
+1. Go to `File` → `Open DVD`
+2. Select the DVD folder (the one containing the `VIDEO_TS` subfolder)
+3. The main movie (largest title) will play automatically
+
+**Opening a Blu-ray:**
+1. Go to `File` → `Open Blu-ray`
+2. Select the Blu-ray folder (the one containing the `BDMV` subfolder)
+3. The main movie (largest .m2ts file) will play automatically
+
+**Fallback Mode:**
+If native DVD/Blu-ray protocols (dvdnav://, bluray://) are unavailable on your system, 3nity Media automatically uses fallback mode:
+- **DVD:** All VOB files from the main title are added to the playlist and played sequentially
+- **Blu-ray:** The largest .m2ts file from the STREAM folder is played directly
+
+This ensures playback works even without libbluray or libdvdnav installed.
 
 ### Opening URLs and Streams
 
@@ -410,18 +433,25 @@ For media with chapters (DVDs, MKV files):
 - Press `Page Down` for next chapter
 - Go to `Playback` → `Chapters` to see chapter list
 
-### DVD Navigation
+### DVD and Blu-ray Navigation
 
-When playing a DVD:
+**Menu Navigation (when using native protocols):**
 
 | Action | Shortcut |
 |--------|----------|
-| DVD Menu | `Ctrl+M` |
+| DVD/Blu-ray Menu | `Ctrl+M` |
 | Navigate Up | `Arrow Up` |
 | Navigate Down | `Arrow Down` |
 | Navigate Left | `Arrow Left` |
 | Navigate Right | `Arrow Right` |
 | Select | `Enter` |
+
+**Note:** Menu navigation is only available when playing via native protocols (dvdnav://, bluray://). In fallback mode, the content plays directly without menu support.
+
+**Fallback Mode Playback:**
+- For DVDs, all VOB files of the main title are queued in the playlist
+- Use `N` (Next) and `P` (Previous) to switch between VOB segments
+- Seeking works normally within each segment
 
 ---
 
