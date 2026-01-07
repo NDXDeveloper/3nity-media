@@ -140,13 +140,15 @@ make run
 
 ### Opening Files
 
-- Drag and drop files or folders onto the player
+- Drag and drop files or folders onto the video area to play immediately
+- Drag and drop elsewhere on the window to add to playlist without playing
 - Use `File > Open` or press `Ctrl+O`
 - Use `File > Open URL` for streams
 
 ### Playlist
 
-- Add files via drag and drop or the playlist menu
+- Drag and drop files onto the playlist window to add without playing
+- Add files via the playlist menu
 - Save playlists in M3U, M3U8, PLS, or XSPF format
 - Shuffle and repeat modes available
 

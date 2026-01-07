@@ -169,10 +169,12 @@ Cela garantit la lecture même sans libbluray ou libdvdnav installés.
 
 ### Glisser-déposer
 
-Faites simplement glisser des fichiers ou dossiers sur la fenêtre du lecteur :
-- **Fichier unique :** Démarre la lecture immédiatement
-- **Plusieurs fichiers :** Ajoutés à la playlist
-- **Dossier :** Tous les fichiers multimédias du dossier sont ajoutés
+Glissez des fichiers ou dossiers sur le lecteur :
+
+- **Déposer sur la zone vidéo :** Les fichiers sont ajoutés et la lecture démarre immédiatement
+- **Déposer ailleurs sur la fenêtre principale :** Les fichiers sont ajoutés sans lecture
+- **Déposer sur la fenêtre playlist :** Les fichiers sont ajoutés sans lecture
+- **Dossiers :** Tous les fichiers multimédias sont scannés récursivement (jusqu'à 10 niveaux)
 
 ### Contrôles de lecture
 
@@ -195,7 +197,7 @@ Faites simplement glisser des fichiers ou dossiers sur la fenêtre du lecteur :
 - `Playlist` → `Ajouter un dossier` - Ajouter tous les fichiers d'un dossier
 
 **Par glisser-déposer :**
-- Faites glisser des fichiers sur la fenêtre de playlist
+- Glissez des fichiers ou dossiers sur la fenêtre playlist (ajoute sans lecture)
 
 **Depuis l'explorateur de fichiers :**
 - Clic droit sur un fichier et sélectionnez "Ajouter à la playlist"

@@ -9,15 +9,125 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+---
+
+## [0.2.0] - 2026-01-07
+
 ### Added
-- Developer documentation: QUICKSTART_DEVELOPER.md, COOKBOOK.md, DEPENDENCIES.md, TROUBLESHOOTING_DEV.md
-- DVD/Blu-ray architecture section in ARCHITECTURE.md
+- **Drag & drop support for media files**
+  - Drop on video panel: add files to playlist and play first item immediately
+  - Drop elsewhere on main window: add files to playlist without playing
+  - Drop on playlist window: add files to playlist without playing
+  - Folders are scanned recursively (max 10 levels depth)
+  - Only media files accepted (playlist files like M3U, PLS, XSPF are ignored)
+  - Files sorted alphabetically and added at end of playlist
+
+---
+
+## [0.1.70] - 2026-01-07
+
+### Changed
+- Windows installer: Desktop shortcut option enabled by default
+
+---
+
+## [0.1.69] - 2026-01-07
+
+### Fixed
+- Build: Added wget for OpenSSL download in CI/CD
+
+---
+
+## [0.1.68] - 2026-01-07
+
+### Fixed
+- Snap/AppImage: Uses OpenSSL 1.1.x for FPC HTTPS support
+
+---
+
+## [0.1.67] - 2026-01-07
+
+### Fixed
+- Snap: Switched to OpenSSL 1.1.x instead of 3.x for compatibility
+
+---
+
+## [0.1.66] - 2026-01-07
+
+### Fixed
+- Snap: Removed cleanup step to debug libmpv issue
+
+---
+
+## [0.1.65] - 2026-01-07
+
+### Fixed
+- Snap: Clear snapcraft cache before build to avoid stale package references
+
+---
+
+## [0.1.64] - 2026-01-07
+
+### Fixed
+- Snap: Updated documentation paths
+
+---
+
+## [0.1.63] - 2026-01-07
+
+### Fixed
+- Snap: Aligned local configuration with CI/CD
+
+---
+
+## [0.1.62] - 2026-01-07
+
+### Fixed
+- Snap: Added cleanup procedures to CI/CD
+
+---
+
+## [0.1.61] - 2026-01-07
+
+### Fixed
+- Snap: SSL certificates configuration
+
+---
+
+## [0.1.60] - 2026-01-07
+
+### Fixed
+- Snap: SSL support for Icecast streams
+- Snap: Qt plugin configuration
+
+---
+
+## [0.1.59] - 2026-01-07
+
+### Fixed
+- Snap: Remove prime section filtering Qt plugins
+
+---
+
+## [0.1.58] - 2026-01-07
+
+### Fixed
+- Snap: Configuration for CI/CD
+
+---
+
+## [0.1.57] - 2026-01-07
+
+### Fixed
+- Flatpak: Use KDE Platform 5.15 (Qt5) instead of 6.x (Qt6)
 
 ---
 
 ## [0.1.56] - 2026-01-07
 
 ### Added
+- Developer documentation: QUICKSTART_DEVELOPER.md, COOKBOOK.md, DEPENDENCIES.md, TROUBLESHOOTING_DEV.md
+- DVD/Blu-ray architecture section in ARCHITECTURE.md
 - DVD folder playback with automatic fallback mode
 - Blu-ray folder playback with automatic fallback mode
 - DVD/Blu-ray translations for all 99 language files
@@ -195,6 +305,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 0.2.0 | 2026-01-07 | **Drag & drop support for media files** |
+| 0.1.70 | 2026-01-07 | Windows installer desktop shortcut default |
+| 0.1.57-69 | 2026-01-07 | Snap/Flatpak/AppImage OpenSSL and Qt fixes |
 | 0.1.56 | 2026-01-07 | DVD/Blu-ray folder playback |
 | 0.1.50-55 | 2026-01-06-07 | Windows fixes (fullscreen, equalizer, seekbar) |
 | 0.1.40-49 | 2026-01-06 | Windows OpenSSL/HTTPS, AlwaysOnTop |
@@ -214,4 +327,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-*Last updated: 2026-01-07*
+*Last updated: 2026-01-07 (v0.2.0)*

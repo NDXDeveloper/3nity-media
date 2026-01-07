@@ -169,10 +169,12 @@ This ensures playback works even without libbluray or libdvdnav installed.
 
 ### Drag and Drop
 
-Simply drag files or folders onto the player window:
-- **Single file:** Starts playing immediately
-- **Multiple files:** Added to playlist
-- **Folder:** All media files in the folder are added
+Drag files or folders onto the player:
+
+- **Drop on video area:** Files are added to playlist and playback starts immediately
+- **Drop elsewhere on main window:** Files are added to playlist without playing
+- **Drop on playlist window:** Files are added to playlist without playing
+- **Folders:** All media files are scanned recursively (up to 10 levels deep)
 
 ### Playback Controls
 
@@ -195,7 +197,7 @@ Simply drag files or folders onto the player window:
 - `Playlist` → `Add Folder` - Add all files from a folder
 
 **From Drag and Drop:**
-- Drag files onto the playlist window
+- Drag files or folders onto the playlist window (adds without playing)
 
 **From File Browser:**
 - Right-click a file and select "Add to Playlist"
