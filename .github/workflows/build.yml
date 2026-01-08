@@ -1349,7 +1349,13 @@ jobs:
           ./3nity-Media-${{ needs.build-linux.outputs.version }}-x86_64.AppImage
           ```
 
-          #### Linux - Snap
+          #### Linux - Snap Store (Recommended)
+          ```bash
+          sudo snap install 3nity-media
+          ```
+          Or visit: https://snapcraft.io/3nity-media
+
+          #### Linux - Snap (Manual)
           ```bash
           wget https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/3nity-media_${{ needs.build-linux.outputs.version }}_amd64.snap
           sudo snap install --dangerous 3nity-media_${{ needs.build-linux.outputs.version }}_amd64.snap

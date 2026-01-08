@@ -192,10 +192,14 @@ sudo ln -s /var/lib/snapd/snap /snap
 **Installer 3nity Media :**
 
 ```bash
-# Depuis le Snap Store (quand publié)
+# Depuis le Snap Store (recommandé - mises à jour automatiques)
 sudo snap install 3nity-media
+```
 
-# Depuis un fichier téléchargé
+Ou visitez : https://snapcraft.io/3nity-media
+
+```bash
+# Depuis un fichier téléchargé (installation manuelle)
 wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media_VERSION_amd64.snap
 sudo snap install --dangerous 3nity-media_VERSION_amd64.snap
 ```

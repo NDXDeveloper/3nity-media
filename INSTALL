@@ -57,10 +57,10 @@ sudo zypper install fuse
 
 
 # =============================================================================
-# LINUX - Snap
+# LINUX - Snap Store (Recommended)
 # =============================================================================
 
-## Install snapd first
+## Install snapd first (if not already installed)
 
 # Ubuntu (pre-installed)
 
@@ -81,7 +81,16 @@ sudo pacman -S snapd
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 
-## Install the snap package
+## Install from Snap Store (recommended - auto-updates)
+sudo snap install 3nity-media
+
+## Or visit: https://snapcraft.io/3nity-media
+
+# =============================================================================
+# LINUX - Snap (Manual from GitHub Release)
+# =============================================================================
+
+## Install the snap package from release file
 sudo snap install --dangerous 3nity-media_*_amd64.snap
 
 ## Run

@@ -65,7 +65,15 @@ chmod +x 3nity-Media-x86_64.AppImage
 ./3nity-Media-x86_64.AppImage
 ```
 
-#### From Snap
+#### From Snap Store (Recommended)
+
+```bash
+sudo snap install 3nity-media
+```
+
+Or visit: https://snapcraft.io/3nity-media
+
+#### From Snap (Manual)
 
 ```bash
 wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media_amd64.snap
