@@ -5,6 +5,8 @@
 ![Lazarus](https://img.shields.io/badge/Lazarus-3.6-orange.svg)
 ![libmpv](https://img.shields.io/badge/Powered%20by-libmpv-purple.svg)
 
+[![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/3nity-media)
+
 **A lightweight, cross-platform media player built with Lazarus/Free Pascal and powered by libmpv.**
 
 ---
@@ -74,6 +76,8 @@ sudo snap install 3nity-media
 Or visit: https://snapcraft.io/3nity-media
 
 #### From Snap (Manual)
+
+> **Note:** You can also install directly from the Snap Store with `sudo snap install 3nity-media`
 
 ```bash
 wget https://github.com/NDXDeveloper/3nity-media/releases/latest/download/3nity-media_amd64.snap
