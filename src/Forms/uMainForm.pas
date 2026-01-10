@@ -4531,7 +4531,14 @@ begin
   { Get saved language from config }
   SavedLang := Config.Settings.General.Language;
   if SavedLang = '' then
-    SavedLang := 'en';
+  begin
+    { No saved language - use auto-detected OS language if available }
+    if (Locale.CurrentLanguage <> '') and
+       (Locale.AvailableLanguages.IndexOf(Locale.CurrentLanguage) >= 0) then
+      SavedLang := Locale.CurrentLanguage
+    else
+      SavedLang := 'en';
+  end;
 
   { Load the language }
   Locale.LoadLanguage(SavedLang);

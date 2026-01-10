@@ -256,7 +256,7 @@ begin
   { General defaults }
   with FSettings.General do
   begin
-    Language := 'en';
+    Language := '';  { Empty = auto-detect OS language }
     SingleInstance := True;
     ScreenshotPath := GetUserPicturesDir + '3nity' + PathDelim;
     ScreenshotFormat := SCREENSHOT_PNG;
@@ -395,7 +395,7 @@ procedure TConfigManager.LoadGeneralSection;
 begin
   with FSettings.General do
   begin
-    Language := FIniFile.ReadString(INI_SECTION_GENERAL, 'Language', 'en');
+    Language := FIniFile.ReadString(INI_SECTION_GENERAL, 'Language', '');  { Empty = auto-detect }
     SingleInstance := FIniFile.ReadBool(INI_SECTION_GENERAL, 'SingleInstance', True);
     ScreenshotPath := FIniFile.ReadString(INI_SECTION_GENERAL, 'ScreenshotPath',
       GetUserPicturesDir + '3nity' + PathDelim);

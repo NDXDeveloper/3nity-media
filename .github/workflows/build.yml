@@ -874,6 +874,7 @@ jobs:
               - qt5-style-plugins
               - breeze-icon-theme
               - kde-style-breeze
+              - gsettings-desktop-schemas
 
         EOF
 
