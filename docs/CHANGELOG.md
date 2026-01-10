@@ -11,6 +11,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.2.4] - 2026-01-10
+
+### Fixed
+- Snap: Auto-detect OS language on first launch (was defaulting to English)
+- Snap: Add gsettings-desktop-schemas to fix GSettings crash
+
+---
+
+## [0.2.3] - 2026-01-09
+
+### Changed
+- Documentation: Add Snap Store as recommended installation method
+- Documentation: Add screenshots to README
+
+---
+
+## [0.2.2] - 2026-01-08
+
+### Fixed
+- Snap: Move store assets out of snap/gui to fix build
+
+---
+
+## [0.2.1] - 2026-01-08
+
+### Added
+- Snap Store assets (icon, screenshots)
+
+---
+
 ## [0.2.0] - 2026-01-07
 
 ### Added
@@ -305,6 +335,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 0.2.4 | 2026-01-10 | **Snap: Locale auto-detection + GSettings fix** |
+| 0.2.1-3 | 2026-01-08-09 | Snap Store assets and documentation |
 | 0.2.0 | 2026-01-07 | **Drag & drop support for media files** |
 | 0.1.70 | 2026-01-07 | Windows installer desktop shortcut default |
 | 0.1.57-69 | 2026-01-07 | Snap/Flatpak/AppImage OpenSSL and Qt fixes |
@@ -327,4 +359,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-*Last updated: 2026-01-07 (v0.2.0)*
+*Last updated: 2026-01-10 (v0.2.4)*
