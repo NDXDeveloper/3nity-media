@@ -257,14 +257,6 @@ Please keep in mind this is a hobby project maintained in spare time.
 | [docs/ARCHITECTURE.md](/docs/ARCHITECTURE.md) | Architecture overview |
 | [docs/CONTRIBUTING.md](/docs/CONTRIBUTING.md) | Contribution guidelines |
 
-### French
-
-| Document | Description |
-|----------|-------------|
-| [docs/french/USER_GUIDE.md](/docs/french/USER_GUIDE.md) | Guide utilisateur |
-| [docs/french/INSTALL.md](/docs/french/INSTALL.md) | Guide d'installation |
-| [docs/french/TESTING.md](/docs/french/TESTING.md) | Documentation des tests |
-
 ---
 
 ## Roadmap
