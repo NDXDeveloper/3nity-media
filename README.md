@@ -250,7 +250,7 @@ Please keep in mind this is a hobby project maintained in spare time.
 
 | Document | Description |
 |----------|-------------|
-| [SOMMAIRE.md](/SOMMAIRE.md) | Full table of contents |
+| [TOC.md](/TOC.md) | Full table of contents |
 | [docs/USER_GUIDE.md](/docs/USER_GUIDE.md) | User guide |
 | [docs/INSTALL.md](/docs/INSTALL.md) | Installation guide |
 | [docs/TESTING.md](/docs/TESTING.md) | Test documentation |

@@ -264,7 +264,7 @@ Run from terminal to see all `WriteLn` output:
 ## Getting Help
 
 - Check existing [Issues](https://github.com/NDXDeveloper/3nity-media/issues)
-- Read the [full documentation](SOMMAIRE.md)
+- Read the [full documentation](/TOC.md)
 - Look at test files in `tests/` for usage examples
 
 ---
