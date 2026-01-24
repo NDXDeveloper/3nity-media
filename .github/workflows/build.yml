@@ -925,10 +925,29 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Cache Lazarus installer
+      id: cache-lazarus
+      uses: actions/cache@v4
+      with:
+        path: C:\lazarus-installer
+        key: lazarus-4.0-fpc-3.2.2-win64
+
+    - name: Download Lazarus
+      if: steps.cache-lazarus.outputs.cache-hit != 'true'
+      shell: bash
+      run: |
+        echo "Downloading Lazarus 4.0..."
+        mkdir -p /c/lazarus-installer
+        curl -L --retry 5 --retry-delay 30 --retry-max-time 600 \
+          -o /c/lazarus-installer/lazarus-4.0-fpc-3.2.2-win64.exe \
+          "https://sourceforge.net/projects/lazarus/files/Lazarus%20Windows%2064%20bits/Lazarus%204.0/lazarus-4.0-fpc-3.2.2-win64.exe/download"
+        echo "Download complete."
+
     - name: Install Lazarus
       run: |
-        Write-Host "Installing Lazarus via Chocolatey..."
-        choco install lazarus -y
+        Write-Host "Installing Lazarus silently..."
+        Start-Process -FilePath "C:\lazarus-installer\lazarus-4.0-fpc-3.2.2-win64.exe" -ArgumentList "/VERYSILENT /DIR=C:\lazarus" -Wait -NoNewWindow
+        Write-Host "Lazarus installed."
 
         # Add to PATH
         echo "C:\lazarus" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
